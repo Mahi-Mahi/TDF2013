@@ -8,10 +8,14 @@ end
 require 'csv'
 require 'json'
 require 'pp'
+require 'zlib'
 
 legs = []
-idx = 0
+short_legs = []
+short_legs_fields = ['id', 'year', 'leg', 'title', 'start', 'finish']
 
+
+idx = 0
 CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 
 	if idx > 0
@@ -26,14 +30,14 @@ CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 		leg[:start] = {}
 		leg[:start][:city] = row[4]
 		leg[:start][:country] = row[5]
-		leg[:start][:coords] = row[6]
+#		leg[:start][:coords] = row[6]
 		leg[:start][:lat] = row[7]
 		leg[:start][:lng] = row[8]
 
 		leg[:finish] = {}
 		leg[:finish][:city] = row[9]
 		leg[:finish][:country] = row[10]
-		leg[:finish][:coords] = row[11]
+#		leg[:finish][:coords] = row[11]
 		leg[:finish][:lat] = row[12]
 		leg[:finish][:lng] = row[13]
 
@@ -50,6 +54,8 @@ CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 
 		legs << leg
 
+		short_legs << leg.clone.keep_if {|k,v| short_legs_fields.include? k }
+
 	end
 
 	idx = idx + 1
@@ -59,4 +65,7 @@ end
 puts "#{legs.length} etapes"
 
 File.open('json/legs.json', 'w') { |file| file.write legs.to_json }
+Zlib::GzipWriter.open('json/legs.json.gz') { |file| file.write legs.to_json }
 
+File.open('json/legs-short.json', 'w') { |file| file.write short_legs.to_json }
+Zlib::GzipWriter.open('json/legs-short.json.gz') { |file| file.write short_legs.to_json }
