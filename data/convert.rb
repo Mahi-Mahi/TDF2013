@@ -22,7 +22,8 @@ CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 
 		leg = {}
 
-		leg[:id] = row[0]
+		leg[:id] = row[0].gsub(/\-(\d)$/, '-0\1')
+
 		leg[:year] = row[1]
 		leg[:leg] = row[2]
 		leg[:title] = row[3]
