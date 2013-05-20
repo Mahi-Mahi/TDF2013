@@ -98,3 +98,48 @@ begin
 		page_token = nil
 	end
 end while page_token.to_s != ''
+
+
+folder_id = "0B07BAjiTe6BhaUlIRVlBSlVvbkk"
+
+page_token = nil
+begin
+	parameters = {'folderId' => folder_id, 'maxResults' => 60}
+	if page_token.to_s != ''
+		parameters['pageToken'] = page_token
+	end
+	folder_result = client.execute(:api_method => drive.children.list, :parameters => parameters)
+	if folder_result.status == 200
+		children = folder_result.data
+		children.items.each do |child|
+
+			puts "File Id: #{child.id}"
+
+			result = client.execute( :api_method => drive.files.get, :parameters => { 'fileId' => child.id })
+			if result.status == 200
+				file = result.data
+				puts "#{file.title}"
+				download_link = file['exportLinks']['application/pdf'].gsub!(/exportFormat=\w+$/, 'exportFormat=csv&gid=0')
+
+				dl_result = client.execute(:uri => download_link)
+				if dl_result.status == 200
+					content = dl_result.body
+
+					filename = "csv/tours/#{file.title}.csv"
+					File.open(filename, 'w') { |file| file.write content }
+
+				else
+					puts "An error occurred: #{result.data['error']['message']}"
+				end
+
+			else
+				puts "An error occurred: #{result.data['error']['message']}"
+			end
+
+		end
+		page_token = children.next_page_token
+	else
+		puts "An error occurred: #{folder_result.data['error']['message']}"
+		page_token = nil
+	end
+end while page_token.to_s != ''

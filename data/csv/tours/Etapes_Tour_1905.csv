@@ -1,0 +1,12 @@
+ID,Année,Num étape,Nom étape,Ville départ,Pays départ,Ville arrivée,Pays Arrivée,km,"Type (plaine, montagne, accidentée, CLM équipes, CLM individuel)",Vainqueur d'étape,Nationalité vainqueur,Leader du classement général,Nationalité leader
+E-1905-1,1905,1,Paris – Nancy,Paris,France,Nancy,France,340,plaine,Louis Trousselier,France,Louis Trousselier,France
+E-1905-2,1905,2,Nancy – Besançon,Nancy,France,Besançon,France,299,montagne,Hippolyte Aucouturier,France,René Pottier,France
+E-1905-3,1905,3,Besançon – Grenoble,Besançon,France,Grenoble,France,327,plaine,Louis Trousselier,France,Louis Trousselier,France
+E-1905-4,1905,4,Grenoble – Toulon,Grenoble,France,Toulon,France,348,plaine,Hippolyte Aucouturier,France,Louis Trousselier,France
+E-1905-5,1905,5,Toulon – Nîmes,Toulon,France,Nîmes,France,192,plaine,Louis Trousselier,France,Louis Trousselier,France
+E-1905-6,1905,6,Nîmes – Toulouse,Nîmes,France,Toulouse,France,307,plaine,Jean-Baptiste Dortignacq,France,Louis Trousselier,France
+E-1905-7,1905,7,Toulouse – Bordeaux,Toulouse,France,Bordeaux,France,268,plaine,Louis Trousselier,France,Louis Trousselier,France
+E-1905-8,1905,8,Bordeaux – La Rochelle,Bordeaux,France,La Rochelle,France,257,plaine,Hippolyte Aucouturier,France,Louis Trousselier,France
+E-1905-9,1905,9,La Rochelle – Rennes,La Rochelle,France,Rennes,France,263,plaine,Louis Trousselier,France,Louis Trousselier,France
+E-1905-10,1905,10,Rennes – Caen,Rennes,France,Caen,France,167,plaine,Jean-Baptiste Dortignacq,France,Louis Trousselier,France
+E-1905-11,1905,11,Caen – Paris,Caen,France,Paris,France,253,plaine,Jean-Baptiste Dortignacq,France,Louis Trousselier,France

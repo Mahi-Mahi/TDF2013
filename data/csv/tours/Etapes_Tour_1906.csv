@@ -1,0 +1,14 @@
+ID,Année,Num étape,Nom étape,Ville départ,Pays départ,Ville arrivée,Pays Arrivée,km,"Type (plaine, montagne, accidentée, CLM équipes, CLM individuel)",Vainqueur d'étape,Nationalité vainqueur,Leader du classement général,Nationalité leader
+E-1906-1,1906,1,Paris – Lille,Paris,France,Lille,France,275,plaine,Émile Georget,France,Émile Georget,France
+E-1906-2,1906,2,Douai – Nancy,Douai,France,Nancy,France,400,plaine,René Pottier,France,René Pottier,France
+E-1906-3,1906,3,Nancy – Dijon,Nancy,France,Dijon,France,416,montagne,René Pottier,France,René Pottier,France
+E-1906-4,1906,4,Dijon – Grenoble,Dijon,France,Grenoble,France,311,plaine,René Pottier,France,René Pottier,France
+E-1906-5,1906,5,Grenoble – Nice,Grenoble,France,Nice,France,345,montagne,René Pottier,France,René Pottier,France
+E-1906-6,1906,6,Nice – Marseille,Nice,France,Marseille,France,292,plaine,Georges Passerieu,France,René Pottier,France
+E-1906-7,1906,7,Marseille – Toulouse,Marseille,France,Toulouse,France,480,montagne,Louis Trousselier,France,René Pottier,France
+E-1906-8,1906,8,Toulouse – Bayonne,Toulouse,France,Bayonne,France,300,plaine,Jean-Baptiste Dortignacq,France,René Pottier,France
+E-1906-9,1906,9,Bayonne – Bordeaux,Bayonne,France,Bordeaux,France,338,plaine,Louis Trousselier,France,René Pottier,France
+E-1906-10,1906,10,Bordeaux – Nantes,Bordeaux,France,Nantes,France,391,plaine,Louis Trousselier,France,René Pottier,France
+E-1906-11,1906,11,Nantes – Brest,Nantes,France,Brest,France,321,plaine,Louis Trousselier,France,René Pottier,France
+E-1906-12,1906,12,Brest – Caen,Brest,France,Caen,France,415,plaine,Georges Passerieu,France,René Pottier,France
+E-1906-13,1906,13,Caen – Paris,Caen,France,Paris,France,259,plaine,René Pottier,France,René Pottier,France
