@@ -31,15 +31,15 @@ CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 		leg[:start][:city] = row[4]
 		leg[:start][:country] = row[5]
 #		leg[:start][:coords] = row[6]
-		leg[:start][:lat] = row[7]
-		leg[:start][:lng] = row[8]
+		leg[:start][:lng] = row[7]
+		leg[:start][:lat] = row[8]
 
 		leg[:finish] = {}
 		leg[:finish][:city] = row[9]
 		leg[:finish][:country] = row[10]
 #		leg[:finish][:coords] = row[11]
-		leg[:finish][:lat] = row[12]
-		leg[:finish][:lng] = row[13]
+		leg[:finish][:lng] = row[12]
+		leg[:finish][:lat] = row[13]
 
 		leg[:length] = row[14]
 		leg[:type] = row[15]
