@@ -1,0 +1,720 @@
+{
+  "year": 1979,
+  "edition": 66,
+  "total_length": 3765,
+  "nb_legs": 24,
+  "has_prologue": true,
+  "nb_concurrents": 150,
+  "nb_finishers": 90,
+  "pct_finishers": 60,
+  "winner_name": "Bernard Hinault",
+  "winner_time": "103h 06’ 50”",
+  "ahead_of_2nd": "0h 06' 50\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "ahead_of_3rd": "0h 26' 53\"",
+  "third_name": "J. Agosthino",
+  "third_country": "J. Agosthino",
+  "legs": [
+    {
+      "id": "E-1979-Prologue",
+      "year": 1979,
+      "leg": 0,
+      "title": "Fleurance",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-01",
+      "year": 1979,
+      "leg": 1,
+      "title": "Fleurance - Luchon",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 5,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-02",
+      "year": 1979,
+      "leg": 2,
+      "title": "Luchon - Superbagnères",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-03",
+      "year": 1979,
+      "leg": 3,
+      "title": "Luchon - Pau",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Ludo Delcroix Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-04",
+      "year": 1979,
+      "leg": 4,
+      "title": "Captieux - Bordeaux",
+      "start": {
+        "city": "Captieux",
+        "country": "France",
+        "lng": "-0.261723",
+        "lat": "44.291534"
+      },
+      "finish": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lng": "4.947071",
+        "lat": "45.698938"
+      },
+      "length": 122,
+      "type": null,
+      "winner": {
+        "name": "Jo Maas Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-05",
+      "year": 1979,
+      "leg": 5,
+      "title": "Neuville-de-Poitou - Angers",
+      "start": {
+        "city": "Neuville-de-Poitou",
+        "country": "France",
+        "lng": "0.246918",
+        "lat": "46.685934"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 193,
+      "type": null,
+      "winner": {
+        "name": "Christian Seznec Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-06",
+      "year": 1979,
+      "leg": 6,
+      "title": "Angers - Saint-Brieuc",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 202,
+      "type": null,
+      "winner": {
+        "name": "Pierre-Raymond Villemiane Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-07",
+      "year": 1979,
+      "leg": 7,
+      "title": "Saint-Hilaire-du-Harcouët - Deauville",
+      "start": {
+        "city": "Saint-Hilaire-du-Harcouët",
+        "country": "France",
+        "lng": "-1.092034",
+        "lat": "48.577086"
+      },
+      "finish": {
+        "city": "Auxerre",
+        "country": "France",
+        "lng": "3.573781",
+        "lat": "47.798202"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "Marc Demeyer Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-08",
+      "year": 1979,
+      "leg": 8,
+      "title": "Deauville - Le Havre",
+      "start": {
+        "city": "Deauville",
+        "country": "France",
+        "lng": "0.075122",
+        "lat": "49.353976"
+      },
+      "finish": {
+        "city": "Nogent-sur-Marne",
+        "country": "France",
+        "lng": "2.481699",
+        "lat": "48.837631"
+      },
+      "length": 54,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-09",
+      "year": 1979,
+      "leg": 9,
+      "title": "Amiens - Roubaix",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lng": "2.295753",
+        "lat": "49.894067"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Lucien Van Impe Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-10",
+      "year": 1979,
+      "leg": 10,
+      "title": "Roubaix - Bruxelles (BEL)",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Superbagnères",
+        "country": "France",
+        "lng": "0.576927",
+        "lat": "42.768576"
+      },
+      "length": 33,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-11",
+      "year": 1979,
+      "leg": 11,
+      "title": "Bruxelles (BEL)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 166,
+      "type": null,
+      "winner": {
+        "name": "Joaquim Agostinho Portugal Portugal",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-12",
+      "year": 1979,
+      "leg": 12,
+      "title": "Rochefort (BEL) - Metz",
+      "start": {
+        "city": "Rochefort",
+        "country": "Belgique",
+        "lng": "-0.961697",
+        "lat": "45.936698"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 118,
+      "type": null,
+      "winner": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-13",
+      "year": 1979,
+      "leg": 13,
+      "title": "Metz - Ballon d'Alsace",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 162,
+      "type": null,
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne Allemagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-14",
+      "year": 1979,
+      "leg": 14,
+      "title": "Belfort - Évian",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "length": 239,
+      "type": null,
+      "winner": {
+        "name": "Sergio Parsani Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-15",
+      "year": 1979,
+      "leg": 15,
+      "title": "Évian - Morzine-Avoriaz",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "finish": {
+        "city": "Deauville",
+        "country": "France",
+        "lng": "0.075122",
+        "lat": "49.353976"
+      },
+      "length": 48,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-16",
+      "year": 1979,
+      "leg": 16,
+      "title": "Morzine - Les Menuires",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-17",
+      "year": 1979,
+      "leg": 17,
+      "title": "Moûtiers - L'Alpe d'Huez",
+      "start": {
+        "city": "Moûtiers",
+        "country": "France",
+        "lng": "6.529926",
+        "lat": "45.484615"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 205,
+      "type": null,
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-18",
+      "year": 1979,
+      "leg": 18,
+      "title": "L'Alpe d'Huez - L'Alpe d'Huez",
+      "start": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "René Bittinger Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean-René Bernaudeau Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-19",
+      "year": 1979,
+      "leg": 19,
+      "title": "Le Bourg-d'Oisans - Saint-Priest",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 23,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-20",
+      "year": 1979,
+      "leg": 20,
+      "title": "Saint-Priest - Dijon",
+      "start": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lng": "4.947071",
+        "lat": "45.698938"
+      },
+      "finish": {
+        "city": "Ballon d'Alsace",
+        "country": "France",
+        "lng": "6.84645",
+        "lat": "47.822893"
+      },
+      "length": 87,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "TI-Raleigh Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-21",
+      "year": 1979,
+      "leg": 21,
+      "title": "Dijon - Dijon",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "length": 145,
+      "type": null,
+      "winner": {
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-22",
+      "year": 1979,
+      "leg": 22,
+      "title": "Dijon - Auxerre",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 238,
+      "type": null,
+      "winner": {
+        "name": "Jos Jacobs Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-23",
+      "year": 1979,
+      "leg": 23,
+      "title": "Auxerre - Nogent-sur-Marne",
+      "start": {
+        "city": "Auxerre",
+        "country": "France",
+        "lng": "3.573781",
+        "lat": "47.798202"
+      },
+      "finish": {
+        "city": "Les Menuires",
+        "country": "France",
+        "lng": "6.536145",
+        "lat": "45.326745"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Leo van Vliet Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1979-24",
+      "year": 1979,
+      "leg": 24,
+      "title": "Le Perreux-sur-Marne - Paris",
+      "start": {
+        "city": "Le Perreux-sur-Marne",
+        "country": "France",
+        "lng": "2.504038",
+        "lat": "48.841386"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 90,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "TI-Raleigh Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

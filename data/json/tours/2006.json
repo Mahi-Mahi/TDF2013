@@ -1,0 +1,608 @@
+{
+  "year": 2006,
+  "edition": 93,
+  "total_length": 3657,
+  "nb_legs": 21,
+  "has_prologue": true,
+  "nb_concurrents": 176,
+  "nb_finishers": 139,
+  "pct_finishers": 79,
+  "winner_name": "Óscar Pereiro",
+  "winner_time": "89h 39’ 30\"",
+  "ahead_of_2nd": "0h 00' 32\" ",
+  "second_name": "A. Kloden",
+  "second_country": "Allemagne",
+  "ahead_of_3rd": "0h 02' 16\"",
+  "third_name": "C. Sastre",
+  "third_country": "C. Sastre",
+  "legs": [
+    {
+      "id": "E-2006-Prologue",
+      "year": 2006,
+      "leg": 0,
+      "title": "Strasbourg - Strasbourg",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 152,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-01",
+      "year": 2006,
+      "leg": 1,
+      "title": "Strasbourg - Strasbourg",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-02",
+      "year": 2006,
+      "leg": 2,
+      "title": "Obernai - Esch-sur-Alzette (LUX)",
+      "start": {
+        "city": "Obernai",
+        "country": "France",
+        "lng": "7.48168",
+        "lat": "48.46226"
+      },
+      "finish": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lng": "2.353663",
+        "lat": "43.212161"
+      },
+      "length": 216,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneMatthias Kessler",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-03",
+      "year": 2006,
+      "leg": 3,
+      "title": "Esch-sur-Alzette (LUX) - Valkenburg (NED)",
+      "start": {
+        "city": "Esch-sur-Alzette",
+        "country": "Luxembourg",
+        "lng": "5.986092",
+        "lat": "49.50088"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneÓscar Freire",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-04",
+      "year": 2006,
+      "leg": 4,
+      "title": "Huy (BEL) - Saint-Quentin",
+      "start": {
+        "city": "Huy",
+        "country": "Belgique",
+        "lng": "5.239666",
+        "lat": "50.518715"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-05",
+      "year": 2006,
+      "leg": 5,
+      "title": "Beauvais - Caen",
+      "start": {
+        "city": "Beauvais",
+        "country": "France",
+        "lng": "2.081875",
+        "lat": "49.42964"
+      },
+      "finish": {
+        "city": "La Toussuire",
+        "country": "France",
+        "lng": "6.300579",
+        "lat": "45.246608"
+      },
+      "length": 52,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : UkraineSerhiy Honchar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : UkraineSerhiy Honchar",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-06",
+      "year": 2006,
+      "leg": 6,
+      "title": "Lisieux - Vitré",
+      "start": {
+        "city": "Lisieux",
+        "country": "France",
+        "lng": "0.227849",
+        "lat": "49.145922"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "length": 181,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceSylvain Calzati",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : UkraineSerhiy Honchar",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-07",
+      "year": 2006,
+      "leg": 7,
+      "title": "Saint-Grégoire - Rennes",
+      "start": {
+        "city": "Saint-Grégoire",
+        "country": "France",
+        "lng": "-1.683146",
+        "lat": "48.153561"
+      },
+      "finish": {
+        "city": "Mâcon",
+        "country": "France",
+        "lng": "4.828731",
+        "lat": "46.306884"
+      },
+      "length": 169,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneÓscar Freire",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : UkraineSerhiy Honchar",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-08",
+      "year": 2006,
+      "leg": 8,
+      "title": "Saint-Méen-le-Grand - Lorient",
+      "start": {
+        "city": "Saint-Méen-le-Grand",
+        "country": "France",
+        "lng": "-2.192985",
+        "lat": "48.189812"
+      },
+      "finish": {
+        "city": "Montceau-les-Mines",
+        "country": "France",
+        "lng": "4.362979",
+        "lat": "46.67413"
+      },
+      "length": 190,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneJuan Miguel Mercado",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceCyril Dessel",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-09",
+      "year": 2006,
+      "leg": 9,
+      "title": "Bordeaux - Dax",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 211,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : UkraineYaroslav Popovych",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisFloyd Landis",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-10",
+      "year": 2006,
+      "leg": 10,
+      "title": "Cambo-les-Bains Pau",
+      "start": {
+        "city": "Cambo-les-Bains",
+        "country": "France",
+        "lng": "-1.399376",
+        "lat": "43.361106"
+      },
+      "finish": {
+        "city": "Esch-sur-Alzette",
+        "country": "Luxembourg",
+        "lng": "5.986092",
+        "lat": "49.50088"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : RussieDenis Menchov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisFloyd Landis",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-11",
+      "year": 2006,
+      "leg": 11,
+      "title": "Tarbes - Val d'Aran-Pla-de-Beret",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lng": "0.078082",
+        "lat": "43.232951"
+      },
+      "finish": {
+        "city": "Valkenburg",
+        "country": "Pays-Bas",
+        "lng": "5.833991",
+        "lat": "50.863796"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneJens Voigt",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-12",
+      "year": 2006,
+      "leg": 12,
+      "title": "Luchon - Carcassonne",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Saint-Quentin",
+        "country": "France",
+        "lng": "3.2874",
+        "lat": "49.847066"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePierrick Fédrigo",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-13",
+      "year": 2006,
+      "leg": 13,
+      "title": "Béziers - Montélimar",
+      "start": {
+        "city": "Béziers",
+        "country": "France",
+        "lng": "3.215795",
+        "lat": "43.344233"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgFränk Schleck",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisFloyd Landis",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-14",
+      "year": 2006,
+      "leg": 14,
+      "title": "Montélimar - Gap",
+      "start": {
+        "city": "Montélimar",
+        "country": "France",
+        "lng": "4.749496",
+        "lat": "44.556944"
+      },
+      "finish": {
+        "city": "Vitré",
+        "country": "France",
+        "lng": "-1.21543",
+        "lat": "48.124746"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-15",
+      "year": 2006,
+      "leg": 15,
+      "title": "Gap - L'Alpe d'Huez",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneCarlos Sastre[5]",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-16",
+      "year": 2006,
+      "leg": 16,
+      "title": "Bourg-d'Oisans - La Toussuire",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMatteo Tosatto",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-17",
+      "year": 2006,
+      "leg": 17,
+      "title": "Saint-Jean-de-Maurienne - Morzine",
+      "start": {
+        "city": "Saint-Jean-de-Maurienne",
+        "country": "France",
+        "lng": "6.344886",
+        "lat": "45.275403"
+      },
+      "finish": {
+        "city": "Dax",
+        "country": "France",
+        "lng": "-1.051945",
+        "lat": "43.708608"
+      },
+      "length": 56,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : UkraineSerhiy Honchar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneÓscar Pereiro",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-18",
+      "year": 2006,
+      "leg": 18,
+      "title": "Morzine - Mâcon",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJimmy Casper",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisGeorge Hincapie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-19",
+      "year": 2006,
+      "leg": 19,
+      "title": "Le Creusot - Montceau-les-Mines",
+      "start": {
+        "city": "Le Creusot",
+        "country": "France",
+        "lng": "4.4278",
+        "lat": "46.805351"
+      },
+      "finish": {
+        "city": "Val d'Aran-Pla-de-Beret",
+        "country": "Espagne",
+        "lng": "0.791991",
+        "lat": "42.704592"
+      },
+      "length": 228,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2006-20",
+      "year": 2006,
+      "leg": 20,
+      "title": "Antony-Parc de Sceaux - Paris Champs-Élysées",
+      "start": {
+        "city": "Antony",
+        "country": "France",
+        "lng": "2.302553",
+        "lat": "48.759255"
+      },
+      "finish": {
+        "city": "Montélimar",
+        "country": "France",
+        "lng": "4.749496",
+        "lat": "44.556944"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "year": 1956,
+  "edition": 43,
+  "total_length": 4498,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 88,
+  "pct_finishers": 73,
+  "winner_name": "Roger Walkowiak",
+  "winner_time": "124h 01’ 16”",
+  "ahead_of_2nd": "0h 01' 25\" ",
+  "second_name": "G. Bauvin",
+  "second_country": "France",
+  "ahead_of_3rd": "0h 03' 44\"",
+  "third_name": "J. Adriaensens",
+  "third_country": "J. Adriaensens",
+  "legs": [
+    {
+      "id": "E-1956-01",
+      "year": 1956,
+      "leg": 1,
+      "title": "Reims - Liège (BEL)",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "length": 223,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-02",
+      "year": 1956,
+      "leg": 2,
+      "title": "Liège (BEL) - Lille",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 125,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRoger Hassenforder",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-03",
+      "year": 1956,
+      "leg": 3,
+      "title": "Lille - Rouen",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Turin",
+        "country": "Italie",
+        "lng": "7.685676",
+        "lat": "45.070982"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneMiguel Poblet",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-4b",
+      "year": 1956,
+      "leg": 4,
+      "title": "Rouen - Caen",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueAlfred De Bruyne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasGerrit Voorting",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-4a",
+      "year": 1956,
+      "leg": 4,
+      "title": "Circuit de Rouen-les-Essarts",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRoger Hassenforder",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-05",
+      "year": 1956,
+      "leg": 5,
+      "title": "Caen - Saint-Malo",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 130,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgJean-Pierre Schmitz",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJan Adriaensens",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-06",
+      "year": 1956,
+      "leg": 6,
+      "title": "Saint-Malo - Lorient",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "finish": {
+        "city": "Montluçon",
+        "country": "France",
+        "lng": "2.606645",
+        "lat": "46.339966"
+      },
+      "length": 176,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieNino Defilippis",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJan Adriaensens",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-07",
+      "year": 1956,
+      "leg": 7,
+      "title": "Lorient - Angers",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 231,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRoger Hassenforder",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJan Adriaensens",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-08",
+      "year": 1956,
+      "leg": 8,
+      "title": "Angers - La Rochelle",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Forestier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasWout Wagtmans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-09",
+      "year": 1956,
+      "leg": 9,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 234,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieNino Defilippis",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasWout Wagtmans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-10",
+      "year": 1956,
+      "leg": 10,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 255,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieNino Defilippis",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-11",
+      "year": 1956,
+      "leg": 11,
+      "title": "Bayonne - Pau",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJoseph Thomin",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasWout Wagtmans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-12",
+      "year": 1956,
+      "leg": 12,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "length": 250,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgCharly Gaul",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-13",
+      "year": 1956,
+      "leg": 13,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "length": 173,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueStan Ockers",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-14",
+      "year": 1956,
+      "leg": 14,
+      "title": "Toulouse - Montpellier",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 73,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : EspagneMiguel Bover",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-15",
+      "year": 1956,
+      "leg": 15,
+      "title": "Montpellier - Aix-en-Provence",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRoger Hassenforder",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-16",
+      "year": 1956,
+      "leg": 16,
+      "title": "Aix-en-Provence - Gap",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 331,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieGastone Nencini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-17",
+      "year": 1956,
+      "leg": 17,
+      "title": "Gap - Turin (ITA)",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueAlfred De Bruyne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-18",
+      "year": 1956,
+      "leg": 18,
+      "title": "Turin (ITA) - Grenoble",
+      "start": {
+        "city": "Turin",
+        "country": "Italie",
+        "lng": "7.685676",
+        "lat": "45.070982"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieArrigo Padovan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueGilbert Desmet",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-19",
+      "year": 1956,
+      "leg": 19,
+      "title": "Grenoble - Saint-Étienne",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 15,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : LuxembourgCharly Gaul",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueGilbert Desmet",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-20",
+      "year": 1956,
+      "leg": 20,
+      "title": "Saint-Étienne - Lyon",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJoseph Morvan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-21",
+      "year": 1956,
+      "leg": 21,
+      "title": "Lyon - Montluçon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "length": 192,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueAlfred De Bruyne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1956-22",
+      "year": 1956,
+      "leg": 22,
+      "title": "Montluçon - Paris",
+      "start": {
+        "city": "Montluçon",
+        "country": "France",
+        "lng": "2.606645",
+        "lat": "46.339966"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Fantini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRoger Walkowiak",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "year": 1934,
+  "edition": 28,
+  "total_length": 4470,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 60,
+  "nb_finishers": 39,
+  "pct_finishers": 65,
+  "winner_name": "Antonin Magne",
+  "winner_time": "147h 13’ 58”",
+  "ahead_of_2nd": "0h 27' 31\" ",
+  "second_name": "G. Martano",
+  "second_country": "Italie",
+  "ahead_of_3rd": "0h 52' 15\"",
+  "third_name": "R. Lapebie",
+  "third_country": "R. Lapebie",
+  "legs": [
+    {
+      "id": "E-1934-01",
+      "year": 1934,
+      "leg": 1,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 262,
+      "type": null,
+      "winner": {
+        "name": "Georges Speicher Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Georges Speicher Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-02",
+      "year": 1934,
+      "leg": 2,
+      "title": "Lille - Charleville-Mézières",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 220,
+      "type": null,
+      "winner": {
+        "name": "Roger Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-03",
+      "year": 1934,
+      "leg": 3,
+      "title": "Charleville-Mézières - Metz",
+      "start": {
+        "city": "Charleville-Mézières",
+        "country": "France",
+        "lng": "4.726096",
+        "lat": "49.762085"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 156,
+      "type": null,
+      "winner": {
+        "name": "René Le Grevès Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-04",
+      "year": 1934,
+      "leg": 4,
+      "title": "Metz - Belfort",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 126,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-05",
+      "year": 1934,
+      "leg": 5,
+      "title": "Belfort - Évian-les-Bains",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "length": 172,
+      "type": null,
+      "winner": {
+        "name": "Georges Speicher Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-06",
+      "year": 1934,
+      "leg": 6,
+      "title": "Évian-les-Bains - Aix-les-Bains",
+      "start": {
+        "city": "Évian-les-Bains",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Adriano Vignoli Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-07",
+      "year": 1934,
+      "leg": 7,
+      "title": "Aix-les-Bains - Grenoble",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 91,
+      "type": null,
+      "winner": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-08",
+      "year": 1934,
+      "leg": 8,
+      "title": "Grenoble - Gap",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "La Roche-sur-Yon",
+        "country": "France",
+        "lng": "-1.426442",
+        "lat": "46.670511"
+      },
+      "length": 177,
+      "type": null,
+      "winner": {
+        "name": "Roger Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-09",
+      "year": 1934,
+      "leg": 9,
+      "title": "Gap - Digne-les-Bains",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Roger Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-10",
+      "year": 1934,
+      "leg": 10,
+      "title": "Digne-les-Bains - Nice",
+      "start": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lng": "6.235976",
+        "lat": "44.092193"
+      },
+      "finish": {
+        "city": "Charleville-Mézières",
+        "country": "France",
+        "lng": "4.726096",
+        "lat": "49.762085"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Roger Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-11",
+      "year": 1934,
+      "leg": 11,
+      "title": "Nice - Cannes",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 172,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-12",
+      "year": 1934,
+      "leg": 12,
+      "title": "Cannes - Marseille",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Ettore Meini Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-13",
+      "year": 1934,
+      "leg": 13,
+      "title": "Marseille - Montpellier",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Évian-les-Bains",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "length": 183,
+      "type": null,
+      "winner": {
+        "name": "Georges Speicher Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-14",
+      "year": 1934,
+      "leg": 14,
+      "title": "Montpellier - Perpignan",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "length": 81,
+      "type": null,
+      "winner": {
+        "name": "René Le Grevès Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-15",
+      "year": 1934,
+      "leg": 15,
+      "title": "Perpignan - Ax-les-Thermes",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 90,
+      "type": "CLM indiv",
+      "winner": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-16",
+      "year": 1934,
+      "leg": 16,
+      "title": "Ax-les-Thermes - Luchon",
+      "start": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.837545",
+        "lat": "42.720254"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 275,
+      "type": null,
+      "winner": {
+        "name": "Raymond Louviot Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-17",
+      "year": 1934,
+      "leg": 17,
+      "title": "Luchon - Tarbes",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lng": "6.235976",
+        "lat": "44.092193"
+      },
+      "length": 221,
+      "type": null,
+      "winner": {
+        "name": "Sylvère Maes Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-18",
+      "year": 1934,
+      "leg": 18,
+      "title": "Tarbes - Pau",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lng": "0.078082",
+        "lat": "43.232951"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 192,
+      "type": null,
+      "winner": {
+        "name": "René Le Grevès Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-19",
+      "year": 1934,
+      "leg": 19,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "length": 161,
+      "type": null,
+      "winner": {
+        "name": "Roger Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-20",
+      "year": 1934,
+      "leg": 20,
+      "title": "Bordeaux - La Rochelle",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 293,
+      "type": null,
+      "winner": {
+        "name": "René Le Grevès Drapeau de France France || Georges Speicher Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-21a",
+      "year": 1934,
+      "leg": 21,
+      "title": "La Rochelle - La Roche-sur-Yon",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Georges Speicher Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-21b",
+      "year": 1934,
+      "leg": 21,
+      "title": "La Roche-sur-Yon - Nantes",
+      "start": {
+        "city": "La Roche-sur-Yon",
+        "country": "France",
+        "lng": "-1.426442",
+        "lat": "46.670511"
+      },
+      "finish": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.837545",
+        "lat": "42.720254"
+      },
+      "length": 229,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-22",
+      "year": 1934,
+      "leg": 22,
+      "title": "Nantes - Caen",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 102,
+      "type": null,
+      "winner": {
+        "name": "Giuseppe Martano Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1934-23",
+      "year": 1934,
+      "leg": 23,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Tarbes",
+        "country": "France",
+        "lng": "0.078082",
+        "lat": "43.232951"
+      },
+      "length": 227,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Antonin Magne Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

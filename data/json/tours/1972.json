@@ -1,0 +1,720 @@
+{
+  "year": 1972,
+  "edition": 59,
+  "total_length": 3846,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 132,
+  "nb_finishers": 88,
+  "pct_finishers": 67,
+  "winner_name": "Eddy Merckx",
+  "winner_time": "108h 17’ 18”",
+  "ahead_of_2nd": "0h 10' 41\" ",
+  "second_name": "F. Gimondi",
+  "second_country": "Italie",
+  "ahead_of_3rd": "0h 11' 34\"",
+  "third_name": "R. Poulidor",
+  "third_country": "R. Poulidor",
+  "legs": [
+    {
+      "id": "E-1972-Prologue",
+      "year": 1972,
+      "leg": 0,
+      "title": "Angers",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 89,
+      "type": null,
+      "winner": {
+        "name": "Willy Teirlinck Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-01",
+      "year": 1972,
+      "leg": 1,
+      "title": "Angers - Saint-Brieuc",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "length": 7,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-02",
+      "year": 1972,
+      "leg": 2,
+      "title": "Saint-Brieuc - La Baule",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "finish": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "length": 205,
+      "type": null,
+      "winner": {
+        "name": "Leo Duyndam Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-3a",
+      "year": 1972,
+      "leg": 3,
+      "title": "Pornichet - Saint-Jean-de-Monts",
+      "start": {
+        "city": "Pornichet",
+        "country": "France",
+        "lng": "-2.340571",
+        "lat": "47.263426"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 179,
+      "type": null,
+      "winner": {
+        "name": "Jos Huysmans Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-3b",
+      "year": 1972,
+      "leg": 3,
+      "title": "Circuit de Merlin Plage",
+      "start": {
+        "city": "Saint-Hilaire-de-Riez",
+        "country": "France",
+        "lng": "-1.945917",
+        "lat": "46.720204"
+      },
+      "finish": {
+        "city": "Col du Galibier, Valloire",
+        "country": "France",
+        "lng": "6.411178",
+        "lat": "45.063956"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-04",
+      "year": 1972,
+      "leg": 4,
+      "title": "Merlin Plage - Royan",
+      "start": {
+        "city": "Saint-Hilaire-de-Riez",
+        "country": "France",
+        "lng": "-1.945917",
+        "lat": "46.720204"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "length": 133,
+      "type": null,
+      "winner": {
+        "name": "Walter Godefroot Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-5a",
+      "year": 1972,
+      "leg": 5,
+      "title": "Royan - Bordeaux",
+      "start": {
+        "city": "Royan",
+        "country": "France",
+        "lng": "-1.043182",
+        "lat": "45.623027"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-5b",
+      "year": 1972,
+      "leg": 5,
+      "title": "Bordeaux-Lac|Circuit du Lac",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 192,
+      "type": null,
+      "winner": {
+        "name": "Lucien Van Impe Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-06",
+      "year": 1972,
+      "leg": 6,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Saint-Jean-de-Monts",
+        "country": "France",
+        "lng": "-2.081802",
+        "lat": "46.790144"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-07",
+      "year": 1972,
+      "leg": 7,
+      "title": "Bayonne - Pau",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Saint-Hilaire-de-Riez",
+        "country": "France",
+        "lng": "-1.945917",
+        "lat": "46.720204"
+      },
+      "length": 51,
+      "type": null,
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-08",
+      "year": 1972,
+      "leg": 8,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 28,
+      "type": null,
+      "winner": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-09",
+      "year": 1972,
+      "leg": 9,
+      "title": "Luchon - Colomiers",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "6.495865",
+        "lat": "44.564164"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Willy Teirlinck Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-10",
+      "year": 1972,
+      "leg": 10,
+      "title": "Castres - La Grande Motte",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lng": "2.241295",
+        "lat": "43.606214"
+      },
+      "finish": {
+        "city": "La Baule",
+        "country": "France",
+        "lng": "-2.393236",
+        "lat": "47.285448"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Willy Teirlinck Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-11",
+      "year": 1972,
+      "leg": 11,
+      "title": "Carnon Plage - Mont Ventoux",
+      "start": {
+        "city": "Carnon Plage",
+        "country": "France",
+        "lng": "4.010165",
+        "lat": "43.615441"
+      },
+      "finish": {
+        "city": "Royan",
+        "country": "France",
+        "lng": "-1.043182",
+        "lat": "45.623027"
+      },
+      "length": 151,
+      "type": null,
+      "winner": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-12",
+      "year": 1972,
+      "leg": 12,
+      "title": "Carpentras - Orcières-Merlette",
+      "start": {
+        "city": "Carpentras",
+        "country": "France",
+        "lng": "5.048722",
+        "lat": "44.055564"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 213,
+      "type": null,
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-13",
+      "year": 1972,
+      "leg": 13,
+      "title": "Orcières-Merlette - Briançon",
+      "start": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 257,
+      "type": null,
+      "winner": {
+        "name": "Marinus Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-14a",
+      "year": 1972,
+      "leg": 14,
+      "title": "Briançon - Valloire/Col du Galibier",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-14b",
+      "year": 1972,
+      "leg": 14,
+      "title": "Valloire - Aix-les-Bains",
+      "start": {
+        "city": "Valloire",
+        "country": "France",
+        "lng": "6.428733",
+        "lat": "45.165292"
+      },
+      "finish": {
+        "city": "Colomiers",
+        "country": "France",
+        "lng": "1.336579",
+        "lat": "43.612189"
+      },
+      "length": 42,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-15",
+      "year": 1972,
+      "leg": 15,
+      "title": "Aix-les-Bains - Le Revard",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "La Grande Motte",
+        "country": "France",
+        "lng": "4.086072",
+        "lat": "43.560704"
+      },
+      "length": 233,
+      "type": null,
+      "winner": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-16",
+      "year": 1972,
+      "leg": 16,
+      "title": "Aix-les-Bains - Pontarlier",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lng": "5.283795",
+        "lat": "44.173925"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": "Rik Van Linden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-17",
+      "year": 1972,
+      "leg": 17,
+      "title": "Pontarlier - Ballon d'Alsace",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "finish": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "length": 161,
+      "type": null,
+      "winner": {
+        "name": "Ercole Gualazzini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-18",
+      "year": 1972,
+      "leg": 18,
+      "title": "Vesoul - Auxerre",
+      "start": {
+        "city": "Vesoul",
+        "country": "France",
+        "lng": "6.15428",
+        "lat": "47.619788"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 16,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Équipe Molteni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-19",
+      "year": 1972,
+      "leg": 19,
+      "title": "Auxerre - Versailles",
+      "start": {
+        "city": "Auxerre",
+        "country": "France",
+        "lng": "3.573781",
+        "lat": "47.798202"
+      },
+      "finish": {
+        "city": "Le Revard",
+        "country": "France",
+        "lng": "5.97784",
+        "lat": "45.666493"
+      },
+      "length": 12,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-20b",
+      "year": 1972,
+      "leg": 20,
+      "title": "Versailles - Paris",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Auxerre",
+        "country": "France",
+        "lng": "3.573781",
+        "lat": "47.798202"
+      },
+      "length": 163,
+      "type": null,
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1972-20a",
+      "year": 1972,
+      "leg": 20,
+      "title": "Versailles - Versailles",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Ballon d'Alsace",
+        "country": "France",
+        "lng": "6.84645",
+        "lat": "47.822893"
+      },
+      "length": 220,
+      "type": null,
+      "winner": {
+        "name": "Yves Hézard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "year": 1905,
+  "edition": 3,
+  "total_length": 2994,
+  "nb_legs": 11,
+  "has_prologue": false,
+  "nb_concurrents": 60,
+  "nb_finishers": 24,
+  "pct_finishers": 40,
+  "winner_name": "Louis Trousselier",
+  "winner_time": "110h 26’ 58”",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "H. Aucouturier",
+  "second_country": "France",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "JB. Dortignacq",
+  "third_country": "JB. Dortignacq",
+  "legs": [
+    {
+      "id": "E-1905-01",
+      "year": 1905,
+      "leg": 1,
+      "title": "Paris - Nancy",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 340,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-02",
+      "year": 1905,
+      "leg": 2,
+      "title": "Nancy - Besançon",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "length": 307,
+      "type": "plaine",
+      "winner": {
+        "name": "Jean-Baptiste Dortignacq",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-03",
+      "year": 1905,
+      "leg": 3,
+      "title": "Besançon - Grenoble",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "length": 268,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-04",
+      "year": 1905,
+      "leg": 4,
+      "title": "Grenoble - Toulon",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 257,
+      "type": "plaine",
+      "winner": {
+        "name": "Hippolyte Aucouturier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-05",
+      "year": 1905,
+      "leg": 5,
+      "title": "Toulon - Nîmes",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 263,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-06",
+      "year": 1905,
+      "leg": 6,
+      "title": "Nîmes - Toulouse",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "length": 167,
+      "type": "plaine",
+      "winner": {
+        "name": "Jean-Baptiste Dortignacq",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-07",
+      "year": 1905,
+      "leg": 7,
+      "title": "Toulouse - Bordeaux",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "length": 253,
+      "type": "plaine",
+      "winner": {
+        "name": "Jean-Baptiste Dortignacq",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-08",
+      "year": 1905,
+      "leg": 8,
+      "title": "Bordeaux - La Rochelle",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 299,
+      "type": "montagne",
+      "winner": {
+        "name": "Hippolyte Aucouturier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-09",
+      "year": 1905,
+      "leg": 9,
+      "title": "La Rochelle - Rennes",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 327,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-10",
+      "year": 1905,
+      "leg": 10,
+      "title": "Rennes - Caen",
+      "start": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 348,
+      "type": "plaine",
+      "winner": {
+        "name": "Hippolyte Aucouturier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1905-11",
+      "year": 1905,
+      "leg": 11,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 192,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      }
+    }
+  ]
+}

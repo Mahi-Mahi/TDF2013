@@ -1,0 +1,412 @@
+{
+  "year": 1907,
+  "edition": 5,
+  "total_length": 4488,
+  "nb_legs": 14,
+  "has_prologue": false,
+  "nb_concurrents": 93,
+  "nb_finishers": 33,
+  "pct_finishers": 35,
+  "winner_name": "Lucien Petit-Breton",
+  "winner_time": "158h 45’ 05”",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "G. Garrigou",
+  "second_country": "France",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "E. Georget",
+  "third_country": "E. Georget",
+  "legs": [
+    {
+      "id": "E-1907-01",
+      "year": 1907,
+      "leg": 1,
+      "title": "Paris - Roubaix",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 272,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Drapeau : FranceLouis Trousselier",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1907-02",
+      "year": 1907,
+      "leg": 2,
+      "title": "Roubaix - Metz",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "length": 321,
+      "type": "plaine",
+      "winner": {
+        "name": "Gustave Garrigou",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-03",
+      "year": 1907,
+      "leg": 3,
+      "title": "Metz - Belfort",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 415,
+      "type": "plaine",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-04",
+      "year": 1907,
+      "leg": 4,
+      "title": "Belfort - Lyon",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 251,
+      "type": "plaine",
+      "winner": {
+        "name": "Georges Passerieu",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-05",
+      "year": 1907,
+      "leg": 5,
+      "title": "Lyon - Grenoble",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 398,
+      "type": "plaine",
+      "winner": {
+        "name": "Émile Georget || Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Louis Trousselier",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1907-06",
+      "year": 1907,
+      "leg": 6,
+      "title": "Grenoble - Nice",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 259,
+      "type": "montagne",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-07",
+      "year": 1907,
+      "leg": 7,
+      "title": "Nice - Nîmes",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 309,
+      "type": "montagne",
+      "winner": {
+        "name": "Marcel Cadolle",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-08",
+      "year": 1907,
+      "leg": 8,
+      "title": "Nîmes - Toulouse",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 311,
+      "type": "montagne",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-09",
+      "year": 1907,
+      "leg": 9,
+      "title": "Toulouse - Bayonne",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 345,
+      "type": "montagne",
+      "winner": {
+        "name": "Georges Passerieu",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-10",
+      "year": 1907,
+      "leg": 10,
+      "title": "Bayonne - Bordeaux",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 345,
+      "type": "plaine",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-11",
+      "year": 1907,
+      "leg": 11,
+      "title": "Bordeaux - Nantes",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "length": 303,
+      "type": "montagne",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-12",
+      "year": 1907,
+      "leg": 12,
+      "title": "Nantes - Brest",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 299,
+      "type": "plaine",
+      "winner": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-13",
+      "year": 1907,
+      "leg": 13,
+      "title": "Brest - Caen",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 269,
+      "type": "plaine",
+      "winner": {
+        "name": "Gustave Garrigou",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1907-14",
+      "year": 1907,
+      "leg": 14,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 391,
+      "type": "plaine",
+      "winner": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Lucien Petit-Breton",
+        "nationality": "France"
+      }
+    }
+  ]
+}

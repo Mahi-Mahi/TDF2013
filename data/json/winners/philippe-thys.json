@@ -1,0 +1,38 @@
+{
+  "id": "philippe-thys",
+  "first_name": "Philippe",
+  "last_name": "Thys",
+  "birthyear": 1890,
+  "country": "Belgique",
+  "years": {
+    "1913": {
+      "nb_days_in_yellow": 7,
+      "nb_tour_legs": 15,
+      "pct_leading": 47,
+      "nb_leg_wins": 1,
+      "average_speed": 26,
+      "total_time": "197h 54’ 00”",
+      "ahead_of_2nd": "0h08'37''"
+    },
+    "1914": {
+      "nb_days_in_yellow": 14,
+      "nb_tour_legs": 15,
+      "pct_leading": 93,
+      "nb_leg_wins": 1,
+      "average_speed": 26,
+      "total_time": "200h 28’ 48”",
+      "ahead_of_2nd": "0h01'40''"
+    },
+    "1920": {
+      "nb_days_in_yellow": 13,
+      "nb_tour_legs": 15,
+      "pct_leading": 87,
+      "nb_leg_wins": 4,
+      "average_speed": 24,
+      "total_time": "228h 36’ 13”",
+      "ahead_of_2nd": "0h57'21''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "3"
+}

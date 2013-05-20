@@ -1,0 +1,29 @@
+{
+  "id": "alberto-contador",
+  "first_name": "Alberto",
+  "last_name": "Contador",
+  "birthyear": 1983,
+  "country": "Espagne",
+  "years": {
+    "2007": {
+      "nb_days_in_yellow": 3,
+      "nb_tour_legs": 21,
+      "pct_leading": 14,
+      "nb_leg_wins": 1,
+      "average_speed": 39,
+      "total_time": "91h 00’ 26\"",
+      "ahead_of_2nd": "0h00'23''"
+    },
+    "2009": {
+      "nb_days_in_yellow": 6,
+      "nb_tour_legs": 21,
+      "pct_leading": 29,
+      "nb_leg_wins": 2,
+      "average_speed": 40,
+      "total_time": "85h 48’ 35\"",
+      "ahead_of_2nd": "0h04'11''"
+    }
+  },
+  "is_doped": true,
+  "nb_wins": "2"
+}

@@ -1,0 +1,664 @@
+{
+  "year": 1952,
+  "edition": 39,
+  "total_length": 4898,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 122,
+  "nb_finishers": 78,
+  "pct_finishers": 64,
+  "winner_name": "Fausto Coppi",
+  "winner_time": "151h 57’ 20”",
+  "ahead_of_2nd": "0h 28' 17\" ",
+  "second_name": "S. Ockers",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "0h 34' 38\"",
+  "third_name": "B. Ruiz",
+  "third_country": "B. Ruiz",
+  "legs": [
+    {
+      "id": "E-1952-01",
+      "year": 1952,
+      "leg": 1,
+      "title": "Brest - Rennes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "length": 246,
+      "type": null,
+      "winner": {
+        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-02",
+      "year": 1952,
+      "leg": 2,
+      "title": "Rennes - Le Mans",
+      "start": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "finish": {
+        "city": "Monaco",
+        "country": "France",
+        "lng": "7.424616",
+        "lat": "43.738418"
+      },
+      "length": 232,
+      "type": null,
+      "winner": {
+        "name": "Pierre Molinéris Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-03",
+      "year": 1952,
+      "leg": 3,
+      "title": "Le Mans - Rouen",
+      "start": {
+        "city": "Le Mans",
+        "country": "France",
+        "lng": "0.199556",
+        "lat": "48.00611"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lng": "0.149105",
+        "lat": "43.065093"
+      },
+      "length": 238,
+      "type": null,
+      "winner": {
+        "name": "Walter Diggelmann Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Andrea Carrea Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-04",
+      "year": 1952,
+      "leg": 4,
+      "title": "Rouen -Roubaix",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 266,
+      "type": null,
+      "winner": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-05",
+      "year": 1952,
+      "leg": 5,
+      "title": "Roubaix - Namur (BEL)",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-06",
+      "year": 1952,
+      "leg": 6,
+      "title": "Namur (BEL) - Metz",
+      "start": {
+        "city": "Namur",
+        "country": "Belgique",
+        "lng": "4.867665",
+        "lat": "50.465328"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "Raoul Rémy Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-07",
+      "year": 1952,
+      "leg": 7,
+      "title": "Metz - Nancy",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Puy de Dôme (Clermont-Ferrand)",
+        "country": "France",
+        "lng": "3.015582",
+        "lat": "45.712414"
+      },
+      "length": 178,
+      "type": null,
+      "winner": {
+        "name": "Jean Robic Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-08",
+      "year": 1952,
+      "leg": 8,
+      "title": "Nancy - Mulhouse",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "Vichy",
+        "country": "France",
+        "lng": "3.425488",
+        "lat": "46.131859"
+      },
+      "length": 255,
+      "type": null,
+      "winner": {
+        "name": "Georges Decaux Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-09",
+      "year": 1952,
+      "leg": 9,
+      "title": "Mulhouse - Lausanne (CH)",
+      "start": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "André Rosseel Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-10",
+      "year": 1952,
+      "leg": 10,
+      "title": "Lausanne (CH) - L'Alpe d'Huez",
+      "start": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lng": "6.633597",
+        "lat": "46.519962"
+      },
+      "finish": {
+        "city": "Le Mans",
+        "country": "France",
+        "lng": "0.199556",
+        "lat": "48.00611"
+      },
+      "length": 251,
+      "type": null,
+      "winner": {
+        "name": "Jan Nolten Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-11",
+      "year": 1952,
+      "leg": 11,
+      "title": "Le Bourg-d'Oisans - Sestrières (ITA)",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-12",
+      "year": 1952,
+      "leg": 12,
+      "title": "Sestrières (ITA) - Monaco",
+      "start": {
+        "city": "Sestrières",
+        "country": "Italie",
+        "lng": "6.879234",
+        "lat": "44.9565"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 149,
+      "type": null,
+      "winner": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-13",
+      "year": 1952,
+      "leg": 13,
+      "title": "Monaco - Aix-en-Provence",
+      "start": {
+        "city": "Monaco",
+        "country": "France",
+        "lng": "7.424616",
+        "lat": "43.738418"
+      },
+      "finish": {
+        "city": "Namur",
+        "country": "Belgique",
+        "lng": "4.867665",
+        "lat": "50.465328"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Hans Dekkers Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-14",
+      "year": 1952,
+      "leg": 14,
+      "title": "Aix-en-Provence - Avignon",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 228,
+      "type": null,
+      "winner": {
+        "name": "Jacques Vivier Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-15",
+      "year": 1952,
+      "leg": 15,
+      "title": "Avignon - Perpignan",
+      "start": {
+        "city": "Avignon",
+        "country": "France",
+        "lng": "4.805528",
+        "lat": "43.949317"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 245,
+      "type": null,
+      "winner": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-16",
+      "year": 1952,
+      "leg": 16,
+      "title": "Perpignan - Toulouse",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 63,
+      "type": "CLM",
+      "winner": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-17",
+      "year": 1952,
+      "leg": 17,
+      "title": "Toulouse - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lng": "6.633597",
+        "lat": "46.519962"
+      },
+      "length": 354,
+      "type": null,
+      "winner": {
+        "name": "Antonin Rolland Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-18",
+      "year": 1952,
+      "leg": 18,
+      "title": "Bagnères-de-Bigorre - Pau",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lng": "0.149105",
+        "lat": "43.065093"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 181,
+      "type": null,
+      "winner": {
+        "name": "André Rosseel Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-19",
+      "year": 1952,
+      "leg": 19,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Sestrières",
+        "country": "Italie",
+        "lng": "6.879234",
+        "lat": "44.9565"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-20",
+      "year": 1952,
+      "leg": 20,
+      "title": "Bordeaux - Limoges",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-21",
+      "year": 1952,
+      "leg": 21,
+      "title": "Limoges - Puy de Dôme",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "finish": {
+        "city": "Avignon",
+        "country": "France",
+        "lng": "4.805528",
+        "lat": "43.949317"
+      },
+      "length": 228,
+      "type": null,
+      "winner": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-22",
+      "year": 1952,
+      "leg": 22,
+      "title": "Clermont-Ferrand - Vichy",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lng": "3.087025",
+        "lat": "45.777222"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 60,
+      "type": "CLM",
+      "winner": {
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1952-23",
+      "year": 1952,
+      "leg": 23,
+      "title": "Vichy - Paris",
+      "start": {
+        "city": "Vichy",
+        "country": "France",
+        "lng": "3.425488",
+        "lat": "46.131859"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 252,
+      "type": null,
+      "winner": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "oscar-pereiro",
+  "first_name": "Óscar",
+  "last_name": "Pereiro",
+  "birthyear": 1978,
+  "country": "Espagne",
+  "years": {
+    "2006": {
+      "nb_days_in_yellow": 6,
+      "nb_tour_legs": 21,
+      "pct_leading": 29,
+      "nb_leg_wins": 0,
+      "average_speed": 40,
+      "total_time": "89h 39’ 30\"",
+      "ahead_of_2nd": "0h00'32''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

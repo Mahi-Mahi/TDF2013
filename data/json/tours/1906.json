@@ -1,0 +1,384 @@
+{
+  "year": 1906,
+  "edition": 4,
+  "total_length": 4637,
+  "nb_legs": 13,
+  "has_prologue": false,
+  "nb_concurrents": 82,
+  "nb_finishers": 14,
+  "pct_finishers": 17,
+  "winner_name": "René Pottier",
+  "winner_time": "189h 34’ 00”",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "G. Passerieu",
+  "second_country": "France",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "L. Trousselier",
+  "third_country": "L. Trousselier",
+  "legs": [
+    {
+      "id": "E-1906-01",
+      "year": 1906,
+      "leg": 1,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 275,
+      "type": "plaine",
+      "winner": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Émile Georget",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-02",
+      "year": 1906,
+      "leg": 2,
+      "title": "Douai - Nancy",
+      "start": {
+        "city": "Douai",
+        "country": "France",
+        "lng": "3.080602",
+        "lat": "50.367874"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 391,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-03",
+      "year": 1906,
+      "leg": 3,
+      "title": "Nancy - Dijon",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 321,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-04",
+      "year": 1906,
+      "leg": 4,
+      "title": "Dijon - Grenoble",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 415,
+      "type": "plaine",
+      "winner": {
+        "name": "Georges Passerieu",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-05",
+      "year": 1906,
+      "leg": 5,
+      "title": "Grenoble - Nice",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 259,
+      "type": "plaine",
+      "winner": {
+        "name": "René Pottier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-06",
+      "year": 1906,
+      "leg": 6,
+      "title": "Nice - Marseille",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 400,
+      "type": "plaine",
+      "winner": {
+        "name": "René Pottier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-07",
+      "year": 1906,
+      "leg": 7,
+      "title": "Marseille - Toulouse",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 416,
+      "type": "montagne",
+      "winner": {
+        "name": "René Pottier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-08",
+      "year": 1906,
+      "leg": 8,
+      "title": "Toulouse - Bayonne",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 311,
+      "type": "plaine",
+      "winner": {
+        "name": "René Pottier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-09",
+      "year": 1906,
+      "leg": 9,
+      "title": "Bayonne - Bordeaux",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 345,
+      "type": "montagne",
+      "winner": {
+        "name": "René Pottier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-10",
+      "year": 1906,
+      "leg": 10,
+      "title": "Bordeaux - Nantes",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 292,
+      "type": "plaine",
+      "winner": {
+        "name": "Georges Passerieu",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-11",
+      "year": 1906,
+      "leg": 11,
+      "title": "Nantes - Brest",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 480,
+      "type": "montagne",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-12",
+      "year": 1906,
+      "leg": 12,
+      "title": "Brest - Caen",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 300,
+      "type": "plaine",
+      "winner": {
+        "name": "Jean-Baptiste Dortignacq",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1906-13",
+      "year": 1906,
+      "leg": 13,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 338,
+      "type": "plaine",
+      "winner": {
+        "name": "Louis Trousselier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "René Pottier",
+        "nationality": "France"
+      }
+    }
+  ]
+}

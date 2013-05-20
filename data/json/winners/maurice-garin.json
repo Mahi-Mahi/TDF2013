@@ -1,0 +1,20 @@
+{
+  "id": "maurice-garin",
+  "first_name": "Maurice",
+  "last_name": "Garin",
+  "birthyear": 1871,
+  "country": "France",
+  "years": {
+    "1903": {
+      "nb_days_in_yellow": 5,
+      "nb_tour_legs": 6,
+      "pct_leading": 83,
+      "nb_leg_wins": 3,
+      "average_speed": 25,
+      "total_time": "94h 33’ 00”",
+      "ahead_of_2nd": "2h49'45''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

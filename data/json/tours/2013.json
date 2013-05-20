@@ -1,0 +1,608 @@
+{
+  "year": 2013,
+  "edition": 100,
+  "total_length": 3360,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 0,
+  "nb_finishers": 0,
+  "pct_finishers": 0,
+  "winner_name": "?",
+  "winner_time": null,
+  "ahead_of_2nd": null,
+  "second_name": null,
+  "second_country": null,
+  "ahead_of_3rd": null,
+  "third_name": null,
+  "third_country": null,
+  "legs": [
+    {
+      "id": "E-2013-01",
+      "year": 2013,
+      "leg": 1,
+      "title": "Porto-Vecchio - Bastia",
+      "start": {
+        "city": "Porto-Vecchio",
+        "country": "France",
+        "lng": "9.278311",
+        "lat": "41.591369"
+      },
+      "finish": {
+        "city": "Bastia",
+        "country": "France",
+        "lng": "9.450881",
+        "lat": "42.697283"
+      },
+      "length": 212,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-02",
+      "year": 2013,
+      "leg": 2,
+      "title": "Bastia - Ajaccio",
+      "start": {
+        "city": "Bastia",
+        "country": "France",
+        "lng": "9.450881",
+        "lat": "42.697283"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "length": 25,
+      "type": "Contre-la-montre par équipes",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-03",
+      "year": 2013,
+      "leg": 3,
+      "title": "Ajaccio - Calvi",
+      "start": {
+        "city": "Ajaccio",
+        "country": "France",
+        "lng": "8.738635",
+        "lat": "41.919229"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lng": "5.283795",
+        "lat": "44.173925"
+      },
+      "length": 205,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-04",
+      "year": 2013,
+      "leg": 4,
+      "title": "Nice - Nice",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 194,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-05",
+      "year": 2013,
+      "leg": 5,
+      "title": "Cagnes-sur-Mer - Marseille",
+      "start": {
+        "city": "Cagnes-sur-Mer",
+        "country": "France",
+        "lng": "7.14882",
+        "lat": "43.663739"
+      },
+      "finish": {
+        "city": "Chorges",
+        "country": "France",
+        "lng": "6.275548",
+        "lat": "44.545716"
+      },
+      "length": 165,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-06",
+      "year": 2013,
+      "leg": 6,
+      "title": "Aix-en-Provence - Montpellier",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "finish": {
+        "city": "Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 193,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-07",
+      "year": 2013,
+      "leg": 7,
+      "title": "Montpellier - Albi",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lng": "6.426699",
+        "lat": "45.942027"
+      },
+      "length": 33,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-08",
+      "year": 2013,
+      "leg": 8,
+      "title": "Castres - Ax 3 Domaines",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lng": "2.241295",
+        "lat": "43.606214"
+      },
+      "finish": {
+        "city": "Semnoz",
+        "country": "France",
+        "lng": "6.104722",
+        "lat": "45.797222"
+      },
+      "length": 173,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-09",
+      "year": 2013,
+      "leg": 9,
+      "title": "Saint-Girons - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Saint-Girons",
+        "country": "France",
+        "lng": "1.146088",
+        "lat": "42.982876"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 191,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-10",
+      "year": 2013,
+      "leg": 10,
+      "title": "Saint-Gildas-des-Bois - Saint-Malo",
+      "start": {
+        "city": "Saint-Gildas-des-Bois",
+        "country": "France",
+        "lng": "-2.037288",
+        "lat": "47.517319"
+      },
+      "finish": {
+        "city": "Ajaccio",
+        "country": "France",
+        "lng": "8.738635",
+        "lat": "41.919229"
+      },
+      "length": 218,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-11",
+      "year": 2013,
+      "leg": 11,
+      "title": "Avranches - Mont-Saint-Michel",
+      "start": {
+        "city": "Avranches",
+        "country": "France",
+        "lng": "-1.36166",
+        "lat": "48.686843"
+      },
+      "finish": {
+        "city": "Calvi",
+        "country": "France",
+        "lng": "8.757222",
+        "lat": "42.567651"
+      },
+      "length": 242,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-12",
+      "year": 2013,
+      "leg": 12,
+      "title": "Fougères - Tours",
+      "start": {
+        "city": "Fougères",
+        "country": "France",
+        "lng": "-1.204626",
+        "lat": "48.351561"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 168,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-13",
+      "year": 2013,
+      "leg": 13,
+      "title": "Tours - Saint-Amand-Montrond",
+      "start": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 32,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-14",
+      "year": 2013,
+      "leg": 14,
+      "title": "Saint-Pourçain-sur-Sioule - Lyon",
+      "start": {
+        "city": "Saint-Pourçain-sur-Sioule",
+        "country": "France",
+        "lng": "3.288997",
+        "lat": "46.307204"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 168,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-15",
+      "year": 2013,
+      "leg": 15,
+      "title": "Givors - Mont Ventoux",
+      "start": {
+        "city": "Givors",
+        "country": "France",
+        "lng": "4.772829",
+        "lat": "45.58329"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "length": 204,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-16",
+      "year": 2013,
+      "leg": 16,
+      "title": "Vaison-la-Romaine - Gap",
+      "start": {
+        "city": "Vaison-la-Romaine",
+        "country": "France",
+        "lng": "5.075198",
+        "lat": "44.240968"
+      },
+      "finish": {
+        "city": "Ax 3 Domaines",
+        "country": "France",
+        "lng": "1.81283",
+        "lat": "42.699657"
+      },
+      "length": 125,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-17",
+      "year": 2013,
+      "leg": 17,
+      "title": "Embrun - Chorges",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lng": "6.495865",
+        "lat": "44.564164"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lng": "0.149105",
+        "lat": "43.065093"
+      },
+      "length": 118,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-18",
+      "year": 2013,
+      "leg": 18,
+      "title": "Gap - Alpe d'Huez",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "length": 154,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-19",
+      "year": 2013,
+      "leg": 19,
+      "title": "Bourg-d'Oisans - Le Grand-Bornand",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Mont-Saint-Michel",
+        "country": "France",
+        "lng": "-1.511457",
+        "lat": "48.636063"
+      },
+      "length": 145,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-20",
+      "year": 2013,
+      "leg": 20,
+      "title": "Annecy - Annecy - Semnoz",
+      "start": {
+        "city": "Annecy",
+        "country": "France",
+        "lng": "6.129384",
+        "lat": "45.899247"
+      },
+      "finish": {
+        "city": "Saint-Amand-Montrond",
+        "country": "France",
+        "lng": "2.505604",
+        "lat": "46.725486"
+      },
+      "length": 219,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-21",
+      "year": 2013,
+      "leg": 21,
+      "title": "Versailles - Paris Champs-Élysées",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 176,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "year": 1994,
+  "edition": 81,
+  "total_length": 3978,
+  "nb_legs": 21,
+  "has_prologue": true,
+  "nb_concurrents": 189,
+  "nb_finishers": 117,
+  "pct_finishers": 62,
+  "winner_name": "Miguel Indurain",
+  "winner_time": "103h 38’ 38”",
+  "ahead_of_2nd": "0h 05' 39\" ",
+  "second_name": "P. Ugrumov",
+  "second_country": "Lettonie",
+  "ahead_of_3rd": "0h 07' 19\"",
+  "third_name": "M. Pantani",
+  "third_country": "M. Pantani",
+  "legs": [
+    {
+      "id": "E-1994-Prologue",
+      "year": 1994,
+      "leg": 0,
+      "title": "Lille",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 175,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Eddy Seigneur (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-01",
+      "year": 1994,
+      "leg": 1,
+      "title": "Lille - Armentières",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Armentières",
+        "country": "France",
+        "lng": "2.884218",
+        "lat": "50.691652"
+      },
+      "length": 7,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-02",
+      "year": 1994,
+      "leg": 2,
+      "title": "Roubaix - Boulogne-sur-Mer",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lng": "-0.061335",
+        "lat": "42.885105"
+      },
+      "length": 66,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "GB-MG Technogym",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Johan Museeuw (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-03",
+      "year": 1994,
+      "leg": 3,
+      "title": "Calais - Coquelles",
+      "start": {
+        "city": "Calais",
+        "country": "France",
+        "lng": "1.858686",
+        "lat": "50.95129"
+      },
+      "finish": {
+        "city": "Carpentras",
+        "country": "France",
+        "lng": "5.048722",
+        "lat": "44.055564"
+      },
+      "length": 270,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Italie Gianluca Bortolami (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Grande-Bretagne Sean Yates (GBR)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-04",
+      "year": 1994,
+      "leg": 4,
+      "title": "Douvres - Brighton",
+      "start": {
+        "city": "Douvres",
+        "country": "Royaume-Uni",
+        "lng": "1.316198",
+        "lat": "51.126371"
+      },
+      "finish": {
+        "city": "L'Alpe-d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Slovaquie Ján Svorada (SVK)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Johan Museeuw (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-05",
+      "year": 1994,
+      "leg": 5,
+      "title": "Portsmouth - Portsmouth",
+      "start": {
+        "city": "Portsmouth",
+        "country": "Royaume-Uni",
+        "lng": "-1.083333",
+        "lat": "50.816667"
+      },
+      "finish": {
+        "city": "Val-Thorens",
+        "country": "France",
+        "lng": "6.584663",
+        "lat": "45.296603"
+      },
+      "length": 218,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Danemark Bo Hamburger (DEN)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Johan Museeuw (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-06",
+      "year": 1994,
+      "leg": 6,
+      "title": "Cherbourg - Rennes",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "finish": {
+        "city": "Cluses",
+        "country": "France",
+        "lng": "6.580582",
+        "lat": "46.06039"
+      },
+      "length": 64,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-07",
+      "year": 1994,
+      "leg": 7,
+      "title": "Rennes - Futuroscope",
+      "start": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "finish": {
+        "city": "Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 160,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Jacky Durand (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-08",
+      "year": 1994,
+      "leg": 8,
+      "title": "Poitiers - Trélissac",
+      "start": {
+        "city": "Poitiers",
+        "country": "France",
+        "lng": "0.340375",
+        "lat": "46.580224"
+      },
+      "finish": {
+        "city": "Lac Saint-Point",
+        "country": "France",
+        "lng": "6.325603",
+        "lat": "46.827822"
+      },
+      "length": 204,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de France Richard Virenque (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-09",
+      "year": 1994,
+      "leg": 9,
+      "title": "Périgueux - Bergerac",
+      "start": {
+        "city": "Périgueux",
+        "country": "France",
+        "lng": "0.721115",
+        "lat": "45.184029"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 223,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Danemark Bjarne Riis (DEN)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-10",
+      "year": 1994,
+      "leg": 10,
+      "title": "Bergerac - Cahors",
+      "start": {
+        "city": "Bergerac",
+        "country": "France",
+        "lng": "0.483392",
+        "lat": "44.853806"
+      },
+      "finish": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lng": "1.613334",
+        "lat": "50.725231"
+      },
+      "length": 263,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de France Luc Leblanc (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-11",
+      "year": 1994,
+      "leg": 11,
+      "title": "Cahors - Lourdes-Hautacam",
+      "start": {
+        "city": "Cahors",
+        "country": "France",
+        "lng": "1.441989",
+        "lat": "44.447523"
+      },
+      "finish": {
+        "city": "Coquelles",
+        "country": "France",
+        "lng": "1.799951",
+        "lat": "50.936417"
+      },
+      "length": 202,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Danemark Rolf Sørensen (DEN)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-12",
+      "year": 1994,
+      "leg": 12,
+      "title": "Lourdes - Luz-Ardiden",
+      "start": {
+        "city": "Lourdes",
+        "country": "France",
+        "lng": "-0.045726",
+        "lat": "43.091463"
+      },
+      "finish": {
+        "city": "Brighton",
+        "country": "Royaume-Uni",
+        "lng": "-0.137163",
+        "lat": "50.82253"
+      },
+      "length": 231,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau d'Italie Eros Poli (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-13",
+      "year": 1994,
+      "leg": 13,
+      "title": "Bagnères-de-Bigorre - Albi",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lng": "0.149105",
+        "lat": "43.065093"
+      },
+      "finish": {
+        "city": "Portsmouth",
+        "country": "Royaume-Uni",
+        "lng": "-1.083333",
+        "lat": "50.816667"
+      },
+      "length": 224,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau d'Italie Roberto Conti (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-14",
+      "year": 1994,
+      "leg": 14,
+      "title": "Castres - Montpellier",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lng": "2.241295",
+        "lat": "43.606214"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "length": 149,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de Colombie Nélson Rodríguez (COL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-15",
+      "year": 1994,
+      "leg": 15,
+      "title": "Montpellier - Carpentras",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lng": "0.343334",
+        "lat": "46.583258"
+      },
+      "length": 174,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-16",
+      "year": 1994,
+      "leg": 16,
+      "title": "Valréas - L'Alpe-d'Huez",
+      "start": {
+        "city": "Valréas",
+        "country": "France",
+        "lng": "4.989187",
+        "lat": "44.383724"
+      },
+      "finish": {
+        "city": "Trélissac",
+        "country": "France",
+        "lng": "0.77911",
+        "lat": "45.196131"
+      },
+      "length": 46,
+      "type": "Étape de montagne (CLM)",
+      "winner": {
+        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-17",
+      "year": 1994,
+      "leg": 17,
+      "title": "Bourg-d'Oisans - Val-Thorens",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Bergerac",
+        "country": "France",
+        "lng": "0.483392",
+        "lat": "44.853806"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-18",
+      "year": 1994,
+      "leg": 18,
+      "title": "Moûtiers - Cluses",
+      "start": {
+        "city": "Moûtiers",
+        "country": "France",
+        "lng": "6.529926",
+        "lat": "45.484615"
+      },
+      "finish": {
+        "city": "Cahors",
+        "country": "France",
+        "lng": "1.441989",
+        "lat": "44.447523"
+      },
+      "length": 234,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-19",
+      "year": 1994,
+      "leg": 19,
+      "title": "Cluses - Avoriaz",
+      "start": {
+        "city": "Cluses",
+        "country": "France",
+        "lng": "6.580582",
+        "lat": "46.06039"
+      },
+      "finish": {
+        "city": "Hautacam, Préchac",
+        "country": "France",
+        "lng": "-0.072462",
+        "lat": "42.961214"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-20",
+      "year": 1994,
+      "leg": 20,
+      "title": "Morzine - Lac Saint-Point",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Espagne Francisco Cabello (ESP)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-21",
+      "year": 1994,
+      "leg": 21,
+      "title": "Disneyland Paris - Paris",
+      "start": {
+        "city": "Marne La Vallée",
+        "country": "France",
+        "lng": "2.598505",
+        "lat": "48.859276"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Italie Nicola Minali (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "nationality": null
+      }
+    }
+  ]
+}

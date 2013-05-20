@@ -1,0 +1,608 @@
+{
+  "year": 1999,
+  "edition": 86,
+  "total_length": 3870,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 180,
+  "nb_finishers": 141,
+  "pct_finishers": 78,
+  "winner_name": "n.a.",
+  "winner_time": "91h 32’ 16”",
+  "ahead_of_2nd": "0h 07' 37\" ",
+  "second_name": "A. Zulle",
+  "second_country": "Suisse",
+  "ahead_of_3rd": "0h 10' 26\"",
+  "third_name": "F. Escartin",
+  "third_country": "F. Escartin",
+  "legs": [
+    {
+      "id": "E-1999-Prologue",
+      "year": 1999,
+      "leg": 0,
+      "title": "Puy du Fou - Puy du Fou",
+      "start": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lng": "-0.899612",
+        "lat": "46.884536"
+      },
+      "finish": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lng": "-0.899612",
+        "lat": "46.884536"
+      },
+      "length": 143,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-01",
+      "year": 1999,
+      "leg": 1,
+      "title": "Montaigu - Challans",
+      "start": {
+        "city": "Montaigu",
+        "country": "France",
+        "lng": "-1.313777",
+        "lat": "46.974347"
+      },
+      "finish": {
+        "city": "Challans",
+        "country": "France",
+        "lng": "-1.880412",
+        "lat": "46.844828"
+      },
+      "length": 7,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-02",
+      "year": 1999,
+      "leg": 2,
+      "title": "Challans - Saint-Nazaire",
+      "start": {
+        "city": "Challans",
+        "country": "France",
+        "lng": "-1.880412",
+        "lat": "46.844828"
+      },
+      "finish": {
+        "city": "Saint-Flour",
+        "country": "France",
+        "lng": "3.094862",
+        "lat": "45.033026"
+      },
+      "length": 194,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Steels",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-03",
+      "year": 1999,
+      "leg": 3,
+      "title": "Nantes - Laval",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "length": 233,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Cipollini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-04",
+      "year": 1999,
+      "leg": 4,
+      "title": "Laval - Blois",
+      "start": {
+        "city": "Laval",
+        "country": "France",
+        "lng": "-0.770138",
+        "lat": "48.077863"
+      },
+      "finish": {
+        "city": "Piau-Engaly",
+        "country": "France",
+        "lng": "0.158593",
+        "lat": "42.784774"
+      },
+      "length": 171,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Cipollini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-05",
+      "year": 1999,
+      "leg": 5,
+      "title": "Bonneval - Amiens",
+      "start": {
+        "city": "Bonneval",
+        "country": "France",
+        "lng": "1.385289",
+        "lat": "48.181453"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 227,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Cipollini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-06",
+      "year": 1999,
+      "leg": 6,
+      "title": "Amiens - Maubeuge",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lng": "2.295753",
+        "lat": "49.894067"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 56,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-07",
+      "year": 1999,
+      "leg": 7,
+      "title": "Avesnes-sur-Helpe - Thionville",
+      "start": {
+        "city": "Avesnes-sur-Helpe",
+        "country": "France",
+        "lng": "3.926864",
+        "lat": "50.123589"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lng": "0.343334",
+        "lat": "46.583258"
+      },
+      "length": 213,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-08",
+      "year": 1999,
+      "leg": 8,
+      "title": "Metz - Metz",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lng": "0.343334",
+        "lat": "46.583258"
+      },
+      "length": 220,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieGiuseppe Guerini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-09",
+      "year": 1999,
+      "leg": 9,
+      "title": "Le Grand-Bornand - Sestrières",
+      "start": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lng": "6.426699",
+        "lat": "45.942027"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneDavid Etxebarria",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-10",
+      "year": 1999,
+      "leg": 10,
+      "title": "Sestrières - L'Alpe d'Huez",
+      "start": {
+        "city": "Sestrières",
+        "country": "France",
+        "lng": "6.879234",
+        "lat": "44.9565"
+      },
+      "finish": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lng": "-2.213848",
+        "lat": "47.273498"
+      },
+      "length": 198,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : BelgiqueLudo Dierckxsens",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-11",
+      "year": 1999,
+      "leg": 11,
+      "title": "Le Bourg-d'Oisans - Saint-Étienne",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Laval",
+        "country": "France",
+        "lng": "-0.770138",
+        "lat": "48.077863"
+      },
+      "length": 236,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieSalvatore Commesso",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-12",
+      "year": 1999,
+      "leg": 12,
+      "title": "Saint-Galmier - Saint-Flour",
+      "start": {
+        "city": "Saint-Galmier",
+        "country": "France",
+        "lng": "4.318391",
+        "lat": "45.590322"
+      },
+      "finish": {
+        "city": "Blois",
+        "country": "France",
+        "lng": "1.336272",
+        "lat": "47.587952"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : RussieDimitri Konyshev",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-13",
+      "year": 1999,
+      "leg": 13,
+      "title": "Saint-Flour - Albi",
+      "start": {
+        "city": "Saint-Flour",
+        "country": "France",
+        "lng": "3.094862",
+        "lat": "45.033026"
+      },
+      "finish": {
+        "city": "Amiens",
+        "country": "France",
+        "lng": "2.295753",
+        "lat": "49.894067"
+      },
+      "length": 173,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneFernando Escartín",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-14",
+      "year": 1999,
+      "leg": 14,
+      "title": "Castres - Saint-Gaudens",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lng": "2.241295",
+        "lat": "43.606214"
+      },
+      "finish": {
+        "city": "Maubeuge",
+        "country": "France",
+        "lng": "3.9674",
+        "lat": "50.280228"
+      },
+      "length": 192,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneDavid Etxebarria",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-15",
+      "year": 1999,
+      "leg": 15,
+      "title": "Saint-Gaudens - Piau-Engaly",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "finish": {
+        "city": "Thionville",
+        "country": "France",
+        "lng": "6.168426",
+        "lat": "49.357571"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Steels",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-16",
+      "year": 1999,
+      "leg": 16,
+      "title": "Lannemezan - Pau",
+      "start": {
+        "city": "Lannemezan",
+        "country": "France",
+        "lng": "0.38396",
+        "lat": "43.125519"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieGianpaolo Mondini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-17",
+      "year": 1999,
+      "leg": 17,
+      "title": "Mourenx - Bordeaux",
+      "start": {
+        "city": "Mourenx",
+        "country": "France",
+        "lng": "-0.620552",
+        "lat": "43.368262"
+      },
+      "finish": {
+        "city": "Sestrières",
+        "country": "France",
+        "lng": "6.879234",
+        "lat": "44.9565"
+      },
+      "length": 57,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-18",
+      "year": 1999,
+      "leg": 18,
+      "title": "Jonzac - Futuroscope",
+      "start": {
+        "city": "Jonzac",
+        "country": "France",
+        "lng": "-0.431058",
+        "lat": "45.445368"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-19",
+      "year": 1999,
+      "leg": 19,
+      "title": "Futuroscope - Futuroscope",
+      "start": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lng": "0.343334",
+        "lat": "46.583258"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 176,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Steels",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1999-20",
+      "year": 1999,
+      "leg": 20,
+      "title": "Arpajon - Paris",
+      "start": {
+        "city": "Arpajon",
+        "country": "France",
+        "lng": "2.246237",
+        "lat": "48.589172"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "length": 194,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Cipollini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "year": 1911,
+  "edition": 9,
+  "total_length": 5343,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 84,
+  "nb_finishers": 28,
+  "pct_finishers": 33,
+  "winner_name": "Gustave Garrigou",
+  "winner_time": "195h 37’ 00”",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "P. Duboc",
+  "second_country": "France",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "E. Georget",
+  "third_country": "E. Georget",
+  "legs": [
+    {
+      "id": "E-1911-01",
+      "year": 1911,
+      "leg": 1,
+      "title": "Paris - Dunkerque",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "length": 351,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-02",
+      "year": 1911,
+      "leg": 2,
+      "title": "Dunkerque - Longwy",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 361,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-03",
+      "year": 1911,
+      "leg": 3,
+      "title": "Longwy - Belfort",
+      "start": {
+        "city": "Longwy",
+        "country": "France",
+        "lng": "5.761773",
+        "lat": "49.519919"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 317,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMarcel Godivier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-04",
+      "year": 1911,
+      "leg": 4,
+      "title": "Belfort - Chamonix",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 388,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueJules Masselis",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJules Masselis",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-05",
+      "year": 1911,
+      "leg": 5,
+      "title": "Chamonix - Grenoble",
+      "start": {
+        "city": "Chamonix",
+        "country": "France",
+        "lng": "6.869433",
+        "lat": "45.923697"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "length": 331,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-06",
+      "year": 1911,
+      "leg": 6,
+      "title": "Grenoble - Nice",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 344,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceCharles Crupelandt",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-07",
+      "year": 1911,
+      "leg": 7,
+      "title": "Nice - Marseille",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "length": 366,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceÉmile Georget",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-08",
+      "year": 1911,
+      "leg": 8,
+      "title": "Marseille - Perpignan",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "length": 348,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-09",
+      "year": 1911,
+      "leg": 9,
+      "title": "Perpignan - Luchon",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 334,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceCharles Crupelandt",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-10",
+      "year": 1911,
+      "leg": 10,
+      "title": "Luchon - Bayonne",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Longwy",
+        "country": "France",
+        "lng": "5.761773",
+        "lat": "49.519919"
+      },
+      "length": 335,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-11",
+      "year": 1911,
+      "leg": 11,
+      "title": "Bayonne - La Rochelle",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "length": 289,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-12",
+      "year": 1911,
+      "leg": 12,
+      "title": "La Rochelle - Brest",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "finish": {
+        "city": "Chamonix",
+        "country": "France",
+        "lng": "6.869433",
+        "lat": "45.923697"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMaurice Brocco",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-13",
+      "year": 1911,
+      "leg": 13,
+      "title": "Brest - Cherbourg",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 379,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-14",
+      "year": 1911,
+      "leg": 14,
+      "title": "Cherbourg - Le Havre",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 470,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMarcel Godivier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-15",
+      "year": 1911,
+      "leg": 15,
+      "title": "Le Havre - Paris",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 405,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    }
+  ]
+}

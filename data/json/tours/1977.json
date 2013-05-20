@@ -1,0 +1,804 @@
+{
+  "year": 1977,
+  "edition": 64,
+  "total_length": 4096,
+  "nb_legs": 22,
+  "has_prologue": true,
+  "nb_concurrents": 100,
+  "nb_finishers": 53,
+  "pct_finishers": 53,
+  "winner_name": "Bernard Thévenet",
+  "winner_time": "115h 38’ 30”",
+  "ahead_of_2nd": "0h 00' 48\" ",
+  "second_name": "H. Kuiper",
+  "second_country": "Pays-Bas",
+  "ahead_of_3rd": "0h 03' 32\"",
+  "third_name": "L. Van Impe",
+  "third_country": "L. Van Impe",
+  "legs": [
+    {
+      "id": "E-1977-Prologue",
+      "year": 1977,
+      "leg": 0,
+      "title": "Fleurance",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "length": 91,
+      "type": null,
+      "winner": {
+        "name": "Alain Meslet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-01",
+      "year": 1977,
+      "leg": 1,
+      "title": "Fleurance - Auch",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Auch",
+        "country": "France",
+        "lng": "0.586709",
+        "lat": "43.64638"
+      },
+      "length": 5,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-02",
+      "year": 1977,
+      "leg": 2,
+      "title": "Auch - Pau",
+      "start": {
+        "city": "Auch",
+        "country": "France",
+        "lng": "0.586709",
+        "lat": "43.64638"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Klaus-Peter Thaler Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-03",
+      "year": 1977,
+      "leg": 3,
+      "title": "Oloron-Sainte-Marie - Vitoria-Gasteiz (ESP)",
+      "start": {
+        "city": "Oloron-Sainte-Marie",
+        "country": "France",
+        "lng": "-0.605292",
+        "lat": "43.194413"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 138,
+      "type": null,
+      "winner": {
+        "name": "Jacques Esclassan Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-04",
+      "year": 1977,
+      "leg": 4,
+      "title": "Vitoria-Gasteiz - Seignosse-le-Penon",
+      "start": {
+        "city": "Vitoria-Gasteiz",
+        "country": "Espagne",
+        "lng": "-2.673",
+        "lat": "42.849803"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-5b",
+      "year": 1977,
+      "leg": 5,
+      "title": "Bordeaux (Circuit du Lac)",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 159,
+      "type": null,
+      "winner": {
+        "name": "Jean-Pierre Danguillaume Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-5a",
+      "year": 1977,
+      "leg": 5,
+      "title": "Morcenx - Bordeaux",
+      "start": {
+        "city": "Morcenx",
+        "country": "France",
+        "lng": "-0.911249",
+        "lat": "44.033654"
+      },
+      "finish": {
+        "city": "Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 139,
+      "type": null,
+      "winner": {
+        "name": "Patrick Sercu Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-06",
+      "year": 1977,
+      "leg": 6,
+      "title": "Bordeaux - Limoges",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Bernard Quilfen Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-7b",
+      "year": 1977,
+      "leg": 7,
+      "title": "Angers",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Hennie Kuiper Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-7a",
+      "year": 1977,
+      "leg": 7,
+      "title": "Jaunay-Clan - Angers",
+      "start": {
+        "city": "Jaunay-Clan",
+        "country": "France",
+        "lng": "0.375076",
+        "lat": "46.683763"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 121,
+      "type": null,
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-08",
+      "year": 1977,
+      "leg": 8,
+      "title": "Angers - Lorient",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 171,
+      "type": null,
+      "winner": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-09",
+      "year": 1977,
+      "leg": 9,
+      "title": "Lorient - Rennes",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 50,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard ThévenetDrapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-10",
+      "year": 1977,
+      "leg": 10,
+      "title": "Bagnoles-de-l'Orne - Rouen",
+      "start": {
+        "city": "Bagnoles-de-l'Orne",
+        "country": "France",
+        "lng": "-0.415091",
+        "lat": "48.558399"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Jean-Pierre Danguillaume Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-11",
+      "year": 1977,
+      "leg": 11,
+      "title": "Rouen - Roubaix",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Vitoria-Gasteiz",
+        "country": "Espagne",
+        "lng": "-2.673",
+        "lat": "42.849803"
+      },
+      "length": 105,
+      "type": null,
+      "winner": {
+        "name": "Paul Wellens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-12",
+      "year": 1977,
+      "leg": 12,
+      "title": "Roubaix - Charleroi (BEL)",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Seignosse-le-Penon",
+        "country": "France",
+        "lng": "-1.424299",
+        "lat": "43.707972"
+      },
+      "length": 14,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Lucien Van Impe Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-13b",
+      "year": 1977,
+      "leg": 13,
+      "title": "Altkirch - Besançon",
+      "start": {
+        "city": "Altkirch",
+        "country": "France",
+        "lng": "7.243036",
+        "lat": "47.620391"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "length": 141,
+      "type": null,
+      "winner": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-13a",
+      "year": 1977,
+      "leg": 13,
+      "title": "Fribourg-en-Brisgau (RFA) - Fribourg-en-Brisgau",
+      "start": {
+        "city": "Fribourg-en-Brisgau",
+        "country": "Allemagne",
+        "lng": "7.842104",
+        "lat": "47.999008"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "— ¹)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-14",
+      "year": 1977,
+      "leg": 14,
+      "title": "Besançon - Thonon-les-Bains",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lng": "-1.675708",
+        "lat": "48.113475"
+      },
+      "length": 6,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-15a",
+      "year": 1977,
+      "leg": 15,
+      "title": "Thonon-les-Bains - Morzine",
+      "start": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lng": "6.477635",
+        "lat": "46.373565"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Pierre-Raymond Villemiane Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-15b",
+      "year": 1977,
+      "leg": 15,
+      "title": "Morzine - Avoriaz",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 253,
+      "type": null,
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-16",
+      "year": 1977,
+      "leg": 16,
+      "title": "Morzine - Chamonix",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lng": "4.444643",
+        "lat": "50.41081"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "José Nazábal Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-17",
+      "year": 1977,
+      "leg": 17,
+      "title": "Chamonix - L'Alpe d'Huez",
+      "start": {
+        "city": "Chamonix",
+        "country": "France",
+        "lng": "6.869433",
+        "lat": "45.923697"
+      },
+      "finish": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lng": "6.477635",
+        "lat": "46.373565"
+      },
+      "length": 30,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-18",
+      "year": 1977,
+      "leg": 18,
+      "title": "Voiron - Saint-Étienne",
+      "start": {
+        "city": "Voiron",
+        "country": "France",
+        "lng": "5.591349",
+        "lat": "45.362713"
+      },
+      "finish": {
+        "city": "Chamonix",
+        "country": "France",
+        "lng": "6.869433",
+        "lat": "45.923697"
+      },
+      "length": 4,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "FIAT",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-19",
+      "year": 1977,
+      "leg": 19,
+      "title": "Saint-Trivier-sur-Moignans - Dijon",
+      "start": {
+        "city": "Saint-Trivier-sur-Moignans",
+        "country": "France",
+        "lng": "4.897866",
+        "lat": "46.071955"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 246,
+      "type": null,
+      "winner": {
+        "name": "Giacinto Santambrogio Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-20",
+      "year": 1977,
+      "leg": 20,
+      "title": "Dijon - Dijon",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 174,
+      "type": null,
+      "winner": {
+        "name": "Fedor den Hertog Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-21",
+      "year": 1977,
+      "leg": 21,
+      "title": "Montereau - Versailles",
+      "start": {
+        "city": "Montereau",
+        "country": "France",
+        "lng": "2.956193",
+        "lat": "48.384734"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 192,
+      "type": null,
+      "winner": {
+        "name": "Patrick Sercu Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-22a",
+      "year": 1977,
+      "leg": 22,
+      "title": "Paris (Champs-Élysées)",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 46,
+      "type": null,
+      "winner": {
+        "name": "Patrick Sercu Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1977-22b",
+      "year": 1977,
+      "leg": 22,
+      "title": "Paris (Circuit des Champs-Élysées)",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Fribourg-en-Brisgau",
+        "country": "Allemagne",
+        "lng": "7.842104",
+        "lat": "47.999008"
+      },
+      "length": 256,
+      "type": null,
+      "winner": {
+        "name": "Régis Delépine Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Dietrich Thurau Drapeau d'Allemagne de l'Ouest Allemagne de l'Ouest",
+        "nationality": null
+      }
+    }
+  ]
+}

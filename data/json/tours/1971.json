@@ -1,0 +1,720 @@
+{
+  "year": 1971,
+  "edition": 58,
+  "total_length": 3608,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 130,
+  "nb_finishers": 94,
+  "pct_finishers": 72,
+  "winner_name": "Eddy Merckx",
+  "winner_time": "96h 45’ 14”",
+  "ahead_of_2nd": "0h 09' 51\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "ahead_of_3rd": "0h 11' 06\"",
+  "third_name": "L. Van Impe",
+  "third_country": "L. Van Impe",
+  "legs": [
+    {
+      "id": "E-1971-Prologue",
+      "year": 1971,
+      "leg": 0,
+      "title": "Mulhouse",
+      "start": {
+        "city": "Mulhouse",
+        "country": null,
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": null,
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 54,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-1c",
+      "year": 1971,
+      "leg": 1,
+      "title": "Fribourg - Mulhouse",
+      "start": {
+        "city": "Fribourg",
+        "country": "Allemagne",
+        "lng": "7.145568",
+        "lat": "46.801666"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 127,
+      "type": null,
+      "winner": {
+        "name": "Eric Leman Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-1a",
+      "year": 1971,
+      "leg": 1,
+      "title": "Mulhouse - Bâle (CH)",
+      "start": {
+        "city": "Mulhouse",
+        "country": null,
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 144,
+      "type": null,
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-1b",
+      "year": 1971,
+      "leg": 1,
+      "title": "Bâle - Fribourg (RFA)",
+      "start": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lng": "7.592573",
+        "lat": "47.557421"
+      },
+      "finish": {
+        "city": "Superbagnères",
+        "country": "France",
+        "lng": "0.576927",
+        "lat": "42.768576"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Marinus Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-02",
+      "year": 1971,
+      "leg": 2,
+      "title": "Mulhouse - Strasbourg",
+      "start": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Poitiers",
+        "country": "France",
+        "lng": "0.340375",
+        "lat": "46.580224"
+      },
+      "length": 133,
+      "type": null,
+      "winner": {
+        "name": "Mauro Simonetti Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-03",
+      "year": 1971,
+      "leg": 3,
+      "title": "Strasbourg - Nancy",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 251,
+      "type": null,
+      "winner": {
+        "name": "Luciano Armani Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-04",
+      "year": 1971,
+      "leg": 4,
+      "title": "Nancy - Marche-en-Famenne",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "Gourette, Eaux-Bonnes",
+        "country": "France",
+        "lng": "-0.332111",
+        "lat": "42.958836"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Jean-Pierre Genet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-05",
+      "year": 1971,
+      "leg": 5,
+      "title": "Dinant - Roubaix",
+      "start": {
+        "city": "Dinant",
+        "country": "Belgique",
+        "lng": "4.912746",
+        "lat": "50.260494"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Pietro Guerra Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-6b",
+      "year": 1971,
+      "leg": 6,
+      "title": "Amiens - Le Touquet",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lng": "2.295753",
+        "lat": "49.894067"
+      },
+      "finish": {
+        "city": "Fribourg",
+        "country": "Allemagne",
+        "lng": "7.145568",
+        "lat": "46.801666"
+      },
+      "length": 153,
+      "type": null,
+      "winner": {
+        "name": "Walter Godefroot Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-6a",
+      "year": 1971,
+      "leg": 6,
+      "title": "Roubaix - Amiens",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lng": "7.592573",
+        "lat": "47.557421"
+      },
+      "length": 221,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-07",
+      "year": 1971,
+      "leg": 7,
+      "title": "Rungis - Nevers",
+      "start": {
+        "city": "Rungis",
+        "country": "France",
+        "lng": "2.349936",
+        "lat": "48.749358"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-08",
+      "year": 1971,
+      "leg": 8,
+      "title": "Nevers - Puy de Dôme",
+      "start": {
+        "city": "Nevers",
+        "country": "France",
+        "lng": "3.162845",
+        "lat": "46.990896"
+      },
+      "finish": {
+        "city": "Amiens",
+        "country": "France",
+        "lng": "2.295753",
+        "lat": "49.894067"
+      },
+      "length": 145,
+      "type": null,
+      "winner": {
+        "name": "Bernard Labourdette Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-09",
+      "year": 1971,
+      "leg": 9,
+      "title": "Clermont-Ferrand - Saint-Étienne",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lng": "3.087025",
+        "lat": "45.777222"
+      },
+      "finish": {
+        "city": "Le Touquet",
+        "country": "France",
+        "lng": "1.590675",
+        "lat": "50.521276"
+      },
+      "length": 57,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Herman Van Springel Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-10",
+      "year": 1971,
+      "leg": 10,
+      "title": "Saint-Étienne - Grenoble",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 134,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-11",
+      "year": 1971,
+      "leg": 11,
+      "title": "Grenoble - Orcières-Merlette",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 16,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-12",
+      "year": 1971,
+      "leg": 12,
+      "title": "Orcières-Merlette - Marseille",
+      "start": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "finish": {
+        "city": "Marche-en-Famenne",
+        "country": "Belgique",
+        "lng": "5.344161",
+        "lat": "50.22829"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "José Manuel Fuente Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-13",
+      "year": 1971,
+      "leg": 13,
+      "title": "Albi - Albi",
+      "start": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 19,
+      "type": null,
+      "winner": {
+        "name": "José Manuel Fuente Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-14",
+      "year": 1971,
+      "leg": 14,
+      "title": "Revel - Luchon",
+      "start": {
+        "city": "Revel",
+        "country": "France",
+        "lng": "2.004573",
+        "lat": "43.458611"
+      },
+      "finish": {
+        "city": "Nevers",
+        "country": "France",
+        "lng": "3.162845",
+        "lat": "46.990896"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-15",
+      "year": 1971,
+      "leg": 15,
+      "title": "Luchon - Superbagnères",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Puy de Dôme",
+        "country": "France",
+        "lng": "3.015582",
+        "lat": "45.712414"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Jean-Pierre Danguillaume Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-16b",
+      "year": 1971,
+      "leg": 16,
+      "title": "Gourette/Les Eaux Bonnes - Pau",
+      "start": {
+        "city": "Gourette, Eaux-Bonnes",
+        "country": "France",
+        "lng": "-0.332111",
+        "lat": "42.958836"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 11,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Molteni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-16a",
+      "year": 1971,
+      "leg": 16,
+      "title": "Luchon - Gourette/Les Eaux Bonnes",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 185,
+      "type": null,
+      "winner": {
+        "name": "Jan Krekels Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-17",
+      "year": 1971,
+      "leg": 17,
+      "title": "Mont-de-Marsan - Bordeaux",
+      "start": {
+        "city": "Mont-de-Marsan",
+        "country": "France",
+        "lng": "-0.499782",
+        "lat": "43.893485"
+      },
+      "finish": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "length": 59,
+      "type": null,
+      "winner": {
+        "name": "Eric Leman Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Marinus Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-18",
+      "year": 1971,
+      "leg": 18,
+      "title": "Bordeaux - Poitiers",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 90,
+      "type": null,
+      "winner": {
+        "name": "Gerben Karstens Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-19",
+      "year": 1971,
+      "leg": 19,
+      "title": "Blois - Versailles",
+      "start": {
+        "city": "Blois",
+        "country": "France",
+        "lng": "1.336272",
+        "lat": "47.587952"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "length": 74,
+      "type": null,
+      "winner": {
+        "name": "Albert Van Vlierberghe Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1971-20",
+      "year": 1971,
+      "leg": 20,
+      "title": "Versailles - Paris",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 257,
+      "type": null,
+      "winner": {
+        "name": "Eric Leman Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eddy Merckx Drapeau belge Belgique",
+        "nationality": null
+      }
+    }
+  ]
+}

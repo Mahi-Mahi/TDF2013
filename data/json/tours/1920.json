@@ -1,0 +1,440 @@
+{
+  "year": 1920,
+  "edition": 14,
+  "total_length": 5503,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 113,
+  "nb_finishers": 22,
+  "pct_finishers": 19,
+  "winner_name": "Philippe Thys",
+  "winner_time": "228h 36’ 13”",
+  "ahead_of_2nd": "0h 57' 21\" ",
+  "second_name": "H. Heusghem",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "1h 39' 35\"",
+  "third_name": "F. Lambot",
+  "third_country": "F. Lambot",
+  "legs": [
+    {
+      "id": "E-1920-01",
+      "year": 1920,
+      "leg": 1,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "length": 388,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueLouis Mottiat",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueLouis Mottiat",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-02",
+      "year": 1920,
+      "leg": 2,
+      "title": "Le Havre - Cherbourg",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "length": 433,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceFélix Goethals",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-03",
+      "year": 1920,
+      "leg": 3,
+      "title": "Cherbourg - Brest",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 340,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueJean Rossius",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-04",
+      "year": 1920,
+      "leg": 4,
+      "title": "Brest - Les Sables-d'Olonne",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 364,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-05",
+      "year": 1920,
+      "leg": 5,
+      "title": "Les Sables-d'Olonne - Bayonne",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "finish": {
+        "city": "Gex",
+        "country": "France",
+        "lng": "6.058036",
+        "lat": "46.334191"
+      },
+      "length": 405,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-06",
+      "year": 1920,
+      "leg": 6,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 412,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-07",
+      "year": 1920,
+      "leg": 7,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 482,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-08",
+      "year": 1920,
+      "leg": 8,
+      "title": "Perpignan - Aix-en-Provence",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-09",
+      "year": 1920,
+      "leg": 9,
+      "title": "Aix-en-Provence - Nice",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 323,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueJean Rossius",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-10",
+      "year": 1920,
+      "leg": 10,
+      "title": "Nice - Grenoble",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "length": 325,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueLouis Heusghem",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-11",
+      "year": 1920,
+      "leg": 11,
+      "title": "Grenoble - Gex",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 356,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-12",
+      "year": 1920,
+      "leg": 12,
+      "title": "Gex - Strasbourg",
+      "start": {
+        "city": "Gex",
+        "country": "France",
+        "lng": "6.058036",
+        "lat": "46.334191"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "length": 333,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueHector Heusghem",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-13",
+      "year": 1920,
+      "leg": 13,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 362,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueLéon Scieur",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-14",
+      "year": 1920,
+      "leg": 14,
+      "title": "Metz - Dunkerque",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 354,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1920-15",
+      "year": 1920,
+      "leg": 15,
+      "title": "Dunkerque - Paris",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 300,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    }
+  ]
+}

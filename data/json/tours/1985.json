@@ -1,0 +1,692 @@
+{
+  "year": 1985,
+  "edition": 72,
+  "total_length": 4109,
+  "nb_legs": 22,
+  "has_prologue": true,
+  "nb_concurrents": 180,
+  "nb_finishers": 144,
+  "pct_finishers": 80,
+  "winner_name": "Bernard Hinault",
+  "winner_time": "113h 24’ 23”",
+  "ahead_of_2nd": "0h 01' 42\" ",
+  "second_name": "G. Lemond",
+  "second_country": "États-Unis",
+  "ahead_of_3rd": "0h 04' 29\"",
+  "third_name": "S. Roche",
+  "third_country": "S. Roche",
+  "legs": [
+    {
+      "id": "E-1985-Prologue",
+      "year": 1985,
+      "leg": 0,
+      "title": "Plumelec - Plumelec",
+      "start": {
+        "city": "Plumelec",
+        "country": "France",
+        "lng": "-2.639409",
+        "lat": "47.837699"
+      },
+      "finish": {
+        "city": "Plumelec",
+        "country": "France",
+        "lng": "-2.639409",
+        "lat": "47.837699"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-01",
+      "year": 1985,
+      "leg": 1,
+      "title": "Vannes - Lanester",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lng": "-2.760847",
+        "lat": "47.658236"
+      },
+      "finish": {
+        "city": "Lanester",
+        "country": "France",
+        "lng": "-3.347354",
+        "lat": "47.763494"
+      },
+      "length": 6,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-02",
+      "year": 1985,
+      "leg": 2,
+      "title": "Lorient - Vitré",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "finish": {
+        "city": "Villard-de-Lans",
+        "country": "France",
+        "lng": "5.55227",
+        "lat": "45.070641"
+      },
+      "length": 239,
+      "type": null,
+      "winner": {
+        "name": "Gerrit Solleveld Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-03",
+      "year": 1985,
+      "leg": 3,
+      "title": "Vitré - Fougères",
+      "start": {
+        "city": "Vitré",
+        "country": "France",
+        "lng": "-1.21543",
+        "lat": "48.124746"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lng": "-0.061335",
+        "lat": "42.885105"
+      },
+      "length": 75,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-04",
+      "year": 1985,
+      "leg": 4,
+      "title": "Fougères - Pont-Audemer",
+      "start": {
+        "city": "Fougères",
+        "country": "France",
+        "lng": "-1.204626",
+        "lat": "48.351561"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Luis Herrera Drapeau de Colombie Colombie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-05",
+      "year": 1985,
+      "leg": 5,
+      "title": "Neufchâtel-en-Bray - Roubaix",
+      "start": {
+        "city": "Neufchâtel-en-Bray",
+        "country": "France",
+        "lng": "1.441891",
+        "lat": "49.732771"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "length": 31,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-06",
+      "year": 1985,
+      "leg": 6,
+      "title": "Roubaix - Reims",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Lac de Vassivière",
+        "country": "France",
+        "lng": "1.87608",
+        "lat": "45.791652"
+      },
+      "length": 179,
+      "type": null,
+      "winner": {
+        "name": "Luis Herrera Drapeau de Colombie Colombie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-07",
+      "year": 1985,
+      "leg": 7,
+      "title": "Reims - Nancy",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Eduardo Chozas Drapeau d'Espagne Espagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-08",
+      "year": 1985,
+      "leg": 8,
+      "title": "Sarrebourg - Strasbourg",
+      "start": {
+        "city": "Sarrebourg",
+        "country": "France",
+        "lng": "7.052587",
+        "lat": "48.732663"
+      },
+      "finish": {
+        "city": "Col d'Aubisque",
+        "country": "France",
+        "lng": "-0.339673",
+        "lat": "42.97657"
+      },
+      "length": 173,
+      "type": null,
+      "winner": {
+        "name": "Maarten Ducrot Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-09",
+      "year": 1985,
+      "leg": 9,
+      "title": "Strasbourg - Épinal",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Jørgen Vagn Pedersen Drapeau du Danemark Danemark",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-10",
+      "year": 1985,
+      "leg": 10,
+      "title": "Épinal - Pontarlier",
+      "start": {
+        "city": "Épinal",
+        "country": "France",
+        "lng": "6.449403",
+        "lat": "48.172402"
+      },
+      "finish": {
+        "city": "Vitré",
+        "country": "France",
+        "lng": "-1.21543",
+        "lat": "48.124746"
+      },
+      "length": 269,
+      "type": null,
+      "winner": {
+        "name": "Fabio Parra Drapeau de Colombie Colombie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-11",
+      "year": 1985,
+      "leg": 11,
+      "title": "Pontarlier - Morzine-Avoriaz",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "finish": {
+        "city": "Fougères",
+        "country": "France",
+        "lng": "-1.204626",
+        "lat": "48.351561"
+      },
+      "length": 247,
+      "type": null,
+      "winner": {
+        "name": "Frédéric Vichot Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-12",
+      "year": 1985,
+      "leg": 12,
+      "title": "Morzine - Lans-en-Vercors",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Pont-Audemer",
+        "country": "France",
+        "lng": "0.514299",
+        "lat": "49.354883"
+      },
+      "length": 209,
+      "type": null,
+      "winner": {
+        "name": "Pedro Delgado Drapeau d'Espagne Espagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-13",
+      "year": 1985,
+      "leg": 13,
+      "title": "Villard-de-Lans - Villard-de-Lans",
+      "start": {
+        "city": "Villard-de-Lans",
+        "country": "France",
+        "lng": "5.55227",
+        "lat": "45.070641"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 52,
+      "type": null,
+      "winner": {
+        "name": "Stephen Roche Drapeau d'Irlande Irlande",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-14",
+      "year": 1985,
+      "leg": 14,
+      "title": "Autrans - Saint-Étienne",
+      "start": {
+        "city": "Autrans",
+        "country": "France",
+        "lng": "5.542716",
+        "lat": "45.176098"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "length": 83,
+      "type": null,
+      "winner": {
+        "name": "Régis Simon Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-15",
+      "year": 1985,
+      "leg": 15,
+      "title": "Saint-Étienne - Aurillac",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-16",
+      "year": 1985,
+      "leg": 16,
+      "title": "Aurillac - Toulouse",
+      "start": {
+        "city": "Aurillac",
+        "country": "France",
+        "lng": "2.444997",
+        "lat": "44.930953"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Johan Lammerts Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-17",
+      "year": 1985,
+      "leg": 17,
+      "title": "Toulouse - Luz-Ardiden",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Épinal",
+        "country": "France",
+        "lng": "6.449403",
+        "lat": "48.172402"
+      },
+      "length": 47,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-18b",
+      "year": 1985,
+      "leg": 18,
+      "title": "Laruns - Pau",
+      "start": {
+        "city": "Laruns",
+        "country": "France",
+        "lng": "-0.426274",
+        "lat": "42.987644"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-18a",
+      "year": 1985,
+      "leg": 18,
+      "title": "Luz-Saint-Sauveur - Col d'Aubisque",
+      "start": {
+        "city": "Luz-Saint-Sauveur",
+        "country": "France",
+        "lng": "-0.002869",
+        "lat": "42.873542"
+      },
+      "finish": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "length": 256,
+      "type": null,
+      "winner": {
+        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-19",
+      "year": 1985,
+      "leg": 19,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Lans-en-Vercors",
+        "country": "France",
+        "lng": "5.58827",
+        "lat": "45.127976"
+      },
+      "length": 73,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "La Vie Claire Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-20",
+      "year": 1985,
+      "leg": 20,
+      "title": "Montpon-Ménestérol - Limoges",
+      "start": {
+        "city": "Montpon-Ménestérol",
+        "country": "France",
+        "lng": "0.162",
+        "lat": "45.009274"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 224,
+      "type": null,
+      "winner": {
+        "name": "Henri Manders Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-21",
+      "year": 1985,
+      "leg": 21,
+      "title": "Lac de Vassivière - Lac de Vassivière",
+      "start": {
+        "city": "Lac de Vassivière",
+        "country": "France",
+        "lng": "1.87608",
+        "lat": "45.791652"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lng": "2.444997",
+        "lat": "44.930953"
+      },
+      "length": 221,
+      "type": null,
+      "winner": {
+        "name": "Francis Castaing Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-22",
+      "year": 1985,
+      "leg": 22,
+      "title": "Orléans - Paris",
+      "start": {
+        "city": "Orléans",
+        "country": "France",
+        "lng": "1.909251",
+        "lat": "47.902964"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "Ludwig Wijnants Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    }
+  ]
+}

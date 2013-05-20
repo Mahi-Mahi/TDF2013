@@ -1,0 +1,636 @@
+{
+  "year": 1950,
+  "edition": 37,
+  "total_length": 4773,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 116,
+  "nb_finishers": 51,
+  "pct_finishers": 44,
+  "winner_name": "Ferdi Kübler",
+  "winner_time": "145h 36’ 46”",
+  "ahead_of_2nd": "0h 09' 30\" ",
+  "second_name": "S. Ockers",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "0h 22' 19\"",
+  "third_name": "L. Bobet",
+  "third_country": "L. Bobet",
+  "legs": [
+    {
+      "id": "E-1950-01",
+      "year": 1950,
+      "leg": 1,
+      "title": "Paris - Metz",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 307,
+      "type": null,
+      "winner": {
+        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-02",
+      "year": 1950,
+      "leg": 2,
+      "title": "Metz - Liège (BEL)",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 231,
+      "type": null,
+      "winner": {
+        "name": "Stan Ockers Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-03",
+      "year": 1950,
+      "leg": 3,
+      "title": "Liège (BEL) - Lille",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 181,
+      "type": null,
+      "winner": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-04",
+      "year": 1950,
+      "leg": 4,
+      "title": "Lille - Rouen",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": "Alfredo Pasotti Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-05",
+      "year": 1950,
+      "leg": 5,
+      "title": "Rouen - Dinard",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 202,
+      "type": null,
+      "winner": {
+        "name": "Marcel Dussault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-06",
+      "year": 1950,
+      "leg": 6,
+      "title": "Dinard - Saint-Brieuc",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lng": "-2.055125",
+        "lat": "48.633024"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-07",
+      "year": 1950,
+      "leg": 7,
+      "title": "Saint-Brieuc - Angers",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Marcel Molinès Drapeau de France France Coat of arms Algeria (1830-1962).svgAlgérie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-08",
+      "year": 1950,
+      "leg": 8,
+      "title": "Angers - Niort",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "length": 222,
+      "type": null,
+      "winner": {
+        "name": "Custodio Dos Reis Drapeau de France France Drapeau du Maroc Maroc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-09",
+      "year": 1950,
+      "leg": 9,
+      "title": "Niort - Bordeaux",
+      "start": {
+        "city": "Niort",
+        "country": "France",
+        "lng": "-0.464777",
+        "lat": "46.323716"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-10",
+      "year": 1950,
+      "leg": 10,
+      "title": "Bordeaux - Pau",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "length": 233,
+      "type": null,
+      "winner": {
+        "name": "Maurice Blomme Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-11",
+      "year": 1950,
+      "leg": 11,
+      "title": "Pau - Saint-Gaudens",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 96,
+      "type": null,
+      "winner": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-12",
+      "year": 1950,
+      "leg": 12,
+      "title": "Saint-Gaudens - Perpignan",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 229,
+      "type": null,
+      "winner": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-13",
+      "year": 1950,
+      "leg": 13,
+      "title": "Perpignan - Nîmes",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Dinard",
+        "country": "France",
+        "lng": "-2.055125",
+        "lat": "48.633024"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-14",
+      "year": 1950,
+      "leg": 14,
+      "title": "Nîmes - Toulon",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "length": 291,
+      "type": null,
+      "winner": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-15",
+      "year": 1950,
+      "leg": 15,
+      "title": "Toulon - Menton",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 98,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-16",
+      "year": 1950,
+      "leg": 16,
+      "title": "Menton - Nice",
+      "start": {
+        "city": "Menton",
+        "country": "France",
+        "lng": "7.49754",
+        "lat": "43.774481"
+      },
+      "finish": {
+        "city": "Niort",
+        "country": "France",
+        "lng": "-0.464777",
+        "lat": "46.323716"
+      },
+      "length": 233,
+      "type": null,
+      "winner": {
+        "name": "Gino Sciardis Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-17",
+      "year": 1950,
+      "leg": 17,
+      "title": "Nice - Gap",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 314,
+      "type": null,
+      "winner": {
+        "name": "Émile Baffert Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-18",
+      "year": 1950,
+      "leg": 18,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 241,
+      "type": null,
+      "winner": {
+        "name": "Adolfo Leoni Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-19",
+      "year": 1950,
+      "leg": 19,
+      "title": "Briançon - Saint-Étienne",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "length": 232,
+      "type": null,
+      "winner": {
+        "name": "Alfredo Pasotti Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-20",
+      "year": 1950,
+      "leg": 20,
+      "title": "Saint-Étienne - Lyon",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "length": 316,
+      "type": null,
+      "winner": {
+        "name": "Giovanni Corrieri Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-21",
+      "year": 1950,
+      "leg": 21,
+      "title": "Lyon - Dijon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "length": 78,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1950-22",
+      "year": 1950,
+      "leg": 22,
+      "title": "Dijon - Paris",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lng": "5.04148",
+        "lat": "47.322047"
+      },
+      "finish": {
+        "city": "Menton",
+        "country": "France",
+        "lng": "7.49754",
+        "lat": "43.774481"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "Nello Lauredi Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

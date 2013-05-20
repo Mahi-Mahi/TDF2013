@@ -1,0 +1,608 @@
+{
+  "year": 1947,
+  "edition": 34,
+  "total_length": 4642,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 100,
+  "nb_finishers": 53,
+  "pct_finishers": 53,
+  "winner_name": "Jean Robic",
+  "winner_time": "148h 11’ 25”",
+  "ahead_of_2nd": "0h 03' 58\" ",
+  "second_name": "E. Fachleitner",
+  "second_country": "France",
+  "ahead_of_3rd": "0h 10' 07\"",
+  "third_name": "P. Brambilla",
+  "third_country": "P. Brambilla",
+  "legs": [
+    {
+      "id": "E-1947-01",
+      "year": 1947,
+      "leg": 1,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-02",
+      "year": 1947,
+      "leg": 2,
+      "title": "Lille - Bruxelles (BEL)",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 223,
+      "type": null,
+      "winner": {
+        "name": "Jean Robic Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-03",
+      "year": 1947,
+      "leg": 3,
+      "title": "Bruxelles (BEL) - Luxembourg (LUX)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 172,
+      "type": null,
+      "winner": {
+        "name": "Jean Robic Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-04",
+      "year": 1947,
+      "leg": 4,
+      "title": "Luxembourg (LUX) - Strasbourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 185,
+      "type": null,
+      "winner": {
+        "name": "Fermo Camellini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-05",
+      "year": 1947,
+      "leg": 5,
+      "title": "Strasbourg - Besançon",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-06",
+      "year": 1947,
+      "leg": 6,
+      "title": "Besançon - Lyon",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lng": "-2.760847",
+        "lat": "47.658236"
+      },
+      "length": 255,
+      "type": null,
+      "winner": {
+        "name": "Fermo Camellini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-07",
+      "year": 1947,
+      "leg": 7,
+      "title": "Lyon - Grenoble",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Édouard Fachleitner Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-08",
+      "year": 1947,
+      "leg": 8,
+      "title": "Grenoble - Briançon",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 172,
+      "type": null,
+      "winner": {
+        "name": "Lucien Teisseire Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-09",
+      "year": 1947,
+      "leg": 9,
+      "title": "Briançon - Digne-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 253,
+      "type": null,
+      "winner": {
+        "name": "Albert Bourlon Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-10",
+      "year": 1947,
+      "leg": 10,
+      "title": "Digne-les-Bains - Nice",
+      "start": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lng": "6.235976",
+        "lat": "44.092193"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Henri Massal Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-11",
+      "year": 1947,
+      "leg": 11,
+      "title": "Nice - Marseille",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Jean Robic Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-12",
+      "year": 1947,
+      "leg": 12,
+      "title": "Marseille - Montpellier",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Giuseppe Tacca Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-13",
+      "year": 1947,
+      "leg": 13,
+      "title": "Montpellier - Carcassonne",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 272,
+      "type": null,
+      "winner": {
+        "name": "Éloi Tassin Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-14",
+      "year": 1947,
+      "leg": 14,
+      "title": "Carcassonne - Luchon",
+      "start": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lng": "2.353663",
+        "lat": "43.212161"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Pietro Tarchini Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-15",
+      "year": 1947,
+      "leg": 15,
+      "title": "Luchon - Pau",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 139,
+      "type": "CLM indiv",
+      "winner": {
+        "name": "Raymond Impanis Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Pierre Brambilla Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-16",
+      "year": 1947,
+      "leg": 16,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 235,
+      "type": null,
+      "winner": {
+        "name": "Maurice Diot Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Pierre Brambilla Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-17",
+      "year": 1947,
+      "leg": 17,
+      "title": "Bordeaux - Les Sables-d'Olonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lng": "6.235976",
+        "lat": "44.092193"
+      },
+      "length": 257,
+      "type": null,
+      "winner": {
+        "name": "Albéric Schotte Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Robic Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-18",
+      "year": 1947,
+      "leg": 18,
+      "title": "Les Sables-d'Olonne - Vannes",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-19",
+      "year": 1947,
+      "leg": 19,
+      "title": "Vannes - Saint-Brieuc",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lng": "-2.760847",
+        "lat": "47.658236"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 314,
+      "type": null,
+      "winner": {
+        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-20",
+      "year": 1947,
+      "leg": 20,
+      "title": "Saint-Brieuc - Caen",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lng": "-2.765835",
+        "lat": "48.51418"
+      },
+      "finish": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lng": "2.353663",
+        "lat": "43.212161"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-21",
+      "year": 1947,
+      "leg": 21,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 249,
+      "type": null,
+      "winner": {
+        "name": "Lucien Teisseire Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Vietto Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

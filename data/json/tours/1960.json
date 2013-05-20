@@ -1,0 +1,636 @@
+{
+  "year": 1960,
+  "edition": 47,
+  "total_length": 4173,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 128,
+  "nb_finishers": 81,
+  "pct_finishers": 63,
+  "winner_name": "Gastone Nencini",
+  "winner_time": "112h 08’ 42”",
+  "ahead_of_2nd": "0h 05' 02\" ",
+  "second_name": "G. Battistini",
+  "second_country": "Italie",
+  "ahead_of_3rd": "0h 10' 24\"",
+  "third_name": "J. Adriaensens",
+  "third_country": "J. Adriaensens",
+  "legs": [
+    {
+      "id": "E-1960-1b",
+      "year": 1960,
+      "leg": 1,
+      "title": "Bruxelles (BEL) - Bruxelles (BEL)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "finish": {
+        "city": "Millau",
+        "country": "France",
+        "lng": "3.077801",
+        "lat": "44.100575"
+      },
+      "length": 209,
+      "type": null,
+      "winner": {
+        "name": "Nino Defilippis Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Groussard Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-1a",
+      "year": 1960,
+      "leg": 1,
+      "title": "Lille - Bruxelles (BEL)",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-02",
+      "year": 1960,
+      "leg": 2,
+      "title": "Bruxelles (BEL) - Malo-les-Bains",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "finish": {
+        "city": "Avignon",
+        "country": "France",
+        "lng": "4.805528",
+        "lat": "43.949317"
+      },
+      "length": 211,
+      "type": null,
+      "winner": {
+        "name": "Jean Graczyk Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Henry Anglade Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-03",
+      "year": 1960,
+      "leg": 3,
+      "title": "Malo-les-Bains - Dieppe",
+      "start": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lng": "2.398274",
+        "lat": "51.046636"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Graziano Battistini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jan Adriaenssens Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-04",
+      "year": 1960,
+      "leg": 4,
+      "title": "Dieppe - Caen",
+      "start": {
+        "city": "Dieppe",
+        "country": "France",
+        "lng": "1.077483",
+        "lat": "49.922992"
+      },
+      "finish": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lng": "6.477635",
+        "lat": "46.373565"
+      },
+      "length": 240,
+      "type": null,
+      "winner": {
+        "name": "Nino Defilippis Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jan Adriaenssens Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-05",
+      "year": 1960,
+      "leg": 5,
+      "title": "Caen - Saint-Malo",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Martin Van Geneugden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jan Adriaenssens Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-06",
+      "year": 1960,
+      "leg": 6,
+      "title": "Saint-Malo - Lorient",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "finish": {
+        "city": "Troyes",
+        "country": "France",
+        "lng": "4.074735",
+        "lat": "48.296592"
+      },
+      "length": 224,
+      "type": null,
+      "winner": {
+        "name": "Louis Proost Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-07",
+      "year": 1960,
+      "leg": 7,
+      "title": "Lorient - Angers",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "Martin Van Geneugden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-08",
+      "year": 1960,
+      "leg": 8,
+      "title": "Angers - Limoges",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 228,
+      "type": null,
+      "winner": {
+        "name": "Roger Rivière Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-09",
+      "year": 1960,
+      "leg": 9,
+      "title": "Limoges - Bordeaux",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 161,
+      "type": null,
+      "winner": {
+        "name": "Kurt Gimmi Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-10",
+      "year": 1960,
+      "leg": 10,
+      "title": "Mont-de-Marsan - Pau",
+      "start": {
+        "city": "Mont-de-Marsan",
+        "country": "France",
+        "lng": "-0.499782",
+        "lat": "43.893485"
+      },
+      "finish": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lng": "2.398274",
+        "lat": "51.046636"
+      },
+      "length": 176,
+      "type": null,
+      "winner": {
+        "name": "Jean Graczyk Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-11",
+      "year": 1960,
+      "leg": 11,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Dieppe",
+        "country": "France",
+        "lng": "1.077483",
+        "lat": "49.922992"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Michel Van Aerde Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-12",
+      "year": 1960,
+      "leg": 12,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 172,
+      "type": null,
+      "winner": {
+        "name": "Graziano Battistini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-13",
+      "year": 1960,
+      "leg": 13,
+      "title": "Toulouse - Millau",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "length": 229,
+      "type": null,
+      "winner": {
+        "name": "Jean Graczyk Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-14",
+      "year": 1960,
+      "leg": 14,
+      "title": "Millau - Avignon",
+      "start": {
+        "city": "Millau",
+        "country": "France",
+        "lng": "3.077801",
+        "lat": "44.100575"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Fernando Manzaneque Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-15",
+      "year": 1960,
+      "leg": 15,
+      "title": "Avignon - Gap",
+      "start": {
+        "city": "Avignon",
+        "country": "France",
+        "lng": "4.805528",
+        "lat": "43.949317"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lng": "-0.563166",
+        "lat": "47.478419"
+      },
+      "length": 83,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Rolf Graf Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-16",
+      "year": 1960,
+      "leg": 16,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lng": "1.261105",
+        "lat": "45.833619"
+      },
+      "length": 229,
+      "type": null,
+      "winner": {
+        "name": "Pierre Beuffeuil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-17",
+      "year": 1960,
+      "leg": 17,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Jean Graczyk Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-18",
+      "year": 1960,
+      "leg": 18,
+      "title": "Aix-les-Bains - Thonon-les-Bains",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 108,
+      "type": null,
+      "winner": {
+        "name": "Julien Schepens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Julien Schepens Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-19",
+      "year": 1960,
+      "leg": 19,
+      "title": "Pontarlier - Besançon",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 28,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Roger Rivière Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-20",
+      "year": 1960,
+      "leg": 20,
+      "title": "Besançon - Troyes",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Henry Anglade Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1960-21",
+      "year": 1960,
+      "leg": 21,
+      "title": "Troyes - Paris",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lng": "4.074735",
+        "lat": "48.296592"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 191,
+      "type": null,
+      "winner": {
+        "name": "Roger Rivière Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jan Adriaenssens Drapeau belge Belgique",
+        "nationality": null
+      }
+    }
+  ]
+}

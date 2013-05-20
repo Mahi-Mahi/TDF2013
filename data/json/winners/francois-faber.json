@@ -1,0 +1,20 @@
+{
+  "id": "francois-faber",
+  "first_name": "François",
+  "last_name": "Faber",
+  "birthyear": 1887,
+  "country": "Luxembourg",
+  "years": {
+    "1909": {
+      "nb_days_in_yellow": 12,
+      "nb_tour_legs": 14,
+      "pct_leading": 86,
+      "nb_leg_wins": 6,
+      "average_speed": 28,
+      "total_time": "157h 01’ 22”",
+      "ahead_of_2nd": "n.a."
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

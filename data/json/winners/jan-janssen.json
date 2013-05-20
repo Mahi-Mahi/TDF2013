@@ -1,0 +1,20 @@
+{
+  "id": "jan-janssen",
+  "first_name": "Jan",
+  "last_name": "Janssen",
+  "birthyear": 1940,
+  "country": "Pays-Bas",
+  "years": {
+    "1968": {
+      "nb_days_in_yellow": 0,
+      "nb_tour_legs": 22,
+      "pct_leading": 0,
+      "nb_leg_wins": 2,
+      "average_speed": 33,
+      "total_time": "133h 49’ 32”",
+      "ahead_of_2nd": "0h00'38''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sylvere-maes",
+  "first_name": "Sylvère",
+  "last_name": "Maes",
+  "birthyear": 1910,
+  "country": "Belgique",
+  "years": {
+    "1936": {
+      "nb_days_in_yellow": 12,
+      "nb_tour_legs": 21,
+      "pct_leading": 57,
+      "nb_leg_wins": 4,
+      "average_speed": 31,
+      "total_time": "142h 47’ 32”",
+      "ahead_of_2nd": "0h26'55''"
+    },
+    "1939": {
+      "nb_days_in_yellow": 3,
+      "nb_tour_legs": 18,
+      "pct_leading": 17,
+      "nb_leg_wins": 2,
+      "average_speed": 31,
+      "total_time": "132h 03’ 17”",
+      "ahead_of_2nd": "0h30'38''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "2"
+}

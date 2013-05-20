@@ -1,0 +1,20 @@
+{
+  "id": "andy-schleck",
+  "first_name": "Andy",
+  "last_name": "Schleck",
+  "birthyear": 1985,
+  "country": "Luxembourg",
+  "years": {
+    "2010": {
+      "nb_days_in_yellow": 11,
+      "nb_tour_legs": 20,
+      "pct_leading": 55,
+      "nb_leg_wins": 2,
+      "average_speed": 39,
+      "total_time": "91h 58’ 48\"",
+      "ahead_of_2nd": "0h01'22''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

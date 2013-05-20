@@ -1,0 +1,608 @@
+{
+  "year": 2001,
+  "edition": 88,
+  "total_length": 3458,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 189,
+  "nb_finishers": 144,
+  "pct_finishers": 76,
+  "winner_name": "n.a.",
+  "winner_time": "86h 17’ 28’’",
+  "ahead_of_2nd": "0h 06' 44\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "ahead_of_3rd": "0h 09' 05\"",
+  "third_name": "J. Beloki",
+  "third_country": "J. Beloki",
+  "legs": [
+    {
+      "id": "E-2001-Prologue",
+      "year": 2001,
+      "leg": 0,
+      "title": "Dunkerque - Dunkerque",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "length": 150,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : République tchèqueJán Svorada",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-01",
+      "year": 2001,
+      "leg": 1,
+      "title": "Saint-Omer - Boulogne-sur-Mer",
+      "start": {
+        "city": "Saint-Omer",
+        "country": "France",
+        "lng": "2.252208",
+        "lat": "50.750115"
+      },
+      "finish": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lng": "1.613334",
+        "lat": "50.725231"
+      },
+      "length": 8,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : FranceChristophe Moreau",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceChristophe Moreau",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-02",
+      "year": 2001,
+      "leg": 2,
+      "title": "Calais - Anvers (BEL)",
+      "start": {
+        "city": "Calais",
+        "country": "France",
+        "lng": "1.858686",
+        "lat": "50.95129"
+      },
+      "finish": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.837545",
+        "lat": "42.720254"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneErik Zabel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-03",
+      "year": 2001,
+      "leg": 3,
+      "title": "Anvers (BEL) - Seraing (BEL)",
+      "start": {
+        "city": "Anvers",
+        "country": "Belgique",
+        "lng": "4.402882",
+        "lat": "51.219216"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lng": "-0.061335",
+        "lat": "42.885105"
+      },
+      "length": 67,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau : FranceCrédit agricole",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-04",
+      "year": 2001,
+      "leg": 4,
+      "title": "Huy (BEL) - Verdun",
+      "start": {
+        "city": "Huy",
+        "country": "Belgique",
+        "lng": "5.239666",
+        "lat": "50.518715"
+      },
+      "finish": {
+        "city": "Lavaur",
+        "country": "France",
+        "lng": "1.820699",
+        "lat": "43.699185"
+      },
+      "length": 220,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-05",
+      "year": 2001,
+      "leg": 5,
+      "title": "Verdun - Bar-le-Duc",
+      "start": {
+        "city": "Verdun",
+        "country": "France",
+        "lng": "5.386757",
+        "lat": "49.15894"
+      },
+      "finish": {
+        "city": "Sarran",
+        "country": "France",
+        "lng": "1.935675",
+        "lat": "45.408167"
+      },
+      "length": 162,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : FranceLaurent Jalabert",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneJens Voigt",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-06",
+      "year": 2001,
+      "leg": 6,
+      "title": "Commercy - Strasbourg",
+      "start": {
+        "city": "Commercy",
+        "country": "France",
+        "lng": "5.592348",
+        "lat": "48.763802"
+      },
+      "finish": {
+        "city": "Montluçon",
+        "country": "France",
+        "lng": "2.606645",
+        "lat": "46.339966"
+      },
+      "length": 220,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasErik Dekker",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-07",
+      "year": 2001,
+      "leg": 7,
+      "title": "Strasbourg - Colmar",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Saint-Amand-Montrond",
+        "country": "France",
+        "lng": "2.505604",
+        "lat": "46.725486"
+      },
+      "length": 185,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : RussieSergueï Ivanov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-08",
+      "year": 2001,
+      "leg": 8,
+      "title": "Colmar - Pontarlier",
+      "start": {
+        "city": "Colmar",
+        "country": "France",
+        "lng": "7.358512",
+        "lat": "48.079359"
+      },
+      "finish": {
+        "city": "Evry",
+        "country": "France",
+        "lng": "2.441782",
+        "lat": "48.629828"
+      },
+      "length": 208,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceFrançois Simon",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-09",
+      "year": 2001,
+      "leg": 9,
+      "title": "Pontarlier - Aix-les-Bains",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 166,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ColombieFélix Cárdenas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceFrançois Simon",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-10",
+      "year": 2001,
+      "leg": 10,
+      "title": "Aix-les-Bains - L'Alpe d'Huez",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "Anvers",
+        "country": "Belgique",
+        "lng": "4.402882",
+        "lat": "51.219216"
+      },
+      "length": 32,
+      "type": "Étape de montagne (CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceFrançois Simon",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-11",
+      "year": 2001,
+      "leg": 11,
+      "title": "Grenoble - Chamrousse",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Seraing",
+        "country": "Belgique",
+        "lng": "5.5",
+        "lat": "50.583333"
+      },
+      "length": 194,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-12",
+      "year": 2001,
+      "leg": 12,
+      "title": "Perpignan - Ax-les-Thermes",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Verdun",
+        "country": "France",
+        "lng": "5.386757",
+        "lat": "49.15894"
+      },
+      "length": 144,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneRoberto Laiseka",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-13",
+      "year": 2001,
+      "leg": 13,
+      "title": "Foix - Saint-Lary-Soulan",
+      "start": {
+        "city": "Foix",
+        "country": "France",
+        "lng": "1.605232",
+        "lat": "42.964127"
+      },
+      "finish": {
+        "city": "Bar-le-Duc",
+        "country": "France",
+        "lng": "5.158238",
+        "lat": "48.773605"
+      },
+      "length": 226,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueRik Verbrugghe",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-14",
+      "year": 2001,
+      "leg": 14,
+      "title": "Tarbes - Luz-Ardiden",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lng": "0.078082",
+        "lat": "43.232951"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 224,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneJens Voigt",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-15",
+      "year": 2001,
+      "leg": 15,
+      "title": "Pau - Lavaur",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Colmar",
+        "country": "France",
+        "lng": "7.358512",
+        "lat": "48.079359"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueSerge Baguet",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-16",
+      "year": 2001,
+      "leg": 16,
+      "title": "Castelsarrasin - Sarran",
+      "start": {
+        "city": "Castelsarrasin",
+        "country": "France",
+        "lng": "1.107132",
+        "lat": "44.039889"
+      },
+      "finish": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lng": "6.354242",
+        "lat": "46.904104"
+      },
+      "length": 61,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-17",
+      "year": 2001,
+      "leg": 17,
+      "title": "Brive-la-Gaillarde - Montluçon",
+      "start": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lng": "1.533937",
+        "lat": "45.159555"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "length": 160,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneErik Zabel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-18",
+      "year": 2001,
+      "leg": 18,
+      "title": "Montluçon - Saint-Amand-Montrond",
+      "start": {
+        "city": "Montluçon",
+        "country": "France",
+        "lng": "2.606645",
+        "lat": "46.339966"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneErik Zabel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceChristophe Moreau",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-19",
+      "year": 2001,
+      "leg": 19,
+      "title": "Orléans - Evry",
+      "start": {
+        "city": "Orléans",
+        "country": "France",
+        "lng": "1.909251",
+        "lat": "47.902964"
+      },
+      "finish": {
+        "city": "Chamrousse",
+        "country": "France",
+        "lng": "5.877747",
+        "lat": "45.117225"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueMarc Wauters",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueMarc Wauters",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2001-20",
+      "year": 2001,
+      "leg": 20,
+      "title": "Corbeil-Essonnes - Paris",
+      "start": {
+        "city": "Corbeil-Essonnes",
+        "country": "France",
+        "lng": "2.474805",
+        "lat": "48.61026"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lng": "0.320251",
+        "lat": "42.815835"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceLaurent Jalabert",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieStuart O'Grady",
+        "nationality": null
+      }
+    }
+  ]
+}

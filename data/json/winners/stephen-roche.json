@@ -1,0 +1,20 @@
+{
+  "id": "stephen-roche",
+  "first_name": "Stephen",
+  "last_name": "Roche",
+  "birthyear": 1960,
+  "country": "Irlande",
+  "years": {
+    "1987": {
+      "nb_days_in_yellow": 2,
+      "nb_tour_legs": 25,
+      "pct_leading": 8,
+      "nb_leg_wins": 1,
+      "average_speed": 36,
+      "total_time": "115h 27’ 42”",
+      "ahead_of_2nd": "0h00'40''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

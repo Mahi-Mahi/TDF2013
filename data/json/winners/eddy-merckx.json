@@ -1,0 +1,56 @@
+{
+  "id": "eddy-merckx",
+  "first_name": "Eddy",
+  "last_name": "Merckx",
+  "birthyear": 1945,
+  "country": "Belgique",
+  "years": {
+    "1969": {
+      "nb_days_in_yellow": 17,
+      "nb_tour_legs": 22,
+      "pct_leading": 77,
+      "nb_leg_wins": 7,
+      "average_speed": 35,
+      "total_time": "116h 16’ 02”",
+      "ahead_of_2nd": "0h17'54''"
+    },
+    "1970": {
+      "nb_days_in_yellow": 19,
+      "nb_tour_legs": 23,
+      "pct_leading": 83,
+      "nb_leg_wins": 8,
+      "average_speed": 35,
+      "total_time": "119h 31’ 49”",
+      "ahead_of_2nd": "0h12'41''"
+    },
+    "1971": {
+      "nb_days_in_yellow": 16,
+      "nb_tour_legs": 20,
+      "pct_leading": 80,
+      "nb_leg_wins": 4,
+      "average_speed": 38,
+      "total_time": "96h 45’ 14”",
+      "ahead_of_2nd": "0h09'51''"
+    },
+    "1972": {
+      "nb_days_in_yellow": 14,
+      "nb_tour_legs": 20,
+      "pct_leading": 70,
+      "nb_leg_wins": 7,
+      "average_speed": 35,
+      "total_time": "108h 17’ 18”",
+      "ahead_of_2nd": "0h10'41''"
+    },
+    "1974": {
+      "nb_days_in_yellow": 17,
+      "nb_tour_legs": 22,
+      "pct_leading": 77,
+      "nb_leg_wins": 9,
+      "average_speed": 35,
+      "total_time": "116h 16’ 58”",
+      "ahead_of_2nd": "0h08'04''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "5"
+}

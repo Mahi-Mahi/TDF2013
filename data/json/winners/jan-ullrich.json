@@ -1,0 +1,20 @@
+{
+  "id": "jan-ullrich",
+  "first_name": "Jan",
+  "last_name": "Ullrich",
+  "birthyear": 1974,
+  "country": "Allemagne",
+  "years": {
+    "1997": {
+      "nb_days_in_yellow": 11,
+      "nb_tour_legs": 21,
+      "pct_leading": 52,
+      "nb_leg_wins": 2,
+      "average_speed": 39,
+      "total_time": "100h 30’ 35”",
+      "ahead_of_2nd": "0h09'09''"
+    }
+  },
+  "is_doped": true,
+  "nb_wins": "1"
+}

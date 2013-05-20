@@ -1,0 +1,608 @@
+{
+  "year": 2007,
+  "edition": 94,
+  "total_length": 3570,
+  "nb_legs": 21,
+  "has_prologue": true,
+  "nb_concurrents": 189,
+  "nb_finishers": 141,
+  "pct_finishers": 75,
+  "winner_name": "Alberto Contador",
+  "winner_time": "91h 00’ 26\"",
+  "ahead_of_2nd": "0h 00' 23\" ",
+  "second_name": "C. Evans",
+  "second_country": "Australie",
+  "ahead_of_3rd": "0h 00' 31\"",
+  "third_name": "L. Leipheimer",
+  "third_country": "L. Leipheimer",
+  "legs": [
+    {
+      "id": "E-2007-Prologue",
+      "year": 2007,
+      "leg": 0,
+      "title": "Londres (GBR) - Londres (GBR)",
+      "start": {
+        "city": "Londres",
+        "country": "Grande-Bretagne",
+        "lng": "-0.119824",
+        "lat": "51.511214"
+      },
+      "finish": {
+        "city": "Londres",
+        "country": "Grande-Bretagne",
+        "lng": "-0.119824",
+        "lat": "51.511214"
+      },
+      "length": 130,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieDaniele Bennati",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-01",
+      "year": 2007,
+      "leg": 1,
+      "title": "Londres (GBR) - Cantorbéry (GBR)",
+      "start": {
+        "city": "Londres",
+        "country": "Grande-Bretagne",
+        "lng": "-0.119824",
+        "lat": "51.511214"
+      },
+      "finish": {
+        "city": "Cantorbéry",
+        "country": "Grande-Bretagne",
+        "lng": "1.078909",
+        "lat": "51.280233"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-02",
+      "year": 2007,
+      "leg": 2,
+      "title": "Dunkerque - Gand (BEL)",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Castres",
+        "country": "France",
+        "lng": "2.241295",
+        "lat": "43.606214"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-03",
+      "year": 2007,
+      "leg": 3,
+      "title": "Waregem (BEL) - Compiègne",
+      "start": {
+        "city": "Waregem",
+        "country": "Belgique",
+        "lng": "3.423168",
+        "lat": "50.886895"
+      },
+      "finish": {
+        "city": "Plateau de Beille, Aston",
+        "country": "France",
+        "lng": "1.702387",
+        "lat": "42.709683"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieFilippo Pozzato",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-04",
+      "year": 2007,
+      "leg": 4,
+      "title": "Villers-Cotterêts - Joigny",
+      "start": {
+        "city": "Villers-Cotterêts",
+        "country": "France",
+        "lng": "3.090816",
+        "lat": "49.255061"
+      },
+      "finish": {
+        "city": "Loudenvielle",
+        "country": "France",
+        "lng": "0.412744",
+        "lat": "42.795702"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-05",
+      "year": 2007,
+      "leg": 5,
+      "title": "Chablis - Autun",
+      "start": {
+        "city": "Chablis",
+        "country": "France",
+        "lng": "3.800451",
+        "lat": "47.815269"
+      },
+      "finish": {
+        "city": "Gourette, Eaux-Bonnes",
+        "country": "France",
+        "lng": "-0.332111",
+        "lat": "42.958836"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneLinus Gerdemann",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneLinus Gerdemann",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-06",
+      "year": 2007,
+      "leg": 6,
+      "title": "Semur-en-Auxois - Bourg-en-Bresse",
+      "start": {
+        "city": "Semur-en-Auxois",
+        "country": "France",
+        "lng": "4.33234",
+        "lat": "47.490238"
+      },
+      "finish": {
+        "city": "Castelsarrasin",
+        "country": "France",
+        "lng": "1.107132",
+        "lat": "44.039889"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-07",
+      "year": 2007,
+      "leg": 7,
+      "title": "Bourg-en-Bresse - Le Grand-Bornand",
+      "start": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lng": "5.219246",
+        "lat": "46.20279"
+      },
+      "finish": {
+        "city": "Angoulême",
+        "country": "France",
+        "lng": "0.156237",
+        "lat": "45.648377"
+      },
+      "length": 161,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ColombieMauricio Soler",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-08",
+      "year": 2007,
+      "leg": 8,
+      "title": "Le Grand-Bornand - Tignes",
+      "start": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lng": "6.426699",
+        "lat": "45.942027"
+      },
+      "finish": {
+        "city": "Angoulême",
+        "country": "France",
+        "lng": "0.156237",
+        "lat": "45.648377"
+      },
+      "length": 229,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceCédric Vasseur",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-09",
+      "year": 2007,
+      "leg": 9,
+      "title": "Val d'Isère - Briançon",
+      "start": {
+        "city": "Val d'Isère",
+        "country": "France",
+        "lng": "6.980226",
+        "lat": "45.448034"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 179,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-10",
+      "year": 2007,
+      "leg": 10,
+      "title": "Tallard - Marseille",
+      "start": {
+        "city": "Tallard",
+        "country": "France",
+        "lng": "6.055327",
+        "lat": "44.461865"
+      },
+      "finish": {
+        "city": "Gand",
+        "country": "Belgique",
+        "lng": "3.73038",
+        "lat": "51.053468"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Afrique du SudRobert Hunter",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-11",
+      "year": 2007,
+      "leg": 11,
+      "title": "Marseille - Montpellier",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Compiègne",
+        "country": "France",
+        "lng": "2.826145",
+        "lat": "49.417816"
+      },
+      "length": 54,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-12",
+      "year": 2007,
+      "leg": 12,
+      "title": "Montpellier - Castres",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Joigny",
+        "country": "France",
+        "lng": "3.398961",
+        "lat": "47.981432"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-13",
+      "year": 2007,
+      "leg": 13,
+      "title": "Albi - Albi",
+      "start": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "finish": {
+        "city": "Autun",
+        "country": "France",
+        "lng": "4.301565",
+        "lat": "46.950914"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgKim Kirchen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-14",
+      "year": 2007,
+      "leg": 14,
+      "title": "Mazamet - Plateau de Beille",
+      "start": {
+        "city": "Mazamet",
+        "country": "France",
+        "lng": "2.376579",
+        "lat": "43.490103"
+      },
+      "finish": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lng": "5.219246",
+        "lat": "46.20279"
+      },
+      "length": 218,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen[18]",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-15",
+      "year": 2007,
+      "leg": 15,
+      "title": "Foix - Loudenvielle (Val-Louron)",
+      "start": {
+        "city": "Foix",
+        "country": "France",
+        "lng": "1.605232",
+        "lat": "42.964127"
+      },
+      "finish": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lng": "6.426699",
+        "lat": "45.942027"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieDaniele Bennati",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-16",
+      "year": 2007,
+      "leg": 16,
+      "title": "Orthez - Gourette (Col d'Aubisque)",
+      "start": {
+        "city": "Orthez",
+        "country": "France",
+        "lng": "-0.773928",
+        "lat": "43.48756"
+      },
+      "finish": {
+        "city": "Tignes",
+        "country": "France",
+        "lng": "6.905578",
+        "lat": "45.468323"
+      },
+      "length": 211,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceSandy Casar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-17",
+      "year": 2007,
+      "leg": 17,
+      "title": "Pau - Castelsarrasin",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 55,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : États-UnisLevi Leipheimer",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-18",
+      "year": 2007,
+      "leg": 18,
+      "title": "Cahors - Angoulême",
+      "start": {
+        "city": "Cahors",
+        "country": "France",
+        "lng": "1.441989",
+        "lat": "44.447523"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-19",
+      "year": 2007,
+      "leg": 19,
+      "title": "Cognac - Angoulême",
+      "start": {
+        "city": "Cognac",
+        "country": "France",
+        "lng": "-0.328744",
+        "lat": "45.691046"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 167,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueGert Steegmans",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-20",
+      "year": 2007,
+      "leg": 20,
+      "title": "Marcoussis - Paris-Champs-Élysées",
+      "start": {
+        "city": "Marcoussis",
+        "country": "France",
+        "lng": "2.229881",
+        "lat": "48.642446"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "length": 190,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    }
+  ]
+}

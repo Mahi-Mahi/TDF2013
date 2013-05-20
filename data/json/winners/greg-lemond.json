@@ -1,0 +1,38 @@
+{
+  "id": "greg-lemond",
+  "first_name": "Greg",
+  "last_name": "LeMond",
+  "birthyear": 1962,
+  "country": "États-Unis",
+  "years": {
+    "1986": {
+      "nb_days_in_yellow": 6,
+      "nb_tour_legs": 23,
+      "pct_leading": 26,
+      "nb_leg_wins": 1,
+      "average_speed": 37,
+      "total_time": "110h 35’ 19”",
+      "ahead_of_2nd": "0h03'10''"
+    },
+    "1989": {
+      "nb_days_in_yellow": 7,
+      "nb_tour_legs": 21,
+      "pct_leading": 33,
+      "nb_leg_wins": 3,
+      "average_speed": 37,
+      "total_time": "87h 38’ 35”",
+      "ahead_of_2nd": "0h00'08''"
+    },
+    "1990": {
+      "nb_days_in_yellow": 1,
+      "nb_tour_legs": 21,
+      "pct_leading": 5,
+      "nb_leg_wins": 0,
+      "average_speed": 38,
+      "total_time": "90h 43’ 20”",
+      "ahead_of_2nd": "0h02'16''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "3"
+}

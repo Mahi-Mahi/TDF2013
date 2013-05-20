@@ -1,0 +1,692 @@
+{
+  "year": 1957,
+  "edition": 44,
+  "total_length": 4669,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 56,
+  "pct_finishers": 47,
+  "winner_name": "Jacques Anquetil",
+  "winner_time": "135h 44’ 42”",
+  "ahead_of_2nd": "0h 14' 56\" ",
+  "second_name": "M. Janssens",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "0h 17' 26\"",
+  "third_name": "A. Christian",
+  "third_country": "A. Christian",
+  "legs": [
+    {
+      "id": "E-1957-01",
+      "year": 1957,
+      "leg": 1,
+      "title": "Nantes - Granville",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Granville",
+        "country": "France",
+        "lng": "-1.597302",
+        "lat": "48.837579"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-02",
+      "year": 1957,
+      "leg": 2,
+      "title": "Granville - Caen",
+      "start": {
+        "city": "Granville",
+        "country": "France",
+        "lng": "-1.597302",
+        "lat": "48.837579"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 170,
+      "type": null,
+      "winner": {
+        "name": "Gilbert Bauvin Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-3b",
+      "year": 1957,
+      "leg": 3,
+      "title": "Caen - Rouen",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Libourne",
+        "country": "France",
+        "lng": "-0.243985",
+        "lat": "44.912998"
+      },
+      "length": 160,
+      "type": null,
+      "winner": {
+        "name": "Nino Defilippis Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-3a",
+      "year": 1957,
+      "leg": 3,
+      "title": "Circuit de la Prairie à Caen",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 286,
+      "type": null,
+      "winner": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-04",
+      "year": 1957,
+      "leg": 4,
+      "title": "Rouen - Roubaix",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "length": 246,
+      "type": null,
+      "winner": {
+        "name": "Roger Hassenforder Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-05",
+      "year": 1957,
+      "leg": 5,
+      "title": "Roubaix - Charleroi (BEL)",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-06",
+      "year": 1957,
+      "leg": 6,
+      "title": "Charleroi (BEL) - Metz",
+      "start": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lng": "4.444643",
+        "lat": "50.41081"
+      },
+      "finish": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lng": "2.173404",
+        "lat": "41.385064"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "André Trochut Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-07",
+      "year": 1957,
+      "leg": 7,
+      "title": "Metz - Colmar",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lng": "2.173404",
+        "lat": "41.385064"
+      },
+      "length": 223,
+      "type": null,
+      "winner": {
+        "name": "Roger Hassenforder Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Nicolas Barone Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-08",
+      "year": 1957,
+      "leg": 8,
+      "title": "Colmar - Besançon",
+      "start": {
+        "city": "Colmar",
+        "country": "France",
+        "lng": "7.358512",
+        "lat": "48.079359"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 10,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-09",
+      "year": 1957,
+      "leg": 9,
+      "title": "Besançon - Thonon-les-Bains",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 220,
+      "type": null,
+      "winner": {
+        "name": "Jean Bourlès Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-10",
+      "year": 1957,
+      "leg": 10,
+      "title": "Thonon-les-Bains - Briançon",
+      "start": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lng": "6.477635",
+        "lat": "46.373565"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lng": "-0.370679",
+        "lat": "49.182863"
+      },
+      "length": 239,
+      "type": null,
+      "winner": {
+        "name": "Jean Stablinski Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-11",
+      "year": 1957,
+      "leg": 11,
+      "title": "Briançon - Cannes",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Nino Defilippis Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-12",
+      "year": 1957,
+      "leg": 12,
+      "title": "Cannes - Marseille",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "finish": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lng": "4.444643",
+        "lat": "50.41081"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-13",
+      "year": 1957,
+      "leg": 13,
+      "title": "Marseille - Alès",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 194,
+      "type": null,
+      "winner": {
+        "name": "Pierino Baffi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-14",
+      "year": 1957,
+      "leg": 14,
+      "title": "Alès - Perpignan",
+      "start": {
+        "city": "Alès",
+        "country": "France",
+        "lng": "4.083352",
+        "lat": "44.127204"
+      },
+      "finish": {
+        "city": "Colmar",
+        "country": "France",
+        "lng": "7.358512",
+        "lat": "48.079359"
+      },
+      "length": 66,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-15b",
+      "year": 1957,
+      "leg": 15,
+      "title": "Circuit de Montjuich (ESP)",
+      "start": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lng": "2.173404",
+        "lat": "41.385064"
+      },
+      "finish": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lng": "6.477635",
+        "lat": "46.373565"
+      },
+      "length": 227,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-15a",
+      "year": 1957,
+      "leg": 15,
+      "title": "Perpignan - Barcelone (ESP)",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 317,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-16",
+      "year": 1957,
+      "leg": 16,
+      "title": "Barcelone (ESP) - Ax-les-Thermes",
+      "start": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lng": "2.173404",
+        "lat": "41.385064"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 226,
+      "type": null,
+      "winner": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-17",
+      "year": 1957,
+      "leg": 17,
+      "title": "Ax-les-Thermes - Saint-Gaudens",
+      "start": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.837545",
+        "lat": "42.720254"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "length": 15,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-18",
+      "year": 1957,
+      "leg": 18,
+      "title": "Saint-Gaudens - Pau",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 134,
+      "type": null,
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-19",
+      "year": 1957,
+      "leg": 19,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Alès",
+        "country": "France",
+        "lng": "4.083352",
+        "lat": "44.127204"
+      },
+      "length": 232,
+      "type": null,
+      "winner": {
+        "name": "Marcel Janssens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "René Privat Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-20",
+      "year": 1957,
+      "leg": 20,
+      "title": "Bordeaux - Libourne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.837545",
+        "lat": "42.720254"
+      },
+      "length": 192,
+      "type": null,
+      "winner": {
+        "name": "Pierino Baffi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Forestier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-21",
+      "year": 1957,
+      "leg": 21,
+      "title": "Libourne - Tours",
+      "start": {
+        "city": "Libourne",
+        "country": "France",
+        "lng": "-0.243985",
+        "lat": "44.912998"
+      },
+      "finish": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lng": "0.723763",
+        "lat": "43.106895"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Forestier Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1957-22",
+      "year": 1957,
+      "leg": 22,
+      "title": "Tours - Paris",
+      "start": {
+        "city": "Tours",
+        "country": null,
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 247,
+      "type": null,
+      "winner": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "year": 2002,
+  "edition": 89,
+  "total_length": 3278,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 189,
+  "nb_finishers": 153,
+  "pct_finishers": 81,
+  "winner_name": "n.a.",
+  "winner_time": "82h 05’ 12”",
+  "ahead_of_2nd": "0h 07' 17\" ",
+  "second_name": "J. Beloki",
+  "second_country": "Espagne",
+  "ahead_of_3rd": "0h 08' 17\"",
+  "third_name": "R. Rumsas",
+  "third_country": "R. Rumsas",
+  "legs": [
+    {
+      "id": "E-2002-Prologue",
+      "year": 2002,
+      "leg": 0,
+      "title": "Luxembourg (LUX) - Luxembourg (LUX)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "length": 147,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-01",
+      "year": 2002,
+      "leg": 1,
+      "title": "Luxembourg (LUX) - Luxembourg (LUX)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "length": 6,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-02",
+      "year": 2002,
+      "leg": 2,
+      "title": "Luxembourg (LUX) - Sarrebruck (ALL)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lng": "6.129583",
+        "lat": "49.815273"
+      },
+      "finish": {
+        "city": "Plateau de Beille, Aston",
+        "country": "France",
+        "lng": "1.702387",
+        "lat": "42.709683"
+      },
+      "length": 185,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneErik Zabel",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-03",
+      "year": 2002,
+      "leg": 3,
+      "title": "Metz - Reims",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lng": "5.283795",
+        "lat": "44.173925"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-04",
+      "year": 2002,
+      "leg": 4,
+      "title": "Épernay - Château-Thierry",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lng": "3.956242",
+        "lat": "49.043411"
+      },
+      "finish": {
+        "city": "Les Deux Alpes",
+        "country": "France",
+        "lng": "6.125578",
+        "lat": "45.010099"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneErik Zabel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-05",
+      "year": 2002,
+      "leg": 5,
+      "title": "Soissons - Rouen",
+      "start": {
+        "city": "Soissons",
+        "country": "France",
+        "lng": "3.32342",
+        "lat": "49.376636"
+      },
+      "finish": {
+        "city": "La Plagne",
+        "country": "France",
+        "lng": "6.659294",
+        "lat": "45.509874"
+      },
+      "length": 162,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-06",
+      "year": 2002,
+      "leg": 6,
+      "title": "Forges-les-Eaux - Alençon",
+      "start": {
+        "city": "Forges-les-Eaux",
+        "country": "France",
+        "lng": "1.545886",
+        "lat": "49.613311"
+      },
+      "finish": {
+        "city": "Cluses",
+        "country": "France",
+        "lng": "6.580582",
+        "lat": "46.06039"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasKarsten Kroon",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-07",
+      "year": 2002,
+      "leg": 7,
+      "title": "Bagnoles-de-l'Orne - Avranches",
+      "start": {
+        "city": "Bagnoles-de-l'Orne",
+        "country": "France",
+        "lng": "-0.415091",
+        "lat": "48.558399"
+      },
+      "finish": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lng": "5.219246",
+        "lat": "46.20279"
+      },
+      "length": 55,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : ColombieSantiago Botero",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-08",
+      "year": 2002,
+      "leg": 8,
+      "title": "Saint-Martin-de-Landelles - Plouay",
+      "start": {
+        "city": "Saint-Martin-de-Landelles",
+        "country": "France",
+        "lng": "-1.172382",
+        "lat": "48.546107"
+      },
+      "finish": {
+        "city": "Mâcon",
+        "country": "France",
+        "lng": "4.828731",
+        "lat": "46.306884"
+      },
+      "length": 147,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePatrice Halgand",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-09",
+      "year": 2002,
+      "leg": 9,
+      "title": "Lanester - Lorient",
+      "start": {
+        "city": "Lanester",
+        "country": "France",
+        "lng": "-3.347354",
+        "lat": "47.763494"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 198,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-10",
+      "year": 2002,
+      "leg": 10,
+      "title": "Bazas - Pau",
+      "start": {
+        "city": "Bazas",
+        "country": "France",
+        "lng": "-0.211464",
+        "lat": "44.430624"
+      },
+      "finish": {
+        "city": "Sarrebruck",
+        "country": "Allemagne",
+        "lng": "6.996933",
+        "lat": "49.240157"
+      },
+      "length": 158,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-11",
+      "year": 2002,
+      "leg": 11,
+      "title": "Pau - La Mongie",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "length": 166,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniDavid Millar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-12",
+      "year": 2002,
+      "leg": 12,
+      "title": "Lannemezan - Plateau de Beille",
+      "start": {
+        "city": "Lannemezan",
+        "country": "France",
+        "lng": "0.38396",
+        "lat": "43.125519"
+      },
+      "finish": {
+        "city": "Château-Thierry",
+        "country": "France",
+        "lng": "3.40262",
+        "lat": "49.045987"
+      },
+      "length": 220,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : FranceRichard Virenque",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-13",
+      "year": 2002,
+      "leg": 13,
+      "title": "Lavelanet - Béziers",
+      "start": {
+        "city": "Lavelanet",
+        "country": "France",
+        "lng": "1.851472",
+        "lat": "42.937653"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 226,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ColombieSantiago Botero",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-14",
+      "year": 2002,
+      "leg": 14,
+      "title": "Lodève - Mont Ventoux",
+      "start": {
+        "city": "Lodève",
+        "country": "France",
+        "lng": "3.313975",
+        "lat": "43.73366"
+      },
+      "finish": {
+        "city": "Alençon",
+        "country": "France",
+        "lng": "0.091266",
+        "lat": "48.432856"
+      },
+      "length": 179,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : Pays-BasMichael Boogerd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-15",
+      "year": 2002,
+      "leg": 15,
+      "title": "Vaison-la-Romaine - Les Deux Alpes",
+      "start": {
+        "city": "Vaison-la-Romaine",
+        "country": "France",
+        "lng": "5.075198",
+        "lat": "44.240968"
+      },
+      "finish": {
+        "city": "Avranches",
+        "country": "France",
+        "lng": "-1.36166",
+        "lat": "48.686843"
+      },
+      "length": 141,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieDario Frigo",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-16",
+      "year": 2002,
+      "leg": 16,
+      "title": "Les Deux Alpes - La Plagne",
+      "start": {
+        "city": "Les Deux Alpes",
+        "country": "France",
+        "lng": "6.125578",
+        "lat": "45.010099"
+      },
+      "finish": {
+        "city": "Plouay",
+        "country": "France",
+        "lng": "-3.334565",
+        "lat": "47.915138"
+      },
+      "length": 180,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-17",
+      "year": 2002,
+      "leg": 17,
+      "title": "Aime - Cluses",
+      "start": {
+        "city": "Aime",
+        "country": "France",
+        "lng": "6.652126",
+        "lat": "45.555982"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "length": 52,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-18",
+      "year": 2002,
+      "leg": 18,
+      "title": "Cluses - Bourg-en-Bresse",
+      "start": {
+        "city": "Cluses",
+        "country": "France",
+        "lng": "6.580582",
+        "lat": "46.06039"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseRubens Bertogliati",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseRubens Bertogliati",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-19",
+      "year": 2002,
+      "leg": 19,
+      "title": "Régnié-Durette - Mâcon",
+      "start": {
+        "city": "Régnié-Durette",
+        "country": "France",
+        "lng": "4.64105",
+        "lat": "46.136803"
+      },
+      "finish": {
+        "city": "La Mongie",
+        "country": "France",
+        "lng": "0.179167",
+        "lat": "42.91"
+      },
+      "length": 175,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneÓscar Freire",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseRubens Bertogliati",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2002-20",
+      "year": 2002,
+      "leg": 20,
+      "title": "Melun - Paris",
+      "start": {
+        "city": "Melun",
+        "country": "France",
+        "lng": "2.6554",
+        "lat": "48.542105"
+      },
+      "finish": {
+        "city": "Béziers",
+        "country": "France",
+        "lng": "3.215795",
+        "lat": "43.344233"
+      },
+      "length": 68,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau : EspagneOnce-Eroski",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneI. G. Galdeano",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "year": 2005,
+  "edition": 92,
+  "total_length": 3593,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 189,
+  "nb_finishers": 155,
+  "pct_finishers": 82,
+  "winner_name": "n.a.",
+  "winner_time": "86h 15’ 02\"",
+  "ahead_of_2nd": "0h 04' 40\" ",
+  "second_name": "I. Basso",
+  "second_country": "Italie",
+  "ahead_of_3rd": "0h 06' 21\"",
+  "third_name": "J. Ullrich",
+  "third_country": "J. Ullrich",
+  "legs": [
+    {
+      "id": "E-2005-01",
+      "year": 2005,
+      "leg": 1,
+      "title": "Fromentine - Noirmoutier-en-l'Île",
+      "start": {
+        "city": "Fromentine",
+        "country": "France",
+        "lng": "-2.140027",
+        "lat": "46.889175"
+      },
+      "finish": {
+        "city": "Noirmoutier-en-l'Île",
+        "country": "France",
+        "lng": "-2.247107",
+        "lat": "47.001143"
+      },
+      "length": 19,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau des États-UnisDavid Zabriskie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisDavid Zabriskie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-02",
+      "year": 2005,
+      "leg": 2,
+      "title": "Challans - Les Essarts",
+      "start": {
+        "city": "Challans",
+        "country": "France",
+        "lng": "-1.880412",
+        "lat": "46.844828"
+      },
+      "finish": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lng": "6.235976",
+        "lat": "44.092193"
+      },
+      "length": 66,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau des États-UnisDiscovery Channel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-03",
+      "year": 2005,
+      "leg": 3,
+      "title": "La Châtaigneraie - Tours",
+      "start": {
+        "city": "La Châtaigneraie",
+        "country": "France",
+        "lng": "-0.739875",
+        "lat": "46.649193"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lng": "0.320251",
+        "lat": "42.815835"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-04",
+      "year": 2005,
+      "leg": 4,
+      "title": "Tours - Blois",
+      "start": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 231,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-BasPieter Weening",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-05",
+      "year": 2005,
+      "leg": 5,
+      "title": "Chambord - Montargis",
+      "start": {
+        "city": "Chambord",
+        "country": "France",
+        "lng": "1.516878",
+        "lat": "47.614158"
+      },
+      "finish": {
+        "city": "Revel",
+        "country": "France",
+        "lng": "2.004573",
+        "lat": "43.458611"
+      },
+      "length": 170,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau du DanemarkMichael Rasmussen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de l'AllemagneJens Voigt",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-06",
+      "year": 2005,
+      "leg": 6,
+      "title": "Troyes - Nancy",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lng": "4.074735",
+        "lat": "48.296592"
+      },
+      "finish": {
+        "city": "Mende",
+        "country": "France",
+        "lng": "3.501873",
+        "lat": "44.517611"
+      },
+      "length": 192,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de l'EspagneAlejandro Valverde",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-07",
+      "year": 2005,
+      "leg": 7,
+      "title": "Lunéville - Karlsruhe (ALL)",
+      "start": {
+        "city": "Lunéville",
+        "country": "France",
+        "lng": "6.492339",
+        "lat": "48.592237"
+      },
+      "finish": {
+        "city": "Le Puy-en-Velay",
+        "country": "France",
+        "lng": "3.882936",
+        "lat": "45.042768"
+      },
+      "length": 173,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau du KazakhstanAlexandre Vinokourov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-08",
+      "year": 2005,
+      "leg": 8,
+      "title": "Pforzheim (ALL) - Gérardmer",
+      "start": {
+        "city": "Pforzheim",
+        "country": "Allemagne",
+        "lng": "8.693293",
+        "lat": "48.892638"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 173,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-09",
+      "year": 2005,
+      "leg": 9,
+      "title": "Gérardmer - Mulhouse",
+      "start": {
+        "city": "Gérardmer",
+        "country": "France",
+        "lng": "6.877292",
+        "lat": "48.070081"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 220,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de l'AutricheGeorg Totschnig",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-10",
+      "year": 2005,
+      "leg": 10,
+      "title": "Grenoble - Courchevel",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Les Essarts",
+        "country": "France",
+        "lng": "-1.23052",
+        "lat": "46.774141"
+      },
+      "length": 187,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de la FranceDavid Moncoutié",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-11",
+      "year": 2005,
+      "leg": 11,
+      "title": "Courchevel - Briançon",
+      "start": {
+        "city": "Courchevel",
+        "country": "France",
+        "lng": "6.61409",
+        "lat": "45.4203"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "length": 205,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau des États-UnisGeorge Hincapie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-12",
+      "year": 2005,
+      "leg": 12,
+      "title": "Briançon - Digne-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Blois",
+        "country": "France",
+        "lng": "1.336272",
+        "lat": "47.587952"
+      },
+      "length": 177,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau de l'EspagneÓscar Pereiro",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-13",
+      "year": 2005,
+      "leg": 13,
+      "title": "Miramas - Montpellier",
+      "start": {
+        "city": "Miramas",
+        "country": "France",
+        "lng": "5.002136",
+        "lat": "43.588896"
+      },
+      "finish": {
+        "city": "Montargis",
+        "country": "France",
+        "lng": "2.736291",
+        "lat": "47.99729"
+      },
+      "length": 239,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'ItaliePaolo Savoldelli",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-14",
+      "year": 2005,
+      "leg": 14,
+      "title": "Agde - Ax-3 Domaines",
+      "start": {
+        "city": "Agde",
+        "country": "France",
+        "lng": "3.47083",
+        "lat": "43.312455"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'EspagneMarcos Serrano",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-15",
+      "year": 2005,
+      "leg": 15,
+      "title": "Lézat-sur-Lèze - Saint-Lary-Soulan",
+      "start": {
+        "city": "Lézat-sur-Lèze",
+        "country": "France",
+        "lng": "1.346575",
+        "lat": "43.276267"
+      },
+      "finish": {
+        "city": "Karlsruhe",
+        "country": "Allemagne",
+        "lng": "8.379944",
+        "lat": "49.009148"
+      },
+      "length": 154,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'ItalieGiuseppe Guerini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-16",
+      "year": 2005,
+      "leg": 16,
+      "title": "Mourenx - Pau",
+      "start": {
+        "city": "Mourenx",
+        "country": "France",
+        "lng": "-0.620552",
+        "lat": "43.368262"
+      },
+      "finish": {
+        "city": "Gérardmer",
+        "country": "France",
+        "lng": "6.877292",
+        "lat": "48.070081"
+      },
+      "length": 55,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-17",
+      "year": 2005,
+      "leg": 17,
+      "title": "Pau - Revel",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 144,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du KazakhstanAlexandre Vinokourov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-18",
+      "year": 2005,
+      "leg": 18,
+      "title": "Albi - Mende",
+      "start": {
+        "city": "Albi",
+        "country": "France",
+        "lng": "2.146343",
+        "lat": "43.926896"
+      },
+      "finish": {
+        "city": "Courchevel",
+        "country": "France",
+        "lng": "6.61409",
+        "lat": "45.4203"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de la BelgiqueTom Boonen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisDavid Zabriskie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-19",
+      "year": 2005,
+      "leg": 19,
+      "title": "Issoire - Le Puy-en-Velay",
+      "start": {
+        "city": "Issoire",
+        "country": "France",
+        "lng": "3.248128",
+        "lat": "45.54151"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de la BelgiqueTom Boonen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisDavid Zabriskie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-20",
+      "year": 2005,
+      "leg": 20,
+      "title": "Saint-Étienne - Saint-Étienne",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 179,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'AustralieRobbie McEwen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2005-21",
+      "year": 2005,
+      "leg": 21,
+      "title": "Corbeil-Essonnes - Paris",
+      "start": {
+        "city": "Corbeil-Essonnes",
+        "country": "France",
+        "lng": "2.474805",
+        "lat": "48.61026"
+      },
+      "finish": {
+        "city": "Ax-3 Domaines",
+        "country": "France",
+        "lng": "1.81283",
+        "lat": "42.699657"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de l'ItalieLorenzo Bernucci",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des États-UnisLance Armstrong",
+        "nationality": null
+      }
+    }
+  ]
+}

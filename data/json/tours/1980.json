@@ -1,0 +1,720 @@
+{
+  "year": 1980,
+  "edition": 67,
+  "total_length": 3842,
+  "nb_legs": 22,
+  "has_prologue": true,
+  "nb_concurrents": 130,
+  "nb_finishers": 85,
+  "pct_finishers": 65,
+  "winner_name": "Joop Zoetemelk",
+  "winner_time": "109h 19’ 14”",
+  "ahead_of_2nd": "0h 06' 55\" ",
+  "second_name": "H. Kuiper",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "0h 07' 56\"",
+  "third_name": "R. Martin",
+  "third_country": "R. Martin",
+  "legs": [
+    {
+      "id": "E-1980-Prologue",
+      "year": 1980,
+      "leg": 0,
+      "title": "Francfort",
+      "start": {
+        "city": "Francfort",
+        "country": "Allemagne",
+        "lng": "8.682127",
+        "lat": "50.110922"
+      },
+      "finish": {
+        "city": "Francfort",
+        "country": "Allemagne",
+        "lng": "8.682127",
+        "lat": "50.110922"
+      },
+      "length": 186,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Pol Verschuere (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-1a",
+      "year": 1980,
+      "leg": 1,
+      "title": "Francfort - Wiesbaden",
+      "start": {
+        "city": "Francfort",
+        "country": "Allemagne",
+        "lng": "8.682127",
+        "lat": "50.110922"
+      },
+      "finish": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 276,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Yvon Bertin (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-1b",
+      "year": 1980,
+      "leg": 1,
+      "title": "Wiesbaden - Francfort",
+      "start": {
+        "city": "Wiesbaden",
+        "country": "Allemagne",
+        "lng": "8.243344",
+        "lat": "50.06308"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 282,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Henk Lubberding (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-02",
+      "year": 1980,
+      "leg": 2,
+      "title": "Francfort - Metz",
+      "start": {
+        "city": "Francfort",
+        "country": "Allemagne",
+        "lng": "8.682127",
+        "lat": "50.110922"
+      },
+      "finish": {
+        "city": "Martigues",
+        "country": "France",
+        "lng": "5.053728",
+        "lat": "43.404811"
+      },
+      "length": 34,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-03",
+      "year": 1980,
+      "leg": 3,
+      "title": "Metz - Liège",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 92,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jan Raas (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-04",
+      "year": 1980,
+      "leg": 4,
+      "title": "Spa-Francorchamps - Spa-Francorchamps",
+      "start": {
+        "city": "Francorchamps",
+        "country": "Belgique",
+        "lng": "5.952214",
+        "lat": "50.454346"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 51,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-05",
+      "year": 1980,
+      "leg": 5,
+      "title": "Liège - Lille",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lng": "2.475907",
+        "lat": "48.851542"
+      },
+      "length": 194,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-06",
+      "year": 1980,
+      "leg": 6,
+      "title": "Lille - Compiègne",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Raymond Martin (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-7b",
+      "year": 1980,
+      "leg": 7,
+      "title": "Beauvais - Rouen",
+      "start": {
+        "city": "Beauvais",
+        "country": "France",
+        "lng": "2.081875",
+        "lat": "49.42964"
+      },
+      "finish": {
+        "city": "Francfort",
+        "country": "Allemagne",
+        "lng": "8.682127",
+        "lat": "50.110922"
+      },
+      "length": 205,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jan Raas (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-7a",
+      "year": 1980,
+      "leg": 7,
+      "title": "Compiègne - Beauvais",
+      "start": {
+        "city": "Compiègne",
+        "country": "France",
+        "lng": "2.826145",
+        "lat": "49.417816"
+      },
+      "finish": {
+        "city": "Wiesbaden",
+        "country": "Allemagne",
+        "lng": "8.243344",
+        "lat": "50.06308"
+      },
+      "length": 164,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Bert Oosterbosch (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-08",
+      "year": 1980,
+      "leg": 8,
+      "title": "Flers - Saint-Malo",
+      "start": {
+        "city": "Flers",
+        "country": "France",
+        "lng": "-0.575794",
+        "lat": "48.750059"
+      },
+      "finish": {
+        "city": "Beauvais",
+        "country": "France",
+        "lng": "2.081875",
+        "lat": "49.42964"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Ludo Loos (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-09",
+      "year": 1980,
+      "leg": 9,
+      "title": "Saint-Malo - Nantes",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 139,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Irlande Seán Kelly (IRL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-10",
+      "year": 1980,
+      "leg": 10,
+      "title": "Rochefort - Bordeaux",
+      "start": {
+        "city": "Rochefort",
+        "country": "France",
+        "lng": "-0.961697",
+        "lat": "45.936698"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Cees Priem (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-11",
+      "year": 1980,
+      "leg": 11,
+      "title": "Damazan - Laplume",
+      "start": {
+        "city": "Damazan",
+        "country": "France",
+        "lng": "0.276419",
+        "lat": "44.2905"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Ludo Peeters (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-12",
+      "year": 1980,
+      "leg": 12,
+      "title": "Agen - Pau",
+      "start": {
+        "city": "Agen",
+        "country": "France",
+        "lng": "0.616363",
+        "lat": "44.203142"
+      },
+      "finish": {
+        "city": "Francorchamps",
+        "country": "Belgique",
+        "lng": "5.952214",
+        "lat": "50.454346"
+      },
+      "length": 160,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Bernard Vallet (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-13",
+      "year": 1980,
+      "leg": 13,
+      "title": "Pau - Bagnères-de-Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Jos Deschoenmaecker (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-14",
+      "year": 1980,
+      "leg": 14,
+      "title": "Lézignan-Corbières - Montpellier",
+      "start": {
+        "city": "Lézignan-Corbières",
+        "country": "France",
+        "lng": "2.757776",
+        "lat": "43.200503"
+      },
+      "finish": {
+        "city": "Compiègne",
+        "country": "France",
+        "lng": "2.826145",
+        "lat": "49.417816"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Mariano Martínez (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-15",
+      "year": 1980,
+      "leg": 15,
+      "title": "Montpellier - Martigues",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lng": "-2.025674",
+        "lat": "48.649337"
+      },
+      "length": 34,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-16",
+      "year": 1980,
+      "leg": 16,
+      "title": "Trets - Pra Loup",
+      "start": {
+        "city": "Trets",
+        "country": "France",
+        "lng": "5.684155",
+        "lat": "43.446909"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Irlande Seán Kelly (IRL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-17",
+      "year": 1980,
+      "leg": 17,
+      "title": "Serre Chevalier - Morzine",
+      "start": {
+        "city": "Serre Chevalier",
+        "country": "France",
+        "lng": "6.549748",
+        "lat": "44.910829"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 7,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-18",
+      "year": 1980,
+      "leg": 18,
+      "title": "Morzine - Prapoutel-Les 7 laux",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Laplume",
+        "country": "France",
+        "lng": "0.532322",
+        "lat": "44.110689"
+      },
+      "length": 133,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jan Raas (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-19",
+      "year": 1980,
+      "leg": 19,
+      "title": "Voreppe - Saint-Étienne",
+      "start": {
+        "city": "Voreppe",
+        "country": "France",
+        "lng": "5.637517",
+        "lat": "45.298156"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 45,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau des Pays-Bas Ti-Raleigh (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-20",
+      "year": 1980,
+      "leg": 20,
+      "title": "Saint-Étienne - Saint-Étienne",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Pra Loup",
+        "country": "France",
+        "lng": "6.602232",
+        "lat": "44.369445"
+      },
+      "length": 249,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-21",
+      "year": 1980,
+      "leg": 21,
+      "title": "Auxerre - Fontenay-sous-Bois",
+      "start": {
+        "city": "Auxerre",
+        "country": "France",
+        "lng": "3.573781",
+        "lat": "47.798202"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Jean-Louis Gauthier (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1980-22",
+      "year": 1980,
+      "leg": 22,
+      "title": "Fontenay-sous-Bois - Paris",
+      "start": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lng": "2.475907",
+        "lat": "48.851542"
+      },
+      "finish": {
+        "city": "Prapoutel, les 7 laux",
+        "country": "France",
+        "lng": "5.995565",
+        "lat": "45.256657"
+      },
+      "length": 65,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau des Pays-Bas Ti-Raleigh (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Rudy Pevenage (BEL)",
+        "nationality": null
+      }
+    }
+  ]
+}

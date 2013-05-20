@@ -1,0 +1,608 @@
+{
+  "year": 2003,
+  "edition": 90,
+  "total_length": 3427,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 198,
+  "nb_finishers": 147,
+  "pct_finishers": 74,
+  "winner_name": "n.a.",
+  "winner_time": "83h 41’ 12”",
+  "ahead_of_2nd": "0h 01' 01\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "ahead_of_3rd": "0h 04' 14\"",
+  "third_name": "A. Vinokourov",
+  "third_country": "A. Vinokourov",
+  "legs": [
+    {
+      "id": "E-2003-Prologue",
+      "year": 2003,
+      "leg": 0,
+      "title": "Paris - Paris",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 152,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean-Patrick Nazon",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-01",
+      "year": 2003,
+      "leg": 1,
+      "title": "Montgeron - Meaux",
+      "start": {
+        "city": "Montgeron",
+        "country": "France",
+        "lng": "2.460453",
+        "lat": "48.703859"
+      },
+      "finish": {
+        "city": "Meaux",
+        "country": "France",
+        "lng": "2.879255",
+        "lat": "48.959396"
+      },
+      "length": 6,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-02",
+      "year": 2003,
+      "leg": 2,
+      "title": "La Ferté-sous-Jouarre - Sedan",
+      "start": {
+        "city": "La Ferté-sous-Jouarre",
+        "country": "France",
+        "lng": "3.130059",
+        "lat": "48.950507"
+      },
+      "finish": {
+        "city": "Cap découverte, Le Garric",
+        "country": "France",
+        "lng": "2.144574",
+        "lat": "44.021237"
+      },
+      "length": 167,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceJean-Patrick Nazon",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-03",
+      "year": 2003,
+      "leg": 3,
+      "title": "Charleville-Mézières - Saint-Dizier",
+      "start": {
+        "city": "Charleville-Mézières",
+        "country": "France",
+        "lng": "4.726096",
+        "lat": "49.762085"
+      },
+      "finish": {
+        "city": "Loudenvielle",
+        "country": "France",
+        "lng": "0.412744",
+        "lat": "42.795702"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ColombieVíctor Hugo Peña",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-04",
+      "year": 2003,
+      "leg": 4,
+      "title": "Joinville - Saint-Dizier",
+      "start": {
+        "city": "Joinville",
+        "country": "France",
+        "lng": "2.472043",
+        "lat": "48.821267"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lng": "-0.061335",
+        "lat": "42.885105"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ColombieVíctor Hugo Peña",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-05",
+      "year": 2003,
+      "leg": 5,
+      "title": "Troyes - Nevers",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lng": "4.074735",
+        "lat": "48.296592"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 230,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : FranceRichard Virenque",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRichard Virenque",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-06",
+      "year": 2003,
+      "leg": 6,
+      "title": "Nevers - Lyon",
+      "start": {
+        "city": "Nevers",
+        "country": "France",
+        "lng": "3.162845",
+        "lat": "46.990896"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 219,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneIban Mayo",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-07",
+      "year": 2003,
+      "leg": 7,
+      "title": "Lyon - Morzine",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Saint-Maixent-l'École",
+        "country": "France",
+        "lng": "-0.20341",
+        "lat": "46.413165"
+      },
+      "length": 184,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : KazakhstanAlexandre Vinokourov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-08",
+      "year": 2003,
+      "leg": 8,
+      "title": "Sallanches - L'Alpe d'Huez",
+      "start": {
+        "city": "Sallanches",
+        "country": "France",
+        "lng": "6.630557",
+        "lat": "45.936661"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : DanemarkJakob Piil",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-09",
+      "year": 2003,
+      "leg": 9,
+      "title": "Le Bourg-d'Oisans - Gap",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 47,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : AllemagneJan Ullrich",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-10",
+      "year": 2003,
+      "leg": 10,
+      "title": "Gap - Marseille",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "finish": {
+        "city": "Sedan",
+        "country": "France",
+        "lng": "4.93863",
+        "lat": "49.70349"
+      },
+      "length": 153,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneJuan Antonio Flecha",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-11",
+      "year": 2003,
+      "leg": 11,
+      "title": "Narbonne - Toulouse",
+      "start": {
+        "city": "Narbonne",
+        "country": "France",
+        "lng": "3.003078",
+        "lat": "43.184277"
+      },
+      "finish": {
+        "city": "Saint-Dizier",
+        "country": "France",
+        "lng": "4.947418",
+        "lat": "48.637692"
+      },
+      "length": 197,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneCarlos Sastre",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-12",
+      "year": 2003,
+      "leg": 12,
+      "title": "Gaillac - Cap découverte",
+      "start": {
+        "city": "Gaillac",
+        "country": "France",
+        "lng": "1.896506",
+        "lat": "43.901816"
+      },
+      "finish": {
+        "city": "Saint-Dizier",
+        "country": "France",
+        "lng": "4.947418",
+        "lat": "48.637692"
+      },
+      "length": 191,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieGilberto Simoni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-13",
+      "year": 2003,
+      "leg": 13,
+      "title": "Toulouse - Ax-3 Domaines",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Nevers",
+        "country": "France",
+        "lng": "3.162845",
+        "lat": "46.990896"
+      },
+      "length": 159,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-14",
+      "year": 2003,
+      "leg": 14,
+      "title": "Saint-Girons - Loudenvielle",
+      "start": {
+        "city": "Saint-Girons",
+        "country": "France",
+        "lng": "1.146088",
+        "lat": "42.982876"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 197,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : États-UnisTyler Hamilton",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-15",
+      "year": 2003,
+      "leg": 15,
+      "title": "Bagnères de Bigorre - Luz-Ardiden",
+      "start": {
+        "city": "Bagnères de Bigorre",
+        "country": "France",
+        "lng": "0.149105",
+        "lat": "43.065093"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "length": 181,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasServais Knaven",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-16",
+      "year": 2003,
+      "leg": 16,
+      "title": "Pau - Bayonne",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagnePablo Lastras",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-17",
+      "year": 2003,
+      "leg": 17,
+      "title": "Dax - Bordeaux",
+      "start": {
+        "city": "Dax",
+        "country": "France",
+        "lng": "-1.051945",
+        "lat": "43.708608"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 49,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : Royaume-UniDavid Millar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : États-UnisLance Armstrong",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-18",
+      "year": 2003,
+      "leg": 18,
+      "title": "Bordeaux - Saint-Maixent-l'École",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 168,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-19",
+      "year": 2003,
+      "leg": 19,
+      "title": "Pornic - Nantes",
+      "start": {
+        "city": "Pornic",
+        "country": "France",
+        "lng": "-2.104444",
+        "lat": "47.115491"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieBaden Cooke",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-20",
+      "year": 2003,
+      "leg": 20,
+      "title": "Ville-d'Avray - Paris",
+      "start": {
+        "city": "Ville-d'Avray",
+        "country": "France",
+        "lng": "2.181255",
+        "lat": "48.822936"
+      },
+      "finish": {
+        "city": "Ax-3 Domaines, Ax-les-Thermes",
+        "country": "France",
+        "lng": "1.81283",
+        "lat": "42.699657"
+      },
+      "length": 69,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Drapeau : États-UnisUS Postal",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ColombieVíctor Hugo Peña",
+        "nationality": null
+      }
+    }
+  ]
+}

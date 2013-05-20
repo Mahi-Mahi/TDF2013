@@ -1,0 +1,524 @@
+{
+  "year": 1925,
+  "edition": 19,
+  "total_length": 5440,
+  "nb_legs": 18,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 49,
+  "pct_finishers": 38,
+  "winner_name": "Ottavio Bottecchia",
+  "winner_time": "219h 10’ 18”",
+  "ahead_of_2nd": "0h 54' 20\" ",
+  "second_name": "L. Buysse",
+  "second_country": "France",
+  "ahead_of_3rd": "0h 56' 17\"",
+  "third_name": "B. Aimo",
+  "third_country": "B. Aimo",
+  "legs": [
+    {
+      "id": "E-1925-01",
+      "year": 1925,
+      "leg": 1,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "length": 340,
+      "type": null,
+      "winner": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-02",
+      "year": 1925,
+      "leg": 2,
+      "title": "Le Havre - Cherbourg",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "length": 405,
+      "type": null,
+      "winner": {
+        "name": "Louis Mottiat Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-03",
+      "year": 1925,
+      "leg": 3,
+      "title": "Cherbourg - Brest",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-04",
+      "year": 1925,
+      "leg": 4,
+      "title": "Brest - Vannes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-05",
+      "year": 1925,
+      "leg": 5,
+      "title": "Vannes - Les Sables-d'Olonne",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lng": "-2.760847",
+        "lat": "47.658236"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "length": 293,
+      "type": null,
+      "winner": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-06",
+      "year": 1925,
+      "leg": 6,
+      "title": "Les Sables-d'Olonne - Bordeaux",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-07",
+      "year": 1925,
+      "leg": 7,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Adelin Benoît Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-08",
+      "year": 1925,
+      "leg": 8,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "length": 323,
+      "type": null,
+      "winner": {
+        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-09",
+      "year": 1925,
+      "leg": 9,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Théophile Beeckman Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-10",
+      "year": 1925,
+      "leg": 10,
+      "title": "Perpignan - Nîmes",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Lucien Buysse Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-11",
+      "year": 1925,
+      "leg": 11,
+      "title": "Nîmes - Toulon",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 280,
+      "type": null,
+      "winner": {
+        "name": "Lucien Buysse Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-12",
+      "year": 1925,
+      "leg": 12,
+      "title": "Toulon - Nice",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lng": "5.928",
+        "lat": "43.124228"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lng": "-2.760847",
+        "lat": "47.658236"
+      },
+      "length": 275,
+      "type": null,
+      "winner": {
+        "name": "Bartolomeo Aimo Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-13",
+      "year": 1925,
+      "leg": 13,
+      "title": "Nice - Briançon",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "length": 303,
+      "type": null,
+      "winner": {
+        "name": "Hector Martin Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-14",
+      "year": 1925,
+      "leg": 14,
+      "title": "Briançon - Évian",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 373,
+      "type": null,
+      "winner": {
+        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-15",
+      "year": 1925,
+      "leg": 15,
+      "title": "Évian - Mulhouse",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lng": "6.590949",
+        "lat": "46.401488"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 334,
+      "type": null,
+      "winner": {
+        "name": "Hector Martin Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-16",
+      "year": 1925,
+      "leg": 16,
+      "title": "Mulhouse - Metz",
+      "start": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 433,
+      "type": null,
+      "winner": {
+        "name": "Hector Martin Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-17",
+      "year": 1925,
+      "leg": 17,
+      "title": "Metz - Dunkerque",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 343,
+      "type": null,
+      "winner": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1925-18",
+      "year": 1925,
+      "leg": 18,
+      "title": "Dunkerque - Paris",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lng": "4.360054",
+        "lat": "43.836699"
+      },
+      "length": 371,
+      "type": null,
+      "winner": {
+        "name": "Romain Bellenger Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Drapeau : ItalieItalie",
+        "nationality": null
+      }
+    }
+  ]
+}

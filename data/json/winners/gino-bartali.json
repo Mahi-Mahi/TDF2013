@@ -1,0 +1,29 @@
+{
+  "id": "gino-bartali",
+  "first_name": "Gino",
+  "last_name": "Bartali",
+  "birthyear": 1914,
+  "country": "Italie",
+  "years": {
+    "1938": {
+      "nb_days_in_yellow": 7,
+      "nb_tour_legs": 21,
+      "pct_leading": 33,
+      "nb_leg_wins": 2,
+      "average_speed": 31,
+      "total_time": "148h 29’ 12”",
+      "ahead_of_2nd": "0h18'27''"
+    },
+    "1948": {
+      "nb_days_in_yellow": 8,
+      "nb_tour_legs": 21,
+      "pct_leading": 38,
+      "nb_leg_wins": 7,
+      "average_speed": 33,
+      "total_time": "147h 10’ 36”",
+      "ahead_of_2nd": "0h26'16''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "2"
+}

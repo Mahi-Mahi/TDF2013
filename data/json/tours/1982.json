@@ -1,0 +1,664 @@
+{
+  "year": 1982,
+  "edition": 69,
+  "total_length": 3507,
+  "nb_legs": 21,
+  "has_prologue": true,
+  "nb_concurrents": 169,
+  "nb_finishers": 125,
+  "pct_finishers": 74,
+  "winner_name": "Bernard Hinault",
+  "winner_time": "92h 08’ 46”",
+  "ahead_of_2nd": "0h 06' 21\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "ahead_of_3rd": "0h 8' 59\"",
+  "third_name": "J. Van Der Velde",
+  "third_country": "J. Van Der Velde",
+  "legs": [
+    {
+      "id": "E-1982-Prologue",
+      "year": 1982,
+      "leg": 0,
+      "title": "Bâle (SUI) - Bâle (SUI)",
+      "start": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lng": "7.592573",
+        "lat": "47.557421"
+      },
+      "finish": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lng": "7.592573",
+        "lat": "47.557421"
+      },
+      "length": 186,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-01",
+      "year": 1982,
+      "leg": 1,
+      "title": "Schupfart (SUI) - Möhlin (SUI)",
+      "start": {
+        "city": "Schupfart",
+        "country": "Suisse",
+        "lng": "7.962998",
+        "lat": "47.514231"
+      },
+      "finish": {
+        "city": "Möhlin",
+        "country": "Suisse",
+        "lng": "7.845197",
+        "lat": "47.557187"
+      },
+      "length": 7,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-02",
+      "year": 1982,
+      "leg": 2,
+      "title": "Bâle (SUI) - Nancy",
+      "start": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lng": "7.592573",
+        "lat": "47.557421"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lng": "0.320251",
+        "lat": "42.815835"
+      },
+      "length": 219,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : Pays-BasGerrie Knetemann",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-03",
+      "year": 1982,
+      "leg": 3,
+      "title": "Nancy - Longwy",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lng": "6.068348",
+        "lat": "45.092624"
+      },
+      "length": 234,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : BelgiquePol Verschuere",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-04",
+      "year": 1982,
+      "leg": 4,
+      "title": "Beauraing (BEL) - Mouscron (BEL)",
+      "start": {
+        "city": "Beauraing",
+        "country": "Belgique",
+        "lng": "4.955435",
+        "lat": "50.110281"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 200,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : BelgiqueFrank Hoste",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-05",
+      "year": 1982,
+      "leg": 5,
+      "title": "Orchies - Fontaine-au-Pire",
+      "start": {
+        "city": "Orchies",
+        "country": "France",
+        "lng": "3.2428",
+        "lat": "50.4745"
+      },
+      "finish": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lng": "4.947071",
+        "lat": "45.698938"
+      },
+      "length": 69,
+      "type": "Contre-la-montre par équipes",
+      "winner": {
+        "name": "Drapeau : Pays-BasTi-Raleigh",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-06",
+      "year": 1982,
+      "leg": 6,
+      "title": "Lille - Lille",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "finish": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lng": "4.947071",
+        "lat": "45.698938"
+      },
+      "length": 138,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : SuisseStefan Mutter",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-07",
+      "year": 1982,
+      "leg": 7,
+      "title": "Cancale - Concarneau",
+      "start": {
+        "city": "Cancale",
+        "country": "France",
+        "lng": "-1.852279",
+        "lat": "48.67707"
+      },
+      "finish": {
+        "city": "Aulnay-sous-Bois",
+        "country": "France",
+        "lng": "2.497115",
+        "lat": "48.940974"
+      },
+      "length": 57,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": "Drapeau : Pays-BasGerrie Knetemann",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-08",
+      "year": 1982,
+      "leg": 8,
+      "title": "Concarneau - Châteaulin",
+      "start": {
+        "city": "Concarneau",
+        "country": "France",
+        "lng": "-3.920734",
+        "lat": "47.872834"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 249,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : IrlandeSeán Kelly",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-9b",
+      "year": 1982,
+      "leg": 9,
+      "title": "Plumelec - Nantes",
+      "start": {
+        "city": "Plumelec",
+        "country": "France",
+        "lng": "-2.639409",
+        "lat": "47.837699"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 161,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : BelgiqueDaniel Willems",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-9a",
+      "year": 1982,
+      "leg": 9,
+      "title": "Lorient - Plumelec",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lng": "-3.370245",
+        "lat": "47.748252"
+      },
+      "finish": {
+        "city": "Plumelec",
+        "country": "France",
+        "lng": "-2.639409",
+        "lat": "47.837699"
+      },
+      "length": 48,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-10",
+      "year": 1982,
+      "leg": 10,
+      "title": "Saintes - Bordeaux",
+      "start": {
+        "city": "Saintes",
+        "country": "France",
+        "lng": "-0.633389",
+        "lat": "45.744175"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 147,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : FrancePierre-Raymond Villemiane",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-11",
+      "year": 1982,
+      "leg": 11,
+      "title": "Valence-d'Agen - Valence-d'Agen",
+      "start": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lng": "0.890241",
+        "lat": "44.108057"
+      },
+      "finish": {
+        "city": "Longwy",
+        "country": "France",
+        "lng": "5.761773",
+        "lat": "49.519919"
+      },
+      "length": 122,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : SuisseBeat Breu",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-12",
+      "year": 1982,
+      "leg": 12,
+      "title": "Fleurance - Pau",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Mouscron",
+        "country": "Belgique",
+        "lng": "3.220815",
+        "lat": "50.743754"
+      },
+      "length": 32,
+      "type": "Contre-la-montre",
+      "winner": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-13",
+      "year": 1982,
+      "leg": 13,
+      "title": "Pau - Saint-Lary-Soulan",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Fontaine-au-Pire",
+        "country": "France",
+        "lng": "3.375606",
+        "lat": "50.13042"
+      },
+      "length": 208,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : FrancePascal Simon",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-14",
+      "year": 1982,
+      "leg": 14,
+      "title": "Martigues - Martigues",
+      "start": {
+        "city": "Martigues",
+        "country": "France",
+        "lng": "5.053728",
+        "lat": "43.404811"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lng": "3.057256",
+        "lat": "50.62925"
+      },
+      "length": 123,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : SuisseBeat Breu",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-15",
+      "year": 1982,
+      "leg": 15,
+      "title": "Manosque - Orcières-Merlette",
+      "start": {
+        "city": "Manosque",
+        "country": "France",
+        "lng": "5.790916",
+        "lat": "43.835744"
+      },
+      "finish": {
+        "city": "Concarneau",
+        "country": "France",
+        "lng": "-3.920734",
+        "lat": "47.872834"
+      },
+      "length": 251,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : Pays-BasPeter Winnen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-16",
+      "year": 1982,
+      "leg": 16,
+      "title": "Orcières-Merlette - L'Alpe d'Huez",
+      "start": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "finish": {
+        "city": "Châteaulin",
+        "country": "France",
+        "lng": "-4.094207",
+        "lat": "48.195389"
+      },
+      "length": 233,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : Pays-BasAdri van Houwelingen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceBernard Hinault",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-17",
+      "year": 1982,
+      "leg": 17,
+      "title": "Bourg-d'Oisans - Morzine-Avoriaz",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lng": "6.030064",
+        "lat": "45.051951"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 207,
+      "type": "Étape de montage moyenne",
+      "winner": {
+        "name": "Drapeau : BelgiqueLudo Peeters",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueLudo Peeters",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-18",
+      "year": 1982,
+      "leg": 18,
+      "title": "Morzine - Saint-Priest",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lng": "6.708877",
+        "lat": "46.179192"
+      },
+      "finish": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lng": "0.890241",
+        "lat": "44.108057"
+      },
+      "length": 250,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-19",
+      "year": 1982,
+      "leg": 19,
+      "title": "Saint-Priest - Saint-Priest",
+      "start": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lng": "4.947071",
+        "lat": "45.698938"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 134,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : BelgiqueDaniel Willems",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-20",
+      "year": 1982,
+      "leg": 20,
+      "title": "Sens - Aulnay-sous-Bois",
+      "start": {
+        "city": "Sens",
+        "country": "France",
+        "lng": "3.28268",
+        "lat": "48.20065"
+      },
+      "finish": {
+        "city": "Martigues",
+        "country": "France",
+        "lng": "5.053728",
+        "lat": "43.404811"
+      },
+      "length": 73,
+      "type": "Contre-la-montre par équipes",
+      "winner": {
+        "name": "Étape annulée *",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1982-21",
+      "year": 1982,
+      "leg": 21,
+      "title": "Fontenay-sous-Bois - Paris",
+      "start": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lng": "2.475907",
+        "lat": "48.851542"
+      },
+      "finish": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lng": "6.320161",
+        "lat": "44.695221"
+      },
+      "length": 233,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : Pays-BasJan Raas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustraliePhil Anderson",
+        "nationality": null
+      }
+    }
+  ]
+}

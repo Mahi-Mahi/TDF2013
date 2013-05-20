@@ -1,0 +1,608 @@
+{
+  "year": 1948,
+  "edition": 35,
+  "total_length": 4922,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 44,
+  "pct_finishers": 37,
+  "winner_name": "Gino Bartali",
+  "winner_time": "147h 10’ 36”",
+  "ahead_of_2nd": "0h 26' 16\" ",
+  "second_name": "A. Schotte",
+  "second_country": "Belgique",
+  "ahead_of_3rd": "0h 28' 48\"",
+  "third_name": "G. Lapebie",
+  "third_country": "G. Lapebie",
+  "legs": [
+    {
+      "id": "E-1948-01",
+      "year": 1948,
+      "leg": 1,
+      "title": "Paris - Trouville-sur-Mer",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Trouville-sur-Mer",
+        "country": "France",
+        "lng": "0.082808",
+        "lat": "49.366289"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-02",
+      "year": 1948,
+      "leg": 2,
+      "title": "Trouville-sur-Mer - Dinard",
+      "start": {
+        "city": "Trouville-sur-Mer",
+        "country": "France",
+        "lng": "0.082808",
+        "lat": "49.366289"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "length": 166,
+      "type": null,
+      "winner": {
+        "name": "Jacques Pras Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-03",
+      "year": 1948,
+      "leg": 3,
+      "title": "Dinard - Nantes",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lng": "-2.055125",
+        "lat": "48.633024"
+      },
+      "finish": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lng": "6.633597",
+        "lat": "46.519962"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-04",
+      "year": 1948,
+      "leg": 4,
+      "title": "Nantes - La Rochelle",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 261,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-05",
+      "year": 1948,
+      "leg": 5,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 246,
+      "type": null,
+      "winner": {
+        "name": "Raymond Impanis Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-06",
+      "year": 1948,
+      "leg": 6,
+      "title": "Bordeaux - Biarritz",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "Raymond Impanis Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-07",
+      "year": 1948,
+      "leg": 7,
+      "title": "Biarritz - Lourdes",
+      "start": {
+        "city": "Biarritz",
+        "country": "France",
+        "lng": "-1.558626",
+        "lat": "43.483152"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "length": 245,
+      "type": null,
+      "winner": {
+        "name": "Gino Sciardis Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-08",
+      "year": 1948,
+      "leg": 8,
+      "title": "Lourdes - Toulouse",
+      "start": {
+        "city": "Lourdes",
+        "country": "France",
+        "lng": "-0.045726",
+        "lat": "43.091463"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 274,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-09",
+      "year": 1948,
+      "leg": 9,
+      "title": "Toulouse - Montpellier",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 263,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-10",
+      "year": 1948,
+      "leg": 10,
+      "title": "Montpellier - Marseille",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Dinard",
+        "country": "France",
+        "lng": "-2.055125",
+        "lat": "48.633024"
+      },
+      "length": 170,
+      "type": null,
+      "winner": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-11",
+      "year": 1948,
+      "leg": 11,
+      "title": "Marseille - Sanremo (ITA)",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 256,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-12",
+      "year": 1948,
+      "leg": 12,
+      "title": "Sanremo - Cannes",
+      "start": {
+        "city": "Sanremo",
+        "country": "Italie",
+        "lng": "7.77427",
+        "lat": "43.841179"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lng": "-1.151139",
+        "lat": "46.160329"
+      },
+      "length": 243,
+      "type": null,
+      "winner": {
+        "name": "Edward Van Dyck Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-13",
+      "year": 1948,
+      "leg": 13,
+      "title": "Cannes - Briançon",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lng": "7.017369",
+        "lat": "43.552847"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 120,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-14",
+      "year": 1948,
+      "leg": 14,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "finish": {
+        "city": "Biarritz",
+        "country": "France",
+        "lng": "-1.558626",
+        "lat": "43.483152"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": "Giovanni Corrieri Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-15",
+      "year": 1948,
+      "leg": 15,
+      "title": "Aix-les-Bains - Lausanne (CH)",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "finish": {
+        "city": "Lourdes",
+        "country": "France",
+        "lng": "-0.045726",
+        "lat": "43.091463"
+      },
+      "length": 249,
+      "type": null,
+      "winner": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-16",
+      "year": 1948,
+      "leg": 16,
+      "title": "Lausanne - Mulhouse",
+      "start": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lng": "6.633597",
+        "lat": "46.519962"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 228,
+      "type": null,
+      "winner": {
+        "name": "Bernard Gauthier Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-17",
+      "year": 1948,
+      "leg": 17,
+      "title": "Mulhouse - Strasbourg",
+      "start": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 286,
+      "type": null,
+      "winner": {
+        "name": "Giovanni Corrieri Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-18",
+      "year": 1948,
+      "leg": 18,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 259,
+      "type": null,
+      "winner": {
+        "name": "Vincenzo Rossello Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jan Engels Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-19",
+      "year": 1948,
+      "leg": 19,
+      "title": "Metz - Liège (BEL)",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Sanremo",
+        "country": "Italie",
+        "lng": "7.77427",
+        "lat": "43.841179"
+      },
+      "length": 251,
+      "type": null,
+      "winner": {
+        "name": "Guy Lapébie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-20",
+      "year": 1948,
+      "leg": 20,
+      "title": "Liège - Roubaix",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lng": "6.643179",
+        "lat": "44.899416"
+      },
+      "length": 262,
+      "type": null,
+      "winner": {
+        "name": "Raoul Rémy Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1948-21",
+      "year": 1948,
+      "leg": 21,
+      "title": "Roubaix - Paris",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lng": "5.908998",
+        "lat": "45.692341"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Louison Bobet Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

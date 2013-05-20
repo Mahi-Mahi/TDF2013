@@ -1,0 +1,20 @@
+{
+  "id": "louis-trousselier",
+  "first_name": "Louis",
+  "last_name": "Trousselier",
+  "birthyear": 1881,
+  "country": "France",
+  "years": {
+    "1905": {
+      "nb_days_in_yellow": 9,
+      "nb_tour_legs": 11,
+      "pct_leading": 82,
+      "nb_leg_wins": 5,
+      "average_speed": 27,
+      "total_time": "110h 26’ 58”",
+      "ahead_of_2nd": "n.a."
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

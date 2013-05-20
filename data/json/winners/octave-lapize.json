@@ -1,0 +1,20 @@
+{
+  "id": "octave-lapize",
+  "first_name": "Octave",
+  "last_name": "Lapize",
+  "birthyear": 1888,
+  "country": "France",
+  "years": {
+    "1910": {
+      "nb_days_in_yellow": 2,
+      "nb_tour_legs": 15,
+      "pct_leading": 13,
+      "nb_leg_wins": 4,
+      "average_speed": 29,
+      "total_time": "162h 41’ 30”",
+      "ahead_of_2nd": "n.a."
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

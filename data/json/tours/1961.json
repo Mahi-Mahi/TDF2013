@@ -1,0 +1,636 @@
+{
+  "year": 1961,
+  "edition": 48,
+  "total_length": 4397,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 132,
+  "nb_finishers": 72,
+  "pct_finishers": 55,
+  "winner_name": "Jacques Anquetil",
+  "winner_time": "122h 01’ 33”",
+  "ahead_of_2nd": "0h 12' 14\" ",
+  "second_name": "G. CarlesiI",
+  "second_country": "Italie",
+  "ahead_of_3rd": "0h 12' 16\"",
+  "third_name": "C. Gaul",
+  "third_country": "C. Gaul",
+  "legs": [
+    {
+      "id": "E-1961-1b",
+      "year": 1961,
+      "leg": 1,
+      "title": "Versailles - Versailles",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Emile Daems Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-1a",
+      "year": 1961,
+      "leg": 1,
+      "title": "Rouen - Versailles",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-02",
+      "year": 1961,
+      "leg": 2,
+      "title": "Pontoise - Roubaix",
+      "start": {
+        "city": "Pontoise",
+        "country": "France",
+        "lng": "2.100645",
+        "lat": "49.050966"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Anatole Novak Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-03",
+      "year": 1961,
+      "leg": 3,
+      "title": "Roubaix - Charleroi (BEL)",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "Jean Stablinski Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-04",
+      "year": 1961,
+      "leg": 4,
+      "title": "Charleroi (BEL) - Metz",
+      "start": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lng": "4.444643",
+        "lat": "50.41081"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 240,
+      "type": null,
+      "winner": {
+        "name": "Jean Forestier Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-05",
+      "year": 1961,
+      "leg": 5,
+      "title": "Metz - Strasbourg",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Périgueux",
+        "country": "France",
+        "lng": "0.721115",
+        "lat": "45.184029"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-06",
+      "year": 1961,
+      "leg": 6,
+      "title": "Strasbourg - Belfort",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "length": 177,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-07",
+      "year": 1961,
+      "leg": 7,
+      "title": "Belfort - Chalon-sur-Saône",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 174,
+      "type": null,
+      "winner": {
+        "name": "Eddy Pauwels Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-08",
+      "year": 1961,
+      "leg": 8,
+      "title": "Chalon-sur-Saône - Saint-Étienne",
+      "start": {
+        "city": "Chalon-sur-Saône",
+        "country": "France",
+        "lng": "4.853947",
+        "lat": "46.780764"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 250,
+      "type": null,
+      "winner": {
+        "name": "Guy Ignolin Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-09",
+      "year": 1961,
+      "leg": 9,
+      "title": "Saint-Étienne - Grenoble",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Guido Carlesi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-10",
+      "year": 1961,
+      "leg": 10,
+      "title": "Grenoble - Turin",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Michel Van Aerde Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-11",
+      "year": 1961,
+      "leg": 11,
+      "title": "Turin - Antibes",
+      "start": {
+        "city": "Turin",
+        "country": "Italie",
+        "lng": "7.685676",
+        "lat": "45.070982"
+      },
+      "finish": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lng": "4.444643",
+        "lat": "50.41081"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": "Guido Carlesi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-12",
+      "year": 1961,
+      "leg": 12,
+      "title": "Antibes - Aix-en-Provence",
+      "start": {
+        "city": "Antibes",
+        "country": "France",
+        "lng": "7.125102",
+        "lat": "43.580418"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 208,
+      "type": null,
+      "winner": {
+        "name": "Imerio Massignan Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-13",
+      "year": 1961,
+      "leg": 13,
+      "title": "Aix-en-Provence - Montpellier",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lng": "5.447427",
+        "lat": "43.529742"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Eddy Pauwels Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-14",
+      "year": 1961,
+      "leg": 14,
+      "title": "Montpellier - Perpignan",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Martin Van Geneugden Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-15",
+      "year": 1961,
+      "leg": 15,
+      "title": "Perpignan - Toulouse",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Chalon-sur-Saône",
+        "country": "France",
+        "lng": "4.853947",
+        "lat": "46.780764"
+      },
+      "length": 74,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-16",
+      "year": 1961,
+      "leg": 16,
+      "title": "Toulouse - Superbagnères",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lng": "4.387178",
+        "lat": "45.439695"
+      },
+      "length": 309,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-17",
+      "year": 1961,
+      "leg": 17,
+      "title": "Luchon - Pau",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 252,
+      "type": null,
+      "winner": {
+        "name": "Robert Cazala Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-18",
+      "year": 1961,
+      "leg": 18,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Turin",
+        "country": "Italie",
+        "lng": "7.685676",
+        "lat": "45.070982"
+      },
+      "length": 136,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-19",
+      "year": 1961,
+      "leg": 19,
+      "title": "Bergerac - Périgueux",
+      "start": {
+        "city": "Bergerac",
+        "country": "France",
+        "lng": "0.483392",
+        "lat": "44.853806"
+      },
+      "finish": {
+        "city": "Antibes",
+        "country": "France",
+        "lng": "7.125102",
+        "lat": "43.580418"
+      },
+      "length": 28,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-20",
+      "year": 1961,
+      "leg": 20,
+      "title": "Périgueux - Tours",
+      "start": {
+        "city": "Périgueux",
+        "country": "France",
+        "lng": "0.721115",
+        "lat": "45.184029"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 221,
+      "type": null,
+      "winner": {
+        "name": "Louis Bergaud Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1961-21",
+      "year": 1961,
+      "leg": 21,
+      "title": "Tours - Paris",
+      "start": {
+        "city": "Tours",
+        "country": "France",
+        "lng": "0.68484",
+        "lat": "47.394144"
+      },
+      "finish": {
+        "city": "Superbagnères, Saint-Aventin",
+        "country": "France",
+        "lng": "0.576927",
+        "lat": "42.768576"
+      },
+      "length": 180,
+      "type": null,
+      "winner": {
+        "name": "Joseph Planckaert Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Anquetil Drapeau de France France",
+        "nationality": null
+      }
+    }
+  ]
+}

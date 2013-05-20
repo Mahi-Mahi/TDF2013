@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+group :development do
+	gem 'guard'
+	gem 'guard-shell'
+	gem 'guard-bundler'
+end
+
+gem 'google-api-client'
+
+# gem 'pp'
+
+# gem 'zlib'
+

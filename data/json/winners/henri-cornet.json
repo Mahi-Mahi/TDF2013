@@ -1,0 +1,20 @@
+{
+  "id": "henri-cornet",
+  "first_name": "Henri",
+  "last_name": "Cornet",
+  "birthyear": 1885,
+  "country": "France",
+  "years": {
+    "1904": {
+      "nb_days_in_yellow": 0,
+      "nb_tour_legs": 6,
+      "pct_leading": 0,
+      "nb_leg_wins": 0,
+      "average_speed": 25,
+      "total_time": "96h 05’ 56”",
+      "ahead_of_2nd": "2h16'14''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

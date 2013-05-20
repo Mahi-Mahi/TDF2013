@@ -1,0 +1,20 @@
+{
+  "id": "pedro-delgado",
+  "first_name": "Pedro",
+  "last_name": "Delgado",
+  "birthyear": 1960,
+  "country": "Espagne",
+  "years": {
+    "1988": {
+      "nb_days_in_yellow": 10,
+      "nb_tour_legs": 22,
+      "pct_leading": 45,
+      "nb_leg_wins": 1,
+      "average_speed": 38,
+      "total_time": "84h 27’ 53”",
+      "ahead_of_2nd": "0h07'13''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

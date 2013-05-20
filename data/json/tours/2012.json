@@ -1,0 +1,608 @@
+{
+  "year": 2012,
+  "edition": 99,
+  "total_length": 3497,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 198,
+  "nb_finishers": 153,
+  "pct_finishers": 77,
+  "winner_name": "Bradley Wiggins",
+  "winner_time": "87h 34' 47''",
+  "ahead_of_2nd": "0h 03' 21\" ",
+  "second_name": "C. Froome",
+  "second_country": "Royaume-Uni",
+  "ahead_of_3rd": "0h 06' 19''",
+  "third_name": "V. Nibali",
+  "third_country": "V. Nibali",
+  "legs": [
+    {
+      "id": "E-2012-Prologue",
+      "year": 2012,
+      "leg": 0,
+      "title": "Liège (BEL) - Liège (BEL)",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "length": 120,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-01",
+      "year": 2012,
+      "leg": 1,
+      "title": "Liège (BEL) - Seraing (BEL)",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lng": "5.579666",
+        "lat": "50.632557"
+      },
+      "finish": {
+        "city": "Seraing",
+        "country": "Belgique",
+        "lng": "5.5",
+        "lat": "50.583333"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-02",
+      "year": 2012,
+      "leg": 2,
+      "title": "Visé (BEL) - Tournai (BEL)",
+      "start": {
+        "city": "Visé",
+        "country": "Belgique",
+        "lng": "18.892739",
+        "lat": "54.197416"
+      },
+      "finish": {
+        "city": "Davézieux",
+        "country": "France",
+        "lng": "4.702261",
+        "lat": "45.256666"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SlovaquiePeter Sagan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-03",
+      "year": 2012,
+      "leg": 3,
+      "title": "Orchies - Boulogne-sur-Mer",
+      "start": {
+        "city": "Orchies",
+        "country": "France",
+        "lng": "3.2428",
+        "lat": "50.4745"
+      },
+      "finish": {
+        "city": "Foix",
+        "country": "France",
+        "lng": "1.605232",
+        "lat": "42.964127"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneAndré Greipel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-04",
+      "year": 2012,
+      "leg": 4,
+      "title": "Abbeville - Rouen",
+      "start": {
+        "city": "Abbeville",
+        "country": "France",
+        "lng": "1.836833",
+        "lat": "50.105467"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 205,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SlovaquiePeter Sagan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-05",
+      "year": 2012,
+      "leg": 5,
+      "title": "Rouen - Saint-Quentin",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "finish": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniChristopher Froome",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-06",
+      "year": 2012,
+      "leg": 6,
+      "title": "Épernay - Metz",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lng": "3.956242",
+        "lat": "49.043411"
+      },
+      "finish": {
+        "city": "Peyragudes",
+        "country": "France",
+        "lng": "0.443112",
+        "lat": "42.794448"
+      },
+      "length": 157,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceThibaut Pinot",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-07",
+      "year": 2012,
+      "leg": 7,
+      "title": "Tomblaine - Planche des Belles Filles",
+      "start": {
+        "city": "Tomblaine",
+        "country": "France",
+        "lng": "6.221307",
+        "lat": "48.683482"
+      },
+      "finish": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lng": "1.533937",
+        "lat": "45.159555"
+      },
+      "length": 41,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-08",
+      "year": 2012,
+      "leg": 8,
+      "title": "Belfort - Porrentruy (SUI)",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Chartres",
+        "country": "France",
+        "lng": "1.489012",
+        "lat": "48.443854"
+      },
+      "length": 194,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceThomas Voeckler",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-09",
+      "year": 2012,
+      "leg": 9,
+      "title": "Arc-et-Senans - Besançon",
+      "start": {
+        "city": "Arc-et-Senans",
+        "country": "France",
+        "lng": "5.781165",
+        "lat": "47.032958"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 226,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniDavid Millar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-10",
+      "year": 2012,
+      "leg": 10,
+      "title": "Mâcon - Bellegarde-sur-Valserine",
+      "start": {
+        "city": "Mâcon",
+        "country": "France",
+        "lng": "4.828731",
+        "lat": "46.306884"
+      },
+      "finish": {
+        "city": "Tournai",
+        "country": "Belgique",
+        "lng": "3.388037",
+        "lat": "50.605606"
+      },
+      "length": 148,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePierre Rolland",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-11",
+      "year": 2012,
+      "leg": 11,
+      "title": "Albertville - Fontcouverte-la-Toussuire-Les Sybelles",
+      "start": {
+        "city": "Albertville",
+        "country": "France",
+        "lng": "6.392726",
+        "lat": "45.675535"
+      },
+      "finish": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lng": "1.613334",
+        "lat": "50.725231"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneAndré Greipel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-12",
+      "year": 2012,
+      "leg": 12,
+      "title": "Saint-Jean-de-Maurienne - Annonay-Davézieux",
+      "start": {
+        "city": "Saint-Jean-de-Maurienne",
+        "country": "France",
+        "lng": "6.344886",
+        "lat": "45.275403"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lng": "1.099971",
+        "lat": "49.443232"
+      },
+      "length": 191,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneLuis León Sánchez‎",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-13",
+      "year": 2012,
+      "leg": 13,
+      "title": "Saint-Paul-Trois-Châteaux - Le Cap d'Agde",
+      "start": {
+        "city": "Saint-Paul-Trois-Châteaux",
+        "country": "France",
+        "lng": "4.768295",
+        "lat": "44.348678"
+      },
+      "finish": {
+        "city": "Saint-Quentin",
+        "country": "France",
+        "lng": "3.2874",
+        "lat": "49.847066"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePierrick Fédrigo",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-14",
+      "year": 2012,
+      "leg": 14,
+      "title": "Limoux - Foix",
+      "start": {
+        "city": "Limoux",
+        "country": "France",
+        "lng": "2.218142",
+        "lat": "43.053289"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceThomas Voeckler",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-15",
+      "year": 2012,
+      "leg": 15,
+      "title": "Samatan - Pau",
+      "start": {
+        "city": "Samatan",
+        "country": "France",
+        "lng": "0.930806",
+        "lat": "43.491933"
+      },
+      "finish": {
+        "city": "Planche des Belles Filles, Plancher-les-Mines",
+        "country": "France",
+        "lng": "6.774211",
+        "lat": "47.767158"
+      },
+      "length": 143,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneAlejandro Valverde",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-16",
+      "year": 2012,
+      "leg": 16,
+      "title": "Pau - Bagnères-de-Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Porrentruy",
+        "country": "Suisse",
+        "lng": "7.075288",
+        "lat": "47.417394"
+      },
+      "length": 222,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-17",
+      "year": 2012,
+      "leg": 17,
+      "title": "Bagnères-de-Luchon - Peyragudes",
+      "start": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lng": "6.024054",
+        "lat": "47.237829"
+      },
+      "length": 53,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-18",
+      "year": 2012,
+      "leg": 18,
+      "title": "Blagnac - Brive-la-Gaillarde",
+      "start": {
+        "city": "Blagnac",
+        "country": "France",
+        "lng": "1.39703",
+        "lat": "43.635087"
+      },
+      "finish": {
+        "city": "Bellegarde-sur-Valserine",
+        "country": "France",
+        "lng": "5.826179",
+        "lat": "46.107599"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SlovaquiePeter Sagan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-19",
+      "year": 2012,
+      "leg": 19,
+      "title": "Bonneval - Chartres",
+      "start": {
+        "city": "Bonneval",
+        "country": "France",
+        "lng": "1.385289",
+        "lat": "48.181453"
+      },
+      "finish": {
+        "city": "Les Sybelles, Fontcouverte-la-Toussuire",
+        "country": "France",
+        "lng": "6.263248",
+        "lat": "45.254656"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2012-20",
+      "year": 2012,
+      "leg": 20,
+      "title": "Rambouillet - Paris Champs-Élysées",
+      "start": {
+        "city": "Rambouillet",
+        "country": "France",
+        "lng": "1.829079",
+        "lat": "48.643868"
+      },
+      "finish": {
+        "city": "Le Cap d'Agde",
+        "country": "France",
+        "lng": "3.505399",
+        "lat": "43.280739"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneAndré Greipel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    }
+  ]
+}

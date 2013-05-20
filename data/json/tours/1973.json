@@ -1,0 +1,776 @@
+{
+  "year": 1973,
+  "edition": 60,
+  "total_length": 4090,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 132,
+  "nb_finishers": 87,
+  "pct_finishers": 66,
+  "winner_name": "Luis Ocaña",
+  "winner_time": "122h 25’ 34”",
+  "ahead_of_2nd": "0h 15' 51\" ",
+  "second_name": "B. Thevenet",
+  "second_country": "France",
+  "ahead_of_3rd": "0h 17' 15\"",
+  "third_name": "J-M. Fuente",
+  "third_country": "J-M. Fuente",
+  "legs": [
+    {
+      "id": "E-1973-Prologue",
+      "year": 1973,
+      "leg": 0,
+      "title": "Scheveningen (NL)",
+      "start": {
+        "city": "Scheveningen",
+        "country": "Pays-Bas",
+        "lng": "4.302183",
+        "lat": "52.102402"
+      },
+      "finish": {
+        "city": "Scheveningen",
+        "country": "Pays-Bas",
+        "lng": "4.302183",
+        "lat": "52.102402"
+      },
+      "length": 89,
+      "type": null,
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-1a",
+      "year": 1973,
+      "leg": 1,
+      "title": "Scheveningen - Rotterdam (NL)",
+      "start": {
+        "city": "Scheveningen",
+        "country": "Pays-Bas",
+        "lng": "4.302183",
+        "lat": "52.102402"
+      },
+      "finish": {
+        "city": "Puy de Dôme",
+        "country": "France",
+        "lng": "3.015582",
+        "lat": "45.712414"
+      },
+      "length": 150,
+      "type": null,
+      "winner": {
+        "name": "Bernard Thévenet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-1b",
+      "year": 1973,
+      "leg": 1,
+      "title": "Rotterdam - Sint-Niklaas (BEL)",
+      "start": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lng": "4.481776",
+        "lat": "51.924216"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-2a",
+      "year": 1973,
+      "leg": 2,
+      "title": "Sint-Niklaas - Sint-Niklaas",
+      "start": {
+        "city": "Sint-Niklaas",
+        "country": "Belgique",
+        "lng": "4.133333",
+        "lat": "51.15"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Walter Godefroot Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "José Catieau Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-2b",
+      "year": 1973,
+      "leg": 2,
+      "title": "Sint-Niklaas - Roubaix",
+      "start": {
+        "city": "Sint-Niklaas",
+        "country": "Belgique",
+        "lng": "4.133333",
+        "lat": "51.15"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Jean-Pierre Danguillaume Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "José Catieau Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-03",
+      "year": 1973,
+      "leg": 3,
+      "title": "Roubaix - Reims",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "finish": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lng": "4.481776",
+        "lat": "51.924216"
+      },
+      "length": 234,
+      "type": null,
+      "winner": {
+        "name": "Vicente López Carril Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-04",
+      "year": 1973,
+      "leg": 4,
+      "title": "Reims - Nancy",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "finish": {
+        "city": "Sint-Niklaas",
+        "country": "Belgique",
+        "lng": "4.133333",
+        "lat": "51.15"
+      },
+      "length": 222,
+      "type": null,
+      "winner": {
+        "name": "Michael Wright Drapeau : Royaume-Uni Royaume-Uni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-05",
+      "year": 1973,
+      "leg": 5,
+      "title": "Nancy - Mulhouse",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "length": 238,
+      "type": null,
+      "winner": {
+        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-06",
+      "year": 1973,
+      "leg": 6,
+      "title": "Belfort - Divonne-les-Bains",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lng": "6.863849",
+        "lat": "47.639674"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 28,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-7a",
+      "year": 1973,
+      "leg": 7,
+      "title": "Divonne-les-Bains - Gaillard",
+      "start": {
+        "city": "Divonne-les-Bains",
+        "country": "France",
+        "lng": "6.13604",
+        "lat": "46.358168"
+      },
+      "finish": {
+        "city": "Sint-Niklaas",
+        "country": "Belgique",
+        "lng": "4.133333",
+        "lat": "51.15"
+      },
+      "length": 76,
+      "type": null,
+      "winner": {
+        "name": "Lucien Van Impe Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-7b",
+      "year": 1973,
+      "leg": 7,
+      "title": "Gaillard - Méribel",
+      "start": {
+        "city": "Gaillard",
+        "country": "France",
+        "lng": "6.208959",
+        "lat": "46.184685"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lng": "3.177847",
+        "lat": "50.692705"
+      },
+      "length": 235,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-08",
+      "year": 1973,
+      "leg": 8,
+      "title": "Moûtiers - Les Orres",
+      "start": {
+        "city": "Moûtiers",
+        "country": "France",
+        "lng": "6.529926",
+        "lat": "45.484615"
+      },
+      "finish": {
+        "city": "Gaillard",
+        "country": "France",
+        "lng": "6.208959",
+        "lat": "46.184685"
+      },
+      "length": 248,
+      "type": null,
+      "winner": {
+        "name": "Claude Tollet Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-09",
+      "year": 1973,
+      "leg": 9,
+      "title": "Embrun - Nice",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lng": "6.495865",
+        "lat": "44.564164"
+      },
+      "finish": {
+        "city": "Méribel",
+        "country": "France",
+        "lng": "6.56436",
+        "lat": "45.397528"
+      },
+      "length": 216,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-10",
+      "year": 1973,
+      "leg": 10,
+      "title": "Nice - Aubagne",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "length": 227,
+      "type": null,
+      "winner": {
+        "name": "Pedro Torres Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-11",
+      "year": 1973,
+      "leg": 11,
+      "title": "Montpellier - Argelès-sur-Mer",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lng": "3.876716",
+        "lat": "43.610769"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lng": "6.184417",
+        "lat": "48.692054"
+      },
+      "length": 137,
+      "type": null,
+      "winner": {
+        "name": "Wilfried David Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-12a",
+      "year": 1973,
+      "leg": 12,
+      "title": "Perpignan - Thuir",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lng": "7.335888",
+        "lat": "47.750839"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Walter Godefroot Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-12b",
+      "year": 1973,
+      "leg": 12,
+      "title": "Thuir - Pyrénées 2000",
+      "start": {
+        "city": "Thuir",
+        "country": "France",
+        "lng": "2.756348",
+        "lat": "42.63243"
+      },
+      "finish": {
+        "city": "Divonne-les-Bains",
+        "country": "France",
+        "lng": "6.13604",
+        "lat": "46.358168"
+      },
+      "length": 12,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Joaquim Agostinho Portugal Portugal",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-13",
+      "year": 1973,
+      "leg": 13,
+      "title": "Bourg-Madame - Luchon",
+      "start": {
+        "city": "Bourg-Madame",
+        "country": "France",
+        "lng": "1.944595",
+        "lat": "42.434397"
+      },
+      "finish": {
+        "city": "Les Orres",
+        "country": "France",
+        "lng": "6.551044",
+        "lat": "44.514098"
+      },
+      "length": 233,
+      "type": null,
+      "winner": {
+        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-14",
+      "year": 1973,
+      "leg": 14,
+      "title": "Luchon - Pau",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 16,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-15",
+      "year": 1973,
+      "leg": 15,
+      "title": "Pau - Fleurance",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Aubagne",
+        "country": "France",
+        "lng": "5.569336",
+        "lat": "43.29218"
+      },
+      "length": 7,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-16b",
+      "year": 1973,
+      "leg": 16,
+      "title": "Bordeaux - Bordeaux",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 138,
+      "type": null,
+      "winner": {
+        "name": "Eddy Verstraeten Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Herman Van Springel Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-16a",
+      "year": 1973,
+      "leg": 16,
+      "title": "Fleurance - Bordeaux",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "finish": {
+        "city": "Argelès-sur-Mer",
+        "country": "France",
+        "lng": "3.022911",
+        "lat": "42.546214"
+      },
+      "length": 84,
+      "type": null,
+      "winner": {
+        "name": "Willy Teirlinck Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Willy Teirlinck Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-17",
+      "year": 1973,
+      "leg": 17,
+      "title": "Sainte-Foy-la-Grande - Brive-la-Gaillarde",
+      "start": {
+        "city": "Sainte-Foy-la-Grande",
+        "country": "France",
+        "lng": "0.215006",
+        "lat": "44.841805"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 226,
+      "type": null,
+      "winner": {
+        "name": "Cyrille Guimard Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "José Catieau Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-18",
+      "year": 1973,
+      "leg": 18,
+      "title": "Brive-la-Gaillarde - Puy de Dôme",
+      "start": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lng": "1.533937",
+        "lat": "45.159555"
+      },
+      "finish": {
+        "city": "Fleurance",
+        "country": "France",
+        "lng": "0.663244",
+        "lat": "43.849456"
+      },
+      "length": 214,
+      "type": null,
+      "winner": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "José Catieau Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-19",
+      "year": 1973,
+      "leg": 19,
+      "title": "Bourges - Versailles",
+      "start": {
+        "city": "Bourges",
+        "country": "France",
+        "lng": "2.398782",
+        "lat": "47.081012"
+      },
+      "finish": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lng": "1.533937",
+        "lat": "45.159555"
+      },
+      "length": 86,
+      "type": null,
+      "winner": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-20a",
+      "year": 1973,
+      "leg": 20,
+      "title": "Versailles - Versailles",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Thuir",
+        "country": "France",
+        "lng": "2.756348",
+        "lat": "42.63243"
+      },
+      "length": 137,
+      "type": null,
+      "winner": {
+        "name": "José Catieau Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Herman Van Springel Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1973-20b",
+      "year": 1973,
+      "leg": 20,
+      "title": "Versailles - Paris",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lng": "2.130122",
+        "lat": "48.801408"
+      },
+      "finish": {
+        "city": "Pyrénées 2000",
+        "country": "France",
+        "lng": "2.061496",
+        "lat": "42.520843"
+      },
+      "length": 12,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "Watney-Maes",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Herman Van Springel Drapeau belge Belgique",
+        "nationality": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gustave-garrigou",
+  "first_name": "Gustave",
+  "last_name": "Garrigou",
+  "birthyear": 1885,
+  "country": "France",
+  "years": {
+    "1911": {
+      "nb_days_in_yellow": 12,
+      "nb_tour_legs": 15,
+      "pct_leading": 80,
+      "nb_leg_wins": 2,
+      "average_speed": 27,
+      "total_time": "195h 37’ 00”",
+      "ahead_of_2nd": "n.a."
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

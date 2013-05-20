@@ -1,0 +1,440 @@
+{
+  "year": 1919,
+  "edition": 13,
+  "total_length": 5560,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 69,
+  "nb_finishers": 11,
+  "pct_finishers": 16,
+  "winner_name": "Firmin Lambot",
+  "winner_time": "231h 07’ 15”",
+  "ahead_of_2nd": "1h 32' 54\" ",
+  "second_name": "J. Alavoine",
+  "second_country": "France",
+  "ahead_of_3rd": "2h 16' 31\"",
+  "third_name": "E. Christophe",
+  "third_country": "E. Christophe",
+  "legs": [
+    {
+      "id": "E-1919-01",
+      "year": 1919,
+      "leg": 1,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "length": 388,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueJean Rossius",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-02",
+      "year": 1919,
+      "leg": 2,
+      "title": "Le Havre - Cherbourg",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lng": "0.107929",
+        "lat": "49.49437"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 468,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-03",
+      "year": 1919,
+      "leg": 3,
+      "title": "Cherbourg - Brest",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "length": 340,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-04",
+      "year": 1919,
+      "leg": 4,
+      "title": "Brest - Les Sables-d'Olonne",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "length": 364,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-05",
+      "year": 1919,
+      "leg": 5,
+      "title": "Les Sables-d'Olonne - Bayonne",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "finish": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lng": "6.142296",
+        "lat": "46.198392"
+      },
+      "length": 405,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceFrancis Pélissier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-06",
+      "year": 1919,
+      "leg": 6,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "length": 412,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-07",
+      "year": 1919,
+      "leg": 7,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "length": 482,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-08",
+      "year": 1919,
+      "leg": 8,
+      "title": "Perpignan - Marseille",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHonoré Barthélémy",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-09",
+      "year": 1919,
+      "leg": 9,
+      "title": "Marseille - Nice",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 323,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-10",
+      "year": 1919,
+      "leg": 10,
+      "title": "Nice - Grenoble",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lng": "7.265592",
+        "lat": "43.696036"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lng": "-1.625298",
+        "lat": "49.639093"
+      },
+      "length": 370,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-11",
+      "year": 1919,
+      "leg": 11,
+      "title": "Grenoble - Genève",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lng": "5.724524",
+        "lat": "45.188529"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lng": "-4.486076",
+        "lat": "48.390394"
+      },
+      "length": 338,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHonoré Barthélémy",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-12",
+      "year": 1919,
+      "leg": 12,
+      "title": "Genève - Strasbourg",
+      "start": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lng": "6.142296",
+        "lat": "46.198392"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lng": "-1.795493",
+        "lat": "46.492958"
+      },
+      "length": 333,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHonoré Barthélémy",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-13",
+      "year": 1919,
+      "leg": 13,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lng": "7.747882",
+        "lat": "48.583148"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lng": "-1.474841",
+        "lat": "43.492949"
+      },
+      "length": 325,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHonoré Barthélémy",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-14",
+      "year": 1919,
+      "leg": 14,
+      "title": "Metz - Dunkerque",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lng": "6.176905",
+        "lat": "49.119666"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 371,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieLuigi Lucotti",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1919-15",
+      "year": 1919,
+      "leg": 15,
+      "title": "Dunkerque - Paris",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lng": "2.375202",
+        "lat": "51.03456"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lng": "2.895872",
+        "lat": "42.698684"
+      },
+      "length": 315,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieLuigi Lucotti",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceEugène Christophe",
+        "nationality": null
+      }
+    }
+  ]
+}

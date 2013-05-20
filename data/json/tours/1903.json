@@ -1,0 +1,188 @@
+{
+  "year": 1903,
+  "edition": 1,
+  "total_length": 2428,
+  "nb_legs": 6,
+  "has_prologue": false,
+  "nb_concurrents": 60,
+  "nb_finishers": 21,
+  "pct_finishers": 35,
+  "winner_name": "Maurice Garin",
+  "winner_time": "94h 33’ 00”",
+  "ahead_of_2nd": "2h 49' 45\" ",
+  "second_name": "L. Pothier",
+  "second_country": "France",
+  "ahead_of_3rd": "4h 29' 38\"",
+  "third_name": "F. Augerau",
+  "third_country": "F. Augerau",
+  "legs": [
+    {
+      "id": "E-1903-01",
+      "year": 1903,
+      "leg": 1,
+      "title": "Montgeron - Lyon",
+      "start": {
+        "city": "Montgeron",
+        "country": "France",
+        "lng": "2.460453",
+        "lat": "48.703859"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "length": 467,
+      "type": "plaine",
+      "winner": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1903-02",
+      "year": 1903,
+      "leg": 2,
+      "title": "Lyon - Marseille",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lng": "4.835659",
+        "lat": "45.764043"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "length": 374,
+      "type": "plaine",
+      "winner": {
+        "name": "Hippolyte Aucouturier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1903-03",
+      "year": 1903,
+      "leg": 3,
+      "title": "Marseille - Toulouse",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lng": "5.36978",
+        "lat": "43.296482"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "length": 423,
+      "type": "plaine",
+      "winner": {
+        "name": "Hippolyte Aucouturier",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1903-04",
+      "year": 1903,
+      "leg": 4,
+      "title": "Toulouse - Bordeaux",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lng": "1.444209",
+        "lat": "43.604652"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 268,
+      "type": "plaine",
+      "winner": {
+        "name": "Charles Laeser",
+        "nationality": "Suisse"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1903-05",
+      "year": 1903,
+      "leg": 5,
+      "title": "Bordeaux - Nantes",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "length": 425,
+      "type": "plaine",
+      "winner": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    },
+    {
+      "id": "E-1903-06",
+      "year": 1903,
+      "leg": 6,
+      "title": "Nantes - Paris",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lng": "-1.553621",
+        "lat": "47.218371"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 471,
+      "type": "plaine",
+      "winner": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      },
+      "leader": {
+        "name": "Maurice Garin",
+        "nationality": "France"
+      }
+    }
+  ]
+}

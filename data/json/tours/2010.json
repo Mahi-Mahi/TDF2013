@@ -1,0 +1,608 @@
+{
+  "year": 2010,
+  "edition": 97,
+  "total_length": 3642,
+  "nb_legs": 20,
+  "has_prologue": true,
+  "nb_concurrents": 198,
+  "nb_finishers": 170,
+  "pct_finishers": 86,
+  "winner_name": "Andy Schleck",
+  "winner_time": "91h 58’ 48\"",
+  "ahead_of_2nd": "0h 01' 22\" ",
+  "second_name": "D. Menchov",
+  "second_country": "Russie",
+  "ahead_of_3rd": "0h 03' 01\"",
+  "third_name": "S. Sanchez",
+  "third_country": "S. Sanchez",
+  "legs": [
+    {
+      "id": "E-2010-Prologue",
+      "year": 2010,
+      "leg": 0,
+      "title": "Rotterdam (PB) - Rotterdam (PB)",
+      "start": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lng": "4.481776",
+        "lat": "51.924216"
+      },
+      "finish": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lng": "4.481776",
+        "lat": "51.924216"
+      },
+      "length": 102,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-01",
+      "year": 2010,
+      "leg": 1,
+      "title": "Rotterdam (PB) - Bruxelles (BEL)",
+      "start": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lng": "4.481776",
+        "lat": "51.924216"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "length": 8,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-02",
+      "year": 2010,
+      "leg": 2,
+      "title": "Bruxelles (BEL) - Spa (BEL)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lng": "4.35171",
+        "lat": "50.85034"
+      },
+      "finish": {
+        "city": "Mende",
+        "country": "France",
+        "lng": "3.501873",
+        "lat": "44.517611"
+      },
+      "length": 213,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-03",
+      "year": 2010,
+      "leg": 3,
+      "title": "Wanze (BEL) - Arenberg-Porte du Hainaut",
+      "start": {
+        "city": "Wanze",
+        "country": "Belgique",
+        "lng": "5.21413",
+        "lat": "50.534466"
+      },
+      "finish": {
+        "city": "Ax 3 Domaines",
+        "country": "France",
+        "lng": "1.81283",
+        "lat": "42.699657"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-04",
+      "year": 2010,
+      "leg": 4,
+      "title": "Cambrai - Reims",
+      "start": {
+        "city": "Cambrai",
+        "country": "France",
+        "lng": "3.236633",
+        "lat": "50.173538"
+      },
+      "finish": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "length": 227,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-05",
+      "year": 2010,
+      "leg": 5,
+      "title": "Épernay - Montargis",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lng": "3.956242",
+        "lat": "49.043411"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceSylvain Chavanel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceSylvain Chavanel",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-06",
+      "year": 2010,
+      "leg": 6,
+      "title": "Montargis - Gueugnon",
+      "start": {
+        "city": "Montargis",
+        "country": "France",
+        "lng": "2.736291",
+        "lat": "47.99729"
+      },
+      "finish": {
+        "city": "Col du Tourmalet",
+        "country": "France",
+        "lng": "0.145",
+        "lat": "42.908192"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-07",
+      "year": 2010,
+      "leg": 7,
+      "title": "Tournus - Station des Rousses",
+      "start": {
+        "city": "Tournus",
+        "country": "France",
+        "lng": "4.911953",
+        "lat": "46.561816"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceSandy Casar",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-08",
+      "year": 2010,
+      "leg": 8,
+      "title": "Station des Rousses - Morzine-Avoriaz",
+      "start": {
+        "city": "Les Rousses",
+        "country": "France",
+        "lng": "6.061806",
+        "lat": "46.48434"
+      },
+      "finish": {
+        "city": "Pauillac",
+        "country": "France",
+        "lng": "-0.746212",
+        "lat": "45.199585"
+      },
+      "length": 179,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : PortugalSérgio Paulinho",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-09",
+      "year": 2010,
+      "leg": 9,
+      "title": "Morzine-Avoriaz - Saint-Jean-de-Maurienne",
+      "start": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lng": "2.352222",
+        "lat": "48.856614"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneJoaquim Rodríguez",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-10",
+      "year": 2010,
+      "leg": 10,
+      "title": "Chambéry - Gap",
+      "start": {
+        "city": "Chambéry",
+        "country": "France",
+        "lng": "5.917781",
+        "lat": "45.564601"
+      },
+      "finish": {
+        "city": "Spa",
+        "country": "Belgique",
+        "lng": "6.556261",
+        "lat": "52.631844"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-11",
+      "year": 2010,
+      "leg": 11,
+      "title": "Sisteron - Bourg-lès-Valence",
+      "start": {
+        "city": "Sisteron",
+        "country": "France",
+        "lng": "5.943191",
+        "lat": "44.194713"
+      },
+      "finish": {
+        "city": "Arenberg",
+        "country": "France",
+        "lng": "3.422829",
+        "lat": "50.378854"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : KazakhstanAlexandre Vinokourov",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-12",
+      "year": 2010,
+      "leg": 12,
+      "title": "Bourg-de-Péage - Mende",
+      "start": {
+        "city": "Bourg-de-Péage",
+        "country": "France",
+        "lng": "5.050948",
+        "lat": "45.040419"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lng": "4.031696",
+        "lat": "49.258329"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceChristophe Riblon",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-13",
+      "year": 2010,
+      "leg": 13,
+      "title": "Rodez - Revel",
+      "start": {
+        "city": "Rodez",
+        "country": "France",
+        "lng": "2.575986",
+        "lat": "44.349389"
+      },
+      "finish": {
+        "city": "Montargis",
+        "country": "France",
+        "lng": "2.736291",
+        "lat": "47.99729"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceThomas Voeckler",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-14",
+      "year": 2010,
+      "leg": 14,
+      "title": "Revel - Ax 3 Domaines",
+      "start": {
+        "city": "Revel",
+        "country": "France",
+        "lng": "2.004573",
+        "lat": "43.458611"
+      },
+      "finish": {
+        "city": "Gueugnon",
+        "country": "France",
+        "lng": "4.064993",
+        "lat": "46.601313"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePierrick Fédrigo",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-15",
+      "year": 2010,
+      "leg": 15,
+      "title": "Pamiers - Bagnères-de-Luchon",
+      "start": {
+        "city": "Pamiers",
+        "country": "France",
+        "lng": "1.607953",
+        "lat": "43.114753"
+      },
+      "finish": {
+        "city": "Les Rousses",
+        "country": "France",
+        "lng": "6.061806",
+        "lat": "46.48434"
+      },
+      "length": 174,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-16",
+      "year": 2010,
+      "leg": 16,
+      "title": "Bagnères-de-Luchon - Pau",
+      "start": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lng": "0.592943",
+        "lat": "42.788963"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lng": "6.776343",
+        "lat": "46.189683"
+      },
+      "length": 109,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-17",
+      "year": 2010,
+      "leg": 17,
+      "title": "Pau - Col du Tourmalet",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lng": "-0.370797",
+        "lat": "43.2951"
+      },
+      "finish": {
+        "city": "Saint-Jean-de-Maurienne",
+        "country": "France",
+        "lng": "6.344886",
+        "lat": "45.275403"
+      },
+      "length": 52,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgAndy Schleck",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-18",
+      "year": 2010,
+      "leg": 18,
+      "title": "Salies-de-Béarn - Bordeaux",
+      "start": {
+        "city": "Salies-de-Béarn",
+        "country": "France",
+        "lng": "-0.924854",
+        "lat": "43.470556"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lng": "6.079758",
+        "lat": "44.559638"
+      },
+      "length": 223,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-19",
+      "year": 2010,
+      "leg": 19,
+      "title": "Bordeaux - Pauillac",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lng": "-0.57918",
+        "lat": "44.837789"
+      },
+      "finish": {
+        "city": "Bourg-lès-Valence",
+        "country": "France",
+        "lng": "4.894633",
+        "lat": "44.947037"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceSylvain Chavanel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceSylvain Chavanel",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2010-20",
+      "year": 2010,
+      "leg": 20,
+      "title": "Longjumeau - Paris-Champs-Élysées",
+      "start": {
+        "city": "Longjumeau",
+        "country": "France",
+        "lng": "2.305675",
+        "lat": "48.692252"
+      },
+      "finish": {
+        "city": "Revel",
+        "country": "France",
+        "lng": "2.004573",
+        "lat": "43.458611"
+      },
+      "length": 153,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    }
+  ]
+}
