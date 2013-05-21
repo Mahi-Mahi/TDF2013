@@ -1,0 +1,29 @@
+{
+  "id": "ottavio-bottecchia",
+  "first_name": "Ottavio",
+  "last_name": "Bottecchia",
+  "birthyear": 1895,
+  "country": "Italie",
+  "years": {
+    "1924": {
+      "nb_days_in_yellow": 14,
+      "nb_tour_legs": 15,
+      "pct_leading": 93,
+      "nb_leg_wins": 4,
+      "average_speed": 24.25,
+      "total_time": "226h 18’ 21”",
+      "ahead_of_2nd": "0h35'36''"
+    },
+    "1925": {
+      "nb_days_in_yellow": 12,
+      "nb_tour_legs": 18,
+      "pct_leading": 67,
+      "nb_leg_wins": 4,
+      "average_speed": 24.82,
+      "total_time": "219h 10’ 18”",
+      "ahead_of_2nd": "0h54'20''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "2"
+}

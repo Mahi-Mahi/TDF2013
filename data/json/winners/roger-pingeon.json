@@ -1,0 +1,20 @@
+{
+  "id": "roger-pingeon",
+  "first_name": "Roger",
+  "last_name": "Pingeon",
+  "birthyear": 1941,
+  "country": "France",
+  "years": {
+    "1967": {
+      "nb_days_in_yellow": 16,
+      "nb_tour_legs": 22,
+      "pct_leading": 73,
+      "nb_leg_wins": 1,
+      "average_speed": 34.756,
+      "total_time": "136h 53’ 50”",
+      "ahead_of_2nd": "0h03'40''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

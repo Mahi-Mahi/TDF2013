@@ -1,0 +1,20 @@
+{
+  "id": "luis-ocana",
+  "first_name": "Luis",
+  "last_name": "Ocaña",
+  "birthyear": 1945,
+  "country": "Espagne",
+  "years": {
+    "1973": {
+      "nb_days_in_yellow": 13,
+      "nb_tour_legs": 20,
+      "pct_leading": 65,
+      "nb_leg_wins": 6,
+      "average_speed": 33.407,
+      "total_time": "122h 25’ 34”",
+      "ahead_of_2nd": "0h15'51''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

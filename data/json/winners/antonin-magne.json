@@ -1,0 +1,29 @@
+{
+  "id": "antonin-magne",
+  "first_name": "Antonin",
+  "last_name": "Magne",
+  "birthyear": 1904,
+  "country": "France",
+  "years": {
+    "1931": {
+      "nb_days_in_yellow": 15,
+      "nb_tour_legs": 24,
+      "pct_leading": 63,
+      "nb_leg_wins": 1,
+      "average_speed": 28.735,
+      "total_time": "177h 10’ 03”",
+      "ahead_of_2nd": "0h12'56''"
+    },
+    "1934": {
+      "nb_days_in_yellow": 21,
+      "nb_tour_legs": 23,
+      "pct_leading": 91,
+      "nb_leg_wins": 2,
+      "average_speed": 30.36,
+      "total_time": "147h 13’ 58”",
+      "ahead_of_2nd": "0h27'31''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "2"
+}

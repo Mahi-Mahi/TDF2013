@@ -1,0 +1,20 @@
+{
+  "id": "roger-lapebie",
+  "first_name": "Roger",
+  "last_name": "Lapébie",
+  "birthyear": 1911,
+  "country": "France",
+  "years": {
+    "1937": {
+      "nb_days_in_yellow": 3,
+      "nb_tour_legs": 20,
+      "pct_leading": 15,
+      "nb_leg_wins": 3,
+      "average_speed": 31.768,
+      "total_time": "138h 58’ 31”",
+      "ahead_of_2nd": "0h07'17''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gastone-nencini",
+  "first_name": "Gastone",
+  "last_name": "Nencini",
+  "birthyear": 1930,
+  "country": "Italie",
+  "years": {
+    "1960": {
+      "nb_days_in_yellow": 13,
+      "nb_tour_legs": 21,
+      "pct_leading": 62,
+      "nb_leg_wins": 0,
+      "average_speed": 37.21,
+      "total_time": "112h 08’ 42”",
+      "ahead_of_2nd": "0h05'02''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}
