@@ -1,0 +1,74 @@
+{
+  "id": "n.a.",
+  "first_name": "n.a.",
+  "last_name": null,
+  "birthyear": 1999,
+  "country": "n.a.",
+  "years": {
+    "1999": {
+      "nb_days_in_yellow": 14,
+      "nb_tour_legs": 20,
+      "pct_leading": 70,
+      "nb_leg_wins": 4,
+      "average_speed": 40.276,
+      "total_time": "91h 32’ 16”",
+      "ahead_of_2nd": "0h07'37''"
+    },
+    "2000": {
+      "nb_days_in_yellow": 11,
+      "nb_tour_legs": 21,
+      "pct_leading": 52,
+      "nb_leg_wins": 1,
+      "average_speed": 39.569,
+      "total_time": "92h 33’ 08’’",
+      "ahead_of_2nd": "0h06'02''"
+    },
+    "2001": {
+      "nb_days_in_yellow": 7,
+      "nb_tour_legs": 20,
+      "pct_leading": 35,
+      "nb_leg_wins": 4,
+      "average_speed": 40.07,
+      "total_time": "86h 17’ 28’’",
+      "ahead_of_2nd": "0h06'44''"
+    },
+    "2002": {
+      "nb_days_in_yellow": 10,
+      "nb_tour_legs": 20,
+      "pct_leading": 50,
+      "nb_leg_wins": 4,
+      "average_speed": 39.92,
+      "total_time": "82h 05’ 12”",
+      "ahead_of_2nd": "0h07'17''"
+    },
+    "2003": {
+      "nb_days_in_yellow": 12,
+      "nb_tour_legs": 20,
+      "pct_leading": 60,
+      "nb_leg_wins": 1,
+      "average_speed": 40.94,
+      "total_time": "83h 41’ 12”",
+      "ahead_of_2nd": "0h01'01''"
+    },
+    "2004": {
+      "nb_days_in_yellow": 6,
+      "nb_tour_legs": 20,
+      "pct_leading": 30,
+      "nb_leg_wins": 5,
+      "average_speed": 40.553,
+      "total_time": "83h 36’ 02”",
+      "ahead_of_2nd": "0h06'19''"
+    },
+    "2005": {
+      "nb_days_in_yellow": 16,
+      "nb_tour_legs": 21,
+      "pct_leading": 76,
+      "nb_leg_wins": 1,
+      "average_speed": 41.654,
+      "total_time": "86h 15’ 02\"",
+      "ahead_of_2nd": "0h04'40''"
+    }
+  },
+  "is_doped": true,
+  "nb_wins": null
+}

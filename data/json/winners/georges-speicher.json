@@ -1,0 +1,20 @@
+{
+  "id": "georges-speicher",
+  "first_name": "Georges",
+  "last_name": "Speicher",
+  "birthyear": 1907,
+  "country": "France",
+  "years": {
+    "1933": {
+      "nb_days_in_yellow": 11,
+      "nb_tour_legs": 23,
+      "pct_leading": 48,
+      "nb_leg_wins": 3,
+      "average_speed": 29.818,
+      "total_time": "147h 51’ 37”",
+      "ahead_of_2nd": "0h04'01''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

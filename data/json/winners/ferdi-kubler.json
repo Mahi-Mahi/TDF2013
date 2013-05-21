@@ -1,0 +1,20 @@
+{
+  "id": "ferdi-kubler",
+  "first_name": "Ferdi",
+  "last_name": "Kübler",
+  "birthyear": 1919,
+  "country": "Suisse",
+  "years": {
+    "1950": {
+      "nb_days_in_yellow": 10,
+      "nb_tour_legs": 22,
+      "pct_leading": 45,
+      "nb_leg_wins": 3,
+      "average_speed": 32.778,
+      "total_time": "145h 36’ 56”",
+      "ahead_of_2nd": "0h09'30''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

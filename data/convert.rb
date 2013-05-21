@@ -50,7 +50,7 @@ CSV.foreach("csv/Données - Fight - Feuille1.csv") do |row|
 		fighters[id][:ahead_of_2nd] = row[6].to_i
 		fighters[id][:ahead_of_2nd_year] = row[7].to_i
 
-		fighters[id][:average_speed] = row[8]
+		fighters[id][:average_speed] = row[8].gsub(/^(\d+),(\d+)/, '\1.\2').to_f
 		fighters[id][:average_speed_year] = row[9].to_i
 
 		fighters[id][:nb_wins] = row[10].to_i
@@ -64,8 +64,6 @@ CSV.foreach("csv/Données - Fight - Feuille1.csv") do |row|
 end
 
 puts "#{fighters.length} fighters"
-
-
 
 idx = 0
 CSV.foreach("csv/Données - Tours - Feuille1.csv") do |row|
@@ -136,7 +134,7 @@ CSV.foreach("csv/Données - Vainqueurs - Feuille1.csv") do |row|
 		winners[id][:years][year][:nb_tour_legs] = row[7].to_i
 		winners[id][:years][year][:pct_leading] = row[8].to_i
 		winners[id][:years][year][:nb_leg_wins] = row[9].to_i
-		winners[id][:years][year][:average_speed] = row[10].to_i
+		winners[id][:years][year][:average_speed] = row[10].gsub(/^(\d+),(\d+)/, '\1.\2').to_f
 		winners[id][:years][year][:total_time] = row[11]
 		winners[id][:years][year][:ahead_of_2nd] = row[12]
 		winners[id][:is_doped] = ( row[14] == 'oui' )
@@ -219,6 +217,20 @@ puts "#{legs.length} etapes"
 
 tours.each do |year, tour|
 	tour[:legs].sort_by! {|o| o[:leg] }
+end
+
+# Fighters
+
+filename = "json/fighters.json"
+content = production ? fighters.to_json : JSON.pretty_generate(fighters)
+File.open(filename, 'w') { |file| file.write content }
+Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }
+
+tours.each do |year, tour|
+	filename = "json/tours/#{year}.json"
+	content = production ? tour.to_json : JSON.pretty_generate(tour)
+	File.open(filename, 'w') { |file| file.write content }
+	Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }
 end
 
 # Loops

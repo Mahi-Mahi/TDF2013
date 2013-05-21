@@ -33,6 +33,7 @@ GEM
       guard (~> 1.1)
     guard-shell (0.5.1)
       guard (>= 1.1.0)
+    json (1.7.7)
     jwt (0.1.8)
       multi_json (>= 1.5)
     launchy (2.3.0)
@@ -71,3 +72,4 @@ DEPENDENCIES
   guard
   guard-bundler
   guard-shell
+  json (~> 1.7.7)

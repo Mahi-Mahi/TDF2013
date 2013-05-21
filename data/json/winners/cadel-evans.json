@@ -1,0 +1,20 @@
+{
+  "id": "cadel-evans",
+  "first_name": "Cadel",
+  "last_name": "Evans",
+  "birthyear": 1977,
+  "country": "Australie",
+  "years": {
+    "2011": {
+      "nb_days_in_yellow": 1,
+      "nb_tour_legs": 21,
+      "pct_leading": 5,
+      "nb_leg_wins": 1,
+      "average_speed": 39.788,
+      "total_time": "86h 12’ 22\"",
+      "ahead_of_2nd": "0h01'34''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "1"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "laurent-fignon",
+  "first_name": "Laurent",
+  "last_name": "Fignon",
+  "birthyear": 1961,
+  "country": "France",
+  "years": {
+    "1983": {
+      "nb_days_in_yellow": 5,
+      "nb_tour_legs": 22,
+      "pct_leading": 23,
+      "nb_leg_wins": 1,
+      "average_speed": 36.23,
+      "total_time": "105h 07’ 52”",
+      "ahead_of_2nd": "0h04'04''"
+    },
+    "1984": {
+      "nb_days_in_yellow": 6,
+      "nb_tour_legs": 23,
+      "pct_leading": 26,
+      "nb_leg_wins": 6,
+      "average_speed": 35.882,
+      "total_time": "112h 03’ 40”",
+      "ahead_of_2nd": "0h10'32''"
+    }
+  },
+  "is_doped": false,
+  "nb_wins": "2"
+}
