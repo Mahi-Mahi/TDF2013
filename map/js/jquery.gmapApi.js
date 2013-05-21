@@ -7,10 +7,9 @@
  * 
  *  Display gmap, geolocate user and draw a route between the two position
  *  
- *  @todo test realtime position when moving, change route when datas is reloaded
- *  
- *  @Author Anthony Tison
- *  @date 23/04/2013
+ *
+ *  @Author Alexandre Peyron
+ *  @date 19/05/2013
  *  @version 0.1
  * 
  */
@@ -213,15 +212,13 @@
 
         },
 
-        createEtapes: function(years, etapes){
+        createEtapes: function(years, tours){
             var self = this;
 
             this.clearMap();
 
             $.each(years, function(key, year) {
                 console.log(year);
-
-                console.log("self.tours[year] : " + self.tours[year]);
 
                 if(self.tours[year] != undefined){
                     self.displayEtape(self.tours[year]);
@@ -235,44 +232,52 @@
                 self.tours[year]['lines'] = [];
                 self.tours[year]['dashedlines'] = [];
 
-                var previousEtape;
+                
 
-                $.each(etapes, function(key2, etape) {
-                    if(year == etape.year){
-                        //console.log(etape.id);
-                        // console.log("--------");
-                        // console.log(etape.start.city);
-                        // console.log(etape.finish.city);
+                $.each(tours, function(key2, tour) {
 
-                        if(etape.start.city == etape.finish.city){
+                    if(year == tour.year){
+                        
+                        var previousEtape;
 
-                            var circle = self.createCircle(etape.start.lat, etape.start.lng);
-                            self.tours[year]['circles'].push(circle);
+                        $.each(tour.legs, function(key2, etape) {
 
-                        }
-                        else{
-                            var marker;
-                            marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city);
-                            self.tours[year]['markers'].push(marker);
 
-                            marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
-                            self.tours[year]['markers'].push(marker);
+                            console.log("etape.id : " + etape.id);
+                            console.log("etape.start.city : " + etape.start.city);
+                            console.log("etape.finish.city : " + etape.finish.city);
 
-                            var line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng);
-                            self.tours[years]['lines'].push(line);           
-                        }
+                            if(etape.start.city == etape.finish.city){
 
-                        if(previousEtape != undefined){
-                            if(etape.start.city != previousEtape.finish.city){
-                                var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
-                                self.tours[years]['dashedlines'].push(dashedline);
+                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
+                                self.tours[year]['circles'].push(circle);
 
                             }
-                        }
-                        
-                        
+                            else{
+                                var marker;
+                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city);
+                                self.tours[year]['markers'].push(marker);
 
-                        previousEtape = etape;
+                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
+                                self.tours[year]['markers'].push(marker);
+
+                                var line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng);
+                                self.tours[years]['lines'].push(line);           
+                            }
+
+                            if(previousEtape != undefined){
+                                if(etape.start.city != previousEtape.finish.city){
+                                    var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
+                                    self.tours[years]['dashedlines'].push(dashedline);
+
+                                }
+                            }
+                            
+                            
+
+                            previousEtape = etape;
+
+                        });
                     }
                 });  
             });
@@ -282,7 +287,7 @@
             var self = this;
 
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(plng, plat),
+                position: new google.maps.LatLng(plat, plng),
                 map: self.map,
                 title: title
             });
@@ -304,7 +309,7 @@
                 fillColor: '#FF0000',
                 fillOpacity: 0.35,
                 map: self.map,
-                center: new google.maps.LatLng(plng, plat),
+                center: new google.maps.LatLng(plat, plng),
                 radius: 20000
             };
             var circle = new google.maps.Circle(circleOptions);
@@ -319,12 +324,13 @@
             var self = this;
 
             var lineCoordinates = [
-                new google.maps.LatLng(slng, slat),
-                new google.maps.LatLng(flng, flat)
+                new google.maps.LatLng(slat, slng),
+                new google.maps.LatLng(flat, flng)
             ];
 
 
             var line = new google.maps.Polyline({
+                strokeWeight: 2,
                 path: lineCoordinates,
                 map: self.map
             });
@@ -338,13 +344,14 @@
             var self = this;
 
             var lineCoordinates = [
-                new google.maps.LatLng(slng, slat),
-                new google.maps.LatLng(flng, flat)
+                new google.maps.LatLng(slat, slng),
+                new google.maps.LatLng(flat, flng)
             ];
 
             var lineSymbol = {
                 path: 'M 0,-1 0,1',
                 strokeOpacity: 1,
+                strokeWeight: 2,
                 scale: 4
             };
 

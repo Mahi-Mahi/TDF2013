@@ -51,6 +51,7 @@ function initializeGmap() {
 
 
 function loadData(){
+    
     $.getJSON('data/data-all.json', function(data) {
 
         allEtapes = data;
@@ -76,13 +77,17 @@ function loadData(){
 
 function initSelecteur(){
 
-    if(allEtapes.length){
+    console.log("allEtapes.length : " + allEtapes.length);
+
         toursSelecteur.on('change', function(){
             var years = $(this).val();
+
+            console.log("changeSelecteur: " + years);
+
             gmap.createEtapes(years, allEtapes);
 
         });
-    }
+    
     
 }
 
