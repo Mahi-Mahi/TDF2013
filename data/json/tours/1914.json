@@ -20,18 +20,18 @@
       "id": "E-1914-01",
       "year": 1914,
       "leg": 1,
-      "title": "Paris - Le Havre",
+      "title": "Paris – Le Havre",
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "length": 388,
       "type": null,
@@ -48,74 +48,18 @@
       "id": "E-1914-02",
       "year": 1914,
       "leg": 2,
-      "title": "Le Havre - Cherbourg",
+      "title": "Le Havre – Cherbourg",
       "start": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
-      },
-      "length": 390,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1914-03",
-      "year": 1914,
-      "leg": 3,
-      "title": "Cherbourg - Brest",
-      "start": {
         "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
-      },
-      "length": 340,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceHenri Pélissier",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1914-04",
-      "year": 1914,
-      "leg": 4,
-      "title": "Brest - La Rochelle",
-      "start": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
-      },
-      "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "length": 364,
       "type": null,
@@ -129,21 +73,21 @@
       }
     },
     {
-      "id": "E-1914-05",
+      "id": "E-1914-03",
       "year": 1914,
-      "leg": 5,
-      "title": "La Rochelle - Bayonne",
+      "leg": 3,
+      "title": "Cherbourg – Brest",
       "start": {
-        "city": "La Rochelle",
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 405,
       "type": null,
@@ -157,21 +101,21 @@
       }
     },
     {
-      "id": "E-1914-06",
+      "id": "E-1914-04",
       "year": 1914,
-      "leg": 6,
-      "title": "Bayonne - Luchon",
+      "leg": 4,
+      "title": "Brest – La Rochelle",
       "start": {
-        "city": "Bayonne",
+        "city": "Brest",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "La Rochelle",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
       "length": 470,
       "type": null,
@@ -185,21 +129,21 @@
       }
     },
     {
-      "id": "E-1914-07",
+      "id": "E-1914-05",
       "year": 1914,
-      "leg": 7,
-      "title": "Luchon - Perpignan",
+      "leg": 5,
+      "title": "La Rochelle – Bayonne",
       "start": {
-        "city": "Luchon",
+        "city": "La Rochelle",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
       "finish": {
-        "city": "Longwy",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "5.761773",
-        "lat": "49.519919"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 379,
       "type": null,
@@ -213,21 +157,21 @@
       }
     },
     {
-      "id": "E-1914-08",
+      "id": "E-1914-06",
       "year": 1914,
-      "leg": 8,
-      "title": "Perpignan - Marseille",
+      "leg": 6,
+      "title": "Bayonne – Luchon",
       "start": {
-        "city": "Perpignan",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Dunkerque",
+        "city": "Luchon",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "length": 326,
       "type": null,
@@ -241,21 +185,21 @@
       }
     },
     {
-      "id": "E-1914-09",
+      "id": "E-1914-07",
       "year": 1914,
-      "leg": 9,
-      "title": "Marseille - Nice",
+      "leg": 7,
+      "title": "Luchon – Perpignan",
       "start": {
-        "city": "Marseille",
+        "city": "Luchon",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "length": 323,
       "type": null,
@@ -269,21 +213,21 @@
       }
     },
     {
-      "id": "E-1914-10",
+      "id": "E-1914-08",
       "year": 1914,
-      "leg": 10,
-      "title": "Nice - Grenoble",
+      "leg": 8,
+      "title": "Perpignan – Marseille",
       "start": {
-        "city": "Nice",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Cherbourg",
+        "city": "Marseille",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "length": 370,
       "type": null,
@@ -297,21 +241,21 @@
       }
     },
     {
-      "id": "E-1914-11",
+      "id": "E-1914-09",
       "year": 1914,
-      "leg": 11,
-      "title": "Grenoble - Genève",
+      "leg": 9,
+      "title": "Marseille – Nice",
       "start": {
-        "city": "Grenoble",
+        "city": "Marseille",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Brest",
+        "city": "Nice",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "length": 338,
       "type": null,
@@ -325,23 +269,79 @@
       }
     },
     {
+      "id": "E-1914-10",
+      "year": 1914,
+      "leg": 10,
+      "title": "Nice – Grenoble",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 333,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHenri Pélissier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1914-11",
+      "year": 1914,
+      "leg": 11,
+      "title": "Grenoble – Genève",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
+      },
+      "length": 325,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiquePhilippe Thys",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1914-12",
       "year": 1914,
       "leg": 12,
-      "title": "Genève - Belfort",
+      "title": "Genève – Belfort",
       "start": {
         "city": "Genève",
         "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
       "finish": {
-        "city": "La Rochelle",
+        "city": "Belfort",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
-      "length": 333,
+      "length": 335,
       "type": null,
       "winner": {
         "name": "Drapeau : FranceHenri Pélissier",
@@ -356,23 +356,23 @@
       "id": "E-1914-13",
       "year": 1914,
       "leg": 13,
-      "title": "Belfort - Longwy",
+      "title": "Belfort – Longwy",
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Longwy",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "49.519919",
+        "lng": "5.761773"
       },
       "length": 325,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGustave Garrigou",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
@@ -384,23 +384,23 @@
       "id": "E-1914-14",
       "year": 1914,
       "leg": 14,
-      "title": "Longwy - Dunkerque",
+      "title": "Longwy – Dunkerque",
       "start": {
         "city": "Longwy",
         "country": "France",
-        "lng": "5.761773",
-        "lat": "49.519919"
+        "lat": "49.519919",
+        "lng": "5.761773"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Dunkerque",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
-      "length": 335,
+      "length": 390,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceHenri Pélissier",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
@@ -412,23 +412,23 @@
       "id": "E-1914-15",
       "year": 1914,
       "leg": 15,
-      "title": "Dunkerque - Paris",
+      "title": "Dunkerque – Paris",
       "start": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Paris",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 325,
+      "length": 340,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": "Drapeau : FranceHenri Pélissier",
         "nationality": null
       },
       "leader": {

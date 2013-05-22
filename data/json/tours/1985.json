@@ -24,19 +24,19 @@
       "start": {
         "city": "Plumelec",
         "country": "France",
-        "lng": "-2.639409",
-        "lat": "47.837699"
+        "lat": "47.837699",
+        "lng": "-2.639409"
       },
       "finish": {
         "city": "Plumelec",
         "country": "France",
-        "lng": "-2.639409",
-        "lat": "47.837699"
+        "lat": "47.837699",
+        "lng": "-2.639409"
       },
-      "length": 196,
-      "type": null,
+      "length": 6,
+      "type": "(CLM)",
       "winner": {
-        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -52,23 +52,23 @@
       "start": {
         "city": "Vannes",
         "country": "France",
-        "lng": "-2.760847",
-        "lat": "47.658236"
+        "lat": "47.658236",
+        "lng": "-2.760847"
       },
       "finish": {
         "city": "Lanester",
         "country": "France",
-        "lng": "-3.347354",
-        "lat": "47.763494"
+        "lat": "47.763494",
+        "lng": "-3.347354"
       },
-      "length": 6,
-      "type": "(CLM)",
+      "length": 256,
+      "type": null,
       "winner": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Rudy Matthijs Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -80,14 +80,70 @@
       "start": {
         "city": "Lorient",
         "country": "France",
-        "lng": "-3.370245",
-        "lat": "47.748252"
+        "lat": "47.748252",
+        "lng": "-3.370245"
       },
       "finish": {
-        "city": "Villard-de-Lans",
+        "city": "Vitré",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "48.124746",
+        "lng": "-1.21543"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-03",
+      "year": 1985,
+      "leg": 3,
+      "title": "Vitré - Fougères",
+      "start": {
+        "city": "Vitré",
+        "country": "France",
+        "lat": "48.124746",
+        "lng": "-1.21543"
+      },
+      "finish": {
+        "city": "Fougères",
+        "country": "France",
+        "lat": "48.351561",
+        "lng": "-1.204626"
+      },
+      "length": 73,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "La Vie Claire Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1985-04",
+      "year": 1985,
+      "leg": 4,
+      "title": "Fougères - Pont-Audemer",
+      "start": {
+        "city": "Fougères",
+        "country": "France",
+        "lat": "48.351561",
+        "lng": "-1.204626"
+      },
+      "finish": {
+        "city": "Pont-Audemer",
+        "country": "France",
+        "lat": "49.354883",
+        "lng": "0.514299"
       },
       "length": 239,
       "type": null,
@@ -101,62 +157,6 @@
       }
     },
     {
-      "id": "E-1985-03",
-      "year": 1985,
-      "leg": 3,
-      "title": "Vitré - Fougères",
-      "start": {
-        "city": "Vitré",
-        "country": "France",
-        "lng": "-1.21543",
-        "lat": "48.124746"
-      },
-      "finish": {
-        "city": "Luz-Ardiden",
-        "country": "France",
-        "lng": "-0.061335",
-        "lat": "42.885105"
-      },
-      "length": 75,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1985-04",
-      "year": 1985,
-      "leg": 4,
-      "title": "Fougères - Pont-Audemer",
-      "start": {
-        "city": "Fougères",
-        "country": "France",
-        "lng": "-1.204626",
-        "lat": "48.351561"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Luis Herrera Drapeau de Colombie Colombie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1985-05",
       "year": 1985,
       "leg": 5,
@@ -164,23 +164,23 @@
       "start": {
         "city": "Neufchâtel-en-Bray",
         "country": "France",
-        "lng": "1.441891",
-        "lat": "49.732771"
+        "lat": "49.732771",
+        "lng": "1.441891"
       },
       "finish": {
-        "city": "Limoges",
+        "city": "Roubaix",
         "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
-      "length": 31,
-      "type": "(CLM)",
+      "length": 224,
+      "type": null,
       "winner": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": "Henri Manders Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Lac de Vassivière",
+        "city": "Reims",
         "country": "France",
-        "lng": "1.87608",
-        "lat": "45.791652"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
-      "length": 179,
+      "length": 221,
       "type": null,
       "winner": {
-        "name": "Luis Herrera Drapeau de Colombie Colombie",
+        "name": "Francis Castaing Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Reims",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Nancy",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
-      "length": 237,
+      "length": 217,
       "type": null,
       "winner": {
-        "name": "Eduardo Chozas Drapeau d'Espagne Espagne",
+        "name": "Ludwig Wijnants Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Kim Andersen Drapeau du Danemark Danemark",
         "nationality": null
       }
     },
@@ -248,19 +248,19 @@
       "start": {
         "city": "Sarrebourg",
         "country": "France",
-        "lng": "7.052587",
-        "lat": "48.732663"
+        "lat": "48.732663",
+        "lng": "7.052587"
       },
       "finish": {
-        "city": "Col d'Aubisque",
+        "city": "Strasbourg",
         "country": "France",
-        "lng": "-0.339673",
-        "lat": "42.97657"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
-      "length": 173,
-      "type": null,
+      "length": 75,
+      "type": "(CLM)",
       "winner": {
-        "name": "Maarten Ducrot Drapeau : Pays-Bas Pays-Bas",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -276,19 +276,19 @@
       "start": {
         "city": "Strasbourg",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Épinal",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "48.172402",
+        "lng": "6.449403"
       },
-      "length": 204,
+      "length": 173,
       "type": null,
       "winner": {
-        "name": "Jørgen Vagn Pedersen Drapeau du Danemark Danemark",
+        "name": "Maarten Ducrot Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Épinal",
         "country": "France",
-        "lng": "6.449403",
-        "lat": "48.172402"
+        "lat": "48.172402",
+        "lng": "6.449403"
       },
       "finish": {
-        "city": "Vitré",
+        "city": "Pontarlier",
         "country": "France",
-        "lng": "-1.21543",
-        "lat": "48.124746"
+        "lat": "46.904104",
+        "lng": "6.354242"
       },
-      "length": 269,
+      "length": 204,
       "type": null,
       "winner": {
-        "name": "Fabio Parra Drapeau de Colombie Colombie",
+        "name": "Jørgen Vagn Pedersen Drapeau du Danemark Danemark",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Pontarlier",
         "country": "France",
-        "lng": "6.354242",
-        "lat": "46.904104"
+        "lat": "46.904104",
+        "lng": "6.354242"
       },
       "finish": {
-        "city": "Fougères",
+        "city": "Morzine-Avoriaz",
         "country": "France",
-        "lng": "-1.204626",
-        "lat": "48.351561"
+        "lat": "46.189683",
+        "lng": "6.776343"
       },
-      "length": 247,
+      "length": 195,
       "type": null,
       "winner": {
-        "name": "Frédéric Vichot Drapeau de France France",
+        "name": "Luis Herrera Drapeau de Colombie Colombie",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Morzine",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Pont-Audemer",
+        "city": "Lans-en-Vercors",
         "country": "France",
-        "lng": "0.514299",
-        "lat": "49.354883"
+        "lat": "45.127976",
+        "lng": "5.58827"
       },
-      "length": 209,
+      "length": 269,
       "type": null,
       "winner": {
-        "name": "Pedro Delgado Drapeau d'Espagne Espagne",
+        "name": "Fabio Parra Drapeau de Colombie Colombie",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
       "finish": {
-        "city": "Roubaix",
+        "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
-      "length": 52,
-      "type": null,
+      "length": 31,
+      "type": "(CLM)",
       "winner": {
-        "name": "Stephen Roche Drapeau d'Irlande Irlande",
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Autrans",
         "country": "France",
-        "lng": "5.542716",
-        "lat": "45.176098"
+        "lat": "45.176098",
+        "lng": "5.542716"
       },
       "finish": {
-        "city": "Reims",
+        "city": "Saint-Étienne",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
-      "length": 83,
+      "length": 179,
       "type": null,
       "winner": {
-        "name": "Régis Simon Drapeau de France France",
+        "name": "Luis Herrera Drapeau de Colombie Colombie",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Saint-Étienne",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
       "finish": {
-        "city": "Nancy",
+        "city": "Aurillac",
         "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
+        "lat": "44.930953",
+        "lng": "2.444997"
       },
-      "length": 203,
+      "length": 237,
       "type": null,
       "winner": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": "Eduardo Chozas Drapeau d'Espagne Espagne",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Aurillac",
         "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
+        "lat": "44.930953",
+        "lng": "2.444997"
       },
       "finish": {
-        "city": "Strasbourg",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
-      "length": 225,
+      "length": 247,
       "type": null,
       "winner": {
-        "name": "Johan Lammerts Drapeau : Pays-Bas Pays-Bas",
+        "name": "Frédéric Vichot Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Toulouse",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
-        "city": "Épinal",
+        "city": "Luz-Ardiden",
         "country": "France",
-        "lng": "6.449403",
-        "lat": "48.172402"
+        "lat": "42.885105",
+        "lng": "-0.061335"
       },
-      "length": 47,
-      "type": "(CLM)",
+      "length": 209,
+      "type": null,
       "winner": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": "Pedro Delgado Drapeau d'Espagne Espagne",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Laruns",
         "country": "France",
-        "lng": "-0.426274",
-        "lat": "42.987644"
+        "lat": "42.987644",
+        "lng": "-0.426274"
       },
       "finish": {
-        "city": "Morzine-Avoriaz",
+        "city": "Pau",
         "country": "France",
-        "lng": "6.776343",
-        "lat": "46.189683"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 242,
+      "length": 83,
       "type": null,
       "winner": {
-        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "name": "Régis Simon Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Luz-Saint-Sauveur",
         "country": "France",
-        "lng": "-0.002869",
-        "lat": "42.873542"
+        "lat": "42.873542",
+        "lng": "-0.002869"
       },
       "finish": {
-        "city": "Pontarlier",
+        "city": "Col d'Aubisque",
         "country": "France",
-        "lng": "6.354242",
-        "lat": "46.904104"
+        "lat": "42.97657",
+        "lng": "-0.339673"
       },
-      "length": 256,
+      "length": 52,
       "type": null,
       "winner": {
-        "name": "Rudy Matthijs Drapeau belge Belgique",
+        "name": "Stephen Roche Drapeau d'Irlande Irlande",
         "nationality": null
       },
       "leader": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Lans-en-Vercors",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "5.58827",
-        "lat": "45.127976"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 73,
-      "type": "(CLM par équipes)",
+      "length": 203,
+      "type": null,
       "winner": {
-        "name": "La Vie Claire Drapeau de France France",
+        "name": "Eric Vanderaerden Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Montpon-Ménestérol",
         "country": "France",
-        "lng": "0.162",
-        "lat": "45.009274"
+        "lat": "45.009274",
+        "lng": "0.162"
       },
       "finish": {
-        "city": "Saint-Étienne",
+        "city": "Limoges",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "45.833619",
+        "lng": "1.261105"
       },
-      "length": 224,
+      "length": 225,
       "type": null,
       "winner": {
-        "name": "Henri Manders Drapeau : Pays-Bas Pays-Bas",
+        "name": "Johan Lammerts Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Lac de Vassivière",
         "country": "France",
-        "lng": "1.87608",
-        "lat": "45.791652"
+        "lat": "45.791652",
+        "lng": "1.87608"
       },
       "finish": {
-        "city": "Aurillac",
+        "city": "Lac de Vassivière",
         "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
+        "lat": "45.791652",
+        "lng": "1.87608"
       },
-      "length": 221,
-      "type": null,
+      "length": 47,
+      "type": "(CLM)",
       "winner": {
-        "name": "Francis Castaing Drapeau de France France",
+        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
         "nationality": null
       },
       "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     },
@@ -668,23 +668,23 @@
       "start": {
         "city": "Orléans",
         "country": "France",
-        "lng": "1.909251",
-        "lat": "47.902964"
+        "lat": "47.902964",
+        "lng": "1.909251"
       },
       "finish": {
-        "city": "Toulouse",
+        "city": "Paris",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 217,
+      "length": 196,
       "type": null,
       "winner": {
-        "name": "Ludwig Wijnants Drapeau belge Belgique",
+        "name": "Rudy Matthijs Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     }

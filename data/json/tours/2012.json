@@ -24,23 +24,23 @@
       "start": {
         "city": "Liège",
         "country": "Belgique",
-        "lng": "5.579666",
-        "lat": "50.632557"
+        "lat": "50.632557",
+        "lng": "5.579666"
       },
       "finish": {
         "city": "Liège",
         "country": "Belgique",
-        "lng": "5.579666",
-        "lat": "50.632557"
+        "lat": "50.632557",
+        "lng": "5.579666"
       },
-      "length": 120,
+      "length": 6,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       }
     },
@@ -52,19 +52,19 @@
       "start": {
         "city": "Liège",
         "country": "Belgique",
-        "lng": "5.579666",
-        "lat": "50.632557"
+        "lat": "50.632557",
+        "lng": "5.579666"
       },
       "finish": {
         "city": "Seraing",
         "country": "Belgique",
-        "lng": "5.5",
-        "lat": "50.583333"
+        "lat": "50.583333",
+        "lng": "5.5"
       },
-      "length": 6,
+      "length": 198,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : SlovaquiePeter Sagan",
         "nationality": null
       },
       "leader": {
@@ -80,19 +80,19 @@
       "start": {
         "city": "Visé",
         "country": "Belgique",
-        "lng": "18.892739",
-        "lat": "54.197416"
+        "lat": "50.73716",
+        "lng": "5.69904"
       },
       "finish": {
-        "city": "Davézieux",
-        "country": "France",
-        "lng": "4.702261",
-        "lat": "45.256666"
+        "city": "Tournai",
+        "country": "Belgique",
+        "lat": "50.605606",
+        "lng": "3.388037"
       },
-      "length": 197,
+      "length": 207,
       "type": null,
       "winner": {
-        "name": "Drapeau : SlovaquiePeter Sagan",
+        "name": "Drapeau : Royaume-UniMark Cavendish",
         "nationality": null
       },
       "leader": {
@@ -108,19 +108,19 @@
       "start": {
         "city": "Orchies",
         "country": "France",
-        "lng": "3.2428",
-        "lat": "50.4745"
+        "lat": "50.4745",
+        "lng": "3.2428"
       },
       "finish": {
-        "city": "Foix",
+        "city": "Boulogne-sur-Mer",
         "country": "France",
-        "lng": "1.605232",
-        "lat": "42.964127"
+        "lat": "50.725231",
+        "lng": "1.613334"
       },
-      "length": 196,
+      "length": 197,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneAndré Greipel",
+        "name": "Drapeau : SlovaquiePeter Sagan",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Abbeville",
         "country": "France",
-        "lng": "1.836833",
-        "lat": "50.105467"
+        "lat": "50.105467",
+        "lng": "1.836833"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Rouen",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "49.443232",
+        "lng": "1.099971"
       },
-      "length": 205,
+      "length": 214,
       "type": null,
       "winner": {
-        "name": "Drapeau : SlovaquiePeter Sagan",
+        "name": "Drapeau : AllemagneAndré Greipel",
         "nationality": null
       },
       "leader": {
@@ -164,23 +164,23 @@
       "start": {
         "city": "Rouen",
         "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
+        "lat": "49.443232",
+        "lng": "1.099971"
       },
       "finish": {
-        "city": "Bagnères-de-Luchon",
+        "city": "Saint-Quentin",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "49.847066",
+        "lng": "3.2874"
       },
-      "length": 199,
+      "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniChristopher Froome",
+        "name": "Drapeau : AllemagneAndré Greipel",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Épernay",
         "country": "France",
-        "lng": "3.956242",
-        "lat": "49.043411"
+        "lat": "49.043411",
+        "lng": "3.956242"
       },
       "finish": {
-        "city": "Peyragudes",
+        "city": "Metz",
         "country": "France",
-        "lng": "0.443112",
-        "lat": "42.794448"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 157,
+      "length": 205,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceThibaut Pinot",
+        "name": "Drapeau : SlovaquiePeter Sagan",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       }
     },
@@ -220,19 +220,19 @@
       "start": {
         "city": "Tomblaine",
         "country": "France",
-        "lng": "6.221307",
-        "lat": "48.683482"
+        "lat": "48.683482",
+        "lng": "6.221307"
       },
       "finish": {
-        "city": "Brive-la-Gaillarde",
+        "city": "Planche des Belles Filles, Plancher-les-Mines",
         "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
+        "lat": "47.767158",
+        "lng": "6.774211"
       },
-      "length": 41,
+      "length": 199,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "name": "Drapeau : Royaume-UniChristopher Froome",
         "nationality": null
       },
       "leader": {
@@ -248,19 +248,19 @@
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Chartres",
-        "country": "France",
-        "lng": "1.489012",
-        "lat": "48.443854"
+        "city": "Porrentruy",
+        "country": "Suisse",
+        "lat": "47.417394",
+        "lng": "7.075288"
       },
-      "length": 194,
+      "length": 157,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": "Drapeau : FranceThibaut Pinot",
         "nationality": null
       },
       "leader": {
@@ -276,19 +276,19 @@
       "start": {
         "city": "Arc-et-Senans",
         "country": "France",
-        "lng": "5.781165",
-        "lat": "47.032958"
+        "lat": "47.032958",
+        "lng": "5.781165"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Besançon",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "47.237829",
+        "lng": "6.024054"
       },
-      "length": 226,
+      "length": 41,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Mâcon",
         "country": "France",
-        "lng": "4.828731",
-        "lat": "46.306884"
+        "lat": "46.306884",
+        "lng": "4.828731"
       },
       "finish": {
-        "city": "Tournai",
-        "country": "Belgique",
-        "lng": "3.388037",
-        "lat": "50.605606"
+        "city": "Bellegarde-sur-Valserine",
+        "country": "France",
+        "lat": "46.107599",
+        "lng": "5.826179"
       },
-      "length": 148,
+      "length": 194,
       "type": null,
       "winner": {
-        "name": "Drapeau : FrancePierre Rolland",
+        "name": "Drapeau : FranceThomas Voeckler",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Albertville",
         "country": "France",
-        "lng": "6.392726",
-        "lat": "45.675535"
+        "lat": "45.675535",
+        "lng": "6.392726"
       },
       "finish": {
-        "city": "Boulogne-sur-Mer",
+        "city": "Les Sybelles, Fontcouverte-la-Toussuire",
         "country": "France",
-        "lng": "1.613334",
-        "lat": "50.725231"
+        "lat": "45.254656",
+        "lng": "6.263248"
       },
-      "length": 217,
+      "length": 148,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneAndré Greipel",
+        "name": "Drapeau : FrancePierre Rolland",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Saint-Jean-de-Maurienne",
         "country": "France",
-        "lng": "6.344886",
-        "lat": "45.275403"
+        "lat": "45.275403",
+        "lng": "6.344886"
       },
       "finish": {
-        "city": "Rouen",
+        "city": "Davézieux ",
         "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
+        "lat": "45.256666",
+        "lng": "4.702261"
       },
-      "length": 191,
+      "length": 226,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneLuis León Sánchez‎",
+        "name": "Drapeau : Royaume-UniDavid Millar",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Saint-Paul-Trois-Châteaux",
         "country": "France",
-        "lng": "4.768295",
-        "lat": "44.348678"
+        "lat": "44.348678",
+        "lng": "4.768295"
       },
       "finish": {
-        "city": "Saint-Quentin",
+        "city": "Le Cap d'Agde",
         "country": "France",
-        "lng": "3.2874",
-        "lat": "49.847066"
+        "lat": "43.280739",
+        "lng": "3.505399"
       },
-      "length": 158,
+      "length": 217,
       "type": null,
       "winner": {
-        "name": "Drapeau : FrancePierrick Fédrigo",
+        "name": "Drapeau : AllemagneAndré Greipel",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Limoux",
         "country": "France",
-        "lng": "2.218142",
-        "lat": "43.053289"
+        "lat": "43.053289",
+        "lng": "2.218142"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Foix",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "42.964127",
+        "lng": "1.605232"
       },
-      "length": 197,
+      "length": 191,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": "Drapeau : EspagneLuis León Sánchez‎",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Samatan",
         "country": "France",
-        "lng": "0.930806",
-        "lat": "43.491933"
+        "lat": "43.491933",
+        "lng": "0.930806"
       },
       "finish": {
-        "city": "Planche des Belles Filles, Plancher-les-Mines",
+        "city": "Pau",
         "country": "France",
-        "lng": "6.774211",
-        "lat": "47.767158"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 143,
+      "length": 158,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneAlejandro Valverde",
+        "name": "Drapeau : FrancePierrick Fédrigo",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Porrentruy",
-        "country": "Suisse",
-        "lng": "7.075288",
-        "lat": "47.417394"
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 222,
+      "length": 197,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": "Drapeau : FranceThomas Voeckler",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Bagnères-de-Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Peyragudes",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "42.794448",
+        "lng": "0.443112"
       },
-      "length": 53,
+      "length": 143,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniBradley Wiggins",
+        "name": "Drapeau : EspagneAlejandro Valverde",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Blagnac",
         "country": "France",
-        "lng": "1.39703",
-        "lat": "43.635087"
+        "lat": "43.635087",
+        "lng": "1.39703"
       },
       "finish": {
-        "city": "Bellegarde-sur-Valserine",
+        "city": "Brive-la-Gaillarde",
         "country": "France",
-        "lng": "5.826179",
-        "lat": "46.107599"
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
-      "length": 198,
+      "length": 222,
       "type": null,
       "winner": {
-        "name": "Drapeau : SlovaquiePeter Sagan",
+        "name": "Drapeau : Royaume-UniMark Cavendish",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Bonneval",
         "country": "France",
-        "lng": "1.385289",
-        "lat": "48.181453"
+        "lat": "48.181453",
+        "lng": "1.385289"
       },
       "finish": {
-        "city": "Les Sybelles, Fontcouverte-la-Toussuire",
+        "city": "Chartres",
         "country": "France",
-        "lng": "6.263248",
-        "lat": "45.254656"
+        "lat": "48.443854",
+        "lng": "1.489012"
       },
-      "length": 207,
+      "length": 53,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Rambouillet",
         "country": "France",
-        "lng": "1.829079",
-        "lat": "48.643868"
+        "lat": "48.643868",
+        "lng": "1.829079"
       },
       "finish": {
-        "city": "Le Cap d'Agde",
+        "city": "Paris",
         "country": "France",
-        "lng": "3.505399",
-        "lat": "43.280739"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 214,
+      "length": 120,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneAndré Greipel",
+        "name": "Drapeau : Royaume-UniMark Cavendish",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : Royaume-UniBradley Wiggins",
         "nationality": null
       }
     }

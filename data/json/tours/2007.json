@@ -24,23 +24,23 @@
       "start": {
         "city": "Londres",
         "country": "Grande-Bretagne",
-        "lng": "-0.119824",
-        "lat": "51.511214"
+        "lat": "51.511214",
+        "lng": "-0.119824"
       },
       "finish": {
         "city": "Londres",
         "country": "Grande-Bretagne",
-        "lng": "-0.119824",
-        "lat": "51.511214"
+        "lat": "51.511214",
+        "lng": "-0.119824"
       },
-      "length": 130,
+      "length": 7,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieDaniele Bennati",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       }
     },
@@ -52,19 +52,19 @@
       "start": {
         "city": "Londres",
         "country": "Grande-Bretagne",
-        "lng": "-0.119824",
-        "lat": "51.511214"
+        "lat": "51.511214",
+        "lng": "-0.119824"
       },
       "finish": {
         "city": "Cantorbéry",
         "country": "Grande-Bretagne",
-        "lng": "1.078909",
-        "lat": "51.280233"
+        "lat": "51.280233",
+        "lng": "1.078909"
       },
-      "length": 7,
+      "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : AustralieRobbie McEwen",
         "nationality": null
       },
       "leader": {
@@ -80,19 +80,19 @@
       "start": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "finish": {
-        "city": "Castres",
-        "country": "France",
-        "lng": "2.241295",
-        "lat": "43.606214"
+        "city": "Gand",
+        "country": "Belgique",
+        "lat": "51.053468",
+        "lng": "3.73038"
       },
-      "length": 236,
+      "length": 167,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : BelgiqueGert Steegmans",
         "nationality": null
       },
       "leader": {
@@ -108,19 +108,19 @@
       "start": {
         "city": "Waregem",
         "country": "Belgique",
-        "lng": "3.423168",
-        "lat": "50.886895"
+        "lat": "50.886895",
+        "lng": "3.423168"
       },
       "finish": {
-        "city": "Plateau de Beille, Aston",
+        "city": "Compiègne",
         "country": "France",
-        "lng": "1.702387",
-        "lat": "42.709683"
+        "lat": "49.417816",
+        "lng": "2.826145"
       },
-      "length": 184,
+      "length": 236,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieFilippo Pozzato",
+        "name": "Drapeau : SuisseFabian Cancellara",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Villers-Cotterêts",
         "country": "France",
-        "lng": "3.090816",
-        "lat": "49.255061"
+        "lat": "49.255061",
+        "lng": "3.090816"
       },
       "finish": {
-        "city": "Loudenvielle",
+        "city": "Joigny",
         "country": "France",
-        "lng": "0.412744",
-        "lat": "42.795702"
+        "lat": "47.981432",
+        "lng": "3.398961"
       },
-      "length": 200,
+      "length": 190,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Boonen",
+        "name": "Drapeau : NorvègeThor Hushovd",
         "nationality": null
       },
       "leader": {
@@ -164,14 +164,70 @@
       "start": {
         "city": "Chablis",
         "country": "France",
-        "lng": "3.800451",
-        "lat": "47.815269"
+        "lat": "47.815269",
+        "lng": "3.800451"
       },
       "finish": {
-        "city": "Gourette, Eaux-Bonnes",
+        "city": "Autun",
         "country": "France",
-        "lng": "-0.332111",
-        "lat": "42.958836"
+        "lat": "46.950914",
+        "lng": "4.301565"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieFilippo Pozzato",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-06",
+      "year": 2007,
+      "leg": 6,
+      "title": "Semur-en-Auxois - Bourg-en-Bresse",
+      "start": {
+        "city": "Semur-en-Auxois",
+        "country": "France",
+        "lat": "47.490238",
+        "lng": "4.33234"
+      },
+      "finish": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lat": "46.20279",
+        "lng": "5.219246"
+      },
+      "length": 200,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueTom Boonen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseFabian Cancellara",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-07",
+      "year": 2007,
+      "leg": 7,
+      "title": "Bourg-en-Bresse - Le Grand-Bornand",
+      "start": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lat": "46.20279",
+        "lng": "5.219246"
+      },
+      "finish": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lat": "45.942027",
+        "lng": "6.426699"
       },
       "length": 197,
       "type": null,
@@ -185,62 +241,6 @@
       }
     },
     {
-      "id": "E-2007-06",
-      "year": 2007,
-      "leg": 6,
-      "title": "Semur-en-Auxois - Bourg-en-Bresse",
-      "start": {
-        "city": "Semur-en-Auxois",
-        "country": "France",
-        "lng": "4.33234",
-        "lat": "47.490238"
-      },
-      "finish": {
-        "city": "Castelsarrasin",
-        "country": "France",
-        "lng": "1.107132",
-        "lat": "44.039889"
-      },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : DanemarkMichael Rasmussen",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : DanemarkMichael Rasmussen",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2007-07",
-      "year": 2007,
-      "leg": 7,
-      "title": "Bourg-en-Bresse - Le Grand-Bornand",
-      "start": {
-        "city": "Bourg-en-Bresse",
-        "country": "France",
-        "lng": "5.219246",
-        "lat": "46.20279"
-      },
-      "finish": {
-        "city": "Angoulême",
-        "country": "France",
-        "lng": "0.156237",
-        "lat": "45.648377"
-      },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ColombieMauricio Soler",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : DanemarkMichael Rasmussen",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-2007-08",
       "year": 2007,
       "leg": 8,
@@ -248,19 +248,19 @@
       "start": {
         "city": "Le Grand-Bornand",
         "country": "France",
-        "lng": "6.426699",
-        "lat": "45.942027"
+        "lat": "45.942027",
+        "lng": "6.426699"
       },
       "finish": {
-        "city": "Angoulême",
+        "city": "Tignes",
         "country": "France",
-        "lng": "0.156237",
-        "lat": "45.648377"
+        "lat": "45.468323",
+        "lng": "6.905578"
       },
-      "length": 229,
+      "length": 165,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": "Drapeau : DanemarkMichael Rasmussen",
         "nationality": null
       },
       "leader": {
@@ -276,19 +276,19 @@
       "start": {
         "city": "Val d'Isère",
         "country": "France",
-        "lng": "6.980226",
-        "lat": "45.448034"
+        "lat": "45.448034",
+        "lng": "6.980226"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Briançon",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 179,
+      "length": 161,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Boonen",
+        "name": "Drapeau : ColombieMauricio Soler",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Tallard",
         "country": "France",
-        "lng": "6.055327",
-        "lat": "44.461865"
+        "lat": "44.461865",
+        "lng": "6.055327"
       },
       "finish": {
-        "city": "Gand",
-        "country": "Belgique",
-        "lng": "3.73038",
-        "lat": "51.053468"
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 180,
+      "length": 229,
       "type": null,
       "winner": {
-        "name": "Drapeau : Afrique du SudRobert Hunter",
+        "name": "Drapeau : FranceCédric Vasseur",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Compiègne",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "2.826145",
-        "lat": "49.417816"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 54,
+      "length": 180,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieCadel Evans",
+        "name": "Drapeau : Afrique du SudRobert Hunter",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Joigny",
+        "city": "Castres",
         "country": "France",
-        "lng": "3.398961",
-        "lat": "47.981432"
+        "lat": "43.606214",
+        "lng": "2.241295"
       },
-      "length": 197,
+      "length": 179,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneAlberto Contador",
+        "name": "Drapeau : BelgiqueTom Boonen",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Albi",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
       "finish": {
-        "city": "Autun",
+        "city": "Albi",
         "country": "France",
-        "lng": "4.301565",
-        "lat": "46.950914"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
-      "length": 196,
+      "length": 54,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgKim Kirchen",
+        "name": "Drapeau : AustralieCadel Evans",
         "nationality": null
       },
       "leader": {
@@ -416,14 +416,70 @@
       "start": {
         "city": "Mazamet",
         "country": "France",
-        "lng": "2.376579",
-        "lat": "43.490103"
+        "lat": "43.490103",
+        "lng": "2.376579"
       },
       "finish": {
-        "city": "Bourg-en-Bresse",
+        "city": "Plateau de Beille, Aston",
         "country": "France",
-        "lng": "5.219246",
-        "lat": "46.20279"
+        "lat": "42.709683",
+        "lng": "1.702387"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : EspagneAlberto Contador",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-15",
+      "year": 2007,
+      "leg": 15,
+      "title": "Foix - Loudenvielle (Val-Louron)",
+      "start": {
+        "city": "Foix",
+        "country": "France",
+        "lat": "42.964127",
+        "lng": "1.605232"
+      },
+      "finish": {
+        "city": "Loudenvielle",
+        "country": "France",
+        "lat": "42.795702",
+        "lng": "0.412744"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : LuxembourgKim Kirchen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : DanemarkMichael Rasmussen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2007-16",
+      "year": 2007,
+      "leg": 16,
+      "title": "Orthez - Gourette (Col d'Aubisque)",
+      "start": {
+        "city": "Orthez",
+        "country": "France",
+        "lat": "43.48756",
+        "lng": "-0.773928"
+      },
+      "finish": {
+        "city": "Gourette, Eaux-Bonnes",
+        "country": "France",
+        "lat": "42.958836",
+        "lng": "-0.332111"
       },
       "length": 218,
       "type": null,
@@ -437,62 +493,6 @@
       }
     },
     {
-      "id": "E-2007-15",
-      "year": 2007,
-      "leg": 15,
-      "title": "Foix - Loudenvielle (Val-Louron)",
-      "start": {
-        "city": "Foix",
-        "country": "France",
-        "lng": "1.605232",
-        "lat": "42.964127"
-      },
-      "finish": {
-        "city": "Le Grand-Bornand",
-        "country": "France",
-        "lng": "6.426699",
-        "lat": "45.942027"
-      },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieDaniele Bennati",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2007-16",
-      "year": 2007,
-      "leg": 16,
-      "title": "Orthez - Gourette (Col d'Aubisque)",
-      "start": {
-        "city": "Orthez",
-        "country": "France",
-        "lng": "-0.773928",
-        "lat": "43.48756"
-      },
-      "finish": {
-        "city": "Tignes",
-        "country": "France",
-        "lng": "6.905578",
-        "lat": "45.468323"
-      },
-      "length": 211,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceSandy Casar",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-2007-17",
       "year": 2007,
       "leg": 17,
@@ -500,19 +500,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Briançon",
+        "city": "Castelsarrasin",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.039889",
+        "lng": "1.107132"
       },
-      "length": 55,
+      "length": 188,
       "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLevi Leipheimer",
+        "name": "Drapeau : ItalieDaniele Bennati",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Cahors",
         "country": "France",
-        "lng": "1.441989",
-        "lat": "44.447523"
+        "lat": "44.447523",
+        "lng": "1.441989"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Angoulême",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "45.648377",
+        "lng": "0.156237"
       },
-      "length": 203,
+      "length": 211,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieRobbie McEwen",
+        "name": "Drapeau : FranceSandy Casar",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : EspagneAlberto Contador",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Cognac",
         "country": "France",
-        "lng": "-0.328744",
-        "lat": "45.691046"
+        "lat": "45.691046",
+        "lng": "-0.328744"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Angoulême",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "45.648377",
+        "lng": "0.156237"
       },
-      "length": 167,
+      "length": 55,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueGert Steegmans",
+        "name": "Drapeau : États-UnisLevi Leipheimer",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : EspagneAlberto Contador",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Marcoussis",
         "country": "France",
-        "lng": "2.229881",
-        "lat": "48.642446"
+        "lat": "48.642446",
+        "lng": "2.229881"
       },
       "finish": {
-        "city": "Albi",
+        "city": "Paris",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 190,
+      "length": 130,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": "Drapeau : ItalieDaniele Bennati",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": "Drapeau : EspagneAlberto Contador",
         "nationality": null
       }
     }

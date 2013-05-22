@@ -24,23 +24,23 @@
       "start": {
         "city": "Lille",
         "country": "France",
-        "lng": "3.057256",
-        "lat": "50.62925"
+        "lat": "50.62925",
+        "lng": "3.057256"
       },
       "finish": {
         "city": "Lille",
         "country": "France",
-        "lng": "3.057256",
-        "lat": "50.62925"
+        "lat": "50.62925",
+        "lng": "3.057256"
       },
-      "length": 175,
-      "type": null,
+      "length": 7,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau de France Eddy Seigneur (FRA)",
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
         "nationality": null
       }
     },
@@ -52,19 +52,19 @@
       "start": {
         "city": "Lille",
         "country": "France",
-        "lng": "3.057256",
-        "lat": "50.62925"
+        "lat": "50.62925",
+        "lng": "3.057256"
       },
       "finish": {
         "city": "Armentières",
         "country": "France",
-        "lng": "2.884218",
-        "lat": "50.691652"
+        "lat": "50.691652",
+        "lng": "2.884218"
       },
-      "length": 7,
-      "type": "(CLM)",
+      "length": 234,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
         "nationality": null
       },
       "leader": {
@@ -80,14 +80,42 @@
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Luz-Ardiden",
+        "city": "Boulogne-sur-Mer",
         "country": "France",
-        "lng": "-0.061335",
-        "lat": "42.885105"
+        "lat": "50.725231",
+        "lng": "1.613334"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-03",
+      "year": 1994,
+      "leg": 3,
+      "title": "Calais - Coquelles",
+      "start": {
+        "city": "Calais",
+        "country": "France",
+        "lat": "50.95129",
+        "lng": "1.858686"
+      },
+      "finish": {
+        "city": "Coquelles",
+        "country": "France",
+        "lat": "50.936417",
+        "lng": "1.799951"
       },
       "length": 66,
       "type": "(CLM par équipes)",
@@ -101,21 +129,77 @@
       }
     },
     {
-      "id": "E-1994-03",
+      "id": "E-1994-04",
       "year": 1994,
-      "leg": 3,
-      "title": "Calais - Coquelles",
+      "leg": 4,
+      "title": "Douvres - Brighton",
       "start": {
-        "city": "Calais",
-        "country": "France",
-        "lng": "1.858686",
-        "lat": "50.95129"
+        "city": "Douvres",
+        "country": "Royaume-Uni",
+        "lat": "51.126371",
+        "lng": "1.316198"
       },
       "finish": {
-        "city": "Carpentras",
+        "city": "Brighton",
+        "country": "Royaume-Uni",
+        "lat": "50.82253",
+        "lng": "-0.137163"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Espagne Francisco Cabello (ESP)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-05",
+      "year": 1994,
+      "leg": 5,
+      "title": "Portsmouth - Portsmouth",
+      "start": {
+        "city": "Portsmouth",
+        "country": "Royaume-Uni",
+        "lat": "50.816667",
+        "lng": "-1.083333"
+      },
+      "finish": {
+        "city": "Portsmouth",
+        "country": "Royaume-Uni",
+        "lat": "50.816667",
+        "lng": "-1.083333"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Italie Nicola Minali (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1994-06",
+      "year": 1994,
+      "leg": 6,
+      "title": "Cherbourg - Rennes",
+      "start": {
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "5.048722",
-        "lat": "44.055564"
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "length": 270,
       "type": null,
@@ -129,21 +213,21 @@
       }
     },
     {
-      "id": "E-1994-04",
+      "id": "E-1994-07",
       "year": 1994,
-      "leg": 4,
-      "title": "Douvres - Brighton",
+      "leg": 7,
+      "title": "Rennes - Futuroscope",
       "start": {
-        "city": "Douvres",
-        "country": "Royaume-Uni",
-        "lng": "1.316198",
-        "lat": "51.126371"
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "finish": {
-        "city": "L'Alpe-d'Huez",
+        "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "\n46.66680",
+        "lng": "0.36762"
       },
       "length": 203,
       "type": null,
@@ -157,21 +241,21 @@
       }
     },
     {
-      "id": "E-1994-05",
+      "id": "E-1994-08",
       "year": 1994,
-      "leg": 5,
-      "title": "Portsmouth - Portsmouth",
+      "leg": 8,
+      "title": "Poitiers - Trélissac",
       "start": {
-        "city": "Portsmouth",
-        "country": "Royaume-Uni",
-        "lng": "-1.083333",
-        "lat": "50.816667"
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
       },
       "finish": {
-        "city": "Val-Thorens",
+        "city": "Trélissac",
         "country": "France",
-        "lng": "6.584663",
-        "lat": "45.296603"
+        "lat": "45.196131",
+        "lng": "0.77911"
       },
       "length": 218,
       "type": null,
@@ -185,90 +269,6 @@
       }
     },
     {
-      "id": "E-1994-06",
-      "year": 1994,
-      "leg": 6,
-      "title": "Cherbourg - Rennes",
-      "start": {
-        "city": "Cherbourg",
-        "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Cluses",
-        "country": "France",
-        "lng": "6.580582",
-        "lat": "46.06039"
-      },
-      "length": 64,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1994-07",
-      "year": 1994,
-      "leg": 7,
-      "title": "Rennes - Futuroscope",
-      "start": {
-        "city": "Rennes",
-        "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
-      },
-      "finish": {
-        "city": "Avoriaz",
-        "country": "France",
-        "lng": "6.776343",
-        "lat": "46.189683"
-      },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de France Jacky Durand (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1994-08",
-      "year": 1994,
-      "leg": 8,
-      "title": "Poitiers - Trélissac",
-      "start": {
-        "city": "Poitiers",
-        "country": "France",
-        "lng": "0.340375",
-        "lat": "46.580224"
-      },
-      "finish": {
-        "city": "Lac Saint-Point",
-        "country": "France",
-        "lng": "6.325603",
-        "lat": "46.827822"
-      },
-      "length": 204,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau de France Richard Virenque (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1994-09",
       "year": 1994,
       "leg": 9,
@@ -276,19 +276,19 @@
       "start": {
         "city": "Périgueux",
         "country": "France",
-        "lng": "0.721115",
-        "lat": "45.184029"
+        "lat": "45.184029",
+        "lng": "0.721115"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Bergerac",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "44.853806",
+        "lng": "0.483392"
       },
-      "length": 223,
-      "type": null,
+      "length": 64,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau du Danemark Bjarne Riis (DEN)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Bergerac",
         "country": "France",
-        "lng": "0.483392",
-        "lat": "44.853806"
+        "lat": "44.853806",
+        "lng": "0.483392"
       },
       "finish": {
-        "city": "Boulogne-sur-Mer",
+        "city": "Cahors",
         "country": "France",
-        "lng": "1.613334",
-        "lat": "50.725231"
+        "lat": "44.447523",
+        "lng": "1.441989"
       },
-      "length": 263,
-      "type": "Étape de montagne",
+      "length": 160,
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Luc Leblanc (FRA)",
+        "name": "Drapeau de France Jacky Durand (FRA)",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Cahors",
         "country": "France",
-        "lng": "1.441989",
-        "lat": "44.447523"
+        "lat": "44.447523",
+        "lng": "1.441989"
       },
       "finish": {
-        "city": "Coquelles",
+        "city": "Hautacam, Préchac",
         "country": "France",
-        "lng": "1.799951",
-        "lat": "50.936417"
+        "lat": "42.972222",
+        "lng": "-0.0075"
       },
-      "length": 202,
-      "type": null,
+      "length": 263,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau du Danemark Rolf Sørensen (DEN)",
+        "name": "Drapeau de France Luc Leblanc (FRA)",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Lourdes",
         "country": "France",
-        "lng": "-0.045726",
-        "lat": "43.091463"
+        "lat": "43.091463",
+        "lng": "-0.045726"
       },
       "finish": {
-        "city": "Brighton",
-        "country": "Royaume-Uni",
-        "lng": "-0.137163",
-        "lat": "50.82253"
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lat": "42.885105",
+        "lng": "-0.061335"
       },
-      "length": 231,
-      "type": "Étape de montagne",
+      "length": 204,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Italie Eros Poli (ITA)",
+        "name": "Drapeau de France Richard Virenque (FRA)",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Bagnères-de-Bigorre",
         "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
       "finish": {
-        "city": "Portsmouth",
-        "country": "Royaume-Uni",
-        "lng": "-1.083333",
-        "lat": "50.816667"
+        "city": "Albi",
+        "country": "France",
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
-      "length": 224,
-      "type": "Étape de montagne",
+      "length": 223,
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Roberto Conti (ITA)",
+        "name": "Drapeau du Danemark Bjarne Riis (DEN)",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Castres",
         "country": "France",
-        "lng": "2.241295",
-        "lat": "43.606214"
+        "lat": "43.606214",
+        "lng": "2.241295"
       },
       "finish": {
-        "city": "Rennes",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 149,
-      "type": "Étape de montagne",
+      "length": 202,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Colombie Nélson Rodríguez (COL)",
+        "name": "Drapeau du Danemark Rolf Sørensen (DEN)",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Futuroscope, Poitiers",
+        "city": "Carpentras",
         "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
+        "lat": "44.055564",
+        "lng": "5.048722"
       },
-      "length": 174,
-      "type": "Étape de montagne",
+      "length": 231,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
+        "name": "Drapeau d'Italie Eros Poli (ITA)",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Valréas",
         "country": "France",
-        "lng": "4.989187",
-        "lat": "44.383724"
+        "lat": "44.383724",
+        "lng": "4.989187"
       },
       "finish": {
-        "city": "Trélissac",
+        "city": "L'Alpe-d'Huez",
         "country": "France",
-        "lng": "0.77911",
-        "lat": "45.196131"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
-      "length": 46,
-      "type": "Étape de montagne (CLM)",
+      "length": 224,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
+        "name": "Drapeau d'Italie Roberto Conti (ITA)",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Bourg-d'Oisans",
         "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Bergerac",
+        "city": "Val-Thorens",
         "country": "France",
-        "lng": "0.483392",
-        "lat": "44.853806"
+        "lat": "45.296603",
+        "lng": "6.584663"
       },
-      "length": 208,
-      "type": null,
+      "length": 149,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
+        "name": "Drapeau de Colombie Nélson Rodríguez (COL)",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Moûtiers",
         "country": "France",
-        "lng": "6.529926",
-        "lat": "45.484615"
+        "lat": "45.484615",
+        "lng": "6.529926"
       },
       "finish": {
-        "city": "Cahors",
+        "city": "Cluses",
         "country": "France",
-        "lng": "1.441989",
-        "lat": "44.447523"
+        "lat": "46.06039",
+        "lng": "6.580582"
       },
-      "length": 234,
-      "type": null,
+      "length": 174,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
+        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Cluses",
         "country": "France",
-        "lng": "6.580582",
-        "lat": "46.06039"
+        "lat": "46.06039",
+        "lng": "6.580582"
       },
       "finish": {
-        "city": "Hautacam, Préchac",
+        "city": "Avoriaz",
         "country": "France",
-        "lng": "-0.072462",
-        "lat": "42.961214"
+        "lat": "46.189683",
+        "lng": "6.776343"
       },
-      "length": 203,
-      "type": null,
+      "length": 46,
+      "type": " Étape de montagne (CLM)",
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": "Drapeau de Lettonie Piotr Ugrumov (LAT)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Grande-Bretagne Chris Boardman (GBR)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Morzine",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Albi",
+        "city": "Lac Saint-Point",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "46.827822",
+        "lng": "6.325603"
       },
-      "length": 204,
+      "length": 208,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Francisco Cabello (ESP)",
+        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Marne La Vallée",
         "country": "France",
-        "lng": "2.598505",
-        "lat": "48.859276"
+        "lat": "48.859276",
+        "lng": "2.598505"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Paris",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 187,
+      "length": 175,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Nicola Minali (ITA)",
+        "name": "Drapeau de France Eddy Seigneur (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Flavio Vanzella (ITA)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     }

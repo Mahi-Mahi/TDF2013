@@ -24,14 +24,14 @@
       "start": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
         "city": "Reims",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "length": 185,
       "type": null,
@@ -52,19 +52,19 @@
       "start": {
         "city": "Reims",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "finish": {
-        "city": "Dax",
-        "country": "France",
-        "lng": "-1.051945",
-        "lat": "43.708608"
+        "city": "Gand",
+        "country": "Belgique",
+        "lat": "51.053468",
+        "lng": "3.73038"
       },
-      "length": 188,
+      "length": 228,
       "type": null,
       "winner": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
         "nationality": null
       },
       "leader": {
@@ -80,14 +80,210 @@
       "start": {
         "city": "Gand",
         "country": "Belgique",
-        "lng": "3.73038",
-        "lat": "51.053468"
+        "lat": "51.053468",
+        "lng": "3.73038"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Le Tréport",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Georges Meunier Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-04",
+      "year": 1951,
+      "leg": 4,
+      "title": "Le Tréport - Paris",
+      "start": {
+        "city": "Le Tréport",
+        "country": "France",
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 188,
+      "type": null,
+      "winner": {
+        "name": "Roger Lévêque Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-05",
+      "year": 1951,
+      "leg": 5,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-06",
+      "year": 1951,
+      "leg": 6,
+      "title": "Caen - Rennes",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": "Édouard Muller Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lévêque Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-07",
+      "year": 1951,
+      "leg": 7,
+      "title": "La Guerche-de-Bretagne - Angers",
+      "start": {
+        "city": "La Guerche-de-Bretagne",
+        "country": "France",
+        "lat": "47.941933",
+        "lng": "-1.230696"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 85,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lévêque Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-08",
+      "year": 1951,
+      "leg": 8,
+      "title": "Angers - Limoges",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 241,
+      "type": null,
+      "winner": {
+        "name": "André Rosseel Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lévêque Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-09",
+      "year": 1951,
+      "leg": 9,
+      "title": "Limoges - Clermont-Ferrand",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Roger Lévêque Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-10",
+      "year": 1951,
+      "leg": 10,
+      "title": "Clermont-Ferrand - Brive-la-Gaillarde",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "finish": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "length": 216,
       "type": null,
@@ -101,21 +297,21 @@
       }
     },
     {
-      "id": "E-1951-04",
+      "id": "E-1951-11",
       "year": 1951,
-      "leg": 4,
-      "title": "Le Tréport - Paris",
+      "leg": 11,
+      "title": "Brive-la-Gaillarde - Agen",
       "start": {
-        "city": "Le Tréport",
+        "city": "Brive-la-Gaillarde",
         "country": "France",
-        "lng": "1.382472",
-        "lat": "50.05917"
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Agen",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.203142",
+        "lng": "0.616363"
       },
       "length": 177,
       "type": null,
@@ -129,161 +325,21 @@
       }
     },
     {
-      "id": "E-1951-05",
+      "id": "E-1951-12",
       "year": 1951,
-      "leg": 5,
-      "title": "Paris - Caen",
+      "leg": 12,
+      "title": "Agen - Dax",
       "start": {
-        "city": "Paris",
+        "city": "Agen",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "44.203142",
+        "lng": "0.616363"
       },
       "finish": {
-        "city": "Briançon",
+        "city": "Dax",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
-      },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gilbert Bauvin Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-06",
-      "year": 1951,
-      "leg": 6,
-      "title": "Caen - Rennes",
-      "start": {
-        "city": "Caen",
-        "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
-      },
-      "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
-      },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-07",
-      "year": 1951,
-      "leg": 7,
-      "title": "La Guerche-de-Bretagne - Angers",
-      "start": {
-        "city": "La Guerche-de-Bretagne",
-        "country": "France",
-        "lng": "-1.230696",
-        "lat": "47.941933"
-      },
-      "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
-      },
-      "length": 213,
-      "type": null,
-      "winner": {
-        "name": "André Rosseel Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-08",
-      "year": 1951,
-      "leg": 8,
-      "title": "Angers - Limoges",
-      "start": {
-        "city": "Angers",
-        "country": "France",
-        "lng": "-0.563166",
-        "lat": "47.478419"
-      },
-      "finish": {
-        "city": "Dijon",
-        "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
-      },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-09",
-      "year": 1951,
-      "leg": 9,
-      "title": "Limoges - Clermont-Ferrand",
-      "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-10",
-      "year": 1951,
-      "leg": 10,
-      "title": "Clermont-Ferrand - Brive-la-Gaillarde",
-      "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
-      },
-      "finish": {
-        "city": "Gand",
-        "country": "Belgique",
-        "lng": "3.73038",
-        "lat": "51.053468"
+        "lat": "43.708608",
+        "lng": "-1.051945"
       },
       "length": 233,
       "type": null,
@@ -297,62 +353,6 @@
       }
     },
     {
-      "id": "E-1951-11",
-      "year": 1951,
-      "leg": 11,
-      "title": "Brive-la-Gaillarde - Agen",
-      "start": {
-        "city": "Brive-la-Gaillarde",
-        "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
-      },
-      "finish": {
-        "city": "Le Tréport",
-        "country": "France",
-        "lng": "1.382472",
-        "lat": "50.05917"
-      },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-12",
-      "year": 1951,
-      "leg": 12,
-      "title": "Agen - Dax",
-      "start": {
-        "city": "Agen",
-        "country": "France",
-        "lng": "0.616363",
-        "lat": "44.203142"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": "Armand Baeyens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1951-13",
       "year": 1951,
       "leg": 13,
@@ -360,23 +360,23 @@
       "start": {
         "city": "Dax",
         "country": "France",
-        "lng": "-1.051945",
-        "lat": "43.708608"
+        "lat": "43.708608",
+        "lng": "-1.051945"
       },
       "finish": {
-        "city": "Caen",
+        "city": "Tarbes",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
-      "length": 165,
+      "length": 201,
       "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": "Serafino Biagioni Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": "Gilbert Bauvin Drapeau de France France",
         "nationality": null
       }
     },
@@ -388,19 +388,19 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Rennes",
+        "city": "Luchon",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 201,
+      "length": 178,
       "type": null,
       "winner": {
-        "name": "Bernardo Ruiz Drapeau : EspagneEspagne",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Angers",
+        "city": "Carcassonne",
         "country": "France",
-        "lng": "-0.563166",
-        "lat": "47.478419"
+        "lat": "43.212161",
+        "lng": "2.353663"
       },
-      "length": 98,
-      "type": "(CLM)",
+      "length": 213,
+      "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": "André Rosseel Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Carcassonne",
         "country": "France",
-        "lng": "2.353663",
-        "lat": "43.212161"
+        "lat": "43.212161",
+        "lng": "2.353663"
       },
       "finish": {
-        "city": "Limoges",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 197,
+      "length": 192,
       "type": null,
       "winner": {
-        "name": "Germain Derijcke Drapeau belge Belgique",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Clermont-Ferrand",
+        "city": "Avignon",
         "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
+        "lat": "43.949317",
+        "lng": "4.805528"
       },
-      "length": 354,
+      "length": 224,
       "type": null,
       "winner": {
-        "name": "Adolphe Deledda Drapeau de France France",
+        "name": "Louison Bobet Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Avignon",
         "country": "France",
-        "lng": "4.805528",
-        "lat": "43.949317"
+        "lat": "43.949317",
+        "lng": "4.805528"
       },
       "finish": {
-        "city": "Brive-la-Gaillarde",
+        "city": "Marseille",
         "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 228,
+      "length": 173,
       "type": null,
       "winner": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Agen",
+        "city": "Gap",
         "country": "France",
-        "lng": "0.616363",
-        "lat": "44.203142"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 219,
+      "length": 208,
       "type": null,
       "winner": {
-        "name": "Georges Meunier Drapeau de France France",
+        "name": "Armand Baeyens Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Tarbes",
+        "city": "Briançon",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 215,
+      "length": 165,
       "type": null,
       "winner": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
-      "length": 182,
+      "length": 201,
       "type": null,
       "winner": {
-        "name": "Édouard Muller Drapeau de France France",
+        "name": "Bernardo Ruiz Drapeau : EspagneEspagne",
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
       "finish": {
-        "city": "Carcassonne",
-        "country": "France",
-        "lng": "2.353663",
-        "lat": "43.212161"
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
-      "length": 85,
+      "length": 98,
       "type": "(CLM)",
       "winner": {
         "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Genève",
         "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Dijon",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
-      "length": 241,
+      "length": 197,
       "type": null,
       "winner": {
-        "name": "André Rosseel Drapeau belge Belgique",
+        "name": "Germain Derijcke Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     },
@@ -668,23 +668,23 @@
       "start": {
         "city": "Dijon",
         "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
       "finish": {
-        "city": "Avignon",
+        "city": "Paris",
         "country": "France",
-        "lng": "4.805528",
-        "lat": "43.949317"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 236,
+      "length": 354,
       "type": null,
       "winner": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": "Adolphe Deledda Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": "Hugo Koblet Drapeau de Suisse Suisse",
         "nationality": null
       }
     }

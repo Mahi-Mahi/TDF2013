@@ -24,14 +24,14 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Caen",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
       "length": 206,
       "type": null,
@@ -52,14 +52,70 @@
       "start": {
         "city": "Caen",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
       "finish": {
-        "city": "Cannes",
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "length": 140,
+      "type": null,
+      "winner": {
+        "name": "André Leducq Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Aimé Dossche Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1929-03",
+      "year": 1929,
+      "leg": 3,
+      "title": "Cherbourg - Dinan",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Omer Taverne Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Aimé Dossche Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1929-04",
+      "year": 1929,
+      "leg": 4,
+      "title": "Dinan - Brest",
+      "start": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 206,
       "type": null,
@@ -73,62 +129,6 @@
       }
     },
     {
-      "id": "E-1929-03",
-      "year": 1929,
-      "leg": 3,
-      "title": "Cherbourg - Dinan",
-      "start": {
-        "city": "Cherbourg",
-        "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Belfort",
-        "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
-      },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": "Julien Moineau Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1929-04",
-      "year": 1929,
-      "leg": 4,
-      "title": "Dinan - Brest",
-      "start": {
-        "city": "Dinan",
-        "country": "France",
-        "lng": "-2.047327",
-        "lat": "48.454366"
-      },
-      "finish": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
-      },
-      "length": 363,
-      "type": null,
-      "winner": {
-        "name": "Salvador Cardona Flag of Spain (Civil).svgEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Victor Fontan Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1929-05",
       "year": 1929,
       "leg": 5,
@@ -136,19 +136,19 @@
       "start": {
         "city": "Brest",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Vannes",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "47.658236",
+        "lng": "-2.760847"
       },
-      "length": 323,
+      "length": 208,
       "type": null,
       "winner": {
-        "name": "Jef Demuysere Drapeau belge Belgique",
+        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -164,19 +164,19 @@
       "start": {
         "city": "Vannes",
         "country": "France",
-        "lng": "-2.760847",
-        "lat": "47.658236"
+        "lat": "47.658236",
+        "lng": "-2.760847"
       },
       "finish": {
-        "city": "Charleville",
+        "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "3.667405",
-        "lat": "48.813677"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
-      "length": 366,
+      "length": 204,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Paul Le Drogo Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -192,23 +192,23 @@
       "start": {
         "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
       "finish": {
-        "city": "Malo-les-Bains",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "2.398274",
-        "lat": "51.046636"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 133,
+      "length": 285,
       "type": null,
       "winner": {
-        "name": "Benoît Faure Drapeau de France France",
+        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": "Drapeau du Luxembourg Nicolas Frantz (LUX) || Drapeau de France André Leducq (FRA) || Drapeau de France Victor Fontan (FRA)",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Dieppe",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "1.077483",
-        "lat": "49.922992"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
-      "length": 333,
+      "length": 182,
       "type": null,
       "winner": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
+        "name": "Julien Moineau Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": "Gaston Rebry Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -248,23 +248,23 @@
       "start": {
         "city": "Bayonne",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Luchon",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 329,
+      "length": 363,
       "type": null,
       "winner": {
-        "name": "Julien Vervaecke Drapeau belge Belgique",
+        "name": "Salvador Cardona Flag of Spain (Civil).svgEspagne",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": "Victor Fontan Drapeau de France France",
         "nationality": null
       }
     },
@@ -276,19 +276,19 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Cherbourg",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
-      "length": 191,
+      "length": 323,
       "type": null,
       "winner": {
-        "name": "Marcel Bidot Drapeau de France France",
+        "name": "Jef Demuysere Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Perpignan",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Dinan",
+        "city": "Marseille",
         "country": "France",
-        "lng": "-2.047327",
-        "lat": "48.454366"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 283,
+      "length": 366,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Brest",
+        "city": "Cannes",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "43.552847",
+        "lng": "7.017369"
       },
-      "length": 145,
+      "length": 191,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Marcel Bidot Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Cannes",
         "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
+        "lat": "43.552847",
+        "lng": "7.017369"
       },
       "finish": {
-        "city": "Vannes",
+        "city": "Nice",
         "country": "France",
-        "lng": "-2.760847",
-        "lat": "47.658236"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 165,
+      "length": 133,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Benoît Faure Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Les Sables-d'Olonne",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
-      "length": 159,
+      "length": 333,
       "type": null,
       "winner": {
-        "name": "Bernard Van Rysselberghe Drapeau belge Belgique",
+        "name": "Gaston Rebry Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Grenoble",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Évian",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "46.401488",
+        "lng": "6.590949"
       },
-      "length": 270,
+      "length": 329,
       "type": null,
       "winner": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": "Julien Vervaecke Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Évian",
         "country": "France",
-        "lng": "6.590949",
-        "lat": "46.401488"
+        "lat": "46.401488",
+        "lng": "6.590949"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Belfort",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
-      "length": 234,
+      "length": 283,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Charles Pélissier Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Strasbourg",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
-      "length": 332,
+      "length": 145,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Strasbourg",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Metz",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 140,
+      "length": 165,
       "type": null,
       "winner": {
         "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": "Maurice De Waele Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Charleville",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "48.813677",
+        "lng": "3.667405"
       },
-      "length": 199,
+      "length": 159,
       "type": null,
       "winner": {
-        "name": "Omer Taverne Drapeau belge Belgique",
+        "name": "Bernard Van Rysselberghe Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": "Maurice De Waele Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -556,19 +556,19 @@
       "start": {
         "city": "Charleville",
         "country": "France",
-        "lng": "3.667405",
-        "lat": "48.813677"
+        "lat": "48.813677",
+        "lng": "3.667405"
       },
       "finish": {
-        "city": "Nice",
+        "city": "Malo-les-Bains",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "51.046636",
+        "lng": "2.398274"
       },
-      "length": 208,
+      "length": 270,
       "type": null,
       "winner": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": "Maurice De Waele Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -584,19 +584,19 @@
       "start": {
         "city": "Malo-les-Bains",
         "country": "France",
-        "lng": "2.398274",
-        "lat": "51.046636"
+        "lat": "51.046636",
+        "lng": "2.398274"
       },
       "finish": {
-        "city": "Grenoble",
+        "city": "Dieppe",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "49.922992",
+        "lng": "1.077483"
       },
-      "length": 204,
+      "length": 234,
       "type": null,
       "winner": {
-        "name": "Paul Le Drogo Drapeau de France France",
+        "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -612,23 +612,23 @@
       "start": {
         "city": "Dieppe",
         "country": "France",
-        "lng": "1.077483",
-        "lat": "49.922992"
+        "lat": "49.922992",
+        "lng": "1.077483"
       },
       "finish": {
-        "city": "Évian",
+        "city": "Paris",
         "country": "France",
-        "lng": "6.590949",
-        "lat": "46.401488"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 285,
+      "length": 332,
       "type": null,
       "winner": {
         "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Luxembourg Nicolas Frantz (LUX) || Drapeau de France André Leducq (FRA) || Drapeau de France Victor Fontan (FRA)",
+        "name": "Maurice De Waele Drapeau belge Belgique",
         "nationality": null
       }
     }

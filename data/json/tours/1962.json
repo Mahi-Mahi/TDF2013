@@ -24,14 +24,14 @@
       "start": {
         "city": "Nancy",
         "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
       "finish": {
         "city": "Spa",
         "country": "Belgique",
-        "lng": "6.556261",
-        "lat": "52.631844"
+        "lat": "50.49243",
+        "lng": "5.86432"
       },
       "length": 253,
       "type": null,
@@ -45,26 +45,26 @@
       }
     },
     {
-      "id": "E-1962-2b",
+      "id": "E-1962-2a",
       "year": 1962,
       "leg": 2,
-      "title": "Herentals - Herentals",
+      "title": "Spa - Herentals (Bel)",
       "start": {
-        "city": "Herentals",
+        "city": "Spa",
         "country": "Belgique",
-        "lng": "4.835595",
-        "lat": "51.176854"
+        "lat": "50.49243",
+        "lng": "5.86432"
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "city": "Herentals",
+        "country": "Belgique",
+        "lat": "51.176854",
+        "lng": "4.835595"
       },
-      "length": 43,
-      "type": "(CLM)",
+      "length": 147,
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceJacques Anquetil",
+        "name": "Drapeau : FranceAndré Darrigade",
         "nationality": null
       },
       "leader": {
@@ -73,26 +73,26 @@
       }
     },
     {
-      "id": "E-1962-2a",
+      "id": "E-1962-2b",
       "year": 1962,
       "leg": 2,
-      "title": "Spa - Herentals (Bel)",
+      "title": "Herentals - Herentals",
       "start": {
-        "city": "Spa",
+        "city": "Herentals",
         "country": "Belgique",
-        "lng": "6.556261",
-        "lat": "52.631844"
+        "lat": "51.176854",
+        "lng": "4.835595"
       },
       "finish": {
-        "city": "Juan-les-Pins",
-        "country": "France",
-        "lng": "7.109444",
-        "lat": "43.571111"
+        "city": "Herentals",
+        "country": "Belgique",
+        "lat": "51.176854",
+        "lng": "4.835595"
       },
-      "length": 155,
-      "type": null,
+      "length": 23,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau : ItalieMario Minieri",
+        "name": "Drapeau : BelgiqueFaema-Flandria-Clement",
         "nationality": null
       },
       "leader": {
@@ -108,14 +108,210 @@
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "finish": {
-        "city": "Aix-les-Bains",
+        "city": "Amiens",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AllemagneRudi Altig",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneRudi Altig",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-04",
+      "year": 1962,
+      "leg": 4,
+      "title": "Amiens - Le Havre",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueWilly Vanden Berghen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneRudi Altig",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-05",
+      "year": 1962,
+      "leg": 5,
+      "title": "Pont-l'Évêque - Saint-Malo",
+      "start": {
+        "city": "Pont-l'Évêque",
+        "country": "France",
+        "lat": "49.284982",
+        "lng": "0.182766"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : BelgiqueÉmile Daems",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AllemagneRudi Altig",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-06",
+      "year": 1962,
+      "leg": 6,
+      "title": "Dinard - Brest",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 235,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasAlbertus Geldermans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-07",
+      "year": 1962,
+      "leg": 7,
+      "title": "Quimper - Saint-Nazaire",
+      "start": {
+        "city": "Quimper",
+        "country": "France",
+        "lat": "47.997542",
+        "lng": "-4.097899"
+      },
+      "finish": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lat": "47.273498",
+        "lng": "-2.213848"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasHuub Zilverberg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : Pays-BasAlbertus Geldermans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-8a",
+      "year": 1962,
+      "leg": 8,
+      "title": "Saint-Nazaire - Luçon",
+      "start": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lat": "47.273498",
+        "lng": "-2.213848"
+      },
+      "finish": {
+        "city": "Luçon",
+        "country": "France",
+        "lat": "46.454772",
+        "lng": "-1.167062"
+      },
+      "length": 155,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Minieri",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-8b",
+      "year": 1962,
+      "leg": 8,
+      "title": "Luçon - La Rochelle",
+      "start": {
+        "city": "Luçon",
+        "country": "France",
+        "lat": "46.454772",
+        "lng": "-1.167062"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 43,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : FranceJacques Anquetil",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1962-09",
+      "year": 1962,
+      "leg": 9,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 214,
       "type": null,
@@ -129,21 +325,21 @@
       }
     },
     {
-      "id": "E-1962-04",
+      "id": "E-1962-10",
       "year": 1962,
-      "leg": 4,
-      "title": "Amiens - Le Havre",
+      "leg": 10,
+      "title": "Bordeaux - Bayonne",
       "start": {
-        "city": "Amiens",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Lyon",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 184,
       "type": null,
@@ -157,21 +353,21 @@
       }
     },
     {
-      "id": "E-1962-05",
+      "id": "E-1962-11",
       "year": 1962,
-      "leg": 5,
-      "title": "Pont-l'Évêque - Saint-Malo",
+      "leg": 11,
+      "title": "Bayonne - Pau",
       "start": {
-        "city": "Pont-l'Évêque",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "0.182766",
-        "lat": "49.284982"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Pougues-les-Eaux",
+        "city": "Pau",
         "country": "France",
-        "lng": "3.101573",
-        "lat": "47.072803"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "length": 155,
       "type": null,
@@ -185,21 +381,21 @@
       }
     },
     {
-      "id": "E-1962-06",
+      "id": "E-1962-12",
       "year": 1962,
-      "leg": 6,
-      "title": "Dinard - Brest",
+      "leg": 12,
+      "title": "Pau - Saint-Gaudens",
       "start": {
-        "city": "Dinard",
+        "city": "Pau",
         "country": "France",
-        "lng": "-2.055125",
-        "lat": "48.633024"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Saint-Gaudens",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.106895",
+        "lng": "0.723763"
       },
       "length": 207,
       "type": null,
@@ -213,202 +409,6 @@
       }
     },
     {
-      "id": "E-1962-07",
-      "year": 1962,
-      "leg": 7,
-      "title": "Quimper - Saint-Nazaire",
-      "start": {
-        "city": "Quimper",
-        "country": "France",
-        "lng": "-4.097899",
-        "lat": "47.997542"
-      },
-      "finish": {
-        "city": "Herentals",
-        "country": "Belgique",
-        "lng": "4.835595",
-        "lat": "51.176854"
-      },
-      "length": 18,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJoseph Planckaert",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-8b",
-      "year": 1962,
-      "leg": 8,
-      "title": "Luçon - La Rochelle",
-      "start": {
-        "city": "Luçon",
-        "country": "France",
-        "lng": "-1.167062",
-        "lat": "46.454772"
-      },
-      "finish": {
-        "city": "Luçon",
-        "country": "France",
-        "lng": "-1.167062",
-        "lat": "46.454772"
-      },
-      "length": 68,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : FranceJacques Anquetil",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceJacques Anquetil",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-8a",
-      "year": 1962,
-      "leg": 8,
-      "title": "Saint-Nazaire - Luçon",
-      "start": {
-        "city": "Saint-Nazaire",
-        "country": "France",
-        "lng": "-2.213848",
-        "lat": "47.273498"
-      },
-      "finish": {
-        "city": "Herentals",
-        "country": "Belgique",
-        "lng": "4.835595",
-        "lat": "51.176854"
-      },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceJean Stablinski",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJoseph Planckaert",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-09",
-      "year": 1962,
-      "leg": 9,
-      "title": "La Rochelle - Bordeaux",
-      "start": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
-      },
-      "finish": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
-      },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieDino Bruni",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceJacques Anquetil",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-10",
-      "year": 1962,
-      "leg": 10,
-      "title": "Bordeaux - Bayonne",
-      "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "finish": {
-        "city": "Amiens",
-        "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
-      },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueWilly Vannitsen",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJoseph Planckaert",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-11",
-      "year": 1962,
-      "leg": 11,
-      "title": "Bayonne - Pau",
-      "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
-      },
-      "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
-      },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueÉmile Daems",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJoseph Planckaert",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1962-12",
-      "year": 1962,
-      "leg": 12,
-      "title": "Pau - Saint-Gaudens",
-      "start": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
-      },
-      "finish": {
-        "city": "Saint-Malo",
-        "country": "France",
-        "lng": "-2.025674",
-        "lat": "48.649337"
-      },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : AllemagneRudi Altig",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJoseph Planckaert",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1962-13",
       "year": 1962,
       "leg": 13,
@@ -416,19 +416,19 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Brest",
+        "city": "Superbagnères, Saint-Aventin",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "42.768576",
+        "lng": "0.576927"
       },
-      "length": 241,
-      "type": null,
+      "length": 18,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : BelgiqueÉmile Daems",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Saint-Nazaire",
+        "city": "Carcassonne",
         "country": "France",
-        "lng": "-2.213848",
-        "lat": "47.273498"
+        "lat": "43.212161",
+        "lng": "2.353663"
       },
-      "length": 204,
+      "length": 215,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceRaymond Poulidor",
+        "name": "Drapeau : FranceJean Stablinski",
         "nationality": null
       },
       "leader": {
@@ -472,23 +472,23 @@
       "start": {
         "city": "Carcassonne",
         "country": "France",
-        "lng": "2.353663",
-        "lat": "43.212161"
+        "lat": "43.212161",
+        "lng": "2.353663"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 271,
+      "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieRino Benedetti",
+        "name": "Drapeau : BelgiqueWilly Vannitsen",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceJacques Anquetil",
+        "name": "Drapeau : BelgiqueJoseph Planckaert",
         "nationality": null
       }
     },
@@ -500,23 +500,23 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Aix-en-Provence",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "43.529742",
+        "lng": "5.447427"
       },
-      "length": 147,
+      "length": 185,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceAndré Darrigade",
+        "name": "Drapeau : BelgiqueÉmile Daems",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceAndré Darrigade",
+        "name": "Drapeau : BelgiqueJoseph Planckaert",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Aix-en-Provence",
         "country": "France",
-        "lng": "5.447427",
-        "lat": "43.529742"
+        "lat": "43.529742",
+        "lng": "5.447427"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Juan-les-Pins",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.571111",
+        "lng": "7.109444"
       },
-      "length": 23,
-      "type": "(CLM par équipes)",
+      "length": 201,
+      "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueFaema-Flandria-Clement",
+        "name": "Drapeau : AllemagneRudi Altig",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceAndré Darrigade",
+        "name": "Drapeau : BelgiqueJoseph Planckaert",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Juan-les-Pins",
         "country": "France",
-        "lng": "7.109444",
-        "lat": "43.571111"
+        "lat": "43.571111",
+        "lng": "7.109444"
       },
       "finish": {
-        "city": "Saint-Gaudens",
+        "city": "Briançon",
         "country": "France",
-        "lng": "0.723763",
-        "lat": "43.106895"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 210,
+      "length": 241,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneRudi Altig",
+        "name": "Drapeau : BelgiqueÉmile Daems",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneRudi Altig",
+        "name": "Drapeau : BelgiqueJoseph Planckaert",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Superbagnères, Saint-Aventin",
+        "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "0.576927",
-        "lat": "42.768576"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
-      "length": 196,
+      "length": 204,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueWilly Vanden Berghen",
+        "name": "Drapeau : FranceRaymond Poulidor",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneRudi Altig",
+        "name": "Drapeau : BelgiqueJoseph Planckaert",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Bourgoin",
         "country": "France",
-        "lng": "5.27212",
-        "lat": "45.597108"
+        "lat": "45.597108",
+        "lng": "5.27212"
       },
       "finish": {
-        "city": "Carcassonne",
+        "city": "Lyon",
         "country": "France",
-        "lng": "2.353663",
-        "lat": "43.212161"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
-      "length": 215,
-      "type": null,
+      "length": 68,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : BelgiqueÉmile Daems",
+        "name": "Drapeau : FranceJacques Anquetil",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneRudi Altig",
+        "name": "Drapeau : FranceJacques Anquetil",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Pougues-les-Eaux",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "47.072803",
+        "lng": "3.101573"
       },
-      "length": 235,
+      "length": 232,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : ItalieDino Bruni",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Pays-BasAlbertus Geldermans",
+        "name": "Drapeau : FranceJacques Anquetil",
         "nationality": null
       }
     },
@@ -668,23 +668,23 @@
       "start": {
         "city": "Nevers",
         "country": "France",
-        "lng": "3.162845",
-        "lat": "46.990896"
+        "lat": "46.990896",
+        "lng": "3.162845"
       },
       "finish": {
-        "city": "Aix-en-Provence",
+        "city": "Paris",
         "country": "France",
-        "lng": "5.447427",
-        "lat": "43.529742"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 201,
+      "length": 271,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasHuub Zilverberg",
+        "name": "Drapeau : ItalieRino Benedetti",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Pays-BasAlbertus Geldermans",
+        "name": "Drapeau : FranceJacques Anquetil",
         "nationality": null
       }
     }

@@ -24,19 +24,19 @@
       "start": {
         "city": "Les Epesses",
         "country": "France",
-        "lng": "-0.899612",
-        "lat": "46.884536"
+        "lat": "46.884536",
+        "lng": "-0.899612"
       },
       "finish": {
         "city": "Les Epesses",
         "country": "France",
-        "lng": "-0.899612",
-        "lat": "46.884536"
+        "lat": "46.884536",
+        "lng": "-0.899612"
       },
-      "length": 196,
-      "type": null,
+      "length": 6,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       },
       "leader": {
@@ -52,19 +52,19 @@
       "start": {
         "city": "Luçon",
         "country": "France",
-        "lng": "-1.167062",
-        "lat": "46.454772"
+        "lat": "46.454772",
+        "lng": "-1.167062"
       },
       "finish": {
         "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
-      "length": 6,
-      "type": "(CLM)",
+      "length": 215,
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
         "nationality": null
       },
       "leader": {
@@ -80,19 +80,19 @@
       "start": {
         "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Vannes",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "47.658236",
+        "lng": "-2.760847"
       },
-      "length": 189,
+      "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
         "nationality": null
       },
       "leader": {
@@ -108,19 +108,19 @@
       "start": {
         "city": "Vannes",
         "country": "France",
-        "lng": "-2.760847",
-        "lat": "47.658236"
+        "lat": "47.658236",
+        "lng": "-2.760847"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Dinard",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "48.633024",
+        "lng": "-2.055125"
       },
-      "length": 225,
+      "length": 189,
       "type": null,
       "winner": {
-        "name": "Drapeau du Danemark Jesper Skibby (DEN)",
+        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Dinard",
         "country": "France",
-        "lng": "-2.055125",
-        "lat": "48.633024"
+        "lat": "48.633024",
+        "lng": "-2.055125"
       },
       "finish": {
-        "city": "Pal",
-        "country": "Andorre",
-        "lng": "74.029255",
-        "lat": "16.58917"
+        "city": "Avranches",
+        "country": "France",
+        "lat": "48.686843",
+        "lng": "-1.36166"
       },
-      "length": 158,
-      "type": null,
+      "length": 81,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau de Belgique Johan Bruyneel (BEL)",
+        "name": "Drapeau d'Italie GB-MG Maglificio (ITA)",
         "nationality": null
       },
       "leader": {
@@ -164,14 +164,70 @@
       "start": {
         "city": "Avranches",
         "country": "France",
-        "lng": "-1.36166",
-        "lat": "48.686843"
+        "lat": "48.686843",
+        "lng": "-1.36166"
       },
       "finish": {
-        "city": "Saint-Lary-Soulan",
+        "city": "Évreux",
         "country": "France",
-        "lng": "0.320251",
-        "lat": "42.815835"
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "length": 225,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Danemark Jesper Skibby (DEN)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1993-06",
+      "year": 1993,
+      "leg": 6,
+      "title": "Évreux - Amiens",
+      "start": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "finish": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Johan Bruyneel (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1993-07",
+      "year": 1993,
+      "leg": 7,
+      "title": "Péronne - Châlons-sur-Marne",
+      "start": {
+        "city": "Péronne",
+        "country": "France",
+        "lat": "49.933071",
+        "lng": "2.933353"
+      },
+      "finish": {
+        "city": "Châlons-sur-Marne",
+        "country": "France",
+        "lat": "48.956682",
+        "lng": "4.363073"
       },
       "length": 199,
       "type": null,
@@ -185,21 +241,21 @@
       }
     },
     {
-      "id": "E-1993-06",
+      "id": "E-1993-08",
       "year": 1993,
-      "leg": 6,
-      "title": "Évreux - Amiens",
+      "leg": 8,
+      "title": "Châlons-sur-Marne - Verdun",
       "start": {
-        "city": "Évreux",
+        "city": "Châlons-sur-Marne",
         "country": "France",
-        "lng": "1.151361",
-        "lat": "49.027013"
+        "lat": "48.956682",
+        "lng": "4.363073"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Verdun",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "49.15894",
+        "lng": "5.386757"
       },
       "length": 184,
       "type": null,
@@ -213,21 +269,21 @@
       }
     },
     {
-      "id": "E-1993-07",
+      "id": "E-1993-09",
       "year": 1993,
-      "leg": 7,
-      "title": "Péronne - Châlons-sur-Marne",
+      "leg": 9,
+      "title": "Lac de Madine",
       "start": {
-        "city": "Péronne",
+        "city": "Lac de Madine",
         "country": "France",
-        "lng": "2.933353",
-        "lat": "49.933071"
+        "lat": "48.921618",
+        "lng": "5.736175"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Lac de Madine",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "48.921618",
+        "lng": "5.736175"
       },
       "length": 59,
       "type": "(CLM)",
@@ -241,80 +297,24 @@
       }
     },
     {
-      "id": "E-1993-08",
-      "year": 1993,
-      "leg": 8,
-      "title": "Châlons-sur-Marne - Verdun",
-      "start": {
-        "city": "Châlons-sur-Marne",
-        "country": "France",
-        "lng": "4.363073",
-        "lat": "48.956682"
-      },
-      "finish": {
-        "city": "Montlhéry",
-        "country": "France",
-        "lng": "2.271502",
-        "lat": "48.638324"
-      },
-      "length": 203,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau de Suisse Tony Rominger (SUI)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1993-09",
-      "year": 1993,
-      "leg": 9,
-      "title": "Lac de Madine",
-      "start": {
-        "city": "Lac de Madine",
-        "country": "France",
-        "lng": "5.736175",
-        "lat": "48.921618"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 286,
-      "type": null,
-      "winner": {
-        "name": "Drapeau d'Italie Fabio Roscioli (ITA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1993-10",
       "year": 1993,
       "leg": 10,
-      "title": "Villard-de-Lans - Serre Chevalier",
+      "title": "Villard-de-Lans - Serre Chevalier ",
       "start": {
         "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
       "finish": {
-        "city": "Vannes",
+        "city": "Serre Chevalier",
         "country": "France",
-        "lng": "-2.760847",
-        "lat": "47.658236"
+        "lat": "44.910829",
+        "lng": "6.549748"
       },
-      "length": 180,
-      "type": "Étape de montagne",
+      "length": 203,
+      "type": " Étape de montagne",
       "winner": {
         "name": "Drapeau de Suisse Tony Rominger (SUI)",
         "nationality": null
@@ -332,19 +332,19 @@
       "start": {
         "city": "Serre Chevalier",
         "country": "France",
-        "lng": "6.549748",
-        "lat": "44.910829"
+        "lat": "44.910829",
+        "lng": "6.549748"
       },
       "finish": {
-        "city": "Dinard",
+        "city": "Isola 2000",
         "country": "France",
-        "lng": "-2.055125",
-        "lat": "48.633024"
+        "lat": "44.18571",
+        "lng": "7.15922"
       },
-      "length": 181,
-      "type": null,
+      "length": 180,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Allemagne Olaf Ludwig (GER)",
+        "name": "Drapeau de Suisse Tony Rominger (SUI)",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Isola 2000",
         "country": "France",
-        "lng": "9.188931",
-        "lat": "45.488335"
+        "lat": "44.18571",
+        "lng": "7.15922"
       },
       "finish": {
-        "city": "Avranches",
+        "city": "Marseille",
         "country": "France",
-        "lng": "-1.36166",
-        "lat": "48.686843"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 223,
+      "length": 286,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Pascal Lino (FRA)",
+        "name": "Drapeau d'Italie Fabio Roscioli (ITA)",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Évreux",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "1.151361",
-        "lat": "49.027013"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 231,
-      "type": "Étape de montagne",
+      "length": 181,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Colombie Oliverio Rincón (COL)",
+        "name": "Drapeau d'Allemagne Olaf Ludwig (GER)",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Amiens",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
-      "length": 224,
-      "type": "Étape de montagne",
+      "length": 223,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Pologne Zenon Jaskuła (POL)",
+        "name": "Drapeau de France Pascal Lino (FRA)",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Perpignan",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Châlons-sur-Marne",
-        "country": "France",
-        "lng": "4.363073",
-        "lat": "48.956682"
+        "city": "Pal",
+        "country": "Andorre",
+        "lat": "42.54487",
+        "lng": "1.47520\n"
       },
-      "length": 190,
-      "type": "Étape de montagne",
+      "length": 231,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Italie Claudio Chiappucci (ITA)",
+        "name": "Drapeau de Colombie Oliverio Rincón (COL)",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Andorre",
         "country": "Andorre",
-        "lng": "1.521801",
-        "lat": "42.506285"
+        "lat": "42.506285",
+        "lng": "1.521801"
       },
       "finish": {
-        "city": "Verdun",
+        "city": "Saint-Lary-Soulan",
         "country": "France",
-        "lng": "5.386757",
-        "lat": "49.15894"
+        "lat": "42.815835",
+        "lng": "0.320251"
       },
-      "length": 174,
-      "type": null,
+      "length": 224,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": "Drapeau de Pologne Zenon Jaskuła (POL)",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Lac de Madine",
+        "city": "Pau",
         "country": "France",
-        "lng": "5.736175",
-        "lat": "48.921618"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 48,
-      "type": "(CLM)",
+      "length": 190,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau de Suisse Tony Rominger (SUI)",
+        "name": "Drapeau d'Italie Claudio Chiappucci (ITA)",
         "nationality": null
       },
       "leader": {
@@ -528,19 +528,19 @@
       "start": {
         "city": "Orthez",
         "country": "France",
-        "lng": "-0.773928",
-        "lat": "43.48756"
+        "lat": "43.48756",
+        "lng": "-0.773928"
       },
       "finish": {
-        "city": "Serre Chevalier",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "6.549748",
-        "lat": "44.910829"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 215,
+      "length": 174,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
         "nationality": null
       },
       "leader": {
@@ -556,23 +556,23 @@
       "start": {
         "city": "Brétigny-sur-Orge",
         "country": "France",
-        "lng": "2.30604",
-        "lat": "48.611486"
+        "lat": "48.611486",
+        "lng": "2.30604"
       },
       "finish": {
-        "city": "Isola 2000",
+        "city": "Montlhéry",
         "country": "France",
-        "lng": "9.188931",
-        "lat": "45.488335"
+        "lat": "48.638324",
+        "lng": "2.271502"
       },
-      "length": 203,
-      "type": null,
+      "length": 48,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": "Drapeau de Suisse Tony Rominger (SUI)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Viry-Châtillon",
         "country": "France",
-        "lng": "2.375902",
-        "lat": "48.666218"
+        "lat": "48.666218",
+        "lng": "2.375902"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Paris",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 81,
-      "type": "(CLM par équipes)",
+      "length": 196,
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie GB-MG Maglificio (ITA)",
+        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
         "nationality": null
       }
     }

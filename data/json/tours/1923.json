@@ -24,14 +24,14 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "length": 381,
       "type": null,
@@ -52,70 +52,14 @@
       "start": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "finish": {
-        "city": "Toulon",
-        "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
-      },
-      "length": 433,
-      "type": null,
-      "winner": {
-        "name": "Félix Goethals Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1923-03",
-      "year": 1923,
-      "leg": 3,
-      "title": "Cherbourg - Brest",
-      "start": {
         "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
-      },
-      "length": 343,
-      "type": null,
-      "winner": {
-        "name": "Félix Goethals Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1923-04",
-      "year": 1923,
-      "leg": 4,
-      "title": "Brest - Les Sables-d'Olonne",
-      "start": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
-      },
-      "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "length": 371,
       "type": null,
@@ -129,21 +73,21 @@
       }
     },
     {
-      "id": "E-1923-05",
+      "id": "E-1923-03",
       "year": 1923,
-      "leg": 5,
-      "title": "Les Sables-d'Olonne - Bayonne",
+      "leg": 3,
+      "title": "Cherbourg - Brest",
       "start": {
-        "city": "Les Sables-d'Olonne",
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 405,
       "type": null,
@@ -157,21 +101,21 @@
       }
     },
     {
-      "id": "E-1923-06",
+      "id": "E-1923-04",
       "year": 1923,
-      "leg": 6,
-      "title": "Bayonne - Luchon",
+      "leg": 4,
+      "title": "Brest - Les Sables-d'Olonne",
       "start": {
-        "city": "Bayonne",
+        "city": "Brest",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "finish": {
-        "city": "Strasbourg",
+        "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
       "length": 412,
       "type": null,
@@ -185,21 +129,21 @@
       }
     },
     {
-      "id": "E-1923-07",
+      "id": "E-1923-05",
       "year": 1923,
-      "leg": 7,
-      "title": "Luchon - Perpignan",
+      "leg": 5,
+      "title": "Les Sables-d'Olonne - Bayonne",
       "start": {
-        "city": "Luchon",
+        "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 482,
       "type": null,
@@ -213,6 +157,62 @@
       }
     },
     {
+      "id": "E-1923-06",
+      "year": 1923,
+      "leg": 6,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Jean Alavoine Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1923-07",
+      "year": 1923,
+      "leg": 7,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 323,
+      "type": null,
+      "winner": {
+        "name": "Jean Alavoine Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1923-08",
       "year": 1923,
       "leg": 8,
@@ -220,19 +220,19 @@
       "start": {
         "city": "Perpignan",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Dunkerque",
+        "city": "Toulon",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "43.124228",
+        "lng": "5.928"
       },
-      "length": 326,
+      "length": 427,
       "type": null,
       "winner": {
-        "name": "Jean Alavoine Drapeau de France France",
+        "name": "Lucien Buysse Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -248,16 +248,16 @@
       "start": {
         "city": "Toulon",
         "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
+        "lat": "43.124228",
+        "lng": "5.928"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Nice",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 323,
+      "length": 281,
       "type": null,
       "winner": {
         "name": "Jean Alavoine Drapeau de France France",
@@ -276,23 +276,23 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Cherbourg",
+        "city": "Briançon",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 427,
+      "length": 275,
       "type": null,
       "winner": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": "Henri Pélissier Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": "Henri Pélissier Drapeau de France France",
         "nationality": null
       }
     },
@@ -304,23 +304,23 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
-      "length": 281,
+      "length": 260,
       "type": null,
       "winner": {
-        "name": "Jean Alavoine Drapeau de France France",
+        "name": "Henri Pélissier Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": "Henri Pélissier Drapeau de France France",
         "nationality": null
       }
     },
@@ -332,19 +332,19 @@
       "start": {
         "city": "Genève",
         "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
       "finish": {
-        "city": "Les Sables-d'Olonne",
+        "city": "Strasbourg",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
-      "length": 275,
+      "length": 377,
       "type": null,
       "winner": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": "Joseph Muller Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Strasbourg",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Metz",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 260,
+      "length": 300,
       "type": null,
       "winner": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": "Romain Bellenger Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Dunkerque",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
-      "length": 377,
+      "length": 433,
       "type": null,
       "winner": {
-        "name": "Joseph Muller Drapeau de France France",
+        "name": "Félix Goethals Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Paris",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 300,
+      "length": 343,
       "type": null,
       "winner": {
-        "name": "Romain Bellenger Drapeau de France France",
+        "name": "Félix Goethals Drapeau de France France",
         "nationality": null
       },
       "leader": {

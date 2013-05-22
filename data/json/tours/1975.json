@@ -24,23 +24,23 @@
       "start": {
         "city": "Charleroi",
         "country": "Belgique",
-        "lng": "4.444643",
-        "lat": "50.41081"
+        "lat": "50.41081",
+        "lng": "4.444643"
       },
       "finish": {
         "city": "Charleroi",
         "country": "Belgique",
-        "lng": "4.444643",
-        "lat": "50.41081"
+        "lat": "50.41081",
+        "lng": "4.444643"
       },
-      "length": 163,
-      "type": null,
+      "length": 6,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau de Belgique Walter Godefroot (BEL)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       }
     },
@@ -52,19 +52,19 @@
       "start": {
         "city": "Charleroi",
         "country": "Belgique",
-        "lng": "4.444643",
-        "lat": "50.41081"
+        "lat": "50.41081",
+        "lng": "4.444643"
       },
       "finish": {
-        "city": "Super Lioran",
-        "country": "France",
-        "lng": "2.75349",
-        "lat": "45.083212"
+        "city": "Molenbeek",
+        "country": "Belgique",
+        "lat": "50.856976",
+        "lng": "4.319369"
       },
-      "length": 121,
+      "length": 94,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Ronald De Witte (BEL)",
+        "name": "Drapeau des Pays-Bas Cees Priem (NED)",
         "nationality": null
       },
       "leader": {
@@ -80,19 +80,19 @@
       "start": {
         "city": "Molenbeek",
         "country": "Belgique",
-        "lng": "4.319369",
-        "lat": "50.856976"
+        "lat": "50.856976",
+        "lng": "4.319369"
       },
       "finish": {
-        "city": "Puy de Dôme",
+        "city": "Roubaix",
         "country": "France",
-        "lng": "3.015582",
-        "lat": "45.712414"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
-      "length": 169,
+      "length": 108,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Karel Rottiers (BEL)",
+        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
         "nationality": null
       },
       "leader": {
@@ -108,19 +108,19 @@
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Pra Loup",
+        "city": "Amiens",
         "country": "France",
-        "lng": "6.602232",
-        "lat": "44.369445"
+        "lat": "49.894067",
+        "lng": "2.295753"
       },
-      "length": 223,
+      "length": 121,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jacques Esclassan (FRA)",
+        "name": "Drapeau de Belgique Ronald De Witte (BEL)",
         "nationality": null
       },
       "leader": {
@@ -136,23 +136,23 @@
       "start": {
         "city": "Amiens",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
+        "lat": "49.894067",
+        "lng": "2.295753"
       },
       "finish": {
-        "city": "Chalon sur Saône",
+        "city": "Versailles",
         "country": "France",
-        "lng": "4.853947",
-        "lat": "46.780764"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
-      "length": 134,
+      "length": 169,
       "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Barry Hoban (GBR)",
+        "name": "Drapeau de Belgique Karel Rottiers (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       }
     },
@@ -164,23 +164,23 @@
       "start": {
         "city": "Versailles",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "finish": {
-        "city": "Melun",
+        "city": "Le Mans",
         "country": "France",
-        "lng": "2.6554",
-        "lat": "48.542105"
+        "lat": "48.00611",
+        "lng": "0.199556"
       },
-      "length": 160,
+      "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "name": "Drapeau de France Jacques Esclassan (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Sablé-sur-Sarthe",
         "country": "France",
-        "lng": "-0.331634",
-        "lat": "47.840112"
+        "lat": "47.840112",
+        "lng": "-0.331634"
       },
       "finish": {
-        "city": "Senlis",
+        "city": "Merlin-Plage, Saint-Hilaire-de-Riez",
         "country": "France",
-        "lng": "2.583212",
-        "lat": "49.205164"
+        "lat": "46.720204",
+        "lng": "-1.945917"
       },
-      "length": 242,
+      "length": 222,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       }
     },
@@ -220,19 +220,19 @@
       "start": {
         "city": "Saint-Hilaire-de-Riez",
         "country": "France",
-        "lng": "-1.945917",
-        "lat": "46.720204"
+        "lat": "46.720204",
+        "lng": "-1.945917"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Saint-Hilaire-de-Riez",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "46.720204",
+        "lng": "-1.945917"
       },
-      "length": 260,
-      "type": null,
+      "length": 16,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau de Belgique Michel Pollentier (BEL)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       },
       "leader": {
@@ -248,19 +248,19 @@
       "start": {
         "city": "Saint-Gilles-Croix-de-Vie",
         "country": "France",
-        "lng": "-1.944529",
-        "lat": "46.697777"
+        "lat": "46.697777",
+        "lng": "-1.944529"
       },
       "finish": {
-        "city": "Molenbeek",
-        "country": "Belgique",
-        "lng": "4.319369",
-        "lat": "50.856976"
+        "city": "Angoulême",
+        "country": "France",
+        "lat": "45.648377",
+        "lng": "0.156237"
       },
-      "length": 131,
+      "length": 235,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
+        "name": "Drapeau d'Italie Francesco Moser (ITA)",
         "nationality": null
       },
       "leader": {
@@ -276,19 +276,47 @@
       "start": {
         "city": "Angoulême",
         "country": "France",
-        "lng": "0.156237",
-        "lat": "45.648377"
+        "lat": "45.648377",
+        "lng": "0.156237"
       },
       "finish": {
-        "city": "Roubaix",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 37,
-      "type": "(CLM)",
+      "length": 134,
+      "type": null,
       "winner": {
+        "name": "Drapeau de Grande-Bretagne Barry Hoban (GBR)",
+        "nationality": null
+      },
+      "leader": {
         "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1975-9a",
+      "year": 1975,
+      "leg": 9,
+      "title": "Langon - Fleurance",
+      "start": {
+        "city": "Langon",
+        "country": "France",
+        "lat": "44.555419",
+        "lng": "-0.245126"
+      },
+      "finish": {
+        "city": "Fleurance",
+        "country": "France",
+        "lat": "43.849456",
+        "lng": "0.663244"
+      },
+      "length": 131,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
         "nationality": null
       },
       "leader": {
@@ -304,51 +332,23 @@
       "start": {
         "city": "Fleurance",
         "country": "France",
-        "lng": "0.663244",
-        "lat": "43.849456"
+        "lat": "43.849456",
+        "lng": "0.663244"
       },
       "finish": {
         "city": "Auch",
         "country": "France",
-        "lng": "0.586709",
-        "lat": "43.64638"
+        "lat": "43.64638",
+        "lng": "0.586709"
       },
-      "length": 220,
-      "type": null,
+      "length": 37,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1975-9a",
-      "year": 1975,
-      "leg": 9,
-      "title": "Langon - Fleurance",
-      "start": {
-        "city": "Langon",
-        "country": "France",
-        "lng": "-0.245126",
-        "lat": "44.555419"
-      },
-      "finish": {
-        "city": "Fleurance",
-        "country": "France",
-        "lng": "0.663244",
-        "lat": "43.849456"
-      },
-      "length": 256,
-      "type": null,
-      "winner": {
-        "name": "Drapeau d'Italie Giacinto Santambrogio (ITA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       }
     },
@@ -360,14 +360,14 @@
       "start": {
         "city": "Auch",
         "country": "France",
-        "lng": "0.586709",
-        "lat": "43.64638"
+        "lat": "43.64638",
+        "lng": "0.586709"
       },
       "finish": {
-        "city": "Amiens",
+        "city": "Pau",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "length": 206,
       "type": null,
@@ -388,19 +388,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Versailles",
+        "city": "Saint-Lary-Soulan",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "42.815835",
+        "lng": "0.320251"
       },
-      "length": 173,
+      "length": 160,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
+        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Le Mans",
+        "city": "Albi",
         "country": "France",
-        "lng": "0.199556",
-        "lat": "48.00611"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
-      "length": 217,
+      "length": 242,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
         "nationality": null
       },
       "leader": {
@@ -444,23 +444,23 @@
       "start": {
         "city": "Albi",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
       "finish": {
-        "city": "Merlin-Plage, Saint-Hilaire-de-Riez",
+        "city": "Super Lioran",
         "country": "France",
-        "lng": "-1.945917",
-        "lat": "46.720204"
+        "lat": "45.083212",
+        "lng": "2.75349"
       },
-      "length": 107,
+      "length": 260,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau de Belgique Michel Pollentier (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       }
     },
@@ -472,23 +472,23 @@
       "start": {
         "city": "Aurillac",
         "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
+        "lat": "44.930953",
+        "lng": "2.444997"
       },
       "finish": {
-        "city": "Saint-Hilaire-de-Riez",
+        "city": "Puy de Dôme",
         "country": "France",
-        "lng": "-1.945917",
-        "lat": "46.720204"
+        "lat": "45.77207",
+        "lng": "2.96974"
       },
-      "length": 225,
+      "length": 173,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Vicente López Carril (ESP)",
+        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       }
     },
@@ -500,23 +500,23 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Angoulême",
+        "city": "Pra Loup",
         "country": "France",
-        "lng": "0.156237",
-        "lat": "45.648377"
+        "lat": "44.369445",
+        "lng": "6.602232"
       },
-      "length": 40,
-      "type": "(CLM)",
+      "length": 217,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
         "nationality": null
       }
     },
@@ -528,19 +528,19 @@
       "start": {
         "city": "Barcelonnette",
         "country": "France",
-        "lng": "6.650463",
-        "lat": "44.3863"
+        "lat": "44.3863",
+        "lng": "6.650463"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Serre Chevalier",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.910829",
+        "lng": "6.549748"
       },
-      "length": 229,
+      "length": 107,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       },
       "leader": {
@@ -556,23 +556,23 @@
       "start": {
         "city": "Valloire",
         "country": "France",
-        "lng": "6.428733",
-        "lat": "45.165292"
+        "lat": "45.165292",
+        "lng": "6.428733"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Morzine-Avoriaz",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "46.189683",
+        "lng": "6.776343"
       },
-      "length": 6,
-      "type": "(CLM)",
+      "length": 225,
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau d'Espagne Vicente López Carril (ESP)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Morzine",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Saint-Lary-Soulan",
+        "city": "Châtel",
         "country": "France",
-        "lng": "0.320251",
-        "lat": "42.815835"
+        "lat": "46.267395",
+        "lng": "6.841152"
       },
-      "length": 94,
-      "type": null,
+      "length": 40,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau des Pays-Bas Cees Priem (NED)",
+        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Thonon-les-Bains",
         "country": "France",
-        "lng": "6.477635",
-        "lat": "46.373565"
+        "lat": "46.373565",
+        "lng": "6.477635"
       },
       "finish": {
-        "city": "Albi",
+        "city": "Chalon sur Saône",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "46.780764",
+        "lng": "4.853947"
       },
-      "length": 108,
+      "length": 229,
       "type": null,
       "winner": {
         "name": "Drapeau de Belgique Rik Van Linden (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Pouilly-en-Auxois",
         "country": "France",
-        "lng": "4.556286",
-        "lat": "47.262495"
+        "lat": "47.262495",
+        "lng": "4.556286"
       },
       "finish": {
-        "city": "Serre Chevalier",
+        "city": "Melun",
         "country": "France",
-        "lng": "6.549748",
-        "lat": "44.910829"
+        "lat": "48.542105",
+        "lng": "2.6554"
       },
-      "length": 222,
+      "length": 256,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
+        "name": "Drapeau d'Italie Giacinto Santambrogio (ITA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     },
@@ -668,23 +668,23 @@
       "start": {
         "city": "Melun",
         "country": "France",
-        "lng": "2.6554",
-        "lat": "48.542105"
+        "lat": "48.542105",
+        "lng": "2.6554"
       },
       "finish": {
-        "city": "Morzine-Avoriaz",
+        "city": "Senlis",
         "country": "France",
-        "lng": "6.776343",
-        "lat": "46.189683"
+        "lat": "49.205164",
+        "lng": "2.583212"
       },
-      "length": 16,
-      "type": "(CLM)",
+      "length": 220,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     },
@@ -696,23 +696,23 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
-        "city": "Châtel",
+        "city": "Paris",
         "country": "France",
-        "lng": "6.841152",
-        "lat": "46.267395"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 235,
+      "length": 163,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": "Drapeau de Belgique Walter Godefroot (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": "Drapeau de France Bernard Thévenet (FRA)",
         "nationality": null
       }
     }

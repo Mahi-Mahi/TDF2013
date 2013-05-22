@@ -2,7 +2,7 @@ guard :bundler do
 	watch('Gemfile')
 end
 
-guard :shell, :all_on_start => true do
+guard :shell do
 	watch (%r{csv/.+\.csv}) do |m|
 		n m[0] + " has changed."
 		`./convert.rb`

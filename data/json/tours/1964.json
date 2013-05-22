@@ -24,14 +24,14 @@
       "start": {
         "city": "Rennes",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "finish": {
         "city": "Lisieux",
         "country": "France",
-        "lng": "0.227849",
-        "lat": "49.145922"
+        "lat": "49.145922",
+        "lng": "0.227849"
       },
       "length": 215,
       "type": null,
@@ -52,98 +52,14 @@
       "start": {
         "city": "Lisieux",
         "country": "France",
-        "lng": "0.227849",
-        "lat": "49.145922"
+        "lat": "49.145922",
+        "lng": "0.227849"
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
-      },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jan Janssen (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-3b",
-      "year": 1964,
-      "leg": 3,
-      "title": "Forest - Forest",
-      "start": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lng": "4.316667",
-        "lat": "50.8"
-      },
-      "finish": {
-        "city": "Orléans",
-        "country": "France",
-        "lng": "1.909251",
-        "lat": "47.902964"
-      },
-      "length": 170,
-      "type": null,
-      "winner": {
-        "name": "Drapeau d'Espagne Julio Jiménez (ESP)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-3a",
-      "year": 1964,
-      "leg": 3,
-      "title": "Amiens - Forest",
-      "start": {
         "city": "Amiens",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
-      },
-      "finish": {
-        "city": "Puy de Dôme, Orcines",
-        "country": "France",
-        "lng": "3.011853",
-        "lat": "45.782978"
-      },
-      "length": 174,
-      "type": null,
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jo de Roo (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-04",
-      "year": 1964,
-      "leg": 4,
-      "title": "Forest - Metz",
-      "start": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lng": "4.316667",
-        "lat": "50.8"
-      },
-      "finish": {
-        "city": "Hyères",
-        "country": "France",
-        "lng": "6.128639",
-        "lat": "43.120541"
+        "lat": "49.894067",
+        "lng": "2.295753"
       },
       "length": 208,
       "type": null,
@@ -157,21 +73,21 @@
       }
     },
     {
-      "id": "E-1964-05",
+      "id": "E-1964-3a",
       "year": 1964,
-      "leg": 5,
-      "title": "Lunéville - Fribourg",
+      "leg": 3,
+      "title": "Amiens - Forest",
       "start": {
-        "city": "Lunéville",
+        "city": "Amiens",
         "country": "France",
-        "lng": "6.492339",
-        "lat": "48.592237"
+        "lat": "49.894067",
+        "lng": "2.295753"
       },
       "finish": {
-        "city": "Toulon",
-        "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
       },
       "length": 196,
       "type": null,
@@ -185,6 +101,90 @@
       }
     },
     {
+      "id": "E-1964-3b",
+      "year": 1964,
+      "leg": 3,
+      "title": "Forest - Forest",
+      "start": {
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
+      },
+      "finish": {
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
+      },
+      "length": 21,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "KAS",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Bernard Van De Kerckhove (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-04",
+      "year": 1964,
+      "leg": 4,
+      "title": "Forest - Metz",
+      "start": {
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 291,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Bernard Van De Kerckhove (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-05",
+      "year": 1964,
+      "leg": 5,
+      "title": "Lunéville - Fribourg",
+      "start": {
+        "city": "Lunéville",
+        "country": "France",
+        "lat": "48.592237",
+        "lng": "6.492339"
+      },
+      "finish": {
+        "city": "Fribourg",
+        "country": "Suisse",
+        "lat": "46.801666",
+        "lng": "7.145568"
+      },
+      "length": 161,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Willy Derboven (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1964-06",
       "year": 1964,
       "leg": 6,
@@ -192,23 +192,23 @@
       "start": {
         "city": "Fribourg",
         "country": "Suisse",
-        "lng": "7.145568",
-        "lat": "46.801666"
+        "lat": "46.801666",
+        "lng": "7.145568"
       },
       "finish": {
-        "city": "Versailles",
+        "city": "Besançon",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "47.237829",
+        "lng": "6.024054"
       },
-      "length": 186,
+      "length": 200,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Edward Sels (BEL)",
+        "name": "Drapeau des Pays-Bas Henk Nijdam (NED)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
+        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Besançon",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "47.237829",
+        "lng": "6.024054"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Thonon-les-Bains",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "46.373565",
+        "lng": "6.477635"
       },
-      "length": 203,
+      "length": 195,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Raymond Poulidor (FRA)",
+        "name": "Drapeau des Pays-Bas Jan Janssen (NED)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
+        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
         "nationality": null
       }
     },
@@ -248,16 +248,16 @@
       "start": {
         "city": "Thonon-les-Bains",
         "country": "France",
-        "lng": "6.477635",
-        "lat": "46.373565"
+        "lat": "46.373565",
+        "lng": "6.477635"
       },
       "finish": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lng": "4.316667",
-        "lat": "50.8"
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 197,
+      "length": 248,
       "type": null,
       "winner": {
         "name": "Drapeau d'Espagne Federico Bahamontes (ESP)",
@@ -276,23 +276,23 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lng": "4.316667",
-        "lat": "50.8"
+        "city": "Monaco",
+        "country": "Monaco",
+        "lat": "43.738418",
+        "lng": "7.424616"
       },
-      "length": 42,
-      "type": "(CLM)",
+      "length": 239,
+      "type": null,
       "winner": {
         "name": "Drapeau de France Jacques Anquetil (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jacques Anquetil (FRA)",
+        "name": "Drapeau de France Georges Groussard (FRA)",
         "nationality": null
       }
     },
@@ -304,19 +304,19 @@
       "start": {
         "city": "Monaco",
         "country": "Monaco",
-        "lng": "7.424616",
-        "lat": "43.738418"
+        "lat": "43.738418",
+        "lng": "7.424616"
       },
       "finish": {
-        "city": "Amiens",
+        "city": "Hyères",
         "country": "France",
-        "lng": "2.295753",
-        "lat": "49.894067"
+        "lat": "43.120541",
+        "lng": "6.128639"
       },
-      "length": 250,
+      "length": 187,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Edward Sels (BEL)",
+        "name": "Drapeau des Pays-Bas Jan Janssen (NED)",
         "nationality": null
       },
       "leader": {
@@ -332,14 +332,238 @@
       "start": {
         "city": "Hyères",
         "country": "France",
-        "lng": "6.128639",
-        "lat": "43.120541"
+        "lat": "43.120541",
+        "lng": "6.128639"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Toulon",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "length": 21,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de France Jacques Anquetil (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-11",
+      "year": 1964,
+      "leg": 11,
+      "title": "Toulon - Montpellier",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 250,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Edward Sels (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-12",
+      "year": 1964,
+      "leg": 12,
+      "title": "Montpellier - Perpignan",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 174,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jo de Roo (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-13",
+      "year": 1964,
+      "leg": 13,
+      "title": "Perpignan - Andorre",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Andorre",
+        "country": "France",
+        "lat": "42.506285",
+        "lng": "1.521801"
+      },
+      "length": 170,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Espagne Julio Jiménez (ESP)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-14",
+      "year": 1964,
+      "leg": 14,
+      "title": "Andorre - Toulouse",
+      "start": {
+        "city": "Andorre-la-Vieille",
+        "country": "Andorre",
+        "lat": "42.506317",
+        "lng": "1.521836"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 186,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Edward Sels (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-15",
+      "year": 1964,
+      "leg": 15,
+      "title": "Toulouse - Luchon",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 203,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Raymond Poulidor (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-16",
+      "year": 1964,
+      "leg": 16,
+      "title": "Luchon - Pau",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 197,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Espagne Federico Bahamontes (ESP)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Georges Groussard (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-17",
+      "year": 1964,
+      "leg": 17,
+      "title": "Peyrehorade - Bayonne",
+      "start": {
+        "city": "Peyrehorade",
+        "country": "France",
+        "lat": "43.545627",
+        "lng": "-1.097208"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 42,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de France Jacques Anquetil (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Jacques Anquetil (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1964-18",
+      "year": 1964,
+      "leg": 18,
+      "title": "Bayonne - Bordeaux",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 187,
       "type": null,
@@ -353,21 +577,21 @@
       }
     },
     {
-      "id": "E-1964-11",
+      "id": "E-1964-19",
       "year": 1964,
-      "leg": 11,
-      "title": "Toulon - Montpellier",
+      "leg": 19,
+      "title": "Bordeaux - Brive",
       "start": {
-        "city": "Toulon",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Fribourg",
-        "country": "Suisse",
-        "lng": "7.145568",
-        "lat": "46.801666"
+        "city": "Brive",
+        "country": "France",
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "length": 215,
       "type": null,
@@ -381,21 +605,21 @@
       }
     },
     {
-      "id": "E-1964-12",
+      "id": "E-1964-20",
       "year": 1964,
-      "leg": 12,
-      "title": "Montpellier - Perpignan",
+      "leg": 20,
+      "title": "Brive - Puy-de-Dôme",
       "start": {
-        "city": "Montpellier",
+        "city": "Brive",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Puy de Dôme, Orcines",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "45.77207",
+        "lng": "2.96974"
       },
       "length": 237,
       "type": null,
@@ -409,21 +633,21 @@
       }
     },
     {
-      "id": "E-1964-13",
+      "id": "E-1964-21",
       "year": 1964,
-      "leg": 13,
-      "title": "Perpignan - Andorre",
+      "leg": 21,
+      "title": "Clermont-Ferrand - Orléans",
       "start": {
-        "city": "Perpignan",
+        "city": "Clermont-Ferrand",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "45.777222",
+        "lng": "3.087025"
       },
       "finish": {
-        "city": "Thonon-les-Bains",
+        "city": "Orléans",
         "country": "France",
-        "lng": "6.477635",
-        "lat": "46.373565"
+        "lat": "47.902964",
+        "lng": "1.909251"
       },
       "length": 311,
       "type": null,
@@ -437,21 +661,21 @@
       }
     },
     {
-      "id": "E-1964-14",
+      "id": "E-1964-22a",
       "year": 1964,
-      "leg": 14,
-      "title": "Andorre - Toulouse",
+      "leg": 22,
+      "title": "Orléans - Versailles",
       "start": {
-        "city": "Andorre-la-Vieille",
-        "country": "Andorre",
-        "lng": "1.521836",
-        "lat": "42.506317"
+        "city": "Orléans",
+        "country": "France",
+        "lat": "47.902964",
+        "lng": "1.909251"
       },
       "finish": {
-        "city": "Briançon",
+        "city": "Versailles",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "length": 118,
       "type": null,
@@ -465,21 +689,21 @@
       }
     },
     {
-      "id": "E-1964-15",
+      "id": "E-1964-22b",
       "year": 1964,
-      "leg": 15,
-      "title": "Toulouse - Luchon",
+      "leg": 22,
+      "title": "Versailles - Paris",
       "start": {
-        "city": "Toulouse",
+        "city": "Versailles",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "finish": {
-        "city": "Monaco",
-        "country": "Monaco",
-        "lng": "7.424616",
-        "lat": "43.738418"
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "length": 37,
       "type": "(CLM)",
@@ -489,230 +713,6 @@
       },
       "leader": {
         "name": "Drapeau de France Jacques Anquetil (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-16",
-      "year": 1964,
-      "leg": 16,
-      "title": "Luchon - Pau",
-      "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
-      },
-      "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
-      },
-      "length": 21,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "KAS",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Bernard Van De Kerckhove (BEL)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-17",
-      "year": 1964,
-      "leg": 17,
-      "title": "Peyrehorade - Bayonne",
-      "start": {
-        "city": "Peyrehorade",
-        "country": "France",
-        "lng": "-1.097208",
-        "lat": "43.545627"
-      },
-      "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
-      },
-      "length": 291,
-      "type": null,
-      "winner": {
-        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Bernard Van De Kerckhove (BEL)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-18",
-      "year": 1964,
-      "leg": 18,
-      "title": "Bayonne - Bordeaux",
-      "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
-      },
-      "finish": {
-        "city": "Andorre",
-        "country": "France",
-        "lng": "1.521801",
-        "lat": "42.506285"
-      },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de Belgique Willy Derboven (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-19",
-      "year": 1964,
-      "leg": 19,
-      "title": "Bordeaux - Brive",
-      "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": "Drapeau des Pays-Bas Henk Nijdam (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Allemagne Rudi Altig (GER)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-20",
-      "year": 1964,
-      "leg": 20,
-      "title": "Brive - Puy-de-Dôme",
-      "start": {
-        "city": "Brive",
-        "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
-      },
-      "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
-      },
-      "length": 248,
-      "type": null,
-      "winner": {
-        "name": "Drapeau d'Espagne Federico Bahamontes (ESP)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-21",
-      "year": 1964,
-      "leg": 21,
-      "title": "Clermont-Ferrand - Orléans",
-      "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
-      },
-      "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
-      },
-      "length": 239,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de France Jacques Anquetil (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-22a",
-      "year": 1964,
-      "leg": 22,
-      "title": "Orléans - Versailles",
-      "start": {
-        "city": "Orléans",
-        "country": "France",
-        "lng": "1.909251",
-        "lat": "47.902964"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jan Janssen (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-22b",
-      "year": 1964,
-      "leg": 22,
-      "title": "Versailles - Paris",
-      "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
-      },
-      "finish": {
-        "city": "Brive",
-        "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
-      },
-      "length": 21,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de France Jacques Anquetil (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Georges Groussard (FRA)",
         "nationality": null
       }
     }

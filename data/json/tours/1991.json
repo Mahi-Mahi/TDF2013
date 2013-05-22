@@ -24,42 +24,14 @@
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
-      },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1991-01",
-      "year": 1991,
-      "leg": 1,
-      "title": "Lyon - Lyon",
-      "start": {
-        "city": "Lyon",
-        "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
-      },
-      "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "length": 5,
       "type": "(CLM)",
@@ -73,6 +45,34 @@
       }
     },
     {
+      "id": "E-1991-01",
+      "year": 1991,
+      "leg": 1,
+      "title": "Lyon - Lyon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 114,
+      "type": null,
+      "winner": {
+        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1991-02",
       "year": 1991,
       "leg": 2,
@@ -80,19 +80,19 @@
       "start": {
         "city": "Bron",
         "country": "France",
-        "lng": "4.911927",
-        "lat": "45.733316"
+        "lat": "45.733316",
+        "lng": "4.911927"
       },
       "finish": {
-        "city": "Jaca",
-        "country": "Espagne",
-        "lng": "-0.547055",
-        "lat": "42.571717"
+        "city": "Chassieu",
+        "country": "France",
+        "lat": "45.743527",
+        "lng": "4.971918"
       },
-      "length": 210,
-      "type": null,
+      "length": 36,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Etienne De Wilde Drapeau belge Belgique",
+        "name": "Ariostea Drapeau : Italie",
         "nationality": null
       },
       "leader": {
@@ -108,14 +108,126 @@
       "start": {
         "city": "Villeurbanne",
         "country": "France",
-        "lng": "4.890171",
-        "lat": "45.771944"
+        "lat": "45.771944",
+        "lng": "4.890171"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Dijon",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 210,
+      "type": null,
+      "winner": {
+        "name": "Etienne De Wilde Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1991-04",
+      "year": 1991,
+      "leg": 4,
+      "title": "Dijon - Reims",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 286,
+      "type": null,
+      "winner": {
+        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1991-05",
+      "year": 1991,
+      "leg": 5,
+      "title": "Reims - Valenciennes",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "finish": {
+        "city": "Valenciennes",
+        "country": "France",
+        "lat": "50.357113",
+        "lng": "3.518332"
+      },
+      "length": 149,
+      "type": null,
+      "winner": {
+        "name": "Jelle Nijdam Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1991-06",
+      "year": 1991,
+      "leg": 6,
+      "title": "Arras - Le Havre",
+      "start": {
+        "city": "Arras",
+        "country": "France",
+        "lat": "50.291002",
+        "lng": "2.777535"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 259,
+      "type": null,
+      "winner": {
+        "name": "Thierry Marie Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Thierry Marie Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1991-07",
+      "year": 1991,
+      "leg": 7,
+      "title": "Le Havre - Argentan",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "finish": {
+        "city": "Argentan",
+        "country": "France",
+        "lat": "48.744001",
+        "lng": "-0.016566"
       },
       "length": 196,
       "type": null,
@@ -129,21 +241,21 @@
       }
     },
     {
-      "id": "E-1991-04",
+      "id": "E-1991-08",
       "year": 1991,
-      "leg": 4,
-      "title": "Dijon - Reims",
+      "leg": 8,
+      "title": "Argentan - Alençon",
       "start": {
-        "city": "Dijon",
+        "city": "Argentan",
         "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
+        "lat": "48.744001",
+        "lng": "-0.016566"
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
+        "city": "Alençon",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "48.432856",
+        "lng": "0.091266"
       },
       "length": 73,
       "type": "(CLM)",
@@ -157,21 +269,21 @@
       }
     },
     {
-      "id": "E-1991-05",
+      "id": "E-1991-09",
       "year": 1991,
-      "leg": 5,
-      "title": "Reims - Valenciennes",
+      "leg": 9,
+      "title": "Alençon - Rennes",
       "start": {
-        "city": "Reims",
+        "city": "Alençon",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "48.432856",
+        "lng": "0.091266"
       },
       "finish": {
-        "city": "Morzine",
+        "city": "Rennes",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "length": 161,
       "type": null,
@@ -185,118 +297,6 @@
       }
     },
     {
-      "id": "E-1991-06",
-      "year": 1991,
-      "leg": 6,
-      "title": "Arras - Le Havre",
-      "start": {
-        "city": "Arras",
-        "country": "France",
-        "lng": "2.777535",
-        "lat": "50.291002"
-      },
-      "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
-      },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": "Phil Anderson Flag of Australia.svgAustralie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1991-07",
-      "year": 1991,
-      "leg": 7,
-      "title": "Le Havre - Argentan",
-      "start": {
-        "city": "Le Havre",
-        "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
-      },
-      "finish": {
-        "city": "Mâcon",
-        "country": "France",
-        "lng": "4.828731",
-        "lat": "46.306884"
-      },
-      "length": 192,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Charly Mottet Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Luc Leblanc Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1991-08",
-      "year": 1991,
-      "leg": 8,
-      "title": "Argentan - Alençon",
-      "start": {
-        "city": "Argentan",
-        "country": "France",
-        "lng": "-0.016566",
-        "lat": "48.744001"
-      },
-      "finish": {
-        "city": "Mâcon",
-        "country": "France",
-        "lng": "4.828731",
-        "lat": "46.306884"
-      },
-      "length": 232,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Claudio Chiappucci Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1991-09",
-      "year": 1991,
-      "leg": 9,
-      "title": "Alençon - Rennes",
-      "start": {
-        "city": "Alençon",
-        "country": "France",
-        "lng": "0.091266",
-        "lat": "48.432856"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 172,
-      "type": null,
-      "winner": {
-        "name": "Bruno Cenghialta Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1991-10",
       "year": 1991,
       "leg": 10,
@@ -304,19 +304,19 @@
       "start": {
         "city": "Rennes",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "finish": {
-        "city": "Chassieu",
+        "city": "Quimper",
         "country": "France",
-        "lng": "4.971918",
-        "lat": "45.743527"
+        "lat": "47.997542",
+        "lng": "-4.097899"
       },
-      "length": 246,
+      "length": 207,
       "type": null,
       "winner": {
-        "name": "Charly Mottet Drapeau de France France",
+        "name": "Phil Anderson Flag of Australia.svgAustralie",
         "nationality": null
       },
       "leader": {
@@ -332,23 +332,23 @@
       "start": {
         "city": "Quimper",
         "country": "France",
-        "lng": "-4.097899",
-        "lat": "47.997542"
+        "lat": "47.997542",
+        "lng": "-4.097899"
       },
       "finish": {
-        "city": "Dijon",
+        "city": "Saint-Herblain",
         "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
+        "lat": "47.210335",
+        "lng": "-1.651444"
       },
-      "length": 235,
+      "length": 246,
       "type": null,
       "winner": {
-        "name": "Moreno Argentin Drapeau d'Italie Italie",
+        "name": "Charly Mottet Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
         "nationality": null
       }
     },
@@ -360,23 +360,23 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "city": "Jaca",
+        "country": "Espagne",
+        "lat": "42.571717",
+        "lng": "-0.547055"
       },
-      "length": 215,
-      "type": null,
+      "length": 192,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Marco Lietti Drapeau d'Italie Italie",
+        "name": "Charly Mottet Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": "Luc Leblanc Drapeau de France France",
         "nationality": null
       }
     },
@@ -388,19 +388,19 @@
       "start": {
         "city": "Jaca",
         "country": "Espagne",
-        "lng": "-0.547055",
-        "lat": "42.571717"
+        "lat": "42.571717",
+        "lng": "-0.547055"
       },
       "finish": {
-        "city": "Valenciennes",
+        "city": "Val-Louron, Génos",
         "country": "France",
-        "lng": "3.518332",
-        "lat": "50.357113"
+        "lat": "42.79097",
+        "lng": "0.389625"
       },
-      "length": 125,
-      "type": "Étape de montagne",
+      "length": 232,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Gianni Bugno Drapeau d'Italie Italie",
+        "name": "Claudio Chiappucci Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Saint-Gaudens",
         "country": "France",
-        "lng": "0.723763",
-        "lat": "43.106895"
+        "lat": "43.106895",
+        "lng": "0.723763"
       },
       "finish": {
-        "city": "Le Havre",
+        "city": "Castres",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "43.606214",
+        "lng": "2.241295"
       },
-      "length": 255,
-      "type": "Étape de montagne",
+      "length": 172,
+      "type": null,
       "winner": {
-        "name": "Thierry Claveyrolat Drapeau de France France",
+        "name": "Bruno Cenghialta Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Albi",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
       "finish": {
-        "city": "Argentan",
+        "city": "Alès",
         "country": "France",
-        "lng": "-0.016566",
-        "lat": "48.744001"
+        "lat": "44.127204",
+        "lng": "4.083352"
       },
-      "length": 177,
-      "type": "Étape de montagne",
+      "length": 235,
+      "type": null,
       "winner": {
-        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
+        "name": "Moreno Argentin Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Alès",
         "country": "France",
-        "lng": "4.083352",
-        "lat": "44.127204"
+        "lat": "44.127204",
+        "lng": "4.083352"
       },
       "finish": {
-        "city": "Alençon",
+        "city": "Gap",
         "country": "France",
-        "lng": "0.091266",
-        "lat": "48.432856"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 160,
+      "length": 215,
       "type": null,
       "winner": {
-        "name": "Viatcheslav Ekimov Flag of Russian SFSR.svgRSFS de Russie",
+        "name": "Marco Lietti Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Rennes",
+        "city": "L'Alpe d'Huez",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
-      "length": 57,
-      "type": "(CLM)",
+      "length": 125,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": "Gianni Bugno Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Le Bourg-d'Oisans",
         "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Quimper",
+        "city": "Morzine",
         "country": "France",
-        "lng": "-4.097899",
-        "lat": "47.997542"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
-      "length": 114,
-      "type": null,
+      "length": 255,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "name": "Thierry Claveyrolat Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Morzine",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Saint-Herblain",
+        "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "-1.651444",
-        "lat": "47.210335"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
-      "length": 36,
-      "type": "(CLM par équipes)",
+      "length": 177,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Ariostea Drapeau : Italie",
+        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
       "finish": {
-        "city": "Val-Louron, Génos",
+        "city": "Mâcon",
         "country": "France",
-        "lng": "0.389625",
-        "lat": "42.79097"
+        "lat": "46.306884",
+        "lng": "4.828731"
       },
-      "length": 286,
+      "length": 160,
       "type": null,
       "winner": {
-        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "name": "Viatcheslav Ekimov Flag of Russian SFSR.svgRSFS de Russie",
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Lugny",
         "country": "France",
-        "lng": "4.80982",
-        "lat": "46.471672"
+        "lat": "46.471672",
+        "lng": "4.80982"
       },
       "finish": {
-        "city": "Castres",
+        "city": "Mâcon",
         "country": "France",
-        "lng": "2.241295",
-        "lat": "43.606214"
+        "lat": "46.306884",
+        "lng": "4.828731"
       },
-      "length": 149,
-      "type": null,
+      "length": 57,
+      "type": "(CLM)",
       "winner": {
-        "name": "Jelle Nijdam Drapeau : Pays-Bas Pays-Bas",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Melun",
         "country": "France",
-        "lng": "2.6554",
-        "lat": "48.542105"
+        "lat": "48.542105",
+        "lng": "2.6554"
       },
       "finish": {
-        "city": "Alès",
+        "city": "Paris",
         "country": "France",
-        "lng": "4.083352",
-        "lat": "44.127204"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 259,
+      "length": 178,
       "type": null,
       "winner": {
-        "name": "Thierry Marie Drapeau de France France",
+        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
         "nationality": null
       },
       "leader": {
-        "name": "Thierry Marie Drapeau de France France",
+        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
         "nationality": null
       }
     }

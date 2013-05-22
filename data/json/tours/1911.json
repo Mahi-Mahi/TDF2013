@@ -20,18 +20,18 @@
       "id": "E-1911-01",
       "year": 1911,
       "leg": 1,
-      "title": "Paris - Dunkerque",
+      "title": "Paris – Dunkerque",
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "length": 351,
       "type": null,
@@ -48,74 +48,18 @@
       "id": "E-1911-02",
       "year": 1911,
       "leg": 2,
-      "title": "Dunkerque - Longwy",
+      "title": "Dunkerque – Longwy",
       "start": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
-      },
-      "length": 361,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FrancePaul Duboc",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceGustave Garrigou",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1911-03",
-      "year": 1911,
-      "leg": 3,
-      "title": "Longwy - Belfort",
-      "start": {
         "city": "Longwy",
         "country": "France",
-        "lng": "5.761773",
-        "lat": "49.519919"
-      },
-      "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
-      },
-      "length": 317,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceMarcel Godivier",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceGustave Garrigou",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1911-04",
-      "year": 1911,
-      "leg": 4,
-      "title": "Belfort - Chamonix",
-      "start": {
-        "city": "Belfort",
-        "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
-      },
-      "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "49.519919",
+        "lng": "5.761773"
       },
       "length": 388,
       "type": null,
@@ -129,21 +73,21 @@
       }
     },
     {
-      "id": "E-1911-05",
+      "id": "E-1911-03",
       "year": 1911,
-      "leg": 5,
-      "title": "Chamonix - Grenoble",
+      "leg": 3,
+      "title": "Longwy – Belfort",
       "start": {
-        "city": "Chamonix",
+        "city": "Longwy",
         "country": "France",
-        "lng": "6.869433",
-        "lat": "45.923697"
+        "lat": "49.519919",
+        "lng": "5.761773"
       },
       "finish": {
-        "city": "La Rochelle",
+        "city": "Belfort",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "length": 331,
       "type": null,
@@ -157,21 +101,21 @@
       }
     },
     {
-      "id": "E-1911-06",
+      "id": "E-1911-04",
       "year": 1911,
-      "leg": 6,
-      "title": "Grenoble - Nice",
+      "leg": 4,
+      "title": "Belfort – Chamonix",
       "start": {
-        "city": "Grenoble",
+        "city": "Belfort",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Brest",
+        "city": "Chamonix",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "45.923697",
+        "lng": "6.869433"
       },
       "length": 344,
       "type": null,
@@ -185,21 +129,21 @@
       }
     },
     {
-      "id": "E-1911-07",
+      "id": "E-1911-05",
       "year": 1911,
-      "leg": 7,
-      "title": "Nice - Marseille",
+      "leg": 5,
+      "title": "Chamonix – Grenoble",
       "start": {
-        "city": "Nice",
+        "city": "Chamonix",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "45.923697",
+        "lng": "6.869433"
       },
       "finish": {
-        "city": "Cherbourg",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "length": 366,
       "type": null,
@@ -213,21 +157,21 @@
       }
     },
     {
-      "id": "E-1911-08",
+      "id": "E-1911-06",
       "year": 1911,
-      "leg": 8,
-      "title": "Marseille - Perpignan",
+      "leg": 6,
+      "title": "Grenoble – Nice",
       "start": {
-        "city": "Marseille",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Le Havre",
+        "city": "Nice",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "length": 348,
       "type": null,
@@ -241,21 +185,21 @@
       }
     },
     {
-      "id": "E-1911-09",
+      "id": "E-1911-07",
       "year": 1911,
-      "leg": 9,
-      "title": "Perpignan - Luchon",
+      "leg": 7,
+      "title": "Nice – Marseille",
       "start": {
-        "city": "Perpignan",
+        "city": "Nice",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Marseille",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "length": 334,
       "type": null,
@@ -269,21 +213,21 @@
       }
     },
     {
-      "id": "E-1911-10",
+      "id": "E-1911-08",
       "year": 1911,
-      "leg": 10,
-      "title": "Luchon - Bayonne",
+      "leg": 8,
+      "title": "Marseille – Perpignan",
       "start": {
-        "city": "Luchon",
+        "city": "Marseille",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Longwy",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "5.761773",
-        "lat": "49.519919"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "length": 335,
       "type": null,
@@ -297,23 +241,79 @@
       }
     },
     {
+      "id": "E-1911-09",
+      "year": 1911,
+      "leg": 9,
+      "title": "Perpignan – Luchon",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 289,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-10",
+      "year": 1911,
+      "leg": 10,
+      "title": "Luchon – Bayonne",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 326,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMaurice Brocco",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1911-11",
       "year": 1911,
       "leg": 11,
-      "title": "Bayonne - La Rochelle",
+      "title": "Bayonne – La Rochelle",
       "start": {
         "city": "Bayonne",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "La Rochelle",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
-      "length": 289,
+      "length": 379,
       "type": null,
       "winner": {
         "name": "Drapeau : FrancePaul Duboc",
@@ -328,74 +328,18 @@
       "id": "E-1911-12",
       "year": 1911,
       "leg": 12,
-      "title": "La Rochelle - Brest",
+      "title": "La Rochelle – Brest",
       "start": {
         "city": "La Rochelle",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
       "finish": {
-        "city": "Chamonix",
-        "country": "France",
-        "lng": "6.869433",
-        "lat": "45.923697"
-      },
-      "length": 326,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceMaurice Brocco",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceGustave Garrigou",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1911-13",
-      "year": 1911,
-      "leg": 13,
-      "title": "Brest - Cherbourg",
-      "start": {
         "city": "Brest",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
-      },
-      "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
-      },
-      "length": 379,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FrancePaul Duboc",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceGustave Garrigou",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1911-14",
-      "year": 1911,
-      "leg": 14,
-      "title": "Cherbourg - Le Havre",
-      "start": {
-        "city": "Cherbourg",
-        "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 470,
       "type": null,
@@ -409,26 +353,82 @@
       }
     },
     {
-      "id": "E-1911-15",
+      "id": "E-1911-13",
       "year": 1911,
-      "leg": 15,
-      "title": "Le Havre - Paris",
+      "leg": 13,
+      "title": "Brest – Cherbourg",
       "start": {
-        "city": "Le Havre",
+        "city": "Brest",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "length": 405,
       "type": null,
       "winner": {
         "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-14",
+      "year": 1911,
+      "leg": 14,
+      "title": "Cherbourg – Le Havre",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 361,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1911-15",
+      "year": 1911,
+      "leg": 15,
+      "title": "Le Havre – Paris",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 317,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMarcel Godivier",
         "nationality": null
       },
       "leader": {

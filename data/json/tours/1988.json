@@ -24,42 +24,14 @@
       "start": {
         "city": "Pornichet",
         "country": "France",
-        "lng": "-2.340571",
-        "lat": "47.263426"
+        "lat": "47.263426",
+        "lng": "-2.340571"
       },
       "finish": {
         "city": "La Baule",
         "country": "France",
-        "lng": "-2.393236",
-        "lat": "47.285448"
-      },
-      "length": 172,
-      "type": null,
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1988-01",
-      "year": 1988,
-      "leg": 1,
-      "title": "Pontchâteau - Machecoul",
-      "start": {
-        "city": "Pontchâteau",
-        "country": "France",
-        "lng": "-2.089536",
-        "lat": "47.436929"
-      },
-      "finish": {
-        "city": "Machecoul",
-        "country": "France",
-        "lng": "-1.817202",
-        "lat": "46.992283"
+        "lat": "47.285448",
+        "lng": "-2.393236"
       },
       "length": 1,
       "type": "(CLM par équipes)",
@@ -73,6 +45,34 @@
       }
     },
     {
+      "id": "E-1988-01",
+      "year": 1988,
+      "leg": 1,
+      "title": "Pontchâteau - Machecoul",
+      "start": {
+        "city": "Pontchâteau",
+        "country": "France",
+        "lat": "47.436929",
+        "lng": "-2.089536"
+      },
+      "finish": {
+        "city": "Machecoul",
+        "country": "France",
+        "lat": "46.992283",
+        "lng": "-1.817202"
+      },
+      "length": 91,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1988-02",
       "year": 1988,
       "leg": 2,
@@ -80,19 +80,19 @@
       "start": {
         "city": "La Haie-Fouassière",
         "country": "France",
-        "lng": "-1.399547",
-        "lat": "47.1556"
+        "lat": "47.1556",
+        "lng": "-1.399547"
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
+        "city": "Ancenis",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "47.365464",
+        "lng": "-1.177491"
       },
-      "length": 213,
-      "type": null,
+      "length": 48,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": "Drapeau des Pays-Bas Panasonic (NED)",
         "nationality": null
       },
       "leader": {
@@ -108,14 +108,126 @@
       "start": {
         "city": "Nantes",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Le Mans",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "48.00611",
+        "lng": "0.199556"
+      },
+      "length": 213,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1988-04",
+      "year": 1988,
+      "leg": 4,
+      "title": "Le Mans - Évreux",
+      "start": {
+        "city": "Le Mans",
+        "country": "France",
+        "lat": "48.00611",
+        "lng": "0.199556"
+      },
+      "finish": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1988-05",
+      "year": 1988,
+      "leg": 5,
+      "title": "Neufchâtel-en-Bray - Liévin",
+      "start": {
+        "city": "Neufchâtel-en-Bray",
+        "country": "France",
+        "lat": "49.732771",
+        "lng": "1.441891"
+      },
+      "finish": {
+        "city": "Liévin",
+        "country": "France",
+        "lat": "50.417921",
+        "lng": "2.775222"
+      },
+      "length": 147,
+      "type": null,
+      "winner": {
+        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Henk Lubberding (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1988-06",
+      "year": 1988,
+      "leg": 6,
+      "title": "Liévin - Wasquehal",
+      "start": {
+        "city": "Liévin",
+        "country": "France",
+        "lat": "50.417921",
+        "lng": "2.775222"
+      },
+      "finish": {
+        "city": "Wasquehal",
+        "country": "France",
+        "lat": "50.669276",
+        "lng": "3.130782"
+      },
+      "length": 52,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau de Grande-Bretagne Sean Yates (GBR)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1988-07",
+      "year": 1988,
+      "leg": 7,
+      "title": "Wasquehal - Reims",
+      "start": {
+        "city": "Wasquehal",
+        "country": "France",
+        "lat": "50.669276",
+        "lng": "3.130782"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "length": 225,
       "type": null,
@@ -129,21 +241,21 @@
       }
     },
     {
-      "id": "E-1988-04",
+      "id": "E-1988-08",
       "year": 1988,
-      "leg": 4,
-      "title": "Le Mans - Évreux",
+      "leg": 8,
+      "title": "Reims - Nancy",
       "start": {
-        "city": "Le Mans",
+        "city": "Reims",
         "country": "France",
-        "lng": "0.199556",
-        "lat": "48.00611"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Nancy",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
       "length": 219,
       "type": null,
@@ -157,21 +269,21 @@
       }
     },
     {
-      "id": "E-1988-05",
+      "id": "E-1988-09",
       "year": 1988,
-      "leg": 5,
-      "title": "Neufchâtel-en-Bray - Liévin",
+      "leg": 9,
+      "title": "Nancy - Strasbourg",
       "start": {
-        "city": "Neufchâtel-en-Bray",
+        "city": "Nancy",
         "country": "France",
-        "lng": "1.441891",
-        "lat": "49.732771"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
       "finish": {
-        "city": "Limoges",
+        "city": "Strasbourg",
         "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
       "length": 160,
       "type": "Étape de montagne",
@@ -185,118 +297,6 @@
       }
     },
     {
-      "id": "E-1988-06",
-      "year": 1988,
-      "leg": 6,
-      "title": "Liévin - Wasquehal",
-      "start": {
-        "city": "Liévin",
-        "country": "France",
-        "lng": "2.775222",
-        "lat": "50.417921"
-      },
-      "finish": {
-        "city": "Puy de Dôme",
-        "country": "France",
-        "lng": "3.015582",
-        "lat": "45.712414"
-      },
-      "length": 149,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1988-07",
-      "year": 1988,
-      "leg": 7,
-      "title": "Wasquehal - Reims",
-      "start": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lng": "3.130782",
-        "lat": "50.669276"
-      },
-      "finish": {
-        "city": "Chalon-sur-Saône",
-        "country": "France",
-        "lng": "4.853947",
-        "lat": "46.780764"
-      },
-      "length": 227,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau des Pays-Bas Steven Rooks (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1988-08",
-      "year": 1988,
-      "leg": 8,
-      "title": "Reims - Nancy",
-      "start": {
-        "city": "Reims",
-        "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
-      },
-      "finish": {
-        "city": "Santenay",
-        "country": "France",
-        "lng": "4.696534",
-        "lat": "46.912833"
-      },
-      "length": 38,
-      "type": "Étape de montagne (CLM)",
-      "winner": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1988-09",
-      "year": 1988,
-      "leg": 9,
-      "title": "Nancy - Strasbourg",
-      "start": {
-        "city": "Nancy",
-        "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 163,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau d'Italie Massimo Ghirotto (ITA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1988-10",
       "year": 1988,
       "leg": 10,
@@ -304,19 +304,19 @@
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Ancenis",
+        "city": "Besançon",
         "country": "France",
-        "lng": "-1.177491",
-        "lat": "47.365464"
+        "lat": "47.237829",
+        "lng": "6.024054"
       },
-      "length": 232,
+      "length": 149,
       "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau de Colombie Fabio Parra (COL)",
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
         "nationality": null
       },
       "leader": {
@@ -332,23 +332,23 @@
       "start": {
         "city": "Besançon",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "47.237829",
+        "lng": "6.024054"
       },
       "finish": {
-        "city": "Le Mans",
+        "city": "Morzine",
         "country": "France",
-        "lng": "0.199556",
-        "lat": "48.00611"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
-      "length": 187,
+      "length": 232,
       "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Espagne Laudelino Cubino (ESP)",
+        "name": "Drapeau de Colombie Fabio Parra (COL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": "Drapeau du Canada Steve Bauer (CAN)",
         "nationality": null
       }
     },
@@ -360,19 +360,19 @@
       "start": {
         "city": "Morzine",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Évreux",
+        "city": "L'Alpe d'Huez",
         "country": "France",
-        "lng": "1.151361",
-        "lat": "49.027013"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
-      "length": 38,
-      "type": null,
+      "length": 227,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau des Pays-Bas Adrie van der Poel (NED)",
+        "name": "Drapeau des Pays-Bas Steven Rooks (NED)",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Grenoble",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Liévin",
+        "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "2.775222",
-        "lat": "50.417921"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
-      "length": 210,
-      "type": null,
+      "length": 38,
+      "type": "Étape de montagne (CLM)",
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Blagnac",
         "country": "France",
-        "lng": "1.39703",
-        "lat": "43.635087"
+        "lat": "43.635087",
+        "lng": "1.39703"
       },
       "finish": {
-        "city": "Wasquehal",
+        "city": "Guzet-Neige, Ustou",
         "country": "France",
-        "lng": "3.130782",
-        "lat": "50.669276"
+        "lat": "42.779877",
+        "lng": "1.299708"
       },
-      "length": 93,
-      "type": null,
+      "length": 163,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau d'Italie Gianni Bugno (ITA)",
+        "name": "Drapeau d'Italie Massimo Ghirotto (ITA)",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Saint-Girons",
         "country": "France",
-        "lng": "1.146088",
-        "lat": "42.982876"
+        "lat": "42.982876",
+        "lng": "1.146088"
       },
       "finish": {
-        "city": "Reims",
+        "city": "Luz-Ardiden",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "42.885105",
+        "lng": "-0.061335"
       },
-      "length": 188,
+      "length": 187,
       "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau du Danemark Johnny Weltz (DEN)",
+        "name": "Drapeau d'Espagne Laudelino Cubino (ESP)",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Nancy",
+        "city": "Pau",
         "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 223,
+      "length": 38,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
+        "name": "Drapeau des Pays-Bas Adrie van der Poel (NED)",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Strasbourg",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 46,
-      "type": "(CLM)",
+      "length": 210,
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Juan Martínez Oliver (ESP)",
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Ruelle-sur-Touvre",
         "country": "France",
-        "lng": "0.219218",
-        "lat": "45.676762"
+        "lat": "45.676762",
+        "lng": "0.219218"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Limoges",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "45.833619",
+        "lng": "1.261105"
       },
-      "length": 91,
+      "length": 93,
       "type": null,
       "winner": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": "Drapeau d'Italie Gianni Bugno (ITA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Limoges",
         "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
+        "lat": "45.833619",
+        "lng": "1.261105"
       },
       "finish": {
-        "city": "Morzine",
+        "city": "Puy de Dôme",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "45.77207",
+        "lng": "2.96974"
       },
-      "length": 48,
-      "type": "(CLM par équipes)",
+      "length": 188,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau des Pays-Bas Panasonic (NED)",
+        "name": "Drapeau du Danemark Johnny Weltz (DEN)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Clermont-Ferrand",
         "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
+        "lat": "45.777222",
+        "lng": "3.087025"
       },
       "finish": {
-        "city": "Villard-de-Lans",
+        "city": "Chalon-sur-Saône",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "46.780764",
+        "lng": "4.853947"
       },
-      "length": 158,
+      "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": "Drapeau de France Thierry Marie (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Santenay",
         "country": "France",
-        "lng": "4.696534",
-        "lat": "46.912833"
+        "lat": "46.912833",
+        "lng": "4.696534"
       },
       "finish": {
-        "city": "Guzet-Neige, Ustou",
+        "city": "Santenay",
         "country": "France",
-        "lng": "1.299708",
-        "lat": "42.779877"
+        "lat": "46.912833",
+        "lng": "4.696534"
       },
-      "length": 147,
-      "type": null,
+      "length": 46,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": "Drapeau d'Espagne Juan Martínez Oliver (ESP)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Henk Lubberding (NED)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Nemours",
         "country": "France",
-        "lng": "2.692611",
-        "lat": "48.267043"
+        "lat": "48.267043",
+        "lng": "2.692611"
       },
       "finish": {
-        "city": "Luz-Ardiden",
+        "city": "Paris",
         "country": "France",
-        "lng": "-0.061335",
-        "lat": "42.885105"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 52,
-      "type": "(CLM)",
+      "length": 172,
+      "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Sean Yates (GBR)",
+        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
         "nationality": null
       }
     }

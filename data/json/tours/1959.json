@@ -24,14 +24,14 @@
       "start": {
         "city": "Mulhouse",
         "country": "France",
-        "lng": "7.335888",
-        "lat": "47.750839"
+        "lat": "47.750839",
+        "lng": "7.335888"
       },
       "finish": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "length": 238,
       "type": null,
@@ -52,23 +52,23 @@
       "start": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Albi",
-        "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "city": "Namur",
+        "country": "Belgique",
+        "lat": "50.465328",
+        "lng": "4.867665"
       },
-      "length": 230,
+      "length": 240,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieDino Bruni",
+        "name": "Drapeau : ItalieVito Favero",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : FranceAndré Darrigade",
         "nationality": null
       }
     },
@@ -80,19 +80,19 @@
       "start": {
         "city": "Namur",
         "country": "Belgique",
-        "lng": "4.867665",
-        "lat": "50.465328"
+        "lat": "50.465328",
+        "lng": "4.867665"
       },
       "finish": {
-        "city": "Saint-Étienne",
+        "city": "Roubaix",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
-      "length": 201,
+      "length": 217,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceMichel Dejouhannet",
+        "name": "Drapeau : FranceRobert Cazala",
         "nationality": null
       },
       "leader": {
@@ -108,14 +108,154 @@
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Grenoble",
+        "city": "Rouen",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 230,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieDino Bruni",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-05",
+      "year": 1959,
+      "leg": 5,
+      "title": "Rouen - Rennes",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "length": 286,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Graczyk",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-06",
+      "year": 1959,
+      "leg": 6,
+      "title": "Blain - Nantes",
+      "start": {
+        "city": "Blain",
+        "country": "France",
+        "lat": "47.475279",
+        "lng": "-1.764935"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 45,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : FranceRoger Rivière",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-07",
+      "year": 1959,
+      "leg": 7,
+      "title": "Nantes - La Rochelle",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 190,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceRoger Hassenforder",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-08",
+      "year": 1959,
+      "leg": 8,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 201,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceMichel Dejouhannet",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRobert Cazala",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-09",
+      "year": 1959,
+      "leg": 9,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 207,
       "type": null,
@@ -129,146 +269,6 @@
       }
     },
     {
-      "id": "E-1959-05",
-      "year": 1959,
-      "leg": 5,
-      "title": "Rouen - Rennes",
-      "start": {
-        "city": "Rouen",
-        "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
-      },
-      "finish": {
-        "city": "Aoste",
-        "country": "Italie",
-        "lng": "7.299412",
-        "lat": "45.751838"
-      },
-      "length": 235,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueMarcel Janssens",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceMichel Vermeulin",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-06",
-      "year": 1959,
-      "leg": 6,
-      "title": "Blain - Nantes",
-      "start": {
-        "city": "Blain",
-        "country": "France",
-        "lng": "-1.764935",
-        "lat": "47.475279"
-      },
-      "finish": {
-        "city": "Annecy",
-        "country": "France",
-        "lng": "6.129384",
-        "lat": "45.899247"
-      },
-      "length": 119,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceAndré Darrigade",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceMichel Vermeulin",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-07",
-      "year": 1959,
-      "leg": 7,
-      "title": "Nantes - La Rochelle",
-      "start": {
-        "city": "Nantes",
-        "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
-      },
-      "finish": {
-        "city": "Chalon-sur-Saône",
-        "country": "France",
-        "lng": "4.853947",
-        "lat": "46.780764"
-      },
-      "length": 219,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceHenry Anglade",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJos Hoevenaars",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-08",
-      "year": 1959,
-      "leg": 8,
-      "title": "La Rochelle - Bordeaux",
-      "start": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
-      },
-      "finish": {
-        "city": "Dijon",
-        "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
-      },
-      "length": 231,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceAndré Le Dissez",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJos Hoevenaars",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-09",
-      "year": 1959,
-      "leg": 9,
-      "title": "Bordeaux - Bayonne",
-      "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 13,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueJos Hoevenaars",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1959-10",
       "year": 1959,
       "leg": 10,
@@ -276,19 +276,19 @@
       "start": {
         "city": "Bayonne",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Namur",
-        "country": "Belgique",
-        "lng": "4.867665",
-        "lat": "50.465328"
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
-      "length": 184,
+      "length": 235,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseRolf Graf",
+        "name": "Drapeau : BelgiqueMarcel Janssens",
         "nationality": null
       },
       "leader": {
@@ -304,14 +304,154 @@
       "start": {
         "city": "Bagnères-de-Bigorre",
         "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
       "finish": {
-        "city": "Roubaix",
+        "city": "Saint-Gaudens",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "length": 119,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceAndré Darrigade",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceMichel Vermeulin",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-12",
+      "year": 1959,
+      "leg": 12,
+      "title": "Saint-Gaudens - Albi",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lat": "43.926896",
+        "lng": "2.146343"
+      },
+      "length": 184,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : SuisseRolf Graf",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceMichel Vermeulin",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-13",
+      "year": 1959,
+      "leg": 13,
+      "title": "Albi - Aurillac",
+      "start": {
+        "city": "Albi",
+        "country": "France",
+        "lat": "43.926896",
+        "lng": "2.146343"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceHenry Anglade",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJos Hoevenaars",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-14",
+      "year": 1959,
+      "leg": 14,
+      "title": "Aurillac - Clermont-Ferrand",
+      "start": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "finish": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "length": 231,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceAndré Le Dissez",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJos Hoevenaars",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-15",
+      "year": 1959,
+      "leg": 15,
+      "title": "Clermont-Ferrand - Puy de Dôme",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "finish": {
+        "city": "Puy de Dôme, Orcines",
+        "country": "France",
+        "lat": "45.77207",
+        "lng": "2.96974"
+      },
+      "length": 13,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : EspagneFederico Bahamontes",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : BelgiqueJos Hoevenaars",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1959-16",
+      "year": 1959,
+      "leg": 16,
+      "title": "Clermont-Ferrand - Saint-Étienne",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
       "length": 210,
       "type": null,
@@ -325,146 +465,6 @@
       }
     },
     {
-      "id": "E-1959-12",
-      "year": 1959,
-      "leg": 12,
-      "title": "Saint-Gaudens - Albi",
-      "start": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lng": "0.723763",
-        "lat": "43.106895"
-      },
-      "finish": {
-        "city": "Rouen",
-        "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
-      },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgCharly Gaul",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-13",
-      "year": 1959,
-      "leg": 13,
-      "title": "Albi - Aurillac",
-      "start": {
-        "city": "Albi",
-        "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
-      },
-      "finish": {
-        "city": "Rennes",
-        "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
-      },
-      "length": 243,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieErcole Baldini",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-14",
-      "year": 1959,
-      "leg": 14,
-      "title": "Aurillac - Clermont-Ferrand",
-      "start": {
-        "city": "Aurillac",
-        "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
-      },
-      "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
-      },
-      "length": 251,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : SuisseRolf Graf",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-15",
-      "year": 1959,
-      "leg": 15,
-      "title": "Clermont-Ferrand - Puy de Dôme",
-      "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
-      },
-      "finish": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
-      },
-      "length": 202,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniBrian Robinson",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1959-16",
-      "year": 1959,
-      "leg": 16,
-      "title": "Clermont-Ferrand - Saint-Étienne",
-      "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 69,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : FranceRoger Rivière",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneFederico Bahamontes",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1959-17",
       "year": 1959,
       "leg": 17,
@@ -472,19 +472,19 @@
       "start": {
         "city": "Saint-Étienne",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
-      "length": 331,
+      "length": 197,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJoseph Groussard",
+        "name": "Drapeau : LuxembourgCharly Gaul",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Le Lautaret",
         "country": "France",
-        "lng": "6.40514",
-        "lat": "45.035408"
+        "lat": "45.035408",
+        "lng": "6.40514"
       },
       "finish": {
-        "city": "Bagnères-de-Bigorre",
-        "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "city": "Aoste",
+        "country": "Italie",
+        "lat": "45.751838",
+        "lng": "7.299412"
       },
-      "length": 240,
+      "length": 243,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieVito Favero",
+        "name": "Drapeau : ItalieErcole Baldini",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceAndré Darrigade",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Saint-Vincent",
         "country": "Italie",
-        "lng": "-0.158505",
-        "lat": "43.160832"
+        "lat": "43.160832",
+        "lng": "-0.158505"
       },
       "finish": {
-        "city": "Saint-Gaudens",
+        "city": "Annecy",
         "country": "France",
-        "lng": "0.723763",
-        "lat": "43.106895"
+        "lat": "45.899247",
+        "lng": "6.129384"
       },
-      "length": 217,
+      "length": 251,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : SuisseRolf Graf",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Annecy",
         "country": "France",
-        "lng": "6.129384",
-        "lat": "45.899247"
+        "lat": "45.899247",
+        "lng": "6.129384"
       },
       "finish": {
-        "city": "Aurillac",
+        "city": "Chalon-sur-Saône",
         "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
+        "lat": "46.780764",
+        "lng": "4.853947"
       },
-      "length": 286,
+      "length": 202,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean Graczyk",
+        "name": "Drapeau : Royaume-UniBrian Robinson",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Seurre",
         "country": "France",
-        "lng": "5.145516",
-        "lat": "46.999317"
+        "lat": "46.999317",
+        "lng": "5.145516"
       },
       "finish": {
-        "city": "Clermont-Ferrand",
+        "city": "Dijon",
         "country": "France",
-        "lng": "3.087025",
-        "lat": "45.777222"
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
-      "length": 45,
+      "length": 69,
       "type": "(CLM)",
       "winner": {
         "name": "Drapeau : FranceRoger Rivière",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Dijon",
         "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
       "finish": {
-        "city": "Puy de Dôme, Orcines",
+        "city": "Paris",
         "country": "France",
-        "lng": "3.011853",
-        "lat": "45.782978"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 190,
+      "length": 331,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceRoger Hassenforder",
+        "name": "Drapeau : FranceJoseph Groussard",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRobert Cazala",
+        "name": "Drapeau : EspagneFederico Bahamontes",
         "nationality": null
       }
     }

@@ -29,6 +29,8 @@ tours = {}
 winners = {}
 fighters = {}
 
+
+
 idx = 0
 CSV.foreach("csv/Données - Fight - Feuille1.csv") do |row|
 
@@ -150,8 +152,11 @@ end
 puts "#{winners.length} winners"
 
 
+
+
+
 idx = 0
-CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
+CSV.foreach("csv/Fichier étapes geolocalisées - Feuille1.csv") do |row|
 
 	if idx > 0
 
@@ -167,30 +172,32 @@ CSV.foreach("csv/Etapes_Tour_Total_Geoloc - Feuille1.csv") do |row|
 		leg[:start][:city] = row[4]
 		leg[:start][:country] = row[5]
 #		leg[:start][:coords] = row[6]
-		leg[:start][:lng] = row[7]
-		leg[:start][:lat] = row[8]
+		coords = row[6].split(/,/) unless row[6].nil?
+		leg[:start][:lat] = coords[0]
+		leg[:start][:lng] = coords[1]
 #		leg[:start][:coords_inv] = row[9]
 
 		leg[:finish] = {}
-		leg[:finish][:city] = row[10]
-		leg[:finish][:country] = row[11]
+		leg[:finish][:city] = row[7]
+		leg[:finish][:country] = row[8]
 #		leg[:finish][:coords] = row[12]
-		leg[:finish][:lng] = row[13]
-		leg[:finish][:lat] = row[14]
+		coords = row[9].split(/,/) unless row[9].nil?
+		leg[:finish][:lat] = coords[0]
+		leg[:finish][:lng] = coords[1]
 
-		leg[:length] = row[15].to_i
+		leg[:length] = row[10].to_i
 
 #		leg[:finish][:coords_inv] = row[16]
 
-		leg[:type] = row[17]
+		leg[:type] = row[11]
 
 		leg[:winner] = {}
-		leg[:winner][:name] = row[18]
-		leg[:winner][:nationality] = row[19]
+		leg[:winner][:name] = row[12]
+		leg[:winner][:nationality] = row[13]
 
 		leg[:leader] = {}
-		leg[:leader][:name] = row[20]
-		leg[:leader][:nationality] = row[21]
+		leg[:leader][:name] = row[14]
+		leg[:leader][:nationality] = row[15]
 
 		unless tours[leg[:year]].nil?
 
@@ -266,6 +273,9 @@ end
 # Test all legs
 
 filename = 'json/legs.json'
+
+p filename
+
 content = production ? legs.to_json : JSON.pretty_generate(legs)
 File.open(filename, 'w') { |file| file.write content }
 Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }

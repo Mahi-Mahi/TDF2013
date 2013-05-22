@@ -24,42 +24,14 @@
       "start": {
         "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
+        "lat": "\n46.66680",
+        "lng": "0.36762"
       },
       "finish": {
         "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
-      },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueJohan Museeuw",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : États-UnisGreg LeMond",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1990-01",
-      "year": 1990,
-      "leg": 1,
-      "title": "Futuroscope - Futuroscope",
-      "start": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
-      },
-      "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
+        "lat": "\n46.66680",
+        "lng": "0.36762"
       },
       "length": 6,
       "type": "(CLM)",
@@ -73,6 +45,34 @@
       }
     },
     {
+      "id": "E-1990-01",
+      "year": 1990,
+      "leg": 1,
+      "title": "Futuroscope - Futuroscope",
+      "start": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "\n46.66680",
+        "lng": "0.36762"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "\n46.66680",
+        "lng": "0.36762"
+      },
+      "length": 138,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasFrans Maassen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : CanadaSteve Bauer",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1990-02",
       "year": 1990,
       "leg": 2,
@@ -80,19 +80,19 @@
       "start": {
         "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
+        "lat": "\n46.66680",
+        "lng": "0.36762"
       },
       "finish": {
-        "city": "Villard-de-Lans",
+        "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "\n46.66680",
+        "lng": "0.36762"
       },
-      "length": 233,
-      "type": null,
+      "length": 44,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau : ItalieMoreno Argentin",
+        "name": "Drapeau : Pays-BasPanasonic",
         "nationality": null
       },
       "leader": {
@@ -108,19 +108,19 @@
       "start": {
         "city": "Poitiers",
         "country": "France",
-        "lng": "0.340375",
-        "lat": "46.580224"
+        "lat": "46.580224",
+        "lng": "0.340375"
       },
       "finish": {
-        "city": "Revel",
+        "city": "Nantes",
         "country": "France",
-        "lng": "2.004573",
-        "lat": "43.458611"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
-      "length": 202,
+      "length": 233,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJelle Nijdam",
+        "name": "Drapeau : ItalieMoreno Argentin",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Nantes",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "finish": {
-        "city": "Luz-Ardiden",
+        "city": "Mont Saint-Michel",
         "country": "France",
-        "lng": "-0.061335",
-        "lat": "42.885105"
+        "lat": "48.636063",
+        "lng": "-1.511457"
       },
-      "length": 61,
-      "type": "(CLM)",
+      "length": 203,
+      "type": null,
       "winner": {
-        "name": "Drapeau : MexiqueRaúl Alcalá",
+        "name": "Drapeau : BelgiqueJohan Museeuw",
         "nationality": null
       },
       "leader": {
@@ -164,19 +164,19 @@
       "start": {
         "city": "Avranches",
         "country": "France",
-        "lng": "-1.36166",
-        "lat": "48.686843"
+        "lat": "48.686843",
+        "lng": "-1.36166"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Rouen",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "49.443232",
+        "lng": "1.099971"
       },
-      "length": 181,
+      "length": 301,
       "type": null,
       "winner": {
-        "name": "Drapeau : Allemagne de l'EstOlaf Ludwig",
+        "name": "Drapeau : Pays-BasGerrit Solleveld",
         "nationality": null
       },
       "leader": {
@@ -192,19 +192,19 @@
       "start": {
         "city": "Sarrebourg",
         "country": "France",
-        "lng": "7.052587",
-        "lat": "48.732663"
+        "lat": "48.732663",
+        "lng": "7.052587"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Vittel",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "48.202541",
+        "lng": "5.943496"
       },
-      "length": 196,
-      "type": "Étape de montagne",
+      "length": 202,
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMassimo Ghirotto",
+        "name": "Drapeau : Pays-BasJelle Nijdam",
         "nationality": null
       },
       "leader": {
@@ -220,14 +220,98 @@
       "start": {
         "city": "Vittel",
         "country": "France",
-        "lng": "5.943496",
-        "lat": "48.202541"
+        "lat": "48.202541",
+        "lng": "5.943496"
       },
       "finish": {
-        "city": "Limoges",
+        "city": "Épinal",
         "country": "France",
-        "lng": "1.261105",
-        "lat": "45.833619"
+        "lat": "48.172402",
+        "lng": "6.449403"
+      },
+      "length": 61,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Drapeau : MexiqueRaúl Alcalá",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : CanadaSteve Bauer",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-08",
+      "year": 1990,
+      "leg": 8,
+      "title": "Épinal - Besançon",
+      "start": {
+        "city": "Épinal",
+        "country": "France",
+        "lat": "48.172402",
+        "lng": "6.449403"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 181,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Allemagne de l'EstOlaf Ludwig",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : CanadaSteve Bauer",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-09",
+      "year": 1990,
+      "leg": 9,
+      "title": "Besançon - Genève  ",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
+      },
+      "length": 196,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieMassimo Ghirotto",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : CanadaSteve Bauer",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-10",
+      "year": 1990,
+      "leg": 10,
+      "title": "Genève - Saint-Gervais-Mont Blanc  ",
+      "start": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
+      },
+      "finish": {
+        "city": "Saint-Gervais",
+        "country": "France",
+        "lat": "45.892013",
+        "lng": "6.712187"
       },
       "length": 118,
       "type": "Étape de montagne",
@@ -241,77 +325,21 @@
       }
     },
     {
-      "id": "E-1990-08",
+      "id": "E-1990-11",
       "year": 1990,
-      "leg": 8,
-      "title": "Épinal - Besançon",
+      "leg": 11,
+      "title": "Saint-Gervais - L'Alpe d'Huez  ",
       "start": {
-        "city": "Épinal",
+        "city": "Saint-Gervais",
         "country": "France",
-        "lng": "6.449403",
-        "lat": "48.172402"
+        "lat": "45.892013",
+        "lng": "6.712187"
       },
       "finish": {
-        "city": "Lac de Vassivière",
+        "city": "L'Alpe d'Huez",
         "country": "France",
-        "lng": "1.87608",
-        "lat": "45.791652"
-      },
-      "length": 33,
-      "type": "Étape de montagne (CLM)",
-      "winner": {
-        "name": "Drapeau : Pays-BasErik Breukink",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieClaudio Chiappucci",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1990-09",
-      "year": 1990,
-      "leg": 9,
-      "title": "Besançon - Genève",
-      "start": {
-        "city": "Besançon",
-        "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 149,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : EspagneEduardo Chozas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieClaudio Chiappucci",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1990-10",
-      "year": 1990,
-      "leg": 10,
-      "title": "Genève - Saint-Gervais-Mont Blanc",
-      "start": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
-      },
-      "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lng": "0.343334",
-        "lat": "46.583258"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
       "length": 182,
       "type": "Étape de montagne",
@@ -325,54 +353,26 @@
       }
     },
     {
-      "id": "E-1990-11",
-      "year": 1990,
-      "leg": 11,
-      "title": "Saint-Gervais - L'Alpe d'Huez",
-      "start": {
-        "city": "Saint-Gervais",
-        "country": "France",
-        "lng": "6.712187",
-        "lat": "45.892013"
-      },
-      "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
-      },
-      "length": 205,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : EspagneMarino Lejarreta",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieClaudio Chiappucci",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1990-12",
       "year": 1990,
       "leg": 12,
-      "title": "Fontaine - Villard-de-Lans",
+      "title": "Fontaine - Villard-de-Lans  ",
       "start": {
         "city": "Fontaine",
         "country": "France",
-        "lng": "-0.725914",
-        "lat": "48.904326"
+        "lat": "45.19275",
+        "lng": "5.68821"
       },
       "finish": {
-        "city": "Mont Saint-Michel",
+        "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "-1.511457",
-        "lat": "48.636063"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
-      "length": 170,
-      "type": null,
+      "length": 33,
+      "type": "Étape de montagne (CLM)",
       "winner": {
-        "name": "Drapeau : FranceCharly Mottet",
+        "name": "Drapeau : Pays-BasErik Breukink",
         "nationality": null
       },
       "leader": {
@@ -384,23 +384,23 @@
       "id": "E-1990-13",
       "year": 1990,
       "leg": 13,
-      "title": "Villard-de-Lans - Saint-Étienne",
+      "title": "Villard-de-Lans - Saint-Étienne  ",
       "start": {
         "city": "Villard-de-Lans",
         "country": "France",
-        "lng": "5.55227",
-        "lat": "45.070641"
+        "lat": "45.070641",
+        "lng": "5.55227"
       },
       "finish": {
-        "city": "Rouen",
+        "city": "Saint-Étienne",
         "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
-      "length": 215,
+      "length": 149,
       "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": "Drapeau : EspagneEduardo Chozas",
         "nationality": null
       },
       "leader": {
@@ -412,23 +412,23 @@
       "id": "E-1990-14",
       "year": 1990,
       "leg": 14,
-      "title": "Le Puy-en-Velay - Millau-Causse Noir",
+      "title": "Le Puy-en-Velay - Millau-Causse Noir  ",
       "start": {
         "city": "Le Puy-en-Velay",
         "country": "France",
-        "lng": "3.882936",
-        "lat": "45.042768"
+        "lat": "45.042768",
+        "lng": "3.882936"
       },
       "finish": {
-        "city": "Vittel",
+        "city": "Millau",
         "country": "France",
-        "lng": "5.943496",
-        "lat": "48.202541"
+        "lat": "44.100575",
+        "lng": "3.077801"
       },
-      "length": 150,
+      "length": 205,
       "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau : URSSDimitri Konyshev",
+        "name": "Drapeau : EspagneMarino Lejarreta",
         "nationality": null
       },
       "leader": {
@@ -444,14 +444,98 @@
       "start": {
         "city": "Millau",
         "country": "France",
-        "lng": "3.077801",
-        "lat": "44.100575"
+        "lat": "44.100575",
+        "lng": "3.077801"
       },
       "finish": {
-        "city": "Épinal",
+        "city": "Revel",
         "country": "France",
-        "lng": "6.449403",
-        "lat": "48.172402"
+        "lat": "43.458611",
+        "lng": "2.004573"
+      },
+      "length": 170,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceCharly Mottet",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-16",
+      "year": 1990,
+      "leg": 16,
+      "title": "Blagnac - Luz-Ardiden  ",
+      "start": {
+        "city": "Blagnac",
+        "country": "France",
+        "lat": "43.635087",
+        "lng": "1.39703"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lat": "42.885105",
+        "lng": "-0.061335"
+      },
+      "length": 215,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneMiguel Indurain",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-17",
+      "year": 1990,
+      "leg": 17,
+      "title": "Lourdes - Pau  ",
+      "start": {
+        "city": "Lourdes",
+        "country": "France",
+        "lat": "43.091463",
+        "lng": "-0.045726"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 150,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : URSSDimitri Konyshev",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1990-18",
+      "year": 1990,
+      "leg": 18,
+      "title": "Pau - Bordeaux",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 202,
       "type": null,
@@ -465,21 +549,21 @@
       }
     },
     {
-      "id": "E-1990-16",
+      "id": "E-1990-19",
       "year": 1990,
-      "leg": 16,
-      "title": "Blagnac - Luz-Ardiden",
+      "leg": 19,
+      "title": "Castillon-la-Bataille - Limoges",
       "start": {
-        "city": "Blagnac",
+        "city": "Castillon-la-Bataille",
         "country": "France",
-        "lng": "1.39703",
-        "lat": "43.635087"
+        "lat": "44.852067",
+        "lng": "-0.043008"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Limoges",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "45.833619",
+        "lng": "1.261105"
       },
       "length": 177,
       "type": null,
@@ -493,21 +577,21 @@
       }
     },
     {
-      "id": "E-1990-17",
+      "id": "E-1990-20",
       "year": 1990,
-      "leg": 17,
-      "title": "Lourdes - Pau",
+      "leg": 20,
+      "title": "Lac de Vassivière",
       "start": {
-        "city": "Lourdes",
+        "city": "Lac de Vassivière",
         "country": "France",
-        "lng": "-0.045726",
-        "lat": "43.091463"
+        "lat": "45.791652",
+        "lng": "1.87608"
       },
       "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "city": "Lac de Vassivière",
+        "country": "France",
+        "lat": "45.791652",
+        "lng": "1.87608"
       },
       "length": 45,
       "type": "(CLM)",
@@ -521,90 +605,6 @@
       }
     },
     {
-      "id": "E-1990-18",
-      "year": 1990,
-      "leg": 18,
-      "title": "Pau - Bordeaux",
-      "start": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
-      },
-      "finish": {
-        "city": "Saint-Gervais",
-        "country": "France",
-        "lng": "6.712187",
-        "lat": "45.892013"
-      },
-      "length": 138,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Pays-BasFrans Maassen",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : CanadaSteve Bauer",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1990-19",
-      "year": 1990,
-      "leg": 19,
-      "title": "Castillon-la-Bataille - Limoges",
-      "start": {
-        "city": "Castillon-la-Bataille",
-        "country": "France",
-        "lng": "-0.043008",
-        "lat": "44.852067"
-      },
-      "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
-      },
-      "length": 44,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Drapeau : Pays-BasPanasonic",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : CanadaSteve Bauer",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1990-20",
-      "year": 1990,
-      "leg": 20,
-      "title": "Lac de Vassivière",
-      "start": {
-        "city": "Lac de Vassivière",
-        "country": "France",
-        "lng": "1.87608",
-        "lat": "45.791652"
-      },
-      "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
-      },
-      "length": 203,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueJohan Museeuw",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : CanadaSteve Bauer",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1990-21",
       "year": 1990,
       "leg": 21,
@@ -612,23 +612,23 @@
       "start": {
         "city": "Brétigny-sur-Orge",
         "country": "France",
-        "lng": "2.30604",
-        "lat": "48.611486"
+        "lat": "48.611486",
+        "lng": "2.30604"
       },
       "finish": {
-        "city": "Millau",
+        "city": "Paris",
         "country": "France",
-        "lng": "3.077801",
-        "lat": "44.100575"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 301,
+      "length": 182,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasGerrit Solleveld",
+        "name": "Drapeau : BelgiqueJohan Museeuw",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : CanadaSteve Bauer",
+        "name": "Drapeau : États-UnisGreg LeMond",
         "nationality": null
       }
     }

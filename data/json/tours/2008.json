@@ -24,14 +24,14 @@
       "start": {
         "city": "Brest",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "finish": {
         "city": "Plumelec",
         "country": "France",
-        "lng": "-2.639409",
-        "lat": "47.837699"
+        "lat": "47.837699",
+        "lng": "-2.639409"
       },
       "length": 197,
       "type": "Étape de plaine",
@@ -52,14 +52,70 @@
       "start": {
         "city": "Auray",
         "country": "France",
-        "lng": "-2.983767",
-        "lat": "47.666491"
+        "lat": "47.666491",
+        "lng": "-2.983767"
       },
       "finish": {
-        "city": "Narbonne",
+        "city": "Saint-Brieuc",
         "country": "France",
-        "lng": "3.003078",
-        "lat": "43.184277"
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 164,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : NorvègeThor Hushovd",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneAlejandro Valverde",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-03",
+      "year": 2008,
+      "leg": 3,
+      "title": "Saint-Malo - Nantes",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 208,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : FranceSamuel Dumoulin",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRomain Feillu",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-04",
+      "year": 2008,
+      "leg": 4,
+      "title": "Cholet - Cholet",
+      "start": {
+        "city": "Cholet",
+        "country": "France",
+        "lat": "47.059407",
+        "lng": "-0.879787"
+      },
+      "finish": {
+        "city": "Cholet",
+        "country": "France",
+        "lat": "47.059407",
+        "lng": "-0.879787"
       },
       "length": 29,
       "type": "Contre-la-montre",
@@ -73,21 +129,77 @@
       }
     },
     {
-      "id": "E-2008-03",
+      "id": "E-2008-05",
       "year": 2008,
-      "leg": 3,
-      "title": "Saint-Malo - Nantes",
+      "leg": 5,
+      "title": "Cholet - Châteauroux",
       "start": {
-        "city": "Saint-Malo",
+        "city": "Cholet",
         "country": "France",
-        "lng": "-2.025674",
-        "lat": "48.649337"
+        "lat": "47.059407",
+        "lng": "-0.879787"
       },
       "finish": {
-        "city": "Prato Nevoso",
-        "country": "Italie",
-        "lng": "7.784652",
-        "lat": "44.254618"
+        "city": "Châteauroux",
+        "country": "France",
+        "lat": "46.811434",
+        "lng": "1.686779"
+      },
+      "length": 232,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgKim Kirchen[27]",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-06",
+      "year": 2008,
+      "leg": 6,
+      "title": "Aigurande - Super-Besse",
+      "start": {
+        "city": "Aigurande",
+        "country": "France",
+        "lat": "46.434011",
+        "lng": "1.828597"
+      },
+      "finish": {
+        "city": "Super-Besse",
+        "country": "France",
+        "lat": "45.508022",
+        "lng": "2.861518"
+      },
+      "length": 195,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": "Drapeau : EspagneAlejandro Valverde[28]",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgKim Kirchen",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-07",
+      "year": 2008,
+      "leg": 7,
+      "title": "Brioude - Aurillac",
+      "start": {
+        "city": "Brioude",
+        "country": "France",
+        "lat": "45.295564",
+        "lng": "3.386482"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
       },
       "length": 159,
       "type": "Étape accidentée",
@@ -101,21 +213,21 @@
       }
     },
     {
-      "id": "E-2008-04",
+      "id": "E-2008-08",
       "year": 2008,
-      "leg": 4,
-      "title": "Cholet - Cholet",
+      "leg": 8,
+      "title": "Figeac - Toulouse",
       "start": {
-        "city": "Cholet",
+        "city": "Figeac",
         "country": "France",
-        "lng": "-0.879787",
-        "lat": "47.059407"
+        "lat": "44.608288",
+        "lng": "2.032871"
       },
       "finish": {
-        "city": "Jausiers",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "6.733329",
-        "lat": "44.419576"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "length": 172,
       "type": "Étape de plaine",
@@ -129,21 +241,21 @@
       }
     },
     {
-      "id": "E-2008-05",
+      "id": "E-2008-09",
       "year": 2008,
-      "leg": 5,
-      "title": "Cholet - Châteauroux",
+      "leg": 9,
+      "title": "Toulouse - Bagnères-de-Bigorre",
       "start": {
-        "city": "Cholet",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "-0.879787",
-        "lat": "47.059407"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
+        "city": "Bagnères-de-Bigorre",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
       "length": 224,
       "type": "Étape de montagne",
@@ -157,118 +269,6 @@
       }
     },
     {
-      "id": "E-2008-06",
-      "year": 2008,
-      "leg": 6,
-      "title": "Aigurande - Super-Besse",
-      "start": {
-        "city": "Aigurande",
-        "country": "France",
-        "lng": "1.828597",
-        "lat": "46.434011"
-      },
-      "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
-      },
-      "length": 194,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : EspagneJuan José Cobo[30]",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-07",
-      "year": 2008,
-      "leg": 7,
-      "title": "Brioude - Aurillac",
-      "start": {
-        "city": "Brioude",
-        "country": "France",
-        "lng": "3.386482",
-        "lat": "45.295564"
-      },
-      "finish": {
-        "city": "Montluçon",
-        "country": "France",
-        "lng": "2.606645",
-        "lat": "46.339966"
-      },
-      "length": 167,
-      "type": "Étape accidentée",
-      "winner": {
-        "name": "Drapeau : NorvègeKurt Asle Arvesen",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-08",
-      "year": 2008,
-      "leg": 8,
-      "title": "Figeac - Toulouse",
-      "start": {
-        "city": "Figeac",
-        "country": "France",
-        "lng": "2.032871",
-        "lat": "44.608288"
-      },
-      "finish": {
-        "city": "Saint-Amand-Montrond",
-        "country": "France",
-        "lng": "2.505604",
-        "lat": "46.725486"
-      },
-      "length": 182,
-      "type": "Étape de Plaine",
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-09",
-      "year": 2008,
-      "leg": 9,
-      "title": "Toulouse - Bagnères-de-Bigorre",
-      "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 194,
-      "type": "Étape de plaine",
-      "winner": {
-        "name": "Drapeau : EspagneÓscar Freire",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-2008-10",
       "year": 2008,
       "leg": 10,
@@ -276,19 +276,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Saint-Brieuc",
+        "city": "Hautacam",
         "country": "France",
-        "lng": "-2.765835",
-        "lat": "48.51418"
+        "lat": "42.972222",
+        "lng": "-0.0075"
       },
-      "length": 168,
-      "type": "Étape de plaine",
+      "length": 194,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": "Drapeau : EspagneJuan José Cobo[30]",
         "nationality": null
       },
       "leader": {
@@ -304,14 +304,126 @@
       "start": {
         "city": "Lannemezan",
         "country": "France",
-        "lng": "0.38396",
-        "lat": "43.125519"
+        "lat": "43.125519",
+        "lng": "0.38396"
       },
       "finish": {
-        "city": "Nantes",
+        "city": "Foix",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "42.964127",
+        "lng": "1.605232"
+      },
+      "length": 167,
+      "type": "Étape accidentée",
+      "winner": {
+        "name": "Drapeau : NorvègeKurt Asle Arvesen",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-12",
+      "year": 2008,
+      "leg": 12,
+      "title": "Lavelanet - Narbonne",
+      "start": {
+        "city": "Lavelanet",
+        "country": "France",
+        "lat": "42.937653",
+        "lng": "1.851472"
+      },
+      "finish": {
+        "city": "Narbonne",
+        "country": "France",
+        "lat": "43.184277",
+        "lng": "3.003078"
+      },
+      "length": 168,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-13",
+      "year": 2008,
+      "leg": 13,
+      "title": "Narbonne - Nîmes",
+      "start": {
+        "city": "Narbonne",
+        "country": "France",
+        "lat": "43.184277",
+        "lng": "3.003078"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 182,
+      "type": "Étape de Plaine",
+      "winner": {
+        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-14",
+      "year": 2008,
+      "leg": 14,
+      "title": "Nîmes - Digne-les-Bains",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "finish": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lat": "44.092193",
+        "lng": "6.235976"
+      },
+      "length": 194,
+      "type": "Étape de plaine",
+      "winner": {
+        "name": "Drapeau : EspagneÓscar Freire",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieCadel Evans",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2008-15",
+      "year": 2008,
+      "leg": 15,
+      "title": "Embrun - Prato Nevoso (ITA)",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lat": "44.564164",
+        "lng": "6.495865"
+      },
+      "finish": {
+        "city": "Prato Nevoso",
+        "country": "Italie",
+        "lat": "44.254618",
+        "lng": "7.784652"
       },
       "length": 183,
       "type": "Étape de montagne",
@@ -325,21 +437,21 @@
       }
     },
     {
-      "id": "E-2008-12",
+      "id": "E-2008-16",
       "year": 2008,
-      "leg": 12,
-      "title": "Lavelanet - Narbonne",
+      "leg": 16,
+      "title": "Cuneo (ITA) - Jausiers",
       "start": {
-        "city": "Lavelanet",
-        "country": "France",
-        "lng": "1.851472",
-        "lat": "42.937653"
+        "city": "Cuneo",
+        "country": "Italie",
+        "lat": "44.384477",
+        "lng": "7.542671"
       },
       "finish": {
-        "city": "Cholet",
+        "city": "Jausiers",
         "country": "France",
-        "lng": "-0.879787",
-        "lat": "47.059407"
+        "lat": "44.419576",
+        "lng": "6.733329"
       },
       "length": 157,
       "type": "Étape de montagne",
@@ -353,118 +465,6 @@
       }
     },
     {
-      "id": "E-2008-13",
-      "year": 2008,
-      "leg": 13,
-      "title": "Narbonne - Nîmes",
-      "start": {
-        "city": "Narbonne",
-        "country": "France",
-        "lng": "3.003078",
-        "lat": "43.184277"
-      },
-      "finish": {
-        "city": "Châteauroux",
-        "country": "France",
-        "lng": "1.686779",
-        "lat": "46.811434"
-      },
-      "length": 210,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : EspagneCarlos Sastre",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneCarlos Sastre",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-14",
-      "year": 2008,
-      "leg": 14,
-      "title": "Nîmes - Digne-les-Bains",
-      "start": {
-        "city": "Nîmes",
-        "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
-      },
-      "finish": {
-        "city": "Super-Besse",
-        "country": "France",
-        "lng": "2.861518",
-        "lat": "45.508022"
-      },
-      "length": 196,
-      "type": "Étape accidentée",
-      "winner": {
-        "name": "Drapeau : AllemagneMarcus Burghardt",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneCarlos Sastre",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-15",
-      "year": 2008,
-      "leg": 15,
-      "title": "Embrun - Prato Nevoso (ITA)",
-      "start": {
-        "city": "Embrun",
-        "country": "France",
-        "lng": "6.495865",
-        "lat": "44.564164"
-      },
-      "finish": {
-        "city": "Aurillac",
-        "country": "France",
-        "lng": "2.444997",
-        "lat": "44.930953"
-      },
-      "length": 165,
-      "type": "Étape de plaine",
-      "winner": {
-        "name": "Drapeau : FranceSylvain Chavanel",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneCarlos Sastre",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2008-16",
-      "year": 2008,
-      "leg": 16,
-      "title": "Cuneo (ITA) - Jausiers",
-      "start": {
-        "city": "Cuneo",
-        "country": "Italie",
-        "lng": "7.542671",
-        "lat": "44.384477"
-      },
-      "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "length": 53,
-      "type": "Contre-la-montre",
-      "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara[32]",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneCarlos Sastre",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-2008-17",
       "year": 2008,
       "leg": 17,
@@ -472,19 +472,19 @@
       "start": {
         "city": "Embrun",
         "country": "France",
-        "lng": "6.495865",
-        "lat": "44.564164"
+        "lat": "44.564164",
+        "lng": "6.495865"
       },
       "finish": {
-        "city": "Bagnères-de-Bigorre",
+        "city": "L'Alpe d'Huez",
         "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
-      "length": 143,
-      "type": "Étape de plaine",
+      "length": 210,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau : BelgiqueGert Steegmans",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Le Bourg-d'Oisans",
         "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Hautacam",
+        "city": "Saint-Étienne",
         "country": "France",
-        "lng": "-0.072462",
-        "lat": "42.961214"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
-      "length": 164,
-      "type": "Étape de plaine",
+      "length": 196,
+      "type": "Étape accidentée",
       "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": "Drapeau : AllemagneMarcus Burghardt",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneAlejandro Valverde",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Roanne",
         "country": "France",
-        "lng": "4.072695",
-        "lat": "46.034432"
+        "lat": "46.034432",
+        "lng": "4.072695"
       },
       "finish": {
-        "city": "Foix",
+        "city": "Montluçon",
         "country": "France",
-        "lng": "1.605232",
-        "lat": "42.964127"
+        "lat": "46.339966",
+        "lng": "2.606645"
       },
-      "length": 208,
+      "length": 165,
       "type": "Étape de plaine",
       "winner": {
-        "name": "Drapeau : FranceSamuel Dumoulin",
+        "name": "Drapeau : FranceSylvain Chavanel",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRomain Feillu",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Cérilly",
         "country": "France",
-        "lng": "2.822083",
-        "lat": "46.6176"
+        "lat": "46.6176",
+        "lng": "2.822083"
       },
       "finish": {
-        "city": "Nîmes",
+        "city": "Saint-Amand-Montrond",
         "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
+        "lat": "46.725486",
+        "lng": "2.505604"
       },
-      "length": 232,
-      "type": "Étape de plaine",
+      "length": 53,
+      "type": "Contre-la-montre",
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": "Drapeau : SuisseFabian Cancellara[32]",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : LuxembourgKim Kirchen[27]",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Étampes",
         "country": "France",
-        "lng": "2.16142",
-        "lat": "48.434416"
+        "lat": "48.434416",
+        "lng": "2.16142"
       },
       "finish": {
-        "city": "Digne-les-Bains",
+        "city": "Paris",
         "country": "France",
-        "lng": "6.235976",
-        "lat": "44.092193"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 195,
-      "type": "Étape accidentée",
+      "length": 143,
+      "type": "Étape de plaine",
       "winner": {
-        "name": "Drapeau : EspagneAlejandro Valverde[28]",
+        "name": "Drapeau : BelgiqueGert Steegmans",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : LuxembourgKim Kirchen",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       }
     }

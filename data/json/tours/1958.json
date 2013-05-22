@@ -24,14 +24,14 @@
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "finish": {
         "city": "Gand",
         "country": "Belgique",
-        "lng": "3.73038",
-        "lat": "51.053468"
+        "lat": "51.053468",
+        "lng": "3.73038"
       },
       "length": 184,
       "type": null,
@@ -52,14 +52,70 @@
       "start": {
         "city": "Gand",
         "country": "Belgique",
-        "lng": "3.73038",
-        "lat": "51.053468"
+        "lat": "51.053468",
+        "lng": "3.73038"
       },
       "finish": {
-        "city": "Dax",
+        "city": "Dunkerque",
         "country": "France",
-        "lng": "-1.051945",
-        "lat": "43.708608"
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "length": 198,
+      "type": null,
+      "winner": {
+        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jos Hoevenaers Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-03",
+      "year": 1958,
+      "leg": 3,
+      "title": "Dunkerque - Le Tréport",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "finish": {
+        "city": "Le Tréport",
+        "country": "France",
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "length": 177,
+      "type": null,
+      "winner": {
+        "name": "Gilbert Bauvin Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-04",
+      "year": 1958,
+      "leg": 4,
+      "title": "Le Tréport - Versailles",
+      "start": {
+        "city": "Le Tréport",
+        "country": "France",
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "length": 205,
       "type": null,
@@ -73,62 +129,6 @@
       }
     },
     {
-      "id": "E-1958-03",
-      "year": 1958,
-      "leg": 3,
-      "title": "Dunkerque - Le Tréport",
-      "start": {
-        "city": "Dunkerque",
-        "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
-      },
-      "finish": {
-        "city": "Mont Ventoux (Bédoin)",
-        "country": "France",
-        "lng": "5.283795",
-        "lat": "44.173925"
-      },
-      "length": 255,
-      "type": null,
-      "winner": {
-        "name": "Pierino Baffi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Darrigade Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-04",
-      "year": 1958,
-      "leg": 4,
-      "title": "Le Tréport - Versailles",
-      "start": {
-        "city": "Le Tréport",
-        "country": "France",
-        "lng": "1.382472",
-        "lat": "50.05917"
-      },
-      "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
-      },
-      "length": 137,
-      "type": null,
-      "winner": {
-        "name": "Arrigo Padovan Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Darrigade Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1958-05",
       "year": 1958,
       "leg": 5,
@@ -136,23 +136,23 @@
       "start": {
         "city": "Versailles",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "finish": {
-        "city": "Briançon",
+        "city": "Caen",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
-      "length": 230,
+      "length": 232,
       "type": null,
       "winner": {
-        "name": "Louis Bergaud Drapeau de France France",
+        "name": "Tino Sabbadini Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": "Gilbert Bauvin Drapeau de France France",
         "nationality": null
       }
     },
@@ -164,23 +164,23 @@
       "start": {
         "city": "Caen",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
       "finish": {
-        "city": "Aix-les-Bains",
+        "city": "Saint-Brieuc",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "48.51418",
+        "lng": "-2.765835"
       },
-      "length": 129,
+      "length": 223,
       "type": null,
       "winner": {
-        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
+        "name": "Martin Van Geneugden Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Vito Favero Drapeau d'Italie Italie",
+        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Saint-Brieuc",
         "country": "France",
-        "lng": "-2.765835",
-        "lat": "48.51418"
+        "lat": "48.51418",
+        "lng": "-2.765835"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Brest",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
-      "length": 176,
+      "length": 170,
       "type": null,
       "winner": {
-        "name": "André Darrigade Drapeau de France France",
+        "name": "Brian Robinson Drapeau : Royaume-Uni Royaume-Uni",
         "nationality": null
       },
       "leader": {
-        "name": "Vito Favero Drapeau d'Italie Italie",
+        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Châteaulin",
         "country": "France",
-        "lng": "-4.094207",
-        "lat": "48.195389"
+        "lat": "48.195389",
+        "lng": "-4.094207"
       },
       "finish": {
-        "city": "Dijon",
+        "city": "Châteaulin",
         "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
+        "lat": "48.195389",
+        "lng": "-4.094207"
       },
-      "length": 187,
-      "type": null,
+      "length": 46,
+      "type": "(CLM)",
       "winner": {
-        "name": "Pierino Baffi Drapeau d'Italie Italie",
+        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
         "nationality": null
       },
       "leader": {
-        "name": "Vito Favero Drapeau d'Italie Italie",
+        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       }
     },
@@ -248,23 +248,23 @@
       "start": {
         "city": "Quimper",
         "country": "France",
-        "lng": "-4.097899",
-        "lat": "47.997542"
+        "lat": "47.997542",
+        "lng": "-4.097899"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Saint-Nazaire",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "47.273498",
+        "lng": "-2.213848"
       },
-      "length": 189,
+      "length": 206,
       "type": null,
       "winner": {
         "name": "André Darrigade Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Vito Favero Drapeau d'Italie Italie",
+        "name": "André Darrigade Drapeau de France France",
         "nationality": null
       }
     },
@@ -276,19 +276,19 @@
       "start": {
         "city": "Saint-Nazaire",
         "country": "France",
-        "lng": "-2.213848",
-        "lat": "47.273498"
+        "lat": "47.273498",
+        "lng": "-2.213848"
       },
       "finish": {
-        "city": "Dunkerque",
+        "city": "Royan",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "45.623027",
+        "lng": "-1.043182"
       },
-      "length": 161,
+      "length": 255,
       "type": null,
       "winner": {
-        "name": "Martin Van Geneugden Drapeau belge Belgique",
+        "name": "Pierino Baffi Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -304,23 +304,23 @@
       "start": {
         "city": "Royan",
         "country": "France",
-        "lng": "-1.043182",
-        "lat": "45.623027"
+        "lat": "45.623027",
+        "lng": "-1.043182"
       },
       "finish": {
-        "city": "Le Tréport",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "1.382472",
-        "lat": "50.05917"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 22,
-      "type": "(CLM)",
+      "length": 137,
+      "type": null,
       "winner": {
-        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
+        "name": "Arrigo Padovan Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": "André Darrigade Drapeau de France France",
         "nationality": null
       }
     },
@@ -332,23 +332,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Versailles",
+        "city": "Dax",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "43.708608",
+        "lng": "-1.051945"
       },
-      "length": 178,
+      "length": 161,
       "type": null,
       "winner": {
-        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "name": "Martin Van Geneugden Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": "André Darrigade Drapeau de France France",
         "nationality": null
       }
     },
@@ -360,19 +360,19 @@
       "start": {
         "city": "Dax",
         "country": "France",
-        "lng": "-1.051945",
-        "lat": "43.708608"
+        "lat": "43.708608",
+        "lng": "-1.051945"
       },
       "finish": {
-        "city": "Caen",
+        "city": "Pau",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 165,
+      "length": 230,
       "type": null,
       "winner": {
-        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
+        "name": "Louis Bergaud Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Saint-Brieuc",
+        "city": "Luchon",
         "country": "France",
-        "lng": "-2.765835",
-        "lat": "48.51418"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 219,
+      "length": 129,
       "type": null,
       "winner": {
-        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
+        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
         "nationality": null
       },
       "leader": {
@@ -416,16 +416,16 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Brest",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
-      "length": 237,
+      "length": 176,
       "type": null,
       "winner": {
         "name": "André Darrigade Drapeau de France France",
@@ -444,14 +444,210 @@
       "start": {
         "city": "Toulouse",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
-        "city": "Châteaulin",
+        "city": "Béziers",
         "country": "France",
-        "lng": "-4.094207",
-        "lat": "48.195389"
+        "lat": "43.344233",
+        "lng": "3.215795"
+      },
+      "length": 187,
+      "type": null,
+      "winner": {
+        "name": "Pierino Baffi Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Vito Favero Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-17",
+      "year": 1958,
+      "leg": 17,
+      "title": "Béziers - Nîmes",
+      "start": {
+        "city": "Béziers",
+        "country": "France",
+        "lat": "43.344233",
+        "lng": "3.215795"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 189,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Vito Favero Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-18",
+      "year": 1958,
+      "leg": 18,
+      "title": "Bédoin - Mont Ventoux",
+      "start": {
+        "city": "Bédoin",
+        "country": "France",
+        "lat": "44.124008",
+        "lng": "5.180374"
+      },
+      "finish": {
+        "city": "Mont Ventoux (Bédoin)",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 22,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-19",
+      "year": 1958,
+      "leg": 19,
+      "title": "Carpentras - Gap",
+      "start": {
+        "city": "Carpentras",
+        "country": "France",
+        "lat": "44.055564",
+        "lng": "5.048722"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 178,
+      "type": null,
+      "winner": {
+        "name": "Gastone Nencini Drapeau d'Italie Italie",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-20",
+      "year": 1958,
+      "leg": 20,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 165,
+      "type": null,
+      "winner": {
+        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Raphaël Géminiani Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-21",
+      "year": 1958,
+      "leg": 21,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 219,
+      "type": null,
+      "winner": {
+        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Vito Favero Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-22",
+      "year": 1958,
+      "leg": 22,
+      "title": "Aix-les-Bains - Besançon",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 237,
+      "type": null,
+      "winner": {
+        "name": "André Darrigade Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Vito Favero Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1958-23",
+      "year": 1958,
+      "leg": 23,
+      "title": "Besançon - Dijon",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
       "length": 74,
       "type": "(CLM)",
@@ -465,21 +661,21 @@
       }
     },
     {
-      "id": "E-1958-17",
+      "id": "E-1958-24",
       "year": 1958,
-      "leg": 17,
-      "title": "Béziers - Nîmes",
+      "leg": 24,
+      "title": "Dijon - Paris",
       "start": {
-        "city": "Béziers",
+        "city": "Dijon",
         "country": "France",
-        "lng": "3.215795",
-        "lat": "43.344233"
+        "lat": "47.322047",
+        "lng": "5.04148"
       },
       "finish": {
-        "city": "Saint-Nazaire",
+        "city": "Paris",
         "country": "France",
-        "lng": "-2.213848",
-        "lat": "47.273498"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "length": 320,
       "type": null,
@@ -489,202 +685,6 @@
       },
       "leader": {
         "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-18",
-      "year": 1958,
-      "leg": 18,
-      "title": "Bédoin - Mont Ventoux",
-      "start": {
-        "city": "Bédoin",
-        "country": "France",
-        "lng": "5.180374",
-        "lat": "44.124008"
-      },
-      "finish": {
-        "city": "Royan",
-        "country": "France",
-        "lng": "-1.043182",
-        "lat": "45.623027"
-      },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jos Hoevenaers Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-19",
-      "year": 1958,
-      "leg": 19,
-      "title": "Carpentras - Gap",
-      "start": {
-        "city": "Carpentras",
-        "country": "France",
-        "lng": "5.048722",
-        "lat": "44.055564"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": "Gilbert Bauvin Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-20",
-      "year": 1958,
-      "leg": 20,
-      "title": "Gap - Briançon",
-      "start": {
-        "city": "Gap",
-        "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
-      },
-      "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
-      },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": "Tino Sabbadini Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gilbert Bauvin Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-21",
-      "year": 1958,
-      "leg": 21,
-      "title": "Briançon - Aix-les-Bains",
-      "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
-      },
-      "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
-      },
-      "length": 223,
-      "type": null,
-      "winner": {
-        "name": "Martin Van Geneugden Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-22",
-      "year": 1958,
-      "leg": 22,
-      "title": "Aix-les-Bains - Besançon",
-      "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
-      },
-      "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "length": 170,
-      "type": null,
-      "winner": {
-        "name": "Brian Robinson Drapeau : Royaume-Uni Royaume-Uni",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-23",
-      "year": 1958,
-      "leg": 23,
-      "title": "Besançon - Dijon",
-      "start": {
-        "city": "Besançon",
-        "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
-      },
-      "finish": {
-        "city": "Béziers",
-        "country": "France",
-        "lng": "3.215795",
-        "lat": "43.344233"
-      },
-      "length": 46,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1958-24",
-      "year": 1958,
-      "leg": 24,
-      "title": "Dijon - Paris",
-      "start": {
-        "city": "Dijon",
-        "country": "France",
-        "lng": "5.04148",
-        "lat": "47.322047"
-      },
-      "finish": {
-        "city": "Nîmes",
-        "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
-      },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "André Darrigade Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Darrigade Drapeau de France France",
         "nationality": null
       }
     }

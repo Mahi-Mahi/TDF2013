@@ -20,18 +20,18 @@
       "id": "E-1910-01",
       "year": 1910,
       "leg": 1,
-      "title": "Paris - Roubaix",
+      "title": "Paris – Roubaix",
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "length": 272,
       "type": null,
@@ -48,27 +48,27 @@
       "id": "E-1910-02",
       "year": 1910,
       "leg": 2,
-      "title": "Roubaix - Metz",
+      "title": "Roubaix – Metz",
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "city": "Metz",
+        "country": "Empire allemand",
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 424,
+      "length": 398,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceOctave Lapize",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceOctave Lapize",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       }
     },
@@ -76,27 +76,27 @@
       "id": "E-1910-03",
       "year": 1910,
       "leg": 3,
-      "title": "Metz - Belfort",
+      "title": "Metz – Belfort",
       "start": {
         "city": "Metz",
         "country": "Empire allemand",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Belfort",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
-      "length": 262,
+      "length": 259,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieErnesto Azzini",
+        "name": "Drapeau : FranceÉmile Georget",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceOctave Lapize",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       }
     },
@@ -104,20 +104,20 @@
       "id": "E-1910-04",
       "year": 1910,
       "leg": 4,
-      "title": "Belfort - Lyon",
+      "title": "Belfort – Lyon",
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Lyon",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
-      "length": 398,
+      "length": 309,
       "type": null,
       "winner": {
         "name": "Drapeau : LuxembourgFrançois Faber",
@@ -132,74 +132,18 @@
       "id": "E-1910-05",
       "year": 1910,
       "leg": 5,
-      "title": "Lyon - Grenoble",
+      "title": "Lyon – Grenoble",
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 259,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceÉmile Georget",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1910-06",
-      "year": 1910,
-      "leg": 6,
-      "title": "Grenoble - Nice",
-      "start": {
         "city": "Grenoble",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
-      },
-      "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
-      },
-      "length": 309,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1910-07",
-      "year": 1910,
-      "leg": 7,
-      "title": "Nice - Nîmes",
-      "start": {
-        "city": "Nice",
-        "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
-      },
-      "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "length": 311,
       "type": null,
@@ -213,21 +157,21 @@
       }
     },
     {
-      "id": "E-1910-08",
+      "id": "E-1910-06",
       "year": 1910,
-      "leg": 8,
-      "title": "Nîmes - Perpignan",
+      "leg": 6,
+      "title": "Grenoble – Nice",
       "start": {
-        "city": "Nîmes",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Caen",
+        "city": "Nice",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "length": 345,
       "type": null,
@@ -241,21 +185,21 @@
       }
     },
     {
-      "id": "E-1910-09",
+      "id": "E-1910-07",
       "year": 1910,
-      "leg": 9,
-      "title": "Perpignan - Luchon",
+      "leg": 7,
+      "title": "Nice – Nîmes",
       "start": {
-        "city": "Perpignan",
+        "city": "Nice",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Nîmes",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.836699",
+        "lng": "4.360054"
       },
       "length": 345,
       "type": null,
@@ -269,21 +213,21 @@
       }
     },
     {
-      "id": "E-1910-10",
+      "id": "E-1910-08",
       "year": 1910,
-      "leg": 10,
-      "title": "Luchon - Bayonne",
+      "leg": 8,
+      "title": "Nîmes – Perpignan",
       "start": {
-        "city": "Luchon",
+        "city": "Nîmes",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "43.836699",
+        "lng": "4.360054"
       },
       "finish": {
-        "city": "Metz",
-        "country": "Empire allemand",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "length": 216,
       "type": null,
@@ -297,21 +241,21 @@
       }
     },
     {
-      "id": "E-1910-11",
+      "id": "E-1910-09",
       "year": 1910,
-      "leg": 11,
-      "title": "Bayonne - Bordeaux",
+      "leg": 9,
+      "title": "Perpignan – Luchon",
       "start": {
-        "city": "Bayonne",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "Luchon",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "length": 289,
       "type": null,
@@ -325,21 +269,21 @@
       }
     },
     {
-      "id": "E-1910-12",
+      "id": "E-1910-10",
       "year": 1910,
-      "leg": 12,
-      "title": "Bordeaux - Nantes",
+      "leg": 10,
+      "title": "Luchon – Bayonne",
       "start": {
-        "city": "Bordeaux",
+        "city": "Luchon",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Lyon",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 326,
       "type": null,
@@ -353,21 +297,21 @@
       }
     },
     {
-      "id": "E-1910-13",
+      "id": "E-1910-11",
       "year": 1910,
-      "leg": 13,
-      "title": "Nantes - Brest",
+      "leg": 11,
+      "title": "Bayonne – Bordeaux",
       "start": {
-        "city": "Nantes",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Grenoble",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 326,
       "type": null,
@@ -381,21 +325,21 @@
       }
     },
     {
-      "id": "E-1910-14",
+      "id": "E-1910-12",
       "year": 1910,
-      "leg": 14,
-      "title": "Brest - Caen",
+      "leg": 12,
+      "title": "Bordeaux – Nantes",
       "start": {
-        "city": "Brest",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Nice",
+        "city": "Nantes",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "length": 391,
       "type": null,
@@ -409,26 +353,82 @@
       }
     },
     {
-      "id": "E-1910-15",
+      "id": "E-1910-13",
       "year": 1910,
-      "leg": 15,
-      "title": "Caen - Paris",
+      "leg": 13,
+      "title": "Nantes – Brest",
       "start": {
-        "city": "Caen",
+        "city": "Nantes",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "finish": {
-        "city": "Nîmes",
+        "city": "Brest",
         "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 321,
       "type": null,
       "winner": {
         "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceOctave Lapize",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1910-14",
+      "year": 1910,
+      "leg": 14,
+      "title": "Brest – Caen",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 424,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceOctave Lapize",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceOctave Lapize",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1910-15",
+      "year": 1910,
+      "leg": 15,
+      "title": "Caen – Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 262,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieErnesto Azzini",
         "nationality": null
       },
       "leader": {

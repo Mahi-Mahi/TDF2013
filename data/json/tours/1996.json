@@ -20,46 +20,18 @@
       "id": "E-1996-Prologue",
       "year": 1996,
       "leg": 0,
-      "title": "'s-Hertogenbosch - 's-Hertogenbosch",
+      "title": "s-Hertogenbosch - 's-Hertogenbosch",
       "start": {
         "city": "Bois-le-Duc",
         "country": "Pays-Bas",
-        "lng": "5.303675",
-        "lat": "51.697816"
+        "lat": "51.697816",
+        "lng": "5.303675"
       },
       "finish": {
         "city": "Bois-le-Duc",
         "country": "Pays-Bas",
-        "lng": "5.303675",
-        "lat": "51.697816"
-      },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieFabio Baldato",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1996-01",
-      "year": 1996,
-      "leg": 1,
-      "title": "'s-Hertogenbosch - 's-Hertogenbosch",
-      "start": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lng": "5.303675",
-        "lat": "51.697816"
-      },
-      "finish": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lng": "5.303675",
-        "lat": "51.697816"
+        "lat": "51.697816",
+        "lng": "5.303675"
       },
       "length": 9,
       "type": "(CLM)",
@@ -73,21 +45,77 @@
       }
     },
     {
-      "id": "E-1996-02",
+      "id": "E-1996-01",
       "year": 1996,
-      "leg": 2,
-      "title": "'s-Hertogenbosch - Wasquehal",
+      "leg": 1,
+      "title": "s-Hertogenbosch - 's-Hertogenbosch",
       "start": {
         "city": "Bois-le-Duc",
         "country": "Pays-Bas",
-        "lng": "5.303675",
-        "lat": "51.697816"
+        "lat": "51.697816",
+        "lng": "5.303675"
       },
       "finish": {
-        "city": "Le Puy-en-Velay",
+        "city": "Bois-le-Duc",
+        "country": "Pays-Bas",
+        "lat": "51.697816",
+        "lng": "5.303675"
+      },
+      "length": 209,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceFrédéric Moncassin",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseAlex Zülle",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1996-02",
+      "year": 1996,
+      "leg": 2,
+      "title": "s-Hertogenbosch - Wasquehal",
+      "start": {
+        "city": "Bois-le-Duc",
+        "country": "Pays-Bas",
+        "lat": "51.697816",
+        "lng": "5.303675"
+      },
+      "finish": {
+        "city": "Wasquehal",
         "country": "France",
-        "lng": "3.882936",
-        "lat": "45.042768"
+        "lat": "50.669276",
+        "lng": "3.130782"
+      },
+      "length": 247,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : ItalieMario Cipollini",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : SuisseAlex Zülle",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1996-03",
+      "year": 1996,
+      "leg": 3,
+      "title": "Wasquehal - Nogent-sur-Oise",
+      "start": {
+        "city": "Wasquehal",
+        "country": "France",
+        "lat": "50.669276",
+        "lng": "3.130782"
+      },
+      "finish": {
+        "city": "Nogent-sur-Oise",
+        "country": "France",
+        "lat": "49.278948",
+        "lng": "2.464688"
       },
       "length": 195,
       "type": null,
@@ -101,21 +129,77 @@
       }
     },
     {
-      "id": "E-1996-03",
+      "id": "E-1996-04",
       "year": 1996,
-      "leg": 3,
-      "title": "Wasquehal - Nogent-sur-Oise",
+      "leg": 4,
+      "title": "Soissons - Lac de Madine",
       "start": {
-        "city": "Wasquehal",
+        "city": "Soissons",
         "country": "France",
-        "lng": "3.130782",
-        "lat": "50.669276"
+        "lat": "49.376636",
+        "lng": "3.32342"
       },
       "finish": {
-        "city": "Villeneuve-sur-Lot",
+        "city": "Lac de Madine",
         "country": "France",
-        "lng": "0.703561",
-        "lat": "44.407126"
+        "lat": "48.921618",
+        "lng": "5.736175"
+      },
+      "length": 232,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceCyril Saugrain",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceStéphane Heulot",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1996-05",
+      "year": 1996,
+      "leg": 5,
+      "title": "Lac de Madine - Besançon",
+      "start": {
+        "city": "Lac de Madine",
+        "country": "France",
+        "lat": "48.921618",
+        "lng": "5.736175"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 232,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasJeroen Blijlevens",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceStéphane Heulot",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1996-06",
+      "year": 1996,
+      "leg": 6,
+      "title": "Arc-et-Senans - Aix-les-Bains",
+      "start": {
+        "city": "Arc-et-Senans",
+        "country": "France",
+        "lat": "47.032958",
+        "lng": "5.781165"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
       "length": 207,
       "type": null,
@@ -129,90 +213,6 @@
       }
     },
     {
-      "id": "E-1996-04",
-      "year": 1996,
-      "leg": 4,
-      "title": "Soissons - Lac de Madine",
-      "start": {
-        "city": "Soissons",
-        "country": "France",
-        "lng": "3.32342",
-        "lat": "49.376636"
-      },
-      "finish": {
-        "city": "Hautacam, Préchac",
-        "country": "France",
-        "lng": "-0.072462",
-        "lat": "42.961214"
-      },
-      "length": 200,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : FranceLuc Leblanc",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : RussieEvgueni Berzin",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1996-05",
-      "year": 1996,
-      "leg": 5,
-      "title": "Lac de Madine - Besançon",
-      "start": {
-        "city": "Lac de Madine",
-        "country": "France",
-        "lng": "5.736175",
-        "lat": "48.921618"
-      },
-      "finish": {
-        "city": "Pampelune",
-        "country": "Espagne",
-        "lng": "-1.648265",
-        "lat": "42.811663"
-      },
-      "length": 30,
-      "type": "Étape de montagne (CLM)",
-      "winner": {
-        "name": "Drapeau : RussieEvgueni Berzin",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : RussieEvgueni Berzin",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1996-06",
-      "year": 1996,
-      "leg": 6,
-      "title": "Arc-et-Senans - Aix-les-Bains",
-      "start": {
-        "city": "Arc-et-Senans",
-        "country": "France",
-        "lng": "5.781165",
-        "lat": "47.032958"
-      },
-      "finish": {
-        "city": "Hendaye",
-        "country": "France",
-        "lng": "-1.766148",
-        "lat": "43.359399"
-      },
-      "length": 46,
-      "type": "Étape de montagne",
-      "winner": {
-        "name": "Drapeau : DanemarkBjarne Riis",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1996-07",
       "year": 1996,
       "leg": 7,
@@ -220,23 +220,23 @@
       "start": {
         "city": "Chambéry",
         "country": "France",
-        "lng": "5.917781",
-        "lat": "45.564601"
+        "lat": "45.564601",
+        "lng": "5.917781"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Les Arcs, Bourg-Saint-Maurice",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "45.594058",
+        "lng": "6.796495"
       },
-      "length": 208,
-      "type": "Étape de montagne",
+      "length": 200,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": "Drapeau : FranceLuc Leblanc",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": "Drapeau : RussieEvgueni Berzin",
         "nationality": null
       }
     },
@@ -248,23 +248,23 @@
       "start": {
         "city": "Bourg-Saint-Maurice",
         "country": "France",
-        "lng": "6.769548",
-        "lat": "45.618598"
+        "lat": "45.618598",
+        "lng": "6.769548"
       },
       "finish": {
-        "city": "Saint-Émilion",
+        "city": "Val-d'Isère",
         "country": "France",
-        "lng": "-0.155729",
-        "lat": "44.894387"
+        "lat": "45.448034",
+        "lng": "6.980226"
       },
-      "length": 143,
-      "type": "Étape de montagne",
+      "length": 30,
+      "type": " Étape de montagne (CLM)",
       "winner": {
-        "name": "Drapeau : SuissePascal Richard",
+        "name": "Drapeau : RussieEvgueni Berzin",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": "Drapeau : RussieEvgueni Berzin",
         "nationality": null
       }
     },
@@ -276,19 +276,19 @@
       "start": {
         "city": "Le Monêtier-les-Bains",
         "country": "France",
-        "lng": "6.507839",
-        "lat": "44.976254"
+        "lat": "44.976254",
+        "lng": "6.507839"
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "city": "Sestrières",
+        "country": "Italie",
+        "lat": "44.9565",
+        "lng": "6.879234"
       },
-      "length": 177,
-      "type": "Étape de montagne",
+      "length": 46,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : DanemarkRolf Sørensen",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Turin",
         "country": "Italie",
-        "lng": "7.685676",
-        "lat": "45.070982"
+        "lat": "45.070982",
+        "lng": "7.685676"
       },
       "finish": {
-        "city": "Wasquehal",
+        "city": "Gap",
         "country": "France",
-        "lng": "3.130782",
-        "lat": "50.669276"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 202,
-      "type": "Étape de montagne",
+      "length": 208,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : ColombieJosé Jaime González",
+        "name": "Drapeau : AllemagneErik Zabel",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Nogent-sur-Oise",
+        "city": "Valence",
         "country": "France",
-        "lng": "2.464688",
-        "lat": "49.278948"
+        "lat": "44.933393",
+        "lng": "4.89236"
       },
-      "length": 185,
-      "type": null,
+      "length": 202,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : OuzbékistanDjamolidine Abdoujaparov",
+        "name": "Drapeau : ColombieJosé Jaime González",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Valence",
         "country": "France",
-        "lng": "4.89236",
-        "lat": "44.933393"
+        "lat": "44.933393",
+        "lng": "4.89236"
       },
       "finish": {
-        "city": "Lac de Madine",
+        "city": "Le Puy-en-Velay",
         "country": "France",
-        "lng": "5.736175",
-        "lat": "48.921618"
+        "lat": "45.042768",
+        "lng": "3.882936"
       },
-      "length": 176,
-      "type": null,
+      "length": 143,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : ItalieMassimo Podenzana",
+        "name": "Drapeau : SuissePascal Richard",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Le Puy-en-Velay",
         "country": "France",
-        "lng": "3.882936",
-        "lat": "45.042768"
+        "lat": "45.042768",
+        "lng": "3.882936"
       },
       "finish": {
-        "city": "Besançon",
+        "city": "Super Besse, Besse",
         "country": "France",
-        "lng": "6.024054",
-        "lat": "47.237829"
+        "lat": "45.508022",
+        "lng": "2.861518"
       },
-      "length": 199,
-      "type": "Étape de montagne",
+      "length": 177,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": "Drapeau : DanemarkRolf Sørensen",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Besse",
         "country": "France",
-        "lng": "6.176963",
-        "lat": "43.34952"
+        "lat": "43.34952",
+        "lng": "6.176963"
       },
       "finish": {
-        "city": "Aix-les-Bains",
+        "city": "Tulle",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "45.26565",
+        "lng": "1.771697"
       },
-      "length": 262,
-      "type": "Étape de montagne",
+      "length": 185,
+      "type": null,
       "winner": {
-        "name": "Drapeau : SuisseLaurent Dufaux",
+        "name": "Drapeau : OuzbékistanDjamolidine Abdoujaparov",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Brive",
         "country": "France",
-        "lng": "1.533937",
-        "lat": "45.159555"
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "finish": {
-        "city": "Les Arcs, Bourg-Saint-Maurice",
+        "city": "Villeneuve-sur-Lot",
         "country": "France",
-        "lng": "6.796495",
-        "lat": "45.594058"
+        "lat": "44.407126",
+        "lng": "0.703561"
       },
-      "length": 154,
-      "type": "Étape de montagne",
+      "length": 176,
+      "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasBart Voskamp",
+        "name": "Drapeau : ItalieMassimo Podenzana",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Agen",
         "country": "France",
-        "lng": "0.616363",
-        "lat": "44.203142"
+        "lat": "44.203142",
+        "lng": "0.616363"
       },
       "finish": {
-        "city": "Val-d'Isère",
+        "city": "Hautacam, Préchac",
         "country": "France",
-        "lng": "6.980226",
-        "lat": "45.448034"
+        "lat": "42.972222",
+        "lng": "-0.0075"
       },
-      "length": 226,
-      "type": null,
+      "length": 199,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : FranceFrédéric Moncassin",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Argelès-Gazost",
         "country": "France",
-        "lng": "-0.101087",
-        "lat": "43.005028"
+        "lat": "43.005028",
+        "lng": "-0.101087"
       },
       "finish": {
-        "city": "Sestrières",
-        "country": "Italie",
-        "lng": "6.879234",
-        "lat": "44.9565"
+        "city": "Pampelune",
+        "country": "Espagne",
+        "lat": "42.811663",
+        "lng": "-1.648265"
       },
-      "length": 63,
-      "type": "(CLM)",
+      "length": 262,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": "Drapeau : SuisseLaurent Dufaux",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Pampelune",
         "country": "Espagne",
-        "lng": "-1.648265",
-        "lat": "42.811663"
+        "lat": "42.811663",
+        "lng": "-1.648265"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Hendaye",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "43.359399",
+        "lng": "-1.766148"
       },
-      "length": 209,
-      "type": null,
+      "length": 154,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : FranceFrédéric Moncassin",
+        "name": "Drapeau : Pays-BasBart Voskamp",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Hendaye",
         "country": "France",
-        "lng": "-1.766148",
-        "lat": "43.359399"
+        "lat": "43.359399",
+        "lng": "-1.766148"
       },
       "finish": {
-        "city": "Valence",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "4.89236",
-        "lat": "44.933393"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 247,
+      "length": 226,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": "Drapeau : FranceFrédéric Moncassin",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Super Besse, Besse",
+        "city": "Saint-Émilion",
         "country": "France",
-        "lng": "2.861518",
-        "lat": "45.508022"
+        "lat": "44.894387",
+        "lng": "-0.155729"
       },
-      "length": 232,
-      "type": null,
+      "length": 63,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : FranceCyril Saugrain",
+        "name": "Drapeau : AllemagneJan Ullrich",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceStéphane Heulot",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Palaiseau",
         "country": "France",
-        "lng": "2.245748",
-        "lat": "48.714509"
+        "lat": "48.714509",
+        "lng": "2.245748"
       },
       "finish": {
-        "city": "Tulle",
+        "city": "Paris",
         "country": "France",
-        "lng": "1.771697",
-        "lat": "45.26565"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 232,
+      "length": 147,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJeroen Blijlevens",
+        "name": "Drapeau : ItalieFabio Baldato",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceStéphane Heulot",
+        "name": "Drapeau : DanemarkBjarne Riis",
         "nationality": null
       }
     }

@@ -24,14 +24,14 @@
       "start": {
         "city": "Porto-Vecchio",
         "country": "France",
-        "lng": "9.278311",
-        "lat": "41.591369"
+        "lat": "41.591369",
+        "lng": "9.278311"
       },
       "finish": {
         "city": "Bastia",
         "country": "France",
-        "lng": "9.450881",
-        "lat": "42.697283"
+        "lat": "42.697283",
+        "lng": "9.450881"
       },
       "length": 212,
       "type": "Étape de plaine",
@@ -52,17 +52,17 @@
       "start": {
         "city": "Bastia",
         "country": "France",
-        "lng": "9.450881",
-        "lat": "42.697283"
+        "lat": "42.697283",
+        "lng": "9.450881"
       },
       "finish": {
-        "city": "Tours",
+        "city": "Ajaccio",
         "country": "France",
-        "lng": "0.68484",
-        "lat": "47.394144"
+        "lat": "41.919229",
+        "lng": "8.738635"
       },
-      "length": 25,
-      "type": "Contre-la-montre par équipes",
+      "length": 154,
+      "type": "Étape accidentée",
       "winner": {
         "name": null,
         "nationality": null
@@ -80,16 +80,16 @@
       "start": {
         "city": "Ajaccio",
         "country": "France",
-        "lng": "8.738635",
-        "lat": "41.919229"
+        "lat": "41.919229",
+        "lng": "8.738635"
       },
       "finish": {
-        "city": "Mont Ventoux",
+        "city": "Calvi",
         "country": "France",
-        "lng": "5.283795",
-        "lat": "44.173925"
+        "lat": "42.567651",
+        "lng": "8.757222"
       },
-      "length": 205,
+      "length": 145,
       "type": "Étape accidentée",
       "winner": {
         "name": null,
@@ -108,17 +108,17 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Nice",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 194,
-      "type": "Étape de montagne",
+      "length": 25,
+      "type": "Contre-la-montre par équipes",
       "winner": {
         "name": null,
         "nationality": null
@@ -136,17 +136,17 @@
       "start": {
         "city": "Cagnes-sur-Mer",
         "country": "France",
-        "lng": "7.14882",
-        "lat": "43.663739"
+        "lat": "43.663739",
+        "lng": "7.14882"
       },
       "finish": {
-        "city": "Chorges",
+        "city": "Marseille",
         "country": "France",
-        "lng": "6.275548",
-        "lat": "44.545716"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 165,
-      "type": "Étape de montagne",
+      "length": 219,
+      "type": "Étape de plaine",
       "winner": {
         "name": null,
         "nationality": null
@@ -164,16 +164,16 @@
       "start": {
         "city": "Aix-en-Provence",
         "country": "France",
-        "lng": "5.447427",
-        "lat": "43.529742"
+        "lat": "43.529742",
+        "lng": "5.447427"
       },
       "finish": {
-        "city": "Alpe d'Huez",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 193,
+      "length": 176,
       "type": "Étape de plaine",
       "winner": {
         "name": null,
@@ -192,17 +192,17 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Le Grand-Bornand",
+        "city": "Albi",
         "country": "France",
-        "lng": "6.426699",
-        "lat": "45.942027"
+        "lat": "43.926896",
+        "lng": "2.146343"
       },
-      "length": 33,
-      "type": "Contre-la-montre",
+      "length": 205,
+      "type": "Étape accidentée",
       "winner": {
         "name": null,
         "nationality": null
@@ -220,17 +220,17 @@
       "start": {
         "city": "Castres",
         "country": "France",
-        "lng": "2.241295",
-        "lat": "43.606214"
+        "lat": "43.606214",
+        "lng": "2.241295"
       },
       "finish": {
-        "city": "Semnoz",
+        "city": "Ax 3 Domaines",
         "country": "France",
-        "lng": "6.104722",
-        "lat": "45.797222"
+        "lat": "42.699657",
+        "lng": "1.81283"
       },
-      "length": 173,
-      "type": "Étape de plaine",
+      "length": 194,
+      "type": "Étape de montagne",
       "winner": {
         "name": null,
         "nationality": null
@@ -248,17 +248,17 @@
       "start": {
         "city": "Saint-Girons",
         "country": "France",
-        "lng": "1.146088",
-        "lat": "42.982876"
+        "lat": "42.982876",
+        "lng": "1.146088"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Bagnères-de-Bigorre",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
-      "length": 191,
-      "type": "Étape accidentée",
+      "length": 165,
+      "type": "Étape de montagne",
       "winner": {
         "name": null,
         "nationality": null
@@ -276,16 +276,16 @@
       "start": {
         "city": "Saint-Gildas-des-Bois",
         "country": "France",
-        "lng": "-2.037288",
-        "lat": "47.517319"
+        "lat": "47.517319",
+        "lng": "-2.037288"
       },
       "finish": {
-        "city": "Ajaccio",
+        "city": "Saint-Malo",
         "country": "France",
-        "lng": "8.738635",
-        "lat": "41.919229"
+        "lat": "48.649337",
+        "lng": "-2.025674"
       },
-      "length": 218,
+      "length": 193,
       "type": "Étape de plaine",
       "winner": {
         "name": null,
@@ -304,17 +304,17 @@
       "start": {
         "city": "Avranches",
         "country": "France",
-        "lng": "-1.36166",
-        "lat": "48.686843"
+        "lat": "48.686843",
+        "lng": "-1.36166"
       },
       "finish": {
-        "city": "Calvi",
+        "city": "Mont-Saint-Michel",
         "country": "France",
-        "lng": "8.757222",
-        "lat": "42.567651"
+        "lat": "48.636063",
+        "lng": "-1.511457"
       },
-      "length": 242,
-      "type": "Étape de montagne",
+      "length": 33,
+      "type": "Contre-la-montre",
       "winner": {
         "name": null,
         "nationality": null
@@ -332,17 +332,17 @@
       "start": {
         "city": "Fougères",
         "country": "France",
-        "lng": "-1.204626",
-        "lat": "48.351561"
+        "lat": "48.351561",
+        "lng": "-1.204626"
       },
       "finish": {
-        "city": "Nice",
+        "city": "Tours",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "47.394144",
+        "lng": "0.68484"
       },
-      "length": 168,
-      "type": "Étape accidentée",
+      "length": 218,
+      "type": "Étape de plaine",
       "winner": {
         "name": null,
         "nationality": null
@@ -360,17 +360,17 @@
       "start": {
         "city": "Tours",
         "country": "France",
-        "lng": "0.68484",
-        "lat": "47.394144"
+        "lat": "47.394144",
+        "lng": "0.68484"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Saint-Amand-Montrond",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "46.725486",
+        "lng": "2.505604"
       },
-      "length": 32,
-      "type": "Contre-la-montre",
+      "length": 173,
+      "type": "Étape de plaine",
       "winner": {
         "name": null,
         "nationality": null
@@ -388,17 +388,17 @@
       "start": {
         "city": "Saint-Pourçain-sur-Sioule",
         "country": "France",
-        "lng": "3.288997",
-        "lat": "46.307204"
+        "lat": "46.307204",
+        "lng": "3.288997"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "Lyon",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
-      "length": 168,
-      "type": "Étape de montagne",
+      "length": 191,
+      "type": "Étape accidentée",
       "winner": {
         "name": null,
         "nationality": null
@@ -416,16 +416,16 @@
       "start": {
         "city": "Givors",
         "country": "France",
-        "lng": "4.772829",
-        "lat": "45.58329"
+        "lat": "45.58329",
+        "lng": "4.772829"
       },
       "finish": {
-        "city": "Albi",
+        "city": "Mont Ventoux",
         "country": "France",
-        "lng": "2.146343",
-        "lat": "43.926896"
+        "lat": "44.173925",
+        "lng": "5.283795"
       },
-      "length": 204,
+      "length": 242,
       "type": "Étape de montagne",
       "winner": {
         "name": null,
@@ -444,17 +444,17 @@
       "start": {
         "city": "Vaison-la-Romaine",
         "country": "France",
-        "lng": "5.075198",
-        "lat": "44.240968"
+        "lat": "44.240968",
+        "lng": "5.075198"
       },
       "finish": {
-        "city": "Ax 3 Domaines",
+        "city": "Gap",
         "country": "France",
-        "lng": "1.81283",
-        "lat": "42.699657"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 125,
-      "type": "Étape de montagne",
+      "length": 168,
+      "type": "Étape accidentée",
       "winner": {
         "name": null,
         "nationality": null
@@ -472,17 +472,17 @@
       "start": {
         "city": "Embrun",
         "country": "France",
-        "lng": "6.495865",
-        "lat": "44.564164"
+        "lat": "44.564164",
+        "lng": "6.495865"
       },
       "finish": {
-        "city": "Bagnères-de-Bigorre",
+        "city": "Chorges",
         "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "lat": "44.545716",
+        "lng": "6.275548"
       },
-      "length": 118,
-      "type": "Étape de plaine",
+      "length": 32,
+      "type": "Contre-la-montre",
       "winner": {
         "name": null,
         "nationality": null
@@ -500,17 +500,17 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Saint-Malo",
+        "city": "Alpe d'Huez",
         "country": "France",
-        "lng": "-2.025674",
-        "lat": "48.649337"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
-      "length": 154,
-      "type": "Étape accidentée",
+      "length": 168,
+      "type": "Étape de montagne",
       "winner": {
         "name": null,
         "nationality": null
@@ -528,17 +528,17 @@
       "start": {
         "city": "Bourg-d'Oisans",
         "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Mont-Saint-Michel",
+        "city": "Le Grand-Bornand",
         "country": "France",
-        "lng": "-1.511457",
-        "lat": "48.636063"
+        "lat": "45.942027",
+        "lng": "6.426699"
       },
-      "length": 145,
-      "type": "Étape accidentée",
+      "length": 204,
+      "type": "Étape de montagne",
       "winner": {
         "name": null,
         "nationality": null
@@ -556,17 +556,17 @@
       "start": {
         "city": "Annecy",
         "country": "France",
-        "lng": "6.129384",
-        "lat": "45.899247"
+        "lat": "45.899247",
+        "lng": "6.129384"
       },
       "finish": {
-        "city": "Saint-Amand-Montrond",
+        "city": "Semnoz",
         "country": "France",
-        "lng": "2.505604",
-        "lat": "46.725486"
+        "lat": "45.797222",
+        "lng": "6.104722"
       },
-      "length": 219,
-      "type": "Étape de plaine",
+      "length": 125,
+      "type": "Étape de montagne",
       "winner": {
         "name": null,
         "nationality": null
@@ -584,16 +584,16 @@
       "start": {
         "city": "Versailles",
         "country": "France",
-        "lng": "2.130122",
-        "lat": "48.801408"
+        "lat": "48.801408",
+        "lng": "2.130122"
       },
       "finish": {
-        "city": "Lyon",
+        "city": "Paris",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 176,
+      "length": 118,
       "type": "Étape de plaine",
       "winner": {
         "name": null,

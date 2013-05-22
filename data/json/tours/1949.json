@@ -24,14 +24,14 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Reims",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "length": 182,
       "type": null,
@@ -52,23 +52,23 @@
       "start": {
         "city": "Reims",
         "country": "France",
-        "lng": "4.031696",
-        "lat": "49.258329"
+        "lat": "49.258329",
+        "lng": "4.031696"
       },
       "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
-      "length": 185,
+      "length": 273,
       "type": null,
       "winner": {
-        "name": "Lucien Teisseire Drapeau de France France",
+        "name": "Roger Lambrecht Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": "Roger Lambrecht Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -80,23 +80,23 @@
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "finish": {
-        "city": "Cannes",
+        "city": "Boulogne-sur-Mer",
         "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
+        "lat": "50.725231",
+        "lng": "1.613334"
       },
-      "length": 92,
-      "type": "(CLM)",
+      "length": 211,
+      "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": "Norbert Callens Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Gauthier Drapeau de France France",
+        "name": "Norbert Callens Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -108,19 +108,19 @@
       "start": {
         "city": "Boulogne-sur-Mer",
         "country": "France",
-        "lng": "1.613334",
-        "lat": "50.725231"
+        "lat": "50.725231",
+        "lng": "1.613334"
       },
       "finish": {
-        "city": "Briançon",
+        "city": "Rouen",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "49.443232",
+        "lng": "1.099971"
       },
-      "length": 262,
+      "length": 185,
       "type": null,
       "winner": {
-        "name": "Guy Lapébie Drapeau de France France",
+        "name": "Lucien Teisseire Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Rouen",
         "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
+        "lat": "49.443232",
+        "lng": "1.099971"
       },
       "finish": {
-        "city": "Aoste",
-        "country": "Italie",
-        "lng": "7.299412",
-        "lat": "45.751838"
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
       },
-      "length": 228,
+      "length": 293,
       "type": null,
       "winner": {
-        "name": "Louis Caput Drapeau de France France",
+        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
         "nationality": null
       },
       "leader": {
@@ -164,23 +164,23 @@
       "start": {
         "city": "Saint-Malo",
         "country": "France",
-        "lng": "-2.025674",
-        "lat": "48.649337"
+        "lat": "48.649337",
+        "lng": "-2.025674"
       },
       "finish": {
-        "city": "Lausanne",
-        "country": "Suisse",
-        "lng": "6.633597",
-        "lat": "46.519962"
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
-      "length": 192,
+      "length": 305,
       "type": null,
       "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": "Adolphe Deledda Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": "Jacques Marinelli Drapeau de France France",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Les Sables-d'Olonne",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "46.492958",
+        "lng": "-1.795493"
       },
       "finish": {
-        "city": "Colmar",
+        "city": "La Rochelle",
         "country": "France",
-        "lng": "7.358512",
-        "lat": "48.079359"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
-      "length": 193,
-      "type": null,
+      "length": 92,
+      "type": "(CLM)",
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": "Bernard Gauthier Drapeau de France France",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "La Rochelle",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
       "finish": {
-        "city": "Nancy",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 289,
+      "length": 262,
       "type": null,
       "winner": {
-        "name": "Émile Idée Drapeau de France France",
+        "name": "Guy Lapébie Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": "Jacques Marinelli Drapeau de France France",
         "nationality": null
       }
     },
@@ -248,23 +248,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
-      "length": 199,
+      "length": 228,
       "type": null,
       "winner": {
-        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "name": "Louis Caput Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": "Jacques Marinelli Drapeau de France France",
         "nationality": null
       }
     },
@@ -276,19 +276,19 @@
       "start": {
         "city": "Saint-Sébastien",
         "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
       "finish": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 134,
+      "length": 192,
       "type": null,
       "winner": {
-        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Boulogne-sur-Mer",
+        "city": "Luchon",
         "country": "France",
-        "lng": "1.613334",
-        "lat": "50.725231"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 215,
+      "length": 193,
       "type": null,
       "winner": {
-        "name": "Désiré Keteleer Drapeau belge Belgique",
+        "name": "Jean Robic Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -332,14 +332,126 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Rouen",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "1.099971",
-        "lat": "49.443232"
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 134,
+      "type": null,
+      "winner": {
+        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1949-13",
+      "year": 1949,
+      "leg": 13,
+      "title": "Toulouse - Nîmes",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 289,
+      "type": null,
+      "winner": {
+        "name": "Émile Idée Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1949-14",
+      "year": 1949,
+      "leg": 14,
+      "title": "Nîmes - Marseille",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 199,
+      "type": null,
+      "winner": {
+        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1949-15",
+      "year": 1949,
+      "leg": 15,
+      "title": "Marseille - Cannes",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "length": 215,
+      "type": null,
+      "winner": {
+        "name": "Désiré Keteleer Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1949-16",
+      "year": 1949,
+      "leg": 16,
+      "title": "Cannes - Briançon",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "length": 275,
       "type": null,
@@ -353,118 +465,6 @@
       }
     },
     {
-      "id": "E-1949-13",
-      "year": 1949,
-      "leg": 13,
-      "title": "Toulouse - Nîmes",
-      "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "finish": {
-        "city": "Saint-Malo",
-        "country": "France",
-        "lng": "-2.025674",
-        "lat": "48.649337"
-      },
-      "length": 257,
-      "type": null,
-      "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1949-14",
-      "year": 1949,
-      "leg": 14,
-      "title": "Nîmes - Marseille",
-      "start": {
-        "city": "Nîmes",
-        "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
-      },
-      "finish": {
-        "city": "Les Sables-d'Olonne",
-        "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
-      },
-      "length": 265,
-      "type": null,
-      "winner": {
-        "name": "Vincenzo Rossello Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1949-15",
-      "year": 1949,
-      "leg": 15,
-      "title": "Marseille - Cannes",
-      "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
-      },
-      "finish": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
-      },
-      "length": 283,
-      "type": null,
-      "winner": {
-        "name": "Raphaël Géminiani Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1949-16",
-      "year": 1949,
-      "leg": 16,
-      "title": "Cannes - Briançon",
-      "start": {
-        "city": "Cannes",
-        "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
-      },
-      "length": 137,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1949-17",
       "year": 1949,
       "leg": 17,
@@ -472,19 +472,19 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
+        "city": "Aoste",
+        "country": "Italie",
+        "lat": "45.751838",
+        "lng": "7.299412"
       },
-      "length": 340,
+      "length": 257,
       "type": null,
       "winner": {
-        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Aoste",
         "country": "Italie",
-        "lng": "7.299412",
-        "lat": "45.751838"
+        "lat": "45.751838",
+        "lng": "7.299412"
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
       },
-      "length": 273,
+      "length": 265,
       "type": null,
       "winner": {
-        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "name": "Vincenzo Rossello Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Lausanne",
         "country": "Suisse",
-        "lng": "6.633597",
-        "lat": "46.519962"
+        "lat": "46.519962",
+        "lng": "6.633597"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Colmar",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "48.079359",
+        "lng": "7.358512"
       },
-      "length": 211,
+      "length": 283,
       "type": null,
       "winner": {
-        "name": "Norbert Callens Drapeau belge Belgique",
+        "name": "Raphaël Géminiani Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Norbert Callens Drapeau belge Belgique",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Colmar",
         "country": "France",
-        "lng": "7.358512",
-        "lat": "48.079359"
+        "lat": "48.079359",
+        "lng": "7.358512"
       },
       "finish": {
-        "city": "Nîmes",
+        "city": "Nancy",
         "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
-      "length": 293,
-      "type": null,
+      "length": 137,
+      "type": " (CLM)",
       "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Nancy",
         "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Paris",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 305,
+      "length": 340,
       "type": null,
       "winner": {
-        "name": "Adolphe Deledda Drapeau de France France",
+        "name": "Rik Van Steenbergen Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": "Fausto Coppi Drapeau d'Italie Italie",
         "nationality": null
       }
     }

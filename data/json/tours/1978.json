@@ -24,23 +24,23 @@
       "start": {
         "city": "Leiden",
         "country": "Pays-Bas",
-        "lng": "4.496199",
-        "lat": "52.158494"
+        "lat": "52.158494",
+        "lng": "4.496199"
       },
       "finish": {
         "city": "Leiden",
         "country": "Pays-bas",
-        "lng": "4.496199",
-        "lat": "52.158494"
+        "lat": "52.158494",
+        "lng": "4.496199"
       },
-      "length": 161,
-      "type": null,
+      "length": 5,
+      "type": "(CLM)",
       "winner": {
-        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       }
     },
@@ -52,23 +52,23 @@
       "start": {
         "city": "Leiden",
         "country": "Pays-Bas",
-        "lng": "4.496199",
-        "lat": "52.158494"
+        "lat": "52.158494",
+        "lng": "4.496199"
       },
       "finish": {
-        "city": "Puy de Dôme",
-        "country": "France",
-        "lng": "3.015582",
-        "lat": "45.712414"
+        "city": "Sint Willebrord",
+        "country": "Pays-bas",
+        "lat": "51.551778",
+        "lng": "4.58975"
       },
-      "length": 153,
-      "type": "(CLM par équipes)",
+      "length": 135,
+      "type": null,
       "winner": {
-        "name": "TI-Raleigh Drapeau : Pays-Bas Pays-Bas",
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
-        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
+        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       }
     },
@@ -80,154 +80,14 @@
       "start": {
         "city": "Sint Willebrord",
         "country": "Pays-Bas",
-        "lng": "4.58975",
-        "lat": "51.551778"
+        "lat": "51.551778",
+        "lng": "4.58975"
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
-      },
-      "length": 244,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-02",
-      "year": 1978,
-      "leg": 2,
-      "title": "Bruxelles (BEL) - Saint-Amand-les-Eaux",
-      "start": {
         "city": "Bruxelles",
         "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
-      },
-      "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
-      },
-      "length": 162,
-      "type": null,
-      "winner": {
-        "name": "Seán Kelly Drapeau d'Irlande Irlande",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-03",
-      "year": 1978,
-      "leg": 3,
-      "title": "Saint-Amand-les-Eaux - Saint-Germain-en-Laye",
-      "start": {
-        "city": "Saint-Amand-les-Eaux",
-        "country": "France",
-        "lng": "3.428713",
-        "lat": "50.448979"
-      },
-      "finish": {
-        "city": "Nancy",
-        "country": "France",
-        "lng": "6.184417",
-        "lat": "48.692054"
-      },
-      "length": 96,
-      "type": null,
-      "winner": {
-        "name": "Jacques Esclassan Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Joseph Bruyère Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-04",
-      "year": 1978,
-      "leg": 4,
-      "title": "Évreux - Caen",
-      "start": {
-        "city": "Évreux",
-        "country": "France",
-        "lng": "1.151361",
-        "lat": "49.027013"
-      },
-      "finish": {
-        "city": "Senlis",
-        "country": "France",
-        "lng": "2.583212",
-        "lat": "49.205164"
-      },
-      "length": 221,
-      "type": null,
-      "winner": {
-        "name": "Paul Wellens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Joseph Bruyère Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-05",
-      "year": 1978,
-      "leg": 5,
-      "title": "Caen - Mazé-Montgeoffroy",
-      "start": {
-        "city": "Caen",
-        "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 52,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Joseph Bruyère Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-06",
-      "year": 1978,
-      "leg": 6,
-      "title": "Mazé-Montgeoffroy - Poitiers",
-      "start": {
-        "city": "Mazé-Montgeoffroy",
-        "country": "France",
-        "lng": "-0.277046",
-        "lat": "47.468481"
-      },
-      "finish": {
-        "city": "Valence-d'Agen",
-        "country": "France",
-        "lng": "0.890241",
-        "lat": "44.108057"
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "length": 100,
       "type": null,
@@ -241,21 +101,21 @@
       }
     },
     {
-      "id": "E-1978-07",
+      "id": "E-1978-02",
       "year": 1978,
-      "leg": 7,
-      "title": "Poitiers - Bordeaux",
+      "leg": 2,
+      "title": "Bruxelles (BEL) - Saint-Amand-les-Eaux",
       "start": {
-        "city": "Poitiers",
-        "country": "France",
-        "lng": "0.340375",
-        "lat": "46.580224"
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "finish": {
-        "city": "Toulouse",
+        "city": "Saint-Amand-les-Eaux",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "50.448979",
+        "lng": "3.428713"
       },
       "length": 299,
       "type": null,
@@ -269,6 +129,146 @@
       }
     },
     {
+      "id": "E-1978-03",
+      "year": 1978,
+      "leg": 3,
+      "title": "Saint-Amand-les-Eaux - Saint-Germain-en-Laye",
+      "start": {
+        "city": "Saint-Amand-les-Eaux",
+        "country": "France",
+        "lat": "50.448979",
+        "lng": "3.428713"
+      },
+      "finish": {
+        "city": "Saint-Germain-en-Laye",
+        "country": "France",
+        "lat": "48.898908",
+        "lng": "2.093761"
+      },
+      "length": 243,
+      "type": null,
+      "winner": {
+        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Jacques Bossis Drapeau de France France",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-04",
+      "year": 1978,
+      "leg": 4,
+      "title": "Évreux - Caen",
+      "start": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 153,
+      "type": "(CLM par équipes)",
+      "winner": {
+        "name": "TI-Raleigh Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-05",
+      "year": 1978,
+      "leg": 5,
+      "title": "Caen - Mazé-Montgeoffroy",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Mazé-Montgeoffroy",
+        "country": "France",
+        "lat": "47.468481",
+        "lng": "-0.277046"
+      },
+      "length": 244,
+      "type": null,
+      "winner": {
+        "name": "Freddy Maertens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-06",
+      "year": 1978,
+      "leg": 6,
+      "title": "Mazé-Montgeoffroy - Poitiers",
+      "start": {
+        "city": "Mazé-Montgeoffroy",
+        "country": "France",
+        "lat": "47.468481",
+        "lng": "-0.277046"
+      },
+      "finish": {
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
+      },
+      "length": 162,
+      "type": null,
+      "winner": {
+        "name": "Seán Kelly Drapeau d'Irlande Irlande",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-07",
+      "year": 1978,
+      "leg": 7,
+      "title": "Poitiers - Bordeaux",
+      "start": {
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 242,
+      "type": null,
+      "winner": {
+        "name": "Freddy Maertens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1978-08",
       "year": 1978,
       "leg": 8,
@@ -276,19 +276,19 @@
       "start": {
         "city": "Saint-Émilion",
         "country": "France",
-        "lng": "-0.155729",
-        "lat": "44.894387"
+        "lat": "44.894387",
+        "lng": "-0.155729"
       },
       "finish": {
-        "city": "Sint Willebrord",
-        "country": "Pays-bas",
-        "lng": "4.58975",
-        "lat": "51.551778"
+        "city": "Sainte-Foy-la-Grande",
+        "country": "France",
+        "lat": "44.841805",
+        "lng": "0.215006"
       },
-      "length": 191,
-      "type": null,
+      "length": 59,
+      "type": "(CLM)",
       "winner": {
-        "name": "Henk Lubberding Drapeau : Pays-Bas Pays-Bas",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "city": "Biarritz",
+        "country": "France",
+        "lat": "43.483152",
+        "lng": "-1.558626"
       },
-      "length": 161,
+      "length": 233,
       "type": null,
       "winner": {
-        "name": "Mariano Martínez Drapeau de France France",
+        "name": "Miguel María Lasa Drapeau : EspagneEspagne",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Biarritz",
         "country": "France",
-        "lng": "-1.558626",
-        "lat": "43.483152"
+        "lat": "43.483152",
+        "lng": "-1.558626"
       },
       "finish": {
-        "city": "Saint-Amand-les-Eaux",
+        "city": "Pau",
         "country": "France",
-        "lng": "3.428713",
-        "lat": "50.448979"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 158,
+      "length": 191,
       "type": null,
       "winner": {
-        "name": "Etape annulée (grève des coureurs)",
+        "name": "Henk Lubberding Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Saint-Germain-en-Laye",
+        "city": "Saint-Lary-Soulan",
         "country": "France",
-        "lng": "2.093761",
-        "lat": "48.898908"
+        "lat": "42.815835",
+        "lng": "0.320251"
       },
-      "length": 196,
+      "length": 161,
       "type": null,
       "winner": {
-        "name": "Bernard Hinault Drapeau de France France",
+        "name": "Mariano Martínez Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -388,14 +388,154 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Caen",
+        "city": "Valence-d'Agen",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "length": 158,
+      "type": null,
+      "winner": {
+        "name": "Etape annulée (grève des coureurs)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-12b",
+      "year": 1978,
+      "leg": 12,
+      "title": "Valence-d'Agen - Toulouse",
+      "start": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 96,
+      "type": null,
+      "winner": {
+        "name": "Jacques Esclassan Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-13",
+      "year": 1978,
+      "leg": 13,
+      "title": "Figeac - Super Besse",
+      "start": {
+        "city": "Figeac",
+        "country": "France",
+        "lat": "44.608288",
+        "lng": "2.032871"
+      },
+      "finish": {
+        "city": "Super Besse",
+        "country": "France",
+        "lat": "45.508022",
+        "lng": "2.861518"
+      },
+      "length": 221,
+      "type": null,
+      "winner": {
+        "name": "Paul Wellens Drapeau belge Belgique",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-14",
+      "year": 1978,
+      "leg": 14,
+      "title": "Besse-en-Chandesse - Puy de Dôme",
+      "start": {
+        "city": "Besse-en-Chandesse",
+        "country": "France",
+        "lat": "45.510908",
+        "lng": "2.933859"
+      },
+      "finish": {
+        "city": "Puy de Dôme",
+        "country": "France",
+        "lat": "45.77207",
+        "lng": "2.96974"
+      },
+      "length": 52,
+      "type": "(CLM)",
+      "winner": {
+        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-15",
+      "year": 1978,
+      "leg": 15,
+      "title": "Saint-Dier-d'Auvergne - Saint-Étienne",
+      "start": {
+        "city": "Saint-Dier-d'Auvergne",
+        "country": "France",
+        "lat": "45.675563",
+        "lng": "3.482832"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 196,
+      "type": null,
+      "winner": {
+        "name": "Bernard Hinault Drapeau de France France",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1978-16",
+      "year": 1978,
+      "leg": 16,
+      "title": "Saint-Étienne - L'Alpe d'Huez",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
       "length": 240,
       "type": null,
@@ -409,21 +549,21 @@
       }
     },
     {
-      "id": "E-1978-12b",
+      "id": "E-1978-17",
       "year": 1978,
-      "leg": 12,
-      "title": "Valence-d'Agen - Toulouse",
+      "leg": 17,
+      "title": "Grenoble - Morzine",
       "start": {
-        "city": "Valence-d'Agen",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "0.890241",
-        "lat": "44.108057"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Mazé-Montgeoffroy",
+        "city": "Morzine",
         "country": "France",
-        "lng": "-0.277046",
-        "lat": "47.468481"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "length": 225,
       "type": null,
@@ -437,21 +577,21 @@
       }
     },
     {
-      "id": "E-1978-13",
+      "id": "E-1978-18",
       "year": 1978,
-      "leg": 13,
-      "title": "Figeac - Super Besse",
+      "leg": 18,
+      "title": "Morzine - Lausanne (SUI)",
       "start": {
-        "city": "Figeac",
+        "city": "Morzine",
         "country": "France",
-        "lng": "2.032871",
-        "lat": "44.608288"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
       "finish": {
-        "city": "Poitiers",
-        "country": "France",
-        "lng": "0.340375",
-        "lat": "46.580224"
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
       },
       "length": 137,
       "type": null,
@@ -465,21 +605,21 @@
       }
     },
     {
-      "id": "E-1978-14",
+      "id": "E-1978-19",
       "year": 1978,
-      "leg": 14,
-      "title": "Besse-en-Chandesse - Puy de Dôme",
+      "leg": 19,
+      "title": "Lausanne (SUI) - Belfort",
       "start": {
-        "city": "Besse-en-Chandesse",
-        "country": "France",
-        "lng": "2.933859",
-        "lat": "45.510908"
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Belfort",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "length": 181,
       "type": null,
@@ -493,21 +633,21 @@
       }
     },
     {
-      "id": "E-1978-15",
+      "id": "E-1978-20",
       "year": 1978,
-      "leg": 15,
-      "title": "Saint-Dier-d'Auvergne - Saint-Étienne",
+      "leg": 20,
+      "title": "Metz - Nancy",
       "start": {
-        "city": "Saint-Dier-d'Auvergne",
+        "city": "Metz",
         "country": "France",
-        "lng": "3.482832",
-        "lat": "45.675563"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Sainte-Foy-la-Grande",
+        "city": "Nancy",
         "country": "France",
-        "lng": "0.215006",
-        "lat": "44.841805"
+        "lat": "48.692054",
+        "lng": "6.184417"
       },
       "length": 72,
       "type": "(CLM)",
@@ -521,21 +661,21 @@
       }
     },
     {
-      "id": "E-1978-16",
+      "id": "E-1978-21",
       "year": 1978,
-      "leg": 16,
-      "title": "Saint-Étienne - L'Alpe d'Huez",
+      "leg": 21,
+      "title": "Épernay - Senlis",
       "start": {
-        "city": "Saint-Étienne",
+        "city": "Épernay",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "49.043411",
+        "lng": "3.956242"
       },
       "finish": {
-        "city": "Biarritz",
+        "city": "Senlis",
         "country": "France",
-        "lng": "-1.558626",
-        "lat": "43.483152"
+        "lat": "49.205164",
+        "lng": "2.583212"
       },
       "length": 207,
       "type": null,
@@ -549,146 +689,6 @@
       }
     },
     {
-      "id": "E-1978-17",
-      "year": 1978,
-      "leg": 17,
-      "title": "Grenoble - Morzine",
-      "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
-      },
-      "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-18",
-      "year": 1978,
-      "leg": 18,
-      "title": "Morzine - Lausanne (SUI)",
-      "start": {
-        "city": "Morzine",
-        "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
-      },
-      "finish": {
-        "city": "Saint-Lary-Soulan",
-        "country": "France",
-        "lng": "0.320251",
-        "lat": "42.815835"
-      },
-      "length": 135,
-      "type": null,
-      "winner": {
-        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-19",
-      "year": 1978,
-      "leg": 19,
-      "title": "Lausanne (SUI) - Belfort",
-      "start": {
-        "city": "Lausanne",
-        "country": "Suisse",
-        "lng": "6.633597",
-        "lat": "46.519962"
-      },
-      "finish": {
-        "city": "Super Besse",
-        "country": "France",
-        "lng": "2.861518",
-        "lat": "45.508022"
-      },
-      "length": 243,
-      "type": null,
-      "winner": {
-        "name": "Klaus-Peter Thaler Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jacques Bossis Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-20",
-      "year": 1978,
-      "leg": 20,
-      "title": "Metz - Nancy",
-      "start": {
-        "city": "Metz",
-        "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
-      },
-      "finish": {
-        "city": "Morzine",
-        "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
-      },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-21",
-      "year": 1978,
-      "leg": 21,
-      "title": "Épernay - Senlis",
-      "start": {
-        "city": "Épernay",
-        "country": "France",
-        "lng": "3.956242",
-        "lat": "49.043411"
-      },
-      "finish": {
-        "city": "Lausanne",
-        "country": "Suisse",
-        "lng": "6.633597",
-        "lat": "46.519962"
-      },
-      "length": 59,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Joseph Bruyère Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-1978-22",
       "year": 1978,
       "leg": 22,
@@ -696,23 +696,23 @@
       "start": {
         "city": "Saint-Germain-en-Laye",
         "country": "France",
-        "lng": "2.093761",
-        "lat": "48.898908"
+        "lat": "48.898908",
+        "lng": "2.093761"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "Paris",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 233,
+      "length": 161,
       "type": null,
       "winner": {
-        "name": "Miguel María Lasa Drapeau : EspagneEspagne",
+        "name": "Gerrie Knetemann Drapeau : Pays-Bas Pays-Bas",
         "nationality": null
       },
       "leader": {
-        "name": "Joseph Bruyère Drapeau belge Belgique",
+        "name": "Bernard Hinault Drapeau de France France",
         "nationality": null
       }
     }

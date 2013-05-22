@@ -20,18 +20,18 @@
       "id": "E-1904-01",
       "year": 1904,
       "leg": 1,
-      "title": "Montgeron - Lyon",
+      "title": "Montgeron – Lyon",
       "start": {
         "city": "Montgeron",
         "country": "France",
-        "lng": "2.460453",
-        "lat": "48.703859"
+        "lat": "48.703859",
+        "lng": "2.460453"
       },
       "finish": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "length": 467,
       "type": "plaine",
@@ -48,18 +48,18 @@
       "id": "E-1904-02",
       "year": 1904,
       "leg": 2,
-      "title": "Lyon - Marseille",
+      "title": "Lyon – Marseille",
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "length": 374,
       "type": "plaine",
@@ -76,18 +76,18 @@
       "id": "E-1904-03",
       "year": 1904,
       "leg": 3,
-      "title": "Marseille - Toulouse",
+      "title": "Marseille – Toulouse",
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
         "city": "Toulouse",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "length": 424,
       "type": "plaine",
@@ -104,18 +104,18 @@
       "id": "E-1904-04",
       "year": 1904,
       "leg": 4,
-      "title": "Toulouse - Bordeaux",
+      "title": "Toulouse – Bordeaux",
       "start": {
         "city": "Toulouse",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 268,
       "type": "plaine",
@@ -132,18 +132,18 @@
       "id": "E-1904-05",
       "year": 1904,
       "leg": 5,
-      "title": "Bordeaux - Nantes",
+      "title": "Bordeaux – Nantes",
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
         "city": "Nantes",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "length": 425,
       "type": "plaine",
@@ -160,18 +160,18 @@
       "id": "E-1904-06",
       "year": 1904,
       "leg": 6,
-      "title": "Nantes - Paris",
+      "title": "Nantes – Paris",
       "start": {
         "city": "Nantes",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "finish": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "length": 471,
       "type": "plaine",

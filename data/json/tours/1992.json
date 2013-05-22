@@ -24,42 +24,14 @@
       "start": {
         "city": "Saint-Sébastien",
         "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
       "finish": {
         "city": "Saint-Sébastien",
         "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
-      },
-      "length": 175,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : AllemagneOlaf Ludwig",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1992-01",
-      "year": 1992,
-      "leg": 1,
-      "title": "Saint-Sébastien - Saint-Sébastien",
-      "start": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
-      },
-      "finish": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
       "length": 8,
       "type": "(CLM)",
@@ -73,30 +45,58 @@
       }
     },
     {
-      "id": "E-1992-02",
+      "id": "E-1992-01",
       "year": 1992,
-      "leg": 2,
-      "title": "Saint-Sébastien - Pau",
+      "leg": 1,
+      "title": "Saint-Sébastien - Saint-Sébastien  ",
       "start": {
         "city": "Saint-Sébastien",
         "country": "Espagne",
-        "lng": "-1.984993",
-        "lat": "43.321662"
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
       "finish": {
-        "city": "Saint-Gervais",
-        "country": "France",
-        "lng": "6.712187",
-        "lat": "45.892013"
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
       },
-      "length": 218,
-      "type": null,
+      "length": 194,
+      "type": "Étape de montagne",
       "winner": {
-        "name": "Drapeau : Pays-BasRob Harmeling",
+        "name": "Drapeau : FranceDominique Arnould",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": "Drapeau : SuisseAlex Zülle",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1992-02",
+      "year": 1992,
+      "leg": 2,
+      "title": "Saint-Sébastien - Pau  ",
+      "start": {
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 255,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : EspagneJavier Murguialday",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FranceRichard Virenque",
         "nationality": null
       }
     },
@@ -108,19 +108,19 @@
       "start": {
         "city": "Pau",
         "country": "Espagne",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Saint-Étienne",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 167,
+      "length": 218,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLaurent Jalabert",
+        "name": "Drapeau : Pays-BasRob Harmeling",
         "nationality": null
       },
       "leader": {
@@ -136,19 +136,19 @@
       "start": {
         "city": "Libourne",
         "country": "Espagne",
-        "lng": "-0.243985",
-        "lat": "44.912998"
+        "lat": "44.912998",
+        "lng": "-0.243985"
       },
       "finish": {
-        "city": "La Bourboule",
+        "city": "Libourne",
         "country": "France",
-        "lng": "2.738992",
-        "lat": "45.587241"
+        "lat": "44.912998",
+        "lng": "-0.243985"
       },
-      "length": 196,
-      "type": null,
+      "length": 63,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau : FranceGilles Delion",
+        "name": "Drapeau : Pays-BasPanasonic",
         "nationality": null
       },
       "leader": {
@@ -164,19 +164,19 @@
       "start": {
         "city": "Nogent-sur-Oise",
         "country": "Espagne",
-        "lng": "2.464688",
-        "lat": "49.278948"
+        "lat": "49.278948",
+        "lng": "2.464688"
       },
       "finish": {
-        "city": "Montluçon",
+        "city": "Wasquehal",
         "country": "France",
-        "lng": "2.606645",
-        "lat": "46.339966"
+        "lat": "50.669276",
+        "lng": "3.130782"
       },
-      "length": 206,
+      "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueJan Nevens",
+        "name": "Drapeau : ItalieGuido Bontempi",
         "nationality": null
       },
       "leader": {
@@ -192,19 +192,19 @@
       "start": {
         "city": "Roubaix",
         "country": "Espagne",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Tours",
-        "country": "France",
-        "lng": "0.68484",
-        "lat": "47.394144"
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
-      "length": 65,
-      "type": "(CLM)",
+      "length": 167,
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": "Drapeau : FranceLaurent Jalabert",
         "nationality": null
       },
       "leader": {
@@ -220,19 +220,19 @@
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
+        "lat": "50.85034",
+        "lng": "4.35171"
       },
       "finish": {
-        "city": "Blois",
-        "country": "France",
-        "lng": "1.336272",
-        "lat": "47.587952"
+        "city": "Valkenburg",
+        "country": "Pays-Bas",
+        "lat": "50.863796",
+        "lng": "5.833991"
       },
-      "length": 217,
+      "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJean-Paul van Poppel",
+        "name": "Drapeau : FranceGilles Delion",
         "nationality": null
       },
       "leader": {
@@ -248,19 +248,19 @@
       "start": {
         "city": "Valkenburg",
         "country": "Pays-Bas",
-        "lng": "5.833991",
-        "lat": "50.863796"
+        "lat": "50.863796",
+        "lng": "5.833991"
       },
       "finish": {
-        "city": "Nanterre",
-        "country": "France",
-        "lng": "2.215331",
-        "lat": "48.892423"
+        "city": "Coblence",
+        "country": "Allemagne",
+        "lat": "50.360025",
+        "lng": "7.589907"
       },
-      "length": 267,
-      "type": "Étape de montagne",
+      "length": 206,
+      "type": null,
       "winner": {
-        "name": "Drapeau : SuisseRolf Jaermann",
+        "name": "Drapeau : BelgiqueJan Nevens",
         "nationality": null
       },
       "leader": {
@@ -276,23 +276,23 @@
       "start": {
         "city": "Luxembourg",
         "country": "Luxembourg",
-        "lng": "6.129583",
-        "lat": "49.815273"
+        "lat": "49.61162",
+        "lng": "6.13193"
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
       },
-      "length": 254,
-      "type": "Étape de montagne",
+      "length": 65,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": "Drapeau : FrancePascal Lino",
         "nationality": null
       }
     },
@@ -304,14 +304,42 @@
       "start": {
         "city": "Luxembourg",
         "country": "Luxembourg",
-        "lng": "6.129583",
-        "lat": "49.815273"
+        "lat": "49.61162",
+        "lng": "6.13193"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Strasbourg",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "length": 217,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : Pays-BasJean-Paul van Poppel",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FrancePascal Lino",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1992-11",
+      "year": 1992,
+      "leg": 11,
+      "title": "Strasbourg - Mulhouse  ",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lat": "47.750839",
+        "lng": "7.335888"
       },
       "length": 249,
       "type": "Étape de montagne",
@@ -325,21 +353,77 @@
       }
     },
     {
-      "id": "E-1992-11",
+      "id": "E-1992-12",
       "year": 1992,
-      "leg": 11,
-      "title": "Strasbourg - Mulhouse",
+      "leg": 12,
+      "title": "Dole - Saint-Gervais-Mont Blanc  ",
       "start": {
-        "city": "Strasbourg",
+        "city": "Dole",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "47.09534",
+        "lng": "5.49081"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Saint-Gervais",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "45.892013",
+        "lng": "6.712187"
+      },
+      "length": 267,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : SuisseRolf Jaermann",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : FrancePascal Lino",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1992-13",
+      "year": 1992,
+      "leg": 13,
+      "title": "Saint-Gervais - Sestrières  ",
+      "start": {
+        "city": "Saint-Gervais",
+        "country": "France",
+        "lat": "45.892013",
+        "lng": "6.712187"
+      },
+      "finish": {
+        "city": "Sestrières",
+        "country": "France",
+        "lat": "44.9565",
+        "lng": "6.879234"
+      },
+      "length": 254,
+      "type": "Étape de montagne",
+      "winner": {
+        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : EspagneMiguel Indurain",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1992-14",
+      "year": 1992,
+      "leg": 14,
+      "title": "Sestrières - Alpe d'Huez  ",
+      "start": {
+        "city": "Sestrières",
+        "country": "France",
+        "lat": "44.9565",
+        "lng": "6.879234"
+      },
+      "finish": {
+        "city": "Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
       "length": 186,
       "type": "Étape de montagne",
@@ -353,21 +437,21 @@
       }
     },
     {
-      "id": "E-1992-12",
+      "id": "E-1992-15",
       "year": 1992,
-      "leg": 12,
-      "title": "Dole - Saint-Gervais-Mont Blanc",
+      "leg": 15,
+      "title": "Le Bourg-d'Oisans - Saint-Étienne  ",
       "start": {
-        "city": "Dole",
+        "city": "Le Bourg-d'Oisans",
         "country": "France",
-        "lng": "5.49081",
-        "lat": "47.09534"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Libourne",
+        "city": "Saint-Étienne",
         "country": "France",
-        "lng": "-0.243985",
-        "lat": "44.912998"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
       "length": 198,
       "type": "Étape de montagne",
@@ -381,110 +465,26 @@
       }
     },
     {
-      "id": "E-1992-13",
+      "id": "E-1992-16",
       "year": 1992,
-      "leg": 13,
-      "title": "Saint-Gervais - Sestrières",
+      "leg": 16,
+      "title": "Saint-Étienne - La Bourboule  ",
       "start": {
-        "city": "Saint-Gervais",
+        "city": "Saint-Étienne",
         "country": "France",
-        "lng": "6.712187",
-        "lat": "45.892013"
+        "lat": "45.439695",
+        "lng": "4.387178"
       },
       "finish": {
-        "city": "Wasquehal",
+        "city": "La Bourboule",
         "country": "France",
-        "lng": "3.130782",
-        "lat": "50.669276"
+        "lat": "45.587241",
+        "lng": "2.738992"
       },
       "length": 212,
       "type": "Étape de montagne",
       "winner": {
         "name": "Drapeau : IrlandeStephen Roche",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1992-14",
-      "year": 1992,
-      "leg": 14,
-      "title": "Sestrières - Alpe d'Huez",
-      "start": {
-        "city": "Sestrières",
-        "country": "France",
-        "lng": "6.879234",
-        "lat": "44.9565"
-      },
-      "finish": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lng": "4.35171",
-        "lat": "50.85034"
-      },
-      "length": 189,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceJean-Claude Colotti",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1992-15",
-      "year": 1992,
-      "leg": 15,
-      "title": "Le Bourg-d'Oisans - Saint-Étienne",
-      "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
-      },
-      "finish": {
-        "city": "Valkenburg",
-        "country": "Pays-Bas",
-        "lng": "5.833991",
-        "lat": "50.863796"
-      },
-      "length": 212,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceThierry Marie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1992-16",
-      "year": 1992,
-      "leg": 16,
-      "title": "Saint-Étienne - La Bourboule",
-      "start": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lng": "4.387178",
-        "lat": "45.439695"
-      },
-      "finish": {
-        "city": "Coblence",
-        "country": "Allemagne",
-        "lng": "7.589907",
-        "lat": "50.360025"
-      },
-      "length": 64,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "La Bourboule",
         "country": "France",
-        "lng": "2.738992",
-        "lat": "45.587241"
+        "lat": "45.587241",
+        "lng": "2.738992"
       },
       "finish": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lng": "6.129583",
-        "lat": "49.815273"
+        "city": "Montluçon",
+        "country": "France",
+        "lat": "46.339966",
+        "lng": "2.606645"
       },
-      "length": 222,
+      "length": 189,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiquePeter De Clercq",
+        "name": "Drapeau : FranceJean-Claude Colotti",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Montluçon",
         "country": "France",
-        "lng": "2.606645",
-        "lat": "46.339966"
+        "lat": "46.339966",
+        "lng": "2.606645"
       },
       "finish": {
-        "city": "Strasbourg",
+        "city": "Tours",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "47.394144",
+        "lng": "0.68484"
       },
-      "length": 194,
-      "type": "Étape de montagne",
+      "length": 212,
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceDominique Arnould",
+        "name": "Drapeau : FranceThierry Marie",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Tours",
         "country": "France",
-        "lng": "0.68484",
-        "lat": "47.394144"
+        "lat": "47.394144",
+        "lng": "0.68484"
       },
       "finish": {
-        "city": "Mulhouse",
+        "city": "Blois",
         "country": "France",
-        "lng": "7.335888",
-        "lat": "47.750839"
+        "lat": "47.587952",
+        "lng": "1.336272"
       },
-      "length": 255,
-      "type": "Étape de montagne",
+      "length": 64,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : EspagneJavier Murguialday",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Blois",
         "country": "France",
-        "lng": "1.336272",
-        "lat": "47.587952"
+        "lat": "47.587952",
+        "lng": "1.336272"
       },
       "finish": {
-        "city": "Sestrières",
+        "city": "Nanterre",
         "country": "France",
-        "lng": "6.879234",
-        "lat": "44.9565"
+        "lat": "48.892423",
+        "lng": "2.215331"
       },
-      "length": 63,
-      "type": "(CLM par équipes)",
+      "length": 222,
+      "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasPanasonic",
+        "name": "Drapeau : BelgiquePeter De Clercq",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "La Défense",
         "country": "France",
-        "lng": "2.241843",
-        "lat": "48.889736"
+        "lat": "48.889736",
+        "lng": "2.241843"
       },
       "finish": {
-        "city": "Alpe d'Huez",
+        "city": "Paris",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 196,
+      "length": 175,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieGuido Bontempi",
+        "name": "Drapeau : AllemagneOlaf Ludwig",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": "Drapeau : EspagneMiguel Indurain",
         "nationality": null
       }
     }

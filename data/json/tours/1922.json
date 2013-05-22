@@ -24,14 +24,14 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "length": 388,
       "type": null,
@@ -52,70 +52,14 @@
       "start": {
         "city": "Le Havre",
         "country": "France",
-        "lng": "0.107929",
-        "lat": "49.49437"
+        "lat": "49.49437",
+        "lng": "0.107929"
       },
       "finish": {
-        "city": "Toulon",
-        "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
-      },
-      "length": 432,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de Belgique Félix Sellier (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1922-03",
-      "year": 1922,
-      "leg": 3,
-      "title": "Cherbourg - Brest",
-      "start": {
         "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
-      },
-      "length": 325,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1922-04",
-      "year": 1922,
-      "leg": 4,
-      "title": "Brest - Les Sables-d'Olonne",
-      "start": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
-      },
-      "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "length": 364,
       "type": null,
@@ -129,21 +73,21 @@
       }
     },
     {
-      "id": "E-1922-05",
+      "id": "E-1922-03",
       "year": 1922,
-      "leg": 5,
-      "title": "Les Sables-d'Olonne - Bayonne",
+      "leg": 3,
+      "title": "Cherbourg - Brest",
       "start": {
-        "city": "Les Sables-d'Olonne",
+        "city": "Cherbourg",
         "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
+        "lat": "49.639093",
+        "lng": "-1.625298"
       },
       "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
       },
       "length": 405,
       "type": null,
@@ -157,6 +101,62 @@
       }
     },
     {
+      "id": "E-1922-04",
+      "year": 1922,
+      "leg": 4,
+      "title": "Brest - Les Sables-d'Olonne",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 412,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1922-05",
+      "year": 1922,
+      "leg": 5,
+      "title": "Les Sables-d'Olonne - Bayonne",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 482,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1922-06",
       "year": 1922,
       "leg": 6,
@@ -164,19 +164,19 @@
       "start": {
         "city": "Bayonne",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Strasbourg",
+        "city": "Luchon",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 412,
+      "length": 326,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": "Drapeau de France Jean Alavoine (FRA)",
         "nationality": null
       },
       "leader": {
@@ -192,23 +192,23 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
-      "length": 482,
+      "length": 323,
       "type": null,
       "winner": {
         "name": "Drapeau de France Jean Alavoine (FRA)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "name": "Drapeau de France Jean Alavoine (FRA)",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Perpignan",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Dunkerque",
+        "city": "Toulon",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "43.124228",
+        "lng": "5.928"
       },
-      "length": 326,
+      "length": 411,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": "Drapeau de Belgique Philippe Thys (BEL)",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "name": "Drapeau de France Jean Alavoine (FRA)",
         "nationality": null
       }
     },
@@ -248,19 +248,19 @@
       "start": {
         "city": "Toulon",
         "country": "France",
-        "lng": "5.928",
-        "lat": "43.124228"
+        "lat": "43.124228",
+        "lng": "5.928"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Nice",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 323,
+      "length": 284,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": "Drapeau de Belgique Philippe Thys (BEL)",
         "nationality": null
       },
       "leader": {
@@ -276,16 +276,16 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Cherbourg",
+        "city": "Briançon",
         "country": "France",
-        "lng": "-1.625298",
-        "lat": "49.639093"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
-      "length": 411,
+      "length": 274,
       "type": null,
       "winner": {
         "name": "Drapeau de Belgique Philippe Thys (BEL)",
@@ -304,19 +304,19 @@
       "start": {
         "city": "Briançon",
         "country": "France",
-        "lng": "6.643179",
-        "lat": "44.899416"
+        "lat": "44.899416",
+        "lng": "6.643179"
       },
       "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
-      "length": 284,
+      "length": 260,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": "Drapeau de Belgique Émile Masson (BEL)",
         "nationality": null
       },
       "leader": {
@@ -332,70 +332,14 @@
       "start": {
         "city": "Genève",
         "country": "Suisse",
-        "lng": "6.142296",
-        "lat": "46.198392"
+        "lat": "46.198392",
+        "lng": "6.142296"
       },
       "finish": {
-        "city": "Les Sables-d'Olonne",
-        "country": "France",
-        "lng": "-1.795493",
-        "lat": "46.492958"
-      },
-      "length": 274,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1922-13",
-      "year": 1922,
-      "leg": 13,
-      "title": "Strasbourg - Metz",
-      "start": {
         "city": "Strasbourg",
         "country": "France",
-        "lng": "7.747882",
-        "lat": "48.583148"
-      },
-      "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
-      },
-      "length": 260,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de Belgique Émile Masson (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1922-14",
-      "year": 1922,
-      "leg": 14,
-      "title": "Metz - Dunkerque",
-      "start": {
-        "city": "Metz",
-        "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
-      },
-      "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "48.583148",
+        "lng": "7.747882"
       },
       "length": 371,
       "type": null,
@@ -409,6 +353,62 @@
       }
     },
     {
+      "id": "E-1922-13",
+      "year": 1922,
+      "leg": 13,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 300,
+      "type": null,
+      "winner": {
+        "name": "Drapeau d'Italie Federico Gay (ITA)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1922-14",
+      "year": 1922,
+      "leg": 14,
+      "title": "Metz - Dunkerque",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "length": 432,
+      "type": null,
+      "winner": {
+        "name": "Drapeau de Belgique Félix Sellier (BEL)",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
+        "nationality": null
+      }
+    },
+    {
       "id": "E-1922-15",
       "year": 1922,
       "leg": 15,
@@ -416,19 +416,19 @@
       "start": {
         "city": "Dunkerque",
         "country": "France",
-        "lng": "2.375202",
-        "lat": "51.03456"
+        "lat": "51.03456",
+        "lng": "2.375202"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Paris",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 300,
+      "length": 325,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Federico Gay (ITA)",
+        "name": "Drapeau de Belgique Philippe Thys (BEL)",
         "nationality": null
       },
       "leader": {

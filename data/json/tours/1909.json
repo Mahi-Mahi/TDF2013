@@ -20,18 +20,18 @@
       "id": "E-1909-01",
       "year": 1909,
       "leg": 1,
-      "title": "Paris - Roubaix",
+      "title": "Paris – Roubaix",
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "length": 272,
       "type": null,
@@ -48,23 +48,23 @@
       "id": "E-1909-02",
       "year": 1909,
       "leg": 2,
-      "title": "Roubaix - Metz",
+      "title": "Roubaix – Metz",
       "start": {
         "city": "Roubaix",
         "country": "France",
-        "lng": "3.177847",
-        "lat": "50.692705"
+        "lat": "50.692705",
+        "lng": "3.177847"
       },
       "finish": {
-        "city": "Nîmes",
-        "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
+        "city": "Metz",
+        "country": "Empire allemand",
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 321,
+      "length": 398,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGustave Garrigou",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
@@ -76,23 +76,23 @@
       "id": "E-1909-03",
       "year": 1909,
       "leg": 3,
-      "title": "Metz - Belfort",
+      "title": "Metz – Belfort",
       "start": {
         "city": "Metz",
         "country": "Empire allemand",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Toulouse",
+        "city": "Belfort",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
-      "length": 415,
+      "length": 259,
       "type": null,
       "winner": {
-        "name": "Drapeau : FrancePaul Duboc",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
@@ -104,23 +104,23 @@
       "id": "E-1909-04",
       "year": 1909,
       "leg": 4,
-      "title": "Belfort - Lyon",
+      "title": "Belfort – Lyon",
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Lyon",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
-      "length": 251,
+      "length": 309,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean Alavoine",
+        "name": "Drapeau : LuxembourgFrançois Faber",
         "nationality": null
       },
       "leader": {
@@ -132,20 +132,20 @@
       "id": "E-1909-05",
       "year": 1909,
       "leg": 5,
-      "title": "Lyon - Grenoble",
+      "title": "Lyon – Grenoble",
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
-      "length": 398,
+      "length": 311,
       "type": null,
       "winner": {
         "name": "Drapeau : LuxembourgFrançois Faber",
@@ -160,20 +160,20 @@
       "id": "E-1909-06",
       "year": 1909,
       "leg": 6,
-      "title": "Grenoble - Nice",
+      "title": "Grenoble – Nice",
       "start": {
         "city": "Grenoble",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Nantes",
+        "city": "Nice",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 259,
+      "length": 345,
       "type": null,
       "winner": {
         "name": "Drapeau : LuxembourgFrançois Faber",
@@ -188,102 +188,18 @@
       "id": "E-1909-07",
       "year": 1909,
       "leg": 7,
-      "title": "Nice - Nîmes",
+      "title": "Nice – Nîmes",
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
-      },
-      "length": 309,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1909-08",
-      "year": 1909,
-      "leg": 8,
-      "title": "Nîmes - Toulouse",
-      "start": {
         "city": "Nîmes",
         "country": "France",
-        "lng": "4.360054",
-        "lat": "43.836699"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
-      },
-      "length": 311,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1909-09",
-      "year": 1909,
-      "leg": 9,
-      "title": "Toulouse - Bayonne",
-      "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
-      },
-      "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
-      },
-      "length": 345,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1909-10",
-      "year": 1909,
-      "leg": 10,
-      "title": "Bayonne - Bordeaux",
-      "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
-      },
-      "finish": {
-        "city": "Metz",
-        "country": "Empire allemand",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "43.836699",
+        "lng": "4.360054"
       },
       "length": 345,
       "type": null,
@@ -297,21 +213,21 @@
       }
     },
     {
-      "id": "E-1909-11",
+      "id": "E-1909-08",
       "year": 1909,
-      "leg": 11,
-      "title": "Bordeaux - Nantes",
+      "leg": 8,
+      "title": "Nîmes – Toulouse",
       "start": {
-        "city": "Bordeaux",
+        "city": "Nîmes",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "43.836699",
+        "lng": "4.360054"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "length": 303,
       "type": null,
@@ -325,21 +241,21 @@
       }
     },
     {
-      "id": "E-1909-12",
+      "id": "E-1909-09",
       "year": 1909,
-      "leg": 12,
-      "title": "Nantes - Brest",
+      "leg": 9,
+      "title": "Toulouse – Bayonne",
       "start": {
-        "city": "Nantes",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
-        "city": "Lyon",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "length": 299,
       "type": null,
@@ -353,21 +269,21 @@
       }
     },
     {
-      "id": "E-1909-13",
+      "id": "E-1909-10",
       "year": 1909,
-      "leg": 13,
-      "title": "Brest - Caen",
+      "leg": 10,
+      "title": "Bayonne – Bordeaux",
       "start": {
-        "city": "Brest",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "-4.486076",
-        "lat": "48.390394"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
       "finish": {
-        "city": "Grenoble",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "length": 269,
       "type": null,
@@ -381,26 +297,110 @@
       }
     },
     {
-      "id": "E-1909-14",
+      "id": "E-1909-11",
       "year": 1909,
-      "leg": 14,
-      "title": "Caen - Paris",
+      "leg": 11,
+      "title": "Bordeaux – Nantes",
       "start": {
-        "city": "Caen",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Nice",
+        "city": "Nantes",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
       "length": 391,
       "type": null,
       "winner": {
         "name": "Drapeau : FranceLouis Trousselier",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1909-12",
+      "year": 1909,
+      "leg": 12,
+      "title": "Nantes – Brest",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 321,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceGustave Garrigou",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1909-13",
+      "year": 1909,
+      "leg": 13,
+      "title": "Brest – Caen",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 415,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FrancePaul Duboc",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : LuxembourgFrançois Faber",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1909-14",
+      "year": 1909,
+      "leg": 14,
+      "title": "Caen – Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 251,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : FranceJean Alavoine",
         "nationality": null
       },
       "leader": {

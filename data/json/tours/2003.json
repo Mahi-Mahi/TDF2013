@@ -24,23 +24,23 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 152,
-      "type": null,
+      "length": 6,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : FranceJean-Patrick Nazon",
+        "name": "Drapeau : AustralieBradley McGee",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": "Drapeau : AustralieBradley McGee",
         "nationality": null
       }
     },
@@ -52,19 +52,19 @@
       "start": {
         "city": "Montgeron",
         "country": "France",
-        "lng": "2.460453",
-        "lat": "48.703859"
+        "lat": "48.703859",
+        "lng": "2.460453"
       },
       "finish": {
         "city": "Meaux",
         "country": "France",
-        "lng": "2.879255",
-        "lat": "48.959396"
+        "lat": "48.959396",
+        "lng": "2.879255"
       },
-      "length": 6,
-      "type": "(CLM)",
+      "length": 168,
+      "type": null,
       "winner": {
-        "name": "Drapeau : AustralieBradley McGee",
+        "name": "Drapeau : ItalieAlessandro Petacchi",
         "nationality": null
       },
       "leader": {
@@ -80,14 +80,42 @@
       "start": {
         "city": "La Ferté-sous-Jouarre",
         "country": "France",
-        "lng": "3.130059",
-        "lat": "48.950507"
+        "lat": "48.950507",
+        "lng": "3.130059"
       },
       "finish": {
-        "city": "Cap découverte, Le Garric",
+        "city": "Sedan",
         "country": "France",
-        "lng": "2.144574",
-        "lat": "44.021237"
+        "lat": "49.70349",
+        "lng": "4.93863"
+      },
+      "length": 204,
+      "type": null,
+      "winner": {
+        "name": "Drapeau : AustralieBaden Cooke",
+        "nationality": null
+      },
+      "leader": {
+        "name": "Drapeau : AustralieBradley McGee",
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2003-03",
+      "year": 2003,
+      "leg": 3,
+      "title": "Charleville-Mézières - Saint-Dizier",
+      "start": {
+        "city": "Charleville-Mézières",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "finish": {
+        "city": "Saint-Dizier",
+        "country": "France",
+        "lat": "48.637692",
+        "lng": "4.947418"
       },
       "length": 167,
       "type": null,
@@ -101,34 +129,6 @@
       }
     },
     {
-      "id": "E-2003-03",
-      "year": 2003,
-      "leg": 3,
-      "title": "Charleville-Mézières - Saint-Dizier",
-      "start": {
-        "city": "Charleville-Mézières",
-        "country": "France",
-        "lng": "4.726096",
-        "lat": "49.762085"
-      },
-      "finish": {
-        "city": "Loudenvielle",
-        "country": "France",
-        "lng": "0.412744",
-        "lat": "42.795702"
-      },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieAlessandro Petacchi",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ColombieVíctor Hugo Peña",
-        "nationality": null
-      }
-    },
-    {
       "id": "E-2003-04",
       "year": 2003,
       "leg": 4,
@@ -136,19 +136,19 @@
       "start": {
         "city": "Joinville",
         "country": "France",
-        "lng": "2.472043",
-        "lat": "48.821267"
+        "lat": "48.44348",
+        "lng": "5.13769\n"
       },
       "finish": {
-        "city": "Luz-Ardiden",
+        "city": "Saint-Dizier",
         "country": "France",
-        "lng": "-0.061335",
-        "lat": "42.885105"
+        "lat": "48.637692",
+        "lng": "4.947418"
       },
-      "length": 230,
-      "type": null,
+      "length": 69,
+      "type": "(CLM par équipes)",
       "winner": {
-        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "name": "Drapeau : États-UnisUS Postal",
         "nationality": null
       },
       "leader": {
@@ -164,23 +164,23 @@
       "start": {
         "city": "Troyes",
         "country": "France",
-        "lng": "4.074735",
-        "lat": "48.296592"
+        "lat": "48.296592",
+        "lng": "4.074735"
       },
       "finish": {
-        "city": "Bayonne",
+        "city": "Nevers",
         "country": "France",
-        "lng": "-1.474841",
-        "lat": "43.492949"
+        "lat": "46.990896",
+        "lng": "3.162845"
       },
-      "length": 230,
-      "type": "Étape de montagne",
+      "length": 196,
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": "Drapeau : ItalieAlessandro Petacchi",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": "Drapeau : ColombieVíctor Hugo Peña",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Nevers",
         "country": "France",
-        "lng": "3.162845",
-        "lat": "46.990896"
+        "lat": "46.990896",
+        "lng": "3.162845"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Lyon",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
-      "length": 219,
-      "type": "Étape de montagne",
+      "length": 230,
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneIban Mayo",
+        "name": "Drapeau : ItalieAlessandro Petacchi",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": "Drapeau : ColombieVíctor Hugo Peña",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Lyon",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "45.764043",
+        "lng": "4.835659"
       },
       "finish": {
-        "city": "Saint-Maixent-l'École",
+        "city": "Morzine",
         "country": "France",
-        "lng": "-0.20341",
-        "lat": "46.413165"
+        "lat": "46.179192",
+        "lng": "6.708877"
       },
-      "length": 184,
-      "type": "Étape de montagne",
+      "length": 230,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : KazakhstanAlexandre Vinokourov",
+        "name": "Drapeau : FranceRichard Virenque",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": "Drapeau : FranceRichard Virenque",
         "nationality": null
       }
     },
@@ -248,19 +248,19 @@
       "start": {
         "city": "Sallanches",
         "country": "France",
-        "lng": "6.630557",
-        "lat": "45.936661"
+        "lat": "45.936661",
+        "lng": "6.630557"
       },
       "finish": {
-        "city": "Nantes",
+        "city": "L'Alpe d'Huez",
         "country": "France",
-        "lng": "-1.553621",
-        "lat": "47.218371"
+        "lat": "45.092624",
+        "lng": "6.068348"
       },
       "length": 219,
-      "type": null,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : DanemarkJakob Piil",
+        "name": "Drapeau : EspagneIban Mayo",
         "nationality": null
       },
       "leader": {
@@ -276,19 +276,19 @@
       "start": {
         "city": "Le Bourg-d'Oisans",
         "country": "France",
-        "lng": "6.030064",
-        "lat": "45.051951"
+        "lat": "45.051951",
+        "lng": "6.030064"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Gap",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 47,
-      "type": "(CLM)",
+      "length": 184,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": "Drapeau : KazakhstanAlexandre Vinokourov",
         "nationality": null
       },
       "leader": {
@@ -304,19 +304,19 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Sedan",
+        "city": "Marseille",
         "country": "France",
-        "lng": "4.93863",
-        "lat": "49.70349"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 153,
+      "length": 219,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneJuan Antonio Flecha",
+        "name": "Drapeau : DanemarkJakob Piil",
         "nationality": null
       },
       "leader": {
@@ -332,19 +332,19 @@
       "start": {
         "city": "Narbonne",
         "country": "France",
-        "lng": "3.003078",
-        "lat": "43.184277"
+        "lat": "43.184277",
+        "lng": "3.003078"
       },
       "finish": {
-        "city": "Saint-Dizier",
+        "city": "Toulouse",
         "country": "France",
-        "lng": "4.947418",
-        "lat": "48.637692"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
-      "length": 197,
-      "type": "Étape de montagne",
+      "length": 153,
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneCarlos Sastre",
+        "name": "Drapeau : EspagneJuan Antonio Flecha",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Gaillac",
         "country": "France",
-        "lng": "1.896506",
-        "lat": "43.901816"
+        "lat": "43.901816",
+        "lng": "1.896506"
       },
       "finish": {
-        "city": "Saint-Dizier",
+        "city": "Cap découverte, Le Garric",
         "country": "France",
-        "lng": "4.947418",
-        "lat": "48.637692"
+        "lat": "44.021237",
+        "lng": "2.144574"
       },
-      "length": 191,
-      "type": "Étape de montagne",
+      "length": 47,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : ItalieGilberto Simoni",
+        "name": "Drapeau : AllemagneJan Ullrich",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Toulouse",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "43.604652",
+        "lng": "1.444209"
       },
       "finish": {
-        "city": "Nevers",
+        "city": "Ax-3 Domaines, Ax-les-Thermes",
         "country": "France",
-        "lng": "3.162845",
-        "lat": "46.990896"
+        "lat": "42.699657",
+        "lng": "1.81283"
       },
-      "length": 159,
-      "type": "Étape de montagne",
+      "length": 197,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": "Drapeau : EspagneCarlos Sastre",
         "nationality": null
       },
       "leader": {
@@ -416,19 +416,19 @@
       "start": {
         "city": "Saint-Girons",
         "country": "France",
-        "lng": "1.146088",
-        "lat": "42.982876"
+        "lat": "42.982876",
+        "lng": "1.146088"
       },
       "finish": {
-        "city": "Lyon",
+        "city": "Loudenvielle",
         "country": "France",
-        "lng": "4.835659",
-        "lat": "45.764043"
+        "lat": "42.795702",
+        "lng": "0.412744"
       },
-      "length": 197,
-      "type": "Étape de montagne",
+      "length": 191,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : États-UnisTyler Hamilton",
+        "name": "Drapeau : ItalieGilberto Simoni",
         "nationality": null
       },
       "leader": {
@@ -444,19 +444,19 @@
       "start": {
         "city": "Bagnères de Bigorre",
         "country": "France",
-        "lng": "0.149105",
-        "lat": "43.065093"
+        "lat": "43.065093",
+        "lng": "0.149105"
       },
       "finish": {
-        "city": "Morzine",
+        "city": "Luz-Ardiden",
         "country": "France",
-        "lng": "6.708877",
-        "lat": "46.179192"
+        "lat": "42.885105",
+        "lng": "-0.061335"
       },
-      "length": 181,
-      "type": null,
+      "length": 159,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : Pays-BasServais Knaven",
+        "name": "Drapeau : États-UnisLance Armstrong",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
+        "city": "Bayonne",
         "country": "France",
-        "lng": "6.068348",
-        "lat": "45.092624"
+        "lat": "43.492949",
+        "lng": "-1.474841"
       },
-      "length": 203,
-      "type": null,
+      "length": 197,
+      "type": " Étape de montagne",
       "winner": {
-        "name": "Drapeau : EspagnePablo Lastras",
+        "name": "Drapeau : États-UnisTyler Hamilton",
         "nationality": null
       },
       "leader": {
@@ -500,19 +500,19 @@
       "start": {
         "city": "Dax",
         "country": "France",
-        "lng": "-1.051945",
-        "lat": "43.708608"
+        "lat": "43.708608",
+        "lng": "-1.051945"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 49,
-      "type": "(CLM)",
+      "length": 181,
+      "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
+        "name": "Drapeau : Pays-BasServais Knaven",
         "nationality": null
       },
       "leader": {
@@ -528,23 +528,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Saint-Maixent-l'École",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "46.413165",
+        "lng": "-0.20341"
       },
-      "length": 168,
+      "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieAlessandro Petacchi",
+        "name": "Drapeau : EspagnePablo Lastras",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieBradley McGee",
+        "name": "Drapeau : États-UnisLance Armstrong",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Pornic",
         "country": "France",
-        "lng": "-2.104444",
-        "lat": "47.115491"
+        "lat": "47.115491",
+        "lng": "-2.104444"
       },
       "finish": {
-        "city": "Toulouse",
+        "city": "Nantes",
         "country": "France",
-        "lng": "1.444209",
-        "lat": "43.604652"
+        "lat": "47.218371",
+        "lng": "-1.553621"
       },
-      "length": 204,
-      "type": null,
+      "length": 49,
+      "type": "(CLM)",
       "winner": {
-        "name": "Drapeau : AustralieBaden Cooke",
+        "name": "Drapeau : Royaume-UniDavid Millar",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieBradley McGee",
+        "name": "Drapeau : États-UnisLance Armstrong",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "Ville-d'Avray",
         "country": "France",
-        "lng": "2.181255",
-        "lat": "48.822936"
+        "lat": "48.822936",
+        "lng": "2.181255"
       },
       "finish": {
-        "city": "Ax-3 Domaines, Ax-les-Thermes",
+        "city": "Paris",
         "country": "France",
-        "lng": "1.81283",
-        "lat": "42.699657"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 69,
-      "type": "(CLM par équipes)",
+      "length": 152,
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisUS Postal",
+        "name": "Drapeau : FranceJean-Patrick Nazon",
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ColombieVíctor Hugo Peña",
+        "name": "Drapeau : États-UnisLance Armstrong",
         "nationality": null
       }
     }

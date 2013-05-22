@@ -24,14 +24,14 @@
       "start": {
         "city": "Paris",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
         "city": "Lille",
         "country": "France",
-        "lng": "3.057256",
-        "lat": "50.62925"
+        "lat": "50.62925",
+        "lng": "3.057256"
       },
       "length": 262,
       "type": null,
@@ -52,19 +52,19 @@
       "start": {
         "city": "Lille",
         "country": "France",
-        "lng": "3.057256",
-        "lat": "50.62925"
+        "lat": "50.62925",
+        "lng": "3.057256"
       },
       "finish": {
-        "city": "Marseille",
+        "city": "Charleville-Mézières",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
-      "length": 220,
+      "length": 192,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": "Learco Guerra Drapeau : ItalieItalie",
         "nationality": null
       },
       "leader": {
@@ -80,23 +80,23 @@
       "start": {
         "city": "Charleville-Mézières",
         "country": "France",
-        "lng": "4.726096",
-        "lat": "49.762085"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "finish": {
-        "city": "Tarbes",
+        "city": "Metz",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
-      "length": 227,
+      "length": 166,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Alfons Schepers Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Lemaire Drapeau belge Belgique",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       }
     },
@@ -108,23 +108,23 @@
       "start": {
         "city": "Metz",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "49.119666",
+        "lng": "6.176905"
       },
       "finish": {
-        "city": "Pau",
+        "city": "Belfort",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
-      "length": 156,
+      "length": 220,
       "type": null,
       "winner": {
-        "name": "Fernand Cornez Drapeau de France France",
+        "name": "Jean Aerts Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Lemaire Drapeau belge Belgique",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       }
     },
@@ -136,19 +136,19 @@
       "start": {
         "city": "Belfort",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "47.639674",
+        "lng": "6.863849"
       },
       "finish": {
-        "city": "Bordeaux",
+        "city": "Évian-les-Bains",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "46.401488",
+        "lng": "6.590949"
       },
-      "length": 128,
+      "length": 293,
       "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Léon Louyet Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -164,23 +164,23 @@
       "start": {
         "city": "Évian-les-Bains",
         "country": "France",
-        "lng": "6.590949",
-        "lat": "46.401488"
+        "lat": "46.401488",
+        "lng": "6.590949"
       },
       "finish": {
-        "city": "La Rochelle",
+        "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
-      "length": 168,
+      "length": 207,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Learco Guerra Drapeau : ItalieItalie",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Antonin Magne Drapeau de France France",
         "nationality": null
       }
     },
@@ -192,23 +192,23 @@
       "start": {
         "city": "Aix-les-Bains",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "45.692341",
+        "lng": "5.908998"
       },
       "finish": {
-        "city": "Rennes",
+        "city": "Grenoble",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
-      "length": 177,
+      "length": 229,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": "Learco Guerra Drapeau : ItalieItalie",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       }
     },
@@ -220,23 +220,23 @@
       "start": {
         "city": "Grenoble",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "45.188529",
+        "lng": "5.724524"
       },
       "finish": {
-        "city": "Caen",
+        "city": "Gap",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
-      "length": 158,
+      "length": 102,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       }
     },
@@ -248,23 +248,23 @@
       "start": {
         "city": "Gap",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "44.559638",
+        "lng": "6.079758"
       },
       "finish": {
-        "city": "Paris",
+        "city": "Digne-les-Bains",
         "country": "France",
-        "lng": "2.352222",
-        "lat": "48.856614"
+        "lat": "44.092193",
+        "lng": "6.235976"
       },
-      "length": 165,
+      "length": 227,
       "type": null,
       "winner": {
-        "name": "Léon Louyet Drapeau belge Belgique",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Georges Lemaire Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -276,23 +276,23 @@
       "start": {
         "city": "Digne-les-Bains",
         "country": "France",
-        "lng": "6.235976",
-        "lat": "44.092193"
+        "lat": "44.092193",
+        "lng": "6.235976"
       },
       "finish": {
-        "city": "Charleville-Mézières",
+        "city": "Nice",
         "country": "France",
-        "lng": "4.726096",
-        "lat": "49.762085"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
-      "length": 208,
+      "length": 156,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Fernand Cornez Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Georges Lemaire Drapeau belge Belgique",
         "nationality": null
       }
     },
@@ -304,23 +304,23 @@
       "start": {
         "city": "Nice",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.696036",
+        "lng": "7.265592"
       },
       "finish": {
-        "city": "Metz",
+        "city": "Cannes",
         "country": "France",
-        "lng": "6.176905",
-        "lat": "49.119666"
+        "lat": "43.552847",
+        "lng": "7.017369"
       },
-      "length": 91,
+      "length": 128,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Maurice Archambaud Drapeau de France France",
         "nationality": null
       }
     },
@@ -332,19 +332,19 @@
       "start": {
         "city": "Cannes",
         "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
+        "lat": "43.552847",
+        "lng": "7.017369"
       },
       "finish": {
-        "city": "Belfort",
+        "city": "Marseille",
         "country": "France",
-        "lng": "6.863849",
-        "lat": "47.639674"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
-      "length": 172,
+      "length": 208,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -360,19 +360,19 @@
       "start": {
         "city": "Marseille",
         "country": "France",
-        "lng": "5.36978",
-        "lat": "43.296482"
+        "lat": "43.296482",
+        "lng": "5.36978"
       },
       "finish": {
-        "city": "Évian-les-Bains",
+        "city": "Montpellier",
         "country": "France",
-        "lng": "6.590949",
-        "lat": "46.401488"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
-      "length": 233,
+      "length": 168,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -388,19 +388,19 @@
       "start": {
         "city": "Montpellier",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "43.610769",
+        "lng": "3.876716"
       },
       "finish": {
-        "city": "Aix-les-Bains",
+        "city": "Perpignan",
         "country": "France",
-        "lng": "5.908998",
-        "lat": "45.692341"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
-      "length": 183,
+      "length": 177,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": "André Leducq Drapeau de France France",
         "nationality": null
       },
       "leader": {
@@ -416,16 +416,16 @@
       "start": {
         "city": "Perpignan",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "42.698684",
+        "lng": "2.895872"
       },
       "finish": {
-        "city": "Grenoble",
+        "city": "Ax-les-Thermes",
         "country": "France",
-        "lng": "5.724524",
-        "lat": "45.188529"
+        "lat": "42.720254",
+        "lng": "1.837545"
       },
-      "length": 266,
+      "length": 158,
       "type": null,
       "winner": {
         "name": "Jean Aerts Drapeau belge Belgique",
@@ -444,19 +444,19 @@
       "start": {
         "city": "Ax-les-Thermes",
         "country": "France",
-        "lng": "1.837545",
-        "lat": "42.720254"
+        "lat": "42.720254",
+        "lng": "1.837545"
       },
       "finish": {
-        "city": "Gap",
+        "city": "Luchon",
         "country": "France",
-        "lng": "6.079758",
-        "lat": "44.559638"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
-      "length": 169,
+      "length": 165,
       "type": null,
       "winner": {
-        "name": "René Le Grevès Drapeau de France France",
+        "name": "Léon Louyet Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -472,19 +472,19 @@
       "start": {
         "city": "Luchon",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "42.788963",
+        "lng": "0.592943"
       },
       "finish": {
-        "city": "Digne-les-Bains",
+        "city": "Tarbes",
         "country": "France",
-        "lng": "6.235976",
-        "lat": "44.092193"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
-      "length": 222,
+      "length": 91,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": "Jean Aerts Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
@@ -500,23 +500,23 @@
       "start": {
         "city": "Tarbes",
         "country": "France",
-        "lng": "0.078082",
-        "lat": "43.232951"
+        "lat": "43.232951",
+        "lng": "0.078082"
       },
       "finish": {
-        "city": "Nice",
+        "city": "Pau",
         "country": "France",
-        "lng": "7.265592",
-        "lat": "43.696036"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
-      "length": 192,
+      "length": 172,
       "type": null,
       "winner": {
         "name": "Learco Guerra Drapeau : ItalieItalie",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     },
@@ -528,23 +528,23 @@
       "start": {
         "city": "Pau",
         "country": "France",
-        "lng": "-0.370797",
-        "lat": "43.2951"
+        "lat": "43.2951",
+        "lng": "-0.370797"
       },
       "finish": {
-        "city": "Cannes",
+        "city": "Bordeaux",
         "country": "France",
-        "lng": "7.017369",
-        "lat": "43.552847"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
-      "length": 166,
+      "length": 233,
       "type": null,
       "winner": {
-        "name": "Alfons Schepers Drapeau belge Belgique",
+        "name": "Jean Aerts Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     },
@@ -556,23 +556,23 @@
       "start": {
         "city": "Bordeaux",
         "country": "France",
-        "lng": "-0.57918",
-        "lat": "44.837789"
+        "lat": "44.837789",
+        "lng": "-0.57918"
       },
       "finish": {
-        "city": "Montpellier",
+        "city": "La Rochelle",
         "country": "France",
-        "lng": "3.876716",
-        "lat": "43.610769"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
-      "length": 293,
+      "length": 183,
       "type": null,
       "winner": {
-        "name": "Léon Louyet Drapeau belge Belgique",
+        "name": "Jean Aerts Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     },
@@ -584,23 +584,23 @@
       "start": {
         "city": "La Rochelle",
         "country": "France",
-        "lng": "-1.151139",
-        "lat": "46.160329"
+        "lat": "46.160329",
+        "lng": "-1.151139"
       },
       "finish": {
-        "city": "Perpignan",
+        "city": "Rennes",
         "country": "France",
-        "lng": "2.895872",
-        "lat": "42.698684"
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
-      "length": 207,
+      "length": 266,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": "Jean Aerts Drapeau belge Belgique",
         "nationality": null
       },
       "leader": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     },
@@ -612,23 +612,23 @@
       "start": {
         "city": "Rennes",
         "country": "France",
-        "lng": "-1.675708",
-        "lat": "48.113475"
+        "lat": "48.113475",
+        "lng": "-1.675708"
       },
       "finish": {
-        "city": "Ax-les-Thermes",
+        "city": "Caen",
         "country": "France",
-        "lng": "1.837545",
-        "lat": "42.720254"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
-      "length": 229,
+      "length": 169,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": "René Le Grevès Drapeau de France France",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     },
@@ -640,23 +640,23 @@
       "start": {
         "city": "Caen",
         "country": "France",
-        "lng": "-0.370679",
-        "lat": "49.182863"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
       "finish": {
-        "city": "Luchon",
+        "city": "Paris",
         "country": "France",
-        "lng": "0.592943",
-        "lat": "42.788963"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
-      "length": 102,
+      "length": 222,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": "Learco Guerra Drapeau : ItalieItalie",
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": "Georges Speicher Drapeau de France France",
         "nationality": null
       }
     }
