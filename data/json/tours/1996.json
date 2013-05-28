@@ -24,642 +24,444 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1996-Prologue",
+      "year": 1996,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Bois-le-Duc",
+      "start": {
+        "city": "Pays-Bas",
+        "country": "51.697816,5.303675",
+        "lat": "Bois-le-Duc",
+        "lng": null
+      },
+      "finish": {
+        "city": "Pays-Bas",
+        "country": "51.697816,5.303675",
+        "lat": "9",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1996-01",
       "year": 1996,
       "leg": "1",
-      "leg_num": 1,
-      "title": "s-Hertogenbosch - 's-Hertogenbosch",
+      "leg_num": 0,
+      "title": "Bois-le-Duc",
       "start": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
+        "city": "Pays-Bas",
+        "country": "51.697816,5.303675",
+        "lat": "Bois-le-Duc",
+        "lng": null
       },
       "finish": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
+        "city": "Pays-Bas",
+        "country": "51.697816,5.303675",
+        "lat": "209",
+        "lng": null
       },
-      "length": 209,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-02",
       "year": 1996,
       "leg": "2",
-      "leg_num": 2,
-      "title": "s-Hertogenbosch - Wasquehal",
+      "leg_num": 0,
+      "title": "Bois-le-Duc",
       "start": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
+        "city": "Pays-Bas",
+        "country": "51.697816,5.303675",
+        "lat": "Wasquehal",
+        "lng": null
       },
       "finish": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lat": "50.669276",
-        "lng": "3.130782"
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "247",
+        "lng": "5"
       },
-      "length": 247,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-03",
       "year": 1996,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Wasquehal - Nogent-sur-Oise",
+      "leg_num": 0,
+      "title": "Wasquehal",
       "start": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lat": "50.669276",
-        "lng": "3.130782"
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "Nogent-sur-Oise",
+        "lng": null
       },
       "finish": {
-        "city": "Nogent-sur-Oise",
-        "country": "France",
-        "lat": "49.278948",
-        "lng": "2.464688"
+        "city": "France",
+        "country": "49.278948,2.464688",
+        "lat": "195",
+        "lng": null
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-04",
       "year": 1996,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Soissons - Lac de Madine",
+      "leg_num": 0,
+      "title": "Soissons",
       "start": {
-        "city": "Soissons",
-        "country": "France",
-        "lat": "49.376636",
-        "lng": "3.32342"
+        "city": "France",
+        "country": "49.376636,3.32342",
+        "lat": "Lac de Madine",
+        "lng": null
       },
       "finish": {
-        "city": "Lac de Madine",
-        "country": "France",
-        "lat": "48.921618",
-        "lng": "5.736175"
+        "city": "France",
+        "country": "48.921618,5.736175",
+        "lat": "232",
+        "lng": null
       },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-05",
       "year": 1996,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Lac de Madine - Besançon",
+      "leg_num": 0,
+      "title": "Lac de Madine",
       "start": {
-        "city": "Lac de Madine",
-        "country": "France",
-        "lat": "48.921618",
-        "lng": "5.736175"
+        "city": "France",
+        "country": "48.921618,5.736175",
+        "lat": "Besançon",
+        "lng": null
       },
       "finish": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "232",
+        "lng": null
       },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-06",
       "year": 1996,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Arc-et-Senans - Aix-les-Bains",
+      "leg_num": 0,
+      "title": "Arc-et-Senans",
       "start": {
-        "city": "Arc-et-Senans",
-        "country": "France",
-        "lat": "47.032958",
-        "lng": "5.781165"
+        "city": "France",
+        "country": "47.032958,5.781165",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "207",
+        "lng": null
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-07",
       "year": 1996,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Chambéry - Les Arcs (Savoie)",
+      "leg_num": 0,
+      "title": "Chambéry",
       "start": {
-        "city": "Chambéry",
-        "country": "France",
-        "lat": "45.564601",
-        "lng": "5.917781"
+        "city": "France",
+        "country": "45.564601,5.917781",
+        "lat": "Les Arcs",
+        "lng": " Bourg-Saint-Maurice"
       },
       "finish": {
-        "city": "Les Arcs, Bourg-Saint-Maurice",
-        "country": "France",
-        "lat": "45.594058",
-        "lng": "6.796495"
+        "city": "France",
+        "country": "45.594058,6.796495",
+        "lat": "200",
+        "lng": null
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-08",
       "year": 1996,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Bourg-Saint-Maurice - Val-d'Isère",
+      "leg_num": 0,
+      "title": "Bourg-Saint-Maurice",
       "start": {
-        "city": "Bourg-Saint-Maurice",
-        "country": "France",
-        "lat": "45.618598",
-        "lng": "6.769548"
+        "city": "France",
+        "country": "45.618598,6.769548",
+        "lat": "Val-d'Isère",
+        "lng": null
       },
       "finish": {
-        "city": "Val-d'Isère",
-        "country": "France",
-        "lat": "45.448034",
-        "lng": "6.980226"
+        "city": "France",
+        "country": "45.448034,6.980226",
+        "lat": "30",
+        "lng": "5"
       },
-      "length": 30,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-09",
       "year": 1996,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Le Monêtier-les-Bains - Sestrières",
+      "leg_num": 0,
+      "title": "Le Monêtier-les-Bains",
       "start": {
-        "city": "Le Monêtier-les-Bains",
-        "country": "France",
-        "lat": "44.976254",
-        "lng": "6.507839"
+        "city": "France",
+        "country": "44.976254,6.507839",
+        "lat": "Sestrières",
+        "lng": null
       },
       "finish": {
-        "city": "Sestrières",
-        "country": "Italie",
-        "lat": "44.9565",
-        "lng": "6.879234"
+        "city": "Italie",
+        "country": "44.9565,6.879234",
+        "lat": "46",
+        "lng": null
       },
-      "length": 46,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-10",
       "year": 1996,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Turin - Gap",
+      "leg_num": 0,
+      "title": "Turin",
       "start": {
-        "city": "Turin",
-        "country": "Italie",
-        "lat": "45.070982",
-        "lng": "7.685676"
+        "city": "Italie",
+        "country": "45.070982,7.685676",
+        "lat": "Gap",
+        "lng": null
       },
       "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "208",
+        "lng": "5"
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-11",
       "year": 1996,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Gap - Valence",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Valence",
+        "lng": null
       },
       "finish": {
-        "city": "Valence",
-        "country": "France",
-        "lat": "44.933393",
-        "lng": "4.89236"
+        "city": "France",
+        "country": "44.933393,4.89236",
+        "lat": "202",
+        "lng": null
       },
-      "length": 202,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-12",
       "year": 1996,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Valence - Le Puy-en-Velay",
+      "leg_num": 0,
+      "title": "Valence",
       "start": {
-        "city": "Valence",
-        "country": "France",
-        "lat": "44.933393",
-        "lng": "4.89236"
+        "city": "France",
+        "country": "44.933393,4.89236",
+        "lat": "Le Puy-en-Velay",
+        "lng": null
       },
       "finish": {
-        "city": "Le Puy-en-Velay",
-        "country": "France",
-        "lat": "45.042768",
-        "lng": "3.882936"
+        "city": "France",
+        "country": "45.042768,3.882936",
+        "lat": "143",
+        "lng": "5"
       },
-      "length": 143,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-13",
       "year": 1996,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Le Puy-en-Velay - Super Besse",
+      "leg_num": 0,
+      "title": "Le Puy-en-Velay",
       "start": {
-        "city": "Le Puy-en-Velay",
-        "country": "France",
-        "lat": "45.042768",
-        "lng": "3.882936"
+        "city": "France",
+        "country": "45.042768,3.882936",
+        "lat": "Super Besse",
+        "lng": " Besse"
       },
       "finish": {
-        "city": "Super Besse, Besse",
-        "country": "France",
-        "lat": "45.508022",
-        "lng": "2.861518"
+        "city": "France",
+        "country": "45.508022,2.861518",
+        "lat": "177",
+        "lng": null
       },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-14",
       "year": 1996,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Besse-Tulle",
+      "leg_num": 0,
+      "title": "Besse-en-Chandesse",
       "start": {
-        "city": "Besse-en-Chandesse",
-        "country": "France",
-        "lat": "45.510908",
-        "lng": "2.933859"
+        "city": "France",
+        "country": "45.510908,2.933859",
+        "lat": "Tulle",
+        "lng": null
       },
       "finish": {
-        "city": "Tulle",
-        "country": "France",
-        "lat": "45.26565",
-        "lng": "1.771697"
+        "city": "France",
+        "country": "45.26565,1.771697",
+        "lat": "185",
+        "lng": null
       },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-15",
       "year": 1996,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Brive - Villeneuve-sur-Lot",
+      "leg_num": 0,
+      "title": "Brive",
       "start": {
-        "city": "Brive",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "Villeneuve-sur-Lot",
+        "lng": null
       },
       "finish": {
-        "city": "Villeneuve-sur-Lot",
-        "country": "France",
-        "lat": "44.407126",
-        "lng": "0.703561"
+        "city": "France",
+        "country": "44.407126,0.703561",
+        "lat": "176",
+        "lng": null
       },
-      "length": 176,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-16",
       "year": 1996,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Agen - Lourdes-Hautacam",
+      "leg_num": 0,
+      "title": "Agen",
       "start": {
-        "city": "Agen",
-        "country": "France",
-        "lat": "44.203142",
-        "lng": "0.616363"
+        "city": "France",
+        "country": "44.203142,0.616363",
+        "lat": "Hautacam",
+        "lng": " Préchac"
       },
       "finish": {
-        "city": "Hautacam, Préchac",
-        "country": "France",
-        "lat": "42.972222",
-        "lng": "-0.0075"
+        "city": "France",
+        "country": "42.972222,-0.0075",
+        "lat": "199",
+        "lng": null
       },
-      "length": 199,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-17",
       "year": 1996,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Argelès-Gazost - Pampelune",
+      "leg_num": 0,
+      "title": "Argelès-Gazost",
       "start": {
-        "city": "Argelès-Gazost",
-        "country": "France",
-        "lat": "43.005028",
-        "lng": "-0.101087"
+        "city": "France",
+        "country": "43.005028,-0.101087",
+        "lat": "Pampelune",
+        "lng": null
       },
       "finish": {
-        "city": "Pampelune",
-        "country": "Espagne",
-        "lat": "42.811663",
-        "lng": "-1.648265"
+        "city": "Espagne",
+        "country": "42.811663,-1.648265",
+        "lat": "262",
+        "lng": null
       },
-      "length": 262,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-18",
       "year": 1996,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Pampelune - Hendaye",
+      "leg_num": 0,
+      "title": "Pampelune",
       "start": {
-        "city": "Pampelune",
-        "country": "Espagne",
-        "lat": "42.811663",
-        "lng": "-1.648265"
+        "city": "Espagne",
+        "country": "42.811663,-1.648265",
+        "lat": "Hendaye",
+        "lng": null
       },
       "finish": {
-        "city": "Hendaye",
-        "country": "France",
-        "lat": "43.359399",
-        "lng": "-1.766148"
+        "city": "France",
+        "country": "43.359399,-1.766148",
+        "lat": "154",
+        "lng": "5"
       },
-      "length": 154,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-19",
       "year": 1996,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Hendaye - Bordeaux",
+      "leg_num": 0,
+      "title": "Hendaye",
       "start": {
-        "city": "Hendaye",
-        "country": "France",
-        "lat": "43.359399",
-        "lng": "-1.766148"
+        "city": "France",
+        "country": "43.359399,-1.766148",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "226",
+        "lng": "5"
       },
-      "length": 226,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-20",
       "year": 1996,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Bordeaux - Saint-Émilion",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Saint-Émilion",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Émilion",
-        "country": "France",
-        "lat": "44.894387",
-        "lng": "-0.155729"
+        "city": "France",
+        "country": "44.894387,-0.155729",
+        "lat": "63",
+        "lng": "5"
       },
-      "length": 63,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1996-21",
       "year": 1996,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Palaiseau - Paris",
+      "leg_num": 0,
+      "title": "Palaiseau",
       "start": {
-        "city": "Palaiseau",
-        "country": "France",
-        "lat": "48.714509",
-        "lng": "2.245748"
+        "city": "France",
+        "country": "48.714509,2.245748",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "147",
+        "lng": "5"
       },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1996-Prologue",
-      "year": 1996,
-      "leg": "Prologue",
-      "leg_num": 22,
-      "title": "s-Hertogenbosch - 's-Hertogenbosch",
-      "start": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
-      },
-      "finish": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
-      },
-      "length": 9,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

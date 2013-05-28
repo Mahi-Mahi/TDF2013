@@ -24,613 +24,424 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-2009-01",
+      "year": 2009,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Monaco",
+      "start": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "Monaco",
+        "lng": null
+      },
+      "finish": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "15",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
       "id": "E-2009-02",
       "year": 2009,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Monaco - Brignoles",
+      "leg_num": 0,
+      "title": "Monaco",
       "start": {
         "city": "Monaco",
-        "country": "Monaco",
-        "lat": "43.738418",
-        "lng": "7.424616"
+        "country": "43.738418,7.424616",
+        "lat": "Brignoles",
+        "lng": null
       },
       "finish": {
-        "city": "Brignoles",
-        "country": "France",
-        "lat": "43.40655",
-        "lng": "6.061187"
+        "city": "France",
+        "country": "43.40655,6.061187",
+        "lat": "187",
+        "lng": null
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-03",
       "year": 2009,
       "leg": "3",
-      "leg_num": 2,
-      "title": "Marseille - La Grande-Motte",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "La Grande-Motte",
+        "lng": null
       },
       "finish": {
-        "city": "La Grande-Motte",
-        "country": "France",
-        "lat": "43.560704",
-        "lng": "4.086072"
+        "city": "France",
+        "country": "43.560704,4.086072",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-04",
       "year": 2009,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Montpellier - Montpellier",
+      "leg_num": 0,
+      "title": "Montpellier",
       "start": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "39",
+        "lng": null
       },
-      "length": 39,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-05",
       "year": 2009,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Cap d'Agde - Perpignan",
+      "leg_num": 0,
+      "title": "Cap d'Agde",
       "start": {
-        "city": "Cap d'Agde",
-        "country": "France",
-        "lat": "43.280739",
-        "lng": "3.505399"
+        "city": "France",
+        "country": "43.280739,3.505399",
+        "lat": "Perpignan",
+        "lng": null
       },
       "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lat": "42.698684",
-        "lng": "2.895872"
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-06",
       "year": 2009,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Gérone (Esp.) - Barcelone (Esp.)",
+      "leg_num": 0,
+      "title": "Gérone",
       "start": {
-        "city": "Gérone",
-        "country": "Espagne",
-        "lat": "41.972208",
-        "lng": "2.819875"
+        "city": "Espagne",
+        "country": "41.972208,2.819875",
+        "lat": "Barcelone",
+        "lng": null
       },
       "finish": {
-        "city": "Barcelone",
-        "country": "Espagne",
-        "lat": "41.385064",
-        "lng": "2.173404"
+        "city": "Espagne",
+        "country": "41.385064,2.173404",
+        "lat": "181",
+        "lng": "5"
       },
-      "length": 181,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-07",
       "year": 2009,
       "leg": "7",
-      "leg_num": 6,
-      "title": "Barcelone (Esp.) - Andorre-Arcalis (And.)",
+      "leg_num": 0,
+      "title": "Barcelone",
       "start": {
-        "city": "Barcelone",
-        "country": "Espagne",
-        "lat": "41.385064",
-        "lng": "2.173404"
+        "city": "Espagne",
+        "country": "41.385064,2.173404",
+        "lat": "Andorre-Arcalis",
+        "lng": null
       },
       "finish": {
-        "city": "Andorre-Arcalis",
-        "country": "Andorre",
-        "lat": "42.63247",
-        "lng": "1.49583"
+        "city": "Andorre",
+        "country": "42.63247,1.49583",
+        "lat": "224",
+        "lng": null
       },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-08",
       "year": 2009,
       "leg": "8",
-      "leg_num": 7,
-      "title": "Andorre-la-Vieille (And.) - Saint-Girons",
+      "leg_num": 0,
+      "title": "Andorre-la-Vieille",
       "start": {
-        "city": "Andorre-la-Vieille",
-        "country": "Andorre",
-        "lat": "42.506317",
-        "lng": "1.521836"
+        "city": "Andorre",
+        "country": "42.506317,1.521836",
+        "lat": "Saint-Girons",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Girons",
-        "country": "France",
-        "lat": "42.982876",
-        "lng": "1.146088"
+        "city": "France",
+        "country": "42.982876,1.146088",
+        "lat": "176",
+        "lng": "5"
       },
-      "length": 176,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-09",
       "year": 2009,
       "leg": "9",
-      "leg_num": 8,
-      "title": "Saint-Gaudens - Tarbes",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
       "start": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lat": "43.106895",
-        "lng": "0.723763"
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Tarbes",
+        "lng": null
       },
       "finish": {
-        "city": "Tarbes",
-        "country": "France",
-        "lat": "43.232951",
-        "lng": "0.078082"
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "160",
+        "lng": "5"
       },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-10",
       "year": 2009,
       "leg": "10",
-      "leg_num": 9,
-      "title": "Limoges - Issoudun",
+      "leg_num": 0,
+      "title": "Limoges",
       "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "Issoudun",
+        "lng": null
       },
       "finish": {
-        "city": "Issoudun",
-        "country": "France",
-        "lat": "46.947535",
-        "lng": "1.988654"
+        "city": "France",
+        "country": "46.947535,1.988654",
+        "lat": "194",
+        "lng": "5"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-11",
       "year": 2009,
       "leg": "11",
-      "leg_num": 10,
-      "title": "Vatan - Saint-Fargeau",
+      "leg_num": 0,
+      "title": "Vatan",
       "start": {
-        "city": "Vatan",
-        "country": "France",
-        "lat": "47.071754",
-        "lng": "1.808678"
+        "city": "France",
+        "country": "47.071754,1.808678",
+        "lat": "Saint-Fargeau",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Fargeau",
-        "country": "France",
-        "lat": "47.641578",
-        "lng": "3.070853"
+        "city": "France",
+        "country": "47.641578,3.070853",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-12",
       "year": 2009,
       "leg": "12",
-      "leg_num": 11,
-      "title": "Tonnerre - Vittel",
+      "leg_num": 0,
+      "title": "Tonnerre",
       "start": {
-        "city": "Tonnerre",
-        "country": "France",
-        "lat": "47.856724",
-        "lng": "3.973527"
+        "city": "France",
+        "country": "47.856724,3.973527",
+        "lat": "Vittel",
+        "lng": null
       },
       "finish": {
-        "city": "Vittel",
-        "country": "France",
-        "lat": "48.202541",
-        "lng": "5.943496"
+        "city": "France",
+        "country": "48.202541,5.943496",
+        "lat": "211",
+        "lng": null
       },
-      "length": 211,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-13",
       "year": 2009,
       "leg": "13",
-      "leg_num": 12,
-      "title": "Vittel - Colmar",
+      "leg_num": 0,
+      "title": "Vittel",
       "start": {
-        "city": "Vittel",
-        "country": "France",
-        "lat": "48.202541",
-        "lng": "5.943496"
+        "city": "France",
+        "country": "48.202541,5.943496",
+        "lat": "Colmar",
+        "lng": null
       },
       "finish": {
-        "city": "Colmar",
-        "country": "France",
-        "lat": "48.079359",
-        "lng": "7.358512"
+        "city": "France",
+        "country": "48.079359,7.358512",
+        "lat": "200",
+        "lng": null
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-14",
       "year": 2009,
       "leg": "14",
-      "leg_num": 13,
-      "title": "Colmar - Besançon",
+      "leg_num": 0,
+      "title": "Colmar",
       "start": {
-        "city": "Colmar",
-        "country": "France",
-        "lat": "48.079359",
-        "lng": "7.358512"
+        "city": "France",
+        "country": "48.079359,7.358512",
+        "lat": "Besançon",
+        "lng": null
       },
       "finish": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "199",
+        "lng": null
       },
-      "length": 199,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-15",
       "year": 2009,
       "leg": "15",
-      "leg_num": 14,
-      "title": "Pontarlier - Verbier (Sui.)",
+      "leg_num": 0,
+      "title": "Pontarlier",
       "start": {
-        "city": "Pontarlier",
-        "country": "France",
-        "lat": "46.904104",
-        "lng": "6.354242"
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "Verbier",
+        "lng": null
       },
       "finish": {
-        "city": "Verbier",
-        "country": "Suisse",
-        "lat": "46.096076",
-        "lng": "7.228875"
+        "city": "Suisse",
+        "country": "46.096076,7.228875",
+        "lat": "207",
+        "lng": "5"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-16",
       "year": 2009,
       "leg": "16",
-      "leg_num": 15,
-      "title": "Martigny (Sui.) - Bourg-Saint-Maurice",
+      "leg_num": 0,
+      "title": "Martigny",
       "start": {
-        "city": "Martigny",
-        "country": "Suisse",
-        "lat": "46.10097",
-        "lng": "7.07238"
+        "city": "Suisse",
+        "country": "46.10097,7.07238",
+        "lat": "Bourg-Saint-Maurice",
+        "lng": null
       },
       "finish": {
-        "city": "Bourg-Saint-Maurice",
-        "country": "France",
-        "lat": "45.618598",
-        "lng": "6.769548"
+        "city": "France",
+        "country": "45.618598,6.769548",
+        "lat": "159",
+        "lng": null
       },
-      "length": 159,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-17",
       "year": 2009,
       "leg": "17",
-      "leg_num": 16,
-      "title": "Bourg-Saint-Maurice - Le Grand-Bornand",
+      "leg_num": 0,
+      "title": "Bourg-Saint-Maurice",
       "start": {
-        "city": "Bourg-Saint-Maurice",
-        "country": "France",
-        "lat": "45.618598",
-        "lng": "6.769548"
+        "city": "France",
+        "country": "45.618598,6.769548",
+        "lat": "Le Grand-Bornand",
+        "lng": null
       },
       "finish": {
-        "city": "Le Grand-Bornand",
-        "country": "France",
-        "lat": "45.942027",
-        "lng": "6.426699"
+        "city": "France",
+        "country": "45.942027,6.426699",
+        "lat": "169",
+        "lng": "5"
       },
-      "length": 169,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-18",
       "year": 2009,
       "leg": "18",
-      "leg_num": 17,
-      "title": "Annecy - Annecy",
+      "leg_num": 0,
+      "title": "Annecy",
       "start": {
-        "city": "Annecy",
-        "country": "France",
-        "lat": "45.899247",
-        "lng": "6.129384"
+        "city": "France",
+        "country": "45.899247,6.129384",
+        "lat": "Annecy",
+        "lng": null
       },
       "finish": {
-        "city": "Annecy",
-        "country": "France",
-        "lat": "45.899247",
-        "lng": "6.129384"
+        "city": "France",
+        "country": "45.899247,6.129384",
+        "lat": "40",
+        "lng": "5"
       },
-      "length": 40,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-19",
       "year": 2009,
       "leg": "19",
-      "leg_num": 18,
-      "title": "Bourgoin-Jallieu - Aubenas",
+      "leg_num": 0,
+      "title": "Bourgoin-Jallieu",
       "start": {
-        "city": "Bourgoin-Jallieu",
-        "country": "France",
-        "lat": "45.597108",
-        "lng": "5.27212"
+        "city": "France",
+        "country": "45.597108,5.27212",
+        "lat": "Aubenas",
+        "lng": null
       },
       "finish": {
-        "city": "Aubenas",
-        "country": "France",
-        "lat": "44.620909",
-        "lng": "4.389863"
+        "city": "France",
+        "country": "44.620909,4.389863",
+        "lat": "178",
+        "lng": null
       },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-20",
       "year": 2009,
       "leg": "20",
-      "leg_num": 19,
-      "title": "Montélimar - Mont Ventoux",
+      "leg_num": 0,
+      "title": "Montélimar",
       "start": {
-        "city": "Montélimar",
-        "country": "France",
-        "lat": "44.556944",
-        "lng": "4.749496"
+        "city": "France",
+        "country": "44.556944,4.749496",
+        "lat": "Mont Ventoux",
+        "lng": null
       },
       "finish": {
-        "city": "Mont Ventoux",
-        "country": "France",
-        "lat": "44.173925",
-        "lng": "5.283795"
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "167",
+        "lng": null
       },
-      "length": 167,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2009-21",
       "year": 2009,
       "leg": "21",
-      "leg_num": 20,
-      "title": "Montereau - Paris-Champs-Élysées",
+      "leg_num": 0,
+      "title": "Montereau",
       "start": {
-        "city": "Montereau",
-        "country": "France",
-        "lat": "48.384734",
-        "lng": "2.956193"
+        "city": "France",
+        "country": "48.384734,2.956193",
+        "lat": "Paris-Champs-Élysées",
+        "lng": null
       },
       "finish": {
-        "city": "Paris-Champs-Élysées",
-        "country": "France",
-        "lat": "48.865784",
-        "lng": "2.307314"
+        "city": "France",
+        "country": "48.865784,2.307314",
+        "lat": "164",
+        "lng": null
       },
-      "length": 164,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2009-01",
-      "year": 2009,
-      "leg": "1",
-      "leg_num": 21,
-      "title": "Monaco - Monaco",
-      "start": {
-        "city": "Monaco",
-        "country": "Monaco",
-        "lat": "43.738418",
-        "lng": "7.424616"
-      },
-      "finish": {
-        "city": "Monaco",
-        "country": "Monaco",
-        "lat": "43.738418",
-        "lng": "7.424616"
-      },
-      "length": 15,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

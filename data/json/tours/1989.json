@@ -24,642 +24,444 @@
   "third_id": "pedro-delgado",
   "legs": [
     {
-      "id": "E-1989-01",
+      "id": "E-1989-Prologue",
       "year": 1989,
-      "leg": "1",
-      "leg_num": 1,
-      "title": "Luxembourg - Luxembourg",
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
       "finish": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "7",
+        "lng": "8"
       },
-      "length": 135,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
+      "length": 0
+    },
+    {
+      "id": "E-1989-01",
+      "year": 1989,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "135",
+        "lng": "5"
+      },
+      "length": 0
     },
     {
       "id": "E-1989-02",
       "year": 1989,
       "leg": "2",
-      "leg_num": 2,
+      "leg_num": 0,
       "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
       "finish": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "46",
+        "lng": null
       },
-      "length": 46,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-03",
       "year": 1989,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Luxembourg - Spa-Francorchamps",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Francorchamps",
+        "lng": null
       },
       "finish": {
-        "city": "Francorchamps",
-        "country": "Belgique",
-        "lat": "50.43772",
-        "lng": "5.971528"
+        "city": "Belgique",
+        "country": "50.43772,5.971528",
+        "lat": "241",
+        "lng": null
       },
-      "length": 241,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-04",
       "year": 1989,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Liège - Wasquehal",
+      "leg_num": 0,
+      "title": "Liège",
       "start": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Wasquehal",
+        "lng": null
       },
       "finish": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lat": "50.669276",
-        "lng": "3.130782"
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "255",
+        "lng": null
       },
-      "length": 255,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-05",
       "year": 1989,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Dinard - Rennes",
+      "leg_num": 0,
+      "title": "Dinard",
       "start": {
-        "city": "Dinard",
-        "country": "France",
-        "lat": "48.633024",
-        "lng": "-2.055125"
+        "city": "France",
+        "country": "48.633024,-2.055125",
+        "lat": "Rennes",
+        "lng": null
       },
       "finish": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "73",
+        "lng": null
       },
-      "length": 73,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-06",
       "year": 1989,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Rennes - Futuroscope",
+      "leg_num": 0,
+      "title": "Rennes",
       "start": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
       },
       "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "46.66680",
-        "lng": "0.36762"
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "259",
+        "lng": null
       },
-      "length": 259,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-07",
       "year": 1989,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Poitiers - Bordeaux",
+      "leg_num": 0,
+      "title": "Poitiers",
       "start": {
-        "city": "Poitiers",
-        "country": "France",
-        "lat": "46.580224",
-        "lng": "0.340375"
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "258",
+        "lng": "5"
       },
-      "length": 258,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-08",
       "year": 1989,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Labastide-d'Armagnac - Pau",
+      "leg_num": 0,
+      "title": "Labastide-d'Armagnac",
       "start": {
-        "city": "Labastide-d'Armagnac",
-        "country": "France",
-        "lat": "43.969386",
-        "lng": "-0.18562"
+        "city": "France",
+        "country": "43.969386,-0.18562",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "157",
+        "lng": null
       },
-      "length": 157,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-09",
       "year": 1989,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Pau - Cauterets-Cambasque",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Cauterets Cambasque",
+        "lng": null
       },
       "finish": {
-        "city": "Cauterets Cambasque",
-        "country": "France",
-        "lat": "42.888535",
-        "lng": "-0.114153"
+        "city": "France",
+        "country": "42.888535,-0.114153",
+        "lat": "147",
+        "lng": null
       },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-10",
       "year": 1989,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Cauterets - Superbagnères  ",
+      "leg_num": 0,
+      "title": "Cauterets",
       "start": {
-        "city": "Cauterets",
-        "country": "France",
-        "lat": "42.889054",
-        "lng": "-0.114246"
+        "city": "France",
+        "country": "42.889054,-0.114246",
+        "lat": "Superbagnères",
+        "lng": null
       },
       "finish": {
-        "city": "Superbagnères",
-        "country": "France",
-        "lat": "42.768576",
-        "lng": "0.576927"
+        "city": "France",
+        "country": "42.768576,0.576927",
+        "lat": "136",
+        "lng": null
       },
-      "length": 136,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-11",
       "year": 1989,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Luchon - Blagnac",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Blagnac",
+        "lng": null
       },
       "finish": {
-        "city": "Blagnac",
-        "country": "France",
-        "lat": "43.635087",
-        "lng": "1.39703"
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "158",
+        "lng": "5"
       },
-      "length": 158,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-12",
       "year": 1989,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Toulouse - Montpellier",
+      "leg_num": 0,
+      "title": "Toulouse",
       "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "242",
+        "lng": null
       },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-13",
       "year": 1989,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Montpellier - Marseille",
+      "leg_num": 0,
+      "title": "Montpellier",
       "start": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "179",
+        "lng": null
       },
-      "length": 179,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-14",
       "year": 1989,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Marseille - Gap  ",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Gap",
+        "lng": null
       },
       "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "240",
+        "lng": null
       },
-      "length": 240,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-15",
       "year": 1989,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Gap - Orcières-Merlette  ",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Orcières-Merlette",
+        "lng": null
       },
       "finish": {
-        "city": "Orcières-Merlette",
-        "country": "France",
-        "lat": "44.695221",
-        "lng": "6.320161"
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "39",
+        "lng": null
       },
-      "length": 39,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-16",
       "year": 1989,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Gap - Briançon ",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "175",
+        "lng": null
       },
-      "length": 175,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-17",
       "year": 1989,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Briançon - L'Alpe d'Huez  ",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "165",
+        "lng": null
       },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-18",
       "year": 1989,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Le Bourg-d'Oisans - Villard-de-Lans  ",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Villard-de-Lans",
+        "lng": null
       },
       "finish": {
-        "city": "Villard-de-Lans",
-        "country": "France",
-        "lat": "45.070641",
-        "lng": "5.55227"
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "91",
+        "lng": "5"
       },
-      "length": 91,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-19",
       "year": 1989,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Villard-de-Lans - Aix-les-Bains  ",
+      "leg_num": 0,
+      "title": "Villard-de-Lans",
       "start": {
-        "city": "Villard-de-Lans",
-        "country": "France",
-        "lat": "45.070641",
-        "lng": "5.55227"
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "125",
+        "lng": null
       },
-      "length": 125,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-20",
       "year": 1989,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Aix-les-Bains - L'Isle-d'Abeau",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "L'Isle-d'Abeau",
+        "lng": null
       },
       "finish": {
-        "city": "L'Isle-d'Abeau",
-        "country": "France",
-        "lat": "45.623157",
-        "lng": "5.230115"
+        "city": "France",
+        "country": "45.623157,5.230115",
+        "lat": "130",
+        "lng": null
       },
-      "length": 130,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1989-21",
       "year": 1989,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Versailles - Paris",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "24",
+        "lng": "5"
       },
-      "length": 24,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1989-Prologue",
-      "year": 1989,
-      "leg": "Prologue",
-      "leg_num": 23,
-      "title": "Luxembourg",
-      "start": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "finish": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "length": 7,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

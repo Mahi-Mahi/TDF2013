@@ -24,613 +24,424 @@
   "third_id": null,
   "legs": [
     {
-      "id": "E-2002-01",
+      "id": "E-2002-Prologue",
       "year": 2002,
-      "leg": "1",
-      "leg_num": 1,
-      "title": "Luxembourg (Lux.) - Luxembourg (Lux.)",
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
       "finish": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "6",
+        "lng": "5"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
+      "length": 0
+    },
+    {
+      "id": "E-2002-01",
+      "year": 2002,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "195",
+        "lng": null
+      },
+      "length": 0
     },
     {
       "id": "E-2002-02",
       "year": 2002,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Luxembourg (Lux.) - Sarrebruck (All.)",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Sarrebruck",
+        "lng": null
       },
       "finish": {
-        "city": "Sarrebruck",
-        "country": "Allemagne",
-        "lat": "49.240157",
-        "lng": "6.996933"
+        "city": "Allemagne",
+        "country": "49.240157,6.996933",
+        "lat": "175",
+        "lng": null
       },
-      "length": 175,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-03",
       "year": 2002,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Metz - Reims",
+      "leg_num": 0,
+      "title": "Metz",
       "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Reims",
+        "lng": null
       },
       "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "185",
+        "lng": null
       },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-04",
       "year": 2002,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Épernay - Château-Thierry",
+      "leg_num": 0,
+      "title": "Épernay",
       "start": {
-        "city": "Épernay",
-        "country": "France",
-        "lat": "49.043411",
-        "lng": "3.956242"
+        "city": "France",
+        "country": "49.043411,3.956242",
+        "lat": "Château-Thierry",
+        "lng": null
       },
       "finish": {
-        "city": "Château-Thierry",
-        "country": "France",
-        "lat": "49.045987",
-        "lng": "3.40262"
+        "city": "France",
+        "country": "49.045987,3.40262",
+        "lat": "68",
+        "lng": null
       },
-      "length": 68,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-05",
       "year": 2002,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Soissons - Rouen",
+      "leg_num": 0,
+      "title": "Soissons",
       "start": {
-        "city": "Soissons",
-        "country": "France",
-        "lat": "49.376636",
-        "lng": "3.32342"
+        "city": "France",
+        "country": "49.376636,3.32342",
+        "lat": "Rouen",
+        "lng": null
       },
       "finish": {
-        "city": "Rouen",
-        "country": "France",
-        "lat": "49.443232",
-        "lng": "1.099971"
+        "city": "France",
+        "country": "49.443232,1.099971",
+        "lat": "198",
+        "lng": null
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-06",
       "year": 2002,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Forges-les-Eaux - Alençon",
+      "leg_num": 0,
+      "title": "Forges-les-Eaux",
       "start": {
-        "city": "Forges-les-Eaux",
-        "country": "France",
-        "lat": "49.613311",
-        "lng": "1.545886"
+        "city": "France",
+        "country": "49.613311,1.545886",
+        "lat": "Alençon",
+        "lng": null
       },
       "finish": {
-        "city": "Alençon",
-        "country": "France",
-        "lat": "48.432856",
-        "lng": "0.091266"
+        "city": "France",
+        "country": "48.432856,0.091266",
+        "lat": "198",
+        "lng": null
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-07",
       "year": 2002,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Bagnoles-de-l'Orne - Avranches",
+      "leg_num": 0,
+      "title": "Bagnoles-de-l'Orne",
       "start": {
-        "city": "Bagnoles-de-l'Orne",
-        "country": "France",
-        "lat": "48.558399",
-        "lng": "-0.415091"
+        "city": "France",
+        "country": "48.558399,-0.415091",
+        "lat": "Avranches",
+        "lng": null
       },
       "finish": {
-        "city": "Avranches",
-        "country": "France",
-        "lat": "48.686843",
-        "lng": "-1.36166"
+        "city": "France",
+        "country": "48.686843,-1.36166",
+        "lat": "162",
+        "lng": null
       },
-      "length": 162,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-08",
       "year": 2002,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Saint-Martin-de-Landelles - Plouay",
+      "leg_num": 0,
+      "title": "Saint-Martin-de-Landelles",
       "start": {
-        "city": "Saint-Martin-de-Landelles",
-        "country": "France",
-        "lat": "48.546107",
-        "lng": "-1.172382"
+        "city": "France",
+        "country": "48.546107,-1.172382",
+        "lat": "Plouay",
+        "lng": null
       },
       "finish": {
-        "city": "Plouay",
-        "country": "France",
-        "lat": "47.915138",
-        "lng": "-3.334565"
+        "city": "France",
+        "country": "47.915138,-3.334565",
+        "lat": "214",
+        "lng": null
       },
-      "length": 214,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-09",
       "year": 2002,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Lanester - Lorient",
+      "leg_num": 0,
+      "title": "Lanester",
       "start": {
-        "city": "Lanester",
-        "country": "France",
-        "lat": "47.763494",
-        "lng": "-3.347354"
+        "city": "France",
+        "country": "47.763494,-3.347354",
+        "lat": "Lorient",
+        "lng": null
       },
       "finish": {
-        "city": "Lorient",
-        "country": "France",
-        "lat": "47.748252",
-        "lng": "-3.370245"
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "55",
+        "lng": null
       },
-      "length": 55,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-10",
       "year": 2002,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Bazas - Pau",
+      "leg_num": 0,
+      "title": "Bazas",
       "start": {
-        "city": "Bazas",
-        "country": "France",
-        "lat": "44.430624",
-        "lng": "-0.211464"
+        "city": "France",
+        "country": "44.430624,-0.211464",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "147",
+        "lng": null
       },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-11",
       "year": 2002,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Pau - La Mongie",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "La Mongie",
+        "lng": null
       },
       "finish": {
-        "city": "La Mongie",
-        "country": "France",
-        "lat": "42.91",
-        "lng": "0.179167"
+        "city": "France",
+        "country": "42.91,0.179167",
+        "lat": "158",
+        "lng": null
       },
-      "length": 158,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-12",
       "year": 2002,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Lannemezan - Plateau de Beille",
+      "leg_num": 0,
+      "title": "Lannemezan",
       "start": {
-        "city": "Lannemezan",
-        "country": "France",
-        "lat": "43.125519",
-        "lng": "0.38396"
+        "city": "France",
+        "country": "43.125519,0.38396",
+        "lat": "Plateau de Beille",
+        "lng": " Aston"
       },
       "finish": {
-        "city": "Plateau de Beille, Aston",
-        "country": "France",
-        "lat": "42.709683",
-        "lng": "1.702387"
+        "city": "France",
+        "country": "42.709683,1.702387",
+        "lat": "198",
+        "lng": null
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-13",
       "year": 2002,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Lavelanet - Béziers",
+      "leg_num": 0,
+      "title": "Lavelanet",
       "start": {
-        "city": "Lavelanet",
-        "country": "France",
-        "lat": "42.937653",
-        "lng": "1.851472"
+        "city": "France",
+        "country": "42.937653,1.851472",
+        "lat": "Béziers",
+        "lng": null
       },
       "finish": {
-        "city": "Béziers",
-        "country": "France",
-        "lat": "43.344233",
-        "lng": "3.215795"
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "166",
+        "lng": null
       },
-      "length": 166,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-14",
       "year": 2002,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Lodève - Mont Ventoux",
+      "leg_num": 0,
+      "title": "Lodève",
       "start": {
-        "city": "Lodève",
-        "country": "France",
-        "lat": "43.73366",
-        "lng": "3.313975"
+        "city": "France",
+        "country": "43.73366,3.313975",
+        "lat": "Mont Ventoux",
+        "lng": null
       },
       "finish": {
-        "city": "Mont Ventoux",
-        "country": "France",
-        "lat": "44.173925",
-        "lng": "5.283795"
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "220",
+        "lng": null
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-15",
       "year": 2002,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Vaison-la-Romaine - Les Deux Alpes",
+      "leg_num": 0,
+      "title": "Vaison-la-Romaine",
       "start": {
-        "city": "Vaison-la-Romaine",
-        "country": "France",
-        "lat": "44.240968",
-        "lng": "5.075198"
+        "city": "France",
+        "country": "44.240968,5.075198",
+        "lat": "Les Deux Alpes",
+        "lng": null
       },
       "finish": {
-        "city": "Les Deux Alpes",
-        "country": "France",
-        "lat": "45.010099",
-        "lng": "6.125578"
+        "city": "France",
+        "country": "45.010099,6.125578",
+        "lat": "226",
+        "lng": null
       },
-      "length": 226,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-16",
       "year": 2002,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Les Deux Alpes - La Plagne",
+      "leg_num": 0,
+      "title": "Les Deux Alpes",
       "start": {
-        "city": "Les Deux Alpes",
-        "country": "France",
-        "lat": "45.010099",
-        "lng": "6.125578"
+        "city": "France",
+        "country": "45.010099,6.125578",
+        "lat": "La Plagne",
+        "lng": null
       },
       "finish": {
-        "city": "La Plagne",
-        "country": "France",
-        "lat": "45.509874",
-        "lng": "6.659294"
+        "city": "France",
+        "country": "45.509874,6.659294",
+        "lat": "179",
+        "lng": null
       },
-      "length": 179,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-17",
       "year": 2002,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Aime - Cluses",
+      "leg_num": 0,
+      "title": "Aime",
       "start": {
-        "city": "Aime",
-        "country": "France",
-        "lat": "45.555982",
-        "lng": "6.652126"
+        "city": "France",
+        "country": "45.555982,6.652126",
+        "lat": "Cluses",
+        "lng": null
       },
       "finish": {
-        "city": "Cluses",
-        "country": "France",
-        "lat": "46.06039",
-        "lng": "6.580582"
+        "city": "France",
+        "country": "46.06039,6.580582",
+        "lat": "141",
+        "lng": null
       },
-      "length": 141,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-18",
       "year": 2002,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Cluses - Bourg-en-Bresse",
+      "leg_num": 0,
+      "title": "Cluses",
       "start": {
-        "city": "Cluses",
-        "country": "France",
-        "lat": "46.06039",
-        "lng": "6.580582"
+        "city": "France",
+        "country": "46.06039,6.580582",
+        "lat": "Bourg-en-Bresse",
+        "lng": null
       },
       "finish": {
-        "city": "Bourg-en-Bresse",
-        "country": "France",
-        "lat": "46.20279",
-        "lng": "5.219246"
+        "city": "France",
+        "country": "46.20279,5.219246",
+        "lat": "180",
+        "lng": null
       },
-      "length": 180,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-19",
       "year": 2002,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Régnié-Durette - Mâcon",
+      "leg_num": 0,
+      "title": "Régnié-Durette",
       "start": {
-        "city": "Régnié-Durette",
-        "country": "France",
-        "lat": "46.136803",
-        "lng": "4.64105"
+        "city": "France",
+        "country": "46.136803,4.64105",
+        "lat": "Mâcon",
+        "lng": null
       },
       "finish": {
-        "city": "Mâcon",
-        "country": "France",
-        "lat": "46.306884",
-        "lng": "4.828731"
+        "city": "France",
+        "country": "46.306884,4.828731",
+        "lat": "52",
+        "lng": "5"
       },
-      "length": 52,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2002-20",
       "year": 2002,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Melun - Paris",
+      "leg_num": 0,
+      "title": "Melun",
       "start": {
-        "city": "Melun",
-        "country": "France",
-        "lat": "48.542105",
-        "lng": "2.6554"
+        "city": "France",
+        "country": "48.542105,2.6554",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "147",
+        "lng": null
       },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2002-Prologue",
-      "year": 2002,
-      "leg": "Prologue",
-      "leg_num": 21,
-      "title": "Luxembourg (Lux.) - Luxembourg (Lux.)",
-      "start": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "finish": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "length": 6,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

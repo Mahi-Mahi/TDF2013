@@ -24,729 +24,504 @@
   "third_id": "federico-bahamontes",
   "legs": [
     {
+      "id": "E-1964-01",
+      "year": 1964,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Rennes",
+      "start": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Lisieux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.145922,0.227849",
+        "lat": "215",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1964-02",
       "year": 1964,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Lisieux - Amiens",
+      "leg_num": 0,
+      "title": "Lisieux",
       "start": {
-        "city": "Lisieux",
-        "country": "France",
-        "lat": "49.145922",
-        "lng": "0.227849"
+        "city": "France",
+        "country": "49.145922,0.227849",
+        "lat": "Amiens",
+        "lng": null
       },
       "finish": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "208",
+        "lng": null
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-3a",
       "year": 1964,
       "leg": "3a",
-      "leg_num": 2,
-      "title": "Amiens - Forest",
+      "leg_num": 0,
+      "title": "Amiens",
       "start": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Forest",
+        "lng": null
       },
       "finish": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
+        "city": "Belgique",
+        "country": "50.8,4.316667",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-3b",
       "year": 1964,
       "leg": "3b",
-      "leg_num": 3,
-      "title": "Forest - Forest",
+      "leg_num": 0,
+      "title": "Forest",
       "start": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
+        "city": "Belgique",
+        "country": "50.8,4.316667",
+        "lat": "Forest",
+        "lng": null
       },
       "finish": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
+        "city": "Belgique",
+        "country": "50.8,4.316667",
+        "lat": "21",
+        "lng": "3"
       },
-      "length": 21,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-04",
       "year": 1964,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Forest - Metz",
+      "leg_num": 0,
+      "title": "Forest",
       "start": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
+        "city": "Belgique",
+        "country": "50.8,4.316667",
+        "lat": "Metz",
+        "lng": null
       },
       "finish": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "291",
+        "lng": "5"
       },
-      "length": 291,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-05",
       "year": 1964,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Lunéville - Fribourg en Brisgau",
+      "leg_num": 0,
+      "title": "Lunéville",
       "start": {
-        "city": "Lunéville",
-        "country": "France",
-        "lat": "48.592237",
-        "lng": "6.492339"
+        "city": "France",
+        "country": "48.592237,6.492339",
+        "lat": "Fribourg en Brisgau",
+        "lng": null
       },
       "finish": {
-        "city": "Fribourg en Brisgau",
-        "country": "Allemagne",
-        "lat": "47.99901",
-        "lng": "7.84210"
+        "city": "Allemagne",
+        "country": "47.99901,7.84210",
+        "lat": "161",
+        "lng": "5"
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-06",
       "year": 1964,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Fribourg en Brisgau - Besançon",
+      "leg_num": 0,
+      "title": "Fribourg en Brisgau",
       "start": {
-        "city": "Fribourg en Brisgau",
-        "country": "Allemagne",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "city": "Allemagne",
+        "country": "46.801666,7.145568",
+        "lat": "Besançon",
+        "lng": null
       },
       "finish": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "200",
+        "lng": null
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-07",
       "year": 1964,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Champagnole - Thonon-les-Bains",
+      "leg_num": 0,
+      "title": "Champagnole",
       "start": {
-        "city": "Champagnole",
-        "country": "France",
-        "lat": "46.74609",
-        "lng": "5.90573"
+        "city": "France",
+        "country": "46.74609,5.90573",
+        "lat": "Thonon-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Thonon-les-Bains",
-        "country": "France",
-        "lat": "46.373565",
-        "lng": "6.477635"
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "195",
+        "lng": null
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-08",
       "year": 1964,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Thonon-les-Bains - Briançon",
+      "leg_num": 0,
+      "title": "Thonon-les-Bains",
       "start": {
-        "city": "Thonon-les-Bains",
-        "country": "France",
-        "lat": "46.373565",
-        "lng": "6.477635"
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "248",
+        "lng": "5"
       },
-      "length": 248,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-09",
       "year": 1964,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Briançon - Monaco",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Monaco",
+        "lng": null
       },
       "finish": {
         "city": "Monaco",
-        "country": "Monaco",
-        "lat": "43.738418",
-        "lng": "7.424616"
+        "country": "43.738418,7.424616",
+        "lat": "239",
+        "lng": null
       },
-      "length": 239,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-10a",
       "year": 1964,
       "leg": "10a",
-      "leg_num": 10,
-      "title": "Monaco - Hyères",
+      "leg_num": 0,
+      "title": "Monaco",
       "start": {
         "city": "Monaco",
-        "country": "Monaco",
-        "lat": "43.738418",
-        "lng": "7.424616"
+        "country": "43.738418,7.424616",
+        "lat": "Hyères",
+        "lng": null
       },
       "finish": {
-        "city": "Hyères",
-        "country": "France",
-        "lat": "43.120541",
-        "lng": "6.128639"
+        "city": "France",
+        "country": "43.120541,6.128639",
+        "lat": "187",
+        "lng": "5"
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-10b",
       "year": 1964,
       "leg": "10b",
-      "leg_num": 11,
-      "title": "Hyères - Toulon",
+      "leg_num": 0,
+      "title": "Hyères",
       "start": {
-        "city": "Hyères",
-        "country": "France",
-        "lat": "43.120541",
-        "lng": "6.128639"
+        "city": "France",
+        "country": "43.120541,6.128639",
+        "lat": "Toulon",
+        "lng": null
       },
       "finish": {
-        "city": "Toulon",
-        "country": "France",
-        "lat": "43.124228",
-        "lng": "5.928"
+        "city": "France",
+        "country": "43.124228,5.928",
+        "lat": "21",
+        "lng": null
       },
-      "length": 21,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-11",
       "year": 1964,
       "leg": "11",
-      "leg_num": 12,
-      "title": "Toulon - Montpellier",
+      "leg_num": 0,
+      "title": "Toulon",
       "start": {
-        "city": "Toulon",
-        "country": "France",
-        "lat": "43.124228",
-        "lng": "5.928"
+        "city": "France",
+        "country": "43.124228,5.928",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "250",
+        "lng": null
       },
-      "length": 250,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-12",
       "year": 1964,
       "leg": "12",
-      "leg_num": 13,
-      "title": "Montpellier - Perpignan",
+      "leg_num": 0,
+      "title": "Montpellier",
       "start": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Perpignan",
+        "lng": null
       },
       "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lat": "42.698684",
-        "lng": "2.895872"
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "174",
+        "lng": null
       },
-      "length": 174,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-13",
       "year": 1964,
       "leg": "13",
-      "leg_num": 14,
-      "title": "Perpignan - Andorre",
+      "leg_num": 0,
+      "title": "Perpignan",
       "start": {
-        "city": "Perpignan",
-        "country": "France",
-        "lat": "42.698684",
-        "lng": "2.895872"
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Andorre",
+        "lng": null
       },
       "finish": {
-        "city": "Andorre",
-        "country": "France",
-        "lat": "42.506285",
-        "lng": "1.521801"
+        "city": "France",
+        "country": "42.506285,1.521801",
+        "lat": "170",
+        "lng": null
       },
-      "length": 170,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-14",
       "year": 1964,
       "leg": "14",
-      "leg_num": 15,
-      "title": "Andorre - Toulouse",
+      "leg_num": 0,
+      "title": "Andorre-la-Vieille",
       "start": {
-        "city": "Andorre-la-Vieille",
-        "country": "Andorre",
-        "lat": "42.506317",
-        "lng": "1.521836"
+        "city": "Andorre",
+        "country": "42.506317,1.521836",
+        "lat": "Toulouse",
+        "lng": null
       },
       "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "186",
+        "lng": null
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-15",
       "year": 1964,
       "leg": "15",
-      "leg_num": 16,
-      "title": "Toulouse - Luchon",
+      "leg_num": 0,
+      "title": "Toulouse",
       "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "203",
+        "lng": null
       },
-      "length": 203,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-16",
       "year": 1964,
       "leg": "16",
-      "leg_num": 17,
-      "title": "Luchon - Pau",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "197",
+        "lng": null
       },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-17",
       "year": 1964,
       "leg": "17",
-      "leg_num": 18,
-      "title": "Peyrehorade - Bayonne",
+      "leg_num": 0,
+      "title": "Peyrehorade",
       "start": {
-        "city": "Peyrehorade",
-        "country": "France",
-        "lat": "43.545627",
-        "lng": "-1.097208"
+        "city": "France",
+        "country": "43.545627,-1.097208",
+        "lat": "Bayonne",
+        "lng": null
       },
       "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "42",
+        "lng": "5"
       },
-      "length": 42,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-18",
       "year": 1964,
       "leg": "18",
-      "leg_num": 19,
-      "title": "Bayonne - Bordeaux",
+      "leg_num": 0,
+      "title": "Bayonne",
       "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "187",
+        "lng": null
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-19",
       "year": 1964,
       "leg": "19",
-      "leg_num": 20,
-      "title": "Bordeaux - Brive",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Brive",
+        "lng": null
       },
       "finish": {
-        "city": "Brive",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "215",
+        "lng": "5"
       },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-20",
       "year": 1964,
       "leg": "20",
-      "leg_num": 21,
-      "title": "Brive - Puy-de-Dôme",
+      "leg_num": 0,
+      "title": "Brive",
       "start": {
-        "city": "Brive",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "Puy de Dôme",
+        "lng": " Orcines"
       },
       "finish": {
-        "city": "Puy de Dôme, Orcines",
-        "country": "France",
-        "lat": "45.77207",
-        "lng": "2.96974"
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "237",
+        "lng": "5"
       },
-      "length": 237,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-21",
       "year": 1964,
       "leg": "21",
-      "leg_num": 22,
-      "title": "Clermont-Ferrand - Orléans",
+      "leg_num": 0,
+      "title": "Clermont-Ferrand",
       "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lat": "45.777222",
-        "lng": "3.087025"
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "Orléans",
+        "lng": null
       },
       "finish": {
-        "city": "Orléans",
-        "country": "France",
-        "lat": "47.902964",
-        "lng": "1.909251"
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "311",
+        "lng": null
       },
-      "length": 311,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-22a",
       "year": 1964,
       "leg": "22a",
-      "leg_num": 23,
-      "title": "Orléans - Versailles",
+      "leg_num": 0,
+      "title": "Orléans",
       "start": {
-        "city": "Orléans",
-        "country": "France",
-        "lat": "47.902964",
-        "lng": "1.909251"
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "Versailles",
+        "lng": null
       },
       "finish": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "118",
+        "lng": "5"
       },
-      "length": 118,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1964-22b",
       "year": 1964,
       "leg": "22b",
-      "leg_num": 24,
-      "title": "Versailles - Paris",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "37",
+        "lng": "5"
       },
-      "length": 37,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1964-01",
-      "year": 1964,
-      "leg": "1",
-      "leg_num": 25,
-      "title": "Rennes - Lisieux",
-      "start": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
-      },
-      "finish": {
-        "city": "Lisieux",
-        "country": "France",
-        "lat": "49.145922",
-        "lng": "0.227849"
-      },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

@@ -24,700 +24,484 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1951-01",
+      "year": 1951,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Metz",
+      "start": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Reims",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "185",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1951-02",
       "year": 1951,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Reims - Gand (Bel.)",
+      "leg_num": 0,
+      "title": "Reims",
       "start": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "Gand",
+        "lng": null
       },
       "finish": {
-        "city": "Gand",
-        "country": "Belgique",
-        "lat": "51.053468",
-        "lng": "3.73038"
+        "city": "Belgique",
+        "country": "51.053468,3.73038",
+        "lat": "228",
+        "lng": null
       },
-      "length": 228,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-03",
       "year": 1951,
       "leg": "3",
-      "leg_num": 2,
-      "title": "Gand (Bel.) - Le Tréport",
+      "leg_num": 0,
+      "title": "Gand",
       "start": {
-        "city": "Gand",
-        "country": "Belgique",
-        "lat": "51.053468",
-        "lng": "3.73038"
+        "city": "Belgique",
+        "country": "51.053468,3.73038",
+        "lat": "Le Tréport",
+        "lng": null
       },
       "finish": {
-        "city": "Le Tréport",
-        "country": "France",
-        "lat": "50.05917",
-        "lng": "1.382472"
+        "city": "France",
+        "country": "50.05917,1.382472",
+        "lat": "219",
+        "lng": null
       },
-      "length": 219,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-04",
       "year": 1951,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Le Tréport - Paris",
+      "leg_num": 0,
+      "title": "Le Tréport",
       "start": {
-        "city": "Le Tréport",
-        "country": "France",
-        "lat": "50.05917",
-        "lng": "1.382472"
+        "city": "France",
+        "country": "50.05917,1.382472",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "188",
+        "lng": null
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-05",
       "year": 1951,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Paris - Caen",
+      "leg_num": 0,
+      "title": "Paris",
       "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Caen",
+        "lng": null
       },
       "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "215",
+        "lng": null
       },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-06",
       "year": 1951,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Caen - Rennes",
+      "leg_num": 0,
+      "title": "Caen",
       "start": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Rennes",
+        "lng": null
       },
       "finish": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "182",
+        "lng": null
       },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-07",
       "year": 1951,
       "leg": "7",
-      "leg_num": 6,
-      "title": "La Guerche-de-Bretagne - Angers",
+      "leg_num": 0,
+      "title": "La Guerche-de-Bretagne",
       "start": {
-        "city": "La Guerche-de-Bretagne",
-        "country": "France",
-        "lat": "47.941933",
-        "lng": "-1.230696"
+        "city": "France",
+        "country": "47.941933,-1.230696",
+        "lat": "Angers",
+        "lng": null
       },
       "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "85",
+        "lng": null
       },
-      "length": 85,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-08",
       "year": 1951,
       "leg": "8",
-      "leg_num": 7,
-      "title": "Angers - Limoges",
+      "leg_num": 0,
+      "title": "Angers",
       "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Limoges",
+        "lng": null
       },
       "finish": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "241",
+        "lng": null
       },
-      "length": 241,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-09",
       "year": 1951,
       "leg": "9",
-      "leg_num": 8,
-      "title": "Limoges - Clermont-Ferrand",
+      "leg_num": 0,
+      "title": "Limoges",
       "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "Clermont-Ferrand",
+        "lng": null
       },
       "finish": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lat": "45.777222",
-        "lng": "3.087025"
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "236",
+        "lng": null
       },
-      "length": 236,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-10",
       "year": 1951,
       "leg": "10",
-      "leg_num": 9,
-      "title": "Clermont-Ferrand - Brive-la-Gaillarde",
+      "leg_num": 0,
+      "title": "Clermont-Ferrand",
       "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lat": "45.777222",
-        "lng": "3.087025"
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "Brive-la-Gaillarde",
+        "lng": null
       },
       "finish": {
-        "city": "Brive-la-Gaillarde",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "216",
+        "lng": null
       },
-      "length": 216,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-11",
       "year": 1951,
       "leg": "11",
-      "leg_num": 10,
-      "title": "Brive-la-Gaillarde - Agen",
+      "leg_num": 0,
+      "title": "Brive-la-Gaillarde",
       "start": {
-        "city": "Brive-la-Gaillarde",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "Agen",
+        "lng": null
       },
       "finish": {
-        "city": "Agen",
-        "country": "France",
-        "lat": "44.203142",
-        "lng": "0.616363"
+        "city": "France",
+        "country": "44.203142,0.616363",
+        "lat": "177",
+        "lng": null
       },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-12",
       "year": 1951,
       "leg": "12",
-      "leg_num": 11,
-      "title": "Agen - Dax",
+      "leg_num": 0,
+      "title": "Agen",
       "start": {
-        "city": "Agen",
-        "country": "France",
-        "lat": "44.203142",
-        "lng": "0.616363"
+        "city": "France",
+        "country": "44.203142,0.616363",
+        "lat": "Dax",
+        "lng": null
       },
       "finish": {
-        "city": "Dax",
-        "country": "France",
-        "lat": "43.708608",
-        "lng": "-1.051945"
+        "city": "France",
+        "country": "43.708608,-1.051945",
+        "lat": "233",
+        "lng": null
       },
-      "length": 233,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-13",
       "year": 1951,
       "leg": "13",
-      "leg_num": 12,
-      "title": "Dax - Tarbes",
+      "leg_num": 0,
+      "title": "Dax",
       "start": {
-        "city": "Dax",
-        "country": "France",
-        "lat": "43.708608",
-        "lng": "-1.051945"
+        "city": "France",
+        "country": "43.708608,-1.051945",
+        "lat": "Tarbes",
+        "lng": null
       },
       "finish": {
-        "city": "Tarbes",
-        "country": "France",
-        "lat": "43.232951",
-        "lng": "0.078082"
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "201",
+        "lng": null
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-14",
       "year": 1951,
       "leg": "14",
-      "leg_num": 13,
-      "title": "Tarbes - Luchon",
+      "leg_num": 0,
+      "title": "Tarbes",
       "start": {
-        "city": "Tarbes",
-        "country": "France",
-        "lat": "43.232951",
-        "lng": "0.078082"
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "178",
+        "lng": null
       },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-15",
       "year": 1951,
       "leg": "15",
-      "leg_num": 14,
-      "title": "Luchon - Carcassonne",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Carcassonne",
+        "lng": null
       },
       "finish": {
-        "city": "Carcassonne",
-        "country": "France",
-        "lat": "43.212161",
-        "lng": "2.353663"
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "213",
+        "lng": null
       },
-      "length": 213,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-16",
       "year": 1951,
       "leg": "16",
-      "leg_num": 15,
-      "title": "Carcassonne - Montpellier",
+      "leg_num": 0,
+      "title": "Carcassonne",
       "start": {
-        "city": "Carcassonne",
-        "country": "France",
-        "lat": "43.212161",
-        "lng": "2.353663"
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-17",
       "year": 1951,
       "leg": "17",
-      "leg_num": 16,
-      "title": "Montpellier - Avignon",
+      "leg_num": 0,
+      "title": "Montpellier",
       "start": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Avignon",
+        "lng": null
       },
       "finish": {
-        "city": "Avignon",
-        "country": "France",
-        "lat": "43.949317",
-        "lng": "4.805528"
+        "city": "France",
+        "country": "43.949317,4.805528",
+        "lat": "224",
+        "lng": null
       },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-18",
       "year": 1951,
       "leg": "18",
-      "leg_num": 17,
-      "title": "Avignon - Marseille",
+      "leg_num": 0,
+      "title": "Avignon",
       "start": {
-        "city": "Avignon",
-        "country": "France",
-        "lat": "43.949317",
-        "lng": "4.805528"
+        "city": "France",
+        "country": "43.949317,4.805528",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "173",
+        "lng": null
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-19",
       "year": 1951,
       "leg": "19",
-      "leg_num": 18,
-      "title": "Marseille - Gap",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Gap",
+        "lng": null
       },
       "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "208",
+        "lng": null
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-20",
       "year": 1951,
       "leg": "20",
-      "leg_num": 19,
-      "title": "Gap - Briançon",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "165",
+        "lng": null
       },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-21",
       "year": 1951,
       "leg": "21",
-      "leg_num": 20,
-      "title": "Briançon - Aix-les-Bains",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "201",
+        "lng": null
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-22",
       "year": 1951,
       "leg": "22",
-      "leg_num": 21,
-      "title": "Aix-les-Bains - Genève (Sui.)",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Genève",
+        "lng": null
       },
       "finish": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lat": "46.198392",
-        "lng": "6.142296"
+        "city": "Suisse",
+        "country": "46.198392,6.142296",
+        "lat": "98",
+        "lng": null
       },
-      "length": 98,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-23",
       "year": 1951,
       "leg": "23",
-      "leg_num": 22,
-      "title": "Genève (Sui.) - Dijon",
+      "leg_num": 0,
+      "title": "Genève",
       "start": {
-        "city": "Genève",
-        "country": "Suisse",
-        "lat": "46.198392",
-        "lng": "6.142296"
+        "city": "Suisse",
+        "country": "46.198392,6.142296",
+        "lat": "Dijon",
+        "lng": null
       },
       "finish": {
-        "city": "Dijon",
-        "country": "France",
-        "lat": "47.322047",
-        "lng": "5.04148"
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "197",
+        "lng": null
       },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1951-01",
-      "year": 1951,
-      "leg": "1",
-      "leg_num": 23,
-      "title": "Metz - Reims",
-      "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
-      },
-      "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
-      },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1951-24",
       "year": 1951,
       "leg": "24",
-      "leg_num": 23,
-      "title": "Dijon - Paris",
+      "leg_num": 0,
+      "title": "Dijon",
       "start": {
-        "city": "Dijon",
-        "country": "France",
-        "lat": "47.322047",
-        "lng": "5.04148"
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "354",
+        "lng": null
       },
-      "length": 354,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

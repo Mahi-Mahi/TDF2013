@@ -24,178 +24,124 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1903-01",
+      "year": 1903,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Montgeron",
+      "start": {
+        "city": "France",
+        "country": "48.703859,2.460453",
+        "lat": "Lyon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "467",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1903-02",
       "year": 1903,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Lyon - Marseille",
+      "leg_num": 0,
+      "title": "Lyon",
       "start": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "374",
+        "lng": null
       },
-      "length": 374,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1903-03",
       "year": 1903,
       "leg": "3",
-      "leg_num": 2,
-      "title": "Marseille - Toulouse",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Toulouse",
+        "lng": null
       },
       "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "423",
+        "lng": null
       },
-      "length": 423,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1903-04",
       "year": 1903,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Toulouse - Bordeaux",
+      "leg_num": 0,
+      "title": "Toulouse",
       "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "268",
+        "lng": null
       },
-      "length": 268,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1903-05",
       "year": 1903,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Bordeaux - Nantes",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Nantes",
+        "lng": null
       },
       "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "425",
+        "lng": null
       },
-      "length": 425,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1903-06",
       "year": 1903,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Nantes - Paris",
+      "leg_num": 0,
+      "title": "Nantes",
       "start": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "471",
+        "lng": null
       },
-      "length": 471,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1903-01",
-      "year": 1903,
-      "leg": "1",
-      "leg_num": 6,
-      "title": "Montgeron - Lyon",
-      "start": {
-        "city": "Montgeron",
-        "country": "France",
-        "lat": "48.703859",
-        "lng": "2.460453"
-      },
-      "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "length": 467,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

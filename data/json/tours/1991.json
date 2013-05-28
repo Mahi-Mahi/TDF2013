@@ -24,671 +24,464 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1991-Prologue",
+      "year": 1991,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Lyon",
+      "start": {
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "Lyon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "5",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1991-01",
       "year": 1991,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Lyon - Lyon",
+      "leg_num": 0,
+      "title": "Lyon",
       "start": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "Lyon",
+        "lng": null
       },
       "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "114",
+        "lng": "5"
       },
-      "length": 114,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-02",
       "year": 1991,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Bron - Chassieu",
+      "leg_num": 0,
+      "title": "Bron",
       "start": {
-        "city": "Bron",
-        "country": "France",
-        "lat": "45.733316",
-        "lng": "4.911927"
+        "city": "France",
+        "country": "45.733316,4.911927",
+        "lat": "Chassieu",
+        "lng": null
       },
       "finish": {
-        "city": "Chassieu",
-        "country": "France",
-        "lat": "45.743527",
-        "lng": "4.971918"
+        "city": "France",
+        "country": "45.743527,4.971918",
+        "lat": "36",
+        "lng": "5"
       },
-      "length": 36,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-03",
       "year": 1991,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Villeurbanne - Dijon",
+      "leg_num": 0,
+      "title": "Villeurbanne",
       "start": {
-        "city": "Villeurbanne",
-        "country": "France",
-        "lat": "45.771944",
-        "lng": "4.890171"
+        "city": "France",
+        "country": "45.771944,4.890171",
+        "lat": "Dijon",
+        "lng": null
       },
       "finish": {
-        "city": "Dijon",
-        "country": "France",
-        "lat": "47.322047",
-        "lng": "5.04148"
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "210",
+        "lng": "5"
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-04",
       "year": 1991,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Dijon - Reims",
+      "leg_num": 0,
+      "title": "Dijon",
       "start": {
-        "city": "Dijon",
-        "country": "France",
-        "lat": "47.322047",
-        "lng": "5.04148"
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "Reims",
+        "lng": null
       },
       "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "286",
+        "lng": null
       },
-      "length": 286,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-05",
       "year": 1991,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Reims - Valenciennes",
+      "leg_num": 0,
+      "title": "Reims",
       "start": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "Valenciennes",
+        "lng": null
       },
       "finish": {
-        "city": "Valenciennes",
-        "country": "France",
-        "lat": "50.357113",
-        "lng": "3.518332"
+        "city": "France",
+        "country": "50.357113,3.518332",
+        "lat": "149",
+        "lng": "5"
       },
-      "length": 149,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-06",
       "year": 1991,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Arras - Le Havre",
+      "leg_num": 0,
+      "title": "Arras",
       "start": {
-        "city": "Arras",
-        "country": "France",
-        "lat": "50.291002",
-        "lng": "2.777535"
+        "city": "France",
+        "country": "50.291002,2.777535",
+        "lat": "Le Havre",
+        "lng": null
       },
       "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "259",
+        "lng": null
       },
-      "length": 259,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-07",
       "year": 1991,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Le Havre - Argentan",
+      "leg_num": 0,
+      "title": "Le Havre",
       "start": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "Argentan",
+        "lng": null
       },
       "finish": {
-        "city": "Argentan",
-        "country": "France",
-        "lat": "48.744001",
-        "lng": "-0.016566"
+        "city": "France",
+        "country": "48.744001,-0.016566",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-08",
       "year": 1991,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Argentan - Alençon",
+      "leg_num": 0,
+      "title": "Argentan",
       "start": {
-        "city": "Argentan",
-        "country": "France",
-        "lat": "48.744001",
-        "lng": "-0.016566"
+        "city": "France",
+        "country": "48.744001,-0.016566",
+        "lat": "Alençon",
+        "lng": null
       },
       "finish": {
-        "city": "Alençon",
-        "country": "France",
-        "lat": "48.432856",
-        "lng": "0.091266"
+        "city": "France",
+        "country": "48.432856,0.091266",
+        "lat": "73",
+        "lng": null
       },
-      "length": 73,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-09",
       "year": 1991,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Alençon - Rennes",
+      "leg_num": 0,
+      "title": "Alençon",
       "start": {
-        "city": "Alençon",
-        "country": "France",
-        "lat": "48.432856",
-        "lng": "0.091266"
+        "city": "France",
+        "country": "48.432856,0.091266",
+        "lat": "Rennes",
+        "lng": null
       },
       "finish": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "161",
+        "lng": null
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-10",
       "year": 1991,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Rennes - Quimper",
+      "leg_num": 0,
+      "title": "Rennes",
       "start": {
-        "city": "Rennes",
-        "country": "France",
-        "lat": "48.113475",
-        "lng": "-1.675708"
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Quimper",
+        "lng": null
       },
       "finish": {
-        "city": "Quimper",
-        "country": "France",
-        "lat": "47.997542",
-        "lng": "-4.097899"
+        "city": "France",
+        "country": "47.997542,-4.097899",
+        "lat": "207",
+        "lng": "5"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-11",
       "year": 1991,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Quimper - Saint-Herblain",
+      "leg_num": 0,
+      "title": "Quimper",
       "start": {
-        "city": "Quimper",
-        "country": "France",
-        "lat": "47.997542",
-        "lng": "-4.097899"
+        "city": "France",
+        "country": "47.997542,-4.097899",
+        "lat": "Saint-Herblain",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Herblain",
-        "country": "France",
-        "lat": "47.210335",
-        "lng": "-1.651444"
+        "city": "France",
+        "country": "47.210335,-1.651444",
+        "lat": "246",
+        "lng": null
       },
-      "length": 246,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-12",
       "year": 1991,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Pau - Jaca",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Jaca",
+        "lng": null
       },
       "finish": {
-        "city": "Jaca",
-        "country": "Espagne",
-        "lat": "42.571717",
-        "lng": "-0.547055"
+        "city": "Espagne",
+        "country": "42.571717,-0.547055",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-13",
       "year": 1991,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Jaca - Val-Louron",
+      "leg_num": 0,
+      "title": "Jaca",
       "start": {
-        "city": "Jaca",
-        "country": "Espagne",
-        "lat": "42.571717",
-        "lng": "-0.547055"
+        "city": "Espagne",
+        "country": "42.571717,-0.547055",
+        "lat": "Val-Louron",
+        "lng": " Génos"
       },
       "finish": {
-        "city": "Val-Louron, Génos",
-        "country": "France",
-        "lat": "42.79097",
-        "lng": "0.389625"
+        "city": "France",
+        "country": "42.79097,0.389625",
+        "lat": "232",
+        "lng": null
       },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-14",
       "year": 1991,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Saint-Gaudens - Castres",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
       "start": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lat": "43.106895",
-        "lng": "0.723763"
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Castres",
+        "lng": null
       },
       "finish": {
-        "city": "Castres",
-        "country": "France",
-        "lat": "43.606214",
-        "lng": "2.241295"
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "172",
+        "lng": "5"
       },
-      "length": 172,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-15",
       "year": 1991,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Albi - Alès",
+      "leg_num": 0,
+      "title": "Albi",
       "start": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "Alès",
+        "lng": null
       },
       "finish": {
-        "city": "Alès",
-        "country": "France",
-        "lat": "44.127204",
-        "lng": "4.083352"
+        "city": "France",
+        "country": "44.127204,4.083352",
+        "lat": "235",
+        "lng": null
       },
-      "length": 235,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-16",
       "year": 1991,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Alès - Gap",
+      "leg_num": 0,
+      "title": "Alès",
       "start": {
-        "city": "Alès",
-        "country": "France",
-        "lat": "44.127204",
-        "lng": "4.083352"
+        "city": "France",
+        "country": "44.127204,4.083352",
+        "lat": "Gap",
+        "lng": null
       },
       "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "215",
+        "lng": null
       },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-17",
       "year": 1991,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Gap - L'Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "125",
+        "lng": null
       },
-      "length": 125,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-18",
       "year": 1991,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Le Bourg-d'Oisans - Morzine",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Morzine",
+        "lng": null
       },
       "finish": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "255",
+        "lng": null
       },
-      "length": 255,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-19",
       "year": 1991,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Morzine - Aix-les-Bains",
+      "leg_num": 0,
+      "title": "Morzine",
       "start": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "177",
+        "lng": null
       },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-20",
       "year": 1991,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Aix-les-Bains - Mâcon",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Mâcon",
+        "lng": null
       },
       "finish": {
-        "city": "Mâcon",
-        "country": "France",
-        "lat": "46.306884",
-        "lng": "4.828731"
+        "city": "France",
+        "country": "46.306884,4.828731",
+        "lat": "160",
+        "lng": null
       },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-21",
       "year": 1991,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Lugny - Mâcon",
+      "leg_num": 0,
+      "title": "Lugny",
       "start": {
-        "city": "Lugny",
-        "country": "France",
-        "lat": "46.471672",
-        "lng": "4.80982"
+        "city": "France",
+        "country": "46.471672,4.80982",
+        "lat": "Mâcon",
+        "lng": null
       },
       "finish": {
-        "city": "Mâcon",
-        "country": "France",
-        "lat": "46.306884",
-        "lng": "4.828731"
+        "city": "France",
+        "country": "46.306884,4.828731",
+        "lat": "57",
+        "lng": null
       },
-      "length": 57,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1991-Prologue",
-      "year": 1991,
-      "leg": "Prologue",
-      "leg_num": 22,
-      "title": "Lyon",
-      "start": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1991-22",
       "year": 1991,
       "leg": "22",
-      "leg_num": 22,
-      "title": "Melun - Paris",
+      "leg_num": 0,
+      "title": "Melun",
       "start": {
-        "city": "Melun",
-        "country": "France",
-        "lat": "48.542105",
-        "lng": "2.6554"
+        "city": "France",
+        "country": "48.542105,2.6554",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "178",
+        "lng": null
       },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

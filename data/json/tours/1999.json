@@ -24,613 +24,424 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1999-Prologue",
+      "year": 1999,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Les Epesses",
+      "start": {
+        "city": "France",
+        "country": "46.884536,-0.899612",
+        "lat": "Les Epesses",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.884536,-0.899612",
+        "lat": "7",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1999-01",
       "year": 1999,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Montaigu - Challans",
+      "leg_num": 0,
+      "title": "Montaigu",
       "start": {
-        "city": "Montaigu",
-        "country": "France",
-        "lat": "46.974347",
-        "lng": "-1.313777"
+        "city": "France",
+        "country": "46.974347,-1.313777",
+        "lat": "Challans",
+        "lng": null
       },
       "finish": {
-        "city": "Challans",
-        "country": "France",
-        "lat": "46.844828",
-        "lng": "-1.880412"
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "203",
+        "lng": null
       },
-      "length": 203,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-02",
       "year": 1999,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Challans - Saint-Nazaire",
+      "leg_num": 0,
+      "title": "Challans",
       "start": {
-        "city": "Challans",
-        "country": "France",
-        "lat": "46.844828",
-        "lng": "-1.880412"
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "Saint-Nazaire",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Nazaire",
-        "country": "France",
-        "lat": "47.273498",
-        "lng": "-2.213848"
+        "city": "France",
+        "country": "47.273498,-2.213848",
+        "lat": "176",
+        "lng": null
       },
-      "length": 176,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-03",
       "year": 1999,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Nantes - Laval",
+      "leg_num": 0,
+      "title": "Nantes",
       "start": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Laval",
+        "lng": null
       },
       "finish": {
-        "city": "Laval",
-        "country": "France",
-        "lat": "48.077863",
-        "lng": "-0.770138"
+        "city": "France",
+        "country": "48.077863,-0.770138",
+        "lat": "194",
+        "lng": "5"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-04",
       "year": 1999,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Laval - Blois",
+      "leg_num": 0,
+      "title": "Laval",
       "start": {
-        "city": "Laval",
-        "country": "France",
-        "lat": "48.077863",
-        "lng": "-0.770138"
+        "city": "France",
+        "country": "48.077863,-0.770138",
+        "lat": "Blois",
+        "lng": null
       },
       "finish": {
-        "city": "Blois",
-        "country": "France",
-        "lat": "47.587952",
-        "lng": "1.336272"
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "194",
+        "lng": "5"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-05",
       "year": 1999,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Bonneval - Amiens",
+      "leg_num": 0,
+      "title": "Bonneval",
       "start": {
-        "city": "Bonneval",
-        "country": "France",
-        "lat": "48.181453",
-        "lng": "1.385289"
+        "city": "France",
+        "country": "48.181453,1.385289",
+        "lat": "Amiens",
+        "lng": null
       },
       "finish": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "233",
+        "lng": "5"
       },
-      "length": 233,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-06",
       "year": 1999,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Amiens - Maubeuge",
+      "leg_num": 0,
+      "title": "Amiens",
       "start": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Maubeuge",
+        "lng": null
       },
       "finish": {
-        "city": "Maubeuge",
-        "country": "France",
-        "lat": "50.280228",
-        "lng": "3.9674"
+        "city": "France",
+        "country": "50.280228,3.9674",
+        "lat": "171",
+        "lng": "5"
       },
-      "length": 171,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-07",
       "year": 1999,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Avesnes-sur-Helpe - Thionville",
+      "leg_num": 0,
+      "title": "Avesnes-sur-Helpe",
       "start": {
-        "city": "Avesnes-sur-Helpe",
-        "country": "France",
-        "lat": "50.123589",
-        "lng": "3.926864"
+        "city": "France",
+        "country": "50.123589,3.926864",
+        "lat": "Thionville",
+        "lng": null
       },
       "finish": {
-        "city": "Thionville",
-        "country": "France",
-        "lat": "49.357571",
-        "lng": "6.168426"
+        "city": "France",
+        "country": "49.357571,6.168426",
+        "lat": "227",
+        "lng": null
       },
-      "length": 227,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-08",
       "year": 1999,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Metz - Metz",
+      "leg_num": 0,
+      "title": "Metz",
       "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Metz",
+        "lng": null
       },
       "finish": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "56",
+        "lng": "5"
       },
-      "length": 56,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-09",
       "year": 1999,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Le Grand-Bornand - Sestrières",
+      "leg_num": 0,
+      "title": "Le Grand-Bornand",
       "start": {
-        "city": "Le Grand-Bornand",
-        "country": "France",
-        "lat": "45.942027",
-        "lng": "6.426699"
+        "city": "France",
+        "country": "45.942027,6.426699",
+        "lat": "Sestrières",
+        "lng": null
       },
       "finish": {
-        "city": "Sestrières",
-        "country": "France",
-        "lat": "44.9565",
-        "lng": "6.879234"
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "213",
+        "lng": "5"
       },
-      "length": 213,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-10",
       "year": 1999,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Sestrières - L'Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Sestrières",
       "start": {
-        "city": "Sestrières",
-        "country": "France",
-        "lat": "44.9565",
-        "lng": "6.879234"
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "220",
+        "lng": "5"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-11",
       "year": 1999,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Le Bourg-d'Oisans - Saint-Étienne",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Saint-Étienne",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "198",
+        "lng": "5"
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-12",
       "year": 1999,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Saint-Galmier - Saint-Flour",
+      "leg_num": 0,
+      "title": "Saint-Galmier",
       "start": {
-        "city": "Saint-Galmier",
-        "country": "France",
-        "lat": "45.590322",
-        "lng": "4.318391"
+        "city": "France",
+        "country": "45.590322,4.318391",
+        "lat": "Saint-Flour",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Flour",
-        "country": "France",
-        "lat": "45.033026",
-        "lng": "3.094862"
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "201",
+        "lng": "5"
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-13",
       "year": 1999,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Saint-Flour - Albi",
+      "leg_num": 0,
+      "title": "Saint-Flour",
       "start": {
-        "city": "Saint-Flour",
-        "country": "France",
-        "lat": "45.033026",
-        "lng": "3.094862"
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "Albi",
+        "lng": null
       },
       "finish": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "236",
+        "lng": "5"
       },
-      "length": 236,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-14",
       "year": 1999,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Castres - Saint-Gaudens",
+      "leg_num": 0,
+      "title": "Castres",
       "start": {
-        "city": "Castres",
-        "country": "France",
-        "lat": "43.606214",
-        "lng": "2.241295"
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "Saint-Gaudens",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lat": "43.106895",
-        "lng": "0.723763"
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "199",
+        "lng": null
       },
-      "length": 199,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-15",
       "year": 1999,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Saint-Gaudens - Piau-Engaly",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
       "start": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lat": "43.106895",
-        "lng": "0.723763"
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Piau-Engaly",
+        "lng": null
       },
       "finish": {
-        "city": "Piau-Engaly",
-        "country": "France",
-        "lat": "42.784774",
-        "lng": "0.158593"
+        "city": "France",
+        "country": "42.784774,0.158593",
+        "lat": "173",
+        "lng": null
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-16",
       "year": 1999,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Lannemezan - Pau",
+      "leg_num": 0,
+      "title": "Lannemezan",
       "start": {
-        "city": "Lannemezan",
-        "country": "France",
-        "lat": "43.125519",
-        "lng": "0.38396"
+        "city": "France",
+        "country": "43.125519,0.38396",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-17",
       "year": 1999,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Mourenx - Bordeaux",
+      "leg_num": 0,
+      "title": "Mourenx",
       "start": {
-        "city": "Mourenx",
-        "country": "France",
-        "lat": "43.368262",
-        "lng": "-0.620552"
+        "city": "France",
+        "country": "43.368262,-0.620552",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "200",
+        "lng": null
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-18",
       "year": 1999,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Jonzac - Futuroscope",
+      "leg_num": 0,
+      "title": "Jonzac",
       "start": {
-        "city": "Jonzac",
-        "country": "France",
-        "lat": "45.445368",
-        "lng": "-0.431058"
+        "city": "France",
+        "country": "45.445368,-0.431058",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
       },
       "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "\n46.66680",
-        "lng": "0.36762"
+        "city": "France",
+        "country": "\n46.66680,0.36762",
+        "lat": "187",
+        "lng": null
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-19",
       "year": 1999,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Futuroscope - Futuroscope",
+      "leg_num": 0,
+      "title": "Futuroscope, Poitiers",
       "start": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "46.66680",
-        "lng": "0.36762"
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
       },
       "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "46.66680",
-        "lng": "0.36762"
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "57",
+        "lng": null
       },
-      "length": 57,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1999-20",
       "year": 1999,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Arpajon - Paris",
+      "leg_num": 0,
+      "title": "Arpajon",
       "start": {
-        "city": "Arpajon",
-        "country": "France",
-        "lat": "48.589172",
-        "lng": "2.246237"
+        "city": "France",
+        "country": "48.589172,2.246237",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "143",
+        "lng": "5"
       },
-      "length": 143,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1999-Prologue",
-      "year": 1999,
-      "leg": "Prologue",
-      "leg_num": 21,
-      "title": "Puy du Fou - Puy du Fou",
-      "start": {
-        "city": "Les Epesses",
-        "country": "France",
-        "lat": "46.884536",
-        "lng": "-0.899612"
-      },
-      "finish": {
-        "city": "Les Epesses",
-        "country": "France",
-        "lat": "46.884536",
-        "lng": "-0.899612"
-      },
-      "length": 7,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

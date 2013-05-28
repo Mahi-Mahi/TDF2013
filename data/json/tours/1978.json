@@ -24,729 +24,504 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1978-Prologue",
+      "year": 1978,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Leiden",
+      "start": {
+        "city": "Pays-Bas",
+        "country": "52.158494,4.496199",
+        "lat": "Leiden",
+        "lng": null
+      },
+      "finish": {
+        "city": "Pays-bas",
+        "country": "52.158494,4.496199",
+        "lat": "5",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1978-1a",
       "year": 1978,
       "leg": "1a",
-      "leg_num": 1,
-      "title": "Leiden (P.-B.) - Sint Willebrord (P.-B.)",
+      "leg_num": 0,
+      "title": "Leiden",
       "start": {
-        "city": "Leiden",
-        "country": "Pays-Bas",
-        "lat": "52.158494",
-        "lng": "4.496199"
+        "city": "Pays-Bas",
+        "country": "52.158494,4.496199",
+        "lat": "Sint Willebrord",
+        "lng": null
       },
       "finish": {
-        "city": "Sint Willebrord",
-        "country": "Pays-bas",
-        "lat": "51.551778",
-        "lng": "4.58975"
+        "city": "Pays-bas",
+        "country": "51.551778,4.58975",
+        "lat": "135",
+        "lng": null
       },
-      "length": 135,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-1b",
       "year": 1978,
       "leg": "1b",
-      "leg_num": 2,
-      "title": "Sint Willebrord (P.-B.) - Bruxelles (Bel.)",
+      "leg_num": 0,
+      "title": "Sint Willebrord",
       "start": {
-        "city": "Sint Willebrord",
-        "country": "Pays-Bas",
-        "lat": "51.551778",
-        "lng": "4.58975"
+        "city": "Pays-Bas",
+        "country": "51.551778,4.58975",
+        "lat": "Bruxelles",
+        "lng": null
       },
       "finish": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "100",
+        "lng": null
       },
-      "length": 100,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-02",
       "year": 1978,
       "leg": "2",
-      "leg_num": 3,
-      "title": "Bruxelles (Bel.) - Saint-Amand-les-Eaux",
+      "leg_num": 0,
+      "title": "Bruxelles",
       "start": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "Saint-Amand-les-Eaux",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Amand-les-Eaux",
-        "country": "France",
-        "lat": "50.448979",
-        "lng": "3.428713"
+        "city": "France",
+        "country": "50.448979,3.428713",
+        "lat": "299",
+        "lng": null
       },
-      "length": 299,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-03",
       "year": 1978,
       "leg": "3",
-      "leg_num": 4,
-      "title": "Saint-Amand-les-Eaux - Saint-Germain-en-Laye",
+      "leg_num": 0,
+      "title": "Saint-Amand-les-Eaux",
       "start": {
-        "city": "Saint-Amand-les-Eaux",
-        "country": "France",
-        "lat": "50.448979",
-        "lng": "3.428713"
+        "city": "France",
+        "country": "50.448979,3.428713",
+        "lat": "Saint-Germain-en-Laye",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Germain-en-Laye",
-        "country": "France",
-        "lat": "48.898908",
-        "lng": "2.093761"
+        "city": "France",
+        "country": "48.898908,2.093761",
+        "lat": "243",
+        "lng": "5"
       },
-      "length": 243,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-04",
       "year": 1978,
       "leg": "4",
-      "leg_num": 5,
-      "title": "Évreux - Caen",
+      "leg_num": 0,
+      "title": "Évreux",
       "start": {
-        "city": "Évreux",
-        "country": "France",
-        "lat": "49.027013",
-        "lng": "1.151361"
+        "city": "France",
+        "country": "49.027013,1.151361",
+        "lat": "Caen",
+        "lng": null
       },
       "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "153",
+        "lng": null
       },
-      "length": 153,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-05",
       "year": 1978,
       "leg": "5",
-      "leg_num": 6,
-      "title": "Caen - Mazé-Montgeoffroy",
+      "leg_num": 0,
+      "title": "Caen",
       "start": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Mazé-Montgeoffroy",
+        "lng": null
       },
       "finish": {
-        "city": "Mazé-Montgeoffroy",
-        "country": "France",
-        "lat": "47.468481",
-        "lng": "-0.277046"
+        "city": "France",
+        "country": "47.468481,-0.277046",
+        "lat": "244",
+        "lng": null
       },
-      "length": 244,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-06",
       "year": 1978,
       "leg": "6",
-      "leg_num": 7,
-      "title": "Mazé-Montgeoffroy - Poitiers",
+      "leg_num": 0,
+      "title": "Mazé-Montgeoffroy",
       "start": {
-        "city": "Mazé-Montgeoffroy",
-        "country": "France",
-        "lat": "47.468481",
-        "lng": "-0.277046"
+        "city": "France",
+        "country": "47.468481,-0.277046",
+        "lat": "Poitiers",
+        "lng": null
       },
       "finish": {
-        "city": "Poitiers",
-        "country": "France",
-        "lat": "46.580224",
-        "lng": "0.340375"
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "162",
+        "lng": null
       },
-      "length": 162,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-07",
       "year": 1978,
       "leg": "7",
-      "leg_num": 8,
-      "title": "Poitiers - Bordeaux",
+      "leg_num": 0,
+      "title": "Poitiers",
       "start": {
-        "city": "Poitiers",
-        "country": "France",
-        "lat": "46.580224",
-        "lng": "0.340375"
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "242",
+        "lng": null
       },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-08",
       "year": 1978,
       "leg": "8",
-      "leg_num": 9,
-      "title": "Saint-Émilion - Sainte-Foy-la-Grande",
+      "leg_num": 0,
+      "title": "Saint-Émilion",
       "start": {
-        "city": "Saint-Émilion",
-        "country": "France",
-        "lat": "44.894387",
-        "lng": "-0.155729"
+        "city": "France",
+        "country": "44.894387,-0.155729",
+        "lat": "Sainte-Foy-la-Grande",
+        "lng": null
       },
       "finish": {
-        "city": "Sainte-Foy-la-Grande",
-        "country": "France",
-        "lat": "44.841805",
-        "lng": "0.215006"
+        "city": "France",
+        "country": "44.841805,0.215006",
+        "lat": "59",
+        "lng": "3"
       },
-      "length": 59,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-09",
       "year": 1978,
       "leg": "9",
-      "leg_num": 10,
-      "title": "Bordeaux - Biarritz",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Biarritz",
+        "lng": null
       },
       "finish": {
-        "city": "Biarritz",
-        "country": "France",
-        "lat": "43.483152",
-        "lng": "-1.558626"
+        "city": "France",
+        "country": "43.483152,-1.558626",
+        "lat": "233",
+        "lng": null
       },
-      "length": 233,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-10",
       "year": 1978,
       "leg": "10",
-      "leg_num": 11,
-      "title": "Biarritz - Pau",
+      "leg_num": 0,
+      "title": "Biarritz",
       "start": {
-        "city": "Biarritz",
-        "country": "France",
-        "lat": "43.483152",
-        "lng": "-1.558626"
+        "city": "France",
+        "country": "43.483152,-1.558626",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "191",
+        "lng": "5"
       },
-      "length": 191,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-11",
       "year": 1978,
       "leg": "11",
-      "leg_num": 12,
-      "title": "Pau - Saint-Lary-Soulan",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Saint-Lary-Soulan",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Lary-Soulan",
-        "country": "France",
-        "lat": "42.815835",
-        "lng": "0.320251"
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "161",
+        "lng": null
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-12a",
       "year": 1978,
       "leg": "12a",
-      "leg_num": 13,
-      "title": "Tarbes - Valence-d'Agen",
+      "leg_num": 0,
+      "title": "Tarbes",
       "start": {
-        "city": "Tarbes",
-        "country": "France",
-        "lat": "43.232951",
-        "lng": "0.078082"
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "Valence-d'Agen",
+        "lng": null
       },
       "finish": {
-        "city": "Valence-d'Agen",
-        "country": "France",
-        "lat": "44.108057",
-        "lng": "0.890241"
+        "city": "France",
+        "country": "44.108057,0.890241",
+        "lat": "158",
+        "lng": null
       },
-      "length": 158,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-12b",
       "year": 1978,
       "leg": "12b",
-      "leg_num": 14,
-      "title": "Valence-d'Agen - Toulouse",
+      "leg_num": 0,
+      "title": "Valence-d'Agen",
       "start": {
-        "city": "Valence-d'Agen",
-        "country": "France",
-        "lat": "44.108057",
-        "lng": "0.890241"
+        "city": "France",
+        "country": "44.108057,0.890241",
+        "lat": "Toulouse",
+        "lng": null
       },
       "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "96",
+        "lng": null
       },
-      "length": 96,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-13",
       "year": 1978,
       "leg": "13",
-      "leg_num": 15,
-      "title": "Figeac - Super Besse",
+      "leg_num": 0,
+      "title": "Figeac",
       "start": {
-        "city": "Figeac",
-        "country": "France",
-        "lat": "44.608288",
-        "lng": "2.032871"
+        "city": "France",
+        "country": "44.608288,2.032871",
+        "lat": "Super Besse",
+        "lng": null
       },
       "finish": {
-        "city": "Super Besse",
-        "country": "France",
-        "lat": "45.508022",
-        "lng": "2.861518"
+        "city": "France",
+        "country": "45.508022,2.861518",
+        "lat": "221",
+        "lng": "5"
       },
-      "length": 221,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-14",
       "year": 1978,
       "leg": "14",
-      "leg_num": 16,
-      "title": "Besse-en-Chandesse - Puy de Dôme",
+      "leg_num": 0,
+      "title": "Besse-en-Chandesse",
       "start": {
-        "city": "Besse-en-Chandesse",
-        "country": "France",
-        "lat": "45.510908",
-        "lng": "2.933859"
+        "city": "France",
+        "country": "45.510908,2.933859",
+        "lat": "Puy de Dôme",
+        "lng": null
       },
       "finish": {
-        "city": "Puy de Dôme",
-        "country": "France",
-        "lat": "45.77207",
-        "lng": "2.96974"
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "52",
+        "lng": "5"
       },
-      "length": 52,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-15",
       "year": 1978,
       "leg": "15",
-      "leg_num": 17,
-      "title": "Saint-Dier-d'Auvergne - Saint-Étienne",
+      "leg_num": 0,
+      "title": "Saint-Dier-d'Auvergne",
       "start": {
-        "city": "Saint-Dier-d'Auvergne",
-        "country": "France",
-        "lat": "45.675563",
-        "lng": "3.482832"
+        "city": "France",
+        "country": "45.675563,3.482832",
+        "lat": "Saint-Étienne",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "196",
+        "lng": null
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-16",
       "year": 1978,
       "leg": "16",
-      "leg_num": 18,
-      "title": "Saint-Étienne - L'Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
       "start": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "240",
+        "lng": "5"
       },
-      "length": 240,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-17",
       "year": 1978,
       "leg": "17",
-      "leg_num": 19,
-      "title": "Grenoble - Morzine",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Morzine",
+        "lng": null
       },
       "finish": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "225",
+        "lng": null
       },
-      "length": 225,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-18",
       "year": 1978,
       "leg": "18",
-      "leg_num": 20,
-      "title": "Morzine - Lausanne (Sui.)",
+      "leg_num": 0,
+      "title": "Morzine",
       "start": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Lausanne",
+        "lng": null
       },
       "finish": {
-        "city": "Lausanne",
-        "country": "Suisse",
-        "lat": "46.519962",
-        "lng": "6.633597"
+        "city": "Suisse",
+        "country": "46.519962,6.633597",
+        "lat": "137",
+        "lng": "5"
       },
-      "length": 137,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-19",
       "year": 1978,
       "leg": "19",
-      "leg_num": 21,
-      "title": "Lausanne (Sui.) - Belfort",
+      "leg_num": 0,
+      "title": "Lausanne",
       "start": {
-        "city": "Lausanne",
-        "country": "Suisse",
-        "lat": "46.519962",
-        "lng": "6.633597"
+        "city": "Suisse",
+        "country": "46.519962,6.633597",
+        "lat": "Belfort",
+        "lng": null
       },
       "finish": {
-        "city": "Belfort",
-        "country": "France",
-        "lat": "47.639674",
-        "lng": "6.863849"
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "181",
+        "lng": "5"
       },
-      "length": 181,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-20",
       "year": 1978,
       "leg": "20",
-      "leg_num": 22,
-      "title": "Metz - Nancy",
+      "leg_num": 0,
+      "title": "Metz",
       "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Nancy",
+        "lng": null
       },
       "finish": {
-        "city": "Nancy",
-        "country": "France",
-        "lat": "48.692054",
-        "lng": "6.184417"
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "72",
+        "lng": null
       },
-      "length": 72,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-21",
       "year": 1978,
       "leg": "21",
-      "leg_num": 23,
-      "title": "Épernay - Senlis",
+      "leg_num": 0,
+      "title": "Épernay",
       "start": {
-        "city": "Épernay",
-        "country": "France",
-        "lat": "49.043411",
-        "lng": "3.956242"
+        "city": "France",
+        "country": "49.043411,3.956242",
+        "lat": "Senlis",
+        "lng": null
       },
       "finish": {
-        "city": "Senlis",
-        "country": "France",
-        "lat": "49.205164",
-        "lng": "2.583212"
+        "city": "France",
+        "country": "49.205164,2.583212",
+        "lat": "207",
+        "lng": "5"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1978-22",
       "year": 1978,
       "leg": "22",
-      "leg_num": 24,
-      "title": "Saint-Germain-en-Laye - Paris",
+      "leg_num": 0,
+      "title": "Saint-Germain-en-Laye",
       "start": {
-        "city": "Saint-Germain-en-Laye",
-        "country": "France",
-        "lat": "48.898908",
-        "lng": "2.093761"
+        "city": "France",
+        "country": "48.898908,2.093761",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "161",
+        "lng": "5"
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1978-Prologue",
-      "year": 1978,
-      "leg": "Prologue",
-      "leg_num": 27,
-      "title": "Leiden (P.-B.)",
-      "start": {
-        "city": "Leiden",
-        "country": "Pays-Bas",
-        "lat": "52.158494",
-        "lng": "4.496199"
-      },
-      "finish": {
-        "city": "Leiden",
-        "country": "Pays-bas",
-        "lat": "52.158494",
-        "lng": "4.496199"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

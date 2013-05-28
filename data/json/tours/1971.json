@@ -24,729 +24,504 @@
   "third_id": "lucien-van-impe",
   "legs": [
     {
+      "id": "E-1971-Prologue",
+      "year": 1971,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Mulhouse",
+      "start": {
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "Mulhouse",
+        "lng": null
+      },
+      "finish": {
+        "city": null,
+        "country": "47.750839,7.335888",
+        "lat": "11",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1971-1a",
       "year": 1971,
       "leg": "1a",
-      "leg_num": 1,
-      "title": "Mulhouse - Bâle (Sui.)",
+      "leg_num": 0,
+      "title": "Mulhouse",
       "start": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "Bâle",
+        "lng": null
       },
       "finish": {
-        "city": "Bâle",
-        "country": "Suisse",
-        "lat": "47.557421",
-        "lng": "7.592573"
+        "city": "Suisse",
+        "country": "47.557421,7.592573",
+        "lat": "59",
+        "lng": "5"
       },
-      "length": 59,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-1b",
       "year": 1971,
       "leg": "1b",
-      "leg_num": 2,
-      "title": "Bâle - Fribourg (RFA)",
+      "leg_num": 0,
+      "title": "Bâle",
       "start": {
-        "city": "Bâle",
-        "country": "Suisse",
-        "lat": "47.557421",
-        "lng": "7.592573"
+        "city": "Suisse",
+        "country": "47.557421,7.592573",
+        "lat": "Fribourg-en-Brisgau",
+        "lng": null
       },
       "finish": {
-        "city": "Fribourg-en-Brisgau",
-        "country": "RFA",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "city": "RFA",
+        "country": "46.801666,7.145568",
+        "lat": "90",
+        "lng": null
       },
-      "length": 90,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-1c",
       "year": 1971,
       "leg": "1c",
-      "leg_num": 3,
-      "title": "Fribourg - Mulhouse",
+      "leg_num": 0,
+      "title": "Fribourg en Brisgau",
       "start": {
-        "city": "Fribourg en Brisgau",
-        "country": "Allemagne",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "city": "Allemagne",
+        "country": "46.801666,7.145568",
+        "lat": "Mulhouse",
+        "lng": null
       },
       "finish": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "74",
+        "lng": null
       },
-      "length": 74,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-02",
       "year": 1971,
       "leg": "2",
-      "leg_num": 4,
-      "title": "Mulhouse - Strasbourg",
+      "leg_num": 0,
+      "title": "Mulhouse",
       "start": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "Strasbourg",
+        "lng": null
       },
       "finish": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "144",
+        "lng": null
       },
-      "length": 144,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-03",
       "year": 1971,
       "leg": "3",
-      "leg_num": 5,
-      "title": "Strasbourg - Nancy",
+      "leg_num": 0,
+      "title": "Strasbourg",
       "start": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Nancy",
+        "lng": null
       },
       "finish": {
-        "city": "Nancy",
-        "country": "France",
-        "lat": "48.692054",
-        "lng": "6.184417"
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "165",
+        "lng": "5"
       },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-04",
       "year": 1971,
       "leg": "4",
-      "leg_num": 6,
-      "title": "Champigneulles - Marche-en-Famenne",
+      "leg_num": 0,
+      "title": "Champigneulles",
       "start": {
-        "city": "Champigneulles",
-        "country": "France",
-        "lat": "48.73340",
-        "lng": "6.16418\n"
+        "city": "France",
+        "country": "48.73340,6.16418\n",
+        "lat": "Marche-en-Famenne",
+        "lng": null
       },
       "finish": {
-        "city": "Marche-en-Famenne",
-        "country": "Belgique",
-        "lat": "50.22829",
-        "lng": "5.344161"
+        "city": "Belgique",
+        "country": "50.22829,5.344161",
+        "lat": "242",
+        "lng": null
       },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-05",
       "year": 1971,
       "leg": "5",
-      "leg_num": 7,
-      "title": "Dinant - Roubaix",
+      "leg_num": 0,
+      "title": "Dinant",
       "start": {
-        "city": "Dinant",
-        "country": "Belgique",
-        "lat": "50.260494",
-        "lng": "4.912746"
+        "city": "Belgique",
+        "country": "50.260494,4.912746",
+        "lat": "Roubaix",
+        "lng": null
       },
       "finish": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "208",
+        "lng": "5"
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-6a",
       "year": 1971,
       "leg": "6a",
-      "leg_num": 8,
-      "title": "Roubaix - Amiens",
+      "leg_num": 0,
+      "title": "Roubaix",
       "start": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Amiens",
+        "lng": null
       },
       "finish": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "127",
+        "lng": "5"
       },
-      "length": 127,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-6b",
       "year": 1971,
       "leg": "6b",
-      "leg_num": 9,
-      "title": "Amiens - Le Touquet",
+      "leg_num": 0,
+      "title": "Amiens",
       "start": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Le Touquet",
+        "lng": null
       },
       "finish": {
-        "city": "Le Touquet",
-        "country": "France",
-        "lat": "50.521276",
-        "lng": "1.590675"
+        "city": "France",
+        "country": "50.521276,1.590675",
+        "lat": "133",
+        "lng": "5"
       },
-      "length": 133,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-07",
       "year": 1971,
       "leg": "7",
-      "leg_num": 10,
-      "title": "Rungis - Nevers",
+      "leg_num": 0,
+      "title": "Rungis",
       "start": {
-        "city": "Rungis",
-        "country": "France",
-        "lat": "48.749358",
-        "lng": "2.349936"
+        "city": "France",
+        "country": "48.749358,2.349936",
+        "lat": "Nevers",
+        "lng": null
       },
       "finish": {
-        "city": "Nevers",
-        "country": "France",
-        "lat": "46.990896",
-        "lng": "3.162845"
+        "city": "France",
+        "country": "46.990896,3.162845",
+        "lat": "257",
+        "lng": "5"
       },
-      "length": 257,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-08",
       "year": 1971,
       "leg": "8",
-      "leg_num": 11,
-      "title": "Nevers - Puy de Dôme",
+      "leg_num": 0,
+      "title": "Nevers",
       "start": {
-        "city": "Nevers",
-        "country": "France",
-        "lat": "46.990896",
-        "lng": "3.162845"
+        "city": "France",
+        "country": "46.990896,3.162845",
+        "lat": "Puy de Dôme",
+        "lng": null
       },
       "finish": {
-        "city": "Puy de Dôme",
-        "country": "France",
-        "lat": "45.77207",
-        "lng": "2.96974"
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "221",
+        "lng": null
       },
-      "length": 221,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-09",
       "year": 1971,
       "leg": "9",
-      "leg_num": 12,
-      "title": "Clermont-Ferrand - Saint-Étienne",
+      "leg_num": 0,
+      "title": "Clermont-Ferrand",
       "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lat": "45.777222",
-        "lng": "3.087025"
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "Saint-Étienne",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "153",
+        "lng": null
       },
-      "length": 153,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-10",
       "year": 1971,
       "leg": "10",
-      "leg_num": 13,
-      "title": "Saint-Étienne - Grenoble",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
       "start": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "Grenoble",
+        "lng": null
       },
       "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "188",
+        "lng": "5"
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-11",
       "year": 1971,
       "leg": "11",
-      "leg_num": 14,
-      "title": "Grenoble - Orcières-Merlette",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Orcières-Merlette",
+        "lng": null
       },
       "finish": {
-        "city": "Orcières-Merlette",
-        "country": "France",
-        "lat": "44.695221",
-        "lng": "6.320161"
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "134",
+        "lng": null
       },
-      "length": 134,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-12",
       "year": 1971,
       "leg": "12",
-      "leg_num": 15,
-      "title": "Orcières-Merlette - Marseille",
+      "leg_num": 0,
+      "title": "Orcières-Merlette",
       "start": {
-        "city": "Orcières-Merlette",
-        "country": "France",
-        "lat": "44.695221",
-        "lng": "6.320161"
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "251",
+        "lng": null
       },
-      "length": 251,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-13",
       "year": 1971,
       "leg": "13",
-      "leg_num": 16,
-      "title": "Albi - Albi",
+      "leg_num": 0,
+      "title": "Albi",
       "start": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "Albi",
+        "lng": null
       },
       "finish": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "16",
+        "lng": "5"
       },
-      "length": 16,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-14",
       "year": 1971,
       "leg": "14",
-      "leg_num": 17,
-      "title": "Revel - Luchon",
+      "leg_num": 0,
+      "title": "Revel",
       "start": {
-        "city": "Revel",
-        "country": "France",
-        "lat": "43.458611",
-        "lng": "2.004573"
+        "city": "France",
+        "country": "43.458611,2.004573",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "214",
+        "lng": "5"
       },
-      "length": 214,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-15",
       "year": 1971,
       "leg": "15",
-      "leg_num": 18,
-      "title": "Luchon - Superbagnères",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Superbagnères",
+        "lng": null
       },
       "finish": {
-        "city": "Superbagnères",
-        "country": "France",
-        "lat": "42.768576",
-        "lng": "0.576927"
+        "city": "France",
+        "country": "42.768576,0.576927",
+        "lat": "19",
+        "lng": "5"
       },
-      "length": 19,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-16a",
       "year": 1971,
       "leg": "16a",
-      "leg_num": 19,
-      "title": "Luchon - Gourette/Les Eaux Bonnes",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.78896",
-        "lng": "0.59294"
+        "city": "France",
+        "country": "42.78896,0.59294",
+        "lat": "Gourette",
+        "lng": " Eaux-Bonnes"
       },
       "finish": {
-        "city": "Gourette, Eaux-Bonnes",
-        "country": "France",
-        "lat": "42.958836",
-        "lng": "-0.332111"
+        "city": "France",
+        "country": "42.958836,-0.332111",
+        "lat": "145",
+        "lng": null
       },
-      "length": 145,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-16b",
       "year": 1971,
       "leg": "16b",
-      "leg_num": 20,
-      "title": "Gourette/Les Eaux Bonnes - Pau",
+      "leg_num": 0,
+      "title": "Gourette, Eaux-Bonnes",
       "start": {
-        "city": "Gourette, Eaux-Bonnes",
-        "country": "France",
-        "lat": "42.958836",
-        "lng": "-0.332111"
+        "city": "France",
+        "country": "42.958836,-0.332111",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "57",
+        "lng": "5"
       },
-      "length": 57,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-17",
       "year": 1971,
       "leg": "17",
-      "leg_num": 21,
-      "title": "Mont-de-Marsan - Bordeaux",
+      "leg_num": 0,
+      "title": "Mont-de-Marsan",
       "start": {
-        "city": "Mont-de-Marsan",
-        "country": "France",
-        "lat": "43.893485",
-        "lng": "-0.499782"
+        "city": "France",
+        "country": "43.893485,-0.499782",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "188",
+        "lng": null
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-18",
       "year": 1971,
       "leg": "18",
-      "leg_num": 22,
-      "title": "Bordeaux - Poitiers",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Poitiers",
+        "lng": null
       },
       "finish": {
-        "city": "Poitiers",
-        "country": "France",
-        "lat": "46.580224",
-        "lng": "0.340375"
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "244",
+        "lng": null
       },
-      "length": 244,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-19",
       "year": 1971,
       "leg": "19",
-      "leg_num": 23,
-      "title": "Blois - Versailles",
+      "leg_num": 0,
+      "title": "Blois",
       "start": {
-        "city": "Blois",
-        "country": "France",
-        "lat": "47.587952",
-        "lng": "1.336272"
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "Versailles",
+        "lng": null
       },
       "finish": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "185",
+        "lng": null
       },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1971-20",
       "year": 1971,
       "leg": "20",
-      "leg_num": 24,
-      "title": "Versailles - Paris",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "54",
+        "lng": null
       },
-      "length": 54,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1971-Prologue",
-      "year": 1971,
-      "leg": "Prologue",
-      "leg_num": 27,
-      "title": "Mulhouse",
-      "start": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
-      },
-      "finish": {
-        "city": "Mulhouse",
-        "country": null,
-        "lat": "47.750839",
-        "lng": "7.335888"
-      },
-      "length": 11,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

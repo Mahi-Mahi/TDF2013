@@ -24,613 +24,424 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-2004-Prologue",
+      "year": 2004,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Liège",
+      "start": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Liège",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "6",
+        "lng": "1"
+      },
+      "length": 0
+    },
+    {
       "id": "E-2004-01",
       "year": 2004,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Liège (Bel.) - Charleroi (Bel.)",
+      "leg_num": 0,
+      "title": "Liège",
       "start": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Charleroi",
+        "lng": null
       },
       "finish": {
-        "city": "Charleroi",
-        "country": "Belgique",
-        "lat": "50.41081",
-        "lng": "4.444643"
+        "city": "Belgique",
+        "country": "50.41081,4.444643",
+        "lat": "202",
+        "lng": null
       },
-      "length": 202,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-02",
       "year": 2004,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Charleroi (Bel.) - Namur (Bel.)",
+      "leg_num": 0,
+      "title": "Charleroi",
       "start": {
-        "city": "Charleroi",
-        "country": "Belgique",
-        "lat": "50.41081",
-        "lng": "4.444643"
+        "city": "Belgique",
+        "country": "50.41081,4.444643",
+        "lat": "Namur",
+        "lng": null
       },
       "finish": {
-        "city": "Namur",
-        "country": "Belgique",
-        "lat": "50.465328",
-        "lng": "4.867665"
+        "city": "Belgique",
+        "country": "50.465328,4.867665",
+        "lat": "197",
+        "lng": null
       },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-03",
       "year": 2004,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Waterloo (Bel.) - Wasquehal",
+      "leg_num": 0,
+      "title": "Waterloo",
       "start": {
-        "city": "Waterloo",
-        "country": "Belgique",
-        "lat": "50.71543",
-        "lng": "4.395935"
+        "city": "Belgique",
+        "country": "50.71543,4.395935",
+        "lat": "Wasquehal",
+        "lng": null
       },
       "finish": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lat": "50.669276",
-        "lng": "3.130782"
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "210",
+        "lng": null
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-04",
       "year": 2004,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Cambrai - Arras",
+      "leg_num": 0,
+      "title": "Cambrai",
       "start": {
-        "city": "Cambrai",
-        "country": "France",
-        "lat": "50.173538",
-        "lng": "3.236633"
+        "city": "France",
+        "country": "50.173538,3.236633",
+        "lat": "Arras",
+        "lng": null
       },
       "finish": {
-        "city": "Arras",
-        "country": "France",
-        "lat": "50.291002",
-        "lng": "2.777535"
+        "city": "France",
+        "country": "50.291002,2.777535",
+        "lat": "64",
+        "lng": null
       },
-      "length": 64,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-05",
       "year": 2004,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Amiens - Chartres",
+      "leg_num": 0,
+      "title": "Amiens",
       "start": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Chartres",
+        "lng": null
       },
       "finish": {
-        "city": "Chartres",
-        "country": "France",
-        "lat": "48.443854",
-        "lng": "1.489012"
+        "city": "France",
+        "country": "48.443854,1.489012",
+        "lat": "200",
+        "lng": null
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-06",
       "year": 2004,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Bonneval - Angers",
+      "leg_num": 0,
+      "title": "Bonneval",
       "start": {
-        "city": "Bonneval",
-        "country": "France",
-        "lat": "48.181453",
-        "lng": "1.385289"
+        "city": "France",
+        "country": "48.181453,1.385289",
+        "lat": "Angers",
+        "lng": null
       },
       "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "196",
+        "lng": null
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-07",
       "year": 2004,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Châteaubriant - Saint-Brieuc",
+      "leg_num": 0,
+      "title": "Châteaubriant",
       "start": {
-        "city": "Châteaubriant",
-        "country": "France",
-        "lat": "47.720948",
-        "lng": "-1.376224"
+        "city": "France",
+        "country": "47.720948,-1.376224",
+        "lat": "Saint-Brieuc",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Brieuc",
-        "country": "France",
-        "lat": "48.51418",
-        "lng": "-2.765835"
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "204",
+        "lng": null
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-08",
       "year": 2004,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Lamballe - Quimper",
+      "leg_num": 0,
+      "title": "Lamballe",
       "start": {
-        "city": "Lamballe",
-        "country": "France",
-        "lat": "48.468637",
-        "lng": "-2.517322"
+        "city": "France",
+        "country": "48.468637,-2.517322",
+        "lat": "Quimper",
+        "lng": null
       },
       "finish": {
-        "city": "Quimper",
-        "country": "France",
-        "lat": "47.997542",
-        "lng": "-4.097899"
+        "city": "France",
+        "country": "47.997542,-4.097899",
+        "lat": "168",
+        "lng": null
       },
-      "length": 168,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-09",
       "year": 2004,
       "leg": "9",
-      "leg_num": 9,
-      "title": "St-Léonard - Guéret",
+      "leg_num": 0,
+      "title": "St-Léonard de Noblat",
       "start": {
-        "city": "St-Léonard de Noblat",
-        "country": "France",
-        "lat": "45.83670",
-        "lng": "1.48621"
+        "city": "France",
+        "country": "45.83670,1.48621",
+        "lat": "Guéret",
+        "lng": null
       },
       "finish": {
-        "city": "Guéret",
-        "country": "France",
-        "lat": "46.169599",
-        "lng": "1.871452"
+        "city": "France",
+        "country": "46.169599,1.871452",
+        "lat": "160",
+        "lng": null
       },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-10",
       "year": 2004,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Limoges - Saint-Flour",
+      "leg_num": 0,
+      "title": "Limoges",
       "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "Saint-Flour",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Flour",
-        "country": "France",
-        "lat": "45.033026",
-        "lng": "3.094862"
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "237",
+        "lng": null
       },
-      "length": 237,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-11",
       "year": 2004,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Saint-Flour - Figeac",
+      "leg_num": 0,
+      "title": "Saint-Flour",
       "start": {
-        "city": "Saint-Flour",
-        "country": "France",
-        "lat": "45.033026",
-        "lng": "3.094862"
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "Figeac",
+        "lng": null
       },
       "finish": {
-        "city": "Figeac",
-        "country": "France",
-        "lat": "44.608288",
-        "lng": "2.032871"
+        "city": "France",
+        "country": "44.608288,2.032871",
+        "lat": "164",
+        "lng": null
       },
-      "length": 164,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-12",
       "year": 2004,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Castelsarrasin - La Mongie",
+      "leg_num": 0,
+      "title": "Castelsarrasin",
       "start": {
-        "city": "Castelsarrasin",
-        "country": "France",
-        "lat": "44.039889",
-        "lng": "1.107132"
+        "city": "France",
+        "country": "44.039889,1.107132",
+        "lat": "La Mongie",
+        "lng": " Bagnères-de-Bigorre"
       },
       "finish": {
-        "city": "La Mongie, Bagnères-de-Bigorre",
-        "country": "France",
-        "lat": "42.91",
-        "lng": "0.179167"
+        "city": "France",
+        "country": "42.91,0.179167",
+        "lat": "197",
+        "lng": null
       },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-13",
       "year": 2004,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Lannemezan - Plateau de Beille",
+      "leg_num": 0,
+      "title": "Lannemezan",
       "start": {
-        "city": "Lannemezan",
-        "country": "France",
-        "lat": "43.125519",
-        "lng": "0.38396"
+        "city": "France",
+        "country": "43.125519,0.38396",
+        "lat": "Plateau de Beille",
+        "lng": " Aston"
       },
       "finish": {
-        "city": "Plateau de Beille, Aston",
-        "country": "France",
-        "lat": "42.709683",
-        "lng": "1.702387"
+        "city": "France",
+        "country": "42.709683,1.702387",
+        "lat": "205",
+        "lng": null
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-14",
       "year": 2004,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Carcassonne - Nîmes",
+      "leg_num": 0,
+      "title": "Carcassonne",
       "start": {
-        "city": "Carcassonne",
-        "country": "France",
-        "lat": "43.212161",
-        "lng": "2.353663"
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "Nîmes",
+        "lng": null
       },
       "finish": {
-        "city": "Nîmes",
-        "country": "France",
-        "lat": "43.836699",
-        "lng": "4.360054"
+        "city": "France",
+        "country": "43.836699,4.360054",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-15",
       "year": 2004,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Valréas - Villard-de-Lans",
+      "leg_num": 0,
+      "title": "Valréas",
       "start": {
-        "city": "Valréas",
-        "country": "France",
-        "lat": "44.383724",
-        "lng": "4.989187"
+        "city": "France",
+        "country": "44.383724,4.989187",
+        "lat": "Villard-de-Lans",
+        "lng": null
       },
       "finish": {
-        "city": "Villard-de-Lans",
-        "country": "France",
-        "lat": "45.070641",
-        "lng": "5.55227"
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "180",
+        "lng": null
       },
-      "length": 180,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-16",
       "year": 2004,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Le Bourg-d'Oisans - Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "15",
+        "lng": null
       },
-      "length": 15,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-17",
       "year": 2004,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Le Bourg-d'Oisans - Le Grand Bornand",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Le Grand Bornand ",
+        "lng": null
       },
       "finish": {
-        "city": "Le Grand Bornand ",
-        "country": "France",
-        "lat": "45.942027",
-        "lng": "6.426699"
+        "city": "France",
+        "country": "45.942027,6.426699",
+        "lat": "204",
+        "lng": null
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-18",
       "year": 2004,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Annemasse - Lons-le-Saunier",
+      "leg_num": 0,
+      "title": "Annemasse",
       "start": {
-        "city": "Annemasse",
-        "country": "France",
-        "lat": "46.193253",
-        "lng": "6.234158"
+        "city": "France",
+        "country": "46.193253,6.234158",
+        "lat": "Lons-le-Saunier",
+        "lng": null
       },
       "finish": {
-        "city": "Lons-le-Saunier",
-        "country": "France",
-        "lat": "46.671361",
-        "lng": "5.550796"
+        "city": "France",
+        "country": "46.671361,5.550796",
+        "lat": "166",
+        "lng": null
       },
-      "length": 166,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-19",
       "year": 2004,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Besançon - Besançon",
+      "leg_num": 0,
+      "title": "Besançon",
       "start": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Besançon",
+        "lng": null
       },
       "finish": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "55",
+        "lng": null
       },
-      "length": 55,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2004-20",
       "year": 2004,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Montereau - Paris",
+      "leg_num": 0,
+      "title": "Montereau",
       "start": {
-        "city": "Montereau",
-        "country": "France",
-        "lat": "48.384734",
-        "lng": "2.956193"
+        "city": "France",
+        "country": "48.384734,2.956193",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "163",
+        "lng": null
       },
-      "length": 163,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2004-Prologue",
-      "year": 2004,
-      "leg": "Prologue",
-      "leg_num": 21,
-      "title": "Liège (Bel.) - Liège (Bel.)",
-      "start": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
-      },
-      "finish": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
-      },
-      "length": 6,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

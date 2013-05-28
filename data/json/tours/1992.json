@@ -24,642 +24,444 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1992-Prologue",
+      "year": 1992,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Saint-Sébastien",
+      "start": {
+        "city": "Espagne",
+        "country": "43.321662,-1.984993",
+        "lat": "Saint-Sébastien",
+        "lng": null
+      },
+      "finish": {
+        "city": "Espagne",
+        "country": "43.321662,-1.984993",
+        "lat": "8",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1992-01",
       "year": 1992,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Saint-Sébastien - Saint-Sébastien  ",
+      "leg_num": 0,
+      "title": "Saint-Sébastien",
       "start": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
+        "city": "Espagne",
+        "country": "43.321662,-1.984993",
+        "lat": "Saint-Sébastien",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
+        "city": "Espagne",
+        "country": "43.321662,-1.984993",
+        "lat": "194",
+        "lng": "5"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-02",
       "year": 1992,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Saint-Sébastien - Pau  ",
+      "leg_num": 0,
+      "title": "Saint-Sébastien",
       "start": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
+        "city": "Espagne",
+        "country": "43.321662,-1.984993",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "255",
+        "lng": null
       },
-      "length": 255,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-03",
       "year": 1992,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Pau - Bordeaux",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "Espagne",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "Espagne",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "218",
+        "lng": null
       },
-      "length": 218,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-04",
       "year": 1992,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Libourne - Libourne",
+      "leg_num": 0,
+      "title": "Libourne",
       "start": {
-        "city": "Libourne",
-        "country": "Espagne",
-        "lat": "44.912998",
-        "lng": "-0.243985"
+        "city": "Espagne",
+        "country": "44.912998,-0.243985",
+        "lat": "Libourne",
+        "lng": null
       },
       "finish": {
-        "city": "Libourne",
-        "country": "France",
-        "lat": "44.912998",
-        "lng": "-0.243985"
+        "city": "France",
+        "country": "44.912998,-0.243985",
+        "lat": "63",
+        "lng": "5"
       },
-      "length": 63,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-05",
       "year": 1992,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Nogent-sur-Oise - Wasquehal",
+      "leg_num": 0,
+      "title": "Nogent-sur-Oise",
       "start": {
-        "city": "Nogent-sur-Oise",
-        "country": "Espagne",
-        "lat": "49.278948",
-        "lng": "2.464688"
+        "city": "Espagne",
+        "country": "49.278948,2.464688",
+        "lat": "Wasquehal",
+        "lng": null
       },
       "finish": {
-        "city": "Wasquehal",
-        "country": "France",
-        "lat": "50.669276",
-        "lng": "3.130782"
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "196",
+        "lng": null
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-06",
       "year": 1992,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Roubaix - Bruxelles",
+      "leg_num": 0,
+      "title": "Roubaix",
       "start": {
-        "city": "Roubaix",
-        "country": "Espagne",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "Espagne",
+        "country": "50.692705,3.177847",
+        "lat": "Bruxelles",
+        "lng": null
       },
       "finish": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "167",
+        "lng": null
       },
-      "length": 167,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-07",
       "year": 1992,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Bruxelles - Valkenburg",
+      "leg_num": 0,
+      "title": "Bruxelles",
       "start": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "Valkenburg",
+        "lng": null
       },
       "finish": {
-        "city": "Valkenburg",
-        "country": "Pays-Bas",
-        "lat": "50.863796",
-        "lng": "5.833991"
+        "city": "Pays-Bas",
+        "country": "50.863796,5.833991",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-08",
       "year": 1992,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Valkenburg - Coblence",
+      "leg_num": 0,
+      "title": "Valkenburg",
       "start": {
-        "city": "Valkenburg",
-        "country": "Pays-Bas",
-        "lat": "50.863796",
-        "lng": "5.833991"
+        "city": "Pays-Bas",
+        "country": "50.863796,5.833991",
+        "lat": "Coblence",
+        "lng": null
       },
       "finish": {
-        "city": "Coblence",
-        "country": "Allemagne",
-        "lat": "50.360025",
-        "lng": "7.589907"
+        "city": "Allemagne",
+        "country": "50.360025,7.589907",
+        "lat": "206",
+        "lng": "5"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-09",
       "year": 1992,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Luxembourg - Luxembourg",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
       },
       "finish": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "65",
+        "lng": null
       },
-      "length": 65,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-10",
       "year": 1992,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Luxembourg - Strasbourg",
+      "leg_num": 0,
+      "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
+        "country": "49.61162,6.13193",
+        "lat": "Strasbourg",
+        "lng": null
       },
       "finish": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "217",
+        "lng": null
       },
-      "length": 217,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-11",
       "year": 1992,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Strasbourg - Mulhouse  ",
+      "leg_num": 0,
+      "title": "Strasbourg",
       "start": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Mulhouse",
+        "lng": null
       },
       "finish": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "249",
+        "lng": "5"
       },
-      "length": 249,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-12",
       "year": 1992,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Dole - Saint-Gervais-Mont Blanc  ",
+      "leg_num": 0,
+      "title": "Dole",
       "start": {
-        "city": "Dole",
-        "country": "France",
-        "lat": "47.09534",
-        "lng": "5.49081"
+        "city": "France",
+        "country": "47.09534,5.49081",
+        "lat": "Saint-Gervais",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Gervais",
-        "country": "France",
-        "lat": "45.892013",
-        "lng": "6.712187"
+        "city": "France",
+        "country": "45.892013,6.712187",
+        "lat": "267",
+        "lng": "5"
       },
-      "length": 267,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-13",
       "year": 1992,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Saint-Gervais - Sestrières  ",
+      "leg_num": 0,
+      "title": "Saint-Gervais",
       "start": {
-        "city": "Saint-Gervais",
-        "country": "France",
-        "lat": "45.892013",
-        "lng": "6.712187"
+        "city": "France",
+        "country": "45.892013,6.712187",
+        "lat": "Sestrières",
+        "lng": null
       },
       "finish": {
-        "city": "Sestrières",
-        "country": "France",
-        "lat": "44.9565",
-        "lng": "6.879234"
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "254",
+        "lng": "5"
       },
-      "length": 254,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-14",
       "year": 1992,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Sestrières - Alpe d'Huez  ",
+      "leg_num": 0,
+      "title": "Sestrières",
       "start": {
-        "city": "Sestrières",
-        "country": "France",
-        "lat": "44.9565",
-        "lng": "6.879234"
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "186",
+        "lng": "5"
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-15",
       "year": 1992,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Le Bourg-d'Oisans - Saint-Étienne  ",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
       "start": {
-        "city": "Le Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Saint-Étienne",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "198",
+        "lng": null
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-16",
       "year": 1992,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Saint-Étienne - La Bourboule  ",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
       "start": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "La Bourboule",
+        "lng": null
       },
       "finish": {
-        "city": "La Bourboule",
-        "country": "France",
-        "lat": "45.587241",
-        "lng": "2.738992"
+        "city": "France",
+        "country": "45.587241,2.738992",
+        "lat": "212",
+        "lng": null
       },
-      "length": 212,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-17",
       "year": 1992,
       "leg": "17",
-      "leg_num": 17,
-      "title": "La Bourboule - Montluçon",
+      "leg_num": 0,
+      "title": "La Bourboule",
       "start": {
-        "city": "La Bourboule",
-        "country": "France",
-        "lat": "45.587241",
-        "lng": "2.738992"
+        "city": "France",
+        "country": "45.587241,2.738992",
+        "lat": "Montluçon",
+        "lng": null
       },
       "finish": {
-        "city": "Montluçon",
-        "country": "France",
-        "lat": "46.339966",
-        "lng": "2.606645"
+        "city": "France",
+        "country": "46.339966,2.606645",
+        "lat": "189",
+        "lng": null
       },
-      "length": 189,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-18",
       "year": 1992,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Montluçon - Tours",
+      "leg_num": 0,
+      "title": "Montluçon",
       "start": {
-        "city": "Montluçon",
-        "country": "France",
-        "lat": "46.339966",
-        "lng": "2.606645"
+        "city": "France",
+        "country": "46.339966,2.606645",
+        "lat": "Tours",
+        "lng": null
       },
       "finish": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "212",
+        "lng": null
       },
-      "length": 212,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-19",
       "year": 1992,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Tours - Blois",
+      "leg_num": 0,
+      "title": "Tours",
       "start": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "Blois",
+        "lng": null
       },
       "finish": {
-        "city": "Blois",
-        "country": "France",
-        "lat": "47.587952",
-        "lng": "1.336272"
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "64",
+        "lng": null
       },
-      "length": 64,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-20",
       "year": 1992,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Blois - Nanterre",
+      "leg_num": 0,
+      "title": "Blois",
       "start": {
-        "city": "Blois",
-        "country": "France",
-        "lat": "47.587952",
-        "lng": "1.336272"
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "Nanterre",
+        "lng": null
       },
       "finish": {
-        "city": "Nanterre",
-        "country": "France",
-        "lat": "48.892423",
-        "lng": "2.215331"
+        "city": "France",
+        "country": "48.892423,2.215331",
+        "lat": "222",
+        "lng": null
       },
-      "length": 222,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1992-Prologue",
-      "year": 1992,
-      "leg": "Prologue",
-      "leg_num": 21,
-      "title": "Saint-Sébastien",
-      "start": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
-      },
-      "finish": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
-      },
-      "length": 8,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1992-21",
       "year": 1992,
       "leg": "21",
-      "leg_num": 21,
-      "title": "La Défense - Paris",
+      "leg_num": 0,
+      "title": "La Défense",
       "start": {
-        "city": "La Défense",
-        "country": "France",
-        "lat": "48.889736",
-        "lng": "2.241843"
+        "city": "France",
+        "country": "48.889736,2.241843",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "175",
+        "lng": null
       },
-      "length": 175,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

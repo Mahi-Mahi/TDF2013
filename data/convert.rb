@@ -162,7 +162,6 @@ end
 
 
 idx = 0
-i = 0
 CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 
 	if idx > 0
@@ -173,50 +172,45 @@ CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 
 			leg[:year] = row[1].to_i
 			leg[:leg] = row[2]
-			leg[:leg_num] = i
-			leg[:title] = row[3]
+			leg[:leg_num] = row[3].to_i
+			leg[:title] = row[4]
 
 			leg[:start] = {}
-			leg[:start][:city] = row[4]
-			leg[:start][:country] = row[5]
+			leg[:start][:city] = row[5]
+			leg[:start][:country] = row[6]
 	#		leg[:start][:coords] = row[6]
-			coords = row[6].split(/,/) unless row[6].nil?
+			coords = row[7].split(/,/) unless row[7].nil?
 			leg[:start][:lat] = coords[0]
 			leg[:start][:lng] = coords[1]
 	#		leg[:start][:coords_inv] = row[9]
 
 			leg[:finish] = {}
-			leg[:finish][:city] = row[7]
-			leg[:finish][:country] = row[8]
+			leg[:finish][:city] = row[8]
+			leg[:finish][:country] = row[9]
 	#		leg[:finish][:coords] = row[12]
-			coords = row[9].split(/,/) unless row[9].nil?
+			coords = row[10].split(/,/) unless row[10].nil?
 			leg[:finish][:lat] = coords[0]
 			leg[:finish][:lng] = coords[1]
 
-			leg[:length] = row[10].to_i
+			leg[:length] = row[11].to_i
 
 	#		leg[:finish][:coords_inv] = row[16]
 
-			leg[:type] = row[11]
+if false
+			leg[:type] = row[12]
 
 			leg[:winner] = {}
-			leg[:winner][:name] = row[12]
-			leg[:winner][:nationality] = row[13]
+			leg[:winner][:name] = row[13]
+			leg[:winner][:nationality] = row[14]
 
 			leg[:leader] = {}
-			leg[:leader][:name] = row[14]
-			leg[:leader][:nationality] = row[15]
-
-			unless tours[leg[:year]].nil?
-				i = 0 if tours[leg[:year]][:legs].count == 0
-			end
+			leg[:leader][:name] = row[15]
+			leg[:leader][:nationality] = row[16]
+end
 
 			unless tours[leg[:year]].nil?
 
 				tours[leg[:year]][:legs] << leg
-				i = i +1
-
-				# tours[leg[:year]][:legs].sort_by! { |v| v[:leg_num] }
 
 			end
 

@@ -24,700 +24,484 @@
   "third_id": "greg-lemond",
   "legs": [
     {
+      "id": "E-1984-Prologue",
+      "year": 1984,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Montreuil",
+      "start": {
+        "city": "France",
+        "country": "48.863812,2.448451",
+        "lat": "Noisy-le-Sec",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.892489,2.458625",
+        "lat": "5",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1984-01",
       "year": 1984,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Bondy - Saint-Denis",
+      "leg_num": 0,
+      "title": "Bondy",
       "start": {
-        "city": "Bondy",
-        "country": "France",
-        "lat": "48.906008",
-        "lng": "2.481875"
+        "city": "France",
+        "country": "48.906008,2.481875",
+        "lat": "Saint-Denis",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Denis",
-        "country": "France",
-        "lat": "48.936181",
-        "lng": "2.357443"
+        "city": "France",
+        "country": "48.936181,2.357443",
+        "lat": "148",
+        "lng": "5"
       },
-      "length": 148,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-02",
       "year": 1984,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Bobigny - Louvroil",
+      "leg_num": 0,
+      "title": "Bobigny",
       "start": {
-        "city": "Bobigny",
-        "country": "France",
-        "lat": "48.908612",
-        "lng": "2.439712"
+        "city": "France",
+        "country": "48.908612,2.439712",
+        "lat": "Louvroil",
+        "lng": null
       },
       "finish": {
-        "city": "Louvroil",
-        "country": "France",
-        "lat": "50.26374",
-        "lng": "3.959502"
+        "city": "France",
+        "country": "50.26374,3.959502",
+        "lat": "249",
+        "lng": null
       },
-      "length": 249,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-03",
       "year": 1984,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Louvroil - Valenciennes",
+      "leg_num": 0,
+      "title": "Louvroil",
       "start": {
-        "city": "Louvroil",
-        "country": "France",
-        "lat": "50.26374",
-        "lng": "3.959502"
+        "city": "France",
+        "country": "50.26374,3.959502",
+        "lat": "Valenciennes",
+        "lng": null
       },
       "finish": {
-        "city": "Valenciennes",
-        "country": "France",
-        "lat": "50.357113",
-        "lng": "3.518332"
+        "city": "France",
+        "country": "50.357113,3.518332",
+        "lat": "51",
+        "lng": null
       },
-      "length": 51,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-04",
       "year": 1984,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Valenciennes - Béthune",
+      "leg_num": 0,
+      "title": "Valenciennes",
       "start": {
-        "city": "Valenciennes",
-        "country": "France",
-        "lat": "50.357113",
-        "lng": "3.518332"
+        "city": "France",
+        "country": "50.357113,3.518332",
+        "lat": "Béthune",
+        "lng": null
       },
       "finish": {
-        "city": "Béthune",
-        "country": "France",
-        "lat": "50.531036",
-        "lng": "2.63926"
+        "city": "France",
+        "country": "50.531036,2.63926",
+        "lat": "83",
+        "lng": null
       },
-      "length": 83,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-05",
       "year": 1984,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Béthune - Cergy-Pontoise",
+      "leg_num": 0,
+      "title": "Béthune",
       "start": {
-        "city": "Béthune",
-        "country": "France",
-        "lat": "50.531036",
-        "lng": "2.63926"
+        "city": "France",
+        "country": "50.531036,2.63926",
+        "lat": "Cergy-Pontoise",
+        "lng": null
       },
       "finish": {
-        "city": "Cergy-Pontoise",
-        "country": "France",
-        "lat": "49.03915",
-        "lng": "2.075051"
+        "city": "France",
+        "country": "49.03915,2.075051",
+        "lat": "207",
+        "lng": null
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-06",
       "year": 1984,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Cergy-Pontoise - Alençon",
+      "leg_num": 0,
+      "title": "Cergy-Pontoise",
       "start": {
-        "city": "Cergy-Pontoise",
-        "country": "France",
-        "lat": "49.03915",
-        "lng": "2.075051"
+        "city": "France",
+        "country": "49.03915,2.075051",
+        "lat": "Alençon",
+        "lng": null
       },
       "finish": {
-        "city": "Alençon",
-        "country": "France",
-        "lat": "48.432856",
-        "lng": "0.091266"
+        "city": "France",
+        "country": "48.432856,0.091266",
+        "lat": "202",
+        "lng": null
       },
-      "length": 202,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-07",
       "year": 1984,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Alençon - Le Mans",
+      "leg_num": 0,
+      "title": "Alençon",
       "start": {
-        "city": "Alençon",
-        "country": "France",
-        "lat": "48.432856",
-        "lng": "0.091266"
+        "city": "France",
+        "country": "48.432856,0.091266",
+        "lat": "Le Mans",
+        "lng": null
       },
       "finish": {
-        "city": "Le Mans",
-        "country": "France",
-        "lat": "48.00611",
-        "lng": "0.199556"
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "67",
+        "lng": null
       },
-      "length": 67,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-08",
       "year": 1984,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Le Mans - Nantes",
+      "leg_num": 0,
+      "title": "Le Mans",
       "start": {
-        "city": "Le Mans",
-        "country": "France",
-        "lat": "48.00611",
-        "lng": "0.199556"
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "Nantes",
+        "lng": null
       },
       "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-09",
       "year": 1984,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Nantes - Bordeaux",
+      "leg_num": 0,
+      "title": "Nantes",
       "start": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "338",
+        "lng": null
       },
-      "length": 338,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-10",
       "year": 1984,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Langon - Pau",
+      "leg_num": 0,
+      "title": "Langon",
       "start": {
-        "city": "Langon",
-        "country": "France",
-        "lat": "44.555419",
-        "lng": "-0.245126"
+        "city": "France",
+        "country": "44.555419,-0.245126",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "198",
+        "lng": null
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-11",
       "year": 1984,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Pau - Guzet-neige",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Guzet-neige",
+        "lng": null
       },
       "finish": {
-        "city": "Guzet-neige",
-        "country": "France",
-        "lat": "42.779877",
-        "lng": "1.299708"
+        "city": "France",
+        "country": "42.779877,1.299708",
+        "lat": "226",
+        "lng": "5"
       },
-      "length": 226,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-12",
       "year": 1984,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Saint-Girons - Blagnac",
+      "leg_num": 0,
+      "title": "Saint-Girons",
       "start": {
-        "city": "Saint-Girons",
-        "country": "France",
-        "lat": "42.982876",
-        "lng": "1.146088"
+        "city": "France",
+        "country": "42.982876,1.146088",
+        "lat": "Blagnac",
+        "lng": null
       },
       "finish": {
-        "city": "Blagnac",
-        "country": "France",
-        "lat": "43.635087",
-        "lng": "1.39703"
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "111",
+        "lng": null
       },
-      "length": 111,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-13",
       "year": 1984,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Blagnac - Rodez",
+      "leg_num": 0,
+      "title": "Blagnac",
       "start": {
-        "city": "Blagnac",
-        "country": "France",
-        "lat": "43.635087",
-        "lng": "1.39703"
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "Rodez",
+        "lng": null
       },
       "finish": {
-        "city": "Rodez",
-        "country": "France",
-        "lat": "44.349389",
-        "lng": "2.575986"
+        "city": "France",
+        "country": "44.349389,2.575986",
+        "lat": "220",
+        "lng": "5"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-14",
       "year": 1984,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Rodez - Domaine du Rouret",
+      "leg_num": 0,
+      "title": "Rodez",
       "start": {
-        "city": "Rodez",
-        "country": "France",
-        "lat": "44.349389",
-        "lng": "2.575986"
+        "city": "France",
+        "country": "44.349389,2.575986",
+        "lat": "Grospierre",
+        "lng": null
       },
       "finish": {
-        "city": "Grospierre",
-        "country": "France",
-        "lat": "44.400794",
-        "lng": "4.289771"
+        "city": "France",
+        "country": "44.400794,4.289771",
+        "lat": "227",
+        "lng": "5"
       },
-      "length": 227,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-15",
       "year": 1984,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Domaine du Rouret - Grenoble",
+      "leg_num": 0,
+      "title": "Grospierre",
       "start": {
-        "city": "Grospierre",
-        "country": "France",
-        "lat": "44.400794",
-        "lng": "4.289771"
+        "city": "France",
+        "country": "44.400794,4.289771",
+        "lat": "Grenoble",
+        "lng": null
       },
       "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "241",
+        "lng": "5"
       },
-      "length": 241,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-16",
       "year": 1984,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Les Echelles - La Ruchère en Chartreuse",
+      "leg_num": 0,
+      "title": "Les Echelles",
       "start": {
-        "city": "Les Echelles",
-        "country": "France",
-        "lat": "45.436571",
-        "lng": "5.753686"
+        "city": "France",
+        "country": "45.436571,5.753686",
+        "lat": "La Ruchère en Chartreuse",
+        "lng": null
       },
       "finish": {
-        "city": "La Ruchère en Chartreuse",
-        "country": "France",
-        "lat": "45.411218",
-        "lng": "5.803222"
+        "city": "France",
+        "country": "45.411218,5.803222",
+        "lat": "22",
+        "lng": null
       },
-      "length": 22,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-17",
       "year": 1984,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Grenoble - L'Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "151",
+        "lng": null
       },
-      "length": 151,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-18",
       "year": 1984,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Bourg-d'Oisans - La Plagne",
+      "leg_num": 0,
+      "title": "Bourg-d'Oisans",
       "start": {
-        "city": "Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "La Plagne",
+        "lng": null
       },
       "finish": {
-        "city": "La Plagne",
-        "country": "France",
-        "lat": "45.509874",
-        "lng": "6.659294"
+        "city": "France",
+        "country": "45.509874,6.659294",
+        "lat": "185",
+        "lng": "5"
       },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-19",
       "year": 1984,
       "leg": "19",
-      "leg_num": 19,
-      "title": "La Plagne - Morzine",
+      "leg_num": 0,
+      "title": "La Plagne",
       "start": {
-        "city": "La Plagne",
-        "country": "France",
-        "lat": "45.509874",
-        "lng": "6.659294"
+        "city": "France",
+        "country": "45.509874,6.659294",
+        "lat": "Morzine",
+        "lng": null
       },
       "finish": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "186",
+        "lng": null
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-20",
       "year": 1984,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Morzine - Crans-Montana",
+      "leg_num": 0,
+      "title": "Morzine",
       "start": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Crans-Montana",
+        "lng": null
       },
       "finish": {
-        "city": "Crans-Montana",
-        "country": "Suisse",
-        "lat": "46.30762",
-        "lng": "7.47371"
+        "city": "Suisse",
+        "country": "46.30762,7.47371",
+        "lat": "140",
+        "lng": "5"
       },
-      "length": 140,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-21",
       "year": 1984,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Crans-Montana - Villefranche-en-Beaujolais",
+      "leg_num": 0,
+      "title": "Crans-Montana",
       "start": {
-        "city": "Crans-Montana",
-        "country": "Suisse",
-        "lat": "46.30762",
-        "lng": "7.47371"
+        "city": "Suisse",
+        "country": "46.30762,7.47371",
+        "lat": "Villefranche-en-Beaujolais",
+        "lng": null
       },
       "finish": {
-        "city": "Villefranche-en-Beaujolais",
-        "country": "France",
-        "lat": "45.991471",
-        "lng": "4.718821"
+        "city": "France",
+        "country": "45.991471,4.718821",
+        "lat": "320",
+        "lng": "5"
       },
-      "length": 320,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-22",
       "year": 1984,
       "leg": "22",
-      "leg_num": 22,
-      "title": "Villié-Morgon - Villefranche-en-Beaujolais",
+      "leg_num": 0,
+      "title": "Villié-Morgon",
       "start": {
-        "city": "Villié-Morgon",
-        "country": "France",
-        "lat": "46.160931",
-        "lng": "4.679334"
+        "city": "France",
+        "country": "46.160931,4.679334",
+        "lat": "Villefranche-en-Beaujolais",
+        "lng": null
       },
       "finish": {
-        "city": "Villefranche-en-Beaujolais",
-        "country": "France",
-        "lat": "45.991471",
-        "lng": "4.718821"
+        "city": "France",
+        "country": "45.991471,4.718821",
+        "lat": "51",
+        "lng": null
       },
-      "length": 51,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1984-23",
       "year": 1984,
       "leg": "23",
-      "leg_num": 23,
-      "title": "Pantin - Paris",
+      "leg_num": 0,
+      "title": "Pantin",
       "start": {
-        "city": "Pantin",
-        "country": "France",
-        "lat": "48.894533",
-        "lng": "2.40963"
+        "city": "France",
+        "country": "48.894533,2.40963",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1984-Prologue",
-      "year": 1984,
-      "leg": "Prologue",
-      "leg_num": 24,
-      "title": "Montreuil - Noisy-le-Sec",
-      "start": {
-        "city": "Montreuil",
-        "country": "France",
-        "lat": "48.863812",
-        "lng": "2.448451"
-      },
-      "finish": {
-        "city": "Noisy-le-Sec",
-        "country": "France",
-        "lat": "48.892489",
-        "lng": "2.458625"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

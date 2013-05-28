@@ -24,613 +24,424 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-2013-01",
+      "year": 2013,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Porto-Vecchio",
+      "start": {
+        "city": "France",
+        "country": "41.591369,9.278311",
+        "lat": "Bastia",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.697283,9.450881",
+        "lat": "212",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-2013-02",
       "year": 2013,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Bastia - Ajaccio",
+      "leg_num": 0,
+      "title": "Bastia",
       "start": {
-        "city": "Bastia",
-        "country": "France",
-        "lat": "42.697283",
-        "lng": "9.450881"
+        "city": "France",
+        "country": "42.697283,9.450881",
+        "lat": "Ajaccio",
+        "lng": null
       },
       "finish": {
-        "city": "Ajaccio",
-        "country": "France",
-        "lat": "41.919229",
-        "lng": "8.738635"
+        "city": "France",
+        "country": "41.919229,8.738635",
+        "lat": "154",
+        "lng": null
       },
-      "length": 154,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-03",
       "year": 2013,
       "leg": "3",
-      "leg_num": 2,
-      "title": "Ajaccio - Calvi",
+      "leg_num": 0,
+      "title": "Ajaccio",
       "start": {
-        "city": "Ajaccio",
-        "country": "France",
-        "lat": "41.919229",
-        "lng": "8.738635"
+        "city": "France",
+        "country": "41.919229,8.738635",
+        "lat": "Calvi",
+        "lng": null
       },
       "finish": {
-        "city": "Calvi",
-        "country": "France",
-        "lat": "42.567651",
-        "lng": "8.757222"
+        "city": "France",
+        "country": "42.567651,8.757222",
+        "lat": "145",
+        "lng": null
       },
-      "length": 145,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-04",
       "year": 2013,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Nice - Nice",
+      "leg_num": 0,
+      "title": "Nice",
       "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
       },
       "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "25",
+        "lng": null
       },
-      "length": 25,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-05",
       "year": 2013,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Cagnes-sur-Mer - Marseille",
+      "leg_num": 0,
+      "title": "Cagnes-sur-Mer",
       "start": {
-        "city": "Cagnes-sur-Mer",
-        "country": "France",
-        "lat": "43.663739",
-        "lng": "7.14882"
+        "city": "France",
+        "country": "43.663739,7.14882",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "219",
+        "lng": null
       },
-      "length": 219,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-06",
       "year": 2013,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Aix-en-Provence - Montpellier",
+      "leg_num": 0,
+      "title": "Aix-en-Provence",
       "start": {
-        "city": "Aix-en-Provence",
-        "country": "France",
-        "lat": "43.529742",
-        "lng": "5.447427"
+        "city": "France",
+        "country": "43.529742,5.447427",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "176",
+        "lng": null
       },
-      "length": 176,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-07",
       "year": 2013,
       "leg": "7",
-      "leg_num": 6,
-      "title": "Montpellier - Albi",
+      "leg_num": 0,
+      "title": "Montpellier",
       "start": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Albi",
+        "lng": null
       },
       "finish": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "205",
+        "lng": null
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-08",
       "year": 2013,
       "leg": "8",
-      "leg_num": 7,
-      "title": "Castres - Ax 3 Domaines",
+      "leg_num": 0,
+      "title": "Castres",
       "start": {
-        "city": "Castres",
-        "country": "France",
-        "lat": "43.606214",
-        "lng": "2.241295"
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "Ax 3 Domaines",
+        "lng": null
       },
       "finish": {
-        "city": "Ax 3 Domaines",
-        "country": "France",
-        "lat": "42.699657",
-        "lng": "1.81283"
+        "city": "France",
+        "country": "42.699657,1.81283",
+        "lat": "194",
+        "lng": null
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-09",
       "year": 2013,
       "leg": "9",
-      "leg_num": 8,
-      "title": "Saint-Girons - Bagnères-de-Bigorre",
+      "leg_num": 0,
+      "title": "Saint-Girons",
       "start": {
-        "city": "Saint-Girons",
-        "country": "France",
-        "lat": "42.982876",
-        "lng": "1.146088"
+        "city": "France",
+        "country": "42.982876,1.146088",
+        "lat": "Bagnères-de-Bigorre",
+        "lng": null
       },
       "finish": {
-        "city": "Bagnères-de-Bigorre",
-        "country": "France",
-        "lat": "43.065093",
-        "lng": "0.149105"
+        "city": "France",
+        "country": "43.065093,0.149105",
+        "lat": "165",
+        "lng": null
       },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-10",
       "year": 2013,
       "leg": "10",
-      "leg_num": 9,
-      "title": "Saint-Gildas-des-Bois - Saint-Malo",
+      "leg_num": 0,
+      "title": "Saint-Gildas-des-Bois",
       "start": {
-        "city": "Saint-Gildas-des-Bois",
-        "country": "France",
-        "lat": "47.517319",
-        "lng": "-2.037288"
+        "city": "France",
+        "country": "47.517319,-2.037288",
+        "lat": "Saint-Malo",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Malo",
-        "country": "France",
-        "lat": "48.649337",
-        "lng": "-2.025674"
+        "city": "France",
+        "country": "48.649337,-2.025674",
+        "lat": "193",
+        "lng": null
       },
-      "length": 193,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-11",
       "year": 2013,
       "leg": "11",
-      "leg_num": 10,
-      "title": "Avranches - Mont-Saint-Michel",
+      "leg_num": 0,
+      "title": "Avranches",
       "start": {
-        "city": "Avranches",
-        "country": "France",
-        "lat": "48.686843",
-        "lng": "-1.36166"
+        "city": "France",
+        "country": "48.686843,-1.36166",
+        "lat": "Mont-Saint-Michel",
+        "lng": null
       },
       "finish": {
-        "city": "Mont-Saint-Michel",
-        "country": "France",
-        "lat": "48.636063",
-        "lng": "-1.511457"
+        "city": "France",
+        "country": "48.636063,-1.511457",
+        "lat": "33",
+        "lng": null
       },
-      "length": 33,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-12",
       "year": 2013,
       "leg": "12",
-      "leg_num": 11,
-      "title": "Fougères - Tours",
+      "leg_num": 0,
+      "title": "Fougères",
       "start": {
-        "city": "Fougères",
-        "country": "France",
-        "lat": "48.351561",
-        "lng": "-1.204626"
+        "city": "France",
+        "country": "48.351561,-1.204626",
+        "lat": "Tours",
+        "lng": null
       },
       "finish": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "218",
+        "lng": null
       },
-      "length": 218,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-13",
       "year": 2013,
       "leg": "13",
-      "leg_num": 12,
-      "title": "Tours - Saint-Amand-Montrond",
+      "leg_num": 0,
+      "title": "Tours",
       "start": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "Saint-Amand-Montrond",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Amand-Montrond",
-        "country": "France",
-        "lat": "46.725486",
-        "lng": "2.505604"
+        "city": "France",
+        "country": "46.725486,2.505604",
+        "lat": "173",
+        "lng": null
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-14",
       "year": 2013,
       "leg": "14",
-      "leg_num": 13,
-      "title": "Saint-Pourçain-sur-Sioule - Lyon",
+      "leg_num": 0,
+      "title": "Saint-Pourçain-sur-Sioule",
       "start": {
-        "city": "Saint-Pourçain-sur-Sioule",
-        "country": "France",
-        "lat": "46.307204",
-        "lng": "3.288997"
+        "city": "France",
+        "country": "46.307204,3.288997",
+        "lat": "Lyon",
+        "lng": null
       },
       "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
+        "city": "France",
+        "country": "45.764043,4.835659",
+        "lat": "191",
+        "lng": null
       },
-      "length": 191,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-15",
       "year": 2013,
       "leg": "15",
-      "leg_num": 14,
-      "title": "Givors - Mont Ventoux",
+      "leg_num": 0,
+      "title": "Givors",
       "start": {
-        "city": "Givors",
-        "country": "France",
-        "lat": "45.58329",
-        "lng": "4.772829"
+        "city": "France",
+        "country": "45.58329,4.772829",
+        "lat": "Mont Ventoux",
+        "lng": null
       },
       "finish": {
-        "city": "Mont Ventoux",
-        "country": "France",
-        "lat": "44.173925",
-        "lng": "5.283795"
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "242",
+        "lng": null
       },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-16",
       "year": 2013,
       "leg": "16",
-      "leg_num": 15,
-      "title": "Vaison-la-Romaine - Gap",
+      "leg_num": 0,
+      "title": "Vaison-la-Romaine",
       "start": {
-        "city": "Vaison-la-Romaine",
-        "country": "France",
-        "lat": "44.240968",
-        "lng": "5.075198"
+        "city": "France",
+        "country": "44.240968,5.075198",
+        "lat": "Gap",
+        "lng": null
       },
       "finish": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "168",
+        "lng": null
       },
-      "length": 168,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-17",
       "year": 2013,
       "leg": "17",
-      "leg_num": 16,
-      "title": "Embrun - Chorges",
+      "leg_num": 0,
+      "title": "Embrun",
       "start": {
-        "city": "Embrun",
-        "country": "France",
-        "lat": "44.564164",
-        "lng": "6.495865"
+        "city": "France",
+        "country": "44.564164,6.495865",
+        "lat": "Chorges",
+        "lng": null
       },
       "finish": {
-        "city": "Chorges",
-        "country": "France",
-        "lat": "44.545716",
-        "lng": "6.275548"
+        "city": "France",
+        "country": "44.545716,6.275548",
+        "lat": "32",
+        "lng": null
       },
-      "length": 32,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-18",
       "year": 2013,
       "leg": "18",
-      "leg_num": 17,
-      "title": "Gap - Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Gap",
       "start": {
-        "city": "Gap",
-        "country": "France",
-        "lat": "44.559638",
-        "lng": "6.079758"
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "168",
+        "lng": null
       },
-      "length": 168,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-19",
       "year": 2013,
       "leg": "19",
-      "leg_num": 18,
-      "title": "Bourg-d'Oisans - Le Grand-Bornand",
+      "leg_num": 0,
+      "title": "Bourg-d'Oisans",
       "start": {
-        "city": "Bourg-d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Le Grand-Bornand",
+        "lng": null
       },
       "finish": {
-        "city": "Le Grand-Bornand",
-        "country": "France",
-        "lat": "45.942027",
-        "lng": "6.426699"
+        "city": "France",
+        "country": "45.942027,6.426699",
+        "lat": "204",
+        "lng": null
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-20",
       "year": 2013,
       "leg": "20",
-      "leg_num": 19,
-      "title": "Annecy - Annecy - Semnoz",
+      "leg_num": 0,
+      "title": "Annecy",
       "start": {
-        "city": "Annecy",
-        "country": "France",
-        "lat": "45.899247",
-        "lng": "6.129384"
+        "city": "France",
+        "country": "45.899247,6.129384",
+        "lat": "Semnoz",
+        "lng": null
       },
       "finish": {
-        "city": "Semnoz",
-        "country": "France",
-        "lat": "45.797222",
-        "lng": "6.104722"
+        "city": "France",
+        "country": "45.797222,6.104722",
+        "lat": "125",
+        "lng": null
       },
-      "length": 125,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2013-21",
       "year": 2013,
       "leg": "21",
-      "leg_num": 20,
-      "title": "Versailles - Paris Champs-Élysées",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "118",
+        "lng": null
       },
-      "length": 118,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2013-01",
-      "year": 2013,
-      "leg": "1",
-      "leg_num": 24,
-      "title": "Porto-Vecchio - Bastia",
-      "start": {
-        "city": "Porto-Vecchio",
-        "country": "France",
-        "lat": "41.591369",
-        "lng": "9.278311"
-      },
-      "finish": {
-        "city": "Bastia",
-        "country": "France",
-        "lat": "42.697283",
-        "lng": "9.450881"
-      },
-      "length": 212,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

@@ -24,729 +24,504 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1972-Prologue",
+      "year": 1972,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Angers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "7",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1972-01",
       "year": 1972,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Angers - Saint-Brieuc",
+      "leg_num": 0,
+      "title": "Angers",
       "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Saint-Brieuc",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Brieuc",
-        "country": "France",
-        "lat": "48.51418",
-        "lng": "-2.765835"
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "233",
+        "lng": "5"
       },
-      "length": 233,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-02",
       "year": 1972,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Saint-Brieuc - La Baule",
+      "leg_num": 0,
+      "title": "Saint-Brieuc",
       "start": {
-        "city": "Saint-Brieuc",
-        "country": "France",
-        "lat": "48.51418",
-        "lng": "-2.765835"
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "La Baule",
+        "lng": null
       },
       "finish": {
-        "city": "La Baule",
-        "country": "France",
-        "lat": "47.285448",
-        "lng": "-2.393236"
+        "city": "France",
+        "country": "47.285448,-2.393236",
+        "lat": "206",
+        "lng": "5"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-3a",
       "year": 1972,
       "leg": "3a",
-      "leg_num": 3,
-      "title": "Pornichet - Saint-Jean-de-Monts",
+      "leg_num": 0,
+      "title": "Pornichet",
       "start": {
-        "city": "Pornichet",
-        "country": "France",
-        "lat": "47.263426",
-        "lng": "-2.340571"
+        "city": "France",
+        "country": "47.263426,-2.340571",
+        "lat": "Saint-Jean-de-Monts",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Jean-de-Monts",
-        "country": "France",
-        "lat": "46.790144",
-        "lng": "-2.081802"
+        "city": "France",
+        "country": "46.790144,-2.081802",
+        "lat": "161",
+        "lng": null
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-3b",
       "year": 1972,
       "leg": "3b",
-      "leg_num": 4,
-      "title": "Circuit de Merlin Plage",
+      "leg_num": 0,
+      "title": "Saint-Hilaire-de-Riez",
       "start": {
-        "city": "Saint-Hilaire-de-Riez",
-        "country": "France",
-        "lat": "46.720204",
-        "lng": "-1.945917"
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "Saint-Hilaire-de-Riez",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Hilaire-de-Riez",
-        "country": "France",
-        "lat": "46.720204",
-        "lng": "-1.945917"
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "16",
+        "lng": "2"
       },
-      "length": 16,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-04",
       "year": 1972,
       "leg": "4",
-      "leg_num": 5,
-      "title": "Merlin Plage - Royan",
+      "leg_num": 0,
+      "title": "Saint-Hilaire-de-Riez",
       "start": {
-        "city": "Saint-Hilaire-de-Riez",
-        "country": "France",
-        "lat": "46.720204",
-        "lng": "-1.945917"
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "Royan",
+        "lng": null
       },
       "finish": {
-        "city": "Royan",
-        "country": "France",
-        "lat": "45.623027",
-        "lng": "-1.043182"
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "236",
+        "lng": null
       },
-      "length": 236,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-5a",
       "year": 1972,
       "leg": "5a",
-      "leg_num": 6,
-      "title": "Royan - Bordeaux",
+      "leg_num": 0,
+      "title": "Royan",
       "start": {
-        "city": "Royan",
-        "country": "France",
-        "lat": "45.623027",
-        "lng": "-1.043182"
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "133",
+        "lng": "5"
       },
-      "length": 133,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-5b",
       "year": 1972,
       "leg": "5b",
-      "leg_num": 7,
-      "title": "Bordeaux-Lac|Circuit du Lac",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "12",
+        "lng": "7"
       },
-      "length": 12,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-06",
       "year": 1972,
       "leg": "6",
-      "leg_num": 8,
-      "title": "Bordeaux - Bayonne",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bayonne",
+        "lng": null
       },
       "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "205",
+        "lng": null
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-07",
       "year": 1972,
       "leg": "7",
-      "leg_num": 9,
-      "title": "Bayonne - Pau",
+      "leg_num": 0,
+      "title": "Bayonne",
       "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "220",
+        "lng": "5"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-08",
       "year": 1972,
       "leg": "8",
-      "leg_num": 10,
-      "title": "Pau - Luchon",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "163",
+        "lng": "5"
       },
-      "length": 163,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-09",
       "year": 1972,
       "leg": "9",
-      "leg_num": 11,
-      "title": "Luchon - Colomiers",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943\n"
+        "city": "France",
+        "country": "42.788963,0.592943\n",
+        "lat": "Colomiers",
+        "lng": null
       },
       "finish": {
-        "city": "Colomiers",
-        "country": "France",
-        "lat": "43.612189",
-        "lng": "1.336579"
+        "city": "France",
+        "country": "43.612189,1.336579",
+        "lat": "179",
+        "lng": null
       },
-      "length": 179,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-10",
       "year": 1972,
       "leg": "10",
-      "leg_num": 12,
-      "title": "Castres - La Grande Motte",
+      "leg_num": 0,
+      "title": "Castres",
       "start": {
-        "city": "Castres",
-        "country": "France",
-        "lat": "43.606214",
-        "lng": "2.241295"
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "La Grande Motte",
+        "lng": null
       },
       "finish": {
-        "city": "La Grande Motte",
-        "country": "France",
-        "lat": "43.560704",
-        "lng": "4.086072"
+        "city": "France",
+        "country": "43.560704,4.086072",
+        "lat": "210",
+        "lng": null
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-11",
       "year": 1972,
       "leg": "11",
-      "leg_num": 13,
-      "title": "Carnon Plage - Mont Ventoux",
+      "leg_num": 0,
+      "title": "Carnon Plage",
       "start": {
-        "city": "Carnon Plage",
-        "country": "France",
-        "lat": "43.615441",
-        "lng": "4.010165"
+        "city": "France",
+        "country": "43.615441,4.010165",
+        "lat": "Mont Ventoux",
+        "lng": null
       },
       "finish": {
-        "city": "Mont Ventoux",
-        "country": "France",
-        "lat": "44.173925",
-        "lng": "5.283795"
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "207",
+        "lng": null
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-12",
       "year": 1972,
       "leg": "12",
-      "leg_num": 14,
-      "title": "Carpentras - Orcières-Merlette",
+      "leg_num": 0,
+      "title": "Carpentras",
       "start": {
-        "city": "Carpentras",
-        "country": "France",
-        "lat": "44.055564",
-        "lng": "5.048722"
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "Orcières-Merlette",
+        "lng": null
       },
       "finish": {
-        "city": "Orcières-Merlette",
-        "country": "France",
-        "lat": "44.695221",
-        "lng": "6.320161"
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-13",
       "year": 1972,
       "leg": "13",
-      "leg_num": 15,
-      "title": "Orcières-Merlette - Briançon",
+      "leg_num": 0,
+      "title": "Orcières-Merlette",
       "start": {
-        "city": "Orcières-Merlette",
-        "country": "France",
-        "lat": "44.695221",
-        "lng": "6.320161"
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "201",
+        "lng": null
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-14a",
       "year": 1972,
       "leg": "14a",
-      "leg_num": 16,
-      "title": "Briançon - Valloire/Col du Galibier",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Col du Galibier",
+        "lng": " Valloire"
       },
       "finish": {
-        "city": "Col du Galibier, Valloire",
-        "country": "France",
-        "lat": "45.06411",
-        "lng": "6.40782"
+        "city": "France",
+        "country": "45.06411,6.40782",
+        "lat": "51",
+        "lng": null
       },
-      "length": 51,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-14b",
       "year": 1972,
       "leg": "14b",
-      "leg_num": 17,
-      "title": "Valloire/Col du Galibier - Aix-les-Bains",
+      "leg_num": 0,
+      "title": "Col du Galibier, Valloire",
       "start": {
-        "city": "Col du Galibier, Valloire",
-        "country": "France",
-        "lat": "45.06411",
-        "lng": "6.40782"
+        "city": "France",
+        "country": "45.06411,6.40782",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "151",
+        "lng": null
       },
-      "length": 151,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-15",
       "year": 1972,
       "leg": "15",
-      "leg_num": 18,
-      "title": "Aix-les-Bains - Le Revard",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Le Revard",
+        "lng": null
       },
       "finish": {
-        "city": "Le Revard",
-        "country": "France",
-        "lat": "45.666493",
-        "lng": "5.97784"
+        "city": "France",
+        "country": "45.666493,5.97784",
+        "lat": "28",
+        "lng": null
       },
-      "length": 28,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-16",
       "year": 1972,
       "leg": "16",
-      "leg_num": 19,
-      "title": "Aix-les-Bains - Pontarlier",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Pontarlier",
+        "lng": null
       },
       "finish": {
-        "city": "Pontarlier",
-        "country": "France",
-        "lat": "46.904104",
-        "lng": "6.354242"
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "198",
+        "lng": "5"
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-17",
       "year": 1972,
       "leg": "17",
-      "leg_num": 20,
-      "title": "Pontarlier - Ballon d'Alsace",
+      "leg_num": 0,
+      "title": "Pontarlier",
       "start": {
-        "city": "Pontarlier",
-        "country": "France",
-        "lat": "46.904104",
-        "lng": "6.354242"
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "Ballon d'Alsace",
+        "lng": null
       },
       "finish": {
-        "city": "Ballon d'Alsace",
-        "country": "France",
-        "lat": "47.822893",
-        "lng": "6.84645"
+        "city": "France",
+        "country": "47.822893,6.84645",
+        "lat": "213",
+        "lng": null
       },
-      "length": 213,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-18",
       "year": 1972,
       "leg": "18",
-      "leg_num": 21,
-      "title": "Vesoul - Auxerre",
+      "leg_num": 0,
+      "title": "Vesoul",
       "start": {
-        "city": "Vesoul",
-        "country": "France",
-        "lat": "47.619788",
-        "lng": "6.15428"
+        "city": "France",
+        "country": "47.619788,6.15428",
+        "lat": "Auxerre",
+        "lng": null
       },
       "finish": {
-        "city": "Auxerre",
-        "country": "France",
-        "lat": "47.798202",
-        "lng": "3.573781"
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "257",
+        "lng": "5"
       },
-      "length": 257,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-19",
       "year": 1972,
       "leg": "19",
-      "leg_num": 22,
-      "title": "Auxerre - Versailles",
+      "leg_num": 0,
+      "title": "Auxerre",
       "start": {
-        "city": "Auxerre",
-        "country": "France",
-        "lat": "47.798202",
-        "lng": "3.573781"
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "Versailles",
+        "lng": null
       },
       "finish": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "230",
+        "lng": null
       },
-      "length": 230,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-20a",
       "year": 1972,
       "leg": "20a",
-      "leg_num": 23,
-      "title": "Versailles - Versailles",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Versailles",
+        "lng": null
       },
       "finish": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "42",
+        "lng": null
       },
-      "length": 42,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1972-20b",
       "year": 1972,
       "leg": "20b",
-      "leg_num": 24,
-      "title": "Versailles - Paris",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "89",
+        "lng": null
       },
-      "length": 89,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1972-Prologue",
-      "year": 1972,
-      "leg": "Prologue",
-      "leg_num": 27,
-      "title": "Angers",
-      "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "length": 7,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

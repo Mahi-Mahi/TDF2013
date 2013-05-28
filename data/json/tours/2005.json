@@ -24,613 +24,424 @@
   "third_id": "jan-ullrich",
   "legs": [
     {
+      "id": "E-2005-01",
+      "year": 2005,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Fromentine",
+      "start": {
+        "city": "France",
+        "country": "46.889175,-2.140027",
+        "lat": "Noirmoutier-en-l'Île",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.001143,-2.247107",
+        "lat": "19",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-2005-02",
       "year": 2005,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Challans - Les Essarts",
+      "leg_num": 0,
+      "title": "Challans",
       "start": {
-        "city": "Challans",
-        "country": "France",
-        "lat": "46.844828",
-        "lng": "-1.880412"
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "Les Essarts",
+        "lng": null
       },
       "finish": {
-        "city": "Les Essarts",
-        "country": "France",
-        "lat": "46.774141",
-        "lng": "-1.23052"
+        "city": "France",
+        "country": "46.774141,-1.23052",
+        "lat": "182",
+        "lng": null
       },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-03",
       "year": 2005,
       "leg": "3",
-      "leg_num": 2,
-      "title": "La Châtaigneraie - Tours",
+      "leg_num": 0,
+      "title": "La Châtaigneraie",
       "start": {
-        "city": "La Châtaigneraie",
-        "country": "France",
-        "lat": "46.649193",
-        "lng": "-0.739875"
+        "city": "France",
+        "country": "46.649193,-0.739875",
+        "lat": "Tours",
+        "lng": null
       },
       "finish": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "208",
+        "lng": null
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-04",
       "year": 2005,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Tours - Blois",
+      "leg_num": 0,
+      "title": "Tours",
       "start": {
-        "city": "Tours",
-        "country": "France",
-        "lat": "47.394144",
-        "lng": "0.68484"
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "Blois",
+        "lng": null
       },
       "finish": {
-        "city": "Blois",
-        "country": "France",
-        "lat": "47.587952",
-        "lng": "1.336272"
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "66",
+        "lng": null
       },
-      "length": 66,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-05",
       "year": 2005,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Chambord - Montargis",
+      "leg_num": 0,
+      "title": "Chambord",
       "start": {
-        "city": "Chambord",
-        "country": "France",
-        "lat": "47.614158",
-        "lng": "1.516878"
+        "city": "France",
+        "country": "47.614158,1.516878",
+        "lat": "Montargis",
+        "lng": null
       },
       "finish": {
-        "city": "Montargis",
-        "country": "France",
-        "lat": "47.99729",
-        "lng": "2.736291"
+        "city": "France",
+        "country": "47.99729,2.736291",
+        "lat": "179",
+        "lng": null
       },
-      "length": 179,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-06",
       "year": 2005,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Troyes - Nancy",
+      "leg_num": 0,
+      "title": "Troyes",
       "start": {
-        "city": "Troyes",
-        "country": "France",
-        "lat": "48.296592",
-        "lng": "4.074735"
+        "city": "France",
+        "country": "48.296592,4.074735",
+        "lat": "Nancy",
+        "lng": null
       },
       "finish": {
-        "city": "Nancy",
-        "country": "France",
-        "lat": "48.692054",
-        "lng": "6.184417"
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "187",
+        "lng": null
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-07",
       "year": 2005,
       "leg": "7",
-      "leg_num": 6,
-      "title": "Lunéville - Karlsruhe (All.)",
+      "leg_num": 0,
+      "title": "Lunéville",
       "start": {
-        "city": "Lunéville",
-        "country": "France",
-        "lat": "48.592237",
-        "lng": "6.492339"
+        "city": "France",
+        "country": "48.592237,6.492339",
+        "lat": "Karlsruhe",
+        "lng": null
       },
       "finish": {
-        "city": "Karlsruhe",
-        "country": "Allemagne",
-        "lat": "49.009148",
-        "lng": "8.379944"
+        "city": "Allemagne",
+        "country": "49.009148,8.379944",
+        "lat": "225",
+        "lng": null
       },
-      "length": 225,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-08",
       "year": 2005,
       "leg": "8",
-      "leg_num": 7,
-      "title": "Pforzheim (All.) - Gérardmer",
+      "leg_num": 0,
+      "title": "Pforzheim",
       "start": {
-        "city": "Pforzheim",
-        "country": "Allemagne",
-        "lat": "48.892638",
-        "lng": "8.693293"
+        "city": "Allemagne",
+        "country": "48.892638,8.693293",
+        "lat": "Gérardmer",
+        "lng": null
       },
       "finish": {
-        "city": "Gérardmer",
-        "country": "France",
-        "lat": "48.070081",
-        "lng": "6.877292"
+        "city": "France",
+        "country": "48.070081,6.877292",
+        "lat": "231",
+        "lng": null
       },
-      "length": 231,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-09",
       "year": 2005,
       "leg": "9",
-      "leg_num": 8,
-      "title": "Gérardmer - Mulhouse",
+      "leg_num": 0,
+      "title": "Gérardmer",
       "start": {
-        "city": "Gérardmer",
-        "country": "France",
-        "lat": "48.070081",
-        "lng": "6.877292"
+        "city": "France",
+        "country": "48.070081,6.877292",
+        "lat": "Mulhouse",
+        "lng": null
       },
       "finish": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "170",
+        "lng": null
       },
-      "length": 170,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-10",
       "year": 2005,
       "leg": "10",
-      "leg_num": 9,
-      "title": "Grenoble - Courchevel",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Courchevel",
+        "lng": null
       },
       "finish": {
-        "city": "Courchevel",
-        "country": "France",
-        "lat": "45.4203",
-        "lng": "6.61409"
+        "city": "France",
+        "country": "45.4203,6.61409",
+        "lat": "192",
+        "lng": null
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-11",
       "year": 2005,
       "leg": "11",
-      "leg_num": 10,
-      "title": "Courchevel - Briançon",
+      "leg_num": 0,
+      "title": "Courchevel",
       "start": {
-        "city": "Courchevel",
-        "country": "France",
-        "lat": "45.4203",
-        "lng": "6.61409"
+        "city": "France",
+        "country": "45.4203,6.61409",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "173",
+        "lng": null
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-12",
       "year": 2005,
       "leg": "12",
-      "leg_num": 11,
-      "title": "Briançon - Digne-les-Bains",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Digne-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Digne-les-Bains",
-        "country": "France",
-        "lat": "44.092193",
-        "lng": "6.235976"
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "187",
+        "lng": null
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-13",
       "year": 2005,
       "leg": "13",
-      "leg_num": 12,
-      "title": "Miramas - Montpellier",
+      "leg_num": 0,
+      "title": "Miramas",
       "start": {
-        "city": "Miramas",
-        "country": "France",
-        "lat": "43.588896",
-        "lng": "5.002136"
+        "city": "France",
+        "country": "43.588896,5.002136",
+        "lat": "Montpellier",
+        "lng": null
       },
       "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "173",
+        "lng": "5"
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-14",
       "year": 2005,
       "leg": "14",
-      "leg_num": 13,
-      "title": "Agde - Ax-3 Domaines",
+      "leg_num": 0,
+      "title": "Agde",
       "start": {
-        "city": "Agde",
-        "country": "France",
-        "lat": "43.312455",
-        "lng": "3.47083"
+        "city": "France",
+        "country": "43.312455,3.47083",
+        "lat": "Ax-3 Domaines",
+        "lng": null
       },
       "finish": {
-        "city": "Ax-3 Domaines",
-        "country": "France",
-        "lat": "42.699657",
-        "lng": "1.81283"
+        "city": "France",
+        "country": "42.699657,1.81283",
+        "lat": "220",
+        "lng": null
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-15",
       "year": 2005,
       "leg": "15",
-      "leg_num": 14,
-      "title": "Lézat-sur-Lèze - Saint-Lary-Soulan",
+      "leg_num": 0,
+      "title": "Lézat-sur-Lèze",
       "start": {
-        "city": "Lézat-sur-Lèze",
-        "country": "France",
-        "lat": "43.276267",
-        "lng": "1.346575"
+        "city": "France",
+        "country": "43.276267,1.346575",
+        "lat": "Saint-Lary-Soulan",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Lary-Soulan",
-        "country": "France",
-        "lat": "42.815835",
-        "lng": "0.320251"
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "205",
+        "lng": null
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-16",
       "year": 2005,
       "leg": "16",
-      "leg_num": 15,
-      "title": "Mourenx - Pau",
+      "leg_num": 0,
+      "title": "Mourenx",
       "start": {
-        "city": "Mourenx",
-        "country": "France",
-        "lat": "43.368262",
-        "lng": "-0.620552"
+        "city": "France",
+        "country": "43.368262,-0.620552",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "177",
+        "lng": null
       },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-17",
       "year": 2005,
       "leg": "17",
-      "leg_num": 16,
-      "title": "Pau - Revel",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Revel",
+        "lng": null
       },
       "finish": {
-        "city": "Revel",
-        "country": "France",
-        "lat": "43.458611",
-        "lng": "2.004573"
+        "city": "France",
+        "country": "43.458611,2.004573",
+        "lat": "239",
+        "lng": null
       },
-      "length": 239,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-18",
       "year": 2005,
       "leg": "18",
-      "leg_num": 17,
-      "title": "Albi - Mende",
+      "leg_num": 0,
+      "title": "Albi",
       "start": {
-        "city": "Albi",
-        "country": "France",
-        "lat": "43.926896",
-        "lng": "2.146343"
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "Mende",
+        "lng": null
       },
       "finish": {
-        "city": "Mende",
-        "country": "France",
-        "lat": "44.517611",
-        "lng": "3.501873"
+        "city": "France",
+        "country": "44.517611,3.501873",
+        "lat": "189",
+        "lng": null
       },
-      "length": 189,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-19",
       "year": 2005,
       "leg": "19",
-      "leg_num": 18,
-      "title": "Issoire - Le Puy-en-Velay",
+      "leg_num": 0,
+      "title": "Issoire",
       "start": {
-        "city": "Issoire",
-        "country": "France",
-        "lat": "45.54151",
-        "lng": "3.248128"
+        "city": "France",
+        "country": "45.54151,3.248128",
+        "lat": "Le Puy-en-Velay",
+        "lng": null
       },
       "finish": {
-        "city": "Le Puy-en-Velay",
-        "country": "France",
-        "lat": "45.042768",
-        "lng": "3.882936"
+        "city": "France",
+        "country": "45.042768,3.882936",
+        "lat": "154",
+        "lng": null
       },
-      "length": 154,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-20",
       "year": 2005,
       "leg": "20",
-      "leg_num": 19,
-      "title": "Saint-Étienne - Saint-Étienne",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
       "start": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "Saint-Étienne",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Étienne",
-        "country": "France",
-        "lat": "45.439695",
-        "lng": "4.387178"
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "55",
+        "lng": null
       },
-      "length": 55,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-2005-21",
       "year": 2005,
       "leg": "21",
-      "leg_num": 20,
-      "title": "Corbeil-Essonnes - Paris",
+      "leg_num": 0,
+      "title": "Corbeil-Essonnes",
       "start": {
-        "city": "Corbeil-Essonnes",
-        "country": "France",
-        "lat": "48.61026",
-        "lng": "2.474805"
+        "city": "France",
+        "country": "48.61026,2.474805",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "144",
+        "lng": "5"
       },
-      "length": 144,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-2005-01",
-      "year": 2005,
-      "leg": "1",
-      "leg_num": 21,
-      "title": "Fromentine - Noirmoutier-en-l'Île",
-      "start": {
-        "city": "Fromentine",
-        "country": "France",
-        "lat": "46.889175",
-        "lng": "-2.140027"
-      },
-      "finish": {
-        "city": "Noirmoutier-en-l'Île",
-        "country": "France",
-        "lat": "47.001143",
-        "lng": "-2.247107"
-      },
-      "length": 19,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

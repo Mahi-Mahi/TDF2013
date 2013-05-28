@@ -24,642 +24,444 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1998-Prologue",
+      "year": 1998,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Dublin",
+      "start": {
+        "city": "Irlande",
+        "country": "53.349805,-6.26031",
+        "lat": "Dublin",
+        "lng": null
+      },
+      "finish": {
+        "city": "Irlande",
+        "country": "53.349805,-6.26031",
+        "lat": "5",
+        "lng": "6"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1998-01",
       "year": 1998,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Dublin - Dublin",
+      "leg_num": 0,
+      "title": "Dublin",
       "start": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
+        "city": "Irlande",
+        "country": "53.349805,-6.26031",
+        "lat": "Dublin",
+        "lng": null
       },
       "finish": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
+        "city": "Irlande",
+        "country": "53.349805,-6.26031",
+        "lat": "186",
+        "lng": "5"
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-02",
       "year": 1998,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Enniscorthy - Cork",
+      "leg_num": 0,
+      "title": "Enniscorthy",
       "start": {
-        "city": "Enniscorthy",
-        "country": "Irlande",
-        "lat": "52.502197",
-        "lng": "-6.56613"
+        "city": "Irlande",
+        "country": "52.502197,-6.56613",
+        "lat": "Cork",
+        "lng": null
       },
       "finish": {
-        "city": "Cork",
-        "country": "Irlande",
-        "lat": "51.896892",
-        "lng": "-8.486316"
+        "city": "Irlande",
+        "country": "51.896892,-8.486316",
+        "lat": "205",
+        "lng": "5"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-03",
       "year": 1998,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Roscoff - Lorient",
+      "leg_num": 0,
+      "title": "Roscoff",
       "start": {
-        "city": "Roscoff",
-        "country": "France",
-        "lat": "48.726199",
-        "lng": "-3.985325"
+        "city": "France",
+        "country": "48.726199,-3.985325",
+        "lat": "Lorient",
+        "lng": null
       },
       "finish": {
-        "city": "Lorient",
-        "country": "France",
-        "lat": "47.748252",
-        "lng": "-3.370245"
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "169",
+        "lng": null
       },
-      "length": 169,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-04",
       "year": 1998,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Plouay - Cholet",
+      "leg_num": 0,
+      "title": "Plouay",
       "start": {
-        "city": "Plouay",
-        "country": "France",
-        "lat": "47.915138",
-        "lng": "-3.334565"
+        "city": "France",
+        "country": "47.915138,-3.334565",
+        "lat": "Cholet",
+        "lng": null
       },
       "finish": {
-        "city": "Cholet",
-        "country": "France",
-        "lat": "47.059407",
-        "lng": "-0.879787"
+        "city": "France",
+        "country": "47.059407,-0.879787",
+        "lat": "252",
+        "lng": null
       },
-      "length": 252,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-05",
       "year": 1998,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Cholet - Châteauroux",
+      "leg_num": 0,
+      "title": "Cholet",
       "start": {
-        "city": "Cholet",
-        "country": "France",
-        "lat": "47.059407",
-        "lng": "-0.879787"
+        "city": "France",
+        "country": "47.059407,-0.879787",
+        "lat": "Châteauroux",
+        "lng": null
       },
       "finish": {
-        "city": "Châteauroux",
-        "country": "France",
-        "lat": "46.811434",
-        "lng": "1.686779"
+        "city": "France",
+        "country": "46.811434,1.686779",
+        "lat": "228",
+        "lng": "5"
       },
-      "length": 228,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-06",
       "year": 1998,
       "leg": "6",
-      "leg_num": 6,
-      "title": "La Châtre - Brive",
+      "leg_num": 0,
+      "title": "La Châtre",
       "start": {
-        "city": "La Châtre",
-        "country": "France",
-        "lat": "46.581832",
-        "lng": "1.986165"
+        "city": "France",
+        "country": "46.581832,1.986165",
+        "lat": "Brive",
+        "lng": null
       },
       "finish": {
-        "city": "Brive",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "204",
+        "lng": "5"
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-07",
       "year": 1998,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Meyrignac-l'Église - Corrèze",
+      "leg_num": 0,
+      "title": "Meyrignac-l'Église",
       "start": {
-        "city": "Meyrignac-l'Église",
-        "country": "France",
-        "lat": "45.399074",
-        "lng": "1.854589"
+        "city": "France",
+        "country": "45.399074,1.854589",
+        "lat": "Corrèze",
+        "lng": " Corrèze"
       },
       "finish": {
-        "city": "Corrèze, Corrèze",
-        "country": "France",
-        "lat": "45.372114",
-        "lng": "1.873739"
+        "city": "France",
+        "country": "45.372114,1.873739",
+        "lat": "58",
+        "lng": null
       },
-      "length": 58,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-08",
       "year": 1998,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Brive - Montauban",
+      "leg_num": 0,
+      "title": "Brive",
       "start": {
-        "city": "Brive",
-        "country": "France",
-        "lat": "45.159555",
-        "lng": "1.533937"
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "Montauban",
+        "lng": null
       },
       "finish": {
-        "city": "Montauban",
-        "country": "France",
-        "lat": "44.016079",
-        "lng": "1.35295"
+        "city": "France",
+        "country": "44.016079,1.35295",
+        "lat": "190",
+        "lng": "5"
       },
-      "length": 190,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-09",
       "year": 1998,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Montauban - Pau",
+      "leg_num": 0,
+      "title": "Montauban",
       "start": {
-        "city": "Montauban",
-        "country": "France",
-        "lat": "44.016079",
-        "lng": "1.35295"
+        "city": "France",
+        "country": "44.016079,1.35295",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "210",
+        "lng": null
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-10",
       "year": 1998,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Pau - Luchon",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-11",
       "year": 1998,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Luchon - Plateau-de-Beille",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Plateau-de-Beille",
+        "lng": " Aston"
       },
       "finish": {
-        "city": "Plateau-de-Beille, Aston",
-        "country": "France",
-        "lat": "42.709683",
-        "lng": "1.702387"
+        "city": "France",
+        "country": "42.709683,1.702387",
+        "lat": "170",
+        "lng": null
       },
-      "length": 170,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-12",
       "year": 1998,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Tarascon-sur-Ariège - Cap d'Agde",
+      "leg_num": 0,
+      "title": "Tarascon-sur-Ariège",
       "start": {
-        "city": "Tarascon-sur-Ariège",
-        "country": "France",
-        "lat": "42.848524",
-        "lng": "1.604815"
+        "city": "France",
+        "country": "42.848524,1.604815",
+        "lat": "Cap d'Agde",
+        "lng": null
       },
       "finish": {
-        "city": "Cap d'Agde",
-        "country": "France",
-        "lat": "43.280739",
-        "lng": "3.505399"
+        "city": "France",
+        "country": "43.280739,3.505399",
+        "lat": "222",
+        "lng": null
       },
-      "length": 222,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-13",
       "year": 1998,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Frontignan la Peyrade - Carpentras",
+      "leg_num": 0,
+      "title": "Frontignan la Peyrade",
       "start": {
-        "city": "Frontignan la Peyrade",
-        "country": "France",
-        "lat": "43.427008",
-        "lng": "3.726749"
+        "city": "France",
+        "country": "43.427008,3.726749",
+        "lat": "Carpentras",
+        "lng": null
       },
       "finish": {
-        "city": "Carpentras",
-        "country": "France",
-        "lat": "44.055564",
-        "lng": "5.048722"
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "196",
+        "lng": null
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-14",
       "year": 1998,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Valréas - Grenoble",
+      "leg_num": 0,
+      "title": "Valréas",
       "start": {
-        "city": "Valréas",
-        "country": "France",
-        "lat": "44.383724",
-        "lng": "4.989187"
+        "city": "France",
+        "country": "44.383724,4.989187",
+        "lat": "Grenoble",
+        "lng": null
       },
       "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "186",
+        "lng": "5"
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-15",
       "year": 1998,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Grenoble - Les Deux Alpes",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Les Deux Alpes",
+        "lng": null
       },
       "finish": {
-        "city": "Les Deux Alpes",
-        "country": "France",
-        "lat": "45.010099",
-        "lng": "6.125578"
+        "city": "France",
+        "country": "45.010099,6.125578",
+        "lat": "189",
+        "lng": null
       },
-      "length": 189,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-16",
       "year": 1998,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Vizille - Albertville",
+      "leg_num": 0,
+      "title": "Vizille",
       "start": {
-        "city": "Vizille",
-        "country": "France",
-        "lat": "45.077318",
-        "lng": "5.772412"
+        "city": "France",
+        "country": "45.077318,5.772412",
+        "lat": "Albertville",
+        "lng": null
       },
       "finish": {
-        "city": "Albertville",
-        "country": "France",
-        "lat": "45.675535",
-        "lng": "6.392726"
+        "city": "France",
+        "country": "45.675535,6.392726",
+        "lat": "204",
+        "lng": null
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-17",
       "year": 1998,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Albertville - Aix-les-Bains",
+      "leg_num": 0,
+      "title": "Albertville",
       "start": {
-        "city": "Albertville",
-        "country": "France",
-        "lat": "45.675535",
-        "lng": "6.392726"
+        "city": "France",
+        "country": "45.675535,6.392726",
+        "lat": "Aix-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "149",
+        "lng": null
       },
-      "length": 149,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-18",
       "year": 1998,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Aix-les-Bains - Neuchâtel",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
       "start": {
-        "city": "Aix-les-Bains",
-        "country": "France",
-        "lat": "45.692341",
-        "lng": "5.908998"
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Neuchâtel",
+        "lng": null
       },
       "finish": {
-        "city": "Neuchâtel",
-        "country": "Suisse",
-        "lat": "46.992979",
-        "lng": "6.931932"
+        "city": "Suisse",
+        "country": "46.992979,6.931932",
+        "lat": "218",
+        "lng": "5"
       },
-      "length": 218,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-19",
       "year": 1998,
       "leg": "19",
-      "leg_num": 19,
-      "title": "La Chaux-de-Fonds - Autun",
+      "leg_num": 0,
+      "title": "La Chaux-de-Fonds",
       "start": {
-        "city": "La Chaux-de-Fonds",
-        "country": "France",
-        "lat": "47.097872",
-        "lng": "6.821634"
+        "city": "France",
+        "country": "47.097872,6.821634",
+        "lat": "Autun",
+        "lng": null
       },
       "finish": {
-        "city": "Autun",
-        "country": "France",
-        "lat": "46.950914",
-        "lng": "4.301565"
+        "city": "France",
+        "country": "46.950914,4.301565",
+        "lat": "242",
+        "lng": null
       },
-      "length": 242,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-20",
       "year": 1998,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Montceau-les-Mines - Le Creusot",
+      "leg_num": 0,
+      "title": "Montceau-les-Mines",
       "start": {
-        "city": "Montceau-les-Mines",
-        "country": "France",
-        "lat": "46.67413",
-        "lng": "4.362979"
+        "city": "France",
+        "country": "46.67413,4.362979",
+        "lat": "Le Creusot",
+        "lng": null
       },
       "finish": {
-        "city": "Le Creusot",
-        "country": "France",
-        "lat": "46.805351",
-        "lng": "4.4278"
+        "city": "France",
+        "country": "46.805351,4.4278",
+        "lat": "52",
+        "lng": null
       },
-      "length": 52,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1998-Prologue",
-      "year": 1998,
-      "leg": "Prologue",
-      "leg_num": 21,
-      "title": "Dublin - Dublin",
-      "start": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
-      },
-      "finish": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1998-21",
       "year": 1998,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Melun - Paris",
+      "leg_num": 0,
+      "title": "Melun",
       "start": {
-        "city": "Melun",
-        "country": "France",
-        "lat": "48.542105",
-        "lng": "2.6554"
+        "city": "France",
+        "country": "48.542105,2.6554",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "147",
+        "lng": "5"
       },
-      "length": 147,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

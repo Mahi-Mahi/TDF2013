@@ -24,729 +24,504 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1981-Prologue",
+      "year": 1981,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "5",
+        "lng": "9"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1981-01",
       "year": 1981,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Nice - Nice",
+      "leg_num": 0,
+      "title": "Nice",
       "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
       },
       "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "97",
+        "lng": null
       },
-      "length": 97,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-02",
       "year": 1981,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Nice - Antibes - Nice",
+      "leg_num": 0,
+      "title": "Nice",
       "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
       },
       "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "40",
+        "lng": null
       },
-      "length": 40,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-03",
       "year": 1981,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Nice - Draguignan - Martigues",
+      "leg_num": 0,
+      "title": "Nice",
       "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Martigues",
+        "lng": null
       },
       "finish": {
-        "city": "Martigues",
-        "country": "France",
-        "lat": "43.404811",
-        "lng": "5.053728"
+        "city": "France",
+        "country": "43.404811,5.053728",
+        "lat": "254",
+        "lng": null
       },
-      "length": 254,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-04",
       "year": 1981,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Martigues - Narbonne-Plage",
+      "leg_num": 0,
+      "title": "Martigues",
       "start": {
-        "city": "Martigues",
-        "country": "France",
-        "lat": "43.404811",
-        "lng": "5.053728"
+        "city": "France",
+        "country": "43.404811,5.053728",
+        "lat": "Narbonne",
+        "lng": null
       },
       "finish": {
-        "city": "Narbonne",
-        "country": "France",
-        "lat": "43.184277",
-        "lng": "3.003078"
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "232",
+        "lng": null
       },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-05",
       "year": 1981,
       "leg": "5",
-      "leg_num": 5,
-      "title": "Narbonne - Carcassonne",
+      "leg_num": 0,
+      "title": "Narbonne",
       "start": {
-        "city": "Narbonne",
-        "country": "France",
-        "lat": "43.184277",
-        "lng": "3.003078"
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "Carcassonne",
+        "lng": null
       },
       "finish": {
-        "city": "Carcassonne",
-        "country": "France",
-        "lat": "43.212161",
-        "lng": "2.353663"
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "77",
+        "lng": "2"
       },
-      "length": 77,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-06",
       "year": 1981,
       "leg": "6",
-      "leg_num": 6,
-      "title": "Saint-Gaudens - Saint-Lary-Soulan",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
       "start": {
-        "city": "Saint-Gaudens",
-        "country": "France",
-        "lat": "43.106895",
-        "lng": "0.723763"
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Saint-Lary-Soulan",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Lary-Soulan",
-        "country": "France",
-        "lat": "42.815835",
-        "lng": "0.320251"
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "117",
+        "lng": "5"
       },
-      "length": 117,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-07",
       "year": 1981,
       "leg": "7",
-      "leg_num": 7,
-      "title": "Nay - Pau",
+      "leg_num": 0,
+      "title": "Nay",
       "start": {
-        "city": "Nay",
-        "country": "France",
-        "lat": "43.176619",
-        "lng": "-0.262552"
+        "city": "France",
+        "country": "43.176619,-0.262552",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "26",
+        "lng": "7"
       },
-      "length": 26,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-08",
       "year": 1981,
       "leg": "8",
-      "leg_num": 8,
-      "title": "Pau - Bordeaux",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "227",
+        "lng": null
       },
-      "length": 227,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-09",
       "year": 1981,
       "leg": "9",
-      "leg_num": 9,
-      "title": "Rochefort - Nantes",
+      "leg_num": 0,
+      "title": "Rochefort",
       "start": {
-        "city": "Rochefort",
-        "country": "France",
-        "lat": "45.936698",
-        "lng": "-0.961697"
+        "city": "France",
+        "country": "45.936698,-0.961697",
+        "lat": "Nantes",
+        "lng": null
       },
       "finish": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "182",
+        "lng": null
       },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-10",
       "year": 1981,
       "leg": "10",
-      "leg_num": 10,
-      "title": "Nantes - Le Mans",
+      "leg_num": 0,
+      "title": "Nantes",
       "start": {
-        "city": "Nantes",
-        "country": "France",
-        "lat": "47.218371",
-        "lng": "-1.553621"
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Le Mans",
+        "lng": null
       },
       "finish": {
-        "city": "Le Mans",
-        "country": "France",
-        "lat": "48.00611",
-        "lng": "0.199556"
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "196",
+        "lng": "5"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-11",
       "year": 1981,
       "leg": "11",
-      "leg_num": 11,
-      "title": "Le Mans - Aulnay-sous-Bois",
+      "leg_num": 0,
+      "title": "Le Mans",
       "start": {
-        "city": "Le Mans",
-        "country": "France",
-        "lat": "48.00611",
-        "lng": "0.199556"
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "Aulnay-sous-Bois",
+        "lng": null
       },
       "finish": {
-        "city": "Aulnay-sous-Bois",
-        "country": "France",
-        "lat": "48.940974",
-        "lng": "2.497115"
+        "city": "France",
+        "country": "48.940974,2.497115",
+        "lat": "264",
+        "lng": null
       },
-      "length": 264,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-12",
       "year": 1981,
       "leg": "12",
-      "leg_num": 12,
-      "title": "Compiègne - Roubaix",
+      "leg_num": 0,
+      "title": "Compiègne",
       "start": {
-        "city": "Compiègne",
-        "country": "France",
-        "lat": "49.417816",
-        "lng": "2.826145"
+        "city": "France",
+        "country": "49.417816,2.826145",
+        "lat": "Roubaix",
+        "lng": null
       },
       "finish": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "246",
+        "lng": null
       },
-      "length": 246,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-13",
       "year": 1981,
       "leg": "13",
-      "leg_num": 13,
-      "title": "Roubaix - Bruxelles",
+      "leg_num": 0,
+      "title": "Roubaix",
       "start": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Bruxelles",
+        "lng": null
       },
       "finish": {
-        "city": "Bruxelles",
-        "country": "France",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "France",
+        "country": "50.85034,4.35171",
+        "lat": "107",
+        "lng": "3"
       },
-      "length": 107,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-14",
       "year": 1981,
       "leg": "14",
-      "leg_num": 14,
-      "title": "Bruxelles - Zolder",
+      "leg_num": 0,
+      "title": "Bruxelles",
       "start": {
-        "city": "Bruxelles",
-        "country": "Belgique",
-        "lat": "50.85034",
-        "lng": "4.35171"
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "Zolder",
+        "lng": null
       },
       "finish": {
-        "city": "Zolder",
-        "country": "Belgique",
-        "lat": "51.022954",
-        "lng": "5.309732"
+        "city": "Belgique",
+        "country": "51.022954,5.309732",
+        "lat": "137",
+        "lng": "8"
       },
-      "length": 137,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-15",
       "year": 1981,
       "leg": "15",
-      "leg_num": 15,
-      "title": "Beringen - Hasselt",
+      "leg_num": 0,
+      "title": "Beringen",
       "start": {
-        "city": "Beringen",
-        "country": "Belgique",
-        "lat": "51.04793",
-        "lng": "5.21862"
+        "city": "Belgique",
+        "country": "51.04793,5.21862",
+        "lat": "Hasselt",
+        "lng": null
       },
       "finish": {
-        "city": "Hasselt",
-        "country": "Belgique",
-        "lat": "50.928554",
-        "lng": "5.339916"
+        "city": "Belgique",
+        "country": "50.928554,5.339916",
+        "lat": "157",
+        "lng": null
       },
-      "length": 157,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-16",
       "year": 1981,
       "leg": "16",
-      "leg_num": 16,
-      "title": "Mulhouse - Mulhouse",
+      "leg_num": 0,
+      "title": "Mulhouse",
       "start": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "Mulhouse",
+        "lng": null
       },
       "finish": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "38",
+        "lng": "5"
       },
-      "length": 38,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-17",
       "year": 1981,
       "leg": "17",
-      "leg_num": 17,
-      "title": "Besançon - Thonon-les-Bains",
+      "leg_num": 0,
+      "title": "Besançon",
       "start": {
-        "city": "Besançon",
-        "country": "France",
-        "lat": "47.237829",
-        "lng": "6.024054"
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Thonon-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Thonon-les-Bains",
-        "country": "France",
-        "lat": "46.373565",
-        "lng": "6.477635"
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "231",
+        "lng": null
       },
-      "length": 231,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-18",
       "year": 1981,
       "leg": "18",
-      "leg_num": 18,
-      "title": "Thonon-les-Bains - Morzine",
+      "leg_num": 0,
+      "title": "Thonon-les-Bains",
       "start": {
-        "city": "Thonon-les-Bains",
-        "country": "France",
-        "lat": "46.373565",
-        "lng": "6.477635"
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "Morzine",
+        "lng": null
       },
       "finish": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "199",
+        "lng": "5"
       },
-      "length": 199,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-19",
       "year": 1981,
       "leg": "19",
-      "leg_num": 19,
-      "title": "Morzine - L'Alpe d'Huez",
+      "leg_num": 0,
+      "title": "Morzine",
       "start": {
-        "city": "Morzine",
-        "country": "France",
-        "lat": "46.179192",
-        "lng": "6.708877"
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
       },
       "finish": {
-        "city": "L'Alpe d'Huez",
-        "country": "France",
-        "lat": "45.092624",
-        "lng": "6.068348"
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "230",
+        "lng": "5"
       },
-      "length": 230,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-20",
       "year": 1981,
       "leg": "20",
-      "leg_num": 20,
-      "title": "Le Bourg d'Oisans - Le Pleynet",
+      "leg_num": 0,
+      "title": "Le Bourg d'Oisans",
       "start": {
-        "city": "Le Bourg d'Oisans",
-        "country": "France",
-        "lat": "45.051951",
-        "lng": "6.030064"
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Le Pleynet",
+        "lng": null
       },
       "finish": {
-        "city": "Le Pleynet",
-        "country": "France",
-        "lat": "45.272203",
-        "lng": "6.055841"
+        "city": "France",
+        "country": "45.272203,6.055841",
+        "lat": "134",
+        "lng": null
       },
-      "length": 134,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-21",
       "year": 1981,
       "leg": "21",
-      "leg_num": 21,
-      "title": "Veurey-Voroize - Saint-Priest",
+      "leg_num": 0,
+      "title": "Veurey-Voroize",
       "start": {
-        "city": "Veurey-Voroize",
-        "country": "France",
-        "lat": "45.272154",
-        "lng": "5.612813"
+        "city": "France",
+        "country": "45.272154,5.612813",
+        "lat": "Saint-Priest",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Priest",
-        "country": "France",
-        "lat": "45.698938",
-        "lng": "4.947071"
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "117",
+        "lng": "5"
       },
-      "length": 117,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-22",
       "year": 1981,
       "leg": "22",
-      "leg_num": 22,
-      "title": "Saint-Priest - Saint-Priest",
+      "leg_num": 0,
+      "title": "Saint-Priest",
       "start": {
-        "city": "Saint-Priest",
-        "country": "France",
-        "lat": "45.698938",
-        "lng": "4.947071"
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "Saint-Priest",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Priest",
-        "country": "France",
-        "lat": "45.698938",
-        "lng": "4.947071"
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "46",
+        "lng": "5"
       },
-      "length": 46,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1981-Prologue",
-      "year": 1981,
-      "leg": "Prologue",
-      "leg_num": 23,
-      "title": "Nice",
-      "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-23",
       "year": 1981,
       "leg": "23",
-      "leg_num": 23,
-      "title": "Auxerre - Fontenay-sous-Bois",
+      "leg_num": 0,
+      "title": "Auxerre",
       "start": {
-        "city": "Auxerre",
-        "country": "France",
-        "lat": "47.798202",
-        "lng": "3.573781"
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "Fontenay-sous-Bois",
+        "lng": null
       },
       "finish": {
-        "city": "Fontenay-sous-Bois",
-        "country": "France",
-        "lat": "48.851542",
-        "lng": "2.475907"
+        "city": "France",
+        "country": "48.851542,2.475907",
+        "lat": "207",
+        "lng": null
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1981-24",
       "year": 1981,
       "leg": "24",
-      "leg_num": 24,
-      "title": "Fontenay-sous-Bois - Paris",
+      "leg_num": 0,
+      "title": "Fontenay-sous-Bois",
       "start": {
-        "city": "Fontenay-sous-Bois",
-        "country": "France",
-        "lat": "48.851542",
-        "lng": "2.475907"
+        "city": "France",
+        "country": "48.851542,2.475907",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "186",
+        "lng": "8"
       },
-      "length": 186,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

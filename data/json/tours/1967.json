@@ -24,729 +24,504 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1967-Prologue",
+      "year": 1967,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Angers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "5",
+        "lng": "775"
+      },
+      "length": 0
+    },
+    {
       "id": "E-1967-01",
       "year": 1967,
       "leg": "1",
-      "leg_num": 1,
-      "title": "Angers - Saint-Malo",
+      "leg_num": 0,
+      "title": "Angers",
       "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Saint-Malo",
+        "lng": null
       },
       "finish": {
-        "city": "Saint-Malo",
-        "country": "France",
-        "lat": "48.649337",
-        "lng": "-2.025674"
+        "city": "France",
+        "country": "48.649337,-2.025674",
+        "lat": "185",
+        "lng": "5"
       },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-02",
       "year": 1967,
       "leg": "2",
-      "leg_num": 2,
-      "title": "Saint-Malo - Caen",
+      "leg_num": 0,
+      "title": "Saint-Malo",
       "start": {
-        "city": "Saint-Malo",
-        "country": "France",
-        "lat": "48.649337",
-        "lng": "-2.025674"
+        "city": "France",
+        "country": "48.649337,-2.025674",
+        "lat": "Caen",
+        "lng": null
       },
       "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "180",
+        "lng": null
       },
-      "length": 180,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-03",
       "year": 1967,
       "leg": "3",
-      "leg_num": 3,
-      "title": "Caen - Amiens",
+      "leg_num": 0,
+      "title": "Caen",
       "start": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Amiens",
+        "lng": null
       },
       "finish": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "248",
+        "lng": null
       },
-      "length": 248,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-04",
       "year": 1967,
       "leg": "4",
-      "leg_num": 4,
-      "title": "Amiens - Roubaix",
+      "leg_num": 0,
+      "title": "Amiens",
       "start": {
-        "city": "Amiens",
-        "country": "France",
-        "lat": "49.894067",
-        "lng": "2.295753"
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Roubaix",
+        "lng": null
       },
       "finish": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "191",
+        "lng": null
       },
-      "length": 191,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-5a",
       "year": 1967,
       "leg": "5a",
-      "leg_num": 5,
-      "title": "Roubaix - Jambes",
+      "leg_num": 0,
+      "title": "Roubaix",
       "start": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Jambes",
+        "lng": null
       },
       "finish": {
-        "city": "Jambes",
-        "country": "Belgique",
-        "lat": "50.456367",
-        "lng": "4.871877"
+        "city": "Belgique",
+        "country": "50.456367,4.871877",
+        "lat": "172",
+        "lng": null
       },
-      "length": 172,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-5b",
       "year": 1967,
       "leg": "5b",
-      "leg_num": 6,
-      "title": "Jambes - Jambes",
+      "leg_num": 0,
+      "title": "Jambes",
       "start": {
-        "city": "Jambes",
-        "country": "Belgique",
-        "lat": "50.456367",
-        "lng": "4.871877"
+        "city": "Belgique",
+        "country": "50.456367,4.871877",
+        "lat": "Jambes",
+        "lng": null
       },
       "finish": {
-        "city": "Jambes",
-        "country": "Belgique",
-        "lat": "50.456367",
-        "lng": "4.871877"
+        "city": "Belgique",
+        "country": "50.456367,4.871877",
+        "lat": "17",
+        "lng": null
       },
-      "length": 17,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-06",
       "year": 1967,
       "leg": "6",
-      "leg_num": 7,
-      "title": "Jambes - Metz",
+      "leg_num": 0,
+      "title": "Jambes",
       "start": {
-        "city": "Jambes",
-        "country": "Belgique",
-        "lat": "50.456367",
-        "lng": "4.871877"
+        "city": "Belgique",
+        "country": "50.456367,4.871877",
+        "lat": "Metz",
+        "lng": null
       },
       "finish": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "238",
+        "lng": null
       },
-      "length": 238,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-07",
       "year": 1967,
       "leg": "7",
-      "leg_num": 8,
-      "title": "Metz - Strasbourg",
+      "leg_num": 0,
+      "title": "Metz",
       "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Strasbourg",
+        "lng": null
       },
       "finish": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "205",
+        "lng": "5"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-08",
       "year": 1967,
       "leg": "8",
-      "leg_num": 9,
-      "title": "Strasbourg - Ballon d'Alsace",
+      "leg_num": 0,
+      "title": "Strasbourg",
       "start": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Ballon d'Alsace",
+        "lng": null
       },
       "finish": {
-        "city": "Ballon d'Alsace",
-        "country": "France",
-        "lat": "47.822893",
-        "lng": "6.84645"
+        "city": "France",
+        "country": "47.822893,6.84645",
+        "lat": "215",
+        "lng": null
       },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-09",
       "year": 1967,
       "leg": "9",
-      "leg_num": 10,
-      "title": "Belfort - Divonne-les-Bains",
+      "leg_num": 0,
+      "title": "Belfort",
       "start": {
-        "city": "Belfort",
-        "country": "France",
-        "lat": "47.639674",
-        "lng": "6.863849"
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Divonne-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Divonne-les-Bains",
-        "country": "France",
-        "lat": "46.358168",
-        "lng": "6.13604"
+        "city": "France",
+        "country": "46.358168,6.13604",
+        "lat": "238",
+        "lng": "5"
       },
-      "length": 238,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-10",
       "year": 1967,
       "leg": "10",
-      "leg_num": 11,
-      "title": "Divonne-les-Bains - Briançon",
+      "leg_num": 0,
+      "title": "Divonne-les-Bains",
       "start": {
-        "city": "Divonne-les-Bains",
-        "country": "France",
-        "lat": "46.358168",
-        "lng": "6.13604"
+        "city": "France",
+        "country": "46.358168,6.13604",
+        "lat": "Briançon",
+        "lng": null
       },
       "finish": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "243",
+        "lng": null
       },
-      "length": 243,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-11",
       "year": 1967,
       "leg": "11",
-      "leg_num": 12,
-      "title": "Briançon - Digne-les-Bains",
+      "leg_num": 0,
+      "title": "Briançon",
       "start": {
-        "city": "Briançon",
-        "country": "France",
-        "lat": "44.899416",
-        "lng": "6.643179"
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Digne-les-Bains",
+        "lng": null
       },
       "finish": {
-        "city": "Digne-les-Bains",
-        "country": "France",
-        "lat": "44.092193",
-        "lng": "6.235976"
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "197",
+        "lng": null
       },
-      "length": 197,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-12",
       "year": 1967,
       "leg": "12",
-      "leg_num": 13,
-      "title": "Digne-les-Bains - Marseille",
+      "leg_num": 0,
+      "title": "Digne-les-Bains",
       "start": {
-        "city": "Digne-les-Bains",
-        "country": "France",
-        "lat": "44.092193",
-        "lng": "6.235976"
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "207",
+        "lng": "5"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-13",
       "year": 1967,
       "leg": "13",
-      "leg_num": 14,
-      "title": "Marseille - Carpentras",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Carpentras",
+        "lng": null
       },
       "finish": {
-        "city": "Carpentras",
-        "country": "France",
-        "lat": "44.055564",
-        "lng": "5.048722"
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "211",
+        "lng": "5"
       },
-      "length": 211,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-14",
       "year": 1967,
       "leg": "14",
-      "leg_num": 15,
-      "title": "Carpentras - Sète",
+      "leg_num": 0,
+      "title": "Carpentras",
       "start": {
-        "city": "Carpentras",
-        "country": "France",
-        "lat": "44.055564",
-        "lng": "5.048722"
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "Sète",
+        "lng": null
       },
       "finish": {
-        "city": "Sète",
-        "country": "France",
-        "lat": "43.40215",
-        "lng": "3.696624"
+        "city": "France",
+        "country": "43.40215,3.696624",
+        "lat": "201",
+        "lng": "5"
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-15",
       "year": 1967,
       "leg": "15",
-      "leg_num": 16,
-      "title": "Sète - Toulouse",
+      "leg_num": 0,
+      "title": "Sète",
       "start": {
-        "city": "Sète",
-        "country": "France",
-        "lat": "43.40215",
-        "lng": "3.696624"
+        "city": "France",
+        "country": "43.40215,3.696624",
+        "lat": "Toulouse",
+        "lng": null
       },
       "finish": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "230",
+        "lng": null
       },
-      "length": 230,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-16",
       "year": 1967,
       "leg": "16",
-      "leg_num": 17,
-      "title": "Toulouse - Luchon",
+      "leg_num": 0,
+      "title": "Toulouse",
       "start": {
-        "city": "Toulouse",
-        "country": "France",
-        "lat": "43.604652",
-        "lng": "1.444209"
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "188",
+        "lng": null
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-17",
       "year": 1967,
       "leg": "17",
-      "leg_num": 18,
-      "title": "Luchon - Pau",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Pau",
+        "lng": null
       },
       "finish": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "250",
+        "lng": null
       },
-      "length": 250,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-18",
       "year": 1967,
       "leg": "18",
-      "leg_num": 19,
-      "title": "Pau - Bordeaux",
+      "leg_num": 0,
+      "title": "Pau",
       "start": {
-        "city": "Pau",
-        "country": "France",
-        "lat": "43.2951",
-        "lng": "-0.370797"
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
       },
       "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "206",
+        "lng": "5"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-19",
       "year": 1967,
       "leg": "19",
-      "leg_num": 20,
-      "title": "Bordeaux - Limoges",
+      "leg_num": 0,
+      "title": "Bordeaux",
       "start": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Limoges",
+        "lng": null
       },
       "finish": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "217",
+        "lng": null
       },
-      "length": 217,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-20",
       "year": 1967,
       "leg": "20",
-      "leg_num": 21,
-      "title": "Limoges - Puy de Dôme",
+      "leg_num": 0,
+      "title": "Limoges",
       "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "Puy de Dôme",
+        "lng": null
       },
       "finish": {
-        "city": "Puy de Dôme",
-        "country": "France",
-        "lat": "45.77207",
-        "lng": "2.96974"
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "222",
+        "lng": null
       },
-      "length": 222,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-21",
       "year": 1967,
       "leg": "21",
-      "leg_num": 22,
-      "title": "Clermont-Ferrand - Fontainebleau",
+      "leg_num": 0,
+      "title": "Clermont-Ferrand",
       "start": {
-        "city": "Clermont-Ferrand",
-        "country": "France",
-        "lat": "45.777222",
-        "lng": "3.087025"
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "Fontainebleau",
+        "lng": null
       },
       "finish": {
-        "city": "Fontainebleau",
-        "country": "France",
-        "lat": "48.404676",
-        "lng": "2.70162"
+        "city": "France",
+        "country": "48.404676,2.70162",
+        "lat": "359",
+        "lng": null
       },
-      "length": 359,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-22a",
       "year": 1967,
       "leg": "22a",
-      "leg_num": 23,
-      "title": "Fontainebleau - Versailles",
+      "leg_num": 0,
+      "title": "Fontainebleau",
       "start": {
-        "city": "Fontainebleau",
-        "country": "France",
-        "lat": "48.404676",
-        "lng": "2.70162"
+        "city": "France",
+        "country": "48.404676,2.70162",
+        "lat": "Versailles",
+        "lng": null
       },
       "finish": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "104",
+        "lng": null
       },
-      "length": 104,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1967-22b",
       "year": 1967,
       "leg": "22b",
-      "leg_num": 24,
-      "title": "Versailles - Paris",
+      "leg_num": 0,
+      "title": "Versailles",
       "start": {
-        "city": "Versailles",
-        "country": "France",
-        "lat": "48.801408",
-        "lng": "2.130122"
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "46",
+        "lng": "6"
       },
-      "length": 46,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1967-Prologue",
-      "year": 1967,
-      "leg": "Prologue",
-      "leg_num": 26,
-      "title": "Angers - Angers",
-      "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "length": 5,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }

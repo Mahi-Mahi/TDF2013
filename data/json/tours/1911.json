@@ -24,439 +24,304 @@
   "third_id": null,
   "legs": [
     {
+      "id": "E-1911-01",
+      "year": 1911,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Paris",
+      "start": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Dunkerque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "351",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
       "id": "E-1911-02",
       "year": 1911,
       "leg": "2",
-      "leg_num": 1,
-      "title": "Dunkerque - Longwy",
+      "leg_num": 0,
+      "title": "Dunkerque",
       "start": {
-        "city": "Dunkerque",
-        "country": "France",
-        "lat": "51.03456",
-        "lng": "2.375202"
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "Longwy",
+        "lng": null
       },
       "finish": {
-        "city": "Longwy",
-        "country": "France",
-        "lat": "49.519919",
-        "lng": "5.761773"
+        "city": "France",
+        "country": "49.519919,5.761773",
+        "lat": "388",
+        "lng": null
       },
-      "length": 388,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-03",
       "year": 1911,
       "leg": "3",
-      "leg_num": 2,
-      "title": "Longwy - Belfort",
+      "leg_num": 0,
+      "title": "Longwy",
       "start": {
-        "city": "Longwy",
-        "country": "France",
-        "lat": "49.519919",
-        "lng": "5.761773"
+        "city": "France",
+        "country": "49.519919,5.761773",
+        "lat": "Belfort",
+        "lng": null
       },
       "finish": {
-        "city": "Belfort",
-        "country": "France",
-        "lat": "47.639674",
-        "lng": "6.863849"
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "331",
+        "lng": null
       },
-      "length": 331,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-04",
       "year": 1911,
       "leg": "4",
-      "leg_num": 3,
-      "title": "Belfort - Chamonix",
+      "leg_num": 0,
+      "title": "Belfort",
       "start": {
-        "city": "Belfort",
-        "country": "France",
-        "lat": "47.639674",
-        "lng": "6.863849"
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Chamonix",
+        "lng": null
       },
       "finish": {
-        "city": "Chamonix",
-        "country": "France",
-        "lat": "45.923697",
-        "lng": "6.869433"
+        "city": "France",
+        "country": "45.923697,6.869433",
+        "lat": "344",
+        "lng": null
       },
-      "length": 344,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-05",
       "year": 1911,
       "leg": "5",
-      "leg_num": 4,
-      "title": "Chamonix - Grenoble",
+      "leg_num": 0,
+      "title": "Chamonix",
       "start": {
-        "city": "Chamonix",
-        "country": "France",
-        "lat": "45.923697",
-        "lng": "6.869433"
+        "city": "France",
+        "country": "45.923697,6.869433",
+        "lat": "Grenoble",
+        "lng": null
       },
       "finish": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "366",
+        "lng": null
       },
-      "length": 366,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-06",
       "year": 1911,
       "leg": "6",
-      "leg_num": 5,
-      "title": "Grenoble - Nice",
+      "leg_num": 0,
+      "title": "Grenoble",
       "start": {
-        "city": "Grenoble",
-        "country": "France",
-        "lat": "45.188529",
-        "lng": "5.724524"
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Nice",
+        "lng": null
       },
       "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "348",
+        "lng": null
       },
-      "length": 348,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-07",
       "year": 1911,
       "leg": "7",
-      "leg_num": 6,
-      "title": "Nice - Marseille",
+      "leg_num": 0,
+      "title": "Nice",
       "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Marseille",
+        "lng": null
       },
       "finish": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "334",
+        "lng": null
       },
-      "length": 334,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-08",
       "year": 1911,
       "leg": "8",
-      "leg_num": 7,
-      "title": "Marseille - Perpignan",
+      "leg_num": 0,
+      "title": "Marseille",
       "start": {
-        "city": "Marseille",
-        "country": "France",
-        "lat": "43.296482",
-        "lng": "5.36978"
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Perpignan",
+        "lng": null
       },
       "finish": {
-        "city": "Perpignan",
-        "country": "France",
-        "lat": "42.698684",
-        "lng": "2.895872"
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "335",
+        "lng": null
       },
-      "length": 335,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-09",
       "year": 1911,
       "leg": "9",
-      "leg_num": 8,
-      "title": "Perpignan - Luchon",
+      "leg_num": 0,
+      "title": "Perpignan",
       "start": {
-        "city": "Perpignan",
-        "country": "France",
-        "lat": "42.698684",
-        "lng": "2.895872"
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Luchon",
+        "lng": null
       },
       "finish": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "289",
+        "lng": null
       },
-      "length": 289,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-10",
       "year": 1911,
       "leg": "10",
-      "leg_num": 9,
-      "title": "Luchon - Bayonne",
+      "leg_num": 0,
+      "title": "Luchon",
       "start": {
-        "city": "Luchon",
-        "country": "France",
-        "lat": "42.788963",
-        "lng": "0.592943"
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Bayonne",
+        "lng": null
       },
       "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "326",
+        "lng": null
       },
-      "length": 326,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-11",
       "year": 1911,
       "leg": "11",
-      "leg_num": 10,
-      "title": "Bayonne - La Rochelle",
+      "leg_num": 0,
+      "title": "Bayonne",
       "start": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "La Rochelle",
+        "lng": null
       },
       "finish": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lat": "46.160329",
-        "lng": "-1.151139"
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "379",
+        "lng": null
       },
-      "length": 379,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-12",
       "year": 1911,
       "leg": "12",
-      "leg_num": 11,
-      "title": "La Rochelle - Brest",
+      "leg_num": 0,
+      "title": "La Rochelle",
       "start": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lat": "46.160329",
-        "lng": "-1.151139"
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "Brest",
+        "lng": null
       },
       "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lat": "48.390394",
-        "lng": "-4.486076"
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "470",
+        "lng": null
       },
-      "length": 470,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-13",
       "year": 1911,
       "leg": "13",
-      "leg_num": 12,
-      "title": "Brest - Cherbourg",
+      "leg_num": 0,
+      "title": "Brest",
       "start": {
-        "city": "Brest",
-        "country": "France",
-        "lat": "48.390394",
-        "lng": "-4.486076"
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Cherbourg",
+        "lng": null
       },
       "finish": {
-        "city": "Cherbourg",
-        "country": "France",
-        "lat": "49.639093",
-        "lng": "-1.625298"
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "405",
+        "lng": null
       },
-      "length": 405,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-14",
       "year": 1911,
       "leg": "14",
-      "leg_num": 13,
-      "title": "Cherbourg - Le Havre",
+      "leg_num": 0,
+      "title": "Cherbourg",
       "start": {
-        "city": "Cherbourg",
-        "country": "France",
-        "lat": "49.639093",
-        "lng": "-1.625298"
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "Le Havre",
+        "lng": null
       },
       "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "361",
+        "lng": null
       },
-      "length": 361,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     },
     {
       "id": "E-1911-15",
       "year": 1911,
       "leg": "15",
-      "leg_num": 14,
-      "title": "Le Havre - Paris",
+      "leg_num": 0,
+      "title": "Le Havre",
       "start": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "Paris",
+        "lng": null
       },
       "finish": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "317",
+        "lng": null
       },
-      "length": 317,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1911-01",
-      "year": 1911,
-      "leg": "1",
-      "leg_num": 15,
-      "title": "Paris - Dunkerque",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Dunkerque",
-        "country": "France",
-        "lat": "51.03456",
-        "lng": "2.375202"
-      },
-      "length": 351,
-      "type": null,
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
+      "length": 0
     }
   ]
 }
