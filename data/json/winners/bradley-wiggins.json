@@ -1,0 +1,37 @@
+{
+  "id": "bradley-wiggins",
+  "years": {
+    "2006": {
+      "position": "123",
+      "nb_wins": 0
+    },
+    "2007": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "2008": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "2010": {
+      "position": "24",
+      "nb_wins": 0
+    },
+    "2011": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "2012": {
+      "position": "1",
+      "nb_wins": 2
+    }
+  },
+  "country": "28/04/1980",
+  "birthdate": null,
+  "deathdate": "Le premier coureur britannique à remporter le Tour.",
+  "bio": null
+}

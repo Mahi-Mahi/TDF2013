@@ -1,0 +1,567 @@
+{
+  "year": 1936,
+  "edition": 30,
+  "total_length": 4442,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 43,
+  "pct_finishers": 33,
+  "winner_first_name": "Sylvère",
+  "winner_last_name": "Maes",
+  "winner_id": "sylvere-maes",
+  "winner_total_time": "142h 47' 32\"",
+  "winner_age": "26",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "31,108",
+  "ahead_of_2nd": "0h 26' 55\" ",
+  "second_name": "A. Magne",
+  "second_country": "France",
+  "second_id": "antonin-magne",
+  "ahead_of_3rd": "0h 27' 53\"",
+  "third_name": "F. Vervaecke",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1936-01",
+      "year": 1936,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Paris",
+      "start": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Lille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.62925,3.057256",
+        "lat": "258",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-02",
+      "year": 1936,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Lille",
+      "start": {
+        "city": "France",
+        "country": "50.62925,3.057256",
+        "lat": "Charleville-Mézières",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "192",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-03",
+      "year": 1936,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Charleville-Mézières",
+      "start": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "Metz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "161",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-04",
+      "year": 1936,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Metz",
+      "start": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Belfort",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "220",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-05",
+      "year": 1936,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Belfort",
+      "start": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Évian",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.401488,6.590949",
+        "lat": "298",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-06",
+      "year": 1936,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Évian",
+      "start": {
+        "city": "France",
+        "country": "46.401488,6.590949",
+        "lat": "Aix-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "212",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-07",
+      "year": 1936,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Grenoble",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "230",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-08",
+      "year": 1936,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Grenoble",
+      "start": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "194",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-09",
+      "year": 1936,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Digne-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "220",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-10",
+      "year": 1936,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Digne-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "156",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-11",
+      "year": 1936,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Cannes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.552847,7.017369",
+        "lat": "126",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-12",
+      "year": 1936,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Cannes",
+      "start": {
+        "city": "France",
+        "country": "43.552847,7.017369",
+        "lat": "Marseille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "195",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-13a",
+      "year": 1936,
+      "leg": "13a",
+      "leg_num": 0,
+      "title": "Marseille",
+      "start": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Nîmes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.836699,4.360054",
+        "lat": "112",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-13b",
+      "year": 1936,
+      "leg": "13b",
+      "leg_num": 0,
+      "title": "Nîmes",
+      "start": {
+        "city": "France",
+        "country": "43.836699,4.360054",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "52",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-14a",
+      "year": 1936,
+      "leg": "14a",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Narbonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "103",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-14b",
+      "year": 1936,
+      "leg": "14b",
+      "leg_num": 0,
+      "title": "Narbonne",
+      "start": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "Perpignan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "63",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-15",
+      "year": 1936,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Perpignan",
+      "start": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "325",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-16",
+      "year": 1936,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "194",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-17",
+      "year": 1936,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "229",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-18a",
+      "year": 1936,
+      "leg": "18a",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Saintes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.744175,-0.633389",
+        "lat": "117",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-18b",
+      "year": 1936,
+      "leg": "18b",
+      "leg_num": 0,
+      "title": "Saintes",
+      "start": {
+        "city": "France",
+        "country": "45.744175,-0.633389",
+        "lat": "La Rochelle",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "75",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-19a",
+      "year": 1936,
+      "leg": "19a",
+      "leg_num": 0,
+      "title": "La Rochelle",
+      "start": {
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "La Roche-sur-Yon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.670511,-1.426442",
+        "lat": "81",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-19b",
+      "year": 1936,
+      "leg": "19b",
+      "leg_num": 0,
+      "title": "La Roche-sur-Yon",
+      "start": {
+        "city": "France",
+        "country": "46.670511,-1.426442",
+        "lat": "Cholet",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.059407,-0.879787",
+        "lat": "65",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-19c",
+      "year": 1936,
+      "leg": "19c",
+      "leg_num": 0,
+      "title": "Cholet",
+      "start": {
+        "city": "France",
+        "country": "47.059407,-0.879787",
+        "lat": "Angers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "67",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-20a",
+      "year": 1936,
+      "leg": "20a",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Vire",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.837781,-0.888482",
+        "lat": "204",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-20b",
+      "year": 1936,
+      "leg": "20b",
+      "leg_num": 0,
+      "title": "Vire",
+      "start": {
+        "city": "France",
+        "country": "48.837781,-0.888482",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "55",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1936-21",
+      "year": 1936,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "234",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

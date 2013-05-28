@@ -1,0 +1,41 @@
+{
+  "id": "gustave-garrigou",
+  "years": {
+    "1907": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1908": {
+      "position": "4",
+      "nb_wins": 0
+    },
+    "1909": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1910": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "1911": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1912": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1914": {
+      "position": "5",
+      "nb_wins": 1
+    }
+  },
+  "country": "24/09/1884",
+  "birthdate": "28/01/1963",
+  "deathdate": null,
+  "bio": null
+}

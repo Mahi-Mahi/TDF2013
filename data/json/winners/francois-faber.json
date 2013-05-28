@@ -1,0 +1,45 @@
+{
+  "id": "francois-faber",
+  "years": {
+    "1906": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1907": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1908": {
+      "position": "2",
+      "nb_wins": 4
+    },
+    "1909": {
+      "position": "1",
+      "nb_wins": 6
+    },
+    "1910": {
+      "position": "2",
+      "nb_wins": 3
+    },
+    "1911": {
+      "position": "Abandon",
+      "nb_wins": 2
+    },
+    "1912": {
+      "position": "14",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "5",
+      "nb_wins": 2
+    },
+    "1914": {
+      "position": "9",
+      "nb_wins": 2
+    }
+  },
+  "country": "26/01/1887",
+  "birthdate": "09/05/1915",
+  "deathdate": "Le premier vainqueur non-français du Tour.",
+  "bio": null
+}

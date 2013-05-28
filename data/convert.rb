@@ -117,6 +117,52 @@ end
 puts "#{tours.length} tours"
 
 
+Dir.glob('csv/vainqueurs/*.csv') do |item|
+	next if item.match(/\/[\w\-]+\.csv$/).nil?
+
+	id = item.match(/\/([\w\-]+)\.csv$/)[1]
+
+puts id
+
+	winners[id].nil?
+	winners[id] = {}
+	winners[id][:id] = id
+	winners[id][:years] = {}
+
+	idx = 0
+	CSV.foreach(item) do |row|
+
+		case idx
+			when 0
+			when 1
+
+				winners[id][:country] = row[1]
+				winners[id][:birthdate] = row[2]
+				winners[id][:deathdate] = row[3]
+				winners[id][:bio] = row[4]
+
+			when 2
+
+			else
+
+				p "row : #{row[0]}"
+
+				if row[0].to_i > 0
+					year = row[0].to_i
+					winners[id][:years][year] = {}
+					winners[id][:years][year][:position] = row[1]
+					winners[id][:years][year][:nb_wins] = row[2].to_i
+				end
+
+
+		end
+
+		idx = idx + 1
+
+	end
+
+end
+
 if false
 	idx = 0
 	CSV.foreach("csv/Données - Vainqueurs - Feuille1.csv") do |row|
@@ -283,8 +329,6 @@ end
 # Test all legs
 
 filename = 'json/legs.json'
-
-p filename
 
 content = production ? legs.to_json : JSON.pretty_generate(legs)
 File.open(filename, 'w') { |file| file.write content }

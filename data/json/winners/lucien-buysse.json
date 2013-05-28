@@ -1,0 +1,61 @@
+{
+  "id": "lucien-buysse",
+  "years": {
+    "1914": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1919": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1920": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1921": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1922": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1923": {
+      "position": "8",
+      "nb_wins": 1
+    },
+    "1924": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1925": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1926": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1927": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1928": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1929": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1930": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "country": "11/09/1892",
+  "birthdate": "03/01/1980",
+  "deathdate": null,
+  "bio": null
+}

@@ -1,0 +1,587 @@
+{
+  "year": 1939,
+  "edition": 33,
+  "total_length": 4224,
+  "nb_legs": 18,
+  "has_prologue": false,
+  "nb_concurrents": 79,
+  "nb_finishers": 49,
+  "pct_finishers": 62,
+  "winner_first_name": "Sylvère",
+  "winner_last_name": "Maes",
+  "winner_id": "sylvere-maes",
+  "winner_total_time": "132h 03' 17\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "31,986",
+  "ahead_of_2nd": "0h 30' 38\" ",
+  "second_name": "R. Vietto",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 32' 08\"",
+  "third_name": "L. Vlaemynck",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1939-01",
+      "year": 1939,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Paris",
+      "start": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "215",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-2a",
+      "year": 1939,
+      "leg": "2a",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Vire",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.837781,-0.888482",
+        "lat": "63",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-2b",
+      "year": 1939,
+      "leg": "2b",
+      "leg_num": 0,
+      "title": "Vire",
+      "start": {
+        "city": "France",
+        "country": "48.837781,-0.888482",
+        "lat": "Rennes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "120",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-03",
+      "year": 1939,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Rennes",
+      "start": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Brest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "244",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-04",
+      "year": 1939,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Brest",
+      "start": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Lorient",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "174",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-05",
+      "year": 1939,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Lorient",
+      "start": {
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "Nantes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "207",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-6a",
+      "year": 1939,
+      "leg": "6a",
+      "leg_num": 0,
+      "title": "Nantes",
+      "start": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "La Rochelle",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "144",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-6b",
+      "year": 1939,
+      "leg": "6b",
+      "leg_num": 0,
+      "title": "La Rochelle",
+      "start": {
+        "city": "France",
+        "country": "46.160329,-1.151139",
+        "lat": "Royan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "107",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-07",
+      "year": 1939,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Royan",
+      "start": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "198",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-8a",
+      "year": 1939,
+      "leg": "8a",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Salies-de-Béarn",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.470556,-0.924854",
+        "lat": "210",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-8b",
+      "year": 1939,
+      "leg": "8b",
+      "leg_num": 0,
+      "title": "Salies-de-Béarn",
+      "start": {
+        "city": "France",
+        "country": "43.470556,-0.924854",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "69",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-09",
+      "year": 1939,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Toulouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "311",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-10a",
+      "year": 1939,
+      "leg": "10a",
+      "leg_num": 0,
+      "title": "Toulouse",
+      "start": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Narbonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "148",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-10b",
+      "year": 1939,
+      "leg": "10b",
+      "leg_num": 0,
+      "title": "Narbonne",
+      "start": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "Béziers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "27",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-10c",
+      "year": 1939,
+      "leg": "10c",
+      "leg_num": 0,
+      "title": "Béziers",
+      "start": {
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "71",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-11",
+      "year": 1939,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Marseille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "212",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-12c",
+      "year": 1939,
+      "leg": "12c",
+      "leg_num": 0,
+      "title": "Marseille",
+      "start": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Saint-Raphaël",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.42519,6.76837",
+        "lat": "157",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-12b",
+      "year": 1939,
+      "leg": "12b",
+      "leg_num": 0,
+      "title": "Saint-Raphaël",
+      "start": {
+        "city": "France",
+        "country": "43.42519,6.76837",
+        "lat": "Monaco",
+        "lng": null
+      },
+      "finish": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "121",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-13",
+      "year": 1939,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Monaco",
+      "start": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "Monaco",
+        "lng": null
+      },
+      "finish": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "102",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-14",
+      "year": 1939,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Monaco",
+      "start": {
+        "city": "Monaco",
+        "country": "43.738418,7.424616",
+        "lat": "Digne-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "175",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-15",
+      "year": 1939,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Digne-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "219",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-16a",
+      "year": 1939,
+      "leg": "16a",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Bonneval-sur-Arc",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.371599,7.046231",
+        "lat": "126",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-16b",
+      "year": 1939,
+      "leg": "16b",
+      "leg_num": 0,
+      "title": "Bonneval-sur-Arc",
+      "start": {
+        "city": "France",
+        "country": "45.371599,7.046231",
+        "lat": "Bourg-Saint-Maurice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.618598,6.769548",
+        "lat": "64",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-16c",
+      "year": 1939,
+      "leg": "16c",
+      "leg_num": 0,
+      "title": "Bourg-Saint-Maurice",
+      "start": {
+        "city": "France",
+        "country": "45.618598,6.769548",
+        "lat": "Annecy",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.899247,6.129384",
+        "lat": "104",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-17a",
+      "year": 1939,
+      "leg": "17a",
+      "leg_num": 0,
+      "title": "Annecy",
+      "start": {
+        "city": "France",
+        "country": "45.899247,6.129384",
+        "lat": "Dole",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.09534,5.49081",
+        "lat": "226",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-17b",
+      "year": 1939,
+      "leg": "17b",
+      "leg_num": 0,
+      "title": "Dole",
+      "start": {
+        "city": "France",
+        "country": "47.09534,5.49081",
+        "lat": "Dijon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "59",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-18a",
+      "year": 1939,
+      "leg": "18a",
+      "leg_num": 0,
+      "title": "Dijon",
+      "start": {
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "Troyes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.296592,4.074735",
+        "lat": "151",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1939-18b",
+      "year": 1939,
+      "leg": "18b",
+      "leg_num": 0,
+      "title": "Troyes",
+      "start": {
+        "city": "France",
+        "country": "48.296592,4.074735",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "201",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

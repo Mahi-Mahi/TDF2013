@@ -1,0 +1,527 @@
+{
+  "year": 1966,
+  "edition": 53,
+  "total_length": 4329,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 82,
+  "pct_finishers": 63,
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Aimar",
+  "winner_id": "lucien-aimar",
+  "winner_total_time": "117h 34' 21\"",
+  "winner_age": "25",
+  "winner_country": "France",
+  "winner_avg_speed": "36,760",
+  "ahead_of_2nd": "0h 01' 07\" ",
+  "second_name": "J. Janssen",
+  "second_country": "Pays-Bas",
+  "second_id": "jan-janssen",
+  "ahead_of_3rd": "0h 02' 02\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1966-01",
+      "year": 1966,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Nancy",
+      "start": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "Charleville-Mézières",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "208",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-02",
+      "year": 1966,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Charleville-Mézières",
+      "start": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "Tournai",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.605606,3.388037",
+        "lat": "198",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-3a",
+      "year": 1966,
+      "leg": "3a",
+      "leg_num": 0,
+      "title": "Tournai",
+      "start": {
+        "city": "Belgique",
+        "country": "50.605606,3.388037",
+        "lat": "Tournai",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.605606,3.388037",
+        "lat": "21",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-3b",
+      "year": 1966,
+      "leg": "3b",
+      "leg_num": 0,
+      "title": "Tournai",
+      "start": {
+        "city": "Belgique",
+        "country": "50.605606,3.388037",
+        "lat": "Dunkerque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "131",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-04",
+      "year": 1966,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Dunkerque",
+      "start": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "Dieppe",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "205",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-05",
+      "year": 1966,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Dieppe",
+      "start": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "178",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-06",
+      "year": 1966,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Angers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "216",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-07",
+      "year": 1966,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Royan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "252",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-08",
+      "year": 1966,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Royan",
+      "start": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "137",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-09",
+      "year": 1966,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bayonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "201",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-10",
+      "year": 1966,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Bayonne",
+      "start": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "234",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-11",
+      "year": 1966,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "188",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-12",
+      "year": 1966,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Revel",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.458611,2.004573",
+        "lat": "218",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-13",
+      "year": 1966,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Revel",
+      "start": {
+        "city": "France",
+        "country": "43.458611,2.004573",
+        "lat": "Sète",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.40215,3.696624",
+        "lat": "191",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-14a",
+      "year": 1966,
+      "leg": "14a",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Aubenas",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.620909,4.389863",
+        "lat": "144",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-14b",
+      "year": 1966,
+      "leg": "14b",
+      "leg_num": 0,
+      "title": "Vals-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "44.66515,4.36487",
+        "lat": "Vals-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.66515,4.36487",
+        "lat": "20",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-15",
+      "year": 1966,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Privas",
+      "start": {
+        "city": "France",
+        "country": "44.735269,4.599039",
+        "lat": "Le Bourg-d'Oisans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "203",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-16",
+      "year": 1966,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "148",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-17",
+      "year": 1966,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Turin",
+        "lng": null
+      },
+      "finish": {
+        "city": "Italie",
+        "country": "45.070982,7.685676",
+        "lat": "160",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-18",
+      "year": 1966,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Ivrée",
+      "start": {
+        "city": "Italie",
+        "country": "45.450284,7.903865",
+        "lat": "Chamonix",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.923697,6.869433",
+        "lat": "188",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-19",
+      "year": 1966,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Chamonix",
+      "start": {
+        "city": "France",
+        "country": "45.923697,6.869433",
+        "lat": "Saint-Étienne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "264",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-20",
+      "year": 1966,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
+      "start": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "Montluçon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.339966,2.606645",
+        "lat": "223",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-21",
+      "year": 1966,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Montluçon",
+      "start": {
+        "city": "France",
+        "country": "46.339966,2.606645",
+        "lat": "Orléans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "232",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-22a",
+      "year": 1966,
+      "leg": "22a",
+      "leg_num": 0,
+      "title": "Orléans",
+      "start": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "Rambouillet",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.643868,1.829079",
+        "lat": "111",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1966-22b",
+      "year": 1966,
+      "leg": "22b",
+      "leg_num": 0,
+      "title": "Rambouillet",
+      "start": {
+        "city": "France",
+        "country": "48.643868,1.829079",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "51",
+        "lng": "5"
+      },
+      "length": 0
+    }
+  ]
+}

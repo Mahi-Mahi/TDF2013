@@ -1,0 +1,25 @@
+{
+  "id": "hugo-koblet",
+  "years": {
+    "1951": {
+      "position": "1",
+      "nb_wins": 5
+    },
+    "1952": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1953": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1954": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "country": "21/03/1925",
+  "birthdate": "06/11/1964",
+  "deathdate": null,
+  "bio": null
+}

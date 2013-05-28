@@ -1,0 +1,467 @@
+{
+  "year": 1994,
+  "edition": 81,
+  "total_length": 3978,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 189,
+  "nb_finishers": 117,
+  "pct_finishers": 62,
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "103h 38' 38\"",
+  "winner_age": "30",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,383",
+  "ahead_of_2nd": "0h 05' 39\" ",
+  "second_name": "P. Ugrumov",
+  "second_country": "Lettonie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 07' 19\"",
+  "third_name": "M. Pantani",
+  "third_country": "Italie",
+  "third_id": "marco-pantani",
+  "legs": [
+    {
+      "id": "E-1994-Prologue",
+      "year": 1994,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Lille",
+      "start": {
+        "city": "France",
+        "country": "50.62925,3.057256",
+        "lat": "Lille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.62925,3.057256",
+        "lat": "7",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-01",
+      "year": 1994,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Lille",
+      "start": {
+        "city": "France",
+        "country": "50.62925,3.057256",
+        "lat": "Armentières",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.691652,2.884218",
+        "lat": "234",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-02",
+      "year": 1994,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Roubaix",
+      "start": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Boulogne-sur-Mer",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.725231,1.613334",
+        "lat": "203",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-03",
+      "year": 1994,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Calais",
+      "start": {
+        "city": "France",
+        "country": "50.95129,1.858686",
+        "lat": "Coquelles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.936417,1.799951",
+        "lat": "66",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-04",
+      "year": 1994,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Douvres",
+      "start": {
+        "city": "Grande-Bretagne",
+        "country": "51.126371,1.316198",
+        "lat": "Brighton",
+        "lng": null
+      },
+      "finish": {
+        "city": "Grande-Bretagne",
+        "country": "50.82253,-0.137163",
+        "lat": "204",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-05",
+      "year": 1994,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Portsmouth",
+      "start": {
+        "city": "Grande-Bretagne",
+        "country": "50.816667,-1.083333",
+        "lat": "Portsmouth",
+        "lng": null
+      },
+      "finish": {
+        "city": "Grande-Bretagne",
+        "country": "50.816667,-1.083333",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-06",
+      "year": 1994,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Cherbourg",
+      "start": {
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "Rennes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "270",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-07",
+      "year": 1994,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Rennes",
+      "start": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
+      },
+      "finish": {
+        "city": "France",
+        "country": "\n46.66680,0.36762",
+        "lat": "203",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-08",
+      "year": 1994,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Poitiers",
+      "start": {
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "Trélissac",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.196131,0.77911",
+        "lat": "218",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-09",
+      "year": 1994,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Périgueux",
+      "start": {
+        "city": "France",
+        "country": "45.184029,0.721115",
+        "lat": "Bergerac",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.853806,0.483392",
+        "lat": "64",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-10",
+      "year": 1994,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Bergerac",
+      "start": {
+        "city": "France",
+        "country": "44.853806,0.483392",
+        "lat": "Cahors",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.447523,1.441989",
+        "lat": "160",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-11",
+      "year": 1994,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Cahors",
+      "start": {
+        "city": "France",
+        "country": "44.447523,1.441989",
+        "lat": "Hautacam",
+        "lng": " Préchac"
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.972222,-0.0075",
+        "lat": "263",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-12",
+      "year": 1994,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Lourdes",
+      "start": {
+        "city": "France",
+        "country": "43.091463,-0.045726",
+        "lat": "Luz-Ardiden",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.885105,-0.061335",
+        "lat": "204",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-13",
+      "year": 1994,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Bagnères-de-Bigorre",
+      "start": {
+        "city": "France",
+        "country": "43.065093,0.149105",
+        "lat": "Albi",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "223",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-14",
+      "year": 1994,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Castres",
+      "start": {
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "202",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-15",
+      "year": 1994,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Carpentras",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "231",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-16",
+      "year": 1994,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Valréas",
+      "start": {
+        "city": "France",
+        "country": "44.383724,4.989187",
+        "lat": "L'Alpe-d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "224",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-17",
+      "year": 1994,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Bourg-d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Val-Thorens",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.296603,6.584663",
+        "lat": "149",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-18",
+      "year": 1994,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Moûtiers",
+      "start": {
+        "city": "France",
+        "country": "45.484615,6.529926",
+        "lat": "Cluses",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.06039,6.580582",
+        "lat": "174",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-19",
+      "year": 1994,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Cluses",
+      "start": {
+        "city": "France",
+        "country": "46.06039,6.580582",
+        "lat": "Avoriaz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.189683,6.776343",
+        "lat": "46",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-20",
+      "year": 1994,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Morzine",
+      "start": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Lac Saint-Point",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.827822,6.325603",
+        "lat": "208",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1994-21",
+      "year": 1994,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Marne La Vallée",
+      "start": {
+        "city": "France",
+        "country": "48.859276,2.598505",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "175",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

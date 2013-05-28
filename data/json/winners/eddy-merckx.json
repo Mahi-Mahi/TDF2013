@@ -1,0 +1,45 @@
+{
+  "id": "eddy-merckx",
+  "years": {
+    "1969": {
+      "position": "1",
+      "nb_wins": 7
+    },
+    "1970": {
+      "position": "1",
+      "nb_wins": 8
+    },
+    "1971": {
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1972": {
+      "position": "1",
+      "nb_wins": 7
+    },
+    "1973": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1974": {
+      "position": "1",
+      "nb_wins": 9
+    },
+    "1975": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1976": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1977": {
+      "position": "6",
+      "nb_wins": 1
+    }
+  },
+  "country": "17/06/1945",
+  "birthdate": null,
+  "deathdate": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale.",
+  "bio": null
+}

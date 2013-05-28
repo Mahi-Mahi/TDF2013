@@ -1,0 +1,327 @@
+{
+  "year": 1924,
+  "edition": 18,
+  "total_length": 5425,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 157,
+  "nb_finishers": 60,
+  "pct_finishers": 38,
+  "winner_first_name": "Ottavio",
+  "winner_last_name": "Bottecchia",
+  "winner_id": "ottavio-bottecchia",
+  "winner_total_time": "226h 18' 21\"",
+  "winner_age": "29",
+  "winner_country": "Italie",
+  "winner_avg_speed": "24,250",
+  "ahead_of_2nd": "0h 35' 36\" ",
+  "second_name": "N. Frantz",
+  "second_country": "Luxembourg",
+  "second_id": "nicolas-frantz",
+  "ahead_of_3rd": "1h 32' 13\"",
+  "third_name": "L. Buysse",
+  "third_country": "Belgique",
+  "third_id": "lucien-buysse",
+  "legs": [
+    {
+      "id": "E-1924-01",
+      "year": 1924,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Paris",
+      "start": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Le Havre",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "381",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-02",
+      "year": 1924,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Le Havre",
+      "start": {
+        "city": "France",
+        "country": "49.49437,0.107929",
+        "lat": "Cherbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "371",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-03",
+      "year": 1924,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Cherbourg",
+      "start": {
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "Brest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "405",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-04",
+      "year": 1924,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Brest",
+      "start": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Les Sables-d'Olonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.492958,-1.795493",
+        "lat": "412",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-05",
+      "year": 1924,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Les Sables-d'Olonne",
+      "start": {
+        "city": "France",
+        "country": "46.492958,-1.795493",
+        "lat": "Bayonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "482",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-06",
+      "year": 1924,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Bayonne",
+      "start": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "326",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-07",
+      "year": 1924,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Perpignan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "323",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-08",
+      "year": 1924,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Perpignan",
+      "start": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Toulon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.124228,5.928",
+        "lat": "427",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-09",
+      "year": 1924,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Toulon",
+      "start": {
+        "city": "France",
+        "country": "43.124228,5.928",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "280",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-10",
+      "year": 1924,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "275",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-11",
+      "year": 1924,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Gex",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.334191,6.058036",
+        "lat": "307",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-12",
+      "year": 1924,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Gex",
+      "start": {
+        "city": "France",
+        "country": "46.334191,6.058036",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "360",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-13",
+      "year": 1924,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Strasbourg",
+      "start": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Metz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "300",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-14",
+      "year": 1924,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Metz",
+      "start": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Dunkerque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "433",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1924-15",
+      "year": 1924,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Dunkerque",
+      "start": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "343",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

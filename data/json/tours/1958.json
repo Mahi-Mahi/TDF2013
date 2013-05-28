@@ -1,0 +1,507 @@
+{
+  "year": 1958,
+  "edition": 45,
+  "total_length": 4319,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 78,
+  "pct_finishers": 65,
+  "winner_first_name": "Charly",
+  "winner_last_name": "Gaul",
+  "winner_id": "charly-gaul",
+  "winner_total_time": "116h 59' 05\"",
+  "winner_age": "25",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "36,919",
+  "ahead_of_2nd": "0h 03' 10\" ",
+  "second_name": "V. Favero",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 03' 41\"",
+  "third_name": "R. Geminiani",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1958-01",
+      "year": 1958,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Bruxelles",
+      "start": {
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "Gand",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "51.053468,3.73038",
+        "lat": "184",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-02",
+      "year": 1958,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Gand",
+      "start": {
+        "city": "Belgique",
+        "country": "51.053468,3.73038",
+        "lat": "Dunkerque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "198",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-03",
+      "year": 1958,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Dunkerque",
+      "start": {
+        "city": "France",
+        "country": "51.03456,2.375202",
+        "lat": "Le Tréport",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.05917,1.382472",
+        "lat": "177",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-04",
+      "year": 1958,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Le Tréport",
+      "start": {
+        "city": "France",
+        "country": "50.05917,1.382472",
+        "lat": "Versailles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "205",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-05",
+      "year": 1958,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "232",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-06",
+      "year": 1958,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Saint-Brieuc",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "223",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-07",
+      "year": 1958,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Saint-Brieuc",
+      "start": {
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "Brest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "170",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-08",
+      "year": 1958,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Châteaulin",
+      "start": {
+        "city": "France",
+        "country": "48.195389,-4.094207",
+        "lat": "Châteaulin",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.195389,-4.094207",
+        "lat": "46",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-09",
+      "year": 1958,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Quimper",
+      "start": {
+        "city": "France",
+        "country": "47.997542,-4.097899",
+        "lat": "Saint-Nazaire",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.273498,-2.213848",
+        "lat": "206",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-10",
+      "year": 1958,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Saint-Brévin",
+      "start": {
+        "city": "France",
+        "country": "47.24666,-2.16581",
+        "lat": "Royan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "255",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-11",
+      "year": 1958,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Royan",
+      "start": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "137",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-12",
+      "year": 1958,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Dax",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.708608,-1.051945",
+        "lat": "161",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-13",
+      "year": 1958,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Dax",
+      "start": {
+        "city": "France",
+        "country": "43.708608,-1.051945",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "230",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-14",
+      "year": 1958,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "129",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-15",
+      "year": 1958,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Toulouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "176",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-16",
+      "year": 1958,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Toulouse",
+      "start": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Béziers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-17",
+      "year": 1958,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Béziers",
+      "start": {
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "Nîmes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.836699,4.360054",
+        "lat": "189",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-18",
+      "year": 1958,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Bédoin",
+      "start": {
+        "city": "France",
+        "country": "44.124008,5.180374",
+        "lat": "Mont Ventoux (Bédoin)",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "22",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-19",
+      "year": 1958,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Carpentras",
+      "start": {
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "Gap",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "178",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-20",
+      "year": 1958,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Gap",
+      "start": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "165",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-21",
+      "year": 1958,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Aix-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "219",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-22",
+      "year": 1958,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Besançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "237",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-23",
+      "year": 1958,
+      "leg": "23",
+      "leg_num": 0,
+      "title": "Besançon",
+      "start": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Dijon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "74",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1958-24",
+      "year": 1958,
+      "leg": "24",
+      "leg_num": 0,
+      "title": "Dijon",
+      "start": {
+        "city": "France",
+        "country": "47.322047,5.04148",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "320",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

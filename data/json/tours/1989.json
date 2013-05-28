@@ -1,0 +1,467 @@
+{
+  "year": 1989,
+  "edition": 76,
+  "total_length": 3285,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 138,
+  "pct_finishers": 70,
+  "winner_first_name": "Greg",
+  "winner_last_name": "LeMond",
+  "winner_id": "greg-lemond",
+  "winner_total_time": "87h 38' 35\"",
+  "winner_age": "27",
+  "winner_country": "États-Unis",
+  "winner_avg_speed": "37,487",
+  "ahead_of_2nd": "0h 00' 08\" ",
+  "second_name": "L. Fignon",
+  "second_country": "France",
+  "second_id": "laurent-fignon",
+  "ahead_of_3rd": "0h 03' 34\"",
+  "third_name": "P. Delgado",
+  "third_country": "Espagne",
+  "third_id": "pedro-delgado",
+  "legs": [
+    {
+      "id": "E-1989-Prologue",
+      "year": 1989,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "7",
+        "lng": "8"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-01",
+      "year": 1989,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "135",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-02",
+      "year": 1989,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Luxembourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "46",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-03",
+      "year": 1989,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.61162,6.13193",
+        "lat": "Francorchamps",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.43772,5.971528",
+        "lat": "241",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-04",
+      "year": 1989,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Liège",
+      "start": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Wasquehal",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "255",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-05",
+      "year": 1989,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Dinard",
+      "start": {
+        "city": "France",
+        "country": "48.633024,-2.055125",
+        "lat": "Rennes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "73",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-06",
+      "year": 1989,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Rennes",
+      "start": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "259",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-07",
+      "year": 1989,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Poitiers",
+      "start": {
+        "city": "France",
+        "country": "46.580224,0.340375",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "258",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-08",
+      "year": 1989,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Labastide-d'Armagnac",
+      "start": {
+        "city": "France",
+        "country": "43.969386,-0.18562",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "157",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-09",
+      "year": 1989,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Cauterets Cambasque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.888535,-0.114153",
+        "lat": "147",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-10",
+      "year": 1989,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Cauterets",
+      "start": {
+        "city": "France",
+        "country": "42.889054,-0.114246",
+        "lat": "Superbagnères",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.768576,0.576927",
+        "lat": "136",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-11",
+      "year": 1989,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Blagnac",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "158",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-12",
+      "year": 1989,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Toulouse",
+      "start": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "242",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-13",
+      "year": 1989,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Marseille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "179",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-14",
+      "year": 1989,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Marseille",
+      "start": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Gap",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "240",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-15",
+      "year": 1989,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Gap",
+      "start": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Orcières-Merlette",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "39",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-16",
+      "year": 1989,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Gap",
+      "start": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "175",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-17",
+      "year": 1989,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "165",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-18",
+      "year": 1989,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Villard-de-Lans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "91",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-19",
+      "year": 1989,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Villard-de-Lans",
+      "start": {
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "Aix-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "125",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-20",
+      "year": 1989,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "L'Isle-d'Abeau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.623157,5.230115",
+        "lat": "130",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1989-21",
+      "year": 1989,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "24",
+        "lng": "5"
+      },
+      "length": 0
+    }
+  ]
+}

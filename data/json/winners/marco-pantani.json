@@ -1,0 +1,37 @@
+{
+  "id": "marco-pantani",
+  "years": {
+    "1994": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1995": {
+      "position": "13",
+      "nb_wins": 2
+    },
+    "1996": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1997": {
+      "position": "3",
+      "nb_wins": 2
+    },
+    "1998": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1999": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2000": {
+      "position": "Abandon",
+      "nb_wins": 2
+    }
+  },
+  "country": "13/01/1970",
+  "birthdate": "14/02/2004",
+  "deathdate": null,
+  "bio": null
+}

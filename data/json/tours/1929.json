@@ -1,0 +1,467 @@
+{
+  "year": 1929,
+  "edition": 23,
+  "total_length": 5286,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 155,
+  "nb_finishers": 60,
+  "pct_finishers": 39,
+  "winner_first_name": "Maurice",
+  "winner_last_name": "De Waele",
+  "winner_id": "maurice-de-waele",
+  "winner_total_time": "186h 39' 16\"",
+  "winner_age": "32",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "28,319",
+  "ahead_of_2nd": "0h 44' 23\" ",
+  "second_name": "G. Pancera",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 57' 10\"",
+  "third_name": "J. Demuysere",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1929-01",
+      "year": 1929,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Paris",
+      "start": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "206",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-02",
+      "year": 1929,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Cherbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "140",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-03",
+      "year": 1929,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Cherbourg",
+      "start": {
+        "city": "France",
+        "country": "49.639093,-1.625298",
+        "lat": "Dinan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.454366,-2.047327",
+        "lat": "199",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-04",
+      "year": 1929,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Dinan",
+      "start": {
+        "city": "France",
+        "country": "48.454366,-2.047327",
+        "lat": "Brest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "206",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-05",
+      "year": 1929,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Brest",
+      "start": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Vannes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.658236,-2.760847",
+        "lat": "208",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-06",
+      "year": 1929,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Vannes",
+      "start": {
+        "city": "France",
+        "country": "47.658236,-2.760847",
+        "lat": "Les Sables-d'Olonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.492958,-1.795493",
+        "lat": "204",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-07",
+      "year": 1929,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Les Sables-d'Olonne",
+      "start": {
+        "city": "France",
+        "country": "46.492958,-1.795493",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "285",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-08",
+      "year": 1929,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bayonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "182",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-09",
+      "year": 1929,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Bayonne",
+      "start": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "363",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-10",
+      "year": 1929,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Perpignan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "323",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-11",
+      "year": 1929,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Perpignan",
+      "start": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Marseille",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "366",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-12",
+      "year": 1929,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Marseille",
+      "start": {
+        "city": "France",
+        "country": "43.296482,5.36978",
+        "lat": "Cannes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.552847,7.017369",
+        "lat": "191",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-13",
+      "year": 1929,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Cannes",
+      "start": {
+        "city": "France",
+        "country": "43.552847,7.017369",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "133",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-14",
+      "year": 1929,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Grenoble",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "333",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-15",
+      "year": 1929,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Grenoble",
+      "start": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Évian",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.401488,6.590949",
+        "lat": "329",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-16",
+      "year": 1929,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Évian",
+      "start": {
+        "city": "France",
+        "country": "46.401488,6.590949",
+        "lat": "Belfort",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "283",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-17",
+      "year": 1929,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Belfort",
+      "start": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "145",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-18",
+      "year": 1929,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Strasbourg",
+      "start": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Metz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "165",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-19",
+      "year": 1929,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Metz",
+      "start": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Charleville",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "159",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-20",
+      "year": 1929,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Charleville",
+      "start": {
+        "city": "France",
+        "country": "49.762085,4.726096",
+        "lat": "Malo-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "51.046636,2.398274",
+        "lat": "270",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-21",
+      "year": 1929,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Malo-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "51.046636,2.398274",
+        "lat": "Dieppe",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "234",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1929-22",
+      "year": 1929,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Dieppe",
+      "start": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "332",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

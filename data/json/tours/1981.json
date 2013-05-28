@@ -1,0 +1,527 @@
+{
+  "year": 1981,
+  "edition": 68,
+  "total_length": 3753,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 150,
+  "nb_finishers": 121,
+  "pct_finishers": 81,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "96h 19' 38\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "38,960",
+  "ahead_of_2nd": "0h 14' 34\" ",
+  "second_name": "L. Van Impe",
+  "second_country": "Belgique",
+  "second_id": "lucien-van-impe",
+  "ahead_of_3rd": "0h 17' 04\"",
+  "third_name": "R. Alban",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1981-Prologue",
+      "year": 1981,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "5",
+        "lng": "9"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-01",
+      "year": 1981,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "97",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-02",
+      "year": 1981,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "40",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-03",
+      "year": 1981,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Martigues",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.404811,5.053728",
+        "lat": "254",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-04",
+      "year": 1981,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Martigues",
+      "start": {
+        "city": "France",
+        "country": "43.404811,5.053728",
+        "lat": "Narbonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "232",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-05",
+      "year": 1981,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Narbonne",
+      "start": {
+        "city": "France",
+        "country": "43.184277,3.003078",
+        "lat": "Carcassonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "77",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-06",
+      "year": 1981,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
+      "start": {
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Saint-Lary-Soulan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "117",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-07",
+      "year": 1981,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Nay",
+      "start": {
+        "city": "France",
+        "country": "43.176619,-0.262552",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "26",
+        "lng": "7"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-08",
+      "year": 1981,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "227",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-09",
+      "year": 1981,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Rochefort",
+      "start": {
+        "city": "France",
+        "country": "45.936698,-0.961697",
+        "lat": "Nantes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "182",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-10",
+      "year": 1981,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Nantes",
+      "start": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Le Mans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "196",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-11",
+      "year": 1981,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Le Mans",
+      "start": {
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "Aulnay-sous-Bois",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.940974,2.497115",
+        "lat": "264",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-12",
+      "year": 1981,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Compiègne",
+      "start": {
+        "city": "France",
+        "country": "49.417816,2.826145",
+        "lat": "Roubaix",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "246",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-13",
+      "year": 1981,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Roubaix",
+      "start": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Bruxelles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.85034,4.35171",
+        "lat": "107",
+        "lng": "3"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-14",
+      "year": 1981,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Bruxelles",
+      "start": {
+        "city": "Belgique",
+        "country": "50.85034,4.35171",
+        "lat": "Zolder",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "51.022954,5.309732",
+        "lat": "137",
+        "lng": "8"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-15",
+      "year": 1981,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Beringen",
+      "start": {
+        "city": "Belgique",
+        "country": "51.04793,5.21862",
+        "lat": "Hasselt",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.928554,5.339916",
+        "lat": "157",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-16",
+      "year": 1981,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Mulhouse",
+      "start": {
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "Mulhouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "38",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-17",
+      "year": 1981,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Besançon",
+      "start": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Thonon-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "231",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-18",
+      "year": 1981,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Thonon-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "46.373565,6.477635",
+        "lat": "Morzine",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "199",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-19",
+      "year": 1981,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Morzine",
+      "start": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "230",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-20",
+      "year": 1981,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Le Bourg d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Le Pleynet",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.272203,6.055841",
+        "lat": "134",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-21",
+      "year": 1981,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Veurey-Voroize",
+      "start": {
+        "city": "France",
+        "country": "45.272154,5.612813",
+        "lat": "Saint-Priest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "117",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-22",
+      "year": 1981,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Saint-Priest",
+      "start": {
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "Saint-Priest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.698938,4.947071",
+        "lat": "46",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-23",
+      "year": 1981,
+      "leg": "23",
+      "leg_num": 0,
+      "title": "Auxerre",
+      "start": {
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "Fontenay-sous-Bois",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.851542,2.475907",
+        "lat": "207",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1981-24",
+      "year": 1981,
+      "leg": "24",
+      "leg_num": 0,
+      "title": "Fontenay-sous-Bois",
+      "start": {
+        "city": "France",
+        "country": "48.851542,2.475907",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "186",
+        "lng": "8"
+      },
+      "length": 0
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "year": 2005,
+  "edition": 92,
+  "total_length": 3593,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 189,
+  "nb_finishers": 155,
+  "pct_finishers": 82,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "86h 15' 02\"",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "41,654",
+  "ahead_of_2nd": "0h 04' 40\" ",
+  "second_name": "I. Basso",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 06' 21\"",
+  "third_name": "J. Ullrich",
+  "third_country": "Allemagne",
+  "third_id": "jan-ullrich",
+  "legs": [
+    {
+      "id": "E-2005-01",
+      "year": 2005,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Fromentine",
+      "start": {
+        "city": "France",
+        "country": "46.889175,-2.140027",
+        "lat": "Noirmoutier-en-l'Île",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.001143,-2.247107",
+        "lat": "19",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-02",
+      "year": 2005,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Challans",
+      "start": {
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "Les Essarts",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.774141,-1.23052",
+        "lat": "182",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-03",
+      "year": 2005,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "La Châtaigneraie",
+      "start": {
+        "city": "France",
+        "country": "46.649193,-0.739875",
+        "lat": "Tours",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "208",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-04",
+      "year": 2005,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Tours",
+      "start": {
+        "city": "France",
+        "country": "47.394144,0.68484",
+        "lat": "Blois",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "66",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-05",
+      "year": 2005,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Chambord",
+      "start": {
+        "city": "France",
+        "country": "47.614158,1.516878",
+        "lat": "Montargis",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.99729,2.736291",
+        "lat": "179",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-06",
+      "year": 2005,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Troyes",
+      "start": {
+        "city": "France",
+        "country": "48.296592,4.074735",
+        "lat": "Nancy",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-07",
+      "year": 2005,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Lunéville",
+      "start": {
+        "city": "France",
+        "country": "48.592237,6.492339",
+        "lat": "Karlsruhe",
+        "lng": null
+      },
+      "finish": {
+        "city": "Allemagne",
+        "country": "49.009148,8.379944",
+        "lat": "225",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-08",
+      "year": 2005,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Pforzheim",
+      "start": {
+        "city": "Allemagne",
+        "country": "48.892638,8.693293",
+        "lat": "Gérardmer",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.070081,6.877292",
+        "lat": "231",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-09",
+      "year": 2005,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Gérardmer",
+      "start": {
+        "city": "France",
+        "country": "48.070081,6.877292",
+        "lat": "Mulhouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "170",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-10",
+      "year": 2005,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Grenoble",
+      "start": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Courchevel",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.4203,6.61409",
+        "lat": "192",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-11",
+      "year": 2005,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Courchevel",
+      "start": {
+        "city": "France",
+        "country": "45.4203,6.61409",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "173",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-12",
+      "year": 2005,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Digne-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.092193,6.235976",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-13",
+      "year": 2005,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Miramas",
+      "start": {
+        "city": "France",
+        "country": "43.588896,5.002136",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "173",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-14",
+      "year": 2005,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Agde",
+      "start": {
+        "city": "France",
+        "country": "43.312455,3.47083",
+        "lat": "Ax-3 Domaines",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.699657,1.81283",
+        "lat": "220",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-15",
+      "year": 2005,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Lézat-sur-Lèze",
+      "start": {
+        "city": "France",
+        "country": "43.276267,1.346575",
+        "lat": "Saint-Lary-Soulan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "205",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-16",
+      "year": 2005,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Mourenx",
+      "start": {
+        "city": "France",
+        "country": "43.368262,-0.620552",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "177",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-17",
+      "year": 2005,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Revel",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.458611,2.004573",
+        "lat": "239",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-18",
+      "year": 2005,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Albi",
+      "start": {
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "Mende",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.517611,3.501873",
+        "lat": "189",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-19",
+      "year": 2005,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Issoire",
+      "start": {
+        "city": "France",
+        "country": "45.54151,3.248128",
+        "lat": "Le Puy-en-Velay",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.042768,3.882936",
+        "lat": "154",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-20",
+      "year": 2005,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
+      "start": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "Saint-Étienne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "55",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2005-21",
+      "year": 2005,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Corbeil-Essonnes",
+      "start": {
+        "city": "France",
+        "country": "48.61026,2.474805",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "144",
+        "lng": "5"
+      },
+      "length": 0
+    }
+  ]
+}

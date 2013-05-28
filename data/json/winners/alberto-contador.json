@@ -1,0 +1,37 @@
+{
+  "id": "alberto-contador",
+  "years": {
+    "2005": {
+      "position": "31",
+      "nb_wins": 0
+    },
+    "2006": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2007": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "2008": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "1",
+      "nb_wins": 3
+    },
+    "2010": {
+      "position": "Déclassé",
+      "nb_wins": 0
+    },
+    "2011": {
+      "position": "Déclassé",
+      "nb_wins": 0
+    }
+  },
+  "country": "06/12/1982",
+  "birthdate": null,
+  "deathdate": null,
+  "bio": null
+}

@@ -1,0 +1,507 @@
+{
+  "year": 1985,
+  "edition": 72,
+  "total_length": 4109,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 180,
+  "nb_finishers": 144,
+  "pct_finishers": 80,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "113h 24' 23\"",
+  "winner_age": "30",
+  "winner_country": "France",
+  "winner_avg_speed": "36,232",
+  "ahead_of_2nd": "0h 01' 42\" ",
+  "second_name": "G. Lemond",
+  "second_country": "États-Unis",
+  "second_id": "greg-lemond",
+  "ahead_of_3rd": "0h 04' 29\"",
+  "third_name": "S. Roche",
+  "third_country": "Irlande",
+  "third_id": "stephen-roche",
+  "legs": [
+    {
+      "id": "E-1985-Prologue",
+      "year": 1985,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Plumelec",
+      "start": {
+        "city": "France",
+        "country": "47.837699,-2.639409",
+        "lat": "Plumelec",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.837699,-2.639409",
+        "lat": "6",
+        "lng": "8"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-01",
+      "year": 1985,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Vannes",
+      "start": {
+        "city": "France",
+        "country": "47.658236,-2.760847",
+        "lat": "Lanester",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.763494,-3.347354",
+        "lat": "256",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-02",
+      "year": 1985,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Lorient",
+      "start": {
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "Vitré",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.124746,-1.21543",
+        "lat": "242",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-03",
+      "year": 1985,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Vitré",
+      "start": {
+        "city": "France",
+        "country": "48.124746,-1.21543",
+        "lat": "Fougères",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.351561,-1.204626",
+        "lat": "73",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-04",
+      "year": 1985,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Fougères",
+      "start": {
+        "city": "France",
+        "country": "48.351561,-1.204626",
+        "lat": "Pont-Audemer",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.354883,0.514299",
+        "lat": "239",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-05",
+      "year": 1985,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Neufchâtel-en-Bray",
+      "start": {
+        "city": "France",
+        "country": "49.732771,1.441891",
+        "lat": "Roubaix",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "224",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-06",
+      "year": 1985,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Roubaix",
+      "start": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Reims",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "221",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-07",
+      "year": 1985,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Reims",
+      "start": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "Nancy",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "217",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-08",
+      "year": 1985,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Sarrebourg",
+      "start": {
+        "city": "France",
+        "country": "48.732663,7.052587",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "75",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-09",
+      "year": 1985,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Strasbourg",
+      "start": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Épinal",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.172402,6.449403",
+        "lat": "173",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-10",
+      "year": 1985,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Épinal",
+      "start": {
+        "city": "France",
+        "country": "48.172402,6.449403",
+        "lat": "Pontarlier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "204",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-11",
+      "year": 1985,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Pontarlier",
+      "start": {
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "Morzine-Avoriaz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.189683,6.776343",
+        "lat": "195",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-12",
+      "year": 1985,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Morzine",
+      "start": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Lans-en-Vercors",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.127976,5.58827",
+        "lat": "269",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-13",
+      "year": 1985,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Villard-de-Lans",
+      "start": {
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "Villard-de-Lans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "31",
+        "lng": "8"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-14",
+      "year": 1985,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Autrans",
+      "start": {
+        "city": "France",
+        "country": "45.176098,5.542716",
+        "lat": "Saint-Étienne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "179",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-15",
+      "year": 1985,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Saint-Étienne",
+      "start": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "Aurillac",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.930953,2.444997",
+        "lat": "237",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-16",
+      "year": 1985,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Aurillac",
+      "start": {
+        "city": "France",
+        "country": "44.930953,2.444997",
+        "lat": "Toulouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "247",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-17",
+      "year": 1985,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Toulouse",
+      "start": {
+        "city": "France",
+        "country": "43.604652,1.444209",
+        "lat": "Luz-Ardiden",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.885105,-0.061335",
+        "lat": "209",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-18a",
+      "year": 1985,
+      "leg": "18a",
+      "leg_num": 0,
+      "title": "Luz-Saint-Sauveur",
+      "start": {
+        "city": "France",
+        "country": "42.873542,-0.002869",
+        "lat": "Col d'Aubisque",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.97657,-0.339673",
+        "lat": "52",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-18b",
+      "year": 1985,
+      "leg": "18b",
+      "leg_num": 0,
+      "title": "Laruns",
+      "start": {
+        "city": "France",
+        "country": "42.987644,-0.426274",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "83",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-19",
+      "year": 1985,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "203",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-20",
+      "year": 1985,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Montpon-Ménestérol",
+      "start": {
+        "city": "France",
+        "country": "45.009274,0.162",
+        "lat": "Limoges",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "225",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-21",
+      "year": 1985,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Lac de Vassivière",
+      "start": {
+        "city": "France",
+        "country": "45.791652,1.87608",
+        "lat": "Lac de Vassivière",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.791652,1.87608",
+        "lat": "47",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1985-22",
+      "year": 1985,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Orléans",
+      "start": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "196",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

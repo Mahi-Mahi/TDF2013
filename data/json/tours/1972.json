@@ -1,0 +1,527 @@
+{
+  "year": 1972,
+  "edition": 59,
+  "total_length": 3846,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 132,
+  "nb_finishers": 88,
+  "pct_finishers": 67,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "108h 17' 18\"",
+  "winner_age": "27",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,514",
+  "ahead_of_2nd": "0h 10' 41\" ",
+  "second_name": "F. Gimondi",
+  "second_country": "Italie",
+  "second_id": "felice-gimondi",
+  "ahead_of_3rd": "0h 11' 34\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1972-Prologue",
+      "year": 1972,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Angers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "7",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-01",
+      "year": 1972,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Angers",
+      "start": {
+        "city": "France",
+        "country": "47.478419,-0.563166",
+        "lat": "Saint-Brieuc",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "233",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-02",
+      "year": 1972,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Saint-Brieuc",
+      "start": {
+        "city": "France",
+        "country": "48.51418,-2.765835",
+        "lat": "La Baule",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.285448,-2.393236",
+        "lat": "206",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-3a",
+      "year": 1972,
+      "leg": "3a",
+      "leg_num": 0,
+      "title": "Pornichet",
+      "start": {
+        "city": "France",
+        "country": "47.263426,-2.340571",
+        "lat": "Saint-Jean-de-Monts",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.790144,-2.081802",
+        "lat": "161",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-3b",
+      "year": 1972,
+      "leg": "3b",
+      "leg_num": 0,
+      "title": "Saint-Hilaire-de-Riez",
+      "start": {
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "Saint-Hilaire-de-Riez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "16",
+        "lng": "2"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-04",
+      "year": 1972,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Saint-Hilaire-de-Riez",
+      "start": {
+        "city": "France",
+        "country": "46.720204,-1.945917",
+        "lat": "Royan",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "236",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-5a",
+      "year": 1972,
+      "leg": "5a",
+      "leg_num": 0,
+      "title": "Royan",
+      "start": {
+        "city": "France",
+        "country": "45.623027,-1.043182",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "133",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-5b",
+      "year": 1972,
+      "leg": "5b",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "12",
+        "lng": "7"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-06",
+      "year": 1972,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bayonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "205",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-07",
+      "year": 1972,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Bayonne",
+      "start": {
+        "city": "France",
+        "country": "43.492949,-1.474841",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "220",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-08",
+      "year": 1972,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "163",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-09",
+      "year": 1972,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943\n",
+        "lat": "Colomiers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.612189,1.336579",
+        "lat": "179",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-10",
+      "year": 1972,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Castres",
+      "start": {
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "La Grande Motte",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.560704,4.086072",
+        "lat": "210",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-11",
+      "year": 1972,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Carnon Plage",
+      "start": {
+        "city": "France",
+        "country": "43.615441,4.010165",
+        "lat": "Mont Ventoux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.173925,5.283795",
+        "lat": "207",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-12",
+      "year": 1972,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Carpentras",
+      "start": {
+        "city": "France",
+        "country": "44.055564,5.048722",
+        "lat": "Orcières-Merlette",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "192",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-13",
+      "year": 1972,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Orcières-Merlette",
+      "start": {
+        "city": "France",
+        "country": "44.695221,6.320161",
+        "lat": "Briançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "201",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-14a",
+      "year": 1972,
+      "leg": "14a",
+      "leg_num": 0,
+      "title": "Briançon",
+      "start": {
+        "city": "France",
+        "country": "44.899416,6.643179",
+        "lat": "Col du Galibier",
+        "lng": " Valloire"
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.06411,6.40782",
+        "lat": "51",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-14b",
+      "year": 1972,
+      "leg": "14b",
+      "leg_num": 0,
+      "title": "Col du Galibier, Valloire",
+      "start": {
+        "city": "France",
+        "country": "45.06411,6.40782",
+        "lat": "Aix-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "151",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-15",
+      "year": 1972,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Le Revard",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.666493,5.97784",
+        "lat": "28",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-16",
+      "year": 1972,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Pontarlier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "198",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-17",
+      "year": 1972,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Pontarlier",
+      "start": {
+        "city": "France",
+        "country": "46.904104,6.354242",
+        "lat": "Ballon d'Alsace",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.822893,6.84645",
+        "lat": "213",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-18",
+      "year": 1972,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Vesoul",
+      "start": {
+        "city": "France",
+        "country": "47.619788,6.15428",
+        "lat": "Auxerre",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "257",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-19",
+      "year": 1972,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Auxerre",
+      "start": {
+        "city": "France",
+        "country": "47.798202,3.573781",
+        "lat": "Versailles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "230",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-20a",
+      "year": 1972,
+      "leg": "20a",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Versailles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "42",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1972-20b",
+      "year": 1972,
+      "leg": "20b",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "89",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

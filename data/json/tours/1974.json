@@ -1,0 +1,567 @@
+{
+  "year": 1974,
+  "edition": 61,
+  "total_length": 4098,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 105,
+  "pct_finishers": 81,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "116h 16' 58\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,241",
+  "ahead_of_2nd": "0h 08' 04\" ",
+  "second_name": "R. Poulidor",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 8' 09\"",
+  "third_name": "V. Lopez-Carril",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1974-Prologue",
+      "year": 1974,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Brest",
+      "start": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Brest",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "7",
+        "lng": "1"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-01",
+      "year": 1974,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Brest",
+      "start": {
+        "city": "France",
+        "country": "48.390394,-4.486076",
+        "lat": "Saint-Pol-de-Léon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.685113,-3.986533",
+        "lat": "144",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-02",
+      "year": 1974,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Plymouth",
+      "start": {
+        "city": "Grande-Bretagne",
+        "country": "50.375456,-4.142656",
+        "lat": "Plymouth",
+        "lng": null
+      },
+      "finish": {
+        "city": "Grande-Bretagne",
+        "country": "50.375456,-4.142656",
+        "lat": "163",
+        "lng": "7"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-03",
+      "year": 1974,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Morlaix",
+      "start": {
+        "city": "France",
+        "country": "48.577613,-3.828228",
+        "lat": "Saint-Malo",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.649337,-2.025674",
+        "lat": "190",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-04",
+      "year": 1974,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Saint-Malo",
+      "start": {
+        "city": "France",
+        "country": "48.649337,-2.025674",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "184.5",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-05",
+      "year": 1974,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Caen",
+      "start": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "Dieppe",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "165",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-6a",
+      "year": 1974,
+      "leg": "6a",
+      "leg_num": 0,
+      "title": "Dieppe",
+      "start": {
+        "city": "France",
+        "country": "49.922992,1.077483",
+        "lat": "Harelbeke",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.854932,3.315636",
+        "lat": "239",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-6b",
+      "year": 1974,
+      "leg": "6b",
+      "leg_num": 0,
+      "title": "Harelbeke",
+      "start": {
+        "city": "Belgique",
+        "country": "50.854932,3.315636",
+        "lat": "Harelbeke",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.854932,3.315636",
+        "lat": "9",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-07",
+      "year": 1974,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Mons",
+      "start": {
+        "city": "Belgique",
+        "country": "50.454241,3.956659",
+        "lat": "Châlons-sur-Marne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.956682,4.363073",
+        "lat": "221",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-8a",
+      "year": 1974,
+      "leg": "8a",
+      "leg_num": 0,
+      "title": "Châlons-sur-Marne",
+      "start": {
+        "city": "France",
+        "country": "48.956682,4.363073",
+        "lat": "Chaumont",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.113748,5.139256",
+        "lat": "136",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-8b",
+      "year": 1974,
+      "leg": "8b",
+      "leg_num": 0,
+      "title": "Chaumont",
+      "start": {
+        "city": "France",
+        "country": "48.113748,5.139256",
+        "lat": "Besançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "152",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-09",
+      "year": 1974,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Besançon",
+      "start": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Gaillard",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.184685,6.208959",
+        "lat": "241",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-10",
+      "year": 1974,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Gaillard",
+      "start": {
+        "city": "France",
+        "country": "46.184685,6.208959",
+        "lat": "Aix-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "131",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-11",
+      "year": 1974,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Aix-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "45.692341,5.908998",
+        "lat": "Serre Chevalier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.910829,6.549748",
+        "lat": "199",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-12",
+      "year": 1974,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Savines-le-Lac",
+      "start": {
+        "city": "France",
+        "country": "44.525913,6.404982",
+        "lat": "Orange",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.138099,4.807511",
+        "lat": "231",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-13",
+      "year": 1974,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Avignon",
+      "start": {
+        "city": "France",
+        "country": "43.949317,4.805528",
+        "lat": "Montpellier",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "126",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-14",
+      "year": 1974,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Lodève",
+      "start": {
+        "city": "France",
+        "country": "43.73366,3.313975",
+        "lat": "Colomiers",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.612189,1.336579",
+        "lat": "248",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-15",
+      "year": 1974,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Colomiers",
+      "start": {
+        "city": "France",
+        "country": "43.612189,1.336579",
+        "lat": "La Seu d'Urgell",
+        "lng": null
+      },
+      "finish": {
+        "city": "Espagne",
+        "country": "42.359105,1.459173",
+        "lat": "225",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-16",
+      "year": 1974,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "La Seu d'Urgell",
+      "start": {
+        "city": "Espagne",
+        "country": "42.359105,1.459173",
+        "lat": "Pla d'Adet",
+        "lng": " Saint-Lary-Soulan"
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.812512,0.295192",
+        "lat": "209",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-17",
+      "year": 1974,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Saint-Lary-Soulan",
+      "start": {
+        "city": "France",
+        "country": "42.815835,0.320251",
+        "lat": "Col du Tourmalet",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.908192,0.145",
+        "lat": "119",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-18",
+      "year": 1974,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Bagnères-de-Bigorre",
+      "start": {
+        "city": "France",
+        "country": "43.065093,0.149105",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "141.5",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-19a",
+      "year": 1974,
+      "leg": "19a",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "195.5",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-19b",
+      "year": 1974,
+      "leg": "19b",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "12",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-20",
+      "year": 1974,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Saint-Gilles-Croix-de-Vie",
+      "start": {
+        "city": "France",
+        "country": "46.697777,-1.944529",
+        "lat": "Nantes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "117",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-21a",
+      "year": 1974,
+      "leg": "21a",
+      "leg_num": 0,
+      "title": "Vouvray",
+      "start": {
+        "city": "France",
+        "country": "47.412068,0.799248",
+        "lat": "Orléans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "112.5",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-21b",
+      "year": 1974,
+      "leg": "21b",
+      "leg_num": 0,
+      "title": "Orléans",
+      "start": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "Orléans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "37",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1974-22",
+      "year": 1974,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Orléans",
+      "start": {
+        "city": "France",
+        "country": "47.902964,1.909251",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "146",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "roger-lapebie",
+  "years": {
+    "1932": {
+      "position": "23",
+      "nb_wins": 1
+    },
+    "1933": {
+      "position": "29",
+      "nb_wins": 0
+    },
+    "1934": {
+      "position": "3",
+      "nb_wins": 5
+    },
+    "1935": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1936": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "1",
+      "nb_wins": 3
+    }
+  },
+  "country": "16/01/1911",
+  "birthdate": "12/10/1996",
+  "deathdate": null,
+  "bio": null
+}

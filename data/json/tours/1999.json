@@ -1,0 +1,447 @@
+{
+  "year": 1999,
+  "edition": 86,
+  "total_length": 3870,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 180,
+  "nb_finishers": 141,
+  "pct_finishers": 78,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "91h 32' 16\"",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "40,276",
+  "ahead_of_2nd": "0h 07' 37\" ",
+  "second_name": "A. Zulle",
+  "second_country": "Suisse",
+  "second_id": null,
+  "ahead_of_3rd": "0h 10' 26\"",
+  "third_name": "F. Escartin",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1999-Prologue",
+      "year": 1999,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Les Epesses",
+      "start": {
+        "city": "France",
+        "country": "46.884536,-0.899612",
+        "lat": "Les Epesses",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.884536,-0.899612",
+        "lat": "7",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-01",
+      "year": 1999,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Montaigu",
+      "start": {
+        "city": "France",
+        "country": "46.974347,-1.313777",
+        "lat": "Challans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "203",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-02",
+      "year": 1999,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Challans",
+      "start": {
+        "city": "France",
+        "country": "46.844828,-1.880412",
+        "lat": "Saint-Nazaire",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.273498,-2.213848",
+        "lat": "176",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-03",
+      "year": 1999,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Nantes",
+      "start": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Laval",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.077863,-0.770138",
+        "lat": "194",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-04",
+      "year": 1999,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Laval",
+      "start": {
+        "city": "France",
+        "country": "48.077863,-0.770138",
+        "lat": "Blois",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.587952,1.336272",
+        "lat": "194",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-05",
+      "year": 1999,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Bonneval",
+      "start": {
+        "city": "France",
+        "country": "48.181453,1.385289",
+        "lat": "Amiens",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "233",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-06",
+      "year": 1999,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Amiens",
+      "start": {
+        "city": "France",
+        "country": "49.894067,2.295753",
+        "lat": "Maubeuge",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.280228,3.9674",
+        "lat": "171",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-07",
+      "year": 1999,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Avesnes-sur-Helpe",
+      "start": {
+        "city": "France",
+        "country": "50.123589,3.926864",
+        "lat": "Thionville",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.357571,6.168426",
+        "lat": "227",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-08",
+      "year": 1999,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Metz",
+      "start": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "Metz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "56",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-09",
+      "year": 1999,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Le Grand-Bornand",
+      "start": {
+        "city": "France",
+        "country": "45.942027,6.426699",
+        "lat": "Sestrières",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "213",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-10",
+      "year": 1999,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Sestrières",
+      "start": {
+        "city": "France",
+        "country": "44.9565,6.879234",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "220",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-11",
+      "year": 1999,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Le Bourg-d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "Saint-Étienne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.439695,4.387178",
+        "lat": "198",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-12",
+      "year": 1999,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Saint-Galmier",
+      "start": {
+        "city": "France",
+        "country": "45.590322,4.318391",
+        "lat": "Saint-Flour",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "201",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-13",
+      "year": 1999,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Saint-Flour",
+      "start": {
+        "city": "France",
+        "country": "45.033026,3.094862",
+        "lat": "Albi",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.926896,2.146343",
+        "lat": "236",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-14",
+      "year": 1999,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Castres",
+      "start": {
+        "city": "France",
+        "country": "43.606214,2.241295",
+        "lat": "Saint-Gaudens",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "199",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-15",
+      "year": 1999,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Saint-Gaudens",
+      "start": {
+        "city": "France",
+        "country": "43.106895,0.723763",
+        "lat": "Piau-Engaly",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.784774,0.158593",
+        "lat": "173",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-16",
+      "year": 1999,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Lannemezan",
+      "start": {
+        "city": "France",
+        "country": "43.125519,0.38396",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "192",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-17",
+      "year": 1999,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Mourenx",
+      "start": {
+        "city": "France",
+        "country": "43.368262,-0.620552",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "200",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-18",
+      "year": 1999,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Jonzac",
+      "start": {
+        "city": "France",
+        "country": "45.445368,-0.431058",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
+      },
+      "finish": {
+        "city": "France",
+        "country": "\n46.66680,0.36762",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-19",
+      "year": 1999,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Futuroscope, Poitiers",
+      "start": {
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "Futuroscope",
+        "lng": " Poitiers"
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.66680,0.36762",
+        "lat": "57",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1999-20",
+      "year": 1999,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Arpajon",
+      "start": {
+        "city": "France",
+        "country": "48.589172,2.246237",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "143",
+        "lng": "5"
+      },
+      "length": 0
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "year": 2012,
+  "edition": 99,
+  "total_length": 3497,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 153,
+  "pct_finishers": 77,
+  "winner_first_name": "Bradley",
+  "winner_last_name": "Wiggins",
+  "winner_id": "bradley-wiggins",
+  "winner_total_time": "87h 34' 47''",
+  "winner_age": "32",
+  "winner_country": "Royaume-Uni",
+  "winner_avg_speed": "39,724",
+  "ahead_of_2nd": "0h 03' 21\" ",
+  "second_name": "C. Froome",
+  "second_country": "Royaume-Uni",
+  "second_id": null,
+  "ahead_of_3rd": "0h 06' 19''",
+  "third_name": "V. Nibali",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-2012-Prologue",
+      "year": 2012,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Liège",
+      "start": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Liège",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "6",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-01",
+      "year": 2012,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Liège",
+      "start": {
+        "city": "Belgique",
+        "country": "50.632557,5.579666",
+        "lat": "Seraing",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.583333,5.5",
+        "lat": "198",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-02",
+      "year": 2012,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Visé",
+      "start": {
+        "city": "Belgique",
+        "country": "50.73716,5.69904",
+        "lat": "Tournai",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "50.605606,3.388037",
+        "lat": "207",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-03",
+      "year": 2012,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Orchies",
+      "start": {
+        "city": "France",
+        "country": "50.4745,3.2428",
+        "lat": "Boulogne-sur-Mer",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.725231,1.613334",
+        "lat": "197",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-04",
+      "year": 2012,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Abbeville",
+      "start": {
+        "city": "France",
+        "country": "50.105467,1.836833",
+        "lat": "Rouen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.443232,1.099971",
+        "lat": "214",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-05",
+      "year": 2012,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Rouen",
+      "start": {
+        "city": "France",
+        "country": "49.443232,1.099971",
+        "lat": "Saint-Quentin",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.847066,3.2874",
+        "lat": "196",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-06",
+      "year": 2012,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Épernay",
+      "start": {
+        "city": "France",
+        "country": "49.043411,3.956242",
+        "lat": "Metz",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.119666,6.176905",
+        "lat": "205",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-07",
+      "year": 2012,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Tomblaine",
+      "start": {
+        "city": "France",
+        "country": "48.683482,6.221307",
+        "lat": "Planche des Belles Filles",
+        "lng": " Plancher-les-Mines"
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.767158,6.774211",
+        "lat": "199",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-08",
+      "year": 2012,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Belfort",
+      "start": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Porrentruy",
+        "lng": null
+      },
+      "finish": {
+        "city": "Suisse",
+        "country": "47.417394,7.075288",
+        "lat": "157",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-09",
+      "year": 2012,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Arc-et-Senans",
+      "start": {
+        "city": "France",
+        "country": "47.032958,5.781165",
+        "lat": "Besançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "41",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-10",
+      "year": 2012,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Mâcon",
+      "start": {
+        "city": "France",
+        "country": "46.306884,4.828731",
+        "lat": "Bellegarde-sur-Valserine",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.107599,5.826179",
+        "lat": "194",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-11",
+      "year": 2012,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Albertville",
+      "start": {
+        "city": "France",
+        "country": "45.675535,6.392726",
+        "lat": "Les Sybelles",
+        "lng": " Fontcouverte-la-Toussuire"
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.254656,6.263248",
+        "lat": "148",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-12",
+      "year": 2012,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Saint-Jean-de-Maurienne",
+      "start": {
+        "city": "France",
+        "country": "45.275403,6.344886",
+        "lat": "Davézieux ",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.256666,4.702261",
+        "lat": "226",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-13",
+      "year": 2012,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Saint-Paul-Trois-Châteaux",
+      "start": {
+        "city": "France",
+        "country": "44.348678,4.768295",
+        "lat": "Le Cap d'Agde",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.280739,3.505399",
+        "lat": "217",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-14",
+      "year": 2012,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Limoux",
+      "start": {
+        "city": "France",
+        "country": "43.053289,2.218142",
+        "lat": "Foix",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.964127,1.605232",
+        "lat": "191",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-15",
+      "year": 2012,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Samatan",
+      "start": {
+        "city": "France",
+        "country": "43.491933,0.930806",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "158",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-16",
+      "year": 2012,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bagnères-de-Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "197",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-17",
+      "year": 2012,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Bagnères-de-Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Peyragudes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.794448,0.443112",
+        "lat": "143",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-18",
+      "year": 2012,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Blagnac",
+      "start": {
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "Brive-la-Gaillarde",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "222",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-19",
+      "year": 2012,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Bonneval",
+      "start": {
+        "city": "France",
+        "country": "48.181453,1.385289",
+        "lat": "Chartres",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.443854,1.489012",
+        "lat": "53",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2012-20",
+      "year": 2012,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Rambouillet",
+      "start": {
+        "city": "France",
+        "country": "48.643868,1.829079",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "120",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

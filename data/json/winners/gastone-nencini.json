@@ -1,0 +1,37 @@
+{
+  "id": "gastone-nencini",
+  "years": {
+    "1956": {
+      "position": "22",
+      "nb_wins": 1
+    },
+    "1957": {
+      "position": "6",
+      "nb_wins": 2
+    },
+    "1958": {
+      "position": "5",
+      "nb_wins": 1
+    },
+    "1959": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1960": {
+      "position": "1",
+      "nb_wins": 0
+    },
+    "1961": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1962": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "country": "01/03/1930",
+  "birthdate": "01/02/1980",
+  "deathdate": null,
+  "bio": null
+}

@@ -1,0 +1,447 @@
+{
+  "year": 2006,
+  "edition": 93,
+  "total_length": 3657,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 176,
+  "nb_finishers": 139,
+  "pct_finishers": 79,
+  "winner_first_name": "Óscar",
+  "winner_last_name": "Pereiro",
+  "winner_id": "oscar-pereiro",
+  "winner_total_time": "89h 39' 30\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "40,784",
+  "ahead_of_2nd": "0h 00' 32\" ",
+  "second_name": "A. Kloden",
+  "second_country": "Allemagne",
+  "second_id": null,
+  "ahead_of_3rd": "0h 02' 16\"",
+  "third_name": "C. Sastre",
+  "third_country": "Espagne",
+  "third_id": "carlos-sastre",
+  "legs": [
+    {
+      "id": "E-2006-Prologue",
+      "year": 2006,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Strasbourg",
+      "start": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "7",
+        "lng": "1"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-01",
+      "year": 2006,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Strasbourg",
+      "start": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "184",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-02",
+      "year": 2006,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "Obernai",
+      "start": {
+        "city": "France",
+        "country": "48.46226,7.48168",
+        "lat": "Esch-sur-Alzette",
+        "lng": null
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "49.50088,5.986092",
+        "lat": "228",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-03",
+      "year": 2006,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Esch-sur-Alzette",
+      "start": {
+        "city": "Luxembourg",
+        "country": "49.50088,5.986092",
+        "lat": "Valkenburg",
+        "lng": null
+      },
+      "finish": {
+        "city": "Pays-Bas",
+        "country": "50.863796,5.833991",
+        "lat": "216",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-04",
+      "year": 2006,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Huy",
+      "start": {
+        "city": "Belgique",
+        "country": "50.518715,5.239666",
+        "lat": "Saint-Quentin",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.847066,3.2874",
+        "lat": "207",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-05",
+      "year": 2006,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Beauvais",
+      "start": {
+        "city": "France",
+        "country": "49.42964,2.081875",
+        "lat": "Caen",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.182863,-0.370679",
+        "lat": "225",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-06",
+      "year": 2006,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Lisieux",
+      "start": {
+        "city": "France",
+        "country": "49.145922,0.227849",
+        "lat": "Vitré",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.124746,-1.21543",
+        "lat": "189",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-07",
+      "year": 2006,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Saint-Grégoire",
+      "start": {
+        "city": "France",
+        "country": "48.153561,-1.683146",
+        "lat": "Rennes",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.113475,-1.675708",
+        "lat": "52",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-08",
+      "year": 2006,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Saint-Méen-le-Grand",
+      "start": {
+        "city": "France",
+        "country": "48.189812,-2.192985",
+        "lat": "Lorient",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.748252,-3.370245",
+        "lat": "181",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-09",
+      "year": 2006,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.83779,-0.57918",
+        "lat": "Dax",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.708608,-1.051945",
+        "lat": "169",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-10",
+      "year": 2006,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Cambo-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "43.361106,-1.399376",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "190",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-11",
+      "year": 2006,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Tarbes",
+      "start": {
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "Val d'Aran-Pla-de-Beret",
+        "lng": null
+      },
+      "finish": {
+        "city": "Espagne",
+        "country": "42.704592,0.791991",
+        "lat": "206",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-12",
+      "year": 2006,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Carcassonne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.212161,2.353663",
+        "lat": "211",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-13",
+      "year": 2006,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Béziers",
+      "start": {
+        "city": "France",
+        "country": "43.344233,3.215795",
+        "lat": "Montélimar",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.556944,4.749496",
+        "lat": "230",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-14",
+      "year": 2006,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Montélimar",
+      "start": {
+        "city": "France",
+        "country": "44.556944,4.749496",
+        "lat": "Gap",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "180",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-15",
+      "year": 2006,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Gap",
+      "start": {
+        "city": "France",
+        "country": "44.559638,6.079758",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "187",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-16",
+      "year": 2006,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Bourg-d'Oisans",
+      "start": {
+        "city": "France",
+        "country": "45.051951,6.030064",
+        "lat": "La Toussuire",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.246608,6.300579",
+        "lat": "182",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-17",
+      "year": 2006,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Saint-Jean-de-Maurienne",
+      "start": {
+        "city": "France",
+        "country": "45.275403,6.344886",
+        "lat": "Morzine",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "200",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-18",
+      "year": 2006,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Morzine",
+      "start": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "Mâcon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.306884,4.828731",
+        "lat": "197",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-19",
+      "year": 2006,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Le Creusot",
+      "start": {
+        "city": "France",
+        "country": "46.805351,4.4278",
+        "lat": "Montceau-les-Mines",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.67413,4.362979",
+        "lat": "56",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-2006-20",
+      "year": 2006,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Antony",
+      "start": {
+        "city": "France",
+        "country": "48.759255,2.302553",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "152",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

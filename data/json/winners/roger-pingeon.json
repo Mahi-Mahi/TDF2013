@@ -1,0 +1,49 @@
+{
+  "id": "roger-pingeon",
+  "years": {
+    "1965": {
+      "position": "12",
+      "nb_wins": 0
+    },
+    "1966": {
+      "position": "8",
+      "nb_wins": 0
+    },
+    "1967": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1968": {
+      "position": "5",
+      "nb_wins": 2
+    },
+    "1969": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1970": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1971": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1972": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1973": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1974": {
+      "position": "11",
+      "nb_wins": 0
+    }
+  },
+  "country": "28/08/1940",
+  "birthdate": null,
+  "deathdate": null,
+  "bio": null
+}

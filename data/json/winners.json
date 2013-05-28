@@ -1,0 +1,2567 @@
+{
+  "alberto-contador": {
+    "id": "alberto-contador",
+    "years": {
+      "2005": {
+        "position": "31",
+        "nb_wins": 0
+      },
+      "2006": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2007": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "2008": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "2010": {
+        "position": "Déclassé",
+        "nb_wins": 0
+      },
+      "2011": {
+        "position": "Déclassé",
+        "nb_wins": 0
+      }
+    },
+    "country": "06/12/1982",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "andre-leducq": {
+    "id": "andre-leducq",
+    "years": {
+      "1927": {
+        "position": "4",
+        "nb_wins": 3
+      },
+      "1928": {
+        "position": "2",
+        "nb_wins": 4
+      },
+      "1929": {
+        "position": "11",
+        "nb_wins": 5
+      },
+      "1930": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1931": {
+        "position": "10",
+        "nb_wins": 1
+      },
+      "1932": {
+        "position": "1",
+        "nb_wins": 6
+      },
+      "1933": {
+        "position": "31",
+        "nb_wins": 2
+      },
+      "1934": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1935": {
+        "position": "17",
+        "nb_wins": 1
+      },
+      "1936": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1937": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1938": {
+        "position": "30",
+        "nb_wins": 1
+      }
+    },
+    "country": "27/02/1904",
+    "birthdate": "18/06/1980",
+    "deathdate": null,
+    "bio": null
+  },
+  "andy-schleck": {
+    "id": "andy-schleck",
+    "years": {
+      "2008": {
+        "position": "11",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "2010": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "2011": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "2012": {
+        "position": "Non partant",
+        "nb_wins": 0
+      }
+    },
+    "country": "10/06/1985",
+    "birthdate": null,
+    "deathdate": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
+    "bio": null
+  },
+  "antonin-magne": {
+    "id": "antonin-magne",
+    "years": {
+      "1927": {
+        "position": "6",
+        "nb_wins": 1
+      },
+      "1928": {
+        "position": "6",
+        "nb_wins": 2
+      },
+      "1929": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1930": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1931": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1932": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1933": {
+        "position": "8",
+        "nb_wins": 0
+      },
+      "1934": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1935": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1936": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1937": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1938": {
+        "position": "8",
+        "nb_wins": 2
+      }
+    },
+    "country": "16/02/1904",
+    "birthdate": "08/09/1983",
+    "deathdate": "Le premier vainqueur d'une étape en contre-la-montre individuel sur le Tour.",
+    "bio": null
+  },
+  "bernard-hinault": {
+    "id": "bernard-hinault",
+    "years": {
+      "1978": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1979": {
+        "position": "1",
+        "nb_wins": 7
+      },
+      "1980": {
+        "position": "Abandon",
+        "nb_wins": 3
+      },
+      "1981": {
+        "position": "1",
+        "nb_wins": 5
+      },
+      "1982": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1983": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1984": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1985": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1986": {
+        "position": "2",
+        "nb_wins": 3
+      }
+    },
+    "country": "14/11/1954",
+    "birthdate": null,
+    "deathdate": "Le troisième coureur à accumuler cinq victoires finales sur le Tour.",
+    "bio": null
+  },
+  "bernard-thevenet": {
+    "id": "bernard-thevenet",
+    "years": {
+      "1970": {
+        "position": "35",
+        "nb_wins": 1
+      },
+      "1971": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1972": {
+        "position": "9",
+        "nb_wins": 2
+      },
+      "1973": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1974": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1975": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1976": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1977": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1978": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1979": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1980": {
+        "position": "17",
+        "nb_wins": 0
+      },
+      "1981": {
+        "position": "37",
+        "nb_wins": 0
+      }
+    },
+    "country": "10/01/1948",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "bjarne-riis": {
+    "id": "bjarne-riis",
+    "years": {
+      "1989": {
+        "position": "95",
+        "nb_wins": 0
+      },
+      "1990": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1991": {
+        "position": "107",
+        "nb_wins": 0
+      },
+      "1992": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1993": {
+        "position": "5",
+        "nb_wins": 1
+      },
+      "1994": {
+        "position": "14",
+        "nb_wins": 1
+      },
+      "1995": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1996": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1997": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1998": {
+        "position": "11",
+        "nb_wins": 0
+      }
+    },
+    "country": "03/04/1964",
+    "birthdate": null,
+    "deathdate": "Le premier coureur danois à remporter le Tour.",
+    "bio": null
+  },
+  "bradley-wiggins": {
+    "id": "bradley-wiggins",
+    "years": {
+      "2006": {
+        "position": "123",
+        "nb_wins": 0
+      },
+      "2007": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "2008": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "2010": {
+        "position": "24",
+        "nb_wins": 0
+      },
+      "2011": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "2012": {
+        "position": "1",
+        "nb_wins": 2
+      }
+    },
+    "country": "28/04/1980",
+    "birthdate": null,
+    "deathdate": "Le premier coureur britannique à remporter le Tour.",
+    "bio": null
+  },
+  "cadel-evans": {
+    "id": "cadel-evans",
+    "years": {
+      "2005": {
+        "position": "8",
+        "nb_wins": 0
+      },
+      "2006": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "2007": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "2008": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "30",
+        "nb_wins": 0
+      },
+      "2010": {
+        "position": "26",
+        "nb_wins": 0
+      },
+      "2011": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "2012": {
+        "position": "7",
+        "nb_wins": 0
+      }
+    },
+    "country": "14/02/1977",
+    "birthdate": null,
+    "deathdate": "Le premier coureur australien à remporter le Tour.",
+    "bio": null
+  },
+  "carlos-sastre": {
+    "id": "carlos-sastre",
+    "years": {
+      "2001": {
+        "position": "20",
+        "nb_wins": 0
+      },
+      "2002": {
+        "position": "10",
+        "nb_wins": 0
+      },
+      "2003": {
+        "position": "9",
+        "nb_wins": 1
+      },
+      "2004": {
+        "position": "8",
+        "nb_wins": 0
+      },
+      "2005": {
+        "position": "21",
+        "nb_wins": 0
+      },
+      "2006": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "2007": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "2008": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "2009": {
+        "position": "16",
+        "nb_wins": 0
+      },
+      "2010": {
+        "position": "19",
+        "nb_wins": 0
+      }
+    },
+    "country": "22/04/1975",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "charly-gaul": {
+    "id": "charly-gaul",
+    "years": {
+      "1953": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1954": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1955": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1956": {
+        "position": "13",
+        "nb_wins": 2
+      },
+      "1957": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1958": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1959": {
+        "position": "12",
+        "nb_wins": 1
+      },
+      "1960": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1961": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1962": {
+        "position": "9",
+        "nb_wins": 0
+      },
+      "1963": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "08/12/1932",
+    "birthdate": "06/12/2005",
+    "deathdate": null,
+    "bio": null
+  },
+  "eddy-merckx": {
+    "id": "eddy-merckx",
+    "years": {
+      "1969": {
+        "position": "1",
+        "nb_wins": 7
+      },
+      "1970": {
+        "position": "1",
+        "nb_wins": 8
+      },
+      "1971": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1972": {
+        "position": "1",
+        "nb_wins": 7
+      },
+      "1973": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1974": {
+        "position": "1",
+        "nb_wins": 9
+      },
+      "1975": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1976": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1977": {
+        "position": "6",
+        "nb_wins": 1
+      }
+    },
+    "country": "17/06/1945",
+    "birthdate": null,
+    "deathdate": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale.",
+    "bio": null
+  },
+  "fausto-coppi": {
+    "id": "fausto-coppi",
+    "years": {
+      "1949": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1950": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1951": {
+        "position": "10",
+        "nb_wins": 1
+      },
+      "1952": {
+        "position": "1",
+        "nb_wins": 5
+      }
+    },
+    "country": "15/09/1919",
+    "birthdate": "02/01/1960",
+    "deathdate": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949.",
+    "bio": null
+  },
+  "federico-bahamontes": {
+    "id": "federico-bahamontes",
+    "years": {
+      "1954": {
+        "position": "25",
+        "nb_wins": 0
+      },
+      "1955": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1956": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1957": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1958": {
+        "position": "8",
+        "nb_wins": 2
+      },
+      "1959": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1960": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1961": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1962": {
+        "position": "14",
+        "nb_wins": 1
+      },
+      "1963": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1964": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1965": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "09/07/1928",
+    "birthdate": null,
+    "deathdate": "Le premier coureur espagnol à remporter le Tour.",
+    "bio": null
+  },
+  "felice-gimondi": {
+    "id": "felice-gimondi",
+    "years": {
+      "1965": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1966": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1967": {
+        "position": "7",
+        "nb_wins": 2
+      },
+      "1968": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1969": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1970": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1971": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1972": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "1973": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1974": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1975": {
+        "position": "6",
+        "nb_wins": 1
+      }
+    },
+    "country": "29/09/1942",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "ferdi-kubler": {
+    "id": "ferdi-kubler",
+    "years": {
+      "1947": {
+        "position": "Abandon",
+        "nb_wins": 2
+      },
+      "1948": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1949": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1950": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1951": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1952": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1953": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1954": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1955": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "24/07/1919",
+    "birthdate": null,
+    "deathdate": "Le premier coureur suisse à remporter le Tour.",
+    "bio": null
+  },
+  "firmin-lambot": {
+    "id": "firmin-lambot",
+    "years": {
+      "1911": {
+        "position": "11",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "18",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1914": {
+        "position": "8",
+        "nb_wins": 1
+      },
+      "1919": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1920": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1921": {
+        "position": "9",
+        "nb_wins": 1
+      },
+      "1922": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "1923": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1924": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "14/03/1886",
+    "birthdate": "19/01/1964",
+    "deathdate": "Le vainqueur du Tour le plus âgé (36 ans, en 1922).",
+    "bio": null
+  },
+  "francois-faber": {
+    "id": "francois-faber",
+    "years": {
+      "1906": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1907": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1908": {
+        "position": "2",
+        "nb_wins": 4
+      },
+      "1909": {
+        "position": "1",
+        "nb_wins": 6
+      },
+      "1910": {
+        "position": "2",
+        "nb_wins": 3
+      },
+      "1911": {
+        "position": "Abandon",
+        "nb_wins": 2
+      },
+      "1912": {
+        "position": "14",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "5",
+        "nb_wins": 2
+      },
+      "1914": {
+        "position": "9",
+        "nb_wins": 2
+      }
+    },
+    "country": "26/01/1887",
+    "birthdate": "09/05/1915",
+    "deathdate": "Le premier vainqueur non-français du Tour.",
+    "bio": null
+  },
+  "gastone-nencini": {
+    "id": "gastone-nencini",
+    "years": {
+      "1956": {
+        "position": "22",
+        "nb_wins": 1
+      },
+      "1957": {
+        "position": "6",
+        "nb_wins": 2
+      },
+      "1958": {
+        "position": "5",
+        "nb_wins": 1
+      },
+      "1959": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1960": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "1961": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1962": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "01/03/1930",
+    "birthdate": "01/02/1980",
+    "deathdate": null,
+    "bio": null
+  },
+  "georges-speicher": {
+    "id": "georges-speicher",
+    "years": {
+      "1932": {
+        "position": "10",
+        "nb_wins": 0
+      },
+      "1933": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1934": {
+        "position": "11",
+        "nb_wins": 5
+      },
+      "1935": {
+        "position": "6",
+        "nb_wins": 1
+      },
+      "1936": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1937": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1938": {
+        "position": "Elimination",
+        "nb_wins": 0
+      }
+    },
+    "country": "08/06/1907",
+    "birthdate": "24/01/1978",
+    "deathdate": null,
+    "bio": null
+  },
+  "gino-bartali": {
+    "id": "gino-bartali",
+    "years": {
+      "1937": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1938": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1939": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1947": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1948": {
+        "position": "1",
+        "nb_wins": 7
+      },
+      "1949": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1950": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1951": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1952": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1953": {
+        "position": "11",
+        "nb_wins": 0
+      }
+    },
+    "country": "18/07/1914",
+    "birthdate": "05/05/2000",
+    "deathdate": "Le seul coureur à avoir remporté deux Tours à 10 ans d'écart.",
+    "bio": null
+  },
+  "greg-lemond": {
+    "id": "greg-lemond",
+    "years": {
+      "1984": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1985": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1986": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1987": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1988": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1989": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1990": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "1991": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1992": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1993": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1994": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "26/06/1961",
+    "birthdate": null,
+    "deathdate": "Le premier coureur américain à remporter le Tour.",
+    "bio": null
+  },
+  "gustave-garrigou": {
+    "id": "gustave-garrigou",
+    "years": {
+      "1907": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1908": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1909": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1910": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1911": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1912": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1914": {
+        "position": "5",
+        "nb_wins": 1
+      }
+    },
+    "country": "24/09/1884",
+    "birthdate": "28/01/1963",
+    "deathdate": null,
+    "bio": null
+  },
+  "henri-cornet": {
+    "id": "henri-cornet",
+    "years": {
+      "1904": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1905": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1906": {
+        "position": "Forfait",
+        "nb_wins": 0
+      },
+      "1907": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1908": {
+        "position": "8",
+        "nb_wins": 0
+      },
+      "1909": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1910": {
+        "position": "16",
+        "nb_wins": 0
+      },
+      "1911": {
+        "position": "12",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "28",
+        "nb_wins": 0
+      }
+    },
+    "country": "04/08/1884",
+    "birthdate": "18/03/1941",
+    "deathdate": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours.",
+    "bio": null
+  },
+  "henri-pelissier": {
+    "id": "henri-pelissier",
+    "years": {
+      "1912": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1914": {
+        "position": "2",
+        "nb_wins": 3
+      },
+      "1919": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1920": {
+        "position": "Abandon",
+        "nb_wins": 2
+      },
+      "1921": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1922": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1923": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1924": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1925": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "22/01/1889",
+    "birthdate": "01/05/1935",
+    "deathdate": null,
+    "bio": null
+  },
+  "hugo-koblet": {
+    "id": "hugo-koblet",
+    "years": {
+      "1951": {
+        "position": "1",
+        "nb_wins": 5
+      },
+      "1952": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1953": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1954": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "21/03/1925",
+    "birthdate": "06/11/1964",
+    "deathdate": null,
+    "bio": null
+  },
+  "jacques-anquetil": {
+    "id": "jacques-anquetil",
+    "years": {
+      "1957": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1958": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1959": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1960": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1961": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1962": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1963": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1964": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1965": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1966": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "08/01/1934",
+    "birthdate": "18/11/1987",
+    "deathdate": "Le premier coureur à remporter cinq fois le Tour de France.",
+    "bio": null
+  },
+  "jan-janssen": {
+    "id": "jan-janssen",
+    "years": {
+      "1963": {
+        "position": "Abandon",
+        "nb_wins": 2
+      },
+      "1964": {
+        "position": "24",
+        "nb_wins": 2
+      },
+      "1965": {
+        "position": "9",
+        "nb_wins": 1
+      },
+      "1966": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "1967": {
+        "position": "5",
+        "nb_wins": 1
+      },
+      "1968": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1969": {
+        "position": "10",
+        "nb_wins": 0
+      },
+      "1970": {
+        "position": "26",
+        "nb_wins": 0
+      }
+    },
+    "country": "19/05/1940",
+    "birthdate": null,
+    "deathdate": "Le premier coureur néerlandais à remporter le Tour.",
+    "bio": null
+  },
+  "jan-ullrich": {
+    "id": "jan-ullrich",
+    "years": {
+      "1996": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1997": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1998": {
+        "position": "2",
+        "nb_wins": 3
+      },
+      "1999": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2000": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "2001": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "2002": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2003": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "2004": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "2005": {
+        "position": "Déclassé",
+        "nb_wins": 0
+      }
+    },
+    "country": "02/12/1973",
+    "birthdate": null,
+    "deathdate": "Le premier coureur allemand à remporter le Tour.",
+    "bio": null
+  },
+  "jean-robic": {
+    "id": "jean-robic",
+    "years": {
+      "1947": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1948": {
+        "position": "16",
+        "nb_wins": 0
+      },
+      "1949": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1950": {
+        "position": "12",
+        "nb_wins": 0
+      },
+      "1951": {
+        "position": "27",
+        "nb_wins": 0
+      },
+      "1952": {
+        "position": "5",
+        "nb_wins": 1
+      },
+      "1953": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1954": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1955": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1956": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1957": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1958": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1959": {
+        "position": "Eliminé",
+        "nb_wins": 0
+      }
+    },
+    "country": "10/06/1921",
+    "birthdate": "06/10/1980",
+    "deathdate": "Le premier vainqueur du Tour de l'après-guerre.",
+    "bio": null
+  },
+  "joop-zoetemelk": {
+    "id": "joop-zoetemelk",
+    "years": {
+      "1970": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "1971": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "1972": {
+        "position": "5",
+        "nb_wins": 0
+      },
+      "1973": {
+        "position": "4",
+        "nb_wins": 2
+      },
+      "1974": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1975": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1976": {
+        "position": "2",
+        "nb_wins": 3
+      },
+      "1977": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1978": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1979": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1980": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1981": {
+        "position": "4",
+        "nb_wins": 2
+      },
+      "1982": {
+        "position": "2",
+        "nb_wins": 0
+      },
+      "1983": {
+        "position": "23",
+        "nb_wins": 1
+      },
+      "1984": {
+        "position": "30",
+        "nb_wins": 0
+      },
+      "1985": {
+        "position": "12",
+        "nb_wins": 0
+      },
+      "1986": {
+        "position": "24",
+        "nb_wins": 0
+      }
+    },
+    "country": "03/12/1946",
+    "birthdate": null,
+    "deathdate": "Le détenteur du record du nombre de deuxièmes places dans le Tour : six.",
+    "bio": null
+  },
+  "laurent-fignon": {
+    "id": "laurent-fignon",
+    "years": {
+      "1983": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1984": {
+        "position": "1",
+        "nb_wins": 6
+      },
+      "1985": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1986": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1987": {
+        "position": "7",
+        "nb_wins": 1
+      },
+      "1988": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1989": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1990": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1991": {
+        "position": "6",
+        "nb_wins": 0
+      },
+      "1992": {
+        "position": "23",
+        "nb_wins": 1
+      },
+      "1993": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "12/08/1960",
+    "birthdate": "31/08/2010",
+    "deathdate": "Le dernier vainqueur français du Tour en date.",
+    "bio": null
+  },
+  "leon-scieur": {
+    "id": "leon-scieur",
+    "years": {
+      "1914": {
+        "position": "14",
+        "nb_wins": 0
+      },
+      "1919": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1920": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1921": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1922": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1923": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1924": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "19/03/1888",
+    "birthdate": "07/10/1969",
+    "deathdate": null,
+    "bio": null
+  },
+  "louis-trousselier": {
+    "id": "louis-trousselier",
+    "years": {
+      "1905": {
+        "position": "1",
+        "nb_wins": 5
+      },
+      "1906": {
+        "position": "3",
+        "nb_wins": 4
+      },
+      "1907": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1908": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1909": {
+        "position": "8",
+        "nb_wins": 1
+      },
+      "1910": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1911": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "11",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "38",
+        "nb_wins": 0
+      }
+    },
+    "country": "29/06/1881",
+    "birthdate": "24/04/1939",
+    "deathdate": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix.",
+    "bio": null
+  },
+  "louison-bobet": {
+    "id": "louison-bobet",
+    "years": {
+      "1947": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1948": {
+        "position": "4",
+        "nb_wins": 2
+      },
+      "1949": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1950": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1951": {
+        "position": "20",
+        "nb_wins": 1
+      },
+      "1952": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1953": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1954": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1955": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1956": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1957": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1958": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1959": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "12/03/1925",
+    "birthdate": "13/03/1983",
+    "deathdate": null,
+    "bio": null
+  },
+  "lucien-aimar": {
+    "id": "lucien-aimar",
+    "years": {
+      "1965": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1966": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "1967": {
+        "position": "6",
+        "nb_wins": 1
+      },
+      "1968": {
+        "position": "7",
+        "nb_wins": 0
+      },
+      "1969": {
+        "position": "30",
+        "nb_wins": 0
+      },
+      "1970": {
+        "position": "17",
+        "nb_wins": 0
+      },
+      "1971": {
+        "position": "9",
+        "nb_wins": 0
+      },
+      "1972": {
+        "position": "17",
+        "nb_wins": 0
+      },
+      "1973": {
+        "position": "17",
+        "nb_wins": 0
+      }
+    },
+    "country": "28/04/1941",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "lucien-buysse": {
+    "id": "lucien-buysse",
+    "years": {
+      "1914": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1919": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1920": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1921": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1922": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1923": {
+        "position": "8",
+        "nb_wins": 1
+      },
+      "1924": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1925": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1926": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1927": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1928": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1929": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1930": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "11/09/1892",
+    "birthdate": "03/01/1980",
+    "deathdate": null,
+    "bio": null
+  },
+  "lucien-petit-breton": {
+    "id": "lucien-petit-breton",
+    "years": {
+      "1905": {
+        "position": "5",
+        "nb_wins": 0
+      },
+      "1906": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1907": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1908": {
+        "position": "1",
+        "nb_wins": 5
+      },
+      "1909": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1910": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1911": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1914": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "18/10/1882",
+    "birthdate": "20/12/1917",
+    "deathdate": "Ce double vainqueur du Tour est mort pour la France en 1917.",
+    "bio": null
+  },
+  "lucien-van-impe": {
+    "id": "lucien-van-impe",
+    "years": {
+      "1969": {
+        "position": "12",
+        "nb_wins": 0
+      },
+      "1970": {
+        "position": "6",
+        "nb_wins": 0
+      },
+      "1971": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1972": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1973": {
+        "position": "5",
+        "nb_wins": 1
+      },
+      "1974": {
+        "position": "18",
+        "nb_wins": 0
+      },
+      "1975": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1976": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1977": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1978": {
+        "position": "9",
+        "nb_wins": 0
+      },
+      "1979": {
+        "position": "11",
+        "nb_wins": 1
+      },
+      "1980": {
+        "position": "16",
+        "nb_wins": 0
+      },
+      "1981": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1982": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1983": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1984": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1985": {
+        "position": "27",
+        "nb_wins": 0
+      }
+    },
+    "country": "20/10/1946",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "marco-pantani": {
+    "id": "marco-pantani",
+    "years": {
+      "1994": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1995": {
+        "position": "13",
+        "nb_wins": 2
+      },
+      "1996": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1997": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1998": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1999": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2000": {
+        "position": "Abandon",
+        "nb_wins": 2
+      }
+    },
+    "country": "13/01/1970",
+    "birthdate": "14/02/2004",
+    "deathdate": null,
+    "bio": null
+  },
+  "maurice-de-waele": {
+    "id": "maurice-de-waele",
+    "years": {
+      "1927": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1928": {
+        "position": "3",
+        "nb_wins": 2
+      },
+      "1929": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1930": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1931": {
+        "position": "5",
+        "nb_wins": 0
+      }
+    },
+    "country": "27/12/1896",
+    "birthdate": "14/02/1952",
+    "deathdate": null,
+    "bio": null
+  },
+  "maurice-garin": {
+    "id": "maurice-garin",
+    "years": {
+      "1903": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1904": {
+        "position": "Disqualifié",
+        "nb_wins": 0
+      }
+    },
+    "country": "03/03/1871",
+    "birthdate": "19/02/1957",
+    "deathdate": "Le premier vainqueur de l'histoire du Tour de France.",
+    "bio": null
+  },
+  "miguel-indurain": {
+    "id": "miguel-indurain",
+    "years": {
+      "1985": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1986": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1987": {
+        "position": "97",
+        "nb_wins": 0
+      },
+      "1988": {
+        "position": "47",
+        "nb_wins": 0
+      },
+      "1989": {
+        "position": "17",
+        "nb_wins": 1
+      },
+      "1990": {
+        "position": "10",
+        "nb_wins": 1
+      },
+      "1991": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1992": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1993": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1994": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1995": {
+        "position": "1",
+        "nb_wins": 2
+      },
+      "1996": {
+        "position": "11",
+        "nb_wins": 0
+      }
+    },
+    "country": "16/07/1964",
+    "birthdate": null,
+    "deathdate": "Le premier coureur à reporter le Tour cinq fois consécutivement.",
+    "bio": null
+  },
+  "nicolas-frantz": {
+    "id": "nicolas-frantz",
+    "years": {
+      "1924": {
+        "position": "2",
+        "nb_wins": 2
+      },
+      "1925": {
+        "position": "4",
+        "nb_wins": 4
+      },
+      "1926": {
+        "position": "2",
+        "nb_wins": 5
+      },
+      "1927": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1928": {
+        "position": "1",
+        "nb_wins": 5
+      },
+      "1929": {
+        "position": "5",
+        "nb_wins": 2
+      },
+      "1930": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1931": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1932": {
+        "position": "45",
+        "nb_wins": 0
+      }
+    },
+    "country": "04/11/1899",
+    "birthdate": "08/11/1985",
+    "deathdate": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928.",
+    "bio": null
+  },
+  "octave-lapize": {
+    "id": "octave-lapize",
+    "years": {
+      "1909": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1910": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1911": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1913": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1914": {
+        "position": "Abandon",
+        "nb_wins": 1
+      }
+    },
+    "country": "24/10/1887",
+    "birthdate": "14 juillet 1917 à Toul",
+    "deathdate": "Ce vainqueur du Tour est mort pour la France en 1917.",
+    "bio": null
+  },
+  "odile-defraye": {
+    "id": "odile-defraye",
+    "years": {
+      "1909": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1910": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1911": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1912": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1913": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1914": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1919": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1920": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1921": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1922": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1923": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1924": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "14/07/1888",
+    "birthdate": "21/08/1965",
+    "deathdate": "Le premier coureur belge à remporter le Tour.",
+    "bio": null
+  },
+  "oscar-pereiro": {
+    "id": "oscar-pereiro",
+    "years": {
+      "2004": {
+        "position": "10",
+        "nb_wins": 0
+      },
+      "2005": {
+        "position": "10",
+        "nb_wins": 1
+      },
+      "2006": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "2007": {
+        "position": "10",
+        "nb_wins": 0
+      },
+      "2008": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "03/08/1977",
+    "birthdate": null,
+    "deathdate": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage.",
+    "bio": null
+  },
+  "ottavio-bottecchia": {
+    "id": "ottavio-bottecchia",
+    "years": {
+      "1923": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1924": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1925": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1926": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "01/08/1894",
+    "birthdate": "15/06/1927",
+    "deathdate": "Le premier coureur italien à remporter le Tour.",
+    "bio": null
+  },
+  "pedro-delgado": {
+    "id": "pedro-delgado",
+    "years": {
+      "1983": {
+        "position": "15",
+        "nb_wins": 0
+      },
+      "1984": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1985": {
+        "position": "6",
+        "nb_wins": 1
+      },
+      "1986": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1987": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1988": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1989": {
+        "position": "3",
+        "nb_wins": 0
+      },
+      "1990": {
+        "position": "4",
+        "nb_wins": 0
+      },
+      "1991": {
+        "position": "9",
+        "nb_wins": 0
+      },
+      "1992": {
+        "position": "6",
+        "nb_wins": 0
+      },
+      "1993": {
+        "position": "9",
+        "nb_wins": 0
+      }
+    },
+    "country": "15/04/1960",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "philippe-thys": {
+    "id": "philippe-thys",
+    "years": {
+      "1912": {
+        "position": "6",
+        "nb_wins": 0
+      },
+      "1913": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1914": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1919": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1920": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1921": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1922": {
+        "position": "14",
+        "nb_wins": 5
+      },
+      "1923": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1924": {
+        "position": "11",
+        "nb_wins": 2
+      },
+      "1925": {
+        "position": "Abandon",
+        "nb_wins": 0
+      }
+    },
+    "country": "08/10/1889",
+    "birthdate": "17/01/1971",
+    "deathdate": "Le premier triple vainqueur du Tour.",
+    "bio": null
+  },
+  "rene-pottier": {
+    "id": "rene-pottier",
+    "years": {
+      "1905": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1906": {
+        "position": "1",
+        "nb_wins": 5
+      }
+    },
+    "country": "05/06/1879",
+    "birthdate": "25/01/1907",
+    "deathdate": null,
+    "bio": null
+  },
+  "roger-lapebie": {
+    "id": "roger-lapebie",
+    "years": {
+      "1932": {
+        "position": "23",
+        "nb_wins": 1
+      },
+      "1933": {
+        "position": "29",
+        "nb_wins": 0
+      },
+      "1934": {
+        "position": "3",
+        "nb_wins": 5
+      },
+      "1935": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1936": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1937": {
+        "position": "1",
+        "nb_wins": 3
+      }
+    },
+    "country": "16/01/1911",
+    "birthdate": "12/10/1996",
+    "deathdate": null,
+    "bio": null
+  },
+  "roger-pingeon": {
+    "id": "roger-pingeon",
+    "years": {
+      "1965": {
+        "position": "12",
+        "nb_wins": 0
+      },
+      "1966": {
+        "position": "8",
+        "nb_wins": 0
+      },
+      "1967": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1968": {
+        "position": "5",
+        "nb_wins": 2
+      },
+      "1969": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "1970": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1971": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1972": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1973": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1974": {
+        "position": "11",
+        "nb_wins": 0
+      }
+    },
+    "country": "28/08/1940",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "roger-walkowiak": {
+    "id": "roger-walkowiak",
+    "years": {
+      "1951": {
+        "position": "57",
+        "nb_wins": 0
+      },
+      "1952": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1953": {
+        "position": "47",
+        "nb_wins": 0
+      },
+      "1954": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1955": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1956": {
+        "position": "1",
+        "nb_wins": 0
+      },
+      "1957": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1958": {
+        "position": "75",
+        "nb_wins": 0
+      }
+    },
+    "country": "02/03/1927",
+    "birthdate": null,
+    "deathdate": null,
+    "bio": null
+  },
+  "romain-maes": {
+    "id": "romain-maes",
+    "years": {
+      "1934": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1935": {
+        "position": "1",
+        "nb_wins": 3
+      },
+      "1936": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1937": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1938": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1939": {
+        "position": "Abandon",
+        "nb_wins": 1
+      }
+    },
+    "country": "10/08/1912",
+    "birthdate": "22/02/1983",
+    "deathdate": null,
+    "bio": null
+  },
+  "stephen-roche": {
+    "id": "stephen-roche",
+    "years": {
+      "1983": {
+        "position": "13",
+        "nb_wins": 0
+      },
+      "1984": {
+        "position": "25",
+        "nb_wins": 0
+      },
+      "1985": {
+        "position": "3",
+        "nb_wins": 1
+      },
+      "1986": {
+        "position": "46",
+        "nb_wins": 0
+      },
+      "1987": {
+        "position": "1",
+        "nb_wins": 1
+      },
+      "1988": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "1989": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1990": {
+        "position": "44",
+        "nb_wins": 0
+      },
+      "1991": {
+        "position": "Abandon",
+        "nb_wins": 0
+      },
+      "1992": {
+        "position": "9",
+        "nb_wins": 1
+      },
+      "1993": {
+        "position": "13",
+        "nb_wins": 0
+      }
+    },
+    "country": "28/11/1959",
+    "birthdate": null,
+    "deathdate": "Le premier coureur irlandais à remporter le Tour.",
+    "bio": null
+  },
+  "sylvere-maes": {
+    "id": "sylvere-maes",
+    "years": {
+      "1934": {
+        "position": "8",
+        "nb_wins": 1
+      },
+      "1935": {
+        "position": "4",
+        "nb_wins": 1
+      },
+      "1936": {
+        "position": "1",
+        "nb_wins": 4
+      },
+      "1937": {
+        "position": "Abandon",
+        "nb_wins": 1
+      },
+      "1938": {
+        "position": "14",
+        "nb_wins": 0
+      },
+      "1939": {
+        "position": "1",
+        "nb_wins": 2
+      }
+    },
+    "country": "22/08/1909",
+    "birthdate": "05/12/1966",
+    "deathdate": null,
+    "bio": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "louis-trousselier",
+  "years": {
+    "1905": {
+      "position": "1",
+      "nb_wins": 5
+    },
+    "1906": {
+      "position": "3",
+      "nb_wins": 4
+    },
+    "1907": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1908": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1909": {
+      "position": "8",
+      "nb_wins": 1
+    },
+    "1910": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1911": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1912": {
+      "position": "11",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "38",
+      "nb_wins": 0
+    }
+  },
+  "country": "29/06/1881",
+  "birthdate": "24/04/1939",
+  "deathdate": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix.",
+  "bio": null
+}

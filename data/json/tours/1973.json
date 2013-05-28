@@ -1,0 +1,567 @@
+{
+  "year": 1973,
+  "edition": 60,
+  "total_length": 4090,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 132,
+  "nb_finishers": 87,
+  "pct_finishers": 66,
+  "winner_first_name": "Luis",
+  "winner_last_name": "Ocaña",
+  "winner_id": "luis-ocana",
+  "winner_total_time": "122h 25' 34\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "33,407",
+  "ahead_of_2nd": "0h 15' 51\" ",
+  "second_name": "B. Thévenet",
+  "second_country": "France",
+  "second_id": "bernard-thevenet",
+  "ahead_of_3rd": "0h 17' 15\"",
+  "third_name": "J-M. Fuente",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1973-Prologue",
+      "year": 1973,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Scheveningen",
+      "start": {
+        "city": "Pays-Bas",
+        "country": "52.102402,4.302183",
+        "lat": "Scheveningen",
+        "lng": null
+      },
+      "finish": {
+        "city": "Pays-Bas",
+        "country": "52.102402,4.302183",
+        "lat": "7",
+        "lng": "1"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-1a",
+      "year": 1973,
+      "leg": "1a",
+      "leg_num": 0,
+      "title": "Scheveningen",
+      "start": {
+        "city": "Pays-Bas",
+        "country": "52.102402,4.302183",
+        "lat": "Rotterdam",
+        "lng": null
+      },
+      "finish": {
+        "city": "Pays-Bas",
+        "country": "51.924216,4.481776",
+        "lat": "84",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-1b",
+      "year": 1973,
+      "leg": "1b",
+      "leg_num": 0,
+      "title": "Rotterdam",
+      "start": {
+        "city": "Pays-Bas",
+        "country": "51.924216,4.481776",
+        "lat": "Sint-Niklaas",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "51.15,4.133333",
+        "lat": "137",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-2a",
+      "year": 1973,
+      "leg": "2a",
+      "leg_num": 0,
+      "title": "Sint-Niklaas",
+      "start": {
+        "city": "Belgique",
+        "country": "51.15,4.133333",
+        "lat": "Sint-Niklaas",
+        "lng": null
+      },
+      "finish": {
+        "city": "Belgique",
+        "country": "51.15,4.133333",
+        "lat": "12",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-2b",
+      "year": 1973,
+      "leg": "2b",
+      "leg_num": 0,
+      "title": "Sint-Niklaas",
+      "start": {
+        "city": "Belgique",
+        "country": "51.15,4.133333",
+        "lat": "Roubaix",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "138",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-03",
+      "year": 1973,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Roubaix",
+      "start": {
+        "city": "France",
+        "country": "50.692705,3.177847",
+        "lat": "Reims",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "226",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-04",
+      "year": 1973,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Reims",
+      "start": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "Nancy",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "214",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-05",
+      "year": 1973,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Nancy",
+      "start": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "Mulhouse",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.750839,7.335888",
+        "lat": "188",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-06",
+      "year": 1973,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Belfort",
+      "start": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Divonne-les-Bains",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.358168,6.13604",
+        "lat": "244",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-7a",
+      "year": 1973,
+      "leg": "7a",
+      "leg_num": 0,
+      "title": "Divonne-les-Bains",
+      "start": {
+        "city": "France",
+        "country": "46.358168,6.13604",
+        "lat": "Gaillard",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.184685,6.208959",
+        "lat": "86",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-7b",
+      "year": 1973,
+      "leg": "7b",
+      "leg_num": 0,
+      "title": "Gaillard",
+      "start": {
+        "city": "France",
+        "country": "46.184685,6.208959",
+        "lat": "Méribel",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.397528,6.56436",
+        "lat": "150",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-08",
+      "year": 1973,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Moûtiers",
+      "start": {
+        "city": "France",
+        "country": "45.484615,6.529926",
+        "lat": "Les Orres",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.514098,6.551044",
+        "lat": "237",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-09",
+      "year": 1973,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Embrun",
+      "start": {
+        "city": "France",
+        "country": "44.564164,6.495865",
+        "lat": "Nice",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "234",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-10",
+      "year": 1973,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Nice",
+      "start": {
+        "city": "France",
+        "country": "43.696036,7.265592",
+        "lat": "Aubagne",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.29218,5.569336",
+        "lat": "222",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-11",
+      "year": 1973,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Montpellier",
+      "start": {
+        "city": "France",
+        "country": "43.610769,3.876716",
+        "lat": "Argelès-sur-Mer",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.546214,3.022911",
+        "lat": "238",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-12a",
+      "year": 1973,
+      "leg": "12a",
+      "leg_num": 0,
+      "title": "Perpignan",
+      "start": {
+        "city": "France",
+        "country": "42.698684,2.895872",
+        "lat": "Thuir",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.63243,2.756348",
+        "lat": "28",
+        "lng": "3"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-12b",
+      "year": 1973,
+      "leg": "12b",
+      "leg_num": 0,
+      "title": "Thuir",
+      "start": {
+        "city": "France",
+        "country": "42.63243,2.756348",
+        "lat": "Pyrénées 2000",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.520843,2.061496",
+        "lat": "76",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-13",
+      "year": 1973,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Bourg-Madame",
+      "start": {
+        "city": "France",
+        "country": "42.434397,1.944595",
+        "lat": "Luchon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "235",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-14",
+      "year": 1973,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Luchon",
+      "start": {
+        "city": "France",
+        "country": "42.788963,0.592943",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "227",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-15",
+      "year": 1973,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Fleurance",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.849456,0.663244",
+        "lat": "137",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-16a",
+      "year": 1973,
+      "leg": "16a",
+      "leg_num": 0,
+      "title": "Fleurance",
+      "start": {
+        "city": "France",
+        "country": "43.849456,0.663244",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "210",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-16b",
+      "year": 1973,
+      "leg": "16b",
+      "leg_num": 0,
+      "title": "Bordeaux",
+      "start": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "12",
+        "lng": "4"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-17",
+      "year": 1973,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Sainte-Foy-la-Grande",
+      "start": {
+        "city": "France",
+        "country": "44.841805,0.215006",
+        "lat": "Brive-la-Gaillarde",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "248",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-18",
+      "year": 1973,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Brive-la-Gaillarde",
+      "start": {
+        "city": "France",
+        "country": "45.159555,1.533937",
+        "lat": "Puy de Dôme",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "216",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-19",
+      "year": 1973,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Bourges",
+      "start": {
+        "city": "France",
+        "country": "47.081012,2.398782",
+        "lat": "Versailles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "233",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-20a",
+      "year": 1973,
+      "leg": "20a",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Versailles",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "16",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1973-20b",
+      "year": 1973,
+      "leg": "20b",
+      "leg_num": 0,
+      "title": "Versailles",
+      "start": {
+        "city": "France",
+        "country": "48.801408,2.130122",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "89",
+        "lng": null
+      },
+      "length": 0
+    }
+  ]
+}

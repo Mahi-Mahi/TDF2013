@@ -1,0 +1,49 @@
+{
+  "id": "jan-ullrich",
+  "years": {
+    "1996": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1997": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1998": {
+      "position": "2",
+      "nb_wins": 3
+    },
+    "1999": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2000": {
+      "position": "2",
+      "nb_wins": 0
+    },
+    "2001": {
+      "position": "2",
+      "nb_wins": 0
+    },
+    "2002": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2003": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "2004": {
+      "position": "4",
+      "nb_wins": 0
+    },
+    "2005": {
+      "position": "Déclassé",
+      "nb_wins": 0
+    }
+  },
+  "country": "02/12/1973",
+  "birthdate": null,
+  "deathdate": "Le premier coureur allemand à remporter le Tour.",
+  "bio": null
+}

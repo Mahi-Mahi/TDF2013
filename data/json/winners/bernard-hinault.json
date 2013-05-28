@@ -1,0 +1,45 @@
+{
+  "id": "bernard-hinault",
+  "years": {
+    "1978": {
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1979": {
+      "position": "1",
+      "nb_wins": 7
+    },
+    "1980": {
+      "position": "Abandon",
+      "nb_wins": 3
+    },
+    "1981": {
+      "position": "1",
+      "nb_wins": 5
+    },
+    "1982": {
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1983": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1984": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1985": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1986": {
+      "position": "2",
+      "nb_wins": 3
+    }
+  },
+  "country": "14/11/1954",
+  "birthdate": null,
+  "deathdate": "Le troisième coureur à accumuler cinq victoires finales sur le Tour.",
+  "bio": null
+}

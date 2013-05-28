@@ -1,0 +1,487 @@
+{
+  "year": 1988,
+  "edition": 75,
+  "total_length": 3286,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 151,
+  "pct_finishers": 76,
+  "winner_first_name": "Pedro",
+  "winner_last_name": "Delgado",
+  "winner_id": "pedro-delgado",
+  "winner_total_time": "84h 27' 53\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,909",
+  "ahead_of_2nd": "0h 07' 13\" ",
+  "second_name": "S. Rooks",
+  "second_country": "Pays-Bas",
+  "second_id": null,
+  "ahead_of_3rd": "0h 09' 58\"",
+  "third_name": "F. Parra",
+  "third_country": "Colombie",
+  "third_id": null,
+  "legs": [
+    {
+      "id": "E-1988-Préface",
+      "year": 1988,
+      "leg": "Préface",
+      "leg_num": 0,
+      "title": "Pornichet",
+      "start": {
+        "city": "France",
+        "country": "47.263426,-2.340571",
+        "lat": "La Baule",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.285448,-2.393236",
+        "lat": "1",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-01",
+      "year": 1988,
+      "leg": "1",
+      "leg_num": 0,
+      "title": "Pontchâteau",
+      "start": {
+        "city": "France",
+        "country": "47.436929,-2.089536",
+        "lat": "Machecoul",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.992283,-1.817202",
+        "lat": "91",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-02",
+      "year": 1988,
+      "leg": "2",
+      "leg_num": 0,
+      "title": "La Haie-Fouassière",
+      "start": {
+        "city": "France",
+        "country": "47.1556,-1.399547",
+        "lat": "Ancenis",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.365464,-1.177491",
+        "lat": "48",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-03",
+      "year": 1988,
+      "leg": "3",
+      "leg_num": 0,
+      "title": "Nantes",
+      "start": {
+        "city": "France",
+        "country": "47.218371,-1.553621",
+        "lat": "Le Mans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "213",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-04",
+      "year": 1988,
+      "leg": "4",
+      "leg_num": 0,
+      "title": "Le Mans",
+      "start": {
+        "city": "France",
+        "country": "48.00611,0.199556",
+        "lat": "Évreux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.027013,1.151361",
+        "lat": "158",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-05",
+      "year": 1988,
+      "leg": "5",
+      "leg_num": 0,
+      "title": "Neufchâtel-en-Bray",
+      "start": {
+        "city": "France",
+        "country": "49.732771,1.441891",
+        "lat": "Liévin",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.417921,2.775222",
+        "lat": "147",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-06",
+      "year": 1988,
+      "leg": "6",
+      "leg_num": 0,
+      "title": "Liévin",
+      "start": {
+        "city": "France",
+        "country": "50.417921,2.775222",
+        "lat": "Wasquehal",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "52",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-07",
+      "year": 1988,
+      "leg": "7",
+      "leg_num": 0,
+      "title": "Wasquehal",
+      "start": {
+        "city": "France",
+        "country": "50.669276,3.130782",
+        "lat": "Reims",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "225",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-08",
+      "year": 1988,
+      "leg": "8",
+      "leg_num": 0,
+      "title": "Reims",
+      "start": {
+        "city": "France",
+        "country": "49.258329,4.031696",
+        "lat": "Nancy",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "219",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-09",
+      "year": 1988,
+      "leg": "9",
+      "leg_num": 0,
+      "title": "Nancy",
+      "start": {
+        "city": "France",
+        "country": "48.692054,6.184417",
+        "lat": "Strasbourg",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.583148,7.747882",
+        "lat": "160",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-10",
+      "year": 1988,
+      "leg": "10",
+      "leg_num": 0,
+      "title": "Belfort",
+      "start": {
+        "city": "France",
+        "country": "47.639674,6.863849",
+        "lat": "Besançon",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "149",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-11",
+      "year": 1988,
+      "leg": "11",
+      "leg_num": 0,
+      "title": "Besançon",
+      "start": {
+        "city": "France",
+        "country": "47.237829,6.024054",
+        "lat": "Morzine",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "232",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-12",
+      "year": 1988,
+      "leg": "12",
+      "leg_num": 0,
+      "title": "Morzine",
+      "start": {
+        "city": "France",
+        "country": "46.179192,6.708877",
+        "lat": "L'Alpe d'Huez",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.092624,6.068348",
+        "lat": "227",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-13",
+      "year": 1988,
+      "leg": "13",
+      "leg_num": 0,
+      "title": "Grenoble",
+      "start": {
+        "city": "France",
+        "country": "45.188529,5.724524",
+        "lat": "Villard-de-Lans",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.070641,5.55227",
+        "lat": "38",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-14",
+      "year": 1988,
+      "leg": "14",
+      "leg_num": 0,
+      "title": "Blagnac",
+      "start": {
+        "city": "France",
+        "country": "43.635087,1.39703",
+        "lat": "Guzet-Neige",
+        "lng": " Ustou"
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.779877,1.299708",
+        "lat": "163",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-15",
+      "year": 1988,
+      "leg": "15",
+      "leg_num": 0,
+      "title": "Saint-Girons",
+      "start": {
+        "city": "France",
+        "country": "42.982876,1.146088",
+        "lat": "Luz-Ardiden",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "42.885105,-0.061335",
+        "lat": "187",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-16",
+      "year": 1988,
+      "leg": "16",
+      "leg_num": 0,
+      "title": "Tarbes",
+      "start": {
+        "city": "France",
+        "country": "43.232951,0.078082",
+        "lat": "Pau",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "38",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-17",
+      "year": 1988,
+      "leg": "17",
+      "leg_num": 0,
+      "title": "Pau",
+      "start": {
+        "city": "France",
+        "country": "43.2951,-0.370797",
+        "lat": "Bordeaux",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "44.837789,-0.57918",
+        "lat": "210",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-18",
+      "year": 1988,
+      "leg": "18",
+      "leg_num": 0,
+      "title": "Ruelle-sur-Touvre",
+      "start": {
+        "city": "France",
+        "country": "45.676762,0.219218",
+        "lat": "Limoges",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "93",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-19",
+      "year": 1988,
+      "leg": "19",
+      "leg_num": 0,
+      "title": "Limoges",
+      "start": {
+        "city": "France",
+        "country": "45.833619,1.261105",
+        "lat": "Puy de Dôme",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "45.77207,2.96974",
+        "lat": "188",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-20",
+      "year": 1988,
+      "leg": "20",
+      "leg_num": 0,
+      "title": "Clermont-Ferrand",
+      "start": {
+        "city": "France",
+        "country": "45.777222,3.087025",
+        "lat": "Chalon-sur-Saône",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.780764,4.853947",
+        "lat": "223",
+        "lng": "5"
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-21",
+      "year": 1988,
+      "leg": "21",
+      "leg_num": 0,
+      "title": "Santenay",
+      "start": {
+        "city": "France",
+        "country": "46.912833,4.696534",
+        "lat": "Santenay",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "46.912833,4.696534",
+        "lat": "46",
+        "lng": null
+      },
+      "length": 0
+    },
+    {
+      "id": "E-1988-22",
+      "year": 1988,
+      "leg": "22",
+      "leg_num": 0,
+      "title": "Nemours",
+      "start": {
+        "city": "France",
+        "country": "48.267043,2.692611",
+        "lat": "Paris",
+        "lng": null
+      },
+      "finish": {
+        "city": "France",
+        "country": "48.856614,2.352222",
+        "lat": "172",
+        "lng": "5"
+      },
+      "length": 0
+    }
+  ]
+}
