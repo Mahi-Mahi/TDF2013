@@ -23,6 +23,425 @@
   "third_country": "n.a.",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2013-01",
+      "year": 2013,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Porto-Vecchio - Bastia",
+      "start": {
+        "city": "Porto-Vecchio",
+        "country": "France",
+        "lat": "41.591369",
+        "lng": "9.278311"
+      },
+      "finish": {
+        "city": "Bastia",
+        "country": "France",
+        "lat": "42.697283",
+        "lng": "9.450881"
+      },
+      "length": 212
+    },
+    {
+      "id": "E-2013-02",
+      "year": 2013,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Bastia - Ajaccio",
+      "start": {
+        "city": "Bastia",
+        "country": "France",
+        "lat": "42.697283",
+        "lng": "9.450881"
+      },
+      "finish": {
+        "city": "Ajaccio",
+        "country": "France",
+        "lat": "41.919229",
+        "lng": "8.738635"
+      },
+      "length": 154
+    },
+    {
+      "id": "E-2013-03",
+      "year": 2013,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Ajaccio - Calvi",
+      "start": {
+        "city": "Ajaccio",
+        "country": "France",
+        "lat": "41.919229",
+        "lng": "8.738635"
+      },
+      "finish": {
+        "city": "Calvi",
+        "country": "France",
+        "lat": "42.567651",
+        "lng": "8.757222"
+      },
+      "length": 145
+    },
+    {
+      "id": "E-2013-04",
+      "year": 2013,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Nice - Nice",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 25
+    },
+    {
+      "id": "E-2013-05",
+      "year": 2013,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Cagnes-sur-Mer - Marseille",
+      "start": {
+        "city": "Cagnes-sur-Mer",
+        "country": "France",
+        "lat": "43.663739",
+        "lng": "7.14882"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-2013-06",
+      "year": 2013,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Aix-en-Provence - Montpellier",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lat": "43.529742",
+        "lng": "5.447427"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 176
+    },
+    {
+      "id": "E-2013-07",
+      "year": 2013,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Montpellier - Albi",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lat": "43.926896",
+        "lng": "2.146343"
+      },
+      "length": 205
+    },
+    {
+      "id": "E-2013-08",
+      "year": 2013,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Castres - Ax 3 Domaines",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lat": "43.606214",
+        "lng": "2.241295"
+      },
+      "finish": {
+        "city": "Ax 3 Domaines",
+        "country": "France",
+        "lat": "42.699657",
+        "lng": "1.81283"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-2013-09",
+      "year": 2013,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Saint-Girons - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Saint-Girons",
+        "country": "France",
+        "lat": "42.982876",
+        "lng": "1.146088"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-2013-10",
+      "year": 2013,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Saint-Gildas-des-Bois - Saint-Malo",
+      "start": {
+        "city": "Saint-Gildas-des-Bois",
+        "country": "France",
+        "lat": "47.517319",
+        "lng": "-2.037288"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 193
+    },
+    {
+      "id": "E-2013-11",
+      "year": 2013,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Avranches - Mont-Saint-Michel",
+      "start": {
+        "city": "Avranches",
+        "country": "France",
+        "lat": "48.686843",
+        "lng": "-1.36166"
+      },
+      "finish": {
+        "city": "Mont-Saint-Michel",
+        "country": "France",
+        "lat": "48.636063",
+        "lng": "-1.511457"
+      },
+      "length": 33
+    },
+    {
+      "id": "E-2013-12",
+      "year": 2013,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Fougères - Tours",
+      "start": {
+        "city": "Fougères",
+        "country": "France",
+        "lat": "48.351561",
+        "lng": "-1.204626"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lat": "47.394144",
+        "lng": "0.68484"
+      },
+      "length": 218
+    },
+    {
+      "id": "E-2013-13",
+      "year": 2013,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Tours - Saint-Amand-Montrond",
+      "start": {
+        "city": "Tours",
+        "country": "France",
+        "lat": "47.394144",
+        "lng": "0.68484"
+      },
+      "finish": {
+        "city": "Saint-Amand-Montrond",
+        "country": "France",
+        "lat": "46.725486",
+        "lng": "2.505604"
+      },
+      "length": 173
+    },
+    {
+      "id": "E-2013-14",
+      "year": 2013,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Saint-Pourçain-sur-Sioule - Lyon",
+      "start": {
+        "city": "Saint-Pourçain-sur-Sioule",
+        "country": "France",
+        "lat": "46.307204",
+        "lng": "3.288997"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 191
+    },
+    {
+      "id": "E-2013-15",
+      "year": 2013,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Givors - Mont Ventoux",
+      "start": {
+        "city": "Givors",
+        "country": "France",
+        "lat": "45.58329",
+        "lng": "4.772829"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 242
+    },
+    {
+      "id": "E-2013-16",
+      "year": 2013,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Vaison-la-Romaine - Gap",
+      "start": {
+        "city": "Vaison-la-Romaine",
+        "country": "France",
+        "lat": "44.240968",
+        "lng": "5.075198"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 168
+    },
+    {
+      "id": "E-2013-17",
+      "year": 2013,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Embrun - Chorges",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lat": "44.564164",
+        "lng": "6.495865"
+      },
+      "finish": {
+        "city": "Chorges",
+        "country": "France",
+        "lat": "44.545716",
+        "lng": "6.275548"
+      },
+      "length": 32
+    },
+    {
+      "id": "E-2013-18",
+      "year": 2013,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Gap - Alpe d'Huez",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 168
+    },
+    {
+      "id": "E-2013-19",
+      "year": 2013,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Bourg-d'Oisans - Le Grand-Bornand",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lat": "45.942027",
+        "lng": "6.426699"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-2013-20",
+      "year": 2013,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Annecy - Annecy - Semnoz",
+      "start": {
+        "city": "Annecy",
+        "country": "France",
+        "lat": "45.899247",
+        "lng": "6.129384"
+      },
+      "finish": {
+        "city": "Semnoz",
+        "country": "France",
+        "lat": "45.797222",
+        "lng": "6.104722"
+      },
+      "length": 125
+    },
+    {
+      "id": "E-2013-21",
+      "year": 2013,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Versailles - Paris Champs-Élysées",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lat": "48.801408",
+        "lng": "2.130122"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 118
+    }
   ]
 }

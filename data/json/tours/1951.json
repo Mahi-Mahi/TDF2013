@@ -23,6 +23,485 @@
   "third_country": "France",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1951-01",
+      "year": 1951,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Metz - Reims",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-1951-02",
+      "year": 1951,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Reims - Gand (Bel.)",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "finish": {
+        "city": "Gand",
+        "country": "Belgique",
+        "lat": "51.053468",
+        "lng": "3.73038"
+      },
+      "length": 228
+    },
+    {
+      "id": "E-1951-03",
+      "year": 1951,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Gand (Bel.) - Le Tréport",
+      "start": {
+        "city": "Gand",
+        "country": "Belgique",
+        "lat": "51.053468",
+        "lng": "3.73038"
+      },
+      "finish": {
+        "city": "Le Tréport",
+        "country": "France",
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1951-04",
+      "year": 1951,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Le Tréport - Paris",
+      "start": {
+        "city": "Le Tréport",
+        "country": "France",
+        "lat": "50.05917",
+        "lng": "1.382472"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 188
+    },
+    {
+      "id": "E-1951-05",
+      "year": 1951,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1951-06",
+      "year": 1951,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Caen - Rennes",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "length": 182
+    },
+    {
+      "id": "E-1951-07",
+      "year": 1951,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "La Guerche-de-Bretagne - Angers",
+      "start": {
+        "city": "La Guerche-de-Bretagne",
+        "country": "France",
+        "lat": "47.941933",
+        "lng": "-1.230696"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 85
+    },
+    {
+      "id": "E-1951-08",
+      "year": 1951,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Angers - Limoges",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 241
+    },
+    {
+      "id": "E-1951-09",
+      "year": 1951,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Limoges - Clermont-Ferrand",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "length": 236
+    },
+    {
+      "id": "E-1951-10",
+      "year": 1951,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Clermont-Ferrand - Brive-la-Gaillarde",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "finish": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lat": "45.159555",
+        "lng": "1.533937"
+      },
+      "length": 216
+    },
+    {
+      "id": "E-1951-11",
+      "year": 1951,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Brive-la-Gaillarde - Agen",
+      "start": {
+        "city": "Brive-la-Gaillarde",
+        "country": "France",
+        "lat": "45.159555",
+        "lng": "1.533937"
+      },
+      "finish": {
+        "city": "Agen",
+        "country": "France",
+        "lat": "44.203142",
+        "lng": "0.616363"
+      },
+      "length": 177
+    },
+    {
+      "id": "E-1951-12",
+      "year": 1951,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Agen - Dax",
+      "start": {
+        "city": "Agen",
+        "country": "France",
+        "lat": "44.203142",
+        "lng": "0.616363"
+      },
+      "finish": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1951-13",
+      "year": 1951,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Dax - Tarbes",
+      "start": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "finish": {
+        "city": "Tarbes",
+        "country": "France",
+        "lat": "43.232951",
+        "lng": "0.078082"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1951-14",
+      "year": 1951,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Tarbes - Luchon",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lat": "43.232951",
+        "lng": "0.078082"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 178
+    },
+    {
+      "id": "E-1951-15",
+      "year": 1951,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Luchon - Carcassonne",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lat": "43.212161",
+        "lng": "2.353663"
+      },
+      "length": 213
+    },
+    {
+      "id": "E-1951-16",
+      "year": 1951,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Carcassonne - Montpellier",
+      "start": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lat": "43.212161",
+        "lng": "2.353663"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-1951-17",
+      "year": 1951,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Montpellier - Avignon",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Avignon",
+        "country": "France",
+        "lat": "43.949317",
+        "lng": "4.805528"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-1951-18",
+      "year": 1951,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Avignon - Marseille",
+      "start": {
+        "city": "Avignon",
+        "country": "France",
+        "lat": "43.949317",
+        "lng": "4.805528"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 173
+    },
+    {
+      "id": "E-1951-19",
+      "year": 1951,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Marseille - Gap",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 208
+    },
+    {
+      "id": "E-1951-20",
+      "year": 1951,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-1951-21",
+      "year": 1951,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1951-22",
+      "year": 1951,
+      "leg": "22",
+      "leg_num": 22,
+      "title": "Aix-les-Bains - Genève (Sui.)",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
+      },
+      "length": 98
+    },
+    {
+      "id": "E-1951-23",
+      "year": 1951,
+      "leg": "23",
+      "leg_num": 23,
+      "title": "Genève (Sui.) - Dijon",
+      "start": {
+        "city": "Genève",
+        "country": "Suisse",
+        "lat": "46.198392",
+        "lng": "6.142296"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-1951-24",
+      "year": 1951,
+      "leg": "24",
+      "leg_num": 24,
+      "title": "Dijon - Paris",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 354
+    }
   ]
 }

@@ -23,6 +23,505 @@
   "third_country": "Portugal",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1978-Prologue",
+      "year": 1978,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Leiden (P.-B.)",
+      "start": {
+        "city": "Leiden",
+        "country": "Pays-Bas",
+        "lat": "52.158494",
+        "lng": "4.496199"
+      },
+      "finish": {
+        "city": "Leiden",
+        "country": "Pays-bas",
+        "lat": "52.158494",
+        "lng": "4.496199"
+      },
+      "length": 5
+    },
+    {
+      "id": "E-1978-1a",
+      "year": 1978,
+      "leg": "1a",
+      "leg_num": 1,
+      "title": "Leiden (P.-B.) - Sint Willebrord (P.-B.)",
+      "start": {
+        "city": "Leiden",
+        "country": "Pays-Bas",
+        "lat": "52.158494",
+        "lng": "4.496199"
+      },
+      "finish": {
+        "city": "Sint Willebrord",
+        "country": "Pays-bas",
+        "lat": "51.551778",
+        "lng": "4.58975"
+      },
+      "length": 135
+    },
+    {
+      "id": "E-1978-1b",
+      "year": 1978,
+      "leg": "1b",
+      "leg_num": 2,
+      "title": "Sint Willebrord (P.-B.) - Bruxelles (Bel.)",
+      "start": {
+        "city": "Sint Willebrord",
+        "country": "Pays-Bas",
+        "lat": "51.551778",
+        "lng": "4.58975"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "length": 100
+    },
+    {
+      "id": "E-1978-02",
+      "year": 1978,
+      "leg": "2",
+      "leg_num": 3,
+      "title": "Bruxelles (Bel.) - Saint-Amand-les-Eaux",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Saint-Amand-les-Eaux",
+        "country": "France",
+        "lat": "50.448979",
+        "lng": "3.428713"
+      },
+      "length": 299
+    },
+    {
+      "id": "E-1978-03",
+      "year": 1978,
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Saint-Amand-les-Eaux - Saint-Germain-en-Laye",
+      "start": {
+        "city": "Saint-Amand-les-Eaux",
+        "country": "France",
+        "lat": "50.448979",
+        "lng": "3.428713"
+      },
+      "finish": {
+        "city": "Saint-Germain-en-Laye",
+        "country": "France",
+        "lat": "48.898908",
+        "lng": "2.093761"
+      },
+      "length": 243
+    },
+    {
+      "id": "E-1978-04",
+      "year": 1978,
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Évreux - Caen",
+      "start": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 153
+    },
+    {
+      "id": "E-1978-05",
+      "year": 1978,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Caen - Mazé-Montgeoffroy",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Mazé-Montgeoffroy",
+        "country": "France",
+        "lat": "47.468481",
+        "lng": "-0.277046"
+      },
+      "length": 244
+    },
+    {
+      "id": "E-1978-06",
+      "year": 1978,
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Mazé-Montgeoffroy - Poitiers",
+      "start": {
+        "city": "Mazé-Montgeoffroy",
+        "country": "France",
+        "lat": "47.468481",
+        "lng": "-0.277046"
+      },
+      "finish": {
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
+      },
+      "length": 162
+    },
+    {
+      "id": "E-1978-07",
+      "year": 1978,
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Poitiers - Bordeaux",
+      "start": {
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 242
+    },
+    {
+      "id": "E-1978-08",
+      "year": 1978,
+      "leg": "8",
+      "leg_num": 9,
+      "title": "Saint-Émilion - Sainte-Foy-la-Grande",
+      "start": {
+        "city": "Saint-Émilion",
+        "country": "France",
+        "lat": "44.894387",
+        "lng": "-0.155729"
+      },
+      "finish": {
+        "city": "Sainte-Foy-la-Grande",
+        "country": "France",
+        "lat": "44.841805",
+        "lng": "0.215006"
+      },
+      "length": 59
+    },
+    {
+      "id": "E-1978-09",
+      "year": 1978,
+      "leg": "9",
+      "leg_num": 10,
+      "title": "Bordeaux - Biarritz",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Biarritz",
+        "country": "France",
+        "lat": "43.483152",
+        "lng": "-1.558626"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1978-10",
+      "year": 1978,
+      "leg": "10",
+      "leg_num": 11,
+      "title": "Biarritz - Pau",
+      "start": {
+        "city": "Biarritz",
+        "country": "France",
+        "lat": "43.483152",
+        "lng": "-1.558626"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 191
+    },
+    {
+      "id": "E-1978-11",
+      "year": 1978,
+      "leg": "11",
+      "leg_num": 12,
+      "title": "Pau - Saint-Lary-Soulan",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lat": "42.815835",
+        "lng": "0.320251"
+      },
+      "length": 161
+    },
+    {
+      "id": "E-1978-12a",
+      "year": 1978,
+      "leg": "12a",
+      "leg_num": 13,
+      "title": "Tarbes - Valence-d'Agen",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lat": "43.232951",
+        "lng": "0.078082"
+      },
+      "finish": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "length": 158
+    },
+    {
+      "id": "E-1978-12b",
+      "year": 1978,
+      "leg": "12b",
+      "leg_num": 14,
+      "title": "Valence-d'Agen - Toulouse",
+      "start": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 96
+    },
+    {
+      "id": "E-1978-13",
+      "year": 1978,
+      "leg": "13",
+      "leg_num": 15,
+      "title": "Figeac - Super Besse",
+      "start": {
+        "city": "Figeac",
+        "country": "France",
+        "lat": "44.608288",
+        "lng": "2.032871"
+      },
+      "finish": {
+        "city": "Super Besse",
+        "country": "France",
+        "lat": "45.508022",
+        "lng": "2.861518"
+      },
+      "length": 221
+    },
+    {
+      "id": "E-1978-14",
+      "year": 1978,
+      "leg": "14",
+      "leg_num": 16,
+      "title": "Besse-en-Chandesse - Puy de Dôme",
+      "start": {
+        "city": "Besse-en-Chandesse",
+        "country": "France",
+        "lat": "45.510908",
+        "lng": "2.933859"
+      },
+      "finish": {
+        "city": "Puy de Dôme",
+        "country": "France",
+        "lat": "45.77207",
+        "lng": "2.96974"
+      },
+      "length": 52
+    },
+    {
+      "id": "E-1978-15",
+      "year": 1978,
+      "leg": "15",
+      "leg_num": 17,
+      "title": "Saint-Dier-d'Auvergne - Saint-Étienne",
+      "start": {
+        "city": "Saint-Dier-d'Auvergne",
+        "country": "France",
+        "lat": "45.675563",
+        "lng": "3.482832"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-1978-16",
+      "year": 1978,
+      "leg": "16",
+      "leg_num": 18,
+      "title": "Saint-Étienne - L'Alpe d'Huez",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 240
+    },
+    {
+      "id": "E-1978-17",
+      "year": 1978,
+      "leg": "17",
+      "leg_num": 19,
+      "title": "Grenoble - Morzine",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1978-18",
+      "year": 1978,
+      "leg": "18",
+      "leg_num": 20,
+      "title": "Morzine - Lausanne (Sui.)",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "finish": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "length": 137
+    },
+    {
+      "id": "E-1978-19",
+      "year": 1978,
+      "leg": "19",
+      "leg_num": 21,
+      "title": "Lausanne (Sui.) - Belfort",
+      "start": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-1978-20",
+      "year": 1978,
+      "leg": "20",
+      "leg_num": 22,
+      "title": "Metz - Nancy",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "length": 72
+    },
+    {
+      "id": "E-1978-21",
+      "year": 1978,
+      "leg": "21",
+      "leg_num": 23,
+      "title": "Épernay - Senlis",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lat": "49.043411",
+        "lng": "3.956242"
+      },
+      "finish": {
+        "city": "Senlis",
+        "country": "France",
+        "lat": "49.205164",
+        "lng": "2.583212"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1978-22",
+      "year": 1978,
+      "leg": "22",
+      "leg_num": 24,
+      "title": "Saint-Germain-en-Laye - Paris",
+      "start": {
+        "city": "Saint-Germain-en-Laye",
+        "country": "France",
+        "lat": "48.898908",
+        "lng": "2.093761"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 161
+    }
   ]
 }

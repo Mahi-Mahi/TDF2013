@@ -23,6 +23,485 @@
   "third_country": "France",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1962-01",
+      "year": 1962,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Nancy - Spa (Bel.)",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "finish": {
+        "city": "Spa",
+        "country": "Belgique",
+        "lat": "50.49243",
+        "lng": "5.86432"
+      },
+      "length": 253
+    },
+    {
+      "id": "E-1962-2a",
+      "year": 1962,
+      "leg": "2a",
+      "leg_num": 2,
+      "title": "Spa - Herentals (Bel.)",
+      "start": {
+        "city": "Spa",
+        "country": "Belgique",
+        "lat": "50.49243",
+        "lng": "5.86432"
+      },
+      "finish": {
+        "city": "Herentals",
+        "country": "Belgique",
+        "lat": "51.176854",
+        "lng": "4.835595"
+      },
+      "length": 147
+    },
+    {
+      "id": "E-1962-2b",
+      "year": 1962,
+      "leg": "2b",
+      "leg_num": 3,
+      "title": "Herentals - Herentals",
+      "start": {
+        "city": "Herentals",
+        "country": "Belgique",
+        "lat": "51.176854",
+        "lng": "4.835595"
+      },
+      "finish": {
+        "city": "Herentals",
+        "country": "Belgique",
+        "lat": "51.176854",
+        "lng": "4.835595"
+      },
+      "length": 23
+    },
+    {
+      "id": "E-1962-03",
+      "year": 1962,
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Bruxelles (Bel.) - Amiens",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-1962-04",
+      "year": 1962,
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Amiens - Le Havre",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-1962-05",
+      "year": 1962,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Pont-l'Évêque - Saint-Malo",
+      "start": {
+        "city": "Pont-l'Évêque",
+        "country": "France",
+        "lat": "49.284982",
+        "lng": "0.182766"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1962-06",
+      "year": 1962,
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Dinard - Brest",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 235
+    },
+    {
+      "id": "E-1962-07",
+      "year": 1962,
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Quimper - Saint-Nazaire",
+      "start": {
+        "city": "Quimper",
+        "country": "France",
+        "lat": "47.997542",
+        "lng": "-4.097899"
+      },
+      "finish": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lat": "47.273498",
+        "lng": "-2.213848"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1962-8a",
+      "year": 1962,
+      "leg": "8a",
+      "leg_num": 9,
+      "title": "Saint-Nazaire - Luçon",
+      "start": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lat": "47.273498",
+        "lng": "-2.213848"
+      },
+      "finish": {
+        "city": "Luçon",
+        "country": "France",
+        "lat": "46.454772",
+        "lng": "-1.167062"
+      },
+      "length": 155
+    },
+    {
+      "id": "E-1962-8b",
+      "year": 1962,
+      "leg": "8b",
+      "leg_num": 10,
+      "title": "Luçon - La Rochelle",
+      "start": {
+        "city": "Luçon",
+        "country": "France",
+        "lat": "46.454772",
+        "lng": "-1.167062"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 43
+    },
+    {
+      "id": "E-1962-09",
+      "year": 1962,
+      "leg": "9",
+      "leg_num": 11,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 214
+    },
+    {
+      "id": "E-1962-10",
+      "year": 1962,
+      "leg": "10",
+      "leg_num": 12,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 184
+    },
+    {
+      "id": "E-1962-11",
+      "year": 1962,
+      "leg": "11",
+      "leg_num": 13,
+      "title": "Bayonne - Pau",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 155
+    },
+    {
+      "id": "E-1962-12",
+      "year": 1962,
+      "leg": "12",
+      "leg_num": 14,
+      "title": "Pau - Saint-Gaudens",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1962-13",
+      "year": 1962,
+      "leg": "13",
+      "leg_num": 15,
+      "title": "Luchon - Superbagnères",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Superbagnères, Saint-Aventin",
+        "country": "France",
+        "lat": "42.768576",
+        "lng": "0.576927"
+      },
+      "length": 18
+    },
+    {
+      "id": "E-1962-14",
+      "year": 1962,
+      "leg": "14",
+      "leg_num": 16,
+      "title": "Luchon - Carcassonne",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lat": "43.212161",
+        "lng": "2.353663"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1962-15",
+      "year": 1962,
+      "leg": "15",
+      "leg_num": 17,
+      "title": "Carcassonne - Montpellier",
+      "start": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lat": "43.212161",
+        "lng": "2.353663"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-1962-16",
+      "year": 1962,
+      "leg": "16",
+      "leg_num": 18,
+      "title": "Montpellier - Aix-en-Provence",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lat": "43.529742",
+        "lng": "5.447427"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-1962-17",
+      "year": 1962,
+      "leg": "17",
+      "leg_num": 19,
+      "title": "Aix-en-Provence - Juan-les-Pins",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lat": "43.529742",
+        "lng": "5.447427"
+      },
+      "finish": {
+        "city": "Juan-les-Pins",
+        "country": "France",
+        "lat": "43.571111",
+        "lng": "7.109444"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1962-18",
+      "year": 1962,
+      "leg": "18",
+      "leg_num": 20,
+      "title": "Juan-les-Pins - Briançon",
+      "start": {
+        "city": "Juan-les-Pins",
+        "country": "France",
+        "lat": "43.571111",
+        "lng": "7.109444"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 241
+    },
+    {
+      "id": "E-1962-19",
+      "year": 1962,
+      "leg": "19",
+      "leg_num": 21,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1962-20",
+      "year": 1962,
+      "leg": "20",
+      "leg_num": 22,
+      "title": "Bourgoin - Lyon",
+      "start": {
+        "city": "Bourgoin",
+        "country": "France",
+        "lat": "45.597108",
+        "lng": "5.27212"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 68
+    },
+    {
+      "id": "E-1962-21",
+      "year": 1962,
+      "leg": "21",
+      "leg_num": 23,
+      "title": "Lyon - Pougues-les-Eaux",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Pougues-les-Eaux",
+        "country": "France",
+        "lat": "47.072803",
+        "lng": "3.101573"
+      },
+      "length": 232
+    },
+    {
+      "id": "E-1962-22",
+      "year": 1962,
+      "leg": "22",
+      "leg_num": 24,
+      "title": "Nevers - Paris",
+      "start": {
+        "city": "Nevers",
+        "country": "France",
+        "lat": "46.990896",
+        "lng": "3.162845"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 271
+    }
   ]
 }

@@ -23,6 +23,445 @@
   "third_country": "Belgique",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1960-1a",
+      "year": 1960,
+      "leg": "1a",
+      "leg_num": 1,
+      "title": "Lille - Bruxelles (Bel.)",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "length": 108
+    },
+    {
+      "id": "E-1960-1b",
+      "year": 1960,
+      "leg": "1b",
+      "leg_num": 2,
+      "title": "Bruxelles (Bel.) - Bruxelles (Bel.)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "length": 28
+    },
+    {
+      "id": "E-1960-02",
+      "year": 1960,
+      "leg": "2",
+      "leg_num": 3,
+      "title": "Bruxelles (Bel.) - Malo-les-Bains",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "length": 208
+    },
+    {
+      "id": "E-1960-03",
+      "year": 1960,
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Malo-les-Bains - Dieppe",
+      "start": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "finish": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "length": 209
+    },
+    {
+      "id": "E-1960-04",
+      "year": 1960,
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Dieppe - Caen",
+      "start": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 211
+    },
+    {
+      "id": "E-1960-05",
+      "year": 1960,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Caen - Saint-Malo",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-1960-06",
+      "year": 1960,
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Saint-Malo - Lorient",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "length": 191
+    },
+    {
+      "id": "E-1960-07",
+      "year": 1960,
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Lorient - Angers",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 244
+    },
+    {
+      "id": "E-1960-08",
+      "year": 1960,
+      "leg": "8",
+      "leg_num": 9,
+      "title": "Angers - Limoges",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 240
+    },
+    {
+      "id": "E-1960-09",
+      "year": 1960,
+      "leg": "9",
+      "leg_num": 10,
+      "title": "Limoges - Bordeaux",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1960-10",
+      "year": 1960,
+      "leg": "10",
+      "leg_num": 11,
+      "title": "Mont-de-Marsan - Pau",
+      "start": {
+        "city": "Mont-de-Marsan",
+        "country": "France",
+        "lat": "43.893485",
+        "lng": "-0.499782"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 228
+    },
+    {
+      "id": "E-1960-11",
+      "year": 1960,
+      "leg": "11",
+      "leg_num": 12,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 161
+    },
+    {
+      "id": "E-1960-12",
+      "year": 1960,
+      "leg": "12",
+      "leg_num": 13,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 176
+    },
+    {
+      "id": "E-1960-13",
+      "year": 1960,
+      "leg": "13",
+      "leg_num": 14,
+      "title": "Toulouse - Millau",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Millau",
+        "country": "France",
+        "lat": "44.100575",
+        "lng": "3.077801"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-1960-14",
+      "year": 1960,
+      "leg": "14",
+      "leg_num": 15,
+      "title": "Millau - Avignon",
+      "start": {
+        "city": "Millau",
+        "country": "France",
+        "lat": "44.100575",
+        "lng": "3.077801"
+      },
+      "finish": {
+        "city": "Avignon",
+        "country": "France",
+        "lat": "43.949317",
+        "lng": "4.805528"
+      },
+      "length": 217
+    },
+    {
+      "id": "E-1960-15",
+      "year": 1960,
+      "leg": "15",
+      "leg_num": 16,
+      "title": "Avignon - Gap",
+      "start": {
+        "city": "Avignon",
+        "country": "France",
+        "lat": "43.949317",
+        "lng": "4.805528"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 187
+    },
+    {
+      "id": "E-1960-16",
+      "year": 1960,
+      "leg": "16",
+      "leg_num": 17,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 172
+    },
+    {
+      "id": "E-1960-17",
+      "year": 1960,
+      "leg": "17",
+      "leg_num": 18,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 229
+    },
+    {
+      "id": "E-1960-18",
+      "year": 1960,
+      "leg": "18",
+      "leg_num": 19,
+      "title": "Aix-les-Bains - Thonon-les-Bains",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Thonon-les-Bains",
+        "country": "France",
+        "lat": "46.373565",
+        "lng": "6.477635"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1960-19",
+      "year": 1960,
+      "leg": "19",
+      "leg_num": 20,
+      "title": "Pontarlier - Besançon",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 83
+    },
+    {
+      "id": "E-1960-20",
+      "year": 1960,
+      "leg": "20",
+      "leg_num": 21,
+      "title": "Besançon - Troyes",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "length": 229
+    },
+    {
+      "id": "E-1960-21",
+      "year": 1960,
+      "leg": "21",
+      "leg_num": 22,
+      "title": "Troyes - Paris",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 200
+    }
   ]
 }

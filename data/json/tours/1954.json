@@ -23,6 +23,505 @@
   "third_country": "Suisse",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1954-01",
+      "year": 1954,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Amsterdam (P.-B.) - Brasschaat (Bel.)",
+      "start": {
+        "city": "Amsterdam",
+        "country": "Pays-Bas",
+        "lat": "52.370216",
+        "lng": "4.895168"
+      },
+      "finish": {
+        "city": "Brasschaat",
+        "country": "Belgique",
+        "lat": "51.283333",
+        "lng": "4.483333"
+      },
+      "length": 216
+    },
+    {
+      "id": "E-1954-02",
+      "year": 1954,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Beveren (Bel.) - Lille",
+      "start": {
+        "city": "Beveren",
+        "country": "Belgique",
+        "lat": "51.210318",
+        "lng": "4.257476"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 227
+    },
+    {
+      "id": "E-1954-03",
+      "year": 1954,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Lille - Rouen",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1954-4a",
+      "year": 1954,
+      "leg": "4a",
+      "leg_num": 4,
+      "title": "Circuit de Rouen-les-Essarts",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 10
+    },
+    {
+      "id": "E-1954-4b",
+      "year": 1954,
+      "leg": "4b",
+      "leg_num": 5,
+      "title": "Rouen - Caen",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 131
+    },
+    {
+      "id": "E-1954-05",
+      "year": 1954,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Caen - Saint-Brieuc",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-1954-06",
+      "year": 1954,
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Saint-Brieuc - Brest",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 179
+    },
+    {
+      "id": "E-1954-07",
+      "year": 1954,
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Brest - Vannes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "length": 211
+    },
+    {
+      "id": "E-1954-08",
+      "year": 1954,
+      "leg": "8",
+      "leg_num": 9,
+      "title": "Vannes - Angers",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 190
+    },
+    {
+      "id": "E-1954-09",
+      "year": 1954,
+      "leg": "9",
+      "leg_num": 10,
+      "title": "Angers - Bordeaux",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 343
+    },
+    {
+      "id": "E-1954-10",
+      "year": 1954,
+      "leg": "10",
+      "leg_num": 11,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1954-11",
+      "year": 1954,
+      "leg": "11",
+      "leg_num": 12,
+      "title": "Bayonne - Pau",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 241
+    },
+    {
+      "id": "E-1954-12",
+      "year": 1954,
+      "leg": "12",
+      "leg_num": 13,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 161
+    },
+    {
+      "id": "E-1954-13",
+      "year": 1954,
+      "leg": "13",
+      "leg_num": 14,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1954-14",
+      "year": 1954,
+      "leg": "14",
+      "leg_num": 15,
+      "title": "Toulouse - Millau",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Millau",
+        "country": "France",
+        "lat": "44.100575",
+        "lng": "3.077801"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1954-15",
+      "year": 1954,
+      "leg": "15",
+      "leg_num": 16,
+      "title": "Millau - Le Puy-en-Velay",
+      "start": {
+        "city": "Millau",
+        "country": "France",
+        "lat": "44.100575",
+        "lng": "3.077801"
+      },
+      "finish": {
+        "city": "Le Puy-en-Velay",
+        "country": "France",
+        "lat": "45.042768",
+        "lng": "3.882936"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-1954-16",
+      "year": 1954,
+      "leg": "16",
+      "leg_num": 17,
+      "title": "Le Puy-en-Velay - Lyon",
+      "start": {
+        "city": "Le Puy-en-Velay",
+        "country": "France",
+        "lat": "45.042768",
+        "lng": "3.882936"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-1954-17",
+      "year": 1954,
+      "leg": "17",
+      "leg_num": 18,
+      "title": "Lyon - Grenoble",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-1954-18",
+      "year": 1954,
+      "leg": "18",
+      "leg_num": 19,
+      "title": "Grenoble - Briançon",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 216
+    },
+    {
+      "id": "E-1954-19",
+      "year": 1954,
+      "leg": "19",
+      "leg_num": 20,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 221
+    },
+    {
+      "id": "E-1954-20",
+      "year": 1954,
+      "leg": "20",
+      "leg_num": 21,
+      "title": "Aix-les-Bains - Besançon",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 243
+    },
+    {
+      "id": "E-1954-21a",
+      "year": 1954,
+      "leg": "21a",
+      "leg_num": 22,
+      "title": "Besançon - Épinal",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Épinal",
+        "country": "France",
+        "lat": "48.172402",
+        "lng": "6.449403"
+      },
+      "length": 134
+    },
+    {
+      "id": "E-1954-21b",
+      "year": 1954,
+      "leg": "21b",
+      "leg_num": 23,
+      "title": "Épinal - Nancy",
+      "start": {
+        "city": "Épinal",
+        "country": "France",
+        "lat": "48.172402",
+        "lng": "6.449403"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "length": 72
+    },
+    {
+      "id": "E-1954-22",
+      "year": 1954,
+      "leg": "22",
+      "leg_num": 24,
+      "title": "Nancy - Troyes",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "finish": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "length": 216
+    },
+    {
+      "id": "E-1954-23",
+      "year": 1954,
+      "leg": "23",
+      "leg_num": 25,
+      "title": "Troyes - Paris",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 188
+    }
   ]
 }

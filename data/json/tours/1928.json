@@ -23,6 +23,445 @@
   "third_country": "Belgique",
   "third_id": "maurice-de-waele",
   "legs": [
-
+    {
+      "id": "E-1928-01",
+      "year": 1928,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1928-02",
+      "year": 1928,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Caen - Cherbourg",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "length": 140
+    },
+    {
+      "id": "E-1928-03",
+      "year": 1928,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Cherbourg - Dinan",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-1928-04",
+      "year": 1928,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Dinan - Brest",
+      "start": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1928-05",
+      "year": 1928,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Brest - Vannes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-1928-06",
+      "year": 1928,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Vannes - Les Sables-d'Olonne",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1928-07",
+      "year": 1928,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Les Sables-d'Olonne - Bordeaux",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 285
+    },
+    {
+      "id": "E-1928-08",
+      "year": 1928,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Bordeaux - Hendaye",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Hendaye",
+        "country": "France",
+        "lat": "43.359399",
+        "lng": "-1.766148"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1928-09",
+      "year": 1928,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Hendaye - Luchon",
+      "start": {
+        "city": "Hendaye",
+        "country": "France",
+        "lat": "43.359399",
+        "lng": "-1.766148"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 387
+    },
+    {
+      "id": "E-1928-10",
+      "year": 1928,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 323
+    },
+    {
+      "id": "E-1928-11",
+      "year": 1928,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Perpignan - Marseille",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 363
+    },
+    {
+      "id": "E-1928-12",
+      "year": 1928,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Marseille - Nice",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 330
+    },
+    {
+      "id": "E-1928-13",
+      "year": 1928,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Nice - Grenoble",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 333
+    },
+    {
+      "id": "E-1928-14",
+      "year": 1928,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Grenoble - Évian",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "length": 329
+    },
+    {
+      "id": "E-1928-15",
+      "year": 1928,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Évian - Pontarlier",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "length": 213
+    },
+    {
+      "id": "E-1928-16",
+      "year": 1928,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Pontarlier - Belfort",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "length": 119
+    },
+    {
+      "id": "E-1928-17",
+      "year": 1928,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Belfort - Strasbourg",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "length": 145
+    },
+    {
+      "id": "E-1928-18",
+      "year": 1928,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-1928-19",
+      "year": 1928,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Metz - Charleville",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-1928-20",
+      "year": 1928,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Charleville - Malo-les-Bains",
+      "start": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "finish": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "length": 271
+    },
+    {
+      "id": "E-1928-21",
+      "year": 1928,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Malo-les-Bains - Dieppe",
+      "start": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "finish": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "length": 234
+    },
+    {
+      "id": "E-1928-22",
+      "year": 1928,
+      "leg": "22",
+      "leg_num": 22,
+      "title": "Dieppe - Paris",
+      "start": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 331
+    }
   ]
 }

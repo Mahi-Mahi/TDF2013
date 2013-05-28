@@ -23,6 +23,465 @@
   "third_country": "Espagne",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1963-01",
+      "year": 1963,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Nogent-sur-Marne - Épernay",
+      "start": {
+        "city": "Nogent-sur-Marne",
+        "country": "France",
+        "lat": "48.837631",
+        "lng": "2.481699"
+      },
+      "finish": {
+        "city": "Épernay",
+        "country": "France",
+        "lat": "49.043411",
+        "lng": "3.956242"
+      },
+      "length": 152
+    },
+    {
+      "id": "E-1963-2a",
+      "year": 1963,
+      "leg": "2a",
+      "leg_num": 2,
+      "title": "Reims - Jambes (Bel.)",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "finish": {
+        "city": "Jambes",
+        "country": "Belgique",
+        "lat": "50.456367",
+        "lng": "4.871877"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-1963-2b",
+      "year": 1963,
+      "leg": "2b",
+      "leg_num": 3,
+      "title": "Jambes - Jambes",
+      "start": {
+        "city": "Jambes",
+        "country": "Belgique",
+        "lat": "50.456367",
+        "lng": "4.871877"
+      },
+      "finish": {
+        "city": "Jambes",
+        "country": "Belgique",
+        "lat": "50.456367",
+        "lng": "4.871877"
+      },
+      "length": 21
+    },
+    {
+      "id": "E-1963-03",
+      "year": 1963,
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Jambes - Roubaix",
+      "start": {
+        "city": "Jambes",
+        "country": "Belgique",
+        "lat": "50.456367",
+        "lng": "4.871877"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1963-04",
+      "year": 1963,
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Roubaix - Rouen",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 235
+    },
+    {
+      "id": "E-1963-05",
+      "year": 1963,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Rouen - Rennes",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "length": 285
+    },
+    {
+      "id": "E-1963-6a",
+      "year": 1963,
+      "leg": "6a",
+      "leg_num": 7,
+      "title": "Rennes - Angers",
+      "start": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 118
+    },
+    {
+      "id": "E-1963-6b",
+      "year": 1963,
+      "leg": "6b",
+      "leg_num": 8,
+      "title": "Angers - Angers",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 24
+    },
+    {
+      "id": "E-1963-07",
+      "year": 1963,
+      "leg": "7",
+      "leg_num": 9,
+      "title": "Angers - Limoges",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 236
+    },
+    {
+      "id": "E-1963-08",
+      "year": 1963,
+      "leg": "8",
+      "leg_num": 10,
+      "title": "Limoges - Bordeaux",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1963-09",
+      "year": 1963,
+      "leg": "9",
+      "leg_num": 11,
+      "title": "Bordeaux - Pau",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1963-10",
+      "year": 1963,
+      "leg": "10",
+      "leg_num": 12,
+      "title": "Pau - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "length": 148
+    },
+    {
+      "id": "E-1963-11",
+      "year": 1963,
+      "leg": "11",
+      "leg_num": 13,
+      "title": "Bagnères-de-Bigorre - Luchon",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 131
+    },
+    {
+      "id": "E-1963-12",
+      "year": 1963,
+      "leg": "12",
+      "leg_num": 14,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1963-13",
+      "year": 1963,
+      "leg": "13",
+      "leg_num": 15,
+      "title": "Toulouse - Aurillac",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "length": 234
+    },
+    {
+      "id": "E-1963-14",
+      "year": 1963,
+      "leg": "14",
+      "leg_num": 16,
+      "title": "Aurillac - Saint-Étienne",
+      "start": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 236
+    },
+    {
+      "id": "E-1963-15",
+      "year": 1963,
+      "leg": "15",
+      "leg_num": 17,
+      "title": "Saint-Étienne - Grenoble",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 174
+    },
+    {
+      "id": "E-1963-16",
+      "year": 1963,
+      "leg": "16",
+      "leg_num": 18,
+      "title": "Grenoble - Val-d'Isère",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Val-d'Isère",
+        "country": "France",
+        "lat": "45.448034",
+        "lng": "6.980226"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1963-17",
+      "year": 1963,
+      "leg": "17",
+      "leg_num": 19,
+      "title": "Val-d'Isère - Chamonix",
+      "start": {
+        "city": "Val-d'Isère",
+        "country": "France",
+        "lat": "45.448034",
+        "lng": "6.980226"
+      },
+      "finish": {
+        "city": "Chamonix",
+        "country": "France",
+        "lat": "45.923697",
+        "lng": "6.869433"
+      },
+      "length": 227
+    },
+    {
+      "id": "E-1963-18",
+      "year": 1963,
+      "leg": "18",
+      "leg_num": 20,
+      "title": "Chamonix - Lons-le-Saunier",
+      "start": {
+        "city": "Chamonix",
+        "country": "France",
+        "lat": "45.923697",
+        "lng": "6.869433"
+      },
+      "finish": {
+        "city": "Lons-le-Saunier",
+        "country": "France",
+        "lat": "46.671361",
+        "lng": "5.550796"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1963-19",
+      "year": 1963,
+      "leg": "19",
+      "leg_num": 21,
+      "title": "Arbois - Besançon",
+      "start": {
+        "city": "Arbois",
+        "country": "France",
+        "lat": "46.902851",
+        "lng": "5.772342"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 54
+    },
+    {
+      "id": "E-1963-20",
+      "year": 1963,
+      "leg": "20",
+      "leg_num": 22,
+      "title": "Besançon - Troyes",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1963-21",
+      "year": 1963,
+      "leg": "21",
+      "leg_num": 23,
+      "title": "Troyes - Paris",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 185
+    }
   ]
 }

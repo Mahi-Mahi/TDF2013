@@ -23,6 +23,425 @@
   "third_country": "Espagne",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2000-01",
+      "year": 2000,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Futuroscope - Futuroscope",
+      "start": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "46.66680",
+        "lng": "0.36762"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "46.66680",
+        "lng": "0.36762"
+      },
+      "length": 16
+    },
+    {
+      "id": "E-2000-02",
+      "year": 2000,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Futuroscope - Loudun",
+      "start": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "\n46.66680",
+        "lng": "0.36762"
+      },
+      "finish": {
+        "city": "Loudun",
+        "country": "France",
+        "lat": "47.008967",
+        "lng": "0.083183"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-2000-03",
+      "year": 2000,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Loudun - Nantes",
+      "start": {
+        "city": "Loudun",
+        "country": "France",
+        "lat": "47.008967",
+        "lng": "0.083183"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 161
+    },
+    {
+      "id": "E-2000-04",
+      "year": 2000,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Nantes - Saint-Nazaire",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "Saint-Nazaire",
+        "country": "France",
+        "lat": "47.273498",
+        "lng": "-2.213848"
+      },
+      "length": 70
+    },
+    {
+      "id": "E-2000-05",
+      "year": 2000,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Vannes - Vitré",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Vitré",
+        "country": "France",
+        "lat": "48.124746",
+        "lng": "-1.21543"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-2000-06",
+      "year": 2000,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Vitré - Tours",
+      "start": {
+        "city": "Vitré",
+        "country": "France",
+        "lat": "48.124746",
+        "lng": "-1.21543"
+      },
+      "finish": {
+        "city": "Tours",
+        "country": "France",
+        "lat": "47.394144",
+        "lng": "0.68484"
+      },
+      "length": 198
+    },
+    {
+      "id": "E-2000-07",
+      "year": 2000,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Tours - Limoges",
+      "start": {
+        "city": "Tours",
+        "country": "France",
+        "lat": "47.394144",
+        "lng": "0.68484"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-2000-08",
+      "year": 2000,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Limoges - Villeneuve-sur-Lot",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Villeneuve-sur-Lot",
+        "country": "France",
+        "lat": "44.407126",
+        "lng": "0.703561"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-2000-09",
+      "year": 2000,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Agen - Dax",
+      "start": {
+        "city": "Agen",
+        "country": "France",
+        "lat": "44.203142",
+        "lng": "0.616363"
+      },
+      "finish": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "length": 220
+    },
+    {
+      "id": "E-2000-10",
+      "year": 2000,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Dax - Lourdes-Hautacam",
+      "start": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "finish": {
+        "city": "Hautacam, Préchac",
+        "country": "France",
+        "lat": "42.972222",
+        "lng": "-0.0075"
+      },
+      "length": 205
+    },
+    {
+      "id": "E-2000-11",
+      "year": 2000,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Bagnères-de-Bigorre - Revel",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "finish": {
+        "city": "Revel",
+        "country": "France",
+        "lat": "43.458611",
+        "lng": "2.004573"
+      },
+      "length": 218
+    },
+    {
+      "id": "E-2000-12",
+      "year": 2000,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Carpentras - Mont Ventoux",
+      "start": {
+        "city": "Carpentras",
+        "country": "France",
+        "lat": "44.055564",
+        "lng": "5.048722"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 149
+    },
+    {
+      "id": "E-2000-13",
+      "year": 2000,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Avignon - Draguignan",
+      "start": {
+        "city": "Avignon",
+        "country": "France",
+        "lat": "43.949317",
+        "lng": "4.805528"
+      },
+      "finish": {
+        "city": "Draguignan",
+        "country": "France",
+        "lat": "43.537727",
+        "lng": "6.464993"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-2000-14",
+      "year": 2000,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Draguignan - Briançon",
+      "start": {
+        "city": "Draguignan",
+        "country": "France",
+        "lat": "43.537727",
+        "lng": "6.464993"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 249
+    },
+    {
+      "id": "E-2000-15",
+      "year": 2000,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Briançon - Courchevel",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Courchevel",
+        "country": "France",
+        "lat": "45.4203",
+        "lng": "6.61409"
+      },
+      "length": 173
+    },
+    {
+      "id": "E-2000-16",
+      "year": 2000,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Courchevel - Morzine-Avoriaz",
+      "start": {
+        "city": "Courchevel",
+        "country": "France",
+        "lat": "45.4203",
+        "lng": "6.61409"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2000-17",
+      "year": 2000,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Évian-les-Bains - Lausanne",
+      "start": {
+        "city": "Évian-les-Bains",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "length": 155
+    },
+    {
+      "id": "E-2000-18",
+      "year": 2000,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Lausanne - Fribourg-en-Brisgau",
+      "start": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "finish": {
+        "city": "Fribourg-en-Brisgau",
+        "country": "Allemagne",
+        "lat": "47.999008",
+        "lng": "7.842104"
+      },
+      "length": 246
+    },
+    {
+      "id": "E-2000-19",
+      "year": 2000,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Fribourg-en-Brisgau - Mulhouse",
+      "start": {
+        "city": "Fribourg-en-Brisgau",
+        "country": "Allemagne",
+        "lat": "47.999008",
+        "lng": "7.842104"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lat": "47.750839",
+        "lng": "7.335888"
+      },
+      "length": 58
+    },
+    {
+      "id": "E-2000-20",
+      "year": 2000,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Belfort - Troyes",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "finish": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "length": 254
+    },
+    {
+      "id": "E-2000-21",
+      "year": 2000,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Paris - Paris",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "\n48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 138
+    }
   ]
 }

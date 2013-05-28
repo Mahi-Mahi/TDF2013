@@ -23,6 +23,425 @@
   "third_country": "Pologne",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1993-Prologue",
+      "year": 1993,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Puy du Fou",
+      "start": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lat": "46.884536",
+        "lng": "-0.899612"
+      },
+      "finish": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lat": "46.884536",
+        "lng": "-0.899612"
+      },
+      "length": 6
+    },
+    {
+      "id": "E-1993-01",
+      "year": 1993,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Luçon - Les Sables-d'Olonne",
+      "start": {
+        "city": "Luçon",
+        "country": "France",
+        "lat": "46.454772",
+        "lng": "-1.167062"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1993-02",
+      "year": 1993,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Les Sables-d'Olonne - Vannes",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1993-03",
+      "year": 1993,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Vannes - Dinard",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-1993-04",
+      "year": 1993,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Dinard - Avranches",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "finish": {
+        "city": "Avranches",
+        "country": "France",
+        "lat": "48.686843",
+        "lng": "-1.36166"
+      },
+      "length": 81
+    },
+    {
+      "id": "E-1993-05",
+      "year": 1993,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Avranches - Évreux",
+      "start": {
+        "city": "Avranches",
+        "country": "France",
+        "lat": "48.686843",
+        "lng": "-1.36166"
+      },
+      "finish": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1993-06",
+      "year": 1993,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Évreux - Amiens",
+      "start": {
+        "city": "Évreux",
+        "country": "France",
+        "lat": "49.027013",
+        "lng": "1.151361"
+      },
+      "finish": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "length": 158
+    },
+    {
+      "id": "E-1993-07",
+      "year": 1993,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Péronne - Châlons-sur-Marne",
+      "start": {
+        "city": "Péronne",
+        "country": "France",
+        "lat": "49.933071",
+        "lng": "2.933353"
+      },
+      "finish": {
+        "city": "Châlons-sur-Marne",
+        "country": "France",
+        "lat": "48.956682",
+        "lng": "4.363073"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-1993-08",
+      "year": 1993,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Châlons-sur-Marne - Verdun",
+      "start": {
+        "city": "Châlons-sur-Marne",
+        "country": "France",
+        "lat": "48.956682",
+        "lng": "4.363073"
+      },
+      "finish": {
+        "city": "Verdun",
+        "country": "France",
+        "lat": "49.15894",
+        "lng": "5.386757"
+      },
+      "length": 184
+    },
+    {
+      "id": "E-1993-09",
+      "year": 1993,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Lac de Madine",
+      "start": {
+        "city": "Lac de Madine",
+        "country": "France",
+        "lat": "48.921618",
+        "lng": "5.736175"
+      },
+      "finish": {
+        "city": "Lac de Madine",
+        "country": "France",
+        "lat": "48.921618",
+        "lng": "5.736175"
+      },
+      "length": 59
+    },
+    {
+      "id": "E-1993-10",
+      "year": 1993,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Villard-de-Lans - Serre Chevalier ",
+      "start": {
+        "city": "Villard-de-Lans",
+        "country": "France",
+        "lat": "45.070641",
+        "lng": "5.55227"
+      },
+      "finish": {
+        "city": "Serre Chevalier",
+        "country": "France",
+        "lat": "44.910829",
+        "lng": "6.549748"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1993-11",
+      "year": 1993,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Serre Chevalier - Isola 2000",
+      "start": {
+        "city": "Serre Chevalier",
+        "country": "France",
+        "lat": "44.910829",
+        "lng": "6.549748"
+      },
+      "finish": {
+        "city": "Isola 2000",
+        "country": "France",
+        "lat": "44.18571",
+        "lng": "7.15922"
+      },
+      "length": 180
+    },
+    {
+      "id": "E-1993-12",
+      "year": 1993,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Isola 2000 - Marseille",
+      "start": {
+        "city": "Isola 2000",
+        "country": "France",
+        "lat": "44.18571",
+        "lng": "7.15922"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 286
+    },
+    {
+      "id": "E-1993-13",
+      "year": 1993,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Marseille - Montpellier",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-1993-14",
+      "year": 1993,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Montpellier - Perpignan",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1993-15",
+      "year": 1993,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Perpignan - Andorre-Pal",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Pal",
+        "country": "Andorre",
+        "lat": "42.54487",
+        "lng": "1.47520\n"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1993-16",
+      "year": 1993,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Andorre - Saint-Lary-Soulan",
+      "start": {
+        "city": "Andorre",
+        "country": "Andorre",
+        "lat": "42.506285",
+        "lng": "1.521801"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lat": "42.815835",
+        "lng": "0.320251"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-1993-17",
+      "year": 1993,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Tarbes - Pau",
+      "start": {
+        "city": "Tarbes",
+        "country": "France",
+        "lat": "43.232951",
+        "lng": "0.078082"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 190
+    },
+    {
+      "id": "E-1993-18",
+      "year": 1993,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Orthez - Bordeaux",
+      "start": {
+        "city": "Orthez",
+        "country": "France",
+        "lat": "43.48756",
+        "lng": "-0.773928"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 174
+    },
+    {
+      "id": "E-1993-19",
+      "year": 1993,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Brétigny-sur-Orge - Montlhéry",
+      "start": {
+        "city": "Brétigny-sur-Orge",
+        "country": "France",
+        "lat": "48.611486",
+        "lng": "2.30604"
+      },
+      "finish": {
+        "city": "Montlhéry",
+        "country": "France",
+        "lat": "48.638324",
+        "lng": "2.271502"
+      },
+      "length": 48
+    },
+    {
+      "id": "E-1993-20",
+      "year": 1993,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Viry-Châtillon - Paris",
+      "start": {
+        "city": "Viry-Châtillon",
+        "country": "France",
+        "lat": "48.666218",
+        "lng": "2.375902"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 196
+    }
   ]
 }

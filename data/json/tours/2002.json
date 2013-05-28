@@ -23,6 +23,425 @@
   "third_country": "Lituanie",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2002-Prologue",
+      "year": 2002,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Luxembourg (Lux.) - Luxembourg (Lux.)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "length": 6
+    },
+    {
+      "id": "E-2002-01",
+      "year": 2002,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Luxembourg (Lux.) - Luxembourg (Lux.)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "length": 195
+    },
+    {
+      "id": "E-2002-02",
+      "year": 2002,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Luxembourg (Lux.) - Sarrebruck (All.)",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "finish": {
+        "city": "Sarrebruck",
+        "country": "Allemagne",
+        "lat": "49.240157",
+        "lng": "6.996933"
+      },
+      "length": 175
+    },
+    {
+      "id": "E-2002-03",
+      "year": 2002,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Metz - Reims",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-2002-04",
+      "year": 2002,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Épernay - Château-Thierry",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lat": "49.043411",
+        "lng": "3.956242"
+      },
+      "finish": {
+        "city": "Château-Thierry",
+        "country": "France",
+        "lat": "49.045987",
+        "lng": "3.40262"
+      },
+      "length": 68
+    },
+    {
+      "id": "E-2002-05",
+      "year": 2002,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Soissons - Rouen",
+      "start": {
+        "city": "Soissons",
+        "country": "France",
+        "lat": "49.376636",
+        "lng": "3.32342"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 198
+    },
+    {
+      "id": "E-2002-06",
+      "year": 2002,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Forges-les-Eaux - Alençon",
+      "start": {
+        "city": "Forges-les-Eaux",
+        "country": "France",
+        "lat": "49.613311",
+        "lng": "1.545886"
+      },
+      "finish": {
+        "city": "Alençon",
+        "country": "France",
+        "lat": "48.432856",
+        "lng": "0.091266"
+      },
+      "length": 198
+    },
+    {
+      "id": "E-2002-07",
+      "year": 2002,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Bagnoles-de-l'Orne - Avranches",
+      "start": {
+        "city": "Bagnoles-de-l'Orne",
+        "country": "France",
+        "lat": "48.558399",
+        "lng": "-0.415091"
+      },
+      "finish": {
+        "city": "Avranches",
+        "country": "France",
+        "lat": "48.686843",
+        "lng": "-1.36166"
+      },
+      "length": 162
+    },
+    {
+      "id": "E-2002-08",
+      "year": 2002,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Saint-Martin-de-Landelles - Plouay",
+      "start": {
+        "city": "Saint-Martin-de-Landelles",
+        "country": "France",
+        "lat": "48.546107",
+        "lng": "-1.172382"
+      },
+      "finish": {
+        "city": "Plouay",
+        "country": "France",
+        "lat": "47.915138",
+        "lng": "-3.334565"
+      },
+      "length": 214
+    },
+    {
+      "id": "E-2002-09",
+      "year": 2002,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Lanester - Lorient",
+      "start": {
+        "city": "Lanester",
+        "country": "France",
+        "lat": "47.763494",
+        "lng": "-3.347354"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "length": 55
+    },
+    {
+      "id": "E-2002-10",
+      "year": 2002,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bazas - Pau",
+      "start": {
+        "city": "Bazas",
+        "country": "France",
+        "lat": "44.430624",
+        "lng": "-0.211464"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 147
+    },
+    {
+      "id": "E-2002-11",
+      "year": 2002,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Pau - La Mongie",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "La Mongie",
+        "country": "France",
+        "lat": "42.91",
+        "lng": "0.179167"
+      },
+      "length": 158
+    },
+    {
+      "id": "E-2002-12",
+      "year": 2002,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Lannemezan - Plateau de Beille",
+      "start": {
+        "city": "Lannemezan",
+        "country": "France",
+        "lat": "43.125519",
+        "lng": "0.38396"
+      },
+      "finish": {
+        "city": "Plateau de Beille, Aston",
+        "country": "France",
+        "lat": "42.709683",
+        "lng": "1.702387"
+      },
+      "length": 198
+    },
+    {
+      "id": "E-2002-13",
+      "year": 2002,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Lavelanet - Béziers",
+      "start": {
+        "city": "Lavelanet",
+        "country": "France",
+        "lat": "42.937653",
+        "lng": "1.851472"
+      },
+      "finish": {
+        "city": "Béziers",
+        "country": "France",
+        "lat": "43.344233",
+        "lng": "3.215795"
+      },
+      "length": 166
+    },
+    {
+      "id": "E-2002-14",
+      "year": 2002,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Lodève - Mont Ventoux",
+      "start": {
+        "city": "Lodève",
+        "country": "France",
+        "lat": "43.73366",
+        "lng": "3.313975"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 220
+    },
+    {
+      "id": "E-2002-15",
+      "year": 2002,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Vaison-la-Romaine - Les Deux Alpes",
+      "start": {
+        "city": "Vaison-la-Romaine",
+        "country": "France",
+        "lat": "44.240968",
+        "lng": "5.075198"
+      },
+      "finish": {
+        "city": "Les Deux Alpes",
+        "country": "France",
+        "lat": "45.010099",
+        "lng": "6.125578"
+      },
+      "length": 226
+    },
+    {
+      "id": "E-2002-16",
+      "year": 2002,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Les Deux Alpes - La Plagne",
+      "start": {
+        "city": "Les Deux Alpes",
+        "country": "France",
+        "lat": "45.010099",
+        "lng": "6.125578"
+      },
+      "finish": {
+        "city": "La Plagne",
+        "country": "France",
+        "lat": "45.509874",
+        "lng": "6.659294"
+      },
+      "length": 179
+    },
+    {
+      "id": "E-2002-17",
+      "year": 2002,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Aime - Cluses",
+      "start": {
+        "city": "Aime",
+        "country": "France",
+        "lat": "45.555982",
+        "lng": "6.652126"
+      },
+      "finish": {
+        "city": "Cluses",
+        "country": "France",
+        "lat": "46.06039",
+        "lng": "6.580582"
+      },
+      "length": 141
+    },
+    {
+      "id": "E-2002-18",
+      "year": 2002,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Cluses - Bourg-en-Bresse",
+      "start": {
+        "city": "Cluses",
+        "country": "France",
+        "lat": "46.06039",
+        "lng": "6.580582"
+      },
+      "finish": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "lat": "46.20279",
+        "lng": "5.219246"
+      },
+      "length": 180
+    },
+    {
+      "id": "E-2002-19",
+      "year": 2002,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Régnié-Durette - Mâcon",
+      "start": {
+        "city": "Régnié-Durette",
+        "country": "France",
+        "lat": "46.136803",
+        "lng": "4.64105"
+      },
+      "finish": {
+        "city": "Mâcon",
+        "country": "France",
+        "lat": "46.306884",
+        "lng": "4.828731"
+      },
+      "length": 52
+    },
+    {
+      "id": "E-2002-20",
+      "year": 2002,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Melun - Paris",
+      "start": {
+        "city": "Melun",
+        "country": "France",
+        "lat": "48.542105",
+        "lng": "2.6554"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 147
+    }
   ]
 }

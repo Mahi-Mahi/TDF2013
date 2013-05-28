@@ -23,6 +23,485 @@
   "third_country": "Belgique",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1927-01",
+      "year": 1927,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Dieppe",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "length": 180
+    },
+    {
+      "id": "E-1927-02",
+      "year": 1927,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Dieppe - Le Havre",
+      "start": {
+        "city": "Dieppe",
+        "country": "France",
+        "lat": "49.922992",
+        "lng": "1.077483"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 103
+    },
+    {
+      "id": "E-1927-03",
+      "year": 1927,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Le Havre - Caen",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1927-04",
+      "year": 1927,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Caen - Cherbourg",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "length": 140
+    },
+    {
+      "id": "E-1927-05",
+      "year": 1927,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Cherbourg - Dinan",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-1927-06",
+      "year": 1927,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Dinan - Brest",
+      "start": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1927-07",
+      "year": 1927,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Brest - Vannes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1927-08",
+      "year": 1927,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Vannes - Les Sables-d'Olonne",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1927-09",
+      "year": 1927,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Les Sables-d'Olonne - Bordeaux",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 285
+    },
+    {
+      "id": "E-1927-10",
+      "year": 1927,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-1927-11",
+      "year": 1927,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 326
+    },
+    {
+      "id": "E-1927-12",
+      "year": 1927,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 323
+    },
+    {
+      "id": "E-1927-13",
+      "year": 1927,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Perpignan - Marseille",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 360
+    },
+    {
+      "id": "E-1927-14",
+      "year": 1927,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Marseille - Toulon",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "length": 120
+    },
+    {
+      "id": "E-1927-15",
+      "year": 1927,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Toulon - Nice",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 280
+    },
+    {
+      "id": "E-1927-16",
+      "year": 1927,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Nice - Briançon",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 275
+    },
+    {
+      "id": "E-1927-17",
+      "year": 1927,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Briançon - Évian",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "length": 283
+    },
+    {
+      "id": "E-1927-18",
+      "year": 1927,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Évian - Pontarlier",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "length": 213
+    },
+    {
+      "id": "E-1927-19",
+      "year": 1927,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Pontarlier - Belfort",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "length": 119
+    },
+    {
+      "id": "E-1927-20",
+      "year": 1927,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Belfort - Strasbourg",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "finish": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "length": 145
+    },
+    {
+      "id": "E-1927-21",
+      "year": 1927,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-1927-22",
+      "year": 1927,
+      "leg": "22",
+      "leg_num": 22,
+      "title": "Metz - Charleville",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-1927-23",
+      "year": 1927,
+      "leg": "23",
+      "leg_num": 23,
+      "title": "Charleville - Dunkerque",
+      "start": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "length": 270
+    },
+    {
+      "id": "E-1927-24",
+      "year": 1927,
+      "leg": "24",
+      "leg_num": 24,
+      "title": "Dunkerque - Paris",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 344
+    }
   ]
 }

@@ -23,6 +23,485 @@
   "third_country": "Italie",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1965-1a",
+      "year": 1965,
+      "leg": "1a",
+      "leg_num": 1,
+      "title": "Cologne (All.) - Liège (Bel.)",
+      "start": {
+        "city": "Cologne",
+        "country": "Allemagne",
+        "lat": "50.937531",
+        "lng": "6.960279"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 149
+    },
+    {
+      "id": "E-1965-1b",
+      "year": 1965,
+      "leg": "1b",
+      "leg_num": 2,
+      "title": "Liège - Liège",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 22
+    },
+    {
+      "id": "E-1965-02",
+      "year": 1965,
+      "leg": "2",
+      "leg_num": 3,
+      "title": "Liège - Roubaix",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "length": 200
+    },
+    {
+      "id": "E-1965-03",
+      "year": 1965,
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Roubaix - Rouen",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 240
+    },
+    {
+      "id": "E-1965-04",
+      "year": 1965,
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Caen - Saint-Brieuc",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 227
+    },
+    {
+      "id": "E-1965-5a",
+      "year": 1965,
+      "leg": "5a",
+      "leg_num": 6,
+      "title": "Saint-Brieuc - Châteaulin",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "finish": {
+        "city": "Châteaulin",
+        "country": "France",
+        "lat": "48.195389",
+        "lng": "-4.094207"
+      },
+      "length": 147
+    },
+    {
+      "id": "E-1965-5b",
+      "year": 1965,
+      "leg": "5b",
+      "leg_num": 7,
+      "title": "Châteaulin - Châteaulin",
+      "start": {
+        "city": "Châteaulin",
+        "country": "France",
+        "lat": "48.195389",
+        "lng": "-4.094207"
+      },
+      "finish": {
+        "city": "Châteaulin",
+        "country": "France",
+        "lat": "48.195389",
+        "lng": "-4.094207"
+      },
+      "length": 26
+    },
+    {
+      "id": "E-1965-06",
+      "year": 1965,
+      "leg": "6",
+      "leg_num": 8,
+      "title": "Quimper - La Baule",
+      "start": {
+        "city": "Quimper",
+        "country": "France",
+        "lat": "47.997542",
+        "lng": "-4.097899"
+      },
+      "finish": {
+        "city": "La Baule",
+        "country": "France",
+        "lat": "47.285448",
+        "lng": "-2.393236"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-1965-07",
+      "year": 1965,
+      "leg": "7",
+      "leg_num": 9,
+      "title": "La Baule - La Rochelle",
+      "start": {
+        "city": "La Baule",
+        "country": "France",
+        "lat": "47.285448",
+        "lng": "-2.393236"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1965-08",
+      "year": 1965,
+      "leg": "8",
+      "leg_num": 10,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-1965-09",
+      "year": 1965,
+      "leg": "9",
+      "leg_num": 11,
+      "title": "Dax - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "length": 226
+    },
+    {
+      "id": "E-1965-10",
+      "year": 1965,
+      "leg": "10",
+      "leg_num": 12,
+      "title": "Bagnères-de-Bigorre - Ax-les-Thermes",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "finish": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lat": "42.720254",
+        "lng": "1.837545"
+      },
+      "length": 222
+    },
+    {
+      "id": "E-1965-11",
+      "year": 1965,
+      "leg": "11",
+      "leg_num": 13,
+      "title": "Ax-les-Thermes - Barcelone",
+      "start": {
+        "city": "Ax-les-Thermes",
+        "country": "France",
+        "lat": "42.720254",
+        "lng": "1.837545"
+      },
+      "finish": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lat": "41.385064",
+        "lng": "2.173404"
+      },
+      "length": 240
+    },
+    {
+      "id": "E-1965-12",
+      "year": 1965,
+      "leg": "12",
+      "leg_num": 14,
+      "title": "Barcelone - Perpignan",
+      "start": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lat": "41.385064",
+        "lng": "2.173404"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1965-13",
+      "year": 1965,
+      "leg": "13",
+      "leg_num": 15,
+      "title": "Perpignan - Montpellier",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 164
+    },
+    {
+      "id": "E-1965-14",
+      "year": 1965,
+      "leg": "14",
+      "leg_num": 16,
+      "title": "Montpellier - Mont Ventoux",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 173
+    },
+    {
+      "id": "E-1965-15",
+      "year": 1965,
+      "leg": "15",
+      "leg_num": 17,
+      "title": "Carpentras - Gap",
+      "start": {
+        "city": "Carpentras",
+        "country": "France",
+        "lat": "44.055564",
+        "lng": "5.048722"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 167
+    },
+    {
+      "id": "E-1965-16",
+      "year": 1965,
+      "leg": "16",
+      "leg_num": 18,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 177
+    },
+    {
+      "id": "E-1965-17",
+      "year": 1965,
+      "leg": "17",
+      "leg_num": 19,
+      "title": "Briançon - Aix-les-Bains",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "length": 193
+    },
+    {
+      "id": "E-1965-18",
+      "year": 1965,
+      "leg": "18",
+      "leg_num": 20,
+      "title": "Aix-les-Bains - Le Revard",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Le Revard",
+        "country": "France",
+        "lat": "45.666493",
+        "lng": "5.97784"
+      },
+      "length": 27
+    },
+    {
+      "id": "E-1965-19",
+      "year": 1965,
+      "leg": "19",
+      "leg_num": 21,
+      "title": "Aix-les-Bains - Lyon",
+      "start": {
+        "city": "Aix-les-Bains",
+        "country": "France",
+        "lat": "45.692341",
+        "lng": "5.908998"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-1965-20",
+      "year": 1965,
+      "leg": "20",
+      "leg_num": 22,
+      "title": "Lyon - Auxerre",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Auxerre",
+        "country": "France",
+        "lat": "47.798202",
+        "lng": "3.573781"
+      },
+      "length": 298
+    },
+    {
+      "id": "E-1965-21",
+      "year": 1965,
+      "leg": "21",
+      "leg_num": 23,
+      "title": "Auxerre - Versailles",
+      "start": {
+        "city": "Auxerre",
+        "country": "France",
+        "lat": "47.798202",
+        "lng": "3.573781"
+      },
+      "finish": {
+        "city": "Versailles",
+        "country": "France",
+        "lat": "48.801408",
+        "lng": "2.130122"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1965-22",
+      "year": 1965,
+      "leg": "22",
+      "leg_num": 24,
+      "title": "Versailles - Paris",
+      "start": {
+        "city": "Versailles",
+        "country": "France",
+        "lat": "48.801408",
+        "lng": "2.130122"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 38
+    }
   ]
 }

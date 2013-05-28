@@ -23,6 +23,465 @@
   "third_country": "Pays-Bas",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1982-Prologue",
+      "year": 1982,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Bâle (Sui.) - Bâle (Sui.)",
+      "start": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lat": "47.557421",
+        "lng": "7.592573"
+      },
+      "finish": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lat": "47.557421",
+        "lng": "7.592573"
+      },
+      "length": 7
+    },
+    {
+      "id": "E-1982-01",
+      "year": 1982,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Circuit de Schupfart-Möhlin (Sui.)",
+      "start": {
+        "city": "Schupfart-Möhlin",
+        "country": "Suisse",
+        "lat": "47.52068",
+        "lng": "7.92973"
+      },
+      "finish": {
+        "city": "Schupfart-Möhlin",
+        "country": "Suisse",
+        "lat": "47.52068",
+        "lng": "7.92973"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1982-02",
+      "year": 1982,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Bâle (Sui.) - Nancy",
+      "start": {
+        "city": "Bâle",
+        "country": "Suisse",
+        "lat": "47.557421",
+        "lng": "7.592573"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "length": 250
+    },
+    {
+      "id": "E-1982-03",
+      "year": 1982,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Nancy - Longwy",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "finish": {
+        "city": "Longwy",
+        "country": "France",
+        "lat": "49.519919",
+        "lng": "5.761773"
+      },
+      "length": 134
+    },
+    {
+      "id": "E-1982-04",
+      "year": 1982,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Beauraing (Bel.) - Mouscron (Bel.)",
+      "start": {
+        "city": "Beauraing",
+        "country": "Belgique",
+        "lat": "50.110281",
+        "lng": "4.955435"
+      },
+      "finish": {
+        "city": "Mouscron",
+        "country": "Belgique",
+        "lat": "50.743754",
+        "lng": "3.220815"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1982-05",
+      "year": 1982,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Orchies - Fontaine-au-Pire",
+      "start": {
+        "city": "Orchies",
+        "country": "France",
+        "lat": "50.4745",
+        "lng": "3.2428"
+      },
+      "finish": {
+        "city": "Fontaine-au-Pire",
+        "country": "France",
+        "lat": "50.13042",
+        "lng": "3.375606"
+      },
+      "length": 73
+    },
+    {
+      "id": "E-1982-06",
+      "year": 1982,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Lille - Lille",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1982-07",
+      "year": 1982,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Cancale - Concarneau",
+      "start": {
+        "city": "Cancale",
+        "country": "France",
+        "lat": "48.67707",
+        "lng": "-1.852279"
+      },
+      "finish": {
+        "city": "Concarneau",
+        "country": "France",
+        "lat": "47.872834",
+        "lng": "-3.920734"
+      },
+      "length": 234
+    },
+    {
+      "id": "E-1982-08",
+      "year": 1982,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Concarneau - Châteaulin",
+      "start": {
+        "city": "Concarneau",
+        "country": "France",
+        "lat": "47.872834",
+        "lng": "-3.920734"
+      },
+      "finish": {
+        "city": "Châteaulin",
+        "country": "France",
+        "lat": "48.195389",
+        "lng": "-4.094207"
+      },
+      "length": 200
+    },
+    {
+      "id": "E-1982-9a",
+      "year": 1982,
+      "leg": "9a",
+      "leg_num": 9,
+      "title": "Lorient - Plumelec",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "finish": {
+        "city": "Plumelec",
+        "country": "France",
+        "lat": "47.837699",
+        "lng": "-2.639409"
+      },
+      "length": 69
+    },
+    {
+      "id": "E-1982-9b",
+      "year": 1982,
+      "leg": "9b",
+      "leg_num": 10,
+      "title": "Plumelec - Nantes",
+      "start": {
+        "city": "Plumelec",
+        "country": "France",
+        "lat": "47.837699",
+        "lng": "-2.639409"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 138
+    },
+    {
+      "id": "E-1982-10",
+      "year": 1982,
+      "leg": "10",
+      "leg_num": 11,
+      "title": "Saintes - Bordeaux",
+      "start": {
+        "city": "Saintes",
+        "country": "France",
+        "lat": "45.744175",
+        "lng": "-0.633389"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 147
+    },
+    {
+      "id": "E-1982-11",
+      "year": 1982,
+      "leg": "11",
+      "leg_num": 12,
+      "title": "Valence-d'Agen - Valence-d'Agen",
+      "start": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "finish": {
+        "city": "Valence-d'Agen",
+        "country": "France",
+        "lat": "44.108057",
+        "lng": "0.890241"
+      },
+      "length": 57
+    },
+    {
+      "id": "E-1982-12",
+      "year": 1982,
+      "leg": "12",
+      "leg_num": 13,
+      "title": "Fleurance - Pau",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lat": "43.849456",
+        "lng": "0.663244"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 249
+    },
+    {
+      "id": "E-1982-13",
+      "year": 1982,
+      "leg": "13",
+      "leg_num": 14,
+      "title": "Pau - Saint-Lary-Soulan",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Saint-Lary-Soulan",
+        "country": "France",
+        "lat": "42.815835",
+        "lng": "0.320251"
+      },
+      "length": 122
+    },
+    {
+      "id": "E-1982-14",
+      "year": 1982,
+      "leg": "14",
+      "leg_num": 15,
+      "title": "Martigues - Martigues",
+      "start": {
+        "city": "Martigues",
+        "country": "France",
+        "lat": "43.404811",
+        "lng": "5.053728"
+      },
+      "finish": {
+        "city": "Martigues",
+        "country": "France",
+        "lat": "43.404811",
+        "lng": "5.053728"
+      },
+      "length": 32
+    },
+    {
+      "id": "E-1982-15",
+      "year": 1982,
+      "leg": "15",
+      "leg_num": 16,
+      "title": "Manosque - Orcières-Merlette",
+      "start": {
+        "city": "Manosque",
+        "country": "France",
+        "lat": "43.835744",
+        "lng": "5.790916"
+      },
+      "finish": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lat": "44.695221",
+        "lng": "6.320161"
+      },
+      "length": 208
+    },
+    {
+      "id": "E-1982-16",
+      "year": 1982,
+      "leg": "16",
+      "leg_num": 17,
+      "title": "Orcières-Merlette - L'Alpe d'Huez",
+      "start": {
+        "city": "Orcières-Merlette",
+        "country": "France",
+        "lat": "44.695221",
+        "lng": "6.320161"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 123
+    },
+    {
+      "id": "E-1982-17",
+      "year": 1982,
+      "leg": "17",
+      "leg_num": 18,
+      "title": "Bourg-d'Oisans - Morzine-Avoriaz",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "length": 251
+    },
+    {
+      "id": "E-1982-18",
+      "year": 1982,
+      "leg": "18",
+      "leg_num": 19,
+      "title": "Morzine - Saint-Priest",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "finish": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lat": "45.698938",
+        "lng": "4.947071"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1982-19",
+      "year": 1982,
+      "leg": "19",
+      "leg_num": 20,
+      "title": "Saint-Priest - Saint-Priest",
+      "start": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lat": "45.698938",
+        "lng": "4.947071"
+      },
+      "finish": {
+        "city": "Saint-Priest",
+        "country": "France",
+        "lat": "45.698938",
+        "lng": "4.947071"
+      },
+      "length": 48
+    },
+    {
+      "id": "E-1982-20",
+      "year": 1982,
+      "leg": "20",
+      "leg_num": 21,
+      "title": "Sens - Aulnay-sous-Bois",
+      "start": {
+        "city": "Sens",
+        "country": "France",
+        "lat": "48.20065",
+        "lng": "3.28268"
+      },
+      "finish": {
+        "city": "Aulnay-sous-Bois",
+        "country": "France",
+        "lat": "48.940974",
+        "lng": "2.497115"
+      },
+      "length": 161
+    },
+    {
+      "id": "E-1982-21",
+      "year": 1982,
+      "leg": "21",
+      "leg_num": 22,
+      "title": "Fontenay-sous-Bois - Paris",
+      "start": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lat": "48.851542",
+        "lng": "2.475907"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 186
+    }
   ]
 }

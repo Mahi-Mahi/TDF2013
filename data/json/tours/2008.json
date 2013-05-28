@@ -23,6 +23,425 @@
   "third_country": "Russie",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2008-01",
+      "year": 2008,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Brest - Plumelec",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Plumelec",
+        "country": "France",
+        "lat": "47.837699",
+        "lng": "-2.639409"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-2008-02",
+      "year": 2008,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Auray - Saint-Brieuc",
+      "start": {
+        "city": "Auray",
+        "country": "France",
+        "lat": "47.666491",
+        "lng": "-2.983767"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 164
+    },
+    {
+      "id": "E-2008-03",
+      "year": 2008,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Saint-Malo - Nantes",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 208
+    },
+    {
+      "id": "E-2008-04",
+      "year": 2008,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Cholet - Cholet",
+      "start": {
+        "city": "Cholet",
+        "country": "France",
+        "lat": "47.059407",
+        "lng": "-0.879787"
+      },
+      "finish": {
+        "city": "Cholet",
+        "country": "France",
+        "lat": "47.059407",
+        "lng": "-0.879787"
+      },
+      "length": 29
+    },
+    {
+      "id": "E-2008-05",
+      "year": 2008,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Cholet - Châteauroux",
+      "start": {
+        "city": "Cholet",
+        "country": "France",
+        "lat": "47.059407",
+        "lng": "-0.879787"
+      },
+      "finish": {
+        "city": "Châteauroux",
+        "country": "France",
+        "lat": "46.811434",
+        "lng": "1.686779"
+      },
+      "length": 232
+    },
+    {
+      "id": "E-2008-06",
+      "year": 2008,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Aigurande - Super-Besse",
+      "start": {
+        "city": "Aigurande",
+        "country": "France",
+        "lat": "46.434011",
+        "lng": "1.828597"
+      },
+      "finish": {
+        "city": "Super-Besse",
+        "country": "France",
+        "lat": "45.508022",
+        "lng": "2.861518"
+      },
+      "length": 195
+    },
+    {
+      "id": "E-2008-07",
+      "year": 2008,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Brioude - Aurillac",
+      "start": {
+        "city": "Brioude",
+        "country": "France",
+        "lat": "45.295564",
+        "lng": "3.386482"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-2008-08",
+      "year": 2008,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Figeac - Toulouse",
+      "start": {
+        "city": "Figeac",
+        "country": "France",
+        "lat": "44.608288",
+        "lng": "2.032871"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 172
+    },
+    {
+      "id": "E-2008-09",
+      "year": 2008,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Toulouse - Bagnères-de-Bigorre",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-2008-10",
+      "year": 2008,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Pau - Hautacam",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Hautacam",
+        "country": "France",
+        "lat": "42.972222",
+        "lng": "-0.0075"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-2008-11",
+      "year": 2008,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Lannemezan - Foix",
+      "start": {
+        "city": "Lannemezan",
+        "country": "France",
+        "lat": "43.125519",
+        "lng": "0.38396"
+      },
+      "finish": {
+        "city": "Foix",
+        "country": "France",
+        "lat": "42.964127",
+        "lng": "1.605232"
+      },
+      "length": 167
+    },
+    {
+      "id": "E-2008-12",
+      "year": 2008,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Lavelanet - Narbonne",
+      "start": {
+        "city": "Lavelanet",
+        "country": "France",
+        "lat": "42.937653",
+        "lng": "1.851472"
+      },
+      "finish": {
+        "city": "Narbonne",
+        "country": "France",
+        "lat": "43.184277",
+        "lng": "3.003078"
+      },
+      "length": 168
+    },
+    {
+      "id": "E-2008-13",
+      "year": 2008,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Narbonne - Nîmes",
+      "start": {
+        "city": "Narbonne",
+        "country": "France",
+        "lat": "43.184277",
+        "lng": "3.003078"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 182
+    },
+    {
+      "id": "E-2008-14",
+      "year": 2008,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Nîmes - Digne-les-Bains",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "finish": {
+        "city": "Digne-les-Bains",
+        "country": "France",
+        "lat": "44.092193",
+        "lng": "6.235976"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-2008-15",
+      "year": 2008,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Embrun - Prato Nevoso (Ita.)",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lat": "44.564164",
+        "lng": "6.495865"
+      },
+      "finish": {
+        "city": "Prato Nevoso",
+        "country": "Italie",
+        "lat": "44.254618",
+        "lng": "7.784652"
+      },
+      "length": 183
+    },
+    {
+      "id": "E-2008-16",
+      "year": 2008,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Cuneo (Ita.) - Jausiers",
+      "start": {
+        "city": "Cuneo",
+        "country": "Italie",
+        "lat": "44.384477",
+        "lng": "7.542671"
+      },
+      "finish": {
+        "city": "Jausiers",
+        "country": "France",
+        "lat": "44.419576",
+        "lng": "6.733329"
+      },
+      "length": 157
+    },
+    {
+      "id": "E-2008-17",
+      "year": 2008,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Embrun - L'Alpe d'Huez",
+      "start": {
+        "city": "Embrun",
+        "country": "France",
+        "lat": "44.564164",
+        "lng": "6.495865"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-2008-18",
+      "year": 2008,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Le Bourg-d'Oisans - Saint-Étienne",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2008-19",
+      "year": 2008,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Roanne - Montluçon",
+      "start": {
+        "city": "Roanne",
+        "country": "France",
+        "lat": "46.034432",
+        "lng": "4.072695"
+      },
+      "finish": {
+        "city": "Montluçon",
+        "country": "France",
+        "lat": "46.339966",
+        "lng": "2.606645"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-2008-20",
+      "year": 2008,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Cérilly - Saint-Amand-Montrond",
+      "start": {
+        "city": "Cérilly",
+        "country": "France",
+        "lat": "46.6176",
+        "lng": "2.822083"
+      },
+      "finish": {
+        "city": "Saint-Amand-Montrond",
+        "country": "France",
+        "lat": "46.725486",
+        "lng": "2.505604"
+      },
+      "length": 53
+    },
+    {
+      "id": "E-2008-21",
+      "year": 2008,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Étampes - Paris-Champs-Élysées",
+      "start": {
+        "city": "Étampes",
+        "country": "France",
+        "lat": "48.434416",
+        "lng": "2.16142"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 143
+    }
   ]
 }

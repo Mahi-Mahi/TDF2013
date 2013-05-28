@@ -23,6 +23,425 @@
   "third_country": "France",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1949-01",
+      "year": 1949,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Reims",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 182
+    },
+    {
+      "id": "E-1949-02",
+      "year": 1949,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Reims - Bruxelles (Bel.)",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "length": 273
+    },
+    {
+      "id": "E-1949-03",
+      "year": 1949,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Bruxelles (Bel.) - Boulogne-sur-Mer",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lat": "50.725231",
+        "lng": "1.613334"
+      },
+      "length": 211
+    },
+    {
+      "id": "E-1949-04",
+      "year": 1949,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Boulogne-sur-Mer - Rouen",
+      "start": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lat": "50.725231",
+        "lng": "1.613334"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 185
+    },
+    {
+      "id": "E-1949-05",
+      "year": 1949,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Rouen - Saint-Malo",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 293
+    },
+    {
+      "id": "E-1949-06",
+      "year": 1949,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Saint-Malo - Les Sables-d'Olonne",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 305
+    },
+    {
+      "id": "E-1949-07",
+      "year": 1949,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Les Sables-d'Olonne - La Rochelle",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 92
+    },
+    {
+      "id": "E-1949-08",
+      "year": 1949,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 262
+    },
+    {
+      "id": "E-1949-09",
+      "year": 1949,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Bordeaux - Saint-Sébastien (Esp.)",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
+      },
+      "length": 228
+    },
+    {
+      "id": "E-1949-10",
+      "year": 1949,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Saint-Sébastien (Esp.) - Pau",
+      "start": {
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-1949-11",
+      "year": 1949,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 193
+    },
+    {
+      "id": "E-1949-12",
+      "year": 1949,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 134
+    },
+    {
+      "id": "E-1949-13",
+      "year": 1949,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Toulouse - Nîmes",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 289
+    },
+    {
+      "id": "E-1949-14",
+      "year": 1949,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Nîmes - Marseille",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-1949-15",
+      "year": 1949,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Marseille - Cannes",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1949-16",
+      "year": 1949,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Cannes - Briançon",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 275
+    },
+    {
+      "id": "E-1949-17",
+      "year": 1949,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Briançon - Aoste (Ita.)",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Aoste",
+        "country": "Italie",
+        "lat": "45.73279",
+        "lng": "7.32101"
+      },
+      "length": 257
+    },
+    {
+      "id": "E-1949-18",
+      "year": 1949,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Aoste (Ita.) - Lausanne (Sui.)",
+      "start": {
+        "city": "Aoste",
+        "country": "Italie",
+        "lat": "45.73279",
+        "lng": "7.32101"
+      },
+      "finish": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "length": 265
+    },
+    {
+      "id": "E-1949-19",
+      "year": 1949,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Lausanne (Sui.) - Colmar",
+      "start": {
+        "city": "Lausanne",
+        "country": "Suisse",
+        "lat": "46.519962",
+        "lng": "6.633597"
+      },
+      "finish": {
+        "city": "Colmar",
+        "country": "France",
+        "lat": "48.079359",
+        "lng": "7.358512"
+      },
+      "length": 283
+    },
+    {
+      "id": "E-1949-20",
+      "year": 1949,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Colmar - Nancy",
+      "start": {
+        "city": "Colmar",
+        "country": "France",
+        "lat": "48.079359",
+        "lng": "7.358512"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "length": 137
+    },
+    {
+      "id": "E-1949-21",
+      "year": 1949,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Nancy - Paris",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 340
+    }
   ]
 }

@@ -23,6 +23,265 @@
   "third_country": "France",
   "third_id": "louis-trousselier",
   "legs": [
-
+    {
+      "id": "E-1906-01",
+      "year": 1906,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 275
+    },
+    {
+      "id": "E-1906-02",
+      "year": 1906,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Douai - Nancy",
+      "start": {
+        "city": "Douai",
+        "country": "France",
+        "lat": "50.367874",
+        "lng": "3.080602"
+      },
+      "finish": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "length": 400
+    },
+    {
+      "id": "E-1906-03",
+      "year": 1906,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Nancy - Dijon",
+      "start": {
+        "city": "Nancy",
+        "country": "France",
+        "lat": "48.692054",
+        "lng": "6.184417"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 416
+    },
+    {
+      "id": "E-1906-04",
+      "year": 1906,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Dijon - Grenoble",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 311
+    },
+    {
+      "id": "E-1906-05",
+      "year": 1906,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Grenoble - Nice",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 345
+    },
+    {
+      "id": "E-1906-06",
+      "year": 1906,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Nice - Marseille",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 292
+    },
+    {
+      "id": "E-1906-07",
+      "year": 1906,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Marseille - Toulouse",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 480
+    },
+    {
+      "id": "E-1906-08",
+      "year": 1906,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Toulouse - Bayonne",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 300
+    },
+    {
+      "id": "E-1906-09",
+      "year": 1906,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Bayonne - Bordeaux",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 338
+    },
+    {
+      "id": "E-1906-10",
+      "year": 1906,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bordeaux - Nantes",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 391
+    },
+    {
+      "id": "E-1906-11",
+      "year": 1906,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Nantes - Brest",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 321
+    },
+    {
+      "id": "E-1906-12",
+      "year": 1906,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Brest - Caen",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 415
+    },
+    {
+      "id": "E-1906-13",
+      "year": 1906,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Caen - Paris",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 259
+    }
   ]
 }

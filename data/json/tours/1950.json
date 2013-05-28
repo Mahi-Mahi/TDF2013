@@ -23,6 +23,445 @@
   "third_country": "France",
   "third_id": "louison-bobet",
   "legs": [
-
+    {
+      "id": "E-1950-01",
+      "year": 1950,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Metz",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 307
+    },
+    {
+      "id": "E-1950-02",
+      "year": 1950,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Metz - Liège (Bel.)",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 241
+    },
+    {
+      "id": "E-1950-03",
+      "year": 1950,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Liège (Bel.) - Lille",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 232
+    },
+    {
+      "id": "E-1950-04",
+      "year": 1950,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Lille - Rouen",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1950-05",
+      "year": 1950,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Rouen - Dinard",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "length": 316
+    },
+    {
+      "id": "E-1950-06",
+      "year": 1950,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Dinard - Saint-Brieuc",
+      "start": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 78
+    },
+    {
+      "id": "E-1950-07",
+      "year": 1950,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Saint-Brieuc - Angers",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 248
+    },
+    {
+      "id": "E-1950-08",
+      "year": 1950,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Angers - Niort",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Niort",
+        "country": "France",
+        "lat": "46.323716",
+        "lng": "-0.464777"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-1950-09",
+      "year": 1950,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Niort - Bordeaux",
+      "start": {
+        "city": "Niort",
+        "country": "France",
+        "lat": "46.323716",
+        "lng": "-0.464777"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1950-10",
+      "year": 1950,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bordeaux - Pau",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1950-11",
+      "year": 1950,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Pau - Saint-Gaudens",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "length": 230
+    },
+    {
+      "id": "E-1950-12",
+      "year": 1950,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Saint-Gaudens - Perpignan",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1950-13",
+      "year": 1950,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Perpignan - Nîmes",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 215
+    },
+    {
+      "id": "E-1950-14",
+      "year": 1950,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Nîmes - Toulon",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "length": 222
+    },
+    {
+      "id": "E-1950-15",
+      "year": 1950,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Toulon - Menton",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "finish": {
+        "city": "Menton",
+        "country": "France",
+        "lat": "43.774481",
+        "lng": "7.49754"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1950-16",
+      "year": 1950,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Menton - Nice",
+      "start": {
+        "city": "Menton",
+        "country": "France",
+        "lat": "43.774481",
+        "lng": "7.49754"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 96
+    },
+    {
+      "id": "E-1950-17",
+      "year": 1950,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Nice - Gap",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 229
+    },
+    {
+      "id": "E-1950-18",
+      "year": 1950,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Gap - Briançon",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-1950-19",
+      "year": 1950,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Briançon - Saint-Étienne",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 291
+    },
+    {
+      "id": "E-1950-20",
+      "year": 1950,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Saint-Étienne - Lyon",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 98
+    },
+    {
+      "id": "E-1950-21",
+      "year": 1950,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Lyon - Dijon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 233
+    },
+    {
+      "id": "E-1950-22",
+      "year": 1950,
+      "leg": "22",
+      "leg_num": 22,
+      "title": "Dijon - Paris",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 314
+    }
   ]
 }

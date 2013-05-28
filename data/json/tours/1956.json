@@ -23,6 +23,465 @@
   "third_country": "Belgique",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1956-01",
+      "year": 1956,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Reims - Liège (Bel.)",
+      "start": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1956-02",
+      "year": 1956,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Liège (Bel.) - Lille",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 217
+    },
+    {
+      "id": "E-1956-03",
+      "year": 1956,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Lille - Rouen",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 225
+    },
+    {
+      "id": "E-1956-4a",
+      "year": 1956,
+      "leg": "4a",
+      "leg_num": 4,
+      "title": "Circuit de Rouen-les-Essarts",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 15
+    },
+    {
+      "id": "E-1956-4b",
+      "year": 1956,
+      "leg": "4b",
+      "leg_num": 5,
+      "title": "Rouen - Caen",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 125
+    },
+    {
+      "id": "E-1956-05",
+      "year": 1956,
+      "leg": "5",
+      "leg_num": 6,
+      "title": "Caen - Saint-Malo",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-1956-06",
+      "year": 1956,
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Saint-Malo - Lorient",
+      "start": {
+        "city": "Saint-Malo",
+        "country": "France",
+        "lat": "48.649337",
+        "lng": "-2.025674"
+      },
+      "finish": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-1956-07",
+      "year": 1956,
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Lorient - Angers",
+      "start": {
+        "city": "Lorient",
+        "country": "France",
+        "lat": "47.748252",
+        "lng": "-3.370245"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 244
+    },
+    {
+      "id": "E-1956-08",
+      "year": 1956,
+      "leg": "8",
+      "leg_num": 9,
+      "title": "Angers - La Rochelle",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 180
+    },
+    {
+      "id": "E-1956-09",
+      "year": 1956,
+      "leg": "9",
+      "leg_num": 10,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-1956-10",
+      "year": 1956,
+      "leg": "10",
+      "leg_num": 11,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1956-11",
+      "year": 1956,
+      "leg": "11",
+      "leg_num": 12,
+      "title": "Bayonne - Pau",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 255
+    },
+    {
+      "id": "E-1956-12",
+      "year": 1956,
+      "leg": "12",
+      "leg_num": 13,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 130
+    },
+    {
+      "id": "E-1956-13",
+      "year": 1956,
+      "leg": "13",
+      "leg_num": 14,
+      "title": "Luchon - Toulouse",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 176
+    },
+    {
+      "id": "E-1956-14",
+      "year": 1956,
+      "leg": "14",
+      "leg_num": 15,
+      "title": "Toulouse - Montpellier",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1956-15",
+      "year": 1956,
+      "leg": "15",
+      "leg_num": 16,
+      "title": "Montpellier - Aix-en-Provence",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lat": "43.529742",
+        "lng": "5.447427"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1956-16",
+      "year": 1956,
+      "leg": "16",
+      "leg_num": 17,
+      "title": "Aix-en-Provence - Gap",
+      "start": {
+        "city": "Aix-en-Provence",
+        "country": "France",
+        "lat": "43.529742",
+        "lng": "5.447427"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1956-17",
+      "year": 1956,
+      "leg": "17",
+      "leg_num": 18,
+      "title": "Gap - Turin (Ita.)",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Turin",
+        "country": "Italie",
+        "lat": "45.070982",
+        "lng": "7.685676"
+      },
+      "length": 234
+    },
+    {
+      "id": "E-1956-18",
+      "year": 1956,
+      "leg": "18",
+      "leg_num": 19,
+      "title": "Turin (Ita.) - Grenoble",
+      "start": {
+        "city": "Turin",
+        "country": "Italie",
+        "lat": "45.070982",
+        "lng": "7.685676"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 250
+    },
+    {
+      "id": "E-1956-19",
+      "year": 1956,
+      "leg": "19",
+      "leg_num": 20,
+      "title": "Grenoble - Saint-Étienne",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 173
+    },
+    {
+      "id": "E-1956-20",
+      "year": 1956,
+      "leg": "20",
+      "leg_num": 21,
+      "title": "Saint-Étienne - Lyon",
+      "start": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 73
+    },
+    {
+      "id": "E-1956-21",
+      "year": 1956,
+      "leg": "21",
+      "leg_num": 22,
+      "title": "Lyon - Montluçon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Montluçon",
+        "country": "France",
+        "lat": "46.339966",
+        "lng": "2.606645"
+      },
+      "length": 237
+    },
+    {
+      "id": "E-1956-22",
+      "year": 1956,
+      "leg": "22",
+      "leg_num": 23,
+      "title": "Montluçon - Paris",
+      "start": {
+        "city": "Montluçon",
+        "country": "France",
+        "lat": "46.339966",
+        "lng": "2.606645"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 331
+    }
   ]
 }

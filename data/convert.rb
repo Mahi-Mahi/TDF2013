@@ -216,29 +216,29 @@ CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 
 			leg[:id] = row[0].gsub(/\-(\d)$/, '-0\1')
 
-			leg[:year] = row[1].to_i
-			leg[:leg] = row[2]
-			leg[:leg_num] = row[3].to_i
-			leg[:title] = row[4]
+			leg[:year] = row[2].to_i
+			leg[:leg] = row[3]
+			leg[:leg_num] = row[4].to_i
+			leg[:title] = row[5]
 
 			leg[:start] = {}
-			leg[:start][:city] = row[5]
-			leg[:start][:country] = row[6]
+			leg[:start][:city] = row[6]
+			leg[:start][:country] = row[7]
 	#		leg[:start][:coords] = row[6]
-			coords = row[7].split(/,/) unless row[7].nil?
+			coords = row[8].split(/,/) unless row[8].nil?
 			leg[:start][:lat] = coords[0]
 			leg[:start][:lng] = coords[1]
 	#		leg[:start][:coords_inv] = row[9]
 
 			leg[:finish] = {}
-			leg[:finish][:city] = row[8]
-			leg[:finish][:country] = row[9]
+			leg[:finish][:city] = row[9]
+			leg[:finish][:country] = row[10]
 	#		leg[:finish][:coords] = row[12]
-			coords = row[10].split(/,/) unless row[10].nil?
+			coords = row[11].split(/,/) unless row[11].nil?
 			leg[:finish][:lat] = coords[0]
 			leg[:finish][:lng] = coords[1]
 
-			leg[:length] = row[11].to_i
+			leg[:length] = row[12].to_i
 
 	#		leg[:finish][:coords_inv] = row[16]
 

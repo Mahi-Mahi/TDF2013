@@ -23,6 +23,465 @@
   "third_country": "Pays-Bas",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1983-Prologue",
+      "year": 1983,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Fontenay-sous-Bois - Fontenay-sous-Bois",
+      "start": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lat": "48.851542",
+        "lng": "2.475907"
+      },
+      "finish": {
+        "city": "Fontenay-sous-Bois",
+        "country": "France",
+        "lat": "48.851542",
+        "lng": "2.475907"
+      },
+      "length": 5
+    },
+    {
+      "id": "E-1983-01",
+      "year": 1983,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Nogent-sur-Marne - Créteil",
+      "start": {
+        "city": "Nogent-sur-Marne",
+        "country": "France",
+        "lat": "48.837631",
+        "lng": "2.481699"
+      },
+      "finish": {
+        "city": "Créteil",
+        "country": "France",
+        "lat": "48.790367",
+        "lng": "2.455572"
+      },
+      "length": 163
+    },
+    {
+      "id": "E-1983-02",
+      "year": 1983,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Soissons - Fontaine-au-Pire",
+      "start": {
+        "city": "Soissons",
+        "country": "France",
+        "lat": "49.376636",
+        "lng": "3.32342"
+      },
+      "finish": {
+        "city": "Fontaine-au-Pire",
+        "country": "France",
+        "lat": "50.13042",
+        "lng": "3.375606"
+      },
+      "length": 100
+    },
+    {
+      "id": "E-1983-03",
+      "year": 1983,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Valenciennes - Roubaix",
+      "start": {
+        "city": "Valenciennes",
+        "country": "France",
+        "lat": "50.357113",
+        "lng": "3.518332"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "length": 152
+    },
+    {
+      "id": "E-1983-04",
+      "year": 1983,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Roubaix - Le Havre",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 300
+    },
+    {
+      "id": "E-1983-05",
+      "year": 1983,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Le Havre - Le Mans",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "finish": {
+        "city": "Le Mans",
+        "country": "France",
+        "lat": "48.00611",
+        "lng": "0.199556"
+      },
+      "length": 257
+    },
+    {
+      "id": "E-1983-06",
+      "year": 1983,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Châteaubriant - Nantes",
+      "start": {
+        "city": "Châteaubriant",
+        "country": "France",
+        "lat": "47.720948",
+        "lng": "-1.376224"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 58
+    },
+    {
+      "id": "E-1983-07",
+      "year": 1983,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Nantes - Île d'Oléron",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "Île d'Oléron",
+        "country": "France",
+        "lat": "45.915934",
+        "lng": "-1.271674"
+      },
+      "length": 216
+    },
+    {
+      "id": "E-1983-08",
+      "year": 1983,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "La Rochelle - Bordeaux",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 222
+    },
+    {
+      "id": "E-1983-09",
+      "year": 1983,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Bordeaux - Pau",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-1983-10",
+      "year": 1983,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Pau - Bagnères-de-Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-1983-11",
+      "year": 1983,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Bagnères-de-Luchon - Fleurance",
+      "start": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Fleurance",
+        "country": "France",
+        "lat": "43.849456",
+        "lng": "0.663244"
+      },
+      "length": 177
+    },
+    {
+      "id": "E-1983-12",
+      "year": 1983,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Fleurance - Roquefort-sur-Soulzon",
+      "start": {
+        "city": "Fleurance",
+        "country": "France",
+        "lat": "43.849456",
+        "lng": "0.663244"
+      },
+      "finish": {
+        "city": "Roquefort-sur-Soulzon",
+        "country": "France",
+        "lat": "43.974566",
+        "lng": "2.992022"
+      },
+      "length": 261
+    },
+    {
+      "id": "E-1983-13",
+      "year": 1983,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Roquefort-sur-Soulzon - Aurillac",
+      "start": {
+        "city": "Roquefort-sur-Soulzon",
+        "country": "France",
+        "lat": "43.974566",
+        "lng": "2.992022"
+      },
+      "finish": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-1983-14",
+      "year": 1983,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Aurillac - Issoire",
+      "start": {
+        "city": "Aurillac",
+        "country": "France",
+        "lat": "44.930953",
+        "lng": "2.444997"
+      },
+      "finish": {
+        "city": "Issoire",
+        "country": "France",
+        "lat": "45.54151",
+        "lng": "3.248128"
+      },
+      "length": 249
+    },
+    {
+      "id": "E-1983-15",
+      "year": 1983,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Clermont-Ferrand - Puy-de-Dôme",
+      "start": {
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "lat": "45.777222",
+        "lng": "3.087025"
+      },
+      "finish": {
+        "city": "Puy-de-Dôme",
+        "country": "France",
+        "lat": "45.77207",
+        "lng": "2.96974"
+      },
+      "length": 15
+    },
+    {
+      "id": "E-1983-16",
+      "year": 1983,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Issoire - Saint-Étienne",
+      "start": {
+        "city": "Issoire",
+        "country": "France",
+        "lat": "45.54151",
+        "lng": "3.248128"
+      },
+      "finish": {
+        "city": "Saint-Étienne",
+        "country": "France",
+        "lat": "45.439695",
+        "lng": "4.387178"
+      },
+      "length": 144
+    },
+    {
+      "id": "E-1983-17",
+      "year": 1983,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "La Tour-du-Pin - L'Alpe d'Huez",
+      "start": {
+        "city": "La Tour-du-Pin",
+        "country": "France",
+        "lat": "45.564026",
+        "lng": "5.445327"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1983-18",
+      "year": 1983,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Bourg-d'Oisans - Morzine",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "length": 247
+    },
+    {
+      "id": "E-1983-19",
+      "year": 1983,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Morzine - Avoriaz",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "finish": {
+        "city": "Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "length": 15
+    },
+    {
+      "id": "E-1983-20",
+      "year": 1983,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Morzine - Dijon",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 291
+    },
+    {
+      "id": "E-1983-21",
+      "year": 1983,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Dijon - Dijon",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 50
+    },
+    {
+      "id": "E-1983-22",
+      "year": 1983,
+      "leg": "22",
+      "leg_num": 22,
+      "title": "Alfortville - Paris",
+      "start": {
+        "city": "Alfortville",
+        "country": "France",
+        "lat": "48.80093",
+        "lng": "2.422317"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 195
+    }
   ]
 }

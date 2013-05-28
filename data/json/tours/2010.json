@@ -23,6 +23,425 @@
   "third_country": "Espagne",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2010-Prologue",
+      "year": 2010,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Rotterdam (P.-B.) - Rotterdam (P.-B.)",
+      "start": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lat": "51.924216",
+        "lng": "4.481776"
+      },
+      "finish": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lat": "51.924216",
+        "lng": "4.481776"
+      },
+      "length": 8
+    },
+    {
+      "id": "E-2010-01",
+      "year": 2010,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Rotterdam (P.-B.) - Bruxelles (Bel.)",
+      "start": {
+        "city": "Rotterdam",
+        "country": "Pays-Bas",
+        "lat": "51.924216",
+        "lng": "4.481776"
+      },
+      "finish": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-2010-02",
+      "year": 2010,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Bruxelles (Bel.) - Spa (Bel.)",
+      "start": {
+        "city": "Bruxelles",
+        "country": "Belgique",
+        "lat": "50.85034",
+        "lng": "4.35171"
+      },
+      "finish": {
+        "city": "Spa",
+        "country": "Belgique",
+        "lat": "50.49243",
+        "lng": "5.86432"
+      },
+      "length": 201
+    },
+    {
+      "id": "E-2010-03",
+      "year": 2010,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Wanze (Bel.) - Arenberg-Porte du Hainaut",
+      "start": {
+        "city": "Wanze",
+        "country": "Belgique",
+        "lat": "50.534466",
+        "lng": "5.21413"
+      },
+      "finish": {
+        "city": "Arenberg",
+        "country": "France",
+        "lat": "50.378854",
+        "lng": "3.422829"
+      },
+      "length": 213
+    },
+    {
+      "id": "E-2010-04",
+      "year": 2010,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Cambrai - Reims",
+      "start": {
+        "city": "Cambrai",
+        "country": "France",
+        "lat": "50.173538",
+        "lng": "3.236633"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 153
+    },
+    {
+      "id": "E-2010-05",
+      "year": 2010,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Épernay - Montargis",
+      "start": {
+        "city": "Épernay",
+        "country": "France",
+        "lat": "49.043411",
+        "lng": "3.956242"
+      },
+      "finish": {
+        "city": "Montargis",
+        "country": "France",
+        "lat": "47.99729",
+        "lng": "2.736291"
+      },
+      "length": 187
+    },
+    {
+      "id": "E-2010-06",
+      "year": 2010,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Montargis - Gueugnon",
+      "start": {
+        "city": "Montargis",
+        "country": "France",
+        "lat": "47.99729",
+        "lng": "2.736291"
+      },
+      "finish": {
+        "city": "Gueugnon",
+        "country": "France",
+        "lat": "46.601313",
+        "lng": "4.064993"
+      },
+      "length": 227
+    },
+    {
+      "id": "E-2010-07",
+      "year": 2010,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Tournus - Station des Rousses",
+      "start": {
+        "city": "Tournus",
+        "country": "France",
+        "lat": "46.561816",
+        "lng": "4.911953"
+      },
+      "finish": {
+        "city": "Les Rousses",
+        "country": "France",
+        "lat": "46.48434",
+        "lng": "6.061806"
+      },
+      "length": 165
+    },
+    {
+      "id": "E-2010-08",
+      "year": 2010,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Station des Rousses - Morzine-Avoriaz",
+      "start": {
+        "city": "Les Rousses",
+        "country": "France",
+        "lat": "46.48434",
+        "lng": "6.061806"
+      },
+      "finish": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-2010-09",
+      "year": 2010,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Morzine-Avoriaz - Saint-Jean-de-Maurienne",
+      "start": {
+        "city": "Morzine-Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "finish": {
+        "city": "Saint-Jean-de-Maurienne",
+        "country": "France",
+        "lat": "45.275403",
+        "lng": "6.344886"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-2010-10",
+      "year": 2010,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Chambéry - Gap",
+      "start": {
+        "city": "Chambéry",
+        "country": "France",
+        "lat": "45.564601",
+        "lng": "5.917781"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 179
+    },
+    {
+      "id": "E-2010-11",
+      "year": 2010,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Sisteron - Bourg-lès-Valence",
+      "start": {
+        "city": "Sisteron",
+        "country": "France",
+        "lat": "44.194713",
+        "lng": "5.943191"
+      },
+      "finish": {
+        "city": "Bourg-lès-Valence",
+        "country": "France",
+        "lat": "44.947037",
+        "lng": "4.894633"
+      },
+      "length": 184
+    },
+    {
+      "id": "E-2010-12",
+      "year": 2010,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Bourg-de-Péage - Mende",
+      "start": {
+        "city": "Bourg-de-Péage",
+        "country": "France",
+        "lat": "45.040419",
+        "lng": "5.050948"
+      },
+      "finish": {
+        "city": "Mende",
+        "country": "France",
+        "lat": "44.517611",
+        "lng": "3.501873"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-2010-13",
+      "year": 2010,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Rodez - Revel",
+      "start": {
+        "city": "Rodez",
+        "country": "France",
+        "lat": "44.349389",
+        "lng": "2.575986"
+      },
+      "finish": {
+        "city": "Revel",
+        "country": "France",
+        "lat": "43.458611",
+        "lng": "2.004573"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2010-14",
+      "year": 2010,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Revel - Ax 3 Domaines",
+      "start": {
+        "city": "Revel",
+        "country": "France",
+        "lat": "43.458611",
+        "lng": "2.004573"
+      },
+      "finish": {
+        "city": "Ax 3 Domaines",
+        "country": "France",
+        "lat": "42.699657",
+        "lng": "1.81283"
+      },
+      "length": 184
+    },
+    {
+      "id": "E-2010-15",
+      "year": 2010,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Pamiers - Bagnères-de-Luchon",
+      "start": {
+        "city": "Pamiers",
+        "country": "France",
+        "lat": "43.114753",
+        "lng": "1.607953"
+      },
+      "finish": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 187
+    },
+    {
+      "id": "E-2010-16",
+      "year": 2010,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Bagnères-de-Luchon - Pau",
+      "start": {
+        "city": "Bagnères-de-Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-2010-17",
+      "year": 2010,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Pau - Col du Tourmalet",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Col du Tourmalet",
+        "country": "France",
+        "lat": "42.908192",
+        "lng": "0.145"
+      },
+      "length": 174
+    },
+    {
+      "id": "E-2010-18",
+      "year": 2010,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Salies-de-Béarn - Bordeaux",
+      "start": {
+        "city": "Salies-de-Béarn",
+        "country": "France",
+        "lat": "43.470556",
+        "lng": "-0.924854"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 109
+    },
+    {
+      "id": "E-2010-19",
+      "year": 2010,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Bordeaux - Pauillac",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Pauillac",
+        "country": "France",
+        "lat": "45.199585",
+        "lng": "-0.746212"
+      },
+      "length": 52
+    },
+    {
+      "id": "E-2010-20",
+      "year": 2010,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Longjumeau - Paris-Champs-Élysées",
+      "start": {
+        "city": "Longjumeau",
+        "country": "France",
+        "lat": "48.692252",
+        "lng": "2.305675"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 102
+    }
   ]
 }

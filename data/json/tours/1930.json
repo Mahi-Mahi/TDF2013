@@ -23,6 +23,425 @@
   "third_country": "France",
   "third_id": "antonin-magne",
   "legs": [
-
+    {
+      "id": "E-1930-01",
+      "year": 1930,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1930-02",
+      "year": 1930,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Caen - Dinan",
+      "start": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "finish": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1930-03",
+      "year": 1930,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Dinan - Brest",
+      "start": {
+        "city": "Dinan",
+        "country": "France",
+        "lat": "48.454366",
+        "lng": "-2.047327"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 206
+    },
+    {
+      "id": "E-1930-04",
+      "year": 1930,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Brest - Vannes",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-1930-05",
+      "year": 1930,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Vannes - Les Sables-d'Olonne",
+      "start": {
+        "city": "Vannes",
+        "country": "France",
+        "lat": "47.658236",
+        "lng": "-2.760847"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1930-06",
+      "year": 1930,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Les Sables-d'Olonne - Bordeaux",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 285
+    },
+    {
+      "id": "E-1930-07",
+      "year": 1930,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Bordeaux - Hendaye",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Hendaye",
+        "country": "France",
+        "lat": "43.359399",
+        "lng": "-1.766148"
+      },
+      "length": 222
+    },
+    {
+      "id": "E-1930-08",
+      "year": 1930,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Hendaye - Pau",
+      "start": {
+        "city": "Hendaye",
+        "country": "France",
+        "lat": "43.359399",
+        "lng": "-1.766148"
+      },
+      "finish": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "length": 146
+    },
+    {
+      "id": "E-1930-09",
+      "year": 1930,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Pau - Luchon",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1930-10",
+      "year": 1930,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 322
+    },
+    {
+      "id": "E-1930-11",
+      "year": 1930,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Perpignan - Montpellier",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 164
+    },
+    {
+      "id": "E-1930-12",
+      "year": 1930,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Montpellier - Marseille",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 209
+    },
+    {
+      "id": "E-1930-13",
+      "year": 1930,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Marseille - Cannes",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-1930-14",
+      "year": 1930,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Cannes - Nice",
+      "start": {
+        "city": "Cannes",
+        "country": "France",
+        "lat": "43.552847",
+        "lng": "7.017369"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 132
+    },
+    {
+      "id": "E-1930-15",
+      "year": 1930,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Nice - Grenoble",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "length": 333
+    },
+    {
+      "id": "E-1930-16",
+      "year": 1930,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Grenoble - Évian",
+      "start": {
+        "city": "Grenoble",
+        "country": "France",
+        "lat": "45.188529",
+        "lng": "5.724524"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "length": 331
+    },
+    {
+      "id": "E-1930-17",
+      "year": 1930,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Évian - Belfort",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "length": 282
+    },
+    {
+      "id": "E-1930-18",
+      "year": 1930,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Belfort - Metz",
+      "start": {
+        "city": "Belfort",
+        "country": "France",
+        "lat": "47.639674",
+        "lng": "6.863849"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1930-19",
+      "year": 1930,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Metz - Charleville",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-1930-20",
+      "year": 1930,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Charleville - Malo-les-Bains",
+      "start": {
+        "city": "Charleville",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "finish": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "length": 271
+    },
+    {
+      "id": "E-1930-21",
+      "year": 1930,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Malo-les-Bains - Paris",
+      "start": {
+        "city": "Malo-les-Bains",
+        "country": "France",
+        "lat": "51.046636",
+        "lng": "2.398274"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 300
+    }
   ]
 }

@@ -23,6 +23,425 @@
   "third_country": "Italie",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2004-Prologue",
+      "year": 2004,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Liège (Bel.) - Liège (Bel.)",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 6
+    },
+    {
+      "id": "E-2004-01",
+      "year": 2004,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Liège (Bel.) - Charleroi (Bel.)",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lat": "50.41081",
+        "lng": "4.444643"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-2004-02",
+      "year": 2004,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Charleroi (Bel.) - Namur (Bel.)",
+      "start": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lat": "50.41081",
+        "lng": "4.444643"
+      },
+      "finish": {
+        "city": "Namur",
+        "country": "Belgique",
+        "lat": "50.465328",
+        "lng": "4.867665"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-2004-03",
+      "year": 2004,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Waterloo (Bel.) - Wasquehal",
+      "start": {
+        "city": "Waterloo",
+        "country": "Belgique",
+        "lat": "50.71543",
+        "lng": "4.395935"
+      },
+      "finish": {
+        "city": "Wasquehal",
+        "country": "France",
+        "lat": "50.669276",
+        "lng": "3.130782"
+      },
+      "length": 210
+    },
+    {
+      "id": "E-2004-04",
+      "year": 2004,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Cambrai - Arras",
+      "start": {
+        "city": "Cambrai",
+        "country": "France",
+        "lat": "50.173538",
+        "lng": "3.236633"
+      },
+      "finish": {
+        "city": "Arras",
+        "country": "France",
+        "lat": "50.291002",
+        "lng": "2.777535"
+      },
+      "length": 64
+    },
+    {
+      "id": "E-2004-05",
+      "year": 2004,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Amiens - Chartres",
+      "start": {
+        "city": "Amiens",
+        "country": "France",
+        "lat": "49.894067",
+        "lng": "2.295753"
+      },
+      "finish": {
+        "city": "Chartres",
+        "country": "France",
+        "lat": "48.443854",
+        "lng": "1.489012"
+      },
+      "length": 200
+    },
+    {
+      "id": "E-2004-06",
+      "year": 2004,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Bonneval - Angers",
+      "start": {
+        "city": "Bonneval",
+        "country": "France",
+        "lat": "48.181453",
+        "lng": "1.385289"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2004-07",
+      "year": 2004,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Châteaubriant - Saint-Brieuc",
+      "start": {
+        "city": "Châteaubriant",
+        "country": "France",
+        "lat": "47.720948",
+        "lng": "-1.376224"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-2004-08",
+      "year": 2004,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Lamballe - Quimper",
+      "start": {
+        "city": "Lamballe",
+        "country": "France",
+        "lat": "48.468637",
+        "lng": "-2.517322"
+      },
+      "finish": {
+        "city": "Quimper",
+        "country": "France",
+        "lat": "47.997542",
+        "lng": "-4.097899"
+      },
+      "length": 168
+    },
+    {
+      "id": "E-2004-09",
+      "year": 2004,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "St-Léonard - Guéret",
+      "start": {
+        "city": "St-Léonard de Noblat",
+        "country": "France",
+        "lat": "45.83670",
+        "lng": "1.48621"
+      },
+      "finish": {
+        "city": "Guéret",
+        "country": "France",
+        "lat": "46.169599",
+        "lng": "1.871452"
+      },
+      "length": 160
+    },
+    {
+      "id": "E-2004-10",
+      "year": 2004,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Limoges - Saint-Flour",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Saint-Flour",
+        "country": "France",
+        "lat": "45.033026",
+        "lng": "3.094862"
+      },
+      "length": 237
+    },
+    {
+      "id": "E-2004-11",
+      "year": 2004,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Saint-Flour - Figeac",
+      "start": {
+        "city": "Saint-Flour",
+        "country": "France",
+        "lat": "45.033026",
+        "lng": "3.094862"
+      },
+      "finish": {
+        "city": "Figeac",
+        "country": "France",
+        "lat": "44.608288",
+        "lng": "2.032871"
+      },
+      "length": 164
+    },
+    {
+      "id": "E-2004-12",
+      "year": 2004,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Castelsarrasin - La Mongie",
+      "start": {
+        "city": "Castelsarrasin",
+        "country": "France",
+        "lat": "44.039889",
+        "lng": "1.107132"
+      },
+      "finish": {
+        "city": "La Mongie, Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "42.91",
+        "lng": "0.179167"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-2004-13",
+      "year": 2004,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Lannemezan - Plateau de Beille",
+      "start": {
+        "city": "Lannemezan",
+        "country": "France",
+        "lat": "43.125519",
+        "lng": "0.38396"
+      },
+      "finish": {
+        "city": "Plateau de Beille, Aston",
+        "country": "France",
+        "lat": "42.709683",
+        "lng": "1.702387"
+      },
+      "length": 205
+    },
+    {
+      "id": "E-2004-14",
+      "year": 2004,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Carcassonne - Nîmes",
+      "start": {
+        "city": "Carcassonne",
+        "country": "France",
+        "lat": "43.212161",
+        "lng": "2.353663"
+      },
+      "finish": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-2004-15",
+      "year": 2004,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Valréas - Villard-de-Lans",
+      "start": {
+        "city": "Valréas",
+        "country": "France",
+        "lat": "44.383724",
+        "lng": "4.989187"
+      },
+      "finish": {
+        "city": "Villard-de-Lans",
+        "country": "France",
+        "lat": "45.070641",
+        "lng": "5.55227"
+      },
+      "length": 180
+    },
+    {
+      "id": "E-2004-16",
+      "year": 2004,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Le Bourg-d'Oisans - Alpe d'Huez",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 15
+    },
+    {
+      "id": "E-2004-17",
+      "year": 2004,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Le Bourg-d'Oisans - Le Grand Bornand",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Le Grand Bornand ",
+        "country": "France",
+        "lat": "45.942027",
+        "lng": "6.426699"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-2004-18",
+      "year": 2004,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Annemasse - Lons-le-Saunier",
+      "start": {
+        "city": "Annemasse",
+        "country": "France",
+        "lat": "46.193253",
+        "lng": "6.234158"
+      },
+      "finish": {
+        "city": "Lons-le-Saunier",
+        "country": "France",
+        "lat": "46.671361",
+        "lng": "5.550796"
+      },
+      "length": 166
+    },
+    {
+      "id": "E-2004-19",
+      "year": 2004,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Besançon - Besançon",
+      "start": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 55
+    },
+    {
+      "id": "E-2004-20",
+      "year": 2004,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Montereau - Paris",
+      "start": {
+        "city": "Montereau",
+        "country": "France",
+        "lat": "48.384734",
+        "lng": "2.956193"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 163
+    }
   ]
 }

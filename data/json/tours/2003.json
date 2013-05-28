@@ -23,6 +23,425 @@
   "third_country": "Kazakhstan",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2003-Prologue",
+      "year": 2003,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Paris - Paris",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 6
+    },
+    {
+      "id": "E-2003-01",
+      "year": 2003,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Montgeron - Meaux",
+      "start": {
+        "city": "Montgeron",
+        "country": "France",
+        "lat": "48.703859",
+        "lng": "2.460453"
+      },
+      "finish": {
+        "city": "Meaux",
+        "country": "France",
+        "lat": "48.959396",
+        "lng": "2.879255"
+      },
+      "length": 168
+    },
+    {
+      "id": "E-2003-02",
+      "year": 2003,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "La Ferté-sous-Jouarre - Sedan",
+      "start": {
+        "city": "La Ferté-sous-Jouarre",
+        "country": "France",
+        "lat": "48.950507",
+        "lng": "3.130059"
+      },
+      "finish": {
+        "city": "Sedan",
+        "country": "France",
+        "lat": "49.70349",
+        "lng": "4.93863"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-2003-03",
+      "year": 2003,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Charleville-Mézières - Saint-Dizier",
+      "start": {
+        "city": "Charleville-Mézières",
+        "country": "France",
+        "lat": "49.762085",
+        "lng": "4.726096"
+      },
+      "finish": {
+        "city": "Saint-Dizier",
+        "country": "France",
+        "lat": "48.637692",
+        "lng": "4.947418"
+      },
+      "length": 167
+    },
+    {
+      "id": "E-2003-04",
+      "year": 2003,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Joinville - Saint-Dizier",
+      "start": {
+        "city": "Joinville",
+        "country": "France",
+        "lat": "48.44348",
+        "lng": "5.13769\n"
+      },
+      "finish": {
+        "city": "Saint-Dizier",
+        "country": "France",
+        "lat": "48.637692",
+        "lng": "4.947418"
+      },
+      "length": 69
+    },
+    {
+      "id": "E-2003-05",
+      "year": 2003,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Troyes - Nevers",
+      "start": {
+        "city": "Troyes",
+        "country": "France",
+        "lat": "48.296592",
+        "lng": "4.074735"
+      },
+      "finish": {
+        "city": "Nevers",
+        "country": "France",
+        "lat": "46.990896",
+        "lng": "3.162845"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2003-06",
+      "year": 2003,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Nevers - Lyon",
+      "start": {
+        "city": "Nevers",
+        "country": "France",
+        "lat": "46.990896",
+        "lng": "3.162845"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 230
+    },
+    {
+      "id": "E-2003-07",
+      "year": 2003,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Lyon - Morzine",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "length": 230
+    },
+    {
+      "id": "E-2003-08",
+      "year": 2003,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Sallanches - L'Alpe d'Huez",
+      "start": {
+        "city": "Sallanches",
+        "country": "France",
+        "lat": "45.936661",
+        "lng": "6.630557"
+      },
+      "finish": {
+        "city": "L'Alpe d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-2003-09",
+      "year": 2003,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Le Bourg-d'Oisans - Gap",
+      "start": {
+        "city": "Le Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "length": 184
+    },
+    {
+      "id": "E-2003-10",
+      "year": 2003,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Gap - Marseille",
+      "start": {
+        "city": "Gap",
+        "country": "France",
+        "lat": "44.559638",
+        "lng": "6.079758"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 219
+    },
+    {
+      "id": "E-2003-11",
+      "year": 2003,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Narbonne - Toulouse",
+      "start": {
+        "city": "Narbonne",
+        "country": "France",
+        "lat": "43.184277",
+        "lng": "3.003078"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 153
+    },
+    {
+      "id": "E-2003-12",
+      "year": 2003,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Gaillac - Cap découverte",
+      "start": {
+        "city": "Gaillac",
+        "country": "France",
+        "lat": "43.901816",
+        "lng": "1.896506"
+      },
+      "finish": {
+        "city": "Cap découverte, Le Garric",
+        "country": "France",
+        "lat": "44.021237",
+        "lng": "2.144574"
+      },
+      "length": 47
+    },
+    {
+      "id": "E-2003-13",
+      "year": 2003,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Toulouse - Ax-3 Domaines",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Ax-3 Domaines, Ax-les-Thermes",
+        "country": "France",
+        "lat": "42.699657",
+        "lng": "1.81283"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-2003-14",
+      "year": 2003,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Saint-Girons - Loudenvielle",
+      "start": {
+        "city": "Saint-Girons",
+        "country": "France",
+        "lat": "42.982876",
+        "lng": "1.146088"
+      },
+      "finish": {
+        "city": "Loudenvielle",
+        "country": "France",
+        "lat": "42.795702",
+        "lng": "0.412744"
+      },
+      "length": 191
+    },
+    {
+      "id": "E-2003-15",
+      "year": 2003,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Bagnères de Bigorre - Luz-Ardiden",
+      "start": {
+        "city": "Bagnères de Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lat": "42.885105",
+        "lng": "-0.061335"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-2003-16",
+      "year": 2003,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Pau - Bayonne",
+      "start": {
+        "city": "Pau",
+        "country": "France",
+        "lat": "43.2951",
+        "lng": "-0.370797"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 197
+    },
+    {
+      "id": "E-2003-17",
+      "year": 2003,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Dax - Bordeaux",
+      "start": {
+        "city": "Dax",
+        "country": "France",
+        "lat": "43.708608",
+        "lng": "-1.051945"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-2003-18",
+      "year": 2003,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Bordeaux - Saint-Maixent-l'École",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Saint-Maixent-l'École",
+        "country": "France",
+        "lat": "46.413165",
+        "lng": "-0.20341"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-2003-19",
+      "year": 2003,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Pornic - Nantes",
+      "start": {
+        "city": "Pornic",
+        "country": "France",
+        "lat": "47.115491",
+        "lng": "-2.104444"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 49
+    },
+    {
+      "id": "E-2003-20",
+      "year": 2003,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Ville-d'Avray - Paris",
+      "start": {
+        "city": "Ville-d'Avray",
+        "country": "France",
+        "lat": "48.822936",
+        "lng": "2.181255"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 152
+    }
   ]
 }

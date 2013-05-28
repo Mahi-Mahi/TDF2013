@@ -23,6 +23,425 @@
   "third_country": "États-Unis",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-2009-01",
+      "year": 2009,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Monaco - Monaco",
+      "start": {
+        "city": "Monaco",
+        "country": "Monaco",
+        "lat": "43.738418",
+        "lng": "7.424616"
+      },
+      "finish": {
+        "city": "Monaco",
+        "country": "Monaco",
+        "lat": "43.738418",
+        "lng": "7.424616"
+      },
+      "length": 15
+    },
+    {
+      "id": "E-2009-02",
+      "year": 2009,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Monaco - Brignoles",
+      "start": {
+        "city": "Monaco",
+        "country": "Monaco",
+        "lat": "43.738418",
+        "lng": "7.424616"
+      },
+      "finish": {
+        "city": "Brignoles",
+        "country": "France",
+        "lat": "43.40655",
+        "lng": "6.061187"
+      },
+      "length": 187
+    },
+    {
+      "id": "E-2009-03",
+      "year": 2009,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Marseille - La Grande-Motte",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "La Grande-Motte",
+        "country": "France",
+        "lat": "43.560704",
+        "lng": "4.086072"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2009-04",
+      "year": 2009,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Montpellier - Montpellier",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 39
+    },
+    {
+      "id": "E-2009-05",
+      "year": 2009,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Cap d'Agde - Perpignan",
+      "start": {
+        "city": "Cap d'Agde",
+        "country": "France",
+        "lat": "43.280739",
+        "lng": "3.505399"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 196
+    },
+    {
+      "id": "E-2009-06",
+      "year": 2009,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Gérone (Esp.) - Barcelone (Esp.)",
+      "start": {
+        "city": "Gérone",
+        "country": "Espagne",
+        "lat": "41.972208",
+        "lng": "2.819875"
+      },
+      "finish": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lat": "41.385064",
+        "lng": "2.173404"
+      },
+      "length": 181
+    },
+    {
+      "id": "E-2009-07",
+      "year": 2009,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Barcelone (Esp.) - Andorre-Arcalis (And.)",
+      "start": {
+        "city": "Barcelone",
+        "country": "Espagne",
+        "lat": "41.385064",
+        "lng": "2.173404"
+      },
+      "finish": {
+        "city": "Andorre-Arcalis",
+        "country": "Andorre",
+        "lat": "42.63247",
+        "lng": "1.49583"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-2009-08",
+      "year": 2009,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Andorre-la-Vieille (And.) - Saint-Girons",
+      "start": {
+        "city": "Andorre-la-Vieille",
+        "country": "Andorre",
+        "lat": "42.506317",
+        "lng": "1.521836"
+      },
+      "finish": {
+        "city": "Saint-Girons",
+        "country": "France",
+        "lat": "42.982876",
+        "lng": "1.146088"
+      },
+      "length": 176
+    },
+    {
+      "id": "E-2009-09",
+      "year": 2009,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Saint-Gaudens - Tarbes",
+      "start": {
+        "city": "Saint-Gaudens",
+        "country": "France",
+        "lat": "43.106895",
+        "lng": "0.723763"
+      },
+      "finish": {
+        "city": "Tarbes",
+        "country": "France",
+        "lat": "43.232951",
+        "lng": "0.078082"
+      },
+      "length": 160
+    },
+    {
+      "id": "E-2009-10",
+      "year": 2009,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Limoges - Issoudun",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Issoudun",
+        "country": "France",
+        "lat": "46.947535",
+        "lng": "1.988654"
+      },
+      "length": 194
+    },
+    {
+      "id": "E-2009-11",
+      "year": 2009,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Vatan - Saint-Fargeau",
+      "start": {
+        "city": "Vatan",
+        "country": "France",
+        "lat": "47.071754",
+        "lng": "1.808678"
+      },
+      "finish": {
+        "city": "Saint-Fargeau",
+        "country": "France",
+        "lat": "47.641578",
+        "lng": "3.070853"
+      },
+      "length": 192
+    },
+    {
+      "id": "E-2009-12",
+      "year": 2009,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Tonnerre - Vittel",
+      "start": {
+        "city": "Tonnerre",
+        "country": "France",
+        "lat": "47.856724",
+        "lng": "3.973527"
+      },
+      "finish": {
+        "city": "Vittel",
+        "country": "France",
+        "lat": "48.202541",
+        "lng": "5.943496"
+      },
+      "length": 211
+    },
+    {
+      "id": "E-2009-13",
+      "year": 2009,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Vittel - Colmar",
+      "start": {
+        "city": "Vittel",
+        "country": "France",
+        "lat": "48.202541",
+        "lng": "5.943496"
+      },
+      "finish": {
+        "city": "Colmar",
+        "country": "France",
+        "lat": "48.079359",
+        "lng": "7.358512"
+      },
+      "length": 200
+    },
+    {
+      "id": "E-2009-14",
+      "year": 2009,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Colmar - Besançon",
+      "start": {
+        "city": "Colmar",
+        "country": "France",
+        "lat": "48.079359",
+        "lng": "7.358512"
+      },
+      "finish": {
+        "city": "Besançon",
+        "country": "France",
+        "lat": "47.237829",
+        "lng": "6.024054"
+      },
+      "length": 199
+    },
+    {
+      "id": "E-2009-15",
+      "year": 2009,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Pontarlier - Verbier (Sui.)",
+      "start": {
+        "city": "Pontarlier",
+        "country": "France",
+        "lat": "46.904104",
+        "lng": "6.354242"
+      },
+      "finish": {
+        "city": "Verbier",
+        "country": "Suisse",
+        "lat": "46.096076",
+        "lng": "7.228875"
+      },
+      "length": 207
+    },
+    {
+      "id": "E-2009-16",
+      "year": 2009,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Martigny (Sui.) - Bourg-Saint-Maurice",
+      "start": {
+        "city": "Martigny",
+        "country": "Suisse",
+        "lat": "46.10097",
+        "lng": "7.07238"
+      },
+      "finish": {
+        "city": "Bourg-Saint-Maurice",
+        "country": "France",
+        "lat": "45.618598",
+        "lng": "6.769548"
+      },
+      "length": 159
+    },
+    {
+      "id": "E-2009-17",
+      "year": 2009,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Bourg-Saint-Maurice - Le Grand-Bornand",
+      "start": {
+        "city": "Bourg-Saint-Maurice",
+        "country": "France",
+        "lat": "45.618598",
+        "lng": "6.769548"
+      },
+      "finish": {
+        "city": "Le Grand-Bornand",
+        "country": "France",
+        "lat": "45.942027",
+        "lng": "6.426699"
+      },
+      "length": 169
+    },
+    {
+      "id": "E-2009-18",
+      "year": 2009,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Annecy - Annecy",
+      "start": {
+        "city": "Annecy",
+        "country": "France",
+        "lat": "45.899247",
+        "lng": "6.129384"
+      },
+      "finish": {
+        "city": "Annecy",
+        "country": "France",
+        "lat": "45.899247",
+        "lng": "6.129384"
+      },
+      "length": 40
+    },
+    {
+      "id": "E-2009-19",
+      "year": 2009,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Bourgoin-Jallieu - Aubenas",
+      "start": {
+        "city": "Bourgoin-Jallieu",
+        "country": "France",
+        "lat": "45.597108",
+        "lng": "5.27212"
+      },
+      "finish": {
+        "city": "Aubenas",
+        "country": "France",
+        "lat": "44.620909",
+        "lng": "4.389863"
+      },
+      "length": 178
+    },
+    {
+      "id": "E-2009-20",
+      "year": 2009,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Montélimar - Mont Ventoux",
+      "start": {
+        "city": "Montélimar",
+        "country": "France",
+        "lat": "44.556944",
+        "lng": "4.749496"
+      },
+      "finish": {
+        "city": "Mont Ventoux",
+        "country": "France",
+        "lat": "44.173925",
+        "lng": "5.283795"
+      },
+      "length": 167
+    },
+    {
+      "id": "E-2009-21",
+      "year": 2009,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Montereau - Paris-Champs-Élysées",
+      "start": {
+        "city": "Montereau",
+        "country": "France",
+        "lat": "48.384734",
+        "lng": "2.956193"
+      },
+      "finish": {
+        "city": "Paris-Champs-Élysées",
+        "country": "France",
+        "lat": "48.865784",
+        "lng": "2.307314"
+      },
+      "length": 164
+    }
   ]
 }

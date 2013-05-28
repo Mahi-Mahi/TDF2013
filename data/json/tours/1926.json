@@ -23,6 +23,345 @@
   "third_country": "Italie",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1926-01",
+      "year": 1926,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Évian - Mulhouse",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lat": "47.750839",
+        "lng": "7.335888"
+      },
+      "length": 373
+    },
+    {
+      "id": "E-1926-02",
+      "year": 1926,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Mulhouse - Metz",
+      "start": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lat": "47.750839",
+        "lng": "7.335888"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 334
+    },
+    {
+      "id": "E-1926-03",
+      "year": 1926,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Metz - Dunkerque",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "length": 433
+    },
+    {
+      "id": "E-1926-04",
+      "year": 1926,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Dunkerque - Le Havre",
+      "start": {
+        "city": "Dunkerque",
+        "country": "France",
+        "lat": "51.03456",
+        "lng": "2.375202"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 361
+    },
+    {
+      "id": "E-1926-05",
+      "year": 1926,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Le Havre - Cherbourg",
+      "start": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "finish": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "length": 357
+    },
+    {
+      "id": "E-1926-06",
+      "year": 1926,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Cherbourg - Brest",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 405
+    },
+    {
+      "id": "E-1926-07",
+      "year": 1926,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Brest - Les Sables-d'Olonne",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "length": 412
+    },
+    {
+      "id": "E-1926-08",
+      "year": 1926,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Les Sables-d'Olonne - Bordeaux",
+      "start": {
+        "city": "Les Sables-d'Olonne",
+        "country": "France",
+        "lat": "46.492958",
+        "lng": "-1.795493"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 285
+    },
+    {
+      "id": "E-1926-09",
+      "year": 1926,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Bordeaux - Bayonne",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 189
+    },
+    {
+      "id": "E-1926-10",
+      "year": 1926,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bayonne - Luchon",
+      "start": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "finish": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "length": 326
+    },
+    {
+      "id": "E-1926-11",
+      "year": 1926,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Luchon - Perpignan",
+      "start": {
+        "city": "Luchon",
+        "country": "France",
+        "lat": "42.788963",
+        "lng": "0.592943"
+      },
+      "finish": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "length": 323
+    },
+    {
+      "id": "E-1926-12",
+      "year": 1926,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Perpignan - Toulon",
+      "start": {
+        "city": "Perpignan",
+        "country": "France",
+        "lat": "42.698684",
+        "lng": "2.895872"
+      },
+      "finish": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "length": 427
+    },
+    {
+      "id": "E-1926-13",
+      "year": 1926,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Toulon - Nice",
+      "start": {
+        "city": "Toulon",
+        "country": "France",
+        "lat": "43.124228",
+        "lng": "5.928"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 280
+    },
+    {
+      "id": "E-1926-14",
+      "year": 1926,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Nice - Briançon",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "length": 275
+    },
+    {
+      "id": "E-1926-15",
+      "year": 1926,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Briançon - Évian",
+      "start": {
+        "city": "Briançon",
+        "country": "France",
+        "lat": "44.899416",
+        "lng": "6.643179"
+      },
+      "finish": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "length": 303
+    },
+    {
+      "id": "E-1926-16",
+      "year": 1926,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Évian - Dijon",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "length": 321
+    },
+    {
+      "id": "E-1926-17",
+      "year": 1926,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Dijon - Paris",
+      "start": {
+        "city": "Dijon",
+        "country": "France",
+        "lat": "47.322047",
+        "lng": "5.04148"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 341
+    }
   ]
 }

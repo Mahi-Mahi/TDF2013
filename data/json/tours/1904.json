@@ -23,6 +23,125 @@
   "third_country": "Belgique",
   "third_id": null,
   "legs": [
-
+    {
+      "id": "E-1904-01",
+      "year": 1904,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Montgeron - Lyon",
+      "start": {
+        "city": "Montgeron",
+        "country": "France",
+        "lat": "48.703859",
+        "lng": "2.460453"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 467
+    },
+    {
+      "id": "E-1904-02",
+      "year": 1904,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Lyon - Marseille",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "length": 374
+    },
+    {
+      "id": "E-1904-03",
+      "year": 1904,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Marseille - Toulouse",
+      "start": {
+        "city": "Marseille",
+        "country": "France",
+        "lat": "43.296482",
+        "lng": "5.36978"
+      },
+      "finish": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "length": 424
+    },
+    {
+      "id": "E-1904-04",
+      "year": 1904,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Toulouse - Bordeaux",
+      "start": {
+        "city": "Toulouse",
+        "country": "France",
+        "lat": "43.604652",
+        "lng": "1.444209"
+      },
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 268
+    },
+    {
+      "id": "E-1904-05",
+      "year": 1904,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Bordeaux - Nantes",
+      "start": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "finish": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "length": 425
+    },
+    {
+      "id": "E-1904-06",
+      "year": 1904,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Nantes - Paris",
+      "start": {
+        "city": "Nantes",
+        "country": "France",
+        "lat": "47.218371",
+        "lng": "-1.553621"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 471
+    }
   ]
 }

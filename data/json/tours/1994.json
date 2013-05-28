@@ -23,6 +23,445 @@
   "third_country": "Italie",
   "third_id": "marco-pantani",
   "legs": [
-
+    {
+      "id": "E-1994-Prologue",
+      "year": 1994,
+      "leg": "Prologue",
+      "leg_num": 0,
+      "title": "Lille",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 7
+    },
+    {
+      "id": "E-1994-01",
+      "year": 1994,
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Lille - Armentières",
+      "start": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "finish": {
+        "city": "Armentières",
+        "country": "France",
+        "lat": "50.691652",
+        "lng": "2.884218"
+      },
+      "length": 234
+    },
+    {
+      "id": "E-1994-02",
+      "year": 1994,
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Roubaix - Boulogne-sur-Mer",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "finish": {
+        "city": "Boulogne-sur-Mer",
+        "country": "France",
+        "lat": "50.725231",
+        "lng": "1.613334"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1994-03",
+      "year": 1994,
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Calais - Coquelles",
+      "start": {
+        "city": "Calais",
+        "country": "France",
+        "lat": "50.95129",
+        "lng": "1.858686"
+      },
+      "finish": {
+        "city": "Coquelles",
+        "country": "France",
+        "lat": "50.936417",
+        "lng": "1.799951"
+      },
+      "length": 66
+    },
+    {
+      "id": "E-1994-04",
+      "year": 1994,
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Douvres - Brighton",
+      "start": {
+        "city": "Douvres",
+        "country": "Grande-Bretagne",
+        "lat": "51.126371",
+        "lng": "1.316198"
+      },
+      "finish": {
+        "city": "Brighton",
+        "country": "Grande-Bretagne",
+        "lat": "50.82253",
+        "lng": "-0.137163"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1994-05",
+      "year": 1994,
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Portsmouth - Portsmouth",
+      "start": {
+        "city": "Portsmouth",
+        "country": "Grande-Bretagne",
+        "lat": "50.816667",
+        "lng": "-1.083333"
+      },
+      "finish": {
+        "city": "Portsmouth",
+        "country": "Grande-Bretagne",
+        "lat": "50.816667",
+        "lng": "-1.083333"
+      },
+      "length": 187
+    },
+    {
+      "id": "E-1994-06",
+      "year": 1994,
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Cherbourg - Rennes",
+      "start": {
+        "city": "Cherbourg",
+        "country": "France",
+        "lat": "49.639093",
+        "lng": "-1.625298"
+      },
+      "finish": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "length": 270
+    },
+    {
+      "id": "E-1994-07",
+      "year": 1994,
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Rennes - Futuroscope",
+      "start": {
+        "city": "Rennes",
+        "country": "France",
+        "lat": "48.113475",
+        "lng": "-1.675708"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "\n46.66680",
+        "lng": "0.36762"
+      },
+      "length": 203
+    },
+    {
+      "id": "E-1994-08",
+      "year": 1994,
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Poitiers - Trélissac",
+      "start": {
+        "city": "Poitiers",
+        "country": "France",
+        "lat": "46.580224",
+        "lng": "0.340375"
+      },
+      "finish": {
+        "city": "Trélissac",
+        "country": "France",
+        "lat": "45.196131",
+        "lng": "0.77911"
+      },
+      "length": 218
+    },
+    {
+      "id": "E-1994-09",
+      "year": 1994,
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Périgueux - Bergerac",
+      "start": {
+        "city": "Périgueux",
+        "country": "France",
+        "lat": "45.184029",
+        "lng": "0.721115"
+      },
+      "finish": {
+        "city": "Bergerac",
+        "country": "France",
+        "lat": "44.853806",
+        "lng": "0.483392"
+      },
+      "length": 64
+    },
+    {
+      "id": "E-1994-10",
+      "year": 1994,
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Bergerac - Cahors",
+      "start": {
+        "city": "Bergerac",
+        "country": "France",
+        "lat": "44.853806",
+        "lng": "0.483392"
+      },
+      "finish": {
+        "city": "Cahors",
+        "country": "France",
+        "lat": "44.447523",
+        "lng": "1.441989"
+      },
+      "length": 160
+    },
+    {
+      "id": "E-1994-11",
+      "year": 1994,
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Cahors - Lourdes-Hautacam",
+      "start": {
+        "city": "Cahors",
+        "country": "France",
+        "lat": "44.447523",
+        "lng": "1.441989"
+      },
+      "finish": {
+        "city": "Hautacam, Préchac",
+        "country": "France",
+        "lat": "42.972222",
+        "lng": "-0.0075"
+      },
+      "length": 263
+    },
+    {
+      "id": "E-1994-12",
+      "year": 1994,
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Lourdes - Luz-Ardiden",
+      "start": {
+        "city": "Lourdes",
+        "country": "France",
+        "lat": "43.091463",
+        "lng": "-0.045726"
+      },
+      "finish": {
+        "city": "Luz-Ardiden",
+        "country": "France",
+        "lat": "42.885105",
+        "lng": "-0.061335"
+      },
+      "length": 204
+    },
+    {
+      "id": "E-1994-13",
+      "year": 1994,
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Bagnères-de-Bigorre - Albi",
+      "start": {
+        "city": "Bagnères-de-Bigorre",
+        "country": "France",
+        "lat": "43.065093",
+        "lng": "0.149105"
+      },
+      "finish": {
+        "city": "Albi",
+        "country": "France",
+        "lat": "43.926896",
+        "lng": "2.146343"
+      },
+      "length": 223
+    },
+    {
+      "id": "E-1994-14",
+      "year": 1994,
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Castres - Montpellier",
+      "start": {
+        "city": "Castres",
+        "country": "France",
+        "lat": "43.606214",
+        "lng": "2.241295"
+      },
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 202
+    },
+    {
+      "id": "E-1994-15",
+      "year": 1994,
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Montpellier - Carpentras",
+      "start": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "finish": {
+        "city": "Carpentras",
+        "country": "France",
+        "lat": "44.055564",
+        "lng": "5.048722"
+      },
+      "length": 231
+    },
+    {
+      "id": "E-1994-16",
+      "year": 1994,
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Valréas - L'Alpe-d'Huez",
+      "start": {
+        "city": "Valréas",
+        "country": "France",
+        "lat": "44.383724",
+        "lng": "4.989187"
+      },
+      "finish": {
+        "city": "L'Alpe-d'Huez",
+        "country": "France",
+        "lat": "45.092624",
+        "lng": "6.068348"
+      },
+      "length": 224
+    },
+    {
+      "id": "E-1994-17",
+      "year": 1994,
+      "leg": "17",
+      "leg_num": 17,
+      "title": "Bourg-d'Oisans - Val-Thorens",
+      "start": {
+        "city": "Bourg-d'Oisans",
+        "country": "France",
+        "lat": "45.051951",
+        "lng": "6.030064"
+      },
+      "finish": {
+        "city": "Val-Thorens",
+        "country": "France",
+        "lat": "45.296603",
+        "lng": "6.584663"
+      },
+      "length": 149
+    },
+    {
+      "id": "E-1994-18",
+      "year": 1994,
+      "leg": "18",
+      "leg_num": 18,
+      "title": "Moûtiers - Cluses",
+      "start": {
+        "city": "Moûtiers",
+        "country": "France",
+        "lat": "45.484615",
+        "lng": "6.529926"
+      },
+      "finish": {
+        "city": "Cluses",
+        "country": "France",
+        "lat": "46.06039",
+        "lng": "6.580582"
+      },
+      "length": 174
+    },
+    {
+      "id": "E-1994-19",
+      "year": 1994,
+      "leg": "19",
+      "leg_num": 19,
+      "title": "Cluses - Avoriaz",
+      "start": {
+        "city": "Cluses",
+        "country": "France",
+        "lat": "46.06039",
+        "lng": "6.580582"
+      },
+      "finish": {
+        "city": "Avoriaz",
+        "country": "France",
+        "lat": "46.189683",
+        "lng": "6.776343"
+      },
+      "length": 46
+    },
+    {
+      "id": "E-1994-20",
+      "year": 1994,
+      "leg": "20",
+      "leg_num": 20,
+      "title": "Morzine - Lac Saint-Point",
+      "start": {
+        "city": "Morzine",
+        "country": "France",
+        "lat": "46.179192",
+        "lng": "6.708877"
+      },
+      "finish": {
+        "city": "Lac Saint-Point",
+        "country": "France",
+        "lat": "46.827822",
+        "lng": "6.325603"
+      },
+      "length": 208
+    },
+    {
+      "id": "E-1994-21",
+      "year": 1994,
+      "leg": "21",
+      "leg_num": 21,
+      "title": "Disneyland Paris - Paris",
+      "start": {
+        "city": "Marne La Vallée",
+        "country": "France",
+        "lat": "48.859276",
+        "lng": "2.598505"
+      },
+      "finish": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "length": 175
+    }
   ]
 }
