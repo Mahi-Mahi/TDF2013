@@ -7,47 +7,27 @@
   "nb_concurrents": 110,
   "nb_finishers": 63,
   "pct_finishers": 57,
-  "winner_name": "Jan Janssen",
-  "winner_time": "133h 49’ 32”",
+  "winner_first_name": "Jan",
+  "winner_last_name": "Janssen",
+  "winner_id": "jan-janssen",
+  "winner_total_time": "133h 49' 32\"",
+  "winner_age": "28",
+  "winner_country": "Pays-Bas",
+  "winner_avg_speed": "33,556",
   "ahead_of_2nd": "0h 00' 38\" ",
   "second_name": "H. Van Springel",
   "second_country": "Belgique",
+  "second_id": null,
   "ahead_of_3rd": "0h 03' 03\"",
   "third_name": "F. Bracke",
-  "third_country": "F. Bracke",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1968-1a",
-      "year": 1968,
-      "leg": 1,
-      "title": "Vittel",
-      "start": {
-        "city": "Vittel",
-        "country": "France",
-        "lat": "48.202541",
-        "lng": "5.943496"
-      },
-      "finish": {
-        "city": "Vittel",
-        "country": "France",
-        "lat": "48.202541",
-        "lng": "5.943496"
-      },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Charly Grosskost Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Charly Grosskost Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1968-1b",
       "year": 1968,
-      "leg": 1,
+      "leg": "1b",
+      "leg_num": 1,
       "title": "Vittel - Esch-sur-Alzette",
       "start": {
         "city": "Vittel",
@@ -64,18 +44,19 @@
       "length": 169,
       "type": null,
       "winner": {
-        "name": "Charly Grosskost Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Charly Grosskost Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-02",
       "year": 1968,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Arlon - Forest",
       "start": {
         "city": "Arlon",
@@ -92,18 +73,48 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Eric De Vlaeminck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Charly Grosskost Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1968-3a",
+      "year": 1968,
+      "leg": "3a",
+      "leg_num": 3,
+      "title": "Forest - Forest",
+      "start": {
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
+      },
+      "finish": {
+        "city": "Forest",
+        "country": "Belgique",
+        "lat": "50.8",
+        "lng": "4.316667"
+      },
+      "length": 22,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-3b",
       "year": 1968,
-      "leg": 3,
+      "leg": "3b",
+      "leg_num": 4,
       "title": "Forest - Roubaix",
       "start": {
         "city": "Forest",
@@ -120,46 +131,19 @@
       "length": 112,
       "type": null,
       "winner": {
-        "name": "Walter Godefroot Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1968-3a",
-      "year": 1968,
-      "leg": 3,
-      "title": "Forest - Forest",
-      "start": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
-      },
-      "finish": {
-        "city": "Forest",
-        "country": "Belgique",
-        "lat": "50.8",
-        "lng": "4.316667"
-      },
-      "length": 22,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Belgique équipe A",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-04",
       "year": 1968,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 5,
       "title": "Roubaix - Rouen",
       "start": {
         "city": "Roubaix",
@@ -176,46 +160,19 @@
       "length": 238,
       "type": null,
       "winner": {
-        "name": "Georges Chappe Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean-Pierre Genet Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1968-5b",
-      "year": 1968,
-      "leg": 5,
-      "title": "Bagnoles-de-l'Orne - Dinard",
-      "start": {
-        "city": "Bagnoles-de-l'Orne",
-        "country": "France",
-        "lat": "48.558399",
-        "lng": "-0.415091"
-      },
-      "finish": {
-        "city": "Dinard",
-        "country": "France",
-        "lat": "48.633024",
-        "lng": "-2.055125"
-      },
-      "length": 154,
-      "type": null,
-      "winner": {
-        "name": "Jean Dumont Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-5a",
       "year": 1968,
-      "leg": 5,
+      "leg": "5a",
+      "leg_num": 6,
       "title": "Rouen - Bagnoles-de-l'Orne",
       "start": {
         "city": "Rouen",
@@ -232,18 +189,48 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "André Desvages Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1968-5b",
+      "year": 1968,
+      "leg": "5b",
+      "leg_num": 7,
+      "title": "Bagnoles-de-l'Orne - Dinard",
+      "start": {
+        "city": "Bagnoles-de-l'Orne",
+        "country": "France",
+        "lat": "48.558399",
+        "lng": "-0.415091"
+      },
+      "finish": {
+        "city": "Dinard",
+        "country": "France",
+        "lat": "48.633024",
+        "lng": "-2.055125"
+      },
+      "length": 154,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-06",
       "year": 1968,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 8,
       "title": "Dinard - Lorient",
       "start": {
         "city": "Dinard",
@@ -260,18 +247,19 @@
       "length": 188,
       "type": null,
       "winner": {
-        "name": "Aurelio González Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-07",
       "year": 1968,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 9,
       "title": "Lorient - Nantes",
       "start": {
         "city": "Lorient",
@@ -288,18 +276,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Franco Bitossi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-08",
       "year": 1968,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 10,
       "title": "Nantes - Royan",
       "start": {
         "city": "Nantes",
@@ -316,18 +305,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Daniel Van Ryckeghem Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-09",
       "year": 1968,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Royan - Bordeaux",
       "start": {
         "city": "Royan",
@@ -344,18 +334,19 @@
       "length": 137,
       "type": null,
       "winner": {
-        "name": "Walter Godefroot Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-10",
       "year": 1968,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 12,
       "title": "Bordeaux - Bayonne",
       "start": {
         "city": "Bordeaux",
@@ -372,18 +363,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Gilbert Bellone Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-11",
       "year": 1968,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 13,
       "title": "Bayonne - Pau",
       "start": {
         "city": "Bayonne",
@@ -400,18 +392,19 @@
       "length": 183,
       "type": null,
       "winner": {
-        "name": "Daniel Van Ryckeghem Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-12",
       "year": 1968,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 14,
       "title": "Pau - Saint-Gaudens",
       "start": {
         "city": "Pau",
@@ -428,18 +421,19 @@
       "length": 226,
       "type": null,
       "winner": {
-        "name": "Georges Pintens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-13",
       "year": 1968,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 15,
       "title": "Saint-Gaudens - La Seu d'Urgell",
       "start": {
         "city": "Saint-Gaudens",
@@ -456,18 +450,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-14",
       "year": 1968,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 16,
       "title": "La Seu d'Urgell - Canet-Plage",
       "start": {
         "city": "La Seu d'Urgell",
@@ -484,18 +479,19 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-15",
       "year": 1968,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 17,
       "title": "Font-Romeu - Albi",
       "start": {
         "city": "Font-Romeu",
@@ -512,18 +508,19 @@
       "length": 250,
       "type": null,
       "winner": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-16",
       "year": 1968,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 18,
       "title": "Albi - Aurillac",
       "start": {
         "city": "Albi",
@@ -540,18 +537,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Franco Bitossi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Wolfshohl Drapeau d'Allemagne Allemagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-17",
       "year": 1968,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 19,
       "title": "Aurillac - Saint-Étienne",
       "start": {
         "city": "Aurillac",
@@ -568,18 +566,19 @@
       "length": 236,
       "type": null,
       "winner": {
-        "name": "Jean-Pierre Genet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Wolfshohl Drapeau d'Allemagne Allemagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-18",
       "year": 1968,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 20,
       "title": "Saint-Étienne - Grenoble",
       "start": {
         "city": "Saint-Étienne",
@@ -596,18 +595,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gregorio San Miguel Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-19",
       "year": 1968,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 21,
       "title": "Grenoble - Sallanches",
       "start": {
         "city": "Grenoble",
@@ -624,18 +624,19 @@
       "length": 200,
       "type": null,
       "winner": {
-        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-20",
       "year": 1968,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 22,
       "title": "Sallanches - Besançon",
       "start": {
         "city": "Sallanches",
@@ -652,18 +653,19 @@
       "length": 242,
       "type": null,
       "winner": {
-        "name": "Jos Huysmans Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-21",
       "year": 1968,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 23,
       "title": "Besançon - Auxerre",
       "start": {
         "city": "Besançon",
@@ -680,18 +682,19 @@
       "length": 242,
       "type": null,
       "winner": {
-        "name": "Éric Leman Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-22a",
       "year": 1968,
-      "leg": 22,
+      "leg": "22a",
+      "leg_num": 24,
       "title": "Auxerre - Melun",
       "start": {
         "city": "Auxerre",
@@ -708,18 +711,48 @@
       "length": 136,
       "type": null,
       "winner": {
-        "name": "Maurice Izier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1968-1a",
+      "year": 1968,
+      "leg": "1a",
+      "leg_num": 25,
+      "title": "Vittel",
+      "start": {
+        "city": "Vittel",
+        "country": "France",
+        "lat": "48.202541",
+        "lng": "5.943496"
+      },
+      "finish": {
+        "city": "Vittel",
+        "country": "France",
+        "lat": "48.202541",
+        "lng": "5.943496"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1968-22b",
       "year": 1968,
-      "leg": 22,
+      "leg": "22b",
+      "leg_num": 25,
       "title": "Melun - Paris",
       "start": {
         "city": "Melun",
@@ -734,13 +767,13 @@
         "lng": "2.352222"
       },
       "length": 55,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     }

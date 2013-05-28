@@ -7,48 +7,28 @@
   "nb_concurrents": 123,
   "nb_finishers": 66,
   "pct_finishers": 54,
-  "winner_name": "Hugo Koblet",
-  "winner_time": "142h 20’ 14”",
+  "winner_first_name": "Hugo",
+  "winner_last_name": "Koblet",
+  "winner_id": "hugo-koblet",
+  "winner_total_time": "142h 20' 14\"",
+  "winner_age": "26",
+  "winner_country": "Suisse",
+  "winner_avg_speed": "32,949",
   "ahead_of_2nd": "0h 22' 00\" ",
   "second_name": "R. Geminiani",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 24' 16\"",
   "third_name": "L. Lazarides",
-  "third_country": "L. Lazarides",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1951-01",
-      "year": 1951,
-      "leg": 1,
-      "title": "Metz - Reims",
-      "start": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
-      },
-      "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
-      },
-      "length": 185,
-      "type": null,
-      "winner": {
-        "name": "Giovanni Rossi Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Giovanni Rossi Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1951-02",
       "year": 1951,
-      "leg": 2,
-      "title": "Reims - Gand (BEL)",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Reims - Gand (Bel.)",
       "start": {
         "city": "Reims",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 228,
       "type": null,
       "winner": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-03",
       "year": 1951,
-      "leg": 3,
-      "title": "Gand (BEL) - Le Tréport",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Gand (Bel.) - Le Tréport",
       "start": {
         "city": "Gand",
         "country": "Belgique",
@@ -92,18 +73,19 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Georges Meunier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-04",
       "year": 1951,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Le Tréport - Paris",
       "start": {
         "city": "Le Tréport",
@@ -120,18 +102,19 @@
       "length": 188,
       "type": null,
       "winner": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Diederich Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-05",
       "year": 1951,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Paris - Caen",
       "start": {
         "city": "Paris",
@@ -148,18 +131,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-06",
       "year": 1951,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Caen - Rennes",
       "start": {
         "city": "Caen",
@@ -176,18 +160,19 @@
       "length": 182,
       "type": null,
       "winner": {
-        "name": "Édouard Muller Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-07",
       "year": 1951,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "La Guerche-de-Bretagne - Angers",
       "start": {
         "city": "La Guerche-de-Bretagne",
@@ -202,20 +187,21 @@
         "lng": "-0.563166"
       },
       "length": 85,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-08",
       "year": 1951,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Angers - Limoges",
       "start": {
         "city": "Angers",
@@ -232,18 +218,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "André Rosseel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-09",
       "year": 1951,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Limoges - Clermont-Ferrand",
       "start": {
         "city": "Limoges",
@@ -260,18 +247,19 @@
       "length": 236,
       "type": null,
       "winner": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-10",
       "year": 1951,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Clermont-Ferrand - Brive-la-Gaillarde",
       "start": {
         "city": "Clermont-Ferrand",
@@ -288,18 +276,19 @@
       "length": 216,
       "type": null,
       "winner": {
-        "name": "Bernardo Ruiz Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-11",
       "year": 1951,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Brive-la-Gaillarde - Agen",
       "start": {
         "city": "Brive-la-Gaillarde",
@@ -316,18 +305,19 @@
       "length": 177,
       "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lévêque Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-12",
       "year": 1951,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Agen - Dax",
       "start": {
         "city": "Agen",
@@ -344,18 +334,19 @@
       "length": 233,
       "type": null,
       "winner": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-13",
       "year": 1951,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Dax - Tarbes",
       "start": {
         "city": "Dax",
@@ -372,18 +363,19 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Serafino Biagioni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Bauvin Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-14",
       "year": 1951,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Tarbes - Luchon",
       "start": {
         "city": "Tarbes",
@@ -400,18 +392,19 @@
       "length": 178,
       "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-15",
       "year": 1951,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Luchon - Carcassonne",
       "start": {
         "city": "Luchon",
@@ -428,18 +421,19 @@
       "length": 213,
       "type": null,
       "winner": {
-        "name": "André Rosseel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-16",
       "year": 1951,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Carcassonne - Montpellier",
       "start": {
         "city": "Carcassonne",
@@ -456,18 +450,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-17",
       "year": 1951,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Montpellier - Avignon",
       "start": {
         "city": "Montpellier",
@@ -484,18 +479,19 @@
       "length": 224,
       "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-18",
       "year": 1951,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Avignon - Marseille",
       "start": {
         "city": "Avignon",
@@ -512,18 +508,19 @@
       "length": 173,
       "type": null,
       "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-19",
       "year": 1951,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Marseille - Gap",
       "start": {
         "city": "Marseille",
@@ -540,18 +537,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Armand Baeyens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-20",
       "year": 1951,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Gap - Briançon",
       "start": {
         "city": "Gap",
@@ -568,18 +566,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-21",
       "year": 1951,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Briançon - Aix-les-Bains",
       "start": {
         "city": "Briançon",
@@ -596,19 +595,20 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Bernardo Ruiz Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-22",
       "year": 1951,
-      "leg": 22,
-      "title": "Aix-les-Bains - Genève (CH)",
+      "leg": "22",
+      "leg_num": 21,
+      "title": "Aix-les-Bains - Genève (Sui.)",
       "start": {
         "city": "Aix-les-Bains",
         "country": "France",
@@ -622,21 +622,22 @@
         "lng": "6.142296"
       },
       "length": 98,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-23",
       "year": 1951,
-      "leg": 23,
-      "title": "Genève (CH) - Dijon",
+      "leg": "23",
+      "leg_num": 22,
+      "title": "Genève (Sui.) - Dijon",
       "start": {
         "city": "Genève",
         "country": "Suisse",
@@ -652,18 +653,48 @@
       "length": 197,
       "type": null,
       "winner": {
-        "name": "Germain Derijcke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1951-01",
+      "year": 1951,
+      "leg": "1",
+      "leg_num": 23,
+      "title": "Metz - Reims",
+      "start": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 185,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1951-24",
       "year": 1951,
-      "leg": 24,
+      "leg": "24",
+      "leg_num": 23,
       "title": "Dijon - Paris",
       "start": {
         "city": "Dijon",
@@ -680,11 +711,11 @@
       "length": 354,
       "type": null,
       "winner": {
-        "name": "Adolphe Deledda Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Hugo Koblet Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     }

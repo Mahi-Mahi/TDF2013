@@ -3,51 +3,31 @@
   "edition": 83,
   "total_length": 3765,
   "nb_legs": 21,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 198,
   "nb_finishers": 129,
   "pct_finishers": 65,
-  "winner_name": "Bjarne Riis",
-  "winner_time": "95h 57’ 16”",
+  "winner_first_name": "Bjarne",
+  "winner_last_name": "Riis",
+  "winner_id": "bjarne-riis",
+  "winner_total_time": "95h 57' 16\"",
+  "winner_age": "32",
+  "winner_country": "Danemark",
+  "winner_avg_speed": "39,227",
   "ahead_of_2nd": "0h 01' 41\" ",
   "second_name": "J. Ullrich",
   "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
   "ahead_of_3rd": "0h 04' 37\"",
   "third_name": "R. Virenque",
-  "third_country": "R. Virenque",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1996-Prologue",
-      "year": 1996,
-      "leg": 0,
-      "title": "s-Hertogenbosch - 's-Hertogenbosch",
-      "start": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
-      },
-      "finish": {
-        "city": "Bois-le-Duc",
-        "country": "Pays-Bas",
-        "lat": "51.697816",
-        "lng": "5.303675"
-      },
-      "length": 9,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : SuisseAlex Zülle",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1996-01",
       "year": 1996,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "s-Hertogenbosch - 's-Hertogenbosch",
       "start": {
         "city": "Bois-le-Duc",
@@ -64,18 +44,19 @@
       "length": 209,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceFrédéric Moncassin",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-02",
       "year": 1996,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "s-Hertogenbosch - Wasquehal",
       "start": {
         "city": "Bois-le-Duc",
@@ -92,18 +73,19 @@
       "length": 247,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-03",
       "year": 1996,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Wasquehal - Nogent-sur-Oise",
       "start": {
         "city": "Wasquehal",
@@ -120,18 +102,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceFrédéric Moncassin",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-04",
       "year": 1996,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Soissons - Lac de Madine",
       "start": {
         "city": "Soissons",
@@ -148,18 +131,19 @@
       "length": 232,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceCyril Saugrain",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceStéphane Heulot",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-05",
       "year": 1996,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Lac de Madine - Besançon",
       "start": {
         "city": "Lac de Madine",
@@ -176,18 +160,19 @@
       "length": 232,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJeroen Blijlevens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceStéphane Heulot",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-06",
       "year": 1996,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Arc-et-Senans - Aix-les-Bains",
       "start": {
         "city": "Arc-et-Senans",
@@ -204,18 +189,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasMichael Boogerd",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceStéphane Heulot",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-07",
       "year": 1996,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Chambéry - Les Arcs (Savoie)",
       "start": {
         "city": "Chambéry",
@@ -230,20 +216,21 @@
         "lng": "6.796495"
       },
       "length": 200,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceLuc Leblanc",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : RussieEvgueni Berzin",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-08",
       "year": 1996,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Bourg-Saint-Maurice - Val-d'Isère",
       "start": {
         "city": "Bourg-Saint-Maurice",
@@ -258,20 +245,21 @@
         "lng": "6.980226"
       },
       "length": 30,
-      "type": " Étape de montagne (CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : RussieEvgueni Berzin",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : RussieEvgueni Berzin",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-09",
       "year": 1996,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Le Monêtier-les-Bains - Sestrières",
       "start": {
         "city": "Le Monêtier-les-Bains",
@@ -286,20 +274,21 @@
         "lng": "6.879234"
       },
       "length": 46,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-10",
       "year": 1996,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Turin - Gap",
       "start": {
         "city": "Turin",
@@ -314,20 +303,21 @@
         "lng": "6.079758"
       },
       "length": 208,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-11",
       "year": 1996,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Gap - Valence",
       "start": {
         "city": "Gap",
@@ -342,20 +332,21 @@
         "lng": "4.89236"
       },
       "length": 202,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ColombieJosé Jaime González",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-12",
       "year": 1996,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Valence - Le Puy-en-Velay",
       "start": {
         "city": "Valence",
@@ -370,20 +361,21 @@
         "lng": "3.882936"
       },
       "length": 143,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : SuissePascal Richard",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-13",
       "year": 1996,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Le Puy-en-Velay - Super Besse",
       "start": {
         "city": "Le Puy-en-Velay",
@@ -398,26 +390,27 @@
         "lng": "2.861518"
       },
       "length": 177,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : DanemarkRolf Sørensen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-14",
       "year": 1996,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Besse-Tulle",
       "start": {
-        "city": "Besse",
+        "city": "Besse-en-Chandesse",
         "country": "France",
-        "lat": "43.34952",
-        "lng": "6.176963"
+        "lat": "45.510908",
+        "lng": "2.933859"
       },
       "finish": {
         "city": "Tulle",
@@ -428,18 +421,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Drapeau : OuzbékistanDjamolidine Abdoujaparov",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-15",
       "year": 1996,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Brive - Villeneuve-sur-Lot",
       "start": {
         "city": "Brive",
@@ -456,18 +450,19 @@
       "length": 176,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMassimo Podenzana",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-16",
       "year": 1996,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Agen - Lourdes-Hautacam",
       "start": {
         "city": "Agen",
@@ -482,20 +477,21 @@
         "lng": "-0.0075"
       },
       "length": 199,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-17",
       "year": 1996,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Argelès-Gazost - Pampelune",
       "start": {
         "city": "Argelès-Gazost",
@@ -510,20 +506,21 @@
         "lng": "-1.648265"
       },
       "length": 262,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : SuisseLaurent Dufaux",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-18",
       "year": 1996,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Pampelune - Hendaye",
       "start": {
         "city": "Pampelune",
@@ -538,20 +535,21 @@
         "lng": "-1.766148"
       },
       "length": 154,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasBart Voskamp",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-19",
       "year": 1996,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Hendaye - Bordeaux",
       "start": {
         "city": "Hendaye",
@@ -568,18 +566,19 @@
       "length": 226,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceFrédéric Moncassin",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-20",
       "year": 1996,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Bordeaux - Saint-Émilion",
       "start": {
         "city": "Bordeaux",
@@ -594,20 +593,21 @@
         "lng": "-0.155729"
       },
       "length": 63,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1996-21",
       "year": 1996,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Palaiseau - Paris",
       "start": {
         "city": "Palaiseau",
@@ -624,11 +624,40 @@
       "length": 147,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieFabio Baldato",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBjarne Riis",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1996-Prologue",
+      "year": 1996,
+      "leg": "Prologue",
+      "leg_num": 22,
+      "title": "s-Hertogenbosch - 's-Hertogenbosch",
+      "start": {
+        "city": "Bois-le-Duc",
+        "country": "Pays-Bas",
+        "lat": "51.697816",
+        "lng": "5.303675"
+      },
+      "finish": {
+        "city": "Bois-le-Duc",
+        "country": "Pays-Bas",
+        "lat": "51.697816",
+        "lng": "5.303675"
+      },
+      "length": 9,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -3,51 +3,31 @@
   "edition": 62,
   "total_length": 4000,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 140,
   "nb_finishers": 86,
   "pct_finishers": 61,
-  "winner_name": "Bernard Thévenet",
-  "winner_time": "114h 35’ 31”",
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Thévenet",
+  "winner_id": "bernard-thevenet",
+  "winner_total_time": "114h 35' 31\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "34,906",
   "ahead_of_2nd": "0h 02' 47\" ",
   "second_name": "E. Merckx",
   "second_country": "Belgique",
+  "second_id": "eddy-merckx",
   "ahead_of_3rd": "0h 05' 01\"",
   "third_name": "L. Van Impe",
-  "third_country": "L. Van Impe",
+  "third_country": "Belgique",
+  "third_id": "lucien-van-impe",
   "legs": [
-    {
-      "id": "E-1975-Prologue",
-      "year": 1975,
-      "leg": 0,
-      "title": "Charleroi",
-      "start": {
-        "city": "Charleroi",
-        "country": "Belgique",
-        "lat": "50.41081",
-        "lng": "4.444643"
-      },
-      "finish": {
-        "city": "Charleroi",
-        "country": "Belgique",
-        "lat": "50.41081",
-        "lng": "4.444643"
-      },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1975-1a",
       "year": 1975,
-      "leg": 1,
+      "leg": "1a",
+      "leg_num": 1,
       "title": "Charleroi - Molenbeek",
       "start": {
         "city": "Charleroi",
@@ -64,18 +44,19 @@
       "length": 94,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Cees Priem (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-1b",
       "year": 1975,
-      "leg": 1,
+      "leg": "1b",
+      "leg_num": 2,
       "title": "Molenbeek - Roubaix",
       "start": {
         "city": "Molenbeek",
@@ -92,18 +73,19 @@
       "length": 108,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-02",
       "year": 1975,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 3,
       "title": "Roubaix - Amiens",
       "start": {
         "city": "Roubaix",
@@ -120,18 +102,19 @@
       "length": 121,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Ronald De Witte (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-03",
       "year": 1975,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 4,
       "title": "Amiens - Versailles",
       "start": {
         "city": "Amiens",
@@ -148,18 +131,19 @@
       "length": 169,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Karel Rottiers (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-04",
       "year": 1975,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 5,
       "title": "Versailles - Le Mans",
       "start": {
         "city": "Versailles",
@@ -176,18 +160,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jacques Esclassan (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-05",
       "year": 1975,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 6,
       "title": "Sablé-sur-Sarthe - Merlin-Plage",
       "start": {
         "city": "Sablé-sur-Sarthe",
@@ -204,18 +189,19 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-06",
       "year": 1975,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 7,
       "title": "Circuit Merlin-Plage",
       "start": {
         "city": "Saint-Hilaire-de-Riez",
@@ -230,20 +216,21 @@
         "lng": "-1.945917"
       },
       "length": 16,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-07",
       "year": 1975,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Saint-Gilles-Croix-de-Vie - Angoulême",
       "start": {
         "city": "Saint-Gilles-Croix-de-Vie",
@@ -260,18 +247,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Francesco Moser (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-08",
       "year": 1975,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Angoulême - Bordeaux",
       "start": {
         "city": "Angoulême",
@@ -288,18 +276,19 @@
       "length": 134,
       "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Barry Hoban (GBR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-9a",
       "year": 1975,
-      "leg": 9,
+      "leg": "9a",
+      "leg_num": 10,
       "title": "Langon - Fleurance",
       "start": {
         "city": "Langon",
@@ -316,18 +305,19 @@
       "length": 131,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Theo Smit (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-9b",
       "year": 1975,
-      "leg": 9,
+      "leg": "9b",
+      "leg_num": 11,
       "title": "Fleurance - Auch",
       "start": {
         "city": "Fleurance",
@@ -342,20 +332,21 @@
         "lng": "0.586709"
       },
       "length": 37,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-10",
       "year": 1975,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 12,
       "title": "Auch - Pau",
       "start": {
         "city": "Auch",
@@ -372,18 +363,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Felice Gimondi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-11",
       "year": 1975,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 13,
       "title": "Pau - Saint-Lary-Soulan",
       "start": {
         "city": "Pau",
@@ -400,18 +392,19 @@
       "length": 160,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Joop Zoetemelk (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-12",
       "year": 1975,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 14,
       "title": "Tarbes - Albi",
       "start": {
         "city": "Tarbes",
@@ -428,18 +421,19 @@
       "length": 242,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-13",
       "year": 1975,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 15,
       "title": "Albi - Super Lioran",
       "start": {
         "city": "Albi",
@@ -456,18 +450,19 @@
       "length": 260,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Michel Pollentier (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-14",
       "year": 1975,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 16,
       "title": "Aurillac - Puy de Dôme",
       "start": {
         "city": "Aurillac",
@@ -484,18 +479,19 @@
       "length": 173,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-15",
       "year": 1975,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 17,
       "title": "Nice - Pra Loup",
       "start": {
         "city": "Nice",
@@ -512,18 +508,19 @@
       "length": 217,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-16",
       "year": 1975,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 18,
       "title": "Barcelonnette - Serre Chevalier",
       "start": {
         "city": "Barcelonnette",
@@ -540,18 +537,19 @@
       "length": 107,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-17",
       "year": 1975,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 19,
       "title": "Valloire - Morzine-Avoriaz",
       "start": {
         "city": "Valloire",
@@ -568,18 +566,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Vicente López Carril (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-18",
       "year": 1975,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 20,
       "title": "Morzine - Châtel",
       "start": {
         "city": "Morzine",
@@ -594,20 +593,21 @@
         "lng": "6.841152"
       },
       "length": 40,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-19",
       "year": 1975,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 21,
       "title": "Thonon-les-Bains - Chalon sur Saône",
       "start": {
         "city": "Thonon-les-Bains",
@@ -624,18 +624,19 @@
       "length": 229,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-20",
       "year": 1975,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 22,
       "title": "Pouilly-en-Auxois - Melun",
       "start": {
         "city": "Pouilly-en-Auxois",
@@ -652,18 +653,19 @@
       "length": 256,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Giacinto Santambrogio (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-21",
       "year": 1975,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 23,
       "title": "Melun - Senlis",
       "start": {
         "city": "Melun",
@@ -680,18 +682,19 @@
       "length": 220,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Rik Van Linden (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1975-22",
       "year": 1975,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 24,
       "title": "Paris (Circuit Champs-Élysées)",
       "start": {
         "city": "Paris",
@@ -708,11 +711,40 @@
       "length": 163,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Walter Godefroot (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Thévenet (FRA)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1975-Prologue",
+      "year": 1975,
+      "leg": "Prologue",
+      "leg_num": 27,
+      "title": "Charleroi",
+      "start": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lat": "50.41081",
+        "lng": "4.444643"
+      },
+      "finish": {
+        "city": "Charleroi",
+        "country": "Belgique",
+        "lat": "50.41081",
+        "lng": "4.444643"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

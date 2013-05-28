@@ -3,52 +3,32 @@
   "edition": 91,
   "total_length": 3391,
   "nb_legs": 20,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 188,
   "nb_finishers": 147,
   "pct_finishers": 78,
-  "winner_name": "n.a.",
-  "winner_time": "83h 36’ 02”",
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "83h 36' 02\"",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "40,553",
   "ahead_of_2nd": "0h 06' 19\" ",
   "second_name": "A. Kloden",
   "second_country": "Allemagne",
+  "second_id": null,
   "ahead_of_3rd": "0h 06' 40\"",
   "third_name": "I. Basso",
-  "third_country": "I. Basso",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-2004-Prologue",
-      "year": 2004,
-      "leg": 0,
-      "title": "Liège (BEL) - Liège (BEL)",
-      "start": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
-      },
-      "finish": {
-        "city": "Liège",
-        "country": "Belgique",
-        "lat": "50.632557",
-        "lng": "5.579666"
-      },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
-    },
     {
       "id": "E-2004-01",
       "year": 2004,
-      "leg": 1,
-      "title": "Liège (BEL) - Charleroi (BEL)",
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Liège (Bel.) - Charleroi (Bel.)",
       "start": {
         "city": "Liège",
         "country": "Belgique",
@@ -64,19 +44,20 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Drapeau : EstonieJaan Kirsipuu",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-02",
       "year": 2004,
-      "leg": 2,
-      "title": "Charleroi (BEL) - Namur (BEL)",
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Charleroi (Bel.) - Namur (Bel.)",
       "start": {
         "city": "Charleroi",
         "country": "Belgique",
@@ -92,19 +73,20 @@
       "length": 197,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieRobbie McEwen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-03",
       "year": 2004,
-      "leg": 3,
-      "title": "Waterloo (BEL) - Wasquehal",
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Waterloo (Bel.) - Wasquehal",
       "start": {
         "city": "Waterloo",
         "country": "Belgique",
@@ -120,18 +102,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean-Patrick Nazon",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieRobbie McEwen",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-04",
       "year": 2004,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Cambrai - Arras",
       "start": {
         "city": "Cambrai",
@@ -146,20 +129,21 @@
         "lng": "2.777535"
       },
       "length": 64,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisUS Postal",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-05",
       "year": 2004,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Amiens - Chartres",
       "start": {
         "city": "Amiens",
@@ -176,18 +160,19 @@
       "length": 200,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieStuart O'Grady",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-06",
       "year": 2004,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Bonneval - Angers",
       "start": {
         "city": "Bonneval",
@@ -204,18 +189,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Boonen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-07",
       "year": 2004,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Châteaubriant - Saint-Brieuc",
       "start": {
         "city": "Châteaubriant",
@@ -232,18 +218,19 @@
       "length": 204,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieFilippo Pozzato",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-08",
       "year": 2004,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Lamballe - Quimper",
       "start": {
         "city": "Lamballe",
@@ -260,24 +247,25 @@
       "length": 168,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-09",
       "year": 2004,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "St-Léonard - Guéret",
       "start": {
-        "city": "St-Léonard",
+        "city": "St-Léonard de Noblat",
         "country": "France",
-        "lat": "50.688548",
-        "lng": "1.627891"
+        "lat": "45.83670",
+        "lng": "1.48621"
       },
       "finish": {
         "city": "Guéret",
@@ -288,18 +276,19 @@
       "length": 160,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieRobbie McEwen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-10",
       "year": 2004,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Limoges - Saint-Flour",
       "start": {
         "city": "Limoges",
@@ -316,18 +305,19 @@
       "length": 237,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-11",
       "year": 2004,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Saint-Flour - Figeac",
       "start": {
         "city": "Saint-Flour",
@@ -344,18 +334,19 @@
       "length": 164,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceDavid Moncoutié",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-12",
       "year": 2004,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Castelsarrasin - La Mongie",
       "start": {
         "city": "Castelsarrasin",
@@ -370,20 +361,21 @@
         "lng": "0.179167"
       },
       "length": 197,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieIvan Basso",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-13",
       "year": 2004,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Lannemezan - Plateau de Beille",
       "start": {
         "city": "Lannemezan",
@@ -398,20 +390,21 @@
         "lng": "1.702387"
       },
       "length": 205,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-14",
       "year": 2004,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Carcassonne - Nîmes",
       "start": {
         "city": "Carcassonne",
@@ -428,18 +421,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneAitor González",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-15",
       "year": 2004,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Valréas - Villard-de-Lans",
       "start": {
         "city": "Valréas",
@@ -454,20 +448,21 @@
         "lng": "5.55227"
       },
       "length": 180,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-16",
       "year": 2004,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Le Bourg-d'Oisans - Alpe d'Huez",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -482,20 +477,21 @@
         "lng": "6.068348"
       },
       "length": 15,
-      "type": " Étape de montagne (CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-17",
       "year": 2004,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Le Bourg-d'Oisans - Le Grand Bornand",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -510,20 +506,21 @@
         "lng": "6.426699"
       },
       "length": 204,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-18",
       "year": 2004,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Annemasse - Lons-le-Saunier",
       "start": {
         "city": "Annemasse",
@@ -540,18 +537,19 @@
       "length": 166,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneJuan Miguel Mercado",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-19",
       "year": 2004,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Besançon - Besançon",
       "start": {
         "city": "Besançon",
@@ -566,20 +564,21 @@
         "lng": "6.024054"
       },
       "length": 55,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2004-20",
       "year": 2004,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Montereau - Paris",
       "start": {
         "city": "Montereau",
@@ -596,11 +595,40 @@
       "length": 163,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Boonen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2004-Prologue",
+      "year": 2004,
+      "leg": "Prologue",
+      "leg_num": 21,
+      "title": "Liège (Bel.) - Liège (Bel.)",
+      "start": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "finish": {
+        "city": "Liège",
+        "country": "Belgique",
+        "lat": "50.632557",
+        "lng": "5.579666"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

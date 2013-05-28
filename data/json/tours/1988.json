@@ -7,47 +7,27 @@
   "nb_concurrents": 198,
   "nb_finishers": 151,
   "pct_finishers": 76,
-  "winner_name": "Pedro Delgado",
-  "winner_time": "84h 27’ 53”",
+  "winner_first_name": "Pedro",
+  "winner_last_name": "Delgado",
+  "winner_id": "pedro-delgado",
+  "winner_total_time": "84h 27' 53\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,909",
   "ahead_of_2nd": "0h 07' 13\" ",
   "second_name": "S. Rooks",
   "second_country": "Pays-Bas",
+  "second_id": null,
   "ahead_of_3rd": "0h 09' 58\"",
   "third_name": "F. Parra",
-  "third_country": "F. Parra",
+  "third_country": "Colombie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1988-Préface",
-      "year": 1988,
-      "leg": 0,
-      "title": "Pornichet - La Baule",
-      "start": {
-        "city": "Pornichet",
-        "country": "France",
-        "lat": "47.263426",
-        "lng": "-2.340571"
-      },
-      "finish": {
-        "city": "La Baule",
-        "country": "France",
-        "lat": "47.285448",
-        "lng": "-2.393236"
-      },
-      "length": 1,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Drapeau d'Italie Guido Bontempi (ITA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Italie Guido Bontempi (ITA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1988-01",
       "year": 1988,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Pontchâteau - Machecoul",
       "start": {
         "city": "Pontchâteau",
@@ -64,18 +44,19 @@
       "length": 91,
       "type": null,
       "winner": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-02",
       "year": 1988,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "La Haie-Fouassière - Ancenis",
       "start": {
         "city": "La Haie-Fouassière",
@@ -90,20 +71,21 @@
         "lng": "-1.177491"
       },
       "length": 48,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Panasonic (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-03",
       "year": 1988,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Nantes - Le Mans",
       "start": {
         "city": "Nantes",
@@ -120,18 +102,19 @@
       "length": 213,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-04",
       "year": 1988,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Le Mans - Évreux",
       "start": {
         "city": "Le Mans",
@@ -148,18 +131,19 @@
       "length": 158,
       "type": null,
       "winner": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Teun van Vliet (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-05",
       "year": 1988,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Neufchâtel-en-Bray - Liévin",
       "start": {
         "city": "Neufchâtel-en-Bray",
@@ -176,18 +160,19 @@
       "length": 147,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Henk Lubberding (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-06",
       "year": 1988,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Liévin - Wasquehal",
       "start": {
         "city": "Liévin",
@@ -202,20 +187,21 @@
         "lng": "3.130782"
       },
       "length": 52,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Sean Yates (GBR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-07",
       "year": 1988,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Wasquehal - Reims",
       "start": {
         "city": "Wasquehal",
@@ -232,18 +218,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Valerio Tebaldi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-08",
       "year": 1988,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Reims - Nancy",
       "start": {
         "city": "Reims",
@@ -260,18 +247,19 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Allemagne Rolf Gölz (GER)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-09",
       "year": 1988,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Nancy - Strasbourg",
       "start": {
         "city": "Nancy",
@@ -286,20 +274,21 @@
         "lng": "7.747882"
       },
       "length": 160,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Jérôme Simon (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-10",
       "year": 1988,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Belfort - Besançon",
       "start": {
         "city": "Belfort",
@@ -314,20 +303,21 @@
         "lng": "6.024054"
       },
       "length": 149,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-11",
       "year": 1988,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Besançon - Morzine",
       "start": {
         "city": "Besançon",
@@ -342,20 +332,21 @@
         "lng": "6.708877"
       },
       "length": 232,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Colombie Fabio Parra (COL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Steve Bauer (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-12",
       "year": 1988,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Morzine - L'Alpe d'Huez",
       "start": {
         "city": "Morzine",
@@ -370,20 +361,21 @@
         "lng": "6.068348"
       },
       "length": 227,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Steven Rooks (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-13",
       "year": 1988,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Grenoble - Villard-de-Lans",
       "start": {
         "city": "Grenoble",
@@ -398,20 +390,21 @@
         "lng": "5.55227"
       },
       "length": 38,
-      "type": "Étape de montagne (CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-14",
       "year": 1988,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Blagnac - Guzet-Neige",
       "start": {
         "city": "Blagnac",
@@ -426,20 +419,21 @@
         "lng": "1.299708"
       },
       "length": 163,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Massimo Ghirotto (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-15",
       "year": 1988,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Saint-Girons - Luz-Ardiden",
       "start": {
         "city": "Saint-Girons",
@@ -454,20 +448,21 @@
         "lng": "-0.061335"
       },
       "length": 187,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Laudelino Cubino (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-16",
       "year": 1988,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Tarbes - Pau",
       "start": {
         "city": "Tarbes",
@@ -484,18 +479,19 @@
       "length": 38,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Adrie van der Poel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-17",
       "year": 1988,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -512,18 +508,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-18",
       "year": 1988,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Ruelle-sur-Touvre - Limoges",
       "start": {
         "city": "Ruelle-sur-Touvre",
@@ -540,18 +537,19 @@
       "length": 93,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Gianni Bugno (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-19",
       "year": 1988,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Limoges - Puy de Dôme",
       "start": {
         "city": "Limoges",
@@ -566,20 +564,21 @@
         "lng": "2.96974"
       },
       "length": 188,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau du Danemark Johnny Weltz (DEN)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-20",
       "year": 1988,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Clermont-Ferrand - Chalon-sur-Saône",
       "start": {
         "city": "Clermont-Ferrand",
@@ -596,18 +595,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-21",
       "year": 1988,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Santenay - Santenay",
       "start": {
         "city": "Santenay",
@@ -622,20 +622,50 @@
         "lng": "4.696534"
       },
       "length": 46,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Juan Martínez Oliver (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1988-Préface",
+      "year": 1988,
+      "leg": "Préface",
+      "leg_num": 22,
+      "title": "Pornichet - La Baule",
+      "start": {
+        "city": "Pornichet",
+        "country": "France",
+        "lat": "47.263426",
+        "lng": "-2.340571"
+      },
+      "finish": {
+        "city": "La Baule",
+        "country": "France",
+        "lat": "47.285448",
+        "lng": "-2.393236"
+      },
+      "length": 1,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1988-22",
       "year": 1988,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Nemours - Paris",
       "start": {
         "city": "Nemours",
@@ -652,11 +682,11 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     }

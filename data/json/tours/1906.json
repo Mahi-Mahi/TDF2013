@@ -7,48 +7,28 @@
   "nb_concurrents": 82,
   "nb_finishers": 14,
   "pct_finishers": 17,
-  "winner_name": "René Pottier",
-  "winner_time": "189h 34’ 00”",
+  "winner_first_name": "René",
+  "winner_last_name": "Pottier",
+  "winner_id": "rene-pottier",
+  "winner_total_time": "189h 34' 00\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "24,463",
   "ahead_of_2nd": "n.a.",
   "second_name": "G. Passerieu",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "n.a.",
   "third_name": "L. Trousselier",
-  "third_country": "L. Trousselier",
+  "third_country": "France",
+  "third_id": "louis-trousselier",
   "legs": [
-    {
-      "id": "E-1906-01",
-      "year": 1906,
-      "leg": 1,
-      "title": "Paris – Lille",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Lille",
-        "country": "France",
-        "lat": "50.62925",
-        "lng": "3.057256"
-      },
-      "length": 275,
-      "type": "plaine",
-      "winner": {
-        "name": "Émile Georget",
-        "nationality": "France"
-      },
-      "leader": {
-        "name": "Émile Georget",
-        "nationality": "France"
-      }
-    },
     {
       "id": "E-1906-02",
       "year": 1906,
-      "leg": 2,
-      "title": "Douai – Nancy",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Douai - Nancy",
       "start": {
         "city": "Douai",
         "country": "France",
@@ -62,21 +42,22 @@
         "lng": "6.184417"
       },
       "length": 400,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-03",
       "year": 1906,
-      "leg": 3,
-      "title": "Nancy – Dijon",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Nancy - Dijon",
       "start": {
         "city": "Nancy",
         "country": "France",
@@ -90,21 +71,22 @@
         "lng": "5.04148"
       },
       "length": 416,
-      "type": "montagne",
+      "type": null,
       "winner": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-04",
       "year": 1906,
-      "leg": 4,
-      "title": "Dijon – Grenoble",
+      "leg": "4",
+      "leg_num": 3,
+      "title": "Dijon - Grenoble",
       "start": {
         "city": "Dijon",
         "country": "France",
@@ -118,21 +100,22 @@
         "lng": "5.724524"
       },
       "length": 311,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-05",
       "year": 1906,
-      "leg": 5,
-      "title": "Grenoble – Nice",
+      "leg": "5",
+      "leg_num": 4,
+      "title": "Grenoble - Nice",
       "start": {
         "city": "Grenoble",
         "country": "France",
@@ -146,21 +129,22 @@
         "lng": "7.265592"
       },
       "length": 345,
-      "type": "montagne",
+      "type": null,
       "winner": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-06",
       "year": 1906,
-      "leg": 6,
-      "title": "Nice – Marseille",
+      "leg": "6",
+      "leg_num": 5,
+      "title": "Nice - Marseille",
       "start": {
         "city": "Nice",
         "country": "France",
@@ -174,21 +158,22 @@
         "lng": "5.36978"
       },
       "length": 292,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Georges Passerieu",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-07",
       "year": 1906,
-      "leg": 7,
-      "title": "Marseille – Toulouse",
+      "leg": "7",
+      "leg_num": 6,
+      "title": "Marseille - Toulouse",
       "start": {
         "city": "Marseille",
         "country": "France",
@@ -202,21 +187,22 @@
         "lng": "1.444209"
       },
       "length": 480,
-      "type": "montagne",
+      "type": null,
       "winner": {
-        "name": "Louis Trousselier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-08",
       "year": 1906,
-      "leg": 8,
-      "title": "Toulouse – Bayonne",
+      "leg": "8",
+      "leg_num": 7,
+      "title": "Toulouse - Bayonne",
       "start": {
         "city": "Toulouse",
         "country": "France",
@@ -230,21 +216,22 @@
         "lng": "-1.474841"
       },
       "length": 300,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Jean-Baptiste Dortignacq",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-09",
       "year": 1906,
-      "leg": 9,
-      "title": "Bayonne – Bordeaux",
+      "leg": "9",
+      "leg_num": 8,
+      "title": "Bayonne - Bordeaux",
       "start": {
         "city": "Bayonne",
         "country": "France",
@@ -258,21 +245,22 @@
         "lng": "-0.57918"
       },
       "length": 338,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Louis Trousselier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-10",
       "year": 1906,
-      "leg": 10,
-      "title": "Bordeaux – Nantes",
+      "leg": "10",
+      "leg_num": 9,
+      "title": "Bordeaux - Nantes",
       "start": {
         "city": "Bordeaux",
         "country": "France",
@@ -286,21 +274,22 @@
         "lng": "-1.553621"
       },
       "length": 391,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Louis Trousselier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-11",
       "year": 1906,
-      "leg": 11,
-      "title": "Nantes – Brest",
+      "leg": "11",
+      "leg_num": 10,
+      "title": "Nantes - Brest",
       "start": {
         "city": "Nantes",
         "country": "France",
@@ -314,21 +303,22 @@
         "lng": "-4.486076"
       },
       "length": 321,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Louis Trousselier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-12",
       "year": 1906,
-      "leg": 12,
-      "title": "Brest – Caen",
+      "leg": "12",
+      "leg_num": 11,
+      "title": "Brest - Caen",
       "start": {
         "city": "Brest",
         "country": "France",
@@ -342,21 +332,22 @@
         "lng": "-0.370679"
       },
       "length": 415,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Georges Passerieu",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1906-13",
       "year": 1906,
-      "leg": 13,
-      "title": "Caen – Paris",
+      "leg": "13",
+      "leg_num": 12,
+      "title": "Caen - Paris",
       "start": {
         "city": "Caen",
         "country": "France",
@@ -370,14 +361,43 @@
         "lng": "2.352222"
       },
       "length": 259,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "René Pottier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1906-01",
+      "year": 1906,
+      "leg": "1",
+      "leg_num": 14,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 275,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
       }
     }
   ]

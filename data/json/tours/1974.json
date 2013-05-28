@@ -3,51 +3,31 @@
   "edition": 61,
   "total_length": 4098,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 130,
   "nb_finishers": 105,
   "pct_finishers": 81,
-  "winner_name": "Eddy Merckx",
-  "winner_time": "116h 16’ 58”",
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "116h 16' 58\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,241",
   "ahead_of_2nd": "0h 08' 04\" ",
   "second_name": "R. Poulidor",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 8' 09\"",
   "third_name": "V. Lopez-Carril",
-  "third_country": "V. Lopez-Carril",
+  "third_country": "Espagne",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1974-Prologue",
-      "year": 1974,
-      "leg": 0,
-      "title": "Brest",
-      "start": {
-        "city": "Brest",
-        "country": "France",
-        "lat": "48.390394",
-        "lng": "-4.486076"
-      },
-      "finish": {
-        "city": "Brest",
-        "country": "France",
-        "lat": "48.390394",
-        "lng": "-4.486076"
-      },
-      "length": 7,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1974-01",
       "year": 1974,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Brest - Saint-Pol-de-Léon",
       "start": {
         "city": "Brest",
@@ -64,19 +44,20 @@
       "length": 144,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Ercole Gualazzini (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Joseph Bruyère (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-02",
       "year": 1974,
-      "leg": 2,
-      "title": "Plymouth (GB) - Plymouth",
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Plymouth (G.-B.) - Plymouth",
       "start": {
         "city": "Plymouth",
         "country": "Grande-Bretagne",
@@ -92,18 +73,19 @@
       "length": 163,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Henk Poppe (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Joseph Bruyère (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-03",
       "year": 1974,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Morlaix - Saint-Malo",
       "start": {
         "city": "Morlaix",
@@ -120,18 +102,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Patrick Sercu (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Joseph Bruyère (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-04",
       "year": 1974,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Saint-Malo - Caen",
       "start": {
         "city": "Saint-Malo",
@@ -148,18 +131,19 @@
       "length": 184,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Patrick Sercu (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-05",
       "year": 1974,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Caen - Dieppe",
       "start": {
         "city": "Caen",
@@ -176,47 +160,20 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Ronald De Witte (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Gerben Karstens (NED)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1974-6b",
-      "year": 1974,
-      "leg": 6,
-      "title": "Harelbeke - Harelbeke",
-      "start": {
-        "city": "Harelbeke",
-        "country": "Belgique",
-        "lat": "50.854932",
-        "lng": "3.315636"
-      },
-      "finish": {
-        "city": "Harelbeke",
-        "country": "Belgique",
-        "lat": "50.854932",
-        "lng": "3.315636"
-      },
-      "length": 9,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Molteni",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau des Pays-Bas Gerben Karstens (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-6a",
       "year": 1974,
-      "leg": 6,
-      "title": "Dieppe - Harelbeke (BEL)",
+      "leg": "6a",
+      "leg_num": 6,
+      "title": "Dieppe - Harelbeke (Bel.)",
       "start": {
         "city": "Dieppe",
         "country": "France",
@@ -232,19 +189,49 @@
       "length": 239,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-Luc Molinéris (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Patrick Sercu (BEL)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1974-6b",
+      "year": 1974,
+      "leg": "6b",
+      "leg_num": 7,
+      "title": "Harelbeke - Harelbeke",
+      "start": {
+        "city": "Harelbeke",
+        "country": "Belgique",
+        "lat": "50.854932",
+        "lng": "3.315636"
+      },
+      "finish": {
+        "city": "Harelbeke",
+        "country": "Belgique",
+        "lat": "50.854932",
+        "lng": "3.315636"
+      },
+      "length": 9,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-07",
       "year": 1974,
-      "leg": 7,
-      "title": "Mons (BEL) - Châlons-sur-Marne",
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Mons (Bel.) - Châlons-sur-Marne",
       "start": {
         "city": "Mons",
         "country": "Belgique",
@@ -260,18 +247,19 @@
       "length": 221,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-8a",
       "year": 1974,
-      "leg": 8,
+      "leg": "8a",
+      "leg_num": 9,
       "title": "Châlons-sur-Marne - Chaumont",
       "start": {
         "city": "Châlons-sur-Marne",
@@ -288,18 +276,19 @@
       "length": 136,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Cyrille Guimard (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-8b",
       "year": 1974,
-      "leg": 8,
+      "leg": "8b",
+      "leg_num": 10,
       "title": "Chaumont - Besançon",
       "start": {
         "city": "Chaumont",
@@ -316,18 +305,19 @@
       "length": 152,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Patrick Sercu (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-09",
       "year": 1974,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Besançon - Gaillard",
       "start": {
         "city": "Besançon",
@@ -344,18 +334,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-10",
       "year": 1974,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 12,
       "title": "Gaillard - Aix-les-Bains",
       "start": {
         "city": "Gaillard",
@@ -372,18 +363,19 @@
       "length": 131,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-11",
       "year": 1974,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 13,
       "title": "Aix-les-Bains - Serre Chevalier",
       "start": {
         "city": "Aix-les-Bains",
@@ -400,18 +392,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Vicente López Carril (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-12",
       "year": 1974,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 14,
       "title": "Savines-le-Lac - Orange",
       "start": {
         "city": "Savines-le-Lac",
@@ -428,18 +421,19 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Joseph Spruyt (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-13",
       "year": 1974,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 15,
       "title": "Avignon - Montpellier",
       "start": {
         "city": "Avignon",
@@ -456,18 +450,19 @@
       "length": 126,
       "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Barry Hoban (GBR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-14",
       "year": 1974,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 16,
       "title": "Lodève - Colomiers",
       "start": {
         "city": "Lodève",
@@ -484,19 +479,20 @@
       "length": 248,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-Pierre Genet (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-15",
       "year": 1974,
-      "leg": 15,
-      "title": "Colomiers - La Seu d'Urgell (ESP)",
+      "leg": "15",
+      "leg_num": 17,
+      "title": "Colomiers - La Seu d'Urgell (Esp.)",
       "start": {
         "city": "Colomiers",
         "country": "France",
@@ -512,18 +508,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-16",
       "year": 1974,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 18,
       "title": "La Seu d'Urgell - Pla d'Adet",
       "start": {
         "city": "La Seu d'Urgell",
@@ -540,18 +537,19 @@
       "length": 209,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Raymond Poulidor (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-17",
       "year": 1974,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 19,
       "title": "Saint-Lary-Soulan - Col du Tourmalet",
       "start": {
         "city": "Saint-Lary-Soulan",
@@ -568,18 +566,19 @@
       "length": 119,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-Pierre Danguillaume (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-18",
       "year": 1974,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 20,
       "title": "Bagnères-de-Bigorre - Pau",
       "start": {
         "city": "Bagnères-de-Bigorre",
@@ -596,18 +595,19 @@
       "length": 141,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-Pierre Danguillaume (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-19a",
       "year": 1974,
-      "leg": 19,
+      "leg": "19a",
+      "leg_num": 21,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -624,18 +624,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Francis Campaner (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-19b",
       "year": 1974,
-      "leg": 19,
+      "leg": "19b",
+      "leg_num": 22,
       "title": "Bordeaux - Bordeaux",
       "start": {
         "city": "Bordeaux",
@@ -650,20 +651,21 @@
         "lng": "-0.57918"
       },
       "length": 12,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-20",
       "year": 1974,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 23,
       "title": "Saint-Gilles-Croix-de-Vie - Nantes",
       "start": {
         "city": "Saint-Gilles-Croix-de-Vie",
@@ -680,46 +682,19 @@
       "length": 117,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Gerard Vianen (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1974-21b",
-      "year": 1974,
-      "leg": 21,
-      "title": "Orléans - Orléans",
-      "start": {
-        "city": "Orléans",
-        "country": "France",
-        "lat": "47.902964",
-        "lng": "1.909251"
-      },
-      "finish": {
-        "city": "Orléans",
-        "country": "France",
-        "lat": "47.902964",
-        "lng": "1.909251"
-      },
-      "length": 37,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de Belgique Michel Pollentier (BEL)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-21a",
       "year": 1974,
-      "leg": 21,
+      "leg": "21a",
+      "leg_num": 24,
       "title": "Vouvray - Orléans",
       "start": {
         "city": "Vouvray",
@@ -736,18 +711,77 @@
       "length": 112,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1974-Prologue",
+      "year": 1974,
+      "leg": "Prologue",
+      "leg_num": 25,
+      "title": "Brest",
+      "start": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "finish": {
+        "city": "Brest",
+        "country": "France",
+        "lat": "48.390394",
+        "lng": "-4.486076"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1974-21b",
+      "year": 1974,
+      "leg": "21b",
+      "leg_num": 25,
+      "title": "Orléans - Orléans",
+      "start": {
+        "city": "Orléans",
+        "country": "France",
+        "lat": "47.902964",
+        "lng": "1.909251"
+      },
+      "finish": {
+        "city": "Orléans",
+        "country": "France",
+        "lat": "47.902964",
+        "lng": "1.909251"
+      },
+      "length": 37,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1974-22",
       "year": 1974,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 26,
       "title": "Orléans - Paris",
       "start": {
         "city": "Orléans",
@@ -764,11 +798,11 @@
       "length": 146,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Eddy Merckx (BEL)",
+        "name": null,
         "nationality": null
       }
     }

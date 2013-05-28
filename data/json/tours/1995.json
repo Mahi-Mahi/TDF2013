@@ -3,51 +3,31 @@
   "edition": 82,
   "total_length": 3635,
   "nb_legs": 20,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 189,
   "nb_finishers": 115,
   "pct_finishers": 61,
-  "winner_name": "Miguel Indurain",
-  "winner_time": "92h 44’ 59”",
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "92h 44' 59\"",
+  "winner_age": "31",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "39,193",
   "ahead_of_2nd": "0h 04' 35\" ",
   "second_name": "A. Zulle",
   "second_country": "Suisse",
+  "second_id": null,
   "ahead_of_3rd": "0h 06' 47\"",
   "third_name": "B. Rijs",
-  "third_country": "B. Rijs",
+  "third_country": "Danemark",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1995-Prologue",
-      "year": 1995,
-      "leg": 0,
-      "title": "Saint-Brieuc",
-      "start": {
-        "city": "Saint-Brieuc",
-        "country": "France",
-        "lat": "48.51418",
-        "lng": "-2.765835"
-      },
-      "finish": {
-        "city": "Saint-Brieuc",
-        "country": "France",
-        "lat": "48.51418",
-        "lng": "-2.765835"
-      },
-      "length": 7,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de France Jacky Durand (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Jacky Durand (FRA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1995-01",
       "year": 1995,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Dinan - Lannion",
       "start": {
         "city": "Dinan",
@@ -64,18 +44,19 @@
       "length": 233,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Fabio Baldato (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jacky Durand (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-02",
       "year": 1995,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Perros-Guirec - Vitré",
       "start": {
         "city": "Perros-Guirec",
@@ -92,18 +73,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Jalabert (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-03",
       "year": 1995,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Mayenne - Alençon",
       "start": {
         "city": "Mayenne",
@@ -118,20 +100,21 @@
         "lng": "0.091266"
       },
       "length": 67,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Gewiss-Ballan (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Jalabert (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-04",
       "year": 1995,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Alençon - Le Havre",
       "start": {
         "city": "Alençon",
@@ -148,18 +131,19 @@
       "length": 162,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Ivan Gotti (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-05",
       "year": 1995,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Fecamp - Dunkerque",
       "start": {
         "city": "Fecamp",
@@ -176,18 +160,19 @@
       "length": 261,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jeroen Blijlevens (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Ivan Gotti (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-06",
       "year": 1995,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Dunkerque - Charleroi",
       "start": {
         "city": "Dunkerque",
@@ -204,18 +189,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Allemagne Erik Zabel (GER)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Bjarne Riis (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-07",
       "year": 1995,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Charleroi - Liège",
       "start": {
         "city": "Charleroi",
@@ -232,18 +218,19 @@
       "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Johan Bruyneel (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Johan Bruyneel (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-08",
       "year": 1995,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Huy - Seraing",
       "start": {
         "city": "Huy",
@@ -258,20 +245,21 @@
         "lng": "5.5"
       },
       "length": 54,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-09",
       "year": 1995,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Le Grand-Bornand - La Plagne",
       "start": {
         "city": "Le Grand-Bornand",
@@ -286,20 +274,21 @@
         "lng": "6.659294"
       },
       "length": 160,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Alex Zülle (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-10",
       "year": 1995,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Aime - L'Alpe d'Huez",
       "start": {
         "city": "Aime",
@@ -314,20 +303,21 @@
         "lng": "6.068348"
       },
       "length": 162,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Marco Pantani (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-11",
       "year": 1995,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Le Bourg-d'Oisans - Saint-Étienne",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -342,20 +332,21 @@
         "lng": "4.387178"
       },
       "length": 199,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Maximilian Sciandri (GBR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-12",
       "year": 1995,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Saint-Étienne - Mende",
       "start": {
         "city": "Saint-Étienne",
@@ -370,20 +361,21 @@
         "lng": "3.501873"
       },
       "length": 222,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Laurent Jalabert (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-13",
       "year": 1995,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Mende - Revel",
       "start": {
         "city": "Mende",
@@ -398,20 +390,21 @@
         "lng": "2.004573"
       },
       "length": 245,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Ukraine Sergueï Outschakov (UKR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-14",
       "year": 1995,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Saint-Orens - Guzet-neige",
       "start": {
         "city": "Saint-Orens",
@@ -426,20 +419,21 @@
         "lng": "1.299708"
       },
       "length": 164,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Marco Pantani (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-15",
       "year": 1995,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Saint-Girons - Cauterets",
       "start": {
         "city": "Saint-Girons",
@@ -454,20 +448,21 @@
         "lng": "-0.114246"
       },
       "length": 206,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Richard Virenque (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-16",
       "year": 1995,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Tarbes - Pau",
       "start": {
         "city": "Tarbes",
@@ -484,18 +479,19 @@
       "length": 149,
       "type": null,
       "winner": {
-        "name": "Étape neutralisée en hommage à Fabio Casartelli",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-17",
       "year": 1995,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -512,18 +508,19 @@
       "length": 246,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Allemagne Erik Zabel (GER)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-18",
       "year": 1995,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Montpon-Ménestérol - Limoges",
       "start": {
         "city": "Montpon-Ménestérol",
@@ -540,18 +537,19 @@
       "length": 166,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Lance Armstrong (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-19",
       "year": 1995,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Lac de Vassivière",
       "start": {
         "city": "Lac de Vassivière",
@@ -560,26 +558,27 @@
         "lng": "1.87608"
       },
       "finish": {
-        "city": "Limoges",
+        "city": "Lac de Vassivière",
         "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
+        "lat": "45.791652",
+        "lng": "1.87608"
       },
       "length": 46,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1995-20",
       "year": 1995,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Sainte-Geneviève-des-Bois - Paris",
       "start": {
         "city": "Sainte-Geneviève-des-Bois",
@@ -596,11 +595,40 @@
       "length": 155,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Ouzbékistan Djamolidine Abdoujaparov (UZB)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1995-Prologue",
+      "year": 1995,
+      "leg": "Prologue",
+      "leg_num": 22,
+      "title": "Saint-Brieuc",
+      "start": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "finish": {
+        "city": "Saint-Brieuc",
+        "country": "France",
+        "lat": "48.51418",
+        "lng": "-2.765835"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -3,51 +3,31 @@
   "edition": 80,
   "total_length": 3714,
   "nb_legs": 20,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 180,
   "nb_finishers": 136,
   "pct_finishers": 76,
-  "winner_name": "Miguel Indurain",
-  "winner_time": "95h 57’ 09”",
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "95h 57' 09\"",
+  "winner_age": "29",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,709",
   "ahead_of_2nd": "0h 04' 59\" ",
   "second_name": "T. Rominger",
   "second_country": "Suisse",
+  "second_id": null,
   "ahead_of_3rd": "0h 05' 48\"",
   "third_name": "Z. Jaskula",
-  "third_country": "Z. Jaskula",
+  "third_country": "Pologne",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1993-Prologue",
-      "year": 1993,
-      "leg": 0,
-      "title": "Puy du Fou",
-      "start": {
-        "city": "Les Epesses",
-        "country": "France",
-        "lat": "46.884536",
-        "lng": "-0.899612"
-      },
-      "finish": {
-        "city": "Les Epesses",
-        "country": "France",
-        "lat": "46.884536",
-        "lng": "-0.899612"
-      },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1993-01",
       "year": 1993,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Luçon - Les Sables-d'Olonne",
       "start": {
         "city": "Luçon",
@@ -64,18 +44,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-02",
       "year": 1993,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Les Sables-d'Olonne - Vannes",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -92,18 +73,19 @@
       "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-03",
       "year": 1993,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Vannes - Dinard",
       "start": {
         "city": "Vannes",
@@ -120,18 +102,19 @@
       "length": 189,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-04",
       "year": 1993,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Dinard - Avranches",
       "start": {
         "city": "Dinard",
@@ -146,20 +129,21 @@
         "lng": "-1.36166"
       },
       "length": 81,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie GB-MG Maglificio (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-05",
       "year": 1993,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Avranches - Évreux",
       "start": {
         "city": "Avranches",
@@ -176,18 +160,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Drapeau du Danemark Jesper Skibby (DEN)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Wilfried Nelissen (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-06",
       "year": 1993,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Évreux - Amiens",
       "start": {
         "city": "Évreux",
@@ -204,18 +189,19 @@
       "length": 158,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Johan Bruyneel (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Italie Mario Cipollini (ITA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-07",
       "year": 1993,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Péronne - Châlons-sur-Marne",
       "start": {
         "city": "Péronne",
@@ -232,18 +218,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Drapeau du Danemark Bjarne Riis (DEN)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Johan Museeuw (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-08",
       "year": 1993,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Châlons-sur-Marne - Verdun",
       "start": {
         "city": "Châlons-sur-Marne",
@@ -260,18 +247,19 @@
       "length": 184,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Lance Armstrong (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Johan Museeuw (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-09",
       "year": 1993,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Lac de Madine",
       "start": {
         "city": "Lac de Madine",
@@ -286,20 +274,21 @@
         "lng": "5.736175"
       },
       "length": 59,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-10",
       "year": 1993,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Villard-de-Lans - Serre Chevalier ",
       "start": {
         "city": "Villard-de-Lans",
@@ -314,20 +303,21 @@
         "lng": "6.549748"
       },
       "length": 203,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Tony Rominger (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-11",
       "year": 1993,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Serre Chevalier - Isola 2000",
       "start": {
         "city": "Serre Chevalier",
@@ -342,20 +332,21 @@
         "lng": "7.15922"
       },
       "length": 180,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Tony Rominger (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-12",
       "year": 1993,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Isola 2000 - Marseille",
       "start": {
         "city": "Isola 2000",
@@ -372,18 +363,19 @@
       "length": 286,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Fabio Roscioli (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-13",
       "year": 1993,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Marseille - Montpellier",
       "start": {
         "city": "Marseille",
@@ -400,18 +392,19 @@
       "length": 181,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Allemagne Olaf Ludwig (GER)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-14",
       "year": 1993,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Montpellier - Perpignan",
       "start": {
         "city": "Montpellier",
@@ -428,18 +421,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Pascal Lino (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-15",
       "year": 1993,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Perpignan - Andorre-Pal",
       "start": {
         "city": "Perpignan",
@@ -454,20 +448,21 @@
         "lng": "1.47520\n"
       },
       "length": 231,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Colombie Oliverio Rincón (COL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-16",
       "year": 1993,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Andorre - Saint-Lary-Soulan",
       "start": {
         "city": "Andorre",
@@ -482,20 +477,21 @@
         "lng": "0.320251"
       },
       "length": 224,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Pologne Zenon Jaskuła (POL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-17",
       "year": 1993,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Tarbes - Pau",
       "start": {
         "city": "Tarbes",
@@ -510,20 +506,21 @@
         "lng": "-0.370797"
       },
       "length": 190,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Claudio Chiappucci (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-18",
       "year": 1993,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Orthez - Bordeaux",
       "start": {
         "city": "Orthez",
@@ -540,18 +537,19 @@
       "length": 174,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-19",
       "year": 1993,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Brétigny-sur-Orge - Montlhéry",
       "start": {
         "city": "Brétigny-sur-Orge",
@@ -566,20 +564,21 @@
         "lng": "2.271502"
       },
       "length": 48,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Tony Rominger (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1993-20",
       "year": 1993,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Viry-Châtillon - Paris",
       "start": {
         "city": "Viry-Châtillon",
@@ -596,11 +595,40 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Ouzbékistan D. Abdoujaparov (UZB)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1993-Prologue",
+      "year": 1993,
+      "leg": "Prologue",
+      "leg_num": 22,
+      "title": "Puy du Fou",
+      "start": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lat": "46.884536",
+        "lng": "-0.899612"
+      },
+      "finish": {
+        "city": "Les Epesses",
+        "country": "France",
+        "lat": "46.884536",
+        "lng": "-0.899612"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

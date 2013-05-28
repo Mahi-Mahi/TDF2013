@@ -3,51 +3,31 @@
   "edition": 78,
   "total_length": 3914,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 198,
   "nb_finishers": 158,
   "pct_finishers": 80,
-  "winner_name": "Miguel Indurain",
-  "winner_time": "101h 01’ 20”",
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "101h 01' 20\"",
+  "winner_age": "27",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,747",
   "ahead_of_2nd": "0h 03' 36\" ",
   "second_name": "G. Bugno",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 05' 56\"",
   "third_name": "C. Chiappucci",
-  "third_country": "C. Chiappucci",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1991-Prologue",
-      "year": 1991,
-      "leg": 0,
-      "title": "Lyon",
-      "start": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Thierry Marie Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Thierry Marie Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1991-01",
       "year": 1991,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Lyon - Lyon",
       "start": {
         "city": "Lyon",
@@ -64,18 +44,19 @@
       "length": 114,
       "type": null,
       "winner": {
-        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-02",
       "year": 1991,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Bron - Chassieu",
       "start": {
         "city": "Bron",
@@ -90,20 +71,21 @@
         "lng": "4.971918"
       },
       "length": 36,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Ariostea Drapeau : Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-03",
       "year": 1991,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Villeurbanne - Dijon",
       "start": {
         "city": "Villeurbanne",
@@ -120,18 +102,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Etienne De Wilde Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-04",
       "year": 1991,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Dijon - Reims",
       "start": {
         "city": "Dijon",
@@ -148,18 +131,19 @@
       "length": 286,
       "type": null,
       "winner": {
-        "name": "Djamolidine Abdoujaparov Flag of Uzbek SSR.svgRSS d'Ouzbékistan",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-05",
       "year": 1991,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Reims - Valenciennes",
       "start": {
         "city": "Reims",
@@ -176,18 +160,19 @@
       "length": 149,
       "type": null,
       "winner": {
-        "name": "Jelle Nijdam Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rolf Sørensen Drapeau du Danemark Danemark",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-06",
       "year": 1991,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Arras - Le Havre",
       "start": {
         "city": "Arras",
@@ -204,18 +189,19 @@
       "length": 259,
       "type": null,
       "winner": {
-        "name": "Thierry Marie Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Thierry Marie Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-07",
       "year": 1991,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Le Havre - Argentan",
       "start": {
         "city": "Le Havre",
@@ -232,18 +218,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Jean-Paul van Poppel Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Thierry Marie Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-08",
       "year": 1991,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Argentan - Alençon",
       "start": {
         "city": "Argentan",
@@ -258,20 +245,21 @@
         "lng": "0.091266"
       },
       "length": 73,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-09",
       "year": 1991,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Alençon - Rennes",
       "start": {
         "city": "Alençon",
@@ -288,18 +276,19 @@
       "length": 161,
       "type": null,
       "winner": {
-        "name": "Mauro Ribeiro Drapeau du BrésilBrésil",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-10",
       "year": 1991,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Rennes - Quimper",
       "start": {
         "city": "Rennes",
@@ -316,18 +305,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Phil Anderson Flag of Australia.svgAustralie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-11",
       "year": 1991,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Quimper - Saint-Herblain",
       "start": {
         "city": "Quimper",
@@ -344,18 +334,19 @@
       "length": 246,
       "type": null,
       "winner": {
-        "name": "Charly Mottet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Greg LeMond Drapeau des États-Unis États-Unis",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-12",
       "year": 1991,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Pau - Jaca",
       "start": {
         "city": "Pau",
@@ -370,20 +361,21 @@
         "lng": "-0.547055"
       },
       "length": 192,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Charly Mottet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Luc Leblanc Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-13",
       "year": 1991,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Jaca - Val-Louron",
       "start": {
         "city": "Jaca",
@@ -398,20 +390,21 @@
         "lng": "0.389625"
       },
       "length": 232,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Claudio Chiappucci Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-14",
       "year": 1991,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Saint-Gaudens - Castres",
       "start": {
         "city": "Saint-Gaudens",
@@ -428,18 +421,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Bruno Cenghialta Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-15",
       "year": 1991,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Albi - Alès",
       "start": {
         "city": "Albi",
@@ -456,18 +450,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Moreno Argentin Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-16",
       "year": 1991,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Alès - Gap",
       "start": {
         "city": "Alès",
@@ -484,18 +479,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Marco Lietti Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-17",
       "year": 1991,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Gap - L'Alpe d'Huez",
       "start": {
         "city": "Gap",
@@ -510,20 +506,21 @@
         "lng": "6.068348"
       },
       "length": 125,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Gianni Bugno Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-18",
       "year": 1991,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Le Bourg-d'Oisans - Morzine",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -538,20 +535,21 @@
         "lng": "6.708877"
       },
       "length": 255,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Thierry Claveyrolat Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-19",
       "year": 1991,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Morzine - Aix-les-Bains",
       "start": {
         "city": "Morzine",
@@ -566,20 +564,21 @@
         "lng": "5.908998"
       },
       "length": 177,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-20",
       "year": 1991,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Aix-les-Bains - Mâcon",
       "start": {
         "city": "Aix-les-Bains",
@@ -596,18 +595,19 @@
       "length": 160,
       "type": null,
       "winner": {
-        "name": "Viatcheslav Ekimov Flag of Russian SFSR.svgRSFS de Russie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-21",
       "year": 1991,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Lugny - Mâcon",
       "start": {
         "city": "Lugny",
@@ -622,20 +622,50 @@
         "lng": "4.828731"
       },
       "length": 57,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1991-Prologue",
+      "year": 1991,
+      "leg": "Prologue",
+      "leg_num": 22,
+      "title": "Lyon",
+      "start": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 5,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1991-22",
       "year": 1991,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Melun - Paris",
       "start": {
         "city": "Melun",
@@ -652,11 +682,11 @@
       "length": 178,
       "type": null,
       "winner": {
-        "name": "Dimitri Konyshev Flag of Russian SFSR.svgRSFS de Russie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Miguel Indurain Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       }
     }

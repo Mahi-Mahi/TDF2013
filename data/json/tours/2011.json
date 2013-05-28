@@ -7,19 +7,27 @@
   "nb_concurrents": 198,
   "nb_finishers": 167,
   "pct_finishers": 84,
-  "winner_name": "Cadel Evans",
-  "winner_time": "86h 12’ 22\"",
+  "winner_first_name": "Cadel",
+  "winner_last_name": "Evans",
+  "winner_id": "cadel-evans",
+  "winner_total_time": "86h 12' 22\"",
+  "winner_age": "34",
+  "winner_country": "Australie",
+  "winner_avg_speed": "39,788",
   "ahead_of_2nd": "0h 01' 34\" ",
   "second_name": "A. Schleck",
   "second_country": "Luxembourg",
+  "second_id": "andy-schleck",
   "ahead_of_3rd": "0h 02' 30\"",
   "third_name": "F. Schleck",
-  "third_country": "F. Schleck",
+  "third_country": "Luxembourg",
+  "third_id": null,
   "legs": [
     {
       "id": "E-2011-01",
       "year": 2011,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 0,
       "title": "Passage du Gois - Mont des Alouettes",
       "start": {
         "city": "Noirmoutier",
@@ -36,18 +44,19 @@
       "length": 191,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiquePhilippe Gilbert",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Gilbert",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-02",
       "year": 2011,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Les Essarts - Les Essarts",
       "start": {
         "city": "Les Essarts",
@@ -64,18 +73,19 @@
       "length": 23,
       "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisGarmin-Cervélo",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-03",
       "year": 2011,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Olonne-sur-Mer - Redon",
       "start": {
         "city": "Olonne-sur-Mer",
@@ -92,18 +102,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisTyler Farrar",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-04",
       "year": 2011,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Lorient - Mûr-de-Bretagne",
       "start": {
         "city": "Lorient",
@@ -120,18 +131,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieCadel Evans",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-05",
       "year": 2011,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Carhaix-Plouguer - Cap Fréhel",
       "start": {
         "city": "Carhaix-Plouguer",
@@ -148,18 +160,19 @@
       "length": 164,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-06",
       "year": 2011,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Dinan - Lisieux",
       "start": {
         "city": "Dinan",
@@ -176,18 +189,19 @@
       "length": 226,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeEdvald Boasson Hagen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-07",
       "year": 2011,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Le Mans - Châteauroux",
       "start": {
         "city": "Le Mans",
@@ -204,18 +218,19 @@
       "length": 218,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-08",
       "year": 2011,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Aigurande - Super-Besse",
       "start": {
         "city": "Aigurande",
@@ -232,18 +247,19 @@
       "length": 189,
       "type": null,
       "winner": {
-        "name": "Drapeau : PortugalRui Alberto Faria da Costa",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-09",
       "year": 2011,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Issoire - Saint-Flour",
       "start": {
         "city": "Issoire",
@@ -260,18 +276,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneLuis León Sánchez",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-10",
       "year": 2011,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Aurillac - Carmaux",
       "start": {
         "city": "Aurillac",
@@ -288,18 +305,19 @@
       "length": 158,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneAndré Greipel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-11",
       "year": 2011,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Blaye-les-Mines - Lavaur",
       "start": {
         "city": "Blaye-les-Mines",
@@ -316,18 +334,19 @@
       "length": 167,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-12",
       "year": 2011,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Cugnaux - Luz-Ardiden",
       "start": {
         "city": "Cugnaux",
@@ -344,18 +363,19 @@
       "length": 211,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneSamuel Sánchez",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-13",
       "year": 2011,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Pau - Lourdes",
       "start": {
         "city": "Pau",
@@ -372,18 +392,19 @@
       "length": 152,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-14",
       "year": 2011,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Saint-Gaudens - Plateau de Beille",
       "start": {
         "city": "Saint-Gaudens",
@@ -400,18 +421,19 @@
       "length": 168,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueJelle Vanendert",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-15",
       "year": 2011,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Limoux - Montpellier",
       "start": {
         "city": "Limoux",
@@ -428,18 +450,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-16",
       "year": 2011,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Saint-Paul-Trois-Châteaux - Gap",
       "start": {
         "city": "Saint-Paul-Trois-Châteaux",
@@ -456,19 +479,20 @@
       "length": 162,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-17",
       "year": 2011,
-      "leg": 17,
-      "title": "Gap - Pignerol (ITA)",
+      "leg": "17",
+      "leg_num": 16,
+      "title": "Gap - Pignerol (Ita.)",
       "start": {
         "city": "Gap",
         "country": "France",
@@ -484,19 +508,20 @@
       "length": 179,
       "type": null,
       "winner": {
-        "name": "Drapeau : NorvègeEdvald Boasson Hagen",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-18",
       "year": 2011,
-      "leg": 18,
-      "title": "Pignerol (ITA) - Galibier-Serre Chevalier",
+      "leg": "18",
+      "leg_num": 17,
+      "title": "Pignerol (Ita.) - Galibier Serre-Chevalier",
       "start": {
         "city": "Pignerol",
         "country": "Italie",
@@ -512,18 +537,19 @@
       "length": 200,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgAndy Schleck",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceThomas Voeckler",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-19",
       "year": 2011,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Modane - L'Alpe d'Huez",
       "start": {
         "city": "Modane",
@@ -540,18 +566,19 @@
       "length": 109,
       "type": null,
       "winner": {
-        "name": "Drapeau : FrancePierre Rolland",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : LuxembourgAndy Schleck",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-20",
       "year": 2011,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Grenoble - Grenoble",
       "start": {
         "city": "Grenoble",
@@ -568,18 +595,19 @@
       "length": 42,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneTony Martin",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2011-21",
       "year": 2011,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Créteil - Paris-Champs-Élysées",
       "start": {
         "city": "Créteil",
@@ -596,11 +624,11 @@
       "length": 95,
       "type": null,
       "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieCadel Evans",
+        "name": null,
         "nationality": null
       }
     }

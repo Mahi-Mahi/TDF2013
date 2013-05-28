@@ -7,48 +7,28 @@
   "nb_concurrents": 145,
   "nb_finishers": 54,
   "pct_finishers": 37,
-  "winner_name": "Philippe Thys",
-  "winner_time": "200h 28’ 48”",
+  "winner_first_name": "Philippe",
+  "winner_last_name": "Thys",
+  "winner_id": "philippe-thys",
+  "winner_total_time": "200h 28' 48\"",
+  "winner_age": "24",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "26,835",
   "ahead_of_2nd": "0h 01' 40\" ",
   "second_name": "H. Pelissier",
   "second_country": "France",
+  "second_id": "henri-pelissier",
   "ahead_of_3rd": "0h 36' 53\"",
   "third_name": "J. Alavoine",
-  "third_country": "J. Alavoine",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1914-01",
-      "year": 1914,
-      "leg": 1,
-      "title": "Paris – Le Havre",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
-      },
-      "length": 388,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1914-02",
       "year": 1914,
-      "leg": 2,
-      "title": "Le Havre – Cherbourg",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Le Havre - Cherbourg",
       "start": {
         "city": "Le Havre",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 364,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys || Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-03",
       "year": 1914,
-      "leg": 3,
-      "title": "Cherbourg – Brest",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Cherbourg - Brest",
       "start": {
         "city": "Cherbourg",
         "country": "France",
@@ -92,19 +73,20 @@
       "length": 405,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceÉmile Engel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys || Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-04",
       "year": 1914,
-      "leg": 4,
-      "title": "Brest – La Rochelle",
+      "leg": "4",
+      "leg_num": 3,
+      "title": "Brest - La Rochelle",
       "start": {
         "city": "Brest",
         "country": "France",
@@ -120,19 +102,20 @@
       "length": 470,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseOscar Egg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys || Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-05",
       "year": 1914,
-      "leg": 5,
-      "title": "La Rochelle – Bayonne",
+      "leg": "5",
+      "leg_num": 4,
+      "title": "La Rochelle - Bayonne",
       "start": {
         "city": "La Rochelle",
         "country": "France",
@@ -148,19 +131,20 @@
       "length": 379,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuisseOscar Egg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys || Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-06",
       "year": 1914,
-      "leg": 6,
-      "title": "Bayonne – Luchon",
+      "leg": "6",
+      "leg_num": 5,
+      "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
         "country": "France",
@@ -176,19 +160,20 @@
       "length": 326,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueFirmin Lambot",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-07",
       "year": 1914,
-      "leg": 7,
-      "title": "Luchon – Perpignan",
+      "leg": "7",
+      "leg_num": 6,
+      "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
         "country": "France",
@@ -204,19 +189,20 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean Alavoine",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-08",
       "year": 1914,
-      "leg": 8,
-      "title": "Perpignan – Marseille",
+      "leg": "8",
+      "leg_num": 7,
+      "title": "Perpignan - Marseille",
       "start": {
         "city": "Perpignan",
         "country": "France",
@@ -232,19 +218,20 @@
       "length": 370,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceOctave Lapize",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-09",
       "year": 1914,
-      "leg": 9,
-      "title": "Marseille – Nice",
+      "leg": "9",
+      "leg_num": 8,
+      "title": "Marseille - Nice",
       "start": {
         "city": "Marseille",
         "country": "France",
@@ -260,19 +247,20 @@
       "length": 338,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueJean Rossius",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-10",
       "year": 1914,
-      "leg": 10,
-      "title": "Nice – Grenoble",
+      "leg": "10",
+      "leg_num": 9,
+      "title": "Nice - Grenoble",
       "start": {
         "city": "Nice",
         "country": "France",
@@ -288,19 +276,20 @@
       "length": 333,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceHenri Pélissier",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-11",
       "year": 1914,
-      "leg": 11,
-      "title": "Grenoble – Genève",
+      "leg": "11",
+      "leg_num": 10,
+      "title": "Grenoble - Genève",
       "start": {
         "city": "Grenoble",
         "country": "France",
@@ -316,19 +305,20 @@
       "length": 325,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGustave Garrigou",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-12",
       "year": 1914,
-      "leg": 12,
-      "title": "Genève – Belfort",
+      "leg": "12",
+      "leg_num": 11,
+      "title": "Genève - Belfort",
       "start": {
         "city": "Genève",
         "country": "Suisse",
@@ -344,19 +334,20 @@
       "length": 335,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceHenri Pélissier",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-13",
       "year": 1914,
-      "leg": 13,
-      "title": "Belfort – Longwy",
+      "leg": "13",
+      "leg_num": 12,
+      "title": "Belfort - Longwy",
       "start": {
         "city": "Belfort",
         "country": "France",
@@ -372,19 +363,20 @@
       "length": 325,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-14",
       "year": 1914,
-      "leg": 14,
-      "title": "Longwy – Dunkerque",
+      "leg": "14",
+      "leg_num": 13,
+      "title": "Longwy - Dunkerque",
       "start": {
         "city": "Longwy",
         "country": "France",
@@ -400,19 +392,20 @@
       "length": 390,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1914-15",
       "year": 1914,
-      "leg": 15,
-      "title": "Dunkerque – Paris",
+      "leg": "15",
+      "leg_num": 14,
+      "title": "Dunkerque - Paris",
       "start": {
         "city": "Dunkerque",
         "country": "France",
@@ -428,11 +421,40 @@
       "length": 340,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceHenri Pélissier",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : BelgiquePhilippe Thys",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1914-01",
+      "year": 1914,
+      "leg": "1",
+      "leg_num": 15,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 388,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

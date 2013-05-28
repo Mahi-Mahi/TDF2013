@@ -7,48 +7,28 @@
   "nb_concurrents": 119,
   "nb_finishers": 76,
   "pct_finishers": 64,
-  "winner_name": "Louison Bobet",
-  "winner_time": "129h 23’ 25”",
+  "winner_first_name": "Louison",
+  "winner_last_name": "Bobet",
+  "winner_id": "louison-bobet",
+  "winner_total_time": "129h 23' 25\"",
+  "winner_age": "28",
+  "winner_country": "France",
+  "winner_avg_speed": "34,593",
   "ahead_of_2nd": "0h 14' 18\" ",
   "second_name": "J. Mallejac",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 15' 01\"",
   "third_name": "G. Astrua",
-  "third_country": "G. Astrua",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1953-01",
-      "year": 1953,
-      "leg": 1,
-      "title": "Strasbourg - Metz",
-      "start": {
-        "city": "Strasbourg",
-        "country": "France",
-        "lat": "48.583148",
-        "lng": "7.747882"
-      },
-      "finish": {
-        "city": "Metz",
-        "country": "France",
-        "lat": "49.119666",
-        "lng": "6.176905"
-      },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1953-02",
       "year": 1953,
-      "leg": 2,
-      "title": "Metz - Liège (BEL)",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Metz - Liège (Bel.)",
       "start": {
         "city": "Metz",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-03",
       "year": 1953,
-      "leg": 3,
-      "title": "Liège (BEL) - Lille",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Liège (Bel.) - Lille",
       "start": {
         "city": "Liège",
         "country": "Belgique",
@@ -92,18 +73,19 @@
       "length": 221,
       "type": null,
       "winner": {
-        "name": "Stanislas Bober Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-04",
       "year": 1953,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Lille -Dieppe",
       "start": {
         "city": "Lille",
@@ -120,18 +102,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Gerrit Voorting Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-05",
       "year": 1953,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Dieppe - Caen",
       "start": {
         "city": "Dieppe",
@@ -148,18 +131,19 @@
       "length": 131,
       "type": null,
       "winner": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Hassenforder Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-06",
       "year": 1953,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Caen - Le Mans",
       "start": {
         "city": "Caen",
@@ -176,18 +160,19 @@
       "length": 180,
       "type": null,
       "winner": {
-        "name": "Martin Van Geneugden Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Hassenforder Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-07",
       "year": 1953,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Le Mans - Nantes",
       "start": {
         "city": "Le Mans",
@@ -204,18 +189,19 @@
       "length": 181,
       "type": null,
       "winner": {
-        "name": "Livio Isotti Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Hassenforder Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-08",
       "year": 1953,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Nantes - Bordeaux",
       "start": {
         "city": "Nantes",
@@ -232,18 +218,19 @@
       "length": 345,
       "type": null,
       "winner": {
-        "name": "Jan Nolten Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Hassenforder Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-09",
       "year": 1953,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Bordeaux - Pau",
       "start": {
         "city": "Bordeaux",
@@ -260,18 +247,19 @@
       "length": 197,
       "type": null,
       "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-10",
       "year": 1953,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Pau - Cauterets",
       "start": {
         "city": "Pau",
@@ -288,18 +276,19 @@
       "length": 103,
       "type": null,
       "winner": {
-        "name": "Jesús Loroño Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fritz Schaer Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-11",
       "year": 1953,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Cauterets - Luchon",
       "start": {
         "city": "Cauterets",
@@ -316,18 +305,19 @@
       "length": 115,
       "type": null,
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-12",
       "year": 1953,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Luchon - Albi",
       "start": {
         "city": "Luchon",
@@ -344,18 +334,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "André Darrigade Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "François Mahé Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-13",
       "year": 1953,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Albi - Béziers",
       "start": {
         "city": "Albi",
@@ -372,18 +363,19 @@
       "length": 189,
       "type": null,
       "winner": {
-        "name": "Nello Lauredi Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-14",
       "year": 1953,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Béziers - Nîmes",
       "start": {
         "city": "Béziers",
@@ -400,18 +392,19 @@
       "length": 214,
       "type": null,
       "winner": {
-        "name": "Bernard Quennehen Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-15",
       "year": 1953,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Nîmes - Marseille",
       "start": {
         "city": "Nîmes",
@@ -428,18 +421,19 @@
       "length": 173,
       "type": null,
       "winner": {
-        "name": "Maurice Quentin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-16",
       "year": 1953,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Marseille - Monaco",
       "start": {
         "city": "Marseille",
@@ -456,18 +450,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-17",
       "year": 1953,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Monaco - Gap",
       "start": {
         "city": "Monaco",
@@ -484,18 +479,19 @@
       "length": 261,
       "type": null,
       "winner": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Malléjac Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-18",
       "year": 1953,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Gap - Briançon",
       "start": {
         "city": "Gap",
@@ -512,18 +508,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-19",
       "year": 1953,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Briançon - Lyon",
       "start": {
         "city": "Briançon",
@@ -540,18 +537,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Georges Meunier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-20",
       "year": 1953,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Lyon - Saint-Étienne",
       "start": {
         "city": "Lyon",
@@ -566,20 +564,21 @@
         "lng": "4.387178"
       },
       "length": 70,
-      "type": "CLM",
+      "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-21",
       "year": 1953,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Saint-Étienne - Montluçon",
       "start": {
         "city": "Saint-Étienne",
@@ -596,18 +595,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1953-22",
       "year": 1953,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 21,
       "title": "Montluçon - Paris",
       "start": {
         "city": "Montluçon",
@@ -624,11 +624,40 @@
       "length": 328,
       "type": null,
       "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1953-01",
+      "year": 1953,
+      "leg": "1",
+      "leg_num": 25,
+      "title": "Strasbourg - Metz",
+      "start": {
+        "city": "Strasbourg",
+        "country": "France",
+        "lat": "48.583148",
+        "lng": "7.747882"
+      },
+      "finish": {
+        "city": "Metz",
+        "country": "France",
+        "lat": "49.119666",
+        "lng": "6.176905"
+      },
+      "length": 195,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

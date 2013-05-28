@@ -7,47 +7,27 @@
   "nb_concurrents": 0,
   "nb_finishers": 0,
   "pct_finishers": 0,
-  "winner_name": "?",
-  "winner_time": null,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "n.a.",
+  "winner_age": "n.a.",
+  "winner_country": "n.a.",
+  "winner_avg_speed": "n.a.",
   "ahead_of_2nd": null,
-  "second_name": null,
-  "second_country": null,
-  "ahead_of_3rd": null,
-  "third_name": null,
-  "third_country": null,
+  "second_name": "n.a.",
+  "second_country": "n.a.",
+  "second_id": null,
+  "ahead_of_3rd": "n.a.",
+  "third_name": "n.a.",
+  "third_country": "n.a.",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-2013-01",
-      "year": 2013,
-      "leg": 1,
-      "title": "Porto-Vecchio - Bastia",
-      "start": {
-        "city": "Porto-Vecchio",
-        "country": "France",
-        "lat": "41.591369",
-        "lng": "9.278311"
-      },
-      "finish": {
-        "city": "Bastia",
-        "country": "France",
-        "lat": "42.697283",
-        "lng": "9.450881"
-      },
-      "length": 212,
-      "type": "Étape de plaine",
-      "winner": {
-        "name": null,
-        "nationality": null
-      },
-      "leader": {
-        "name": null,
-        "nationality": null
-      }
-    },
     {
       "id": "E-2013-02",
       "year": 2013,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Bastia - Ajaccio",
       "start": {
         "city": "Bastia",
@@ -62,7 +42,7 @@
         "lng": "8.738635"
       },
       "length": 154,
-      "type": "Étape accidentée",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -75,7 +55,8 @@
     {
       "id": "E-2013-03",
       "year": 2013,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Ajaccio - Calvi",
       "start": {
         "city": "Ajaccio",
@@ -90,7 +71,7 @@
         "lng": "8.757222"
       },
       "length": 145,
-      "type": "Étape accidentée",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -103,7 +84,8 @@
     {
       "id": "E-2013-04",
       "year": 2013,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Nice - Nice",
       "start": {
         "city": "Nice",
@@ -118,7 +100,7 @@
         "lng": "7.265592"
       },
       "length": 25,
-      "type": "Contre-la-montre par équipes",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -131,7 +113,8 @@
     {
       "id": "E-2013-05",
       "year": 2013,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Cagnes-sur-Mer - Marseille",
       "start": {
         "city": "Cagnes-sur-Mer",
@@ -146,7 +129,7 @@
         "lng": "5.36978"
       },
       "length": 219,
-      "type": "Étape de plaine",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -159,7 +142,8 @@
     {
       "id": "E-2013-06",
       "year": 2013,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Aix-en-Provence - Montpellier",
       "start": {
         "city": "Aix-en-Provence",
@@ -174,7 +158,7 @@
         "lng": "3.876716"
       },
       "length": 176,
-      "type": "Étape de plaine",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -187,7 +171,8 @@
     {
       "id": "E-2013-07",
       "year": 2013,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Montpellier - Albi",
       "start": {
         "city": "Montpellier",
@@ -202,7 +187,7 @@
         "lng": "2.146343"
       },
       "length": 205,
-      "type": "Étape accidentée",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -215,7 +200,8 @@
     {
       "id": "E-2013-08",
       "year": 2013,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Castres - Ax 3 Domaines",
       "start": {
         "city": "Castres",
@@ -230,7 +216,7 @@
         "lng": "1.81283"
       },
       "length": 194,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -243,7 +229,8 @@
     {
       "id": "E-2013-09",
       "year": 2013,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Saint-Girons - Bagnères-de-Bigorre",
       "start": {
         "city": "Saint-Girons",
@@ -258,7 +245,7 @@
         "lng": "0.149105"
       },
       "length": 165,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -271,7 +258,8 @@
     {
       "id": "E-2013-10",
       "year": 2013,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Saint-Gildas-des-Bois - Saint-Malo",
       "start": {
         "city": "Saint-Gildas-des-Bois",
@@ -286,7 +274,7 @@
         "lng": "-2.025674"
       },
       "length": 193,
-      "type": "Étape de plaine",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -299,7 +287,8 @@
     {
       "id": "E-2013-11",
       "year": 2013,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Avranches - Mont-Saint-Michel",
       "start": {
         "city": "Avranches",
@@ -314,7 +303,7 @@
         "lng": "-1.511457"
       },
       "length": 33,
-      "type": "Contre-la-montre",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -327,7 +316,8 @@
     {
       "id": "E-2013-12",
       "year": 2013,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Fougères - Tours",
       "start": {
         "city": "Fougères",
@@ -342,7 +332,7 @@
         "lng": "0.68484"
       },
       "length": 218,
-      "type": "Étape de plaine",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -355,7 +345,8 @@
     {
       "id": "E-2013-13",
       "year": 2013,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Tours - Saint-Amand-Montrond",
       "start": {
         "city": "Tours",
@@ -370,7 +361,7 @@
         "lng": "2.505604"
       },
       "length": 173,
-      "type": "Étape de plaine",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -383,7 +374,8 @@
     {
       "id": "E-2013-14",
       "year": 2013,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Saint-Pourçain-sur-Sioule - Lyon",
       "start": {
         "city": "Saint-Pourçain-sur-Sioule",
@@ -398,7 +390,7 @@
         "lng": "4.835659"
       },
       "length": 191,
-      "type": "Étape accidentée",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -411,7 +403,8 @@
     {
       "id": "E-2013-15",
       "year": 2013,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Givors - Mont Ventoux",
       "start": {
         "city": "Givors",
@@ -426,7 +419,7 @@
         "lng": "5.283795"
       },
       "length": 242,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -439,7 +432,8 @@
     {
       "id": "E-2013-16",
       "year": 2013,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Vaison-la-Romaine - Gap",
       "start": {
         "city": "Vaison-la-Romaine",
@@ -454,7 +448,7 @@
         "lng": "6.079758"
       },
       "length": 168,
-      "type": "Étape accidentée",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -467,7 +461,8 @@
     {
       "id": "E-2013-17",
       "year": 2013,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Embrun - Chorges",
       "start": {
         "city": "Embrun",
@@ -482,7 +477,7 @@
         "lng": "6.275548"
       },
       "length": 32,
-      "type": "Contre-la-montre",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -495,7 +490,8 @@
     {
       "id": "E-2013-18",
       "year": 2013,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Gap - Alpe d'Huez",
       "start": {
         "city": "Gap",
@@ -510,7 +506,7 @@
         "lng": "6.068348"
       },
       "length": 168,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -523,7 +519,8 @@
     {
       "id": "E-2013-19",
       "year": 2013,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Bourg-d'Oisans - Le Grand-Bornand",
       "start": {
         "city": "Bourg-d'Oisans",
@@ -538,7 +535,7 @@
         "lng": "6.426699"
       },
       "length": 204,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -551,7 +548,8 @@
     {
       "id": "E-2013-20",
       "year": 2013,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Annecy - Annecy - Semnoz",
       "start": {
         "city": "Annecy",
@@ -566,7 +564,7 @@
         "lng": "6.104722"
       },
       "length": 125,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null
@@ -579,7 +577,8 @@
     {
       "id": "E-2013-21",
       "year": 2013,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Versailles - Paris Champs-Élysées",
       "start": {
         "city": "Versailles",
@@ -594,7 +593,36 @@
         "lng": "2.352222"
       },
       "length": 118,
-      "type": "Étape de plaine",
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2013-01",
+      "year": 2013,
+      "leg": "1",
+      "leg_num": 24,
+      "title": "Porto-Vecchio - Bastia",
+      "start": {
+        "city": "Porto-Vecchio",
+        "country": "France",
+        "lat": "41.591369",
+        "lng": "9.278311"
+      },
+      "finish": {
+        "city": "Bastia",
+        "country": "France",
+        "lat": "42.697283",
+        "lng": "9.450881"
+      },
+      "length": 212,
+      "type": null,
       "winner": {
         "name": null,
         "nationality": null

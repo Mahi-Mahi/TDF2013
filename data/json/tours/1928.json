@@ -7,47 +7,27 @@
   "nb_concurrents": 162,
   "nb_finishers": 41,
   "pct_finishers": 25,
-  "winner_name": "Nicolas Frantz",
-  "winner_time": "192h 48’ 58”",
+  "winner_first_name": "Nicolas",
+  "winner_last_name": "Frantz",
+  "winner_id": "nicolas-frantz",
+  "winner_total_time": "192h 48' 58\"",
+  "winner_age": "28",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "28,400",
   "ahead_of_2nd": "0h 50' 07\" ",
   "second_name": "A. Leducq",
   "second_country": "France",
+  "second_id": "andre-leducq",
   "ahead_of_3rd": "0h 56' 16\"",
   "third_name": "M. De Waele",
-  "third_country": "M. De Waele",
+  "third_country": "Belgique",
+  "third_id": "maurice-de-waele",
   "legs": [
-    {
-      "id": "E-1928-01",
-      "year": 1928,
-      "leg": 1,
-      "title": "Paris - Caen",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1928-02",
       "year": 1928,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Caen - Cherbourg",
       "start": {
         "city": "Caen",
@@ -64,18 +44,19 @@
       "length": 140,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-03",
       "year": 1928,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Cherbourg - Dinan",
       "start": {
         "city": "Cherbourg",
@@ -92,18 +73,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-04",
       "year": 1928,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Dinan - Brest",
       "start": {
         "city": "Dinan",
@@ -120,18 +102,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Pé Verhaegen Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-05",
       "year": 1928,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Brest - Vannes",
       "start": {
         "city": "Brest",
@@ -148,18 +131,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Marcel Bidot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-06",
       "year": 1928,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Vannes - Les Sables-d'Olonne",
       "start": {
         "city": "Vannes",
@@ -176,18 +160,19 @@
       "length": 204,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-07",
       "year": 1928,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Les Sables-d'Olonne - Bordeaux",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -204,18 +189,19 @@
       "length": 285,
       "type": null,
       "winner": {
-        "name": "Victor Fontan Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-08",
       "year": 1928,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Bordeaux - Hendaye",
       "start": {
         "city": "Bordeaux",
@@ -232,18 +218,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-09",
       "year": 1928,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Hendaye - Luchon",
       "start": {
         "city": "Hendaye",
@@ -260,18 +247,19 @@
       "length": 387,
       "type": null,
       "winner": {
-        "name": "Victor Fontan Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-10",
       "year": 1928,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -288,18 +276,19 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-11",
       "year": 1928,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Perpignan - Marseille",
       "start": {
         "city": "Perpignan",
@@ -316,18 +305,19 @@
       "length": 363,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-12",
       "year": 1928,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Marseille - Nice",
       "start": {
         "city": "Marseille",
@@ -344,18 +334,19 @@
       "length": 330,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-13",
       "year": 1928,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Nice - Grenoble",
       "start": {
         "city": "Nice",
@@ -372,18 +363,19 @@
       "length": 333,
       "type": null,
       "winner": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-14",
       "year": 1928,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Grenoble - Évian",
       "start": {
         "city": "Grenoble",
@@ -400,18 +392,19 @@
       "length": 329,
       "type": null,
       "winner": {
-        "name": "Julien Moineau Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-15",
       "year": 1928,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Évian - Pontarlier",
       "start": {
         "city": "Évian",
@@ -428,18 +421,19 @@
       "length": 213,
       "type": null,
       "winner": {
-        "name": "Pierre Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-16",
       "year": 1928,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Pontarlier - Belfort",
       "start": {
         "city": "Pontarlier",
@@ -456,18 +450,19 @@
       "length": 119,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-17",
       "year": 1928,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Belfort - Strasbourg",
       "start": {
         "city": "Belfort",
@@ -484,18 +479,19 @@
       "length": 145,
       "type": null,
       "winner": {
-        "name": "Joseph Mauclair Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-18",
       "year": 1928,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -512,18 +508,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-19",
       "year": 1928,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Metz - Charleville",
       "start": {
         "city": "Metz",
@@ -534,30 +531,31 @@
       "finish": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "length": 159,
       "type": null,
       "winner": {
-        "name": "Marcel Huot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-20",
       "year": 1928,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Charleville - Malo-les-Bains",
       "start": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "finish": {
         "city": "Malo-les-Bains",
@@ -568,18 +566,19 @@
       "length": 271,
       "type": null,
       "winner": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-21",
       "year": 1928,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Malo-les-Bains - Dieppe",
       "start": {
         "city": "Malo-les-Bains",
@@ -596,18 +595,19 @@
       "length": 234,
       "type": null,
       "winner": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1928-22",
       "year": 1928,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 21,
       "title": "Dieppe - Paris",
       "start": {
         "city": "Dieppe",
@@ -624,11 +624,40 @@
       "length": 331,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1928-01",
+      "year": 1928,
+      "leg": "1",
+      "leg_num": 22,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 207,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

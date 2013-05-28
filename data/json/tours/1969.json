@@ -3,52 +3,32 @@
   "edition": 56,
   "total_length": 4117,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 130,
   "nb_finishers": 86,
   "pct_finishers": 66,
-  "winner_name": "Eddy Merckx",
-  "winner_time": "116h 16’ 02”",
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "116h 16' 02\"",
+  "winner_age": "24",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,409",
   "ahead_of_2nd": "0h 17' 54\" ",
   "second_name": "R. Pingeon",
   "second_country": "France",
+  "second_id": "roger-pingeon",
   "ahead_of_3rd": "0h 22' 13\"",
   "third_name": "R. Poulidor",
-  "third_country": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1969-Prologue",
-      "year": 1969,
-      "leg": 0,
-      "title": "Roubaix",
-      "start": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
-      },
-      "finish": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
-      },
-      "length": 10,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1969-1a",
       "year": 1969,
-      "leg": 1,
-      "title": "Roubaix - Woluwe-Saint-Pierre (BEL)",
+      "leg": "1a",
+      "leg_num": 1,
+      "title": "Roubaix - Woluwe-Saint-Pierre (Bel.)",
       "start": {
         "city": "Roubaix",
         "country": "France",
@@ -64,18 +44,19 @@
       "length": 147,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-1b",
       "year": 1969,
-      "leg": 1,
+      "leg": "1b",
+      "leg_num": 2,
       "title": "Woluwe-Saint-Pierre - Woluwe-Saint-Pierre",
       "start": {
         "city": "Woluwe-Saint-Pierre",
@@ -90,21 +71,22 @@
         "lng": "4.41759"
       },
       "length": 16,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Faema",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-02",
       "year": 1969,
-      "leg": 2,
-      "title": "Woluwe-Saint-Pierre - Maastricht (NL)",
+      "leg": "2",
+      "leg_num": 3,
+      "title": "Woluwe-Saint-Pierre - Maastricht (P.-B.)",
       "start": {
         "city": "Woluwe-Saint-Pierre",
         "country": "Belgique",
@@ -120,18 +102,19 @@
       "length": 181,
       "type": null,
       "winner": {
-        "name": "Julien Stevens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Julien Stevens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-03",
       "year": 1969,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 4,
       "title": "Maastricht - Charleville-Mézières",
       "start": {
         "city": "Maastricht",
@@ -148,18 +131,19 @@
       "length": 213,
       "type": null,
       "winner": {
-        "name": "Eric Leman Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Julien Stevens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-04",
       "year": 1969,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 5,
       "title": "Charleville-Mézières - Nancy",
       "start": {
         "city": "Charleville-Mézières",
@@ -176,18 +160,19 @@
       "length": 214,
       "type": null,
       "winner": {
-        "name": "Rik Van Looy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Julien Stevens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-05",
       "year": 1969,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 6,
       "title": "Nancy - Mulhouse",
       "start": {
         "city": "Nancy",
@@ -204,18 +189,19 @@
       "length": 193,
       "type": null,
       "winner": {
-        "name": "Joaquim Agostinho Portugal Portugal",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Désiré Letort Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-06",
       "year": 1969,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 7,
       "title": "Mulhouse - Ballon d'Alsace",
       "start": {
         "city": "Mulhouse",
@@ -232,18 +218,19 @@
       "length": 133,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-07",
       "year": 1969,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Belfort - Divonne-les-Bains",
       "start": {
         "city": "Belfort",
@@ -260,18 +247,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Mariano Díaz Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-8a",
       "year": 1969,
-      "leg": 8,
+      "leg": "8a",
+      "leg_num": 9,
       "title": "Divonne-les-Bains - Divonne-les-Bains",
       "start": {
         "city": "Divonne-les-Bains",
@@ -288,18 +276,19 @@
       "length": 9,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-8b",
       "year": 1969,
-      "leg": 8,
+      "leg": "8b",
+      "leg_num": 10,
       "title": "Divonne-les-Bains - Thonon-les-Bains",
       "start": {
         "city": "Divonne-les-Bains",
@@ -316,18 +305,19 @@
       "length": 136,
       "type": null,
       "winner": {
-        "name": "Michele Dancelli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-09",
       "year": 1969,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Thonon-les-Bains - Chamonix",
       "start": {
         "city": "Thonon-les-Bains",
@@ -344,18 +334,19 @@
       "length": 111,
       "type": null,
       "winner": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-10",
       "year": 1969,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 12,
       "title": "Chamonix - Briançon",
       "start": {
         "city": "Chamonix",
@@ -372,18 +363,19 @@
       "length": 220,
       "type": null,
       "winner": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-11",
       "year": 1969,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 13,
       "title": "Briançon - Digne-les-Bains",
       "start": {
         "city": "Briançon",
@@ -400,18 +392,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-12",
       "year": 1969,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 14,
       "title": "Digne-les-Bains - Aubagne",
       "start": {
         "city": "Digne-les-Bains",
@@ -428,18 +421,19 @@
       "length": 161,
       "type": null,
       "winner": {
-        "name": "Felice Gimondi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-13",
       "year": 1969,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 15,
       "title": "Aubagne - La Grande Motte",
       "start": {
         "city": "Aubagne",
@@ -456,18 +450,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Guido Reybrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-14",
       "year": 1969,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 16,
       "title": "La Grande Motte - Revel",
       "start": {
         "city": "La Grande Motte",
@@ -484,18 +479,19 @@
       "length": 234,
       "type": null,
       "winner": {
-        "name": "Joaquim Agostinho Portugal Portugal",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-15",
       "year": 1969,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 17,
       "title": "Revel - Revel",
       "start": {
         "city": "Revel",
@@ -510,20 +506,21 @@
         "lng": "2.004573"
       },
       "length": 18,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-16",
       "year": 1969,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 18,
       "title": "Castelnaudary - Luchon",
       "start": {
         "city": "Castelnaudary",
@@ -540,18 +537,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Raymond Delisle Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-17",
       "year": 1969,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 19,
       "title": "Luchon - Mourenx",
       "start": {
         "city": "Luchon",
@@ -568,18 +566,19 @@
       "length": 214,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-18",
       "year": 1969,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 20,
       "title": "Mourenx - Bordeaux",
       "start": {
         "city": "Mourenx",
@@ -596,18 +595,19 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-19",
       "year": 1969,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 21,
       "title": "Bordeaux - Brive-la-Gaillarde",
       "start": {
         "city": "Bordeaux",
@@ -618,24 +618,25 @@
       "finish": {
         "city": "Brive-la-Gaillarde",
         "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
+        "lat": "45.159555",
+        "lng": "1.533937"
       },
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-20",
       "year": 1969,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 22,
       "title": "Brive-la-Gaillarde - Puy de Dôme",
       "start": {
         "city": "Brive-la-Gaillarde",
@@ -652,18 +653,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Pierre Matignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-21",
       "year": 1969,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 23,
       "title": "Clermont-Ferrand - Montargis",
       "start": {
         "city": "Clermont-Ferrand",
@@ -680,18 +682,19 @@
       "length": 329,
       "type": null,
       "winner": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-22a",
       "year": 1969,
-      "leg": 22,
+      "leg": "22a",
+      "leg_num": 24,
       "title": "Montargis - Créteil",
       "start": {
         "city": "Montargis",
@@ -708,18 +711,19 @@
       "length": 111,
       "type": null,
       "winner": {
-        "name": "Joseph Spruyt Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1969-22b",
       "year": 1969,
-      "leg": 22,
+      "leg": "22b",
+      "leg_num": 25,
       "title": "Créteil - Paris",
       "start": {
         "city": "Créteil",
@@ -734,13 +738,42 @@
         "lng": "2.352222"
       },
       "length": 37,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1969-Prologue",
+      "year": 1969,
+      "leg": "Prologue",
+      "leg_num": 29,
+      "title": "Roubaix",
+      "start": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "length": 10,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

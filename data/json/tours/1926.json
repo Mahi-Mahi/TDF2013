@@ -7,47 +7,27 @@
   "nb_concurrents": 126,
   "nb_finishers": 41,
   "pct_finishers": 33,
-  "winner_name": "Lucien Buysse",
-  "winner_time": "238h 44’ 25”",
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Buysse",
+  "winner_id": "lucien-buysse",
+  "winner_total_time": "238h 44' 25\"",
+  "winner_age": "33",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "24,273",
   "ahead_of_2nd": "1h 22' 25\" ",
   "second_name": "N. Frantz",
   "second_country": "Luxembourg",
+  "second_id": "nicolas-frantz",
   "ahead_of_3rd": "1h 23' 51\"",
   "third_name": "B. Aimo",
-  "third_country": "B. Aimo",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1926-01",
-      "year": 1926,
-      "leg": 1,
-      "title": "Évian - Mulhouse",
-      "start": {
-        "city": "Évian",
-        "country": "France",
-        "lat": "46.401488",
-        "lng": "6.590949"
-      },
-      "finish": {
-        "city": "Mulhouse",
-        "country": "France",
-        "lat": "47.750839",
-        "lng": "7.335888"
-      },
-      "length": 373,
-      "type": null,
-      "winner": {
-        "name": "Jules Buysse Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jules Buysse Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1926-02",
       "year": 1926,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Mulhouse - Metz",
       "start": {
         "city": "Mulhouse",
@@ -64,18 +44,19 @@
       "length": 334,
       "type": null,
       "winner": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jules Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-03",
       "year": 1926,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Metz - Dunkerque",
       "start": {
         "city": "Metz",
@@ -92,18 +73,19 @@
       "length": 433,
       "type": null,
       "winner": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-04",
       "year": 1926,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Dunkerque - Le Havre",
       "start": {
         "city": "Dunkerque",
@@ -120,18 +102,19 @@
       "length": 361,
       "type": null,
       "winner": {
-        "name": "Félix Sellier Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-05",
       "year": 1926,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Le Havre - Cherbourg",
       "start": {
         "city": "Le Havre",
@@ -148,18 +131,19 @@
       "length": 357,
       "type": null,
       "winner": {
-        "name": "Adelin Benoît Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-06",
       "year": 1926,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Cherbourg - Brest",
       "start": {
         "city": "Cherbourg",
@@ -176,18 +160,19 @@
       "length": 405,
       "type": null,
       "winner": {
-        "name": "Joseph Van Dam Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-07",
       "year": 1926,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Brest - Les Sables-d'Olonne",
       "start": {
         "city": "Brest",
@@ -204,18 +189,19 @@
       "length": 412,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-08",
       "year": 1926,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Les Sables-d'Olonne - Bordeaux",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -232,18 +218,19 @@
       "length": 285,
       "type": null,
       "winner": {
-        "name": "Joseph Van Dam Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-09",
       "year": 1926,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Bordeaux - Bayonne",
       "start": {
         "city": "Bordeaux",
@@ -260,18 +247,19 @@
       "length": 189,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-10",
       "year": 1926,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
@@ -288,18 +276,19 @@
       "length": 326,
       "type": null,
       "winner": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-11",
       "year": 1926,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -316,18 +305,19 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-12",
       "year": 1926,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Perpignan - Toulon",
       "start": {
         "city": "Perpignan",
@@ -344,18 +334,19 @@
       "length": 427,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-13",
       "year": 1926,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Toulon - Nice",
       "start": {
         "city": "Toulon",
@@ -372,18 +363,19 @@
       "length": 280,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-14",
       "year": 1926,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Nice - Briançon",
       "start": {
         "city": "Nice",
@@ -400,18 +392,19 @@
       "length": 275,
       "type": null,
       "winner": {
-        "name": "Bartolomeo Aimo Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-15",
       "year": 1926,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Briançon - Évian",
       "start": {
         "city": "Briançon",
@@ -428,18 +421,19 @@
       "length": 303,
       "type": null,
       "winner": {
-        "name": "Joseph Van Dam Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-16",
       "year": 1926,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Évian - Dijon",
       "start": {
         "city": "Évian",
@@ -456,18 +450,19 @@
       "length": 321,
       "type": null,
       "winner": {
-        "name": "Camille Van De Casteele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1926-17",
       "year": 1926,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Dijon - Paris",
       "start": {
         "city": "Dijon",
@@ -484,11 +479,40 @@
       "length": 341,
       "type": null,
       "winner": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1926-01",
+      "year": 1926,
+      "leg": "1",
+      "leg_num": 24,
+      "title": "Évian - Mulhouse",
+      "start": {
+        "city": "Évian",
+        "country": "France",
+        "lat": "46.401488",
+        "lng": "6.590949"
+      },
+      "finish": {
+        "city": "Mulhouse",
+        "country": "France",
+        "lat": "47.750839",
+        "lng": "7.335888"
+      },
+      "length": 373,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -7,47 +7,27 @@
   "nb_concurrents": 100,
   "nb_finishers": 59,
   "pct_finishers": 59,
-  "winner_name": "André Leducq",
-  "winner_time": "172h 12’ 16”",
+  "winner_first_name": "André",
+  "winner_last_name": "Leducq",
+  "winner_id": "andre-leducq",
+  "winner_total_time": "172h 12' 16\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "28,000",
   "ahead_of_2nd": "0h 14' 13\" ",
   "second_name": "L. Guerra",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 16' 03\"",
   "third_name": "A. Magne",
-  "third_country": "A. Magne",
+  "third_country": "France",
+  "third_id": "antonin-magne",
   "legs": [
-    {
-      "id": "E-1930-01",
-      "year": 1930,
-      "leg": 1,
-      "title": "Paris - Caen",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Charles Pélissier Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1930-02",
       "year": 1930,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Caen - Dinan",
       "start": {
         "city": "Caen",
@@ -64,18 +44,19 @@
       "length": 203,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-03",
       "year": 1930,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Dinan - Brest",
       "start": {
         "city": "Dinan",
@@ -92,18 +73,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-04",
       "year": 1930,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Brest - Vannes",
       "start": {
         "city": "Brest",
@@ -120,18 +102,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Omer Taverne Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-05",
       "year": 1930,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Vannes - Les Sables-d'Olonne",
       "start": {
         "city": "Vannes",
@@ -148,18 +131,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-06",
       "year": 1930,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Les Sables-d'Olonne - Bordeaux",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -176,18 +160,19 @@
       "length": 285,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-07",
       "year": 1930,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Bordeaux - Hendaye",
       "start": {
         "city": "Bordeaux",
@@ -204,18 +189,19 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Jules Merviel Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-08",
       "year": 1930,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Hendaye - Pau",
       "start": {
         "city": "Hendaye",
@@ -232,18 +218,19 @@
       "length": 146,
       "type": null,
       "winner": {
-        "name": "Alfredo Binda Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-09",
       "year": 1930,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -260,18 +247,19 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Alfredo Binda Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-10",
       "year": 1930,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -288,18 +276,19 @@
       "length": 322,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-11",
       "year": 1930,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Perpignan - Montpellier",
       "start": {
         "city": "Perpignan",
@@ -316,18 +305,19 @@
       "length": 164,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-12",
       "year": 1930,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Montpellier - Marseille",
       "start": {
         "city": "Montpellier",
@@ -344,18 +334,19 @@
       "length": 209,
       "type": null,
       "winner": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-13",
       "year": 1930,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Marseille - Cannes",
       "start": {
         "city": "Marseille",
@@ -372,18 +363,19 @@
       "length": 181,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-14",
       "year": 1930,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Cannes - Nice",
       "start": {
         "city": "Cannes",
@@ -400,18 +392,19 @@
       "length": 132,
       "type": null,
       "winner": {
-        "name": "Louis Peglion Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-15",
       "year": 1930,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Nice - Grenoble",
       "start": {
         "city": "Nice",
@@ -428,18 +421,19 @@
       "length": 333,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-16",
       "year": 1930,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Grenoble - Évian",
       "start": {
         "city": "Grenoble",
@@ -456,18 +450,19 @@
       "length": 331,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-17",
       "year": 1930,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Évian - Belfort",
       "start": {
         "city": "Évian",
@@ -484,18 +479,19 @@
       "length": 282,
       "type": null,
       "winner": {
-        "name": "Frans Bonduel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-18",
       "year": 1930,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Belfort - Metz",
       "start": {
         "city": "Belfort",
@@ -512,18 +508,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-19",
       "year": 1930,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Metz - Charleville",
       "start": {
         "city": "Metz",
@@ -534,30 +531,31 @@
       "finish": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "length": 159,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-20",
       "year": 1930,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Charleville - Malo-les-Bains",
       "start": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "finish": {
         "city": "Malo-les-Bains",
@@ -568,18 +566,19 @@
       "length": 271,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1930-21",
       "year": 1930,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Malo-les-Bains - Paris",
       "start": {
         "city": "Malo-les-Bains",
@@ -596,11 +595,40 @@
       "length": 300,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1930-01",
+      "year": 1930,
+      "leg": "1",
+      "leg_num": 24,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -3,51 +3,31 @@
   "edition": 84,
   "total_length": 3950,
   "nb_legs": 21,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 198,
   "nb_finishers": 139,
   "pct_finishers": 70,
-  "winner_name": "Jan Ullrich",
-  "winner_time": "100h 30’ 35”",
+  "winner_first_name": "Jan",
+  "winner_last_name": "Ullrich",
+  "winner_id": "jan-ullrich",
+  "winner_total_time": "100h 30' 35\"",
+  "winner_age": "23",
+  "winner_country": "Allemagne",
+  "winner_avg_speed": "39,237",
   "ahead_of_2nd": "0h 09' 09\" ",
   "second_name": "R. Virenque",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 14' 03\"",
   "third_name": "M. Pantani",
-  "third_country": "M. Pantani",
+  "third_country": "Italie",
+  "third_id": "marco-pantani",
   "legs": [
-    {
-      "id": "E-1997-Prologue",
-      "year": 1997,
-      "leg": 0,
-      "title": "Rouen - Rouen",
-      "start": {
-        "city": "Rouen",
-        "country": "France",
-        "lat": "49.443232",
-        "lng": "1.099971"
-      },
-      "finish": {
-        "city": "Rouen",
-        "country": "France",
-        "lat": "49.443232",
-        "lng": "1.099971"
-      },
-      "length": 7,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : Royaume-UniChris Boardman",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : Royaume-UniChris Boardman",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1997-01",
       "year": 1997,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Rouen - Forges-les-Eaux",
       "start": {
         "city": "Rouen",
@@ -64,18 +44,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-02",
       "year": 1997,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Saint-Valery-en-Caux - Vire",
       "start": {
         "city": "Saint-Valery-en-Caux",
@@ -92,18 +73,19 @@
       "length": 262,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-03",
       "year": 1997,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Vire - Plumelec",
       "start": {
         "city": "Vire",
@@ -120,18 +102,19 @@
       "length": 224,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-04",
       "year": 1997,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Plumelec - Le Puy du Fou",
       "start": {
         "city": "Plumelec",
@@ -148,18 +131,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieNicola Minali",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-05",
       "year": 1997,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Chantonnay - La Châtre",
       "start": {
         "city": "Chantonnay",
@@ -176,18 +160,19 @@
       "length": 261,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-06",
       "year": 1997,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Le Blanc - Marennes",
       "start": {
         "city": "Le Blanc",
@@ -204,18 +189,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJeroen Blijlevens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-07",
       "year": 1997,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Marennes - Bordeaux",
       "start": {
         "city": "Marennes",
@@ -232,18 +218,19 @@
       "length": 194,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-08",
       "year": 1997,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Sauternes - Pau",
       "start": {
         "city": "Sauternes",
@@ -260,18 +247,19 @@
       "length": 161,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-09",
       "year": 1997,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Pau - Loudenvielle",
       "start": {
         "city": "Pau",
@@ -286,21 +274,22 @@
         "lng": "0.412744"
       },
       "length": 182,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceLaurent Brochard",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceCédric Vasseur",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-10",
       "year": 1997,
-      "leg": 10,
-      "title": "Luchon - Arcalis",
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Luchon - Andorre-Arcalis",
       "start": {
         "city": "Luchon",
         "country": "France",
@@ -308,26 +297,27 @@
         "lng": "0.592943\n"
       },
       "finish": {
-        "city": "Arcalis",
+        "city": "Andorre-Arcalis",
         "country": "Andorre",
-        "lat": "42.35399",
-        "lng": "1.084061"
+        "lat": "42.63247",
+        "lng": "1.49583"
       },
       "length": 252,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-11",
       "year": 1997,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Andorre - Perpignan",
       "start": {
         "city": "Andorre",
@@ -342,20 +332,21 @@
         "lng": "2.895872"
       },
       "length": 192,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceLaurent Desbiens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-12",
       "year": 1997,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "St Etienne - St Etienne",
       "start": {
         "city": "St Etienne",
@@ -370,20 +361,21 @@
         "lng": "4.387178"
       },
       "length": 55,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-13",
       "year": 1997,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "St Etienne - L'Alpe d'Huez",
       "start": {
         "city": "St Etienne",
@@ -398,20 +390,21 @@
         "lng": "6.068348"
       },
       "length": 203,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-14",
       "year": 1997,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Le Bourg-d'Oisans - Courchevel",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -426,20 +419,21 @@
         "lng": "6.61409"
       },
       "length": 148,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-15",
       "year": 1997,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Courchevel - Morzine",
       "start": {
         "city": "Courchevel",
@@ -454,20 +448,21 @@
         "lng": "6.708877"
       },
       "length": 208,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-16",
       "year": 1997,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Morzine - Fribourg",
       "start": {
         "city": "Morzine",
@@ -484,18 +479,19 @@
       "length": 181,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceChristophe Mengin",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-17",
       "year": 1997,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Fribourg - Colmar",
       "start": {
         "city": "Fribourg",
@@ -512,18 +508,19 @@
       "length": 218,
       "type": null,
       "winner": {
-        "name": "Drapeau : AustralieNeil Stephens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-18",
       "year": 1997,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Colmar - Montbéliard",
       "start": {
         "city": "Colmar",
@@ -538,20 +535,21 @@
         "lng": "6.798466"
       },
       "length": 175,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceDidier Rous",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-19",
       "year": 1997,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Montbéliard - Dijon",
       "start": {
         "city": "Montbéliard",
@@ -568,18 +566,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Traversoni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-20",
       "year": 1997,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Disneyland Paris - Disneyland Paris",
       "start": {
         "city": "Marne La Vallée",
@@ -594,20 +593,21 @@
         "lng": "2.598505"
       },
       "length": 63,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneAbraham Olano",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1997-21",
       "year": 1997,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Disneyland Paris - Paris",
       "start": {
         "city": "Marne La Vallée",
@@ -624,11 +624,40 @@
       "length": 149,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieNicola Minali",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1997-Prologue",
+      "year": 1997,
+      "leg": "Prologue",
+      "leg_num": 22,
+      "title": "Rouen - Rouen",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

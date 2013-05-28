@@ -7,48 +7,28 @@
   "nb_concurrents": 120,
   "nb_finishers": 55,
   "pct_finishers": 46,
-  "winner_name": "Fausto Coppi",
-  "winner_time": "149h 40’ 49”",
+  "winner_first_name": "Fausto",
+  "winner_last_name": "Coppi",
+  "winner_id": "fausto-coppi",
+  "winner_total_time": "149h 40' 49\"",
+  "winner_age": "29",
+  "winner_country": "Italie",
+  "winner_avg_speed": "32,121",
   "ahead_of_2nd": "0h 10' 55\" ",
   "second_name": "G. Bartali",
   "second_country": "Italie",
+  "second_id": "gino-bartali",
   "ahead_of_3rd": "0h 25' 13\"",
   "third_name": "J. Marinelli",
-  "third_country": "J. Marinelli",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1949-01",
-      "year": 1949,
-      "leg": 1,
-      "title": "Paris - Reims",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Reims",
-        "country": "France",
-        "lat": "49.258329",
-        "lng": "4.031696"
-      },
-      "length": 182,
-      "type": null,
-      "winner": {
-        "name": "Marcel Dussault Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Marcel Dussault Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1949-02",
       "year": 1949,
-      "leg": 2,
-      "title": "Reims - Bruxelles (BEL)",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Reims - Bruxelles (Bel.)",
       "start": {
         "city": "Reims",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 273,
       "type": null,
       "winner": {
-        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Lambrecht Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-03",
       "year": 1949,
-      "leg": 3,
-      "title": "Bruxelles (BEL) - Boulogne-sur-Mer",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Bruxelles (Bel.) - Boulogne-sur-Mer",
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
@@ -92,18 +73,19 @@
       "length": 211,
       "type": null,
       "winner": {
-        "name": "Norbert Callens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Norbert Callens Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-04",
       "year": 1949,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Boulogne-sur-Mer - Rouen",
       "start": {
         "city": "Boulogne-sur-Mer",
@@ -120,18 +102,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Lucien Teisseire Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-05",
       "year": 1949,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Rouen - Saint-Malo",
       "start": {
         "city": "Rouen",
@@ -148,18 +131,19 @@
       "length": 293,
       "type": null,
       "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-06",
       "year": 1949,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Saint-Malo - Les Sables-d'Olonne",
       "start": {
         "city": "Saint-Malo",
@@ -176,18 +160,19 @@
       "length": 305,
       "type": null,
       "winner": {
-        "name": "Adolphe Deledda Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-07",
       "year": 1949,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Les Sables-d'Olonne - La Rochelle",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -202,20 +187,21 @@
         "lng": "-1.151139"
       },
       "length": 92,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Bernard Gauthier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-08",
       "year": 1949,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "La Rochelle - Bordeaux",
       "start": {
         "city": "La Rochelle",
@@ -232,19 +218,20 @@
       "length": 262,
       "type": null,
       "winner": {
-        "name": "Guy Lapébie Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-09",
       "year": 1949,
-      "leg": 9,
-      "title": "Bordeaux - Saint-Sébastien (ESP)",
+      "leg": "9",
+      "leg_num": 8,
+      "title": "Bordeaux - Saint-Sébastien (Esp.)",
       "start": {
         "city": "Bordeaux",
         "country": "France",
@@ -260,19 +247,20 @@
       "length": 228,
       "type": null,
       "winner": {
-        "name": "Louis Caput Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Marinelli Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-10",
       "year": 1949,
-      "leg": 10,
-      "title": "Saint-Sébastien (ESP) - Pau",
+      "leg": "10",
+      "leg_num": 9,
+      "title": "Saint-Sébastien (Esp.) - Pau",
       "start": {
         "city": "Saint-Sébastien",
         "country": "Espagne",
@@ -288,18 +276,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-11",
       "year": 1949,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -316,18 +305,19 @@
       "length": 193,
       "type": null,
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-12",
       "year": 1949,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Luchon - Toulouse",
       "start": {
         "city": "Luchon",
@@ -344,18 +334,19 @@
       "length": 134,
       "type": null,
       "winner": {
-        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-13",
       "year": 1949,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Toulouse - Nîmes",
       "start": {
         "city": "Toulouse",
@@ -372,18 +363,19 @@
       "length": 289,
       "type": null,
       "winner": {
-        "name": "Émile Idée Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-14",
       "year": 1949,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Nîmes - Marseille",
       "start": {
         "city": "Nîmes",
@@ -400,18 +392,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Jean Goldschmit Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-15",
       "year": 1949,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Marseille - Cannes",
       "start": {
         "city": "Marseille",
@@ -428,18 +421,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Désiré Keteleer Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fiorenzo Magni Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-16",
       "year": 1949,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Cannes - Briançon",
       "start": {
         "city": "Cannes",
@@ -456,19 +450,20 @@
       "length": 275,
       "type": null,
       "winner": {
-        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-17",
       "year": 1949,
-      "leg": 17,
-      "title": "Briançon - Aoste (ITA)",
+      "leg": "17",
+      "leg_num": 16,
+      "title": "Briançon - Aoste (Ita.)",
       "start": {
         "city": "Briançon",
         "country": "France",
@@ -478,30 +473,31 @@
       "finish": {
         "city": "Aoste",
         "country": "Italie",
-        "lat": "45.751838",
-        "lng": "7.299412"
+        "lat": "45.73279",
+        "lng": "7.32101"
       },
       "length": 257,
       "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-18",
       "year": 1949,
-      "leg": 18,
-      "title": "Aoste (ITA) - Lausanne (SUI)",
+      "leg": "18",
+      "leg_num": 17,
+      "title": "Aoste (Ita.) - Lausanne (Sui.)",
       "start": {
         "city": "Aoste",
         "country": "Italie",
-        "lat": "45.751838",
-        "lng": "7.299412"
+        "lat": "45.73279",
+        "lng": "7.32101"
       },
       "finish": {
         "city": "Lausanne",
@@ -512,19 +508,20 @@
       "length": 265,
       "type": null,
       "winner": {
-        "name": "Vincenzo Rossello Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-19",
       "year": 1949,
-      "leg": 19,
-      "title": "Lausanne (SUI) - Colmar",
+      "leg": "19",
+      "leg_num": 18,
+      "title": "Lausanne (Sui.) - Colmar",
       "start": {
         "city": "Lausanne",
         "country": "Suisse",
@@ -540,18 +537,19 @@
       "length": 283,
       "type": null,
       "winner": {
-        "name": "Raphaël Géminiani Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-20",
       "year": 1949,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Colmar - Nancy",
       "start": {
         "city": "Colmar",
@@ -566,20 +564,21 @@
         "lng": "6.184417"
       },
       "length": 137,
-      "type": " (CLM)",
+      "type": null,
       "winner": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1949-21",
       "year": 1949,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Nancy - Paris",
       "start": {
         "city": "Nancy",
@@ -596,11 +595,40 @@
       "length": 340,
       "type": null,
       "winner": {
-        "name": "Rik Van Steenbergen Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Fausto Coppi Drapeau d'Italie Italie",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1949-01",
+      "year": 1949,
+      "leg": "1",
+      "leg_num": 22,
+      "title": "Paris - Reims",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Reims",
+        "country": "France",
+        "lat": "49.258329",
+        "lng": "4.031696"
+      },
+      "length": 182,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

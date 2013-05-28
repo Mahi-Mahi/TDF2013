@@ -7,47 +7,27 @@
   "nb_concurrents": 96,
   "nb_finishers": 55,
   "pct_finishers": 57,
-  "winner_name": "Gino Bartali",
-  "winner_time": "148h 29’ 12”",
+  "winner_first_name": "Gino",
+  "winner_last_name": "Bartali",
+  "winner_id": "gino-bartali",
+  "winner_total_time": "148h 29' 12\"",
+  "winner_age": "24",
+  "winner_country": "Italie",
+  "winner_avg_speed": "31,565",
   "ahead_of_2nd": "0h 18' 27\" ",
   "second_name": "F. Vervaecke",
   "second_country": "Belgique",
+  "second_id": null,
   "ahead_of_3rd": "0h 29' 26\"",
   "third_name": "V. Cosson",
-  "third_country": "V. Cosson",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1938-01",
-      "year": 1938,
-      "leg": 1,
-      "title": "Paris - Caen",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": "Willi Oberbeck Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Willi Oberbeck Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1938-02",
       "year": 1938,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Caen - Saint-Brieuc",
       "start": {
         "city": "Caen",
@@ -64,18 +44,19 @@
       "length": 237,
       "type": null,
       "winner": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-03",
       "year": 1938,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Saint-Brieuc - Nantes",
       "start": {
         "city": "Saint-Brieuc",
@@ -92,18 +73,19 @@
       "length": 238,
       "type": null,
       "winner": {
-        "name": "Gerrit Schulte Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-4a",
       "year": 1938,
-      "leg": 4,
+      "leg": "4a",
+      "leg_num": 3,
       "title": "Nantes - La Roche-sur-Yon",
       "start": {
         "city": "Nantes",
@@ -120,46 +102,19 @@
       "length": 62,
       "type": null,
       "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1938-4c",
-      "year": 1938,
-      "leg": 4,
-      "title": "La Rochelle - Royan",
-      "start": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lat": "46.160329",
-        "lng": "-1.151139"
-      },
-      "finish": {
-        "city": "Royan",
-        "country": "France",
-        "lat": "45.623027",
-        "lng": "-1.043182"
-      },
-      "length": 83,
-      "type": null,
-      "winner": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-4b",
       "year": 1938,
-      "leg": 4,
+      "leg": "4b",
+      "leg_num": 4,
       "title": "La Roche-sur-Yon - La Rochelle",
       "start": {
         "city": "La Roche-sur-Yon",
@@ -176,18 +131,48 @@
       "length": 83,
       "type": null,
       "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1938-4c",
+      "year": 1938,
+      "leg": "4c",
+      "leg_num": 5,
+      "title": "La Rochelle - Royan",
+      "start": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "finish": {
+        "city": "Royan",
+        "country": "France",
+        "lat": "45.623027",
+        "lng": "-1.043182"
+      },
+      "length": 83,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-05",
       "year": 1938,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 6,
       "title": "Royan - Bordeaux",
       "start": {
         "city": "Royan",
@@ -204,46 +189,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1938-6b",
-      "year": 1938,
-      "leg": 6,
-      "title": "Arcachon - Bayonne",
-      "start": {
-        "city": "Arcachon",
-        "country": "France",
-        "lat": "44.6528",
-        "lng": "-1.1692"
-      },
-      "finish": {
-        "city": "Bayonne",
-        "country": "France",
-        "lat": "43.492949",
-        "lng": "-1.474841"
-      },
-      "length": 171,
-      "type": null,
-      "winner": {
-        "name": "Glauco Servadei Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-6a",
       "year": 1938,
-      "leg": 6,
+      "leg": "6a",
+      "leg_num": 7,
       "title": "Bordeaux - Arcachon",
       "start": {
         "city": "Bordeaux",
@@ -260,18 +218,48 @@
       "length": 52,
       "type": null,
       "winner": {
-        "name": "Jules Rossi Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1938-6b",
+      "year": 1938,
+      "leg": "6b",
+      "leg_num": 8,
+      "title": "Arcachon - Bayonne",
+      "start": {
+        "city": "Arcachon",
+        "country": "France",
+        "lat": "44.6528",
+        "lng": "-1.1692"
+      },
+      "finish": {
+        "city": "Bayonne",
+        "country": "France",
+        "lat": "43.492949",
+        "lng": "-1.474841"
+      },
+      "length": 171,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-07",
       "year": 1938,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 9,
       "title": "Bayonne - Pau",
       "start": {
         "city": "Bayonne",
@@ -288,18 +276,19 @@
       "length": 115,
       "type": null,
       "winner": {
-        "name": "Theo Middelkamp Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-08",
       "year": 1938,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 10,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -316,18 +305,19 @@
       "length": 193,
       "type": null,
       "winner": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-09",
       "year": 1938,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -344,18 +334,19 @@
       "length": 260,
       "type": null,
       "winner": {
-        "name": "Jean Fréchaut Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-10a",
       "year": 1938,
-      "leg": 10,
+      "leg": "10a",
+      "leg_num": 12,
       "title": "Perpignan - Narbonne",
       "start": {
         "city": "Perpignan",
@@ -372,18 +363,19 @@
       "length": 63,
       "type": null,
       "winner": {
-        "name": "Antoon van Schendel Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-10b",
       "year": 1938,
-      "leg": 10,
+      "leg": "10b",
+      "leg_num": 13,
       "title": "Narbonne - Béziers",
       "start": {
         "city": "Narbonne",
@@ -398,20 +390,21 @@
         "lng": "3.215795"
       },
       "length": 27,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-10c",
       "year": 1938,
-      "leg": 10,
+      "leg": "10c",
+      "leg_num": 14,
       "title": "Béziers - Montpellier",
       "start": {
         "city": "Béziers",
@@ -428,18 +421,19 @@
       "length": 73,
       "type": null,
       "winner": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-11",
       "year": 1938,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 15,
       "title": "Montpellier - Marseille",
       "start": {
         "city": "Montpellier",
@@ -456,18 +450,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-12",
       "year": 1938,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 16,
       "title": "Marseille - Cannes",
       "start": {
         "city": "Marseille",
@@ -484,18 +479,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Jean Fréchaut Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-13",
       "year": 1938,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 17,
       "title": "Cannes - Digne-les-Bains",
       "start": {
         "city": "Cannes",
@@ -512,18 +508,19 @@
       "length": 284,
       "type": null,
       "winner": {
-        "name": "Dante Gianello Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-14",
       "year": 1938,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 18,
       "title": "Digne-les-Bains - Briançon",
       "start": {
         "city": "Digne-les-Bains",
@@ -540,18 +537,19 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-15",
       "year": 1938,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 19,
       "title": "Briançon - Aix-les-Bains",
       "start": {
         "city": "Briançon",
@@ -568,18 +566,19 @@
       "length": 311,
       "type": null,
       "winner": {
-        "name": "Marcel Kint Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-16",
       "year": 1938,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 20,
       "title": "Aix-les-Bains - Besançon",
       "start": {
         "city": "Aix-les-Bains",
@@ -596,18 +595,19 @@
       "length": 284,
       "type": null,
       "winner": {
-        "name": "Marcel Kint Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-17a",
       "year": 1938,
-      "leg": 17,
+      "leg": "17a",
+      "leg_num": 21,
       "title": "Besançon - Belfort",
       "start": {
         "city": "Besançon",
@@ -624,18 +624,19 @@
       "length": 89,
       "type": null,
       "winner": {
-        "name": "Émile Masson Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-17b",
       "year": 1938,
-      "leg": 17,
+      "leg": "17b",
+      "leg_num": 22,
       "title": "Belfort - Strasbourg",
       "start": {
         "city": "Belfort",
@@ -652,18 +653,19 @@
       "length": 143,
       "type": null,
       "winner": {
-        "name": "Jean Fréchaut Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-18",
       "year": 1938,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 23,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -680,18 +682,19 @@
       "length": 104,
       "type": null,
       "winner": {
-        "name": "Marcel Kint Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-19",
       "year": 1938,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 24,
       "title": "Metz - Reims",
       "start": {
         "city": "Metz",
@@ -708,18 +711,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Fabien Galateau Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-20a",
       "year": 1938,
-      "leg": 20,
+      "leg": "20a",
+      "leg_num": 25,
       "title": "Reims - Laon",
       "start": {
         "city": "Reims",
@@ -736,18 +740,48 @@
       "length": 48,
       "type": null,
       "winner": {
-        "name": "Glauco Servadei Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1938-20b",
+      "year": 1938,
+      "leg": "20b",
+      "leg_num": 26,
+      "title": "Laon - Saint-Quentin",
+      "start": {
+        "city": "Laon",
+        "country": "France",
+        "lat": "49.564133",
+        "lng": "3.61989"
+      },
+      "finish": {
+        "city": "Saint-Quentin",
+        "country": "France",
+        "lat": "49.847066",
+        "lng": "3.2874"
+      },
+      "length": 42,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-20c",
       "year": 1938,
-      "leg": 20,
+      "leg": "20c",
+      "leg_num": 27,
       "title": "Saint-Quentin - Lille",
       "start": {
         "city": "Saint-Quentin",
@@ -764,46 +798,48 @@
       "length": 107,
       "type": null,
       "winner": {
-        "name": "François Neuville Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
-      "id": "E-1938-20b",
+      "id": "E-1938-01",
       "year": 1938,
-      "leg": 20,
-      "title": "Laon - Saint-Quentin",
+      "leg": "1",
+      "leg_num": 28,
+      "title": "Paris - Caen",
       "start": {
-        "city": "Laon",
+        "city": "Paris",
         "country": "France",
-        "lat": "49.564133",
-        "lng": "3.61989"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
-        "city": "Saint-Quentin",
+        "city": "Caen",
         "country": "France",
-        "lat": "49.847066",
-        "lng": "3.2874"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
-      "length": 42,
-      "type": "CLM indiv",
+      "length": 215,
+      "type": null,
       "winner": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1938-21",
       "year": 1938,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 28,
       "title": "Lille - Paris",
       "start": {
         "city": "Lille",
@@ -820,11 +856,11 @@
       "length": 279,
       "type": null,
       "winner": {
-        "name": "Antonin Magne Drapeau de France France || André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       }
     }

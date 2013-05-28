@@ -3,51 +3,31 @@
   "edition": 73,
   "total_length": 4094,
   "nb_legs": 23,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 210,
   "nb_finishers": 132,
   "pct_finishers": 63,
-  "winner_name": "Greg LeMond",
-  "winner_time": "110h 35’ 19”",
+  "winner_first_name": "Greg",
+  "winner_last_name": "LeMond",
+  "winner_id": "greg-lemond",
+  "winner_total_time": "110h 35' 19\"",
+  "winner_age": "24",
+  "winner_country": "États-Unis",
+  "winner_avg_speed": "37,020",
   "ahead_of_2nd": "0h 03' 10\" ",
   "second_name": "B. Hinault",
   "second_country": "France",
+  "second_id": "bernard-hinault",
   "ahead_of_3rd": "0h 10' 54\"",
   "third_name": "U. Zimmermann",
-  "third_country": "U. Zimmermann",
+  "third_country": "Suisse",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1986-Prologue",
-      "year": 1986,
-      "leg": 0,
-      "title": "Boulogne-Billancourt - Boulogne-Billancourt",
-      "start": {
-        "city": "Boulogne-Billancourt",
-        "country": "France",
-        "lat": "48.84325",
-        "lng": "2.237803"
-      },
-      "finish": {
-        "city": "Boulogne-Billancourt",
-        "country": "France",
-        "lat": "48.84325",
-        "lng": "2.237803"
-      },
-      "length": 4,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1986-01",
       "year": 1986,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Nanterre - Sceaux",
       "start": {
         "city": "Nanterre",
@@ -64,18 +44,19 @@
       "length": 85,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Pol Verschuere (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Canada Alex Stieda (CAN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-02",
       "year": 1986,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Meudon - Saint-Quentin-en-Yvelines",
       "start": {
         "city": "Meudon",
@@ -90,20 +71,21 @@
         "lng": "2.0192"
       },
       "length": 56,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Système U (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-03",
       "year": 1986,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Levallois-Perret - Liévin",
       "start": {
         "city": "Levallois-Perret",
@@ -120,18 +102,19 @@
       "length": 214,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Davis Phinney (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Thierry Marie (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-04",
       "year": 1986,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Liévin - Évreux",
       "start": {
         "city": "Liévin",
@@ -148,18 +131,19 @@
       "length": 243,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Pello Ruiz Cabestany (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Dominique Gaigne (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-05",
       "year": 1986,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Évreux - Villers-sur-Mer",
       "start": {
         "city": "Évreux",
@@ -176,18 +160,19 @@
       "length": 124,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Johan van der Velde (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Johan van der Velde (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-06",
       "year": 1986,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Villers-sur-Mer - Cherbourg",
       "start": {
         "city": "Villers-sur-Mer",
@@ -204,18 +189,19 @@
       "length": 200,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Guido Bontempi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Johan van der Velde (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-07",
       "year": 1986,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Cherbourg - Saint-Hilaire-du-Harcouët",
       "start": {
         "city": "Cherbourg",
@@ -232,18 +218,19 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Ludo Peeters (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Jørgen Vagn Pedersen (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-08",
       "year": 1986,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Saint-Hilaire-du-Harcouët - Nantes",
       "start": {
         "city": "Saint-Hilaire-du-Harcouët",
@@ -260,18 +247,19 @@
       "length": 204,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Planckaert (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Jørgen Vagn Pedersen (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-09",
       "year": 1986,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Nantes - Nantes",
       "start": {
         "city": "Nantes",
@@ -286,20 +274,21 @@
         "lng": "-1.553621"
       },
       "length": 61,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Jørgen Vagn Pedersen (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-10",
       "year": 1986,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Nantes - Futuroscope",
       "start": {
         "city": "Nantes",
@@ -316,18 +305,19 @@
       "length": 183,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Jose-Angel Sarrapio (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Jørgen Vagn Pedersen (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-11",
       "year": 1986,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Poitiers - Bordeaux",
       "start": {
         "city": "Poitiers",
@@ -344,18 +334,19 @@
       "length": 258,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Rudy Dhaenens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Danemark Jørgen Vagn Pedersen (DEN)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-12",
       "year": 1986,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Bayonne - Pau",
       "start": {
         "city": "Bayonne",
@@ -372,18 +363,19 @@
       "length": 217,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-13",
       "year": 1986,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Pau - Superbagnères",
       "start": {
         "city": "Pau",
@@ -400,18 +392,19 @@
       "length": 186,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-14",
       "year": 1986,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Luchon - Blagnac",
       "start": {
         "city": "Luchon",
@@ -428,18 +421,19 @@
       "length": 154,
       "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Niki Rüttimann (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-15",
       "year": 1986,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Carcassonne - Nîmes",
       "start": {
         "city": "Carcassonne",
@@ -456,18 +450,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Frank Hoste (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-16",
       "year": 1986,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Nîmes - Gap",
       "start": {
         "city": "Nîmes",
@@ -484,18 +479,19 @@
       "length": 246,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-François Bernard (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-17",
       "year": 1986,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Gap - Col de Granon",
       "start": {
         "city": "Gap",
@@ -512,18 +508,19 @@
       "length": 179,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Eduardo Chozas (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-18",
       "year": 1986,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Briançon - L'Alpe-d'Huez",
       "start": {
         "city": "Briançon",
@@ -540,18 +537,19 @@
       "length": 162,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-19",
       "year": 1986,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Villard-de-Lans - Saint-Étienne",
       "start": {
         "city": "Villard-de-Lans",
@@ -568,18 +566,19 @@
       "length": 179,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Julián Gorospe (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-20",
       "year": 1986,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Saint-Étienne - Saint-Étienne",
       "start": {
         "city": "Saint-Étienne",
@@ -594,20 +593,21 @@
         "lng": "4.387178"
       },
       "length": 58,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-21",
       "year": 1986,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Saint-Étienne - Puy de Dôme",
       "start": {
         "city": "Saint-Étienne",
@@ -624,18 +624,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-22",
       "year": 1986,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Clermont-Ferrand - Nevers",
       "start": {
         "city": "Clermont-Ferrand",
@@ -652,18 +653,19 @@
       "length": 194,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Guido Bontempi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1986-23",
       "year": 1986,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 23,
       "title": "Cosne-sur-Loire - Paris",
       "start": {
         "city": "Cosne-sur-Loire",
@@ -680,11 +682,40 @@
       "length": 255,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Guido Bontempi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1986-Prologue",
+      "year": 1986,
+      "leg": "Prologue",
+      "leg_num": 26,
+      "title": "Boulogne-Billancourt - Boulogne-Billancourt",
+      "start": {
+        "city": "Boulogne-Billancourt",
+        "country": "France",
+        "lat": "48.84325",
+        "lng": "2.237803"
+      },
+      "finish": {
+        "city": "Boulogne-Billancourt",
+        "country": "France",
+        "lat": "48.84325",
+        "lng": "2.237803"
+      },
+      "length": 4,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

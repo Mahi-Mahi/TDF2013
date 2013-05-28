@@ -7,47 +7,27 @@
   "nb_concurrents": 139,
   "nb_finishers": 48,
   "pct_finishers": 35,
-  "winner_name": "Henri Pélissier",
-  "winner_time": "222h 15’ 30”",
+  "winner_first_name": "Henri",
+  "winner_last_name": "Pélissier",
+  "winner_id": "henri-pelissier",
+  "winner_total_time": "222h 15' 30\"",
+  "winner_age": "34",
+  "winner_country": "France",
+  "winner_avg_speed": "24,233",
   "ahead_of_2nd": "0h 30' 41\" ",
   "second_name": "O. Bottecchia",
   "second_country": "Italie",
+  "second_id": "ottavio-bottecchia",
   "ahead_of_3rd": "1h 04' 43\"",
   "third_name": "R. Bellenger",
-  "third_country": "R. Bellenger",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1923-01",
-      "year": 1923,
-      "leg": 1,
-      "title": "Paris - Le Havre",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
-      },
-      "length": 381,
-      "type": null,
-      "winner": {
-        "name": "Robert Jacquinot Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Robert Jacquinot Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1923-02",
       "year": 1923,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Le Havre - Cherbourg",
       "start": {
         "city": "Le Havre",
@@ -64,18 +44,19 @@
       "length": 371,
       "type": null,
       "winner": {
-        "name": "Ottavio Bottecchia Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-03",
       "year": 1923,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Cherbourg - Brest",
       "start": {
         "city": "Cherbourg",
@@ -92,18 +73,19 @@
       "length": 405,
       "type": null,
       "winner": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-04",
       "year": 1923,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Brest - Les Sables-d'Olonne",
       "start": {
         "city": "Brest",
@@ -120,18 +102,19 @@
       "length": 412,
       "type": null,
       "winner": {
-        "name": "Albert Dejonghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Romain Bellenger Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-05",
       "year": 1923,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Les Sables-d'Olonne - Bayonne",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -148,18 +131,19 @@
       "length": 482,
       "type": null,
       "winner": {
-        "name": "Robert Jacquinot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Romain Bellenger Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-06",
       "year": 1923,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
@@ -176,18 +160,19 @@
       "length": 326,
       "type": null,
       "winner": {
-        "name": "Jean Alavoine Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-07",
       "year": 1923,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -204,18 +189,19 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "Jean Alavoine Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-08",
       "year": 1923,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Perpignan - Toulon",
       "start": {
         "city": "Perpignan",
@@ -232,18 +218,19 @@
       "length": 427,
       "type": null,
       "winner": {
-        "name": "Lucien Buysse Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-09",
       "year": 1923,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Toulon - Nice",
       "start": {
         "city": "Toulon",
@@ -260,18 +247,19 @@
       "length": 281,
       "type": null,
       "winner": {
-        "name": "Jean Alavoine Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ottavio Bottecchia Flag of Italy (1861-1946) crowned.svgItalie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-10",
       "year": 1923,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Nice - Briançon",
       "start": {
         "city": "Nice",
@@ -288,18 +276,19 @@
       "length": 275,
       "type": null,
       "winner": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-11",
       "year": 1923,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Briançon - Genève",
       "start": {
         "city": "Briançon",
@@ -316,18 +305,19 @@
       "length": 260,
       "type": null,
       "winner": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-12",
       "year": 1923,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Genève - Strasbourg",
       "start": {
         "city": "Genève",
@@ -344,18 +334,19 @@
       "length": 377,
       "type": null,
       "winner": {
-        "name": "Joseph Muller Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-13",
       "year": 1923,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -372,18 +363,19 @@
       "length": 300,
       "type": null,
       "winner": {
-        "name": "Romain Bellenger Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-14",
       "year": 1923,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Metz - Dunkerque",
       "start": {
         "city": "Metz",
@@ -400,18 +392,19 @@
       "length": 433,
       "type": null,
       "winner": {
-        "name": "Félix Goethals Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1923-15",
       "year": 1923,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Dunkerque - Paris",
       "start": {
         "city": "Dunkerque",
@@ -428,11 +421,40 @@
       "length": 343,
       "type": null,
       "winner": {
-        "name": "Félix Goethals Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Henri Pélissier Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1923-01",
+      "year": 1923,
+      "leg": "1",
+      "leg_num": 15,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 381,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

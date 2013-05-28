@@ -3,51 +3,31 @@
   "edition": 79,
   "total_length": 3983,
   "nb_legs": 21,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 198,
   "nb_finishers": 130,
   "pct_finishers": 66,
-  "winner_name": "Miguel Indurain",
-  "winner_time": "100h 49’ 30”",
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "100h 49' 30\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "39,504",
   "ahead_of_2nd": "0h 04' 35\" ",
   "second_name": "C. Chiappucci",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 10' 49\"",
   "third_name": "G. Bugno",
-  "third_country": "G. Bugno",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1992-Prologue",
-      "year": 1992,
-      "leg": 0,
-      "title": "Saint-Sébastien",
-      "start": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
-      },
-      "finish": {
-        "city": "Saint-Sébastien",
-        "country": "Espagne",
-        "lat": "43.321662",
-        "lng": "-1.984993"
-      },
-      "length": 8,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1992-01",
       "year": 1992,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Saint-Sébastien - Saint-Sébastien  ",
       "start": {
         "city": "Saint-Sébastien",
@@ -62,20 +42,21 @@
         "lng": "-1.984993"
       },
       "length": 194,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceDominique Arnould",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : SuisseAlex Zülle",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-02",
       "year": 1992,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Saint-Sébastien - Pau  ",
       "start": {
         "city": "Saint-Sébastien",
@@ -90,20 +71,21 @@
         "lng": "-0.370797"
       },
       "length": 255,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneJavier Murguialday",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-03",
       "year": 1992,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -120,18 +102,19 @@
       "length": 218,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasRob Harmeling",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-04",
       "year": 1992,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Libourne - Libourne",
       "start": {
         "city": "Libourne",
@@ -146,20 +129,21 @@
         "lng": "-0.243985"
       },
       "length": 63,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasPanasonic",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-05",
       "year": 1992,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Nogent-sur-Oise - Wasquehal",
       "start": {
         "city": "Nogent-sur-Oise",
@@ -176,18 +160,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieGuido Bontempi",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-06",
       "year": 1992,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Roubaix - Bruxelles",
       "start": {
         "city": "Roubaix",
@@ -204,18 +189,19 @@
       "length": 167,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLaurent Jalabert",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-07",
       "year": 1992,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Bruxelles - Valkenburg",
       "start": {
         "city": "Bruxelles",
@@ -232,18 +218,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGilles Delion",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-08",
       "year": 1992,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Valkenburg - Coblence",
       "start": {
         "city": "Valkenburg",
@@ -260,18 +247,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueJan Nevens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-09",
       "year": 1992,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Luxembourg - Luxembourg",
       "start": {
         "city": "Luxembourg",
@@ -286,20 +274,21 @@
         "lng": "6.13193"
       },
       "length": 65,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-10",
       "year": 1992,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Luxembourg - Strasbourg",
       "start": {
         "city": "Luxembourg",
@@ -316,18 +305,19 @@
       "length": 217,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJean-Paul van Poppel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-11",
       "year": 1992,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Strasbourg - Mulhouse  ",
       "start": {
         "city": "Strasbourg",
@@ -342,20 +332,21 @@
         "lng": "7.335888"
       },
       "length": 249,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceLaurent Fignon",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-12",
       "year": 1992,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Dole - Saint-Gervais-Mont Blanc  ",
       "start": {
         "city": "Dole",
@@ -370,20 +361,21 @@
         "lng": "6.712187"
       },
       "length": 267,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : SuisseRolf Jaermann",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FrancePascal Lino",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-13",
       "year": 1992,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Saint-Gervais - Sestrières  ",
       "start": {
         "city": "Saint-Gervais",
@@ -398,20 +390,21 @@
         "lng": "6.879234"
       },
       "length": 254,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieClaudio Chiappucci",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-14",
       "year": 1992,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Sestrières - Alpe d'Huez  ",
       "start": {
         "city": "Sestrières",
@@ -426,20 +419,21 @@
         "lng": "6.068348"
       },
       "length": 186,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisAndrew Hampsten",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-15",
       "year": 1992,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Le Bourg-d'Oisans - Saint-Étienne  ",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -454,20 +448,21 @@
         "lng": "4.387178"
       },
       "length": 198,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieFranco Chioccioli",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-16",
       "year": 1992,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Saint-Étienne - La Bourboule  ",
       "start": {
         "city": "Saint-Étienne",
@@ -482,20 +477,21 @@
         "lng": "2.738992"
       },
       "length": 212,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : IrlandeStephen Roche",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-17",
       "year": 1992,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "La Bourboule - Montluçon",
       "start": {
         "city": "La Bourboule",
@@ -512,18 +508,19 @@
       "length": 189,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean-Claude Colotti",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-18",
       "year": 1992,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Montluçon - Tours",
       "start": {
         "city": "Montluçon",
@@ -540,18 +537,19 @@
       "length": 212,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceThierry Marie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-19",
       "year": 1992,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Tours - Blois",
       "start": {
         "city": "Tours",
@@ -566,20 +564,21 @@
         "lng": "1.336272"
       },
       "length": 64,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-20",
       "year": 1992,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Blois - Nanterre",
       "start": {
         "city": "Blois",
@@ -596,18 +595,48 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiquePeter De Clercq",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1992-Prologue",
+      "year": 1992,
+      "leg": "Prologue",
+      "leg_num": 21,
+      "title": "Saint-Sébastien",
+      "start": {
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
+      },
+      "finish": {
+        "city": "Saint-Sébastien",
+        "country": "Espagne",
+        "lat": "43.321662",
+        "lng": "-1.984993"
+      },
+      "length": 8,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1992-21",
       "year": 1992,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "La Défense - Paris",
       "start": {
         "city": "La Défense",
@@ -624,11 +653,11 @@
       "length": 175,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneOlaf Ludwig",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : EspagneMiguel Indurain",
+        "name": null,
         "nationality": null
       }
     }

@@ -7,48 +7,28 @@
   "nb_concurrents": 110,
   "nb_finishers": 69,
   "pct_finishers": 63,
-  "winner_name": "Louison Bobet",
-  "winner_time": "140h 06’ 05”",
+  "winner_first_name": "Louison",
+  "winner_last_name": "Bobet",
+  "winner_id": "louison-bobet",
+  "winner_total_time": "140h 06' 05\"",
+  "winner_age": "29",
+  "winner_country": "France",
+  "winner_avg_speed": "33,229",
   "ahead_of_2nd": "0h 15' 49\" ",
-  "second_name": "F. Kubler",
+  "second_name": "F. Kübler",
   "second_country": "Suisse",
+  "second_id": "ferdi-kubler",
   "ahead_of_3rd": "0h 21' 46\"",
   "third_name": "F. Schaer",
-  "third_country": "F. Schaer",
+  "third_country": "Suisse",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1954-01",
-      "year": 1954,
-      "leg": 1,
-      "title": "Amsterdam (NL) - Brasschaat (BEL)",
-      "start": {
-        "city": "Amsterdam",
-        "country": "Pays-Bas",
-        "lat": "52.370216",
-        "lng": "4.895168"
-      },
-      "finish": {
-        "city": "Brasschaat",
-        "country": "Belgique",
-        "lat": "51.283333",
-        "lng": "4.483333"
-      },
-      "length": 216,
-      "type": null,
-      "winner": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1954-02",
       "year": 1954,
-      "leg": 2,
-      "title": "Beveren (BEL) - Lille",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Beveren (Bel.) - Lille",
       "start": {
         "city": "Beveren",
         "country": "Belgique",
@@ -64,18 +44,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-03",
       "year": 1954,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Lille - Rouen",
       "start": {
         "city": "Lille",
@@ -92,18 +73,48 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Marcel Dussault Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1954-4a",
+      "year": 1954,
+      "leg": "4a",
+      "leg_num": 3,
+      "title": "Circuit de Rouen-les-Essarts",
+      "start": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "finish": {
+        "city": "Rouen",
+        "country": "France",
+        "lat": "49.443232",
+        "lng": "1.099971"
+      },
+      "length": 10,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-4b",
       "year": 1954,
-      "leg": 4,
+      "leg": "4b",
+      "leg_num": 4,
       "title": "Rouen - Caen",
       "start": {
         "city": "Rouen",
@@ -120,46 +131,19 @@
       "length": 131,
       "type": null,
       "winner": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1954-4a",
-      "year": 1954,
-      "leg": 4,
-      "title": "Circuit de Rouen-les-Essarts",
-      "start": {
-        "city": "Rouen",
-        "country": "France",
-        "lat": "49.443232",
-        "lng": "1.099971"
-      },
-      "finish": {
-        "city": "Rouen",
-        "country": "France",
-        "lat": "49.443232",
-        "lng": "1.099971"
-      },
-      "length": 10,
-      "type": " (CLM par équipes)",
-      "winner": {
-        "name": "Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-05",
       "year": 1954,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Caen - Saint-Brieuc",
       "start": {
         "city": "Caen",
@@ -176,18 +160,19 @@
       "length": 224,
       "type": null,
       "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-06",
       "year": 1954,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Saint-Brieuc - Brest",
       "start": {
         "city": "Saint-Brieuc",
@@ -204,18 +189,19 @@
       "length": 179,
       "type": null,
       "winner": {
-        "name": "Dominique Forlini Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-07",
       "year": 1954,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Brest - Vannes",
       "start": {
         "city": "Brest",
@@ -232,18 +218,19 @@
       "length": 211,
       "type": null,
       "winner": {
-        "name": "Jacques Vivier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-08",
       "year": 1954,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Vannes - Angers",
       "start": {
         "city": "Vannes",
@@ -260,18 +247,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Alfred De Bruyne Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-09",
       "year": 1954,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Angers - Bordeaux",
       "start": {
         "city": "Angers",
@@ -288,18 +276,19 @@
       "length": 343,
       "type": null,
       "winner": {
-        "name": "Henk Faanhof Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-10",
       "year": 1954,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Bordeaux - Bayonne",
       "start": {
         "city": "Bordeaux",
@@ -316,18 +305,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Gilbert Bauvin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-11",
       "year": 1954,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Bayonne - Pau",
       "start": {
         "city": "Bayonne",
@@ -344,18 +334,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Stan Ockers Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-12",
       "year": 1954,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -372,18 +363,19 @@
       "length": 161,
       "type": null,
       "winner": {
-        "name": "Gilbert Bauvin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Bauvin Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-13",
       "year": 1954,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Luchon - Toulouse",
       "start": {
         "city": "Luchon",
@@ -400,18 +392,19 @@
       "length": 203,
       "type": null,
       "winner": {
-        "name": "Alfred De Bruyne Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Bauvin Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-14",
       "year": 1954,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Toulouse - Millau",
       "start": {
         "city": "Toulouse",
@@ -428,18 +421,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-15",
       "year": 1954,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Millau - Le Puy-en-Velay",
       "start": {
         "city": "Millau",
@@ -456,18 +450,19 @@
       "length": 197,
       "type": null,
       "winner": {
-        "name": "Dominique Forlini Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-16",
       "year": 1954,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Le Puy-en-Velay - Lyon",
       "start": {
         "city": "Le Puy-en-Velay",
@@ -484,18 +479,19 @@
       "length": 194,
       "type": null,
       "winner": {
-        "name": "Jean Forestier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-17",
       "year": 1954,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Lyon - Grenoble",
       "start": {
         "city": "Lyon",
@@ -512,18 +508,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Lucien Lazaridès Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-18",
       "year": 1954,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Grenoble - Briançon",
       "start": {
         "city": "Grenoble",
@@ -540,18 +537,19 @@
       "length": 216,
       "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-19",
       "year": 1954,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Briançon - Aix-les-Bains",
       "start": {
         "city": "Briançon",
@@ -568,18 +566,19 @@
       "length": 221,
       "type": null,
       "winner": {
-        "name": "Jean Dotto Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-20",
       "year": 1954,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Aix-les-Bains - Besançon",
       "start": {
         "city": "Aix-les-Bains",
@@ -596,18 +595,19 @@
       "length": 243,
       "type": null,
       "winner": {
-        "name": "Lucien Teisseire Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-21a",
       "year": 1954,
-      "leg": 21,
+      "leg": "21a",
+      "leg_num": 21,
       "title": "Besançon - Épinal",
       "start": {
         "city": "Besançon",
@@ -624,18 +624,19 @@
       "length": 134,
       "type": null,
       "winner": {
-        "name": "François Mahé Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-21b",
       "year": 1954,
-      "leg": 21,
+      "leg": "21b",
+      "leg_num": 22,
       "title": "Épinal - Nancy",
       "start": {
         "city": "Épinal",
@@ -650,20 +651,50 @@
         "lng": "6.184417"
       },
       "length": 72,
-      "type": " (CLM)",
+      "type": null,
       "winner": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1954-01",
+      "year": 1954,
+      "leg": "1",
+      "leg_num": 23,
+      "title": "Amsterdam (P.-B.) - Brasschaat (Bel.)",
+      "start": {
+        "city": "Amsterdam",
+        "country": "Pays-Bas",
+        "lat": "52.370216",
+        "lng": "4.895168"
+      },
+      "finish": {
+        "city": "Brasschaat",
+        "country": "Belgique",
+        "lat": "51.283333",
+        "lng": "4.483333"
+      },
+      "length": 216,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-22",
       "year": 1954,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 23,
       "title": "Nancy - Troyes",
       "start": {
         "city": "Nancy",
@@ -680,18 +711,19 @@
       "length": 216,
       "type": null,
       "winner": {
-        "name": "Alfred De Bruyne Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1954-23",
       "year": 1954,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 24,
       "title": "Troyes - Paris",
       "start": {
         "city": "Troyes",
@@ -708,11 +740,11 @@
       "length": 188,
       "type": null,
       "winner": {
-        "name": "Robert Varnajo Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Louison Bobet Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     }

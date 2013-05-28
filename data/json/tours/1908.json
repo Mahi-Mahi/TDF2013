@@ -7,48 +7,28 @@
   "nb_concurrents": 110,
   "nb_finishers": 36,
   "pct_finishers": 33,
-  "winner_name": "Lucien Petit-Breton",
-  "winner_time": "156h 53’ 29”",
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Petit-Breton",
+  "winner_id": "lucien-petit-breton",
+  "winner_total_time": "156h 53' 29\"",
+  "winner_age": "25",
+  "winner_country": "France",
+  "winner_avg_speed": "28,740",
   "ahead_of_2nd": "n.a.",
   "second_name": "F. Faber",
   "second_country": "Luxembourg",
+  "second_id": "francois-faber",
   "ahead_of_3rd": "n.a.",
   "third_name": "G. Passerieu",
-  "third_country": "G. Passerieu",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1908-01",
-      "year": 1908,
-      "leg": 1,
-      "title": "Paris – Roubaix",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Roubaix",
-        "country": "France",
-        "lat": "50.692705",
-        "lng": "3.177847"
-      },
-      "length": 272,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceGeorges Passerieu",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : FranceGeorges Passerieu",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1908-02",
       "year": 1908,
-      "leg": 2,
-      "title": "Roubaix – Metz",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Roubaix - Metz",
       "start": {
         "city": "Roubaix",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 398,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceGeorges Passerieu || Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-03",
       "year": 1908,
-      "leg": 3,
-      "title": "Metz – Belfort",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Metz - Belfort",
       "start": {
         "city": "Metz",
         "country": "Empire Allemand",
@@ -92,19 +73,20 @@
       "length": 259,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-04",
       "year": 1908,
-      "leg": 4,
-      "title": "Belfort – Lyon",
+      "leg": "4",
+      "leg_num": 3,
+      "title": "Belfort - Lyon",
       "start": {
         "city": "Belfort",
         "country": "France",
@@ -120,19 +102,20 @@
       "length": 309,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-05",
       "year": 1908,
-      "leg": 5,
-      "title": "Lyon – Grenoble",
+      "leg": "5",
+      "leg_num": 4,
+      "title": "Lyon - Grenoble",
       "start": {
         "city": "Lyon",
         "country": "France",
@@ -148,19 +131,20 @@
       "length": 311,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGeorges Passerieu",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-06",
       "year": 1908,
-      "leg": 6,
-      "title": "Grenoble – Nice",
+      "leg": "6",
+      "leg_num": 5,
+      "title": "Grenoble - Nice",
       "start": {
         "city": "Grenoble",
         "country": "France",
@@ -176,19 +160,20 @@
       "length": 345,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJean-Baptiste Dortignacq",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-07",
       "year": 1908,
-      "leg": 7,
-      "title": "Nice – Nîmes",
+      "leg": "7",
+      "leg_num": 6,
+      "title": "Nice - Nîmes",
       "start": {
         "city": "Nice",
         "country": "France",
@@ -204,19 +189,20 @@
       "length": 345,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-08",
       "year": 1908,
-      "leg": 8,
-      "title": "Nîmes – Toulouse",
+      "leg": "8",
+      "leg_num": 7,
+      "title": "Nîmes - Toulouse",
       "start": {
         "city": "Nîmes",
         "country": "France",
@@ -232,19 +218,20 @@
       "length": 303,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-09",
       "year": 1908,
-      "leg": 9,
-      "title": "Toulouse – Bayonne",
+      "leg": "9",
+      "leg_num": 8,
+      "title": "Toulouse - Bayonne",
       "start": {
         "city": "Toulouse",
         "country": "France",
@@ -260,19 +247,20 @@
       "length": 299,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-10",
       "year": 1908,
-      "leg": 10,
-      "title": "Bayonne – Bordeaux",
+      "leg": "10",
+      "leg_num": 9,
+      "title": "Bayonne - Bordeaux",
       "start": {
         "city": "Bayonne",
         "country": "France",
@@ -288,19 +276,20 @@
       "length": 269,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGeorges Paulmier",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-11",
       "year": 1908,
-      "leg": 11,
-      "title": "Bordeaux – Nantes",
+      "leg": "11",
+      "leg_num": 10,
+      "title": "Bordeaux - Nantes",
       "start": {
         "city": "Bordeaux",
         "country": "France",
@@ -316,19 +305,20 @@
       "length": 391,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-12",
       "year": 1908,
-      "leg": 12,
-      "title": "Nantes – Brest",
+      "leg": "12",
+      "leg_num": 11,
+      "title": "Nantes - Brest",
       "start": {
         "city": "Nantes",
         "country": "France",
@@ -344,19 +334,20 @@
       "length": 321,
       "type": null,
       "winner": {
-        "name": "Drapeau : LuxembourgFrançois Faber",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-13",
       "year": 1908,
-      "leg": 13,
-      "title": "Brest – Caen",
+      "leg": "13",
+      "leg_num": 12,
+      "title": "Brest - Caen",
       "start": {
         "city": "Brest",
         "country": "France",
@@ -372,19 +363,20 @@
       "length": 415,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceGeorges Passerieu",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1908-14",
       "year": 1908,
-      "leg": 14,
-      "title": "Caen – Paris",
+      "leg": "14",
+      "leg_num": 13,
+      "title": "Caen - Paris",
       "start": {
         "city": "Caen",
         "country": "France",
@@ -400,11 +392,40 @@
       "length": 251,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLucien Petit-Breton",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1908-01",
+      "year": 1908,
+      "leg": "1",
+      "leg_num": 14,
+      "title": "Paris - Roubaix",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Roubaix",
+        "country": "France",
+        "lat": "50.692705",
+        "lng": "3.177847"
+      },
+      "length": 272,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -7,47 +7,27 @@
   "nb_concurrents": 80,
   "nb_finishers": 40,
   "pct_finishers": 50,
-  "winner_name": "Georges Speicher",
-  "winner_time": "147h 51’ 37”",
+  "winner_first_name": "Georges",
+  "winner_last_name": "Speicher",
+  "winner_id": "georges-speicher",
+  "winner_total_time": "147h 51' 37\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "29,818",
   "ahead_of_2nd": "0h 04' 01\" ",
   "second_name": "L. Guerra",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 05' 01\"",
   "third_name": "G. Martano",
-  "third_country": "G. Martano",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1933-01",
-      "year": 1933,
-      "leg": 1,
-      "title": "Paris - Lille",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Lille",
-        "country": "France",
-        "lat": "50.62925",
-        "lng": "3.057256"
-      },
-      "length": 262,
-      "type": null,
-      "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1933-02",
       "year": 1933,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Lille - Charleville-Mézières",
       "start": {
         "city": "Lille",
@@ -64,18 +44,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-03",
       "year": 1933,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Charleville-Mézières - Metz",
       "start": {
         "city": "Charleville-Mézières",
@@ -92,18 +73,19 @@
       "length": 166,
       "type": null,
       "winner": {
-        "name": "Alfons Schepers Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-04",
       "year": 1933,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Metz - Belfort",
       "start": {
         "city": "Metz",
@@ -120,18 +102,19 @@
       "length": 220,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-05",
       "year": 1933,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Belfort - Évian-les-Bains",
       "start": {
         "city": "Belfort",
@@ -148,18 +131,19 @@
       "length": 293,
       "type": null,
       "winner": {
-        "name": "Léon Louyet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-06",
       "year": 1933,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Évian-les-Bains - Aix-les-Bains",
       "start": {
         "city": "Évian-les-Bains",
@@ -176,18 +160,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Antonin Magne Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-07",
       "year": 1933,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Aix-les-Bains - Grenoble",
       "start": {
         "city": "Aix-les-Bains",
@@ -204,18 +189,19 @@
       "length": 229,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-08",
       "year": 1933,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Grenoble - Gap",
       "start": {
         "city": "Grenoble",
@@ -232,18 +218,19 @@
       "length": 102,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-09",
       "year": 1933,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Gap - Digne-les-Bains",
       "start": {
         "city": "Gap",
@@ -260,18 +247,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Lemaire Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-10",
       "year": 1933,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Digne-les-Bains - Nice",
       "start": {
         "city": "Digne-les-Bains",
@@ -288,18 +276,19 @@
       "length": 156,
       "type": null,
       "winner": {
-        "name": "Fernand Cornez Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Lemaire Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-11",
       "year": 1933,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Nice - Cannes",
       "start": {
         "city": "Nice",
@@ -316,18 +305,19 @@
       "length": 128,
       "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-12",
       "year": 1933,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Cannes - Marseille",
       "start": {
         "city": "Cannes",
@@ -344,18 +334,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-13",
       "year": 1933,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Marseille - Montpellier",
       "start": {
         "city": "Marseille",
@@ -372,18 +363,19 @@
       "length": 168,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-14",
       "year": 1933,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Montpellier - Perpignan",
       "start": {
         "city": "Montpellier",
@@ -400,18 +392,19 @@
       "length": 177,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-15",
       "year": 1933,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Perpignan - Ax-les-Thermes",
       "start": {
         "city": "Perpignan",
@@ -428,18 +421,19 @@
       "length": 158,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-16",
       "year": 1933,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Ax-les-Thermes - Luchon",
       "start": {
         "city": "Ax-les-Thermes",
@@ -456,18 +450,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Léon Louyet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-17",
       "year": 1933,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Luchon - Tarbes",
       "start": {
         "city": "Luchon",
@@ -484,18 +479,19 @@
       "length": 91,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-18",
       "year": 1933,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Tarbes - Pau",
       "start": {
         "city": "Tarbes",
@@ -512,18 +508,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-19",
       "year": 1933,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -540,18 +537,19 @@
       "length": 233,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-20",
       "year": 1933,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Bordeaux - La Rochelle",
       "start": {
         "city": "Bordeaux",
@@ -568,18 +566,19 @@
       "length": 183,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-21",
       "year": 1933,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "La Rochelle - Rennes",
       "start": {
         "city": "La Rochelle",
@@ -596,18 +595,19 @@
       "length": 266,
       "type": null,
       "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-22",
       "year": 1933,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 21,
       "title": "Rennes - Caen",
       "start": {
         "city": "Rennes",
@@ -624,18 +624,19 @@
       "length": 169,
       "type": null,
       "winner": {
-        "name": "René Le Grevès Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1933-23",
       "year": 1933,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 22,
       "title": "Caen - Paris",
       "start": {
         "city": "Caen",
@@ -652,11 +653,40 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Learco Guerra Drapeau : ItalieItalie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Georges Speicher Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1933-01",
+      "year": 1933,
+      "leg": "1",
+      "leg_num": 24,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 262,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

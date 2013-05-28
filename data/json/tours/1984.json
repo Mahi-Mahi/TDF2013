@@ -3,51 +3,31 @@
   "edition": 71,
   "total_length": 4021,
   "nb_legs": 23,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 170,
   "nb_finishers": 124,
   "pct_finishers": 73,
-  "winner_name": "Laurent Fignon",
-  "winner_time": "112h 03’ 40”",
+  "winner_first_name": "Laurent",
+  "winner_last_name": "Fignon",
+  "winner_id": "laurent-fignon",
+  "winner_total_time": "112h 03' 40\"",
+  "winner_age": "23",
+  "winner_country": "France",
+  "winner_avg_speed": "35,882",
   "ahead_of_2nd": "0h 10' 32\" ",
   "second_name": "B. Hinault",
   "second_country": "France",
+  "second_id": "bernard-hinault",
   "ahead_of_3rd": "0h 11' 46\"",
   "third_name": "G. Lemond",
-  "third_country": "G. Lemond",
+  "third_country": "États-Unis",
+  "third_id": "greg-lemond",
   "legs": [
-    {
-      "id": "E-1984-Prologue",
-      "year": 1984,
-      "leg": 0,
-      "title": "Montreuil - Noisy-le-Sec",
-      "start": {
-        "city": "Montreuil",
-        "country": "France",
-        "lat": "48.863812",
-        "lng": "2.448451"
-      },
-      "finish": {
-        "city": "Noisy-le-Sec",
-        "country": "France",
-        "lat": "48.892489",
-        "lng": "2.458625"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Bernard Hinault Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1984-01",
       "year": 1984,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Bondy - Saint-Denis",
       "start": {
         "city": "Bondy",
@@ -64,18 +44,19 @@
       "length": 148,
       "type": null,
       "winner": {
-        "name": "Frank Hoste Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Ludo Peeters Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-02",
       "year": 1984,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Bobigny - Louvroil",
       "start": {
         "city": "Bobigny",
@@ -92,18 +73,19 @@
       "length": 249,
       "type": null,
       "winner": {
-        "name": "Marc Madiot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Hanegraaf Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-03",
       "year": 1984,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Louvroil - Valenciennes",
       "start": {
         "city": "Louvroil",
@@ -118,20 +100,21 @@
         "lng": "3.518332"
       },
       "length": 51,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Renault-Elf Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Hanegraaf Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-04",
       "year": 1984,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Valenciennes - Béthune",
       "start": {
         "city": "Valenciennes",
@@ -148,18 +131,19 @@
       "length": 83,
       "type": null,
       "winner": {
-        "name": "Ferdi Van Den Haute Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Adrie van der Poel Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-05",
       "year": 1984,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Béthune - Cergy-Pontoise",
       "start": {
         "city": "Béthune",
@@ -176,18 +160,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Paulo Ferreira Portugal Portugal",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-06",
       "year": 1984,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Cergy-Pontoise - Alençon",
       "start": {
         "city": "Cergy-Pontoise",
@@ -204,18 +189,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Frank Hoste Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-07",
       "year": 1984,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Alençon - Le Mans",
       "start": {
         "city": "Alençon",
@@ -230,20 +216,21 @@
         "lng": "0.199556"
       },
       "length": 67,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-08",
       "year": 1984,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Le Mans - Nantes",
       "start": {
         "city": "Le Mans",
@@ -260,18 +247,19 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Pascal Jules Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-09",
       "year": 1984,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Nantes - Bordeaux",
       "start": {
         "city": "Nantes",
@@ -288,18 +276,19 @@
       "length": 338,
       "type": null,
       "winner": {
-        "name": "Jan Raas Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-10",
       "year": 1984,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Langon - Pau",
       "start": {
         "city": "Langon",
@@ -316,18 +305,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-11",
       "year": 1984,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Pau - Guzet-neige",
       "start": {
         "city": "Pau",
@@ -344,18 +334,19 @@
       "length": 226,
       "type": null,
       "winner": {
-        "name": "Robert Millar Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-12",
       "year": 1984,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Saint-Girons - Blagnac",
       "start": {
         "city": "Saint-Girons",
@@ -372,18 +363,19 @@
       "length": 111,
       "type": null,
       "winner": {
-        "name": "Pascal Poisson Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-13",
       "year": 1984,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Blagnac - Rodez",
       "start": {
         "city": "Blagnac",
@@ -400,18 +392,19 @@
       "length": 220,
       "type": null,
       "winner": {
-        "name": "Pierre-Henri Menthéour Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-14",
       "year": 1984,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Rodez - Domaine du Rouret",
       "start": {
         "city": "Rodez",
@@ -428,18 +421,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Fons De Wolf Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-15",
       "year": 1984,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Domaine du Rouret - Grenoble",
       "start": {
         "city": "Grospierre",
@@ -456,18 +450,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Frédéric Vichot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-16",
       "year": 1984,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Les Echelles - La Ruchère en Chartreuse",
       "start": {
         "city": "Les Echelles",
@@ -482,20 +477,21 @@
         "lng": "5.803222"
       },
       "length": 22,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Vincent Barteau Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-17",
       "year": 1984,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Grenoble - L'Alpe d'Huez",
       "start": {
         "city": "Grenoble",
@@ -512,18 +508,19 @@
       "length": 151,
       "type": null,
       "winner": {
-        "name": "Luis Herrera Drapeau de Colombie Colombie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-18",
       "year": 1984,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Bourg-d'Oisans - La Plagne",
       "start": {
         "city": "Bourg-d'Oisans",
@@ -540,18 +537,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-19",
       "year": 1984,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "La Plagne - Morzine",
       "start": {
         "city": "La Plagne",
@@ -568,18 +566,19 @@
       "length": 186,
       "type": null,
       "winner": {
-        "name": "Ángel Arroyo Drapeau d'Espagne Espagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-20",
       "year": 1984,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Morzine - Crans-Montana",
       "start": {
         "city": "Morzine",
@@ -596,18 +595,19 @@
       "length": 140,
       "type": null,
       "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-21",
       "year": 1984,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Crans-Montana - Villefranche-en-Beaujolais",
       "start": {
         "city": "Crans-Montana",
@@ -624,18 +624,19 @@
       "length": 320,
       "type": null,
       "winner": {
-        "name": "Frank Hoste Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-22",
       "year": 1984,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Villié-Morgon - Villefranche-en-Beaujolais",
       "start": {
         "city": "Villié-Morgon",
@@ -650,20 +651,21 @@
         "lng": "4.718821"
       },
       "length": 51,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1984-23",
       "year": 1984,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 23,
       "title": "Pantin - Paris",
       "start": {
         "city": "Pantin",
@@ -680,11 +682,40 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1984-Prologue",
+      "year": 1984,
+      "leg": "Prologue",
+      "leg_num": 24,
+      "title": "Montreuil - Noisy-le-Sec",
+      "start": {
+        "city": "Montreuil",
+        "country": "France",
+        "lat": "48.863812",
+        "lng": "2.448451"
+      },
+      "finish": {
+        "city": "Noisy-le-Sec",
+        "country": "France",
+        "lat": "48.892489",
+        "lng": "2.458625"
+      },
+      "length": 5,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

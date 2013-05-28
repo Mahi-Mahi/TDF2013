@@ -3,51 +3,31 @@
   "edition": 85,
   "total_length": 3875,
   "nb_legs": 21,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 189,
   "nb_finishers": 96,
   "pct_finishers": 51,
-  "winner_name": "Marco Pantani",
-  "winner_time": "92h 49’ 46”",
+  "winner_first_name": "Marco",
+  "winner_last_name": "Pantani",
+  "winner_id": "marco-pantani",
+  "winner_total_time": "92h 49' 46\"",
+  "winner_age": "28",
+  "winner_country": "Italie",
+  "winner_avg_speed": "39,983",
   "ahead_of_2nd": "0h 03' 21\" ",
   "second_name": "J. Ullrich",
   "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
   "ahead_of_3rd": "0h 04' 08\"",
   "third_name": "B. Julich",
-  "third_country": "B. Julich",
+  "third_country": "États-Unis",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1998-Prologue",
-      "year": 1998,
-      "leg": 0,
-      "title": "Dublin - Dublin",
-      "start": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
-      },
-      "finish": {
-        "city": "Dublin",
-        "country": "Irlande",
-        "lat": "53.349805",
-        "lng": "-6.26031"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : Royaume-UniChris Boardman",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : Royaume-UniChris Boardman",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1998-01",
       "year": 1998,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Dublin - Dublin",
       "start": {
         "city": "Dublin",
@@ -64,18 +44,19 @@
       "length": 186,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniChris Boardman",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-02",
       "year": 1998,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Enniscorthy - Cork",
       "start": {
         "city": "Enniscorthy",
@@ -92,18 +73,19 @@
       "length": 205,
       "type": null,
       "winner": {
-        "name": "Drapeau : République tchèqueJán Svorada",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-03",
       "year": 1998,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Roscoff - Lorient",
       "start": {
         "city": "Roscoff",
@@ -120,18 +102,19 @@
       "length": 169,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJens Heppner",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : DanemarkBo Hamburger",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-04",
       "year": 1998,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Plouay - Cholet",
       "start": {
         "city": "Plouay",
@@ -148,18 +131,19 @@
       "length": 252,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasJeroen Blijlevens",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieStuart O'Grady",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-05",
       "year": 1998,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Cholet - Châteauroux",
       "start": {
         "city": "Cholet",
@@ -176,18 +160,19 @@
       "length": 228,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieStuart O'Grady",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-06",
       "year": 1998,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "La Châtre - Brive",
       "start": {
         "city": "La Châtre",
@@ -204,18 +189,19 @@
       "length": 204,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMario Cipollini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AustralieStuart O'Grady",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-07",
       "year": 1998,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Meyrignac-l'Église - Corrèze",
       "start": {
         "city": "Meyrignac-l'Église",
@@ -230,20 +216,21 @@
         "lng": "1.873739"
       },
       "length": 58,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-08",
       "year": 1998,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Brive - Montauban",
       "start": {
         "city": "Brive",
@@ -260,18 +247,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceJacky Durand",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLaurent Desbiens",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-09",
       "year": 1998,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Montauban - Pau",
       "start": {
         "city": "Montauban",
@@ -288,18 +276,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasLéon van Bon",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLaurent Desbiens",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-10",
       "year": 1998,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -314,20 +303,21 @@
         "lng": "0.592943"
       },
       "length": 196,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieRodolfo Massi",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-11",
       "year": 1998,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Luchon - Plateau-de-Beille",
       "start": {
         "city": "Luchon",
@@ -342,20 +332,21 @@
         "lng": "1.702387"
       },
       "length": 170,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-12",
       "year": 1998,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Tarascon-sur-Ariège - Cap d'Agde",
       "start": {
         "city": "Tarascon-sur-Ariège",
@@ -372,18 +363,19 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-13",
       "year": 1998,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Frontignan la Peyrade - Carpentras",
       "start": {
         "city": "Frontignan la Peyrade",
@@ -398,20 +390,21 @@
         "lng": "5.048722"
       },
       "length": 196,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieDaniele Nardello",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-14",
       "year": 1998,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Valréas - Grenoble",
       "start": {
         "city": "Valréas",
@@ -426,20 +419,21 @@
         "lng": "5.724524"
       },
       "length": 186,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AustralieStuart O'Grady",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-15",
       "year": 1998,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Grenoble - Les Deux Alpes",
       "start": {
         "city": "Grenoble",
@@ -454,20 +448,21 @@
         "lng": "6.125578"
       },
       "length": 189,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-16",
       "year": 1998,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Vizille - Albertville",
       "start": {
         "city": "Vizille",
@@ -482,20 +477,21 @@
         "lng": "6.392726"
       },
       "length": 204,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-17",
       "year": 1998,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Albertville - Aix-les-Bains",
       "start": {
         "city": "Albertville",
@@ -512,18 +508,19 @@
       "length": 149,
       "type": null,
       "winner": {
-        "name": "étape neutralisée",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-18",
       "year": 1998,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Aix-les-Bains - Neuchâtel",
       "start": {
         "city": "Aix-les-Bains",
@@ -538,20 +535,21 @@
         "lng": "6.931932"
       },
       "length": 218,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-19",
       "year": 1998,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "La Chaux-de-Fonds - Autun",
       "start": {
         "city": "La Chaux-de-Fonds",
@@ -568,18 +566,19 @@
       "length": 242,
       "type": null,
       "winner": {
-        "name": "Drapeau : SuèdeMagnus Bäckstedt",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-20",
       "year": 1998,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Montceau-les-Mines - Le Creusot",
       "start": {
         "city": "Montceau-les-Mines",
@@ -594,20 +593,50 @@
         "lng": "4.4278"
       },
       "length": 52,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneJan Ullrich",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1998-Prologue",
+      "year": 1998,
+      "leg": "Prologue",
+      "leg_num": 21,
+      "title": "Dublin - Dublin",
+      "start": {
+        "city": "Dublin",
+        "country": "Irlande",
+        "lat": "53.349805",
+        "lng": "-6.26031"
+      },
+      "finish": {
+        "city": "Dublin",
+        "country": "Irlande",
+        "lat": "53.349805",
+        "lng": "-6.26031"
+      },
+      "length": 5,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1998-21",
       "year": 1998,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Melun - Paris",
       "start": {
         "city": "Melun",
@@ -624,11 +653,11 @@
       "length": 147,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       }
     }

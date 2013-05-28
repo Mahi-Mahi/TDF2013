@@ -3,51 +3,31 @@
   "edition": 76,
   "total_length": 3285,
   "nb_legs": 21,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 198,
   "nb_finishers": 138,
   "pct_finishers": 70,
-  "winner_name": "Greg LeMond",
-  "winner_time": "87h 38’ 35”",
+  "winner_first_name": "Greg",
+  "winner_last_name": "LeMond",
+  "winner_id": "greg-lemond",
+  "winner_total_time": "87h 38' 35\"",
+  "winner_age": "27",
+  "winner_country": "États-Unis",
+  "winner_avg_speed": "37,487",
   "ahead_of_2nd": "0h 00' 08\" ",
   "second_name": "L. Fignon",
   "second_country": "France",
+  "second_id": "laurent-fignon",
   "ahead_of_3rd": "0h 03' 34\"",
   "third_name": "P. Delgado",
-  "third_country": "P. Delgado",
+  "third_country": "Espagne",
+  "third_id": "pedro-delgado",
   "legs": [
-    {
-      "id": "E-1989-Prologue",
-      "year": 1989,
-      "leg": 0,
-      "title": "Luxembourg",
-      "start": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "finish": {
-        "city": "Luxembourg",
-        "country": "Luxembourg",
-        "lat": "49.61162",
-        "lng": "6.13193"
-      },
-      "length": 7,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau des Pays-Bas Erik Breukink (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau des Pays-Bas Erik Breukink (NED)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1989-01",
       "year": 1989,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Luxembourg - Luxembourg",
       "start": {
         "city": "Luxembourg",
@@ -64,18 +44,19 @@
       "length": 135,
       "type": null,
       "winner": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-02",
       "year": 1989,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Luxembourg",
       "start": {
         "city": "Luxembourg",
@@ -90,20 +71,21 @@
         "lng": "6.13193"
       },
       "length": 46,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Super U (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-03",
       "year": 1989,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Luxembourg - Spa-Francorchamps",
       "start": {
         "city": "Luxembourg",
@@ -120,18 +102,19 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Drapeau du Mexique Raúl Alcalá (MEX)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-04",
       "year": 1989,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Liège - Wasquehal",
       "start": {
         "city": "Liège",
@@ -148,18 +131,19 @@
       "length": 255,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-05",
       "year": 1989,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Dinard - Rennes",
       "start": {
         "city": "Dinard",
@@ -174,20 +158,21 @@
         "lng": "-1.675708"
       },
       "length": 73,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-06",
       "year": 1989,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Rennes - Futuroscope",
       "start": {
         "city": "Rennes",
@@ -198,24 +183,25 @@
       "finish": {
         "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lat": "\n46.66680",
+        "lat": "46.66680",
         "lng": "0.36762"
       },
       "length": 259,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Joël Pelier (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-07",
       "year": 1989,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Poitiers - Bordeaux",
       "start": {
         "city": "Poitiers",
@@ -232,18 +218,19 @@
       "length": 258,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Etienne De Wilde (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-08",
       "year": 1989,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Labastide-d'Armagnac - Pau",
       "start": {
         "city": "Labastide-d'Armagnac",
@@ -260,18 +247,19 @@
       "length": 157,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Irlande Martin Earley (IRL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-09",
       "year": 1989,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Pau - Cauterets-Cambasque",
       "start": {
         "city": "Pau",
@@ -286,20 +274,21 @@
         "lng": "-0.114153"
       },
       "length": 147,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Miguel Indurain (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-10",
       "year": 1989,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Cauterets - Superbagnères  ",
       "start": {
         "city": "Cauterets",
@@ -314,20 +303,21 @@
         "lng": "0.576927"
       },
       "length": 136,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Grande-Bretagne Robert Millar (GBR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-11",
       "year": 1989,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Luchon - Blagnac",
       "start": {
         "city": "Luchon",
@@ -344,18 +334,19 @@
       "length": 158,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Mathieu Hermans (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-12",
       "year": 1989,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Toulouse - Montpellier",
       "start": {
         "city": "Toulouse",
@@ -372,18 +363,19 @@
       "length": 242,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Valerio Tebaldi (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-13",
       "year": 1989,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Montpellier - Marseille",
       "start": {
         "city": "Montpellier",
@@ -400,18 +392,19 @@
       "length": 179,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Vincent Barteau (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-14",
       "year": 1989,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Marseille - Gap  ",
       "start": {
         "city": "Marseille",
@@ -426,20 +419,21 @@
         "lng": "6.079758"
       },
       "length": 240,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-15",
       "year": 1989,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Gap - Orcières-Merlette  ",
       "start": {
         "city": "Gap",
@@ -454,20 +448,21 @@
         "lng": "6.320161"
       },
       "length": 39,
-      "type": "Étape de montagne (CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Steven Rooks (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-16",
       "year": 1989,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Gap - Briançon ",
       "start": {
         "city": "Gap",
@@ -482,20 +477,21 @@
         "lng": "6.643179"
       },
       "length": 175,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Pascal Richard (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-17",
       "year": 1989,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Briançon - L'Alpe d'Huez  ",
       "start": {
         "city": "Briançon",
@@ -510,20 +506,21 @@
         "lng": "6.068348"
       },
       "length": 165,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas GJ Theunisse (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-18",
       "year": 1989,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Le Bourg-d'Oisans - Villard-de-Lans  ",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -538,20 +535,21 @@
         "lng": "5.55227"
       },
       "length": 91,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-19",
       "year": 1989,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Villard-de-Lans - Aix-les-Bains  ",
       "start": {
         "city": "Villard-de-Lans",
@@ -566,20 +564,21 @@
         "lng": "5.908998"
       },
       "length": 125,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-20",
       "year": 1989,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Aix-les-Bains - L'Isle-d'Abeau",
       "start": {
         "city": "Aix-les-Bains",
@@ -596,18 +595,19 @@
       "length": 130,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Giovanni Fidanza (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1989-21",
       "year": 1989,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Versailles - Paris",
       "start": {
         "city": "Versailles",
@@ -622,13 +622,42 @@
         "lng": "2.352222"
       },
       "length": 24,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des États-Unis Greg LeMond (USA)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1989-Prologue",
+      "year": 1989,
+      "leg": "Prologue",
+      "leg_num": 23,
+      "title": "Luxembourg",
+      "start": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "finish": {
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "lat": "49.61162",
+        "lng": "6.13193"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

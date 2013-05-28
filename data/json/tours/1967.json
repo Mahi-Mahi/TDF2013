@@ -3,51 +3,31 @@
   "edition": 54,
   "total_length": 4779,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 130,
   "nb_finishers": 88,
   "pct_finishers": 68,
-  "winner_name": "Roger Pingeon",
-  "winner_time": "136h 53’ 50”",
+  "winner_first_name": "Roger",
+  "winner_last_name": "Pingeon",
+  "winner_id": "roger-pingeon",
+  "winner_total_time": "136h 53' 50\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "34,756",
   "ahead_of_2nd": "0h 03' 40\" ",
   "second_name": "J. Jimenez",
   "second_country": "Espagne",
+  "second_id": null,
   "ahead_of_3rd": "0h 07' 23\"",
   "third_name": "F. Balmanion",
-  "third_country": "F. Balmanion",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1967-Prologue",
-      "year": 1967,
-      "leg": 0,
-      "title": "Angers - Angers",
-      "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "José María Errandonea Drapeau : EspagneEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "José María Errandonea Drapeau : EspagneEspagne",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1967-01",
       "year": 1967,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Angers - Saint-Malo",
       "start": {
         "city": "Angers",
@@ -64,18 +44,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Walter Godefroot Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "José María Errandonea Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-02",
       "year": 1967,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Saint-Malo - Caen",
       "start": {
         "city": "Saint-Malo",
@@ -92,18 +73,19 @@
       "length": 180,
       "type": null,
       "winner": {
-        "name": "Willy Van Neste Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Willy Van Neste Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-03",
       "year": 1967,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Caen - Amiens",
       "start": {
         "city": "Caen",
@@ -120,18 +102,19 @@
       "length": 248,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Giancarlo Polidori Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-04",
       "year": 1967,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Amiens - Roubaix",
       "start": {
         "city": "Amiens",
@@ -148,18 +131,19 @@
       "length": 191,
       "type": null,
       "winner": {
-        "name": "Guido Reybrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Joseph Spruyt Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-5a",
       "year": 1967,
-      "leg": 5,
+      "leg": "5a",
+      "leg_num": 5,
       "title": "Roubaix - Jambes",
       "start": {
         "city": "Roubaix",
@@ -176,18 +160,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-5b",
       "year": 1967,
-      "leg": 5,
+      "leg": "5b",
+      "leg_num": 6,
       "title": "Jambes - Jambes",
       "start": {
         "city": "Jambes",
@@ -202,20 +187,21 @@
         "lng": "4.871877"
       },
       "length": 17,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueBelgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-06",
       "year": 1967,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 7,
       "title": "Jambes - Metz",
       "start": {
         "city": "Jambes",
@@ -232,18 +218,19 @@
       "length": 238,
       "type": null,
       "winner": {
-        "name": "Herman Van Springel Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-07",
       "year": 1967,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Metz - Strasbourg",
       "start": {
         "city": "Metz",
@@ -260,18 +247,19 @@
       "length": 205,
       "type": null,
       "winner": {
-        "name": "Michael Wright Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Raymond Riotte Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-08",
       "year": 1967,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Strasbourg - Ballon d'Alsace",
       "start": {
         "city": "Strasbourg",
@@ -288,18 +276,19 @@
       "length": 215,
       "type": null,
       "winner": {
-        "name": "Lucien Aimar Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-09",
       "year": 1967,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Belfort - Divonne-les-Bains",
       "start": {
         "city": "Belfort",
@@ -316,18 +305,19 @@
       "length": 238,
       "type": null,
       "winner": {
-        "name": "Guido Reybrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-10",
       "year": 1967,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Divonne-les-Bains - Briançon",
       "start": {
         "city": "Divonne-les-Bains",
@@ -344,18 +334,19 @@
       "length": 243,
       "type": null,
       "winner": {
-        "name": "Felice Gimondi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-11",
       "year": 1967,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Briançon - Digne-les-Bains",
       "start": {
         "city": "Briançon",
@@ -372,18 +363,19 @@
       "length": 197,
       "type": null,
       "winner": {
-        "name": "José Samyn Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-12",
       "year": 1967,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Digne-les-Bains - Marseille",
       "start": {
         "city": "Digne-les-Bains",
@@ -400,18 +392,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Raymond Riotte Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-13",
       "year": 1967,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 14,
       "title": "Marseille - Carpentras",
       "start": {
         "city": "Marseille",
@@ -428,18 +421,19 @@
       "length": 211,
       "type": null,
       "winner": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-14",
       "year": 1967,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 15,
       "title": "Carpentras - Sète",
       "start": {
         "city": "Carpentras",
@@ -456,18 +450,19 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Barry Hoban Drapeau : Royaume-Uni Royaume-Uni",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-15",
       "year": 1967,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 16,
       "title": "Sète - Toulouse",
       "start": {
         "city": "Sète",
@@ -484,18 +479,19 @@
       "length": 230,
       "type": null,
       "winner": {
-        "name": "Rolf Wolfshohl Drapeau d'Allemagne Allemagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-16",
       "year": 1967,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 17,
       "title": "Toulouse - Luchon",
       "start": {
         "city": "Toulouse",
@@ -512,18 +508,19 @@
       "length": 188,
       "type": null,
       "winner": {
-        "name": "Fernando Manzaneque Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-17",
       "year": 1967,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 18,
       "title": "Luchon - Pau",
       "start": {
         "city": "Luchon",
@@ -540,18 +537,19 @@
       "length": 250,
       "type": null,
       "winner": {
-        "name": "Raymond Mastrotto Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-18",
       "year": 1967,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 19,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -568,18 +566,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-19",
       "year": 1967,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 20,
       "title": "Bordeaux - Limoges",
       "start": {
         "city": "Bordeaux",
@@ -596,18 +595,19 @@
       "length": 217,
       "type": null,
       "winner": {
-        "name": "Jean Stablinski Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-20",
       "year": 1967,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 21,
       "title": "Limoges - Puy de Dôme",
       "start": {
         "city": "Limoges",
@@ -624,18 +624,19 @@
       "length": 222,
       "type": null,
       "winner": {
-        "name": "Felice Gimondi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-21",
       "year": 1967,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 22,
       "title": "Clermont-Ferrand - Fontainebleau",
       "start": {
         "city": "Clermont-Ferrand",
@@ -652,18 +653,19 @@
       "length": 359,
       "type": null,
       "winner": {
-        "name": "Paul Lemeteyer Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-22a",
       "year": 1967,
-      "leg": 22,
+      "leg": "22a",
+      "leg_num": 23,
       "title": "Fontainebleau - Versailles",
       "start": {
         "city": "Fontainebleau",
@@ -680,18 +682,19 @@
       "length": 104,
       "type": null,
       "winner": {
-        "name": "René Binggeli Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1967-22b",
       "year": 1967,
-      "leg": 22,
+      "leg": "22b",
+      "leg_num": 24,
       "title": "Versailles - Paris",
       "start": {
         "city": "Versailles",
@@ -706,13 +709,42 @@
         "lng": "2.352222"
       },
       "length": 46,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Raymond Poulidor Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Roger Pingeon Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1967-Prologue",
+      "year": 1967,
+      "leg": "Prologue",
+      "leg_num": 26,
+      "title": "Angers - Angers",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 5,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

@@ -3,51 +3,31 @@
   "edition": 74,
   "total_length": 4231,
   "nb_legs": 25,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 207,
   "nb_finishers": 135,
   "pct_finishers": 65,
-  "winner_name": "Stephen Roche",
-  "winner_time": "115h 27’ 42”",
+  "winner_first_name": "Stephen",
+  "winner_last_name": "Roche",
+  "winner_id": "stephen-roche",
+  "winner_total_time": "115h 27' 42\"",
+  "winner_age": "27",
+  "winner_country": "Irlande",
+  "winner_avg_speed": "36,645",
   "ahead_of_2nd": "0h 00' 40\" ",
   "second_name": "P. Delgado",
   "second_country": "Espagne",
+  "second_id": "pedro-delgado",
   "ahead_of_3rd": "0h 02' 13\"",
   "third_name": "J-F. Bernard",
-  "third_country": "J-F. Bernard",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1987-Prologue",
-      "year": 1987,
-      "leg": 0,
-      "title": "Berlin - Berlin",
-      "start": {
-        "city": "Berlin",
-        "country": "Allemagne",
-        "lat": "52.519171",
-        "lng": "13.406091"
-      },
-      "finish": {
-        "city": "Berlin",
-        "country": "Allemagne",
-        "lat": "52.519171",
-        "lng": "13.406091"
-      },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau des Pays-Bas Jelle Nijdam (NED)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1987-01",
       "year": 1987,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Berlin - Berlin",
       "start": {
         "city": "Berlin",
@@ -64,18 +44,19 @@
       "length": 105,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Nico Verhoeven (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Pologne Lech Piasecki (POL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-02",
       "year": 1987,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Berlin - Berlin",
       "start": {
         "city": "Berlin",
@@ -90,20 +71,21 @@
         "lng": "13.406091"
       },
       "length": 40,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Carrera (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Pologne Lech Piasecki (POL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-03",
       "year": 1987,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Karlsruhe - Stuttgart",
       "start": {
         "city": "Karlsruhe",
@@ -120,18 +102,19 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Drapeau du Portugal Acácio da Silva (POR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-04",
       "year": 1987,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Stuttgart - Pforzheim",
       "start": {
         "city": "Stuttgart",
@@ -148,18 +131,19 @@
       "length": 79,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Herman Frison (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-05",
       "year": 1987,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Pforzheim - Strasbourg",
       "start": {
         "city": "Pforzheim",
@@ -176,18 +160,19 @@
       "length": 112,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Marc Sergeant (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-06",
       "year": 1987,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Strasbourg - Épinal  ",
       "start": {
         "city": "Strasbourg",
@@ -202,20 +187,21 @@
         "lng": "6.449403"
       },
       "length": 169,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Christophe Lavainne (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-07",
       "year": 1987,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Épinal - Troyes",
       "start": {
         "city": "Épinal",
@@ -232,18 +218,19 @@
       "length": 211,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Manuel-Jorge Dominguez (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-08",
       "year": 1987,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Troyes - Épinay-sous-Sénart",
       "start": {
         "city": "Troyes",
@@ -260,18 +247,19 @@
       "length": 205,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-09",
       "year": 1987,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Orléans - Renazé",
       "start": {
         "city": "Orléans",
@@ -288,18 +276,19 @@
       "length": 260,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Adrie van der Poel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Suisse Erich Maechler (SUI)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-10",
       "year": 1987,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Saumur - Futuroscope",
       "start": {
         "city": "Saumur",
@@ -310,24 +299,25 @@
       "finish": {
         "city": "Futuroscope, Poitiers",
         "country": "France",
-        "lat": "\n46.66680",
+        "lat": "46.66680",
         "lng": "0.36762"
       },
       "length": 87,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Irlande Stephen Roche (IRL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-11",
       "year": 1987,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Poitiers - Chaumeil",
       "start": {
         "city": "Poitiers",
@@ -344,18 +334,19 @@
       "length": 255,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Martial Gayant (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Martial Gayant (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-12",
       "year": 1987,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Brive - Bordeaux",
       "start": {
         "city": "Brive",
@@ -372,18 +363,19 @@
       "length": 228,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Davis Phinney (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Martial Gayant (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-13",
       "year": 1987,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Bayonne - Pau  ",
       "start": {
         "city": "Bayonne",
@@ -398,20 +390,21 @@
         "lng": "-0.370797"
       },
       "length": 219,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Erik Breukink (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-14",
       "year": 1987,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Pau - Luz-Ardiden  ",
       "start": {
         "city": "Pau",
@@ -426,20 +419,21 @@
         "lng": "-0.061335"
       },
       "length": 166,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de Norvège Dag Otto Lauritzen (NOR)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-15",
       "year": 1987,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Tarbes - Blagnac",
       "start": {
         "city": "Tarbes",
@@ -456,18 +450,19 @@
       "length": 164,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Allemagne Rolf Gölz (GER)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-16",
       "year": 1987,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Blagnac - Millau  ",
       "start": {
         "city": "Blagnac",
@@ -482,20 +477,21 @@
         "lng": "3.077801"
       },
       "length": 216,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Régis Clère (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-17",
       "year": 1987,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Millau - Avignon  ",
       "start": {
         "city": "Millau",
@@ -510,20 +506,21 @@
         "lng": "4.805528"
       },
       "length": 239,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Jean-Paul van Poppel (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Charly Mottet (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-18",
       "year": 1987,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Carpentras - Mont Ventoux  ",
       "start": {
         "city": "Carpentras",
@@ -538,20 +535,21 @@
         "lng": "5.283795"
       },
       "length": 36,
-      "type": "Étape de montagne (CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-François Bernard (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean-François Bernard (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-19",
       "year": 1987,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Valréas - Villard-de-Lans ",
       "start": {
         "city": "Valréas",
@@ -566,20 +564,21 @@
         "lng": "5.55227"
       },
       "length": 185,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Irlande Stephen Roche (IRL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-20",
       "year": 1987,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Villard-de-Lans - L'Alpe-d'Huez  ",
       "start": {
         "city": "Villard-de-Lans",
@@ -594,20 +593,21 @@
         "lng": "6.068348"
       },
       "length": 201,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Federico Echave (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-21",
       "year": 1987,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Bourg-d'Oisans - La Plagne  ",
       "start": {
         "city": "Bourg-d'Oisans",
@@ -622,20 +622,21 @@
         "lng": "6.659294"
       },
       "length": 185,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Laurent Fignon (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-22",
       "year": 1987,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "La Plagne - Morzine  ",
       "start": {
         "city": "La Plagne",
@@ -650,20 +651,50 @@
         "lng": "6.708877"
       },
       "length": 186,
-      "type": "Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau d'Espagne Eduardo Chozas (ESP)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1987-Prologue",
+      "year": 1987,
+      "leg": "Prologue",
+      "leg_num": 23,
+      "title": "Berlin - Berlin",
+      "start": {
+        "city": "Berlin",
+        "country": "Allemagne",
+        "lat": "52.519171",
+        "lng": "13.406091"
+      },
+      "finish": {
+        "city": "Berlin",
+        "country": "Allemagne",
+        "lat": "52.519171",
+        "lng": "13.406091"
+      },
+      "length": 6,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-23",
       "year": 1987,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 23,
       "title": "Saint-Julien-en-Genevois - Dijon",
       "start": {
         "city": "Saint-Julien-en-Genevois",
@@ -680,18 +711,19 @@
       "length": 224,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Régis Clère (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Espagne Pedro Delgado (ESP)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-24",
       "year": 1987,
-      "leg": 24,
+      "leg": "24",
+      "leg_num": 24,
       "title": "Dijon - Dijon-Prenois",
       "start": {
         "city": "Dijon",
@@ -706,20 +738,21 @@
         "lng": "4.905415"
       },
       "length": 38,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Jean-François Bernard (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Irlande Stephen Roche (IRL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1987-25",
       "year": 1987,
-      "leg": 25,
+      "leg": "25",
+      "leg_num": 25,
       "title": "Créteil - Paris",
       "start": {
         "city": "Créteil",
@@ -736,11 +769,11 @@
       "length": 192,
       "type": null,
       "winner": {
-        "name": "Drapeau des États-Unis Jeff Pierce (USA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Irlande Stephen Roche (IRL)",
+        "name": null,
         "nationality": null
       }
     }

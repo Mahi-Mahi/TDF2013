@@ -7,47 +7,27 @@
   "nb_concurrents": 79,
   "nb_finishers": 49,
   "pct_finishers": 62,
-  "winner_name": "Sylvère Maes",
-  "winner_time": "132h 03’ 17”",
+  "winner_first_name": "Sylvère",
+  "winner_last_name": "Maes",
+  "winner_id": "sylvere-maes",
+  "winner_total_time": "132h 03' 17\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "31,986",
   "ahead_of_2nd": "0h 30' 38\" ",
   "second_name": "R. Vietto",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 32' 08\"",
   "third_name": "L. Vlaemynck",
-  "third_country": "L. Vlaemynck",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1939-01",
-      "year": 1939,
-      "leg": 1,
-      "title": "Paris - Caen",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 215,
-      "type": null,
-      "winner": {
-        "name": "Amédée Fournier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Amédée Fournier Drapeau de France France",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1939-2a",
       "year": 1939,
-      "leg": 2,
+      "leg": "2a",
+      "leg_num": 1,
       "title": "Caen - Vire",
       "start": {
         "city": "Caen",
@@ -62,20 +42,21 @@
         "lng": "-0.888482"
       },
       "length": 63,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Romain Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-2b",
       "year": 1939,
-      "leg": 2,
+      "leg": "2b",
+      "leg_num": 2,
       "title": "Vire - Rennes",
       "start": {
         "city": "Vire",
@@ -92,18 +73,19 @@
       "length": 120,
       "type": null,
       "winner": {
-        "name": "Éloi Tassin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Fontenay Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-03",
       "year": 1939,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Rennes - Brest",
       "start": {
         "city": "Rennes",
@@ -120,18 +102,19 @@
       "length": 244,
       "type": null,
       "winner": {
-        "name": "Pierre Cloarec Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Fontenay Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-04",
       "year": 1939,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Brest - Lorient",
       "start": {
         "city": "Brest",
@@ -148,18 +131,19 @@
       "length": 174,
       "type": null,
       "winner": {
-        "name": "Raymond Louviot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-05",
       "year": 1939,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Lorient - Nantes",
       "start": {
         "city": "Lorient",
@@ -176,18 +160,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Amédée Fournier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-6a",
       "year": 1939,
-      "leg": 6,
+      "leg": "6a",
+      "leg_num": 6,
       "title": "Nantes - La Rochelle",
       "start": {
         "city": "Nantes",
@@ -204,18 +189,19 @@
       "length": 144,
       "type": null,
       "winner": {
-        "name": "Lucien Storme Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-6b",
       "year": 1939,
-      "leg": 6,
+      "leg": "6b",
+      "leg_num": 7,
       "title": "La Rochelle - Royan",
       "start": {
         "city": "La Rochelle",
@@ -232,18 +218,19 @@
       "length": 107,
       "type": null,
       "winner": {
-        "name": "Edmond Pagès Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-07",
       "year": 1939,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Royan - Bordeaux",
       "start": {
         "city": "Royan",
@@ -260,18 +247,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Raymond Passat Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-8a",
       "year": 1939,
-      "leg": 8,
+      "leg": "8a",
+      "leg_num": 9,
       "title": "Bordeaux - Salies-de-Béarn",
       "start": {
         "city": "Bordeaux",
@@ -288,18 +276,19 @@
       "length": 210,
       "type": null,
       "winner": {
-        "name": "Marcel Kint Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-8b",
       "year": 1939,
-      "leg": 8,
+      "leg": "8b",
+      "leg_num": 10,
       "title": "Salies-de-Béarn - Pau",
       "start": {
         "city": "Salies-de-Béarn",
@@ -314,20 +303,21 @@
         "lng": "-0.370797"
       },
       "length": 69,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Karl Litschi Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-09",
       "year": 1939,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Pau - Toulouse",
       "start": {
         "city": "Pau",
@@ -344,18 +334,19 @@
       "length": 311,
       "type": null,
       "winner": {
-        "name": "Edward Vissers Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-10a",
       "year": 1939,
-      "leg": 10,
+      "leg": "10a",
+      "leg_num": 12,
       "title": "Toulouse - Narbonne",
       "start": {
         "city": "Toulouse",
@@ -372,18 +363,19 @@
       "length": 148,
       "type": null,
       "winner": {
-        "name": "Pierre Jaminet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-10b",
       "year": 1939,
-      "leg": 10,
+      "leg": "10b",
+      "leg_num": 13,
       "title": "Narbonne - Béziers",
       "start": {
         "city": "Narbonne",
@@ -398,20 +390,21 @@
         "lng": "3.215795"
       },
       "length": 27,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-10c",
       "year": 1939,
-      "leg": 10,
+      "leg": "10c",
+      "leg_num": 14,
       "title": "Béziers - Montpellier",
       "start": {
         "city": "Béziers",
@@ -428,18 +421,19 @@
       "length": 71,
       "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-11",
       "year": 1939,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 15,
       "title": "Montpellier - Marseille",
       "start": {
         "city": "Montpellier",
@@ -456,18 +450,19 @@
       "length": 212,
       "type": null,
       "winner": {
-        "name": "Fabien Galateau Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-12c",
       "year": 1939,
-      "leg": 12,
+      "leg": "12c",
+      "leg_num": 16,
       "title": "Marseille - Saint-Raphaël",
       "start": {
         "city": "Marseille",
@@ -484,18 +479,19 @@
       "length": 157,
       "type": null,
       "winner": {
-        "name": "François Neuens Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-12b",
       "year": 1939,
-      "leg": 12,
+      "leg": "12b",
+      "leg_num": 17,
       "title": "Saint-Raphaël - Monaco",
       "start": {
         "city": "Saint-Raphaël",
@@ -512,18 +508,19 @@
       "length": 121,
       "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-13",
       "year": 1939,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 18,
       "title": "Monaco - Monaco",
       "start": {
         "city": "Monaco",
@@ -540,18 +537,19 @@
       "length": 102,
       "type": null,
       "winner": {
-        "name": "Pierre Gallien Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-14",
       "year": 1939,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 19,
       "title": "Monaco - Digne-les-Bains",
       "start": {
         "city": "Monaco",
@@ -568,18 +566,19 @@
       "length": 175,
       "type": null,
       "winner": {
-        "name": "Pierre Cloarec Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-15",
       "year": 1939,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 20,
       "title": "Digne-les-Bains - Briançon",
       "start": {
         "city": "Digne-les-Bains",
@@ -596,74 +595,48 @@
       "length": 219,
       "type": null,
       "winner": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
-      "id": "E-1939-16c",
+      "id": "E-1939-01",
       "year": 1939,
-      "leg": 16,
-      "title": "Bourg-Saint-Maurice - Annecy",
+      "leg": "1",
+      "leg_num": 21,
+      "title": "Paris - Caen",
       "start": {
-        "city": "Bourg-Saint-Maurice",
+        "city": "Paris",
         "country": "France",
-        "lat": "45.618598",
-        "lng": "6.769548"
+        "lat": "48.856614",
+        "lng": "2.352222"
       },
       "finish": {
-        "city": "Annecy",
+        "city": "Caen",
         "country": "France",
-        "lat": "45.899247",
-        "lng": "6.129384"
+        "lat": "49.182863",
+        "lng": "-0.370679"
       },
-      "length": 104,
+      "length": 215,
       "type": null,
       "winner": {
-        "name": "Antoon van Schendel Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1939-16b",
-      "year": 1939,
-      "leg": 16,
-      "title": "Bonneval-sur-Arc - Bourg-Saint-Maurice",
-      "start": {
-        "city": "Bonneval-sur-Arc",
-        "country": "France",
-        "lat": "45.371599",
-        "lng": "7.046231"
-      },
-      "finish": {
-        "city": "Bourg-Saint-Maurice",
-        "country": "France",
-        "lat": "45.618598",
-        "lng": "6.769548"
-      },
-      "length": 64,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-16a",
       "year": 1939,
-      "leg": 16,
+      "leg": "16a",
+      "leg_num": 21,
       "title": "Briançon - Bonneval-sur-Arc",
       "start": {
         "city": "Briançon",
@@ -680,18 +653,77 @@
       "length": 126,
       "type": null,
       "winner": {
-        "name": "Pierre Jaminet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1939-16b",
+      "year": 1939,
+      "leg": "16b",
+      "leg_num": 22,
+      "title": "Bonneval-sur-Arc - Bourg-Saint-Maurice",
+      "start": {
+        "city": "Bonneval-sur-Arc",
+        "country": "France",
+        "lat": "45.371599",
+        "lng": "7.046231"
+      },
+      "finish": {
+        "city": "Bourg-Saint-Maurice",
+        "country": "France",
+        "lat": "45.618598",
+        "lng": "6.769548"
+      },
+      "length": 64,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1939-16c",
+      "year": 1939,
+      "leg": "16c",
+      "leg_num": 23,
+      "title": "Bourg-Saint-Maurice - Annecy",
+      "start": {
+        "city": "Bourg-Saint-Maurice",
+        "country": "France",
+        "lat": "45.618598",
+        "lng": "6.769548"
+      },
+      "finish": {
+        "city": "Annecy",
+        "country": "France",
+        "lat": "45.899247",
+        "lng": "6.129384"
+      },
+      "length": 104,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-17a",
       "year": 1939,
-      "leg": 17,
+      "leg": "17a",
+      "leg_num": 24,
       "title": "Annecy - Dole",
       "start": {
         "city": "Annecy",
@@ -708,18 +740,19 @@
       "length": 226,
       "type": null,
       "winner": {
-        "name": "François Neuens Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-17b",
       "year": 1939,
-      "leg": 17,
+      "leg": "17b",
+      "leg_num": 25,
       "title": "Dole - Dijon",
       "start": {
         "city": "Dole",
@@ -734,20 +767,21 @@
         "lng": "5.04148"
       },
       "length": 59,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-18a",
       "year": 1939,
-      "leg": 18,
+      "leg": "18a",
+      "leg_num": 26,
       "title": "Dijon - Troyes",
       "start": {
         "city": "Dijon",
@@ -764,18 +798,19 @@
       "length": 151,
       "type": null,
       "winner": {
-        "name": "René Le Grevès Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1939-18b",
       "year": 1939,
-      "leg": 18,
+      "leg": "18b",
+      "leg_num": 27,
       "title": "Troyes - Paris",
       "start": {
         "city": "Troyes",
@@ -792,11 +827,11 @@
       "length": 201,
       "type": null,
       "winner": {
-        "name": "Marcel Kint Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     }

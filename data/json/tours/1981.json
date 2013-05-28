@@ -3,51 +3,31 @@
   "edition": 68,
   "total_length": 3753,
   "nb_legs": 24,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 150,
   "nb_finishers": 121,
   "pct_finishers": 81,
-  "winner_name": "Bernard Hinault",
-  "winner_time": "96h 19’ 38”",
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "96h 19' 38\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "38,960",
   "ahead_of_2nd": "0h 14' 34\" ",
   "second_name": "L. Van Impe",
   "second_country": "Belgique",
+  "second_id": "lucien-van-impe",
   "ahead_of_3rd": "0h 17' 04\"",
   "third_name": "R. Alban",
-  "third_country": "R. Alban",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1981-Prologue",
-      "year": 1981,
-      "leg": 0,
-      "title": "Nice",
-      "start": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
-      },
-      "finish": {
-        "city": "Nice",
-        "country": "France",
-        "lat": "43.696036",
-        "lng": "7.265592"
-      },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1981-01",
       "year": 1981,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Nice - Nice",
       "start": {
         "city": "Nice",
@@ -64,18 +44,19 @@
       "length": 97,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Freddy Maertens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-02",
       "year": 1981,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Nice - Antibes - Nice",
       "start": {
         "city": "Nice",
@@ -90,20 +71,21 @@
         "lng": "7.265592"
       },
       "length": 40,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Ti-Raleigh (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-03",
       "year": 1981,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Nice - Draguignan - Martigues",
       "start": {
         "city": "Nice",
@@ -120,18 +102,19 @@
       "length": 254,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Johan van der Velde (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-04",
       "year": 1981,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Martigues - Narbonne-Plage",
       "start": {
         "city": "Martigues",
@@ -148,18 +131,19 @@
       "length": 232,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Freddy Maertens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-05",
       "year": 1981,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Narbonne - Carcassonne",
       "start": {
         "city": "Narbonne",
@@ -174,20 +158,21 @@
         "lng": "2.353663"
       },
       "length": 77,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Ti-Raleigh (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau des Pays-Bas Gerrie Knetemann (NED)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-06",
       "year": 1981,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Saint-Gaudens - Saint-Lary-Soulan",
       "start": {
         "city": "Saint-Gaudens",
@@ -204,18 +189,19 @@
       "length": 117,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Lucien Van Impe (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau d'Australie Phil Anderson (AUS)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-07",
       "year": 1981,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Nay - Pau",
       "start": {
         "city": "Nay",
@@ -230,20 +216,21 @@
         "lng": "-0.370797"
       },
       "length": 26,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-08",
       "year": 1981,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -260,18 +247,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Drapeau de Suisse Urs Freuler (SUI)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-09",
       "year": 1981,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Rochefort - Nantes",
       "start": {
         "city": "Rochefort",
@@ -288,18 +276,19 @@
       "length": 182,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Ad Wijnands (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-10",
       "year": 1981,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Nantes - Le Mans",
       "start": {
         "city": "Nantes",
@@ -316,18 +305,19 @@
       "length": 196,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique René Martens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-11",
       "year": 1981,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Le Mans - Aulnay-sous-Bois",
       "start": {
         "city": "Le Mans",
@@ -344,18 +334,19 @@
       "length": 264,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Ad Wijnands (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-12",
       "year": 1981,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Compiègne - Roubaix",
       "start": {
         "city": "Compiègne",
@@ -372,18 +363,19 @@
       "length": 246,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Daniel Willems (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-13",
       "year": 1981,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Roubaix - Bruxelles",
       "start": {
         "city": "Roubaix",
@@ -400,18 +392,19 @@
       "length": 107,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Freddy Maertens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-14",
       "year": 1981,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Bruxelles - Zolder",
       "start": {
         "city": "Bruxelles",
@@ -428,18 +421,19 @@
       "length": 137,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Eddy Planckaert (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-15",
       "year": 1981,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Beringen - Hasselt",
       "start": {
         "city": "Beringen",
@@ -456,18 +450,19 @@
       "length": 157,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Freddy Maertens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-16",
       "year": 1981,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Mulhouse - Mulhouse",
       "start": {
         "city": "Mulhouse",
@@ -482,20 +477,21 @@
         "lng": "7.335888"
       },
       "length": 38,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-17",
       "year": 1981,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Besançon - Thonon-les-Bains",
       "start": {
         "city": "Besançon",
@@ -512,18 +508,19 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Irlande Seán Kelly (IRL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-18",
       "year": 1981,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Thonon-les-Bains - Morzine",
       "start": {
         "city": "Thonon-les-Bains",
@@ -540,18 +537,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Robert Alban (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-19",
       "year": 1981,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Morzine - L'Alpe d'Huez",
       "start": {
         "city": "Morzine",
@@ -568,18 +566,19 @@
       "length": 230,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Peter Winnen (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-20",
       "year": 1981,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Le Bourg d'Oisans - Le Pleynet",
       "start": {
         "city": "Le Bourg d'Oisans",
@@ -596,18 +595,19 @@
       "length": 134,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-21",
       "year": 1981,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Veurey-Voroize - Saint-Priest",
       "start": {
         "city": "Veurey-Voroize",
@@ -624,18 +624,19 @@
       "length": 117,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Daniel Willems (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-22",
       "year": 1981,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Saint-Priest - Saint-Priest",
       "start": {
         "city": "Saint-Priest",
@@ -650,20 +651,50 @@
         "lng": "4.947071"
       },
       "length": 46,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1981-Prologue",
+      "year": 1981,
+      "leg": "Prologue",
+      "leg_num": 23,
+      "title": "Nice",
+      "start": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "finish": {
+        "city": "Nice",
+        "country": "France",
+        "lat": "43.696036",
+        "lng": "7.265592"
+      },
+      "length": 5,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-23",
       "year": 1981,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 23,
       "title": "Auxerre - Fontenay-sous-Bois",
       "start": {
         "city": "Auxerre",
@@ -680,18 +711,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "Drapeau des Pays-Bas Johan van der Velde (NED)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1981-24",
       "year": 1981,
-      "leg": 24,
+      "leg": "24",
+      "leg_num": 24,
       "title": "Fontenay-sous-Bois - Paris",
       "start": {
         "city": "Fontenay-sous-Bois",
@@ -708,11 +740,11 @@
       "length": 186,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Freddy Maertens (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Bernard Hinault (FRA)",
+        "name": null,
         "nationality": null
       }
     }

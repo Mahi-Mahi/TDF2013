@@ -7,47 +7,27 @@
   "nb_concurrents": 155,
   "nb_finishers": 60,
   "pct_finishers": 39,
-  "winner_name": "Maurice De Waele",
-  "winner_time": "186h 39’ 16”",
+  "winner_first_name": "Maurice",
+  "winner_last_name": "De Waele",
+  "winner_id": "maurice-de-waele",
+  "winner_total_time": "186h 39' 16\"",
+  "winner_age": "32",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "28,319",
   "ahead_of_2nd": "0h 44' 23\" ",
   "second_name": "G. Pancera",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 57' 10\"",
   "third_name": "J. Demuysere",
-  "third_country": "J. Demuysere",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1929-01",
-      "year": 1929,
-      "leg": 1,
-      "title": "Paris - Caen",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1929-02",
       "year": 1929,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Caen - Cherbourg",
       "start": {
         "city": "Caen",
@@ -64,18 +44,19 @@
       "length": 140,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-03",
       "year": 1929,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Cherbourg - Dinan",
       "start": {
         "city": "Cherbourg",
@@ -92,18 +73,19 @@
       "length": 199,
       "type": null,
       "winner": {
-        "name": "Omer Taverne Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Aimé Dossche Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-04",
       "year": 1929,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Dinan - Brest",
       "start": {
         "city": "Dinan",
@@ -120,18 +102,19 @@
       "length": 206,
       "type": null,
       "winner": {
-        "name": "Louis Delannoy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-05",
       "year": 1929,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Brest - Vannes",
       "start": {
         "city": "Brest",
@@ -148,18 +131,19 @@
       "length": 208,
       "type": null,
       "winner": {
-        "name": "Gustave Van Slembrouck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-06",
       "year": 1929,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Vannes - Les Sables-d'Olonne",
       "start": {
         "city": "Vannes",
@@ -176,18 +160,19 @@
       "length": 204,
       "type": null,
       "winner": {
-        "name": "Paul Le Drogo Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-07",
       "year": 1929,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Les Sables-d'Olonne - Bordeaux",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -204,18 +189,19 @@
       "length": 285,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau du Luxembourg Nicolas Frantz (LUX) || Drapeau de France André Leducq (FRA) || Drapeau de France Victor Fontan (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-08",
       "year": 1929,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Bordeaux - Bayonne",
       "start": {
         "city": "Bordeaux",
@@ -232,18 +218,19 @@
       "length": 182,
       "type": null,
       "winner": {
-        "name": "Julien Moineau Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-09",
       "year": 1929,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
@@ -260,18 +247,19 @@
       "length": 363,
       "type": null,
       "winner": {
-        "name": "Salvador Cardona Flag of Spain (Civil).svgEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Victor Fontan Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-10",
       "year": 1929,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -288,18 +276,19 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "Jef Demuysere Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-11",
       "year": 1929,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Perpignan - Marseille",
       "start": {
         "city": "Perpignan",
@@ -316,18 +305,19 @@
       "length": 366,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-12",
       "year": 1929,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Marseille - Cannes",
       "start": {
         "city": "Marseille",
@@ -344,18 +334,19 @@
       "length": 191,
       "type": null,
       "winner": {
-        "name": "Marcel Bidot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-13",
       "year": 1929,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Cannes - Nice",
       "start": {
         "city": "Cannes",
@@ -372,18 +363,19 @@
       "length": 133,
       "type": null,
       "winner": {
-        "name": "Benoît Faure Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-14",
       "year": 1929,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Nice - Grenoble",
       "start": {
         "city": "Nice",
@@ -400,18 +392,19 @@
       "length": 333,
       "type": null,
       "winner": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-15",
       "year": 1929,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Grenoble - Évian",
       "start": {
         "city": "Grenoble",
@@ -428,18 +421,19 @@
       "length": 329,
       "type": null,
       "winner": {
-        "name": "Julien Vervaecke Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-16",
       "year": 1929,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Évian - Belfort",
       "start": {
         "city": "Évian",
@@ -456,18 +450,19 @@
       "length": 283,
       "type": null,
       "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-17",
       "year": 1929,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Belfort - Strasbourg",
       "start": {
         "city": "Belfort",
@@ -484,18 +479,19 @@
       "length": 145,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-18",
       "year": 1929,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -512,18 +508,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-19",
       "year": 1929,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Metz - Charleville",
       "start": {
         "city": "Metz",
@@ -534,30 +531,31 @@
       "finish": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "length": 159,
       "type": null,
       "winner": {
-        "name": "Bernard Van Rysselberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-20",
       "year": 1929,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Charleville - Malo-les-Bains",
       "start": {
         "city": "Charleville",
         "country": "France",
-        "lat": "48.813677",
-        "lng": "3.667405"
+        "lat": "49.762085",
+        "lng": "4.726096"
       },
       "finish": {
         "city": "Malo-les-Bains",
@@ -568,18 +566,19 @@
       "length": 270,
       "type": null,
       "winner": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-21",
       "year": 1929,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Malo-les-Bains - Dieppe",
       "start": {
         "city": "Malo-les-Bains",
@@ -596,18 +595,48 @@
       "length": 234,
       "type": null,
       "winner": {
-        "name": "André Leducq Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1929-01",
+      "year": 1929,
+      "leg": "1",
+      "leg_num": 21,
+      "title": "Paris - Caen",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 206,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1929-22",
       "year": 1929,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 21,
       "title": "Dieppe - Paris",
       "start": {
         "city": "Dieppe",
@@ -624,11 +653,11 @@
       "length": 332,
       "type": null,
       "winner": {
-        "name": "Nicolas Frantz Drapeau du Luxembourg Luxembourg",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Maurice De Waele Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     }

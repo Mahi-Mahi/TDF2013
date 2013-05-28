@@ -7,47 +7,27 @@
   "nb_concurrents": 177,
   "nb_finishers": 128,
   "pct_finishers": 72,
-  "winner_name": "n.a.",
-  "winner_time": "92h 33’ 08’’",
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "92h 33' 08''",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "39,569",
   "ahead_of_2nd": "0h 06' 02\" ",
   "second_name": "J. Ullrich",
   "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
   "ahead_of_3rd": "0h 10' 26\"",
   "third_name": "J. Beloki",
-  "third_country": "J. Beloki",
+  "third_country": "Espagne",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-2000-01",
-      "year": 2000,
-      "leg": 1,
-      "title": "Futuroscope - Futuroscope",
-      "start": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "\n46.66680",
-        "lng": "0.36762"
-      },
-      "finish": {
-        "city": "Futuroscope, Poitiers",
-        "country": "France",
-        "lat": "\n46.66680",
-        "lng": "0.36762"
-      },
-      "length": 16,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
-        "nationality": null
-      }
-    },
     {
       "id": "E-2000-02",
       "year": 2000,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Futuroscope - Loudun",
       "start": {
         "city": "Futuroscope, Poitiers",
@@ -64,18 +44,19 @@
       "length": 194,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-03",
       "year": 2000,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Loudun - Nantes",
       "start": {
         "city": "Loudun",
@@ -92,18 +73,19 @@
       "length": 161,
       "type": null,
       "winner": {
-        "name": "Drapeau : BelgiqueTom Steels",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : Royaume-UniDavid Millar",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-04",
       "year": 2000,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Nantes - Saint-Nazaire",
       "start": {
         "city": "Nantes",
@@ -118,20 +100,21 @@
         "lng": "-2.213848"
       },
       "length": 70,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneOnce",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLaurent Jalabert",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-05",
       "year": 2000,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Vannes - Vitré",
       "start": {
         "city": "Vannes",
@@ -148,18 +131,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneMarcel Wüst",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : FranceLaurent Jalabert",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-06",
       "year": 2000,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Vitré - Tours",
       "start": {
         "city": "Vitré",
@@ -176,18 +160,19 @@
       "length": 198,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasLéon van Bon",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieAlberto Elli",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-07",
       "year": 2000,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Tours - Limoges",
       "start": {
         "city": "Tours",
@@ -204,18 +189,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Drapeau : FranceChristophe Agnolutto",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieAlberto Elli",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-08",
       "year": 2000,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Limoges - Villeneuve-sur-Lot",
       "start": {
         "city": "Limoges",
@@ -232,18 +218,19 @@
       "length": 203,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasErik Dekker",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieAlberto Elli",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-09",
       "year": 2000,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Agen - Dax",
       "start": {
         "city": "Agen",
@@ -260,18 +247,19 @@
       "length": 220,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItaliePaolo Bettini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : ItalieAlberto Elli",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-10",
       "year": 2000,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Dax - Lourdes-Hautacam",
       "start": {
         "city": "Dax",
@@ -286,20 +274,21 @@
         "lng": "-0.0075"
       },
       "length": 205,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : EspagneJavier Otxoa",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-11",
       "year": 2000,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Bagnères-de-Bigorre - Revel",
       "start": {
         "city": "Bagnères-de-Bigorre",
@@ -316,18 +305,19 @@
       "length": 218,
       "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasErik Dekker",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-12",
       "year": 2000,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Carpentras - Mont Ventoux",
       "start": {
         "city": "Carpentras",
@@ -342,20 +332,21 @@
         "lng": "5.283795"
       },
       "length": 149,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-13",
       "year": 2000,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Avignon - Draguignan",
       "start": {
         "city": "Avignon",
@@ -372,18 +363,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Drapeau : EspagneJosé Vicente García Acosta",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-14",
       "year": 2000,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Draguignan - Briançon",
       "start": {
         "city": "Draguignan",
@@ -398,20 +390,21 @@
         "lng": "6.643179"
       },
       "length": 249,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ColombieSantiago Botero",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-15",
       "year": 2000,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Briançon - Courchevel",
       "start": {
         "city": "Briançon",
@@ -426,20 +419,21 @@
         "lng": "6.61409"
       },
       "length": 173,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : ItalieMarco Pantani",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-16",
       "year": 2000,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Courchevel - Morzine-Avoriaz",
       "start": {
         "city": "Courchevel",
@@ -454,20 +448,21 @@
         "lng": "6.776343"
       },
       "length": 196,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : FranceRichard Virenque",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-17",
       "year": 2000,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Évian-les-Bains - Lausanne",
       "start": {
         "city": "Évian-les-Bains",
@@ -482,20 +477,21 @@
         "lng": "6.633597"
       },
       "length": 155,
-      "type": " Étape de montagne",
+      "type": null,
       "winner": {
-        "name": "Drapeau : Pays-BasErik Dekker",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-18",
       "year": 2000,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Lausanne - Fribourg-en-Brisgau",
       "start": {
         "city": "Lausanne",
@@ -512,18 +508,19 @@
       "length": 246,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieSalvatore Commesso",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-19",
       "year": 2000,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Fribourg-en-Brisgau - Mulhouse",
       "start": {
         "city": "Fribourg-en-Brisgau",
@@ -538,20 +535,21 @@
         "lng": "7.335888"
       },
       "length": 58,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-20",
       "year": 2000,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Belfort - Troyes",
       "start": {
         "city": "Belfort",
@@ -568,18 +566,19 @@
       "length": 254,
       "type": null,
       "winner": {
-        "name": "Drapeau : AllemagneErik Zabel",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-2000-21",
       "year": 2000,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Paris - Paris",
       "start": {
         "city": "Paris",
@@ -596,11 +595,40 @@
       "length": 138,
       "type": null,
       "winner": {
-        "name": "Drapeau : ItalieStefano Zanini",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau : États-UnisLance Armstrong",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-2000-01",
+      "year": 2000,
+      "leg": "1",
+      "leg_num": 21,
+      "title": "Futuroscope - Futuroscope",
+      "start": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "46.66680",
+        "lng": "0.36762"
+      },
+      "finish": {
+        "city": "Futuroscope, Poitiers",
+        "country": "France",
+        "lat": "46.66680",
+        "lng": "0.36762"
+      },
+      "length": 16,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

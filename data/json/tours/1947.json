@@ -7,48 +7,28 @@
   "nb_concurrents": 100,
   "nb_finishers": 53,
   "pct_finishers": 53,
-  "winner_name": "Jean Robic",
-  "winner_time": "148h 11’ 25”",
+  "winner_first_name": "Jean",
+  "winner_last_name": "Robic",
+  "winner_id": "jean-robic",
+  "winner_total_time": "148h 11' 25\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "31,412",
   "ahead_of_2nd": "0h 03' 58\" ",
   "second_name": "E. Fachleitner",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 10' 07\"",
   "third_name": "P. Brambilla",
-  "third_country": "P. Brambilla",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1947-01",
-      "year": 1947,
-      "leg": 1,
-      "title": "Paris - Lille",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Lille",
-        "country": "France",
-        "lat": "50.62925",
-        "lng": "3.057256"
-      },
-      "length": 236,
-      "type": null,
-      "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1947-02",
       "year": 1947,
-      "leg": 2,
-      "title": "Lille - Bruxelles (BEL)",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Lille - Bruxelles (Bel.)",
       "start": {
         "city": "Lille",
         "country": "France",
@@ -64,19 +44,20 @@
       "length": 182,
       "type": null,
       "winner": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-03",
       "year": 1947,
-      "leg": 3,
-      "title": "Bruxelles (BEL) - Luxembourg (LUX)",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Bruxelles (Bel.) - Luxembourg (Lux.)",
       "start": {
         "city": "Bruxelles",
         "country": "Belgique",
@@ -92,19 +73,20 @@
       "length": 314,
       "type": null,
       "winner": {
-        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-04",
       "year": 1947,
-      "leg": 4,
-      "title": "Luxembourg (LUX) - Strasbourg",
+      "leg": "4",
+      "leg_num": 3,
+      "title": "Luxembourg (Lux.) - Strasbourg",
       "start": {
         "city": "Luxembourg",
         "country": "Luxembourg",
@@ -120,18 +102,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-05",
       "year": 1947,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Strasbourg - Besançon",
       "start": {
         "city": "Strasbourg",
@@ -148,18 +131,19 @@
       "length": 248,
       "type": null,
       "winner": {
-        "name": "Ferdi Kübler Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-06",
       "year": 1947,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Besançon - Lyon",
       "start": {
         "city": "Besançon",
@@ -176,18 +160,19 @@
       "length": 249,
       "type": null,
       "winner": {
-        "name": "Lucien Teisseire Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-07",
       "year": 1947,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Lyon - Grenoble",
       "start": {
         "city": "Lyon",
@@ -204,18 +189,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-08",
       "year": 1947,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Grenoble - Briançon",
       "start": {
         "city": "Grenoble",
@@ -232,18 +218,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Fermo Camellini Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Aldo Ronconi Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-09",
       "year": 1947,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Briançon - Digne-les-Bains",
       "start": {
         "city": "Briançon",
@@ -260,18 +247,19 @@
       "length": 217,
       "type": null,
       "winner": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-10",
       "year": 1947,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Digne-les-Bains - Nice",
       "start": {
         "city": "Digne-les-Bains",
@@ -288,18 +276,19 @@
       "length": 255,
       "type": null,
       "winner": {
-        "name": "Fermo Camellini Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-11",
       "year": 1947,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Nice - Marseille",
       "start": {
         "city": "Nice",
@@ -316,18 +305,19 @@
       "length": 230,
       "type": null,
       "winner": {
-        "name": "Édouard Fachleitner Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-12",
       "year": 1947,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Marseille - Montpellier",
       "start": {
         "city": "Marseille",
@@ -344,18 +334,19 @@
       "length": 165,
       "type": null,
       "winner": {
-        "name": "Henri Massal Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-13",
       "year": 1947,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Montpellier - Carcassonne",
       "start": {
         "city": "Montpellier",
@@ -372,18 +363,19 @@
       "length": 172,
       "type": null,
       "winner": {
-        "name": "Lucien Teisseire Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-14",
       "year": 1947,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Carcassonne - Luchon",
       "start": {
         "city": "Carcassonne",
@@ -400,18 +392,19 @@
       "length": 253,
       "type": null,
       "winner": {
-        "name": "Albert Bourlon Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-15",
       "year": 1947,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Luchon - Pau",
       "start": {
         "city": "Luchon",
@@ -428,18 +421,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-16",
       "year": 1947,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 15,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -456,18 +450,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Giuseppe Tacca Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-17",
       "year": 1947,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 16,
       "title": "Bordeaux - Les Sables-d'Olonne",
       "start": {
         "city": "Bordeaux",
@@ -484,18 +479,19 @@
       "length": 272,
       "type": null,
       "winner": {
-        "name": "Éloi Tassin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-18",
       "year": 1947,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 17,
       "title": "Les Sables-d'Olonne - Vannes",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -512,18 +508,19 @@
       "length": 236,
       "type": null,
       "winner": {
-        "name": "Pietro Tarchini Drapeau de Suisse Suisse",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "René Vietto Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-19",
       "year": 1947,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 18,
       "title": "Vannes - Saint-Brieuc",
       "start": {
         "city": "Vannes",
@@ -538,20 +535,21 @@
         "lng": "-2.765835"
       },
       "length": 139,
-      "type": "CLM indiv",
+      "type": null,
       "winner": {
-        "name": "Raymond Impanis Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Pierre Brambilla Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-20",
       "year": 1947,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 19,
       "title": "Saint-Brieuc - Caen",
       "start": {
         "city": "Saint-Brieuc",
@@ -568,18 +566,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Maurice Diot Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Pierre Brambilla Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1947-21",
       "year": 1947,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 20,
       "title": "Caen - Paris",
       "start": {
         "city": "Caen",
@@ -596,11 +595,40 @@
       "length": 257,
       "type": null,
       "winner": {
-        "name": "Albéric Schotte Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jean Robic Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1947-01",
+      "year": 1947,
+      "leg": "1",
+      "leg_num": 21,
+      "title": "Paris - Lille",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Lille",
+        "country": "France",
+        "lat": "50.62925",
+        "lng": "3.057256"
+      },
+      "length": 236,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

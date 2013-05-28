@@ -7,47 +7,27 @@
   "nb_concurrents": 120,
   "nb_finishers": 38,
   "pct_finishers": 32,
-  "winner_name": "Firmin Lambot",
-  "winner_time": "222h 08’ 06”",
+  "winner_first_name": "Firmin",
+  "winner_last_name": "Lambot",
+  "winner_id": "firmin-lambot",
+  "winner_total_time": "222h 08' 06\"",
+  "winner_age": "36",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "24,196",
   "ahead_of_2nd": "0h 41' 15\" ",
   "second_name": "J. Alavoine",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "0h 43' 02\"",
   "third_name": "F. Sellier",
-  "third_country": "F. Sellier",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1922-01",
-      "year": 1922,
-      "leg": 1,
-      "title": "Paris - Le Havre",
-      "start": {
-        "city": "Paris",
-        "country": "France",
-        "lat": "48.856614",
-        "lng": "2.352222"
-      },
-      "finish": {
-        "city": "Le Havre",
-        "country": "France",
-        "lat": "49.49437",
-        "lng": "0.107929"
-      },
-      "length": 388,
-      "type": null,
-      "winner": {
-        "name": "Drapeau de France Robert Jacquinot (FRA)",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau de France Robert Jacquinot (FRA)",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1922-02",
       "year": 1922,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 1,
       "title": "Le Havre - Cherbourg",
       "start": {
         "city": "Le Havre",
@@ -64,18 +44,19 @@
       "length": 364,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Romain Bellenger (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Robert Jacquinot (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-03",
       "year": 1922,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 2,
       "title": "Cherbourg - Brest",
       "start": {
         "city": "Cherbourg",
@@ -92,18 +73,19 @@
       "length": 405,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Robert Jacquinot (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Robert Jacquinot (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-04",
       "year": 1922,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 3,
       "title": "Brest - Les Sables-d'Olonne",
       "start": {
         "city": "Brest",
@@ -120,18 +102,19 @@
       "length": 412,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-05",
       "year": 1922,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 4,
       "title": "Les Sables-d'Olonne - Bayonne",
       "start": {
         "city": "Les Sables-d'Olonne",
@@ -148,18 +131,19 @@
       "length": 482,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-06",
       "year": 1922,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 5,
       "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
@@ -176,18 +160,19 @@
       "length": 326,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Eugène Christophe (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-07",
       "year": 1922,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 6,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -204,18 +189,19 @@
       "length": 323,
       "type": null,
       "winner": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-08",
       "year": 1922,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 7,
       "title": "Perpignan - Toulon",
       "start": {
         "city": "Perpignan",
@@ -232,18 +218,19 @@
       "length": 411,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-09",
       "year": 1922,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 8,
       "title": "Toulon - Nice",
       "start": {
         "city": "Toulon",
@@ -260,18 +247,19 @@
       "length": 284,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-10",
       "year": 1922,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 9,
       "title": "Nice - Briançon",
       "start": {
         "city": "Nice",
@@ -288,18 +276,19 @@
       "length": 274,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-11",
       "year": 1922,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 10,
       "title": "Briançon - Genève",
       "start": {
         "city": "Briançon",
@@ -316,18 +305,19 @@
       "length": 260,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Émile Masson (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de France Jean Alavoine (FRA)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-12",
       "year": 1922,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 11,
       "title": "Genève - Strasbourg",
       "start": {
         "city": "Genève",
@@ -344,18 +334,19 @@
       "length": 371,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Émile Masson (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Hector Heusghem (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-13",
       "year": 1922,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 12,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -372,18 +363,19 @@
       "length": 300,
       "type": null,
       "winner": {
-        "name": "Drapeau d'Italie Federico Gay (ITA)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-14",
       "year": 1922,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 13,
       "title": "Metz - Dunkerque",
       "start": {
         "city": "Metz",
@@ -400,18 +392,19 @@
       "length": 432,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Félix Sellier (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1922-15",
       "year": 1922,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 14,
       "title": "Dunkerque - Paris",
       "start": {
         "city": "Dunkerque",
@@ -428,11 +421,40 @@
       "length": 325,
       "type": null,
       "winner": {
-        "name": "Drapeau de Belgique Philippe Thys (BEL)",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Drapeau de Belgique Firmin Lambot (BEL)",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1922-01",
+      "year": 1922,
+      "leg": "1",
+      "leg_num": 15,
+      "title": "Paris - Le Havre",
+      "start": {
+        "city": "Paris",
+        "country": "France",
+        "lat": "48.856614",
+        "lng": "2.352222"
+      },
+      "finish": {
+        "city": "Le Havre",
+        "country": "France",
+        "lat": "49.49437",
+        "lng": "0.107929"
+      },
+      "length": 388,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

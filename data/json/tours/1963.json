@@ -7,48 +7,28 @@
   "nb_concurrents": 130,
   "nb_finishers": 76,
   "pct_finishers": 58,
-  "winner_name": "Jacques Anquetil",
-  "winner_time": "113h 30’ 05”",
+  "winner_first_name": "Jacques",
+  "winner_last_name": "Anquetil",
+  "winner_id": "jacques-anquetil",
+  "winner_total_time": "113h 30' 05\"",
+  "winner_age": "29",
+  "winner_country": "France",
+  "winner_avg_speed": "37,092",
   "ahead_of_2nd": "0h 03' 35\" ",
   "second_name": "F. Bahamontes",
   "second_country": "Espagne",
+  "second_id": "federico-bahamontes",
   "ahead_of_3rd": "0h 10' 14\"",
   "third_name": "J. Perez-Frances",
-  "third_country": "J. Perez-Frances",
+  "third_country": "Espagne",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1963-01",
-      "year": 1963,
-      "leg": 1,
-      "title": "Nogent-sur-Marne - Épernay",
-      "start": {
-        "city": "Nogent-sur-Marne",
-        "country": "France",
-        "lat": "48.837631",
-        "lng": "2.481699"
-      },
-      "finish": {
-        "city": "Épernay",
-        "country": "France",
-        "lat": "49.043411",
-        "lng": "3.956242"
-      },
-      "length": 152,
-      "type": null,
-      "winner": {
-        "name": "Eddy Pauwels Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Eddy Pauwels Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1963-2a",
       "year": 1963,
-      "leg": 2,
-      "title": "Reims - Jambes (Bel)",
+      "leg": "2a",
+      "leg_num": 1,
+      "title": "Reims - Jambes (Bel.)",
       "start": {
         "city": "Reims",
         "country": "France",
@@ -64,18 +44,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Rik Van Looy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Pauwels Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-2b",
       "year": 1963,
-      "leg": 2,
+      "leg": "2b",
+      "leg_num": 2,
       "title": "Jambes - Jambes",
       "start": {
         "city": "Jambes",
@@ -90,20 +71,21 @@
         "lng": "4.871877"
       },
       "length": 21,
-      "type": "(CLM par équipes)",
+      "type": null,
       "winner": {
-        "name": "Pelforth-Sauvage",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Pauwels Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-03",
       "year": 1963,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Jambes - Roubaix",
       "start": {
         "city": "Jambes",
@@ -120,18 +102,19 @@
       "length": 223,
       "type": null,
       "winner": {
-        "name": "Seamus Elliott Drapeau d'Irlande Irlande",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Seamus Elliott Drapeau d'Irlande Irlande",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-04",
       "year": 1963,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Roubaix - Rouen",
       "start": {
         "city": "Roubaix",
@@ -148,18 +131,19 @@
       "length": 235,
       "type": null,
       "winner": {
-        "name": "Frans Melckenbeeck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Seamus Elliott Drapeau d'Irlande Irlande",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-05",
       "year": 1963,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Rouen - Rennes",
       "start": {
         "city": "Rouen",
@@ -176,18 +160,19 @@
       "length": 285,
       "type": null,
       "winner": {
-        "name": "Antonio Bailetti Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Seamus Elliott Drapeau d'Irlande Irlande",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-6a",
       "year": 1963,
-      "leg": 6,
+      "leg": "6a",
+      "leg_num": 6,
       "title": "Rennes - Angers",
       "start": {
         "city": "Rennes",
@@ -204,18 +189,19 @@
       "length": 118,
       "type": null,
       "winner": {
-        "name": "Roger de Breuker Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Seamus Elliott Drapeau d'Irlande Irlande",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-6b",
       "year": 1963,
-      "leg": 6,
+      "leg": "6b",
+      "leg_num": 7,
       "title": "Angers - Angers",
       "start": {
         "city": "Angers",
@@ -230,20 +216,21 @@
         "lng": "-0.563166"
       },
       "length": 24,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-07",
       "year": 1963,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Angers - Limoges",
       "start": {
         "city": "Angers",
@@ -260,18 +247,19 @@
       "length": 236,
       "type": null,
       "winner": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-08",
       "year": 1963,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Limoges - Bordeaux",
       "start": {
         "city": "Limoges",
@@ -288,18 +276,19 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Rik Van Looy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-09",
       "year": 1963,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Bordeaux - Pau",
       "start": {
         "city": "Bordeaux",
@@ -316,18 +305,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Pino Cerami Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-10",
       "year": 1963,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Pau - Bagnères-de-Bigorre",
       "start": {
         "city": "Pau",
@@ -344,18 +334,19 @@
       "length": 148,
       "type": null,
       "winner": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-11",
       "year": 1963,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Bagnères-de-Bigorre - Luchon",
       "start": {
         "city": "Bagnères-de-Bigorre",
@@ -372,18 +363,19 @@
       "length": 131,
       "type": null,
       "winner": {
-        "name": "Guy Ignolin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-12",
       "year": 1963,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Luchon - Toulouse",
       "start": {
         "city": "Luchon",
@@ -400,18 +392,19 @@
       "length": 207,
       "type": null,
       "winner": {
-        "name": "André Darrigade Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-13",
       "year": 1963,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 14,
       "title": "Toulouse - Aurillac",
       "start": {
         "city": "Toulouse",
@@ -428,18 +421,19 @@
       "length": 234,
       "type": null,
       "winner": {
-        "name": "Rik Van Looy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-14",
       "year": 1963,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 15,
       "title": "Aurillac - Saint-Étienne",
       "start": {
         "city": "Aurillac",
@@ -456,18 +450,19 @@
       "length": 236,
       "type": null,
       "winner": {
-        "name": "Guy Ignolin Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-15",
       "year": 1963,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 16,
       "title": "Saint-Étienne - Grenoble",
       "start": {
         "city": "Saint-Étienne",
@@ -484,18 +479,19 @@
       "length": 174,
       "type": null,
       "winner": {
-        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Gilbert Desmet Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-16",
       "year": 1963,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 17,
       "title": "Grenoble - Val-d'Isère",
       "start": {
         "city": "Grenoble",
@@ -512,18 +508,19 @@
       "length": 202,
       "type": null,
       "winner": {
-        "name": "Fernando Manzaneque Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Federico Bahamontes Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-17",
       "year": 1963,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 18,
       "title": "Val-d'Isère - Chamonix",
       "start": {
         "city": "Val-d'Isère",
@@ -540,18 +537,19 @@
       "length": 227,
       "type": null,
       "winner": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-18",
       "year": 1963,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 19,
       "title": "Chamonix - Lons-le-Saunier",
       "start": {
         "city": "Chamonix",
@@ -568,18 +566,19 @@
       "length": 225,
       "type": null,
       "winner": {
-        "name": "Frans Brands Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-19",
       "year": 1963,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 20,
       "title": "Arbois - Besançon",
       "start": {
         "city": "Arbois",
@@ -594,20 +593,21 @@
         "lng": "6.024054"
       },
       "length": 54,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-20",
       "year": 1963,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 21,
       "title": "Besançon - Troyes",
       "start": {
         "city": "Besançon",
@@ -624,18 +624,19 @@
       "length": 233,
       "type": null,
       "winner": {
-        "name": "Roger de Breuker Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1963-21",
       "year": 1963,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 22,
       "title": "Troyes - Paris",
       "start": {
         "city": "Troyes",
@@ -652,11 +653,40 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Rik Van Looy Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Jacques Anquetil Drapeau de France France",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1963-01",
+      "year": 1963,
+      "leg": "1",
+      "leg_num": 25,
+      "title": "Nogent-sur-Marne - Épernay",
+      "start": {
+        "city": "Nogent-sur-Marne",
+        "country": "France",
+        "lat": "48.837631",
+        "lng": "2.481699"
+      },
+      "finish": {
+        "city": "Épernay",
+        "country": "France",
+        "lat": "49.043411",
+        "lng": "3.956242"
+      },
+      "length": 152,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     }

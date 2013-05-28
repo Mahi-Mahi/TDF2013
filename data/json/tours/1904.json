@@ -7,48 +7,28 @@
   "nb_concurrents": 88,
   "nb_finishers": 15,
   "pct_finishers": 17,
-  "winner_name": "Henri Cornet",
-  "winner_time": "96h 05’ 56”",
+  "winner_first_name": "Henri",
+  "winner_last_name": "Cornet",
+  "winner_id": "henri-cornet",
+  "winner_total_time": "96h 05' 56\"",
+  "winner_age": "19",
+  "winner_country": "France",
+  "winner_avg_speed": "25,265",
   "ahead_of_2nd": "2h 16' 14\" ",
   "second_name": "J-B. Dortignacq",
   "second_country": "France",
+  "second_id": null,
   "ahead_of_3rd": "8 h 07' 20\"",
   "third_name": "A. Catteau",
-  "third_country": "A. Catteau",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1904-01",
-      "year": 1904,
-      "leg": 1,
-      "title": "Montgeron – Lyon",
-      "start": {
-        "city": "Montgeron",
-        "country": "France",
-        "lat": "48.703859",
-        "lng": "2.460453"
-      },
-      "finish": {
-        "city": "Lyon",
-        "country": "France",
-        "lat": "45.764043",
-        "lng": "4.835659"
-      },
-      "length": 467,
-      "type": "plaine",
-      "winner": {
-        "name": "Maurice Garin",
-        "nationality": "France"
-      },
-      "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
-      }
-    },
     {
       "id": "E-1904-02",
       "year": 1904,
-      "leg": 2,
-      "title": "Lyon – Marseille",
+      "leg": "2",
+      "leg_num": 1,
+      "title": "Lyon - Marseille",
       "start": {
         "city": "Lyon",
         "country": "France",
@@ -62,21 +42,22 @@
         "lng": "5.36978"
       },
       "length": 374,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Hippolyte Aucouturier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1904-03",
       "year": 1904,
-      "leg": 3,
-      "title": "Marseille – Toulouse",
+      "leg": "3",
+      "leg_num": 2,
+      "title": "Marseille - Toulouse",
       "start": {
         "city": "Marseille",
         "country": "France",
@@ -90,21 +71,22 @@
         "lng": "1.444209"
       },
       "length": 424,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Hippolyte Aucouturier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1904-04",
       "year": 1904,
-      "leg": 4,
-      "title": "Toulouse – Bordeaux",
+      "leg": "4",
+      "leg_num": 3,
+      "title": "Toulouse - Bordeaux",
       "start": {
         "city": "Toulouse",
         "country": "France",
@@ -118,21 +100,22 @@
         "lng": "-0.57918"
       },
       "length": 268,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Lucien Pothier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1904-05",
       "year": 1904,
-      "leg": 5,
-      "title": "Bordeaux – Nantes",
+      "leg": "5",
+      "leg_num": 4,
+      "title": "Bordeaux - Nantes",
       "start": {
         "city": "Bordeaux",
         "country": "France",
@@ -146,21 +129,22 @@
         "lng": "-1.553621"
       },
       "length": 425,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Hippolyte Aucouturier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       }
     },
     {
       "id": "E-1904-06",
       "year": 1904,
-      "leg": 6,
-      "title": "Nantes – Paris",
+      "leg": "6",
+      "leg_num": 5,
+      "title": "Nantes - Paris",
       "start": {
         "city": "Nantes",
         "country": "France",
@@ -174,14 +158,43 @@
         "lng": "2.352222"
       },
       "length": 471,
-      "type": "plaine",
+      "type": null,
       "winner": {
-        "name": "Hippolyte Aucouturier",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
       },
       "leader": {
-        "name": "Maurice Garin",
-        "nationality": "France"
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1904-01",
+      "year": 1904,
+      "leg": "1",
+      "leg_num": 11,
+      "title": "Montgeron - Lyon",
+      "start": {
+        "city": "Montgeron",
+        "country": "France",
+        "lat": "48.703859",
+        "lng": "2.460453"
+      },
+      "finish": {
+        "city": "Lyon",
+        "country": "France",
+        "lat": "45.764043",
+        "lng": "4.835659"
+      },
+      "length": 467,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
+        "nationality": null
       }
     }
   ]

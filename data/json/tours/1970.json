@@ -3,51 +3,31 @@
   "edition": 57,
   "total_length": 4254,
   "nb_legs": 23,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 150,
   "nb_finishers": 100,
   "pct_finishers": 67,
-  "winner_name": "Eddy Merckx",
-  "winner_time": "119h 31’ 49”",
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "119h 31' 49\"",
+  "winner_age": "25",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,589",
   "ahead_of_2nd": "0h 12' 41\" ",
   "second_name": "J. Zoetemelk",
   "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
   "ahead_of_3rd": "0h 15' 54\"",
   "third_name": "G. Pettersson",
-  "third_country": "G. Pettersson",
+  "third_country": "Suede",
+  "third_id": null,
   "legs": [
-    {
-      "id": "E-1970-Prologue",
-      "year": 1970,
-      "leg": 0,
-      "title": "Limoges",
-      "start": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
-      },
-      "finish": {
-        "city": "Limoges",
-        "country": "France",
-        "lat": "45.833619",
-        "lng": "1.261105"
-      },
-      "length": 7,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
     {
       "id": "E-1970-01",
       "year": 1970,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Limoges - La Rochelle",
       "start": {
         "city": "Limoges",
@@ -64,18 +44,19 @@
       "length": 224,
       "type": null,
       "winner": {
-        "name": "Cyrille Guimard Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-02",
       "year": 1970,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "La Rochelle - Angers",
       "start": {
         "city": "La Rochelle",
@@ -92,18 +73,48 @@
       "length": 200,
       "type": null,
       "winner": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1970-3a",
+      "year": 1970,
+      "leg": "3a",
+      "leg_num": 3,
+      "title": "Angers - Angers",
+      "start": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "finish": {
+        "city": "Angers",
+        "country": "France",
+        "lat": "47.478419",
+        "lng": "-0.563166"
+      },
+      "length": 10,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-3b",
       "year": 1970,
-      "leg": 3,
+      "leg": "3b",
+      "leg_num": 4,
       "title": "Angers - Rennes",
       "start": {
         "city": "Angers",
@@ -120,46 +131,19 @@
       "length": 140,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1970-3a",
-      "year": 1970,
-      "leg": 3,
-      "title": "Angers - Angers",
-      "start": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "finish": {
-        "city": "Angers",
-        "country": "France",
-        "lat": "47.478419",
-        "lng": "-0.563166"
-      },
-      "length": 10,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Faema-Faemino",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-04",
       "year": 1970,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 5,
       "title": "Rennes - Lisieux",
       "start": {
         "city": "Rennes",
@@ -176,18 +160,19 @@
       "length": 229,
       "type": null,
       "winner": {
-        "name": "Walter Godefroot Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-5a",
       "year": 1970,
-      "leg": 5,
+      "leg": "5a",
+      "leg_num": 6,
       "title": "Lisieux - Rouen",
       "start": {
         "city": "Lisieux",
@@ -204,18 +189,19 @@
       "length": 94,
       "type": null,
       "winner": {
-        "name": "Walter Godefroot Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-5b",
       "year": 1970,
-      "leg": 5,
+      "leg": "5b",
+      "leg_num": 7,
       "title": "Rouen - Amiens",
       "start": {
         "city": "Rouen",
@@ -232,18 +218,19 @@
       "length": 113,
       "type": null,
       "winner": {
-        "name": "Jozef Spruyt Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Italo Zilioli Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-06",
       "year": 1970,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 8,
       "title": "Amiens - Valenciennes",
       "start": {
         "city": "Amiens",
@@ -260,19 +247,20 @@
       "length": 135,
       "type": null,
       "winner": {
-        "name": "Roger De Vlaeminck Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-7a",
       "year": 1970,
-      "leg": 7,
-      "title": "Valenciennes - Forest (BEL)",
+      "leg": "7a",
+      "leg_num": 9,
+      "title": "Valenciennes - Forest (Bel.)",
       "start": {
         "city": "Valenciennes",
         "country": "France",
@@ -288,18 +276,19 @@
       "length": 119,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-7b",
       "year": 1970,
-      "leg": 7,
+      "leg": "7b",
+      "leg_num": 10,
       "title": "Forest - Forest",
       "start": {
         "city": "Forest",
@@ -314,21 +303,22 @@
         "lng": "4.316667"
       },
       "length": 7,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "José Antonio González Linares Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-08",
       "year": 1970,
-      "leg": 8,
-      "title": "Ciney (BEL) - Felsberg (RFA)",
+      "leg": "8",
+      "leg_num": 11,
+      "title": "Ciney (Bel.) - Felsberg (RFA)",
       "start": {
         "city": "Ciney",
         "country": "Belgique",
@@ -337,29 +327,30 @@
       },
       "finish": {
         "city": "Felsberg",
-        "country": "Allemagne",
+        "country": "RFA",
         "lat": "\n49.29184",
         "lng": "6.69721"
       },
       "length": 232,
       "type": null,
       "winner": {
-        "name": "Alain Vasseur Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-09",
       "year": 1970,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 12,
       "title": "Saarlouis (RFA) - Mulhouse",
       "start": {
         "city": "Saarlouis",
-        "country": "Allemagne",
+        "country": "RFA",
         "lat": "49.313461",
         "lng": "6.752286"
       },
@@ -372,18 +363,19 @@
       "length": 269,
       "type": null,
       "winner": {
-        "name": "Mogens Frey Drapeau du Danemark Danemark",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-10",
       "year": 1970,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 13,
       "title": "Belfort - Divonne-les-Bains",
       "start": {
         "city": "Belfort",
@@ -400,18 +392,48 @@
       "length": 241,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1970-11a",
+      "year": 1970,
+      "leg": "11a",
+      "leg_num": 14,
+      "title": "Divonne-les-Bains - Divonne-les-Bains",
+      "start": {
+        "city": "Divonne-les-Bains",
+        "country": "France",
+        "lat": "46.358168",
+        "lng": "6.13604"
+      },
+      "finish": {
+        "city": "Divonne-les-Bains",
+        "country": "France",
+        "lat": "46.358168",
+        "lng": "6.13604"
+      },
+      "length": 8,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-11b",
       "year": 1970,
-      "leg": 11,
+      "leg": "11b",
+      "leg_num": 15,
       "title": "Divonne-les-Bains - Thonon-les-Bains",
       "start": {
         "city": "Divonne-les-Bains",
@@ -428,46 +450,19 @@
       "length": 139,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1970-11a",
-      "year": 1970,
-      "leg": 11,
-      "title": "Divonne-les-Bains - Divonne-les-Bains",
-      "start": {
-        "city": "Divonne-les-Bains",
-        "country": "France",
-        "lat": "46.358168",
-        "lng": "6.13604"
-      },
-      "finish": {
-        "city": "Divonne-les-Bains",
-        "country": "France",
-        "lat": "46.358168",
-        "lng": "6.13604"
-      },
-      "length": 8,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-12",
       "year": 1970,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 16,
       "title": "Thonon-les-Bains - Grenoble",
       "start": {
         "city": "Thonon-les-Bains",
@@ -484,18 +479,19 @@
       "length": 194,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-13",
       "year": 1970,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 17,
       "title": "Grenoble - Gap",
       "start": {
         "city": "Grenoble",
@@ -512,18 +508,19 @@
       "length": 195,
       "type": null,
       "winner": {
-        "name": "Primo Mori Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-14",
       "year": 1970,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 18,
       "title": "Gap - Mont Ventoux",
       "start": {
         "city": "Gap",
@@ -540,18 +537,19 @@
       "length": 170,
       "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-15",
       "year": 1970,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 19,
       "title": "Carpentras - Montpellier",
       "start": {
         "city": "Carpentras",
@@ -568,18 +566,19 @@
       "length": 144,
       "type": null,
       "winner": {
-        "name": "Marinus Wagtmans Drapeau : Pays-Bas Pays-Bas",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-16",
       "year": 1970,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 20,
       "title": "Montpellier - Toulouse",
       "start": {
         "city": "Montpellier",
@@ -596,18 +595,19 @@
       "length": 259,
       "type": null,
       "winner": {
-        "name": "Albert Van Vlierberghe Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-17",
       "year": 1970,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 21,
       "title": "Toulouse - Saint-Gaudens",
       "start": {
         "city": "Toulouse",
@@ -624,18 +624,19 @@
       "length": 190,
       "type": null,
       "winner": {
-        "name": "Luis Ocaña Drapeau : EspagneEspagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-18",
       "year": 1970,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 22,
       "title": "Saint-Gaudens - La Mongie",
       "start": {
         "city": "Saint-Gaudens",
@@ -652,18 +653,19 @@
       "length": 135,
       "type": null,
       "winner": {
-        "name": "Bernard Thévenet Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-19",
       "year": 1970,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 23,
       "title": "Bagnères-de-Bigorre - Mourenx",
       "start": {
         "city": "Bagnères-de-Bigorre",
@@ -680,18 +682,19 @@
       "length": 185,
       "type": null,
       "winner": {
-        "name": "Christian Raymond Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-20a",
       "year": 1970,
-      "leg": 20,
+      "leg": "20a",
+      "leg_num": 24,
       "title": "Mourenx - Bordeaux",
       "start": {
         "city": "Mourenx",
@@ -708,18 +711,48 @@
       "length": 231,
       "type": null,
       "winner": {
-        "name": "Rolf Wolfshohl Drapeau d'Allemagne Allemagne",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
+        "nationality": null
+      }
+    },
+    {
+      "id": "E-1970-Prologue",
+      "year": 1970,
+      "leg": "Prologue",
+      "leg_num": 25,
+      "title": "Limoges",
+      "start": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "finish": {
+        "city": "Limoges",
+        "country": "France",
+        "lat": "45.833619",
+        "lng": "1.261105"
+      },
+      "length": 7,
+      "type": null,
+      "winner": {
+        "name": null,
+        "nationality": null
+      },
+      "leader": {
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-20b",
       "year": 1970,
-      "leg": 20,
+      "leg": "20b",
+      "leg_num": 25,
       "title": "Bordeaux - Bordeaux",
       "start": {
         "city": "Bordeaux",
@@ -734,20 +767,21 @@
         "lng": "-0.57918"
       },
       "length": 8,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-21",
       "year": 1970,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 26,
       "title": "Ruffec - Tours",
       "start": {
         "city": "Ruffec",
@@ -764,18 +798,19 @@
       "length": 191,
       "type": null,
       "winner": {
-        "name": "Marino Basso Drapeau d'Italie Italie",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-22",
       "year": 1970,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 27,
       "title": "Tours - Versailles",
       "start": {
         "city": "Tours",
@@ -792,18 +827,19 @@
       "length": 238,
       "type": null,
       "winner": {
-        "name": "Jean-Pierre Danguillaume Drapeau de France France",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     },
     {
       "id": "E-1970-23",
       "year": 1970,
-      "leg": 23,
+      "leg": "23",
+      "leg_num": 28,
       "title": "Versailles - Paris",
       "start": {
         "city": "Versailles",
@@ -818,13 +854,13 @@
         "lng": "2.352222"
       },
       "length": 54,
-      "type": "(CLM)",
+      "type": null,
       "winner": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       },
       "leader": {
-        "name": "Eddy Merckx Drapeau belge Belgique",
+        "name": null,
         "nationality": null
       }
     }
