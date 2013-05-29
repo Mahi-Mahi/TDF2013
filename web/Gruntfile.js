@@ -19,14 +19,14 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      all: {
+      default: {
         src: ['dev/*', 'dist/*', 'src/js/lib/*']
       },
       dev: {
-        src: ['dev/*']
+        src: ['dev/*', 'dev/.*']
       },
       dist: {
-        src: ['dist/*']
+        src: ['dist/*', 'dist/.*']
       }
     },
 
@@ -57,6 +57,21 @@ module.exports = function(grunt) {
         src: 'src/js/main.js'
       }
     },
+
+
+    sass: {
+      dev:{
+        files: {
+          'dev/css/styles.css': 'src/scss/styles.scss'
+        }
+      },
+      release: {
+        files: {
+          'dist/css/styles.css': 'src/scss/styles.scss'
+        }
+      }
+    },
+
 
     // concat all js to scripts.js
 
@@ -89,9 +104,11 @@ module.exports = function(grunt) {
 
     all_files: [
         'index.html',
-        '.htaccess'
+        '.htaccess',
     ],
-
+    all_folders: [
+        'css/'
+    ],
 
     // copy other src files to dest
     copy: {
@@ -102,6 +119,11 @@ module.exports = function(grunt) {
             cwd: 'src/',
             dest: 'dev/',
             filter: 'isFile'
+          }, {
+            expand: true,
+            src: '<%= all_folders %>',
+            cwd: 'src/',
+            dest: 'dev/'
           }
         ]
       },
@@ -121,25 +143,19 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: 'src/js/main.js',
+        files: ['src/js/main.js', 'src/index.html'],
         tasks: ['default'],
         options: {
           interrupt: true,
         },
-      },
-      gruntfile: {
-        files: 'gruntfile.js',
-        tasks: ['default'],
-        options: {
-          interrupt: true,
-        },
-      },
+      }
     }
 
   });
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -163,10 +179,10 @@ module.exports = function(grunt) {
 
   // Default task.
   // jshint & concat to dev/
-  grunt.registerTask('default', ['clean:dev', 'jshint:main', 'concat:dev', 'copy:dev']);
+  grunt.registerTask('default', ['clean:dev', 'jshint:main', 'sass:dev', 'concat:dev', 'copy:dev']);
 
   // build production
-  grunt.registerTask('build', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'uglify']);
+  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'uglify', 'copy:dist']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);

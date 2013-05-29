@@ -12,6 +12,7 @@
   "license": "BSD",
   "devDependencies": {
     "grunt": "latest",
+    "grunt-contrib-sass": "latest",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-jshint": "latest",
