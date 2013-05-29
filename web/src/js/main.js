@@ -11,6 +11,14 @@
 			console.log('setPageBackground');
 		};
 
+		// home
+		Path.root("/");
+
+		// Fight
+		Path.map("/").to(function() {
+			console.log("/home");
+		}).enter(setPageBackground);
+
 		// Fight
 		Path.map("/fight").to(function() {
 			console.log("/fight");
