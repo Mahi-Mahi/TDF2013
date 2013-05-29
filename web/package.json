@@ -17,7 +17,8 @@
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-contrib-copy": "latest",
+    "grunt-contrib-clean": "latest",
     "grunt-img": "latest",
-    "grunt-contrib-clean": "~0.4.1"
+    "grunt-bower": "latest"
   }
 }
