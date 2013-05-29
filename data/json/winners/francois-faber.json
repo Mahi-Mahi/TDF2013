@@ -1,20 +1,45 @@
 {
   "id": "francois-faber",
-  "first_name": "François",
-  "last_name": "Faber",
-  "birthyear": 1887,
-  "country": "Luxembourg",
   "years": {
+    "1906": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1907": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1908": {
+      "position": "2",
+      "nb_wins": 4
+    },
     "1909": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 14,
-      "pct_leading": 86,
-      "nb_leg_wins": 6,
-      "average_speed": 28.658,
-      "total_time": "157h 01’ 22”",
-      "ahead_of_2nd": "n.a."
+      "position": "1",
+      "nb_wins": 6
+    },
+    "1910": {
+      "position": "2",
+      "nb_wins": 3
+    },
+    "1911": {
+      "position": "Abandon",
+      "nb_wins": 2
+    },
+    "1912": {
+      "position": "14",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "5",
+      "nb_wins": 2
+    },
+    "1914": {
+      "position": "9",
+      "nb_wins": 2
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "26/01/1887",
+  "birthdate": "09/05/1915",
+  "deathdate": "Le premier vainqueur non-français du Tour.",
+  "bio": null
 }

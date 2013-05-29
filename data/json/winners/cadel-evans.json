@@ -1,20 +1,41 @@
 {
   "id": "cadel-evans",
-  "first_name": "Cadel",
-  "last_name": "Evans",
-  "birthyear": 1977,
-  "country": "Australie",
   "years": {
+    "2005": {
+      "position": "8",
+      "nb_wins": 0
+    },
+    "2006": {
+      "position": "4",
+      "nb_wins": 0
+    },
+    "2007": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "2008": {
+      "position": "2",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "30",
+      "nb_wins": 0
+    },
+    "2010": {
+      "position": "26",
+      "nb_wins": 0
+    },
     "2011": {
-      "nb_days_in_yellow": 1,
-      "nb_tour_legs": 21,
-      "pct_leading": 5,
-      "nb_leg_wins": 1,
-      "average_speed": 39.788,
-      "total_time": "86h 12’ 22\"",
-      "ahead_of_2nd": "0h01'34''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "2012": {
+      "position": "7",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "14/02/1977",
+  "birthdate": null,
+  "deathdate": "Le premier coureur australien à remporter le Tour.",
+  "bio": null
 }

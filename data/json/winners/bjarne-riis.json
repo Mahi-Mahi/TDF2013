@@ -1,20 +1,49 @@
 {
   "id": "bjarne-riis",
-  "first_name": "Bjarne",
-  "last_name": "Riis",
-  "birthyear": 1964,
-  "country": "Danemark",
   "years": {
+    "1989": {
+      "position": "95",
+      "nb_wins": 0
+    },
+    "1990": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1991": {
+      "position": "107",
+      "nb_wins": 0
+    },
+    "1992": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1993": {
+      "position": "5",
+      "nb_wins": 1
+    },
+    "1994": {
+      "position": "14",
+      "nb_wins": 1
+    },
+    "1995": {
+      "position": "3",
+      "nb_wins": 0
+    },
     "1996": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 21,
-      "pct_leading": 57,
-      "nb_leg_wins": 2,
-      "average_speed": 39.227,
-      "total_time": "95h 57’ 16”",
-      "ahead_of_2nd": "0h01'41''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1997": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1998": {
+      "position": "11",
+      "nb_wins": 0
     }
   },
-  "is_doped": true,
-  "nb_wins": "1"
+  "country": "03/04/1964",
+  "birthdate": null,
+  "deathdate": "Le premier coureur danois à remporter le Tour.",
+  "bio": null
 }

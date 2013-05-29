@@ -1,20 +1,29 @@
 {
   "id": "andy-schleck",
-  "first_name": "Andy",
-  "last_name": "Schleck",
-  "birthyear": 1985,
-  "country": "Luxembourg",
   "years": {
+    "2008": {
+      "position": "11",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "2",
+      "nb_wins": 0
+    },
     "2010": {
-      "nb_days_in_yellow": 11,
-      "nb_tour_legs": 20,
-      "pct_leading": 55,
-      "nb_leg_wins": 2,
-      "average_speed": 39.594,
-      "total_time": "91h 58’ 48\"",
-      "ahead_of_2nd": "0h01'22''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "2011": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "2012": {
+      "position": "Non partant",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "10/06/1985",
+  "birthdate": null,
+  "deathdate": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
+  "bio": null
 }

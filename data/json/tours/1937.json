@@ -7,19 +7,27 @@
   "nb_concurrents": 98,
   "nb_finishers": 46,
   "pct_finishers": 47,
-  "winner_name": "Roger Lapébie",
-  "winner_time": "138h 58’ 31”",
+  "winner_first_name": "Roger",
+  "winner_last_name": "Lapébie",
+  "winner_id": "roger-lapebie",
+  "winner_total_time": "138h 58' 31\"",
+  "winner_age": "26",
+  "winner_country": "France",
+  "winner_avg_speed": "31,768",
   "ahead_of_2nd": "0h 07' 17\" ",
   "second_name": "M. Vicini",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 26' 23\"",
   "third_name": "L. Amberg",
-  "third_country": "L. Amberg",
+  "third_country": "Suisse",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1937-01",
       "year": 1937,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Paris - Lille",
       "start": {
         "city": "Paris",
@@ -33,21 +41,13 @@
         "lat": "50.62925",
         "lng": "3.057256"
       },
-      "length": 263,
-      "type": null,
-      "winner": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
+      "length": 263
     },
     {
       "id": "E-1937-02",
       "year": 1937,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Lille - Charleville-Mézières",
       "start": {
         "city": "Lille",
@@ -61,21 +61,13 @@
         "lat": "49.762085",
         "lng": "4.726096"
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean Majerus Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      }
+      "length": 192
     },
     {
       "id": "E-1937-03",
       "year": 1937,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Charleville-Mézières - Metz",
       "start": {
         "city": "Charleville-Mézières",
@@ -89,21 +81,13 @@
         "lat": "49.119666",
         "lng": "6.176905"
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": "Walter Generati Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Marcel Kint Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 161
     },
     {
       "id": "E-1937-04",
       "year": 1937,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Metz - Belfort",
       "start": {
         "city": "Metz",
@@ -117,21 +101,13 @@
         "lat": "47.639674",
         "lng": "6.863849"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
+      "length": 220
     },
     {
       "id": "E-1937-5a",
       "year": 1937,
-      "leg": 5,
+      "leg": "5a",
+      "leg_num": 5,
       "title": "Belfort - Lons-le-Saunier",
       "start": {
         "city": "Belfort",
@@ -145,21 +121,13 @@
         "lat": "46.671361",
         "lng": "5.550796"
       },
-      "length": 175,
-      "type": null,
-      "winner": {
-        "name": "Henri Puppo Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
+      "length": 175
     },
     {
       "id": "E-1937-5b",
       "year": 1937,
-      "leg": 5,
+      "leg": "5b",
+      "leg_num": 6,
       "title": "Lons-le-Saunier - Champagnole",
       "start": {
         "city": "Lons-le-Saunier",
@@ -173,22 +141,14 @@
         "lat": "46.746091",
         "lng": "5.905725"
       },
-      "length": 34,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
+      "length": 34
     },
     {
       "id": "E-1937-5c",
       "year": 1937,
-      "leg": 5,
-      "title": "Champagnole - Genève (CH)",
+      "leg": "5c",
+      "leg_num": 7,
+      "title": "Champagnole - Genève (Sui.)",
       "start": {
         "city": "Champagnole",
         "country": "France",
@@ -201,22 +161,14 @@
         "lat": "46.198392",
         "lng": "6.142296"
       },
-      "length": 93,
-      "type": null,
-      "winner": {
-        "name": "Léo Amberg Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
+      "length": 93
     },
     {
       "id": "E-1937-06",
       "year": 1937,
-      "leg": 6,
-      "title": "Genève (CH) - Aix-les-Bains",
+      "leg": "6",
+      "leg_num": 8,
+      "title": "Genève (Sui.) - Aix-les-Bains",
       "start": {
         "city": "Genève",
         "country": "Suisse",
@@ -229,21 +181,13 @@
         "lat": "45.692341",
         "lng": "5.908998"
       },
-      "length": 180,
-      "type": null,
-      "winner": {
-        "name": "Gustaaf Deloor Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      }
+      "length": 180
     },
     {
       "id": "E-1937-07",
       "year": 1937,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 9,
       "title": "Aix-les-Bains - Grenoble",
       "start": {
         "city": "Aix-les-Bains",
@@ -257,21 +201,13 @@
         "lat": "45.188529",
         "lng": "5.724524"
       },
-      "length": 228,
-      "type": null,
-      "winner": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
-        "nationality": null
-      }
+      "length": 228
     },
     {
       "id": "E-1937-08",
       "year": 1937,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 10,
       "title": "Grenoble - Briançon",
       "start": {
         "city": "Grenoble",
@@ -285,21 +221,13 @@
         "lat": "44.899416",
         "lng": "6.643179"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": "Otto Weckerling Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Gino Bartali Drapeau : ItalieItalie",
-        "nationality": null
-      }
+      "length": 194
     },
     {
       "id": "E-1937-09",
       "year": 1937,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 11,
       "title": "Briançon - Digne-les-Bains",
       "start": {
         "city": "Briançon",
@@ -313,21 +241,13 @@
         "lat": "44.092193",
         "lng": "6.235976"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 220
     },
     {
       "id": "E-1937-10",
       "year": 1937,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 12,
       "title": "Digne-les-Bains - Nice",
       "start": {
         "city": "Digne-les-Bains",
@@ -341,21 +261,13 @@
         "lat": "43.696036",
         "lng": "7.265592"
       },
-      "length": 251,
-      "type": null,
-      "winner": {
-        "name": "Félicien Vervaecke Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 251
     },
     {
       "id": "E-1937-11a",
       "year": 1937,
-      "leg": 11,
+      "leg": "11a",
+      "leg_num": 13,
       "title": "Nice - Toulon",
       "start": {
         "city": "Nice",
@@ -369,21 +281,13 @@
         "lat": "43.124228",
         "lng": "5.928"
       },
-      "length": 169,
-      "type": null,
-      "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 169
     },
     {
       "id": "E-1937-11b",
       "year": 1937,
-      "leg": 11,
+      "leg": "11b",
+      "leg_num": 14,
       "title": "Toulon - Marseille",
       "start": {
         "city": "Toulon",
@@ -397,21 +301,13 @@
         "lat": "43.296482",
         "lng": "5.36978"
       },
-      "length": 65,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Gustave Danneels Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 65
     },
     {
       "id": "E-1937-12a",
       "year": 1937,
-      "leg": 12,
+      "leg": "12a",
+      "leg_num": 15,
       "title": "Marseille - Nîmes",
       "start": {
         "city": "Marseille",
@@ -425,21 +321,13 @@
         "lat": "43.836699",
         "lng": "4.360054"
       },
-      "length": 112,
-      "type": null,
-      "winner": {
-        "name": "Alphonse Antoine Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 112
     },
     {
       "id": "E-1937-12b",
       "year": 1937,
-      "leg": 12,
+      "leg": "12b",
+      "leg_num": 16,
       "title": "Nîmes - Montpellier",
       "start": {
         "city": "Nîmes",
@@ -453,21 +341,13 @@
         "lat": "43.610769",
         "lng": "3.876716"
       },
-      "length": 51,
-      "type": null,
-      "winner": {
-        "name": "René Pedroli Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 51
     },
     {
       "id": "E-1937-13a",
       "year": 1937,
-      "leg": 13,
+      "leg": "13a",
+      "leg_num": 17,
       "title": "Montpellier - Narbonne",
       "start": {
         "city": "Montpellier",
@@ -481,21 +361,13 @@
         "lat": "43.184277",
         "lng": "3.003078"
       },
-      "length": 103,
-      "type": null,
-      "winner": {
-        "name": "Francesco Camusso Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 103
     },
     {
       "id": "E-1937-13b",
       "year": 1937,
-      "leg": 13,
+      "leg": "13b",
+      "leg_num": 18,
       "title": "Narbonne - Perpignan",
       "start": {
         "city": "Narbonne",
@@ -509,21 +381,13 @@
         "lat": "42.698684",
         "lng": "2.895872"
       },
-      "length": 63,
-      "type": null,
-      "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 63
     },
     {
       "id": "E-1937-14a",
       "year": 1937,
-      "leg": 14,
+      "leg": "14a",
+      "leg_num": 19,
       "title": "Perpignan - Bourg-Madame",
       "start": {
         "city": "Perpignan",
@@ -537,21 +401,13 @@
         "lat": "42.434397",
         "lng": "1.944595"
       },
-      "length": 99,
-      "type": null,
-      "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 99
     },
     {
       "id": "E-1937-14b",
       "year": 1937,
-      "leg": 14,
+      "leg": "14b",
+      "leg_num": 20,
       "title": "Bourg-Madame - Ax-les-Thermes",
       "start": {
         "city": "Bourg-Madame",
@@ -565,21 +421,13 @@
         "lat": "42.720254",
         "lng": "1.837545"
       },
-      "length": 59,
-      "type": null,
-      "winner": {
-        "name": "Mariano Cañardo Drapeau : Seconde République espagnoleEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 59
     },
     {
       "id": "E-1937-14c",
       "year": 1937,
-      "leg": 14,
+      "leg": "14c",
+      "leg_num": 21,
       "title": "Ax-les-Thermes - Luchon",
       "start": {
         "city": "Ax-les-Thermes",
@@ -593,21 +441,13 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 167,
-      "type": null,
-      "winner": {
-        "name": "Éloi Meulenberg Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 167
     },
     {
       "id": "E-1937-15",
       "year": 1937,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 22,
       "title": "Luchon - Pau",
       "start": {
         "city": "Luchon",
@@ -621,21 +461,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": "Julián Berrendero Drapeau : Seconde République espagnoleEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 194
     },
     {
       "id": "E-1937-16",
       "year": 1937,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 23,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -649,77 +481,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 235,
-      "type": null,
-      "winner": {
-        "name": "Paul Chocque Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1937-17c",
-      "year": 1937,
-      "leg": 17,
-      "title": "Saintes - La Rochelle",
-      "start": {
-        "city": "Saintes",
-        "country": "France",
-        "lat": "45.744175",
-        "lng": "-0.633389"
-      },
-      "finish": {
-        "city": "La Rochelle",
-        "country": "France",
-        "lat": "46.160329",
-        "lng": "-1.151139"
-      },
-      "length": 67,
-      "type": null,
-      "winner": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1937-17b",
-      "year": 1937,
-      "leg": 17,
-      "title": "Royan - Saintes",
-      "start": {
-        "city": "Royan",
-        "country": "France",
-        "lat": "45.623027",
-        "lng": "-1.043182"
-      },
-      "finish": {
-        "city": "Saintes",
-        "country": "France",
-        "lat": "45.744175",
-        "lng": "-0.633389"
-      },
-      "length": 37,
-      "type": null,
-      "winner": {
-        "name": "Adolf Braeckeveldt Drapeau belge Belgique || Heinz Wengler Drapeau : Allemagne Reich allemand",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "length": 235
     },
     {
       "id": "E-1937-17a",
       "year": 1937,
-      "leg": 17,
+      "leg": "17a",
+      "leg_num": 24,
       "title": "Bordeaux - Royan",
       "start": {
         "city": "Bordeaux",
@@ -733,21 +501,53 @@
         "lat": "45.623027",
         "lng": "-1.043182"
       },
-      "length": 123,
-      "type": null,
-      "winner": {
-        "name": "Erich Bautz Drapeau : Allemagne Reich allemand",
-        "nationality": null
+      "length": 123
+    },
+    {
+      "id": "E-1937-17b",
+      "year": 1937,
+      "leg": "17b",
+      "leg_num": 25,
+      "title": "Royan - Saintes",
+      "start": {
+        "city": "Royan",
+        "country": "France",
+        "lat": "45.623027",
+        "lng": "-1.043182"
       },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "finish": {
+        "city": "Saintes",
+        "country": "France",
+        "lat": "45.744175",
+        "lng": "-0.633389"
+      },
+      "length": 37
+    },
+    {
+      "id": "E-1937-17c",
+      "year": 1937,
+      "leg": "17c",
+      "leg_num": 26,
+      "title": "Saintes - La Rochelle",
+      "start": {
+        "city": "Saintes",
+        "country": "France",
+        "lat": "45.744175",
+        "lng": "-0.633389"
+      },
+      "finish": {
+        "city": "La Rochelle",
+        "country": "France",
+        "lat": "46.160329",
+        "lng": "-1.151139"
+      },
+      "length": 67
     },
     {
       "id": "E-1937-18a",
       "year": 1937,
-      "leg": 18,
+      "leg": "18a",
+      "leg_num": 27,
       "title": "La Rochelle - La Roche-sur-Yon",
       "start": {
         "city": "La Rochelle",
@@ -761,21 +561,13 @@
         "lat": "46.670511",
         "lng": "-1.426442"
       },
-      "length": 81,
-      "type": null,
-      "winner": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "length": 81
     },
     {
       "id": "E-1937-18b",
       "year": 1937,
-      "leg": 18,
+      "leg": "18b",
+      "leg_num": 28,
       "title": "La Roche-sur-Yon - Rennes",
       "start": {
         "city": "La Roche-sur-Yon",
@@ -789,49 +581,13 @@
         "lat": "48.113475",
         "lng": "-1.675708"
       },
-      "length": 172,
-      "type": null,
-      "winner": {
-        "name": "Paul Chocque Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1937-19b",
-      "year": 1937,
-      "leg": 19,
-      "title": "Vire - Caen",
-      "start": {
-        "city": "Vire",
-        "country": "France",
-        "lat": "48.837781",
-        "lng": "-0.888482"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 59,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Léo Amberg Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "length": 172
     },
     {
       "id": "E-1937-19a",
       "year": 1937,
-      "leg": 19,
+      "leg": "19a",
+      "leg_num": 29,
       "title": "Rennes - Vire",
       "start": {
         "city": "Rennes",
@@ -845,21 +601,33 @@
         "lat": "48.837781",
         "lng": "-0.888482"
       },
-      "length": 114,
-      "type": null,
-      "winner": {
-        "name": "Raymond Passat Drapeau de France France",
-        "nationality": null
+      "length": 114
+    },
+    {
+      "id": "E-1937-19b",
+      "year": 1937,
+      "leg": "19b",
+      "leg_num": 30,
+      "title": "Vire - Caen",
+      "start": {
+        "city": "Vire",
+        "country": "France",
+        "lat": "48.837781",
+        "lng": "-0.888482"
       },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 59
     },
     {
       "id": "E-1937-20",
       "year": 1937,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 31,
       "title": "Caen - Paris",
       "start": {
         "city": "Caen",
@@ -873,16 +641,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 234,
-      "type": null,
-      "winner": {
-        "name": "Edward Vissers Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      }
+      "length": 234
     }
   ]
 }

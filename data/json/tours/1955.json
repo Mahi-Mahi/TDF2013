@@ -7,19 +7,27 @@
   "nb_concurrents": 130,
   "nb_finishers": 69,
   "pct_finishers": 53,
-  "winner_name": "Louison Bobet",
-  "winner_time": "130h 29’ 26”",
+  "winner_first_name": "Louison",
+  "winner_last_name": "Bobet",
+  "winner_id": "louison-bobet",
+  "winner_total_time": "130h 29' 26\"",
+  "winner_age": "30",
+  "winner_country": "France",
+  "winner_avg_speed": "34,446",
   "ahead_of_2nd": "0h 04' 53\" ",
   "second_name": "J. Brankart",
   "second_country": "Belgique",
+  "second_id": null,
   "ahead_of_3rd": "0h 11' 30\"",
   "third_name": "C. Gaul",
-  "third_country": "C. Gaul",
+  "third_country": "Luxembourg",
+  "third_id": "charly-gaul",
   "legs": [
     {
       "id": "E-1955-1a",
       "year": 1955,
-      "leg": 1,
+      "leg": "1a",
+      "leg_num": 1,
       "title": "Le Havre - Dieppe",
       "start": {
         "city": "Le Havre",
@@ -33,21 +41,13 @@
         "lat": "49.922992",
         "lng": "1.077483"
       },
-      "length": 216,
-      "type": null,
-      "winner": {
-        "name": "Miguel Poblet Drapeau : EspagneEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Miguel Poblet Drapeau : EspagneEspagne",
-        "nationality": null
-      }
+      "length": 216
     },
     {
       "id": "E-1955-1b",
       "year": 1955,
-      "leg": 1,
+      "leg": "1b",
+      "leg_num": 2,
       "title": "Dieppe - Dieppe",
       "start": {
         "city": "Dieppe",
@@ -61,21 +61,13 @@
         "lat": "49.922992",
         "lng": "1.077483"
       },
-      "length": 13,
-      "type": " (CLM par équipes)",
-      "winner": {
-        "name": "Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Miguel Poblet Drapeau : EspagneEspagne",
-        "nationality": null
-      }
+      "length": 13
     },
     {
       "id": "E-1955-02",
       "year": 1955,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 3,
       "title": "Dieppe - Roubaix",
       "start": {
         "city": "Dieppe",
@@ -89,22 +81,14 @@
         "lat": "50.692705",
         "lng": "3.177847"
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
+      "length": 204
     },
     {
       "id": "E-1955-03",
       "year": 1955,
-      "leg": 3,
-      "title": "Roubaix - Namur (BEL)",
+      "leg": "3",
+      "leg_num": 4,
+      "title": "Roubaix - Namur (Bel.)",
       "start": {
         "city": "Roubaix",
         "country": "France",
@@ -117,22 +101,14 @@
         "lat": "50.465328",
         "lng": "4.867665"
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
+      "length": 210
     },
     {
       "id": "E-1955-04",
       "year": 1955,
-      "leg": 4,
-      "title": "Namur (BEL) - Metz",
+      "leg": "4",
+      "leg_num": 5,
+      "title": "Namur (Bel.) - Metz",
       "start": {
         "city": "Namur",
         "country": "Belgique",
@@ -145,21 +121,13 @@
         "lat": "49.119666",
         "lng": "6.176905"
       },
-      "length": 225,
-      "type": null,
-      "winner": {
-        "name": "Willy Kemp Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 225
     },
     {
       "id": "E-1955-05",
       "year": 1955,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 6,
       "title": "Metz - Colmar",
       "start": {
         "city": "Metz",
@@ -173,22 +141,14 @@
         "lat": "48.079359",
         "lng": "7.358512"
       },
-      "length": 229,
-      "type": null,
-      "winner": {
-        "name": "Roger Hassenforder Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 229
     },
     {
       "id": "E-1955-06",
       "year": 1955,
-      "leg": 6,
-      "title": "Colmar - Zurich (CH)",
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Colmar - Zurich (Sui.)",
       "start": {
         "city": "Colmar",
         "country": "France",
@@ -201,22 +161,14 @@
         "lat": "47.36865",
         "lng": "8.539182"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "André Darrigade Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 195
     },
     {
       "id": "E-1955-07",
       "year": 1955,
-      "leg": 7,
-      "title": "Zurich (CH) - Thonon-les-Bains",
+      "leg": "7",
+      "leg_num": 8,
+      "title": "Zurich (Sui.) - Thonon-les-Bains",
       "start": {
         "city": "Zurich",
         "country": "Suisse",
@@ -229,21 +181,13 @@
         "lat": "46.373565",
         "lng": "6.477635"
       },
-      "length": 267,
-      "type": null,
-      "winner": {
-        "name": "Jos Hinsen Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Wim van Est Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
+      "length": 267
     },
     {
       "id": "E-1955-08",
       "year": 1955,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Thonon-les-Bains - Briançon",
       "start": {
         "city": "Thonon-les-Bains",
@@ -257,21 +201,13 @@
         "lat": "44.899416",
         "lng": "6.643179"
       },
-      "length": 253,
-      "type": null,
-      "winner": {
-        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 253
     },
     {
       "id": "E-1955-09",
       "year": 1955,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Briançon - Monaco",
       "start": {
         "city": "Briançon",
@@ -285,21 +221,13 @@
         "lat": "43.738418",
         "lng": "7.424616"
       },
-      "length": 275,
-      "type": null,
-      "winner": {
-        "name": "Raphaël Géminiani Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 275
     },
     {
       "id": "E-1955-10",
       "year": 1955,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Monaco - Marseille",
       "start": {
         "city": "Monaco",
@@ -313,21 +241,13 @@
         "lat": "43.296482",
         "lng": "5.36978"
       },
-      "length": 240,
-      "type": null,
-      "winner": {
-        "name": "Lucien Lazaridès Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 240
     },
     {
       "id": "E-1955-11",
       "year": 1955,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Marseille - Avignon",
       "start": {
         "city": "Marseille",
@@ -341,21 +261,13 @@
         "lat": "43.949317",
         "lng": "4.805528"
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 198
     },
     {
       "id": "E-1955-12",
       "year": 1955,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Avignon - Millau",
       "start": {
         "city": "Avignon",
@@ -369,21 +281,13 @@
         "lat": "44.100575",
         "lng": "3.077801"
       },
-      "length": 240,
-      "type": null,
-      "winner": {
-        "name": "Alessandro Fantini Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 240
     },
     {
       "id": "E-1955-13",
       "year": 1955,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 14,
       "title": "Millau - Albi",
       "start": {
         "city": "Millau",
@@ -397,21 +301,13 @@
         "lat": "43.926896",
         "lng": "2.146343"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": "Daan de Groot Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 205
     },
     {
       "id": "E-1955-14",
       "year": 1955,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 15,
       "title": "Albi - Narbonne",
       "start": {
         "city": "Albi",
@@ -425,21 +321,13 @@
         "lat": "43.184277",
         "lng": "3.003078"
       },
-      "length": 156,
-      "type": null,
-      "winner": {
-        "name": "Louis Caput Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 156
     },
     {
       "id": "E-1955-15",
       "year": 1955,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 16,
       "title": "Narbonne - Ax-les-Thermes",
       "start": {
         "city": "Narbonne",
@@ -453,21 +341,13 @@
         "lat": "42.720254",
         "lng": "1.837545"
       },
-      "length": 151,
-      "type": null,
-      "winner": {
-        "name": "Luciano Pezzi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 151
     },
     {
       "id": "E-1955-16",
       "year": 1955,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 17,
       "title": "Ax-les-Thermes - Toulouse",
       "start": {
         "city": "Ax-les-Thermes",
@@ -481,21 +361,13 @@
         "lat": "43.604652",
         "lng": "1.444209"
       },
-      "length": 123,
-      "type": null,
-      "winner": {
-        "name": "Rik Van Steenbergen Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Antonin Rolland Drapeau de France France",
-        "nationality": null
-      }
+      "length": 123
     },
     {
       "id": "E-1955-17",
       "year": 1955,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 18,
       "title": "Toulouse - Saint-Gaudens",
       "start": {
         "city": "Toulouse",
@@ -509,21 +381,13 @@
         "lat": "43.106895",
         "lng": "0.723763"
       },
-      "length": 249,
-      "type": null,
-      "winner": {
-        "name": "Charly Gaul Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 249
     },
     {
       "id": "E-1955-18",
       "year": 1955,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 19,
       "title": "Saint-Gaudens - Pau",
       "start": {
         "city": "Saint-Gaudens",
@@ -537,21 +401,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "Jean Brankart Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 206
     },
     {
       "id": "E-1955-19",
       "year": 1955,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 20,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -565,21 +421,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Wout Wagtmans Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 195
     },
     {
       "id": "E-1955-20",
       "year": 1955,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 21,
       "title": "Bordeaux - Poitiers",
       "start": {
         "city": "Bordeaux",
@@ -593,21 +441,13 @@
         "lat": "46.580224",
         "lng": "0.340375"
       },
-      "length": 243,
-      "type": null,
-      "winner": {
-        "name": "Jean Forestier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 243
     },
     {
       "id": "E-1955-21",
       "year": 1955,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 22,
       "title": "Châtellerault - Tours",
       "start": {
         "city": "Châtellerault",
@@ -621,21 +461,13 @@
         "lat": "47.394144",
         "lng": "0.68484"
       },
-      "length": 69,
-      "type": " (CLM)",
-      "winner": {
-        "name": "Jean Brankart Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 69
     },
     {
       "id": "E-1955-22",
       "year": 1955,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 23,
       "title": "Tours - Paris",
       "start": {
         "city": "Tours",
@@ -649,16 +481,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 229,
-      "type": null,
-      "winner": {
-        "name": "Miguel Poblet Drapeau : EspagneEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Louison Bobet Drapeau de France France",
-        "nationality": null
-      }
+      "length": 229
     }
   ]
 }

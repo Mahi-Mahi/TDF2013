@@ -1,20 +1,57 @@
 {
   "id": "odile-defraye",
-  "first_name": "Odile",
-  "last_name": "Defraye",
-  "birthyear": 1888,
-  "country": "Belgique",
   "years": {
+    "1909": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1910": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1911": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
     "1912": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 15,
-      "pct_leading": 80,
-      "nb_leg_wins": 3,
-      "average_speed": 27.763,
-      "total_time": "190h 30’ 28”",
-      "ahead_of_2nd": "n.a."
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1913": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1914": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1919": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1920": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1921": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1922": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1923": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1924": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "14/07/1888",
+  "birthdate": "21/08/1965",
+  "deathdate": "Le premier coureur belge à remporter le Tour.",
+  "bio": null
 }

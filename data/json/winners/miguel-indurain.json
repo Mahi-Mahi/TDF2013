@@ -1,56 +1,57 @@
 {
   "id": "miguel-indurain",
-  "first_name": "Miguel",
-  "last_name": "Indurain",
-  "birthyear": 1964,
-  "country": "Espagne",
   "years": {
+    "1985": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1986": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1987": {
+      "position": "97",
+      "nb_wins": 0
+    },
+    "1988": {
+      "position": "47",
+      "nb_wins": 0
+    },
+    "1989": {
+      "position": "17",
+      "nb_wins": 1
+    },
+    "1990": {
+      "position": "10",
+      "nb_wins": 1
+    },
     "1991": {
-      "nb_days_in_yellow": 9,
-      "nb_tour_legs": 22,
-      "pct_leading": 41,
-      "nb_leg_wins": 2,
-      "average_speed": 38.747,
-      "total_time": "101h 01’ 20”",
-      "ahead_of_2nd": "0h03'36''"
+      "position": "1",
+      "nb_wins": 2
     },
     "1992": {
-      "nb_days_in_yellow": 9,
-      "nb_tour_legs": 21,
-      "pct_leading": 43,
-      "nb_leg_wins": 3,
-      "average_speed": 39.504,
-      "total_time": "100h 49’ 30”",
-      "ahead_of_2nd": "0h04'35''"
+      "position": "1",
+      "nb_wins": 3
     },
     "1993": {
-      "nb_days_in_yellow": 13,
-      "nb_tour_legs": 20,
-      "pct_leading": 65,
-      "nb_leg_wins": 2,
-      "average_speed": 38.709,
-      "total_time": "95h 57’ 09”",
-      "ahead_of_2nd": "0h04'59''"
+      "position": "1",
+      "nb_wins": 2
     },
     "1994": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 21,
-      "pct_leading": 57,
-      "nb_leg_wins": 1,
-      "average_speed": 38.383,
-      "total_time": "103h 38’ 38”",
-      "ahead_of_2nd": "0h05'39''"
+      "position": "1",
+      "nb_wins": 1
     },
     "1995": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 20,
-      "pct_leading": 60,
-      "nb_leg_wins": 2,
-      "average_speed": 39.193,
-      "total_time": "92h 44’ 59”",
-      "ahead_of_2nd": "0h04'35''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1996": {
+      "position": "11",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "5"
+  "country": "16/07/1964",
+  "birthdate": null,
+  "deathdate": "Le premier coureur à reporter le Tour cinq fois consécutivement.",
+  "bio": null
 }

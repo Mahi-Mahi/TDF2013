@@ -7,19 +7,27 @@
   "nb_concurrents": 130,
   "nb_finishers": 82,
   "pct_finishers": 63,
-  "winner_name": "Lucien Aimar",
-  "winner_time": "117h 34’ 21”",
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Aimar",
+  "winner_id": "lucien-aimar",
+  "winner_total_time": "117h 34' 21\"",
+  "winner_age": "25",
+  "winner_country": "France",
+  "winner_avg_speed": "36,760",
   "ahead_of_2nd": "0h 01' 07\" ",
   "second_name": "J. Janssen",
   "second_country": "Pays-Bas",
+  "second_id": "jan-janssen",
   "ahead_of_3rd": "0h 02' 02\"",
   "third_name": "R. Poulidor",
-  "third_country": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1966-01",
       "year": 1966,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Nancy - Charleville-Mézières",
       "start": {
         "city": "Nancy",
@@ -33,21 +41,13 @@
         "lat": "49.762085",
         "lng": "4.726096"
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 208
     },
     {
       "id": "E-1966-02",
       "year": 1966,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Charleville-Mézières - Tournai",
       "start": {
         "city": "Charleville-Mézières",
@@ -61,21 +61,13 @@
         "lat": "50.605606",
         "lng": "3.388037"
       },
-      "length": 198,
-      "type": null,
-      "winner": {
-        "name": "Guido Reybrouck Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 198
     },
     {
       "id": "E-1966-3a",
       "year": 1966,
-      "leg": 3,
+      "leg": "3a",
+      "leg_num": 3,
       "title": "Tournai - Tournai",
       "start": {
         "city": "Tournai",
@@ -89,21 +81,13 @@
         "lat": "50.605606",
         "lng": "3.388037"
       },
-      "length": 21,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Televizier-Batavus",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 21
     },
     {
       "id": "E-1966-3b",
       "year": 1966,
-      "leg": 3,
+      "leg": "3b",
+      "leg_num": 4,
       "title": "Tournai - Dunkerque",
       "start": {
         "city": "Tournai",
@@ -117,21 +101,13 @@
         "lat": "51.03456",
         "lng": "2.375202"
       },
-      "length": 131,
-      "type": null,
-      "winner": {
-        "name": "Gerben Karstens Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 131
     },
     {
       "id": "E-1966-04",
       "year": 1966,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 5,
       "title": "Dunkerque - Dieppe",
       "start": {
         "city": "Dunkerque",
@@ -145,21 +121,13 @@
         "lat": "49.922992",
         "lng": "1.077483"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": "Willy Planckaert Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 205
     },
     {
       "id": "E-1966-05",
       "year": 1966,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 6,
       "title": "Dieppe - Caen",
       "start": {
         "city": "Dieppe",
@@ -173,21 +141,13 @@
         "lat": "49.182863",
         "lng": "-0.370679"
       },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": "Franco Bitossi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 178
     },
     {
       "id": "E-1966-06",
       "year": 1966,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 7,
       "title": "Caen - Angers",
       "start": {
         "city": "Caen",
@@ -201,21 +161,13 @@
         "lat": "47.478419",
         "lng": "-0.563166"
       },
-      "length": 216,
-      "type": null,
-      "winner": {
-        "name": "Edward Sels Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 216
     },
     {
       "id": "E-1966-07",
       "year": 1966,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Angers - Royan",
       "start": {
         "city": "Angers",
@@ -229,21 +181,13 @@
         "lat": "45.623027",
         "lng": "-1.043182"
       },
-      "length": 252,
-      "type": null,
-      "winner": {
-        "name": "Albert Van Vlierberghe Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 252
     },
     {
       "id": "E-1966-08",
       "year": 1966,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Royan - Bordeaux",
       "start": {
         "city": "Royan",
@@ -257,21 +201,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 137,
-      "type": null,
-      "winner": {
-        "name": "Willy Planckaert Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 137
     },
     {
       "id": "E-1966-09",
       "year": 1966,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Bordeaux - Bayonne",
       "start": {
         "city": "Bordeaux",
@@ -285,21 +221,13 @@
         "lat": "43.492949",
         "lng": "-1.474841"
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": "Gerben Karstens Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 201
     },
     {
       "id": "E-1966-10",
       "year": 1966,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Bayonne - Pau",
       "start": {
         "city": "Bayonne",
@@ -313,21 +241,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 234,
-      "type": null,
-      "winner": {
-        "name": "Tommaso De Pra Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Tommaso De Pra Drapeau d'Italie Italie",
-        "nationality": null
-      }
+      "length": 234
     },
     {
       "id": "E-1966-11",
       "year": 1966,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -341,21 +261,13 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": "Marcello Mugnaini Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean-Claude Lebaube Drapeau de France France",
-        "nationality": null
-      }
+      "length": 188
     },
     {
       "id": "E-1966-12",
       "year": 1966,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Luchon - Revel",
       "start": {
         "city": "Luchon",
@@ -369,21 +281,13 @@
         "lat": "43.458611",
         "lng": "2.004573"
       },
-      "length": 218,
-      "type": null,
-      "winner": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Karl-Heinz Kunde Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 218
     },
     {
       "id": "E-1966-13",
       "year": 1966,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 14,
       "title": "Revel - Sète",
       "start": {
         "city": "Revel",
@@ -397,21 +301,13 @@
         "lat": "43.40215",
         "lng": "3.696624"
       },
-      "length": 191,
-      "type": null,
-      "winner": {
-        "name": "Georges Vandenberghe Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Karl-Heinz Kunde Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 191
     },
     {
       "id": "E-1966-14a",
       "year": 1966,
-      "leg": 14,
+      "leg": "14a",
+      "leg_num": 15,
       "title": "Montpellier - Aubenas",
       "start": {
         "city": "Montpellier",
@@ -425,21 +321,13 @@
         "lat": "44.620909",
         "lng": "4.389863"
       },
-      "length": 144,
-      "type": null,
-      "winner": {
-        "name": "Jo de Roo Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Karl-Heinz Kunde Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 144
     },
     {
       "id": "E-1966-14b",
       "year": 1966,
-      "leg": 14,
+      "leg": "14b",
+      "leg_num": 16,
       "title": "Vals-les-Bains - Vals-les-Bains",
       "start": {
         "city": "Vals-les-Bains",
@@ -453,21 +341,13 @@
         "lat": "44.66515",
         "lng": "4.36487"
       },
-      "length": 20,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Raymond Poulidor Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Karl-Heinz Kunde Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 20
     },
     {
       "id": "E-1966-15",
       "year": 1966,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 17,
       "title": "Privas - Le Bourg-d'Oisans",
       "start": {
         "city": "Privas",
@@ -481,21 +361,13 @@
         "lat": "45.051951",
         "lng": "6.030064"
       },
-      "length": 203,
-      "type": null,
-      "winner": {
-        "name": "Luís Otaño Drapeau d'Espagne Espagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Karl-Heinz Kunde Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 203
     },
     {
       "id": "E-1966-16",
       "year": 1966,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 18,
       "title": "Le Bourg-d'Oisans - Briançon",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -509,21 +381,13 @@
         "lat": "44.899416",
         "lng": "6.643179"
       },
-      "length": 148,
-      "type": null,
-      "winner": {
-        "name": "Julio Jiménez Drapeau d'Espagne Espagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jan Janssen Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      }
+      "length": 148
     },
     {
       "id": "E-1966-17",
       "year": 1966,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 19,
       "title": "Briançon - Turin",
       "start": {
         "city": "Briançon",
@@ -537,21 +401,13 @@
         "lat": "45.070982",
         "lng": "7.685676"
       },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": "Franco Bitossi Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 160
     },
     {
       "id": "E-1966-18",
       "year": 1966,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 20,
       "title": "Ivrée - Chamonix",
       "start": {
         "city": "Ivrée",
@@ -565,21 +421,13 @@
         "lat": "45.923697",
         "lng": "6.869433"
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": "Edy Schütz Drapeau du Luxembourg Luxembourg",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 188
     },
     {
       "id": "E-1966-19",
       "year": 1966,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 21,
       "title": "Chamonix-Saint-Étienne",
       "start": {
         "city": "Chamonix",
@@ -593,21 +441,13 @@
         "lat": "45.439695",
         "lng": "4.387178"
       },
-      "length": 264,
-      "type": null,
-      "winner": {
-        "name": "Ferdinand Bracke Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 264
     },
     {
       "id": "E-1966-20",
       "year": 1966,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 22,
       "title": "Saint-Étienne - Montluçon",
       "start": {
         "city": "Saint-Étienne",
@@ -621,21 +461,13 @@
         "lat": "46.339966",
         "lng": "2.606645"
       },
-      "length": 223,
-      "type": null,
-      "winner": {
-        "name": "Henk Nijdam Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 223
     },
     {
       "id": "E-1966-21",
       "year": 1966,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 23,
       "title": "Montluçon - Orléans",
       "start": {
         "city": "Montluçon",
@@ -649,21 +481,13 @@
         "lat": "47.902964",
         "lng": "1.909251"
       },
-      "length": 232,
-      "type": null,
-      "winner": {
-        "name": "Pierre Beuffeuil Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 232
     },
     {
       "id": "E-1966-22a",
       "year": 1966,
-      "leg": 22,
+      "leg": "22a",
+      "leg_num": 24,
       "title": "Orléans - Rambouillet",
       "start": {
         "city": "Orléans",
@@ -677,21 +501,13 @@
         "lat": "48.643868",
         "lng": "1.829079"
       },
-      "length": 111,
-      "type": null,
-      "winner": {
-        "name": "Edward Sels Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 111
     },
     {
       "id": "E-1966-22b",
       "year": 1966,
-      "leg": 22,
+      "leg": "22b",
+      "leg_num": 25,
       "title": "Rambouillet - Paris",
       "start": {
         "city": "Rambouillet",
@@ -705,16 +521,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 51,
-      "type": null,
-      "winner": {
-        "name": "Rudi Altig Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Aimar Drapeau de France France",
-        "nationality": null
-      }
+      "length": 51
     }
   ]
 }

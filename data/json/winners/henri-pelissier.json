@@ -1,20 +1,49 @@
 {
   "id": "henri-pelissier",
-  "first_name": "Henri",
-  "last_name": "Pélissier",
-  "birthyear": 1889,
-  "country": "France",
   "years": {
+    "1912": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1914": {
+      "position": "2",
+      "nb_wins": 3
+    },
+    "1919": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1920": {
+      "position": "Abandon",
+      "nb_wins": 2
+    },
+    "1921": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1922": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
     "1923": {
-      "nb_days_in_yellow": 5,
-      "nb_tour_legs": 15,
-      "pct_leading": 33,
-      "nb_leg_wins": 3,
-      "average_speed": 24.233,
-      "total_time": "222h 15’ 30”",
-      "ahead_of_2nd": "0h30'41''"
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1924": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1925": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "22/01/1889",
+  "birthdate": "01/05/1935",
+  "deathdate": null,
+  "bio": null
 }

@@ -1,29 +1,25 @@
 {
   "id": "fausto-coppi",
-  "first_name": "Fausto",
-  "last_name": "Coppi",
-  "birthyear": 1920,
-  "country": "Italie",
   "years": {
     "1949": {
-      "nb_days_in_yellow": 4,
-      "nb_tour_legs": 21,
-      "pct_leading": 19,
-      "nb_leg_wins": 2,
-      "average_speed": 32.121,
-      "total_time": "149h 40’ 49”",
-      "ahead_of_2nd": "0h10'55''"
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1950": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1951": {
+      "position": "10",
+      "nb_wins": 1
     },
     "1952": {
-      "nb_days_in_yellow": 13,
-      "nb_tour_legs": 23,
-      "pct_leading": 57,
-      "nb_leg_wins": 5,
-      "average_speed": 32.233,
-      "total_time": "151h 57’ 20”",
-      "ahead_of_2nd": "0h28'17''"
+      "position": "1",
+      "nb_wins": 5
     }
   },
-  "is_doped": false,
-  "nb_wins": "2"
+  "country": "15/09/1919",
+  "birthdate": "02/01/1960",
+  "deathdate": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949.",
+  "bio": null
 }

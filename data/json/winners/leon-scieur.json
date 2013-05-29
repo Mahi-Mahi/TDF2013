@@ -1,20 +1,37 @@
 {
   "id": "leon-scieur",
-  "first_name": "Léon",
-  "last_name": "Scieur",
-  "birthyear": 1888,
-  "country": "Belgique",
   "years": {
+    "1914": {
+      "position": "14",
+      "nb_wins": 0
+    },
+    "1919": {
+      "position": "4",
+      "nb_wins": 0
+    },
+    "1920": {
+      "position": "4",
+      "nb_wins": 1
+    },
     "1921": {
-      "nb_days_in_yellow": 13,
-      "nb_tour_legs": 15,
-      "pct_leading": 87,
-      "nb_leg_wins": 2,
-      "average_speed": 24.724,
-      "total_time": "221h 50’ 26”",
-      "ahead_of_2nd": "0h18'36''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1922": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1923": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1924": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "19/03/1888",
+  "birthdate": "07/10/1969",
+  "deathdate": null,
+  "bio": null
 }

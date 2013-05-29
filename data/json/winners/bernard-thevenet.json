@@ -1,29 +1,57 @@
 {
   "id": "bernard-thevenet",
-  "first_name": "Bernard",
-  "last_name": "Thévenet",
-  "birthyear": 1948,
-  "country": "France",
   "years": {
+    "1970": {
+      "position": "35",
+      "nb_wins": 1
+    },
+    "1971": {
+      "position": "4",
+      "nb_wins": 1
+    },
+    "1972": {
+      "position": "9",
+      "nb_wins": 2
+    },
+    "1973": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1974": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
     "1975": {
-      "nb_days_in_yellow": 6,
-      "nb_tour_legs": 22,
-      "pct_leading": 27,
-      "nb_leg_wins": 2,
-      "average_speed": 34.906,
-      "total_time": "114h 35’ 31”",
-      "ahead_of_2nd": "0h02'47''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1976": {
+      "position": "Abandon",
+      "nb_wins": 0
     },
     "1977": {
-      "nb_days_in_yellow": 7,
-      "nb_tour_legs": 22,
-      "pct_leading": 32,
-      "nb_leg_wins": 1,
-      "average_speed": 35.419,
-      "total_time": "115h 38’ 30”",
-      "ahead_of_2nd": "0h00'48''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1978": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1979": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1980": {
+      "position": "17",
+      "nb_wins": 0
+    },
+    "1981": {
+      "position": "37",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "2"
+  "country": "10/01/1948",
+  "birthdate": null,
+  "deathdate": null,
+  "bio": null
 }

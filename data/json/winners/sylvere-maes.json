@@ -1,29 +1,33 @@
 {
   "id": "sylvere-maes",
-  "first_name": "Sylvère",
-  "last_name": "Maes",
-  "birthyear": 1910,
-  "country": "Belgique",
   "years": {
+    "1934": {
+      "position": "8",
+      "nb_wins": 1
+    },
+    "1935": {
+      "position": "4",
+      "nb_wins": 1
+    },
     "1936": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 21,
-      "pct_leading": 57,
-      "nb_leg_wins": 4,
-      "average_speed": 31.108,
-      "total_time": "142h 47’ 32”",
-      "ahead_of_2nd": "0h26'55''"
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1937": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1938": {
+      "position": "14",
+      "nb_wins": 0
     },
     "1939": {
-      "nb_days_in_yellow": 3,
-      "nb_tour_legs": 18,
-      "pct_leading": 17,
-      "nb_leg_wins": 2,
-      "average_speed": 31.986,
-      "total_time": "132h 03’ 17”",
-      "ahead_of_2nd": "0h30'38''"
+      "position": "1",
+      "nb_wins": 2
     }
   },
-  "is_doped": false,
-  "nb_wins": "2"
+  "country": "22/08/1909",
+  "birthdate": "05/12/1966",
+  "deathdate": null,
+  "bio": null
 }

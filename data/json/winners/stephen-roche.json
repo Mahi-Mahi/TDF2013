@@ -1,20 +1,53 @@
 {
   "id": "stephen-roche",
-  "first_name": "Stephen",
-  "last_name": "Roche",
-  "birthyear": 1960,
-  "country": "Irlande",
   "years": {
+    "1983": {
+      "position": "13",
+      "nb_wins": 0
+    },
+    "1984": {
+      "position": "25",
+      "nb_wins": 0
+    },
+    "1985": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "1986": {
+      "position": "46",
+      "nb_wins": 0
+    },
     "1987": {
-      "nb_days_in_yellow": 2,
-      "nb_tour_legs": 25,
-      "pct_leading": 8,
-      "nb_leg_wins": 1,
-      "average_speed": 36.645,
-      "total_time": "115h 27’ 42”",
-      "ahead_of_2nd": "0h00'40''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1988": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1989": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1990": {
+      "position": "44",
+      "nb_wins": 0
+    },
+    "1991": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1992": {
+      "position": "9",
+      "nb_wins": 1
+    },
+    "1993": {
+      "position": "13",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "28/11/1959",
+  "birthdate": null,
+  "deathdate": "Le premier coureur irlandais à remporter le Tour.",
+  "bio": null
 }

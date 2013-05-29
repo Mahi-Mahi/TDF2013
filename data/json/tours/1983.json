@@ -3,23 +3,31 @@
   "edition": 70,
   "total_length": 3809,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 140,
   "nb_finishers": 88,
   "pct_finishers": 63,
-  "winner_name": "Laurent Fignon",
-  "winner_time": "105h 07’ 52”",
+  "winner_first_name": "Laurent",
+  "winner_last_name": "Fignon",
+  "winner_id": "laurent-fignon",
+  "winner_total_time": "105h 07' 52\"",
+  "winner_age": "22",
+  "winner_country": "France",
+  "winner_avg_speed": "36,230",
   "ahead_of_2nd": "0h 04' 04\" ",
   "second_name": "A. Arroyo",
   "second_country": "Espagne",
+  "second_id": null,
   "ahead_of_3rd": "0h 04' 09\"",
   "third_name": "P. Winnen",
-  "third_country": "P. Winnen",
+  "third_country": "Pays-Bas",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1983-Prologue",
       "year": 1983,
-      "leg": 0,
+      "leg": "Prologue",
+      "leg_num": 0,
       "title": "Fontenay-sous-Bois - Fontenay-sous-Bois",
       "start": {
         "city": "Fontenay-sous-Bois",
@@ -33,21 +41,13 @@
         "lat": "48.851542",
         "lng": "2.475907"
       },
-      "length": 5,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 5
     },
     {
       "id": "E-1983-01",
       "year": 1983,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Nogent-sur-Marne - Créteil",
       "start": {
         "city": "Nogent-sur-Marne",
@@ -61,21 +61,13 @@
         "lat": "48.790367",
         "lng": "2.455572"
       },
-      "length": 163,
-      "type": null,
-      "winner": {
-        "name": "Frits Pirard Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Eric Vanderaerden Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 163
     },
     {
       "id": "E-1983-02",
       "year": 1983,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Soissons - Fontaine-au-Pire",
       "start": {
         "city": "Soissons",
@@ -89,21 +81,13 @@
         "lat": "50.13042",
         "lng": "3.375606"
       },
-      "length": 100,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Coop-Mercier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean-Louis Gauthier Drapeau de France France",
-        "nationality": null
-      }
+      "length": 100
     },
     {
       "id": "E-1983-03",
       "year": 1983,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Valenciennes - Roubaix",
       "start": {
         "city": "Valenciennes",
@@ -117,21 +101,13 @@
         "lat": "50.692705",
         "lng": "3.177847"
       },
-      "length": 152,
-      "type": null,
-      "winner": {
-        "name": "Rudy Matthijs Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 152
     },
     {
       "id": "E-1983-04",
       "year": 1983,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Roubaix - Le Havre",
       "start": {
         "city": "Roubaix",
@@ -145,21 +121,13 @@
         "lat": "49.49437",
         "lng": "0.107929"
       },
-      "length": 300,
-      "type": null,
-      "winner": {
-        "name": "Serge Demierre Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 300
     },
     {
       "id": "E-1983-05",
       "year": 1983,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Le Havre - Le Mans",
       "start": {
         "city": "Le Havre",
@@ -173,21 +141,13 @@
         "lat": "48.00611",
         "lng": "0.199556"
       },
-      "length": 257,
-      "type": null,
-      "winner": {
-        "name": "Dominique Gaigne Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 257
     },
     {
       "id": "E-1983-06",
       "year": 1983,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Châteaubriant - Nantes",
       "start": {
         "city": "Châteaubriant",
@@ -201,21 +161,13 @@
         "lat": "47.218371",
         "lng": "-1.553621"
       },
-      "length": 58,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Bert Oosterbosch Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 58
     },
     {
       "id": "E-1983-07",
       "year": 1983,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Nantes - Île d'Oléron",
       "start": {
         "city": "Nantes",
@@ -229,21 +181,13 @@
         "lat": "45.915934",
         "lng": "-1.271674"
       },
-      "length": 216,
-      "type": null,
-      "winner": {
-        "name": "Riccardo Magrini Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 216
     },
     {
       "id": "E-1983-08",
       "year": 1983,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "La Rochelle - Bordeaux",
       "start": {
         "city": "La Rochelle",
@@ -257,21 +201,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 222,
-      "type": null,
-      "winner": {
-        "name": "Bert Oosterbosch Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      }
+      "length": 222
     },
     {
       "id": "E-1983-09",
       "year": 1983,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Bordeaux - Pau",
       "start": {
         "city": "Bordeaux",
@@ -285,21 +221,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": "Philippe Chevallier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Seán Kelly Drapeau d'Irlande Irlande",
-        "nationality": null
-      }
+      "length": 207
     },
     {
       "id": "E-1983-10",
       "year": 1983,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Pau - Bagnères-de-Luchon",
       "start": {
         "city": "Pau",
@@ -313,21 +241,13 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 201,
-      "type": null,
-      "winner": {
-        "name": "Robert Millar Drapeau : Royaume-Uni Royaume-Uni",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 201
     },
     {
       "id": "E-1983-11",
       "year": 1983,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Bagnères-de-Luchon - Fleurance",
       "start": {
         "city": "Bagnères-de-Luchon",
@@ -341,21 +261,13 @@
         "lat": "43.849456",
         "lng": "0.663244"
       },
-      "length": 177,
-      "type": null,
-      "winner": {
-        "name": "Régis Clère Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 177
     },
     {
       "id": "E-1983-12",
       "year": 1983,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Fleurance - Roquefort-sur-Soulzon",
       "start": {
         "city": "Fleurance",
@@ -369,21 +281,13 @@
         "lat": "43.974566",
         "lng": "2.992022"
       },
-      "length": 261,
-      "type": null,
-      "winner": {
-        "name": "Kim Andersen Drapeau du Danemark Danemark",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 261
     },
     {
       "id": "E-1983-13",
       "year": 1983,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Roquefort-sur-Soulzon - Aurillac",
       "start": {
         "city": "Roquefort-sur-Soulzon",
@@ -397,21 +301,13 @@
         "lat": "44.930953",
         "lng": "2.444997"
       },
-      "length": 210,
-      "type": null,
-      "winner": {
-        "name": "Henk Lubberding Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 210
     },
     {
       "id": "E-1983-14",
       "year": 1983,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Aurillac - Issoire",
       "start": {
         "city": "Aurillac",
@@ -425,21 +321,13 @@
         "lat": "45.54151",
         "lng": "3.248128"
       },
-      "length": 249,
-      "type": null,
-      "winner": {
-        "name": "Pierre Le Bigault Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 249
     },
     {
       "id": "E-1983-15",
       "year": 1983,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Clermont-Ferrand - Puy-de-Dôme",
       "start": {
         "city": "Clermont-Ferrand",
@@ -453,21 +341,13 @@
         "lat": "45.77207",
         "lng": "2.96974"
       },
-      "length": 15,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Ángel Arroyo Drapeau d'Espagne Espagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 15
     },
     {
       "id": "E-1983-16",
       "year": 1983,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Issoire - Saint-Étienne",
       "start": {
         "city": "Issoire",
@@ -481,21 +361,13 @@
         "lat": "45.439695",
         "lng": "4.387178"
       },
-      "length": 144,
-      "type": null,
-      "winner": {
-        "name": "Michel Laurent Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Pascal Simon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 144
     },
     {
       "id": "E-1983-17",
       "year": 1983,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "La Tour-du-Pin - L'Alpe d'Huez",
       "start": {
         "city": "La Tour-du-Pin",
@@ -509,21 +381,13 @@
         "lat": "45.092624",
         "lng": "6.068348"
       },
-      "length": 223,
-      "type": null,
-      "winner": {
-        "name": "Peter Winnen Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 223
     },
     {
       "id": "E-1983-18",
       "year": 1983,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Bourg-d'Oisans - Morzine",
       "start": {
         "city": "Bourg-d'Oisans",
@@ -537,21 +401,13 @@
         "lat": "46.179192",
         "lng": "6.708877"
       },
-      "length": 247,
-      "type": null,
-      "winner": {
-        "name": "Jacques Michaud Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 247
     },
     {
       "id": "E-1983-19",
       "year": 1983,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Morzine - Avoriaz",
       "start": {
         "city": "Morzine",
@@ -565,21 +421,13 @@
         "lat": "46.189683",
         "lng": "6.776343"
       },
-      "length": 15,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 15
     },
     {
       "id": "E-1983-20",
       "year": 1983,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Morzine - Dijon",
       "start": {
         "city": "Morzine",
@@ -593,21 +441,13 @@
         "lat": "47.322047",
         "lng": "5.04148"
       },
-      "length": 291,
-      "type": null,
-      "winner": {
-        "name": "Philippe Leleu Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 291
     },
     {
       "id": "E-1983-21",
       "year": 1983,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Dijon - Dijon",
       "start": {
         "city": "Dijon",
@@ -621,21 +461,13 @@
         "lat": "47.322047",
         "lng": "5.04148"
       },
-      "length": 50,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 50
     },
     {
       "id": "E-1983-22",
       "year": 1983,
-      "leg": 22,
+      "leg": "22",
+      "leg_num": 22,
       "title": "Alfortville - Paris",
       "start": {
         "city": "Alfortville",
@@ -649,16 +481,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Gilbert Glaus Drapeau de Suisse Suisse",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Laurent Fignon Drapeau de France France",
-        "nationality": null
-      }
+      "length": 195
     }
   ]
 }

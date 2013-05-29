@@ -7,19 +7,27 @@
   "nb_concurrents": 180,
   "nb_finishers": 156,
   "pct_finishers": 87,
-  "winner_name": "Alberto Contador",
-  "winner_time": "85h 48’ 35\"",
+  "winner_first_name": "Alberto",
+  "winner_last_name": "Contador",
+  "winner_id": "alberto-contador",
+  "winner_total_time": "85h 48' 35\"",
+  "winner_age": "26",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "40,315",
   "ahead_of_2nd": "0h 04' 11\" ",
   "second_name": "A. Schleck",
   "second_country": "Luxembourg",
+  "second_id": "andy-schleck",
   "ahead_of_3rd": "0h 05' 24\"",
   "third_name": "L. Armstrong",
-  "third_country": "L. Armstrong",
+  "third_country": "États-Unis",
+  "third_id": null,
   "legs": [
     {
       "id": "E-2009-01",
       "year": 2009,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Monaco - Monaco",
       "start": {
         "city": "Monaco",
@@ -33,21 +41,13 @@
         "lat": "43.738418",
         "lng": "7.424616"
       },
-      "length": 15,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 15
     },
     {
       "id": "E-2009-02",
       "year": 2009,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Monaco - Brignoles",
       "start": {
         "city": "Monaco",
@@ -61,21 +61,13 @@
         "lat": "43.40655",
         "lng": "6.061187"
       },
-      "length": 187,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 187
     },
     {
       "id": "E-2009-03",
       "year": 2009,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Marseille - La Grande-Motte",
       "start": {
         "city": "Marseille",
@@ -89,21 +81,13 @@
         "lat": "43.560704",
         "lng": "4.086072"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 196
     },
     {
       "id": "E-2009-04",
       "year": 2009,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Montpellier - Montpellier",
       "start": {
         "city": "Montpellier",
@@ -117,21 +101,13 @@
         "lat": "43.610769",
         "lng": "3.876716"
       },
-      "length": 39,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : KazakhstanAstana",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 39
     },
     {
       "id": "E-2009-05",
       "year": 2009,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Cap d'Agde - Perpignan",
       "start": {
         "city": "Cap d'Agde",
@@ -145,22 +121,14 @@
         "lat": "42.698684",
         "lng": "2.895872"
       },
-      "length": 196,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceThomas Voeckler",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 196
     },
     {
       "id": "E-2009-06",
       "year": 2009,
-      "leg": 6,
-      "title": "Gérone (ESP) - Barcelone (ESP)",
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Gérone (Esp.) - Barcelone (Esp.)",
       "start": {
         "city": "Gérone",
         "country": "Espagne",
@@ -173,22 +141,14 @@
         "lat": "41.385064",
         "lng": "2.173404"
       },
-      "length": 181,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : NorvègeThor Hushovd",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : SuisseFabian Cancellara",
-        "nationality": null
-      }
+      "length": 181
     },
     {
       "id": "E-2009-07",
       "year": 2009,
-      "leg": 7,
-      "title": "Barcelone (ESP) - Andorre-Arcalis (AND)",
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Barcelone (Esp.) - Andorre-Arcalis (And.)",
       "start": {
         "city": "Barcelone",
         "country": "Espagne",
@@ -196,27 +156,19 @@
         "lng": "2.173404"
       },
       "finish": {
-        "city": "Arcalis",
+        "city": "Andorre-Arcalis",
         "country": "Andorre",
-        "lat": "42.35399",
-        "lng": "1.084061"
+        "lat": "42.63247",
+        "lng": "1.49583"
       },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceBrice Feillu",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 224
     },
     {
       "id": "E-2009-08",
       "year": 2009,
-      "leg": 8,
-      "title": "Andorre-la-Vieille (AND) - Saint-Girons",
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Andorre-la-Vieille (And.) - Saint-Girons",
       "start": {
         "city": "Andorre-la-Vieille",
         "country": "Andorre",
@@ -229,21 +181,13 @@
         "lat": "42.982876",
         "lng": "1.146088"
       },
-      "length": 176,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : EspagneLuis León Sánchez",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 176
     },
     {
       "id": "E-2009-09",
       "year": 2009,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Saint-Gaudens - Tarbes",
       "start": {
         "city": "Saint-Gaudens",
@@ -257,21 +201,13 @@
         "lat": "43.232951",
         "lng": "0.078082"
       },
-      "length": 160,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FrancePierrick Fédrigo",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 160
     },
     {
       "id": "E-2009-10",
       "year": 2009,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Limoges - Issoudun",
       "start": {
         "city": "Limoges",
@@ -285,21 +221,13 @@
         "lat": "46.947535",
         "lng": "1.988654"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 194
     },
     {
       "id": "E-2009-11",
       "year": 2009,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Vatan - Saint-Fargeau",
       "start": {
         "city": "Vatan",
@@ -313,21 +241,13 @@
         "lat": "47.641578",
         "lng": "3.070853"
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 192
     },
     {
       "id": "E-2009-12",
       "year": 2009,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Tonnerre - Vittel",
       "start": {
         "city": "Tonnerre",
@@ -341,21 +261,13 @@
         "lat": "48.202541",
         "lng": "5.943496"
       },
-      "length": 211,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : DanemarkNicki Sørensen",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 211
     },
     {
       "id": "E-2009-13",
       "year": 2009,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Vittel - Colmar",
       "start": {
         "city": "Vittel",
@@ -369,21 +281,13 @@
         "lat": "48.079359",
         "lng": "7.358512"
       },
-      "length": 200,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : AllemagneHeinrich Haussler",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 200
     },
     {
       "id": "E-2009-14",
       "year": 2009,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Colmar - Besançon",
       "start": {
         "city": "Colmar",
@@ -397,22 +301,14 @@
         "lat": "47.237829",
         "lng": "6.024054"
       },
-      "length": 199,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : RussieSerguei Ivanov",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : ItalieRinaldo Nocentini",
-        "nationality": null
-      }
+      "length": 199
     },
     {
       "id": "E-2009-15",
       "year": 2009,
-      "leg": 15,
-      "title": "Pontarlier - Verbier (SUI)",
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Pontarlier - Verbier (Sui.)",
       "start": {
         "city": "Pontarlier",
         "country": "France",
@@ -425,22 +321,14 @@
         "lat": "46.096076",
         "lng": "7.228875"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 207
     },
     {
       "id": "E-2009-16",
       "year": 2009,
-      "leg": 16,
-      "title": "Martigny (SUI) - Bourg-Saint-Maurice",
+      "leg": "16",
+      "leg_num": 16,
+      "title": "Martigny (Sui.) - Bourg-Saint-Maurice",
       "start": {
         "city": "Martigny",
         "country": "Suisse",
@@ -453,21 +341,13 @@
         "lat": "45.618598",
         "lng": "6.769548"
       },
-      "length": 159,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceSandy Casar[11]",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 159
     },
     {
       "id": "E-2009-17",
       "year": 2009,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Bourg-Saint-Maurice - Le Grand-Bornand",
       "start": {
         "city": "Bourg-Saint-Maurice",
@@ -481,21 +361,13 @@
         "lat": "45.942027",
         "lng": "6.426699"
       },
-      "length": 169,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : LuxembourgFränk Schleck",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 169
     },
     {
       "id": "E-2009-18",
       "year": 2009,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Annecy - Annecy",
       "start": {
         "city": "Annecy",
@@ -509,21 +381,13 @@
         "lat": "45.899247",
         "lng": "6.129384"
       },
-      "length": 40,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 40
     },
     {
       "id": "E-2009-19",
       "year": 2009,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Bourgoin-Jallieu - Aubenas",
       "start": {
         "city": "Bourgoin-Jallieu",
@@ -537,21 +401,13 @@
         "lat": "44.620909",
         "lng": "4.389863"
       },
-      "length": 178,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 178
     },
     {
       "id": "E-2009-20",
       "year": 2009,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Montélimar - Mont Ventoux",
       "start": {
         "city": "Montélimar",
@@ -565,21 +421,13 @@
         "lat": "44.173925",
         "lng": "5.283795"
       },
-      "length": 167,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : EspagneJuan Manuel Gárate",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 167
     },
     {
       "id": "E-2009-21",
       "year": 2009,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Montereau - Paris-Champs-Élysées",
       "start": {
         "city": "Montereau",
@@ -593,16 +441,7 @@
         "lat": "48.865784",
         "lng": "2.307314"
       },
-      "length": 164,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : Royaume-UniMark Cavendish",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : EspagneAlberto Contador",
-        "nationality": null
-      }
+      "length": 164
     }
   ]
 }

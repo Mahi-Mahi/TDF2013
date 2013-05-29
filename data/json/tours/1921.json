@@ -7,20 +7,28 @@
   "nb_concurrents": 123,
   "nb_finishers": 38,
   "pct_finishers": 31,
-  "winner_name": "Léon Scieur",
-  "winner_time": "221h 50’ 26”",
+  "winner_first_name": "Léon",
+  "winner_last_name": "Scieur",
+  "winner_id": "leon-scieur",
+  "winner_total_time": "221h 50' 26\"",
+  "winner_age": "33",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "24,724",
   "ahead_of_2nd": "0h 18' 36\" ",
   "second_name": "H. Heusghem",
   "second_country": "Belgique",
+  "second_id": null,
   "ahead_of_3rd": "2h 01' 00\"",
   "third_name": "H. Barthelemy",
-  "third_country": "H. Barthelemy",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1921-01",
       "year": 1921,
-      "leg": 1,
-      "title": "Paris – Le Havre",
+      "leg": "1",
+      "leg_num": 1,
+      "title": "Paris - Le Havre",
       "start": {
         "city": "Paris",
         "country": "France",
@@ -33,22 +41,14 @@
         "lat": "49.49437",
         "lng": "0.107929"
       },
-      "length": 388,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLouis Mottiat",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLouis Mottiat",
-        "nationality": null
-      }
+      "length": 388
     },
     {
       "id": "E-1921-02",
       "year": 1921,
-      "leg": 2,
-      "title": "Le Havre – Cherbourg",
+      "leg": "2",
+      "leg_num": 2,
+      "title": "Le Havre - Cherbourg",
       "start": {
         "city": "Le Havre",
         "country": "France",
@@ -61,22 +61,14 @@
         "lat": "49.639093",
         "lng": "-1.625298"
       },
-      "length": 364,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceRomain Bellenger",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 364
     },
     {
       "id": "E-1921-03",
       "year": 1921,
-      "leg": 3,
-      "title": "Cherbourg – Brest",
+      "leg": "3",
+      "leg_num": 3,
+      "title": "Cherbourg - Brest",
       "start": {
         "city": "Cherbourg",
         "country": "France",
@@ -89,22 +81,14 @@
         "lat": "48.390394",
         "lng": "-4.486076"
       },
-      "length": 405,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 405
     },
     {
       "id": "E-1921-04",
       "year": 1921,
-      "leg": 4,
-      "title": "Brest – Les Sables-d'Olonne",
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Brest - Les Sables-d'Olonne",
       "start": {
         "city": "Brest",
         "country": "France",
@@ -117,22 +101,14 @@
         "lat": "46.492958",
         "lng": "-1.795493"
       },
-      "length": 412,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLouis Mottiat",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 412
     },
     {
       "id": "E-1921-05",
       "year": 1921,
-      "leg": 5,
-      "title": "Les Sables-d'Olonne – Bayonne",
+      "leg": "5",
+      "leg_num": 5,
+      "title": "Les Sables-d'Olonne - Bayonne",
       "start": {
         "city": "Les Sables-d'Olonne",
         "country": "France",
@@ -145,22 +121,14 @@
         "lat": "43.492949",
         "lng": "-1.474841"
       },
-      "length": 482,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLouis Mottiat",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 482
     },
     {
       "id": "E-1921-06",
       "year": 1921,
-      "leg": 6,
-      "title": "Bayonne – Luchon",
+      "leg": "6",
+      "leg_num": 6,
+      "title": "Bayonne - Luchon",
       "start": {
         "city": "Bayonne",
         "country": "France",
@@ -173,22 +141,14 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 326,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueHector Heusghem",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 326
     },
     {
       "id": "E-1921-07",
       "year": 1921,
-      "leg": 7,
-      "title": "Luchon – Perpignan",
+      "leg": "7",
+      "leg_num": 7,
+      "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
         "country": "France",
@@ -201,22 +161,14 @@
         "lat": "42.698684",
         "lng": "2.895872"
       },
-      "length": 323,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLouis Mottiat",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 323
     },
     {
       "id": "E-1921-08",
       "year": 1921,
-      "leg": 8,
-      "title": "Perpignan – Toulon",
+      "leg": "8",
+      "leg_num": 8,
+      "title": "Perpignan - Toulon",
       "start": {
         "city": "Perpignan",
         "country": "France",
@@ -229,22 +181,14 @@
         "lat": "43.124228",
         "lng": "5.928"
       },
-      "length": 411,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : ItalieLuigi Lucotti",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 411
     },
     {
       "id": "E-1921-09",
       "year": 1921,
-      "leg": 9,
-      "title": "Toulon – Nice",
+      "leg": "9",
+      "leg_num": 9,
+      "title": "Toulon - Nice",
       "start": {
         "city": "Toulon",
         "country": "France",
@@ -257,22 +201,14 @@
         "lat": "43.696036",
         "lng": "7.265592"
       },
-      "length": 272,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueFirmin Lambot",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 272
     },
     {
       "id": "E-1921-10",
       "year": 1921,
-      "leg": 10,
-      "title": "Nice – Grenoble",
+      "leg": "10",
+      "leg_num": 10,
+      "title": "Nice - Grenoble",
       "start": {
         "city": "Nice",
         "country": "France",
@@ -285,22 +221,14 @@
         "lat": "45.188529",
         "lng": "5.724524"
       },
-      "length": 333,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 333
     },
     {
       "id": "E-1921-11",
       "year": 1921,
-      "leg": 11,
-      "title": "Grenoble – Genève",
+      "leg": "11",
+      "leg_num": 11,
+      "title": "Grenoble - Genève",
       "start": {
         "city": "Grenoble",
         "country": "France",
@@ -313,22 +241,14 @@
         "lat": "46.198392",
         "lng": "6.142296"
       },
-      "length": 325,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceFélix Goethals",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 325
     },
     {
       "id": "E-1921-12",
       "year": 1921,
-      "leg": 12,
-      "title": "Genève – Strasbourg",
+      "leg": "12",
+      "leg_num": 12,
+      "title": "Genève - Strasbourg",
       "start": {
         "city": "Genève",
         "country": "Suisse",
@@ -341,22 +261,14 @@
         "lat": "48.583148",
         "lng": "7.747882"
       },
-      "length": 371,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceHonoré Barthélémy",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 371
     },
     {
       "id": "E-1921-13",
       "year": 1921,
-      "leg": 13,
-      "title": "Strasbourg – Metz",
+      "leg": "13",
+      "leg_num": 13,
+      "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
         "country": "France",
@@ -369,22 +281,14 @@
         "lat": "49.119666",
         "lng": "6.176905"
       },
-      "length": 300,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : BelgiqueFélix Sellier",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 300
     },
     {
       "id": "E-1921-14",
       "year": 1921,
-      "leg": 14,
-      "title": "Metz – Dunkerque",
+      "leg": "14",
+      "leg_num": 14,
+      "title": "Metz - Dunkerque",
       "start": {
         "city": "Metz",
         "country": "France",
@@ -397,22 +301,14 @@
         "lat": "51.03456",
         "lng": "2.375202"
       },
-      "length": 433,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceFélix Goethals",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 433
     },
     {
       "id": "E-1921-15",
       "year": 1921,
-      "leg": 15,
-      "title": "Dunkerque – Paris",
+      "leg": "15",
+      "leg_num": 15,
+      "title": "Dunkerque - Paris",
       "start": {
         "city": "Dunkerque",
         "country": "France",
@@ -425,16 +321,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 340,
-      "type": null,
-      "winner": {
-        "name": "Drapeau : FranceFélix Goethals",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Drapeau : BelgiqueLéon Scieur",
-        "nationality": null
-      }
+      "length": 340
     }
   ]
 }

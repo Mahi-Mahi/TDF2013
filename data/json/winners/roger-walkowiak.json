@@ -1,20 +1,41 @@
 {
   "id": "roger-walkowiak",
-  "first_name": "Roger",
-  "last_name": "Walkowiak",
-  "birthyear": 1927,
-  "country": "France",
   "years": {
+    "1951": {
+      "position": "57",
+      "nb_wins": 0
+    },
+    "1952": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1953": {
+      "position": "47",
+      "nb_wins": 0
+    },
+    "1954": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1955": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
     "1956": {
-      "nb_days_in_yellow": 7,
-      "nb_tour_legs": 22,
-      "pct_leading": 32,
-      "nb_leg_wins": 0,
-      "average_speed": 36.268,
-      "total_time": "124h 01’ 16”",
-      "ahead_of_2nd": "0h01'25''"
+      "position": "1",
+      "nb_wins": 0
+    },
+    "1957": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1958": {
+      "position": "75",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "02/03/1927",
+  "birthdate": null,
+  "deathdate": null,
+  "bio": null
 }

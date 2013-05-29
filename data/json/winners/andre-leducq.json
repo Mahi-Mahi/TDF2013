@@ -1,29 +1,57 @@
 {
   "id": "andre-leducq",
-  "first_name": "André",
-  "last_name": "Leducq",
-  "birthyear": 1904,
-  "country": "France",
   "years": {
+    "1927": {
+      "position": "4",
+      "nb_wins": 3
+    },
+    "1928": {
+      "position": "2",
+      "nb_wins": 4
+    },
+    "1929": {
+      "position": "11",
+      "nb_wins": 5
+    },
     "1930": {
-      "nb_days_in_yellow": 12,
-      "nb_tour_legs": 21,
-      "pct_leading": 57,
-      "nb_leg_wins": 2,
-      "average_speed": 28.0,
-      "total_time": "172h 12’ 16”",
-      "ahead_of_2nd": "0h14'13''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1931": {
+      "position": "10",
+      "nb_wins": 1
     },
     "1932": {
-      "nb_days_in_yellow": 18,
-      "nb_tour_legs": 21,
-      "pct_leading": 86,
-      "nb_leg_wins": 6,
-      "average_speed": 29.047,
-      "total_time": "154h 11' 49''",
-      "ahead_of_2nd": "0h24'03''"
+      "position": "1",
+      "nb_wins": 6
+    },
+    "1933": {
+      "position": "31",
+      "nb_wins": 2
+    },
+    "1934": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1935": {
+      "position": "17",
+      "nb_wins": 1
+    },
+    "1936": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1938": {
+      "position": "30",
+      "nb_wins": 1
     }
   },
-  "is_doped": false,
-  "nb_wins": "2"
+  "country": "27/02/1904",
+  "birthdate": "18/06/1980",
+  "deathdate": null,
+  "bio": null
 }

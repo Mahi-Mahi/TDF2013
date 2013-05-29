@@ -1,20 +1,33 @@
 {
   "id": "oscar-pereiro",
-  "first_name": "Óscar",
-  "last_name": "Pereiro",
-  "birthyear": 1978,
-  "country": "Espagne",
   "years": {
+    "2004": {
+      "position": "10",
+      "nb_wins": 0
+    },
+    "2005": {
+      "position": "10",
+      "nb_wins": 1
+    },
     "2006": {
-      "nb_days_in_yellow": 6,
-      "nb_tour_legs": 21,
-      "pct_leading": 29,
-      "nb_leg_wins": 0,
-      "average_speed": 40.784,
-      "total_time": "89h 39’ 30\"",
-      "ahead_of_2nd": "0h00'32''"
+      "position": "1",
+      "nb_wins": 0
+    },
+    "2007": {
+      "position": "10",
+      "nb_wins": 0
+    },
+    "2008": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "03/08/1977",
+  "birthdate": null,
+  "deathdate": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage.",
+  "bio": null
 }

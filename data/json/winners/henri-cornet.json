@@ -1,20 +1,45 @@
 {
   "id": "henri-cornet",
-  "first_name": "Henri",
-  "last_name": "Cornet",
-  "birthyear": 1885,
-  "country": "France",
   "years": {
     "1904": {
-      "nb_days_in_yellow": 0,
-      "nb_tour_legs": 6,
-      "pct_leading": 0,
-      "nb_leg_wins": 0,
-      "average_speed": 25.265,
-      "total_time": "96h 05’ 56”",
-      "ahead_of_2nd": "2h16'14''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1905": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1906": {
+      "position": "Forfait",
+      "nb_wins": 0
+    },
+    "1907": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1908": {
+      "position": "8",
+      "nb_wins": 0
+    },
+    "1909": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1910": {
+      "position": "16",
+      "nb_wins": 0
+    },
+    "1911": {
+      "position": "12",
+      "nb_wins": 0
+    },
+    "1912": {
+      "position": "28",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "04/08/1884",
+  "birthdate": "18/03/1941",
+  "deathdate": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours.",
+  "bio": null
 }

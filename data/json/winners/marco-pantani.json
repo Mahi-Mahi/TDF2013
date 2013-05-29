@@ -1,20 +1,37 @@
 {
   "id": "marco-pantani",
-  "first_name": "Marco",
-  "last_name": "Pantani",
-  "birthyear": 1970,
-  "country": "Italie",
   "years": {
+    "1994": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1995": {
+      "position": "13",
+      "nb_wins": 2
+    },
+    "1996": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1997": {
+      "position": "3",
+      "nb_wins": 2
+    },
     "1998": {
-      "nb_days_in_yellow": 6,
-      "nb_tour_legs": 21,
-      "pct_leading": 29,
-      "nb_leg_wins": 2,
-      "average_speed": 39.983,
-      "total_time": "92h 49’ 46”",
-      "ahead_of_2nd": "0h03'21''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1999": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2000": {
+      "position": "Abandon",
+      "nb_wins": 2
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "13/01/1970",
+  "birthdate": "14/02/2004",
+  "deathdate": null,
+  "bio": null
 }

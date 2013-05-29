@@ -1,38 +1,61 @@
 {
   "id": "louison-bobet",
-  "first_name": "Louison",
-  "last_name": "Bobet",
-  "birthyear": 1925,
-  "country": "France",
   "years": {
+    "1947": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1948": {
+      "position": "4",
+      "nb_wins": 2
+    },
+    "1949": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1950": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "1951": {
+      "position": "20",
+      "nb_wins": 1
+    },
+    "1952": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
     "1953": {
-      "nb_days_in_yellow": 4,
-      "nb_tour_legs": 22,
-      "pct_leading": 18,
-      "nb_leg_wins": 2,
-      "average_speed": 34.593,
-      "total_time": "129h 23’ 25”",
-      "ahead_of_2nd": "0h14'18''"
+      "position": "1",
+      "nb_wins": 2
     },
     "1954": {
-      "nb_days_in_yellow": 13,
-      "nb_tour_legs": 23,
-      "pct_leading": 57,
-      "nb_leg_wins": 3,
-      "average_speed": 33.229,
-      "total_time": "140h 06’ 05”",
-      "ahead_of_2nd": "0h15'49''"
+      "position": "1",
+      "nb_wins": 3
     },
     "1955": {
-      "nb_days_in_yellow": 5,
-      "nb_tour_legs": 22,
-      "pct_leading": 23,
-      "nb_leg_wins": 2,
-      "average_speed": 34.446,
-      "total_time": "130h 29’ 26”",
-      "ahead_of_2nd": "0h04'53''"
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1956": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1957": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1958": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1959": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "3"
+  "country": "12/03/1925",
+  "birthdate": "13/03/1983",
+  "deathdate": null,
+  "bio": null
 }

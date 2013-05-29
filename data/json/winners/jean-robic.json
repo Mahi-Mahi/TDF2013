@@ -1,20 +1,61 @@
 {
   "id": "jean-robic",
-  "first_name": "Jean",
-  "last_name": "Robic",
-  "birthyear": 1921,
-  "country": "France",
   "years": {
     "1947": {
-      "nb_days_in_yellow": 0,
-      "nb_tour_legs": 21,
-      "pct_leading": 0,
-      "nb_leg_wins": 3,
-      "average_speed": 31.412,
-      "total_time": "148h 11’ 25”",
-      "ahead_of_2nd": "0h03'58''"
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1948": {
+      "position": "16",
+      "nb_wins": 0
+    },
+    "1949": {
+      "position": "4",
+      "nb_wins": 1
+    },
+    "1950": {
+      "position": "12",
+      "nb_wins": 0
+    },
+    "1951": {
+      "position": "27",
+      "nb_wins": 0
+    },
+    "1952": {
+      "position": "5",
+      "nb_wins": 1
+    },
+    "1953": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
+    "1954": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1955": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1956": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1957": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1958": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1959": {
+      "position": "Eliminé",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "10/06/1921",
+  "birthdate": "06/10/1980",
+  "deathdate": "Le premier vainqueur du Tour de l'après-guerre.",
+  "bio": null
 }

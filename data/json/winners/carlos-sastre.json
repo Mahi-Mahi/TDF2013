@@ -1,20 +1,49 @@
 {
   "id": "carlos-sastre",
-  "first_name": "Carlos",
-  "last_name": "Sastre",
-  "birthyear": 1975,
-  "country": "Espagne",
   "years": {
+    "2001": {
+      "position": "20",
+      "nb_wins": 0
+    },
+    "2002": {
+      "position": "10",
+      "nb_wins": 0
+    },
+    "2003": {
+      "position": "9",
+      "nb_wins": 1
+    },
+    "2004": {
+      "position": "8",
+      "nb_wins": 0
+    },
+    "2005": {
+      "position": "21",
+      "nb_wins": 0
+    },
+    "2006": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "2007": {
+      "position": "4",
+      "nb_wins": 0
+    },
     "2008": {
-      "nb_days_in_yellow": 4,
-      "nb_tour_legs": 21,
-      "pct_leading": 19,
-      "nb_leg_wins": 1,
-      "average_speed": 40.492,
-      "total_time": "87h 52’ 52’’",
-      "ahead_of_2nd": "0h00'58''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "2009": {
+      "position": "16",
+      "nb_wins": 0
+    },
+    "2010": {
+      "position": "19",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "22/04/1975",
+  "birthdate": null,
+  "deathdate": null,
+  "bio": null
 }

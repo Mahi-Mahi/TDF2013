@@ -1,20 +1,29 @@
 {
   "id": "maurice-de-waele",
-  "first_name": "Maurice",
-  "last_name": "De Waele",
-  "birthyear": 1897,
-  "country": "Belgique",
   "years": {
+    "1927": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1928": {
+      "position": "3",
+      "nb_wins": 2
+    },
     "1929": {
-      "nb_days_in_yellow": 15,
-      "nb_tour_legs": 22,
-      "pct_leading": 68,
-      "nb_leg_wins": 1,
-      "average_speed": 28.319,
-      "total_time": "186h 39’ 16”",
-      "ahead_of_2nd": "0h44'23''"
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1930": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1931": {
+      "position": "5",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "27/12/1896",
+  "birthdate": "14/02/1952",
+  "deathdate": null,
+  "bio": null
 }

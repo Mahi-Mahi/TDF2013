@@ -1,29 +1,45 @@
 {
   "id": "nicolas-frantz",
-  "first_name": "Nicolas",
-  "last_name": "Frantz",
-  "birthyear": 1900,
-  "country": "Luxembourg",
   "years": {
+    "1924": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1925": {
+      "position": "4",
+      "nb_wins": 4
+    },
+    "1926": {
+      "position": "2",
+      "nb_wins": 5
+    },
     "1927": {
-      "nb_days_in_yellow": 13,
-      "nb_tour_legs": 24,
-      "pct_leading": 54,
-      "nb_leg_wins": 3,
-      "average_speed": 27.224,
-      "total_time": "198h 16’ 42”",
-      "ahead_of_2nd": "1h48'21''"
+      "position": "1",
+      "nb_wins": 3
     },
     "1928": {
-      "nb_days_in_yellow": 21,
-      "nb_tour_legs": 22,
-      "pct_leading": 95,
-      "nb_leg_wins": 5,
-      "average_speed": 28.4,
-      "total_time": "192h 48’ 58”",
-      "ahead_of_2nd": "0h50'07''"
+      "position": "1",
+      "nb_wins": 5
+    },
+    "1929": {
+      "position": "5",
+      "nb_wins": 2
+    },
+    "1930": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1931": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1932": {
+      "position": "45",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "2"
+  "country": "04/11/1899",
+  "birthdate": "08/11/1985",
+  "deathdate": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928.",
+  "bio": null
 }

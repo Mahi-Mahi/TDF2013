@@ -7,19 +7,27 @@
   "nb_concurrents": 93,
   "nb_finishers": 46,
   "pct_finishers": 49,
-  "winner_name": "Romain Maes",
-  "winner_time": "141h 23’ 00”",
+  "winner_first_name": "Romain",
+  "winner_last_name": "Maes",
+  "winner_id": "romain-maes",
+  "winner_total_time": "141h 23' 00\"",
+  "winner_age": "22",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "30,650",
   "ahead_of_2nd": "0h 17' 52\" ",
   "second_name": "A. Morelli",
   "second_country": "Italie",
+  "second_id": null,
   "ahead_of_3rd": "0h 24' 06\"",
   "third_name": "F. Vervaecke",
-  "third_country": "F. Vervaecke",
+  "third_country": "Belgique",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1935-01",
       "year": 1935,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Paris - Lille",
       "start": {
         "city": "Paris",
@@ -33,21 +41,13 @@
         "lat": "50.62925",
         "lng": "3.057256"
       },
-      "length": 262,
-      "type": null,
-      "winner": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 262
     },
     {
       "id": "E-1935-02",
       "year": 1935,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Lille - Charleville-Mézières",
       "start": {
         "city": "Lille",
@@ -61,21 +61,13 @@
         "lat": "49.762085",
         "lng": "4.726096"
       },
-      "length": 192,
-      "type": null,
-      "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 192
     },
     {
       "id": "E-1935-03",
       "year": 1935,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Charleville-Mézières - Metz",
       "start": {
         "city": "Charleville-Mézières",
@@ -89,21 +81,13 @@
         "lat": "49.119666",
         "lng": "6.176905"
       },
-      "length": 161,
-      "type": null,
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 161
     },
     {
       "id": "E-1935-04",
       "year": 1935,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Metz - Belfort",
       "start": {
         "city": "Metz",
@@ -117,21 +101,13 @@
         "lat": "47.639674",
         "lng": "6.863849"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 220
     },
     {
       "id": "E-1935-5a",
       "year": 1935,
-      "leg": 5,
+      "leg": "5a",
+      "leg_num": 5,
       "title": "Belfort - Genève",
       "start": {
         "city": "Belfort",
@@ -145,21 +121,13 @@
         "lat": "46.198392",
         "lng": "6.142296"
       },
-      "length": 262,
-      "type": null,
-      "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 262
     },
     {
       "id": "E-1935-5b",
       "year": 1935,
-      "leg": 5,
+      "leg": "5b",
+      "leg_num": 6,
       "title": "Genève - Évian",
       "start": {
         "city": "Genève",
@@ -173,21 +141,13 @@
         "lat": "46.401488",
         "lng": "6.590949"
       },
-      "length": 58,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 58
     },
     {
       "id": "E-1935-06",
       "year": 1935,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 7,
       "title": "Évian - Aix-les-Bains",
       "start": {
         "city": "Évian",
@@ -201,21 +161,13 @@
         "lat": "45.692341",
         "lng": "5.908998"
       },
-      "length": 207,
-      "type": null,
-      "winner": {
-        "name": "René Vietto Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 207
     },
     {
       "id": "E-1935-07",
       "year": 1935,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Aix-les-Bains - Grenoble",
       "start": {
         "city": "Aix-les-Bains",
@@ -229,21 +181,13 @@
         "lat": "45.188529",
         "lng": "5.724524"
       },
-      "length": 229,
-      "type": null,
-      "winner": {
-        "name": "Francesco Camusso Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 229
     },
     {
       "id": "E-1935-08",
       "year": 1935,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Grenoble - Gap",
       "start": {
         "city": "Grenoble",
@@ -257,21 +201,13 @@
         "lat": "44.559638",
         "lng": "6.079758"
       },
-      "length": 102,
-      "type": null,
-      "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 102
     },
     {
       "id": "E-1935-09",
       "year": 1935,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Gap - Digne-les-Bains",
       "start": {
         "city": "Gap",
@@ -285,21 +221,13 @@
         "lat": "44.092193",
         "lng": "6.235976"
       },
-      "length": 229,
-      "type": null,
-      "winner": {
-        "name": "René Vietto Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 229
     },
     {
       "id": "E-1935-10",
       "year": 1935,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Digne-les-Bains - Nice",
       "start": {
         "city": "Digne-les-Bains",
@@ -313,21 +241,13 @@
         "lat": "43.696036",
         "lng": "7.265592"
       },
-      "length": 156,
-      "type": null,
-      "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 156
     },
     {
       "id": "E-1935-11",
       "year": 1935,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Nice - Cannes",
       "start": {
         "city": "Nice",
@@ -341,21 +261,13 @@
         "lat": "43.552847",
         "lng": "7.017369"
       },
-      "length": 126,
-      "type": null,
-      "winner": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 126
     },
     {
       "id": "E-1935-12",
       "year": 1935,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Cannes - Marseille",
       "start": {
         "city": "Cannes",
@@ -369,49 +281,13 @@
         "lat": "43.296482",
         "lng": "5.36978"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Charles Pélissier Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1935-13b",
-      "year": 1935,
-      "leg": 13,
-      "title": "Nîmes - Montpellier",
-      "start": {
-        "city": "Nîmes",
-        "country": "France",
-        "lat": "43.836699",
-        "lng": "4.360054"
-      },
-      "finish": {
-        "city": "Montpellier",
-        "country": "France",
-        "lat": "43.610769",
-        "lng": "3.876716"
-      },
-      "length": 56,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Georges Speicher Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 195
     },
     {
       "id": "E-1935-13a",
       "year": 1935,
-      "leg": 13,
+      "leg": "13a",
+      "leg_num": 14,
       "title": "Marseille - Nîmes",
       "start": {
         "city": "Marseille",
@@ -425,21 +301,33 @@
         "lat": "43.836699",
         "lng": "4.360054"
       },
-      "length": 112,
-      "type": null,
-      "winner": {
-        "name": "Vasco Bergamaschi Drapeau : ItalieItalie",
-        "nationality": null
+      "length": 112
+    },
+    {
+      "id": "E-1935-13b",
+      "year": 1935,
+      "leg": "13b",
+      "leg_num": 15,
+      "title": "Nîmes - Montpellier",
+      "start": {
+        "city": "Nîmes",
+        "country": "France",
+        "lat": "43.836699",
+        "lng": "4.360054"
       },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "finish": {
+        "city": "Montpellier",
+        "country": "France",
+        "lat": "43.610769",
+        "lng": "3.876716"
+      },
+      "length": 56
     },
     {
       "id": "E-1935-14a",
       "year": 1935,
-      "leg": 14,
+      "leg": "14a",
+      "leg_num": 16,
       "title": "Montpellier - Narbonne",
       "start": {
         "city": "Montpellier",
@@ -453,21 +341,13 @@
         "lat": "43.184277",
         "lng": "3.003078"
       },
-      "length": 103,
-      "type": null,
-      "winner": {
-        "name": "René Le Grevès Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 103
     },
     {
       "id": "E-1935-14b",
       "year": 1935,
-      "leg": 14,
+      "leg": "14b",
+      "leg_num": 17,
       "title": "Narbonne - Perpignan",
       "start": {
         "city": "Narbonne",
@@ -481,21 +361,13 @@
         "lat": "42.698684",
         "lng": "2.895872"
       },
-      "length": 63,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Maurice Archambaud Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 63
     },
     {
       "id": "E-1935-15",
       "year": 1935,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 18,
       "title": "Perpignan - Luchon",
       "start": {
         "city": "Perpignan",
@@ -509,21 +381,13 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 325,
-      "type": null,
-      "winner": {
-        "name": "Sylvère Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 325
     },
     {
       "id": "E-1935-16",
       "year": 1935,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 19,
       "title": "Luchon - Pau",
       "start": {
         "city": "Luchon",
@@ -537,21 +401,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 194,
-      "type": null,
-      "winner": {
-        "name": "Ambrogio Morelli Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 194
     },
     {
       "id": "E-1935-17",
       "year": 1935,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 20,
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
@@ -565,21 +421,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": "Julien Moineau Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 224
     },
     {
       "id": "E-1935-18a",
       "year": 1935,
-      "leg": 18,
+      "leg": "18a",
+      "leg_num": 21,
       "title": "Bordeaux - Rochefort",
       "start": {
         "city": "Bordeaux",
@@ -593,21 +441,13 @@
         "lat": "45.936698",
         "lng": "-0.961697"
       },
-      "length": 158,
-      "type": null,
-      "winner": {
-        "name": "René Le Grevès Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 158
     },
     {
       "id": "E-1935-18b",
       "year": 1935,
-      "leg": 18,
+      "leg": "18b",
+      "leg_num": 22,
       "title": "Rochefort - La Rochelle",
       "start": {
         "city": "Rochefort",
@@ -621,21 +461,13 @@
         "lat": "46.160329",
         "lng": "-1.151139"
       },
-      "length": 33,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 33
     },
     {
       "id": "E-1935-19a",
       "year": 1935,
-      "leg": 19,
+      "leg": "19a",
+      "leg_num": 23,
       "title": "La Rochelle - La Roche-sur-Yon",
       "start": {
         "city": "La Rochelle",
@@ -649,21 +481,13 @@
         "lat": "46.670511",
         "lng": "-1.426442"
       },
-      "length": 81,
-      "type": null,
-      "winner": {
-        "name": "René Le Grevès Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 81
     },
     {
       "id": "E-1935-19b",
       "year": 1935,
-      "leg": 19,
+      "leg": "19b",
+      "leg_num": 24,
       "title": "La Roche-sur-Yon - Nantes",
       "start": {
         "city": "La Roche-sur-Yon",
@@ -677,49 +501,13 @@
         "lat": "47.218371",
         "lng": "-1.553621"
       },
-      "length": 95,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1935-20b",
-      "year": 1935,
-      "leg": 20,
-      "title": "Vire - Caen",
-      "start": {
-        "city": "Vire",
-        "country": "France",
-        "lat": "48.837781",
-        "lng": "-0.888482"
-      },
-      "finish": {
-        "city": "Caen",
-        "country": "France",
-        "lat": "49.182863",
-        "lng": "-0.370679"
-      },
-      "length": 55,
-      "type": "CLM indiv",
-      "winner": {
-        "name": "Ambrogio Morelli Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 95
     },
     {
       "id": "E-1935-20a",
       "year": 1935,
-      "leg": 20,
+      "leg": "20a",
+      "leg_num": 25,
       "title": "Nantes - Vire",
       "start": {
         "city": "Nantes",
@@ -733,21 +521,33 @@
         "lat": "48.837781",
         "lng": "-0.888482"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "René Le Grevès Drapeau de France France",
-        "nationality": null
+      "length": 220
+    },
+    {
+      "id": "E-1935-20b",
+      "year": 1935,
+      "leg": "20b",
+      "leg_num": 26,
+      "title": "Vire - Caen",
+      "start": {
+        "city": "Vire",
+        "country": "France",
+        "lat": "48.837781",
+        "lng": "-0.888482"
       },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "finish": {
+        "city": "Caen",
+        "country": "France",
+        "lat": "49.182863",
+        "lng": "-0.370679"
+      },
+      "length": 55
     },
     {
       "id": "E-1935-21",
       "year": 1935,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 27,
       "title": "Caen - Paris",
       "start": {
         "city": "Caen",
@@ -761,16 +561,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 221,
-      "type": null,
-      "winner": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Romain Maes Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 221
     }
   ]
 }

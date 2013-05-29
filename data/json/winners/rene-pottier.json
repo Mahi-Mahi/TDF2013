@@ -1,20 +1,17 @@
 {
   "id": "rene-pottier",
-  "first_name": "René",
-  "last_name": "Pottier",
-  "birthyear": 1879,
-  "country": "France",
   "years": {
+    "1905": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
     "1906": {
-      "nb_days_in_yellow": 11,
-      "nb_tour_legs": 13,
-      "pct_leading": 85,
-      "nb_leg_wins": 5,
-      "average_speed": 24.463,
-      "total_time": "189h 34’ 00”",
-      "ahead_of_2nd": "n.a."
+      "position": "1",
+      "nb_wins": 5
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "05/06/1879",
+  "birthdate": "25/01/1907",
+  "deathdate": null,
+  "bio": null
 }

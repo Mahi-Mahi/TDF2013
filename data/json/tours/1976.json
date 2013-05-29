@@ -3,23 +3,31 @@
   "edition": 63,
   "total_length": 4017,
   "nb_legs": 22,
-  "has_prologue": true,
+  "has_prologue": false,
   "nb_concurrents": 130,
   "nb_finishers": 87,
   "pct_finishers": 67,
-  "winner_name": "Lucien Van Impe",
-  "winner_time": "116h 22’ 23”",
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Van Impe",
+  "winner_id": "lucien-van-impe",
+  "winner_total_time": "116h 22' 23\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "34,518",
   "ahead_of_2nd": "0h 04' 14\" ",
   "second_name": "J. Zoetemelk",
   "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
   "ahead_of_3rd": "0h 12' 08\"",
   "third_name": "R. Poulidor",
-  "third_country": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1976-Prologue",
       "year": 1976,
-      "leg": 0,
+      "leg": "Prologue",
+      "leg_num": 0,
       "title": "Saint-Jean-de-Monts",
       "start": {
         "city": "Saint-Jean-de-Monts",
@@ -33,21 +41,13 @@
         "lat": "46.790144",
         "lng": "-2.081802"
       },
-      "length": 8,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 8
     },
     {
       "id": "E-1976-01",
       "year": 1976,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Saint-Jean-de-Monts - Angers",
       "start": {
         "city": "Saint-Jean-de-Monts",
@@ -61,21 +61,13 @@
         "lat": "47.478419",
         "lng": "-0.563166"
       },
-      "length": 173,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 173
     },
     {
       "id": "E-1976-02",
       "year": 1976,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Angers - Caen",
       "start": {
         "city": "Angers",
@@ -89,21 +81,13 @@
         "lat": "49.182863",
         "lng": "-0.370679"
       },
-      "length": 236,
-      "type": null,
-      "winner": {
-        "name": "Giovanni Battaglin Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 236
     },
     {
       "id": "E-1976-03",
       "year": 1976,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Le Touquet-Paris-Plage - Le Touquet-Paris-Plage",
       "start": {
         "city": "Le Touquet-Paris-Plage",
@@ -117,22 +101,14 @@
         "lat": "50.521276",
         "lng": "1.590675"
       },
-      "length": 37,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 37
     },
     {
       "id": "E-1976-04",
       "year": 1976,
-      "leg": 4,
-      "title": "Le Touquet - Bornem (BEL)",
+      "leg": "4",
+      "leg_num": 4,
+      "title": "Le Touquet - Bornem (Bel.)",
       "start": {
         "city": "Le Touquet",
         "country": "France",
@@ -145,22 +121,14 @@
         "lat": "51.099606",
         "lng": "4.240459"
       },
-      "length": 258,
-      "type": null,
-      "winner": {
-        "name": "Hennie Kuiper Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 258
     },
     {
       "id": "E-1976-5a",
       "year": 1976,
-      "leg": 5,
-      "title": "Louvain (BEL) - Louvain",
+      "leg": "5a",
+      "leg_num": 5,
+      "title": "Louvain (Bel.) - Louvain",
       "start": {
         "city": "Louvain",
         "country": "Belgique",
@@ -173,22 +141,14 @@
         "lat": "50.877571",
         "lng": "4.704328"
       },
-      "length": 4,
-      "type": "(CLM par équipes)",
-      "winner": {
-        "name": "Ti-Raleigh",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 4
     },
     {
       "id": "E-1976-5b",
       "year": 1976,
-      "leg": 5,
-      "title": "Louvain - Verviers (BEL)",
+      "leg": "5b",
+      "leg_num": 6,
+      "title": "Louvain - Verviers (Bel.)",
       "start": {
         "city": "Louvain",
         "country": "Belgique",
@@ -201,22 +161,14 @@
         "lat": "50.591056",
         "lng": "5.865595"
       },
-      "length": 144,
-      "type": null,
-      "winner": {
-        "name": "Miguel María Lasa Drapeau : EspagneEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 144
     },
     {
       "id": "E-1976-06",
       "year": 1976,
-      "leg": 6,
-      "title": "Bastogne (BEL) - Nancy",
+      "leg": "6",
+      "leg_num": 7,
+      "title": "Bastogne (Bel.) - Nancy",
       "start": {
         "city": "Bastogne",
         "country": "Belgique",
@@ -229,21 +181,13 @@
         "lat": "48.692054",
         "lng": "6.184417"
       },
-      "length": 209,
-      "type": null,
-      "winner": {
-        "name": "Aldo Parecchini Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 209
     },
     {
       "id": "E-1976-07",
       "year": 1976,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 8,
       "title": "Nancy - Mulhouse",
       "start": {
         "city": "Nancy",
@@ -257,21 +201,13 @@
         "lat": "47.750839",
         "lng": "7.335888"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 205
     },
     {
       "id": "E-1976-08",
       "year": 1976,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 9,
       "title": "Valentigney - Divonne-les-Bains",
       "start": {
         "city": "Valentigney",
@@ -285,21 +221,13 @@
         "lat": "46.358168",
         "lng": "6.13604"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "Jacques Esclassan Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 220
     },
     {
       "id": "E-1976-09",
       "year": 1976,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 10,
       "title": "Divonne-les-Bains - L'Alpe d'Huez",
       "start": {
         "city": "Divonne-les-Bains",
@@ -313,21 +241,13 @@
         "lat": "45.092624",
         "lng": "6.068348"
       },
-      "length": 258,
-      "type": null,
-      "winner": {
-        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 258
     },
     {
       "id": "E-1976-10",
       "year": 1976,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 11,
       "title": "Le Bourg-d'Oisans - Montgenèvre",
       "start": {
         "city": "Le Bourg-d'Oisans",
@@ -341,21 +261,13 @@
         "lat": "44.930787",
         "lng": "6.722136"
       },
-      "length": 166,
-      "type": null,
-      "winner": {
-        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 166
     },
     {
       "id": "E-1976-11",
       "year": 1976,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 12,
       "title": "Montgenèvre - Manosque",
       "start": {
         "city": "Montgenèvre",
@@ -369,21 +281,13 @@
         "lat": "43.835744",
         "lng": "5.790916"
       },
-      "length": 224,
-      "type": null,
-      "winner": {
-        "name": "Jose-Luis Viejo Drapeau : EspagneEspagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 224
     },
     {
       "id": "E-1976-12",
       "year": 1976,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 13,
       "title": "Port-Barcarès - Pyrénées 2000",
       "start": {
         "city": "Port-Barcarès",
@@ -397,21 +301,13 @@
         "lat": "42.520843",
         "lng": "2.061496"
       },
-      "length": 205,
-      "type": null,
-      "winner": {
-        "name": "Raymond Delisle Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Raymond Delisle Drapeau de France France",
-        "nationality": null
-      }
+      "length": 205
     },
     {
       "id": "E-1976-13",
       "year": 1976,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 14,
       "title": "Font-Romeu - Saint-Gaudens",
       "start": {
         "city": "Font-Romeu",
@@ -425,21 +321,13 @@
         "lat": "43.106895",
         "lng": "0.723763"
       },
-      "length": 188,
-      "type": null,
-      "winner": {
-        "name": "Willy Teirlinck Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Raymond Delisle Drapeau de France France",
-        "nationality": null
-      }
+      "length": 188
     },
     {
       "id": "E-1976-14",
       "year": 1976,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 15,
       "title": "Saint-Gaudens - Saint-Lary-Soulan",
       "start": {
         "city": "Saint-Gaudens",
@@ -453,21 +341,13 @@
         "lat": "42.815835",
         "lng": "0.320251"
       },
-      "length": 139,
-      "type": null,
-      "winner": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 139
     },
     {
       "id": "E-1976-15",
       "year": 1976,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 16,
       "title": "Saint-Lary-Soulan - Pau",
       "start": {
         "city": "Saint-Lary-Soulan",
@@ -481,21 +361,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 195,
-      "type": null,
-      "winner": {
-        "name": "Wladimiro Panizza Drapeau d'Italie Italie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 195
     },
     {
       "id": "E-1976-16",
       "year": 1976,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 17,
       "title": "Pau - Fleurance",
       "start": {
         "city": "Pau",
@@ -509,21 +381,13 @@
         "lat": "43.849456",
         "lng": "0.663244"
       },
-      "length": 152,
-      "type": null,
-      "winner": {
-        "name": "Michel Pollentier Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 152
     },
     {
       "id": "E-1976-17",
       "year": 1976,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 18,
       "title": "Fleurance - Auch",
       "start": {
         "city": "Fleurance",
@@ -537,21 +401,13 @@
         "lat": "43.64638",
         "lng": "0.586709"
       },
-      "length": 39,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Ferdinand Bracke Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 39
     },
     {
       "id": "E-1976-18a",
       "year": 1976,
-      "leg": 18,
+      "leg": "18a",
+      "leg_num": 19,
       "title": "Auch - Langon",
       "start": {
         "city": "Auch",
@@ -565,49 +421,13 @@
         "lat": "44.555419",
         "lng": "-0.245126"
       },
-      "length": 86,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
-    },
-    {
-      "id": "E-1976-18c",
-      "year": 1976,
-      "leg": 18,
-      "title": "Lacanau-Océan - Bordeaux",
-      "start": {
-        "city": "Lacanau",
-        "country": "France",
-        "lat": "44.978459",
-        "lng": "-1.075745"
-      },
-      "finish": {
-        "city": "Bordeaux",
-        "country": "France",
-        "lat": "44.837789",
-        "lng": "-0.57918"
-      },
-      "length": 70,
-      "type": null,
-      "winner": {
-        "name": "Gerben Karstens Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 86
     },
     {
       "id": "E-1976-18b",
       "year": 1976,
-      "leg": 18,
+      "leg": "18b",
+      "leg_num": 20,
       "title": "Langon - Lacanau-Océan",
       "start": {
         "city": "Langon",
@@ -621,21 +441,33 @@
         "lat": "44.978459",
         "lng": "-1.075745"
       },
-      "length": 123,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
+      "length": 123
+    },
+    {
+      "id": "E-1976-18c",
+      "year": 1976,
+      "leg": "18c",
+      "leg_num": 21,
+      "title": "Lacanau-Océan - Bordeaux",
+      "start": {
+        "city": "Lacanau",
+        "country": "France",
+        "lat": "44.978459",
+        "lng": "-1.075745"
       },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "finish": {
+        "city": "Bordeaux",
+        "country": "France",
+        "lat": "44.837789",
+        "lng": "-0.57918"
+      },
+      "length": 70
     },
     {
       "id": "E-1976-19",
       "year": 1976,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 22,
       "title": "Sainte-Foy-la-Grande - Tulle",
       "start": {
         "city": "Sainte-Foy-la-Grande",
@@ -649,21 +481,13 @@
         "lat": "45.26565",
         "lng": "1.771697"
       },
-      "length": 219,
-      "type": null,
-      "winner": {
-        "name": "Hubert Mathis Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 219
     },
     {
       "id": "E-1976-20",
       "year": 1976,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 23,
       "title": "Tulle - Puy de Dôme",
       "start": {
         "city": "Tulle",
@@ -677,21 +501,13 @@
         "lat": "45.77207",
         "lng": "2.96974"
       },
-      "length": 220,
-      "type": null,
-      "winner": {
-        "name": "Joop Zoetemelk Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 220
     },
     {
       "id": "E-1976-21",
       "year": 1976,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 24,
       "title": "Montargis - Versailles",
       "start": {
         "city": "Montargis",
@@ -705,21 +521,13 @@
         "lat": "48.801408",
         "lng": "2.130122"
       },
-      "length": 145,
-      "type": null,
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 145
     },
     {
       "id": "E-1976-22a",
       "year": 1976,
-      "leg": 22,
+      "leg": "22a",
+      "leg_num": 25,
       "title": "Paris",
       "start": {
         "city": "Paris",
@@ -733,21 +541,13 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 6,
-      "type": "(CLM)",
-      "winner": {
-        "name": "Freddy Maertens Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 6
     },
     {
       "id": "E-1976-22b",
       "year": 1976,
-      "leg": 22,
+      "leg": "22b",
+      "leg_num": 26,
       "title": "Paris (Circuit Champs-Élysées)",
       "start": {
         "city": "Paris",
@@ -761,16 +561,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 91,
-      "type": null,
-      "winner": {
-        "name": "Gerben Karstens Drapeau : Pays-Bas Pays-Bas",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Lucien Van Impe Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 91
     }
   ]
 }

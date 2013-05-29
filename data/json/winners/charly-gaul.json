@@ -1,20 +1,53 @@
 {
   "id": "charly-gaul",
-  "first_name": "Charly",
-  "last_name": "Gaul",
-  "birthyear": 1933,
-  "country": "Luxembourg",
   "years": {
+    "1953": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1954": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1955": {
+      "position": "3",
+      "nb_wins": 2
+    },
+    "1956": {
+      "position": "13",
+      "nb_wins": 2
+    },
+    "1957": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
     "1958": {
-      "nb_days_in_yellow": 1,
-      "nb_tour_legs": 24,
-      "pct_leading": 4,
-      "nb_leg_wins": 4,
-      "average_speed": 36.919,
-      "total_time": "116h 59’ 05”",
-      "ahead_of_2nd": "0h03'10''"
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1959": {
+      "position": "12",
+      "nb_wins": 1
+    },
+    "1960": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1961": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "1962": {
+      "position": "9",
+      "nb_wins": 0
+    },
+    "1963": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "08/12/1932",
+  "birthdate": "06/12/2005",
+  "deathdate": null,
+  "bio": null
 }

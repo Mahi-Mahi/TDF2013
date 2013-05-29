@@ -27,6 +27,34 @@
     "nb_wins": 0,
     "is_doped": false
   },
+  "laurent-jalabert": {
+    "id": "laurent-jalabert",
+    "first_name": "Laurent",
+    "last_name": "Jalabert",
+    "nb_leg_wins": 4,
+    "pct_leading": 10,
+    "pct_leading_year": 2000,
+    "ahead_of_2nd": 0,
+    "ahead_of_2nd_year": 1995,
+    "average_speed": 39.323,
+    "average_speed_year": 1995,
+    "nb_wins": 0,
+    "is_doped": false
+  },
+  "richard-virenque": {
+    "id": "richard-virenque",
+    "first_name": "Richard",
+    "last_name": "Virenque",
+    "nb_leg_wins": 7,
+    "pct_leading": 5,
+    "pct_leading_year": 2003,
+    "ahead_of_2nd": 0,
+    "ahead_of_2nd_year": 1997,
+    "average_speed": 39.179,
+    "average_speed_year": 1995,
+    "nb_wins": 0,
+    "is_doped": true
+  },
   "andy-schleck": {
     "id": "andy-schleck",
     "first_name": "Andy",
@@ -839,32 +867,32 @@
     "nb_wins": 5,
     "is_doped": false
   },
-  "laurent-jalabert": {
-    "id": "laurent-jalabert",
-    "first_name": "Laurent",
-    "last_name": "Jalabert",
+  "charly-mottet": {
+    "id": "charly-mottet",
+    "first_name": "Charly",
+    "last_name": "Mottet",
     "nb_leg_wins": 4,
-    "pct_leading": 10,
-    "pct_leading_year": 2000,
+    "pct_leading": 24,
+    "pct_leading_year": 1987,
     "ahead_of_2nd": 0,
-    "ahead_of_2nd_year": 1995,
-    "average_speed": 39.323,
-    "average_speed_year": 1995,
+    "ahead_of_2nd_year": 1987,
+    "average_speed": 38.695,
+    "average_speed_year": 1991,
     "nb_wins": 0,
     "is_doped": false
   },
-  "richard-virenque": {
-    "id": "richard-virenque",
-    "first_name": "Richard",
-    "last_name": "Virenque",
-    "nb_leg_wins": 7,
-    "pct_leading": 5,
-    "pct_leading_year": 2003,
+  "claudio-chiappuci": {
+    "id": "claudio-chiappuci",
+    "first_name": "Claudio",
+    "last_name": "Chiappucci",
+    "nb_leg_wins": 3,
+    "pct_leading": 38,
+    "pct_leading_year": 1990,
     "ahead_of_2nd": 0,
-    "ahead_of_2nd_year": 1997,
-    "average_speed": 39.179,
-    "average_speed_year": 1995,
+    "ahead_of_2nd_year": 1990,
+    "average_speed": 39.474,
+    "average_speed_year": 1992,
     "nb_wins": 0,
-    "is_doped": true
+    "is_doped": false
   }
 }

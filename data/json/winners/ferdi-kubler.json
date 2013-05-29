@@ -1,20 +1,45 @@
 {
   "id": "ferdi-kubler",
-  "first_name": "Ferdi",
-  "last_name": "Kübler",
-  "birthyear": 1919,
-  "country": "Suisse",
   "years": {
+    "1947": {
+      "position": "Abandon",
+      "nb_wins": 2
+    },
+    "1948": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1949": {
+      "position": "Abandon",
+      "nb_wins": 1
+    },
     "1950": {
-      "nb_days_in_yellow": 10,
-      "nb_tour_legs": 22,
-      "pct_leading": 45,
-      "nb_leg_wins": 3,
-      "average_speed": 32.778,
-      "total_time": "145h 36’ 56”",
-      "ahead_of_2nd": "0h09'30''"
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1951": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1952": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1953": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1954": {
+      "position": "2",
+      "nb_wins": 2
+    },
+    "1955": {
+      "position": "Abandon",
+      "nb_wins": 0
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "24/07/1919",
+  "birthdate": null,
+  "deathdate": "Le premier coureur suisse à remporter le Tour.",
+  "bio": null
 }

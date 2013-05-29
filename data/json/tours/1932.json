@@ -7,19 +7,27 @@
   "nb_concurrents": 80,
   "nb_finishers": 57,
   "pct_finishers": 71,
-  "winner_name": "André Leducq",
-  "winner_time": "154h 12' 59''",
+  "winner_first_name": "André",
+  "winner_last_name": "Leducq",
+  "winner_id": "andre-leducq",
+  "winner_total_time": "154h 12' 59''",
+  "winner_age": "28",
+  "winner_country": "France",
+  "winner_avg_speed": "29,047",
   "ahead_of_2nd": "0h 24' 01\" ",
   "second_name": "K. Stoepel",
   "second_country": "Allemagne",
+  "second_id": null,
   "ahead_of_3rd": "0h 26' 11\"",
   "third_name": "F. Camusso",
-  "third_country": "F. Camusso",
+  "third_country": "Italie",
+  "third_id": null,
   "legs": [
     {
       "id": "E-1932-01",
       "year": 1932,
-      "leg": 1,
+      "leg": "1",
+      "leg_num": 1,
       "title": "Paris - Caen",
       "start": {
         "city": "Paris",
@@ -33,21 +41,13 @@
         "lat": "49.182863",
         "lng": "-0.370679"
       },
-      "length": 208,
-      "type": null,
-      "winner": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Jean Aerts Drapeau belge Belgique",
-        "nationality": null
-      }
+      "length": 208
     },
     {
       "id": "E-1932-02",
       "year": 1932,
-      "leg": 2,
+      "leg": "2",
+      "leg_num": 2,
       "title": "Caen - Nantes",
       "start": {
         "city": "Caen",
@@ -61,21 +61,13 @@
         "lat": "47.218371",
         "lng": "-1.553621"
       },
-      "length": 300,
-      "type": null,
-      "winner": {
-        "name": "Kurt Stöpel Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      },
-      "leader": {
-        "name": "Kurt Stöpel Drapeau d'Allemagne Allemagne",
-        "nationality": null
-      }
+      "length": 300
     },
     {
       "id": "E-1932-03",
       "year": 1932,
-      "leg": 3,
+      "leg": "3",
+      "leg_num": 3,
       "title": "Nantes - Bordeaux",
       "start": {
         "city": "Nantes",
@@ -89,21 +81,13 @@
         "lat": "44.837789",
         "lng": "-0.57918"
       },
-      "length": 387,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 387
     },
     {
       "id": "E-1932-04",
       "year": 1932,
-      "leg": 4,
+      "leg": "4",
+      "leg_num": 4,
       "title": "Bordeaux - Pau",
       "start": {
         "city": "Bordeaux",
@@ -117,21 +101,13 @@
         "lat": "43.2951",
         "lng": "-0.370797"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "Georges Ronsse Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 206
     },
     {
       "id": "E-1932-05",
       "year": 1932,
-      "leg": 5,
+      "leg": "5",
+      "leg_num": 5,
       "title": "Pau - Luchon",
       "start": {
         "city": "Pau",
@@ -145,21 +121,13 @@
         "lat": "42.788963",
         "lng": "0.592943"
       },
-      "length": 229,
-      "type": null,
-      "winner": {
-        "name": "Antonio Pesenti Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 229
     },
     {
       "id": "E-1932-06",
       "year": 1932,
-      "leg": 6,
+      "leg": "6",
+      "leg_num": 6,
       "title": "Luchon - Perpignan",
       "start": {
         "city": "Luchon",
@@ -173,21 +141,13 @@
         "lat": "42.698684",
         "lng": "2.895872"
       },
-      "length": 323,
-      "type": null,
-      "winner": {
-        "name": "Frans Bonduel Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 323
     },
     {
       "id": "E-1932-07",
       "year": 1932,
-      "leg": 7,
+      "leg": "7",
+      "leg_num": 7,
       "title": "Perpignan - Montpellier",
       "start": {
         "city": "Perpignan",
@@ -201,21 +161,13 @@
         "lat": "43.610769",
         "lng": "3.876716"
       },
-      "length": 168,
-      "type": null,
-      "winner": {
-        "name": "Frans Bonduel Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 168
     },
     {
       "id": "E-1932-08",
       "year": 1932,
-      "leg": 8,
+      "leg": "8",
+      "leg_num": 8,
       "title": "Montpellier - Marseille",
       "start": {
         "city": "Montpellier",
@@ -229,21 +181,13 @@
         "lat": "43.296482",
         "lng": "5.36978"
       },
-      "length": 206,
-      "type": null,
-      "winner": {
-        "name": "Michele Orecchia Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 206
     },
     {
       "id": "E-1932-09",
       "year": 1932,
-      "leg": 9,
+      "leg": "9",
+      "leg_num": 9,
       "title": "Marseille - Cannes",
       "start": {
         "city": "Marseille",
@@ -257,21 +201,13 @@
         "lat": "43.552847",
         "lng": "7.017369"
       },
-      "length": 191,
-      "type": null,
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 191
     },
     {
       "id": "E-1932-10",
       "year": 1932,
-      "leg": 10,
+      "leg": "10",
+      "leg_num": 10,
       "title": "Cannes - Nice",
       "start": {
         "city": "Cannes",
@@ -285,21 +221,13 @@
         "lat": "43.696036",
         "lng": "7.265592"
       },
-      "length": 132,
-      "type": null,
-      "winner": {
-        "name": "Francesco Camusso Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 132
     },
     {
       "id": "E-1932-11",
       "year": 1932,
-      "leg": 11,
+      "leg": "11",
+      "leg_num": 11,
       "title": "Nice - Gap",
       "start": {
         "city": "Nice",
@@ -313,21 +241,13 @@
         "lat": "44.559638",
         "lng": "6.079758"
       },
-      "length": 233,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 233
     },
     {
       "id": "E-1932-12",
       "year": 1932,
-      "leg": 12,
+      "leg": "12",
+      "leg_num": 12,
       "title": "Gap - Grenoble",
       "start": {
         "city": "Gap",
@@ -341,21 +261,13 @@
         "lat": "45.188529",
         "lng": "5.724524"
       },
-      "length": 102,
-      "type": null,
-      "winner": {
-        "name": "Roger Lapébie Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 102
     },
     {
       "id": "E-1932-13",
       "year": 1932,
-      "leg": 13,
+      "leg": "13",
+      "leg_num": 13,
       "title": "Grenoble - Aix-les-Bains",
       "start": {
         "city": "Grenoble",
@@ -369,21 +281,13 @@
         "lat": "45.692341",
         "lng": "5.908998"
       },
-      "length": 230,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 230
     },
     {
       "id": "E-1932-14",
       "year": 1932,
-      "leg": 14,
+      "leg": "14",
+      "leg_num": 14,
       "title": "Aix-les-Bains - Évian",
       "start": {
         "city": "Aix-les-Bains",
@@ -397,21 +301,13 @@
         "lat": "46.401488",
         "lng": "6.590949"
       },
-      "length": 204,
-      "type": null,
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 204
     },
     {
       "id": "E-1932-15",
       "year": 1932,
-      "leg": 15,
+      "leg": "15",
+      "leg_num": 15,
       "title": "Évian - Belfort",
       "start": {
         "city": "Évian",
@@ -425,21 +321,13 @@
         "lat": "47.639674",
         "lng": "6.863849"
       },
-      "length": 291,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 291
     },
     {
       "id": "E-1932-16",
       "year": 1932,
-      "leg": 16,
+      "leg": "16",
+      "leg_num": 16,
       "title": "Belfort - Strasbourg",
       "start": {
         "city": "Belfort",
@@ -453,21 +341,13 @@
         "lat": "48.583148",
         "lng": "7.747882"
       },
-      "length": 291,
-      "type": null,
-      "winner": {
-        "name": "Gérard Loncke Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 291
     },
     {
       "id": "E-1932-17",
       "year": 1932,
-      "leg": 17,
+      "leg": "17",
+      "leg_num": 17,
       "title": "Strasbourg - Metz",
       "start": {
         "city": "Strasbourg",
@@ -481,21 +361,13 @@
         "lat": "49.119666",
         "lng": "6.176905"
       },
-      "length": 165,
-      "type": null,
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 165
     },
     {
       "id": "E-1932-18",
       "year": 1932,
-      "leg": 18,
+      "leg": "18",
+      "leg_num": 18,
       "title": "Metz - Charleville-Mézières",
       "start": {
         "city": "Metz",
@@ -509,21 +381,13 @@
         "lat": "49.762085",
         "lng": "4.726096"
       },
-      "length": 159,
-      "type": null,
-      "winner": {
-        "name": "Raffaele Di Paco Drapeau : ItalieItalie",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 159
     },
     {
       "id": "E-1932-19",
       "year": 1932,
-      "leg": 19,
+      "leg": "19",
+      "leg_num": 19,
       "title": "Charleville-Mézières - Malo-les-Bains",
       "start": {
         "city": "Charleville-Mézières",
@@ -537,21 +401,13 @@
         "lat": "51.046636",
         "lng": "2.398274"
       },
-      "length": 271,
-      "type": null,
-      "winner": {
-        "name": "Gaston Rebry Drapeau belge Belgique",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 271
     },
     {
       "id": "E-1932-20",
       "year": 1932,
-      "leg": 20,
+      "leg": "20",
+      "leg_num": 20,
       "title": "Malo-les-Bains - Amiens",
       "start": {
         "city": "Malo-les-Bains",
@@ -565,21 +421,13 @@
         "lat": "49.894067",
         "lng": "2.295753"
       },
-      "length": 212,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 212
     },
     {
       "id": "E-1932-21",
       "year": 1932,
-      "leg": 21,
+      "leg": "21",
+      "leg_num": 21,
       "title": "Amiens - Paris",
       "start": {
         "city": "Amiens",
@@ -593,16 +441,7 @@
         "lat": "48.856614",
         "lng": "2.352222"
       },
-      "length": 159,
-      "type": null,
-      "winner": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      },
-      "leader": {
-        "name": "André Leducq Drapeau de France France",
-        "nationality": null
-      }
+      "length": 159
     }
   ]
 }

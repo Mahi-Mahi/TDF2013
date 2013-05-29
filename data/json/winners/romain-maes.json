@@ -1,20 +1,33 @@
 {
   "id": "romain-maes",
-  "first_name": "Romain",
-  "last_name": "Maes",
-  "birthyear": 1913,
-  "country": "Belgique",
   "years": {
+    "1934": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
     "1935": {
-      "nb_days_in_yellow": 20,
-      "nb_tour_legs": 21,
-      "pct_leading": 95,
-      "nb_leg_wins": 3,
-      "average_speed": 30.65,
-      "total_time": "141h 32’ 00”",
-      "ahead_of_2nd": "0h17'52''"
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1936": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1938": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1939": {
+      "position": "Abandon",
+      "nb_wins": 1
     }
   },
-  "is_doped": false,
-  "nb_wins": "1"
+  "country": "10/08/1912",
+  "birthdate": "22/02/1983",
+  "deathdate": null,
+  "bio": null
 }
