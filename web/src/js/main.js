@@ -1,17 +1,18 @@
+/* global console */
 ( function () {
 
-  var Revue = window.Revue || {};
+  var TDF = window.TDF || {};
 
-  Revue.init = function () {
+  TDF.init = function () {
 
-
+	console.log('init');
 
   };
 
   // Document Ready
   jQuery( document ).ready( function () {
 
-    Revue.init();
+	TDF.init();
 
   } );
 
