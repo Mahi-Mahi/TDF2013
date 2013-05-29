@@ -128,7 +128,7 @@
       "year": 1964,
       "leg": "5",
       "leg_num": 6,
-      "title": "Lunéville - Fribourg en Brisgau",
+      "title": "Lunéville - Fribourg-en-Brisgau",
       "start": {
         "city": "Lunéville",
         "country": "France",
@@ -136,10 +136,10 @@
         "lng": "6.492339"
       },
       "finish": {
-        "city": "Fribourg en Brisgau",
+        "city": "Fribourg-en-Brisgau",
         "country": "Allemagne",
-        "lat": "47.99901",
-        "lng": "7.84210"
+        "lat": "47.999008",
+        "lng": "7.842104"
       },
       "length": 161
     },
@@ -148,12 +148,12 @@
       "year": 1964,
       "leg": "6",
       "leg_num": 7,
-      "title": "Fribourg en Brisgau - Besançon",
+      "title": "Fribourg-en-Brisgau - Besançon",
       "start": {
-        "city": "Fribourg en Brisgau",
+        "city": "Fribourg-en-Brisgau",
         "country": "Allemagne",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "lat": "47.999008",
+        "lng": "7.842104"
       },
       "finish": {
         "city": "Besançon",

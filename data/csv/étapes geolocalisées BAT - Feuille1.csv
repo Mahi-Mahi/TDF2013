@@ -93,8 +93,8 @@ E-1973-20a,E-1973-25,1973,20a,25,Versailles - Versailles,Versailles,France,"48.8
 E-1973-20b,E-1973-26,1973,20b,26,Versailles - Paris,Versailles,France,"48.801408,2.130122",Paris,France,"48.856614,2.352222",89
 E-1971-Prologue,E-1971-0,1971,Prologue,0,Mulhouse,Mulhouse,France,"47.750839,7.335888",Mulhouse,,"47.750839,7.335888",11
 E-1971-1a,E-1971-1,1971,1a,1,Mulhouse - Bâle (Sui.),Mulhouse,France,"47.750839,7.335888",Bâle,Suisse,"47.557421,7.592573","59,5"
-E-1971-1b,E-1971-2,1971,1b,2,Bâle - Fribourg (RFA),Bâle,Suisse,"47.557421,7.592573",Fribourg-en-Brisgau,RFA,"46.801666,7.145568",90
-E-1971-1c,E-1971-3,1971,1c,3,Fribourg - Mulhouse,Fribourg en Brisgau,Allemagne,"46.801666,7.145568",Mulhouse,France,"47.750839,7.335888",74
+E-1971-1b,E-1971-2,1971,1b,2,Bâle - Fribourg-en-Brisgau (RFA),Bâle,Suisse,"47.557421,7.592573",Fribourg-en-Brisgau,RFA,"47.99901,7.84210",90
+E-1971-1c,E-1971-3,1971,1c,3,Fribourg-en-Brisgau (RFA) - Mulhouse,Fribourg-en-Brisgau,Allemagne,"47.99901,7.84210",Mulhouse,France,"47.750839,7.335888",74
 E-1971-2,E-1971-4,1971,2,4,Mulhouse - Strasbourg,Mulhouse,France,"47.750839,7.335888",Strasbourg,France,"48.583148,7.747882",144
 E-1971-3,E-1971-5,1971,3,5,Strasbourg - Nancy,Strasbourg,France,"48.583148,7.747882",Nancy,France,"48.692054,6.184417","165,5"
 E-1971-4,E-1971-6,1971,4,6,Champigneulles - Marche-en-Famenne,Champigneulles,France,"48.73340,6.16418
@@ -1186,8 +1186,8 @@ E-1964-2,E-1964-2,1964,2,2,Lisieux - Amiens,Lisieux,France,"49.145922,0.227849",
 E-1964-3a,E-1964-3,1964,3a,3,Amiens - Forest,Amiens,France,"49.894067,2.295753",Forest,Belgique,"50.8,4.316667","196,5"
 E-1964-3b,E-1964-4,1964,3b,4,Forest - Forest,Forest,Belgique,"50.8,4.316667",Forest,Belgique,"50.8,4.316667","21,3"
 E-1964-4,E-1964-5,1964,4,5,Forest - Metz,Forest,Belgique,"50.8,4.316667",Metz,France,"49.119666,6.176905","291,5"
-E-1964-5,E-1964-6,1964,5,6,Lunéville - Fribourg en Brisgau,Lunéville,France,"48.592237,6.492339",Fribourg en Brisgau,Allemagne,"47.99901,7.84210","161,5"
-E-1964-6,E-1964-7,1964,6,7,Fribourg en Brisgau - Besançon,Fribourg en Brisgau,Allemagne,"46.801666,7.145568",Besançon,France,"47.237829,6.024054",200
+E-1964-5,E-1964-6,1964,5,6,Lunéville - Fribourg-en-Brisgau,Lunéville,France,"48.592237,6.492339",Fribourg-en-Brisgau,Allemagne,"47.999008,7.842104","161,5"
+E-1964-6,E-1964-7,1964,6,7,Fribourg-en-Brisgau - Besançon,Fribourg-en-Brisgau,Allemagne,"47.999008,7.842104",Besançon,France,"47.237829,6.024054",200
 E-1964-7,E-1964-8,1964,7,8,Champagnole - Thonon-les-Bains,Champagnole,France,"46.74609,5.90573",Thonon-les-Bains,France,"46.373565,6.477635",195
 E-1964-8,E-1964-9,1964,8,9,Thonon-les-Bains - Briançon,Thonon-les-Bains,France,"46.373565,6.477635",Briançon,France,"44.899416,6.643179","248,5"
 E-1964-9,E-1964-10,1964,9,10,Briançon - Monaco,Briançon,France,"44.899416,6.643179",Monaco,Monaco,"43.738418,7.424616",239
