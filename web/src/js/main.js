@@ -7,27 +7,99 @@
 
 		console.log("Route");
 
-		var setPageBackground = function() {
-			console.log('setPageBackground');
-		};
+		/*
 
-		// home
+		/
+		/recherche/
+		/recherche/pari/
+		/ville/paris/
+		/tours/
+		/tours/1954/
+		/tours/1954,1975/
+		/tours/1954,1975/bordeaux/
+		/lieux-mythiques/
+		/lieux-mythiques/mont-saint-michel/
+		/duels-de-legendes/
+		/duels-de-legendes/alberto-contador/richard-virenque/
+		/vainqueurs/
+		/vainqueurs/greg-lemon/
+
+		/sources-et-methodologies/
+
+		/credits/
+
+		*/
+
+		// Home
 		Path.root("/");
-
-		// Fight
 		Path.map("/").to(function() {
 			console.log("/home");
-		}).enter(setPageBackground);
+		});
+
+		// Map
+		Path.map("/recherche(/:city_name)").to(function() {
+			if ( this.params['city_name'] === undefined){
+				console.log("/recherche");
+			}
+			else {
+				console.log("/recherche : " + this.params['city_name']);
+			}
+		});
+
+		// City
+		Path.map("/ville/:city_id)").to(function() {
+			console.log("/city : " + this.params['city_id']);
+		});
+
+		// Tours
+		Path.map("/tours(/:years)(/:city_id)").to(function() {
+			if ( this.params['years'] === undefined){
+				console.log("/tours");
+			}
+			else {
+				if ( this.params['city_id'] === undefined){
+					console.log("/tours : " + this.params['years']);
+				}
+				else {
+					console.log("/tours : " + this.params['years'] + " / " + this.params['city_id']);
+				}
+			}
+		});
+
+		// StreetView
+		Path.map("/lieux-mythiques(/:place_id)").to(function() {
+			if ( this.params['place_id'] === undefined){
+				console.log("/StreetView");
+			}
+			else {
+				console.log("/StreetView : " + this.params['place_id']);
+			}
+		});
 
 		// Fight
-		Path.map("/fight").to(function() {
-			console.log("/fight");
-		}).enter(setPageBackground);
+		Path.map("/duels-de-legendes(/:legend_one)(/:legend_two)").to(function() {
+			if ( this.params['legend_one'] === undefined){
+				console.log("/fight");
+			}
+			else {
+				if ( this.params['legend_two'] === undefined){
+					console.log("/fight : " + this.params['legend_one']);
+				}
+				else {
+					console.log("/fight : " + this.params['legend_one'] + " / " + this.params['legend_two']);
+				}
+			}
+		});
 
 		// Winners
-		Path.map("/winners").to(function() {
-			console.log("/winners");
-		}).enter(setPageBackground);
+		Path.map("/vainqueurs(/:winner_id)").to(function() {
+			if ( this.params['winner_id'] === undefined){
+				console.log("/winners");
+			}
+			else {
+				console.log("/winners : " + this.params['winner_id']);
+			}
+		});
 
 		Path.rescue(function(){
 			console.log("404: Route Not Found : " + document.location.pathname);
