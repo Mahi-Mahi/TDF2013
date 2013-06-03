@@ -10,6 +10,8 @@ var gmap,
 
 $(document).ready(function(){
 
+        console.log("plop");
+
         //Config Gmap
         gmap = null;
         mapId = 'mapPreview';

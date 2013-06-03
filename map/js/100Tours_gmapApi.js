@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 
 function initializeGmap() {
-       
+    
         var mapOptions = {
             mapTypeId: mapTypeId,
             center: new google.maps.LatLng(startlat, startlng),
@@ -43,7 +43,10 @@ function initializeGmap() {
             zoomControlOpt: {
                 style : 'SMALL',
                 position: 'TOP_LEFT'
-            }
+            },
+            markerIconImg: '../img/point-simple-ombre.png',
+            markerCircleIconImg: '../img/point-boucle-ombre.png',
+            styles: mapStyle
         };
 
         gmap = map.gmapApi(mapOptions);
@@ -77,9 +80,7 @@ function loadData(){
 
 
 function initSelecteur(){
-
-    console.log("allEtapes.length : " + allEtapes.length);
-
+    
         toursSelecteur.on('change', function(){
             var years = $(this).val();
 

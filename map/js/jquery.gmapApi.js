@@ -29,6 +29,9 @@
 
         // this.geolocationIcon = null;
         
+        this.markerIcon = null;
+        this.markerCircleIcon = null;
+        
         this.navigation = null;
 
         this.defaultPosition = [];
@@ -42,6 +45,8 @@
         this.circles = [];
         this.lines = [];
         this.dashedlines = [];
+        
+        this.animateInterval = null;
 
         this._init(options);
     };
@@ -105,6 +110,10 @@
             today: 'today',
             lastUpdate: 'last update'
         },
+        styles: null,
+        markerIconImg: null,
+        markerCircleIconImg: null,
+        isAnimated: false,
         debugMode: true
     };
 
@@ -139,7 +148,7 @@
 
             this._initGmap();
 
-            // this._createImage();
+            this._createImage();
 
             // this._geolocate();
 
@@ -169,10 +178,37 @@
                 center: this.settings.center,
                 zoom: this.settings.zoom,
                 zoomControl: this.settings.zoomControl,
-                zoomControlOpt: this.settings.zoomControlOpt
+                zoomControlOpt: this.settings.zoomControlOpt,
+                styles: this.settings.styles
             });
 
         },
+        
+        /**
+         * _createImage
+         * 
+         * Create geolocation icon
+         */
+         _createImage: function() {
+
+             this.markerIcon = {
+                 url: this.settings.markerIconImg,
+                 size: new google.maps.Size(26, 26),
+                 origin: new google.maps.Point(0, 0),
+                 anchor: new google.maps.Point(13, 13)
+             };
+             
+             
+             this.markerCircleIcon = {
+                 url: this.settings.markerCircleIconImg,
+                 size: new google.maps.Size(26, 26),
+                 origin: new google.maps.Point(0, 0),
+                 anchor: new google.maps.Point(13, 13)
+             };
+              
+         },
+        
+        
 
         clearMap: function(){
 
@@ -249,7 +285,9 @@
 
                             if(etape.start.city == etape.finish.city){
 
-                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
+//                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
+                                
+                                var circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['circles'].push(circle);
 
                             }
@@ -261,7 +299,16 @@
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
 
-                                var line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng);
+                                var line;
+                                if(etape.id == "E-1914-05"){
+                                    console.log("plop");
+                                    line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true, true);
+                                }
+                                else{
+                                    line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
+                                }
+                                
+                                
                                 self.tours[years]['lines'].push(line);           
                             }
 
@@ -281,6 +328,10 @@
                     }
                 });  
             });
+            
+            if(this.settings.isAnimated)
+                this.animateLine();
+            
         },
 
         createMarker: function(plat, plng, title){
@@ -289,10 +340,27 @@
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(plat, plng),
                 map: self.map,
-                title: title
+                title: title,
+                icon: self.markerIcon
             });
 
             this.markers.push(marker);
+
+            return marker;
+
+        },
+        
+        createMarkerCircle: function(plat, plng, title){
+            var self = this;
+
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(plat, plng),
+                map: self.map,
+                title: title,
+                icon: self.markerCircleIcon
+            });
+
+            this.circles.push(marker);
 
             return marker;
 
@@ -320,8 +388,24 @@
             return circle;
         },
 
-        createLine: function(slat, slng, flat, flng){
+        createLine: function(slat, slng, flat, flng, isOriented, isCurved){
             var self = this;
+            
+            var lineSymbol = null;
+            
+            if(isOriented){
+                lineSymbol = {
+                    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+                };
+            }
+            
+            console.log("isCurved : " + isCurved);
+            
+            if(isCurved == undefined)
+                isCurved = false;
+            
+            
+            console.log("isCurved : " + isCurved);
 
             var lineCoordinates = [
                 new google.maps.LatLng(slat, slng),
@@ -331,13 +415,36 @@
 
             var line = new google.maps.Polyline({
                 strokeWeight: 2,
+                strokeColor: '#333333',
                 path: lineCoordinates,
-                map: self.map
+                map: self.map,
+                geodesic: isCurved,
+                icons: [{
+                    icon: lineSymbol,
+                    offset: '100%'
+                }]
             });
 
             this.lines.push(line);
-
+            
             return line;
+        },
+        
+        animateLine: function(){
+            var self = this;
+
+            var count = 0;
+            self.animateInterval = window.setInterval(function() {
+                count = (count + 1) % 200;
+
+                $.each(self.lines, function(i){
+                    var icons = self.lines[i].get('icons');
+                    icons[0].offset = (count / 2) + '%';
+                    self.lines[i].set('icons', icons);
+                });
+            }, 20);
+            
+          
         },
 
         createDashedLine: function(slat, slng, flat, flng){
@@ -351,8 +458,8 @@
             var lineSymbol = {
                 path: 'M 0,-1 0,1',
                 strokeOpacity: 1,
-                strokeWeight: 2,
-                scale: 4
+                strokeWeight: 1,
+                scale: 5
             };
 
             var line = new google.maps.Polyline({
@@ -361,7 +468,7 @@
                 icons: [{
                     icon: lineSymbol,
                     offset: '0',
-                    repeat: '20px'
+                    repeat: '15px'
                 }],
                 map: self.map
             });
@@ -373,23 +480,7 @@
         },
 
 
-        /**
-         * _createImage
-         * 
-         * Create geolocation icon
-         */
-        // _createImage: function() {
-
-        //     this.geolocationIcon = {
-        //         url: this.settings.geolocationIconUrl,
-        //         // This marker is 20 pixels wide by 32 pixels tall.
-        //         size: new google.maps.Size(14, 14),
-        //         // The origin for this image is 0,0.
-        //         origin: new google.maps.Point(0, 0),
-        //         // The anchor for this image is the base of the flagpole at 0,32.
-        //         anchor: new google.maps.Point(0, 0)
-        //     };
-        // },
+        
         /**
          * _geolocate
          */
