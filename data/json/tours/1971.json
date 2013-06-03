@@ -68,7 +68,7 @@
       "year": 1971,
       "leg": "1b",
       "leg_num": 2,
-      "title": "Bâle - Fribourg (RFA)",
+      "title": "Bâle - Fribourg-en-Brisgau (RFA)",
       "start": {
         "city": "Bâle",
         "country": "Suisse",
@@ -78,8 +78,8 @@
       "finish": {
         "city": "Fribourg-en-Brisgau",
         "country": "RFA",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "lat": "47.99901",
+        "lng": "7.84210"
       },
       "length": 90
     },
@@ -88,12 +88,12 @@
       "year": 1971,
       "leg": "1c",
       "leg_num": 3,
-      "title": "Fribourg - Mulhouse",
+      "title": "Fribourg-en-Brisgau (RFA) - Mulhouse",
       "start": {
-        "city": "Fribourg en Brisgau",
+        "city": "Fribourg-en-Brisgau",
         "country": "Allemagne",
-        "lat": "46.801666",
-        "lng": "7.145568"
+        "lat": "47.99901",
+        "lng": "7.84210"
       },
       "finish": {
         "city": "Mulhouse",

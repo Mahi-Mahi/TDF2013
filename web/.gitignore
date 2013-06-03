@@ -1,0 +1,12 @@
+*.db
+*.DS_Store
+*.tmp
+*.
+.sass-cache/
+node_modules/
+components/
+npm-debug.log
+
+dev/
+dist/
+
