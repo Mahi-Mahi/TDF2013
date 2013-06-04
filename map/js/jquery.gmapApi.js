@@ -184,6 +184,11 @@
 
         },
         
+        
+        getMap: function(){
+            return this.map;
+        },
+        
         /**
          * _createImage
          * 
