@@ -55,7 +55,7 @@
 					<a href="" class="link">Votre duel de légendes</a>
 				</div>
 
-				<div class="tours">
+				<div class="traces">
 					<a href="" class="link">La carte des 100 tracés</a>
 					<small>Explorez et comparez l'ensemble des tracés des 100 tours</small>
 				</div>
@@ -64,37 +64,128 @@
 
 
 			<div id="template-search" class="template">
-				<header>
-					<h1><a href="/" class="external">100 Tours de France</a></h1>
-					<div class="center">
-						<form id="city_search" method="get">
-							<input type="text" id="search" name="city" value="" placeholder="cherchez une autre ville" />
-							<input type="submit" class="submit">
-						</form>
-					</div>
-
-					<div class="tours">
-						<a href="" class="link">Tracés</a>
-					</div>
-
-					<div class="winners">
-						<a href="" class="link">Vainqueurs</a>
-					</div>
-
-					<div class="fight">
-						<a href="" class="link">Duels</a>
-					</div>
-
-					<div class="streetview">
-						<a href="" class="link">Vues</a>
-					</div>
-				</header>
+				<header></header>
 				<div class="content">
 					<div id="gmap"></div>
 				</div>
 
 			</div>
 
+			<div id="template-traces" class="template">
+				<header></header>
+				<div class="content">
+					<div class="left">
+						<div class="years">
+							1954
+						</div>
+						<div class="total_length">
+							<span>3210 km en moyenne</span>
+							<a href="/traces/1985/" class="min">2215 en 1985</a>
+							<div class="line"></div>
+							<a href="/traces/1997/" class="min">4250 en 1997</a>
+						</div>
+						<div class="nb_legs">
+							<span>3210 km en moyenne</span>
+							<a href="/traces/1985/" class="min">2215 en 1985</a>
+							<div class="line"></div>
+							<a href="/traces/1997/" class="min">4250 en 1997</a>
+						</div>
+						<div class="nb_concurrents">
+							<span>3210 km en moyenne</span>
+							<a href="/traces/1985/" class="min">2215 en 1985</a>
+							<div class="line"></div>
+							<a href="/traces/1997/" class="min">4250 en 1997</a>
+						</div>
+						<div class="nb_finishers">
+							<span>3210 km en moyenne</span>
+							<a href="/traces/1985/" class="min">2215 en 1985</a>
+							<div class="line"></div>
+							<a href="/traces/1997/" class="min">4250 en 1997</a>
+						</div>
+					</div>
+					<div class="map-container">
+						<a href="/" class="back"><strong>&lt;-</strong> Retour</a>
+						<a href="/traces/1954/">Poitiers <strong>X</strong></a>
+						<div id="gmap"></div>
+					</div>
+					<div class="right">
+						<div class="winner">
+							<span>vainqueur</span>
+							<span class="name">Roger Virenquetil</span>
+							<a href="/vainqueurs/roger-virenquetil/">&gt;</a>
+							<div class="stats">
+								<div class="flag france"></div>
+								<div class="total_time">en 145h 18 min. 22s</div>
+								<div class="average_speed">24 km/h de moyenne</div>
+							</div>
+						</div>
+						<div class="second">
+							<span>2e</span>
+							<div class="name">
+								J. Contadorovitch
+								<a href="/vainqueurs/jose-contadorovitch/">&gt;</a>
+							</div>
+							<div class="ahead_of_second">
+								à 2 min. 45s
+							</div>
+						</div>
+						<div class="third">
+							<span>3e</span>
+							<div class="name">
+								B. Legstrong
+								<a href="/vainqueurs/bernard-legstrong/">&gt;</a>
+							</div>
+							<div class="ahead_of_third">
+								à 3 min. 54s
+							</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<ul class="timeline"></ul>
+						<ul class="timeline-zoom"></ul>
+						<div class="selectors">
+							<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
+							<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Tout sélectionner</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="template" id="template-winners">
+				<header></header>
+				Winners
+			</div>
+
+			<div class="template" id="template-streetview">
+				<header></header>
+				StreetView
+			</div>
+
+			<div class="template" id="template-fight">
+				<header></header>
+				FIGHT
+			</div>
+
+
+			<div id="template-header" class="template">
+				<h1><a href="/" class="external">100 Tours de France</a></h1>
+
+				<div class="traces">
+					<a href="" class="link">Tracés</a>
+				</div>
+
+				<div class="winners">
+					<a href="" class="link">Vainqueurs</a>
+				</div>
+
+				<div class="fight">
+					<a href="" class="link">Duels</a>
+				</div>
+
+				<div class="streetview">
+					<a href="" class="link">Vues</a>
+				</div>
+			</div>
 
 
 		</div>

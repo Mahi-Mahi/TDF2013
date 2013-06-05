@@ -14,7 +14,7 @@ var TDF = (function() {
 			home: '/',
 			search: '/recherche/',
 			city: '/ville/',
-			tours: '/tours',
+			traces: '/traces/',
 			streetview: '/lieux-mythiques/',
 			fight: '/duels-de-legendes/',
 			winners: '/vainqueurs/'
@@ -29,10 +29,10 @@ var TDF = (function() {
 		/recherche/
 		/recherche/pari/
 		/ville/paris/
-		/tours/
-		/tours/1954/
-		/tours/1954,1975/
-		/tours/1954,1975/bordeaux/
+		/traces/
+		/traces/1954/
+		/traces/1954,1975/
+		/traces/1954,1975/bordeaux/
 		/lieux-mythiques/
 		/lieux-mythiques/mont-saint-michel/
 		/duels-de-legendes/
@@ -70,17 +70,17 @@ var TDF = (function() {
 			});
 		});
 
-		// Tours
-		Path.map("/tours/(:years/)(:city_id/)").to(function() {
+		// Traces
+		Path.map("/traces/(:years/)(:city_id/)").to(function() {
 			if (this.params['years'] === undefined) {
-				TDF.render('tours');
+				TDF.render('traces');
 			} else {
 				if (this.params['city_id'] === undefined) {
-					TDF.render('tours', {
+					TDF.render('traces', {
 						years: this.params['years']
 					});
 				} else {
-					TDF.render('tours', {
+					TDF.render('traces', {
 						years: this.params['years'],
 						city_id: this.params['city_id']
 					});
@@ -89,7 +89,7 @@ var TDF = (function() {
 		});
 
 		// StreetView
-		Path.map("/lieux-mythiques/)(:place_id/)").to(function() {
+		Path.map("/lieux-mythiques/(:place_id/)").to(function() {
 			if (this.params['place_id'] === undefined) {
 				TDF.render('streetview');
 			} else {
@@ -170,6 +170,13 @@ var TDF = (function() {
 
 			var $content = jQuery('#template-' + module.name);
 
+			if ( $content.find('header').length ) {
+				var $header = $content.find('header');
+				$header.html(jQuery('#template-header').html());
+				$header.find('.active').removeClass('active');
+				$header.find('.' + module.name).addClass('active');
+			}
+
 			for (var route in TDF.routes) {
 				$content.find('.' + route + ' .link').attr('href', TDF.routes[route]);
 			}
@@ -196,8 +203,17 @@ var TDF = (function() {
 				case 'search':
 					this.modules[module] = TDF.CitySearch;
 					break;
+				case 'traces':
+					this.modules[module] = TDF.Traces;
+					break;
 				case 'winners':
 					this.modules[module] = TDF.Winners;
+					break;
+				case 'fight':
+					this.modules[module] = TDF.Fight;
+					break;
+				case 'streetview':
+					this.modules[module] = TDF.StreetView;
 					break;
 			}
 			this.modules[module].init();
@@ -295,9 +311,46 @@ TDF.CitySearch = (function() {
 
 }());
 
+
+TDF.Traces = (function() {
+
+	var my = {};
+
+	my.name = 'traces';
+
+	my.init = function() {
+		console.log("Traces.init");
+
+		$main.on('submit', '.traces #city_search', function(event) {
+			event.preventDefault();
+			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+			return false;
+		});
+
+	};
+
+	my.render = function(args) {
+		console.log("Traces.render");
+
+		TDF.loadTemplate(this);
+
+		$main.find('#search').val(args.city_name);
+
+		console.log("gmap.api('search', args);");
+		// gmap.api('search', args);
+
+	};
+
+	return my;
+
+}());
+
+
 TDF.Winners = (function() {
 
 	var my = {};
+
+	my.name = 'winners';
 
 	my.init = function() {
 		console.log("Winners.init");
@@ -305,6 +358,45 @@ TDF.Winners = (function() {
 
 	my.render = function() {
 		console.log("Winners.render");
+		TDF.loadTemplate(this);
+	};
+
+	return my;
+
+}());
+
+TDF.Fight = (function() {
+
+	var my = {};
+
+	my.name = 'fight';
+
+	my.init = function() {
+		console.log("Fight.init");
+	};
+
+	my.render = function() {
+		console.log("Fight.render");
+		TDF.loadTemplate(this);
+	};
+
+	return my;
+
+}());
+
+TDF.StreetView = (function() {
+
+	var my = {};
+
+	my.name = 'streetview';
+
+	my.init = function() {
+		console.log("StreetView.init");
+	};
+
+	my.render = function() {
+		console.log("StreetView.render");
+		TDF.loadTemplate(this);
 	};
 
 	return my;
