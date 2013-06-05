@@ -11,6 +11,7 @@
   "author": "",
   "license": "BSD",
   "devDependencies": {
+    "grunt-cli": "latest",
     "grunt": "latest",
     "grunt-contrib-sass": "latest",
     "grunt-contrib-concat": "latest",
@@ -20,6 +21,7 @@
     "grunt-contrib-copy": "latest",
     "grunt-contrib-clean": "latest",
     "grunt-img": "latest",
-    "grunt-bower": "latest"
+    "grunt-bower": "latest",
+    "bower": "latest"
   }
 }
