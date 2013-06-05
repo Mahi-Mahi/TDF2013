@@ -6,7 +6,6 @@ var TDF = (function() {
 
 	var my = {};
 
-
 	// var TDF = window.TDF || {};
 
 	my.setRoutes = function() {
@@ -54,6 +53,7 @@ var TDF = (function() {
 
 		// Map
 		Path.map("/recherche/(:city_name/)").to(function() {
+			console.log("/recehrche/city_name");
 			if (this.params['city_name'] === undefined) {
 				TDF.render('search');
 			} else {
@@ -64,7 +64,7 @@ var TDF = (function() {
 		});
 
 		// City
-		Path.map("/ville/:city_id/)").to(function() {
+		Path.map("/ville/:city_id/").to(function() {
 			TDF.render('city', {
 				city_id: this.params['city_id']
 			});
@@ -72,6 +72,7 @@ var TDF = (function() {
 
 		// Traces
 		Path.map("/traces/(:years/)(:city_id/)").to(function() {
+			console.log(this.params);
 			if (this.params['years'] === undefined) {
 				TDF.render('traces');
 			} else {
@@ -166,11 +167,11 @@ var TDF = (function() {
 
 	my.loadTemplate = function(module) {
 
-		if ( ! $inner.hasClass(module.name) ) {
+		if (!$inner.hasClass(module.name)) {
 
 			var $content = jQuery('#template-' + module.name);
 
-			if ( $content.find('header').length ) {
+			if ($content.find('header').length) {
 				var $header = $content.find('header');
 				$header.html(jQuery('#template-header').html());
 				$header.find('.active').removeClass('active');
@@ -235,6 +236,7 @@ var TDF = (function() {
 
 		// render current module
 
+		// only for #/dummy/ url
 		this.currentRoute();
 
 		// render other modules
@@ -272,10 +274,8 @@ TDF.Home = (function() {
 
 	};
 
-
 	return my;
 }());
-
 
 
 TDF.CitySearch = (function() {
@@ -308,7 +308,6 @@ TDF.CitySearch = (function() {
 	};
 
 	return my;
-
 }());
 
 
@@ -318,8 +317,22 @@ TDF.Traces = (function() {
 
 	my.name = 'traces';
 
+	my.data = null;
+	my.args = null;
+	my.traces = {};
+
 	my.init = function() {
 		console.log("Traces.init");
+
+		if (this.data === null) {
+			jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
+				//optional stuff to do after success
+				console.log(textStatus);
+				my.data = json;
+				my.setup();
+			});
+
+		}
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
@@ -334,11 +347,25 @@ TDF.Traces = (function() {
 
 		TDF.loadTemplate(this);
 
-		$main.find('#search').val(args.city_name);
-
-		console.log("gmap.api('search', args);");
+		console.log("gmap.api('traces', args);");
 		// gmap.api('search', args);
 
+
+		my.args = args;
+
+		if (my.data !== null) {
+			// my.setup();
+		}
+	};
+
+	my.setup = function() {
+		console.log("Traces.setup(");
+		var years = my.args.years.split(/,/);
+		for (var year in years) {
+			my.traces[years[year]] = my.data[years[year]];
+		}
+
+		// gmap.API('traces', my.traces);
 	};
 
 	return my;
@@ -362,7 +389,6 @@ TDF.Winners = (function() {
 	};
 
 	return my;
-
 }());
 
 TDF.Fight = (function() {
@@ -381,7 +407,6 @@ TDF.Fight = (function() {
 	};
 
 	return my;
-
 }());
 
 TDF.StreetView = (function() {
@@ -400,7 +425,6 @@ TDF.StreetView = (function() {
 	};
 
 	return my;
-
 }());
 
 
