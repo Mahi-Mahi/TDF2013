@@ -24,19 +24,23 @@
 			<a href="http://radiobleue.fr" class="franceinter" target="_blank">RadioBleue</a>
 		</header>
 
-		<div class="main">
-
+		<div id="main">
+			<div id="inner"></div>
 		</div>
 
 
 
 
 		<div class="templates">
-			<div class="home">
-				<h1>100 Tours de France</h1>
+
+			<div id="template-home" class="template">
+				<h1><a href="/" class="external">100 Tours de France</a></h1>
 				<div class="center">
 					<label for="search">Où avez vous vu passer le tour de france</label>
-					<input type="text" id="search" name="city" value="" placeholder="ville" />
+					<form id="city_search" method="get">
+						<input type="text" id="search" name="city" value="" placeholder="ville" />
+						<input type="submit" class="submit">
+					</form>
 				</div>
 
 				<div class="streetview">
@@ -48,15 +52,51 @@
 				</div>
 
 				<div class="fight">
-					<a href="/duels-de-legendes/" class="link">Votre duel de légendes</a>
+					<a href="" class="link">Votre duel de légendes</a>
 				</div>
 
 				<div class="tours">
-					<a href="/tours/" class="link">La carte des 100 tracés</a>
+					<a href="" class="link">La carte des 100 tracés</a>
 					<small>Explorez et comparez l'ensemble des tracés des 100 tours</small>
 				</div>
 
 			</div>
+
+
+			<div id="template-search" class="template">
+				<header>
+					<h1><a href="/" class="external">100 Tours de France</a></h1>
+					<div class="center">
+						<form id="city_search" method="get">
+							<input type="text" id="search" name="city" value="" placeholder="cherchez une autre ville" />
+							<input type="submit" class="submit">
+						</form>
+					</div>
+
+					<div class="tours">
+						<a href="" class="link">Tracés</a>
+					</div>
+
+					<div class="winners">
+						<a href="" class="link">Vainqueurs</a>
+					</div>
+
+					<div class="fight">
+						<a href="" class="link">Duels</a>
+					</div>
+
+					<div class="streetview">
+						<a href="" class="link">Vues</a>
+					</div>
+				</header>
+				<div class="content">
+					<div id="gmap"></div>
+				</div>
+
+			</div>
+
+
+
 		</div>
 
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

@@ -4,9 +4,8 @@
   "main": "index.html",
   "dependencies": {
     "jquery": "~2.0.1",
-    "transparency": "~0.9.14",
-    "console-js": "*",
-    "pathjs": "*"
+    "pathjs": "*",
+    "console-js": "*"
   },
   "ignore": [
     "**/.*",

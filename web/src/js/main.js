@@ -1,58 +1,15 @@
-/* global console */ (function() {
+/* global console */
 
-	var TDF_Home = function() {
+var $main, $inner;
 
-		this.init = function() {
-			console.log("TDF_Home.init");
-		};
+var TDF = (function() {
 
-		this.render = function() {
-			console.log("TDF_Home.render");
-
-			var data = {};
-			for(var elt in TDF.routes) {
-				// console.log(elt);
-				// console.log(TDF.routes[elt]);
-				data[elt] = {link: TDF.routes[elt]};
-			}
-
-			console.log(data);
+	var my = {};
 
 
-			var directives = {
-				link: {
-					href: function() {
-						console.log(this);
-						return this.link;
-					}
-				}
-			};
+	// var TDF = window.TDF || {};
 
-			console.log(directives);
-			jQuery('.templates .home').render(data, directives);
-
-		};
-
-		this.init();
-
-	};
-
-	var TDF_Winners = function() {
-
-		this.init = function() {
-			console.log("TDF_Winners.init");
-		};
-
-		this.render = function() {
-			console.log("TDF_Winners.render");
-		};
-
-	};
-
-
-	var TDF = window.TDF || {};
-
-	TDF.setRoutes = function() {
+	my.setRoutes = function() {
 		this.routes = {
 			home: '/',
 			search: '/recherche/',
@@ -64,9 +21,7 @@
 		};
 	};
 
-	TDF.Route = function() {
-
-		console.log("Route");
+	my.Route = function() {
 
 		/*
 
@@ -94,17 +49,14 @@
 		// Home
 		Path.root("/");
 		Path.map("/").to(function() {
-			console.log("/home");
 			TDF.render('home');
 		});
 
 		// Map
 		Path.map("/recherche/(:city_name/)").to(function() {
 			if (this.params['city_name'] === undefined) {
-				console.log("/recherche");
 				TDF.render('search');
 			} else {
-				console.log("/recherche : " + this.params['city_name']);
 				TDF.render('search', {
 					city_name: this.params['city_name']
 				});
@@ -113,7 +65,6 @@
 
 		// City
 		Path.map("/ville/:city_id/)").to(function() {
-			console.log("/city : " + this.params['city_id']);
 			TDF.render('city', {
 				city_id: this.params['city_id']
 			});
@@ -122,16 +73,13 @@
 		// Tours
 		Path.map("/tours/(:years/)(:city_id/)").to(function() {
 			if (this.params['years'] === undefined) {
-				console.log("/tours");
 				TDF.render('tours');
 			} else {
 				if (this.params['city_id'] === undefined) {
-					console.log("/tours : " + this.params['years']);
 					TDF.render('tours', {
 						years: this.params['years']
 					});
 				} else {
-					console.log("/tours : " + this.params['years'] + " / " + this.params['city_id']);
 					TDF.render('tours', {
 						years: this.params['years'],
 						city_id: this.params['city_id']
@@ -143,10 +91,8 @@
 		// StreetView
 		Path.map("/lieux-mythiques/)(:place_id/)").to(function() {
 			if (this.params['place_id'] === undefined) {
-				console.log("/StreetView");
 				TDF.render('streetview');
 			} else {
-				console.log("/StreetView : " + this.params['place_id']);
 				TDF.render('streetview', {
 					place_id: this.params['place_id']
 				});
@@ -156,16 +102,13 @@
 		// Fight
 		Path.map("/duels-de-legendes/(:legend_one/)(:legend_two/)").to(function() {
 			if (this.params['legend_one'] === undefined) {
-				console.log("/fight");
 				TDF.render('fight');
 			} else {
 				if (this.params['legend_two'] === undefined) {
-					console.log("/fight : " + this.params['legend_one']);
 					TDF.render('fight', {
 						legend_one: this.params['legend_one']
 					});
 				} else {
-					console.log("/fight : " + this.params['legend_one'] + " / " + this.params['legend_two']);
 					TDF.render('fight', {
 						legend_one: this.params['legend_one'],
 						legend_two: this.params['legend_two']
@@ -177,10 +120,8 @@
 		// Winners
 		Path.map("/vainqueurs/(:winner_id/)").to(function() {
 			if (this.params['winner_id'] === undefined) {
-				console.log("/winners");
 				TDF.render('winners');
 			} else {
-				console.log("/winners : " + this.params['winner_id']);
 				TDF.render('winners', {
 					winner_id: this.params['winner_id']
 				});
@@ -202,9 +143,7 @@
 
 	};
 
-	TDF.currentRoute = function() {
-
-		console.log(this.routes);
+	my.currentRoute = function() {
 
 		var route = null;
 
@@ -225,7 +164,25 @@
 
 	};
 
-	TDF.render = function(module, args) {
+	my.loadTemplate = function(module) {
+
+		if ( ! $inner.hasClass(module.name) ) {
+
+			var $content = jQuery('#template-' + module.name);
+
+			for (var route in TDF.routes) {
+				$content.find('.' + route + ' .link').attr('href', TDF.routes[route]);
+			}
+
+			var content = $content.html();
+
+			jQuery('#inner').html(content).attr('class', module.name);
+
+		}
+
+	};
+
+	my.render = function(module, args) {
 		args = (typeof args === "undefined") ? {} : args;
 		console.log("render(" + module);
 		console.log(args);
@@ -234,45 +191,131 @@
 		if (typeof this.modules[module] === "undefined") {
 			switch (module) {
 				case 'home':
-					this.modules[module] = new TDF_Home();
+					this.modules[module] = TDF.Home;
+					break;
+				case 'search':
+					this.modules[module] = TDF.CitySearch;
 					break;
 				case 'winners':
-					this.modules[module] = new TDF_Winners();
+					this.modules[module] = TDF.Winners;
 					break;
 			}
+			this.modules[module].init();
 		}
 
-
-		this.modules[module].render();
-
+		this.modules[module].render(args);
 
 	};
 
-	TDF.init = function() {
+	my.init = function() {
+		console.log("TDF.init");
+		$main = jQuery('#main');
+		$inner = jQuery('#inner');
 
-		console.log('init');
-
-		TDF.setRoutes();
-		TDF.Route();
+		this.setRoutes();
+		this.Route();
 
 		this.modules = {};
 
 		// render current module
 
-		TDF.currentRoute();
+		this.currentRoute();
 
 		// render other modules
 
 	};
 
+	return my;
 
-	// Document Ready
-	jQuery(document).ready(function() {
-
-		console.log(TDF.Winners);
-		TDF.init();
-
-	});
+}());
 
 
-})();
+TDF.Home = (function() {
+
+	var my = {};
+
+	my.name = 'home';
+
+	my.init = function() {
+		console.log("Home.init");
+
+		// Set handler ( only on first init )
+
+		$main.on('submit', '.home #city_search', function(event) {
+			event.preventDefault();
+			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+			return false;
+		});
+
+	};
+
+	my.render = function() {
+		console.log("Home.render");
+
+		TDF.loadTemplate(this);
+
+	};
+
+
+	return my;
+}());
+
+
+
+TDF.CitySearch = (function() {
+
+	var my = {};
+
+	my.name = 'search';
+
+	my.init = function() {
+		console.log("CitySearch.init");
+
+		$main.on('submit', '.search #city_search', function(event) {
+			event.preventDefault();
+			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+			return false;
+		});
+
+	};
+
+	my.render = function(args) {
+		console.log("CitySearch.render");
+
+		TDF.loadTemplate(this);
+
+		$main.find('#search').val(args.city_name);
+
+		console.log("gmap.api('search', args);");
+		// gmap.api('search', args);
+
+	};
+
+	return my;
+
+}());
+
+TDF.Winners = (function() {
+
+	var my = {};
+
+	my.init = function() {
+		console.log("Winners.init");
+	};
+
+	my.render = function() {
+		console.log("Winners.render");
+	};
+
+	return my;
+
+}());
+
+
+
+// Document Ready
+jQuery(document).ready(function() {
+
+	TDF.init();
+
+});
