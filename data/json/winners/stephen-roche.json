@@ -1,5 +1,7 @@
 {
   "id": "stephen-roche",
+  "first_name": "Stephen",
+  "last_name": "Roche",
   "years": {
     "1983": {
       "position": "13",
@@ -46,6 +48,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1987
+  ],
   "country": "Irlande",
   "birthdate": "28/11/1959",
   "deathdate": null,

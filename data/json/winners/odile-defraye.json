@@ -1,5 +1,7 @@
 {
   "id": "odile-defraye",
+  "first_name": "Odile",
+  "last_name": "Defraye",
   "years": {
     "1909": {
       "position": "Abandon",
@@ -50,6 +52,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1912
+  ],
   "country": "Belgique",
   "birthdate": "14/07/1888",
   "deathdate": "21/08/1965",

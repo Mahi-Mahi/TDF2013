@@ -1,5 +1,7 @@
 {
   "id": "henri-cornet",
+  "first_name": "Henri",
+  "last_name": "Cornet",
   "years": {
     "1904": {
       "position": "1",
@@ -38,6 +40,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1904
+  ],
   "country": "France",
   "birthdate": "04/08/1884",
   "deathdate": "18/03/1941",

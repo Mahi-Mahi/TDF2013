@@ -127,14 +127,12 @@ puts id
 	winners[id].nil?
 	winners[id] = {}
 	winners[id][:id] = id
+	winners[id][:first_name] = nil
+	winners[id][:last_name] = nil
 	winners[id][:years] = {}
+	winners[id][:wins] = []
 
 	idx = 0
-
-puts '-----'
-puts item
-
-
 	CSV.foreach(item) do |row|
 
 		case idx
@@ -145,8 +143,6 @@ puts item
 				winners[id][:birthdate] = row[1]
 				winners[id][:deathdate] = row[2]
 				winners[id][:bio] = row[3]
-
-				puts winners[id]
 
 			when 2
 
@@ -159,8 +155,8 @@ puts item
 					winners[id][:years][year] = {}
 					winners[id][:years][year][:position] = row[1]
 					winners[id][:years][year][:nb_wins] = row[2].to_i
+					winners[id][:wins] << year 	if row[1].to_i == 1
 				end
-
 
 		end
 
@@ -168,7 +164,11 @@ puts item
 
 	end
 
+	tour = tours[winners[id][:wins].first]
+	winners[id][:first_name] = tour[:winner_first_name]
+	winners[id][:last_name] = tour[:winner_last_name]
 end
+
 
 if false
 	idx = 0

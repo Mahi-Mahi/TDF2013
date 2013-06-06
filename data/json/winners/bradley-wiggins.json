@@ -1,5 +1,7 @@
 {
   "id": "bradley-wiggins",
+  "first_name": "Bradley",
+  "last_name": "Wiggins",
   "years": {
     "2006": {
       "position": "123",
@@ -30,6 +32,9 @@
       "nb_wins": 2
     }
   },
+  "wins": [
+    2012
+  ],
   "country": "Royaume-Uni",
   "birthdate": "28/04/1980",
   "deathdate": null,

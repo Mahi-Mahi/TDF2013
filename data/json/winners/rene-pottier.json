@@ -1,5 +1,7 @@
 {
   "id": "rene-pottier",
+  "first_name": "René",
+  "last_name": "Pottier",
   "years": {
     "1905": {
       "position": "Abandon",
@@ -10,6 +12,9 @@
       "nb_wins": 5
     }
   },
+  "wins": [
+    1906
+  ],
   "country": "France",
   "birthdate": "05/06/1879",
   "deathdate": "25/01/1907",

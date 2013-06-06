@@ -1,5 +1,7 @@
 {
   "id": "lucien-aimar",
+  "first_name": "Lucien",
+  "last_name": "Aimar",
   "years": {
     "1965": {
       "position": "Abandon",
@@ -38,6 +40,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1966
+  ],
   "country": "France",
   "birthdate": "28/04/1941",
   "deathdate": null,

@@ -1,5 +1,7 @@
 {
   "id": "philippe-thys",
+  "first_name": "Philippe",
+  "last_name": "Thys",
   "years": {
     "1912": {
       "position": "6",
@@ -42,6 +44,11 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1913,
+    1914,
+    1920
+  ],
   "country": "Belgique",
   "birthdate": "08/10/1889",
   "deathdate": "17/01/1971",

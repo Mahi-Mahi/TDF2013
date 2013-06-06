@@ -1,5 +1,7 @@
 {
   "id": "roger-lapebie",
+  "first_name": "Roger",
+  "last_name": "Lapébie",
   "years": {
     "1932": {
       "position": "23",
@@ -26,6 +28,9 @@
       "nb_wins": 3
     }
   },
+  "wins": [
+    1937
+  ],
   "country": "France",
   "birthdate": "16/01/1911",
   "deathdate": "12/10/1996",

@@ -1,5 +1,7 @@
 {
   "id": "firmin-lambot",
+  "first_name": "Firmin",
+  "last_name": "Lambot",
   "years": {
     "1911": {
       "position": "11",
@@ -42,6 +44,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1919,
+    1922
+  ],
   "country": "Belgique",
   "birthdate": "14/03/1886",
   "deathdate": "19/01/1964",

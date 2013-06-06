@@ -1,5 +1,7 @@
 {
   "id": "fausto-coppi",
+  "first_name": "Fausto",
+  "last_name": "Coppi",
   "years": {
     "1949": {
       "position": "1",
@@ -18,6 +20,10 @@
       "nb_wins": 5
     }
   },
+  "wins": [
+    1949,
+    1952
+  ],
   "country": "Italie",
   "birthdate": "15/09/1919",
   "deathdate": "02/01/1960",

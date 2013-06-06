@@ -1,5 +1,7 @@
 {
   "id": "charly-gaul",
+  "first_name": "Charly",
+  "last_name": "Gaul",
   "years": {
     "1953": {
       "position": "Abandon",
@@ -46,6 +48,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1958
+  ],
   "country": "Luxembourg",
   "birthdate": "08/12/1932",
   "deathdate": "06/12/2005",

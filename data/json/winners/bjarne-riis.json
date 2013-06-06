@@ -1,5 +1,7 @@
 {
   "id": "bjarne-riis",
+  "first_name": "Bjarne",
+  "last_name": "Riis",
   "years": {
     "1989": {
       "position": "95",
@@ -42,6 +44,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1996
+  ],
   "country": "Danemark",
   "birthdate": "03/04/1964",
   "deathdate": null,

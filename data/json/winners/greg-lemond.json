@@ -1,5 +1,7 @@
 {
   "id": "greg-lemond",
+  "first_name": "Greg",
+  "last_name": "LeMond",
   "years": {
     "1984": {
       "position": "3",
@@ -46,6 +48,11 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1986,
+    1989,
+    1990
+  ],
   "country": "États-Unis",
   "birthdate": "26/06/1961",
   "deathdate": null,

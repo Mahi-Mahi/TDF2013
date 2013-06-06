@@ -60,16 +60,13 @@
 					<a href="" class="link">La carte des 100 tracés</a>
 					<small>Explorez et comparez l'ensemble des tracés des 100 tours</small>
 				</div>
-
 			</div>
-
 
 			<div id="template-search" class="template">
 				<header></header>
 				<div class="content">
 					<div id="gmap"></div>
 				</div>
-
 			</div>
 
 			<div id="template-traces" class="template">
@@ -151,9 +148,73 @@
 				</div>
 			</div>
 
+			<div class="template" id="template-winner">
+				<li class=":winner_id">
+					<img src=":portrait_url" alt="" class="portrait">
+					<div class="flag"><div class=":flag"></div></div>
+					<div class="name">:name</div>
+					<ul class="wins">:wins</ul>
+				</li>
+			</div>
+
+			<div class="template" id="template-winner-tour">
+				<a href="#" class="pos"></a>
+				<div class="bulle"></div>
+				<ul class="wins"></ul>
+				<div class="year"></div>
+			</div>
+
 			<div class="template" id="template-winners">
 				<header></header>
-				Winners
+				<div id="winner">
+					<div class="left">
+						<img src="" alt="" class="portrait">
+						<div class="name"></div>
+						<div class="flag"><div></div></div>
+						<div class="birth"><span class="birth"></span><span class="death"></span></div>
+						<p class="bio"></p>
+						<a href=""></a>
+					</div>
+					<div class="right">
+						<a href="/vainqueurs/" id="close">X</a>
+						<ul class="tours">
+
+						</ul>
+						<ul class="legend">
+							<li class="winner">Vainqueur</li>
+							<li class="position">Classement</li>
+							<li class="leg_win">Victoire d'étape</li>
+							<li class="abandon">Abandon</li>
+						</ul>
+					</div>
+				</div>
+				<div class="winners">
+					<ul></ul>
+				</div>
+				<div class="filters">
+					<div class="nb_wins">
+						<label>Nombre de Tours gagnés</label>
+						<div class="slider"></div>
+					</div>
+					<div class="age">
+						<label>Age lors de la victoire</label>
+						<div class="slider"></div>
+					</div>
+					<div class="nationality">
+						<label for="nationality">
+							Nationalité
+							<select id="nationality" name="nationality">
+								<option value="">Toutes nationalités</option>
+							</select>
+						</label>
+					</div>
+					<div class="search">
+						<label for="winner_search">
+							Rechercher
+							<input type="text" name="winner_search" id="winner_search" placeholder="nom"/>
+						</label>
+					</div>
+				</div>
 			</div>
 
 			<div class="template" id="template-streetview">

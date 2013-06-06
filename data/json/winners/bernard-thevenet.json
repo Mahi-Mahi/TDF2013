@@ -1,5 +1,7 @@
 {
   "id": "bernard-thevenet",
+  "first_name": "Bernard",
+  "last_name": "Thévenet",
   "years": {
     "1970": {
       "position": "35",
@@ -50,6 +52,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1975,
+    1977
+  ],
   "country": "France",
   "birthdate": "10/01/1948",
   "deathdate": null,

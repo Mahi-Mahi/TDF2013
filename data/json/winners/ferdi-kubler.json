@@ -1,5 +1,7 @@
 {
   "id": "ferdi-kubler",
+  "first_name": "Ferdi",
+  "last_name": "Kübler",
   "years": {
     "1947": {
       "position": "Abandon",
@@ -38,6 +40,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1950
+  ],
   "country": "Suisse",
   "birthdate": "24/07/1919",
   "deathdate": null,

@@ -1,5 +1,7 @@
 {
   "id": "cadel-evans",
+  "first_name": "Cadel",
+  "last_name": "Evans",
   "years": {
     "2005": {
       "position": "8",
@@ -34,6 +36,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    2011
+  ],
   "country": "Australie",
   "birthdate": "14/02/1977",
   "deathdate": null,

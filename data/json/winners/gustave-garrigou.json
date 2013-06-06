@@ -1,5 +1,7 @@
 {
   "id": "gustave-garrigou",
+  "first_name": "Gustave",
+  "last_name": "Garrigou",
   "years": {
     "1907": {
       "position": "2",
@@ -34,6 +36,9 @@
       "nb_wins": 1
     }
   },
+  "wins": [
+    1911
+  ],
   "country": "France",
   "birthdate": "24/09/1884",
   "deathdate": "28/01/1963",

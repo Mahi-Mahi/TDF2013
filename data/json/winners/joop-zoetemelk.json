@@ -1,5 +1,7 @@
 {
   "id": "joop-zoetemelk",
+  "first_name": "Joop",
+  "last_name": "Zoetemelk",
   "years": {
     "1970": {
       "position": "2",
@@ -70,6 +72,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1980
+  ],
   "country": "Pays-Bas",
   "birthdate": "03/12/1946",
   "deathdate": null,

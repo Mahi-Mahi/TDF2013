@@ -1,5 +1,7 @@
 {
   "id": "sylvere-maes",
+  "first_name": "Sylvère",
+  "last_name": "Maes",
   "years": {
     "1934": {
       "position": "8",
@@ -26,6 +28,10 @@
       "nb_wins": 2
     }
   },
+  "wins": [
+    1936,
+    1939
+  ],
   "country": "Belgique",
   "birthdate": "22/08/1909",
   "deathdate": "05/12/1966",

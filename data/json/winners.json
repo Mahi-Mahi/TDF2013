@@ -1,6 +1,8 @@
 {
   "alberto-contador": {
     "id": "alberto-contador",
+    "first_name": "Alberto",
+    "last_name": "Contador",
     "years": {
       "2005": {
         "position": "31",
@@ -31,6 +33,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      2007,
+      2009
+    ],
     "country": "Espagne",
     "birthdate": "06/12/1982",
     "deathdate": null,
@@ -38,6 +44,8 @@
   },
   "andre-leducq": {
     "id": "andre-leducq",
+    "first_name": "André",
+    "last_name": "Leducq",
     "years": {
       "1927": {
         "position": "4",
@@ -88,6 +96,10 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1930,
+      1932
+    ],
     "country": "France",
     "birthdate": "27/02/1904",
     "deathdate": "18/06/1980",
@@ -95,6 +107,8 @@
   },
   "andy-schleck": {
     "id": "andy-schleck",
+    "first_name": "Andy",
+    "last_name": "Schleck",
     "years": {
       "2008": {
         "position": "11",
@@ -117,6 +131,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      2010
+    ],
     "country": "Luxembourg",
     "birthdate": "10/06/1985",
     "deathdate": null,
@@ -124,6 +141,8 @@
   },
   "antonin-magne": {
     "id": "antonin-magne",
+    "first_name": "Antonin",
+    "last_name": "Magne",
     "years": {
       "1927": {
         "position": "6",
@@ -174,6 +193,10 @@
         "nb_wins": 2
       }
     },
+    "wins": [
+      1931,
+      1934
+    ],
     "country": "France",
     "birthdate": "16/02/1904",
     "deathdate": "08/09/1983",
@@ -181,6 +204,8 @@
   },
   "bernard-hinault": {
     "id": "bernard-hinault",
+    "first_name": "Bernard",
+    "last_name": "Hinault",
     "years": {
       "1978": {
         "position": "1",
@@ -219,6 +244,13 @@
         "nb_wins": 3
       }
     },
+    "wins": [
+      1978,
+      1979,
+      1981,
+      1982,
+      1985
+    ],
     "country": "France",
     "birthdate": "14/11/1954",
     "deathdate": null,
@@ -226,6 +258,8 @@
   },
   "bernard-thevenet": {
     "id": "bernard-thevenet",
+    "first_name": "Bernard",
+    "last_name": "Thévenet",
     "years": {
       "1970": {
         "position": "35",
@@ -276,6 +310,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1975,
+      1977
+    ],
     "country": "France",
     "birthdate": "10/01/1948",
     "deathdate": null,
@@ -283,6 +321,8 @@
   },
   "bjarne-riis": {
     "id": "bjarne-riis",
+    "first_name": "Bjarne",
+    "last_name": "Riis",
     "years": {
       "1989": {
         "position": "95",
@@ -325,6 +365,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1996
+    ],
     "country": "Danemark",
     "birthdate": "03/04/1964",
     "deathdate": null,
@@ -332,6 +375,8 @@
   },
   "bradley-wiggins": {
     "id": "bradley-wiggins",
+    "first_name": "Bradley",
+    "last_name": "Wiggins",
     "years": {
       "2006": {
         "position": "123",
@@ -362,6 +407,9 @@
         "nb_wins": 2
       }
     },
+    "wins": [
+      2012
+    ],
     "country": "Royaume-Uni",
     "birthdate": "28/04/1980",
     "deathdate": null,
@@ -369,6 +417,8 @@
   },
   "cadel-evans": {
     "id": "cadel-evans",
+    "first_name": "Cadel",
+    "last_name": "Evans",
     "years": {
       "2005": {
         "position": "8",
@@ -403,6 +453,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      2011
+    ],
     "country": "Australie",
     "birthdate": "14/02/1977",
     "deathdate": null,
@@ -410,6 +463,8 @@
   },
   "carlos-sastre": {
     "id": "carlos-sastre",
+    "first_name": "Carlos",
+    "last_name": "Sastre",
     "years": {
       "2001": {
         "position": "20",
@@ -452,6 +507,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      2008
+    ],
     "country": "Espagne",
     "birthdate": "22/04/1975",
     "deathdate": null,
@@ -459,6 +517,8 @@
   },
   "charly-gaul": {
     "id": "charly-gaul",
+    "first_name": "Charly",
+    "last_name": "Gaul",
     "years": {
       "1953": {
         "position": "Abandon",
@@ -505,6 +565,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1958
+    ],
     "country": "Luxembourg",
     "birthdate": "08/12/1932",
     "deathdate": "06/12/2005",
@@ -512,6 +575,8 @@
   },
   "eddy-merckx": {
     "id": "eddy-merckx",
+    "first_name": "Eddy",
+    "last_name": "Merckx",
     "years": {
       "1969": {
         "position": "1",
@@ -550,6 +615,13 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1969,
+      1970,
+      1971,
+      1972,
+      1974
+    ],
     "country": "Belgique",
     "birthdate": "17/06/1945",
     "deathdate": null,
@@ -557,6 +629,8 @@
   },
   "fausto-coppi": {
     "id": "fausto-coppi",
+    "first_name": "Fausto",
+    "last_name": "Coppi",
     "years": {
       "1949": {
         "position": "1",
@@ -575,6 +649,10 @@
         "nb_wins": 5
       }
     },
+    "wins": [
+      1949,
+      1952
+    ],
     "country": "Italie",
     "birthdate": "15/09/1919",
     "deathdate": "02/01/1960",
@@ -582,6 +660,8 @@
   },
   "federico-bahamontes": {
     "id": "federico-bahamontes",
+    "first_name": "Federico",
+    "last_name": "Bahamontes",
     "years": {
       "1954": {
         "position": "25",
@@ -632,6 +712,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1959
+    ],
     "country": "Espagne",
     "birthdate": "09/07/1928",
     "deathdate": null,
@@ -639,6 +722,8 @@
   },
   "felice-gimondi": {
     "id": "felice-gimondi",
+    "first_name": "Felice",
+    "last_name": "Gimondi",
     "years": {
       "1965": {
         "position": "1",
@@ -685,6 +770,9 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1965
+    ],
     "country": "Italie",
     "birthdate": "29/09/1942",
     "deathdate": null,
@@ -692,6 +780,8 @@
   },
   "ferdi-kubler": {
     "id": "ferdi-kubler",
+    "first_name": "Ferdi",
+    "last_name": "Kübler",
     "years": {
       "1947": {
         "position": "Abandon",
@@ -730,6 +820,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1950
+    ],
     "country": "Suisse",
     "birthdate": "24/07/1919",
     "deathdate": null,
@@ -737,6 +830,8 @@
   },
   "firmin-lambot": {
     "id": "firmin-lambot",
+    "first_name": "Firmin",
+    "last_name": "Lambot",
     "years": {
       "1911": {
         "position": "11",
@@ -779,6 +874,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1919,
+      1922
+    ],
     "country": "Belgique",
     "birthdate": "14/03/1886",
     "deathdate": "19/01/1964",
@@ -786,6 +885,8 @@
   },
   "francois-faber": {
     "id": "francois-faber",
+    "first_name": "François",
+    "last_name": "Faber",
     "years": {
       "1906": {
         "position": "Abandon",
@@ -824,6 +925,9 @@
         "nb_wins": 2
       }
     },
+    "wins": [
+      1909
+    ],
     "country": "Luxembourg",
     "birthdate": "26/01/1887",
     "deathdate": "09/05/1915",
@@ -831,6 +935,8 @@
   },
   "gastone-nencini": {
     "id": "gastone-nencini",
+    "first_name": "Gastone",
+    "last_name": "Nencini",
     "years": {
       "1956": {
         "position": "22",
@@ -861,6 +967,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1960
+    ],
     "country": "Italie",
     "birthdate": "01/03/1930",
     "deathdate": "01/02/1980",
@@ -868,6 +977,8 @@
   },
   "georges-speicher": {
     "id": "georges-speicher",
+    "first_name": "Georges",
+    "last_name": "Speicher",
     "years": {
       "1932": {
         "position": "10",
@@ -898,6 +1009,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1933
+    ],
     "country": "France",
     "birthdate": "08/06/1907",
     "deathdate": "24/01/1978",
@@ -905,6 +1019,8 @@
   },
   "gino-bartali": {
     "id": "gino-bartali",
+    "first_name": "Gino",
+    "last_name": "Bartali",
     "years": {
       "1937": {
         "position": "Abandon",
@@ -947,6 +1063,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1938,
+      1948
+    ],
     "country": "Italie",
     "birthdate": "18/07/1914",
     "deathdate": "05/05/2000",
@@ -954,6 +1074,8 @@
   },
   "greg-lemond": {
     "id": "greg-lemond",
+    "first_name": "Greg",
+    "last_name": "LeMond",
     "years": {
       "1984": {
         "position": "3",
@@ -1000,6 +1122,11 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1986,
+      1989,
+      1990
+    ],
     "country": "États-Unis",
     "birthdate": "26/06/1961",
     "deathdate": null,
@@ -1007,6 +1134,8 @@
   },
   "gustave-garrigou": {
     "id": "gustave-garrigou",
+    "first_name": "Gustave",
+    "last_name": "Garrigou",
     "years": {
       "1907": {
         "position": "2",
@@ -1041,6 +1170,9 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1911
+    ],
     "country": "France",
     "birthdate": "24/09/1884",
     "deathdate": "28/01/1963",
@@ -1048,6 +1180,8 @@
   },
   "henri-cornet": {
     "id": "henri-cornet",
+    "first_name": "Henri",
+    "last_name": "Cornet",
     "years": {
       "1904": {
         "position": "1",
@@ -1086,6 +1220,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1904
+    ],
     "country": "France",
     "birthdate": "04/08/1884",
     "deathdate": "18/03/1941",
@@ -1093,6 +1230,8 @@
   },
   "henri-pelissier": {
     "id": "henri-pelissier",
+    "first_name": "Henri",
+    "last_name": "Pélissier",
     "years": {
       "1912": {
         "position": "Abandon",
@@ -1135,6 +1274,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1923
+    ],
     "country": "France",
     "birthdate": "22/01/1889",
     "deathdate": "01/05/1935",
@@ -1142,6 +1284,8 @@
   },
   "hugo-koblet": {
     "id": "hugo-koblet",
+    "first_name": "Hugo",
+    "last_name": "Koblet",
     "years": {
       "1951": {
         "position": "1",
@@ -1160,6 +1304,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1951
+    ],
     "country": "Suisse",
     "birthdate": "21/03/1925",
     "deathdate": "06/11/1964",
@@ -1167,6 +1314,8 @@
   },
   "jacques-anquetil": {
     "id": "jacques-anquetil",
+    "first_name": "Jacques",
+    "last_name": "Anquetil",
     "years": {
       "1957": {
         "position": "1",
@@ -1209,6 +1358,13 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1957,
+      1961,
+      1962,
+      1963,
+      1964
+    ],
     "country": "France",
     "birthdate": "08/01/1934",
     "deathdate": "18/11/1987",
@@ -1216,6 +1372,8 @@
   },
   "jan-janssen": {
     "id": "jan-janssen",
+    "first_name": "Jan",
+    "last_name": "Janssen",
     "years": {
       "1963": {
         "position": "Abandon",
@@ -1250,6 +1408,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1968
+    ],
     "country": "Pays-Bas",
     "birthdate": "19/05/1940",
     "deathdate": null,
@@ -1257,6 +1418,8 @@
   },
   "jan-ullrich": {
     "id": "jan-ullrich",
+    "first_name": "Jan",
+    "last_name": "Ullrich",
     "years": {
       "1996": {
         "position": "2",
@@ -1299,6 +1462,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1997
+    ],
     "country": "Allemagne",
     "birthdate": "02/12/1973",
     "deathdate": null,
@@ -1306,6 +1472,8 @@
   },
   "jean-robic": {
     "id": "jean-robic",
+    "first_name": "Jean",
+    "last_name": "Robic",
     "years": {
       "1947": {
         "position": "1",
@@ -1360,6 +1528,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1947
+    ],
     "country": "France",
     "birthdate": "10/06/1921",
     "deathdate": "06/10/1980",
@@ -1367,6 +1538,8 @@
   },
   "joop-zoetemelk": {
     "id": "joop-zoetemelk",
+    "first_name": "Joop",
+    "last_name": "Zoetemelk",
     "years": {
       "1970": {
         "position": "2",
@@ -1437,6 +1610,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1980
+    ],
     "country": "Pays-Bas",
     "birthdate": "03/12/1946",
     "deathdate": null,
@@ -1444,6 +1620,8 @@
   },
   "laurent-fignon": {
     "id": "laurent-fignon",
+    "first_name": "Laurent",
+    "last_name": "Fignon",
     "years": {
       "1983": {
         "position": "1",
@@ -1490,6 +1668,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1983,
+      1984
+    ],
     "country": "France",
     "birthdate": "12/08/1960",
     "deathdate": "31/08/2010",
@@ -1497,6 +1679,8 @@
   },
   "leon-scieur": {
     "id": "leon-scieur",
+    "first_name": "Léon",
+    "last_name": "Scieur",
     "years": {
       "1914": {
         "position": "14",
@@ -1527,6 +1711,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1921
+    ],
     "country": "Belgique",
     "birthdate": "19/03/1888",
     "deathdate": "07/10/1969",
@@ -1534,6 +1721,8 @@
   },
   "louis-trousselier": {
     "id": "louis-trousselier",
+    "first_name": "Louis",
+    "last_name": "Trousselier",
     "years": {
       "1905": {
         "position": "1",
@@ -1572,6 +1761,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1905
+    ],
     "country": "France",
     "birthdate": "29/06/1881",
     "deathdate": "24/04/1939",
@@ -1579,6 +1771,8 @@
   },
   "louison-bobet": {
     "id": "louison-bobet",
+    "first_name": "Louison",
+    "last_name": "Bobet",
     "years": {
       "1947": {
         "position": "Abandon",
@@ -1633,6 +1827,11 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1953,
+      1954,
+      1955
+    ],
     "country": "France",
     "birthdate": "12/03/1925",
     "deathdate": "13/03/1983",
@@ -1640,6 +1839,8 @@
   },
   "lucien-aimar": {
     "id": "lucien-aimar",
+    "first_name": "Lucien",
+    "last_name": "Aimar",
     "years": {
       "1965": {
         "position": "Abandon",
@@ -1678,6 +1879,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1966
+    ],
     "country": "France",
     "birthdate": "28/04/1941",
     "deathdate": null,
@@ -1685,6 +1889,8 @@
   },
   "lucien-buysse": {
     "id": "lucien-buysse",
+    "first_name": "Lucien",
+    "last_name": "Buysse",
     "years": {
       "1914": {
         "position": "Abandon",
@@ -1739,6 +1945,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1926
+    ],
     "country": "Belgique",
     "birthdate": "11/09/1892",
     "deathdate": "03/01/1980",
@@ -1746,6 +1955,8 @@
   },
   "lucien-petit-breton": {
     "id": "lucien-petit-breton",
+    "first_name": "Lucien",
+    "last_name": "Petit-Breton",
     "years": {
       "1905": {
         "position": "5",
@@ -1788,6 +1999,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1907,
+      1908
+    ],
     "country": "France",
     "birthdate": "18/10/1882",
     "deathdate": "20/12/1917",
@@ -1795,6 +2010,8 @@
   },
   "lucien-van-impe": {
     "id": "lucien-van-impe",
+    "first_name": "Lucien",
+    "last_name": "Van Impe",
     "years": {
       "1969": {
         "position": "12",
@@ -1865,6 +2082,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1976
+    ],
     "country": "Belgique",
     "birthdate": "20/10/1946",
     "deathdate": null,
@@ -1872,6 +2092,8 @@
   },
   "marco-pantani": {
     "id": "marco-pantani",
+    "first_name": "Marco",
+    "last_name": "Pantani",
     "years": {
       "1994": {
         "position": "3",
@@ -1902,6 +2124,9 @@
         "nb_wins": 2
       }
     },
+    "wins": [
+      1998
+    ],
     "country": "Italie",
     "birthdate": "13/01/1970",
     "deathdate": "14/02/2004",
@@ -1909,6 +2134,8 @@
   },
   "maurice-de-waele": {
     "id": "maurice-de-waele",
+    "first_name": "Maurice",
+    "last_name": "De Waele",
     "years": {
       "1927": {
         "position": "2",
@@ -1931,6 +2158,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1929
+    ],
     "country": "Belgique",
     "birthdate": "27/12/1896",
     "deathdate": "14/02/1952",
@@ -1938,6 +2168,8 @@
   },
   "maurice-garin": {
     "id": "maurice-garin",
+    "first_name": "Maurice",
+    "last_name": "Garin",
     "years": {
       "1903": {
         "position": "1",
@@ -1948,6 +2180,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1903
+    ],
     "country": "France",
     "birthdate": "03/03/1871",
     "deathdate": "19/02/1957",
@@ -1955,6 +2190,8 @@
   },
   "miguel-indurain": {
     "id": "miguel-indurain",
+    "first_name": "Miguel",
+    "last_name": "Indurain",
     "years": {
       "1985": {
         "position": "Abandon",
@@ -2005,6 +2242,13 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995
+    ],
     "country": "Espagne",
     "birthdate": "16/07/1964",
     "deathdate": null,
@@ -2012,6 +2256,8 @@
   },
   "nicolas-frantz": {
     "id": "nicolas-frantz",
+    "first_name": "Nicolas",
+    "last_name": "Frantz",
     "years": {
       "1924": {
         "position": "2",
@@ -2050,6 +2296,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1927,
+      1928
+    ],
     "country": "Luxembourg",
     "birthdate": "04/11/1899",
     "deathdate": "08/11/1985",
@@ -2057,6 +2307,8 @@
   },
   "octave-lapize": {
     "id": "octave-lapize",
+    "first_name": "Octave",
+    "last_name": "Lapize",
     "years": {
       "1909": {
         "position": "Abandon",
@@ -2083,6 +2335,9 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1910
+    ],
     "country": "France",
     "birthdate": "24/10/1887",
     "deathdate": "14 juillet 1917 à Toul",
@@ -2090,6 +2345,8 @@
   },
   "odile-defraye": {
     "id": "odile-defraye",
+    "first_name": "Odile",
+    "last_name": "Defraye",
     "years": {
       "1909": {
         "position": "Abandon",
@@ -2140,6 +2397,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1912
+    ],
     "country": "Belgique",
     "birthdate": "14/07/1888",
     "deathdate": "21/08/1965",
@@ -2147,6 +2407,8 @@
   },
   "oscar-pereiro": {
     "id": "oscar-pereiro",
+    "first_name": "Óscar",
+    "last_name": "Pereiro",
     "years": {
       "2004": {
         "position": "10",
@@ -2173,6 +2435,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      2006
+    ],
     "country": "Espagne",
     "birthdate": "03/08/1977",
     "deathdate": null,
@@ -2180,6 +2445,8 @@
   },
   "ottavio-bottecchia": {
     "id": "ottavio-bottecchia",
+    "first_name": "Ottavio",
+    "last_name": "Bottecchia",
     "years": {
       "1923": {
         "position": "2",
@@ -2198,6 +2465,10 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1924,
+      1925
+    ],
     "country": "France",
     "birthdate": "01/08/1894",
     "deathdate": "15/06/1927",
@@ -2205,6 +2476,8 @@
   },
   "pedro-delgado": {
     "id": "pedro-delgado",
+    "first_name": "Pedro",
+    "last_name": "Delgado",
     "years": {
       "1983": {
         "position": "15",
@@ -2251,6 +2524,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1988
+    ],
     "country": "Espagne",
     "birthdate": "15/04/1960",
     "deathdate": null,
@@ -2258,6 +2534,8 @@
   },
   "philippe-thys": {
     "id": "philippe-thys",
+    "first_name": "Philippe",
+    "last_name": "Thys",
     "years": {
       "1912": {
         "position": "6",
@@ -2300,6 +2578,11 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1913,
+      1914,
+      1920
+    ],
     "country": "Belgique",
     "birthdate": "08/10/1889",
     "deathdate": "17/01/1971",
@@ -2307,6 +2590,8 @@
   },
   "rene-pottier": {
     "id": "rene-pottier",
+    "first_name": "René",
+    "last_name": "Pottier",
     "years": {
       "1905": {
         "position": "Abandon",
@@ -2317,6 +2602,9 @@
         "nb_wins": 5
       }
     },
+    "wins": [
+      1906
+    ],
     "country": "France",
     "birthdate": "05/06/1879",
     "deathdate": "25/01/1907",
@@ -2324,6 +2612,8 @@
   },
   "roger-lapebie": {
     "id": "roger-lapebie",
+    "first_name": "Roger",
+    "last_name": "Lapébie",
     "years": {
       "1932": {
         "position": "23",
@@ -2350,6 +2640,9 @@
         "nb_wins": 3
       }
     },
+    "wins": [
+      1937
+    ],
     "country": "France",
     "birthdate": "16/01/1911",
     "deathdate": "12/10/1996",
@@ -2357,6 +2650,8 @@
   },
   "roger-pingeon": {
     "id": "roger-pingeon",
+    "first_name": "Roger",
+    "last_name": "Pingeon",
     "years": {
       "1965": {
         "position": "12",
@@ -2399,6 +2694,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1967
+    ],
     "country": "France",
     "birthdate": "28/08/1940",
     "deathdate": null,
@@ -2406,6 +2704,8 @@
   },
   "roger-walkowiak": {
     "id": "roger-walkowiak",
+    "first_name": "Roger",
+    "last_name": "Walkowiak",
     "years": {
       "1951": {
         "position": "57",
@@ -2440,6 +2740,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1956
+    ],
     "country": "France",
     "birthdate": "02/03/1927",
     "deathdate": null,
@@ -2447,6 +2750,8 @@
   },
   "romain-maes": {
     "id": "romain-maes",
+    "first_name": "Romain",
+    "last_name": "Maes",
     "years": {
       "1934": {
         "position": "Abandon",
@@ -2473,6 +2778,9 @@
         "nb_wins": 1
       }
     },
+    "wins": [
+      1935
+    ],
     "country": "Belgique",
     "birthdate": "10/08/1912",
     "deathdate": "22/02/1983",
@@ -2480,6 +2788,8 @@
   },
   "stephen-roche": {
     "id": "stephen-roche",
+    "first_name": "Stephen",
+    "last_name": "Roche",
     "years": {
       "1983": {
         "position": "13",
@@ -2526,6 +2836,9 @@
         "nb_wins": 0
       }
     },
+    "wins": [
+      1987
+    ],
     "country": "Irlande",
     "birthdate": "28/11/1959",
     "deathdate": null,
@@ -2533,6 +2846,8 @@
   },
   "sylvere-maes": {
     "id": "sylvere-maes",
+    "first_name": "Sylvère",
+    "last_name": "Maes",
     "years": {
       "1934": {
         "position": "8",
@@ -2559,6 +2874,10 @@
         "nb_wins": 2
       }
     },
+    "wins": [
+      1936,
+      1939
+    ],
     "country": "Belgique",
     "birthdate": "22/08/1909",
     "deathdate": "05/12/1966",

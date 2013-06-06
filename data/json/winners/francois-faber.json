@@ -1,5 +1,7 @@
 {
   "id": "francois-faber",
+  "first_name": "François",
+  "last_name": "Faber",
   "years": {
     "1906": {
       "position": "Abandon",
@@ -38,6 +40,9 @@
       "nb_wins": 2
     }
   },
+  "wins": [
+    1909
+  ],
   "country": "Luxembourg",
   "birthdate": "26/01/1887",
   "deathdate": "09/05/1915",

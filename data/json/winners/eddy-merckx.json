@@ -1,5 +1,7 @@
 {
   "id": "eddy-merckx",
+  "first_name": "Eddy",
+  "last_name": "Merckx",
   "years": {
     "1969": {
       "position": "1",
@@ -38,6 +40,13 @@
       "nb_wins": 1
     }
   },
+  "wins": [
+    1969,
+    1970,
+    1971,
+    1972,
+    1974
+  ],
   "country": "Belgique",
   "birthdate": "17/06/1945",
   "deathdate": null,

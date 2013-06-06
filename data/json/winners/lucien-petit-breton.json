@@ -1,5 +1,7 @@
 {
   "id": "lucien-petit-breton",
+  "first_name": "Lucien",
+  "last_name": "Petit-Breton",
   "years": {
     "1905": {
       "position": "5",
@@ -42,6 +44,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1907,
+    1908
+  ],
   "country": "France",
   "birthdate": "18/10/1882",
   "deathdate": "20/12/1917",

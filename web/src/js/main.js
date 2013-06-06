@@ -561,8 +561,34 @@ TDF.Winners = (function() {
 
 	my.init = function() {};
 
-	my.render = function() {
-		TDF.loadTemplate(this);
+	my.render = function(args) {
+		my.args = args;
+
+		var winner_id, winner;
+		var content;
+
+		if (TDF.loadTemplate(this)) {
+
+			var $template = jQuery('#template-winner');
+			for (winner_id in TDF.Data.winners) {
+				winner = TDF.Data.winners[winner_id];
+				console.log(winner);
+				content = $template.html()
+					.replace(':name', winner.first_name + winner.last_name)
+					.replace(':portrait_url', '/img/winners/portraits/' + winner_id + '_small.png')
+					;
+
+				$main.find('.winners').append(content);
+			}
+
+		}
+
+		this.display();
+
+	};
+
+	my.display = function() {
+
 	};
 
 	return my;
@@ -608,15 +634,26 @@ TDF.Data = (function() {
 
 	my.init = function(callback) {
 
+		// traces
+		jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
+			console.log(textStatus);
+			my.traces = json;
 
-		if (this.traces === null) {
-			jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
+			// winners
+			jQuery.getJSON('/data/json/winners.json', function(json, textStatus) {
 				console.log(textStatus);
-				my.traces = json;
-				callback();
+				my.winners = json;
+
+				// fighters
+				jQuery.getJSON('/data/json/fighters.json', function(json, textStatus) {
+					console.log(textStatus);
+					my.fighters = json;
+					callback();
+				});
+
 			});
 
-		}
+		});
 
 	};
 

@@ -1,5 +1,7 @@
 {
   "id": "octave-lapize",
+  "first_name": "Octave",
+  "last_name": "Lapize",
   "years": {
     "1909": {
       "position": "Abandon",
@@ -26,6 +28,9 @@
       "nb_wins": 1
     }
   },
+  "wins": [
+    1910
+  ],
   "country": "France",
   "birthdate": "24/10/1887",
   "deathdate": "14 juillet 1917 à Toul",

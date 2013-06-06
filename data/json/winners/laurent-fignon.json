@@ -1,5 +1,7 @@
 {
   "id": "laurent-fignon",
+  "first_name": "Laurent",
+  "last_name": "Fignon",
   "years": {
     "1983": {
       "position": "1",
@@ -46,6 +48,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1983,
+    1984
+  ],
   "country": "France",
   "birthdate": "12/08/1960",
   "deathdate": "31/08/2010",

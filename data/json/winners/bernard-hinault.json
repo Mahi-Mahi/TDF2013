@@ -1,5 +1,7 @@
 {
   "id": "bernard-hinault",
+  "first_name": "Bernard",
+  "last_name": "Hinault",
   "years": {
     "1978": {
       "position": "1",
@@ -38,6 +40,13 @@
       "nb_wins": 3
     }
   },
+  "wins": [
+    1978,
+    1979,
+    1981,
+    1982,
+    1985
+  ],
   "country": "France",
   "birthdate": "14/11/1954",
   "deathdate": null,

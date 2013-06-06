@@ -1,5 +1,7 @@
 {
   "id": "andy-schleck",
+  "first_name": "Andy",
+  "last_name": "Schleck",
   "years": {
     "2008": {
       "position": "11",
@@ -22,6 +24,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    2010
+  ],
   "country": "Luxembourg",
   "birthdate": "10/06/1985",
   "deathdate": null,

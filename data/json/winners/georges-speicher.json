@@ -1,5 +1,7 @@
 {
   "id": "georges-speicher",
+  "first_name": "Georges",
+  "last_name": "Speicher",
   "years": {
     "1932": {
       "position": "10",
@@ -30,6 +32,9 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1933
+  ],
   "country": "France",
   "birthdate": "08/06/1907",
   "deathdate": "24/01/1978",

@@ -1,5 +1,7 @@
 {
   "id": "miguel-indurain",
+  "first_name": "Miguel",
+  "last_name": "Indurain",
   "years": {
     "1985": {
       "position": "Abandon",
@@ -50,6 +52,13 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995
+  ],
   "country": "Espagne",
   "birthdate": "16/07/1964",
   "deathdate": null,

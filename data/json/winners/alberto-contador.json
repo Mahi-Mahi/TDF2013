@@ -1,5 +1,7 @@
 {
   "id": "alberto-contador",
+  "first_name": "Alberto",
+  "last_name": "Contador",
   "years": {
     "2005": {
       "position": "31",
@@ -30,6 +32,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    2007,
+    2009
+  ],
   "country": "Espagne",
   "birthdate": "06/12/1982",
   "deathdate": null,

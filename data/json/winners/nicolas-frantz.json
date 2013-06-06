@@ -1,5 +1,7 @@
 {
   "id": "nicolas-frantz",
+  "first_name": "Nicolas",
+  "last_name": "Frantz",
   "years": {
     "1924": {
       "position": "2",
@@ -38,6 +40,10 @@
       "nb_wins": 0
     }
   },
+  "wins": [
+    1927,
+    1928
+  ],
   "country": "Luxembourg",
   "birthdate": "04/11/1899",
   "deathdate": "08/11/1985",
