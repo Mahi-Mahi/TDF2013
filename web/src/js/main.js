@@ -1,5 +1,4 @@
 /* global console */
-
 var $main, $inner;
 
 var TDF = (function() {
@@ -53,7 +52,6 @@ var TDF = (function() {
 
 		// Map
 		Path.map("/recherche/(:city_name/)").to(function() {
-			console.log("/recehrche/city_name");
 			if (this.params['city_name'] === undefined) {
 				TDF.render('search');
 			} else {
@@ -72,7 +70,6 @@ var TDF = (function() {
 
 		// Traces
 		Path.map("/traces/(:years/)(:city_id/)").to(function() {
-			console.log(this.params);
 			if (this.params['years'] === undefined) {
 				TDF.render('traces');
 			} else {
@@ -141,7 +138,6 @@ var TDF = (function() {
 				Path.history.pushState({}, "", jQuery(this).attr("href"));
 			}
 		});
-
 	};
 
 	my.currentRoute = function() {
@@ -156,13 +152,12 @@ var TDF = (function() {
 		}
 
 		if (route === null) {
-			return;
+			route = '/';
+		} else {
+			route = route + '/';
 		}
 
-		console.log("currentRoute : " + route);
-
-		//  Path.history.pushState({}, "", route);
-
+		Path.history.pushState({}, "", route);
 	};
 
 	my.loadTemplate = function(module) {
@@ -186,8 +181,8 @@ var TDF = (function() {
 
 			jQuery('#inner').html(content).attr('class', module.name);
 
+			return true;
 		}
-
 	};
 
 	my.render = function(module, args) {
@@ -221,26 +216,20 @@ var TDF = (function() {
 		}
 
 		this.modules[module].render(args);
-
 	};
 
 	my.init = function() {
-		console.log("TDF.init");
+
 		$main = jQuery('#main');
 		$inner = jQuery('#inner');
 
-		this.setRoutes();
-		this.Route();
+		my.setRoutes();
+		my.Route();
 
-		this.modules = {};
-
-		// render current module
+		my.modules = {};
 
 		// only for #/dummy/ url
-		this.currentRoute();
-
-		// render other modules
-
+		my.currentRoute();
 	};
 
 	return my;
@@ -255,8 +244,6 @@ TDF.Home = (function() {
 	my.name = 'home';
 
 	my.init = function() {
-		console.log("Home.init");
-
 		// Set handler ( only on first init )
 
 		$main.on('submit', '.home #city_search', function(event) {
@@ -268,7 +255,6 @@ TDF.Home = (function() {
 	};
 
 	my.render = function() {
-		console.log("Home.render");
 
 		TDF.loadTemplate(this);
 
@@ -285,7 +271,6 @@ TDF.CitySearch = (function() {
 	my.name = 'search';
 
 	my.init = function() {
-		console.log("CitySearch.init");
 
 		$main.on('submit', '.search #city_search', function(event) {
 			event.preventDefault();
@@ -296,13 +281,11 @@ TDF.CitySearch = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("CitySearch.render");
 
 		TDF.loadTemplate(this);
 
 		$main.find('#search').val(args.city_name);
 
-		console.log("gmap.api('search', args);");
 		// gmap.api('search', args);
 
 	};
@@ -322,17 +305,6 @@ TDF.Traces = (function() {
 	my.traces = {};
 
 	my.init = function() {
-		console.log("Traces.init");
-
-		if (this.data === null) {
-			jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
-				//optional stuff to do after success
-				console.log(textStatus);
-				my.data = json;
-				my.setup();
-			});
-
-		}
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
@@ -343,48 +315,253 @@ TDF.Traces = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("Traces.render");
-
-		TDF.loadTemplate(this);
-
-		console.log("gmap.api('traces', args);");
-		// gmap.api('search', args);
-
 
 		my.args = args;
 
-		if (my.data !== null) {
-			// my.setup();
+		if (my.args.years === undefined) {} else {
+			my.args.years = my.args.years.split(/,/);
 		}
+
+		if (TDF.loadTemplate(this)) {
+
+			var $timeline = $main.find('.timeline-zoom ul');
+			var $squares = $main.find('.timeline ul');
+			var items = '',
+				squares = '';
+
+			var stat, stats = {
+					total_length: null,
+					nb_legs: null,
+					nb_concurrents: null,
+					nb_finishers: null
+				};
+			var trace;
+
+			for (stat in stats) {
+				stats[stat] = {
+					min: {
+						value: null,
+						year: null
+					},
+					max: {
+						value: null,
+						year: null
+					}
+				};
+			}
+
+			for (var year in TDF.Data.traces) {
+				items = items + '<li><label for="checkyear-' + year + '"><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '">' + year + '</label></li>';
+				squares = squares + '<li id="squareyear-' + year + '" data-year="' + year + '">' + year + '</li>';
+
+				trace = TDF.Data.traces[year];
+
+				if (year < 2013) {
+					for (stat in stats) {
+						if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
+							stats[stat].max.val = trace[stat];
+							stats[stat].max.year = year;
+						}
+						if (trace[stat] < stats[stat].min.val || stats[stat].min.val == null) {
+							stats[stat].min.val = trace[stat];
+							stats[stat].min.year = year;
+						}
+					}
+				}
+			}
+			$timeline.append(items);
+			$squares.append(squares);
+
+			// CLick on timeline
+			$main.on('click', '.traces .timeline-zoom .checkbox', function() {
+				var years = [];
+				if ($main.find("#multi-select:checked").length) {
+					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+						years.push(jQuery(this).val());
+					});
+				} else {
+					years.push(jQuery(this).val());
+					$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
+					jQuery(this).prop('checked', true);
+				}
+				Path.history.pushState({}, "", '/traces/' + years.join(',') + '/');
+			});
+
+
+			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
+			$main.find(".timeline .slider").slider({
+				slide: function(ui, event) {
+					console.log(Math.round(slide_width * event.value / 100));
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
+				}
+			});
+
+			for (stat in stats) {
+				$main.find("." + stat + " .min .val").html(stats[stat].min.val);
+				$main.find("." + stat + " .min .year").html(stats[stat].min.year);
+				$main.find("." + stat + " .min").attr('href', '/traces/' + stats[stat].min.year + '/');
+				$main.find("." + stat + " .max .val").html(stats[stat].max.val);
+				$main.find("." + stat + " .max .year").html(stats[stat].max.year);
+				$main.find("." + stat + " .max").attr('href', '/traces/' + stats[stat].max.year + '/');
+			}
+
+			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
+
+		}
+
+		this.setYears();
 	};
 
-	my.setup = function() {
-		console.log("Traces.setup(");
-		var years = my.args.years.split(/,/);
-		for (var year in years) {
-			my.traces[years[year]] = my.data[years[year]];
+	my.addYear = function(year) {
+		my.traces[year] = TDF.Data.traces[year];
+	};
+
+	my.removeYear = function(year) {
+		delete my.traces[year];
+	};
+
+	my.setYears = function() {
+
+		// put selected years in my.traces
+		var i, year = null;
+		for (year in TDF.Data.traces) {
+			if (my.traces[year] && jQuery.inArray(year, my.args.years) < 0) {
+				this.removeYear(year);
+				$main.find('#squareyear-' + year).removeClass('trace');
+			}
+		}
+		for (i in my.args.years) {
+			year = my.args.years[i];
+			if (!my.traces[year]) {
+				this.addYear(year);
+				// check the timeline
+				$main.find('#checkyear-' + year).prop('checked', true);
+				$main.find('#squareyear-' + year).addClass('trace');
+			}
 		}
 
+		my.display();
+
+	};
+
+	my.display = function() {
+
+		// tell the map
 		// gmap.API('traces', my.traces);
+
+		// display the infos
+		if (my.args.years.length === 1) {
+			$main.find('#traces-years').attr('class', 'single').html(my.args.years.join(','));
+		}
+		if (my.args.years.length === 2) {
+			$main.find('#traces-years').attr('class', 'double').html(my.args.years.map(function(elt) {
+				return '<span>' + elt + '</span>';
+			}).join(' '));
+		}
+		if (my.args.years.length > 2) {
+			$main.find('#traces-years').attr('class', 'double').html(my.args.years.length + ' tours entre ' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
+				return '<span>' + elt + '</span>';
+			}).join(' '));
+		}
+
+		// Stats
+
+		var total_length = 0,
+			nb_legs = 0,
+			nb_concurrents = 0,
+			nb_finishers = 0;
+		var trace, year;
+		for (year in my.traces) {
+			trace = my.traces[year];
+			total_length += trace.total_length;
+			nb_legs += trace.nb_legs;
+			nb_concurrents += trace.nb_concurrents;
+			nb_finishers += trace.nb_finishers;
+		}
+
+		total_length = Math.round(total_length / my.args.years.length);
+		nb_legs = Math.round(nb_legs / my.args.years.length);
+		nb_concurrents = Math.round(nb_concurrents / my.args.years.length);
+		nb_finishers = Math.round(nb_finishers / my.args.years.length);
+
+		$main.find(".total_length .current").html(total_length);
+		$main.find(".nb_legs .current").html(nb_legs);
+		$main.find(".nb_concurrents .current").html(nb_concurrents);
+		$main.find(".nb_finishers .current").html(nb_finishers);
+
+		// Winners
+
+		if (my.args.years.length === 1) {
+			$main.find('.right').removeClass('disabled');
+
+			trace = my.traces[my.args.years[0]];
+
+			if (trace.winner_id !== 'n.a.') {
+				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
+				$main.find('.winner .flag div').attr('class', trace.winner_country);
+			} else {
+				$main.find('.winner .name').text('');
+				$main.find('.winner #flag').attr('class', '');
+			}
+			$main.find('.winner .total_time').text("en " + trace.winner_total_time);
+			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " de moyenne");
+
+			if (trace.second_id) {
+				$main.find('.second .name').html('<a href="/vainqueurs/' + trace.second_id + '/">' + trace.second_name + '</a>');
+			} else {
+				$main.find('.second .name').text(trace.second_name);
+			}
+			$main.find('.second .pos').text('2e');
+			$main.find('.second .flag div').attr('class', trace.winner_country);
+			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd);
+
+			if (trace.third_id) {
+				$main.find('.third .name').html('<a href="/vainqueurs/' + trace.third_id + '/">' + trace.third_name + '</a>');
+			} else {
+				$main.find('.third .name').text(trace.third_name);
+			}
+			$main.find('.third .pos').text('3e');
+			$main.find('.third .flag div').attr('class', trace.third_country);
+			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd);
+
+		} else {
+			$main.find('.right').addClass('disabled');
+
+			$main.find('.winner .name').text('');
+			$main.find('.winner #flag').attr('class', '');
+			$main.find('.winner .total_time').text('');
+			$main.find('.winner .average_speed').text('');
+
+			$main.find('.second .name').text('');
+			$main.find('.second .pos').text('');
+			$main.find('.second .flag div').attr('class', '');
+			$main.find('.second .ahead_of_second').text('');
+
+			$main.find('.third .name').text('');
+			$main.find('.third .pos').text('');
+			$main.find('.third .flag div').attr('class', '');
+			$main.find('.third .ahead_of_third').text('');
+
+		}
+
 	};
 
 	return my;
 
 }());
 
-
+/*
+http://ghusse.github.io/jQRangeSlider/index.html
+*/
 TDF.Winners = (function() {
 
 	var my = {};
 
 	my.name = 'winners';
 
-	my.init = function() {
-		console.log("Winners.init");
-	};
+	my.init = function() {};
 
 	my.render = function() {
-		console.log("Winners.render");
 		TDF.loadTemplate(this);
 	};
 
@@ -397,12 +574,9 @@ TDF.Fight = (function() {
 
 	my.name = 'fight';
 
-	my.init = function() {
-		console.log("Fight.init");
-	};
+	my.init = function() {};
 
 	my.render = function() {
-		console.log("Fight.render");
 		TDF.loadTemplate(this);
 	};
 
@@ -415,23 +589,43 @@ TDF.StreetView = (function() {
 
 	my.name = 'streetview';
 
-	my.init = function() {
-		console.log("StreetView.init");
-	};
+	my.init = function() {};
 
 	my.render = function() {
-		console.log("StreetView.render");
 		TDF.loadTemplate(this);
 	};
 
 	return my;
 }());
 
+TDF.Data = (function() {
 
+	var my = {};
+
+	my.name = 'data';
+
+	my.traces = null;
+
+	my.init = function(callback) {
+
+
+		if (this.traces === null) {
+			jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
+				console.log(textStatus);
+				my.traces = json;
+				callback();
+			});
+
+		}
+
+	};
+
+	return my;
+}());
 
 // Document Ready
 jQuery(document).ready(function() {
 
-	TDF.init();
+	TDF.Data.init(TDF.init);
 
 });

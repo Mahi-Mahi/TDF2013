@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "index.html",
   "dependencies": {
-    "jquery": "~2.0.1",
+    "jquery": "~2.0.2",
+    "jquery-ui": "~1.10.3",
     "pathjs": "git@github.com:olivM/pathjs.git",
     "console-js": "*"
   },
@@ -13,3 +14,4 @@
     "components"
   ]
 }
+

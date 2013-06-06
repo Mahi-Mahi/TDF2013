@@ -5,3 +5,82 @@
 header .active {
 	font-weight: bold;
 }
+
+header > div {
+	display: inline;
+}
+
+.content .left {
+	float: left;
+	width: 250px;
+}
+.content .map-container {
+	float: left;
+	width: 450px;
+	height: 350px;
+	border: #666;
+	background-color: #eee;
+}
+.content .right {
+	float: left;
+	width: 250px;
+}
+.content .bottom {
+	clear: both;
+	width: 100%;
+}
+
+.traces .timeline ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.traces .timeline li {
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 6px;
+	height: 6px;
+	border: 1px solid #ccc;
+	font-size: 6px;
+	text-indent: 100%;
+}
+.traces .timeline li.trace {
+	background-color: #222;
+}
+
+.traces .timeline-zoom {
+	margin: 0;
+	padding: 0;
+	width: 900px;
+	height: 30px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.traces .timeline-zoom ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width:5000px;
+	height: 20px;
+}
+.traces .timeline-zoom li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.traces .timeline .slider {
+	width: 700px;
+	height: 18px;
+	position: absolute;
+}
+.ui-slider-handle {
+	position: absolute;
+	border: 3px solid lightblue;
+	width: 100px;
+	height: 10px;
+	margin-top: 2px;
+}

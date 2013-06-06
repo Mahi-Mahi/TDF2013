@@ -12,6 +12,7 @@
 
 		<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>-->
 
+
 		<script src="/js/scripts.js" type="text/javascript"></script>
 
 	</head>
@@ -75,30 +76,32 @@
 				<header></header>
 				<div class="content">
 					<div class="left">
-						<div class="years"></div>
-						<div class="total_length">
-							<span>3210 km en moyenne</span>
-							<a href="/traces/1985/" class="min">2215 en 1985</a>
-							<div class="line"></div>
-							<a href="/traces/1997/" class="min">4250 en 1997</a>
-						</div>
-						<div class="nb_legs">
-							<span>3210 km en moyenne</span>
-							<a href="/traces/1985/" class="min">2215 en 1985</a>
-							<div class="line"></div>
-							<a href="/traces/1997/" class="min">4250 en 1997</a>
-						</div>
-						<div class="nb_concurrents">
-							<span>3210 km en moyenne</span>
-							<a href="/traces/1985/" class="min">2215 en 1985</a>
-							<div class="line"></div>
-							<a href="/traces/1997/" class="min">4250 en 1997</a>
-						</div>
-						<div class="nb_finishers">
-							<span>3210 km en moyenne</span>
-							<a href="/traces/1985/" class="min">2215 en 1985</a>
-							<div class="line"></div>
-							<a href="/traces/1997/" class="min">4250 en 1997</a>
+						<div id="traces-years"></div>
+						<div class="figures">
+							<div class="total_length">
+								<span class="current">xxx</span> km <small>en moyenne</small>
+								<a href="" class="min"><span class="val"></span> en <span class="year"></span></a>
+								<div class="line"></div>
+								<a href="" class="max"><span class="val"></span> en <span class="year"></span></a>
+							</div>
+							<div class="nb_legs">
+								<span class="current">xxx</span> étapes <small>en moyenne</small>
+								<a href="" class="min"><span class="val"></span> en <span class="year"></span></a>
+								<div class="line"></div>
+								<a href="" class="max"><span class="val"></span> en <span class="year"></span></a>
+							</div>
+							<div class="nb_concurrents">
+								<span class="current">xxx</span> au départ <small>en moyenne</small>
+								<a href="" class="min"><span class="val"></span> en <span class="year"></span></a>
+								<div class="line"></div>
+								<a href="" class="max"><span class="val"></span> en <span class="year"></span></a>
+							</div>
+							<div class="nb_finishers">
+								<span class="current">xxx</span> à l'arrivée <small>en moyenne</small>
+								<a href="" class="min"><span class="val"></span> en <span class="year"></span></a>
+								<div class="line"></div>
+								<a href="" class="max"><span class="val"></span> en <span class="year"></span></a>
+							</div>
 						</div>
 					</div>
 					<div class="map-container">
@@ -106,41 +109,40 @@
 						<a href=""><strong>X</strong></a>
 						<div id="gmap"></div>
 					</div>
-					<div class="right">
+					<div class="right disabled">
 						<div class="winner">
 							<span>vainqueur</span>
-							<span class="name">Roger Virenquetil</span>
-							<a href="/vainqueurs/roger-virenquetil/">&gt;</a>
+							<img src="/img/traces/vainqueur_silhouette.png" alt="" />
+							<span class="name"><a href=""></a></span>
 							<div class="stats">
-								<div class="flag france"></div>
-								<div class="total_time">en 145h 18 min. 22s</div>
-								<div class="average_speed">24 km/h de moyenne</div>
+								<div class="flag"><div></div></div>
+								<div class="total_time"></div>
+								<div class="average_speed"></div>
 							</div>
 						</div>
 						<div class="second">
-							<span>2e</span>
-							<div class="name">
-								J. Contadorovitch
-								<a href="/vainqueurs/jose-contadorovitch/">&gt;</a>
-							</div>
+							<span class="pos"></span>
+							<div class="name"></div>
+							<div class="flag"><div></div></div>
 							<div class="ahead_of_second">
-								à 2 min. 45s
 							</div>
 						</div>
 						<div class="third">
-							<span>3e</span>
-							<div class="name">
-								B. Legstrong
-								<a href="/vainqueurs/bernard-legstrong/">&gt;</a>
-							</div>
+							<span class="pos"></span>
+							<div class="name"></div>
+							<div class="flag"><div></div></div>
 							<div class="ahead_of_third">
-								à 3 min. 54s
 							</div>
 						</div>
 					</div>
 					<div class="bottom">
-						<ul class="timeline"></ul>
-						<ul class="timeline-zoom"></ul>
+						<div class="timeline">
+							<div class="slider"></div>
+							<ul></ul>
+						</div>
+						<div class="timeline-zoom">
+							<ul></ul>
+						</div>
 						<div class="selectors">
 							<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
 							<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Tout sélectionner</label>

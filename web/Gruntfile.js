@@ -82,7 +82,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dev: {
-        src: ['src/js/lib/*.js', 'src/js/home.js', 'src/js/winners.js', 'src/js/main.js'],
+        src: ['src/js/lib/jquery.js', 'src/js/lib/*.js', 'src/js/compat.js', 'src/js/main.js'], // , 'src/js/traces.js'
         dest: 'dev/js/scripts.js'
       },
       dist: {
@@ -108,7 +108,8 @@ module.exports = function(grunt) {
         '.htaccess',
     ],
     all_folders: [
-        'css/'
+        'css/',
+        'img/**'
     ],
 
     // copy other src files to dest
@@ -154,7 +155,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['src/js/*.js', 'src/index.html'],
+        files: ['src/js/*.js', 'src/scss/*.scss', 'src/index.html'], // , 'src/js/lib/*.js'
         tasks: ['default'],
         options: {
           interrupt: true,
