@@ -196,20 +196,24 @@
          */
          _createImage: function() {
 
-             this.markerIcon = {
-                 url: this.settings.markerIconImg,
-                 size: new google.maps.Size(26, 26),
-                 origin: new google.maps.Point(0, 0),
-                 anchor: new google.maps.Point(13, 13)
-             };
+            if(this.settings.markerIconImg != null){
+                this.markerIcon = {
+                    url: this.settings.markerIconImg,
+                    size: new google.maps.Size(26, 26),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(13, 13)
+                };
+            }
              
              
-             this.markerCircleIcon = {
-                 url: this.settings.markerCircleIconImg,
-                 size: new google.maps.Size(26, 26),
-                 origin: new google.maps.Point(0, 0),
-                 anchor: new google.maps.Point(13, 13)
-             };
+            if(this.settings.markerCircleIconImg != null){
+                this.markerCircleIcon = {
+                    url: this.settings.markerCircleIconImg,
+                    size: new google.maps.Size(26, 26),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(13, 13)
+                };
+            }
               
          },
         
@@ -341,7 +345,7 @@
 
         createMarker: function(plat, plng, title){
             var self = this;
-
+            
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(plat, plng),
                 map: self.map,
@@ -482,6 +486,254 @@
 
             return line;
 
+        },
+        
+        
+        findEtapesNear: function(lat, lng, data){
+            var self = this;
+            
+            var etapes = [];
+            var bounds = new google.maps.LatLngBounds();
+
+
+            var result = this._findEtapes(data, lat, lng, 0.05, 0.05);
+            etapes = result;
+            
+            console.log("Premiere recherche nb result  : " + etapes.length);
+            
+            if(etapes.length < 3){
+                result = this._findEtapes(data, lat, lng, 0.5, 0.5);
+                
+                console.log("Deuxieme recherche nb result  : " + result.length);
+                
+                etapes = this._mergeEtapes(etapes, result, lat, lng);
+                
+                
+            }
+            
+            
+            
+
+            for(var i = 0; i < etapes.length; i++){
+
+                
+                var marker = this.createMarker(etapes[i].lat, etapes[i].lng, etapes[i].city);
+                console.log("createMarker : " + etapes[i].city);
+ 
+                bounds.extend(marker.getPosition());
+                
+            }
+          
+            if(etapes.length > 1)
+                this.map.fitBounds(bounds);
+          
+        },
+        
+        _mergeEtapes: function(etapes, results, lat, lng){
+            
+            var pointOri = new google.maps.LatLng(lat, lng);      
+            
+            for(var i = 0; i < results.length; i++){ 
+                var point =  new google.maps.LatLng(results[i].lat, results[i].lng);           
+                var distance = google.maps.geometry.spherical.computeDistanceBetween(pointOri, point);
+//                                google.maps.geometry.spherical.computeHeading(path.getAt(0), path.getAt(pathSize - 1));
+
+                
+                console.log("distance : " + distance);
+                
+                results[i].distance = distance;
+            }
+               
+            
+            
+            console.log("beforeSort =======");
+            console.log("lat : " + lat + '   lng : ' + lng);
+            
+            
+            
+            for(var i = 0; i < results.length; i++){      
+                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + "   " + results[i].city  );
+                
+           
+            }
+                      
+            console.log("==================");
+            
+            results.sort(function(a,b){
+                return (a.distance - b.distance);
+            })
+            
+            console.log("afterSort =======");
+            for(var i = 0; i < results.length; i++){      
+                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + " "+ results[i].distance  +"  " + results[i].city  );
+                
+           
+            }
+            
+            console.log("==================");
+            
+            
+            
+            for(var i = 0; i < results.length; i++){
+                
+                var result = results[i];
+                
+                var isMerged = false;
+                
+                for(var j = 0; j < etapes.length; j++){
+                    var etape = etapes[j];
+                    
+                    if(etape.city == result.city){
+                        
+                        etape = (etape.count > result.count)? etape: result;
+                        
+                        isMerged = true;
+                        console.log("je merge  : " + etape.city );
+                    }  
+                 
+                }
+                
+                if(!isMerged){
+                    etapes.push(result);
+                    console.log("jajoute : " + result.city);
+                }
+                
+                
+                console.log("!!etapes.lenght : "+ etapes.length);
+                if(etapes.length >= 3) {
+                    console.log("je break");
+                    break;
+                }
+                console.log("je break pas");
+                
+            }
+            
+            
+            return etapes;
+            
+            
+            
+//            for(var i = 0; i < etapes.length; i++){
+//                
+//                var etape = etapes[i];
+//                
+//                for(var j = 0; j < results.length; j++){
+//                    var result = results[j];
+//                    
+//                    if(etape.city == result.city){
+//                        
+//                        etape = (etape.count > result.count)? etape: result;
+//                        
+//                        
+//                        console.log("je merge  : " + etape.city );
+//                    }  
+//                 
+//                }
+//                
+//            }
+            
+            
+        },
+        
+        
+        _findEtapes: function(data, lat, lng, offsetLat, offsetLng){
+          
+            var result = [];
+          
+            var lastStart = null;
+            var lastFinish = null;
+            
+            $.each(data, function(i, etape) {
+                
+                lastStart = null;
+                
+                var isNewCity = true;
+                
+                var startCity = etape.start.city;
+                var startLat = etape.start.lat;
+                var startLng = etape.start.lng;
+                
+                
+                var finishCity = etape.finish.city;
+                var finishLat = etape.finish.lat;
+                var finishLng = etape.finish.lng;
+                
+                
+               
+             
+                if( lat < (startLat*1 + offsetLat*1) && 
+                    lat > (startLat*1 - offsetLat*1) && 
+                    lng < (startLng*1 + offsetLng*1) &&
+                    lng > (startLng*1 - offsetLng*1) &&
+                    lastFinish != startCity){
+                    
+                    
+                    
+                    
+                    isNewCity = true;
+                    for(var v = 0; v < result.length; v++){
+                        if(result[v].city == startCity){
+                            result[v].count++;
+                            lastStart = startCity;
+                            isNewCity = false;
+                        }
+                        
+                    }
+                    
+                    if(isNewCity){
+                        var city = {city: startCity, lat:startLat, lng: startLng, count: 1 }
+                        console.log("New City S : " + startCity);
+                        result.push(city);
+                        lastStart = startCity;
+                    }
+                    
+                    
+                    //console.log(etape.id + " : etape.start.city : " + etape.start.city);    
+                    //console.log(etape.id + " : startCity : " + startCity);    
+                }
+                
+                lastFinish = null;
+                
+                if( lat < (finishLat*1 + offsetLat*1) && 
+                    lat > (finishLat*1 - offsetLat*1) && 
+                    lng < (finishLng*1 + offsetLng*1) &&
+                    lng > (finishLng*1 - offsetLng*1) &&
+                    finishCity != lastStart){   //Pour les étapes qui commencent et finissent au même endroit
+                    
+                    
+                    isNewCity = true;
+                    for(var k = 0; k < result.length; k++){
+                        if(result[k].city == finishCity){
+                            result[k].count++;
+                            lastFinish = finishCity;
+                            isNewCity = false;
+                        }
+                        
+                    }
+                    
+                    if(isNewCity){
+                        var city2 = {city: finishCity, lat:finishLat, lng: finishLng, count: 1 }
+                        console.log("New City S : " + startCity);
+                        result.push(city2);
+                        lastFinish = finishCity;
+                    }
+                    
+                    
+                    
+                    console.log(etape.id + " : etape.finish.city : " + etape.finish.city);  
+                    console.log(etape.id + " : finishCity : " + finishCity);  
+                    
+                }
+            
+                
+          
+            });
+            
+          
+          
+            return result;
+          
+          
         },
 
 

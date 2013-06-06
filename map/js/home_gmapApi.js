@@ -56,20 +56,10 @@ function initializeGmap() {
 function loadData(){
     
     
-    $.getJSON('data/data-all.json', function(data) {
+    $.getJSON('data/legs.json', function(data) {
 
         allEtapes = data;
 
-        var currentYear = 0;
-        var options = [];
-
-        $.each(data, function(num, etape) {
-
-            if(currentYear != etape.year){
-                currentYear = etape.year;
-
-            }    
-        });
     });
 }
 
@@ -89,10 +79,6 @@ function autocomplete_init() {
 
             var place = gMapAutocomplete.getPlace();
             
-            console.log("place : " + place.geometry);
-            console.log("place : " + place.geometry.location.lat());
-            console.log("place : " + place.geometry.location.lng());
-            
             if (!place.geometry) {
               input.className = 'notfound';
               return;
@@ -106,6 +92,9 @@ function autocomplete_init() {
                 gmap.getMap().setCenter(place.geometry.location);
                 gmap.getMap().setZoom(17);  // Why 17? Because it looks good.
             }
+
+
+            gmap.findEtapesNear(place.geometry.location.lat(), place.geometry.location.lng(), allEtapes);
 
 
 //            var address = '';
