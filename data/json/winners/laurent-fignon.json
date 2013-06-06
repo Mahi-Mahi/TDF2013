@@ -53,7 +53,13 @@
     1983,
     1984
   ],
+  "wins_age": [
+    23,
+    24
+  ],
   "birthdate": "12/08/1960",
+  "birthyear": 1960,
   "deathdate": "31/08/2010",
+  "deathyear": 2010,
   "bio": "Le dernier vainqueur français du Tour en date."
 }

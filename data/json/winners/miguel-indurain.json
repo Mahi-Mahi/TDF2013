@@ -60,7 +60,15 @@
     1994,
     1995
   ],
+  "wins_age": [
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
   "birthdate": "16/07/1964",
+  "birthyear": 1964,
   "deathdate": null,
   "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement."
 }

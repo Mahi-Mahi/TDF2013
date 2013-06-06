@@ -52,7 +52,16 @@
     1963,
     1964
   ],
+  "wins_age": [
+    23,
+    27,
+    28,
+    29,
+    30
+  ],
   "birthdate": "08/01/1934",
+  "birthyear": 1934,
   "deathdate": "18/11/1987",
+  "deathyear": 1987,
   "bio": "Le premier coureur à remporter cinq fois le Tour de France."
 }

@@ -149,19 +149,23 @@
 			</div>
 
 			<div class="template" id="template-winner">
-				<li class=":winner_id">
-					<img src=":portrait_url" alt="" class="portrait">
-					<div class="flag"><div class=":flag"></div></div>
-					<div class="name">:name</div>
-					<ul class="wins">:wins</ul>
+				<li class="winner :winner_id" data-nb-wins=":nb_wins" data-win-ages=":win_ages">
+					<a href=":winner_url">
+						<img src=":portrait_url" alt="" class="portrait">
+						<div class="flag"><div class=":flag"></div></div>
+						<div class="name">:name<span>:safename</span></div>
+						<ul class="wins">:wins</ul>
+					</a>
 				</li>
 			</div>
 
 			<div class="template" id="template-winner-tour">
-				<a href="#" class="pos"></a>
-				<div class="bulle"></div>
-				<ul class="wins"></ul>
-				<div class="year"></div>
+				<li class=":year">
+					<a href="#" class="pos :pos">:pos</a>
+					<div class="bulle">:bulle</div>
+					<div class="wins">:wins</div>
+					<div class="year">:year</div>
+				</li>
 			</div>
 
 			<div class="template" id="template-winners">
@@ -171,9 +175,9 @@
 						<img src="" alt="" class="portrait">
 						<div class="name"></div>
 						<div class="flag"><div></div></div>
-						<div class="birth"><span class="birth"></span><span class="death"></span></div>
+						<div class="birth"></div>
 						<p class="bio"></p>
-						<a href=""></a>
+						<a href="" class="duel">Lancer un duel</a>
 					</div>
 					<div class="right">
 						<a href="/vainqueurs/" id="close">X</a>
@@ -188,7 +192,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="winners">
+				<div class="winners_list">
 					<ul></ul>
 				</div>
 				<div class="filters">

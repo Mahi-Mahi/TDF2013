@@ -52,7 +52,11 @@
   "wins": [
     1987
   ],
+  "wins_age": [
+    28
+  ],
   "birthdate": "28/11/1959",
+  "birthyear": 1959,
   "deathdate": null,
   "bio": "Le premier coureur irlandais à remporter le Tour."
 }

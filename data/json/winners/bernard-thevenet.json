@@ -57,7 +57,12 @@
     1975,
     1977
   ],
+  "wins_age": [
+    27,
+    29
+  ],
   "birthdate": "10/01/1948",
+  "birthyear": 1948,
   "deathdate": null,
   "bio": null
 }

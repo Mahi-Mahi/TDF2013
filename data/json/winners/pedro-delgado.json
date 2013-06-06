@@ -52,7 +52,11 @@
   "wins": [
     1988
   ],
+  "wins_age": [
+    28
+  ],
   "birthdate": "15/04/1960",
+  "birthyear": 1960,
   "deathdate": null,
   "bio": null
 }

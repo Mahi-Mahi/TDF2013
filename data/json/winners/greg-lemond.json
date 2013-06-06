@@ -54,7 +54,13 @@
     1989,
     1990
   ],
+  "wins_age": [
+    25,
+    28,
+    29
+  ],
   "birthdate": "26/06/1961",
+  "birthyear": 1961,
   "deathdate": null,
   "bio": "Le premier coureur américain à remporter le Tour."
 }

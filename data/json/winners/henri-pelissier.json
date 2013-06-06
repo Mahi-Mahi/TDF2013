@@ -48,7 +48,12 @@
   "wins": [
     1923
   ],
+  "wins_age": [
+    34
+  ],
   "birthdate": "22/01/1889",
+  "birthyear": 1889,
   "deathdate": "01/05/1935",
+  "deathyear": 1935,
   "bio": null
 }

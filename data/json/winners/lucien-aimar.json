@@ -44,7 +44,11 @@
   "wins": [
     1966
   ],
+  "wins_age": [
+    25
+  ],
   "birthdate": "28/04/1941",
+  "birthyear": 1941,
   "deathdate": null,
   "bio": null
 }

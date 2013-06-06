@@ -132,6 +132,7 @@ puts id
 	winners[id][:country] = nil
 	winners[id][:years] = {}
 	winners[id][:wins] = []
+	winners[id][:wins_age] = []
 
 	idx = 0
 	CSV.foreach(item) do |row|
@@ -140,9 +141,15 @@ puts id
 			when 0
 			when 1
 
+				p row[1]
 				winners[id][:country] = row[0]
 				winners[id][:birthdate] = row[1]
+				winners[id][:birthyear] = Date.strptime(row[1], '%d/%m/%Y').year
 				winners[id][:deathdate] = row[2]
+				begin
+					winners[id][:deathyear] = Date.strptime(row[2], '%d/%m/%Y').year
+				rescue
+				end
 				winners[id][:bio] = row[3]
 
 			when 2
@@ -156,7 +163,10 @@ puts id
 					winners[id][:years][year] = {}
 					winners[id][:years][year][:position] = row[1]
 					winners[id][:years][year][:nb_wins] = row[2].to_i
-					winners[id][:wins] << year 	if row[1].to_i == 1
+					if row[1].to_i == 1
+						winners[id][:wins] << year
+						winners[id][:wins_age] << year - winners[id][:birthyear]
+					end
 				end
 
 		end
@@ -169,6 +179,9 @@ puts id
 	winners[id][:first_name] = tour[:winner_first_name]
 	winners[id][:last_name] = tour[:winner_last_name]
 	winners[id][:country] = tour[:winner_country]
+
+	p winners[id]
+
 end
 
 

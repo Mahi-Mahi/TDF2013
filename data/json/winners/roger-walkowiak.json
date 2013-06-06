@@ -40,7 +40,11 @@
   "wins": [
     1956
   ],
+  "wins_age": [
+    29
+  ],
   "birthdate": "02/03/1927",
+  "birthyear": 1927,
   "deathdate": null,
   "bio": null
 }

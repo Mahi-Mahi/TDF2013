@@ -77,10 +77,53 @@ header > div {
 	height: 18px;
 	position: absolute;
 }
-.ui-slider-handle {
+.traces .ui-slider-handle {
 	position: absolute;
 	border: 3px solid lightblue;
 	width: 100px;
 	height: 10px;
 	margin-top: 2px;
+}
+
+.winners #winner {
+	display:none;
+}
+.winners #winner .tours {
+	float: left;
+	list-style: none;
+}
+.winners #winner .tours > li {
+	width: 30px;
+	height: 100px;
+	display: inline-block;
+	border: 1px solid #ddd;
+}
+.winners #winner .tours .wins div {
+	font-size: 7px;
+}
+.winners #winner .tours .bulle {
+	display: none;
+}
+.winners #winner .tours .year {
+	font-size: 10px;
+}
+
+.winners .legend {
+	float: right;
+}
+
+.winners .winners_list {
+	height: 300px;
+	width: 100%;
+	overflow: auto;
+}
+.winners .winners_list .winner {
+	display: inline-block;
+	overflow: hidden;
+	width: 150px;
+	height: 200px;
+	border: 1px solid #ddd;
+}
+.winners .winners_list .winner .name span {
+	display: none;
 }

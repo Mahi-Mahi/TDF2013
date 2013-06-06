@@ -52,7 +52,11 @@
   "wins": [
     1965
   ],
+  "wins_age": [
+    23
+  ],
   "birthdate": "29/09/1942",
+  "birthyear": 1942,
   "deathdate": null,
   "bio": null
 }

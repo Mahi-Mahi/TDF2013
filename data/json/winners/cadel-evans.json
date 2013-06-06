@@ -40,7 +40,11 @@
   "wins": [
     2011
   ],
+  "wins_age": [
+    34
+  ],
   "birthdate": "14/02/1977",
+  "birthyear": 1977,
   "deathdate": null,
   "bio": "Le premier coureur australien à remporter le Tour."
 }

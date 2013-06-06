@@ -35,7 +35,7 @@ if (!Array.prototype.map) {
     k = 0;
 
     // 8. Repeat, while k < len
-    while(k < len) {
+    while (k < len) {
 
       var kValue, mappedValue;
 
@@ -47,7 +47,7 @@ if (!Array.prototype.map) {
       if (k in O) {
 
         // i. Let kValue be the result of calling the Get internal method of O with argument Pk.
-        kValue = O[ k ];
+        kValue = O[k];
 
         // ii. Let mappedValue be the result of calling the Call internal method of callback
         // with T as the this value and argument list containing kValue, k, and O.
@@ -61,7 +61,7 @@ if (!Array.prototype.map) {
         // Object.defineProperty(A, Pk, { value: mappedValue, writable: true, enumerable: true, configurable: true });
 
         // For best browser support, use the following:
-        A[ k ] = mappedValue;
+        A[k] = mappedValue;
       }
       // d. Increase k by 1.
       k++;
@@ -71,3 +71,69 @@ if (!Array.prototype.map) {
     return A;
   };
 }
+
+Array.prototype.max = function() {
+  return Math.max.apply(null, this);
+};
+
+Array.prototype.min = function() {
+  return Math.min.apply(null, this);
+};
+
+String.prototype.repeat = function(num) {
+  return new Array(num + 1).join(this);
+};
+
+(function(){
+
+    var matcher = /\s*(?:((?:(?:\\\.|[^.,])+\.?)+)\s*([!~><=]=|[><])\s*("|')?((?:\\\3|.)*?)\3|(.+?))\s*(?:,|$)/g;
+
+    function resolve(element, data) {
+
+        data = data.match(/(?:\\\.|[^.])+(?=\.|$)/g);
+
+        var cur = jQuery.data(element)[data.shift()];
+
+        while (cur && data[0]) {
+            cur = cur[data.shift()];
+        }
+
+        return cur || undefined;
+
+    }
+
+    jQuery.expr[':'].data = function(el, i, match) {
+
+        matcher.lastIndex = 0;
+
+        var expr = match[3],
+            m,
+            check, val,
+            allMatch = null,
+            foundMatch = false;
+
+        while (m = matcher.exec(expr)) {
+
+            check = m[4];
+            val = resolve(el, m[1] || m[5]);
+
+            switch (m[2]) {
+                case '==': foundMatch = val == check; break;
+                case '!=': foundMatch = val != check; break;
+                case '<=': foundMatch = val <= check; break;
+                case '>=': foundMatch = val >= check; break;
+                case '~=': foundMatch = RegExp(check).test(val); break;
+                case '>': foundMatch = val > check; break;
+                case '<': foundMatch = val < check; break;
+                default: if (m[5]) foundMatch = !!val;
+            }
+
+            allMatch = allMatch === null ? foundMatch : allMatch && foundMatch;
+
+        }
+
+        return allMatch;
+
+    };
+
+}());

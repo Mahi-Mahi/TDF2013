@@ -36,7 +36,12 @@
   "wins": [
     1998
   ],
+  "wins_age": [
+    28
+  ],
   "birthdate": "13/01/1970",
+  "birthyear": 1970,
   "deathdate": "14/02/2004",
+  "deathyear": 2004,
   "bio": null
 }

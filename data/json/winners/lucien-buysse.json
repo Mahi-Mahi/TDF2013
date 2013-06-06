@@ -60,7 +60,12 @@
   "wins": [
     1926
   ],
+  "wins_age": [
+    34
+  ],
   "birthdate": "11/09/1892",
+  "birthyear": 1892,
   "deathdate": "03/01/1980",
+  "deathyear": 1980,
   "bio": null
 }

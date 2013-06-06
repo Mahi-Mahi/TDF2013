@@ -60,7 +60,12 @@
   "wins": [
     1947
   ],
+  "wins_age": [
+    26
+  ],
   "birthdate": "10/06/1921",
+  "birthyear": 1921,
   "deathdate": "06/10/1980",
+  "deathyear": 1980,
   "bio": "Le premier vainqueur du Tour de l'après-guerre."
 }

@@ -50,7 +50,14 @@
     1914,
     1920
   ],
+  "wins_age": [
+    24,
+    25,
+    31
+  ],
   "birthdate": "08/10/1889",
+  "birthyear": 1889,
   "deathdate": "17/01/1971",
+  "deathyear": 1971,
   "bio": "Le premier triple vainqueur du Tour."
 }

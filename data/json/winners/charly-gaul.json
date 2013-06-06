@@ -52,7 +52,12 @@
   "wins": [
     1958
   ],
+  "wins_age": [
+    26
+  ],
   "birthdate": "08/12/1932",
+  "birthyear": 1932,
   "deathdate": "06/12/2005",
+  "deathyear": 2005,
   "bio": null
 }

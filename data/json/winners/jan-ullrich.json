@@ -48,7 +48,11 @@
   "wins": [
     1997
   ],
+  "wins_age": [
+    24
+  ],
   "birthdate": "02/12/1973",
+  "birthyear": 1973,
   "deathdate": null,
   "bio": "Le premier coureur allemand à remporter le Tour."
 }

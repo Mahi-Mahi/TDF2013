@@ -36,7 +36,11 @@
   "wins": [
     2012
   ],
+  "wins_age": [
+    32
+  ],
   "birthdate": "28/04/1980",
+  "birthyear": 1980,
   "deathdate": null,
   "bio": "Le premier coureur britannique à remporter le Tour."
 }

@@ -76,7 +76,11 @@
   "wins": [
     1980
   ],
+  "wins_age": [
+    34
+  ],
   "birthdate": "03/12/1946",
+  "birthyear": 1946,
   "deathdate": null,
   "bio": "Le détenteur du record du nombre de deuxièmes places dans le Tour : six."
 }

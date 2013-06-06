@@ -48,7 +48,11 @@
   "wins": [
     1996
   ],
+  "wins_age": [
+    32
+  ],
   "birthdate": "03/04/1964",
+  "birthyear": 1964,
   "deathdate": null,
   "bio": "Le premier coureur danois à remporter le Tour."
 }

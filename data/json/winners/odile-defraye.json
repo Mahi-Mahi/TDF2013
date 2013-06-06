@@ -56,7 +56,12 @@
   "wins": [
     1912
   ],
+  "wins_age": [
+    24
+  ],
   "birthdate": "14/07/1888",
+  "birthyear": 1888,
   "deathdate": "21/08/1965",
+  "deathyear": 1965,
   "bio": "Le premier coureur belge à remporter le Tour."
 }
