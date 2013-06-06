@@ -2,6 +2,7 @@
   "id": "joop-zoetemelk",
   "first_name": "Joop",
   "last_name": "Zoetemelk",
+  "country": "Pays-Bas",
   "years": {
     "1970": {
       "position": "2",
@@ -75,7 +76,6 @@
   "wins": [
     1980
   ],
-  "country": "Pays-Bas",
   "birthdate": "03/12/1946",
   "deathdate": null,
   "bio": "Le détenteur du record du nombre de deuxièmes places dans le Tour : six."

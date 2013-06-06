@@ -2,6 +2,7 @@
   "id": "felice-gimondi",
   "first_name": "Felice",
   "last_name": "Gimondi",
+  "country": "Italie",
   "years": {
     "1965": {
       "position": "1",
@@ -51,7 +52,6 @@
   "wins": [
     1965
   ],
-  "country": "Italie",
   "birthdate": "29/09/1942",
   "deathdate": null,
   "bio": null

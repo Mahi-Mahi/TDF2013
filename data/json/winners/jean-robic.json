@@ -2,6 +2,7 @@
   "id": "jean-robic",
   "first_name": "Jean",
   "last_name": "Robic",
+  "country": "France",
   "years": {
     "1947": {
       "position": "1",
@@ -59,7 +60,6 @@
   "wins": [
     1947
   ],
-  "country": "France",
   "birthdate": "10/06/1921",
   "deathdate": "06/10/1980",
   "bio": "Le premier vainqueur du Tour de l'après-guerre."

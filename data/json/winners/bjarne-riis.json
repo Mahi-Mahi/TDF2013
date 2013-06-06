@@ -2,6 +2,7 @@
   "id": "bjarne-riis",
   "first_name": "Bjarne",
   "last_name": "Riis",
+  "country": "Danemark",
   "years": {
     "1989": {
       "position": "95",
@@ -47,7 +48,6 @@
   "wins": [
     1996
   ],
-  "country": "Danemark",
   "birthdate": "03/04/1964",
   "deathdate": null,
   "bio": "Le premier coureur danois à remporter le Tour."

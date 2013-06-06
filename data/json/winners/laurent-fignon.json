@@ -2,6 +2,7 @@
   "id": "laurent-fignon",
   "first_name": "Laurent",
   "last_name": "Fignon",
+  "country": "France",
   "years": {
     "1983": {
       "position": "1",
@@ -52,7 +53,6 @@
     1983,
     1984
   ],
-  "country": "France",
   "birthdate": "12/08/1960",
   "deathdate": "31/08/2010",
   "bio": "Le dernier vainqueur français du Tour en date."

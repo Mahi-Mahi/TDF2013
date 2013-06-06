@@ -2,6 +2,7 @@
   "id": "romain-maes",
   "first_name": "Romain",
   "last_name": "Maes",
+  "country": "Belgique",
   "years": {
     "1934": {
       "position": "Abandon",
@@ -31,7 +32,6 @@
   "wins": [
     1935
   ],
-  "country": "Belgique",
   "birthdate": "10/08/1912",
   "deathdate": "22/02/1983",
   "bio": null

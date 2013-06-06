@@ -2,6 +2,7 @@
   "id": "pedro-delgado",
   "first_name": "Pedro",
   "last_name": "Delgado",
+  "country": "Espagne",
   "years": {
     "1983": {
       "position": "15",
@@ -51,7 +52,6 @@
   "wins": [
     1988
   ],
-  "country": "Espagne",
   "birthdate": "15/04/1960",
   "deathdate": null,
   "bio": null

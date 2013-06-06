@@ -2,6 +2,7 @@
   "id": "francois-faber",
   "first_name": "François",
   "last_name": "Faber",
+  "country": "Luxembourg",
   "years": {
     "1906": {
       "position": "Abandon",
@@ -43,7 +44,6 @@
   "wins": [
     1909
   ],
-  "country": "Luxembourg",
   "birthdate": "26/01/1887",
   "deathdate": "09/05/1915",
   "bio": "Le premier vainqueur non-français du Tour."

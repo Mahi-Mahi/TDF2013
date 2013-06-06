@@ -2,6 +2,7 @@
   "id": "cadel-evans",
   "first_name": "Cadel",
   "last_name": "Evans",
+  "country": "Australie",
   "years": {
     "2005": {
       "position": "8",
@@ -39,7 +40,6 @@
   "wins": [
     2011
   ],
-  "country": "Australie",
   "birthdate": "14/02/1977",
   "deathdate": null,
   "bio": "Le premier coureur australien à remporter le Tour."

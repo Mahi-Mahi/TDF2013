@@ -2,6 +2,7 @@
   "id": "henri-cornet",
   "first_name": "Henri",
   "last_name": "Cornet",
+  "country": "France",
   "years": {
     "1904": {
       "position": "1",
@@ -43,7 +44,6 @@
   "wins": [
     1904
   ],
-  "country": "France",
   "birthdate": "04/08/1884",
   "deathdate": "18/03/1941",
   "bio": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours."

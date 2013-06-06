@@ -2,6 +2,7 @@
   "id": "philippe-thys",
   "first_name": "Philippe",
   "last_name": "Thys",
+  "country": "Belgique",
   "years": {
     "1912": {
       "position": "6",
@@ -49,7 +50,6 @@
     1914,
     1920
   ],
-  "country": "Belgique",
   "birthdate": "08/10/1889",
   "deathdate": "17/01/1971",
   "bio": "Le premier triple vainqueur du Tour."

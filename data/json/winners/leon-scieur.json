@@ -2,6 +2,7 @@
   "id": "leon-scieur",
   "first_name": "Léon",
   "last_name": "Scieur",
+  "country": "Belgique",
   "years": {
     "1914": {
       "position": "14",
@@ -35,7 +36,6 @@
   "wins": [
     1921
   ],
-  "country": "Belgique",
   "birthdate": "19/03/1888",
   "deathdate": "07/10/1969",
   "bio": null

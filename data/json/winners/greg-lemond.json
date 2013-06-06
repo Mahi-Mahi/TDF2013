@@ -2,6 +2,7 @@
   "id": "greg-lemond",
   "first_name": "Greg",
   "last_name": "LeMond",
+  "country": "États-Unis",
   "years": {
     "1984": {
       "position": "3",
@@ -53,7 +54,6 @@
     1989,
     1990
   ],
-  "country": "États-Unis",
   "birthdate": "26/06/1961",
   "deathdate": null,
   "bio": "Le premier coureur américain à remporter le Tour."

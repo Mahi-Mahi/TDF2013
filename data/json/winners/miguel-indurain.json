@@ -2,6 +2,7 @@
   "id": "miguel-indurain",
   "first_name": "Miguel",
   "last_name": "Indurain",
+  "country": "Espagne",
   "years": {
     "1985": {
       "position": "Abandon",
@@ -59,7 +60,6 @@
     1994,
     1995
   ],
-  "country": "Espagne",
   "birthdate": "16/07/1964",
   "deathdate": null,
   "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement."

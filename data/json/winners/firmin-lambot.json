@@ -2,6 +2,7 @@
   "id": "firmin-lambot",
   "first_name": "Firmin",
   "last_name": "Lambot",
+  "country": "Belgique",
   "years": {
     "1911": {
       "position": "11",
@@ -48,7 +49,6 @@
     1919,
     1922
   ],
-  "country": "Belgique",
   "birthdate": "14/03/1886",
   "deathdate": "19/01/1964",
   "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922)."

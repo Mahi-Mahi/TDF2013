@@ -2,6 +2,7 @@
   "id": "ferdi-kubler",
   "first_name": "Ferdi",
   "last_name": "Kübler",
+  "country": "Suisse",
   "years": {
     "1947": {
       "position": "Abandon",
@@ -43,7 +44,6 @@
   "wins": [
     1950
   ],
-  "country": "Suisse",
   "birthdate": "24/07/1919",
   "deathdate": null,
   "bio": "Le premier coureur suisse à remporter le Tour."

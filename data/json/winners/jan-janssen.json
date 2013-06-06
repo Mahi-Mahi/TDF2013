@@ -2,6 +2,7 @@
   "id": "jan-janssen",
   "first_name": "Jan",
   "last_name": "Janssen",
+  "country": "Pays-Bas",
   "years": {
     "1963": {
       "position": "Abandon",
@@ -39,7 +40,6 @@
   "wins": [
     1968
   ],
-  "country": "Pays-Bas",
   "birthdate": "19/05/1940",
   "deathdate": null,
   "bio": "Le premier coureur néerlandais à remporter le Tour."

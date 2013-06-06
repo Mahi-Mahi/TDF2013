@@ -2,6 +2,7 @@
   "id": "oscar-pereiro",
   "first_name": "Óscar",
   "last_name": "Pereiro",
+  "country": "Espagne",
   "years": {
     "2004": {
       "position": "10",
@@ -31,7 +32,6 @@
   "wins": [
     2006
   ],
-  "country": "Espagne",
   "birthdate": "03/08/1977",
   "deathdate": null,
   "bio": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage."

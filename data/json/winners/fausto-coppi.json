@@ -2,6 +2,7 @@
   "id": "fausto-coppi",
   "first_name": "Fausto",
   "last_name": "Coppi",
+  "country": "Italie",
   "years": {
     "1949": {
       "position": "1",
@@ -24,7 +25,6 @@
     1949,
     1952
   ],
-  "country": "Italie",
   "birthdate": "15/09/1919",
   "deathdate": "02/01/1960",
   "bio": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949."

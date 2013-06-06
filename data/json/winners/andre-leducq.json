@@ -2,6 +2,7 @@
   "id": "andre-leducq",
   "first_name": "André",
   "last_name": "Leducq",
+  "country": "France",
   "years": {
     "1927": {
       "position": "4",
@@ -56,7 +57,6 @@
     1930,
     1932
   ],
-  "country": "France",
   "birthdate": "27/02/1904",
   "deathdate": "18/06/1980",
   "bio": null

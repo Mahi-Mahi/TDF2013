@@ -2,6 +2,7 @@
   "id": "henri-pelissier",
   "first_name": "Henri",
   "last_name": "Pélissier",
+  "country": "France",
   "years": {
     "1912": {
       "position": "Abandon",
@@ -47,7 +48,6 @@
   "wins": [
     1923
   ],
-  "country": "France",
   "birthdate": "22/01/1889",
   "deathdate": "01/05/1935",
   "bio": null

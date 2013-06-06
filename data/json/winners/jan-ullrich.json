@@ -2,6 +2,7 @@
   "id": "jan-ullrich",
   "first_name": "Jan",
   "last_name": "Ullrich",
+  "country": "Allemagne",
   "years": {
     "1996": {
       "position": "2",
@@ -47,7 +48,6 @@
   "wins": [
     1997
   ],
-  "country": "Allemagne",
   "birthdate": "02/12/1973",
   "deathdate": null,
   "bio": "Le premier coureur allemand à remporter le Tour."

@@ -2,6 +2,7 @@
   "id": "louis-trousselier",
   "first_name": "Louis",
   "last_name": "Trousselier",
+  "country": "France",
   "years": {
     "1905": {
       "position": "1",
@@ -43,7 +44,6 @@
   "wins": [
     1905
   ],
-  "country": "France",
   "birthdate": "29/06/1881",
   "deathdate": "24/04/1939",
   "bio": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix."

@@ -129,6 +129,7 @@ puts id
 	winners[id][:id] = id
 	winners[id][:first_name] = nil
 	winners[id][:last_name] = nil
+	winners[id][:country] = nil
 	winners[id][:years] = {}
 	winners[id][:wins] = []
 
@@ -167,6 +168,7 @@ puts id
 	tour = tours[winners[id][:wins].first]
 	winners[id][:first_name] = tour[:winner_first_name]
 	winners[id][:last_name] = tour[:winner_last_name]
+	winners[id][:country] = tour[:winner_country]
 end
 
 

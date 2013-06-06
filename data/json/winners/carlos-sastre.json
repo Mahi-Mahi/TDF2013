@@ -2,6 +2,7 @@
   "id": "carlos-sastre",
   "first_name": "Carlos",
   "last_name": "Sastre",
+  "country": "Espagne",
   "years": {
     "2001": {
       "position": "20",
@@ -47,7 +48,6 @@
   "wins": [
     2008
   ],
-  "country": "Espagne",
   "birthdate": "22/04/1975",
   "deathdate": null,
   "bio": null

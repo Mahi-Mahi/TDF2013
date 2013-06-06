@@ -2,6 +2,7 @@
   "id": "bernard-hinault",
   "first_name": "Bernard",
   "last_name": "Hinault",
+  "country": "France",
   "years": {
     "1978": {
       "position": "1",
@@ -47,7 +48,6 @@
     1982,
     1985
   ],
-  "country": "France",
   "birthdate": "14/11/1954",
   "deathdate": null,
   "bio": "Le troisième coureur à accumuler cinq victoires finales sur le Tour."

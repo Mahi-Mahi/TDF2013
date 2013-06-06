@@ -2,6 +2,7 @@
   "id": "marco-pantani",
   "first_name": "Marco",
   "last_name": "Pantani",
+  "country": "Italie",
   "years": {
     "1994": {
       "position": "3",
@@ -35,7 +36,6 @@
   "wins": [
     1998
   ],
-  "country": "Italie",
   "birthdate": "13/01/1970",
   "deathdate": "14/02/2004",
   "bio": null

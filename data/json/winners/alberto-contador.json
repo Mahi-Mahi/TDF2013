@@ -2,6 +2,7 @@
   "id": "alberto-contador",
   "first_name": "Alberto",
   "last_name": "Contador",
+  "country": "Espagne",
   "years": {
     "2005": {
       "position": "31",
@@ -36,7 +37,6 @@
     2007,
     2009
   ],
-  "country": "Espagne",
   "birthdate": "06/12/1982",
   "deathdate": null,
   "bio": null

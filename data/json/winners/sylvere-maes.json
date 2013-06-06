@@ -2,6 +2,7 @@
   "id": "sylvere-maes",
   "first_name": "Sylvère",
   "last_name": "Maes",
+  "country": "Belgique",
   "years": {
     "1934": {
       "position": "8",
@@ -32,7 +33,6 @@
     1936,
     1939
   ],
-  "country": "Belgique",
   "birthdate": "22/08/1909",
   "deathdate": "05/12/1966",
   "bio": null

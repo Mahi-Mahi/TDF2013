@@ -2,6 +2,7 @@
   "id": "lucien-buysse",
   "first_name": "Lucien",
   "last_name": "Buysse",
+  "country": "Belgique",
   "years": {
     "1914": {
       "position": "Abandon",
@@ -59,7 +60,6 @@
   "wins": [
     1926
   ],
-  "country": "Belgique",
   "birthdate": "11/09/1892",
   "deathdate": "03/01/1980",
   "bio": null

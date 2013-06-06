@@ -2,6 +2,7 @@
   "id": "nicolas-frantz",
   "first_name": "Nicolas",
   "last_name": "Frantz",
+  "country": "Luxembourg",
   "years": {
     "1924": {
       "position": "2",
@@ -44,7 +45,6 @@
     1927,
     1928
   ],
-  "country": "Luxembourg",
   "birthdate": "04/11/1899",
   "deathdate": "08/11/1985",
   "bio": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928."

@@ -2,6 +2,7 @@
   "id": "roger-walkowiak",
   "first_name": "Roger",
   "last_name": "Walkowiak",
+  "country": "France",
   "years": {
     "1951": {
       "position": "57",
@@ -39,7 +40,6 @@
   "wins": [
     1956
   ],
-  "country": "France",
   "birthdate": "02/03/1927",
   "deathdate": null,
   "bio": null

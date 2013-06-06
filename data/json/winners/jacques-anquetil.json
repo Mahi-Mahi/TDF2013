@@ -2,6 +2,7 @@
   "id": "jacques-anquetil",
   "first_name": "Jacques",
   "last_name": "Anquetil",
+  "country": "France",
   "years": {
     "1957": {
       "position": "1",
@@ -51,7 +52,6 @@
     1963,
     1964
   ],
-  "country": "France",
   "birthdate": "08/01/1934",
   "deathdate": "18/11/1987",
   "bio": "Le premier coureur à remporter cinq fois le Tour de France."

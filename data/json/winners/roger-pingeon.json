@@ -2,6 +2,7 @@
   "id": "roger-pingeon",
   "first_name": "Roger",
   "last_name": "Pingeon",
+  "country": "France",
   "years": {
     "1965": {
       "position": "12",
@@ -47,7 +48,6 @@
   "wins": [
     1967
   ],
-  "country": "France",
   "birthdate": "28/08/1940",
   "deathdate": null,
   "bio": null

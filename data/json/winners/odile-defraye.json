@@ -2,6 +2,7 @@
   "id": "odile-defraye",
   "first_name": "Odile",
   "last_name": "Defraye",
+  "country": "Belgique",
   "years": {
     "1909": {
       "position": "Abandon",
@@ -55,7 +56,6 @@
   "wins": [
     1912
   ],
-  "country": "Belgique",
   "birthdate": "14/07/1888",
   "deathdate": "21/08/1965",
   "bio": "Le premier coureur belge à remporter le Tour."

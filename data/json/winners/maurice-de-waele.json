@@ -2,6 +2,7 @@
   "id": "maurice-de-waele",
   "first_name": "Maurice",
   "last_name": "De Waele",
+  "country": "Belgique",
   "years": {
     "1927": {
       "position": "2",
@@ -27,7 +28,6 @@
   "wins": [
     1929
   ],
-  "country": "Belgique",
   "birthdate": "27/12/1896",
   "deathdate": "14/02/1952",
   "bio": null

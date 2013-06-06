@@ -2,6 +2,7 @@
   "id": "gustave-garrigou",
   "first_name": "Gustave",
   "last_name": "Garrigou",
+  "country": "France",
   "years": {
     "1907": {
       "position": "2",
@@ -39,7 +40,6 @@
   "wins": [
     1911
   ],
-  "country": "France",
   "birthdate": "24/09/1884",
   "deathdate": "28/01/1963",
   "bio": null

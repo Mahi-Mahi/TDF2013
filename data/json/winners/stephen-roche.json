@@ -2,6 +2,7 @@
   "id": "stephen-roche",
   "first_name": "Stephen",
   "last_name": "Roche",
+  "country": "Irlande",
   "years": {
     "1983": {
       "position": "13",
@@ -51,7 +52,6 @@
   "wins": [
     1987
   ],
-  "country": "Irlande",
   "birthdate": "28/11/1959",
   "deathdate": null,
   "bio": "Le premier coureur irlandais à remporter le Tour."

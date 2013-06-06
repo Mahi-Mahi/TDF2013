@@ -2,6 +2,7 @@
   "id": "bradley-wiggins",
   "first_name": "Bradley",
   "last_name": "Wiggins",
+  "country": "Royaume-Uni",
   "years": {
     "2006": {
       "position": "123",
@@ -35,7 +36,6 @@
   "wins": [
     2012
   ],
-  "country": "Royaume-Uni",
   "birthdate": "28/04/1980",
   "deathdate": null,
   "bio": "Le premier coureur britannique à remporter le Tour."

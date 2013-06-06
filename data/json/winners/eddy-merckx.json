@@ -2,6 +2,7 @@
   "id": "eddy-merckx",
   "first_name": "Eddy",
   "last_name": "Merckx",
+  "country": "Belgique",
   "years": {
     "1969": {
       "position": "1",
@@ -47,7 +48,6 @@
     1972,
     1974
   ],
-  "country": "Belgique",
   "birthdate": "17/06/1945",
   "deathdate": null,
   "bio": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale."

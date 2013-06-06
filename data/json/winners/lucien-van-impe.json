@@ -2,6 +2,7 @@
   "id": "lucien-van-impe",
   "first_name": "Lucien",
   "last_name": "Van Impe",
+  "country": "Belgique",
   "years": {
     "1969": {
       "position": "12",
@@ -75,7 +76,6 @@
   "wins": [
     1976
   ],
-  "country": "Belgique",
   "birthdate": "20/10/1946",
   "deathdate": null,
   "bio": null
