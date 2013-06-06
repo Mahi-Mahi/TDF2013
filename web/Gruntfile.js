@@ -82,7 +82,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dev: {
-        src: ['src/js/lib/*.js', 'src/js/main.js'],
+        src: ['src/js/lib/*.js', 'src/js/home.js', 'src/js/winners.js', 'src/js/main.js'],
         dest: 'dev/js/scripts.js'
       },
       dist: {
@@ -137,6 +137,16 @@ module.exports = function(grunt) {
             filter: 'isFile'
           }
         ]
+      },
+      data: {
+        files: [{
+            expand: true,
+            src: '../data/json/*.json',
+            // cwd: 'dev/data/',
+            dest: 'dev/data/',
+            filter: 'isFile'
+          }
+        ]
       }
     },
 
@@ -144,7 +154,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['src/js/main.js', 'src/index.html'],
+        files: ['src/js/*.js', 'src/index.html'],
         tasks: ['default'],
         options: {
           interrupt: true,
@@ -176,7 +186,7 @@ module.exports = function(grunt) {
   */
 
   // install librariries
-  grunt.registerTask('install', ['bower']);
+  grunt.registerTask('install', ['bower', 'copy:data']);
 
   // Default task.
   // jshint & concat to dev/

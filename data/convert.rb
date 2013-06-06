@@ -130,22 +130,29 @@ puts id
 	winners[id][:years] = {}
 
 	idx = 0
+
+puts '-----'
+puts item
+
+
 	CSV.foreach(item) do |row|
 
 		case idx
 			when 0
 			when 1
 
-				winners[id][:country] = row[1]
-				winners[id][:birthdate] = row[2]
-				winners[id][:deathdate] = row[3]
-				winners[id][:bio] = row[4]
+				winners[id][:country] = row[0]
+				winners[id][:birthdate] = row[1]
+				winners[id][:deathdate] = row[2]
+				winners[id][:bio] = row[3]
+
+				puts winners[id]
 
 			when 2
 
 			else
 
-				p "row : #{row[0]}"
+				# p "row : #{row[0]}"
 
 				if row[0].to_i > 0
 					year = row[0].to_i
