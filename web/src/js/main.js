@@ -233,17 +233,21 @@ var TDF = (function() {
 		Path.history.pushState({}, "", route);
 	};
 
-	my.loadTemplate = function(module) {
+	my.loadTemplate = function(module, step) {
 
-		if (!$inner.hasClass(module.name)) {
+		if (!step) {
+			step = '';
+		}
 
-			var $content = jQuery('#template-' + module.name);
+		if (!$inner.hasClass(module.name + step)) {
+
+			var $content = jQuery('#template-' + module.name + step);
 
 			if ($content.find('header').length) {
 				var $header = $content.find('header');
 				$header.html(jQuery('#template-header').html());
 				$header.find('.active').removeClass('active');
-				$header.find('.' + module.name).addClass('active');
+				$header.find('.' + module.name + step).addClass('active');
 			}
 
 			for (var route in TDF.routes) {
@@ -252,7 +256,7 @@ var TDF = (function() {
 
 			var content = $content.html();
 
-			jQuery('#inner').html(content).attr('class', module.name);
+			jQuery('#inner').html(content).attr('class', module.name + step);
 
 			return true;
 		}
@@ -672,9 +676,6 @@ TDF.Traces = (function() {
 
 }());
 
-/*
-http://ghusse.github.io/jQRangeSlider/index.html
-*/
 TDF.Winners = (function() {
 
 	var my = {};
@@ -766,7 +767,7 @@ TDF.Winners = (function() {
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
 
-					.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png')
+				.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png')
 
 				.replace(':wins', winner.wins.map(liify).join(''));
 
@@ -973,11 +974,79 @@ TDF.Fight = (function() {
 	var my = {};
 
 	my.name = 'fight';
+	my.base_url = '/duels-de-legendes/';
 
-	my.init = function() {};
+	my.init = function() {
+		$main.on('click', '.fight-home .choose-legend', function() {
+			my.showSelector(jQuery(this).data('legend'));
+		});
 
-	my.render = function() {
-		TDF.loadTemplate(this);
+	};
+
+	my.render = function(args) {
+		my.args = args;
+
+		var $legend, fighter;
+
+		if (TDF.loadTemplate(this, '-home')) {
+
+		}
+
+		if (my.args.legend_one === 'selector') {
+			my.showSelector('legend_one');
+		} else {
+			console.log(TDF.Data.fighters);
+			console.log(my.args.legend_one);
+			if (TDF.Data.fighters[my.args.legend_one]) {
+				fighter = TDF.Data.fighters[my.args.legend_one];
+				$legend = $main.find('.legend_one');
+				console.log($legend);
+				$legend.find('name').html('<span>' + fighter.first_name + '</span>' + fighter.last_name);
+			}
+		}
+
+		if (my.args.legend_two === 'selector') {
+			my.showSelector('legend_two');
+		}
+	};
+
+	my.showSelector = function(fighter) {
+
+		$main.find('.selector').html(jQuery('.templates #template-fight-selector').html());
+
+		var winner, winner_id, content, winners_list = [];
+		var $template = jQuery('#template-winner');
+
+		var url_legend_one, url_legend_two;
+		switch (fighter) {
+			case 'legend_one':
+				url_legend_one = '';
+				url_legend_two = jQuery('.legend_two').data('id') ? '' : 'selector/';
+				break;
+			case 'legend_two':
+				url_legend_one = jQuery('.legend_one').data('id') + '/';
+				url_legend_two = '';
+				break;
+		}
+
+		for (winner_id in TDF.Data.fighters) {
+
+			if (jQuery('.' + (fighter === 'legend_one' ? 'legend_two' : 'legend_one')).data('id') === winner_id) {
+				continue;
+			}
+			winner = TDF.Data.fighters[winner_id];
+			content = $template.html()
+				.replace(':winner_url', my.base_url + url_legend_one + winner_id + '/' + url_legend_two)
+				.replace(/:winner_id/g, winner_id)
+				.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner_id + '_small.png')
+				.replace(':name', winner.first_name + ' ' + winner.last_name)
+				.replace(':flag_url', '/img/drapeaux/' + (winner.country ? winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
+
+			winners_list.push(content);
+
+		}
+
+		$main.find('.selector .winners ul').html(winners_list.join(' '));
 	};
 
 	return my;
