@@ -1,0 +1,254 @@
+a {
+  text-decoration: none; }
+
+.templates {
+  display: none; }
+
+header .active {
+  font-weight: bold; }
+
+header > div {
+  display: inline; }
+
+.content .left {
+  float: left;
+  width: 250px; }
+
+.content .map-container {
+  float: left;
+  width: 450px;
+  height: 350px;
+  border: #666;
+  background-color: #eee; }
+
+.content .right {
+  float: left;
+  width: 250px; }
+
+.content .bottom {
+  clear: both;
+  width: 100%; }
+
+.traces .timeline ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.traces .timeline li {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #cccccc;
+  text-indent: 100%;
+  font-size: 6px; }
+
+.traces .timeline li.trace {
+  background-color: #222; }
+
+.traces .timeline-zoom {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  height: 30px; }
+
+.traces .timeline-zoom ul {
+  margin: 0;
+  padding: 0;
+  width: 5000px;
+  height: 20px;
+  list-style: none; }
+
+.traces .timeline-zoom li {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.traces .timeline .slider {
+  position: absolute;
+  width: 700px;
+  height: 18px; }
+
+.traces .ui-slider-handle {
+  position: absolute;
+  margin-top: 2px;
+  width: 100px;
+  height: 10px;
+  border: 3px solid lightblue; }
+
+.winners #winner {
+  display: none; }
+
+.winners #winner .tours {
+  float: left;
+  list-style: none; }
+
+.winners #winner .tours > li {
+  display: inline-block;
+  margin: 0 -3px 0 0;
+  width: 28px;
+  font: 700 13px "Lato", Verdana, Arial, sans-serif;
+  height: 126px;
+  border-right: 1px solid white;
+  background: #D9D9D4;
+  text-align: center;
+  vertical-align: top;
+  position: relative; }
+
+.winners #winner .tours a {
+  border-bottom: 1px solid #383c40;
+  color: #383C40;
+  font: 700 13px "Lato", Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.winners #winner .tours a.pos-1 {
+  border: none;
+  display: block;
+  background: url(/img/vainqueurs/icon-victoire.png) left top no-repeat;
+  display: block;
+  height: 22px;
+  margin: 0 0 0 3px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-indent: 100%;
+  width: 24px;
+  top: -14px;
+  white-space: nowrap; }
+
+.winners #winner .tours > li.empty {
+  visibility: hidden; }
+
+.winners #winner .tours .wins {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 28px;
+  width: 28px; }
+
+.winners #winner .tours .wins div {
+  display: block;
+  background: url(/img/vainqueurs/icon-etape.png) left top no-repeat;
+  display: block;
+  height: 10px;
+  margin: 5px auto 0 auto;
+  overflow: hidden;
+  padding: 0;
+  text-indent: 100%;
+  width: 17px;
+  white-space: nowrap; }
+
+.winners #winner .tours .bulle {
+  display: none; }
+
+.winners #winner .tours .year {
+  border-top: 1px solid white;
+  color: #383C40;
+  display: block;
+  font: 700 10px/22px "Lato", Verdana, Arial, sans-serif;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 28px; }
+
+.winners .legend {
+  list-style: none;
+  float: right;
+  border: 3px solid #d9d9d4; }
+
+.legend li {
+  background-position: left top;
+  background-repeat: repeat;
+  border-bottom: 3px solid #d9d9d4;
+  display: block;
+  font: 400 12px/33px "Lato", Verdana, Arial, sans-serif;
+  height: 33px;
+  margin: 0;
+  padding: 0 0 0 33px; }
+
+.legend .winner {
+  background-image: url(/img/vainqueurs/icon-victoire.png); }
+
+.legend .position {
+  background-image: url(/img/vainqueurs/icon-position.png); }
+
+.legend .leg_win {
+  background-image: url(/img/vainqueurs/icon-etape.png); }
+
+.legend .abandon {
+  background-image: url(/img/vainqueurs/icon-abandon.png); }
+
+.winners .winners_list {
+  background: #D9D9D4;
+  overflow: auto;
+  width: 100%;
+  height: 300px; }
+
+.winners .winners_list .winner {
+  display: inline-block;
+  overflow: hidden;
+  width: 150px;
+  height: 200px;
+  margin: 0 -3px 0 0;
+  border: 1px dashed white;
+  border-top: none;
+  border-right: none;
+  vertical-align: top;
+  text-align: center; }
+
+.winners .winners_list .winner-active {
+  background: url(/img/vainqueurs/bg-winner-selected.png) center top no-repeat; }
+
+.winners .winners_list .winner .name {
+  color: #383C40;
+  font: 700 15px "Oswald", Verdana, Arial, sans-serif;
+  text-transform: uppercase; }
+
+.winners .winners_list .winner .name span {
+  display: none; }
+
+.wins {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.wins li {
+  color: #383C40;
+  display: inline-block;
+  font: 700 11px "Lato", Verdana, Arial, sans-serif;
+  margin: 0 4px 0 0;
+  padding: 0; }
+
+.wins a {
+  color: #383C40; }
+
+#close {
+  border: none;
+  display: block;
+  background: url(/img/icon/bt-close.png) left top no-repeat;
+  display: block;
+  height: 22px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-indent: 100%;
+  width: 22px;
+  white-space: nowrap; }
+
+.winners .ui-slider-handle {
+  position: absolute;
+  border: 3px solid lightblue;
+  width: 10px;
+  height: 10px;
+  margin-top: 2px; }
