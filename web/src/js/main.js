@@ -188,7 +188,7 @@ var TDF = (function() {
 		Path.map("/vainqueurs/(:winner_id/)").to(function() {
 			var filters = {};
 			if (this.params['winner_id'] === undefined) {
-				TDF.render('winners',{
+				TDF.render('winners', {
 					filters: filters
 				});
 			} else {
@@ -319,11 +319,19 @@ TDF.Home = (function() {
 	my.init = function() {
 		// Set handler ( only on first init )
 
+
 		$main.on('submit', '.home #city_search', function(event) {
 			event.preventDefault();
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+
+		/*
+		// GTAB
+        searchInput = $('#inputGeoloc');
+
+        autocomplete_init();
+		*/
 
 	};
 
@@ -345,11 +353,30 @@ TDF.CitySearch = (function() {
 
 	my.init = function() {
 
+		/*
 		$main.on('submit', '.search #city_search', function(event) {
 			event.preventDefault();
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+		*/
+
+		/*
+		// GTAB
+
+        //Elements
+        map = $("#" + mapId);
+
+        searchInput = $('#inputGeoloc');
+
+
+        // google.maps.event.addDomListener(window, 'load', initializeGmap);
+
+        loadData();
+        // allEtapes => TDF.Data.legs
+
+
+		*/
 
 	};
 
@@ -359,7 +386,20 @@ TDF.CitySearch = (function() {
 
 		$main.find('#search').val(args.city_name);
 
+		/*
+		// GTAB
+		initializeGmap();
+		autocomplete_init();
+		*/
 		// gmap.api('search', args);
+
+	};
+
+	my.initializeGmap = function() {
+
+	};
+
+	my.autocomplete_init = function() {
 
 	};
 
@@ -391,9 +431,13 @@ TDF.Traces = (function() {
 
 		my.args = args;
 
-		if (my.args.years === undefined) {} else {
+		if (my.args.years === undefined) {
+			my.args.years = [];
+		} else {
 			my.args.years = my.args.years.split(/,/);
 		}
+
+		console.log(my.args.years);
 
 		if (TDF.loadTemplate(this)) {
 
@@ -504,12 +548,16 @@ TDF.Traces = (function() {
 			}
 		}
 		for (i in my.args.years) {
-			year = my.args.years[i];
-			if (!my.traces[year]) {
-				this.addYear(year);
-				// check the timeline
-				$main.find('#checkyear-' + year).prop('checked', true);
-				$main.find('#squareyear-' + year).addClass('trace');
+			if ( parseInt(i, 10) ) {
+				year = my.args.years[i];
+				if (!my.traces[year]) {
+					this.addYear(year);
+					// check the timeline
+					console.log(year);
+					console.log('#checkyear-' + year);
+					$main.find('#checkyear-' + year).prop('checked', true);
+					$main.find('#squareyear-' + year).addClass('trace');
+				}
 			}
 		}
 
@@ -518,6 +566,11 @@ TDF.Traces = (function() {
 	};
 
 	my.display = function() {
+
+		/*
+		// GTAB
+		gmap.createEtapes(my.args.years, TDF.Data.traces);
+		*/
 
 		// tell the map
 		// gmap.API('traces', my.traces);
@@ -568,6 +621,9 @@ TDF.Traces = (function() {
 			$main.find('.right').removeClass('disabled');
 
 			trace = my.traces[my.args.years[0]];
+
+			console.log(my.args.years[0]);
+			console.log(trace);
 
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
@@ -807,22 +863,26 @@ TDF.Winners = (function() {
 
 		if (my.args.filters.nationalite) {
 			console.log("filter nationality : " + my.args.filters.nationalite);
-			$main.find('.winners_list .winner').each(function(){
-				jQuery(this).data('show', jQuery(this).find('.flag div').hasClass(my.args.filters.nationalite) );
+			$main.find('.winners_list .winner').each(function() {
+				jQuery(this).data('show', jQuery(this).find('.flag div').hasClass(my.args.filters.nationalite));
 			});
 		}
 
 		if (my.args.filters.recherche) {
 			console.log("filter search : " + my.args.filters.recherche);
-			$main.find('.winners_list .winner').each(function(){
+			$main.find('.winners_list .winner').each(function() {
 				var re = new RegExp(my.args.filters.recherche, 'i');
 				console.log(jQuery(this).find('.name').text());
-				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null );
+				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null);
 			});
 		}
 
-		jQuery(".winners_list .winner:data(show)").animate({width: 150});
-		jQuery(".winners_list .winner").not(":data(show)").animate({width: 0});
+		jQuery(".winners_list .winner:data(show)").animate({
+			width: 150
+		});
+		jQuery(".winners_list .winner").not(":data(show)").animate({
+			width: 0
+		});
 
 	};
 
