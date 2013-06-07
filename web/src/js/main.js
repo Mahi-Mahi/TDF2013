@@ -869,7 +869,7 @@ TDF.Winners = (function() {
 						winner_tours.push(
 							$template.html()
 							.replace(/:pos_title/g, pos_title)
-							.replace(/:pos/g, tour.position)
+							.replace(/:pos/g, tour.position.replace(' ', '-'))
 							.replace(/:hpos/g, parseInt(tour.position, 10) ? Math.round(tour.position / TDF.Data.traces[year].nb_concurrents * 100) + 'px' : '60px')
 							.replace(':wins', "<div>Victoire d'étape</div>".repeat(tour.nb_wins))
 							.replace(':bulle', bulle)
@@ -909,12 +909,8 @@ TDF.Winners = (function() {
 				});
 			}
 
-			jQuery(".winners_list .winner:data(show)").animate({
-				width: 150
-			});
-			jQuery(".winners_list .winner").not(":data(show)").animate({
-				width: 0
-			});
+			jQuery(".winners_list .winner:data(show)").show('drop', 500);
+			jQuery(".winners_list .winner").not(":data(show)").hide('drop', 500);
 
 		};
 
