@@ -750,7 +750,7 @@ TDF.Winners = (function() {
 					.replace(':win_ages', winner.wins_age.join(','))
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
-					.replace(':portrait_url', '/img/winners/portraits/' + winner_id + '_small.png')
+					.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner_id + '_small.png')
 					.replace(':flag', winner.country)
 					.replace(':wins', winner.wins.map(liify).join(''));
 
@@ -818,7 +818,7 @@ TDF.Winners = (function() {
 				$winner.slideUp();
 			} else {
 
-				$winner.find('.portrait').attr('src', '/img/winners/portraits/' + winner.id + '_big.png');
+				$winner.find('.portrait').attr('src', '/img/vainqueurs/portraits/' + winner.id + '_big.png');
 				$winner.find('.name').html(winner.first_name + ' <span>' + winner.last_name + '</span>');
 				$winner.find('.flag div').attr('class', winner.country);
 				$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
@@ -870,7 +870,7 @@ TDF.Winners = (function() {
 							$template.html()
 							.replace(/:pos_title/g, pos_title)
 							.replace(/:pos/g, tour.position.replace(' ', '-'))
-							.replace(/:hpos/g, parseInt(tour.position, 10) ? Math.round(tour.position / TDF.Data.traces[year].nb_concurrents * 100) + 'px' : '60px')
+							.replace(/:hpos/g, parseInt(tour.position, 10) ? Math.round(tour.position / TDF.Data.traces[year].nb_concurrents * 100) + 'px' : '40px')
 							.replace(':wins', "<div>Victoire d'étape</div>".repeat(tour.nb_wins))
 							.replace(':bulle', bulle)
 							.replace(/:year/g, year));
