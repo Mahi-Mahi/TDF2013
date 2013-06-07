@@ -214,6 +214,7 @@ header > div {
 	display: none;
 }
 
+
 .wins {
 	list-style-type:none;
 	margin:0;
@@ -248,4 +249,14 @@ header > div {
 	white-space:nowrap;	
 }
 
+
+
+
+.winners .ui-slider-handle {
+	position: absolute;
+	border: 3px solid lightblue;
+	width: 10px;
+	height: 10px;
+	margin-top: 2px;
+}
 
