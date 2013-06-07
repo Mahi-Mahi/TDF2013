@@ -707,9 +707,14 @@ TDF.Winners = (function() {
 
 		var win_age = $main.find(".filters .age .slider").slider('values');
 		var win_age_default = $main.find(".filters .age .slider").slider('option');
-
 		if (win_age[0] > win_age_default.min || win_age[1] < win_age_default.max) {
 			query_string = query_string + 'age_victoire/' + $main.find(".filters .age .slider").slider('values').join(',') + '/';
+		}
+
+		var nb_wins = $main.find(".filters .nb_wins .slider").slider('values');
+		var nb_wins_default = $main.find(".filters .nb_wins .slider").slider('option');
+		if (nb_wins[0] > nb_wins_default.min || nb_wins[1] < nb_wins_default.max) {
+			query_string = query_string + 'nb_victoires/' + $main.find(".filters .nb_wins .slider").slider('values').join(',') + '/';
 		}
 
 		my.fixUrl(query_string);
@@ -755,12 +760,13 @@ TDF.Winners = (function() {
 					.replace(':winner_url', '/vainqueurs/' + winner_id + '/')
 					.replace(/:winner_id/g, winner_id)
 					.replace(':nb_wins', winner.wins.length)
+					.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner.id + '_small.png')
 					.replace(':win_ages', winner.wins_age.join(','))
 					.replace(':country', winner.country)
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
 
-					.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').toLowerCase().replace('É', 'e') + '_small.png')
+					.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png')
 
 				.replace(':wins', winner.wins.map(liify).join(''));
 
@@ -784,9 +790,6 @@ TDF.Winners = (function() {
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
 
-			$main.find('.filters .age .slider').data('min', youngest_win);
-			$main.find('.filters .age .slider').data('max', oldest_win);
-
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
 				max: oldest_win,
@@ -798,9 +801,16 @@ TDF.Winners = (function() {
 				}
 			});
 
-
-			$main.find('.filters .nb_wins .slider').data('min', 1);
-			$main.find('.filters .nb_wins .slider').data('max', max_wins);
+			$main.find(".filters .nb_wins .slider").slider({
+				min: 1,
+				max: max_wins,
+				range: true,
+				step: 1,
+				values: [1, max_wins],
+				slide: function() {
+					Path.history.pushState({}, "", my.getQueryString());
+				}
+			});
 
 			$main.find('.filters #nationality').append(countries.sort().map(function(elt) {
 				return '<option value="' + elt + '" ' + (my.args.filters.nationalite === elt ? 'SELECTED' : '') + '>' + elt + '</option>';
@@ -832,7 +842,7 @@ TDF.Winners = (function() {
 
 			$winner.find('.portrait').attr('src', '/img/vainqueurs/portraits/' + winner.id + '_big.png');
 			$winner.find('.name').html('<em>' + winner.first_name + '</em> <strong>' + winner.last_name + '</strong>');
-			$winner.find('.flag img').attr('src', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_huge.png');
+			$winner.find('.flag img').attr('src', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
 			$winner.find('.bio').html(winner.bio);
 			$winner.find('.duel').attr('href', '/duels-de-legendes/' + winner.id + '/');
@@ -917,9 +927,17 @@ TDF.Winners = (function() {
 			console.log("filter age victoire : " + my.args.filters.age_victoire);
 			var win_ages, filter_age = my.args.filters.age_victoire.split(/,/);
 			$main.find('.winners_list .winner').each(function() {
-				console.log(jQuery(this).data('win-ages'));
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
 				jQuery(this).data('show', (win_ages.min() <= filter_age[1] && win_ages.max() >= filter_age[0]));
+			});
+		}
+
+		if (my.args.filters.nb_victoires) {
+			console.log("filter nb_victoires : " + my.args.filters.nb_victoires);
+			var nb_wins, filter_nb_wins = my.args.filters.nb_victoires.split(/,/);
+			$main.find('.winners_list .winner').each(function() {
+				nb_wins = jQuery(this).data('nb-wins').toString().split(/,/);
+				jQuery(this).data('show', (nb_wins.min() <= filter_nb_wins[1] && nb_wins.max() >= filter_nb_wins[0]));
 			});
 		}
 
