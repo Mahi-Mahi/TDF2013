@@ -5,8 +5,8 @@
   "dependencies": {
     "jquery": "~2.0.2",
     "jquery-ui": "~1.10.3",
-    "pathjs": "git@github.com:olivM/pathjs.git",
-    "console-js": "*"
+    "console-js": "*",
+    "pathjs": "git@github.com:olivM/pathjs.git"
   },
   "ignore": [
     "**/.*",
@@ -14,4 +14,3 @@
     "components"
   ]
 }
-

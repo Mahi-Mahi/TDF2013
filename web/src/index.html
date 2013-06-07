@@ -149,7 +149,7 @@
 			</div>
 
 			<div class="template" id="template-winner">
-				<li class="winner :winner_id" data-nb-wins=":nb_wins" data-win-ages=":win_ages">
+				<li class="winner :winner_id" data-winner-id=":winner_id" data-nb-wins=":nb_wins" data-win-ages=":win_ages">
 					<a href=":winner_url">
 						<img src=":portrait_url" alt="" class="portrait">
 						<div class="flag"><div class=":flag"></div></div>
@@ -161,8 +161,7 @@
 
 			<div class="template" id="template-winner-tour">
 				<li class=":year">
-					<a href="#" class="pos :pos">:pos</a>
-					<div class="bulle">:bulle</div>
+					<a href="#" class="pos-:pos" style="top::hpos;" title=":bulle">:pos_title</a>
 					<div class="wins">:wins</div>
 					<div class="year">:year</div>
 				</li>
