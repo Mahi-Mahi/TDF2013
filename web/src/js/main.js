@@ -751,7 +751,7 @@ TDF.Winners = (function() {
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
 					.replace(':portrait_url', '/img/winners/portraits/' + winner_id + '_small.png')
-					.replace(':flag', winner.country)
+					.replace(':flag_url', '/img/drapeaux/'+winner.country.replace(' ', '-').toLowerCase().replace('É', 'e')+'_small.png')
 					.replace(':wins', winner.wins.map(liify).join(''));
 
 				winners_list.push(content);
@@ -820,7 +820,7 @@ TDF.Winners = (function() {
 
 				$winner.find('.portrait').attr('src', '/img/winners/portraits/' + winner.id + '_big.png');
 				$winner.find('.name').html(winner.first_name + ' <span>' + winner.last_name + '</span>');
-				$winner.find('.flag div').attr('class', winner.country);
+				$winner.find('.flag img').attr('src', '/img/drapeaux/'+winner.country.replace(' ', '-').toLowerCase().replace('É', 'e')+'_huge.png');
 				$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
 				$winner.find('.bio').html(winner.bio);
 				$winner.find('.duel').attr('href', '/duels-de-legendes/' + winner.id + '/');
