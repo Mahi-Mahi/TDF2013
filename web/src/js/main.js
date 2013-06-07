@@ -760,7 +760,6 @@ TDF.Winners = (function() {
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
 
-				.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner_id + '_small.png')
 					.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').toLowerCase().replace('É', 'e') + '_small.png')
 
 				.replace(':wins', winner.wins.map(liify).join(''));
@@ -832,9 +831,9 @@ TDF.Winners = (function() {
 		} else {
 
 			$winner.find('.portrait').attr('src', '/img/vainqueurs/portraits/' + winner.id + '_big.png');
-			$winner.find('.name').html(winner.first_name + ' <span>' + winner.last_name + '</span>');
-			$winner.find('.flag img').attr('src', '/img/drapeaux/' + winner.country.replace(' ', '-').toLowerCase().replace('É', 'e') + '_huge.png');
-			$winner.find('.birth').text(winner.deathyear === undefined ? 'né en ' + winner.birthyear : winner.birthyear + ' - ' + winner.deathyear);
+			$winner.find('.name').html('<em>' + winner.first_name + '</em> <strong>' + winner.last_name + '</strong>');
+			$winner.find('.flag img').attr('src', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_huge.png');
+			$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
 			$winner.find('.bio').html(winner.bio);
 			$winner.find('.duel').attr('href', '/duels-de-legendes/' + winner.id + '/');
 
@@ -920,7 +919,7 @@ TDF.Winners = (function() {
 			$main.find('.winners_list .winner').each(function() {
 				console.log(jQuery(this).data('win-ages'));
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
-				jQuery(this).data('show', ( win_ages.min() <= filter_age[1] && win_ages.max() >= filter_age[0] ) );
+				jQuery(this).data('show', (win_ages.min() <= filter_age[1] && win_ages.max() >= filter_age[0]));
 			});
 		}
 
