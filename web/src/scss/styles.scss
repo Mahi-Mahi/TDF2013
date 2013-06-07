@@ -1,3 +1,9 @@
+body {
+	margin:0;
+	padding: 0;
+	color:#383C40;
+}
+
 a {
 	text-decoration:none;
 }
@@ -8,6 +14,19 @@ a {
 
 .right {
 	float:right;
+}
+
+.unstyled {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	display:block;
+	margin:0 auto;
+	padding:0;
+	width:1000px;
 }
 
 .templates {
@@ -94,9 +113,10 @@ header > div {
 }
 
 #winner {
-	background:url(/img/vainqueurs/bg-winner-block.png) left top no-repeat #F2F2ED;
-	height:215px;
 	display:none;
+	height:215px;
+	background:url(/img/vainqueurs/bg-winner-block.png) left top no-repeat #F2F2ED;
+	position:relative;
 }
 
 #winner .tours {
@@ -105,16 +125,16 @@ header > div {
 }
 
 #winner .tours li {
+	position:relative;
 	display: inline-block;
 	margin:0 -3px 0 0;
 	width: 28px;
-	font:700 13px 'Lato', Verdana, Arial, sans-serif;
-	height: 126px;
+	height: 149px;
 	border-right: 1px solid #f2f2ed;
 	background:#D9D9D4;
-	text-align:center;
 	vertical-align:top;
-	position:relative;
+	text-align:center;
+	font:700 13px 'Lato', Verdana, Arial, sans-serif;
 }
 
 #winner .tours li.pos-Non-partant {
@@ -131,59 +151,59 @@ header > div {
 }
 
 #winner .tours a {
+	position:absolute;
+	left:3px;
+	margin: 0;
+	padding:0;
+	width:22px;
 	border-bottom:1px solid #383C40;
 	color:#383C40;
 	font:700 13px 'Lato', Verdana, Arial, sans-serif;
-	margin: 0;
-	padding:0;
-	position:absolute;
-	left:3px;
-	width:22px;
 }
 
-#winner .tours .pos-1 a {
-	border:none;
-	display:block;
-	background:url(/img/vainqueurs/icon-victoire.png) left top no-repeat;
-	display:block;
-	height:22px;
-	margin:-11px 0 0 3px;
-	overflow:hidden;
-	padding: 0;
-	text-indent: 100%; 
+#winner .tours .pos-1 a { 
 	left:0;
+	display:block;
+	display:block;
+	overflow:hidden;
+	margin:-11px 0 0 3px;
+	padding: 0;
 	width:24px;
+	height:22px;
+	border:none;
+	background:url(/img/vainqueurs/icon-victoire.png) left top no-repeat;
+	text-indent: 100%;
 	white-space:nowrap;
 }
 
 #winner .tours .pos-Abandon a {
-	color:#DC0A27;
 	border:none;
+	color:#DC0A27;
 }
 
 #winner .tours > li.empty {
 	visibility:hidden;
 }
 
-.winners #winner .tours .wins {
-	display:block;
-	margin:0;
-	padding: 0; 
+.winners #winner .tours .wins { 
 	position: absolute;
 	bottom:28px;
+	display:block;
+	margin:0;
+	padding: 0;
 	width:28px;
 }
 
 .winners #winner .tours .wins div {
 	display:block;
-	background:url(/img/vainqueurs/icon-etape.png) left top no-repeat;
 	display:block;
-	height:10px;
-	margin:5px auto 0 auto;
 	overflow:hidden;
-	padding: 0;
-	text-indent: 100%; 
+	margin:5px auto 0 auto;
+	padding: 0; 
 	width:17px;
+	height:10px;
+	background:url(/img/vainqueurs/icon-etape.png) left top no-repeat;
+	text-indent: 100%;
 	white-space:nowrap;
 }
 
@@ -196,58 +216,59 @@ header > div {
 }
 
 .winners #winner .tours .year {
-	border-top: 1px solid #f2f2ed;
-	color:#383C40;
+	position: absolute;
+	bottom:0;
 	display:block;
-	font:700 10px/22px 'Lato', Verdana, Arial, sans-serif;
-	height:22px;
 	margin: 0;
 	padding: 0;
-	position: absolute;
-	text-align:center;
-	bottom:0;
 	width:28px;
+	height:22px;
+	border-top: 1px solid #f2f2ed;
+	color:#383C40;
+	text-align:center;
+	font:700 10px/22px 'Lato', Verdana, Arial, sans-serif;
 }
 
 .winners .legend {
-	list-style:none;
 	float: right;
-	border:3px solid #D9D9D4;
 	margin:0;
 	padding:0;
 	width:128px;
+	border:3px solid #D9D9D4;
+	list-style:none;
 }
 
 .bio {
 	display:block;
-	font:400 12px/33px 'Lato', Verdana, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	font:400 12px/33px 'Lato', Verdana, Arial, sans-serif;
 }
 
 .duel {
-	display:block;
-	background:url(/img/vainqueurs/bt-lancer-un-duel.png) left top no-repeat;
-	display:block;
-	height:55px;
-	margin:0;
-	overflow:hidden;
-	padding: 0;
 	position: absolute;
-	text-indent: 100%; 
+	bottom:10px;
+	display:block;
+	overflow:hidden;
+	left:165px;
+	margin:0;
+	padding: 0; 
 	width:137px;
-	white-space:nowrap;	
+	height:55px;
+	background:url(/img/vainqueurs/bt-lancer-un-duel.png) left top no-repeat;
+	text-indent: 100%;
+	white-space:nowrap;
 }
 
 .legend li {
-	background-position:5px 50%;
-	background-repeat: no-repeat;
-	border-bottom:3px solid #D9D9D4;
 	display:block;
-	font:400 12px/33px 'Lato', Verdana, Arial, sans-serif;
-	height:33px;
 	margin:0;
 	padding:0 0 0 33px;
+	height:33px;
+	border-bottom:3px solid #D9D9D4;
+	background-position:5px 50%;
+	background-repeat: no-repeat;
+	font:400 12px/33px 'Lato', Verdana, Arial, sans-serif;
 }
 
 .legend .winner {
@@ -264,23 +285,23 @@ header > div {
 }
 
 .legend .abandon {
+	border:none;
 	background-image:url(/img/vainqueurs/icon-abandon.png);
 	background-position:10px 50%;
-	border:none;
 }
 
-.winners .winners_list {
-	background: #D9D9D4; 
+.winners .winners_list { 
 	overflow: auto;
 	width: 100%;
 	height: 300px;
+	background: #D9D9D4;
 }
 .winners .winners_list .winner {
 	display: inline-block;
 	overflow: hidden;
-	width: 150px;
-	height: 200px;
 	margin:0 -3px 0 0;
+	width: 162px;
+	height: 220px;
 	border:1px dashed #fff;
 	border-top:none; 
 	border-right:none;
@@ -294,28 +315,40 @@ header > div {
 
 .winners .winners_list .winner .name {
 	color:#383C40;
-	font:700 15px 'Oswald', Verdana, Arial, sans-serif;
 	text-transform:uppercase;
+	font:700 15px 'Oswald', Verdana, Arial, sans-serif;
 }
 
 .winners .winners_list .winner .name span {
 	display: none;
 }
 
+.winner .name:after {
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+	padding: 0; 
+	width:12px;
+	height:6px;
+	background:url(/img/icon/icon-name.png) left top no-repeat;
+	content: " ";
+	text-indent: 100%;
+	white-space:nowrap;		
+}
 
 .wins {
-	list-style-type:none;
 	margin:0;
 	padding: 0;
+	list-style-type:none;
 	text-align:center; 
 }
 
 .wins li {
-	color:#383C40;
 	display:inline-block;
-	font:700 11px 'Lato', Verdana, Arial, sans-serif;
 	margin: 0 4px 0 0;
 	padding: 0;
+	color:#383C40;
+	font:700 11px 'Lato', Verdana, Arial, sans-serif;
 }
 
 .wins a {
@@ -323,25 +356,93 @@ header > div {
 }
 
 #close {
-	border:none;
-	display:block;
-	background:url(/img/icon/bt-close.png) left top no-repeat;
-	display:block;
-	height:22px;
-	margin:0;
-	overflow:hidden;
-	padding: 0;
 	position: absolute;
-	text-indent: 100%; 
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding: 0; 
 	width:22px;
+	height:22px;
+	border:none;
+	background:url(/img/icon/bt-close.png) left top no-repeat;
+	text-indent: 100%;
 	white-space:nowrap;	
+	top:1em;
+	right:1em;
 }
 
 .winners .ui-slider-handle {
 	position: absolute;
-	border: 3px solid lightblue;
+	margin-top: 2px;
 	width: 10px;
 	height: 10px;
-	margin-top: 2px;
+	border: 3px solid lightblue;
 }
 
+.top-winner-portrait {
+	display:block;
+	margin:0;
+	padding:0 25px 0 0;
+	width:300px;
+}
+
+.top-winner-portrait .portrait {
+	display:block;
+	float:left;
+	margin: 0;
+	padding: 0;
+}
+
+.top-winner-portrait-body {
+	position:relative;
+	height:183px;
+	margin:0;
+	padding:30px 0 0 0;
+	text-align:center;
+}
+
+.top-winner-portrait-body .bio {
+	font-size:12px;
+	line-height:1.1;
+}
+
+.name {
+	text-transform:uppercase;
+}
+
+.name em {
+	display:inline-block;
+	vertical-align:top;
+	font:normal normal 15px 'Oswald', Verdana, Arial, sans-serif;	
+}
+
+.name strong {
+	display:block;
+	font:normal normal 23px 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.birth {
+	font:normal 14px 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.name em:before, .name em:after {
+	position:relative;
+	left:4px;
+	display:inline-block;
+	overflow:hidden;
+	margin:5px 0 0 0;
+	padding: 0 4px; 
+	width:12px;
+	height:6px;
+	background:url(/img/icon/icon-name.png) left top no-repeat;
+	content: " ";
+	vertical-align:top;
+	text-indent: 100%;
+	white-space:nowrap;	
+}
+
+.top-winner-stats {
+	margin:0;
+	padding:47px 17px 0 0;
+	width:658px;
+}

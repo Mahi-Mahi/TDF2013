@@ -819,7 +819,7 @@ TDF.Winners = (function() {
 			} else {
 
 				$winner.find('.portrait').attr('src', '/img/vainqueurs/portraits/' + winner.id + '_big.png');
-				$winner.find('.name').html(winner.first_name + ' <span>' + winner.last_name + '</span>');
+				$winner.find('.name').html('<em>' + winner.first_name + '</em> <strong>' + winner.last_name + '</strong>');
 				$winner.find('.flag div').attr('class', winner.country);
 				$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
 				$winner.find('.bio').html(winner.bio);
@@ -835,7 +835,7 @@ TDF.Winners = (function() {
 					years.push(parseInt(year, 10));
 				}
 
-				var visible_tours = 19,
+				var visible_tours = 16,
 					nb_tours = years.max() - years.min();
 				var i;
 
