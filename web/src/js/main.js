@@ -99,19 +99,27 @@ var TDF = (function() {
 		});
 
 		// Fight
-		Path.map("/duels-de-legendes/(:legend_one/)(:legend_two/)").to(function() {
-			if (this.params['legend_one'] === undefined) {
+		Path.map("/duels-de-legendes/(:fighter_one/)(:fighter_two/)(:step/)").to(function() {
+			if (this.params['fighter_one'] === undefined) {
 				TDF.render('fight');
 			} else {
-				if (this.params['legend_two'] === undefined) {
+				if (this.params['fighter_two'] === undefined) {
 					TDF.render('fight', {
-						legend_one: this.params['legend_one']
+						fighter_one: this.params['fighter_one']
 					});
 				} else {
-					TDF.render('fight', {
-						legend_one: this.params['legend_one'],
-						legend_two: this.params['legend_two']
-					});
+					if (this.params['step'] === undefined) {
+						TDF.render('fight', {
+							fighter_one: this.params['fighter_one'],
+							fighter_two: this.params['fighter_two']
+						});
+					} else {
+						TDF.render('fight', {
+							fighter_one: this.params['fighter_one'],
+							fighter_two: this.params['fighter_two'],
+							step: this.params['step']
+						});
+					}
 				}
 			}
 		});
@@ -977,8 +985,8 @@ TDF.Fight = (function() {
 	my.base_url = '/duels-de-legendes/';
 
 	my.init = function() {
-		$main.on('click', '.fight-home .choose-legend', function() {
-			my.showSelector(jQuery(this).data('legend'));
+		$main.on('click', '.fight-home .start', function() {
+			my.fight('start');
 		});
 
 	};
@@ -986,67 +994,228 @@ TDF.Fight = (function() {
 	my.render = function(args) {
 		my.args = args;
 
-		var $legend, fighter;
+		var $fighter, fighter;
 
-		if (TDF.loadTemplate(this, '-home')) {
-
+		if (my.args.step !== undefined) {
+			my.fight();
+			return;
 		}
 
-		if (my.args.legend_one === 'selector') {
-			my.showSelector('legend_one');
-		} else {
-			console.log(TDF.Data.fighters);
-			console.log(my.args.legend_one);
-			if (TDF.Data.fighters[my.args.legend_one]) {
-				fighter = TDF.Data.fighters[my.args.legend_one];
-				$legend = $main.find('.legend_one');
-				console.log($legend);
-				$legend.find('name').html('<span>' + fighter.first_name + '</span>' + fighter.last_name);
+
+
+		if (TDF.loadTemplate(this, '-home')) {}
+
+		if (my.args.fighter_one !== 'selector') {
+			if (TDF.Data.fighters[my.args.fighter_one]) {
+				fighter = TDF.Data.fighters[my.args.fighter_one];
+				$fighter = $main.find('.fighter_one');
+				$fighter.data('id', my.args.fighter_one);
+				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
 			}
 		}
 
-		if (my.args.legend_two === 'selector') {
-			my.showSelector('legend_two');
+		if (my.args.fighter_two !== 'selector') {
+			if (TDF.Data.fighters[my.args.fighter_two]) {
+				fighter = TDF.Data.fighters[my.args.fighter_two];
+				$fighter = $main.find('.fighter_two');
+				$fighter.data('id', my.args.fighter_two);
+				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+			}
 		}
+
+		if (my.args.fighter_one === 'selector') {
+			my.showSelector('fighter_one');
+		} else {
+			if (my.args.fighter_two === 'selector') {
+				my.showSelector('fighter_two');
+			} else {
+				my.hideSelector();
+			}
+		}
+
+		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
+		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
+
+		if (my.args.fighter_one && my.args.fighter_two) {
+			$main.find('.start').attr('href', my.getQueryString() + 'start/');
+		}
+
 	};
 
-	my.showSelector = function(fighter) {
+	my.getQueryString = function() {
+		var query_string = my.base_url;
+
+		if (my.args.fighter_one) {
+			query_string = query_string + my.args.fighter_one + '/';
+		}
+
+		if (my.args.fighter_two) {
+			query_string = query_string + my.args.fighter_two + '/';
+		}
+
+		return query_string;
+
+	};
+
+	my.hideSelector = function() {
+		$main.find('.selector').html('');
+	};
+
+	my.showSelector = function(side) {
 
 		$main.find('.selector').html(jQuery('.templates #template-fight-selector').html());
 
-		var winner, winner_id, content, winners_list = [];
+		var fighter, fighter_id, content, winners_list = [],
+			legends_list = [];
 		var $template = jQuery('#template-winner');
 
-		var url_legend_one, url_legend_two;
-		switch (fighter) {
-			case 'legend_one':
-				url_legend_one = '';
-				url_legend_two = jQuery('.legend_two').data('id') ? '' : 'selector/';
+		var url_fighter_one, url_fighter_two;
+		switch (side) {
+			case 'fighter_one':
+				url_fighter_one = '';
+				url_fighter_two = my.args.fighter_two ? '' : '';
 				break;
-			case 'legend_two':
-				url_legend_one = jQuery('.legend_one').data('id') + '/';
-				url_legend_two = '';
+			case 'fighter_two':
+				url_fighter_one = my.args.fighter_one + '/';
+				url_fighter_two = '';
 				break;
 		}
 
-		for (winner_id in TDF.Data.fighters) {
+		var current_selector = '.' + (side === 'fighter_one' ? 'fighter_two' : 'fighter_one');
+		var current_id = $main.find(current_selector).data('id');
+		for (fighter_id in TDF.Data.fighters) {
 
-			if (jQuery('.' + (fighter === 'legend_one' ? 'legend_two' : 'legend_one')).data('id') === winner_id) {
+			if (fighter_id === current_id) {
 				continue;
 			}
-			winner = TDF.Data.fighters[winner_id];
+			fighter = TDF.Data.fighters[fighter_id];
 			content = $template.html()
-				.replace(':winner_url', my.base_url + url_legend_one + winner_id + '/' + url_legend_two)
-				.replace(/:winner_id/g, winner_id)
-				.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner_id + '_small.png')
-				.replace(':name', winner.first_name + ' ' + winner.last_name)
-				.replace(':flag_url', '/img/drapeaux/' + (winner.country ? winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
+				.replace(':winner_url', my.base_url + url_fighter_one + fighter_id + '/' + url_fighter_two)
+				.replace(/:winner_id/g, fighter_id)
+				.replace(':portrait_url', '/img/vainqueurs/portraits/' + fighter_id + '_small.png')
+				.replace(':name', fighter.first_name + ' ' + fighter.last_name)
+				.replace(':safename', '')
+				.replace(':flag_url', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
 
-			winners_list.push(content);
+			if (fighter.winner) {
+				winners_list.push(content);
+			}
+			if (fighter.legend) {
+				legends_list.push(content);
+			}
 
 		}
 
+		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
+	};
+
+	my.fight = function() {
+
+		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
+		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
+
+		console.log(fighter_one);
+		console.log(fighter_two);
+
+		if (!$inner.hasClass('start')) {
+			$inner.html(jQuery('.templates #template-fight-start').html());
+			$inner.attr('class', 'start');
+		}
+		$inner.find('.next').text("Épreuve Suivante");
+
+		var $fighter_one = $main.find('.fighter_one');
+		var $fighter_two = $main.find('.fighter_two');
+
+		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
+		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
+
+		// calcul des positions relatives
+
+		var steps = [];
+		steps[0] = [0, 0];
+
+		for (var i = 1; i < 6; i++) {
+			steps[i] = [
+				steps[i - 1][0] + fighter_one.steps[my.args.step] - fighter_two.steps[my.args.step],
+				steps[i - 1][1] + fighter_one.steps[my.args.step] + fighter_two.steps[my.args.step]
+			];
+		}
+
+		console.log(steps);
+
+		var ratio = 3.12;
+		var max_space = 400;
+
+		var step_title, step_class;
+
+		if (!isNaN(parseInt(my.args.step, 10))) {
+			my.args.step = parseInt(my.args.step, 10);
+		}
+
+		switch (my.args.step) {
+			default:
+			case 0:
+			case 'start':
+				my.args.step = 0;
+				$fighter_one.css({
+					'margin-left': 0
+				});
+				$fighter_two.css({
+					'margin-left': 0
+				});
+				$inner.find('.next').text("Top Départ");
+				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				break;
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				console.log(my.args.step);
+				switch (my.args.step) {
+					case 1:
+						step_class = "nb_legs";
+						step_title = "Nombre d'étapes remportées";
+					break;
+					case 2:
+						step_class = "pct_leading";
+						step_title = "Temps passé en tête du général";
+					break;
+					case 3:
+						step_class = "average_speed";
+						step_title = "Meilleur vitesse moyenne";
+					break;
+					case 4:
+						step_class = "ahead_of_second";
+						step_title = "Meilleure avance sur le deuxième";
+					break;
+					case 5:
+						step_class = "nb_wins";
+						step_title = "Nombre de tours gagnés";
+					break;
+					case 6:
+						step_class = "doping";
+						step_title = "contrôle antidopage";
+					break;
+				}
+				$fighter_one.animate({
+					'margin-left': steps[my.args.step] / ratio / 2 * max_space + 'px'
+				});
+				$fighter_two.animate({
+					'margin-left': '-' + steps[my.args.step] / ratio / 2 * max_space + 'px'
+				});
+				console.log(step_title);
+				console.log($inner.find('.title .inner'));
+				$inner.find('.title div').html("Épreuve N°" + my.args.step+'<br />'+step_title).attr('class', step_class);
+				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				break;
+			case 'finish':
+			case 7:
+				my.args.step = 'finish';
+			break;
+		}
 	};
 
 	return my;

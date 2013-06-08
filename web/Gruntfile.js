@@ -191,7 +191,7 @@ module.exports = function(grunt) {
 
   // Default task.
   // jshint & concat to dev/
-  grunt.registerTask('default', ['jshint:main', 'sass:dev', 'concat:dev', 'copy:dev']);
+  grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev']); // , 'sass:dev'
 
   // build production
   grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'uglify', 'copy:dist']);

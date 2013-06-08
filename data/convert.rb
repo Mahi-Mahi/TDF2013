@@ -40,28 +40,37 @@ CSV.foreach("csv/Fight BAT - Feuille1.csv") do |row|
 
 		fighters[id] = {}
 		fighters[id][:id] = id
+		fighters[id][:steps] = {}
 		fighters[id][:first_name] = row[1]
 		fighters[id][:last_name] = row[2]
 
 		fighters[id][:country] = row[3]
-		fighters[id][:winner] = row[4]
-		fighters[id][:legend] = row[5]
+		fighters[id][:winner] = (row[4] == 'oui' )
+		fighters[id][:legend] = (row[5] == 'oui')
 
 
 		fighters[id][:nb_leg_wins] = row[6].to_i
+		fighters[id][:steps][1] = row[7].gsub(/,/, '.').to_f
 
-		fighters[id][:pct_leading] = row[7].to_i
-		fighters[id][:pct_leading_year] = row[8].to_i
+		fighters[id][:pct_leading] = row[8].to_f
+		fighters[id][:pct_leading_year] = row[9].to_i
+		fighters[id][:steps][2] = row[10].gsub(/,/, '.').to_f
 
-		fighters[id][:ahead_of_2nd] = row[9].to_i
-		fighters[id][:ahead_of_2nd_year] = row[10].to_i
+		fighters[id][:ahead_of_2nd] = row[11]
+		fighters[id][:ahead_of_2nd_val] = row[12].gsub(/,/, '.').to_f
+		fighters[id][:steps][3] = row[13].gsub(/,/, '.').to_f
+		fighters[id][:ahead_of_2nd_year] = row[14].gsub(/,/, '.').to_i
 
-		fighters[id][:average_speed] = row[11].gsub(/^(\d+),(\d+)/, '\1.\2').to_f
-		fighters[id][:average_speed_year] = row[12].to_i
+		fighters[id][:average_speed] = row[15].gsub(/,/, '.').to_f
+		fighters[id][:steps][4] = row[16].gsub(/,/, '.').to_f
+		fighters[id][:average_speed_year] = row[17].to_i
 
-		fighters[id][:nb_wins] = row[12].to_i
+		fighters[id][:nb_wins] = row[18].to_i
+		fighters[id][:steps][5] = row[19].gsub(/,/, '.').to_f
 
-		fighters[id][:is_doped] = ( row[13] == 'oui' )
+		fighters[id][:is_doped] = ( row[20] == 'oui' )
+
+		fighters[id][:score] = row[21].gsub(/,/, '.').to_f
 
 	end
 
@@ -127,8 +136,6 @@ Dir.glob('csv/vainqueurs/*.csv') do |item|
 
 	id = item.match(/\/([\w\-]+)\.csv$/)[1]
 
-puts id
-
 	winners[id].nil?
 	winners[id] = {}
 	winners[id][:id] = id
@@ -184,8 +191,6 @@ puts id
 	winners[id][:first_name] = tour[:winner_first_name]
 	winners[id][:last_name] = tour[:winner_last_name]
 	winners[id][:country] = tour[:winner_country]
-
-	p winners[id]
 
 end
 

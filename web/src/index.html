@@ -246,18 +246,18 @@
 				<h2>Duels de Légendes</h2>
 
 				<div class="container">
-					<div class="legend_one left" data-legend="legend_one" data-id="">
+					<div class="fighter_one left" data-fighter="fighter_one" data-id="">
 						<div class="name">Votre Joueur</div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
-						<div class="choose-legend">Choisir un autre coureur</div>
+						<a href="" class="choose-fighter">Choisir un autre coureur</a>
 					</div>
-					<a class="start">Start</a>
-					<div class="legend_two right" data-legend="legend_two" data-id="">
+					<a href="" class="start">Start</a>
+					<div class="fighter_two right" data-fighter="fighter_two" data-id="">
 						<div class="name">Son Adversaire</div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
-						<div class="choose-legend">Choisir un autre coureur</div>
+						<a href="" class="choose-fighter">Choisir un autre coureur</a>
 					</div>
 				</div>
 			</div>
@@ -272,20 +272,26 @@
 				<div class="winners">
 					<ul></ul>
 				</div>
-				<div class="legend">
+				<div class="legends">
 					<ul></ul>
 				</div>
 			</div>
 
-			<div class="template" id="template-fight-step">
-				<div class="title"></div>
+			<div class="template" id="template-fight-start">
+				<div class="title">
+					<div></div>
+				</div>
 				<div class="landscape"></div>
 				<div class="background"></div>
-				<div class="legend_one"></div>
-				<div class="legend_two"></div>
+				<div class="fighter_one">
+					<div class="name"></div>
+				</div>
+				<div class="fighter_two">
+					<div class="name"></div>
+				</div>
 				<div class="foreground"></div>
 				<div class="forescape"></div>
-				<div href="" class="next"></div>
+				<a href="" class="next">Épreuve Suivante</a>
 			</div>
 
 			<div class="template" id="template-fight-results">
@@ -312,9 +318,7 @@
 				</section>
 			</div><!-- #template-header -->
 		</div>
-		<!--
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-		-->
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
 	</body>
 </html>
