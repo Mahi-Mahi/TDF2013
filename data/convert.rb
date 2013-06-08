@@ -37,26 +37,31 @@ CSV.foreach("csv/Fight BAT - Feuille1.csv") do |row|
 #		p row
 
 		id = row[0]
-		year = row[5].to_i
 
 		fighters[id] = {}
 		fighters[id][:id] = id
 		fighters[id][:first_name] = row[1]
 		fighters[id][:last_name] = row[2]
-		fighters[id][:nb_leg_wins] = row[3].to_i
 
-		fighters[id][:pct_leading] = row[4].to_i
-		fighters[id][:pct_leading_year] = row[5].to_i
+		fighters[id][:country] = row[3]
+		fighters[id][:winner] = row[4]
+		fighters[id][:legend] = row[5]
 
-		fighters[id][:ahead_of_2nd] = row[6].to_i
-		fighters[id][:ahead_of_2nd_year] = row[7].to_i
 
-		fighters[id][:average_speed] = row[8].gsub(/^(\d+),(\d+)/, '\1.\2').to_f
-		fighters[id][:average_speed_year] = row[9].to_i
+		fighters[id][:nb_leg_wins] = row[6].to_i
 
-		fighters[id][:nb_wins] = row[10].to_i
+		fighters[id][:pct_leading] = row[7].to_i
+		fighters[id][:pct_leading_year] = row[8].to_i
 
-		fighters[id][:is_doped] = ( row[11] == 'oui' )
+		fighters[id][:ahead_of_2nd] = row[9].to_i
+		fighters[id][:ahead_of_2nd_year] = row[10].to_i
+
+		fighters[id][:average_speed] = row[11].gsub(/^(\d+),(\d+)/, '\1.\2').to_f
+		fighters[id][:average_speed_year] = row[12].to_i
+
+		fighters[id][:nb_wins] = row[12].to_i
+
+		fighters[id][:is_doped] = ( row[13] == 'oui' )
 
 	end
 

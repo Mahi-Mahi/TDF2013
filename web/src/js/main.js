@@ -1105,7 +1105,5 @@ TDF.Data = (function() {
 
 // Document Ready
 jQuery(document).ready(function() {
-
 	TDF.Data.init(TDF.init);
-
 });
