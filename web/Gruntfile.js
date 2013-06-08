@@ -61,7 +61,9 @@ module.exports = function(grunt) {
 
 
     sass: {
-      dev:{
+      dev: {
+        trace: true,
+        bundleExec: true,
         files: {
           'dev/css/styles.css': 'src/scss/styles.scss'
         }
@@ -151,6 +153,15 @@ module.exports = function(grunt) {
       }
     },
 
+    compass: {
+      dev: { // Another target
+        options: {
+          sassDir: 'src/scss',
+          cssDir: 'dev/css'
+        }
+      }
+    },
+
     // watch for change to main.js and trigger 'Default' task
 
     watch: {
@@ -168,6 +179,7 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -191,7 +203,8 @@ module.exports = function(grunt) {
 
   // Default task.
   // jshint & concat to dev/
-  grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev']); // , 'sass:dev'
+  // grunt.registerTask('default', ['sass:dev', 'jshint:main', 'concat:dev', 'copy:dev']);
+  grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev', 'compass:dev']);
 
   // build production
   grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'uglify', 'copy:dist']);
