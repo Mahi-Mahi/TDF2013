@@ -615,3 +615,38 @@ header .fight.active a {
 	border: 1px solid red;
 	height: 15px;
 }
+
+
+
+.fight-start {
+	width: 800px;
+	height: 600px;
+	border: 1px solid red;
+}
+
+.fight-start .fighters {
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid green;
+}
+.fight-start .fighter_one {
+	bottom: 80px;
+	z-index: 10;
+}
+.fight-start .fighter_two {
+	bottom: 0px;
+	z-index: 11;
+}
+.fight-start .fighter {
+	position: absolute;
+	border: solid 1px lightgrey;
+	width:150px;
+	height: 200px;
+}
+
+.fight-results .winner {
+	display:none;
+}

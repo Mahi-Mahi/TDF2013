@@ -1115,12 +1115,9 @@ TDF.Fight = (function() {
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
-		console.log(fighter_one);
-		console.log(fighter_two);
-
-		if (!$inner.hasClass('start')) {
+		if (!$inner.hasClass('fight-start')) {
 			$inner.html(jQuery('.templates #template-fight-start').html());
-			$inner.attr('class', 'start');
+			$inner.attr('class', 'fight-start');
 		}
 		$inner.find('.next').text("Épreuve Suivante");
 
@@ -1137,17 +1134,17 @@ TDF.Fight = (function() {
 
 		for (var i = 1; i < 6; i++) {
 			steps[i] = [
-				steps[i - 1][0] + fighter_one.steps[my.args.step] - fighter_two.steps[my.args.step],
-				steps[i - 1][1] + fighter_one.steps[my.args.step] + fighter_two.steps[my.args.step]
+				steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
+				steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
 			];
 		}
-
-		console.log(steps);
+		steps[6] = [0, 0];
+		steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
 		var ratio = 3.12;
 		var max_space = 400;
 
-		var step_title, step_class;
+		var step_title, step_class, fighter_one_result, fighter_two_result, diff = [];
 
 		if (!isNaN(parseInt(my.args.step, 10))) {
 			my.args.step = parseInt(my.args.step, 10);
@@ -1159,10 +1156,10 @@ TDF.Fight = (function() {
 			case 'start':
 				my.args.step = 0;
 				$fighter_one.css({
-					'margin-left': 0
+					'margin-left': (max_space / 2) + 'px'
 				});
 				$fighter_two.css({
-					'margin-left': 0
+					'margin-left': (max_space / 2) + 'px'
 				});
 				$inner.find('.next').text("Top Départ");
 				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1173,49 +1170,82 @@ TDF.Fight = (function() {
 			case 4:
 			case 5:
 			case 6:
-				console.log(my.args.step);
+			case 7:
+			case 'finish':
+			case 'results':
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
 						step_title = "Nombre d'étapes remportées";
-					break;
+						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
+						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
+						break;
 					case 2:
 						step_class = "pct_leading";
 						step_title = "Temps passé en tête du général";
-					break;
+						fighter_one_result = fighter_one.pct_leading + "% de son meilleur tour";
+						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
+						break;
 					case 3:
 						step_class = "average_speed";
 						step_title = "Meilleur vitesse moyenne";
-					break;
+						fighter_one_result = fighter_one.average_speed + " km/h";
+						fighter_two_result = fighter_two.average_speed + " km/h";
+						break;
 					case 4:
 						step_class = "ahead_of_second";
 						step_title = "Meilleure avance sur le deuxième";
-					break;
+						fighter_one_result = fighter_one.ahead_of_second;
+						fighter_two_result = fighter_two.ahead_of_second;
+						break;
 					case 5:
 						step_class = "nb_wins";
 						step_title = "Nombre de tours gagnés";
-					break;
+						fighter_one_result = fighter_one.nb_wins + " victoire" + (fighter_one.nb_wins > 1 ? 's' : '');
+						fighter_two_result = fighter_two.nb_wins + " victoire" + (fighter_two.nb_wins > 1 ? 's' : '');
+						break;
 					case 6:
 						step_class = "doping";
 						step_title = "contrôle antidopage";
-					break;
+						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						break;
+					case 7:
+					case 'finish':
+					case 'results':
+						step_title = "Bilan de la source" + '<br />' + '<a href="'+(my.getQueryString()+'results/')+'" class="show-results">Les résultats</a>';
+						step_class = 'finish';
+						if (my.args.step === 'results') {
+
+							my.showResults();
+
+						}
+
+						break;
 				}
+				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2));
+				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2));
+				// console.log(steps);
+				// console.log(diff);
+				// console.log([fighter_one.score, fighter_two.score]);
 				$fighter_one.animate({
-					'margin-left': steps[my.args.step] / ratio / 2 * max_space + 'px'
+					'margin-left': diff[0] + 'px'
 				});
 				$fighter_two.animate({
-					'margin-left': '-' + steps[my.args.step] / ratio / 2 * max_space + 'px'
+					'margin-left': diff[1] + 'px'
 				});
-				console.log(step_title);
-				console.log($inner.find('.title .inner'));
-				$inner.find('.title div').html("Épreuve N°" + my.args.step+'<br />'+step_title).attr('class', step_class);
+				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
 				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+
 				break;
-			case 'finish':
-			case 7:
-				my.args.step = 'finish';
-			break;
 		}
+	};
+
+	my.showResults = function() {
+		$main.find('.results').html(jQuery('.templates #template-fight-results').html());
+
 	};
 
 	return my;
