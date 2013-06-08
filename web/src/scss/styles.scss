@@ -1,4 +1,5 @@
 body {
+	background:#F2F2ED;
 	margin:0;
 	padding: 0;
 	color:#383C40;
@@ -23,10 +24,13 @@ a {
 }
 
 #main {
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
 	display:block;
 	margin:0 auto;
 	padding:0;
 	width:1000px;
+	box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.3), -12px 0 8px -4px rgba(0, 0, 0, 0.3);
 }
 
 .templates {
@@ -443,8 +447,14 @@ header > div {
 	font:normal normal 23px 'Oswald', Verdana, Arial, sans-serif;
 }
 
-.birth {
+.top-winner-portrait-body .flag, .birth {
+	display:inline-block;
 	font:normal 14px 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.top-winner-portrait-body img { 
+	position:relative;
+	top:2px;
 }
 
 .name em:before, .name em:after {
