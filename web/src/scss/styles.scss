@@ -88,6 +88,12 @@ header h1 {
 
 header h1 a {
 	border:none;
+	width:auto;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	text-indent:100%;
+	white-space:nowrap;
 }
 
 header .traces a {
