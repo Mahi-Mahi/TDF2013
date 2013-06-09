@@ -99,19 +99,27 @@ var TDF = (function() {
 		});
 
 		// Fight
-		Path.map("/duels-de-legendes/(:legend_one/)(:legend_two/)").to(function() {
-			if (this.params['legend_one'] === undefined) {
+		Path.map("/duels-de-legendes/(:fighter_one/)(:fighter_two/)(:step/)").to(function() {
+			if (this.params['fighter_one'] === undefined) {
 				TDF.render('fight');
 			} else {
-				if (this.params['legend_two'] === undefined) {
+				if (this.params['fighter_two'] === undefined) {
 					TDF.render('fight', {
-						legend_one: this.params['legend_one']
+						fighter_one: this.params['fighter_one']
 					});
 				} else {
-					TDF.render('fight', {
-						legend_one: this.params['legend_one'],
-						legend_two: this.params['legend_two']
-					});
+					if (this.params['step'] === undefined) {
+						TDF.render('fight', {
+							fighter_one: this.params['fighter_one'],
+							fighter_two: this.params['fighter_two']
+						});
+					} else {
+						TDF.render('fight', {
+							fighter_one: this.params['fighter_one'],
+							fighter_two: this.params['fighter_two'],
+							step: this.params['step']
+						});
+					}
 				}
 			}
 		});
@@ -233,17 +241,21 @@ var TDF = (function() {
 		Path.history.pushState({}, "", route);
 	};
 
-	my.loadTemplate = function(module) {
+	my.loadTemplate = function(module, step) {
 
-		if (!$inner.hasClass(module.name)) {
+		if (!step) {
+			step = '';
+		}
 
-			var $content = jQuery('#template-' + module.name);
+		if (!$inner.hasClass(module.name + step)) {
+
+			var $content = jQuery('#template-' + module.name + step);
 
 			if ($content.find('header').length) {
 				var $header = $content.find('header');
 				$header.html(jQuery('#template-header').html());
 				$header.find('.active').removeClass('active');
-				$header.find('.' + module.name).addClass('active');
+				$header.find('.' + module.name + step).addClass('active');
 			}
 
 			for (var route in TDF.routes) {
@@ -252,7 +264,7 @@ var TDF = (function() {
 
 			var content = $content.html();
 
-			jQuery('#inner').html(content).attr('class', module.name);
+			jQuery('#inner').html(content).attr('class', module.name + step);
 
 			return true;
 		}
@@ -672,9 +684,6 @@ TDF.Traces = (function() {
 
 }());
 
-/*
-http://ghusse.github.io/jQRangeSlider/index.html
-*/
 TDF.Winners = (function() {
 
 	var my = {};
@@ -766,7 +775,7 @@ TDF.Winners = (function() {
 					.replace(':name', winner.first_name + ' ' + winner.last_name)
 					.replace(':safename', winner.id.replace('-', ' '))
 
-					.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png')
+				.replace(':flag_url', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png')
 
 				.replace(':wins', winner.wins.map(liify).join(''));
 
@@ -973,11 +982,270 @@ TDF.Fight = (function() {
 	var my = {};
 
 	my.name = 'fight';
+	my.base_url = '/duels-de-legendes/';
 
-	my.init = function() {};
+	my.init = function() {
+		$main.on('click', '.fight-home .start', function() {
+			my.fight('start');
+		});
 
-	my.render = function() {
-		TDF.loadTemplate(this);
+	};
+
+	my.render = function(args) {
+		my.args = args;
+
+		var $fighter, fighter;
+
+		if (my.args.step !== undefined) {
+			my.fight();
+			return;
+		}
+
+
+
+		if (TDF.loadTemplate(this, '-home')) {}
+
+		if (my.args.fighter_one !== 'selector') {
+			if (TDF.Data.fighters[my.args.fighter_one]) {
+				fighter = TDF.Data.fighters[my.args.fighter_one];
+				$fighter = $main.find('.fighter_one');
+				$fighter.data('id', my.args.fighter_one);
+				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+			}
+		}
+
+		if (my.args.fighter_two !== 'selector') {
+			if (TDF.Data.fighters[my.args.fighter_two]) {
+				fighter = TDF.Data.fighters[my.args.fighter_two];
+				$fighter = $main.find('.fighter_two');
+				$fighter.data('id', my.args.fighter_two);
+				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+			}
+		}
+
+		if (my.args.fighter_one === 'selector') {
+			my.showSelector('fighter_one');
+		} else {
+			if (my.args.fighter_two === 'selector') {
+				my.showSelector('fighter_two');
+			} else {
+				my.hideSelector();
+			}
+		}
+
+		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
+		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
+
+		if (my.args.fighter_one && my.args.fighter_two) {
+			$main.find('.start').attr('href', my.getQueryString() + 'start/');
+		}
+
+	};
+
+	my.getQueryString = function() {
+		var query_string = my.base_url;
+
+		if (my.args.fighter_one) {
+			query_string = query_string + my.args.fighter_one + '/';
+		}
+
+		if (my.args.fighter_two) {
+			query_string = query_string + my.args.fighter_two + '/';
+		}
+
+		return query_string;
+
+	};
+
+	my.hideSelector = function() {
+		$main.find('.selector').html('');
+	};
+
+	my.showSelector = function(side) {
+
+		$main.find('.selector').html(jQuery('.templates #template-fight-selector').html());
+
+		var fighter, fighter_id, content, winners_list = [],
+			legends_list = [];
+		var $template = jQuery('#template-winner');
+
+		var url_fighter_one, url_fighter_two;
+		switch (side) {
+			case 'fighter_one':
+				url_fighter_one = '';
+				url_fighter_two = my.args.fighter_two ? '' : '';
+				break;
+			case 'fighter_two':
+				url_fighter_one = my.args.fighter_one + '/';
+				url_fighter_two = '';
+				break;
+		}
+
+		var current_selector = '.' + (side === 'fighter_one' ? 'fighter_two' : 'fighter_one');
+		var current_id = $main.find(current_selector).data('id');
+		for (fighter_id in TDF.Data.fighters) {
+
+			if (fighter_id === current_id) {
+				continue;
+			}
+			fighter = TDF.Data.fighters[fighter_id];
+			content = $template.html()
+				.replace(':winner_url', my.base_url + url_fighter_one + fighter_id + '/' + url_fighter_two)
+				.replace(/:winner_id/g, fighter_id)
+				.replace(':portrait_url', '/img/vainqueurs/portraits/' + fighter_id + '_small.png')
+				.replace(':name', fighter.first_name + ' ' + fighter.last_name)
+				.replace(':safename', '')
+				.replace(':flag_url', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
+
+			if (fighter.winner) {
+				winners_list.push(content);
+			}
+			if (fighter.legend) {
+				legends_list.push(content);
+			}
+
+		}
+
+		$main.find('.selector .legends ul').html(legends_list.join(' '));
+		$main.find('.selector .winners ul').html(winners_list.join(' '));
+	};
+
+	my.fight = function() {
+
+		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
+		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
+
+		if (!$inner.hasClass('fight-start')) {
+			$inner.html(jQuery('.templates #template-fight-start').html());
+			$inner.attr('class', 'fight-start');
+		}
+		$inner.find('.next').text("Épreuve Suivante");
+
+		var $fighter_one = $main.find('.fighter_one');
+		var $fighter_two = $main.find('.fighter_two');
+
+		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
+		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
+
+		// calcul des positions relatives
+
+		var steps = [];
+		steps[0] = [0, 0];
+
+		for (var i = 1; i < 6; i++) {
+			steps[i] = [
+				steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
+				steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
+			];
+		}
+		steps[6] = [0, 0];
+		steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+
+		var ratio = 3.12;
+		var max_space = 400;
+
+		var step_title, step_class, fighter_one_result, fighter_two_result, diff = [];
+
+		if (!isNaN(parseInt(my.args.step, 10))) {
+			my.args.step = parseInt(my.args.step, 10);
+		}
+
+		switch (my.args.step) {
+			default:
+			case 0:
+			case 'start':
+				my.args.step = 0;
+				$fighter_one.css({
+					'margin-left': (max_space / 2) + 'px'
+				});
+				$fighter_two.css({
+					'margin-left': (max_space / 2) + 'px'
+				});
+				$inner.find('.next').text("Top Départ");
+				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				break;
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+			case 7:
+			case 'finish':
+			case 'results':
+				switch (my.args.step) {
+					case 1:
+						step_class = "nb_legs";
+						step_title = "Nombre d'étapes remportées";
+						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
+						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
+						break;
+					case 2:
+						step_class = "pct_leading";
+						step_title = "Temps passé en tête du général";
+						fighter_one_result = fighter_one.pct_leading + "% de son meilleur tour";
+						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
+						break;
+					case 3:
+						step_class = "average_speed";
+						step_title = "Meilleur vitesse moyenne";
+						fighter_one_result = fighter_one.average_speed + " km/h";
+						fighter_two_result = fighter_two.average_speed + " km/h";
+						break;
+					case 4:
+						step_class = "ahead_of_second";
+						step_title = "Meilleure avance sur le deuxième";
+						fighter_one_result = fighter_one.ahead_of_second;
+						fighter_two_result = fighter_two.ahead_of_second;
+						break;
+					case 5:
+						step_class = "nb_wins";
+						step_title = "Nombre de tours gagnés";
+						fighter_one_result = fighter_one.nb_wins + " victoire" + (fighter_one.nb_wins > 1 ? 's' : '');
+						fighter_two_result = fighter_two.nb_wins + " victoire" + (fighter_two.nb_wins > 1 ? 's' : '');
+						break;
+					case 6:
+						step_class = "doping";
+						step_title = "contrôle antidopage";
+						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						break;
+					case 7:
+					case 'finish':
+					case 'results':
+						step_title = "Bilan de la source" + '<br />' + '<a href="'+(my.getQueryString()+'results/')+'" class="show-results">Les résultats</a>';
+						step_class = 'finish';
+						if (my.args.step === 'results') {
+
+							my.showResults();
+
+						}
+
+						break;
+				}
+				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2));
+				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2));
+				// console.log(steps);
+				// console.log(diff);
+				// console.log([fighter_one.score, fighter_two.score]);
+				$fighter_one.animate({
+					'margin-left': diff[0] + 'px'
+				});
+				$fighter_two.animate({
+					'margin-left': diff[1] + 'px'
+				});
+				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
+				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+
+				break;
+		}
+	};
+
+	my.showResults = function() {
+		$main.find('.results').html(jQuery('.templates #template-fight-results').html());
+
 	};
 
 	return my;

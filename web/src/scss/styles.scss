@@ -51,7 +51,7 @@ header section {
 	width:595px;
 }
 
-header div { 
+header div {
 	display:inline-block;
 	margin:0 -3px 0 0;
 	overflow:hidden;
@@ -554,7 +554,7 @@ header .fight.active a {
 	font:normal 14px 'Oswald', Verdana, Arial, sans-serif;
 }
 
-.top-winner-portrait-body img { 
+.top-winner-portrait-body img {
 	position:relative;
 	top:2px;
 }
@@ -638,4 +638,36 @@ header .fight.active a {
 	padding:0 0 8px 0;
 	position:relative;
 	width:221px;
+
+.fight-start {
+	width: 800px;
+	height: 600px;
+	border: 1px solid red;
+}
+
+.fight-start .fighters {
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid green;
+}
+.fight-start .fighter_one {
+	bottom: 80px;
+	z-index: 10;
+}
+.fight-start .fighter_two {
+	bottom: 0px;
+	z-index: 11;
+}
+.fight-start .fighter {
+	position: absolute;
+	border: solid 1px lightgrey;
+	width:150px;
+	height: 200px;
+}
+
+.fight-results .winner {
+	display:none;
 }
