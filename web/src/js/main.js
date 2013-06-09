@@ -258,6 +258,11 @@ var TDF = (function() {
 				$header.find('.' + module.name + step).addClass('active');
 			}
 
+			if ($content.find('footer').length) {
+				var $footer = $content.find('footer');
+				$footer.html(jQuery('#template-footer').html());
+			}
+
 			for (var route in TDF.routes) {
 				$content.find('.' + route + ' .link').attr('href', TDF.routes[route]);
 			}

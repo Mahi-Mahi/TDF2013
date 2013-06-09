@@ -364,21 +364,28 @@ header .fight.active a {
 }
 
 .duel {
+	color:#fff;
 	position: absolute;
 	bottom:5px;
 	display:block;
+	font:400 15px/55px 'Oswald', Verdana, Arial, sans-serif;
 	overflow:hidden;
 	padding: 0;
 	position: absolute;
-	text-indent: 100%;
-	width:137px;
+	width:138px;
 	left:165px;
 	margin:0;
 	padding: 0;
-	width:137px;
+	width:138px;
 	height:55px;
-	background:url(/img/vainqueurs/bt-lancer-un-duel.png) left top no-repeat;
+	text-align:center;
+	text-transform:uppercase;
+	background:url(/img/vainqueurs/bt-lancer-un-duel-off.png) left top no-repeat;
 	white-space:nowrap;
+}
+
+.duel:hover {
+	background:url(/img/vainqueurs/bt-lancer-un-duel-on.png);
 }
 
 .legend li {
@@ -499,11 +506,18 @@ header .fight.active a {
 }
 
 .winners .ui-slider-handle {
+	background:url(/img/vainqueurs/left-slider.png) left top no-repeat;
 	position: absolute;
-	margin-top: 2px;
-	width: 10px;
-	height: 10px;
-	border: 3px solid lightblue;
+	margin:0;
+	width: 11px;
+	height: 21px;
+	top:-5px;
+	outline:none;
+}
+
+.winners .ui-slider-handle:last-child {
+	background-image:url(/img/vainqueurs/right-slider.png);
+	margin:0 0 0 -4px;
 }
 
 .top-winner-portrait {
@@ -593,15 +607,14 @@ header .fight.active a {
 }
 
 .winners .ui-slider-horizontal .ui-slider-handle {
-	top: -.3em;
-	margin-left: -.6em;
+	top:-5px;
 }
 
 .winners .ui-slider .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
-	width: 1.2em;
-	height: 1.2em;
+	width:11px;
+	height:21px;
 	cursor: default;
 }
 
@@ -611,13 +624,52 @@ header .fight.active a {
 	font-size: .7em;
 	display: block;
 	border: 0;
-	background-position: 0 0;
 }
 
 .winners .age .slider, .winners .nb_wins .slider {
-	width: 200px;
-	border: 1px solid red;
-	height: 15px;
+	background:#996D00;
+	border-radius:8px;
+	height: 9px;
+	width: 200px;	
+}
+
+.filters-block {
+	background:#FFD800;
+	border-left:1px solid #fff;
+	height:78px;
+	display:inline-block;
+	margin:0 -3px 0 0;
+	padding:0 20px;
+	vertical-align:top;
+	width:24.9%;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nb_wins.filters-block {
+	border:none;
+}
+
+.winners .filters label {
+	color:#996D00;
+	display:block;
+	font:700 14px/1.3 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:12px 0;
+	text-align:center;
+}
+
+#winner_search {
+	background:url(/img/vainqueurs/bg-winner-search.png) left top no-repeat;
+	border:none;
+	color:#c2a56f;
+	display:block;
+	font:700 14px/1.3 'Lato', Verdana, Arial, sans-serif;
+	height:48px;
+	margin:0;
+	padding:0 33px;
+	width:155px;
 }
 
 /* TRACES */
@@ -638,6 +690,7 @@ header .fight.active a {
 	padding:0 0 8px 0;
 	position:relative;
 	width:221px;
+}
 
 .fight-start {
 	width: 800px;
@@ -671,3 +724,144 @@ header .fight.active a {
 .fight-results .winner {
 	display:none;
 }
+
+.sidebar-filter-date {
+	padding:0 0 0 20px;
+}
+
+.sbHolder {
+	background:#fff;
+	border:1px solid #D7D7D7;
+	color:#000;
+	font:normal 1em/34px 'LetterGothicStd', Arial, sans-serif;
+	float:left;
+	height:34px;
+	margin:0 10px 10px 0;
+	position:relative;
+	text-transform:uppercase;
+	width:110px;
+	z-index:2;
+}
+
+.contact .sbHolder {
+	color:#8B8D8A;
+	font-family:Arial, Verdana, sans-serif;
+	text-transform:none;
+	width:530px;
+}
+
+.filter-month-container .sbHolder {
+	width:130px;
+}
+
+/* SELECTBOX */
+
+.sbSelector {
+	display: block;
+	height: 29px;
+	left: 0;
+	line-height: 29px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width:221px;
+}
+
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover {
+	color: #000;
+	outline: none;
+	text-decoration: none;
+}
+
+.sbToggle {
+	background: url(/img/vainqueurs/bg-select-arrow-off.png) left top no-repeat;
+	display: block;
+	height:29px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+}
+
+.sbToggleOpen {
+	background: url(/img/vainqueurs/bg-select-arrow-on.png) left top no-repeat;
+}
+
+.sbOptions {
+	background-color:#fff;
+	list-style: none;
+	left: -1px;
+	margin: 2px 0 0 0;
+	padding: 0;
+	position: absolute;
+	top: 29px;
+	width: 221px;
+	z-index: 1;
+}
+
+.oldie .sbOptions {
+	margin:29px 0 0 0;
+}
+
+.sbOptions li {
+	padding: 0 7px;
+}
+
+.sbOptions a {
+	display: block;
+	outline: none;
+	line-height:1.3;
+	padding: 7px 0 7px 3px;
+}
+
+.sbOptions a:link, .sbOptions a:visited{
+	color: #c2a56f;
+	text-decoration: none;
+}
+
+.sbOptions a:link, .sbOptions a:visited {
+	color:#c2a56f;
+}
+
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #0c2a56f00;
+}
+
+/* FOOTER */
+
+footer {
+	background:url(/img/footer/bg-footer.png) left top repeat-x;
+	clear:both;
+	height:41px;
+	margin:0;
+	padding:0 0 0 110px;
+}
+
+.footer-links {
+	padding:0 35px 0 0;
+}
+
+.footer-links li {
+	color:#7693a5;
+	display:inline-block;
+	margin:0;
+	font:400 9px/1.3 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0 4px;
+	text-transform:uppercase;
+}
+
+.footer-links a {
+	color:#7693a5;
+	font:400 9px/41px 'Lato', Verdana, Arial, sans-serif;
+}
+
+.share {
+	padding:12px 0 0 0;
+}
+

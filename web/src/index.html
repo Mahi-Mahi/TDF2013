@@ -24,23 +24,6 @@
 		<div id="main">
 			<div id="inner"></div>
 		</div>
-		<footer id="footer">
-			<ul class="unstyled left">
-				<li class="footer-item">&copy; Radio France 2013 - Tous droits réservés</li>
-				<li class="footer-item">Crédits</li>
-				<li class="footer-item">Source et méthodologie</li>
-			</ul>
-			<div class="share">
-				<div class="addthis_toolbox addthis_default_style">
-					<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-					<a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:locale="fr_FR"></a>
-					<a class="addthis_button_tweet"></a>
-				</div>
-			</div><!-- .share -->
-		</div><!-- #footer -->
-
-
-
 
 		<div class="templates">
 
@@ -70,6 +53,7 @@
 					<a href="" class="link">La carte des 100 tracés</a>
 					<small>Explorez et comparez l'ensemble des tracés des 100 tours</small>
 				</div>
+				<footer></footer>
 			</div>
 
 			<div id="template-search" class="template">
@@ -77,6 +61,7 @@
 				<div class="content">
 					<div id="gmap"></div>
 				</div>
+				<footer></footer>
 			</div>
 
 			<div id="template-traces" class="template">
@@ -156,6 +141,7 @@
 						</div>
 					</div>
 				</div>
+				<footer></footer>
 			</div>
 
 			<div class="template" id="template-winner">
@@ -207,15 +193,15 @@
 					<ul class="unstyled"></ul>
 				</div>
 				<div class="filters">
-					<div class="nb_wins">
+					<div class="nb_wins filters-block">
 						<label>Nombre de Tours gagnés</label>
 						<div class="slider"></div>
 					</div>
-					<div class="age">
+					<div class="age filters-block">
 						<label>Age lors de la victoire</label>
 						<div class="slider"></div>
 					</div>
-					<div class="nationality">
+					<div class="nationality filters-block">
 						<label for="nationality">
 							Nationalité
 							<select id="nationality" name="nationality">
@@ -223,18 +209,20 @@
 							</select>
 						</label>
 					</div>
-					<div class="search">
+					<div class="search filters-block">
 						<label for="winner_search">
 							Rechercher
-							<input type="text" name="winner_search" id="winner_search" placeholder="nom"/>
+							<input type="text" name="winner_search" id="winner_search" placeholder="nom" />
 						</label>
 					</div>
 				</div>
+				<footer></footer>
 			</div>
 
 			<div class="template" id="template-streetview">
 				<header></header>
 				StreetView
+				<footer></footer>
 			</div>
 
 			<div class="template" id="template-fight-home">
@@ -260,6 +248,7 @@
 						<a href="" class="choose-fighter">Choisir un autre coureur</a>
 					</div>
 				</div>
+				<footer></footer>
 			</div>
 
 			<div class="template" id="template-fight-selector">
@@ -363,8 +352,24 @@
 					</div>
 				</section>
 			</div><!-- #template-header -->
+			<div id="template-footer">
+				<ul class="unstyled footer-links left">
+					<li class="footer-item">&copy; Radio France 2013 - Tous droits réservés - </li>
+					<li class="footer-item"><a href="#">Crédits</a> - </li>
+					<li class="footer-item"><a href="#">Source et méthodologie</a> - </li>
+				</ul>
+				<div class="share">
+					<div class="addthis_toolbox addthis_default_style">
+						<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:locale="fr_FR"></a>
+						<a class="addthis_button_tweet"></a>
+					</div>
+				</div><!-- .share -->
+			</div><!-- #footer -->
 		</div>
+		<!--
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		-->
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
 	</body>
 </html>
