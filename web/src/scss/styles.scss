@@ -142,7 +142,6 @@ header .fight a {
 header .fight.active a {
 	background:url(/img/header/bg-duels-on.png) 20px 13px no-repeat;
 	color:#FF972B;
-	line-height:3.8;
 }
 
 .content .left {
@@ -366,10 +365,9 @@ header .fight.active a {
 
 .duel {
 	position: absolute;
-	bottom:10px;
+	bottom:5px;
 	display:block;
 	overflow:hidden;
-
 	padding: 0;
 	position: absolute;
 	text-indent: 100%;
@@ -380,7 +378,6 @@ header .fight.active a {
 	width:137px;
 	height:55px;
 	background:url(/img/vainqueurs/bt-lancer-un-duel.png) left top no-repeat;
-
 	white-space:nowrap;
 }
 
@@ -512,8 +509,8 @@ header .fight.active a {
 .top-winner-portrait {
 	display:block;
 	margin:0;
-	padding:0 25px 0 0;
-	width:300px;
+	padding:0 10px 0 0;
+	width:315px;
 }
 
 .top-winner-portrait .portrait {
@@ -549,6 +546,7 @@ header .fight.active a {
 .name strong {
 	display:block;
 	font:normal normal 23px 'Oswald', Verdana, Arial, sans-serif;
+	white-space:nowrap;
 }
 
 .top-winner-portrait-body .flag, .birth {
@@ -620,4 +618,24 @@ header .fight.active a {
 	width: 200px;
 	border: 1px solid red;
 	height: 15px;
+}
+
+/* TRACES */
+
+.traces-left {
+	background:url(/img/traces/bg-traces-block.png) left top no-repeat #F2F2ED;
+	margin:0;
+	padding:0 10px;
+	width:229px;
+}
+
+.traces-left-stats {
+	background:url(/img/traces/bg-traces-left-stats.png) left top no-repeat;
+	border-bottom:1px dotted blue; 
+	display:block;
+	height:37px;
+	margin:0;
+	padding:0 0 8px 0;
+	position:relative;
+	width:221px;
 }
