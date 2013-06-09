@@ -597,7 +597,7 @@ TDF.Traces = (function() {
 			}).join(' '));
 		}
 		if (my.args.years.length > 2) {
-			$main.find('#traces-years').attr('class', 'double').html(my.args.years.length + ' tours entre ' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
+			$main.find('#traces-years').attr('class', 'triple').html('<em>' + my.args.years.length + ' tours entre </em>' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
 		}

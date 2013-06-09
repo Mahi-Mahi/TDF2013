@@ -676,20 +676,137 @@ header .fight.active a {
 
 .traces-left {
 	background:url(/img/traces/bg-traces-block.png) left top no-repeat #F2F2ED;
+	float:left;
 	margin:0;
 	padding:0 10px;
 	width:229px;
 }
 
+#traces-years {
+	display:block;
+	font:700 40px/1.3 'Lato', Verdana, Arial, sans-serif;
+	height:105px;
+	padding:0;
+	text-align:center;
+	text-shadow: 1px 1px 1px #fff;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;	
+}
+
+#traces-years.single:before, #traces-years.single:after {
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+	padding: 0;
+	width:12px;
+	height:6px;
+	background:url(/img/icon/icon-name.png) left top no-repeat;
+	content: " ";
+	text-indent: 100%;
+	white-space:nowrap;
+}
+
+#traces-years em {
+	display:block;
+	font-style:normal;
+	font-weight:normal;
+	font-size:15px;
+	margin:0;
+	padding:0;
+}
+
+#traces-years.single, #traces-years.triple {
+	padding:15px 0 0 0;
+}
+
+#traces-years.double {
+	padding:25px 0 0 0;
+}
+
+#traces-years.double, #traces-years.triple {
+	display:inline-block;
+	vertical-align:top;
+}
+
+#traces-years.double span:first-child:after, #traces-years.triple span:last-child:before {
+	display:inline-block;
+	overflow:hidden;
+	margin:0 0 0 10px;
+	padding: 0;
+	width:12px;
+	height:6px;
+	background:url(/img/icon/icon-name.png) left top no-repeat;
+	content: " ";
+	text-indent: 100%;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+#traces-years.triple span:last-child:before {
+	margin:0 0 0 -2px;
+}
+
 .traces-left-stats {
 	background:url(/img/traces/bg-traces-left-stats.png) left top no-repeat;
-	border-bottom:1px dotted blue; 
+	border-bottom:1px dotted #798185;
+	color:#4C565D;
 	display:block;
 	height:37px;
-	margin:0;
+	margin:20px 0 0 0;
 	padding:0 0 8px 0;
 	position:relative;
+	text-align:center;
 	width:221px;
+}
+
+.traces-left-stats:last-child {
+	border:none;
+}
+
+.traces-left-stats p {
+	color:#4C565D;
+	display:block;
+	font:700 15px/1.1 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	position:relative;
+	top:-20px;
+	text-transform:uppercase;
+}
+
+.traces-left-stats small {
+	color:#4C565D;
+	display:block;
+	font:400 11px/1.1 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	text-transform:none;
+}
+
+.traces-left-stats .val {
+	color:#4C565D;
+	display:block;
+	font-size:13px;
+	margin:0;
+	padding:0 0 2px 0;
+}
+
+.traces-left-stats .min, .traces-left-stats .max {
+	color:#4C565D;
+	font:400 11px/1.1 'Oswald', Verdana, Arial, sans-serif;
+	left:0;
+	position:absolute;
+	height:35px;
+	text-align:center;
+	top:5px;
+	width:48px;
+}
+
+.traces-left-stats .max { 
+	left:auto;
+	right:0;
 }
 
 .fight-start {
