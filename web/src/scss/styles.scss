@@ -928,7 +928,7 @@ header .fight.active a {
 	display:block;
 	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;
 	margin:0;
-	padding:0 8px;
+	padding:0 15px;
 	white-space:nowrap;
 }
 
@@ -938,7 +938,11 @@ header .fight.active a {
 	display:block;
 	font:700 23px/47px 'Oswald', Verdana, Arial, sans-serif;	
 	margin:0;
+	overflow:hidden;
 	padding:0 45px 0 0;	
+	width:165px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
 }
 
 .traces-right .podium .name a {
@@ -946,8 +950,8 @@ header .fight.active a {
 	font-size:14px;
 	line-height:37px;
 	padding:0 35px 0 0;
-	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;
 	margin:0;
+	width:auto;
 }
 
 .traces-right .name a:hover {
