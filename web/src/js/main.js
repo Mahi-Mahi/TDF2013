@@ -810,6 +810,14 @@ TDF.Winners = (function() {
 				values: [youngest_win, oldest_win],
 				slide: function() {
 					Path.history.pushState({}, "", my.getQueryString());
+					var values = jQuery(this).slider('values');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+				},
+				create: function(){
+					var values = jQuery(this).slider('values');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
 				}
 			});
 
@@ -821,6 +829,14 @@ TDF.Winners = (function() {
 				values: [1, max_wins],
 				slide: function() {
 					Path.history.pushState({}, "", my.getQueryString());
+					var values = jQuery(this).slider('values');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+				},
+				create: function(){
+					var values = jQuery(this).slider('values');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
 				}
 			});
 
@@ -1260,11 +1276,48 @@ TDF.StreetView = (function() {
 	var my = {};
 
 	my.name = 'streetview';
+	my.base_url = '/lieux-mythiques/';
 
-	my.init = function() {};
+	my.init = function() {
 
-	my.render = function() {
-		TDF.loadTemplate(this);
+	};
+
+	my.render = function(args) {
+
+		my.args = args;
+
+		if ( TDF.loadTemplate(this) ) {
+			var place_id, place, places_list = [], $template, content = '';
+			$template = jQuery('#template-streetview-place');
+			for(place_id in TDF.Data.places ){
+				place = TDF.Data.places[place_id];
+				content = $template.html()
+					.replace(':place_url', my.base_url + place_id + '/')
+					.replace(':place_type', place.type)
+					.replace(':place_title', place.name)
+					.replace(':place_pic', '/img/streetview/pics/'+place.id+'.jpg');
+				places_list.push(content);
+			}
+			$inner.find('.list ul').html(places_list.join(' '));
+		}
+
+		var duration = 500;
+		if ( my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined ) {
+			console.log("show detail");
+
+			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
+			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
+			$inner.find('.container').stop().animate({
+				left: '-250px'
+			}, duration);
+		}
+		else {
+			console.log("show list");
+			$inner.find('.container').stop().animate({
+				left: '0px'
+			}, duration);
+		}
+
 	};
 
 	return my;
@@ -1292,7 +1345,14 @@ TDF.Data = (function() {
 				jQuery.getJSON('/data/json/fighters.json', function(json, textStatus) {
 					console.log(textStatus);
 					my.fighters = json;
-					callback();
+
+					// places
+					jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
+						console.log(textStatus);
+						my.places = json;
+						callback();
+					});
+
 				});
 
 			});
