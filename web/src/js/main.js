@@ -429,6 +429,7 @@ TDF.Traces = (function() {
 	var my = {};
 
 	my.name = 'traces';
+	my.base_url = '/traces/';
 
 	my.data = null;
 	my.args = null;
@@ -516,7 +517,7 @@ TDF.Traces = (function() {
 					$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
 					jQuery(this).prop('checked', true);
 				}
-				Path.history.pushState({}, "", '/traces/' + years.join(',') + '/');
+				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 			});
 
 
@@ -530,10 +531,10 @@ TDF.Traces = (function() {
 			for (stat in stats) {
 				$main.find("." + stat + " .min .val").html(stats[stat].min.val);
 				$main.find("." + stat + " .min .year").html(stats[stat].min.year);
-				$main.find("." + stat + " .min").attr('href', '/traces/' + stats[stat].min.year + '/');
+				$main.find("." + stat + " .min").attr('href', my.base_url + stats[stat].min.year + '/');
 				$main.find("." + stat + " .max .val").html(stats[stat].max.val);
 				$main.find("." + stat + " .max .year").html(stats[stat].max.year);
-				$main.find("." + stat + " .max").attr('href', '/traces/' + stats[stat].max.year + '/');
+				$main.find("." + stat + " .max").attr('href', my.base_url + stats[stat].max.year + '/');
 			}
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
@@ -562,7 +563,7 @@ TDF.Traces = (function() {
 			}
 		}
 		for (i in my.args.years) {
-			if (parseInt(i, 10)) {
+			if (parseInt(i, 10) > -1) {
 				year = my.args.years[i];
 				if (!my.traces[year]) {
 					this.addYear(year);
@@ -632,7 +633,7 @@ TDF.Traces = (function() {
 		if (my.args.years.length === 1) {
 			$main.find('.traces-right').removeClass('disabled');
 
-			trace = my.traces[my.args.years[0]];
+			trace = TDF.Data.traces[my.args.years[0]];
 
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner span').addClass('winner-status').html('Vainqueur');
@@ -1219,7 +1220,7 @@ TDF.Fight = (function() {
 					case 7:
 					case 'finish':
 					case 'results':
-						step_title = "Bilan de la source" + '<br />' + '<a href="'+(my.getQueryString()+'results/')+'" class="show-results">Les résultats</a>';
+						step_title = "Bilan de la source" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
 						step_class = 'finish';
 						if (my.args.step === 'results') {
 
@@ -1277,8 +1278,6 @@ TDF.Data = (function() {
 	var my = {};
 
 	my.name = 'data';
-
-	my.traces = null;
 
 	my.init = function(callback) {
 
