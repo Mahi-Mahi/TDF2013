@@ -200,11 +200,6 @@ header .fight.active a {
 	height: 20px;
 	list-style: none;
 }
-.traces .timeline-zoom li {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-}
 
 .traces .timeline .slider {
 	position: absolute;
@@ -809,6 +804,39 @@ header .fight.active a {
 	right:0;
 }
 
+.traces-right {
+	background:url(/img/traces/bg-traces-right.png) left top no-repeat;
+	float:right;
+	width:239px;
+}
+
+.timeline-zoom li {
+	background:#1B809E;
+	display:block;
+	float:left;
+	height:40px;
+	margin:0 0 0 4px;
+	padding:0;
+	width:68px;
+}
+
+.timeline-zoom input {
+	display:none;
+}
+
+.timeline-zoom label {
+	color:#fff;
+	cursor:pointer;
+	display:block;
+	font:400 22px/40px 'Lato', Verdana, Arial, sans-serif;
+	height:40px;
+	text-align:center;
+}
+
+.timeline-zoom input:checked + label {
+	color:#FFD800;
+}
+
 .fight-start {
 	width: 800px;
 	height: 600px;
@@ -823,14 +851,17 @@ header .fight.active a {
 	height: 300px;
 	border: 1px solid green;
 }
+
 .fight-start .fighter_one {
 	bottom: 80px;
 	z-index: 10;
 }
+
 .fight-start .fighter_two {
 	bottom: 0px;
 	z-index: 11;
 }
+
 .fight-start .fighter {
 	position: absolute;
 	border: solid 1px lightgrey;

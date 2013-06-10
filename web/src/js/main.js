@@ -483,7 +483,7 @@ TDF.Traces = (function() {
 			}
 
 			for (var year in TDF.Data.traces) {
-				items = items + '<li><label for="checkyear-' + year + '"><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '">' + year + '</label></li>';
+				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><label for="checkyear-' + year + '">' + year + '</label></li>';
 				squares = squares + '<li id="squareyear-' + year + '" data-year="' + year + '">' + year + '</li>';
 
 				trace = TDF.Data.traces[year];
