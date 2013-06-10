@@ -741,11 +741,11 @@ header .fight.active a {
 #winner_search {
 	background:url(/img/vainqueurs/bg-winner-search.png) left top no-repeat;
 	border:none;
-	color:#c2a56f;
+	color:#c3a66f;
 	display:block;
 	font:700 14px/1.3 'Lato', Verdana, Arial, sans-serif;
 	height:48px;
-	margin:0;
+	margin:-7px 0 0 0;
 	padding:0 33px;
 	width:155px;
 }
@@ -968,7 +968,7 @@ header .fight.active a {
 	text-align:center;
 }
 
-.winner .flag {
+.traces-right .winner .flag {
 	display:block;
 	position: absolute;
 	top:-6px;
@@ -1044,20 +1044,6 @@ header .fight.active a {
 	height:501px;
 }
 
-.sbHolder {
-	background:#fff;
-	border:1px solid #D7D7D7;
-	color:#000;
-	font:normal 1em/34px 'LetterGothicStd', Arial, sans-serif;
-	float:left;
-	height:34px;
-	margin:0 10px 10px 0;
-	position:relative;
-	text-transform:uppercase;
-	width:110px;
-	z-index:2;
-}
-
 /* STREETVIEW */
 
 .streetview-left {
@@ -1080,6 +1066,20 @@ header .fight.active a {
 
 /* SELECTBOX */
 
+.sbHolder {
+	background:#996D00;
+	border-radius:8px;
+	color:#c3a66f;
+	font:normal 14px/29px 'Lato', Arial, sans-serif;
+	float:left;
+	height:29px;
+	margin:3px 0 0 0;
+	text-align:left;
+	position:relative;
+	width:205px;
+	z-index:2;
+}
+
 .sbSelector {
 	display: block;
 	height: 29px;
@@ -1090,11 +1090,11 @@ header .fight.active a {
 	position: absolute;
 	text-indent: 10px;
 	top: 0;
-	width:221px;
+	width:205px;
 }
 
 .sbSelector:link, .sbSelector:visited, .sbSelector:hover {
-	color: #000;
+	color: #c3a66f;
 	outline: none;
 	text-decoration: none;
 }
@@ -1118,11 +1118,13 @@ header .fight.active a {
 	background-color:#fff;
 	list-style: none;
 	left: -1px;
-	margin: 2px 0 0 0;
+	margin:0;
 	padding: 0;
 	position: absolute;
 	top: 29px;
 	width: 221px;
+	height:70px;
+	overflow:auto;
 	z-index: 1;
 }
 
