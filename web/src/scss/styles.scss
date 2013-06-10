@@ -42,7 +42,7 @@ a {
 /* HEADER */
 
 #inner header {
-	background:url(/img/bg-header.png) left top repeat-x;
+	background:url(/img/header/bg-header.png) left top repeat-x;
 	height:73px;
 	overflow:hidden;
 }
@@ -150,12 +150,14 @@ header .fight.active a {
 	float: left;
 	width: 250px;
 }
+
 .content .map-container {
+	background:url(/img/traces/bg-map.png) left top no-repeat;
 	float: left;
-	width: 450px;
-	height: 350px;
-	border: #666;
-	background-color: #eee;
+	display:block;
+	position:relative;
+	width: 512px;
+	height:422px;
 }
 .content .right {
 	float: left;
@@ -183,6 +185,7 @@ header .fight.active a {
 	text-indent: 100%;
 	font-size: 6px;
 }
+
 .traces .timeline li.trace {
 	background-color: #222;
 }
@@ -208,6 +211,7 @@ header .fight.active a {
 	width: 700px;
 	height: 18px;
 }
+
 .traces .ui-slider-handle {
 	position: absolute;
 	margin-top: 2px;
@@ -216,23 +220,81 @@ header .fight.active a {
 	border: 3px solid lightblue;
 }
 
-.total_time, .average_speed {
-	background:url(/img/traces/traces_vainqueur_table_bg.png) left top no-repeat;
+.winner-pic {
 	display:block;
-	float:left;
-	height:68px;
-	margin:0 3px 0 0;
+	margin:10px auto 0 auto;
 	padding:0;
-	width:103px;
 }
 
-.average_speed { 
-	background-position:right top;
+.total_time, .average_speed {
+	background:url(/img/traces/icon-time.png) 50% 8px no-repeat;
+	display:block;
+	float:left;
+	height:30px;
+	margin:0 3px 0 0;
+	padding:38px 15px 0 15px;
+	width:73px;
+}
+
+.average_speed {
+	background-image:url(/img/traces/icon-speed.png);
+	margin:0;
+}
+
+.disabled .total_time, .disabled .average_speed {
+	background:none;
+}
+
+.back {
+	background:url(/img/traces/bg-back.png) 5px 50% no-repeat #DCDCDC;
+	border:1px solid #959596;
+	color:#4C565E;
+	font:700 14px/34px 'Lato', Verdana, Arial, sans-serif;
+	height:34px;
+	display:inline-block;
+	margin:0 10px 0 0;
+	padding:0 15px 0 28px;
+	position:absolute;
+	left:40px;
+	top:12px;
+	border-radius:4px;
 }
 
 .podium {
 	background:url(/img/traces/bg-podium.png) left top no-repeat;
 	height:43px;
+	margin:15px 15px 0 15px;
+}
+
+.podium .pos {
+	display:block;
+	float: left;
+	font:400 30px/1 'Lato', Verdana, Arial, sans-serif;
+	height:43px;
+	margin:0 5px 0 0;
+	text-align:center;
+	width:43px;
+}
+
+.pos sup {
+	font-size:25px;
+}
+
+.traces-right .podium .name {
+	font:700 14px/37px 'Oswald', Verdana, Arial, sans-serif;
+	padding:0;
+	text-transform:uppercase;
+}
+
+.podium .flag {
+	display:inline-block;
+	vertical-align:top;
+}
+
+.ahead_of_second, .ahead_of_third {
+	display:inline-block;
+	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
+	vertical-align:top;
 }
 
 #winner {
@@ -839,6 +901,8 @@ header .fight.active a {
 	padding:0;
 	text-align:center;
 	vertical-align:top;
+	text-transform:uppercase;
+	width:100%;
 }
 
 .winner-status:before, .winner-status:after {
@@ -855,12 +919,16 @@ header .fight.active a {
 	white-space:nowrap;
 }
 
+.disabled .winner-status:before, .disabled .winner-status:after {
+	display:none;
+}
+
 .traces-right .name {
 	color:#383C40;
 	display:block;
-	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;	
+	font:700 23px/47px 'Oswald', Verdana, Arial, sans-serif;	
 	margin:0;
-	padding:0;
+	padding:0 8px;
 	white-space:nowrap;
 }
 
@@ -868,13 +936,37 @@ header .fight.active a {
 	background:url(/img/traces/traces_vainqueur_more_off.png) 100% 0 no-repeat;
 	color:#383C40;
 	display:block;
-	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;	
+	font:700 23px/47px 'Oswald', Verdana, Arial, sans-serif;	
 	margin:0;
-	padding:0 50px 0 0;	
+	padding:0 45px 0 0;	
+}
+
+.traces-right .podium .name a {
+	background-position:100% -5px;
+	font-size:14px;
+	line-height:37px;
+	padding:0 35px 0 0;
 }
 
 .traces-right .name a:hover {
 	background-image:url(/img/traces/traces_vainqueur_more_on.png);
+}
+
+.winner .stats {
+	background:url(/img/traces/traces_vainqueur_table_bg.png) left top no-repeat;
+	height:68px;
+	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;	
+	margin:0 15px 15px 15px;
+	padding:0;
+	position:relative;
+	text-align:center;
+}
+
+.winner .flag {
+	display:block;
+	position: absolute;
+	top:-6px;
+	left:90px;
 }
 
 .timeline-zoom li {

@@ -630,18 +630,18 @@ TDF.Traces = (function() {
 		// Winners
 
 		if (my.args.years.length === 1) {
-			$main.find('.right').removeClass('disabled');
+			$main.find('.traces-right').removeClass('disabled');
 
 			trace = my.traces[my.args.years[0]];
 
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner span').addClass('winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
-				$main.find('.winner img').attr('src', '/img/traces/portraits/' + trace.winner_id + '.png');
-				$main.find('.winner .flag div').attr('class', trace.winner_country);
+				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
+				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			} else {
 				$main.find('.winner .name').text('');
-				$main.find('.winner #flag').attr('class', '');
+				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 			}
 			$main.find('.winner .total_time').text("en " + trace.winner_total_time);
 			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " de moyenne");
@@ -651,8 +651,8 @@ TDF.Traces = (function() {
 			} else {
 				$main.find('.second .name').text(trace.second_name);
 			}
-			$main.find('.second .pos').text('2e');
-			$main.find('.second .flag div').attr('class', trace.winner_country);
+			$main.find('.second .pos').html('2<sup>e</sup>');
+			$main.find('.second .flag img').attr('src', '/img/drapeaux/' + trace.second_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd);
 
 			if (trace.third_id) {
@@ -660,27 +660,27 @@ TDF.Traces = (function() {
 			} else {
 				$main.find('.third .name').text(trace.third_name);
 			}
-			$main.find('.third .pos').text('3e');
-			$main.find('.third .flag div').attr('class', trace.third_country);
+			$main.find('.third .pos').html('3<sup>e</sup>');
+			$main.find('.third .flag img').attr('src', '/img/drapeaux/' + trace.third_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd);
 
 		} else {
-			$main.find('.right').addClass('disabled');
+			$main.find('.traces-right').addClass('disabled');
 
-			$main.find('.winner .name').text('');
-			$main.find('.winner #flag').attr('class', '');
-			$main.find('.winner .total_time').text('');
-			$main.find('.winner .average_speed').text('');
+			$main.find('.winner .name').html('');
+			$main.find('.winner .flag img').attr('src', '/img/pix.gif');
+			$main.find('.winner .total_time').html('');
+			$main.find('.winner .average_speed').html('');
 
-			$main.find('.second .name').text('');
-			$main.find('.second .pos').text('');
-			$main.find('.second .flag div').attr('class', '');
-			$main.find('.second .ahead_of_second').text('');
+			$main.find('.second .name').html('');
+			$main.find('.second .pos').html('');
+			$main.find('.second .flag img').attr('src', '/img/pix.gif');
+			$main.find('.second .ahead_of_second').html('');
 
-			$main.find('.third .name').text('');
-			$main.find('.third .pos').text('');
-			$main.find('.third .flag div').attr('class', '');
-			$main.find('.third .ahead_of_third').text('');
+			$main.find('.third .name').html('');
+			$main.find('.third .pos').html('');
+			$main.find('.third .flag img').attr('src', '/img/pix.gif');
+			$main.find('.third .ahead_of_third').html('');
 
 		}
 
