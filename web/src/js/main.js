@@ -829,7 +829,7 @@ TDF.Winners = (function() {
 
 			$main.find('.filters #nationality').append(countries.sort().map(function(elt) {
 				return '<option value="' + elt + '" ' + (my.args.filters.nationalite === elt ? 'SELECTED' : '') + '>' + elt + '</option>';
-			}));
+			})).selectbox();
 
 			$main.find('.filters #winner_search').val(my.args.filters.recherche);
 			Path.history.pushState({}, "", my.getQueryString());
