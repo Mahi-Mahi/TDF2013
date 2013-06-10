@@ -1297,7 +1297,7 @@ TDF.StreetView = (function() {
 					.replace(':place_url', my.base_url + place_id + '/')
 					.replace(':place_type', place.type)
 					.replace(':place_title', place.name)
-					.replace(':place_pic', '/img/streetview/pics/'+place.id+'.jpg');
+					.replace(':place_pic', '/img/streetview/thumbnails/'+place.id+'.jpg');
 				places_list.push(content);
 			}
 			$inner.find('.list ul').html(places_list.join(' '));
