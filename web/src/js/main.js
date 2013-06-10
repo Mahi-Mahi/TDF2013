@@ -147,7 +147,6 @@ var TDF = (function() {
 			filters[this.params['filter1']] = this.params['val1'];
 			filters[this.params['filter2']] = this.params['val2'];
 			filters[this.params['filter3']] = this.params['val3'];
-			filters[this.params['filter4']] = this.params['val4'];
 			if (this.params['winner_id'] === undefined) {
 				TDF.render('winners', {
 					filters: filters
@@ -163,8 +162,6 @@ var TDF = (function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
 			filters[this.params['filter2']] = this.params['val2'];
-			filters[this.params['filter3']] = this.params['val3'];
-			filters[this.params['filter4']] = this.params['val4'];
 			if (this.params['winner_id'] === undefined) {
 				TDF.render('winners', {
 					filters: filters
@@ -179,9 +176,6 @@ var TDF = (function() {
 		Path.map("/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
-			filters[this.params['filter2']] = this.params['val2'];
-			filters[this.params['filter3']] = this.params['val3'];
-			filters[this.params['filter4']] = this.params['val4'];
 			if (this.params['winner_id'] === undefined) {
 				TDF.render('winners', {
 					filters: filters
@@ -713,8 +707,10 @@ TDF.Winners = (function() {
 	my.getQueryString = function() {
 		var query_string = my.base_url;
 
-		if ($main.find('#nationality').val()) {
-			query_string = query_string + 'nationalite/' + $main.find('#nationality').val() + '/';
+		if ($main.find('#nationality option[selected]').length) {
+			var nationality = $main.find('#nationality option[selected]').attr('value');
+			console.log(nationality);
+			query_string = query_string + 'nationalite/' + nationality + '/';
 		}
 
 		if ($main.find('#winner_search').val()) {
@@ -932,6 +928,7 @@ TDF.Winners = (function() {
 
 		jQuery(".winners_list .winner").stop().data('show', true);
 
+		console.log(my.args.filters);
 		if (my.args.filters.nationalite) {
 			console.log("filter nationality : " + my.args.filters.nationalite);
 			$main.find('.winners_list .winner').each(function() {
