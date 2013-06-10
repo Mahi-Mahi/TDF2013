@@ -919,8 +919,10 @@ header .fight.active a {
 	display:none;
 }
 
-.sidebar-filter-date {
-	padding:0 0 0 20px;
+.fight-home .container {
+	background:url(/img/duels/bg-duels-hp.png) left top no-repeat;
+	display:block;
+	height:501px;
 }
 
 .sbHolder {
@@ -936,18 +938,6 @@ header .fight.active a {
 	width:110px;
 	z-index:2;
 }
-
-.contact .sbHolder {
-	color:#8B8D8A;
-	font-family:Arial, Verdana, sans-serif;
-	text-transform:none;
-	width:530px;
-}
-
-.filter-month-container .sbHolder {
-	width:130px;
-}
-
 /* SELECTBOX */
 
 .sbSelector {
