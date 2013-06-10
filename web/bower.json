@@ -7,7 +7,8 @@
     "jquery-ui": "~1.10.3",
     "console-js": "*",
     "pathjs": "git@github.com:olivM/pathjs.git",
-    "jquery-selectbox": "git://github.com/olivM/jQuery-Selectbox.git"
+    "jquery-selectbox": "git://github.com/olivM/jQuery-Selectbox.git",
+    "jquery-textfill": "git://github.com/olivM/jQuery-TextFill.git"
   },
   "ignore": [
     "**/.*",
