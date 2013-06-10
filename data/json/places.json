@@ -1,6 +1,7 @@
 {
-  "le Réveil-Matin, Montgeron": {
-    "id": "le Réveil-Matin, Montgeron",
+  "le-reveil-matin": {
+    "id": "le-reveil-matin",
+    "name": "le Réveil-Matin, Montgeron",
     "url": "http://goo.gl/maps/qoVtk ",
     "excerpt": "Le pont de départ du premier Tour de l'Histoire.",
     "text": "Le premier Tour de France est parti d’ici, en 1903. 100 ans plus tard, en 2003, la course s’élance à nouveau de cette place (après un prologue dans Paris).",
@@ -10,8 +11,9 @@
       2003
     ]
   },
-  "Col du Tourmalet, Pyrénées": {
-    "id": "Col du Tourmalet, Pyrénées",
+  "col-du-tourmalet": {
+    "id": "col-du-tourmalet",
+    "name": "Col du Tourmalet, Pyrénées",
     "url": "http://goo.gl/maps/aORo3",
     "excerpt": "Le col le plus franchi de l'histoire du Tour.",
     "text": "Les coureurs franchissent pour la première fois le col du Tourmalet en 1910, lors de la première grande étape pyrénéenne de la course. Depuis, c’est le col qui a été franchi le plus grand nombre de fois.",
@@ -97,8 +99,9 @@
       2012
     ]
   },
-  "Mont Ventoux, Provence": {
-    "id": "Mont Ventoux, Provence",
+  "mont-ventoux": {
+    "id": "mont-ventoux",
+    "name": "Mont Ventoux, Provence",
     "url": "http://goo.gl/maps/0ekt1",
     "excerpt": "Un sommet souvent gravi sous un soleil de plomb.",
     "text": "La première ascension du mont Ventoux dans le Tour a lieu en 1951. Il fût depuis gravi 14 fois, dont 8 arrivées au sommet. La 15e étape du Tour 2013 s’y terminera (Givors - Mont Ventoux, 242 kilomètres).",
@@ -121,8 +124,9 @@
       2013
     ]
   },
-  "Col de la Madeleine, Alpes": {
-    "id": "Col de la Madeleine, Alpes",
+  "col-de-la-madeleine": {
+    "id": "col-de-la-madeleine",
+    "name": "Col de la Madeleine, Alpes",
     "url": "http://goo.gl/maps/hH3KI ",
     "excerpt": "Ce col se franchit au bout d'une montée sans répit.",
     "text": "Gravi pour la première fois en 1969, le col de la Madeleine a été franchi 24 fois depuis, la dernière en 2012. Il sera escaladé lors de la 19e étape du Tour 2013 (Bourg-d'Oisans - Le Grand-Bornand, 204 km).",
@@ -155,8 +159,9 @@
       2013
     ]
   },
-  "Col de la Croix-de-Fer, Alpes": {
-    "id": "Col de la Croix-de-Fer, Alpes",
+  "col-de-la-croix-de-fer": {
+    "id": "col-de-la-croix-de-fer",
+    "name": "Col de la Croix-de-Fer, Alpes",
     "url": "http://goo.gl/maps/SYIaD ",
     "excerpt": "Un col doté d'un panorama extraordinaire.",
     "text": "Depuis 1947, le Tour de France a emprunté 16 fois ce col. En 1986, il est le théâtre d'une échappée de Bernard Hinault et Greg Lemond devenue mythique.",
@@ -180,8 +185,9 @@
       2012
     ]
   },
-  "Col du Galibier, Alpes": {
-    "id": "Col du Galibier, Alpes",
+  "col-du-galibier": {
+    "id": "col-du-galibier",
+    "name": "Col du Galibier, Alpes",
     "url": "http://goo.gl/maps/9e3wy",
     "excerpt": "Un col perché à 2642 mètres d'altitude !",
     "text": "Ce col, un des points les plus élevés du Tour, a été franchi par les coureurs à 59 reprises Un monument à la gloire d'Henri Desgranges, le père de la course, y a été érigé en 1949.",
@@ -247,8 +253,9 @@
       2011
     ]
   },
-  "Champs-Elysées, Paris": {
-    "id": "Champs-Elysées, Paris",
+  "champs-elysees": {
+    "id": "champs-elysees",
+    "name": "Champs-Elysées, Paris",
     "url": "http://goo.gl/maps/jt7o3 ",
     "excerpt": "L'étape que tous les sprinters rêvent de gagner.",
     "text": "Depuis 1975, le Tour de France s'achève sur les Champs-Élysées. En 1989, l'américain Greg Lemond y dépossède le français Laurent Fignon de son maillot jaune pour 8 secondes d'avance.",
@@ -295,8 +302,9 @@
       2013
     ]
   },
-  "Col d’Izoard, Alpes": {
-    "id": "Col d’Izoard, Alpes",
+  "col-dizoard": {
+    "id": "col-dizoard",
+    "name": "Col d’Izoard, Alpes",
     "url": "http://goo.gl/maps/pSNLk",
     "excerpt": "Un col souvent franchi par le Tour et le Giro.",
     "text": " Le col d'Izoard a été franchi au total à 33 reprises par le Tour de France. Sur le versant sud, une stèle est dédiée à Fausto Coppi et Louison Bobet.",
@@ -337,8 +345,9 @@
       2011
     ]
   },
-  "Montée de l'Alpe d’Huez, Alpes": {
-    "id": "Montée de l'Alpe d’Huez, Alpes",
+  "montee-de-lalpe-dhuez": {
+    "id": "montee-de-lalpe-dhuez",
+    "name": "Montée de l'Alpe d’Huez, Alpes",
     "url": "http://goo.gl/maps/QldZ4",
     "excerpt": "Une montée mythique, prisée des fans de vélo.",
     "text": "Régulièrement empruntée par le Tour, la montée de l'Alpe d'Huez a souvent eu un caractère décisif. Ses 21 lacets seront gravis deux fois par les coureurs lors de la 18e étape du Tour 2013 (Gap - Alpe-d'Huez, 168 km).",
@@ -373,8 +382,9 @@
       2011
     ]
   },
-  "Passage du Gois, Vendée": {
-    "id": "Passage du Gois, Vendée",
+  "passage-du-gois": {
+    "id": "passage-du-gois",
+    "name": "Passage du Gois, Vendée",
     "url": "http://goo.gl/maps/jp7Kd",
     "excerpt": "Un moment pittoresque de l'histoire du Tour.",
     "text": "Déjà empruntée par les coureurs en 1999, cette chaussée submersible de 4,2 km a été le théâtre de la cérémonie officielle du départ du Tour en 2011.",
@@ -384,8 +394,9 @@
       2011
     ]
   },
-  "Stade de Bordeaux": {
-    "id": "Stade de Bordeaux",
+  "stade-de-bordeaux": {
+    "id": "stade-de-bordeaux",
+    "name": "Stade de Bordeaux",
     "url": null,
     "excerpt": "Un ancien passage obligé du Tour.",
     "text": "Le vélodrome du Parc Lescure (ancien nom du stade Jacques-Chaban-Delmas) de Bordeaux fût le théâtre de 32 arrivées d'étapes du Tour entre 1947 et 1979.",
@@ -424,8 +435,9 @@
       1979
     ]
   },
-  "Côte de la Rochette, Alpes": {
-    "id": "Côte de la Rochette, Alpes",
+  "cote-de-la-rochette": {
+    "id": "cote-de-la-rochette",
+    "name": "Côte de la Rochette, Alpes",
     "url": "http://goo.gl/maps/9YdFS",
     "excerpt": "Le lieu d'une des images marquantes du Tour.",
     "text": "Durant le Tour 2003, Joseba Beloki, alors 2e du classement, chûte lourdement. Pour l'éviter, Lens Armstrong est contraint de couper à travers champs. http://www.youtube.com/watch?v=h_8m5-sR6I4",
@@ -434,8 +446,9 @@
       2003
     ]
   },
-  "Pra-Loup, Aples": {
-    "id": "Pra-Loup, Aples",
+  "pra-loup": {
+    "id": "pra-loup",
+    "name": "Pra-Loup, Aples",
     "url": "http://goo.gl/maps/MR9hh",
     "excerpt": "Le théâtre d'une incroyable péripétie du Tour.",
     "text": "C'est dans cette montée vers la station de ski de Pra Loup que Bernard Thevenet va profiter, en 1975, d'une défaillance d'Eddy Merckx pour mettre un terme à son règne.",
@@ -444,8 +457,9 @@
       1975
     ]
   },
-  "Col du Ballon d'Alsace, Vosges": {
-    "id": "Col du Ballon d'Alsace, Vosges",
+  "col-du-ballon-dalsace": {
+    "id": "col-du-ballon-dalsace",
+    "name": "Col du Ballon d'Alsace, Vosges",
     "url": "http://goo.gl/maps/icrgl",
     "excerpt": "Les premiers coups de pédale en montagne.",
     "text": "Régulièrement gravi par les coureurs depuis 1905, ce col est considéré comme la première difficulté \"montagneuse\" jamais empruntée par le tracé du Tour de France.",
@@ -478,8 +492,9 @@
       2005
     ]
   },
-  "Viaduc de Millau": {
-    "id": "Viaduc de Millau",
+  "viaduc-de-millau": {
+    "id": "viaduc-de-millau",
+    "name": "Viaduc de Millau",
     "url": "http://goo.gl/maps/cV1wy",
     "excerpt": "Une prouesse architecturale saluée par le Tour.",
     "text": "Lors de son édition 2005, le tracé du Tour a rendu hommage au pont fraîchement inauguré (décembre 2004) en faisant passer les coureurs en dessous.",
@@ -488,8 +503,9 @@
       2005
     ]
   },
-  "Mont Saint Michel": {
-    "id": "Mont Saint Michel",
+  "mont-saint-michel": {
+    "id": "mont-saint-michel",
+    "name": "Mont Saint Michel",
     "url": "http://goo.gl/maps/UI2QE",
     "excerpt": "Quand le Tour prend des airs de carte postale...",
     "text": "Pour la seconde fois seulement (après l'édition 1990), le Tour 2013 compte une étape qui s'achève au Mont Saint-Michel (la 11e, Avranches - Mont-Saint-Michel, contre-la-montre de 33 kilomètres).",
@@ -499,8 +515,9 @@
       2013
     ]
   },
-  "Promenade des Anglais, Nice": {
-    "id": "Promenade des Anglais, Nice",
+  "promenade-des-anglais": {
+    "id": "promenade-des-anglais",
+    "name": "Promenade des Anglais, Nice",
     "url": "http://goo.gl/maps/pbclM",
     "excerpt": "En 2013, le Tour la joue glamour !",
     "text": "Le Tour de France était parti de Nice en 1981. En 2013, la ville abrite un contre-la-montre qui trouvera son départ et sa conclusion sur la célèbre Promenade des Anglais.",
