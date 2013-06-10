@@ -216,6 +216,25 @@ header .fight.active a {
 	border: 3px solid lightblue;
 }
 
+.total_time, .average_speed {
+	background:url(/img/traces/traces_vainqueur_table_bg.png) left top no-repeat;
+	display:block;
+	float:left;
+	height:68px;
+	margin:0 3px 0 0;
+	padding:0;
+	width:103px;
+}
+
+.average_speed { 
+	background-position:right top;
+}
+
+.podium {
+	background:url(/img/traces/bg-podium.png) left top no-repeat;
+	height:43px;
+}
+
 #winner {
 	display:none;
 	height:215px;
