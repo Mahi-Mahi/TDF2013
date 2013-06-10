@@ -1021,8 +1021,6 @@ TDF.Fight = (function() {
 			return;
 		}
 
-
-
 		if (TDF.loadTemplate(this, '-home')) {}
 
 		if (my.args.fighter_one !== 'selector') {
@@ -1128,6 +1126,9 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
+
+		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
+
 	};
 
 	my.fight = function() {
