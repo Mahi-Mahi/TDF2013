@@ -1,101 +1,101 @@
-Année,Num d'édition,longueur totale en km,nombre d'étapes (wikipedia + LGB.com + Fabuleuse histoire),Prologue, nombre de coureurs au départ,nombre de coureurs à l'arrivée ,% de coureurs à l'arrivée,Prénom vainqueur,Nom vainqueur,ID Vainqueur,Temps total,age vainqueur,Nationalité vainqueur,vitesse moyenne vainqueur (en km/h),Avance sur le 2e à l’arrivée,Nom 2e,Nationalité 2e,ID 2e,Avance sur 3e,Nom 3e,Nationalité 3e,ID 3e
-1903,1,2428,6,non,60,21,35,Maurice,Garin,maurice-garin,"94h 33' 00""",32,France,"25,679","2h 49' 45"" ",L. Pothier,France,,"4h 29' 38""",F. Augerau,France,
-1904,2,2428,6,non,88,15,17,Henri,Cornet,henri-cornet,"96h 05' 56""",19,France,"25,265","2h 16' 14"" ",J-B. Dortignacq,France,,"8 h 07' 20""",A. Catteau,Belgique,
-1905,3,2994,11,non,60,24,40,Louis,Trousselier,louis-trousselier,110h 26' 58”,24,France,"27,107",n.a.,H. Aucouturier,France,,n.a.,JB. Dortignacq,France,
-1906,4,4637,13,non,82,14,17,René,Pottier,rene-pottier,"189h 34' 00""",27,France,"24,463",n.a.,G. Passerieu,France,,n.a.,L. Trousselier,France,louis-trousselier
-1907,5,4488,14,non,93,33,35,Lucien,Petit-Breton,lucien-petit-breton,"158h 45' 05""",24,France,"28,470",n.a.,G. Garrigou,France,,n.a.,E. Georget,France,
-1908,6,4488,14,non,110,36,33,Lucien,Petit-Breton,lucien-petit-breton,"156h 53' 29""",25,France,"28,740",n.a.,F. Faber,Luxembourg,francois-faber,n.a.,G. Passerieu,France,
-1909,7,4497,14,non,150,55,37,François,Faber,francois-faber,"157h 01' 22""",22,Luxembourg,"28,658",n.a.,G. Garrigou,France,gustave-garrigou,n.a.,J. Alavoine,France,
-1910,8,4734,15,non,110,41,37,Octave,Lapize,octave-lapize,"162h 41' 30""",22,France,"29,099",n.a.,F. Faber,Luxembourg,francois-faber,n.a.,G. Garrigou,France,gustave-garrigou
-1911,9,5343,15,non,84,28,33,Gustave,Garrigou,gustave-garrigou,"195h 37' 00""",26,France,"27,322",n.a.,P. Duboc,France,,n.a.,E. Georget,France,
-1912,10,5289,15,non,131,41,31,Odile,Defraye,odile-defraye,"190h 30' 28""",24,Belgique,"27,763",n.a.,E. Christophe,France,,n.a.,G. Garrigou,France,gustave-garrigou
-1913,11,5287,15,non,140,25,18,Philippe,Thys,philippe-thys,"197h 54' 00""",23,Belgique,"26,715","0h 08' 37"" ",G. Garrigou,France,gustave-garrigou,"0h 30' 55""",M. Buysse,Belgique,
-1914,12,5380,15,non,145,54,37,Philippe,Thys,philippe-thys,"200h 28' 48""",24,Belgique,"26,835","0h 01' 40"" ",H. Pelissier,France,henri-pelissier,"0h 36' 53""",J. Alavoine,France,
-1919,13,5560,15,non,69,11,16,Firmin,Lambot,firmin-lambot,"231h 07' 15""",33,Belgique,"24,056","1h 32' 54"" ",J. Alavoine,France,,"2h 16' 31""",E. Christophe,France,
-1920,14,5503,15,non,113,22,19,Philippe,Thys,philippe-thys,"228h 36' 13""",30,Belgique,"24,072","0h 57' 21"" ",H. Heusghem,Belgique,,"1h 39' 35""",F. Lambot,Belgique,firmin-lambot
-1921,15,5485,15,non,123,38,31,Léon,Scieur,leon-scieur,"221h 50' 26""",33,Belgique,"24,724","0h 18' 36"" ",H. Heusghem,Belgique,,"2h 01' 00""",H. Barthelemy,France,
-1922,16,5375,15,non,120,38,32,Firmin,Lambot,firmin-lambot,"222h 08' 06""",36,Belgique,"24,196","0h 41' 15"" ",J. Alavoine,France,,"0h 43' 02""",F. Sellier,Belgique,
-1923,17,5386,15,non,139,48,35,Henri,Pélissier,henri-pelissier,"222h 15' 30""",34,France,"24,233","0h 30' 41"" ",O. Bottecchia,Italie,ottavio-bottecchia,"1h 04' 43""",R. Bellenger,France,
-1924,18,5425,15,non,157,60,38,Ottavio,Bottecchia,ottavio-bottecchia,"226h 18' 21""",29,Italie,"24,250","0h 35' 36"" ",N. Frantz,Luxembourg,nicolas-frantz,"1h 32' 13""",L. Buysse,Belgique,lucien-buysse
-1925,19,5440,18,non,130,49,38,Ottavio,Bottecchia,ottavio-bottecchia,"219h 10' 18""",30,Italie,"24,820","0h 54' 20"" ",L. Buysse,France,lucien-buysse,"0h 56' 17""",B. Aimo,Italie,
-1926,20,5745,17,non,126,41,33,Lucien,Buysse,lucien-buysse,"238h 44' 25""",33,Belgique,"24,273","1h 22' 25"" ",N. Frantz,Luxembourg,nicolas-frantz,"1h 23' 51""",B. Aimo,Italie,
-1927,21,5398,24,non,142,39,27,Nicolas,Frantz,nicolas-frantz,"198h 16' 42""",27,Luxembourg,"27,224","1h 48' 21"" ",M. De Waele,Belgique,maurice-de-waele,"2h 25' 06""",J. Vervaecke,Belgique,
-1928,22,5376,22,non,162,41,25,Nicolas,Frantz,nicolas-frantz,"192h 48' 58""",28,Luxembourg,"28,400","0h 50' 07"" ",A. Leducq,France,andre-leducq,"0h 56' 16""",M. De Waele,Belgique,maurice-de-waele
-1929,23,5286,22,non,155,60,39,Maurice,De Waele,maurice-de-waele,"186h 39' 16""",32,Belgique,"28,319","0h 44' 23"" ",G. Pancera,Italie,,"0h 57' 10""",J. Demuysere,Belgique,
-1930,24,4822,21,non,100,59,59,André,Leducq,andre-leducq,"172h 12' 16""",26,France,"28,000","0h 14' 13"" ",L. Guerra,Italie,,"0h 16' 03""",A. Magne,France,antonin-magne
-1931,25,5091,24,non,81,35,43,Antonin,Magne,antonin-magne,"177h 10' 03""",27,France,"28,735","0h 12' 56"" ",J. Demuysere,Belgique,,"0h 22' 52""",A. Pesenti,Italie,
-1932,26,4479,21,non,80,57,71,André,Leducq,andre-leducq,154h 12' 59'',28,France,"29,047","0h 24' 01"" ",K. Stoepel,Allemagne,,"0h 26' 11""",F. Camusso,Italie,
-1933,27,4395,23,non,80,40,50,Georges,Speicher,georges-speicher,"147h 51' 37""",26,France,"29,818","0h 04' 01"" ",L. Guerra,Italie,,"0h 05' 01""",G. Martano,Italie,
-1934,28,4470,23,non,60,39,65,Antonin,Magne,antonin-magne,"147h 13' 58""",30,France,"30,360","0h 27' 31"" ",G. Martano,Italie,,"0h 52' 15""",R. Lapébie,France,roger-lapebie
-1935,29,4338,21,non,93,46,49,Romain,Maes,romain-maes,"141h 23' 00""",22,Belgique,"30,650","0h 17' 52"" ",A. Morelli,Italie,,"0h 24' 06""",F. Vervaecke,Belgique,
-1936,30,4442,21,non,130,43,33,Sylvère,Maes,sylvere-maes,"142h 47' 32""",26,Belgique,"31,108","0h 26' 55"" ",A. Magne,France,antonin-magne,"0h 27' 53""",F. Vervaecke,Belgique,
-1937,31,4415,20,non,98,46,47,Roger,Lapébie,roger-lapebie,"138h 58' 31""",26,France,"31,768","0h 07' 17"" ",M. Vicini,Italie,,"0h 26' 23""",L. Amberg,Suisse,
-1938,32,4694,21,non,96,55,57,Gino,Bartali,gino-bartali,"148h 29' 12""",24,Italie,"31,565","0h 18' 27"" ",F. Vervaecke,Belgique,,"0h 29' 26""",V. Cosson,France,
-1939,33,4224,18,non,79,49,62,Sylvère,Maes,sylvere-maes,"132h 03' 17""",29,Belgique,"31,986","0h 30' 38"" ",R. Vietto,France,,"0h 32' 08""",L. Vlaemynck,Belgique,
-1947,34,4642,21,non,100,53,53,Jean,Robic,jean-robic,"148h 11' 25""",26,France,"31,412","0h 03' 58"" ",E. Fachleitner,France,,"0h 10' 07""",P. Brambilla,Italie,
-1948,35,4922,21,non,120,44,37,Gino,Bartali,gino-bartali,"147h 10' 36""",34,Italie,"33,442","0h 26' 16"" ",A. Schotte,Belgique,,"0h 28' 48""",G. Lapebie,France,
-1949,36,4808,21,non,120,55,46,Fausto,Coppi,fausto-coppi,"149h 40' 49""",29,Italie,"32,121","0h 10' 55"" ",G. Bartali,Italie,gino-bartali,"0h 25' 13""",J. Marinelli,France,
-1950,37,4773,22,non,116,51,44,Ferdi,Kübler,ferdi-kubler,"145h 36' 46""",31,Suisse,"32,778","0h 09' 30"" ",S. Ockers,Belgique,,"0h 22' 19""",L. Bobet,France,louison-bobet
-1951,38,4690,24,non,123,66,54,Hugo,Koblet,hugo-koblet,"142h 20' 14""",26,Suisse,"32,949","0h 22' 00"" ",R. Geminiani,France,,"0h 24' 16""",L. Lazarides,France,
-1952,39,4898,23,non,122,78,64,Fausto,Coppi,fausto-coppi,"151h 57' 20""",32,Italie,"32,233","0h 28' 17"" ",S. Ockers,Belgique,,"0h 34' 38""",B. Ruiz,Espagne,
-1953,40,4476,22,non,119,76,64,Louison,Bobet,louison-bobet,"129h 23' 25""",28,France,"34,593","0h 14' 18"" ",J. Mallejac,France,,"0h 15' 01""",G. Astrua,Italie,
-1954,41,4656,23,non,110,69,63,Louison,Bobet,louison-bobet,"140h 06' 05""",29,France,"33,229","0h 15' 49"" ",F. Kübler,Suisse,ferdi-kubler,"0h 21' 46""",F. Schaer,Suisse,
-1955,42,4495,22,non,130,69,53,Louison,Bobet,louison-bobet,"130h 29' 26""",30,France,"34,446","0h 04' 53"" ",J. Brankart,Belgique,,"0h 11' 30""",C. Gaul,Luxembourg,charly-gaul
-1956,43,4498,22,non,120,88,73,Roger,Walkowiak,roger-walkowiak,"124h 01' 16""",29,France,"36,268","0h 01' 25"" ",G. Bauvin,France,,"0h 03' 44""",J. Adriaensens,Belgique,
-1957,44,4669,22,non,120,56,47,Jacques,Anquetil,jacques-anquetil,"135h 44' 42""",23,France,"34,520","0h 14' 56"" ",M. Janssens,Belgique,,"0h 17' 26""",A. Christian,Autriche,
-1958,45,4319,24,non,120,78,65,Charly,Gaul,charly-gaul,"116h 59' 05""",25,Luxembourg,"36,919","0h 03' 10"" ",V. Favero,Italie,,"0h 03' 41""",R. Geminiani,France,
-1959,46,4358,22,non,120,65,54,Federico,Bahamontes,federico-bahamontes,"123h 46' 45""",30,Espagne,"35,474","0h 04' 01"" ",H. Anglade,France,,"0h 05' 05""",J. Anquetil,France,jacques-anquetil
-1960,47,4173,21,non,128,81,63,Gastone,Nencini,gastone-nencini,"112h 08' 42""",30,Italie,"37,210","0h 05' 02"" ",G. Battistini,Italie,,"0h 10' 24""",J. Adriaensens,Belgique,
-1961,48,4397,21,non,132,72,55,Jacques,Anquetil,jacques-anquetil,"122h 01' 33""",27,France,"36,033","0h 12' 14"" ",G. CarlesiI,Italie,,"0h 12' 16""",C. Gaul,Luxembourg,
-1962,49,4274,22,non,150,94,63,Jacques,Anquetil,jacques-anquetil,"114h 31' 45""",28,France,"37,317","0h 04' 59"" ",J. Planckaert,Belgique,,"0h 10' 24""",R. Poulidor,France,
-1963,50,4138,21,non,130,76,58,Jacques,Anquetil,jacques-anquetil,"113h 30' 05""",29,France,"37,092","0h 03' 35"" ",F. Bahamontes,Espagne,federico-bahamontes,"0h 10' 14""",J. Perez-Frances,Espagne,
-1964,51,4504,22,non,132,81,61,Jacques,Anquetil,jacques-anquetil,"127h 09' 44""",30,France,"35,419","0h 00' 55"" ",R. Poulidor,France,,"0h 4' 44""",F. Bahamontes,Espagne,federico-bahamontes
-1965,52,4188,22,non,130,96,74,Felice,Gimondi,felice-gimondi,"116h 42' 06""",22,Italie,"35,886","0h 02' 40"" ",R. Poulidor,France,,"0h 09' 18""",G. Motta,Italie,
-1966,53,4329,22,non,130,82,63,Lucien,Aimar,lucien-aimar,"117h 34' 21""",25,France,"36,760","0h 01' 07"" ",J. Janssen,Pays-Bas,jan-janssen,"0h 02' 02""",R. Poulidor,France,
-1967,54,4779,22,oui,130,88,68,Roger,Pingeon,roger-pingeon,"136h 53' 50""",26,France,"34,756","0h 03' 40"" ",J. Jimenez,Espagne,,"0h 07' 23""",F. Balmanion,Italie,
-1968,55,4492,22,non,110,63,57,Jan,Janssen,jan-janssen,"133h 49' 32""",28,Pays-Bas,"33,556","0h 00' 38"" ",H. Van Springel,Belgique,,"0h 03' 03""",F. Bracke,Belgique,
-1969,56,4117,22,oui,130,86,66,Eddy,Merckx,eddy-merckx,"116h 16' 02""",24,Belgique,"35,409","0h 17' 54"" ",R. Pingeon,France,roger-pingeon,"0h 22' 13""",R. Poulidor,France,
-1970,57,4254,23,oui,150,100,67,Eddy,Merckx,eddy-merckx,"119h 31' 49""",25,Belgique,"35,589","0h 12' 41"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 15' 54""",G. Pettersson,Suede,
-1971,58,3608,20,oui,130,94,72,Eddy,Merckx,eddy-merckx,"96h 45' 14""",26,Belgique,"38,084","0h 09' 51"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 11' 06""",L. Van Impe,Belgique,lucien-van-impe
-1972,59,3846,20,oui,132,88,67,Eddy,Merckx,eddy-merckx,"108h 17' 18""",27,Belgique,"35,514","0h 10' 41"" ",F. Gimondi,Italie,felice-gimondi,"0h 11' 34""",R. Poulidor,France,
-1973,60,4090,20,oui,132,87,66,Luis,Ocaña,luis-ocana,"122h 25' 34""",28,Espagne,"33,407","0h 15' 51"" ",B. Thévenet,France,bernard-thevenet,"0h 17' 15""",J-M. Fuente,Espagne,
-1974,61,4098,22,oui,130,105,81,Eddy,Merckx,eddy-merckx,"116h 16' 58""",29,Belgique,"35,241","0h 08' 04"" ",R. Poulidor,France,,"0h 8' 09""",V. Lopez-Carril,Espagne,
-1975,62,4000,22,oui,140,86,61,Bernard,Thévenet,bernard-thevenet,"114h 35' 31""",27,France,"34,906","0h 02' 47"" ",E. Merckx,Belgique,eddy-merckx,"0h 05' 01""",L. Van Impe,Belgique,lucien-van-impe
-1976,63,4017,22,oui,130,87,67,Lucien,Van Impe,lucien-van-impe,"116h 22' 23""",29,Belgique,"34,518","0h 04' 14"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 12' 08""",R. Poulidor,France,
-1977,64,4096,22,oui,100,53,53,Bernard,Thévenet,bernard-thevenet,"115h 38' 30""",29,France,"35,419","0h 00' 48"" ",H. Kuiper,Pays-Bas,,"0h 03' 32""",L. Van Impe,Belgique,lucien-van-impe
-1978,65,3908,22,oui,110,78,71,Bernard,Hinault,bernard-hinault,"108h 18' 00""",23,France,"36,084","0h 03' 56"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 06' 54""",J. Agosthino,Portugal,
-1979,66,3765,24,oui,150,90,60,Bernard,Hinault,bernard-hinault,"103h 06' 50""",24,France,"36,513","0h 06' 50"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 26' 53""",J. Agosthino,Portugal,
-1980,67,3842,22,oui,130,85,65,Joop,Zoetemelk,joop-zoetemelk,"109h 19' 14""",33,Pays-Bas,"35,144","0h 06' 55"" ",H. Kuiper,Belgique,,"0h 07' 56""",R. Martin,France,
-1981,68,3753,24,oui,150,121,81,Bernard,Hinault,bernard-hinault,"96h 19' 38""",26,France,"38,960","0h 14' 34"" ",L. Van Impe,Belgique,lucien-van-impe,"0h 17' 04""",R. Alban,France,
-1982,69,3507,21,oui,169,125,74,Bernard,Hinault,bernard-hinault,"92h 08' 46""",27,France,"38,059","0h 06' 21"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 8' 59""",J. Van Der Velde,Pays-Bas,
-1983,70,3809,22,oui,140,88,63,Laurent,Fignon,laurent-fignon,"105h 07' 52""",22,France,"36,230","0h 04' 04"" ",A. Arroyo,Espagne,,"0h 04' 09""",P. Winnen,Pays-Bas,
-1984,71,4021,23,oui,170,124,73,Laurent,Fignon,laurent-fignon,"112h 03' 40""",23,France,"35,882","0h 10' 32"" ",B. Hinault,France,bernard-hinault,"0h 11' 46""",G. Lemond,États-Unis,greg-lemond
-1985,72,4109,22,oui,180,144,80,Bernard,Hinault,bernard-hinault,"113h 24' 23""",30,France,"36,232","0h 01' 42"" ",G. Lemond,États-Unis,greg-lemond,"0h 04' 29""",S. Roche,Irlande,stephen-roche
-1986,73,4094,23,oui,210,132,63,Greg,LeMond,greg-lemond,"110h 35' 19""",24,États-Unis,"37,020","0h 03' 10"" ",B. Hinault,France,bernard-hinault,"0h 10' 54""",U. Zimmermann,Suisse,
-1987,74,4231,25,oui,207,135,65,Stephen,Roche,stephen-roche,"115h 27' 42""",27,Irlande,"36,645","0h 00' 40"" ",P. Delgado,Espagne,pedro-delgado,"0h 02' 13""",J-F. Bernard,France,
-1988,75,3286,22,oui (préface),198,151,76,Pedro,Delgado,pedro-delgado,"84h 27' 53""",28,Espagne,"38,909","0h 07' 13"" ",S. Rooks,Pays-Bas,,"0h 09' 58""",F. Parra,Colombie,
-1989,76,3285,21,oui,198,138,70,Greg,LeMond,greg-lemond,"87h 38' 35""",27,États-Unis,"37,487","0h 00' 08"" ",L. Fignon,France,laurent-fignon,"0h 03' 34""",P. Delgado,Espagne,pedro-delgado
-1990,77,3504,21,oui,198,156,79,Greg,LeMond,greg-lemond,"90h 43' 20""",28,États-Unis,"38,621","0h 02' 16"" ",C. Chiappucci,Italie,,"0h 02' 29""",E. Breukink,Pays-Bas,
-1991,78,3914,22,oui,198,158,80,Miguel,Indurain,miguel-indurain,"101h 01' 20""",27,Espagne,"38,747","0h 03' 36"" ",G. Bugno,Italie,,"0h 05' 56""",C. Chiappucci,Italie,
-1992,79,3983,21,oui,198,130,66,Miguel,Indurain,miguel-indurain,"100h 49' 30""",28,Espagne,"39,504","0h 04' 35"" ",C. Chiappucci,Italie,,"0h 10' 49""",G. Bugno,Italie,
-1993,80,3714,20,oui,180,136,76,Miguel,Indurain,miguel-indurain,"95h 57' 09""",29,Espagne,"38,709","0h 04' 59"" ",T. Rominger,Suisse,,"0h 05' 48""",Z. Jaskula,Pologne,
-1994,81,3978,21,oui,189,117,62,Miguel,Indurain,miguel-indurain,"103h 38' 38""",30,Espagne,"38,383","0h 05' 39"" ",P. Ugrumov,Lettonie,,"0h 07' 19""",M. Pantani,Italie,marco-pantani
-1995,82,3635,20,oui,189,115,61,Miguel,Indurain,miguel-indurain,"92h 44' 59""",31,Espagne,"39,193","0h 04' 35"" ",A. Zulle,Suisse,,"0h 06' 47""",B. Rijs,Danemark,
-1996,83,3765,21,oui,198,129,65,Bjarne,Riis,bjarne-riis,"95h 57' 16""",32,Danemark,"39,227","0h 01' 41"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 37""",R. Virenque,France,
-1997,84,3950,21,oui,198,139,70,Jan,Ullrich,jan-ullrich,"100h 30' 35""",23,Allemagne,"39,237","0h 09' 09"" ",R. Virenque,France,,"0h 14' 03""",M. Pantani,Italie,marco-pantani
-1998,85,3875,21,oui,189,96,51,Marco,Pantani,marco-pantani,"92h 49' 46""",28,Italie,"39,983","0h 03' 21"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 08""",B. Julich,États-Unis,
-1999,86,3870,20,oui,180,141,78,n.a.,n.a.,n.a.,"91h 32' 16""",,n.a.,"40,276","0h 07' 37"" ",A. Zulle,Suisse,,"0h 10' 26""",F. Escartin,Espagne,
-2000,87,3662,21,non,177,128,72,n.a.,n.a.,n.a.,92h 33' 08'',,n.a.,"39,569","0h 06' 02"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 10' 26""",J. Beloki,Espagne,
-2001,88,3458,20,oui,189,144,76,n.a.,n.a.,n.a.,86h 17' 28'',,n.a.,"40,070","0h 06' 44"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 09' 05""",J. Beloki,Espagne,
-2002,89,3278,20,oui,189,153,81,n.a.,n.a.,n.a.,"82h 05' 12""",,n.a.,"39,920","0h 07' 17"" ",J. Beloki,Espagne,,"0h 08' 17""",R. Rumsas,Lituanie,
-2003,90,3427,20,oui,198,147,74,n.a.,n.a.,n.a.,"83h 41' 12""",,n.a.,"40,940","0h 01' 01"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 14""",A. Vinokourov,Kazakhstan,
-2004,91,3391,20,oui,188,147,78,n.a.,n.a.,n.a.,"83h 36' 02""",,n.a.,"40,553","0h 06' 19"" ",A. Kloden,Allemagne,,"0h 06' 40""",I. Basso,Italie,
-2005,92,3593,21,non,189,155,82,n.a.,n.a.,n.a.,"86h 15' 02""",,n.a.,"41,654","0h 04' 40"" ",I. Basso,Italie,,"0h 06' 21""",J. Ullrich,Allemagne,jan-ullrich
-2006,93,3657,21,oui,176,139,79,Óscar,Pereiro,oscar-pereiro,"89h 39' 30""",28,Espagne,"40,784","0h 00' 32"" ",A. Kloden,Allemagne,,"0h 02' 16""",C. Sastre,Espagne,carlos-sastre
-2007,94,3570,21,oui,189,141,75,Alberto,Contador,alberto-contador,"91h 00' 26""",24,Espagne,"39,228","0h 00' 23"" ",C. Evans,Australie,cadel-evans,"0h 00' 31""",L. Leipheimer,États-Unis,
-2008,95,3559,21,non,180,145,81,Carlos,Sastre,carlos-sastre,87h 52' 52'',33,Espagne,"40,492","0h 00' 58"" ",C. Evans,Australie,cadel-evans,"0h 02' 10""",D. Menchov,Russie,
-2009,96,3459,21,non,180,156,87,Alberto,Contador,alberto-contador,"85h 48' 35""",26,Espagne,"40,315","0h 04' 11"" ",A. Schleck,Luxembourg,andy-schleck,"0h 05' 24""",L. Armstrong,États-Unis,
-2010,97,3642,20,oui,198,170,86,Andy,Schleck,andy-schleck,"91h 58' 48""",25,Luxembourg,"39,594","0h 01' 22"" ",D. Menchov,Russie,,"0h 03' 01""",S. Sanchez,Espagne,
-2011,98,3430,21,non,198,167,84,Cadel,Evans,cadel-evans,"86h 12' 22""",34,Australie,"39,788","0h 01' 34"" ",A. Schleck,Luxembourg,andy-schleck,"0h 02' 30""",F. Schleck,Luxembourg,
-2012,99,3497,20,oui,198,153,77,Bradley,Wiggins,bradley-wiggins,87h 34' 47'',32,Royaume-Uni,"39,724","0h 03' 21"" ",C. Froome,Royaume-Uni,,0h 06' 19'',V. Nibali,Italie,
-2013,100,3360,21,non,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,,n.a.,n.a.,,n.a.,n.a.,n.a.,
+Année,Num d'édition,longueur totale en km,nombre d'étapes (wikipedia + LGB.com + Fabuleuse histoire),Prologue, nombre de coureurs au départ,nombre de coureurs à l'arrivée ,% de coureurs à l'arrivée,Prénom vainqueur,Nom vainqueur,ID Vainqueur,Temps total,age vainqueur,Nationalité vainqueur,vitesse moyenne vainqueur (en km/h),Avance sur le 2e à l’arrivée,Nom 2e,Nationalité 2e,ID 2e,Avance sur 3e,Nom 3e,Nationalité 3e,ID 3e,Sens horaire (oui ou non)
+1903,1,2428,6,non,60,21,35,Maurice,Garin,maurice-garin,"94h 33' 00""",32,France,"25,679","2h 49' 45"" ",L. Pothier,France,,"4h 29' 38""",F. Augerau,France,,oui
+1904,2,2428,6,non,88,15,17,Henri,Cornet,henri-cornet,"96h 05' 56""",19,France,"25,265","2h 16' 14"" ",J-B. Dortignacq,France,,"8 h 07' 20""",A. Catteau,Belgique,,oui
+1905,3,2994,11,non,60,24,40,Louis,Trousselier,louis-trousselier,110h 26' 58”,24,France,"27,107",n.a.,H. Aucouturier,France,,n.a.,JB. Dortignacq,France,,oui
+1906,4,4637,13,non,82,14,17,René,Pottier,rene-pottier,"189h 34' 00""",27,France,"24,463",n.a.,G. Passerieu,France,,n.a.,L. Trousselier,France,louis-trousselier,oui
+1907,5,4488,14,non,93,33,35,Lucien,Petit-Breton,lucien-petit-breton,"158h 45' 05""",24,France,"28,470",n.a.,G. Garrigou,France,,n.a.,E. Georget,France,,oui
+1908,6,4488,14,non,110,36,33,Lucien,Petit-Breton,lucien-petit-breton,"156h 53' 29""",25,France,"28,740",n.a.,F. Faber,Luxembourg,francois-faber,n.a.,G. Passerieu,France,,oui
+1909,7,4497,14,non,150,55,37,François,Faber,francois-faber,"157h 01' 22""",22,Luxembourg,"28,658",n.a.,G. Garrigou,France,gustave-garrigou,n.a.,J. Alavoine,France,,oui
+1910,8,4734,15,non,110,41,37,Octave,Lapize,octave-lapize,"162h 41' 30""",22,France,"29,099",n.a.,F. Faber,Luxembourg,francois-faber,n.a.,G. Garrigou,France,gustave-garrigou,oui
+1911,9,5343,15,non,84,28,33,Gustave,Garrigou,gustave-garrigou,"195h 37' 00""",26,France,"27,322",n.a.,P. Duboc,France,,n.a.,E. Georget,France,,oui
+1912,10,5289,15,non,131,41,31,Odile,Defraye,odile-defraye,"190h 30' 28""",24,Belgique,"27,763",n.a.,E. Christophe,France,,n.a.,G. Garrigou,France,gustave-garrigou,oui
+1913,11,5287,15,non,140,25,18,Philippe,Thys,philippe-thys,"197h 54' 00""",23,Belgique,"26,715","0h 08' 37"" ",G. Garrigou,France,gustave-garrigou,"0h 30' 55""",M. Buysse,Belgique,,non
+1914,12,5380,15,non,145,54,37,Philippe,Thys,philippe-thys,"200h 28' 48""",24,Belgique,"26,835","0h 01' 40"" ",H. Pelissier,France,henri-pelissier,"0h 36' 53""",J. Alavoine,France,,non
+1919,13,5560,15,non,69,11,16,Firmin,Lambot,firmin-lambot,"231h 07' 15""",33,Belgique,"24,056","1h 32' 54"" ",J. Alavoine,France,,"2h 16' 31""",E. Christophe,France,,non
+1920,14,5503,15,non,113,22,19,Philippe,Thys,philippe-thys,"228h 36' 13""",30,Belgique,"24,072","0h 57' 21"" ",H. Heusghem,Belgique,,"1h 39' 35""",F. Lambot,Belgique,firmin-lambot,non
+1921,15,5485,15,non,123,38,31,Léon,Scieur,leon-scieur,"221h 50' 26""",33,Belgique,"24,724","0h 18' 36"" ",H. Heusghem,Belgique,,"2h 01' 00""",H. Barthelemy,France,,non
+1922,16,5375,15,non,120,38,32,Firmin,Lambot,firmin-lambot,"222h 08' 06""",36,Belgique,"24,196","0h 41' 15"" ",J. Alavoine,France,,"0h 43' 02""",F. Sellier,Belgique,,non
+1923,17,5386,15,non,139,48,35,Henri,Pélissier,henri-pelissier,"222h 15' 30""",34,France,"24,233","0h 30' 41"" ",O. Bottecchia,Italie,ottavio-bottecchia,"1h 04' 43""",R. Bellenger,France,,non
+1924,18,5425,15,non,157,60,38,Ottavio,Bottecchia,ottavio-bottecchia,"226h 18' 21""",29,Italie,"24,250","0h 35' 36"" ",N. Frantz,Luxembourg,nicolas-frantz,"1h 32' 13""",L. Buysse,Belgique,lucien-buysse,non
+1925,19,5440,18,non,130,49,38,Ottavio,Bottecchia,ottavio-bottecchia,"219h 10' 18""",30,Italie,"24,820","0h 54' 20"" ",L. Buysse,France,lucien-buysse,"0h 56' 17""",B. Aimo,Italie,,non
+1926,20,5745,17,non,126,41,33,Lucien,Buysse,lucien-buysse,"238h 44' 25""",33,Belgique,"24,273","1h 22' 25"" ",N. Frantz,Luxembourg,nicolas-frantz,"1h 23' 51""",B. Aimo,Italie,,non
+1927,21,5398,24,non,142,39,27,Nicolas,Frantz,nicolas-frantz,"198h 16' 42""",27,Luxembourg,"27,224","1h 48' 21"" ",M. De Waele,Belgique,maurice-de-waele,"2h 25' 06""",J. Vervaecke,Belgique,,non
+1928,22,5376,22,non,162,41,25,Nicolas,Frantz,nicolas-frantz,"192h 48' 58""",28,Luxembourg,"28,400","0h 50' 07"" ",A. Leducq,France,andre-leducq,"0h 56' 16""",M. De Waele,Belgique,maurice-de-waele,non
+1929,23,5286,22,non,155,60,39,Maurice,De Waele,maurice-de-waele,"186h 39' 16""",32,Belgique,"28,319","0h 44' 23"" ",G. Pancera,Italie,,"0h 57' 10""",J. Demuysere,Belgique,,non
+1930,24,4822,21,non,100,59,59,André,Leducq,andre-leducq,"172h 12' 16""",26,France,"28,000","0h 14' 13"" ",L. Guerra,Italie,,"0h 16' 03""",A. Magne,France,antonin-magne,non
+1931,25,5091,24,non,81,35,43,Antonin,Magne,antonin-magne,"177h 10' 03""",27,France,"28,735","0h 12' 56"" ",J. Demuysere,Belgique,,"0h 22' 52""",A. Pesenti,Italie,,non
+1932,26,4479,21,non,80,57,71,André,Leducq,andre-leducq,154h 12' 59'',28,France,"29,047","0h 24' 01"" ",K. Stoepel,Allemagne,,"0h 26' 11""",F. Camusso,Italie,,non
+1933,27,4395,23,non,80,40,50,Georges,Speicher,georges-speicher,"147h 51' 37""",26,France,"29,818","0h 04' 01"" ",L. Guerra,Italie,,"0h 05' 01""",G. Martano,Italie,,oui
+1934,28,4470,23,non,60,39,65,Antonin,Magne,antonin-magne,"147h 13' 58""",30,France,"30,360","0h 27' 31"" ",G. Martano,Italie,,"0h 52' 15""",R. Lapébie,France,roger-lapebie,oui
+1935,29,4338,21,non,93,46,49,Romain,Maes,romain-maes,"141h 23' 00""",22,Belgique,"30,650","0h 17' 52"" ",A. Morelli,Italie,,"0h 24' 06""",F. Vervaecke,Belgique,,oui
+1936,30,4442,21,non,130,43,33,Sylvère,Maes,sylvere-maes,"142h 47' 32""",26,Belgique,"31,108","0h 26' 55"" ",A. Magne,France,antonin-magne,"0h 27' 53""",F. Vervaecke,Belgique,,oui
+1937,31,4415,20,non,98,46,47,Roger,Lapébie,roger-lapebie,"138h 58' 31""",26,France,"31,768","0h 07' 17"" ",M. Vicini,Italie,,"0h 26' 23""",L. Amberg,Suisse,,oui
+1938,32,4694,21,non,96,55,57,Gino,Bartali,gino-bartali,"148h 29' 12""",24,Italie,"31,565","0h 18' 27"" ",F. Vervaecke,Belgique,,"0h 29' 26""",V. Cosson,France,,non
+1939,33,4224,18,non,79,49,62,Sylvère,Maes,sylvere-maes,"132h 03' 17""",29,Belgique,"31,986","0h 30' 38"" ",R. Vietto,France,,"0h 32' 08""",L. Vlaemynck,Belgique,,non
+1947,34,4642,21,non,100,53,53,Jean,Robic,jean-robic,"148h 11' 25""",26,France,"31,412","0h 03' 58"" ",E. Fachleitner,France,,"0h 10' 07""",P. Brambilla,Italie,,oui
+1948,35,4922,21,non,120,44,37,Gino,Bartali,gino-bartali,"147h 10' 36""",34,Italie,"33,442","0h 26' 16"" ",A. Schotte,Belgique,,"0h 28' 48""",G. Lapebie,France,,non
+1949,36,4808,21,non,120,55,46,Fausto,Coppi,fausto-coppi,"149h 40' 49""",29,Italie,"32,121","0h 10' 55"" ",G. Bartali,Italie,gino-bartali,"0h 25' 13""",J. Marinelli,France,,non
+1950,37,4773,22,non,116,51,44,Ferdi,Kübler,ferdi-kubler,"145h 36' 46""",31,Suisse,"32,778","0h 09' 30"" ",S. Ockers,Belgique,,"0h 22' 19""",L. Bobet,France,louison-bobet,non
+1951,38,4690,24,non,123,66,54,Hugo,Koblet,hugo-koblet,"142h 20' 14""",26,Suisse,"32,949","0h 22' 00"" ",R. Geminiani,France,,"0h 24' 16""",L. Lazarides,France,,non
+1952,39,4898,23,non,122,78,64,Fausto,Coppi,fausto-coppi,"151h 57' 20""",32,Italie,"32,233","0h 28' 17"" ",S. Ockers,Belgique,,"0h 34' 38""",B. Ruiz,Espagne,,oui
+1953,40,4476,22,non,119,76,64,Louison,Bobet,louison-bobet,"129h 23' 25""",28,France,"34,593","0h 14' 18"" ",J. Mallejac,France,,"0h 15' 01""",G. Astrua,Italie,,non
+1954,41,4656,23,non,110,69,63,Louison,Bobet,louison-bobet,"140h 06' 05""",29,France,"33,229","0h 15' 49"" ",F. Kübler,Suisse,ferdi-kubler,"0h 21' 46""",F. Schaer,Suisse,,non
+1955,42,4495,22,non,130,69,53,Louison,Bobet,louison-bobet,"130h 29' 26""",30,France,"34,446","0h 04' 53"" ",J. Brankart,Belgique,,"0h 11' 30""",C. Gaul,Luxembourg,charly-gaul,oui
+1956,43,4498,22,non,120,88,73,Roger,Walkowiak,roger-walkowiak,"124h 01' 16""",29,France,"36,268","0h 01' 25"" ",G. Bauvin,France,,"0h 03' 44""",J. Adriaensens,Belgique,,non
+1957,44,4669,22,non,120,56,47,Jacques,Anquetil,jacques-anquetil,"135h 44' 42""",23,France,"34,520","0h 14' 56"" ",M. Janssens,Belgique,,"0h 17' 26""",A. Christian,Autriche,,oui
+1958,45,4319,24,non,120,78,65,Charly,Gaul,charly-gaul,"116h 59' 05""",25,Luxembourg,"36,919","0h 03' 10"" ",V. Favero,Italie,,"0h 03' 41""",R. Geminiani,France,,non
+1959,46,4358,22,non,120,65,54,Federico,Bahamontes,federico-bahamontes,"123h 46' 45""",30,Espagne,"35,474","0h 04' 01"" ",H. Anglade,France,,"0h 05' 05""",J. Anquetil,France,jacques-anquetil,non
+1960,47,4173,21,non,128,81,63,Gastone,Nencini,gastone-nencini,"112h 08' 42""",30,Italie,"37,210","0h 05' 02"" ",G. Battistini,Italie,,"0h 10' 24""",J. Adriaensens,Belgique,,non
+1961,48,4397,21,non,132,72,55,Jacques,Anquetil,jacques-anquetil,"122h 01' 33""",27,France,"36,033","0h 12' 14"" ",G. CarlesiI,Italie,,"0h 12' 16""",C. Gaul,Luxembourg,,oui
+1962,49,4274,22,non,150,94,63,Jacques,Anquetil,jacques-anquetil,"114h 31' 45""",28,France,"37,317","0h 04' 59"" ",J. Planckaert,Belgique,,"0h 10' 24""",R. Poulidor,France,,non
+1963,50,4138,21,non,130,76,58,Jacques,Anquetil,jacques-anquetil,"113h 30' 05""",29,France,"37,092","0h 03' 35"" ",F. Bahamontes,Espagne,federico-bahamontes,"0h 10' 14""",J. Perez-Frances,Espagne,,non
+1964,51,4504,22,non,132,81,61,Jacques,Anquetil,jacques-anquetil,"127h 09' 44""",30,France,"35,419","0h 00' 55"" ",R. Poulidor,France,,"0h 4' 44""",F. Bahamontes,Espagne,federico-bahamontes,oui
+1965,52,4188,22,non,130,96,74,Felice,Gimondi,felice-gimondi,"116h 42' 06""",22,Italie,"35,886","0h 02' 40"" ",R. Poulidor,France,,"0h 09' 18""",G. Motta,Italie,,non
+1966,53,4329,22,non,130,82,63,Lucien,Aimar,lucien-aimar,"117h 34' 21""",25,France,"36,760","0h 01' 07"" ",J. Janssen,Pays-Bas,jan-janssen,"0h 02' 02""",R. Poulidor,France,,non
+1967,54,4779,22,oui,130,88,68,Roger,Pingeon,roger-pingeon,"136h 53' 50""",26,France,"34,756","0h 03' 40"" ",J. Jimenez,Espagne,,"0h 07' 23""",F. Balmanion,Italie,,oui
+1968,55,4492,22,non,110,63,57,Jan,Janssen,jan-janssen,"133h 49' 32""",28,Pays-Bas,"33,556","0h 00' 38"" ",H. Van Springel,Belgique,,"0h 03' 03""",F. Bracke,Belgique,,non
+1969,56,4117,22,oui,130,86,66,Eddy,Merckx,eddy-merckx,"116h 16' 02""",24,Belgique,"35,409","0h 17' 54"" ",R. Pingeon,France,roger-pingeon,"0h 22' 13""",R. Poulidor,France,,oui
+1970,57,4254,23,oui,150,100,67,Eddy,Merckx,eddy-merckx,"119h 31' 49""",25,Belgique,"35,589","0h 12' 41"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 15' 54""",G. Pettersson,Suede,,non
+1971,58,3608,20,oui,130,94,72,Eddy,Merckx,eddy-merckx,"96h 45' 14""",26,Belgique,"38,084","0h 09' 51"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 11' 06""",L. Van Impe,Belgique,lucien-van-impe,non
+1972,59,3846,20,oui,132,88,67,Eddy,Merckx,eddy-merckx,"108h 17' 18""",27,Belgique,"35,514","0h 10' 41"" ",F. Gimondi,Italie,felice-gimondi,"0h 11' 34""",R. Poulidor,France,,non
+1973,60,4090,20,oui,132,87,66,Luis,Ocaña,luis-ocana,"122h 25' 34""",28,Espagne,"33,407","0h 15' 51"" ",B. Thévenet,France,bernard-thevenet,"0h 17' 15""",J-M. Fuente,Espagne,,oui
+1974,61,4098,22,oui,130,105,81,Eddy,Merckx,eddy-merckx,"116h 16' 58""",29,Belgique,"35,241","0h 08' 04"" ",R. Poulidor,France,,"0h 8' 09""",V. Lopez-Carril,Espagne,,oui
+1975,62,4000,22,oui,140,86,61,Bernard,Thévenet,bernard-thevenet,"114h 35' 31""",27,France,"34,906","0h 02' 47"" ",E. Merckx,Belgique,eddy-merckx,"0h 05' 01""",L. Van Impe,Belgique,lucien-van-impe,non
+1976,63,4017,22,oui,130,87,67,Lucien,Van Impe,lucien-van-impe,"116h 22' 23""",29,Belgique,"34,518","0h 04' 14"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 12' 08""",R. Poulidor,France,,oui
+1977,64,4096,22,oui,100,53,53,Bernard,Thévenet,bernard-thevenet,"115h 38' 30""",29,France,"35,419","0h 00' 48"" ",H. Kuiper,Pays-Bas,,"0h 03' 32""",L. Van Impe,Belgique,lucien-van-impe,oui
+1978,65,3908,22,oui,110,78,71,Bernard,Hinault,bernard-hinault,"108h 18' 00""",23,France,"36,084","0h 03' 56"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 06' 54""",J. Agosthino,Portugal,,non
+1979,66,3765,24,oui,150,90,60,Bernard,Hinault,bernard-hinault,"103h 06' 50""",24,France,"36,513","0h 06' 50"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 26' 53""",J. Agosthino,Portugal,,oui
+1980,67,3842,22,oui,130,85,65,Joop,Zoetemelk,joop-zoetemelk,"109h 19' 14""",33,Pays-Bas,"35,144","0h 06' 55"" ",H. Kuiper,Belgique,,"0h 07' 56""",R. Martin,France,,non
+1981,68,3753,24,oui,150,121,81,Bernard,Hinault,bernard-hinault,"96h 19' 38""",26,France,"38,960","0h 14' 34"" ",L. Van Impe,Belgique,lucien-van-impe,"0h 17' 04""",R. Alban,France,,oui
+1982,69,3507,21,oui,169,125,74,Bernard,Hinault,bernard-hinault,"92h 08' 46""",27,France,"38,059","0h 06' 21"" ",J. Zoetemelk,Pays-Bas,joop-zoetemelk,"0h 8' 59""",J. Van Der Velde,Pays-Bas,,non
+1983,70,3809,22,oui,140,88,63,Laurent,Fignon,laurent-fignon,"105h 07' 52""",22,France,"36,230","0h 04' 04"" ",A. Arroyo,Espagne,,"0h 04' 09""",P. Winnen,Pays-Bas,,non
+1984,71,4021,23,oui,170,124,73,Laurent,Fignon,laurent-fignon,"112h 03' 40""",23,France,"35,882","0h 10' 32"" ",B. Hinault,France,bernard-hinault,"0h 11' 46""",G. Lemond,États-Unis,greg-lemond,non
+1985,72,4109,22,oui,180,144,80,Bernard,Hinault,bernard-hinault,"113h 24' 23""",30,France,"36,232","0h 01' 42"" ",G. Lemond,États-Unis,greg-lemond,"0h 04' 29""",S. Roche,Irlande,stephen-roche,oui
+1986,73,4094,23,oui,210,132,63,Greg,LeMond,greg-lemond,"110h 35' 19""",24,États-Unis,"37,020","0h 03' 10"" ",B. Hinault,France,bernard-hinault,"0h 10' 54""",U. Zimmermann,Suisse,,non
+1987,74,4231,25,oui,207,135,65,Stephen,Roche,stephen-roche,"115h 27' 42""",27,Irlande,"36,645","0h 00' 40"" ",P. Delgado,Espagne,pedro-delgado,"0h 02' 13""",J-F. Bernard,France,,non
+1988,75,3286,22,oui (préface),198,151,76,Pedro,Delgado,pedro-delgado,"84h 27' 53""",28,Espagne,"38,909","0h 07' 13"" ",S. Rooks,Pays-Bas,,"0h 09' 58""",F. Parra,Colombie,,oui
+1989,76,3285,21,oui,198,138,70,Greg,LeMond,greg-lemond,"87h 38' 35""",27,États-Unis,"37,487","0h 00' 08"" ",L. Fignon,France,laurent-fignon,"0h 03' 34""",P. Delgado,Espagne,pedro-delgado,non
+1990,77,3504,21,oui,198,156,79,Greg,LeMond,greg-lemond,"90h 43' 20""",28,États-Unis,"38,621","0h 02' 16"" ",C. Chiappucci,Italie,,"0h 02' 29""",E. Breukink,Pays-Bas,,oui
+1991,78,3914,22,oui,198,158,80,Miguel,Indurain,miguel-indurain,"101h 01' 20""",27,Espagne,"38,747","0h 03' 36"" ",G. Bugno,Italie,,"0h 05' 56""",C. Chiappucci,Italie,,non
+1992,79,3983,21,oui,198,130,66,Miguel,Indurain,miguel-indurain,"100h 49' 30""",28,Espagne,"39,504","0h 04' 35"" ",C. Chiappucci,Italie,,"0h 10' 49""",G. Bugno,Italie,,oui
+1993,80,3714,20,oui,180,136,76,Miguel,Indurain,miguel-indurain,"95h 57' 09""",29,Espagne,"38,709","0h 04' 59"" ",T. Rominger,Suisse,,"0h 05' 48""",Z. Jaskula,Pologne,,oui
+1994,81,3978,21,oui,189,117,62,Miguel,Indurain,miguel-indurain,"103h 38' 38""",30,Espagne,"38,383","0h 05' 39"" ",P. Ugrumov,Lettonie,,"0h 07' 19""",M. Pantani,Italie,marco-pantani,non
+1995,82,3635,20,oui,189,115,61,Miguel,Indurain,miguel-indurain,"92h 44' 59""",31,Espagne,"39,193","0h 04' 35"" ",A. Zulle,Suisse,,"0h 06' 47""",B. Rijs,Danemark,,"non, au départ. globalelement, sur la boucle, oui."
+1996,83,3765,21,oui,198,129,65,Bjarne,Riis,bjarne-riis,"95h 57' 16""",32,Danemark,"39,227","0h 01' 41"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 37""",R. Virenque,France,,non
+1997,84,3950,21,oui,198,139,70,Jan,Ullrich,jan-ullrich,"100h 30' 35""",23,Allemagne,"39,237","0h 09' 09"" ",R. Virenque,France,,"0h 14' 03""",M. Pantani,Italie,marco-pantani,non
+1998,85,3875,21,oui,189,96,51,Marco,Pantani,marco-pantani,"92h 49' 46""",28,Italie,"39,983","0h 03' 21"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 08""",B. Julich,États-Unis,,non
+1999,86,3870,20,oui,180,141,78,n.a.,n.a.,n.a.,"91h 32' 16""",,n.a.,"40,276","0h 07' 37"" ",A. Zulle,Suisse,,"0h 10' 26""",F. Escartin,Espagne,,oui
+2000,87,3662,21,non,177,128,72,n.a.,n.a.,n.a.,92h 33' 08'',,n.a.,"39,569","0h 06' 02"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 10' 26""",J. Beloki,Espagne,,"oui, au départ. globalelement, sur la boucle, non."
+2001,88,3458,20,oui,189,144,76,n.a.,n.a.,n.a.,86h 17' 28'',,n.a.,"40,070","0h 06' 44"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 09' 05""",J. Beloki,Espagne,,oui
+2002,89,3278,20,oui,189,153,81,n.a.,n.a.,n.a.,"82h 05' 12""",,n.a.,"39,920","0h 07' 17"" ",J. Beloki,Espagne,,"0h 08' 17""",R. Rumsas,Lituanie,,non
+2003,90,3427,20,oui,198,147,74,n.a.,n.a.,n.a.,"83h 41' 12""",,n.a.,"40,940","0h 01' 01"" ",J. Ullrich,Allemagne,jan-ullrich,"0h 04' 14""",A. Vinokourov,Kazakhstan,,oui
+2004,91,3391,20,oui,188,147,78,n.a.,n.a.,n.a.,"83h 36' 02""",,n.a.,"40,553","0h 06' 19"" ",A. Kloden,Allemagne,,"0h 06' 40""",I. Basso,Italie,,non
+2005,92,3593,21,non,189,155,82,n.a.,n.a.,n.a.,"86h 15' 02""",,n.a.,"41,654","0h 04' 40"" ",I. Basso,Italie,,"0h 06' 21""",J. Ullrich,Allemagne,jan-ullrich,oui
+2006,93,3657,21,oui,176,139,79,Óscar,Pereiro,oscar-pereiro,"89h 39' 30""",28,Espagne,"40,784","0h 00' 32"" ",A. Kloden,Allemagne,,"0h 02' 16""",C. Sastre,Espagne,carlos-sastre,non
+2007,94,3570,21,oui,189,141,75,Alberto,Contador,alberto-contador,"91h 00' 26""",24,Espagne,"39,228","0h 00' 23"" ",C. Evans,Australie,cadel-evans,"0h 00' 31""",L. Leipheimer,États-Unis,,oui
+2008,95,3559,21,non,180,145,81,Carlos,Sastre,carlos-sastre,87h 52' 52'',33,Espagne,"40,492","0h 00' 58"" ",C. Evans,Australie,cadel-evans,"0h 02' 10""",D. Menchov,Russie,,non
+2009,96,3459,21,non,180,156,87,Alberto,Contador,alberto-contador,"85h 48' 35""",26,Espagne,"40,315","0h 04' 11"" ",A. Schleck,Luxembourg,andy-schleck,"0h 05' 24""",L. Armstrong,États-Unis,,oui
+2010,97,3642,20,oui,198,170,86,Andy,Schleck,andy-schleck,"91h 58' 48""",25,Luxembourg,"39,594","0h 01' 22"" ",D. Menchov,Russie,,"0h 03' 01""",S. Sanchez,Espagne,,oui
+2011,98,3430,21,non,198,167,84,Cadel,Evans,cadel-evans,"86h 12' 22""",34,Australie,"39,788","0h 01' 34"" ",A. Schleck,Luxembourg,andy-schleck,"0h 02' 30""",F. Schleck,Luxembourg,,oui (au départ)
+2012,99,3497,20,oui,198,153,77,Bradley,Wiggins,bradley-wiggins,87h 34' 47'',32,Royaume-Uni,"39,724","0h 03' 21"" ",C. Froome,Royaume-Uni,,0h 06' 19'',V. Nibali,Italie,,"non, au départ. globalelement, sur la boucle, oui."
+2013,100,3360,21,non,198,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,n.a.,,n.a.,n.a.,,n.a.,n.a.,n.a.,,zig-zag

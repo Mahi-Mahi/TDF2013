@@ -28,6 +28,37 @@ short_legs_fields = ['id', 'year', 'leg', 'title', 'start', 'finish']
 tours = {}
 winners = {}
 fighters = {}
+places = {}
+
+
+
+idx = 0
+CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
+
+	if idx > 0
+
+		place = {}
+		place[:id] = row[0]
+		place[:name] = row[1]
+		place[:url] = row[2]
+		place[:excerpt] = row[3]
+		place[:text] = row[4]
+		place[:hyperlapse] = ( row[5] == 'oui' )
+		if tmp = row[6].match(/^(\d+) à (\d+)$/)
+			place[:years] = ((tmp[1].to_i)..(tmp[2].to_i)).to_a
+		else
+			place[:years] = row[6].split(/,\s*/).map { |e| e.to_i }
+		end
+
+		places[place[:id]] = place
+
+	end
+
+	idx = idx + 1
+
+end
+
+puts "#{places.length} places"
 
 
 idx = 0
@@ -153,7 +184,6 @@ Dir.glob('csv/vainqueurs/*.csv') do |item|
 			when 0
 			when 1
 
-				p row[1]
 				winners[id][:country] = row[0]
 				winners[id][:birthdate] = row[1]
 				winners[id][:birthyear] = Date.strptime(row[1], '%d/%m/%Y').year
@@ -313,6 +343,14 @@ puts "#{legs.length} etapes"
 tours.each do |year, tour|
 	tour[:legs].sort_by! {|o| o[:leg_num] }
 end
+
+# Places
+
+filename = "json/places.json"
+content = production ? places.to_json : JSON.pretty_generate(places)
+File.open(filename, 'w') { |file| file.write content }
+Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }
+
 
 # Fighters
 

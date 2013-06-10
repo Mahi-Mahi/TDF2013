@@ -84,7 +84,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dev: {
-        src: ['src/js/lib/jquery.js', 'src/js/lib/*.js', 'src/js/compat.js', 'src/js/util.js', 'src/js/main.js'], // , 'src/js/traces.js'
+        src: ['src/js/lib/jquery.js', 'src/js/lib/jquery.selectbox.js', 'src/js/lib/*.js', 'src/js/compat.js', 'src/js/util.js', 'src/js/main.js'], // , 'src/js/traces.js'
         dest: 'dev/js/scripts.js'
       },
       dist: {
