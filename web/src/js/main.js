@@ -635,6 +635,7 @@ TDF.Traces = (function() {
 			trace = my.traces[my.args.years[0]];
 
 			if (trace.winner_id !== 'n.a.') {
+				$main.find('.winner span').addClass('winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
 				$main.find('.winner img').attr('src', '/img/traces/portraits/' + trace.winner_id + '.png');
 				$main.find('.winner .flag div').attr('class', trace.winner_country);

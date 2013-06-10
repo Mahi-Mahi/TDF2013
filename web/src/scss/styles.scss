@@ -446,7 +446,7 @@ header .fight.active a {
 	display: none;
 }
 
-.winner .name:after {
+.winners .winner .name:after {
 	display:block;
 	overflow:hidden;
 	margin:0 auto;
@@ -808,6 +808,52 @@ header .fight.active a {
 	background:url(/img/traces/bg-traces-right.png) left top no-repeat;
 	float:right;
 	width:239px;
+}
+
+.winner-status {
+	color:#383C40;
+	display:inline-block;
+	font:400 15px/1.1 'Oswald', Verdana, Arial, sans-serif;	
+	margin:0;
+	padding:0;
+	text-align:center;
+	vertical-align:top;
+}
+
+.winner-status:before, .winner-status:after {
+	display:inline-block;
+	overflow:hidden;
+	margin:0 5px;
+	padding: 0;
+	width:12px;
+	height:6px;
+	background:url(/img/icon/icon-name.png) left top no-repeat;
+	content: " ";
+	text-indent: 100%;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+.traces-right .name {
+	color:#383C40;
+	display:block;
+	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;	
+	margin:0;
+	padding:0;
+	white-space:nowrap;
+}
+
+.traces-right .name a {
+	background:url(/img/traces/traces_vainqueur_more_off.png) 100% 0 no-repeat;
+	color:#383C40;
+	display:block;
+	font:700 23px/1.1 'Oswald', Verdana, Arial, sans-serif;	
+	margin:0;
+	padding:0 50px 0 0;	
+}
+
+.traces-right .name a:hover {
+	background-image:url(/img/traces/traces_vainqueur_more_on.png);
 }
 
 .timeline-zoom li {
