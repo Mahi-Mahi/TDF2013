@@ -1057,6 +1057,27 @@ header .fight.active a {
 	width:110px;
 	z-index:2;
 }
+
+/* STREETVIEW */
+
+.streetview-left {
+	background:url(/img/lieux/bg-left-lieux.png) left top no-repeat;
+	float:left;
+	height:501px;
+	margin:0;
+	padding:0;
+	width:258px;
+}
+
+.streetview-right {
+	background:url(/img/lieux/bg-map.png) left top no-repeat;
+	float:right;
+	height:501px;
+	margin:0;
+	padding:0;
+	width:742px;
+}
+
 /* SELECTBOX */
 
 .sbSelector {
