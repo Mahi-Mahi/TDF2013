@@ -201,7 +201,7 @@ header .fight.active a {
 .traces .timeline-zoom ul {
 	margin: 0;
 	padding: 0;
-	width:5000px;
+	width: 7200px;
 	height: 20px;
 	list-style: none;
 }
@@ -1064,6 +1064,10 @@ header .fight.active a {
 .streetview-left .list {
 	width:258px;
 	float: left;
+}
+.streetview-left .list ul {
+	height: 450px;
+	overflow: auto;
 }
 .streetview-left .detail {
 	width:258px;

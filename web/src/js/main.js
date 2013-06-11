@@ -605,6 +605,7 @@ TDF.Traces = (function() {
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
 				slide: function(ui, event) {
+					console.log(event.value);
 					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
 				}
 			});
@@ -718,7 +719,7 @@ TDF.Traces = (function() {
 
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
-				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
+				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name[0] + '. ' + trace.winner_last_name + '</a>');
 				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			} else {
@@ -1108,8 +1109,6 @@ TDF.Fight = (function() {
 			return;
 		}
 
-
-
 		if (TDF.loadTemplate(this, '-home')) {}
 
 		if (my.args.fighter_one !== 'selector') {
@@ -1215,6 +1214,9 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
+
+		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
+
 	};
 
 	my.fight = function() {
@@ -1382,7 +1384,7 @@ TDF.StreetView = (function() {
 					.replace(':place_url', my.base_url + place_id + '/')
 					.replace(':place_type', place.type)
 					.replace(':place_title', place.name)
-					.replace(':place_pic', '/img/streetview/pics/'+place.id+'.jpg');
+					.replace(':place_pic', '/img/streetview/thumbnails/'+place.id+'.jpg');
 				places_list.push(content);
 			}
 			$inner.find('.list ul').html(places_list.join(' '));
