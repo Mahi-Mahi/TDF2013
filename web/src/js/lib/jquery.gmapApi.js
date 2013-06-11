@@ -28,6 +28,7 @@
         
         this.markerIcon = null;
         this.markerCircleIcon = null;
+        this.markerLabelIcon = null;
         
         this.navigation = null;
 
@@ -116,7 +117,13 @@
         },
         styles: null,
         markerIconImg: null,
+        markerIconSize: [26, 26],
+        markerIconAnchor: [0, 0],
         markerCircleIconImg: null,
+        markerCircleIconSize: [26, 26],
+        markerCircleIconAnchor: [13, 13],
+        markerLabelIconImg: null,
+        markerLabelIconSize: [67, 84],
         isAnimated: false,
         debugMode: true
     };
@@ -188,13 +195,14 @@
          * Create all icon
          */
          _createImage: function() {
-
+             var self = this;
+         
             if(this.settings.markerIconImg != null){
                 this.markerIcon = {
                     url: this.settings.markerIconImg,
-                    size: new google.maps.Size(26, 26),
+                    size: new google.maps.Size(self.settings.markerIconSize[0], self.settings.markerIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(13, 13)
+                    anchor: new google.maps.Point(self.settings.markerIconSize[0]/2, self.settings.markerIconSize[1]/2)
                 };
             }
              
@@ -202,9 +210,18 @@
             if(this.settings.markerCircleIconImg != null){
                 this.markerCircleIcon = {
                     url: this.settings.markerCircleIconImg,
-                    size: new google.maps.Size(26, 26),
+                    size: new google.maps.Size(self.settings.markerCircleIconSize[0], self.settings.markerCircleIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(13, 13)
+                    anchor: new google.maps.Point(self.settings.markerCircleIconSize[0]/2, self.settings.markerCircleIconSize[1]/2)
+                };
+            }
+            
+            if(this.settings.markerLabelIconImg != null){
+                this.markerLabelIcon = {
+                    url: this.settings.markerLabelIconImg,
+                    size: new google.maps.Size(self.settings.markerLabelIconSize[0], self.settings.markerLabelIconSize[1]),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(self.settings.markerLabelIconSize[0] / 2, self.settings.markerLabelIconSize[1] - 10)
                 };
             }
               
@@ -383,7 +400,7 @@
                 position: new google.maps.LatLng(plat, plng),
                 map: self.map,
                 title: title,
-                icon: self.markerIcon,
+                icon: self.markerLabelIcon,
                 zIndex: 1
             });
 
@@ -565,13 +582,19 @@
             var etapes = [];
             var bounds = new google.maps.LatLngBounds();
 
+
+            
             
             //First search (little size)
             var result = this._findEtapes(data, lat, lng, 0.05, 0.05);
             etapes = result;
             
-            console.log("Premiere recherche nb result  : " + etapes.length);
+            //Si pas de résultat proche, on met le marker de recherche
+            if(etapes.length === 0){
+                this.createMarker(lat, lng, 'Ma recheche');
+            }
             
+          
             if(etapes.length < 3){
                 //Second search (middle size)
                 result = this._findEtapes(data, lat, lng, 0.5, 0.5);
@@ -651,6 +674,10 @@
             
             for(var i = 0; i < results.length; i++){
                 
+                if(etapes.length >= 3) {
+                    break;
+                }
+                
                 var result = results[i];
                 
                 var isMerged = false;
@@ -675,9 +702,9 @@
                 
                 
 //                console.log("!!etapes.lenght : "+ etapes.length);
-                if(etapes.length >= 3) {
-                    break;
-                }
+//                if(etapes.length >= 3) {
+//                    break;
+//                }
                 
             }
             
