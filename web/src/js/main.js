@@ -1,4 +1,5 @@
 /* global console */
+/* global google  */
 
 var $main, $inner;
 
@@ -336,21 +337,103 @@ TDF.Home = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+                
+                
+                console.log("Home $main :" +$main);
+                
+                console.log("$main.id : " + $main.attr('id'));
+                
+//                for(var i in $main){
+//                    console.log(i + " :  " + $main[i]);
+//                }
+                
 
 		/*
 		// GTAB
         searchInput = $('#inputGeoloc');
-
-        autocomplete_init();
-		*/
+*/
+               
+		
 
 	};
 
 	my.render = function() {
 
 		TDF.loadTemplate(this);
+                
+                
+                 this.autocomplete_init();
 
 	};
+        
+        
+        my.autocomplete_init = function(){
+            
+            
+            
+              if (jQuery('#search').length) {
+              
+                      console.log("auto init 1111");
+        
+                    var input = document.getElementById('search');
+                    
+                    console.log("input : " + input);
+                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+
+                    console.log("gMapAutocomplete :" + gMapAutocomplete);
+                    console.log("google :" + google);
+
+                    input.className = '';
+                   
+
+                    google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+
+                        var place = gMapAutocomplete.getPlace();
+
+                        if (!place.geometry) {
+                          input.className = 'notfound';
+                          return;
+                        }
+
+
+         
+            //            var address = '';
+            //            if (place.address_components) {
+            //              address = [
+            //                (place.address_components[0] && place.address_components[0].short_name || ''),
+            //                (place.address_components[1] && place.address_components[1].short_name || ''),
+            //                (place.address_components[2] && place.address_components[2].short_name || '')
+            //              ].join(' ');
+            //            }
+
+                    });
+
+
+                    jQuery('#city_search').submit(function() {
+                        return false;
+                    });
+
+
+                    jQuery(input).bind('keydown', function(e) {
+
+                        console.log("je tape : " + e.keyCode);
+
+                        if(e.keyCode === 13) {
+
+
+                        } 
+                        else {
+                            
+                        }
+                    });
+
+
+
+
+
+                }
+          
+        };
 
 	return my;
 }());
@@ -363,6 +446,8 @@ TDF.CitySearch = (function() {
 	my.name = 'search';
 
 	my.init = function() {
+
+                console.log("CitySearch : $main : " + $main);
 
 		/*
 		$main.on('submit', '.search #city_search', function(event) {
@@ -396,6 +481,8 @@ TDF.CitySearch = (function() {
 		TDF.loadTemplate(this);
 
 		$main.find('#search').val(args.city_name);
+                
+                console.log("render CitySearchh");
 
 		/*
 		// GTAB
