@@ -22,6 +22,7 @@
         this.element = element;
 
         this.map = null;
+        this.mapBounds = null;
 
         // this.currentPosition = null;
         
@@ -241,11 +242,17 @@
          */
         displayEtape: function(tour){
             for(var i = 0; i < tour['markers'].length; i++){
-                tour['markers'][i].setMap(this.map);
+                var marker = tour['markers'][i];
+                marker.setMap(this.map);
+                
+                this.mapBounds.extend(marker.getPosition());
             }
 
             for(var i = 0; i < tour['circles'].length; i++){
-                tour['circles'][i].setMap(this.map);
+                var circle = tour['circles'][i];
+                circle.setMap(this.map);
+                
+                this.mapBounds.extend(circle.getPosition());
             }
 
             for(var i = 0; i < tour['dashedlines'].length; i++){
@@ -268,6 +275,8 @@
             var self = this;
 
             this.clearMap();
+            
+            this.mapBounds = new google.maps.LatLngBounds();
 
             $.each(years, function(key, year) {
 
@@ -298,17 +307,20 @@
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['circles'].push(circle);
+                                self.mapBounds.extend(circle.getPosition());
                             }
                             else{
                                 var marker;
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
-
+                                self.mapBounds.extend(marker.getPosition());
+                                
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
-
+                                self.mapBounds.extend(marker.getPosition());
+                                
+                                
                                 var line;
-   
                                 line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
                                 self.tours[year]['lines'].push(line);           
                             }
@@ -330,6 +342,11 @@
             
             if(this.settings.isAnimated)
                 this.animateLine();
+            
+            
+            
+            
+            this.map.fitBounds(this.mapBounds);
             
         },
 
@@ -582,7 +599,7 @@
           
             if(etapes.length > 1)
                 this.map.fitBounds(bounds);
-          
+            
         },
         
         /**
