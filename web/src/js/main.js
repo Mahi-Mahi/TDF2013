@@ -252,7 +252,7 @@ var TDF = (function() {
 				var $header = $content.find('header');
 				$header.html(jQuery('#template-header').html());
 				$header.find('.active').removeClass('active');
-				$header.find('.' + module.name + step).addClass('active');
+				$header.find('.' + module.name).addClass('active');
 			}
 
 			if ($content.find('footer').length) {
