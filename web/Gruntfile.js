@@ -107,6 +107,8 @@ module.exports = function(grunt) {
 
     all_files: [
         'index.html',
+        'methodologie.html',
+        'credits.html',
         '.htaccess',
     ],
     all_folders: [
@@ -161,7 +163,15 @@ module.exports = function(grunt) {
       dev: { // Another target
         options: {
           sassDir: 'src/scss',
-          cssDir: 'dev/css'
+          cssDir: 'dev/css',
+          outputStyle: 'nested'
+        }
+      },
+      dist: { // Another target
+        options: {
+          sassDir: 'src/scss',
+          cssDir: 'dist/css',
+          outputStyle: 'compressed'
         }
       }
     },
@@ -211,7 +221,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev', 'compass:dev']);
 
   // build production
-  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'uglify', 'copy:dist']);
+  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'compass:dist', 'uglify', 'copy:dist']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);

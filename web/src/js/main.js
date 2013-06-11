@@ -258,6 +258,7 @@ var TDF = (function() {
 			if ($content.find('footer').length) {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
+				$footer.find('.colorbox').colorbox();
 			}
 
 			for (var route in TDF.routes) {
@@ -317,6 +318,7 @@ var TDF = (function() {
 
 		// only for #/dummy/ url
 		my.currentRoute();
+
 	};
 
 	return my;
@@ -981,6 +983,7 @@ TDF.Winners = (function() {
 			}
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
+			jQuery('.winners_list').jScrollPane();
 
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
@@ -1084,9 +1087,11 @@ TDF.Winners = (function() {
 							" à l'age de " + (year - winner.birthyear) + " ans";
 						pos_title = 'Victoire finale';
 					} else {
-						bulle = tour.position + 'ème en ' + year;
+						bulle = '';
 						switch (tour.position) {
-							default: pos_title = tour.position;
+							default:
+								pos_title = tour.position;
+								bulle = tour.position + 'ème en ' + year;
 							break;
 							case 'Abandon':
 								pos_title = 'A';
@@ -1120,8 +1125,8 @@ TDF.Winners = (function() {
 					my: "center bottom-20",
 					at: "center top",
 					content: function() {
-						var element = jQuery( this );
-						return element.attr( "title" );
+						var element = jQuery(this);
+						return element.attr("title");
 					},
 					using: function(position, feedback) {
 						jQuery(this).css(position);
