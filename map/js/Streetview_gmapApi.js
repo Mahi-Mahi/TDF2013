@@ -4,8 +4,10 @@ var gmap,
     mapTypeId,
     startlat,
     startlng,
-    allEtapes,
-    toursSelecteur;
+    allPlaces,
+    toursSelecteur,
+    dataLoaded,
+    gmapInit;
 
 
 $(document).ready(function(){
@@ -26,14 +28,19 @@ $(document).ready(function(){
 
 
 
-        google.maps.event.addDomListener(window, 'load', initializeGmap);
+        
         
         loadData();
+        
+        
+        google.maps.event.addDomListener(window, 'load', initializeGmap);
 
 });
 
 
 function initializeGmap() {
+    
+        
     
         var mapOptions = {
             mapTypeId: mapTypeId,
@@ -45,53 +52,48 @@ function initializeGmap() {
                 position: 'TOP_LEFT'
             },
             markerIconImg: '../img/point-simple-ombre.png',
-            markerCircleIconImg: '../img/point-boucle-ombre.png',
             styles: mapStyleTrace
         };
 
         gmap = map.gmapApi(mapOptions);
+        
+        gmapInit = true;
+        
+        
+        
+        $("#toggleStreeView").on('click', function(){
+            gmap.toggleStreetView();
+        });
+        
+        
+        
 }
 
 
 function loadData(){
     
     
-    $.getJSON('data/data-all.json', function(data) {
+    $.getJSON('data/places.json', function(data) {
+        
+    
+        allPlaces = data;
+        
+        console.log("gmapInit : " + gmapInit);
+        
+        if(gmapInit)
+            gmap.addStreetViewPoint(allPlaces);
 
-        allEtapes = data;
-
-        var currentYear = 0;
-        var options = [];
-
-        $.each(data, function(num, etape) {
-
-            if(currentYear != etape.year){
-                currentYear = etape.year;
-
-                options.push('<option value="' + etape.year + '">' + etape.year + '</option>');
-
-                toursSelecteur.html(options.join(''));
-            }    
-        });
-
-        initSelecteur();
     });
-}
-
-
-function initSelecteur(){
     
-        toursSelecteur.on('change', function(){
-            var years = $(this).val();
-
-            console.log("changeSelecteur: " + years);
-
-            gmap.createEtapes(years, allEtapes);
-
-        });
+    
     
     
 }
+
+
+
+
+
 
 
 

@@ -47,6 +47,9 @@
         this.dashedlines = [];
         
         this.animateInterval = null;
+        
+        this.panorama = null;
+        
 
         this._init(options);
     };
@@ -359,6 +362,38 @@
 
         },
         
+        createMarkerWithData: function(plat, plng, title, data){
+            var self = this;
+            
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(plat, plng),
+                map: self.map,
+                title: title,
+                icon: self.markerIcon,
+                zIndex: 1
+            });
+
+            console.log("data : " + data);
+
+
+            var label = new MarkerLabel({
+                map: self.map
+            });
+
+            label.set('zIndex', 7283);
+            label.bindTo('position', marker, 'position');
+            //label.bindTo('text', marker, 'position');
+            label.set("text", data);
+            
+            
+
+
+            this.markers.push(marker);
+
+            return marker;
+
+        },
+        
         createMarkerCircle: function(plat, plng, title){
             var self = this;
 
@@ -397,7 +432,7 @@
             return circle;
         },
 
-        createLine: function(slat, slng, flat, flng, isOriented, isCurved){
+        createLine: function(slat, slng, flat, flng, isOriented){
             var self = this;
             
             var lineSymbol = null;
@@ -408,14 +443,6 @@
                 };
             }
             
-            console.log("isCurved : " + isCurved);
-            
-            if(isCurved == undefined)
-                isCurved = false;
-            
-            
-            console.log("isCurved : " + isCurved);
-
             var lineCoordinates = [
                 new google.maps.LatLng(slat, slng),
                 new google.maps.LatLng(flat, flng)
@@ -427,10 +454,9 @@
                 strokeColor: '#333333',
                 path: lineCoordinates,
                 map: self.map,
-                geodesic: isCurved,
                 icons: [{
                     icon: lineSymbol,
-                    offset: '100%'
+                    offset: '50%'
                 }]
             });
 
@@ -515,10 +541,10 @@
             
 
             for(var i = 0; i < etapes.length; i++){
-
+                var etape = etapes[i];
                 
-                var marker = this.createMarker(etapes[i].lat, etapes[i].lng, etapes[i].city);
-                console.log("createMarker : " + etapes[i].city);
+                var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
+                console.log("createMarker : " + etape.city);
  
                 bounds.extend(marker.getPosition());
                 
@@ -533,44 +559,40 @@
             
             var pointOri = new google.maps.LatLng(lat, lng);      
             
-            for(var i = 0; i < results.length; i++){ 
-                var point =  new google.maps.LatLng(results[i].lat, results[i].lng);           
+            for(var k = 0; k < results.length; k++){ 
+                var point =  new google.maps.LatLng(results[k].lat, results[k].lng);           
                 var distance = google.maps.geometry.spherical.computeDistanceBetween(pointOri, point);
-//                                google.maps.geometry.spherical.computeHeading(path.getAt(0), path.getAt(pathSize - 1));
 
-                
-                console.log("distance : " + distance);
-                
-                results[i].distance = distance;
+                results[k].distance = distance;
             }
                
             
             
-            console.log("beforeSort =======");
-            console.log("lat : " + lat + '   lng : ' + lng);
-            
-            
-            
-            for(var i = 0; i < results.length; i++){      
-                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + "   " + results[i].city  );
-                
-           
-            }
-                      
-            console.log("==================");
-            
+//            console.log("beforeSort =======");
+//            console.log("lat : " + lat + '   lng : ' + lng);
+//            
+//            
+//            
+//            for(var i = 0; i < results.length; i++){      
+//                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + "   " + results[i].city  );
+//                
+//           
+//            }
+//                      
+//            console.log("==================");
+//            
             results.sort(function(a,b){
                 return (a.distance - b.distance);
             })
             
-            console.log("afterSort =======");
-            for(var i = 0; i < results.length; i++){      
-                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + " "+ results[i].distance  +"  " + results[i].city  );
-                
-           
-            }
-            
-            console.log("==================");
+//            console.log("afterSort =======");
+//            for(var i = 0; i < results.length; i++){      
+//                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + " "+ results[i].distance  +"  " + results[i].city  );
+//                
+//           
+//            }
+//            
+//            console.log("==================");
             
             
             
@@ -595,42 +617,20 @@
                 
                 if(!isMerged){
                     etapes.push(result);
-                    console.log("jajoute : " + result.city);
+//                    console.log("jajoute : " + result.city);
                 }
                 
                 
-                console.log("!!etapes.lenght : "+ etapes.length);
+//                console.log("!!etapes.lenght : "+ etapes.length);
                 if(etapes.length >= 3) {
-                    console.log("je break");
                     break;
                 }
-                console.log("je break pas");
                 
             }
             
             
             return etapes;
             
-            
-            
-//            for(var i = 0; i < etapes.length; i++){
-//                
-//                var etape = etapes[i];
-//                
-//                for(var j = 0; j < results.length; j++){
-//                    var result = results[j];
-//                    
-//                    if(etape.city == result.city){
-//                        
-//                        etape = (etape.count > result.count)? etape: result;
-//                        
-//                        
-//                        console.log("je merge  : " + etape.city );
-//                    }  
-//                 
-//                }
-//                
-//            }
             
             
         },
@@ -735,6 +735,91 @@
           
           
         },
+        
+        
+        
+        addStreetViewPoint: function(data){
+            var self = this;
+            
+            console.log("addStreetViewPoint ");
+            
+            var marker = this.createMarker(45.227656,6.202846, "StreetView");
+            
+            var lat = 45.227656;
+            var lng = 6.202846;
+            var heading = 108.13;
+            var city = "Col de la Croix-de-Fer, Alpes";
+            var desc = "Un col doté d'un panorama extraordinaire.";
+            
+            var contentString = '<div id="contentInfo">'+
+                '<h1 id="firstHeading" class="firstHeading">'+ city +'</h1>'+
+                '<div id="bodyContent">'+
+                '<p>'+ desc +'</p>'+
+                '<a href="#" class="displayStreetView" data-lat="'+ lat +'" data-lng="'+ lng +'" data-heading="'+ heading +'"  >Voir</a>'
+                '</div>'+
+                '</div>';
+            
+            
+            
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            
+            
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(self.map, marker);
+            });
+
+            
+            $(document).on('click', '.displayStreetView', function(){
+                console.log("click displayStreetView"); 
+                
+               var data = $(this).data();
+               
+               console.log("data.lat :" + data.lat);
+               console.log("data.lng :" + data.lng);
+               console.log("data.h :" + data.heading);
+                
+               self.displayStreetView(data.lat, data.lng, data.heading) 
+            });
+
+
+//            $(".displayStreetView").bind('click', function(){
+//               
+//            });
+
+
+        },
+        
+        displayStreetView: function(lat, lng, heading){
+            
+            console.log("displayStreetView");
+            
+            var point = new google.maps.LatLng(lat, lng);
+//            var point = new google.maps.LatLng(48.629962,-1.508337);
+
+            this.panorama = this.map.getStreetView();
+            this.panorama.setPosition(point);
+            this.panorama.setPov(({
+                heading: heading,
+                pitch: 0
+            }));
+            
+            console.log("self.panorama : " + this.panorama);
+            
+            this.toggleStreetView();
+            
+        },
+        
+        
+        
+        toggleStreetView: function () {
+            var toggle = this.panorama.getVisible();
+            
+            this.panorama.setVisible(!toggle);
+        },
+
+        
 
 
         

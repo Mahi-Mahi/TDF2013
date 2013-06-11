@@ -1,4 +1,4 @@
-var mapStyle =
+var mapStyleTrace =
 [
   {
     "featureType": "administrative",
@@ -74,6 +74,76 @@ var mapStyle =
     "featureType": "road",
     "stylers": [
       { "visibility": "off" }
+    ]
+  }
+];
+
+
+mapStyleSearch =
+[
+  {
+    "featureType": "administrative.province",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "administrative.neighborhood",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "poi",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "visibility": "on" }
+    ]
+  },{
+    "featureType": "transit",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "landscape",
+    "stylers": [
+      { "visibility": "simplified" }
+    ]
+  },{
+    "stylers": [
+      { "hue": "#00aaff" },
+      { "saturation": -20 },
+      { "lightness": 28 },
+      { "gamma": 0.75 }
+    ]
+  },{
+    "featureType": "administrative.province",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "water",
+    "stylers": [
+      { "visibility": "simplified" },
+      { "lightness": -34 },
+      { "saturation": -43 }
+    ]
+  },{
+    "featureType": "landscape",
+    "stylers": [
+      { "lightness": 42 }
+    ]
+  },{
+    "featureType": "administrative.country",
+    "stylers": [
+      { "lightness": 57 }
     ]
   }
 ];
