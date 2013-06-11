@@ -52,10 +52,38 @@
 	width:251px;
 }
 
-
 .home-inner .fight {
 	height:211px;
 	left:513px;
 	top:285px;
 	width:294px;
+}
+
+.home-search {
+	left:366px;
+	top:224px;
+	width:252px;
+}
+
+#search {
+	border:none;
+	background:#fff;
+	color:#C1C1C1;
+	display:block;
+	float:left;
+	font:400 14px/2 'Lato', Verdana, Arial, sans-serif;
+	height:28px
+	margin:0;
+	padding:0;
+	width:200px;
+}
+
+.submit {
+	border:none;
+	background:none;
+	display:block;
+	height:28px;
+	margin:0;
+	padding:0;
+	width:24px;
 }
