@@ -515,6 +515,8 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 	my.traces = {};
+        
+        my.gmapApi = null;
 
 	my.init = function() {
 
@@ -523,8 +525,42 @@ TDF.Traces = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+                
+                
+                google.maps.event.addDomListener(window, 'load', this.initializeGmap);
+                      
 
 	};
+        
+        my.initializeGmap = function(){
+                //Config Gmap
+                var mapId = 'gmap-traces';
+                var mapTypeId = google.maps.MapTypeId.ROADMAP;
+                var startlat = 47.754098;
+                var startlng = 3.669434;
+                var zoom = 5;
+
+                var map = jQuery("#" + mapId);
+
+      
+                var mapOptions = {
+                    mapTypeId: mapTypeId,
+                    center: new google.maps.LatLng(startlat, startlng),
+                    zoom: zoom,
+                    zoomControl : true,
+                    zoomControlOpt: {
+                        style : 'SMALL',
+                        position: 'TOP_LEFT'
+                    },
+                    markerIconImg: '/img/traces/point-simple-ombre.png',
+                    markerCircleIconImg: '/img/traces/point-boucle-ombre.png'
+                    //styles: mapStyleTrace
+                };
+                
+ 
+                my.gmapApi = map.gmapApi(mapOptions);
+        };
+        
 
 	my.render = function(args) {
 
@@ -661,6 +697,10 @@ TDF.Traces = (function() {
 	};
 
 	my.display = function() {
+
+
+                console.log("display TRACES");
+                my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
 		// GTAB

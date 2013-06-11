@@ -152,13 +152,19 @@ header .fight.active a {
 }
 
 .content .map-container {
-	background:url(/img/traces/bg-map.png) left top no-repeat;
+	
 	float: left;
 	display:block;
 	position:relative;
 	width: 512px;
 	height:422px;
 }
+
+.content .map-container #gmap-traces{
+    width: 100%;
+    height: 100%;
+}
+
 .content .right {
 	float: left;
 	width: 250px;
