@@ -1,6 +1,7 @@
 /* global console */
 /* global google  */
 /* global mapStyleTrace */
+/* global mapStyleSearch */
 
 var $main, $inner;
 
@@ -340,15 +341,6 @@ TDF.Home = (function() {
 		});
 
 
-		console.log("Home $main :" + $main);
-
-		console.log("$main.id : " + $main.attr('id'));
-
-		//                for(var i in $main){
-		//                    console.log(i + " :  " + $main[i]);
-		//                }
-
-
 		/*
 		// GTAB
         searchInput = $('#inputGeoloc');
@@ -361,20 +353,22 @@ TDF.Home = (function() {
 	my.render = function() {
 
 		TDF.loadTemplate(this);
-
-
-		this.autocomplete_init();
+                
+                my.autocomplete_init();
 
 	};
+        
+        
+        my.autocomplete_init = function(){
+            
+            
+            
+              if (jQuery('#search').length) {
+                    var input = document.getElementById('search');
+                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+                    input.className = '';
+                   
 
-
-	my.autocomplete_init = function() {
-
-
-
-		if (jQuery('#search').length) {
-
-			console.log("auto init 1111");
 
 			var input = document.getElementById('search');
 
@@ -397,41 +391,23 @@ TDF.Home = (function() {
 				}
 
 
-
-				//            var address = '';
-				//            if (place.address_components) {
-				//              address = [
-				//                (place.address_components[0] && place.address_components[0].short_name || ''),
-				//                (place.address_components[1] && place.address_components[1].short_name || ''),
-				//                (place.address_components[2] && place.address_components[2].short_name || '')
-				//              ].join(' ');
-				//            }
-
-			});
+                            
+                        });
+                        
+                        jQuery(input).bind('keydown', function(e) {
+                                if(e.keyCode === 13) {
 
 
-			jQuery('#city_search').submit(function() {
-				return false;
-			});
+                                } 
+                                else {
 
+                                }
+                            });
+                
+              }
+          
+        };
 
-			jQuery(input).bind('keydown', function(e) {
-
-				console.log("je tape : " + e.keyCode);
-
-				if (e.keyCode === 13) {
-
-
-				} else {
-
-				}
-			});
-
-
-
-		}
-
-	};
 
 	return my;
 }());
@@ -442,10 +418,14 @@ TDF.CitySearch = (function() {
 	var my = {};
 
 	my.name = 'search';
+        
+        my.gmapApi = null;
 
 	my.init = function() {
 
 		console.log("CitySearch : $main : " + $main);
+
+                google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		/*
 		$main.on('submit', '.search #city_search', function(event) {
@@ -473,30 +453,97 @@ TDF.CitySearch = (function() {
 		*/
 
 	};
-
+        
 	my.render = function(args) {
 
 		TDF.loadTemplate(this);
 
 		$main.find('#search').val(args.city_name);
+ 
+                my.autocomplete_init();          
 
-		console.log("render CitySearchh");
-
-		/*
-		// GTAB
-		initializeGmap();
-		autocomplete_init();
-		*/
-		// gmap.api('search', args);
 
 	};
 
 	my.initializeGmap = function() {
 
+                //Config Gmap
+                var mapId = 'gmap-search';
+                var mapTypeId = google.maps.MapTypeId.ROADMAP;
+                var startlat = 47.754098;
+                var startlng = 3.669434;
+                var zoom = 5;
+
+                var map = jQuery("#" + mapId);
+
+      
+                var mapOptions = {
+                    mapTypeId: mapTypeId,
+                    center: new google.maps.LatLng(startlat, startlng),
+                    zoom: zoom,
+                    zoomControl : true,
+                    zoomControlOpt: {
+                        style : 'SMALL',
+                        position: 'TOP_LEFT'
+                    },
+                    markerIconImg: '/img/recherche/recherche_pin.png',
+                    markerIconSize: [58, 70],
+                    markerLabelIconImg: '/img/recherche/recherche_pin_nearby.png', 
+                    styles: mapStyleSearch
+                };
+                
+                my.gmapApi = map.gmapApi(mapOptions);
 	};
 
 	my.autocomplete_init = function() {
+            
+              if (jQuery('#search').length) {
+                    var input = document.getElementById('search');
+                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+                    input.className = '';
+                   
 
+                    google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+
+                        var place = gMapAutocomplete.getPlace();
+
+                        if (!place.geometry) {
+                          input.className = 'notfound';
+                          return;
+                        }
+                        
+                        // If the place has a geometry, then present it on a map.
+                        if (place.geometry.viewport) {
+
+                            my.gmapApi.getMap().fitBounds(place.geometry.viewport);
+                        } else {
+                            my.gmapApi.getMap().setCenter(place.geometry.location);
+                            my.gmapApi.getMap().setZoom(17);  // Why 17? Because it looks good.
+                        }
+
+
+                        my.gmapApi.findEtapesNear(place.geometry.location.lat(), place.geometry.location.lng(), TDF.Data.legs);
+
+
+
+                    });
+
+
+                    jQuery('#city_search').submit(function() {
+                        return false;
+                    });
+
+
+                    jQuery(input).bind('keydown', function(e) {
+                        if(e.keyCode === 13) {
+
+
+                        } 
+                        else {
+                            
+                        }
+                    });
+                }
 	};
 
 	return my;
@@ -523,9 +570,18 @@ TDF.Traces = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+ 
+                google.maps.event.addDomListener(window, 'load', my.initializeGmap);
+                      
 
-		// this.initializeGmap();
-		// google.maps.event.addDomListener(window, 'load', this.initializeGmap);
+
+		$main.on('click', '.traces #select-all', function() {
+			console.log(jQuery(this).prop('checked'));
+			if (jQuery(this).prop('checked')) {
+				$inner.find('#multi-select').prop('checked', true);
+				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
+			}
+		});
 
 	};
 
@@ -788,6 +844,10 @@ TDF.Traces = (function() {
 
 		} else {
 			$main.find('.traces-right').addClass('disabled');
+
+			$main.find('.winner .winner-pic').attr('src', '/img/traces/vainqueur_silhouette.png');
+			$main.find('.winner .winner-status').html('');
+
 
 			$main.find('.winner .name').html('');
 			$main.find('.winner .flag img').attr('src', '/img/pix.gif');
@@ -1061,6 +1121,9 @@ TDF.Winners = (function() {
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
+
+			console.log(".tooltips();");
+			$inner.find(".tours a[title]").tooltips();
 
 			$winner.slideDown();
 		}
@@ -1478,7 +1541,15 @@ TDF.Data = (function() {
 					jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 						console.log(textStatus);
 						my.places = json;
-						callback();
+						
+                                                
+                                                jQuery.getJSON('/data/json/legs.json', function(json, textStatus) {
+                                                        console.log(textStatus);
+                                                        my.legs = json;
+                                                        callback();
+                                                });
+                                                
+                                                
 					});
 
 				});

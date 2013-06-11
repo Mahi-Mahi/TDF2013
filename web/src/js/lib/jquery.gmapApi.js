@@ -22,11 +22,13 @@
         this.element = element;
 
         this.map = null;
+        this.mapBounds = null;
 
         // this.currentPosition = null;
         
         this.markerIcon = null;
         this.markerCircleIcon = null;
+        this.markerLabelIcon = null;
         
         this.navigation = null;
 
@@ -115,7 +117,13 @@
         },
         styles: null,
         markerIconImg: null,
+        markerIconSize: [26, 26],
+        markerIconAnchor: [0, 0],
         markerCircleIconImg: null,
+        markerCircleIconSize: [26, 26],
+        markerCircleIconAnchor: [13, 13],
+        markerLabelIconImg: null,
+        markerLabelIconSize: [67, 84],
         isAnimated: false,
         debugMode: true
     };
@@ -187,13 +195,14 @@
          * Create all icon
          */
          _createImage: function() {
-
+             var self = this;
+         
             if(this.settings.markerIconImg != null){
                 this.markerIcon = {
                     url: this.settings.markerIconImg,
-                    size: new google.maps.Size(26, 26),
+                    size: new google.maps.Size(self.settings.markerIconSize[0], self.settings.markerIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(13, 13)
+                    anchor: new google.maps.Point(self.settings.markerIconSize[0]/2, self.settings.markerIconSize[1]/2)
                 };
             }
              
@@ -201,9 +210,18 @@
             if(this.settings.markerCircleIconImg != null){
                 this.markerCircleIcon = {
                     url: this.settings.markerCircleIconImg,
-                    size: new google.maps.Size(26, 26),
+                    size: new google.maps.Size(self.settings.markerCircleIconSize[0], self.settings.markerCircleIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(13, 13)
+                    anchor: new google.maps.Point(self.settings.markerCircleIconSize[0]/2, self.settings.markerCircleIconSize[1]/2)
+                };
+            }
+            
+            if(this.settings.markerLabelIconImg != null){
+                this.markerLabelIcon = {
+                    url: this.settings.markerLabelIconImg,
+                    size: new google.maps.Size(self.settings.markerLabelIconSize[0], self.settings.markerLabelIconSize[1]),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(self.settings.markerLabelIconSize[0] / 2, self.settings.markerLabelIconSize[1] - 10)
                 };
             }
               
@@ -241,11 +259,17 @@
          */
         displayEtape: function(tour){
             for(var i = 0; i < tour['markers'].length; i++){
-                tour['markers'][i].setMap(this.map);
+                var marker = tour['markers'][i];
+                marker.setMap(this.map);
+                
+                this.mapBounds.extend(marker.getPosition());
             }
 
             for(var i = 0; i < tour['circles'].length; i++){
-                tour['circles'][i].setMap(this.map);
+                var circle = tour['circles'][i];
+                circle.setMap(this.map);
+                
+                this.mapBounds.extend(circle.getPosition());
             }
 
             for(var i = 0; i < tour['dashedlines'].length; i++){
@@ -268,6 +292,8 @@
             var self = this;
 
             this.clearMap();
+            
+            this.mapBounds = new google.maps.LatLngBounds();
 
             $.each(years, function(key, year) {
 
@@ -298,17 +324,20 @@
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['circles'].push(circle);
+                                self.mapBounds.extend(circle.getPosition());
                             }
                             else{
                                 var marker;
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
-
+                                self.mapBounds.extend(marker.getPosition());
+                                
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
-
+                                self.mapBounds.extend(marker.getPosition());
+                                
+                                
                                 var line;
-   
                                 line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
                                 self.tours[year]['lines'].push(line);           
                             }
@@ -330,6 +359,11 @@
             
             if(this.settings.isAnimated)
                 this.animateLine();
+            
+            
+            
+            
+            this.map.fitBounds(this.mapBounds);
             
         },
 
@@ -366,7 +400,7 @@
                 position: new google.maps.LatLng(plat, plng),
                 map: self.map,
                 title: title,
-                icon: self.markerIcon,
+                icon: self.markerLabelIcon,
                 zIndex: 1
             });
 
@@ -548,13 +582,19 @@
             var etapes = [];
             var bounds = new google.maps.LatLngBounds();
 
+
+            
             
             //First search (little size)
             var result = this._findEtapes(data, lat, lng, 0.05, 0.05);
             etapes = result;
             
-            console.log("Premiere recherche nb result  : " + etapes.length);
+            //Si pas de résultat proche, on met le marker de recherche
+            if(etapes.length === 0){
+                this.createMarker(lat, lng, 'Ma recheche');
+            }
             
+          
             if(etapes.length < 3){
                 //Second search (middle size)
                 result = this._findEtapes(data, lat, lng, 0.5, 0.5);
@@ -582,7 +622,7 @@
           
             if(etapes.length > 1)
                 this.map.fitBounds(bounds);
-          
+            
         },
         
         /**
@@ -634,6 +674,10 @@
             
             for(var i = 0; i < results.length; i++){
                 
+                if(etapes.length >= 3) {
+                    break;
+                }
+                
                 var result = results[i];
                 
                 var isMerged = false;
@@ -658,9 +702,9 @@
                 
                 
 //                console.log("!!etapes.lenght : "+ etapes.length);
-                if(etapes.length >= 3) {
-                    break;
-                }
+//                if(etapes.length >= 3) {
+//                    break;
+//                }
                 
             }
             

@@ -14,6 +14,7 @@
 	    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
 	    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places,geometry"></script>
+		<script src="/js/modernizr.js" type="text/javascript"></script>
 		<script src="/js/scripts.js" type="text/javascript"></script>
 
 	</head>
@@ -64,7 +65,12 @@
 			<div id="template-search" class="template">
 				<header></header>
 				<div class="content">
-					<div id="gmap"></div>
+                                        <form id="city_search" method="get">
+						<input type="text" id="search" name="city" value="" placeholder="ville" />
+					</form>
+                                        <div class="map-container-full">
+                                            <div id="gmap-search"></div>
+                                        </div>
 				</div>
 				<footer></footer>
 			</div>
