@@ -9,3 +9,53 @@
 	position:relative;
 	width:1000px;
 }
+
+.home-block {
+	display:block;
+	margin:0;
+	padding:0;
+	position:absolute;
+	z-index:2;
+}
+
+.home-block a {
+	display:block;
+	font-size:0;
+	height:100%;
+	line-height:0;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	text-indent:100%;
+	width:100%;
+	white-space:nowrap;
+}
+
+.home-inner .traces {
+	height:214px;
+	left:18px;
+	top:38px;
+	width:283px;
+}
+
+.home-inner .streetview {
+	height:247px;
+	left:679px;
+	top:38px;
+	width:319px;
+}
+
+.home-inner .winners {
+	height:211px;
+	left:202px;
+	top:285px;
+	width:251px;
+}
+
+
+.home-inner .fight {
+	height:211px;
+	left:513px;
+	top:285px;
+	width:294px;
+}
