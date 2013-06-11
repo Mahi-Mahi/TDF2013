@@ -124,14 +124,14 @@ module.exports = function(grunt) {
             dest: 'dev/',
             filter: 'isFile'
           }, {
+            src: 'src/js/lib/modernizr.js',
+            cwd: 'src/',
+            dest: 'dev/js/modernizr.js'
+          }, {
             expand: true,
             src: '<%= all_folders %>',
             cwd: 'src/',
             dest: 'dev/'
-          }, {
-            src: 'src/js/lib/modernizr.js',
-            cwd: 'src/',
-            dest: 'dev/js/modernizr.js'
           }
         ]
       },

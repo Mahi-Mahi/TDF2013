@@ -45,7 +45,7 @@ a {
 	width: 250px;
 }
 
-.content .map-container {	
+.content .map-container {
 	float: left;
 	display:block;
 	position:relative;
@@ -82,3 +82,4 @@ a {
 @import "_streetview";
 @import "_fights";
 @import "_footer";
+@import "_tooltips";

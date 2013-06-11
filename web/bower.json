@@ -8,8 +8,7 @@
     "console-js": "*",
     "pathjs": "git@github.com:olivM/pathjs.git",
     "jquery-selectbox": "git://github.com/olivM/jQuery-Selectbox.git",
-    "jquery-textfill": "git://github.com/olivM/jQuery-TextFill.git",
-    "BubblePointToolTip": "git://github.com/olivM/BubblePointToolTip.git"
+    "jquery-textfill": "git://github.com/olivM/jQuery-TextFill.git"
   },
   "ignore": [
     "**/.*",

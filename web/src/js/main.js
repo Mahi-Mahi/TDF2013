@@ -353,27 +353,22 @@ TDF.Home = (function() {
 	my.render = function() {
 
 		TDF.loadTemplate(this);
-                
-                my.autocomplete_init();
+
+		my.autocomplete_init();
 
 	};
-        
-        
-        my.autocomplete_init = function(){
-            
-            
-            
-              if (jQuery('#search').length) {
-                    var input = document.getElementById('search');
-                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-                    input.className = '';
-                   
 
 
+	my.autocomplete_init = function() {
+
+
+
+		if (jQuery('#search').length) {
 			var input = document.getElementById('search');
+			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+			input.className = '';
 
 			console.log("input : " + input);
-			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 
 			console.log("gMapAutocomplete :" + gMapAutocomplete);
 			console.log("google :" + google);
@@ -391,22 +386,21 @@ TDF.Home = (function() {
 				}
 
 
-                            
-                        });
-                        
-                        jQuery(input).bind('keydown', function(e) {
-                                if(e.keyCode === 13) {
+
+			});
+
+			jQuery(input).bind('keydown', function(e) {
+				if (e.keyCode === 13) {
 
 
-                                } 
-                                else {
+				} else {
 
-                                }
-                            });
-                
-              }
-          
-        };
+				}
+			});
+
+		}
+
+	};
 
 
 	return my;
@@ -418,14 +412,14 @@ TDF.CitySearch = (function() {
 	var my = {};
 
 	my.name = 'search';
-        
-        my.gmapApi = null;
+
+	my.gmapApi = null;
 
 	my.init = function() {
 
 		console.log("CitySearch : $main : " + $main);
 
-                google.maps.event.addDomListener(window, 'load', my.initializeGmap);
+		google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		/*
 		$main.on('submit', '.search #city_search', function(event) {
@@ -453,97 +447,96 @@ TDF.CitySearch = (function() {
 		*/
 
 	};
-        
+
 	my.render = function(args) {
 
 		TDF.loadTemplate(this);
 
 		$main.find('#search').val(args.city_name);
- 
-                my.autocomplete_init();          
+
+		my.autocomplete_init();
 
 
 	};
 
 	my.initializeGmap = function() {
 
-                //Config Gmap
-                var mapId = 'gmap-search';
-                var mapTypeId = google.maps.MapTypeId.ROADMAP;
-                var startlat = 47.754098;
-                var startlng = 3.669434;
-                var zoom = 5;
+		//Config Gmap
+		var mapId = 'gmap-search';
+		var mapTypeId = google.maps.MapTypeId.ROADMAP;
+		var startlat = 47.754098;
+		var startlng = 3.669434;
+		var zoom = 5;
 
-                var map = jQuery("#" + mapId);
+		var map = jQuery("#" + mapId);
 
-      
-                var mapOptions = {
-                    mapTypeId: mapTypeId,
-                    center: new google.maps.LatLng(startlat, startlng),
-                    zoom: zoom,
-                    zoomControl : true,
-                    zoomControlOpt: {
-                        style : 'SMALL',
-                        position: 'TOP_LEFT'
-                    },
-                    markerIconImg: '/img/recherche/recherche_pin.png',
-                    markerIconSize: [58, 70],
-                    markerLabelIconImg: '/img/recherche/recherche_pin_nearby.png', 
-                    styles: mapStyleSearch
-                };
-                
-                my.gmapApi = map.gmapApi(mapOptions);
+
+		var mapOptions = {
+			mapTypeId: mapTypeId,
+			center: new google.maps.LatLng(startlat, startlng),
+			zoom: zoom,
+			zoomControl: true,
+			zoomControlOpt: {
+				style: 'SMALL',
+				position: 'TOP_LEFT'
+			},
+			markerIconImg: '/img/recherche/recherche_pin.png',
+			markerIconSize: [58, 70],
+			markerLabelIconImg: '/img/recherche/recherche_pin_nearby.png',
+			styles: mapStyleSearch
+		};
+
+		my.gmapApi = map.gmapApi(mapOptions);
 	};
 
 	my.autocomplete_init = function() {
-            
-              if (jQuery('#search').length) {
-                    var input = document.getElementById('search');
-                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-                    input.className = '';
-                   
 
-                    google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
-
-                        var place = gMapAutocomplete.getPlace();
-
-                        if (!place.geometry) {
-                          input.className = 'notfound';
-                          return;
-                        }
-                        
-                        // If the place has a geometry, then present it on a map.
-                        if (place.geometry.viewport) {
-
-                            my.gmapApi.getMap().fitBounds(place.geometry.viewport);
-                        } else {
-                            my.gmapApi.getMap().setCenter(place.geometry.location);
-                            my.gmapApi.getMap().setZoom(17);  // Why 17? Because it looks good.
-                        }
+		if (jQuery('#search').length) {
+			var input = document.getElementById('search');
+			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+			input.className = '';
 
 
-                        my.gmapApi.findEtapesNear(place.geometry.location.lat(), place.geometry.location.lng(), TDF.Data.legs);
+			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+
+				var place = gMapAutocomplete.getPlace();
+
+				if (!place.geometry) {
+					input.className = 'notfound';
+					return;
+				}
+
+				// If the place has a geometry, then present it on a map.
+				if (place.geometry.viewport) {
+
+					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
+				} else {
+					my.gmapApi.getMap().setCenter(place.geometry.location);
+					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
+				}
+
+
+				my.gmapApi.findEtapesNear(place.geometry.location.lat(), place.geometry.location.lng(), TDF.Data.legs);
 
 
 
-                    });
+			});
 
 
-                    jQuery('#city_search').submit(function() {
-                        return false;
-                    });
+			jQuery('#city_search').submit(function() {
+				return false;
+			});
 
 
-                    jQuery(input).bind('keydown', function(e) {
-                        if(e.keyCode === 13) {
+			jQuery(input).bind('keydown', function(e) {
+				if (e.keyCode === 13) {
 
 
-                        } 
-                        else {
-                            
-                        }
-                    });
-                }
+				} else {
+
+				}
+			});
+		}
 	};
 
 	return my;
@@ -570,9 +563,9 @@ TDF.Traces = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
- 
-                google.maps.event.addDomListener(window, 'load', my.initializeGmap);
-                      
+
+		google.maps.event.addDomListener(window, 'load', my.initializeGmap);
+
 
 
 		$main.on('click', '.traces #select-all', function() {
@@ -1085,13 +1078,13 @@ TDF.Winners = (function() {
 				if (winner.years[year]) {
 					tour = winner.years[year];
 					if (parseInt(tour.position, 10) === 1) {
-						bulle = 'Vainqueur en ' + year + '<br />' +
-							' en ' + TDF.Data.traces[year].winner_total_time.replace(/"/, "''") + '<br />' +
-							' (' + TDF.Data.traces[year].winner_avg_speed + ') <br />' +
+						bulle = 'Vainqueur en ' + year + "  " +
+							' en ' + TDF.Data.traces[year].winner_total_time.replace(/"/, "''") + ' ' +
+							' (' + TDF.Data.traces[year].winner_avg_speed + ')  ' +
 							" à l'age de " + (year - winner.birthyear) + " ans";
 						pos_title = 'Victoire finale';
 					} else {
-						bulle = tour.position + '<exp>e</exp> en ' + year;
+						bulle = tour.position + 'ème en ' + year;
 						switch (tour.position) {
 							default: pos_title = tour.position;
 							break;
@@ -1122,8 +1115,24 @@ TDF.Winners = (function() {
 
 			$winner.find('.tours').html(winner_tours.join(' '));
 
-			console.log(".tooltips();");
-			$inner.find(".tours a[title]").tooltips();
+			$inner.find(".tours a[title]").tooltip({
+				position: {
+					my: "center bottom-20",
+					at: "center top",
+					content: function() {
+						var element = jQuery( this );
+						return element.attr( "title" );
+					},
+					using: function(position, feedback) {
+						jQuery(this).css(position);
+						jQuery("<div>")
+							.addClass("arrow")
+							.addClass(feedback.vertical)
+							.addClass(feedback.horizontal)
+							.appendTo(this);
+					}
+				}
+			}); //.tooltip('open');
 
 			$winner.slideDown();
 		}
@@ -1541,15 +1550,15 @@ TDF.Data = (function() {
 					jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 						console.log(textStatus);
 						my.places = json;
-						
-                                                
-                                                jQuery.getJSON('/data/json/legs.json', function(json, textStatus) {
-                                                        console.log(textStatus);
-                                                        my.legs = json;
-                                                        callback();
-                                                });
-                                                
-                                                
+
+
+						jQuery.getJSON('/data/json/legs.json', function(json, textStatus) {
+							console.log(textStatus);
+							my.legs = json;
+							callback();
+						});
+
+
 					});
 
 				});
