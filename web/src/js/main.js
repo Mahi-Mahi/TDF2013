@@ -1380,7 +1380,6 @@ TDF.StreetView = (function() {
 			$template = jQuery('#template-streetview-place');
 			for(place_id in TDF.Data.places ){
 				place = TDF.Data.places[place_id];
-				console.log(place);
 				content = $template.html()
 					.replace(':place_url', my.base_url + place_id + '/')
 					.replace(':place_type', place.hyperlapse ? 'hyperlapse' : 'streetview')
