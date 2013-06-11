@@ -983,7 +983,7 @@ TDF.Winners = (function() {
 			}
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
-			jQuery('.winners_list').jScrollPane();
+			$main.find('.winners_list').jScrollPane();
 
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
