@@ -125,7 +125,7 @@ module.exports = function(grunt) {
             filter: 'isFile'
           }, {
             src: 'src/js/lib/modernizr.js',
-            cwd: 'src/',
+            cwd: '',
             dest: 'dev/js/modernizr.js'
           }, {
             expand: true,
