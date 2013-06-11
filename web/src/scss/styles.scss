@@ -5,6 +5,8 @@ body {
 	color:#383C40;
 }
 
+button:focus, input:focus, textarea:focus { outline:none; }
+
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 a {
@@ -1060,12 +1062,14 @@ header .fight.active a {
 	top: 0;
 	left: 0;
 }
+
 .streetview-left .list {
 	width:258px;
 	float: left;
 }
-.streetview-left .list ul {
-	height: 450px;
+
+.streetview-list {
+	height: 420px;
 	overflow: auto;
 }
 .streetview-left .detail {
@@ -1117,6 +1121,33 @@ header .fight.active a {
 .streetview-list a {
 	color:#383C40;
 	font:normal 14px/1.3 'Lato', Arial, sans-serif;
+}
+
+.streetview-list .streetview, .streetview-header .streetview {
+	background:url(/img/lieux/pin-photo.png) left top no-repeat;
+	display:inline-block;
+	margin:0;
+	padding:0 0 0 30px;
+	height:32px;
+	vertical-align:top;
+}
+
+.streetview-list .hyperlapse, .streetview-header .hyperlapse {
+	background:url(/img/lieux/pin-hyperlapse.png) left top no-repeat;
+	display:inline-block;
+	margin:0;
+	padding:0 0 0 35px;
+	height:32px;
+	vertical-align:top;
+}
+
+.streetview-header .streetview, .streetview-header .hyperlapse {
+	color:#383C40;
+	font:normal 12px/32px 'Lato', Arial, sans-serif;
+}
+
+.streetview-header {
+	margin:5px 5px 40px 8px;
 }
 
 /* SELECTBOX */
