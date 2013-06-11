@@ -24,10 +24,6 @@
         this.map = null;
 
         // this.currentPosition = null;
-
-        // this.isGeolocated = false;
-
-        // this.geolocationIcon = null;
         
         this.markerIcon = null;
         this.markerCircleIcon = null;
@@ -79,6 +75,10 @@
      *  message                     {array}         Array of different messages
      *      geolocate_failed        {string}        Geolocate failed message
      *      not_compatible          {string}        Not compatible browser message
+     *  styles                      {array}         Styles of the map
+     *  markerIconImg               {string}        URL for marker image
+     *  markerCircleIconImg         {string}        URL for circle marker
+     *  isAnimated                  {boolean}       Animate lines    
      *  debugMode                   {boolean}       Debug mode
      *  
      */
@@ -91,15 +91,15 @@
         },
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: null,
-        routeControlImageUrls: null,
-        geolocationIconUrl: null,
-        startNavigationButton: 'startGmapNavigation',
-        stopNavigationButton: 'stopGmapNavigation',
-        geolocationOptions: {
-            maximumAge: Infinity,
-            timeout: 60000,
-            enableHighAccuracy: true
-        },
+//        routeControlImageUrls: null,
+//        geolocationIconUrl: null,
+//        startNavigationButton: 'startGmapNavigation',
+//        stopNavigationButton: 'stopGmapNavigation',
+//        geolocationOptions: {
+//            maximumAge: Infinity,
+//            timeout: 60000,
+//            enableHighAccuracy: true
+//        },
         controlStyle: {
             margin: '5px',
             padding: '1px 6px',
@@ -147,27 +147,13 @@
 
             this.settings = $.extend(true, {}, $.GmapApi.defaults, options);
 
-            // this._initDefaultPosition();
-
             this._initGmap();
 
             this._createImage();
 
-            // this._geolocate();
-
             this._debug();
         },
-        /**
-         * _initDefaultPosition
-         */
-        // _initDefaultPosition: function() {
-        //     this.defaultPosition = {
-        //         latitude: $(this.element).attr('data-lat'),
-        //         longitude: $(this.element).attr('data-lng'),
-        //         location: $(this.element).attr('data-location'),
-        //         title: $(this.element).attr('data-title')
-        //     };
-        // },
+
         /**
          * _initGmap
          * 
@@ -175,7 +161,7 @@
          */
         _initGmap: function() {
 
-            this.map = new google.maps.Map( document.getElementById(this.element.id),
+            this.map = new google.maps.Map(document.getElementById(this.element.id),
             {
                 mapTypeId: this.settings.mapTypeId,
                 center: this.settings.center,
@@ -188,6 +174,9 @@
         },
         
         
+        /**
+         * Getter for map
+         */
         getMap: function(){
             return this.map;
         },
@@ -195,7 +184,7 @@
         /**
          * _createImage
          * 
-         * Create geolocation icon
+         * Create all icon
          */
          _createImage: function() {
 
@@ -221,7 +210,12 @@
          },
         
         
-
+        /**
+         * ClearMap
+         * 
+         * Delete all overlay on the map
+         * 
+         */
         clearMap: function(){
 
             for(var i = 0; i < this.lines.length; i++){
@@ -241,6 +235,10 @@
             }
         },
 
+
+        /**
+         * DisplayEtape
+         */
         displayEtape: function(tour){
             for(var i = 0; i < tour['markers'].length; i++){
                 tour['markers'][i].setMap(this.map);
@@ -260,6 +258,12 @@
 
         },
 
+        /**
+         * CreateEtapes
+         * 
+         * Create etape from data
+         * 
+         */
         createEtapes: function(years, tours){
             var self = this;
 
@@ -346,6 +350,10 @@
             
         },
 
+        /**
+         * CreateMarker
+         * 
+         */
         createMarker: function(plat, plng, title){
             var self = this;
             
@@ -362,6 +370,12 @@
 
         },
         
+        /**
+         * CreateMarkerWithData
+         * 
+         * This marker have a label to display on the map (string, number)
+         * 
+         */
         createMarkerWithData: function(plat, plng, title, data){
             var self = this;
             
@@ -373,9 +387,7 @@
                 zIndex: 1
             });
 
-            console.log("data : " + data);
-
-
+            //MarkerLabel is an Object whitch extend google.maps.OverlayView
             var label = new MarkerLabel({
                 map: self.map
             });
@@ -386,14 +398,18 @@
             label.set("text", data);
             
             
-
-
             this.markers.push(marker);
 
             return marker;
 
         },
         
+        /**
+         * CreateMarker
+         * 
+         * Marker with different icon
+         * 
+         */
         createMarkerCircle: function(plat, plng, title){
             var self = this;
 
@@ -410,6 +426,12 @@
 
         },
 
+        /**
+         * CreateCircle
+         * 
+         * Zone Circle on the map
+         * 
+         */
         createCircle: function(plat, plng){
             var self = this;
 
@@ -432,6 +454,10 @@
             return circle;
         },
 
+        /**
+         * CreateLine
+         * 
+         */
         createLine: function(slat, slng, flat, flng, isOriented){
             var self = this;
             
@@ -465,6 +491,12 @@
             return line;
         },
         
+        /**
+         * AnimateLine
+         * 
+         * Animate Icon on the line
+         * 
+         */
         animateLine: function(){
             var self = this;
 
@@ -482,6 +514,10 @@
           
         },
 
+        /**
+         * CreateDashedLine
+         * 
+         */
         createDashedLine: function(slat, slng, flat, flng){
             var self = this;
 
@@ -514,20 +550,30 @@
 
         },
         
+        /////////////////////////////////////////////////////////////////////
+        // HOME
         
+        /**
+         * FindEtape
+         * 
+         * Find etape from data
+         * 
+         */
         findEtapesNear: function(lat, lng, data){
             var self = this;
             
             var etapes = [];
             var bounds = new google.maps.LatLngBounds();
 
-
+            
+            //First search (little size)
             var result = this._findEtapes(data, lat, lng, 0.05, 0.05);
             etapes = result;
             
             console.log("Premiere recherche nb result  : " + etapes.length);
             
             if(etapes.length < 3){
+                //Second search (middle size)
                 result = this._findEtapes(data, lat, lng, 0.5, 0.5);
                 
                 console.log("Deuxieme recherche nb result  : " + result.length);
@@ -537,9 +583,10 @@
                 
             }
             
+            //TODO: //Third search (large size)
             
             
-
+            //Redim map viewport
             for(var i = 0; i < etapes.length; i++){
                 var etape = etapes[i];
                 
@@ -555,6 +602,12 @@
           
         },
         
+        /**
+         * MergeEtape
+         * 
+         * merge result between two search
+         * 
+         */
         _mergeEtapes: function(etapes, results, lat, lng){
             
             var pointOri = new google.maps.LatLng(lat, lng);      
@@ -629,13 +682,16 @@
             }
             
             
-            return etapes;
-            
-            
-            
+            return etapes;   
         },
         
         
+        /**
+         * FindEtape
+         * 
+         * Find etape from lat lng
+         * 
+         */
         _findEtapes: function(data, lat, lng, offsetLat, offsetLng){
           
             var result = [];
@@ -682,7 +738,6 @@
                     
                     if(isNewCity){
                         var city = {city: startCity, lat:startLat, lng: startLng, count: 1 }
-                        console.log("New City S : " + startCity);
                         result.push(city);
                         lastStart = startCity;
                     }
@@ -707,37 +762,33 @@
                             result[k].count++;
                             lastFinish = finishCity;
                             isNewCity = false;
-                        }
-                        
+                        }  
                     }
                     
                     if(isNewCity){
                         var city2 = {city: finishCity, lat:finishLat, lng: finishLng, count: 1 }
-                        console.log("New City S : " + startCity);
                         result.push(city2);
                         lastFinish = finishCity;
                     }
                     
                     
                     
-                    console.log(etape.id + " : etape.finish.city : " + etape.finish.city);  
-                    console.log(etape.id + " : finishCity : " + finishCity);  
-                    
+//                    console.log(etape.id + " : etape.finish.city : " + etape.finish.city);  
+//                    console.log(etape.id + " : finishCity : " + finishCity);    
                 }
-            
-                
-          
             });
-            
-          
+
           
             return result;
-          
-          
         },
         
         
-        
+        /**
+         * AddStreetViewPoint
+         * 
+         * Add marker with infoWindow from data
+         * 
+         */
         addStreetViewPoint: function(data){
             var self = this;
             
@@ -772,47 +823,76 @@
 
             
             $(document).on('click', '.displayStreetView', function(){
-                console.log("click displayStreetView"); 
-                
-               var data = $(this).data();
-               
-               console.log("data.lat :" + data.lat);
-               console.log("data.lng :" + data.lng);
-               console.log("data.h :" + data.heading);
-                
+               var data = $(this).data();           
                self.displayStreetView(data.lat, data.lng, data.heading) 
             });
 
 
-//            $(".displayStreetView").bind('click', function(){
-//               
-//            });
+
+
+
+            var panoramaOptions = {
+                position: new google.maps.LatLng(0, 0),
+                pov: {
+                  heading: 0,
+                  pitch: 0
+                },
+                visible: false,
+                enableCloseButton: true,
+                panControl: true
+            };
+            
+            
+            //TODO: dynamiser "panoramaPreview"
+            this.panorama = new google.maps.StreetViewPanorama(document.getElementById("panoramaPreview" ), panoramaOptions);
+            this.map.setStreetView(this.panorama);
+
+
+            google.maps.event.addListener(self.panorama, "visible_changed", function() {
+                if (self.panorama.getVisible() && $("#panoramaPreview").is(':visible')){
+                    //moving the pegman around the map
+                }else if(self.panorama.getVisible() && $("#panoramaPreview").is(':hidden')){
+                    $("#panoramaPreview").show();
+                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
+                    
+                    
+                    self.map.setOptions({disableDefaultUI: true});
+                    self.map.setCenter(self.panorama.getPosition());
+                    
+                }
+                google.maps.event.addListener(self.panorama, "closeclick", function() {
+                    $("#panoramaPreview").hide();  
+                    $("#mapPreview").removeClass('minimap').addClass('bigmap'); ;
+                     
+                    
+                    self.map.setOptions({disableDefaultUI: false});
+                });
+            });  
 
 
         },
         
+        /**
+         * displayStreetView
+         * 
+         */
         displayStreetView: function(lat, lng, heading){
-            
-            console.log("displayStreetView");
-            
-            var point = new google.maps.LatLng(lat, lng);
-//            var point = new google.maps.LatLng(48.629962,-1.508337);
-
             this.panorama = this.map.getStreetView();
-            this.panorama.setPosition(point);
+                      
+            this.panorama.setPosition(new google.maps.LatLng(lat, lng));
             this.panorama.setPov(({
                 heading: heading,
                 pitch: 0
             }));
             
-            console.log("self.panorama : " + this.panorama);
-            
-            this.toggleStreetView();
-            
+            this.toggleStreetView(); 
         },
         
         
-        
+        /**
+         * toggleStreetView
+         * 
+         */
         toggleStreetView: function () {
             var toggle = this.panorama.getVisible();
             
@@ -822,189 +902,7 @@
         
 
 
-        
-        /**
-         * _geolocate
-         */
-        // _geolocate: function() {
-        //     var self = this;
-
-        //     GMaps.geolocate({
-        //         success: function(position) {
-        //             self.isGeolocated = true;
-
-        //             self.currentPosition = position;
-        //             self.map.setCenter(position.coords.latitude, position.coords.longitude);
-
-        //             self.map.addMarker({
-        //                 lat: position.coords.latitude,
-        //                 lng: position.coords.longitude
-        //             });
-        //         },
-        //         error: function(error) {
-        //             alert(self.settings.message.geolocate_failed + error.message);
-        //         },
-        //         not_supported: function() {
-        //             alert(self.settings.message.not_compatible);
-        //         },
-        //         always: function() {
-        //             setTimeout(
-        //                     function() {
-        //                         self._geoCodeMap();
-        //                     }, 200);
-        //         }
-        //     });
-        // },
-        /**
-         * _geoCodeMap
-         * 
-         * Add marker to current position
-         * 
-         */
-        // _geoCodeMap: function() {
-        //     var self = this;
-
-        //     GMaps.geocode({
-        //         address: this.defaultPosition.location,
-        //         callback: function(results, status) {
-
-        //             if (status === 'OK') {
-
-        //                 self.map.removeMarkers();
-
-        //                 var title = self.defaultPosition.title;
-
-        //                 var latlng = results[0].geometry.location;
-        //                 self.map.setCenter(latlng.lat(), latlng.lng());
-        //                 self.map.addMarker({
-        //                     lat: latlng.lat(),
-        //                     lng: latlng.lng(),
-        //                     infoWindow: {
-        //                         content: title + '<br>' + results[0].formatted_address
-        //                     }
-
-        //                 });
-
-        //                 if (self.isGeolocated) {
-        //                     self.map.cleanRoute();
-
-        //                     self.map.addMarker({
-        //                         lat: self.currentPosition.coords.latitude,
-        //                         lng: self.currentPosition.coords.longitude
-        //                     });
-
-        //                     $('.ccGmap').remove();
-
-        //                     if (null !== self.settings.routeControlImageUrls) {
-        //                         self._addRouteControl('walking', latlng.lat(), latlng.lng());
-        //                         self._addRouteControl('bicycling', latlng.lat(), latlng.lng());
-        //                         self._addRouteControl('driving', latlng.lat(), latlng.lng());
-
-        //                         self._drawNewRoute('walking', latlng.lat(), latlng.lng());
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     });
-        // },
-        /**
-         * _navigateOnMap
-         * 
-         * Geolocate user in real time
-         */
-        _navigateOnMap: function(self, newPosition) {
-
-            self.map.addMarker({
-                lat: newPosition.coords.latitude,
-                lng: newPosition.coords.longitude,
-                icon: self.geolocationIcon
-            });
-        },
-        /**
-         * _drawNewRoute
-         * 
-         * Draw route from point destination to location
-         * 
-         * @param {string} travelMode
-         * @param {string} latitude
-         * @param {string} longitude
-         */
-        _drawNewRoute: function(travelMode, latitude, longitude) {
-            this.map.drawRoute({
-                origin: [this.currentPosition.coords.latitude, this.currentPosition.coords.longitude],
-                destination: [latitude, longitude],
-                travelMode: travelMode
-                        //strokeColor: '#131540',
-                        //strokeOpacity: 1,
-                        //strokeWeight: 1
-            });
-        },
-        /**
-         * _addRouteControl
-         * 
-         * Create travel buttons : bicycling, walking and driving
-         * 
-         * @param {string} travelMode
-         * @param {string} latitude
-         * @param {string} longitude
-         */
-        _addRouteControl: function(travelMode, latitude, longitude) {
-            var self = this;
-
-            this.map.addControl({
-                position: 'top_right',
-                content: '<img src="' + this.settings.routeControlImageUrls[travelMode] + '">',
-                classes: ['control_' + travelMode + ' ccGmap'],
-                style: this.settings.controlStyle,
-                events: {
-                    click: function() {
-                        self.map.cleanRoute();
-                        self._drawNewRoute(travelMode, latitude, longitude);
-                    }
-                }
-            });
-        },
-        /**
-         * _startNavigation
-         * 
-         * Start navigation 
-         */
-        _startNavigation: function() {
-            if (navigator.geolocation) {
-                var self = this;
-
-                this.navigation = navigator.geolocation.watchPosition(
-                        function(position) {
-                            self._navigateOnMap(self, position);
-
-                        }
-                );
-            }
-        },
-        /**
-         * _stopNavigation
-         * 
-         * Stop navigation
-         */
-        _stopNavigation: function(){
-          if(navigator.geolocation){
-              navigator.geolocation.clearWatch(this.navigation);
-          }  
-        },
-        /**
-         * _events
-         */
-        _events: function(){
-          if(navigator.geolocation){
-            $('#' + this.settings.startGmapNavigation).on('click', function(){
-                self._startNavigation();
-            }); 
-
-            $('#' + this.settings.stopGmapNavigation).on('click', function(){
-                self._stopNavigation();
-            });   
-          }
-        },
+       
         /**
          * _debug
          * 
