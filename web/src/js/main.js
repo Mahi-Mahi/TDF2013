@@ -1337,13 +1337,17 @@ TDF.Fight = (function() {
 
 	my.fight = function() {
 
+
+
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
-		if (!$inner.hasClass('fight-start')) {
-			$inner.html(jQuery('.templates #template-fight-start').html());
-			$inner.attr('class', 'fight-start');
+		if ( TDF.loadTemplate(this, '-start') ){
+
 		}
+
+		$inner.attr('class', 'fight-start');
+
 		$inner.find('.next').text("Épreuve Suivante");
 
 		var $fighter_one = $main.find('.fighter_one');
@@ -1374,6 +1378,7 @@ TDF.Fight = (function() {
 		if (!isNaN(parseInt(my.args.step, 10))) {
 			my.args.step = parseInt(my.args.step, 10);
 		}
+		$inner.attr('class', 'fight-start step-'+my.args.step);
 
 		switch (my.args.step) {
 			default:
