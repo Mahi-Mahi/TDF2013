@@ -1,5 +1,6 @@
 /* global console */
 /* global google  */
+/* global mapStyleTrace */
 
 var $main, $inner;
 
@@ -553,8 +554,8 @@ TDF.Traces = (function() {
                         position: 'TOP_LEFT'
                     },
                     markerIconImg: '/img/traces/point-simple-ombre.png',
-                    markerCircleIconImg: '/img/traces/point-boucle-ombre.png'
-                    //styles: mapStyleTrace
+                    markerCircleIconImg: '/img/traces/point-boucle-ombre.png',
+                    styles: mapStyleTrace
                 };
                 
  
