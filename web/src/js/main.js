@@ -338,103 +338,100 @@ TDF.Home = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
-                
-                
-                console.log("Home $main :" +$main);
-                
-                console.log("$main.id : " + $main.attr('id'));
-                
-//                for(var i in $main){
-//                    console.log(i + " :  " + $main[i]);
-//                }
-                
+
+
+		console.log("Home $main :" + $main);
+
+		console.log("$main.id : " + $main.attr('id'));
+
+		//                for(var i in $main){
+		//                    console.log(i + " :  " + $main[i]);
+		//                }
+
 
 		/*
 		// GTAB
         searchInput = $('#inputGeoloc');
 */
-               
-		
+
+
 
 	};
 
 	my.render = function() {
 
 		TDF.loadTemplate(this);
-                
-                
-                 this.autocomplete_init();
+
+
+		this.autocomplete_init();
 
 	};
-        
-        
-        my.autocomplete_init = function(){
-            
-            
-            
-              if (jQuery('#search').length) {
-              
-                      console.log("auto init 1111");
-        
-                    var input = document.getElementById('search');
-                    
-                    console.log("input : " + input);
-                    var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-
-                    console.log("gMapAutocomplete :" + gMapAutocomplete);
-                    console.log("google :" + google);
-
-                    input.className = '';
-                   
-
-                    google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
-
-                        var place = gMapAutocomplete.getPlace();
-
-                        if (!place.geometry) {
-                          input.className = 'notfound';
-                          return;
-                        }
 
 
-         
-            //            var address = '';
-            //            if (place.address_components) {
-            //              address = [
-            //                (place.address_components[0] && place.address_components[0].short_name || ''),
-            //                (place.address_components[1] && place.address_components[1].short_name || ''),
-            //                (place.address_components[2] && place.address_components[2].short_name || '')
-            //              ].join(' ');
-            //            }
-
-                    });
-
-
-                    jQuery('#city_search').submit(function() {
-                        return false;
-                    });
-
-
-                    jQuery(input).bind('keydown', function(e) {
-
-                        console.log("je tape : " + e.keyCode);
-
-                        if(e.keyCode === 13) {
-
-
-                        } 
-                        else {
-                            
-                        }
-                    });
+	my.autocomplete_init = function() {
 
 
 
+		if (jQuery('#search').length) {
+
+			console.log("auto init 1111");
+
+			var input = document.getElementById('search');
+
+			console.log("input : " + input);
+			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+
+			console.log("gMapAutocomplete :" + gMapAutocomplete);
+			console.log("google :" + google);
+
+			input.className = '';
 
 
-                }
-          
-        };
+			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+
+				var place = gMapAutocomplete.getPlace();
+
+				if (!place.geometry) {
+					input.className = 'notfound';
+					return;
+				}
+
+
+
+				//            var address = '';
+				//            if (place.address_components) {
+				//              address = [
+				//                (place.address_components[0] && place.address_components[0].short_name || ''),
+				//                (place.address_components[1] && place.address_components[1].short_name || ''),
+				//                (place.address_components[2] && place.address_components[2].short_name || '')
+				//              ].join(' ');
+				//            }
+
+			});
+
+
+			jQuery('#city_search').submit(function() {
+				return false;
+			});
+
+
+			jQuery(input).bind('keydown', function(e) {
+
+				console.log("je tape : " + e.keyCode);
+
+				if (e.keyCode === 13) {
+
+
+				} else {
+
+				}
+			});
+
+
+
+		}
+
+	};
 
 	return my;
 }());
@@ -448,7 +445,7 @@ TDF.CitySearch = (function() {
 
 	my.init = function() {
 
-                console.log("CitySearch : $main : " + $main);
+		console.log("CitySearch : $main : " + $main);
 
 		/*
 		$main.on('submit', '.search #city_search', function(event) {
@@ -482,8 +479,8 @@ TDF.CitySearch = (function() {
 		TDF.loadTemplate(this);
 
 		$main.find('#search').val(args.city_name);
-                
-                console.log("render CitySearchh");
+
+		console.log("render CitySearchh");
 
 		/*
 		// GTAB
@@ -516,8 +513,8 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 	my.traces = {};
-        
-        my.gmapApi = null;
+
+	my.gmapApi = null;
 
 	my.init = function() {
 
@@ -526,42 +523,42 @@ TDF.Traces = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
-                
-                
-                google.maps.event.addDomListener(window, 'load', this.initializeGmap);
-                      
+
+		// this.initializeGmap();
+		// google.maps.event.addDomListener(window, 'load', this.initializeGmap);
 
 	};
-        
-        my.initializeGmap = function(){
-                //Config Gmap
-                var mapId = 'gmap-traces';
-                var mapTypeId = google.maps.MapTypeId.ROADMAP;
-                var startlat = 47.754098;
-                var startlng = 3.669434;
-                var zoom = 5;
 
-                var map = jQuery("#" + mapId);
+	my.initializeGmap = function() {
+		console.log("my.initializeGmap");
+		//Config Gmap
+		var mapId = 'gmap-traces';
+		var mapTypeId = google.maps.MapTypeId.ROADMAP;
+		var startlat = 47.754098;
+		var startlng = 3.669434;
+		var zoom = 5;
 
-      
-                var mapOptions = {
-                    mapTypeId: mapTypeId,
-                    center: new google.maps.LatLng(startlat, startlng),
-                    zoom: zoom,
-                    zoomControl : true,
-                    zoomControlOpt: {
-                        style : 'SMALL',
-                        position: 'TOP_LEFT'
-                    },
-                    markerIconImg: '/img/traces/point-simple-ombre.png',
-                    markerCircleIconImg: '/img/traces/point-boucle-ombre.png',
-                    styles: mapStyleTrace
-                };
-                
- 
-                my.gmapApi = map.gmapApi(mapOptions);
-        };
-        
+		var map = jQuery("#" + mapId);
+
+
+		var mapOptions = {
+			mapTypeId: mapTypeId,
+			center: new google.maps.LatLng(startlat, startlng),
+			zoom: zoom,
+			zoomControl: true,
+			zoomControlOpt: {
+				style: 'SMALL',
+				position: 'TOP_LEFT'
+			},
+			markerIconImg: '/img/traces/point-simple-ombre.png',
+			markerCircleIconImg: '/img/traces/point-boucle-ombre.png',
+			styles: mapStyleTrace
+		};
+
+
+		my.gmapApi = map.gmapApi(mapOptions);
+	};
+
 
 	my.render = function(args) {
 
@@ -638,7 +635,6 @@ TDF.Traces = (function() {
 				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 			});
 
-
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
 				slide: function(ui, event) {
@@ -657,6 +653,8 @@ TDF.Traces = (function() {
 			}
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
+
+			this.initializeGmap();
 
 		}
 
@@ -700,8 +698,8 @@ TDF.Traces = (function() {
 	my.display = function() {
 
 
-                console.log("display TRACES");
-                my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
+		console.log("display TRACES");
+		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
 		// GTAB
@@ -940,13 +938,13 @@ TDF.Winners = (function() {
 				slide: function() {
 					Path.history.pushState({}, "", my.getQueryString());
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
 				},
-				create: function(){
+				create: function() {
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
 				}
 			});
 
@@ -959,13 +957,13 @@ TDF.Winners = (function() {
 				slide: function() {
 					Path.history.pushState({}, "", my.getQueryString());
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
 				},
-				create: function(){
+				create: function() {
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>'+values[0]+'<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>'+values[1]+'<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
 				}
 			});
 
@@ -1000,7 +998,7 @@ TDF.Winners = (function() {
 			$winner.find('.portrait').attr('src', '/img/vainqueurs/portraits/' + winner.id + '_big.png');
 			$winner.find('.name').html('<em>' + winner.first_name + '</em> <strong>' + winner.last_name + '</strong>');
 			$winner.find('.flag img').attr('src', '/img/drapeaux/' + winner.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$winner.find('.birth').text(winner.birthyear + ' - ' + (winner.deathyear === undefined ? '' : winner.deathyear));
+			$winner.find('.birth').text((winner.deathyear === undefined ? "né en " + winner.birthyear : winner.birthyear + ' - ' + winner.deathyear));
 			$winner.find('.bio').html(winner.bio);
 			$winner.find('.duel').attr('href', '/duels-de-legendes/' + winner.id + '/');
 
@@ -1416,23 +1414,24 @@ TDF.StreetView = (function() {
 
 		my.args = args;
 
-		if ( TDF.loadTemplate(this) ) {
-			var place_id, place, places_list = [], $template, content = '';
+		if (TDF.loadTemplate(this)) {
+			var place_id, place, places_list = [],
+				$template, content = '';
 			$template = jQuery('#template-streetview-place');
-			for(place_id in TDF.Data.places ){
+			for (place_id in TDF.Data.places) {
 				place = TDF.Data.places[place_id];
 				content = $template.html()
 					.replace(':place_url', my.base_url + place_id + '/')
 					.replace(':place_type', place.hyperlapse ? 'hyperlapse' : 'streetview')
 					.replace(':place_title', place.name)
-					.replace(':place_pic', '/img/streetview/thumbnails/'+place.id+'.jpg');
+					.replace(':place_pic', '/img/streetview/thumbnails/' + place.id + '.jpg');
 				places_list.push(content);
 			}
 			$inner.find('.streetview-list').html(places_list.join(' '));
 		}
 
 		var duration = 500;
-		if ( my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined ) {
+		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
 			console.log("show detail");
 
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
@@ -1440,8 +1439,7 @@ TDF.StreetView = (function() {
 			$inner.find('.container').stop().animate({
 				left: '-250px'
 			}, duration);
-		}
-		else {
+		} else {
 			console.log("show list");
 			$inner.find('.container').stop().animate({
 				left: '0px'
