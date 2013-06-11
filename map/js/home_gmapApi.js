@@ -46,7 +46,9 @@ function initializeGmap() {
             zoomControlOpt: {
                 style : 'SMALL',
                 position: 'TOP_LEFT'
-            }
+            },
+            markerIconImg: '../img/point-simple-ombre.png',
+            styles: mapStyleSearch
         };
 
         gmap = map.gmapApi(mapOptions);
@@ -68,6 +70,7 @@ function autocomplete_init() {
     
     
     if ($('#gmapInputAddress').length) {
+        
         var input = document.getElementById('gmapInputAddress');
         var gMapAutocomplete = new google.maps.places.Autocomplete(input);
         
@@ -107,6 +110,29 @@ function autocomplete_init() {
 //            }
 
         });
+        
+        
+        $('#gmapFormSearch').submit(function() {
+            return false;
+        });
+        
+        
+        $("#gmapInputAddress").bind('keydown', function(e) {
+            console.log("e.keyCode : " + e.keyCode);
+            
+            if(e.keyCode == 13) {
+                
+                console.log("entrée");
+                
+                //geocode_lookup( 'address', $('#gmaps-input-address').val(), true );
+
+//                $('#gmapInputAddress').autocomplete("disable")
+            } 
+            else {
+//                $('#gmapInputAddress').autocomplete("enable")
+            }
+        });
+        
 
         
 
@@ -114,26 +140,7 @@ function autocomplete_init() {
     }
 
  
-    
-    $('#gmapFormSearch').on('validated', function(){
-    
-        console.log("validate");
-        
-        
-        return false;
-        
-        //$(this).submit();
-    });
-    
-    
-    $('#gmapInputAddress').on('keyup', function(e) {
-        var code = e.which;
 
-        if (13 === code) {
-            
-            return false;
-        }
-    });
 
 //    if ($('#gmapInputAddress').length) {
 //
@@ -164,50 +171,75 @@ function autocomplete_init() {
     
     
     
-    /*
-    $("#gmapInputAddress").autocomplete({
-  
-        // source is the list of input options shown in the autocomplete dropdown.
-        // see documentation: http://jqueryui.com/demos/autocomplete/
-        source: function(request,response) {
-  
-            // the geocode method takes an address or LatLng to search for
-            // and a callback function which should process the results into
-            // a format accepted by jqueryUI autocomplete
-            geocoder.geocode( {'address': request.term }, function(results, status) {
-                response($.map(results, function(item) {
-                    return {
-                        label: item.formatted_address, // appears in dropdown box
-                        value: item.formatted_address, // inserted into input element when selected
-                        geocode: item                  // all geocode data
-                    }
-                }));
-            })
-        },
-  
-        // event triggered when drop-down option selected
-        select: function(event,ui){
-            update_ui(  ui.item.value, ui.item.geocode.geometry.location )
-            update_map( ui.item.geocode.geometry )
-        }
-    });
-  
-        // triggered when user presses a key in the address box
-    $("#gmaps-input-address").bind('keydown', function(event) {
-        if(event.keyCode == 13) {
-            geocode_lookup( 'address', $('#gmaps-input-address').val(), true );
-  
-            // ensures dropdown disappears when enter is pressed
-            $('#gmaps-input-address').autocomplete("disable")
-        } 
-        else {
-            // re-enable if previously disabled above
-            $('#gmaps-input-address').autocomplete("enable")
-        }
-    });
+}
+
+
+
+
+//Special Marker
+
+function MarkerLabel(opt_options) {
     
-    */
-  }
+    this.setValues(opt_options);
+
+    // Here go the label styles
+    var span = this.span_ = document.createElement('span');
+    span.style.cssText = 'position: relative; left: -50%; top: -15px; ' +
+                         'padding: 2px; color: black; background-color:red' +
+                         'font-family: Arial; font-weight: bold; font-siez: 12px';
+
+    var div = this.div_ = document.createElement('div');
+    div.appendChild(span);
+    div.style.cssText = 'position: absolute; display: none;';   
+}
+MarkerLabel.prototype = new google.maps.OverlayView;
+
+
+MarkerLabel.prototype.onAdd = function() {
+    
+//    var pane = this.getPanes().overlayLayer;
+//    pane.appendChild(this.div_);
+    
+    var pane = this.getPanes().overlayImage;
+    pane.appendChild(this.div_);
+    
+
+    var me = this;
+    this.listeners_ = [
+        google.maps.event.addListener(this, 'position_changed', function() { me.draw(); }),
+        google.maps.event.addListener(this, 'text_changed', function() { me.draw(); }),
+        google.maps.event.addListener(this, 'zindex_changed', function() { me.draw(); })
+    ];
+};
+
+MarkerLabel.prototype.onRemove = function() {
+    this.div_.parentNode.removeChild(this.div_);
+
+    for (var i = 0, I = this.listeners_.length; i < I; ++i) {
+        google.maps.event.removeListener(this.listeners_[i]);
+    }
+};
+
+MarkerLabel.prototype.setText = function(text){
+  this.span_.innerHTML = text;
+};
+
+MarkerLabel.prototype.draw = function() {
+
+    var projection = this.getProjection();
+    var position = projection.fromLatLngToDivPixel(this.get('position'));
+
+    var div = this.div_;
+    div.style.left = position.x + 'px';
+    div.style.top = position.y + 'px';
+    div.style.display = 'block';
+    div.style.zIndex = this.get('zIndex'); //ALLOW LABEL TO OVERLAY MARKER
+    
+
+    this.span_.innerHTML = this.get('text').toString();
+};
+
+
 
 
 

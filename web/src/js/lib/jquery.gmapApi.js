@@ -170,7 +170,7 @@
                 zoomControlOpt: this.settings.zoomControlOpt,
                 styles: this.settings.styles
             });
-
+            
         },
         
         
@@ -270,14 +270,13 @@
             this.clearMap();
 
             $.each(years, function(key, year) {
-                console.log(year);
 
+                
                 if(self.tours[year] != undefined){
                     self.displayEtape(self.tours[year]);
-                    return true; //like break
+                    return true; //like break, for $.each
                 }
-
-                console.log("create new year : " + year);
+                
                 self.tours[year] = new Object();
                 self.tours[year]['markers'] = [];
                 self.tours[year]['circles'] = [];
@@ -294,18 +293,11 @@
 
                         $.each(tour.legs, function(key2, etape) {
 
-
-                            console.log("etape.id : " + etape.id);
-                            console.log("etape.start.city : " + etape.start.city);
-                            console.log("etape.finish.city : " + etape.finish.city);
-
                             if(etape.start.city == etape.finish.city){
 
-//                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
-                                
+//                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
                                 self.tours[year]['circles'].push(circle);
-
                             }
                             else{
                                 var marker;
@@ -316,27 +308,18 @@
                                 self.tours[year]['markers'].push(marker);
 
                                 var line;
-                                if(etape.id == "E-1914-05"){
-                                    console.log("plop");
-                                    line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true, true);
-                                }
-                                else{
-                                    line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
-                                }
-                                
-                                
-                                self.tours[years]['lines'].push(line);           
+   
+                                line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
+                                self.tours[year]['lines'].push(line);           
                             }
 
                             if(previousEtape != undefined){
                                 if(etape.start.city != previousEtape.finish.city){
                                     var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
-                                    self.tours[years]['dashedlines'].push(dashedline);
+                                    self.tours[year]['dashedlines'].push(dashedline);
 
                                 }
-                            }
-                            
-                            
+                            }                
 
                             previousEtape = etape;
 

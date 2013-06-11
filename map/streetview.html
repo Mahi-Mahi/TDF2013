@@ -16,32 +16,28 @@
 
 
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places,geometry"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 
         <script src="js/jquery.gmapApi.js" type="text/javascript"></script>
         <script src="js/map-style.js" type="text/javascript"></script>
-        <script src="js/home_gmapApi.js" type="text/javascript"></script>
+        <script src="js/StreetView_gmapApi.js" type="text/javascript"></script>
         
         
     </head>
     <body class="index">
-       
-        <div id="controls">
-            <form id="gmapFormSearch" method="GET">
-
-                <input id="gmapInputAddress" type="text" value="" />
- 
-                <input id="gmapInputLatitude" type="hidden" value="" /> 
-                <input id="gmapInputLongitude" type="hidden" value="" /> 
-                
-            </form>
-        </div>    
-
-        <div id="mapPreview">
-
+        
+        <div id="hyperlapse">
+            
         </div>
         
-        
+        <div id="panel" style="margin-left:-100px">
+            <input id="toggleStreeView" type="button" value="Toggle Street View"/>
+        </div>
+
+        <div id="container">
+            <div id="mapPreview"></div>
+            <div id="panoramaPreview" style="display:none"></div>
+        </div>
 
 
 
