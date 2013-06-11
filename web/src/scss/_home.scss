@@ -60,8 +60,8 @@
 }
 
 .home-search {
-	left:366px;
-	top:224px;
+	left:381px;
+	top:228px;
 	width:252px;
 }
 
@@ -81,9 +81,11 @@
 .submit {
 	border:none;
 	background:none;
+	cursor:pointer;
 	display:block;
 	height:28px;
 	margin:0;
 	padding:0;
+	text-indent:100%;
 	width:24px;
 }

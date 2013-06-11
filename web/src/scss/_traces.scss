@@ -135,13 +135,13 @@
 }
 
 .traces-left-stats {
-	background:url(/img/traces/bg-traces-left-stats.png) left top no-repeat;
+	background:url(/img/traces/bg-traces-left-stats.png) 0 8px no-repeat;
 	border-bottom:1px dotted #798185;
 	color:#4C565D;
 	display:block;
 	height:37px;
 	margin:20px 0 0 0;
-	padding:0 0 8px 0;
+	padding:8px 0;
 	position:relative;
 	text-align:center;
 	width:221px;
@@ -183,6 +183,8 @@
 	color:#4C565D;
 	font:400 11px/1.1 'Oswald', Verdana, Arial, sans-serif;
 	left:0;
+	margin:0;
+	padding:6px 0 0 0;
 	position:absolute;
 	height:35px;
 	text-align:center;
