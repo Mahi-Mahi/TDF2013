@@ -200,7 +200,7 @@ header .fight.active a {
 .traces .timeline-zoom ul {
 	margin: 0;
 	padding: 0;
-	width:5000px;
+	width: 7200px;
 	height: 20px;
 	list-style: none;
 }
@@ -935,10 +935,10 @@ header .fight.active a {
 	background:url(/img/traces/traces_vainqueur_more_off.png) 100% 0 no-repeat;
 	color:#383C40;
 	display:block;
-	font:700 23px/47px 'Oswald', Verdana, Arial, sans-serif;	
+	font:700 23px/47px 'Oswald', Verdana, Arial, sans-serif;
 	margin:0;
 	overflow:hidden;
-	padding:0 45px 0 0;	
+	padding:0 45px 0 0;
 	width:165px;
 	text-overflow:ellipsis;
 	white-space:nowrap;
@@ -960,7 +960,7 @@ header .fight.active a {
 .winner .stats {
 	background:url(/img/traces/traces_vainqueur_table_bg.png) left top no-repeat;
 	height:68px;
-	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;	
+	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
 	margin:0 15px 15px 15px;
 	padding:0;
 	position:relative;
@@ -1052,6 +1052,25 @@ header .fight.active a {
 	margin:0;
 	padding:0;
 	width:258px;
+	overflow: hidden;
+}
+.streetview-left .container {
+	width: 600px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.streetview-left .list {
+	width:258px;
+	float: left;
+}
+.streetview-left .list ul {
+	height: 450px;
+	overflow: auto;
+}
+.streetview-left .detail {
+	width:258px;
+	float: left;
 }
 
 .streetview-right {
