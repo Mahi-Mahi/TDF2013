@@ -1,0 +1,87 @@
+
+/* FOOTER */
+
+footer {
+	background:url(/img/footer/bg-footer.png) left top repeat-x;
+	clear:both;
+	height:41px;
+	margin:0;
+	padding:0 0 0 110px;
+}
+
+.home footer {
+	background-image:url(/img/home/bg-footer.png);
+	height:125px;
+}
+
+.footer-links {
+	padding:0 35px 0 0;
+}
+
+.footer-links li {
+	color:#7693a5;
+	display:inline-block;
+	margin:0;
+	font:400 9px/1.3 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0 4px;
+	text-transform:uppercase;
+}
+
+.footer-links a {
+	color:#7693a5;
+	font:400 9px/41px 'Lato', Verdana, Arial, sans-serif;
+}
+
+.share {
+	padding:12px 0 0 0;
+}
+
+
+.footer-radios {
+	display:none;
+}
+
+.home .footer-radios {
+	display:block;
+	padding:10px 0 0 0;
+}
+
+.footer-radios-list {
+	text-align:center;
+}
+
+.footer-radio-item {
+	display:inline-block;
+	margin:0 19px 0 0;
+	padding: 0;
+	vertical-align:top;
+}
+
+.footer-radio-item a {
+	background:url(/img/home/logos-radio-france.png) -7px 0 no-repeat;
+	display:block;
+	height:62px;
+	margin:0;
+	overflow:hidden;
+	padding: 0;
+	text-indent:100%;
+	width:56px;
+	white-space:nowrap;
+}
+
+.france-info a {
+	background-position:-80px 0;
+}
+
+.france-bleu a {
+	background-position:-153px 0;
+}
+
+.france-culture a {
+	background-position:-226px 0;
+}
+
+.le-mouv a {
+	background-position:100% 0;
+}

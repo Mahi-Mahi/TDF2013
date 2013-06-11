@@ -1310,7 +1310,7 @@ TDF.StreetView = (function() {
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
 			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
 			$inner.find('.container').stop().animate({
-				left: '-250px'
+				left: '-258px'
 			}, duration);
 		}
 		else {

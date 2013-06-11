@@ -1,0 +1,140 @@
+/* STREETVIEW */
+
+.streetview-left {
+	background:url(/img/lieux/bg-left-lieux.png) left top no-repeat;
+	float:left;
+	height:501px;
+	margin:0;
+	padding:0;
+	width:258px;
+	overflow: hidden;
+}
+.streetview-left .container {
+	width: 600px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.streetview-left .list {
+	width:258px;
+	float: left;
+}
+
+.streetview-list {
+	height: 420px;
+	overflow: auto;
+}
+.streetview-left .detail {
+	width:258px;
+	float: left;
+}
+
+.streetview-right {
+	background:url(/img/lieux/bg-map.png) left top no-repeat;
+	float:right;
+	height:501px;
+	margin:0;
+	padding:0;
+	width:742px;
+}
+
+.streetview-list {
+	margin:0;
+	padding:0 8px;
+}
+
+.streetview-list li {
+	border-bottom:1px dotted #dedede;
+	clear:both;
+	display:block;
+	margin:5px 0;
+	padding:3px 0;
+	zoom:1;
+}
+
+.streetview-list li:last-child {
+	border:none;
+}
+
+.streetview-list li:before, .streetview-list li:after { content:""; display:table; }
+.streetview-list li:after { clear:both; }
+
+.streetview-list img {
+	border:4px solid #fff;
+	display:block;
+	float:left;
+	margin:0 10px 5px 0;
+	padding:0;
+	-moz-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);	
+}
+
+.streetview-list a {
+	color:#383C40;
+	font:normal 14px/1.3 'Lato', Arial, sans-serif;
+}
+
+.streetview-list .streetview, .streetview-header .streetview {
+	background:url(/img/lieux/pin-photo.png) left top no-repeat;
+	display:inline-block;
+	margin:0;
+	padding:0 0 0 30px;
+	height:32px;
+	vertical-align:top;
+}
+
+.streetview-list .hyperlapse, .streetview-header .hyperlapse {
+	background:url(/img/lieux/pin-hyperlapse.png) left top no-repeat;
+	display:inline-block;
+	margin:0;
+	padding:0 0 0 35px;
+	height:32px;
+	vertical-align:top;
+}
+
+.streetview-header .streetview, .streetview-header .hyperlapse {
+	color:#383C40;
+	font:normal 12px/32px 'Lato', Arial, sans-serif;
+}
+
+.streetview-header {
+	margin:5px 5px 40px 8px;
+}
+
+.detail-header {
+	height:70px;
+	padding:18px 8px 0 8px;
+}
+
+.detail-body {
+	height:120px;
+	padding:0 18px;
+}
+
+.detail a {
+	background:url(/img/lieux/lieux-bt-back.png) left top no-repeat;
+	color:#fff;
+	display:block;
+	float:left;
+	font:400 15px/32px 'Oswald', Verdana, Arial, sans-serif;
+	height:32px;
+	margin:0 8px 0 0;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	text-indent:5px;
+	width:63px;
+}
+
+.detail .title {
+	color:#383C40;
+	font:700 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	text-transform:uppercase;
+}
+
+.detail .desc {
+	color:#383C40;
+	font:normal 12px/1.3 'Lato', Arial, sans-serif;
+}
