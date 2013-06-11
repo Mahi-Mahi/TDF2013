@@ -524,6 +524,15 @@ TDF.Traces = (function() {
 			return false;
 		});
 
+		$main.on('click', '.traces #select-all', function() {
+			console.log(jQuery(this).prop('checked'));
+			if (jQuery(this).prop('checked')) {
+				$inner.find('#multi-select').prop('checked', true);
+				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
+			}
+		});
+
+
 		// this.initializeGmap();
 		// google.maps.event.addDomListener(window, 'load', this.initializeGmap);
 
@@ -788,6 +797,10 @@ TDF.Traces = (function() {
 
 		} else {
 			$main.find('.traces-right').addClass('disabled');
+
+			$main.find('.winner .winner-pic').attr('src', '/img/traces/vainqueur_silhouette.png');
+			$main.find('.winner .winner-status').html('');
+
 
 			$main.find('.winner .name').html('');
 			$main.find('.winner .flag img').attr('src', '/img/pix.gif');
@@ -1061,6 +1074,9 @@ TDF.Winners = (function() {
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
+
+			console.log(".tooltips();");
+			$inner.find(".tours a[title]").tooltips();
 
 			$winner.slideDown();
 		}
