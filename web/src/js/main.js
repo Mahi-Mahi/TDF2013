@@ -1300,7 +1300,7 @@ TDF.StreetView = (function() {
 					.replace(':place_pic', '/img/streetview/thumbnails/'+place.id+'.jpg');
 				places_list.push(content);
 			}
-			$inner.find('.list ul').html(places_list.join(' '));
+			$inner.find('.streetview-list').html(places_list.join(' '));
 		}
 
 		var duration = 500;
