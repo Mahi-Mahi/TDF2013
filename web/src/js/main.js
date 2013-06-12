@@ -924,8 +924,9 @@ TDF.Winners = (function() {
 
 		if ($main.find('#nationality option[selected]').length) {
 			var nationality = $main.find('#nationality option[selected]').attr('value');
-			console.log(nationality);
-			query_string = query_string + 'nationalite/' + nationality + '/';
+			if (nationality && nationality !== undefined) {
+				query_string = query_string + 'nationalite/' + nationality + '/';
+			}
 		}
 
 		if ($main.find('#winner_search').val()) {
