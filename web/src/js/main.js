@@ -1301,6 +1301,10 @@ TDF.Fight = (function() {
 
 		if (my.args.fighter_one && my.args.fighter_two) {
 			$main.find('.start').attr('href', my.getQueryString() + 'start/');
+			$main.find('.start').css({visibility: 'visible'});
+		}
+		else {
+			$main.find('.start').css({visibility: 'hidden'});
 		}
 
 	};
