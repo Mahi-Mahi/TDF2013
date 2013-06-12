@@ -995,7 +995,7 @@ TDF.Winners = (function() {
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
 			$main.find('.winners_list').jScrollPane({
-				mouseWheelSpeed: '1'
+				mouseWheelSpeed: '2'
 			});
 
 			$main.find(".filters .age .slider").slider({
@@ -1396,6 +1396,7 @@ TDF.Fight = (function() {
 
 		var ratio = 3.12;
 		var max_space = 400;
+		var fighter_width = 84;
 
 		var step_title, step_class, fighter_one_result, fighter_two_result, diff = [];
 
@@ -1410,10 +1411,10 @@ TDF.Fight = (function() {
 			case 'start':
 				my.args.step = 0;
 				$fighter_one.css({
-					'margin-left': (max_space / 2) + 'px'
+					'margin-left': ( (max_space / 2) - fighter_width ) + 'px'
 				});
 				$fighter_two.css({
-					'margin-left': (max_space / 2) + 'px'
+					'margin-left': ( (max_space / 2) - fighter_width ) + 'px'
 				});
 				$inner.find('.next').text("Top Départ");
 				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1480,8 +1481,8 @@ TDF.Fight = (function() {
 
 						break;
 				}
-				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2));
-				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2));
+				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2)  - fighter_width);
+				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2)  - fighter_width);
 				// console.log(steps);
 				// console.log(diff);
 				// console.log([fighter_one.score, fighter_two.score]);
