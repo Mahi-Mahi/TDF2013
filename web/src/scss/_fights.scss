@@ -1,8 +1,5 @@
 
 .fight-start {
-	// width: 800px;
-	// height: 600px;
-	// border: 1px solid red;
 }
 
 .fight-start .fighters {
@@ -11,24 +8,26 @@
 	top: 150px;
 	width: 400px;
 	height: 300px;
-	border: 1px solid green;
 }
 
 .fight-start .fighter_one {
+	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
 	bottom: 80px;
 	z-index: 10;
 }
 
 .fight-start .fighter_two {
+	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
 	bottom: 0px;
 	z-index: 11;
 }
 
 .fight-start .fighter {
 	position: absolute;
-	border: solid 1px lightgrey;
-	width:150px;
-	height: 200px;
+	margin:0;
+	padding:0;
+	width:169px;
+	height:202px;
 }
 
 .fight-results .winner {
@@ -39,5 +38,243 @@
 	background:url(/img/duels/bg-duels-hp.png) left top no-repeat;
 	display:block;
 	height:501px;
+	position:relative;
+	width:100%;
 }
+
+.fight-home .start {
+	background:url(/img/duels/bt-start.png) left top no-repeat;
+	display:block;
+	height:145px;
+	margin:0 0 0 -100px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	left:50%;
+	top:150px;
+	text-indent:100%;
+	white-space:nowrap;
+	width:193px;
+}
+
+.fight-home .fighter {
+	display:block;
+	left:140px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:315px;
+	width:300px;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	z-index:2;
+}
+
+.fight-home .fighter_two {
+	left:580px;
+	top:315px;
+	transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+}
+
+.fight-home .fighter .name {
+	color:#F3F3ED;
+	display:inline-block;
+	font:400 28px/1.1 'Oswald', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.fight-home .fighter .name:before, .fight-home .fighter .name:after {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+  padding: 0;
+  width: 12px;
+  height: 6px;
+  background: url(/img/icon/icon-name.png) left top no-repeat;
+  content: " ";
+  text-indent: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.choose-fighter {
+	background:#5F3001;
+	color:#F3F3ED;
+	font:700 12px/50px 'Oswald', Verdana, Arial, sans-serif;
+	display:block;
+	height:50px;
+	margin:0 0 0 30px;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:200px;
+}
+
+.fight-container {
+	background:url(/img/duels/background-duels.png) left top no-repeat;
+	border-top:1px solid #fff;
+	display:block;
+	height:500px;
+	position:relative;
+	z-index:1;
+}
+
+.step-1 .fight-container {
+	background-position:-770px 0;
+}
+
+.step-2 .fight-container {
+	background-position:-1540px 0;
+}
+
+.step-3 .fight-container {
+	background-position:-2310px 0;
+}
+
+.step-4 .fight-container {
+	background-position:-3080px 0;
+}
+
+.step-5 .fight-container {
+	background-position:-3850px 0;
+}
+
+.step-6 .fight-container {
+	background-position:-4620px 0;
+}
+
+.step-7 .fight-container {
+	background-position:-5390px 0;
+}
+
+.fight-container .next {
+	background:url(/img/duels/bt-next-on.png) left top no-repeat;
+	color:#fff;
+	display:block;
+	font:700 16px/104px 'Oswald', Verdana, Arial, sans-serif;
+	height:104px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:-10px;
+	top:250px;
+	text-align:center;
+	text-indent:5px;
+	text-transform:uppercase;
+	width:202px;
+}
+
+.fight-container .next:hover {
+	background-image:url(/img/duels/bt-next-off.png);
+}
+
+.step-start .fight-container .next {
+	text-indent:0;
+}
+
+.fight-container .title {
+	background:url(/img/duels/bg-fight-infos.png) -38px 0 no-repeat;
+	color:#76766A;
+	display:block;
+	font:700 14px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	height:166px;
+	margin: 0;
+	padding: 30px 15px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:327px;
+}
+
+.step-start .fight-container .title {
+	display:none;
+}
+
+.fight-container .title strong {
+	color:#393932;
+	display:block;
+	font-size:24px;
+	margin: 0;
+	padding:12px 0 0 0;
+}
+
+.fight-container .title div {
+	display:block;
+	height:125px;
+	margin: 0;
+	padding: 0;
+	width:250px;
+}
+
+.fight-container .title div:after {
+	background:url(/img/duels/bg-fight-infos-icon.png) left top no-repeat;
+	display:inline-block;
+	overflow:hidden;
+	margin:5px 0 0 0;
+	padding:0;
+	width:35px;
+	height:35px;
+	content: " ";
+	vertical-align:top;
+	text-indent: 100%;
+	white-space:nowrap;
+}
+
+.fight-container .title .pct_leading:after {
+	background-position:-35px 0;
+}
+
+.fight-container .title .average_speed:after {
+	background-position:-70px 0;
+}
+
+.fight-container .title .ahead_of_second:after {
+	background-position:-105px 0;
+}
+
+.fight-container .title .nb_wins:after {
+	background-position:-140px 0;
+}
+
+.fight-container .title .doping:after {
+	background-position:-175px 0;
+}
+
+.fight-container .title .finish:after {
+	background-position:-210px 0;
+}
+
+.fighter-infos {
+	text-align:center;
+}
+
+.fighter-infos .name, .fighter-infos .result {
+	color:#393932;
+	display:block;
+	font:400 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+}
+
+.fighter-infos .result {
+	color:#6289A7;
+	font-size:14px;
+}
+
+.fighter-infos .result strong {
+	color:#C1272D;
+	font-weight:normal;
+}	
+
 

@@ -994,7 +994,9 @@ TDF.Winners = (function() {
 			}
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
-			$main.find('.winners_list').jScrollPane();
+			$main.find('.winners_list').jScrollPane({
+				mouseWheelSpeed: '1'
+			});
 
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
@@ -1423,45 +1425,48 @@ TDF.Fight = (function() {
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
-						step_title = "Nombre d'étapes remportées";
+						step_title = "<strong>Nombre d'étapes remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 						break;
 					case 2:
 						step_class = "pct_leading";
-						step_title = "Temps passé en tête du général";
+						step_title = "<strong>Temps passé<br>en tête du général</strong>";
 						fighter_one_result = fighter_one.pct_leading + "% de son meilleur tour";
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
 						break;
 					case 3:
 						step_class = "average_speed";
-						step_title = "Meilleur vitesse moyenne";
+						step_title = "<strong>Meilleur vitesse moyenne</strong>";
 						fighter_one_result = fighter_one.average_speed + " km/h";
 						fighter_two_result = fighter_two.average_speed + " km/h";
 						break;
 					case 4:
 						step_class = "ahead_of_second";
-						step_title = "Meilleure avance sur le deuxième";
-						fighter_one_result = fighter_one.ahead_of_second;
-						fighter_two_result = fighter_two.ahead_of_second;
+						step_title = "<strong>Meilleure avance sur le deuxième</strong>";
+						fighter_one_result = fighter_one.ahead_of_2nd;
+						fighter_two_result = fighter_two.ahead_of_2nd;
 						break;
 					case 5:
 						step_class = "nb_wins";
-						step_title = "Nombre de tours gagnés";
+						step_title = "<strong>Nombre <br>de tours gagnés</strong>";
 						fighter_one_result = fighter_one.nb_wins + " victoire" + (fighter_one.nb_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_wins + " victoire" + (fighter_two.nb_wins > 1 ? 's' : '');
 						break;
 					case 6:
 						step_class = "doping";
-						step_title = "contrôle antidopage";
+						step_title = "<strong>contrôle <br>antidopage</strong>";
 						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
 						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						$inner.find('.next').text("Résultat");
 						break;
 					case 7:
 					case 'finish':
 					case 'results':
-						step_title = "Bilan de la source" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
+						step_title = "Bilan de la course" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
 						step_class = 'finish';
+						fighter_one_result = " ";
+						fighter_two_result = " ";
 						if (my.args.step === 'results') {
 
 							my.showResults();

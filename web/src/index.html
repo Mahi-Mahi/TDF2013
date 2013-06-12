@@ -282,14 +282,14 @@
 				<div class="container">
 					<h3 class="visuallyhidden">Radio France Présente</h3>
 					<h2 class="visuallyhidden">Duels de Légendes</h2>
-					<div class="fighter_one left" data-fighter="fighter_one" data-id="">
+					<div class="fighter_one fighter" data-fighter="fighter_one" data-id="">
 						<div class="name">Votre Joueur</div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
 						<a href="" class="choose-fighter">Choisir un autre coureur</a>
 					</div>
 					<a href="" class="start">Start</a>
-					<div class="fighter_two right" data-fighter="fighter_two" data-id="">
+					<div class="fighter_two fighter" data-fighter="fighter_two" data-id="">
 						<div class="name">Son Adversaire</div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
@@ -307,33 +307,43 @@
 				</ul>
 				<div class="close"><a href="">X</a></div>
 				<div class="winners">
-					<ul></ul>
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
 				</div>
 				<div class="legends">
-					<ul></ul>
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
 				</div>
 			</div>
 
 			<div class="template" id="template-fight-start">
 				<header></header>
-				<div class="title">
-					<div></div>
-				</div>
-				<div class="landscape"></div>
-				<div class="background"></div>
-				<div class="fighters">
-					<div class="fighter fighter_one">
-						<div class="name"></div>
-						<div class="result"></div>
+				<div class="fight-container">
+					<div class="title">
+						<div></div>
 					</div>
-					<div class="fighter fighter_two">
-						<div class="name"></div>
-						<div class="result"></div>
+					<div class="landscape"></div>
+					<div class="background"></div>
+					<div class="fighters">
+						<div class="fighter fighter_one">
+							<div class="fighter-infos">
+								<div class="name"></div>
+								<div class="result"></div>
+							</div><!-- .fighter-infos -->
+						</div>
+						<div class="fighter fighter_two">
+							<div class="fighter-infos">
+								<div class="name"></div>
+								<div class="result"></div>
+							</div><!-- .fighter-infos -->
+						</div>
 					</div>
-				</div>
-				<div class="foreground"></div>
-				<div class="forescape"></div>
-				<a href="" class="next">Épreuve Suivante</a>
+					<div class="foreground"></div>
+					<div class="forescape"></div>
+					<a href="" class="next">Épreuve Suivante</a>
+				</div><!-- .fight-container -->
 				<footer></footer>
 			</div>
 

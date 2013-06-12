@@ -99,11 +99,11 @@
 	text-indent: 100%;
 	white-space:nowrap;
 }
-
+/*
 .winners #winner .tours .wins div:nth-child(6), .winners #winner .tours .wins div:nth-child(7), .winners #winner .tours .wins div:nth-child(8), .winners #winner .tours .wins div:nth-child(9) {
 	display:none;
 }
-
+*/
 .winners #winner .tours .bulle {
 	display: none;
 }
@@ -192,19 +192,19 @@
 	background-position:10px 50%;
 }
 
-.winners .winners_list {
+.winners_list {
 	overflow: auto;
 	width: 100%;
-	height: 300px;
+	height: 532px;
 	background: #D9D9D4;
 }
 
-.winners .winners_list .winner {
+.winners_list .winner {
 	display: inline-block;
 	overflow: hidden;
 	margin:0 -3px 0 0;
 	width: 162px;
-	height: 220px;
+	height: 225px;
 	border:1px dashed #fff;
 	border-top:none;
 	border-right:none;
@@ -212,17 +212,17 @@
 	text-align:center;
 }
 
-.winners .winners_list .winner-active {
+.winners_list .winner-active {
 	background:url(/img/vainqueurs/bg-winner-selected.png) center top no-repeat;
 }
 
-.winners .winners_list .winner .name {
+.winners_list .winner .name {
 	color:#383C40;
 	text-transform:uppercase;
 	font:700 15px 'Oswald', Verdana, Arial, sans-serif;
 }
 
-.winners .winners_list .winner .name span {
+.winners_list .winner .name span {
 	display: none;
 }
 
@@ -460,7 +460,7 @@
 	padding:0;
 }
 
-.total_time, .average_speed {
+.stats .total_time, .stats .average_speed {
 	background:url(/img/traces/icon-time.png) 50% 8px no-repeat;
 	display:block;
 	float:left;
@@ -470,7 +470,7 @@
 	width:73px;
 }
 
-.average_speed {
+.stats .average_speed {
 	background-image:url(/img/traces/icon-speed.png);
 	margin:0;
 }
@@ -525,7 +525,7 @@
 	vertical-align:top;
 }
 
-.ahead_of_second, .ahead_of_third {
+.traces-right .ahead_of_second, .traces-right .ahead_of_third {
 	display:inline-block;
 	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
 	vertical-align:top;
