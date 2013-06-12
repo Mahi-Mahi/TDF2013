@@ -293,11 +293,6 @@ var TDF = (function() {
 			this.modules = {};
 		}
 
-		console.log(module);
-		console.log(this.modules);
-		console.log(this.modules[module]);
-
-
 		// instantiate module if undefined
 		if (this.modules[module] === undefined) {
 			switch (module) {
@@ -390,13 +385,7 @@ TDF.Home = (function() {
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 			input.className = '';
 
-			console.log("input : " + input);
-
-			console.log("gMapAutocomplete :" + gMapAutocomplete);
-			console.log("google :" + google);
-
 			input.className = '';
-
 
 			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
 
@@ -512,8 +501,6 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-		console.log("autocomplete_init");
-
 		if (jQuery('#search').length) {
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
@@ -599,8 +586,6 @@ TDF.Traces = (function() {
 
 		// CLick on timeline
 		$main.on('click', '.traces .timeline-zoom label', function() {
-			console.log("label click");
-			console.log(jQuery(this).prev('input').val());
 			var years = [];
 			if ($main.find("#multi-select:checked").length) {
 				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
@@ -610,7 +595,6 @@ TDF.Traces = (function() {
 				years.push(jQuery(this).prev('input').val());
 				$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
 				jQuery(this).prev('input').prop('checked', true);
-				console.log(jQuery(this).prev('input').prop('checked'));
 			}
 			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 		});
@@ -629,7 +613,6 @@ TDF.Traces = (function() {
 	};
 
 	my.initializeGmap = function() {
-		console.log("my.initializeGmap");
 		//Config Gmap
 		var mapId = 'gmap-traces';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -638,8 +621,6 @@ TDF.Traces = (function() {
 		var zoom = 5;
 
 		var map = $inner.find("#" + mapId);
-
-		console.log(new google.maps.LatLng(startlat, startlng));
 
 		var mapOptions = {
 			mapTypeId: mapTypeId,
@@ -724,7 +705,6 @@ TDF.Traces = (function() {
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
 				slide: function(ui, event) {
-					console.log(event.value);
 					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
 				}
 			});
@@ -784,8 +764,6 @@ TDF.Traces = (function() {
 	my.display = function() {
 
 
-		console.log("display TRACES");
-		console.log(my.args.years);
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
@@ -1188,16 +1166,13 @@ TDF.Winners = (function() {
 
 		jQuery(".winners_list .winner").stop().data('show', true);
 
-		console.log(my.args.filters);
 		if (my.args.filters.nationalite) {
-			console.log("filter nationality : " + my.args.filters.nationalite);
 			$main.find('.winners_list .winner').each(function() {
 				jQuery(this).data('show', jQuery(this).data('country') === my.args.filters.nationalite);
 			});
 		}
 
 		if (my.args.filters.age_victoire) {
-			console.log("filter age victoire : " + my.args.filters.age_victoire);
 			var win_ages, filter_age = my.args.filters.age_victoire.split(/,/);
 			$main.find('.winners_list .winner').each(function() {
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
@@ -1206,7 +1181,6 @@ TDF.Winners = (function() {
 		}
 
 		if (my.args.filters.nb_victoires) {
-			console.log("filter nb_victoires : " + my.args.filters.nb_victoires);
 			var nb_wins, filter_nb_wins = my.args.filters.nb_victoires.split(/,/);
 			$main.find('.winners_list .winner').each(function() {
 				nb_wins = jQuery(this).data('nb-wins').toString().split(/,/);
@@ -1215,7 +1189,6 @@ TDF.Winners = (function() {
 		}
 
 		if (my.args.filters.recherche) {
-			console.log("filter search : " + my.args.filters.recherche);
 			$main.find('.winners_list .winner').each(function() {
 				var re = new RegExp(my.args.filters.recherche, 'i');
 				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null);
@@ -1247,6 +1220,8 @@ TDF.Fight = (function() {
 
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
+
+	my.steps = null;
 
 	my.init = function() {
 		$main.on('click', '.fight-home .start', function() {
@@ -1394,8 +1369,6 @@ TDF.Fight = (function() {
 
 	my.fight = function() {
 
-
-
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
@@ -1429,17 +1402,17 @@ TDF.Fight = (function() {
 
 		// calcul des positions relatives
 
-		var steps = [];
-		steps[0] = [0, 0];
+		my.steps = [];
+		my.steps[0] = [0, 0];
 
 		for (var i = 1; i < 6; i++) {
-			steps[i] = [
-				steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
-				steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
+			my.steps[i] = [
+				my.steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
+				my.steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
 			];
 		}
-		steps[6] = [0, 0];
-		steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+		my.steps[6] = [0, 0];
+		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
 		var ratio = 3.12;
 		var max_space = 400;
@@ -1500,7 +1473,6 @@ TDF.Fight = (function() {
 						fighter_one_result = fighter_one.ahead_of_2nd;
 						fighter_two_result = fighter_two.ahead_of_2nd;
 						break;
-
 					case 5:
 						step_class = "nb_wins";
 						step_title = "<strong>Nombre <br>de tours gagnés</strong>";
@@ -1515,7 +1487,6 @@ TDF.Fight = (function() {
 						$inner.find('.next').text("Résultat");
 						break;
 					case 7:
-					case 'finish':
 					case 'results':
 
 						step_title = "Bilan de la course" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
@@ -1523,29 +1494,40 @@ TDF.Fight = (function() {
 						fighter_one_result = " ";
 						fighter_two_result = " ";
 						if (my.args.step === 'results') {
-
 							my.showResults();
-
+							my.args.step = 7;
 						}
 
 						break;
 				}
-				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
-				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
-				console.log(steps);
-				console.log(diff);
-				console.log([fighter_one.score, fighter_two.score]);
+
+				diff[0] = ((my.steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
+				diff[1] = ((my.steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
+
+				// console.log(steps);
+				// console.log(diff);
+				// console.log([fighter_one.score, fighter_two.score]);
+
 				$fighter_one.animate({
 					'margin-left': diff[0] + 'px'
 				});
 				$fighter_two.animate({
 					'margin-left': diff[1] + 'px'
 				});
+
+				if (diff[0] >= diff[1]) {
+					$fighter_one.addClass('winner');
+				}
+				if (diff[0] <= diff[1]) {
+					$fighter_two.addClass('winner');
+				}
+
 				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
+
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
 
-				if (parseInt(my.args.step, 10) > 0 && parseInt(my.args.step, 10) < 7) {
+				if (my.args.step < 7) {
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
 					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
@@ -1556,8 +1538,52 @@ TDF.Fight = (function() {
 	};
 
 	my.showResults = function() {
-		$main.find('.results').html(jQuery('.templates #template-fight-results').html());
 
+		var $results = $main.find('.results').html(jQuery('.templates #template-fight-results').html());
+
+		this.fillResults($results.find('.fighter_one'), TDF.Data.fighters[my.args.fighter_one]);
+		this.fillResults($results.find('.fighter_two'), TDF.Data.fighters[my.args.fighter_two]);
+
+		jQuery(['nb_leg_wins', 'pct_leading', 'average_speed', 'ahead_of_2nd', 'nb_wins']).each(function(i, step) {
+			var res = $results.find('.fighter .' + step);
+			var a = parseFloat(jQuery(res[0]).data('score'));
+			var b = parseFloat(jQuery(res[1]).data('score'));
+			if (a > b) {
+				$results.find('.fighter_one .' + step).addClass('active');
+			} else {
+				if (a < b) {
+					$results.find('.fighter_two .' + step).addClass('active');
+				}
+			}
+		});
+
+		if (!TDF.Data.fighters[my.args.fighter_one].is_doped) {
+			if (my.steps[7][0] > my.steps[7][1] || TDF.Data.fighters[my.args.fighter_two].is_doped) {
+				$results.find('.fighter_one .winner').html('vainqueur');
+			} else {
+				if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
+					$results.find('.fighter_two .winner').html('vainqueur');
+				}
+			}
+		} else {
+			if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
+				$results.find('.fighter_two .winner').html('vainqueur');
+			}
+		}
+
+		$results.show();
+	};
+
+	my.fillResults = function(fighter, data) {
+		fighter.find('.name').html(data.first_name + '<strong>' + data.last_name + '</strong>');
+		fighter.find('.flag img').attr('src', '/img/drapeaux/' + data.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png');
+		fighter.find('.portrait img').attr('src', '/img/vainqueurs/portraits/' + data.id + '_small.png');
+		fighter.find('.nb_leg_wins').html(data.nb_leg_wins).data('score', data.steps[1]);
+		fighter.find('.pct_leading').html(data.pct_leading + "%<br><small> en " + data.pct_leading_year + '<small>').data('score', data.steps[2]);
+		fighter.find('.average_speed').html(data.average_speed + " km/h").data('score', data.steps[3]);
+		fighter.find('.ahead_of_2nd').html(data.ahead_of_2nd + "<br><small> en " + data.ahead_of_2nd_year + '<small>').data('score', data.steps[4]);
+		fighter.find('.nb_wins').html(data.nb_wins).data('score', data.steps[5]);
+		fighter.find('.doping').html(data.is_doped ? 'Convaincu de dopage' : 'Aucun dopage connu').addClass(data.is_doped ? 'active' : '');
 	};
 
 	return my;
@@ -1596,7 +1622,6 @@ TDF.StreetView = (function() {
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
-			console.log("show detail");
 
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
 			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
@@ -1604,7 +1629,6 @@ TDF.StreetView = (function() {
 				left: '-258px'
 			}, duration);
 		} else {
-			console.log("show list");
 			$inner.find('.container').stop().animate({
 				left: '0px'
 			}, duration);
