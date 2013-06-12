@@ -97,23 +97,27 @@ CSV.foreach("csv/Fight BAT - Feuille1.csv") do |row|
 
 		fighters[id][:pct_leading] = row[8].to_f
 		fighters[id][:pct_leading_year] = row[9].to_i
-		fighters[id][:steps][2] = row[10].gsub(/,/, '.').to_f
 
-		fighters[id][:ahead_of_2nd] = row[11]
-		fighters[id][:ahead_of_2nd_val] = row[12].gsub(/,/, '.').to_f
-		fighters[id][:steps][4] = row[13].gsub(/,/, '.').to_f
-		fighters[id][:ahead_of_2nd_year] = row[14].gsub(/,/, '.').to_i
+		fighters[id][:epoque] = row[10]
 
-		fighters[id][:average_speed] = row[15].gsub(/,/, '.').to_f
-		fighters[id][:steps][3] = row[16].gsub(/,/, '.').to_f
-		fighters[id][:average_speed_year] = row[17].to_i
 
-		fighters[id][:nb_wins] = row[18].to_i
-		fighters[id][:steps][5] = row[19].gsub(/,/, '.').to_f
+		fighters[id][:steps][2] = row[11].gsub(/,/, '.').to_f
 
-		fighters[id][:is_doped] = ( row[20] == 'oui' )
+		fighters[id][:ahead_of_2nd] = row[12]
+		fighters[id][:ahead_of_2nd_val] = row[13].gsub(/,/, '.').to_f
+		fighters[id][:steps][4] = row[14].gsub(/,/, '.').to_f
+		fighters[id][:ahead_of_2nd_year] = row[15].gsub(/,/, '.').to_i
 
-		fighters[id][:score] = row[21].gsub(/,/, '.').to_f
+		fighters[id][:average_speed] = row[16].gsub(/,/, '.').to_f
+		fighters[id][:steps][3] = row[17].gsub(/,/, '.').to_f
+		fighters[id][:average_speed_year] = row[18].to_i
+
+		fighters[id][:nb_wins] = row[19].to_i
+		fighters[id][:steps][5] = row[20].gsub(/,/, '.').to_f
+
+		fighters[id][:is_doped] = ( row[21] == 'oui' )
+
+		fighters[id][:score] = row[22].gsub(/,/, '.').to_f
 
 	end
 
