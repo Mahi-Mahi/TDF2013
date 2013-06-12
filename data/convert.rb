@@ -29,6 +29,7 @@ tours = {}
 winners = {}
 fighters = {}
 places = {}
+cities = []
 
 
 
@@ -294,6 +295,8 @@ CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 			leg[:start][:lng] = coords[1]
 	#		leg[:start][:coords_inv] = row[9]
 
+			cities << "#{row[6]},#{row[7]}"
+
 			leg[:finish] = {}
 			leg[:finish][:city] = row[9]
 			leg[:finish][:country] = row[10]
@@ -345,6 +348,15 @@ puts "#{legs.length} etapes"
 tours.each do |year, tour|
 	tour[:legs].sort_by! {|o| o[:leg_num] }
 end
+
+# Cities
+
+cities.uniq!.sort!
+
+filename = "json/cities.json"
+content = production ? cities.to_json : JSON.pretty_generate(cities)
+File.open(filename, 'w') { |file| file.write content }
+Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }
 
 # Places
 
