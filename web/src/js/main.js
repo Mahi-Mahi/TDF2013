@@ -1413,6 +1413,20 @@ TDF.Fight = (function() {
 		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
 
+		// définition des attributs : a été en jaune, a gagné le tour
+		if( fighter_one.steps[2] > 0) {
+			$fighter_one.addClass('yellow');
+		}
+		if( fighter_one.steps[5] > 0) {
+			$fighter_one.addClass('has_won');
+		}
+		if( fighter_two.steps[2] > 0) {
+			$fighter_two.addClass('yellow');
+		}
+		if( fighter_two.steps[5] > 0) {
+			$fighter_two.addClass('has_won');
+		}
+
 		// calcul des positions relatives
 
 		var steps = [];
