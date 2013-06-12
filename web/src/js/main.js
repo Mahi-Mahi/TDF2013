@@ -593,6 +593,25 @@ TDF.Traces = (function() {
 			}
 		});
 
+
+		// CLick on timeline
+		$main.on('click', '.traces .timeline-zoom label', function() {
+			console.log("label click");
+			console.log(jQuery(this).prev('input').val());
+			var years = [];
+			if ($main.find("#multi-select:checked").length) {
+				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+					years.push(jQuery(this).val());
+				});
+			} else {
+				years.push(jQuery(this).prev('input').val());
+				$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
+				jQuery(this).prev('input').prop('checked', true);
+				console.log(jQuery(this).prev('input').prop('checked'));
+			}
+			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
+		});
+
 		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
 			// GTAB : mouseover year
 			// var year = jQuery(this).text();
@@ -698,20 +717,6 @@ TDF.Traces = (function() {
 			$timeline.append(items);
 			$squares.append(squares);
 
-			// CLick on timeline
-			$main.on('click', '.traces .timeline-zoom .checkbox', function() {
-				var years = [];
-				if ($main.find("#multi-select:checked").length) {
-					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
-						years.push(jQuery(this).val());
-					});
-				} else {
-					years.push(jQuery(this).val());
-					$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
-					jQuery(this).prop('checked', true);
-				}
-				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
-			});
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
@@ -777,6 +782,7 @@ TDF.Traces = (function() {
 
 
 		console.log("display TRACES");
+		console.log(my.args.years);
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
