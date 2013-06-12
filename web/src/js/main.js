@@ -1,3 +1,11 @@
+if (!window.console) {
+	window.console = {};
+}
+if (!window.console.log) {
+	window.console.log = function() {};
+}
+
+
 /* global console */
 /* global google  */
 /* global mapStyleTrace */
@@ -278,8 +286,17 @@ var TDF = (function() {
 		console.log("render(" + module);
 		console.log(args);
 
+		if (this.modules === undefined) {
+			this.modules = {};
+		}
+
+		console.log(module);
+		console.log(this.modules);
+		console.log(this.modules[module]);
+
+
 		// instantiate module if undefined
-		if (typeof this.modules[module] === "undefined") {
+		if (this.modules[module] === undefined) {
 			switch (module) {
 				case 'home':
 					this.modules[module] = TDF.Home;
@@ -570,7 +587,6 @@ TDF.Traces = (function() {
 		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		$main.on('click', '.traces #select-all', function() {
-			console.log(jQuery(this).prop('checked'));
 			if (jQuery(this).prop('checked')) {
 				$inner.find('#multi-select').prop('checked', true);
 				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
@@ -1102,12 +1118,11 @@ TDF.Winners = (function() {
 					} else {
 						bulle = '';
 						switch (tour.position) {
-							default:
-								pos_title = tour.position;
-								bulle = tour.position + 'ème en ' + year;
+							default: pos_title = tour.position;
+							bulle = tour.position + 'ème en ' + year;
 							break;
-								// pos_title = 'A';
-								// break;
+							// pos_title = 'A';
+							// break;
 							case 'Abandon':
 							case 'Déclassé':
 							case 'Disqualifié':
@@ -1411,10 +1426,10 @@ TDF.Fight = (function() {
 			case 'start':
 				my.args.step = 0;
 				$fighter_one.css({
-					'margin-left': ( (max_space / 2) - fighter_width ) + 'px'
+					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
 				$fighter_two.css({
-					'margin-left': ( (max_space / 2) - fighter_width ) + 'px'
+					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
 				$inner.find('.next').text("Top Départ");
 				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1482,8 +1497,8 @@ TDF.Fight = (function() {
 
 						break;
 				}
-				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2)  - fighter_width);
-				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2)  - fighter_width);
+				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
+				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
 				// console.log(steps);
 				// console.log(diff);
 				// console.log([fighter_one.score, fighter_two.score]);
