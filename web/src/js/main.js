@@ -1276,7 +1276,7 @@ TDF.Fight = (function() {
 				$fighter.data('id', my.args.fighter_one);
 				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
-				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
@@ -1290,7 +1290,7 @@ TDF.Fight = (function() {
 				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
 				$fighter.find('.bio').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
-				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
@@ -1414,16 +1414,16 @@ TDF.Fight = (function() {
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
 
 		// définition des attributs : a été en jaune, a gagné le tour
-		if( fighter_one.steps[2] > 0) {
+		if (fighter_one.steps[2] > 0) {
 			$fighter_one.addClass('yellow');
 		}
-		if( fighter_one.steps[5] > 0) {
+		if (fighter_one.steps[5] > 0) {
 			$fighter_one.addClass('has_won');
 		}
-		if( fighter_two.steps[2] > 0) {
+		if (fighter_two.steps[2] > 0) {
 			$fighter_two.addClass('yellow');
 		}
-		if( fighter_two.steps[5] > 0) {
+		if (fighter_two.steps[5] > 0) {
 			$fighter_two.addClass('has_won');
 		}
 
@@ -1517,6 +1517,7 @@ TDF.Fight = (function() {
 					case 7:
 					case 'finish':
 					case 'results':
+
 						step_title = "Bilan de la course" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
 						step_class = 'finish';
 						fighter_one_result = " ";
@@ -1531,9 +1532,9 @@ TDF.Fight = (function() {
 				}
 				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
 				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
-				// console.log(steps);
-				// console.log(diff);
-				// console.log([fighter_one.score, fighter_two.score]);
+				console.log(steps);
+				console.log(diff);
+				console.log([fighter_one.score, fighter_two.score]);
 				$fighter_one.animate({
 					'margin-left': diff[0] + 'px'
 				});
@@ -1543,7 +1544,12 @@ TDF.Fight = (function() {
 				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
-				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+
+				if (parseInt(my.args.step, 10) > 0 && parseInt(my.args.step, 10) < 7) {
+					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				} else {
+					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
+				}
 
 				break;
 		}
