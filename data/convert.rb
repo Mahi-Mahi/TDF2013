@@ -48,6 +48,7 @@ CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
 			place[:heading] = row[5]
 		end
 		if place[:type] == 'Hyperlapse'
+			place[:coords] = row[4]
 			place[:distance] = row[6]
 			place[:millis] = row[7]
 			place[:lookat] = row[8]
