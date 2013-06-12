@@ -819,7 +819,40 @@
         addStreetViewPoint: function(data){
             var self = this;
             
-            console.log("addStreetViewPoint ");
+            var geocoder = new google.maps.Geocoder();
+             
+            $.each(data, function(i, streetViewPoint){
+               
+                //console.log(i);
+               
+//                geocoder.geocode( { 'address': streetViewPoint.name}, function(results, status) {
+//                    if (status == google.maps.GeocoderStatus.OK) {
+//                        
+//                        console.log("streetViewPoint.name " + results[0].geometry.location)
+//                        
+//                       
+//                    } else {
+//                      alert("Geocode was not successful for the following reason: " + status);
+//                    }
+//                });
+               
+               
+//               var coords = streetViewPoint.coords;
+//               console.log("coords : " + coords);
+//               coords = coords.split(",");
+               
+               
+//               var marker = self.createMarker(coords[0],coords[1], streetViewPoint.name);
+               
+//               for(var j in streetViewPoint){
+//                   console.log(j + ' : ' + streetViewPoint[j]);
+//               }
+               
+            });
+            
+            
+            
+            
             
             var marker = this.createMarker(45.227656,6.202846, "StreetView");
             

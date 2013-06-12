@@ -761,8 +761,6 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
-
-		console.log("display TRACES");
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
@@ -1499,9 +1497,43 @@ TDF.StreetView = (function() {
 
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
+        
+        my.gmapApi = null;
 
 	my.init = function() {
 
+	};
+        
+        
+        my.initializeGmap = function() {
+		//Config Gmap
+		var mapId = 'gmap-streetview';
+		var mapTypeId = google.maps.MapTypeId.ROADMAP;
+		var startlat = 47.754098;
+		var startlng = 3.669434;
+		var zoom = 5;
+
+		var map = $inner.find("#" + mapId);
+
+		var mapOptions = {
+			mapTypeId: mapTypeId,
+			center: new google.maps.LatLng(startlat, startlng),
+			zoom: zoom,
+			zoomControl: true,
+			zoomControlOpt: {
+				style: 'SMALL',
+				position: 'TOP_LEFT'
+			},
+                        markerIconImg: "/img/lieux/pin-photo.png",
+			styles: mapStyleTrace
+		};
+
+
+		my.gmapApi = map.gmapApi(mapOptions);
+                
+                
+                
+                my.gmapApi.addStreetViewPoint(TDF.Data.places);
 	};
 
 	my.render = function(args) {
@@ -1539,6 +1571,8 @@ TDF.StreetView = (function() {
 				left: '0px'
 			}, duration);
 		}
+                
+                this.initializeGmap();
 
 	};
 
