@@ -176,7 +176,7 @@
         "lng": "2.933353"
       },
       "finish": {
-        "city": "Châlons-sur-Marne",
+        "city": "Châlons-en-Champagne",
         "country": "France",
         "lat": "48.956682",
         "lng": "4.363073"
@@ -190,7 +190,7 @@
       "leg_num": 8,
       "title": "Châlons-sur-Marne - Verdun",
       "start": {
-        "city": "Châlons-sur-Marne",
+        "city": "Châlons-en-Champagne",
         "country": "France",
         "lat": "48.956682",
         "lng": "4.363073"
@@ -350,7 +350,7 @@
       "leg_num": 16,
       "title": "Andorre - Saint-Lary-Soulan",
       "start": {
-        "city": "Andorre",
+        "city": "Andorre-la-Vieille",
         "country": "Andorre",
         "lat": "42.506285",
         "lng": "1.521801"

@@ -29,6 +29,7 @@ tours = {}
 winners = {}
 fighters = {}
 places = {}
+cities = []
 
 
 
@@ -40,16 +41,24 @@ CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
 		place = {}
 		place[:id] = row[0]
 		place[:name] = row[1]
-		place[:streetview] = row[2] == 'non' ? false : row[2]
-		place[:coords] = row[3]
-		place[:heading] = row[4]
-		place[:excerpt] = row[5]
-		place[:text] = row[6]
-		place[:hyperlapse] = row[7] == 'non' ? false : row[7]
-		if tmp = row[8].match(/^(\d+) à (\d+)$/)
+		place[:type] = row[2]
+		place[:url] = row[3]
+		if place[:type] == 'Street View'
+			place[:coords] = row[4]
+			place[:heading] = row[5]
+		end
+		if place[:type] == 'Hyperlapse'
+			place[:distance] = row[6]
+			place[:millis] = row[7]
+			place[:lookat] = row[8]
+			place[:position] = row[9]
+		end
+		place[:excerpt] = row[10]
+		place[:text] = row[11]
+		if tmp = row[12].match(/^(\d+) à (\d+)$/)
 			place[:years] = ((tmp[1].to_i)..(tmp[2].to_i)).to_a
 		else
-			place[:years] = row[8].split(/,\s*/).map { |e| e.to_i }
+			place[:years] = row[12].split(/,\s*/).map { |e| e.to_i }
 		end
 
 		places[place[:id]] = place
@@ -294,6 +303,8 @@ CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 			leg[:start][:lng] = coords[1]
 	#		leg[:start][:coords_inv] = row[9]
 
+			cities << "#{row[6]},#{row[7]}"
+
 			leg[:finish] = {}
 			leg[:finish][:city] = row[9]
 			leg[:finish][:country] = row[10]
@@ -345,6 +356,15 @@ puts "#{legs.length} etapes"
 tours.each do |year, tour|
 	tour[:legs].sort_by! {|o| o[:leg_num] }
 end
+
+# Cities
+
+cities.uniq!.sort!
+
+filename = "json/cities.json"
+content = production ? cities.to_json : JSON.pretty_generate(cities)
+File.open(filename, 'w') { |file| file.write content }
+Zlib::GzipWriter.open("#{filename}.gz") { |file| file.write content }
 
 # Places
 

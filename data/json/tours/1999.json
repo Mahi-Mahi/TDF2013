@@ -130,7 +130,7 @@
       "leg_num": 5,
       "title": "Bonneval - Amiens",
       "start": {
-        "city": "Bonneval",
+        "city": "Bonneval-sur-Arc",
         "country": "France",
         "lat": "48.181453",
         "lng": "1.385289"
@@ -208,7 +208,7 @@
       "year": 1999,
       "leg": "9",
       "leg_num": 9,
-      "title": "Le Grand-Bornand - Sestrières",
+      "title": "Le Grand-Bornand - Sestrières (Ita.)",
       "start": {
         "city": "Le Grand-Bornand",
         "country": "France",
@@ -217,7 +217,7 @@
       },
       "finish": {
         "city": "Sestrières",
-        "country": "France",
+        "country": "Italie",
         "lat": "44.9565",
         "lng": "6.879234"
       },
@@ -228,10 +228,10 @@
       "year": 1999,
       "leg": "10",
       "leg_num": 10,
-      "title": "Sestrières - L'Alpe d'Huez",
+      "title": "Sestrières (Ita.) - L'Alpe d'Huez",
       "start": {
         "city": "Sestrières",
-        "country": "France",
+        "country": "Italie",
         "lat": "44.9565",
         "lng": "6.879234"
       },

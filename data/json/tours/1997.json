@@ -250,7 +250,7 @@
       "leg_num": 11,
       "title": "Andorre - Perpignan",
       "start": {
-        "city": "Andorre",
+        "city": "Andorre-la-Vieille",
         "country": "Andorre",
         "lat": "42.506285",
         "lng": "1.521801"
@@ -430,13 +430,13 @@
       "leg_num": 20,
       "title": "Disneyland Paris - Disneyland Paris",
       "start": {
-        "city": "Marne La Vallée",
+        "city": "Marne-la-Vallée",
         "country": "France",
         "lat": "48.859276",
         "lng": "2.598505"
       },
       "finish": {
-        "city": "Marne La Vallée",
+        "city": "Marne-La-Vallée",
         "country": "France",
         "lat": "48.859276",
         "lng": "2.598505"
@@ -450,7 +450,7 @@
       "leg_num": 21,
       "title": "Disneyland Paris - Paris",
       "start": {
-        "city": "Marne La Vallée",
+        "city": "Marne-la-Vallée",
         "country": "France",
         "lat": "48.859276",
         "lng": "2.598505"

@@ -56,7 +56,7 @@
         "lng": "3.177847"
       },
       "finish": {
-        "city": "Woluwe-Saint-Pierre (BEL)",
+        "city": "Woluwe-Saint-Pierre",
         "country": "Belgique",
         "lat": "50.82672",
         "lng": "4.41759"
@@ -96,7 +96,7 @@
         "lng": "4.41759"
       },
       "finish": {
-        "city": "Maastricht (NL)",
+        "city": "Maastricht",
         "country": "Pays-Bas",
         "lat": "50.85121",
         "lng": "5.68304"
@@ -336,7 +336,7 @@
         "lng": "5.56934"
       },
       "finish": {
-        "city": "La Grande Motte",
+        "city": "La Grande-Motte",
         "country": "France",
         "lat": "43.56070",
         "lng": "4.08607"

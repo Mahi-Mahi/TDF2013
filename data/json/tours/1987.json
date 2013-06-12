@@ -436,7 +436,7 @@
         "lng": "5.55227"
       },
       "finish": {
-        "city": "L'Alpe-d'Huez",
+        "city": "L'Alpe d'Huez",
         "country": "France",
         "lat": "45.092624",
         "lng": "6.068348"
@@ -450,7 +450,7 @@
       "leg_num": 21,
       "title": "Bourg-d'Oisans - La Plagne  ",
       "start": {
-        "city": "Bourg-d'Oisans",
+        "city": "Le Bourg-d'Oisans",
         "country": "France",
         "lat": "45.051951",
         "lng": "6.030064"

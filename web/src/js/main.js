@@ -569,8 +569,6 @@ TDF.Traces = (function() {
 
 		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
-
-
 		$main.on('click', '.traces #select-all', function() {
 			console.log(jQuery(this).prop('checked'));
 			if (jQuery(this).prop('checked')) {
@@ -1100,14 +1098,21 @@ TDF.Winners = (function() {
 					} else {
 						bulle = '';
 						switch (tour.position) {
-							default: pos_title = tour.position;
-							bulle = tour.position + 'ème en ' + year;
+							default:
+								pos_title = tour.position;
+								bulle = tour.position + 'ème en ' + year;
 							break;
+								// pos_title = 'A';
+								// break;
 							case 'Abandon':
-								pos_title = 'A';
-								break;
+							case 'Déclassé':
+							case 'Disqualifié':
 							case 'Elimination':
-								pos_title = 'E';
+							case 'Eliminé':
+							case 'Forfait':
+								tour.position = 'Abandon';
+								pos_title = 'A';
+								bulle = '';
 								break;
 						}
 					}
