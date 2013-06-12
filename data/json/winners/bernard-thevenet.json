@@ -65,8 +65,8 @@
   "birthyear": 1948,
   "deathdate": null,
   "bio": null,
-  "period": {
-    "min": 1970,
-    "max": 1981
-  }
+  "period": [
+    1970,
+    1981
+  ]
 }

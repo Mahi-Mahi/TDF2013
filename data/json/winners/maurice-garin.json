@@ -24,8 +24,8 @@
   "deathdate": "19/02/1957",
   "deathyear": 1957,
   "bio": "Le premier vainqueur de l'histoire du Tour de France.",
-  "period": {
-    "min": 1903,
-    "max": 1904
-  }
+  "period": [
+    1903,
+    1904
+  ]
 }

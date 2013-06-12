@@ -59,8 +59,8 @@
   "birthyear": 1960,
   "deathdate": null,
   "bio": null,
-  "period": {
-    "min": 1983,
-    "max": 1993
-  }
+  "period": [
+    1983,
+    1993
+  ]
 }

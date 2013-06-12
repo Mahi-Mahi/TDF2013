@@ -5,6 +5,9 @@ if (!window.console.log) {
 	window.console.log = function() {};
 }
 
+var liify = function(elt) {
+	return '<li>' + elt + '</li>';
+};
 
 /* global console */
 /* global google  */
@@ -975,10 +978,6 @@ TDF.Winners = (function() {
 			max_wins = null,
 			countries = [];
 
-		var liify = function(elt) {
-			return '<li>' + elt + '</li>';
-		};
-
 		if (TDF.loadTemplate(this)) {
 
 			var $template = jQuery('#template-winner');
@@ -1259,7 +1258,7 @@ TDF.Fight = (function() {
 	my.render = function(args) {
 		my.args = args;
 
-		var $fighter, fighter;
+		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
 			my.fight();
@@ -1271,18 +1270,27 @@ TDF.Fight = (function() {
 		if (my.args.fighter_one !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_one]) {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
+				fighter_data = TDF.Data.winners[my.args.fighter_one];
+
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
 				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
+				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
 		if (my.args.fighter_two !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_two]) {
 				fighter = TDF.Data.fighters[my.args.fighter_two];
+				fighter_data = TDF.Data.winners[my.args.fighter_two];
+
 				$fighter = $main.find('.fighter_two');
 				$fighter.data('id', my.args.fighter_two);
 				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
+				$fighter.find('.bio').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
+				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
@@ -1301,10 +1309,13 @@ TDF.Fight = (function() {
 
 		if (my.args.fighter_one && my.args.fighter_two) {
 			$main.find('.start').attr('href', my.getQueryString() + 'start/');
-			$main.find('.start').css({visibility: 'visible'});
-		}
-		else {
-			$main.find('.start').css({visibility: 'hidden'});
+			$main.find('.start').css({
+				visibility: 'visible'
+			});
+		} else {
+			$main.find('.start').css({
+				visibility: 'hidden'
+			});
 		}
 
 	};
@@ -1335,10 +1346,6 @@ TDF.Fight = (function() {
 		var fighter, fighter_id, content, winners_list = [],
 			legends_list = [];
 		var $template = jQuery('#template-winner');
-
-		var liify = function(elt) {
-			return '<li>' + elt + '</li>';
-		};
 
 		var url_fighter_one, url_fighter_two;
 		switch (side) {

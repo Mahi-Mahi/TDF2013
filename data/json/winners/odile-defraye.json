@@ -64,8 +64,8 @@
   "deathdate": "21/08/1965",
   "deathyear": 1965,
   "bio": "Le premier coureur belge à remporter le Tour.",
-  "period": {
-    "min": 1909,
-    "max": 1924
-  }
+  "period": [
+    1909,
+    1924
+  ]
 }

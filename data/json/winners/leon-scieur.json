@@ -44,8 +44,8 @@
   "deathdate": "07/10/1969",
   "deathyear": 1969,
   "bio": null,
-  "period": {
-    "min": 1914,
-    "max": 1924
-  }
+  "period": [
+    1914,
+    1924
+  ]
 }

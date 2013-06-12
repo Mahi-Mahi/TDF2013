@@ -52,8 +52,8 @@
   "deathdate": "18/03/1941",
   "deathyear": 1941,
   "bio": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours.",
-  "period": {
-    "min": 1904,
-    "max": 1912
-  }
+  "period": [
+    1904,
+    1912
+  ]
 }

@@ -47,8 +47,8 @@
   "birthyear": 1927,
   "deathdate": null,
   "bio": null,
-  "period": {
-    "min": 1951,
-    "max": 1958
-  }
+  "period": [
+    1951,
+    1958
+  ]
 }

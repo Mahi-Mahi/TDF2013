@@ -44,8 +44,8 @@
   "deathdate": "24/01/1978",
   "deathyear": 1978,
   "bio": null,
-  "period": {
-    "min": 1932,
-    "max": 1938
-  }
+  "period": [
+    1932,
+    1938
+  ]
 }

@@ -55,8 +55,8 @@
   "birthyear": 1973,
   "deathdate": null,
   "bio": "Le premier coureur allemand à remporter le Tour.",
-  "period": {
-    "min": 1996,
-    "max": 2005
-  }
+  "period": [
+    1996,
+    2005
+  ]
 }

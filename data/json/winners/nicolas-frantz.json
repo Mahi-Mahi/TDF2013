@@ -54,8 +54,8 @@
   "deathdate": "08/11/1985",
   "deathyear": 1985,
   "bio": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928.",
-  "period": {
-    "min": 1924,
-    "max": 1932
-  }
+  "period": [
+    1924,
+    1932
+  ]
 }

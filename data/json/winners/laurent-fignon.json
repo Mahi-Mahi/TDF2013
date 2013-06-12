@@ -62,8 +62,8 @@
   "deathdate": "31/08/2010",
   "deathyear": 2010,
   "bio": "Le dernier vainqueur français du Tour en date.",
-  "period": {
-    "min": 1983,
-    "max": 1993
-  }
+  "period": [
+    1983,
+    1993
+  ]
 }

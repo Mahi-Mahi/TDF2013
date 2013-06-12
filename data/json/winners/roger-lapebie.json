@@ -40,8 +40,8 @@
   "deathdate": "12/10/1996",
   "deathyear": 1996,
   "bio": null,
-  "period": {
-    "min": 1932,
-    "max": 1937
-  }
+  "period": [
+    1932,
+    1937
+  ]
 }

@@ -43,8 +43,8 @@
   "birthyear": 1980,
   "deathdate": null,
   "bio": "Le premier coureur britannique à remporter le Tour.",
-  "period": {
-    "min": 2006,
-    "max": 2012
-  }
+  "period": [
+    2006,
+    2012
+  ]
 }

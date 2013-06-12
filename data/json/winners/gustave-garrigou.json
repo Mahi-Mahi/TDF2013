@@ -48,8 +48,8 @@
   "deathdate": "28/01/1963",
   "deathyear": 1963,
   "bio": null,
-  "period": {
-    "min": 1907,
-    "max": 1914
-  }
+  "period": [
+    1907,
+    1914
+  ]
 }

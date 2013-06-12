@@ -36,8 +36,8 @@
   "deathdate": "14/02/1952",
   "deathyear": 1952,
   "bio": null,
-  "period": {
-    "min": 1927,
-    "max": 1931
-  }
+  "period": [
+    1927,
+    1931
+  ]
 }

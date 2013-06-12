@@ -42,8 +42,8 @@
   "deathdate": "05/12/1966",
   "deathyear": 1966,
   "bio": null,
-  "period": {
-    "min": 1934,
-    "max": 1939
-  }
+  "period": [
+    1934,
+    1939
+  ]
 }

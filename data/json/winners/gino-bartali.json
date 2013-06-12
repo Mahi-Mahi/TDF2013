@@ -58,8 +58,8 @@
   "deathdate": "05/05/2000",
   "deathyear": 2000,
   "bio": "Le seul coureur à avoir remporté deux Tours à 10 ans d'écart.",
-  "period": {
-    "min": 1937,
-    "max": 1953
-  }
+  "period": [
+    1937,
+    1953
+  ]
 }

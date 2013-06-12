@@ -47,8 +47,8 @@
   "birthyear": 1940,
   "deathdate": null,
   "bio": "Le premier coureur néerlandais à remporter le Tour.",
-  "period": {
-    "min": 1963,
-    "max": 1970
-  }
+  "period": [
+    1963,
+    1970
+  ]
 }

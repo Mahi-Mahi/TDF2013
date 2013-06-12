@@ -59,8 +59,8 @@
   "birthyear": 1959,
   "deathdate": null,
   "bio": "Le premier coureur irlandais à remporter le Tour.",
-  "period": {
-    "min": 1983,
-    "max": 1993
-  }
+  "period": [
+    1983,
+    1993
+  ]
 }
