@@ -44,5 +44,9 @@
   "birthdate": "06/12/1982",
   "birthyear": 1982,
   "deathdate": null,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 2005,
+    "max": 2011
+  }
 }

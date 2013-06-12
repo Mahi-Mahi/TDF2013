@@ -82,5 +82,9 @@
   "birthdate": "20/10/1946",
   "birthyear": 1946,
   "deathdate": null,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1969,
+    "max": 1985
+  }
 }

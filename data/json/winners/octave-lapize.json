@@ -38,5 +38,9 @@
   "birthdate": "24/10/1887",
   "birthyear": 1887,
   "deathdate": "14 juillet 1917 à Toul",
-  "bio": "Ce vainqueur du Tour est mort pour la France en 1917."
+  "bio": "Ce vainqueur du Tour est mort pour la France en 1917.",
+  "period": {
+    "min": 1909,
+    "max": 1914
+  }
 }

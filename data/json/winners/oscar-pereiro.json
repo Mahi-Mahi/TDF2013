@@ -38,5 +38,9 @@
   "birthdate": "03/08/1977",
   "birthyear": 1977,
   "deathdate": null,
-  "bio": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage."
+  "bio": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage.",
+  "period": {
+    "min": 2004,
+    "max": 2009
+  }
 }

@@ -33,5 +33,9 @@
   "birthyear": 1919,
   "deathdate": "02/01/1960",
   "deathyear": 1960,
-  "bio": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949."
+  "bio": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949.",
+  "period": {
+    "min": 1949,
+    "max": 1952
+  }
 }

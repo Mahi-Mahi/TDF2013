@@ -51,5 +51,9 @@
   "birthyear": 1881,
   "deathdate": "24/04/1939",
   "deathyear": 1939,
-  "bio": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix."
+  "bio": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix.",
+  "period": {
+    "min": 1905,
+    "max": 1913
+  }
 }

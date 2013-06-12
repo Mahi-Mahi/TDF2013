@@ -31,5 +31,9 @@
   "birthyear": 1925,
   "deathdate": "06/11/1964",
   "deathyear": 1964,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1951,
+    "max": 1954
+  }
 }

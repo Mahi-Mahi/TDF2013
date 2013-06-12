@@ -54,5 +54,9 @@
   "birthdate": "03/04/1964",
   "birthyear": 1964,
   "deathdate": null,
-  "bio": "Le premier coureur danois à remporter le Tour."
+  "bio": "Le premier coureur danois à remporter le Tour.",
+  "period": {
+    "min": 1989,
+    "max": 1998
+  }
 }

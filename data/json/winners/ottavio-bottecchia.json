@@ -33,5 +33,9 @@
   "birthyear": 1894,
   "deathdate": "15/06/1927",
   "deathyear": 1927,
-  "bio": "Le premier coureur italien à remporter le Tour."
+  "bio": "Le premier coureur italien à remporter le Tour.",
+  "period": {
+    "min": 1923,
+    "max": 1926
+  }
 }

@@ -23,5 +23,9 @@
   "birthyear": 1879,
   "deathdate": "25/01/1907",
   "deathyear": 1907,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1905,
+    "max": 1906
+  }
 }

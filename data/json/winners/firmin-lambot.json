@@ -57,5 +57,9 @@
   "birthyear": 1886,
   "deathdate": "19/01/1964",
   "deathyear": 1964,
-  "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922)."
+  "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922).",
+  "period": {
+    "min": 1911,
+    "max": 1924
+  }
 }

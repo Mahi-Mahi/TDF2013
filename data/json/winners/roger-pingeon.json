@@ -54,5 +54,9 @@
   "birthdate": "28/08/1940",
   "birthyear": 1940,
   "deathdate": null,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1965,
+    "max": 1974
+  }
 }

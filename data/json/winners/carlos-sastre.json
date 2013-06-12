@@ -54,5 +54,9 @@
   "birthdate": "22/04/1975",
   "birthyear": 1975,
   "deathdate": null,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 2001,
+    "max": 2010
+  }
 }

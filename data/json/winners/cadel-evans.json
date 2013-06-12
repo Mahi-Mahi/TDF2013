@@ -46,5 +46,9 @@
   "birthdate": "14/02/1977",
   "birthyear": 1977,
   "deathdate": null,
-  "bio": "Le premier coureur australien à remporter le Tour."
+  "bio": "Le premier coureur australien à remporter le Tour.",
+  "period": {
+    "min": 2005,
+    "max": 2012
+  }
 }

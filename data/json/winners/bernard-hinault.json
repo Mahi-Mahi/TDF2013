@@ -58,5 +58,9 @@
   "birthdate": "14/11/1954",
   "birthyear": 1954,
   "deathdate": null,
-  "bio": "Le troisième coureur à accumuler cinq victoires finales sur le Tour."
+  "bio": "Le troisième coureur à accumuler cinq victoires finales sur le Tour.",
+  "period": {
+    "min": 1978,
+    "max": 1986
+  }
 }

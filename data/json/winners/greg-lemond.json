@@ -62,5 +62,9 @@
   "birthdate": "26/06/1961",
   "birthyear": 1961,
   "deathdate": null,
-  "bio": "Le premier coureur américain à remporter le Tour."
+  "bio": "Le premier coureur américain à remporter le Tour.",
+  "period": {
+    "min": 1984,
+    "max": 1994
+  }
 }

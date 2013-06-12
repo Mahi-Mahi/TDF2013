@@ -51,5 +51,9 @@
   "birthyear": 1887,
   "deathdate": "09/05/1915",
   "deathyear": 1915,
-  "bio": "Le premier vainqueur non-français du Tour."
+  "bio": "Le premier vainqueur non-français du Tour.",
+  "period": {
+    "min": 1906,
+    "max": 1914
+  }
 }

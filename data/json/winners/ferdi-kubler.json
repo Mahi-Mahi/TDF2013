@@ -50,5 +50,9 @@
   "birthdate": "24/07/1919",
   "birthyear": 1919,
   "deathdate": null,
-  "bio": "Le premier coureur suisse à remporter le Tour."
+  "bio": "Le premier coureur suisse à remporter le Tour.",
+  "period": {
+    "min": 1947,
+    "max": 1955
+  }
 }

@@ -55,5 +55,9 @@
   "birthyear": 1889,
   "deathdate": "01/05/1935",
   "deathyear": 1935,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1912,
+    "max": 1925
+  }
 }

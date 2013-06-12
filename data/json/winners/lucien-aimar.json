@@ -50,5 +50,9 @@
   "birthdate": "28/04/1941",
   "birthyear": 1941,
   "deathdate": null,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1965,
+    "max": 1973
+  }
 }

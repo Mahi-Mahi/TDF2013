@@ -43,5 +43,9 @@
   "birthyear": 1970,
   "deathdate": "14/02/2004",
   "deathyear": 2004,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1994,
+    "max": 2000
+  }
 }

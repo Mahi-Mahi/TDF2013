@@ -57,5 +57,9 @@
   "birthyear": 1882,
   "deathdate": "20/12/1917",
   "deathyear": 1917,
-  "bio": "Ce double vainqueur du Tour est mort pour la France en 1917."
+  "bio": "Ce double vainqueur du Tour est mort pour la France en 1917.",
+  "period": {
+    "min": 1905,
+    "max": 1914
+  }
 }

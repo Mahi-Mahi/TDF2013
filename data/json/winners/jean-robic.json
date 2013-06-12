@@ -67,5 +67,9 @@
   "birthyear": 1921,
   "deathdate": "06/10/1980",
   "deathyear": 1980,
-  "bio": "Le premier vainqueur du Tour de l'après-guerre."
+  "bio": "Le premier vainqueur du Tour de l'après-guerre.",
+  "period": {
+    "min": 1947,
+    "max": 1959
+  }
 }

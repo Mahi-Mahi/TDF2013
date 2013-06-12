@@ -71,5 +71,9 @@
   "birthyear": 1925,
   "deathdate": "13/03/1983",
   "deathyear": 1983,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1947,
+    "max": 1959
+  }
 }

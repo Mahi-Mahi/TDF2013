@@ -62,5 +62,9 @@
   "birthdate": "09/07/1928",
   "birthyear": 1928,
   "deathdate": null,
-  "bio": "Le premier coureur espagnol à remporter le Tour."
+  "bio": "Le premier coureur espagnol à remporter le Tour.",
+  "period": {
+    "min": 1954,
+    "max": 1965
+  }
 }

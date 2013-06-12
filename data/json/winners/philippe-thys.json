@@ -59,5 +59,9 @@
   "birthyear": 1889,
   "deathdate": "17/01/1971",
   "deathyear": 1971,
-  "bio": "Le premier triple vainqueur du Tour."
+  "bio": "Le premier triple vainqueur du Tour.",
+  "period": {
+    "min": 1912,
+    "max": 1925
+  }
 }

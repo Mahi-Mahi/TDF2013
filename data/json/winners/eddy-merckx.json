@@ -58,5 +58,9 @@
   "birthdate": "17/06/1945",
   "birthyear": 1945,
   "deathdate": null,
-  "bio": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale."
+  "bio": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale.",
+  "period": {
+    "min": 1969,
+    "max": 1977
+  }
 }

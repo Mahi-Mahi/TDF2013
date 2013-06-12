@@ -45,7 +45,11 @@
     "birthdate": "06/12/1982",
     "birthyear": 1982,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 2005,
+      "max": 2011
+    }
   },
   "andre-leducq": {
     "id": "andre-leducq",
@@ -114,7 +118,11 @@
     "birthyear": 1904,
     "deathdate": "18/06/1980",
     "deathyear": 1980,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1927,
+      "max": 1938
+    }
   },
   "andy-schleck": {
     "id": "andy-schleck",
@@ -152,7 +160,11 @@
     "birthdate": "10/06/1985",
     "birthyear": 1985,
     "deathdate": null,
-    "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage."
+    "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
+    "period": {
+      "min": 2008,
+      "max": 2012
+    }
   },
   "antonin-magne": {
     "id": "antonin-magne",
@@ -221,7 +233,11 @@
     "birthyear": 1904,
     "deathdate": "08/09/1983",
     "deathyear": 1983,
-    "bio": "Le premier vainqueur d'une étape en contre-la-montre individuel sur le Tour."
+    "bio": "Le premier vainqueur d'une étape en contre-la-montre individuel sur le Tour.",
+    "period": {
+      "min": 1927,
+      "max": 1938
+    }
   },
   "bernard-hinault": {
     "id": "bernard-hinault",
@@ -283,7 +299,11 @@
     "birthdate": "14/11/1954",
     "birthyear": 1954,
     "deathdate": null,
-    "bio": "Le troisième coureur à accumuler cinq victoires finales sur le Tour."
+    "bio": "Le troisième coureur à accumuler cinq victoires finales sur le Tour.",
+    "period": {
+      "min": 1978,
+      "max": 1986
+    }
   },
   "bernard-thevenet": {
     "id": "bernard-thevenet",
@@ -351,7 +371,11 @@
     "birthdate": "10/01/1948",
     "birthyear": 1948,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1970,
+      "max": 1981
+    }
   },
   "bjarne-riis": {
     "id": "bjarne-riis",
@@ -409,7 +433,11 @@
     "birthdate": "03/04/1964",
     "birthyear": 1964,
     "deathdate": null,
-    "bio": "Le premier coureur danois à remporter le Tour."
+    "bio": "Le premier coureur danois à remporter le Tour.",
+    "period": {
+      "min": 1989,
+      "max": 1998
+    }
   },
   "bradley-wiggins": {
     "id": "bradley-wiggins",
@@ -455,7 +483,11 @@
     "birthdate": "28/04/1980",
     "birthyear": 1980,
     "deathdate": null,
-    "bio": "Le premier coureur britannique à remporter le Tour."
+    "bio": "Le premier coureur britannique à remporter le Tour.",
+    "period": {
+      "min": 2006,
+      "max": 2012
+    }
   },
   "cadel-evans": {
     "id": "cadel-evans",
@@ -505,7 +537,11 @@
     "birthdate": "14/02/1977",
     "birthyear": 1977,
     "deathdate": null,
-    "bio": "Le premier coureur australien à remporter le Tour."
+    "bio": "Le premier coureur australien à remporter le Tour.",
+    "period": {
+      "min": 2005,
+      "max": 2012
+    }
   },
   "carlos-sastre": {
     "id": "carlos-sastre",
@@ -563,7 +599,11 @@
     "birthdate": "22/04/1975",
     "birthyear": 1975,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 2001,
+      "max": 2010
+    }
   },
   "charly-gaul": {
     "id": "charly-gaul",
@@ -626,7 +666,11 @@
     "birthyear": 1932,
     "deathdate": "06/12/2005",
     "deathyear": 2005,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1953,
+      "max": 1963
+    }
   },
   "eddy-merckx": {
     "id": "eddy-merckx",
@@ -688,7 +732,11 @@
     "birthdate": "17/06/1945",
     "birthyear": 1945,
     "deathdate": null,
-    "bio": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale."
+    "bio": "Le meilleur cycliste du XXe siècle, selon l'Union Cycliste Internationale.",
+    "period": {
+      "min": 1969,
+      "max": 1977
+    }
   },
   "fausto-coppi": {
     "id": "fausto-coppi",
@@ -725,7 +773,11 @@
     "birthyear": 1919,
     "deathdate": "02/01/1960",
     "deathyear": 1960,
-    "bio": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949."
+    "bio": "Le premier coureur à réaliser le doublé Tour d'Italie-Tour de France, en 1949.",
+    "period": {
+      "min": 1949,
+      "max": 1952
+    }
   },
   "federico-bahamontes": {
     "id": "federico-bahamontes",
@@ -791,7 +843,11 @@
     "birthdate": "09/07/1928",
     "birthyear": 1928,
     "deathdate": null,
-    "bio": "Le premier coureur espagnol à remporter le Tour."
+    "bio": "Le premier coureur espagnol à remporter le Tour.",
+    "period": {
+      "min": 1954,
+      "max": 1965
+    }
   },
   "felice-gimondi": {
     "id": "felice-gimondi",
@@ -853,7 +909,11 @@
     "birthdate": "29/09/1942",
     "birthyear": 1942,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1965,
+      "max": 1975
+    }
   },
   "ferdi-kubler": {
     "id": "ferdi-kubler",
@@ -907,7 +967,11 @@
     "birthdate": "24/07/1919",
     "birthyear": 1919,
     "deathdate": null,
-    "bio": "Le premier coureur suisse à remporter le Tour."
+    "bio": "Le premier coureur suisse à remporter le Tour.",
+    "period": {
+      "min": 1947,
+      "max": 1955
+    }
   },
   "firmin-lambot": {
     "id": "firmin-lambot",
@@ -968,7 +1032,11 @@
     "birthyear": 1886,
     "deathdate": "19/01/1964",
     "deathyear": 1964,
-    "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922)."
+    "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922).",
+    "period": {
+      "min": 1911,
+      "max": 1924
+    }
   },
   "francois-faber": {
     "id": "francois-faber",
@@ -1023,7 +1091,11 @@
     "birthyear": 1887,
     "deathdate": "09/05/1915",
     "deathyear": 1915,
-    "bio": "Le premier vainqueur non-français du Tour."
+    "bio": "Le premier vainqueur non-français du Tour.",
+    "period": {
+      "min": 1906,
+      "max": 1914
+    }
   },
   "gastone-nencini": {
     "id": "gastone-nencini",
@@ -1070,7 +1142,11 @@
     "birthyear": 1930,
     "deathdate": "01/02/1980",
     "deathyear": 1980,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1956,
+      "max": 1962
+    }
   },
   "georges-speicher": {
     "id": "georges-speicher",
@@ -1117,7 +1193,11 @@
     "birthyear": 1907,
     "deathdate": "24/01/1978",
     "deathyear": 1978,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1932,
+      "max": 1938
+    }
   },
   "gino-bartali": {
     "id": "gino-bartali",
@@ -1178,7 +1258,11 @@
     "birthyear": 1914,
     "deathdate": "05/05/2000",
     "deathyear": 2000,
-    "bio": "Le seul coureur à avoir remporté deux Tours à 10 ans d'écart."
+    "bio": "Le seul coureur à avoir remporté deux Tours à 10 ans d'écart.",
+    "period": {
+      "min": 1937,
+      "max": 1953
+    }
   },
   "greg-lemond": {
     "id": "greg-lemond",
@@ -1244,7 +1328,11 @@
     "birthdate": "26/06/1961",
     "birthyear": 1961,
     "deathdate": null,
-    "bio": "Le premier coureur américain à remporter le Tour."
+    "bio": "Le premier coureur américain à remporter le Tour.",
+    "period": {
+      "min": 1984,
+      "max": 1994
+    }
   },
   "gustave-garrigou": {
     "id": "gustave-garrigou",
@@ -1295,7 +1383,11 @@
     "birthyear": 1884,
     "deathdate": "28/01/1963",
     "deathyear": 1963,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1907,
+      "max": 1914
+    }
   },
   "henri-cornet": {
     "id": "henri-cornet",
@@ -1350,7 +1442,11 @@
     "birthyear": 1884,
     "deathdate": "18/03/1941",
     "deathyear": 1941,
-    "bio": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours."
+    "bio": "Le plus jeune vainqueur de l'histoire du Tour de France, à 19 ans, 11 mois et 20 jours.",
+    "period": {
+      "min": 1904,
+      "max": 1912
+    }
   },
   "henri-pelissier": {
     "id": "henri-pelissier",
@@ -1409,7 +1505,11 @@
     "birthyear": 1889,
     "deathdate": "01/05/1935",
     "deathyear": 1935,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1912,
+      "max": 1925
+    }
   },
   "hugo-koblet": {
     "id": "hugo-koblet",
@@ -1444,7 +1544,11 @@
     "birthyear": 1925,
     "deathdate": "06/11/1964",
     "deathyear": 1964,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1951,
+      "max": 1954
+    }
   },
   "jacques-anquetil": {
     "id": "jacques-anquetil",
@@ -1511,7 +1615,11 @@
     "birthyear": 1934,
     "deathdate": "18/11/1987",
     "deathyear": 1987,
-    "bio": "Le premier coureur à remporter cinq fois le Tour de France."
+    "bio": "Le premier coureur à remporter cinq fois le Tour de France.",
+    "period": {
+      "min": 1957,
+      "max": 1966
+    }
   },
   "jan-janssen": {
     "id": "jan-janssen",
@@ -1561,7 +1669,11 @@
     "birthdate": "19/05/1940",
     "birthyear": 1940,
     "deathdate": null,
-    "bio": "Le premier coureur néerlandais à remporter le Tour."
+    "bio": "Le premier coureur néerlandais à remporter le Tour.",
+    "period": {
+      "min": 1963,
+      "max": 1970
+    }
   },
   "jan-ullrich": {
     "id": "jan-ullrich",
@@ -1619,7 +1731,11 @@
     "birthdate": "02/12/1973",
     "birthyear": 1973,
     "deathdate": null,
-    "bio": "Le premier coureur allemand à remporter le Tour."
+    "bio": "Le premier coureur allemand à remporter le Tour.",
+    "period": {
+      "min": 1996,
+      "max": 2005
+    }
   },
   "jean-robic": {
     "id": "jean-robic",
@@ -1690,7 +1806,11 @@
     "birthyear": 1921,
     "deathdate": "06/10/1980",
     "deathyear": 1980,
-    "bio": "Le premier vainqueur du Tour de l'après-guerre."
+    "bio": "Le premier vainqueur du Tour de l'après-guerre.",
+    "period": {
+      "min": 1947,
+      "max": 1959
+    }
   },
   "joop-zoetemelk": {
     "id": "joop-zoetemelk",
@@ -1776,7 +1896,11 @@
     "birthdate": "03/12/1946",
     "birthyear": 1946,
     "deathdate": null,
-    "bio": "Le détenteur du record du nombre de deuxièmes places dans le Tour : six."
+    "bio": "Le détenteur du record du nombre de deuxièmes places dans le Tour : six.",
+    "period": {
+      "min": 1970,
+      "max": 1986
+    }
   },
   "laurent-fignon": {
     "id": "laurent-fignon",
@@ -1841,7 +1965,11 @@
     "birthyear": 1960,
     "deathdate": "31/08/2010",
     "deathyear": 2010,
-    "bio": "Le dernier vainqueur français du Tour en date."
+    "bio": "Le dernier vainqueur français du Tour en date.",
+    "period": {
+      "min": 1983,
+      "max": 1993
+    }
   },
   "leon-scieur": {
     "id": "leon-scieur",
@@ -1888,7 +2016,11 @@
     "birthyear": 1888,
     "deathdate": "07/10/1969",
     "deathyear": 1969,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1914,
+      "max": 1924
+    }
   },
   "louis-trousselier": {
     "id": "louis-trousselier",
@@ -1943,7 +2075,11 @@
     "birthyear": 1881,
     "deathdate": "24/04/1939",
     "deathyear": 1939,
-    "bio": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix."
+    "bio": "En 1905, il remporte à la fois le Tour de France et le Paris-Roubaix.",
+    "period": {
+      "min": 1905,
+      "max": 1913
+    }
   },
   "louison-bobet": {
     "id": "louison-bobet",
@@ -2018,7 +2154,11 @@
     "birthyear": 1925,
     "deathdate": "13/03/1983",
     "deathyear": 1983,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1947,
+      "max": 1959
+    }
   },
   "lucien-aimar": {
     "id": "lucien-aimar",
@@ -2072,7 +2212,11 @@
     "birthdate": "28/04/1941",
     "birthyear": 1941,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1965,
+      "max": 1973
+    }
   },
   "lucien-buysse": {
     "id": "lucien-buysse",
@@ -2143,7 +2287,11 @@
     "birthyear": 1892,
     "deathdate": "03/01/1980",
     "deathyear": 1980,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1914,
+      "max": 1930
+    }
   },
   "lucien-petit-breton": {
     "id": "lucien-petit-breton",
@@ -2204,7 +2352,11 @@
     "birthyear": 1882,
     "deathdate": "20/12/1917",
     "deathyear": 1917,
-    "bio": "Ce double vainqueur du Tour est mort pour la France en 1917."
+    "bio": "Ce double vainqueur du Tour est mort pour la France en 1917.",
+    "period": {
+      "min": 1905,
+      "max": 1914
+    }
   },
   "lucien-van-impe": {
     "id": "lucien-van-impe",
@@ -2290,7 +2442,11 @@
     "birthdate": "20/10/1946",
     "birthyear": 1946,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1969,
+      "max": 1985
+    }
   },
   "marco-pantani": {
     "id": "marco-pantani",
@@ -2337,7 +2493,11 @@
     "birthyear": 1970,
     "deathdate": "14/02/2004",
     "deathyear": 2004,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1994,
+      "max": 2000
+    }
   },
   "maurice-de-waele": {
     "id": "maurice-de-waele",
@@ -2376,7 +2536,11 @@
     "birthyear": 1896,
     "deathdate": "14/02/1952",
     "deathyear": 1952,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1927,
+      "max": 1931
+    }
   },
   "maurice-garin": {
     "id": "maurice-garin",
@@ -2403,7 +2567,11 @@
     "birthyear": 1871,
     "deathdate": "19/02/1957",
     "deathyear": 1957,
-    "bio": "Le premier vainqueur de l'histoire du Tour de France."
+    "bio": "Le premier vainqueur de l'histoire du Tour de France.",
+    "period": {
+      "min": 1903,
+      "max": 1904
+    }
   },
   "miguel-indurain": {
     "id": "miguel-indurain",
@@ -2477,7 +2645,11 @@
     "birthdate": "16/07/1964",
     "birthyear": 1964,
     "deathdate": null,
-    "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement."
+    "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement.",
+    "period": {
+      "min": 1985,
+      "max": 1996
+    }
   },
   "nicolas-frantz": {
     "id": "nicolas-frantz",
@@ -2534,7 +2706,11 @@
     "birthyear": 1899,
     "deathdate": "08/11/1985",
     "deathyear": 1985,
-    "bio": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928."
+    "bio": "Le premier coureur à avoir porté le maillot jaune du début à la fin d'un Tour, en 1928.",
+    "period": {
+      "min": 1924,
+      "max": 1932
+    }
   },
   "octave-lapize": {
     "id": "octave-lapize",
@@ -2576,7 +2752,11 @@
     "birthdate": "24/10/1887",
     "birthyear": 1887,
     "deathdate": "14 juillet 1917 à Toul",
-    "bio": "Ce vainqueur du Tour est mort pour la France en 1917."
+    "bio": "Ce vainqueur du Tour est mort pour la France en 1917.",
+    "period": {
+      "min": 1909,
+      "max": 1914
+    }
   },
   "odile-defraye": {
     "id": "odile-defraye",
@@ -2643,7 +2823,11 @@
     "birthyear": 1888,
     "deathdate": "21/08/1965",
     "deathyear": 1965,
-    "bio": "Le premier coureur belge à remporter le Tour."
+    "bio": "Le premier coureur belge à remporter le Tour.",
+    "period": {
+      "min": 1909,
+      "max": 1924
+    }
   },
   "oscar-pereiro": {
     "id": "oscar-pereiro",
@@ -2685,7 +2869,11 @@
     "birthdate": "03/08/1977",
     "birthyear": 1977,
     "deathdate": null,
-    "bio": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage."
+    "bio": "Le Tour qu'il remporte, en 2006, avait initialement été gagné par Floyd Landis, déclassé pour dopage.",
+    "period": {
+      "min": 2004,
+      "max": 2009
+    }
   },
   "ottavio-bottecchia": {
     "id": "ottavio-bottecchia",
@@ -2722,7 +2910,11 @@
     "birthyear": 1894,
     "deathdate": "15/06/1927",
     "deathyear": 1927,
-    "bio": "Le premier coureur italien à remporter le Tour."
+    "bio": "Le premier coureur italien à remporter le Tour.",
+    "period": {
+      "min": 1923,
+      "max": 1926
+    }
   },
   "pedro-delgado": {
     "id": "pedro-delgado",
@@ -2784,7 +2976,11 @@
     "birthdate": "15/04/1960",
     "birthyear": 1960,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1983,
+      "max": 1993
+    }
   },
   "philippe-thys": {
     "id": "philippe-thys",
@@ -2847,7 +3043,11 @@
     "birthyear": 1889,
     "deathdate": "17/01/1971",
     "deathyear": 1971,
-    "bio": "Le premier triple vainqueur du Tour."
+    "bio": "Le premier triple vainqueur du Tour.",
+    "period": {
+      "min": 1912,
+      "max": 1925
+    }
   },
   "rene-pottier": {
     "id": "rene-pottier",
@@ -2874,7 +3074,11 @@
     "birthyear": 1879,
     "deathdate": "25/01/1907",
     "deathyear": 1907,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1905,
+      "max": 1906
+    }
   },
   "roger-lapebie": {
     "id": "roger-lapebie",
@@ -2917,7 +3121,11 @@
     "birthyear": 1911,
     "deathdate": "12/10/1996",
     "deathyear": 1996,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1932,
+      "max": 1937
+    }
   },
   "roger-pingeon": {
     "id": "roger-pingeon",
@@ -2975,7 +3183,11 @@
     "birthdate": "28/08/1940",
     "birthyear": 1940,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1965,
+      "max": 1974
+    }
   },
   "roger-walkowiak": {
     "id": "roger-walkowiak",
@@ -3025,7 +3237,11 @@
     "birthdate": "02/03/1927",
     "birthyear": 1927,
     "deathdate": null,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1951,
+      "max": 1958
+    }
   },
   "romain-maes": {
     "id": "romain-maes",
@@ -3068,7 +3284,11 @@
     "birthyear": 1912,
     "deathdate": "22/02/1983",
     "deathyear": 1983,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1934,
+      "max": 1939
+    }
   },
   "stephen-roche": {
     "id": "stephen-roche",
@@ -3130,7 +3350,11 @@
     "birthdate": "28/11/1959",
     "birthyear": 1959,
     "deathdate": null,
-    "bio": "Le premier coureur irlandais à remporter le Tour."
+    "bio": "Le premier coureur irlandais à remporter le Tour.",
+    "period": {
+      "min": 1983,
+      "max": 1993
+    }
   },
   "sylvere-maes": {
     "id": "sylvere-maes",
@@ -3175,6 +3399,10 @@
     "birthyear": 1909,
     "deathdate": "05/12/1966",
     "deathyear": 1966,
-    "bio": null
+    "bio": null,
+    "period": {
+      "min": 1934,
+      "max": 1939
+    }
   }
 }

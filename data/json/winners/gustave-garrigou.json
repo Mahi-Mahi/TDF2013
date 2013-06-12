@@ -47,5 +47,9 @@
   "birthyear": 1884,
   "deathdate": "28/01/1963",
   "deathyear": 1963,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1907,
+    "max": 1914
+  }
 }

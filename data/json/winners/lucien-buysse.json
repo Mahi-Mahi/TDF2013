@@ -67,5 +67,9 @@
   "birthyear": 1892,
   "deathdate": "03/01/1980",
   "deathyear": 1980,
-  "bio": null
+  "bio": null,
+  "period": {
+    "min": 1914,
+    "max": 1930
+  }
 }

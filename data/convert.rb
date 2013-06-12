@@ -233,6 +233,8 @@ Dir.glob('csv/vainqueurs/*.csv') do |item|
 
 	end
 
+	winners[id][:period] = {:min => winners[id][:years].keys.min, :max => winners[id][:years].keys.max }
+
 	tour = tours[winners[id][:wins].first]
 	winners[id][:first_name] = tour[:winner_first_name]
 	winners[id][:last_name] = tour[:winner_last_name]

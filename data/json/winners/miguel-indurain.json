@@ -70,5 +70,9 @@
   "birthdate": "16/07/1964",
   "birthyear": 1964,
   "deathdate": null,
-  "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement."
+  "bio": "Le premier coureur à reporter le Tour cinq fois consécutivement.",
+  "period": {
+    "min": 1985,
+    "max": 1996
+  }
 }

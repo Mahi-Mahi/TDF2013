@@ -34,5 +34,9 @@
   "birthdate": "10/06/1985",
   "birthyear": 1985,
   "deathdate": null,
-  "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage."
+  "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
+  "period": {
+    "min": 2008,
+    "max": 2012
+  }
 }
