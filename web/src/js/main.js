@@ -1453,6 +1453,7 @@ TDF.Fight = (function() {
 						fighter_one_result = fighter_one.ahead_of_2nd;
 						fighter_two_result = fighter_two.ahead_of_2nd;
 						break;
+
 					case 5:
 						step_class = "nb_wins";
 						step_title = "<strong>Nombre <br>de tours gagnés</strong>";

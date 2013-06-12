@@ -101,11 +101,11 @@ CSV.foreach("csv/Fight BAT - Feuille1.csv") do |row|
 
 		fighters[id][:ahead_of_2nd] = row[11]
 		fighters[id][:ahead_of_2nd_val] = row[12].gsub(/,/, '.').to_f
-		fighters[id][:steps][3] = row[13].gsub(/,/, '.').to_f
+		fighters[id][:steps][4] = row[13].gsub(/,/, '.').to_f
 		fighters[id][:ahead_of_2nd_year] = row[14].gsub(/,/, '.').to_i
 
 		fighters[id][:average_speed] = row[15].gsub(/,/, '.').to_f
-		fighters[id][:steps][4] = row[16].gsub(/,/, '.').to_f
+		fighters[id][:steps][3] = row[16].gsub(/,/, '.').to_f
 		fighters[id][:average_speed_year] = row[17].to_i
 
 		fighters[id][:nb_wins] = row[18].to_i
