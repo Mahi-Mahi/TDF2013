@@ -40,14 +40,16 @@ CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
 		place = {}
 		place[:id] = row[0]
 		place[:name] = row[1]
-		place[:url] = row[2]
-		place[:excerpt] = row[3]
-		place[:text] = row[4]
-		place[:hyperlapse] = ( row[5] == 'oui' )
-		if tmp = row[6].match(/^(\d+) à (\d+)$/)
+		place[:streetview] = row[2] == 'non' ? false : row[2]
+		place[:coords] = row[3]
+		place[:heading] = row[4]
+		place[:excerpt] = row[5]
+		place[:text] = row[6]
+		place[:hyperlapse] = row[7] == 'non' ? false : row[7]
+		if tmp = row[8].match(/^(\d+) à (\d+)$/)
 			place[:years] = ((tmp[1].to_i)..(tmp[2].to_i)).to_a
 		else
-			place[:years] = row[6].split(/,\s*/).map { |e| e.to_i }
+			place[:years] = row[8].split(/,\s*/).map { |e| e.to_i }
 		end
 
 		places[place[:id]] = place
