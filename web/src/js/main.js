@@ -449,8 +449,9 @@ TDF.CitySearch = (function() {
 	};
 
 	my.render = function(args) {
-		if ( TDF.loadTemplate(this) ) {
-		}
+
+		if (TDF.loadTemplate(this)) {}
+
 		$main.find('#search').val(args.city_name);
 
 		my.autocomplete_init();
@@ -468,7 +469,7 @@ TDF.CitySearch = (function() {
 		var startlng = 3.669434;
 		var zoom = 5;
 
-		var map = jQuery("#" + mapId);
+		var map = $inner.find("#" + mapId);
 
 
 		var mapOptions = {
@@ -566,7 +567,7 @@ TDF.Traces = (function() {
 			return false;
 		});
 
-		google.maps.event.addDomListener(window, 'load', my.initializeGmap);
+		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 
 
@@ -576,6 +577,17 @@ TDF.Traces = (function() {
 				$inner.find('#multi-select').prop('checked', true);
 				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
 			}
+		});
+
+		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
+			// GTAB : mouseover year
+			// var year = jQuery(this).text();
+		});
+
+		// mouseleave
+		$main.on('mouseleave', '.traces .timeline-zoom label', function() {
+			// GTAB : mouseover year
+			// var year = jQuery(this).text();
 		});
 
 	};
@@ -589,8 +601,9 @@ TDF.Traces = (function() {
 		var startlng = 3.669434;
 		var zoom = 5;
 
-		var map = jQuery("#" + mapId);
+		var map = $inner.find("#" + mapId);
 
+		console.log(new google.maps.LatLng(startlat, startlng));
 
 		var mapOptions = {
 			mapTypeId: mapTypeId,
@@ -1089,9 +1102,8 @@ TDF.Winners = (function() {
 					} else {
 						bulle = '';
 						switch (tour.position) {
-							default:
-								pos_title = tour.position;
-								bulle = tour.position + 'ème en ' + year;
+							default: pos_title = tour.position;
+							bulle = tour.position + 'ème en ' + year;
 							break;
 							case 'Abandon':
 								pos_title = 'A';
@@ -1342,7 +1354,7 @@ TDF.Fight = (function() {
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
-		if ( TDF.loadTemplate(this, '-start') ){
+		if (TDF.loadTemplate(this, '-start')) {
 
 		}
 
@@ -1378,7 +1390,7 @@ TDF.Fight = (function() {
 		if (!isNaN(parseInt(my.args.step, 10))) {
 			my.args.step = parseInt(my.args.step, 10);
 		}
-		$inner.attr('class', 'fight-start step-'+my.args.step);
+		$inner.attr('class', 'fight-start step-' + my.args.step);
 
 		switch (my.args.step) {
 			default:
