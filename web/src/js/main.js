@@ -419,8 +419,6 @@ TDF.CitySearch = (function() {
 
 	my.init = function() {
 
-		console.log("CitySearch : $main : " + $main);
-
 		google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		/*
@@ -451,13 +449,13 @@ TDF.CitySearch = (function() {
 	};
 
 	my.render = function(args) {
-
-		TDF.loadTemplate(this);
-
+		if ( TDF.loadTemplate(this) ) {
+		}
 		$main.find('#search').val(args.city_name);
 
 		my.autocomplete_init();
 
+		this.initializeGmap();
 
 	};
 
@@ -492,6 +490,8 @@ TDF.CitySearch = (function() {
 	};
 
 	my.autocomplete_init = function() {
+
+		console.log("autocomplete_init");
 
 		if (jQuery('#search').length) {
 			var input = document.getElementById('search');
