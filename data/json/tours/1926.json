@@ -30,7 +30,7 @@
       "leg_num": 1,
       "title": "Évian - Mulhouse",
       "start": {
-        "city": "Évian",
+        "city": "Évian-les-Bains",
         "country": "France",
         "lat": "46.401488",
         "lng": "6.590949"
@@ -316,7 +316,7 @@
         "lng": "6.643179"
       },
       "finish": {
-        "city": "Évian",
+        "city": "Évian-les-Bains",
         "country": "France",
         "lat": "46.401488",
         "lng": "6.590949"
@@ -330,7 +330,7 @@
       "leg_num": 16,
       "title": "Évian - Dijon",
       "start": {
-        "city": "Évian",
+        "city": "Évian-les-Bains",
         "country": "France",
         "lat": "46.401488",
         "lng": "6.590949"

@@ -376,7 +376,7 @@
         "lng": "5.908998"
       },
       "finish": {
-        "city": "Évian",
+        "city": "Évian-les-Bains",
         "country": "France",
         "lat": "46.401488",
         "lng": "6.590949"
@@ -390,7 +390,7 @@
       "leg_num": 19,
       "title": "Évian - Belfort",
       "start": {
-        "city": "Évian",
+        "city": "Évian-les-Bains",
         "country": "France",
         "lat": "46.401488",
         "lng": "6.590949"
@@ -456,7 +456,7 @@
         "lng": "6.176905"
       },
       "finish": {
-        "city": "Charleville",
+        "city": "Charleville-Mézières",
         "country": "France",
         "lat": "49.762085",
         "lng": "4.726096"
@@ -470,7 +470,7 @@
       "leg_num": 23,
       "title": "Charleville-Mézières - Malo-les-Bains",
       "start": {
-        "city": "Charleville",
+        "city": "Charleville-Mézières",
         "country": "France",
         "lat": "49.762085",
         "lng": "4.726096"

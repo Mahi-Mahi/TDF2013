@@ -276,7 +276,7 @@
         "lng": "2.241295"
       },
       "finish": {
-        "city": "La Grande Motte",
+        "city": "La Grande-Motte",
         "country": "France",
         "lat": "43.560704",
         "lng": "4.086072"
@@ -356,7 +356,7 @@
         "lng": "6.643179"
       },
       "finish": {
-        "city": "Col du Galibier, Valloire",
+        "city": "Col du Galibier",
         "country": "France",
         "lat": "45.06411",
         "lng": "6.40782"
@@ -370,7 +370,7 @@
       "leg_num": 17,
       "title": "Valloire/Col du Galibier - Aix-les-Bains",
       "start": {
-        "city": "Col du Galibier, Valloire",
+        "city": "Col du Galibier",
         "country": "France",
         "lat": "45.06411",
         "lng": "6.40782"

@@ -37,7 +37,7 @@
       },
       "finish": {
         "city": "Mulhouse",
-        "country": null,
+        "country": "France",
         "lat": "47.750839",
         "lng": "7.335888"
       },
@@ -77,7 +77,7 @@
       },
       "finish": {
         "city": "Fribourg-en-Brisgau",
-        "country": "RFA",
+        "country": "Allemagne",
         "lat": "47.99901",
         "lng": "7.84210"
       },
@@ -216,7 +216,7 @@
         "lng": "2.295753"
       },
       "finish": {
-        "city": "Le Touquet",
+        "city": "Le Touquet-Paris-Plage",
         "country": "France",
         "lat": "50.521276",
         "lng": "1.590675"

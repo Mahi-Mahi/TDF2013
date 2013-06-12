@@ -150,7 +150,7 @@
       "leg_num": 6,
       "title": "Bonneval - Angers",
       "start": {
-        "city": "Bonneval",
+        "city": "Bonneval-sur-Arc",
         "country": "France",
         "lat": "48.181453",
         "lng": "1.385289"
@@ -276,7 +276,7 @@
         "lng": "1.107132"
       },
       "finish": {
-        "city": "La Mongie, Bagnères-de-Bigorre",
+        "city": "La Mongie",
         "country": "France",
         "lat": "42.91",
         "lng": "0.179167"
@@ -296,7 +296,7 @@
         "lng": "0.38396"
       },
       "finish": {
-        "city": "Plateau de Beille, Aston",
+        "city": "Plateau de Beille",
         "country": "France",
         "lat": "42.709683",
         "lng": "1.702387"
@@ -376,7 +376,7 @@
         "lng": "6.030064"
       },
       "finish": {
-        "city": "Le Grand Bornand ",
+        "city": "Le Grand-Bornand",
         "country": "France",
         "lat": "45.942027",
         "lng": "6.426699"

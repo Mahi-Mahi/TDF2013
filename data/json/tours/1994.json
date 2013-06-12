@@ -256,7 +256,7 @@
         "lng": "1.441989"
       },
       "finish": {
-        "city": "Hautacam, Préchac",
+        "city": "Hautacam",
         "country": "France",
         "lat": "42.972222",
         "lng": "-0.0075"
@@ -356,7 +356,7 @@
         "lng": "4.989187"
       },
       "finish": {
-        "city": "L'Alpe-d'Huez",
+        "city": "L'Alpe d'Huez",
         "country": "France",
         "lat": "45.092624",
         "lng": "6.068348"
@@ -370,7 +370,7 @@
       "leg_num": 17,
       "title": "Bourg-d'Oisans - Val-Thorens",
       "start": {
-        "city": "Bourg-d'Oisans",
+        "city": "Le Bourg-d'Oisans",
         "country": "France",
         "lat": "45.051951",
         "lng": "6.030064"
@@ -450,7 +450,7 @@
       "leg_num": 21,
       "title": "Disneyland Paris - Paris",
       "start": {
-        "city": "Marne La Vallée",
+        "city": "Marne-la-Vallée",
         "country": "France",
         "lat": "48.859276",
         "lng": "2.598505"

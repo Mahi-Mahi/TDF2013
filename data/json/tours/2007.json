@@ -208,9 +208,9 @@
       "year": 2007,
       "leg": "9",
       "leg_num": 9,
-      "title": "Val d'Isère - Briançon",
+      "title": "Val-d'Isère - Briançon",
       "start": {
-        "city": "Val d'Isère",
+        "city": "Val-d'Isère",
         "country": "France",
         "lat": "45.448034",
         "lng": "6.980226"
@@ -316,7 +316,7 @@
         "lng": "2.376579"
       },
       "finish": {
-        "city": "Plateau de Beille, Aston",
+        "city": "Plateau de Beille",
         "country": "France",
         "lat": "42.709683",
         "lng": "1.702387"

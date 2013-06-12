@@ -176,7 +176,7 @@
         "lng": "6.221307"
       },
       "finish": {
-        "city": "Planche des Belles Filles, Plancher-les-Mines",
+        "city": "Planche des Belles Filles",
         "country": "France",
         "lat": "47.767158",
         "lng": "6.774211"
@@ -410,7 +410,7 @@
       "leg_num": 19,
       "title": "Bonneval - Chartres",
       "start": {
-        "city": "Bonneval",
+        "city": "Bonneval-sur-Arc",
         "country": "France",
         "lat": "48.181453",
         "lng": "1.385289"

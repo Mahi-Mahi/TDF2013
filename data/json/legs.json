@@ -92,7 +92,7 @@
       "lng": "-3.574188"
     },
     "finish": {
-      "city": "Cap Fréhel, Fréhel",
+      "city": "Cap Fréhel",
       "country": "France",
       "lat": "48.683475",
       "lng": "-2.318914"
@@ -152,7 +152,7 @@
       "lng": "1.828597"
     },
     "finish": {
-      "city": "Super-Besse",
+      "city": "Super Besse",
       "country": "France",
       "lat": "45.508022",
       "lng": "2.861518"
@@ -272,7 +272,7 @@
       "lng": "0.723763"
     },
     "finish": {
-      "city": "Plateau de Beille, Aston",
+      "city": "Plateau de Beille",
       "country": "France",
       "lat": "42.709683",
       "lng": "1.702387"
@@ -352,7 +352,7 @@
       "lng": "7.349995"
     },
     "finish": {
-      "city": "Col du galibier, Serre-Chevalier",
+      "city": "Col du Galibier",
       "country": "France",
       "lat": "45.06411",
       "lng": "6.40782"
@@ -604,9 +604,9 @@
     "year": 2007,
     "leg": "9",
     "leg_num": 9,
-    "title": "Val d'Isère - Briançon",
+    "title": "Val-d'Isère - Briançon",
     "start": {
-      "city": "Val d'Isère",
+      "city": "Val-d'Isère",
       "country": "France",
       "lat": "45.448034",
       "lng": "6.980226"
@@ -712,7 +712,7 @@
       "lng": "2.376579"
     },
     "finish": {
-      "city": "Plateau de Beille, Aston",
+      "city": "Plateau de Beille",
       "country": "France",
       "lat": "42.709683",
       "lng": "1.702387"
@@ -1206,7 +1206,7 @@
     "leg_num": 18,
     "title": "Bourg-d'Oisans - Morzine-Avoriaz",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -1352,7 +1352,7 @@
       "lng": "4.481776"
     },
     "finish": {
-      "city": "Sint-Niklaas (Bel.)",
+      "city": "Sint-Niklaas",
       "country": "Belgique",
       "lat": "51.15",
       "lng": "4.133333"
@@ -1372,7 +1372,7 @@
       "lng": "4.133333"
     },
     "finish": {
-      "city": "Sint-Niklaas (Bel.)",
+      "city": "Sint-Niklaas",
       "country": "Belgique",
       "lat": "51.15",
       "lng": "4.133333"
@@ -1853,7 +1853,7 @@
     },
     "finish": {
       "city": "Mulhouse",
-      "country": null,
+      "country": "France",
       "lat": "47.750839",
       "lng": "7.335888"
     },
@@ -1893,7 +1893,7 @@
     },
     "finish": {
       "city": "Fribourg-en-Brisgau",
-      "country": "RFA",
+      "country": "Allemagne",
       "lat": "47.99901",
       "lng": "7.84210"
     },
@@ -2032,7 +2032,7 @@
       "lng": "2.295753"
     },
     "finish": {
-      "city": "Le Touquet",
+      "city": "Le Touquet-Paris-Plage",
       "country": "France",
       "lat": "50.521276",
       "lng": "1.590675"
@@ -2952,7 +2952,7 @@
       "lng": "6.863849"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -2966,7 +2966,7 @@
     "leg_num": 6,
     "title": "Évian - Aix-les-Bains",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -3413,7 +3413,7 @@
     },
     "finish": {
       "city": "Leiden",
-      "country": "Pays-bas",
+      "country": "Pays-Bas",
       "lat": "52.158494",
       "lng": "4.496199"
     },
@@ -3432,8 +3432,8 @@
       "lng": "4.496199"
     },
     "finish": {
-      "city": "Sint Willebrord",
-      "country": "Pays-bas",
+      "city": "Sint-Willebrord",
+      "country": "Pays-Bas",
       "lat": "51.551778",
       "lng": "4.58975"
     },
@@ -5186,7 +5186,7 @@
     "leg_num": 19,
     "title": "Bourg-d'Oisans - Le Grand-Bornand",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -5392,7 +5392,7 @@
       "lng": "6.221307"
     },
     "finish": {
-      "city": "Planche des Belles Filles, Plancher-les-Mines",
+      "city": "Planche des Belles Filles",
       "country": "France",
       "lat": "47.767158",
       "lng": "6.774211"
@@ -5626,7 +5626,7 @@
     "leg_num": 19,
     "title": "Bonneval - Chartres",
     "start": {
-      "city": "Bonneval",
+      "city": "Bonneval-sur-Arc",
       "country": "France",
       "lat": "48.181453",
       "lng": "1.385289"
@@ -5846,7 +5846,7 @@
     "leg_num": 9,
     "title": "Morzine-Avoriaz - Saint-Jean-de-Maurienne",
     "start": {
-      "city": "Morzine-Avoriaz",
+      "city": "Avoriaz",
       "country": "France",
       "lat": "46.189683",
       "lng": "6.776343"
@@ -6492,7 +6492,7 @@
       "lng": "2.956193"
     },
     "finish": {
-      "city": "Paris-Champs-Élysées",
+      "city": "Paris",
       "country": "France",
       "lat": "48.865784",
       "lng": "2.307314"
@@ -6612,7 +6612,7 @@
       "lng": "1.828597"
     },
     "finish": {
-      "city": "Super-Besse",
+      "city": "Super Besse",
       "country": "France",
       "lat": "45.508022",
       "lng": "2.861518"
@@ -7246,7 +7246,7 @@
     "leg_num": 16,
     "title": "Bourg-d'Oisans - La Toussuire",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -7612,7 +7612,7 @@
       "lng": "3.47083"
     },
     "finish": {
-      "city": "Ax-3 Domaines",
+      "city": "Ax 3 Domaines",
       "country": "France",
       "lat": "42.699657",
       "lng": "1.81283"
@@ -7886,7 +7886,7 @@
     "leg_num": 6,
     "title": "Bonneval - Angers",
     "start": {
-      "city": "Bonneval",
+      "city": "Bonneval-sur-Arc",
       "country": "France",
       "lat": "48.181453",
       "lng": "1.385289"
@@ -8012,7 +8012,7 @@
       "lng": "1.107132"
     },
     "finish": {
-      "city": "La Mongie, Bagnères-de-Bigorre",
+      "city": "La Mongie",
       "country": "France",
       "lat": "42.91",
       "lng": "0.179167"
@@ -8032,7 +8032,7 @@
       "lng": "0.38396"
     },
     "finish": {
-      "city": "Plateau de Beille, Aston",
+      "city": "Plateau de Beille",
       "country": "France",
       "lat": "42.709683",
       "lng": "1.702387"
@@ -8112,7 +8112,7 @@
       "lng": "6.030064"
     },
     "finish": {
-      "city": "Le Grand Bornand ",
+      "city": "Le Grand-Bornand",
       "country": "France",
       "lat": "45.942027",
       "lng": "6.426699"
@@ -8452,7 +8452,7 @@
       "lng": "1.444209"
     },
     "finish": {
-      "city": "Ax-3 Domaines, Ax-les-Thermes",
+      "city": "Ax 3 Domaines",
       "country": "France",
       "lat": "42.699657",
       "lng": "1.81283"
@@ -8486,7 +8486,7 @@
     "leg_num": 15,
     "title": "Bagnères de Bigorre - Luz-Ardiden",
     "start": {
-      "city": "Bagnères de Bigorre",
+      "city": "Bagnères-de-Bigorre",
       "country": "France",
       "lat": "43.065093",
       "lng": "0.149105"
@@ -8852,7 +8852,7 @@
       "lng": "0.38396"
     },
     "finish": {
-      "city": "Plateau de Beille, Aston",
+      "city": "Plateau de Beille",
       "country": "France",
       "lat": "42.709683",
       "lng": "1.702387"
@@ -9632,7 +9632,7 @@
       "lng": "-1.051945"
     },
     "finish": {
-      "city": "Hautacam, Préchac",
+      "city": "Hautacam",
       "country": "France",
       "lat": "42.972222",
       "lng": "-0.0075"
@@ -9966,7 +9966,7 @@
     "leg_num": 5,
     "title": "Bonneval - Amiens",
     "start": {
-      "city": "Bonneval",
+      "city": "Bonneval-sur-Arc",
       "country": "France",
       "lat": "48.181453",
       "lng": "1.385289"
@@ -10044,7 +10044,7 @@
     "year": 1999,
     "leg": "9",
     "leg_num": 9,
-    "title": "Le Grand-Bornand - Sestrières",
+    "title": "Le Grand-Bornand - Sestrières (Ita.)",
     "start": {
       "city": "Le Grand-Bornand",
       "country": "France",
@@ -10053,7 +10053,7 @@
     },
     "finish": {
       "city": "Sestrières",
-      "country": "France",
+      "country": "Italie",
       "lat": "44.9565",
       "lng": "6.879234"
     },
@@ -10064,10 +10064,10 @@
     "year": 1999,
     "leg": "10",
     "leg_num": 10,
-    "title": "Sestrières - L'Alpe d'Huez",
+    "title": "Sestrières (Ita.) - L'Alpe d'Huez",
     "start": {
       "city": "Sestrières",
-      "country": "France",
+      "country": "Italie",
       "lat": "44.9565",
       "lng": "6.879234"
     },
@@ -10432,7 +10432,7 @@
       "lng": "1.854589"
     },
     "finish": {
-      "city": "Corrèze, Corrèze",
+      "city": "Corrèze",
       "country": "France",
       "lat": "45.372114",
       "lng": "1.873739"
@@ -10512,7 +10512,7 @@
       "lng": "0.592943"
     },
     "finish": {
-      "city": "Plateau-de-Beille, Aston",
+      "city": "Plateau de Beille",
       "country": "France",
       "lat": "42.709683",
       "lng": "1.702387"
@@ -10946,7 +10946,7 @@
     "leg_num": 11,
     "title": "Andorre - Perpignan",
     "start": {
-      "city": "Andorre",
+      "city": "Andorre-la-Vieille",
       "country": "Andorre",
       "lat": "42.506285",
       "lng": "1.521801"
@@ -11126,13 +11126,13 @@
     "leg_num": 20,
     "title": "Disneyland Paris - Disneyland Paris",
     "start": {
-      "city": "Marne La Vallée",
+      "city": "Marne-la-Vallée",
       "country": "France",
       "lat": "48.859276",
       "lng": "2.598505"
     },
     "finish": {
-      "city": "Marne La Vallée",
+      "city": "Marne-La-Vallée",
       "country": "France",
       "lat": "48.859276",
       "lng": "2.598505"
@@ -11146,7 +11146,7 @@
     "leg_num": 21,
     "title": "Disneyland Paris - Paris",
     "start": {
-      "city": "Marne La Vallée",
+      "city": "Marne-la-Vallée",
       "country": "France",
       "lat": "48.859276",
       "lng": "2.598505"
@@ -11344,7 +11344,7 @@
     "year": 1996,
     "leg": "9",
     "leg_num": 9,
-    "title": "Le Monêtier-les-Bains - Sestrières",
+    "title": "Le Monêtier-les-Bains - Sestrières (Ita.)",
     "start": {
       "city": "Le Monêtier-les-Bains",
       "country": "France",
@@ -11432,7 +11432,7 @@
       "lng": "3.882936"
     },
     "finish": {
-      "city": "Super Besse, Besse",
+      "city": "Super Besse",
       "country": "France",
       "lat": "45.508022",
       "lng": "2.861518"
@@ -11492,7 +11492,7 @@
       "lng": "0.616363"
     },
     "finish": {
-      "city": "Hautacam, Préchac",
+      "city": "Hautacam",
       "country": "France",
       "lat": "42.972222",
       "lng": "-0.0075"
@@ -12252,7 +12252,7 @@
       "lng": "1.441989"
     },
     "finish": {
-      "city": "Hautacam, Préchac",
+      "city": "Hautacam",
       "country": "France",
       "lat": "42.972222",
       "lng": "-0.0075"
@@ -12352,7 +12352,7 @@
       "lng": "4.989187"
     },
     "finish": {
-      "city": "L'Alpe-d'Huez",
+      "city": "L'Alpe d'Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -12366,7 +12366,7 @@
     "leg_num": 17,
     "title": "Bourg-d'Oisans - Val-Thorens",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -12446,7 +12446,7 @@
     "leg_num": 21,
     "title": "Disneyland Paris - Paris",
     "start": {
-      "city": "Marne La Vallée",
+      "city": "Marne-la-Vallée",
       "country": "France",
       "lat": "48.859276",
       "lng": "2.598505"
@@ -12612,7 +12612,7 @@
       "lng": "2.933353"
     },
     "finish": {
-      "city": "Châlons-sur-Marne",
+      "city": "Châlons-en-Champagne",
       "country": "France",
       "lat": "48.956682",
       "lng": "4.363073"
@@ -12626,7 +12626,7 @@
     "leg_num": 8,
     "title": "Châlons-sur-Marne - Verdun",
     "start": {
-      "city": "Châlons-sur-Marne",
+      "city": "Châlons-en-Champagne",
       "country": "France",
       "lat": "48.956682",
       "lng": "4.363073"
@@ -12786,7 +12786,7 @@
     "leg_num": 16,
     "title": "Andorre - Saint-Lary-Soulan",
     "start": {
-      "city": "Andorre",
+      "city": "Andorre-la-Vieille",
       "country": "Andorre",
       "lat": "42.506285",
       "lng": "1.521801"
@@ -12947,7 +12947,7 @@
     "title": "Pau - Bordeaux",
     "start": {
       "city": "Pau",
-      "country": "Espagne",
+      "country": "France",
       "lat": "43.2951",
       "lng": "-0.370797"
     },
@@ -12967,7 +12967,7 @@
     "title": "Libourne - Libourne",
     "start": {
       "city": "Libourne",
-      "country": "Espagne",
+      "country": "France",
       "lat": "44.912998",
       "lng": "-0.243985"
     },
@@ -12987,7 +12987,7 @@
     "title": "Nogent-sur-Oise - Wasquehal",
     "start": {
       "city": "Nogent-sur-Oise",
-      "country": "Espagne",
+      "country": "France",
       "lat": "49.278948",
       "lng": "2.464688"
     },
@@ -13007,7 +13007,7 @@
     "title": "Roubaix - Bruxelles",
     "start": {
       "city": "Roubaix",
-      "country": "Espagne",
+      "country": "France",
       "lat": "50.692705",
       "lng": "3.177847"
     },
@@ -13144,7 +13144,7 @@
     "year": 1992,
     "leg": "13",
     "leg_num": 13,
-    "title": "Saint-Gervais - Sestrières  ",
+    "title": "Saint-Gervais - Sestrières (Ita.)",
     "start": {
       "city": "Saint-Gervais",
       "country": "France",
@@ -13153,7 +13153,7 @@
     },
     "finish": {
       "city": "Sestrières",
-      "country": "France",
+      "country": "Italie",
       "lat": "44.9565",
       "lng": "6.879234"
     },
@@ -13167,7 +13167,7 @@
     "title": "Sestrières - Alpe d'Huez  ",
     "start": {
       "city": "Sestrières",
-      "country": "France",
+      "country": "Italie",
       "lat": "44.9565",
       "lng": "6.879234"
     },
@@ -15092,7 +15092,7 @@
       "lng": "5.55227"
     },
     "finish": {
-      "city": "L'Alpe-d'Huez",
+      "city": "L'Alpe d'Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -15106,7 +15106,7 @@
     "leg_num": 21,
     "title": "Bourg-d'Oisans - La Plagne  ",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -15572,7 +15572,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "L'Alpe-d'Huez",
+      "city": "L'Alpe d'Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -16492,7 +16492,7 @@
       "lng": "5.753686"
     },
     "finish": {
-      "city": "La Ruchère en Chartreuse",
+      "city": "La Ruchère",
       "country": "France",
       "lat": "45.411218",
       "lng": "5.803222"
@@ -16526,7 +16526,7 @@
     "leg_num": 18,
     "title": "Bourg-d'Oisans - La Plagne",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -16952,7 +16952,7 @@
       "lng": "3.087025"
     },
     "finish": {
-      "city": "Puy-de-Dôme",
+      "city": "Puy de Dôme",
       "country": "France",
       "lat": "45.77207",
       "lng": "2.96974"
@@ -17006,7 +17006,7 @@
     "leg_num": 18,
     "title": "Bourg-d'Oisans - Morzine",
     "start": {
-      "city": "Bourg-d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -17506,7 +17506,7 @@
     "leg_num": 20,
     "title": "Le Bourg d'Oisans - Le Pleynet",
     "start": {
-      "city": "Le Bourg d'Oisans",
+      "city": "Le Bourg-d'Oisans",
       "country": "France",
       "lat": "45.051951",
       "lng": "6.030064"
@@ -18392,7 +18392,7 @@
       "lng": "6.863849"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -18406,7 +18406,7 @@
     "leg_num": 15,
     "title": "Évian - Morzine-Avoriaz",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -18907,13 +18907,13 @@
     "title": "Fribourg-en-Brisgau (RFA) - Fribourg-en-Brisgau (RFA)",
     "start": {
       "city": "Fribourg-en-Brisgau",
-      "country": "RFA",
+      "country": "Allemagne",
       "lat": "47.999008",
       "lng": "7.842104"
     },
     "finish": {
       "city": "Fribourg-en-Brisgau",
-      "country": "RFA",
+      "country": "Allemagne",
       "lat": "47.999008",
       "lng": "7.842104"
     },
@@ -19246,7 +19246,7 @@
     "leg_num": 4,
     "title": "Le Touquet - Bornem (Bel.)",
     "start": {
-      "city": "Le Touquet",
+      "city": "Le Touquet-Paris-Plage",
       "country": "France",
       "lat": "50.521276",
       "lng": "1.590675"
@@ -20132,7 +20132,7 @@
       "lng": "6.477635"
     },
     "finish": {
-      "city": "Chalon sur Saône",
+      "city": "Chalon-sur-Saône",
       "country": "France",
       "lat": "46.780764",
       "lng": "4.853947"
@@ -20372,7 +20372,7 @@
       "lng": "3.956659"
     },
     "finish": {
-      "city": "Châlons-sur-Marne",
+      "city": "Châlons-en-Champagne",
       "country": "France",
       "lat": "48.956682",
       "lng": "4.363073"
@@ -20386,7 +20386,7 @@
     "leg_num": 9,
     "title": "Châlons-sur-Marne - Chaumont",
     "start": {
-      "city": "Châlons-sur-Marne",
+      "city": "Châlons-en-Champagne",
       "country": "France",
       "lat": "48.956682",
       "lng": "4.363073"
@@ -20992,7 +20992,7 @@
       "lng": "2.241295"
     },
     "finish": {
-      "city": "La Grande Motte",
+      "city": "La Grande-Motte",
       "country": "France",
       "lat": "43.560704",
       "lng": "4.086072"
@@ -21072,7 +21072,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "Col du Galibier, Valloire",
+      "city": "Col du Galibier",
       "country": "France",
       "lat": "45.06411",
       "lng": "6.40782"
@@ -21086,7 +21086,7 @@
     "leg_num": 17,
     "title": "Valloire/Col du Galibier - Aix-les-Bains",
     "start": {
-      "city": "Col du Galibier, Valloire",
+      "city": "Col du Galibier",
       "country": "France",
       "lat": "45.06411",
       "lng": "6.40782"
@@ -21473,7 +21473,7 @@
     },
     "finish": {
       "city": "Felsberg",
-      "country": "RFA",
+      "country": "Allemagne",
       "lat": "\n49.29184",
       "lng": "6.69721"
     },
@@ -21487,7 +21487,7 @@
     "title": "Saarlouis (RFA) - Mulhouse",
     "start": {
       "city": "Saarlouis",
-      "country": "RFA",
+      "country": "Allemagne",
       "lat": "49.313461",
       "lng": "6.752286"
     },
@@ -21852,7 +21852,7 @@
       "lng": "3.177847"
     },
     "finish": {
-      "city": "Woluwe-Saint-Pierre (BEL)",
+      "city": "Woluwe-Saint-Pierre",
       "country": "Belgique",
       "lat": "50.82672",
       "lng": "4.41759"
@@ -21892,7 +21892,7 @@
       "lng": "4.41759"
     },
     "finish": {
-      "city": "Maastricht (NL)",
+      "city": "Maastricht",
       "country": "Pays-Bas",
       "lat": "50.85121",
       "lng": "5.68304"
@@ -22132,7 +22132,7 @@
       "lng": "5.56934"
     },
     "finish": {
-      "city": "La Grande Motte",
+      "city": "La Grande-Motte",
       "country": "France",
       "lat": "43.56070",
       "lng": "4.08607"
@@ -23772,7 +23772,7 @@
       "lng": "1.533937"
     },
     "finish": {
-      "city": "Puy de Dôme, Orcines",
+      "city": "Puy de Dôme",
       "country": "France",
       "lat": "45.77207",
       "lng": "2.96974"
@@ -24592,7 +24592,7 @@
       "lng": "0.592943"
     },
     "finish": {
-      "city": "Superbagnères, Saint-Aventin",
+      "city": "Superbagnères",
       "country": "France",
       "lat": "42.768576",
       "lng": "0.576927"
@@ -24726,7 +24726,7 @@
     "leg_num": 22,
     "title": "Bourgoin - Lyon",
     "start": {
-      "city": "Bourgoin",
+      "city": "Bourgoin-Jallieu",
       "country": "France",
       "lat": "45.597108",
       "lng": "5.27212"
@@ -25112,7 +25112,7 @@
       "lng": "1.444209"
     },
     "finish": {
-      "city": "Superbagnères, Saint-Aventin",
+      "city": "Superbagnères",
       "country": "France",
       "lat": "42.768576",
       "lng": "0.576927"
@@ -26452,7 +26452,7 @@
       "lng": "5.180374"
     },
     "finish": {
-      "city": "Mont Ventoux (Bédoin)",
+      "city": "Mont Ventoux",
       "country": "France",
       "lat": "44.173925",
       "lng": "5.283795"
@@ -28793,7 +28793,7 @@
     },
     "finish": {
       "city": "Monaco",
-      "country": "France",
+      "country": "Monaco",
       "lat": "43.738418",
       "lng": "7.424616"
     },
@@ -29153,7 +29153,7 @@
     },
     "finish": {
       "city": "Monaco",
-      "country": "France",
+      "country": "Monaco",
       "lat": "43.738418",
       "lng": "7.424616"
     },
@@ -29332,7 +29332,7 @@
       "lng": "1.261105"
     },
     "finish": {
-      "city": "Puy de Dôme (Clermont-Ferrand)",
+      "city": "Puy de Dôme",
       "country": "France",
       "lat": "45.77207",
       "lng": "2.96974"
@@ -33432,7 +33432,7 @@
       "lng": "6.142296"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -33446,7 +33446,7 @@
     "leg_num": 7,
     "title": "Évian - Aix-les-Bains",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -35072,7 +35072,7 @@
       "lng": "5.908998"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -35086,7 +35086,7 @@
     "leg_num": 15,
     "title": "Évian - Belfort",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -35572,7 +35572,7 @@
       "lng": "5.908998"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -35586,7 +35586,7 @@
     "leg_num": 19,
     "title": "Évian - Belfort",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -35652,7 +35652,7 @@
       "lng": "6.176905"
     },
     "finish": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -35666,7 +35666,7 @@
     "leg_num": 23,
     "title": "Charleville-Mézières - Malo-les-Bains",
     "start": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36012,7 +36012,7 @@
       "lng": "5.724524"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36026,7 +36026,7 @@
     "leg_num": 17,
     "title": "Évian - Belfort",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36072,7 +36072,7 @@
       "lng": "6.176905"
     },
     "finish": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36086,7 +36086,7 @@
     "leg_num": 20,
     "title": "Charleville - Malo-les-Bains",
     "start": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36412,7 +36412,7 @@
       "lng": "5.724524"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36426,7 +36426,7 @@
     "leg_num": 16,
     "title": "Évian - Belfort",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36492,7 +36492,7 @@
       "lng": "6.176905"
     },
     "finish": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36506,7 +36506,7 @@
     "leg_num": 20,
     "title": "Charleville - Malo-les-Bains",
     "start": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36832,7 +36832,7 @@
       "lng": "5.724524"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36846,7 +36846,7 @@
     "leg_num": 15,
     "title": "Évian - Pontarlier",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -36932,7 +36932,7 @@
       "lng": "6.176905"
     },
     "finish": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -36946,7 +36946,7 @@
     "leg_num": 20,
     "title": "Charleville - Malo-les-Bains",
     "start": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -37332,7 +37332,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -37346,7 +37346,7 @@
     "leg_num": 18,
     "title": "Évian - Pontarlier",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -37432,7 +37432,7 @@
       "lng": "6.176905"
     },
     "finish": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -37446,7 +37446,7 @@
     "leg_num": 23,
     "title": "Charleville - Dunkerque",
     "start": {
-      "city": "Charleville",
+      "city": "Charleville-Mézières",
       "country": "France",
       "lat": "49.762085",
       "lng": "4.726096"
@@ -37486,7 +37486,7 @@
     "leg_num": 1,
     "title": "Évian - Mulhouse",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -37772,7 +37772,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -37786,7 +37786,7 @@
     "leg_num": 16,
     "title": "Évian - Dijon",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -38092,7 +38092,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -38106,7 +38106,7 @@
     "leg_num": 15,
     "title": "Évian - Mulhouse",
     "start": {
-      "city": "Évian",
+      "city": "Évian-les-Bains",
       "country": "France",
       "lat": "46.401488",
       "lng": "6.590949"
@@ -40493,7 +40493,7 @@
     },
     "finish": {
       "city": "Genève",
-      "country": "France",
+      "country": "Suisse",
       "lat": "46.198392",
       "lng": "6.142296"
     },
@@ -40507,7 +40507,7 @@
     "title": "Genève - Belfort",
     "start": {
       "city": "Genève",
-      "country": "France",
+      "country": "Suisse",
       "lat": "46.198392",
       "lng": "6.142296"
     },
@@ -41213,7 +41213,7 @@
     },
     "finish": {
       "city": "Metz",
-      "country": "Empire allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },
@@ -41227,7 +41227,7 @@
     "title": "Metz - Belfort",
     "start": {
       "city": "Metz",
-      "country": "Empire allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },
@@ -41513,7 +41513,7 @@
     },
     "finish": {
       "city": "Metz",
-      "country": "Empire allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },
@@ -41527,7 +41527,7 @@
     "title": "Metz - Belfort",
     "start": {
       "city": "Metz",
-      "country": "Empire allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },
@@ -41793,7 +41793,7 @@
     },
     "finish": {
       "city": "Metz",
-      "country": "Empire Allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },
@@ -41807,7 +41807,7 @@
     "title": "Metz - Belfort",
     "start": {
       "city": "Metz",
-      "country": "Empire Allemand",
+      "country": "France",
       "lat": "49.119666",
       "lng": "6.176905"
     },

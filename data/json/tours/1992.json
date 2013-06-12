@@ -91,7 +91,7 @@
       "title": "Pau - Bordeaux",
       "start": {
         "city": "Pau",
-        "country": "Espagne",
+        "country": "France",
         "lat": "43.2951",
         "lng": "-0.370797"
       },
@@ -111,7 +111,7 @@
       "title": "Libourne - Libourne",
       "start": {
         "city": "Libourne",
-        "country": "Espagne",
+        "country": "France",
         "lat": "44.912998",
         "lng": "-0.243985"
       },
@@ -131,7 +131,7 @@
       "title": "Nogent-sur-Oise - Wasquehal",
       "start": {
         "city": "Nogent-sur-Oise",
-        "country": "Espagne",
+        "country": "France",
         "lat": "49.278948",
         "lng": "2.464688"
       },
@@ -151,7 +151,7 @@
       "title": "Roubaix - Bruxelles",
       "start": {
         "city": "Roubaix",
-        "country": "Espagne",
+        "country": "France",
         "lat": "50.692705",
         "lng": "3.177847"
       },
@@ -288,7 +288,7 @@
       "year": 1992,
       "leg": "13",
       "leg_num": 13,
-      "title": "Saint-Gervais - Sestrières  ",
+      "title": "Saint-Gervais - Sestrières (Ita.)",
       "start": {
         "city": "Saint-Gervais",
         "country": "France",
@@ -297,7 +297,7 @@
       },
       "finish": {
         "city": "Sestrières",
-        "country": "France",
+        "country": "Italie",
         "lat": "44.9565",
         "lng": "6.879234"
       },
@@ -311,7 +311,7 @@
       "title": "Sestrières - Alpe d'Huez  ",
       "start": {
         "city": "Sestrières",
-        "country": "France",
+        "country": "Italie",
         "lat": "44.9565",
         "lng": "6.879234"
       },
