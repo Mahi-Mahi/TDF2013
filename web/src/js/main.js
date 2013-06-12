@@ -1310,6 +1310,10 @@ TDF.Fight = (function() {
 			legends_list = [];
 		var $template = jQuery('#template-winner');
 
+		var liify = function(elt) {
+			return '<li>' + elt + '</li>';
+		};
+
 		var url_fighter_one, url_fighter_two;
 		switch (side) {
 			case 'fighter_one':
@@ -1336,6 +1340,7 @@ TDF.Fight = (function() {
 				.replace(':portrait_url', '/img/vainqueurs/portraits/' + fighter_id + '_small.png')
 				.replace(':name', fighter.first_name + ' ' + fighter.last_name)
 				.replace(':safename', '')
+				.replace(':wins', TDF.Data.winners[fighter_id] ? TDF.Data.winners[fighter_id].wins.map(liify).join('') : '')
 				.replace(':flag_url', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
 
 			if (fighter.winner) {
