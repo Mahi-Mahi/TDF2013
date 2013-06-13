@@ -36,6 +36,7 @@ MarkerLabel.prototype.onAdd = function() {
 };
 
 MarkerLabel.prototype.onRemove = function() {
+    console.log("onRemove");
     this.div_.parentNode.removeChild(this.div_);
 
     for (var i = 0, I = this.listeners_.length; i < I; ++i) {

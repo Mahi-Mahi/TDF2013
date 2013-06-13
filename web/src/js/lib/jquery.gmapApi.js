@@ -726,6 +726,12 @@
             var bounds = new google.maps.LatLngBounds();
 
 
+            for(var j = 0; j < this.markers.length; j++){
+//                this.markers[j].onRemove();
+                this.markers[j].setMap(null);
+            }
+            
+            self.markers = [];
             
             
             //First search (little size)

@@ -308,15 +308,6 @@ TDF.Home = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
-
-
-		/*
-		// GTAB
-        searchInput = $('#inputGeoloc');
-*/
-
-
-
 	};
 
 	my.render = function() {
@@ -333,6 +324,17 @@ TDF.Home = (function() {
 
 
 		if (jQuery('#search').length) {
+                    
+                        jQuery( "#search" ).autocomplete({
+                            minLength: 0,
+                            source: TDF.Data.cities,
+                            messages: {
+                                noResults: '',
+                                results: function() {}
+                            }
+                        });
+                    
+                    /*
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 			input.className = '';
@@ -360,6 +362,7 @@ TDF.Home = (function() {
 
 				}
 			});
+                */
 
 		}
 
@@ -452,53 +455,98 @@ TDF.CitySearch = (function() {
 	};
 
 	my.autocomplete_init = function() {
+            
+                function geocoding(){
+                    var address = searchInput.val();
 
-		if (jQuery('#search').length) {
-			var input = document.getElementById('search');
-			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-			input.className = '';
+                    geocoder.geocode( { 'address': address}, function(results, status) {
+                        if (status === google.maps.GeocoderStatus.OK) {
+                            my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
+                        } 
+                        else {
+                            console.log('Geocode was not successful for the following reason: ' + status);
+                        }
+                    });
 
+                }
+            
 
-			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+                var searchInput = jQuery('#search');
+                var form = jQuery('#city_search');
+                var geocoder = new google.maps.Geocoder();
 
-				var place = gMapAutocomplete.getPlace();
-
-				if (!place.geometry) {
-					input.className = 'notfound';
-					return;
-				}
-
-				// If the place has a geometry, then present it on a map.
-				if (place.geometry.viewport) {
-
-					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
-				} else {
-					my.gmapApi.getMap().setCenter(place.geometry.location);
-					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
-				}
-
-
-				my.gmapApi.findEtapesNear(place.geometry.location.lat(), place.geometry.location.lng(), TDF.Data.legs);
-
-
-
-			});
-
-
-			jQuery('#city_search').submit(function() {
-				return false;
-			});
+    
+                if(searchInput.val().length > 0){
+                    geocoding();
+                }
+                    
+    
+                searchInput.autocomplete({
+                    minLength: 0,
+                    source: TDF.Data.cities,
+                    messages: {
+                        noResults: '',
+                        results: function() {}
+                    }
+                });
 
 
-			jQuery(input).bind('keydown', function(e) {
-				if (e.keyCode === 13) {
+
+                form.submit(function() {
+
+                    geocoding();
+
+                    return false;
+                });
 
 
-				} else {
+                searchInput.bind('keydown', function(e) {
+                    if (e.keyCode === 13) {
 
-				}
-			});
-		}
+                    } 
+                    else {
+
+                    }
+                });
+                
+                
+                        
+                        
+                
+
+
+//		if (jQuery('#search').length) {
+//			var input = document.getElementById('search');
+//			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+//			input.className = '';
+//
+//
+//			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+//
+//				var place = gMapAutocomplete.getPlace();
+//
+//				if (!place.geometry) {
+//					input.className = 'notfound';
+//					return;
+//				}
+//
+//				// If the place has a geometry, then present it on a map.
+//				if (place.geometry.viewport) {
+//
+//					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
+//				} else {
+//					my.gmapApi.getMap().setCenter(place.geometry.location);
+//					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
+//				}
+//
+//
+//				
+//
+//			});
+//
+//
+//			
+//		}
 	};
 
 	return my;
@@ -1721,8 +1769,15 @@ TDF.Data = (function() {
 						jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 							console.log(textStatus);
 							my.places = json;
+                                                        
+                                                        //Cities
+                                                        jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
+                                                                console.log(textStatus);
+                                                                my.cities = json;
 
-							callback();
+                                                                callback();
+
+                                                        });
 
 						});
 
