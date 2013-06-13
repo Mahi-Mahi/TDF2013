@@ -609,7 +609,7 @@ TDF.Traces = (function() {
 		my.args = args;
 
 		if (my.args.years === undefined) {
-			my.args.years = [];
+			my.args.years = [2013];
 		} else {
 			my.args.years = my.args.years.split(/,/);
 		}
@@ -781,7 +781,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-		if ( (my.args.years.length === 1) && (my.args.years.join(',') !== '2013') ) {
+		if ((my.args.years.length === 1) && (my.args.years.join(',') !== '2013')) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
@@ -1207,10 +1207,10 @@ TDF.Fight = (function() {
 			tmp.push(TDF.Data.fighters[i]);
 		}
 		my.sorted_fighters = tmp.sort(function(a, b) {
-			if (a.first_name < b.first_name){
+			if (a.first_name < b.first_name) {
 				return -1;
 			}
-			if (a.first_name > b.first_name){
+			if (a.first_name > b.first_name) {
 				return 1;
 			}
 			return 0;
@@ -1278,7 +1278,7 @@ TDF.Fight = (function() {
 			}
 		}
 
-		jQuery('.selector-inner').find('.close').on('click', function() {
+		jQuery('.selector-inner').find('.close').attr('href', my.getQueryString()).on('click', function() {
 			jQuery('.selector-inner').hide();
 		});
 
@@ -1520,17 +1520,30 @@ TDF.Fight = (function() {
 					'margin-left': diff[1] + 'px'
 				});
 
-				if (diff[0] >= diff[1]) {
-					$fighter_one.addClass('winner');
+				if (my.args.step === 7 || my.args.step === 'results') {
+					if (diff[0] >= diff[1]) {
+						$fighter_one.addClass('winner');
+						console.log("fighter_one Winner");
+						fighter_one_result = my.winner_result(fighter_one);
+						$fighter_one.find('.name').remove();
+					}
+					if (diff[0] <= diff[1]) {
+						$fighter_two.addClass('winner');
+						console.log("fighter_two Winner");
+						fighter_two_result = my.winner_result(fighter_two);
+						$fighter_two.find('.name').remove();
+					}
+					console.log(diff);
+					if (diff[0] === diff[1]) {
+						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
+						$fighter_two.find('.fighter-infos').hide();
+					}
 				}
-				if (diff[0] <= diff[1]) {
-					$fighter_two.addClass('winner');
-				}
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
 
 				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
 
-				$fighter_one.find('.result').html(fighter_one_result);
-				$fighter_two.find('.result').html(fighter_two_result);
 
 				if (my.args.step < 7) {
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1541,6 +1554,29 @@ TDF.Fight = (function() {
 				break;
 		}
 	};
+
+	my.winner_result = function(fighter) {
+		var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
+		var wins = [];
+		if (TDF.Data.winners[fighter.id]) {
+			wins = TDF.Data.winners[fighter.id].wins;
+		}
+		var res = '<div class="result-heading">vainqueur</div>';
+		res = res + '<div class="name">' + fighter.first_name + ' ' + fighter.last_name + '</div>';
+		switch (wins.length) {
+			case 0:
+				break;
+			case 1:
+				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de sa victoire</a>';
+				break;
+			default:
+				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de ses victoires</a>';
+				break;
+		}
+		res = res + '<div class="share-result">partager sa victoire<a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
+		return res;
+	};
+
 
 	my.showResults = function() {
 
@@ -1577,7 +1613,7 @@ TDF.Fight = (function() {
 		}
 
 		$results.show();
-		jQuery('.results').find('.close').on('click', function() {
+		jQuery('.results').find('.close').attr('href', my.getQueryString() + '7/').on('click', function() {
 			jQuery('.results').hide();
 		});
 
@@ -1605,14 +1641,14 @@ TDF.StreetView = (function() {
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
 
-        my.gmapApi = null;
+	my.gmapApi = null;
 
 	my.init = function() {
 
 	};
 
 
-        my.initializeGmap = function() {
+	my.initializeGmap = function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -1623,7 +1659,7 @@ TDF.StreetView = (function() {
 		var map = $inner.find("#" + mapId);
 
 		var mapOptions = {
-                        minimap: "minimap",
+			minimap: "minimap",
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			zoom: zoom,
@@ -1632,19 +1668,26 @@ TDF.StreetView = (function() {
 				style: 'SMALL',
 				position: 'TOP_LEFT'
 			},
-                        markersIcons: [
-                            {url: "/img/lieux/pin-photo.png", width:23, height:32, anchorX:11, anchorY:32},
-                            {url: "/img/lieux/pin-hyperlapse.png", width:31, height:32, anchorX:5, anchorY:32}
-                        ],
+			markersIcons: [{
+					url: "/img/lieux/pin-photo.png",
+					width: 23,
+					height: 32,
+					anchorX: 11,
+					anchorY: 32
+				}, {
+					url: "/img/lieux/pin-hyperlapse.png",
+					width: 31,
+					height: 32,
+					anchorX: 5,
+					anchorY: 32
+				}
+			],
 			styles: mapStyleTrace
 		};
 
-
 		my.gmapApi = map.gmapApi(mapOptions);
 
-
-
-                my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
+		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
 
 	my.render = function(args) {
@@ -1665,6 +1708,12 @@ TDF.StreetView = (function() {
 				places_list.push(content);
 			}
 			$inner.find('.streetview-list').html(places_list.join(' '));
+
+			$inner.find('.streetview-list-container').jScrollPane({
+				mouseWheelSpeed: '2',
+				maintainPosition: false
+			});
+
 		}
 
 		var duration = 500;
@@ -1681,7 +1730,7 @@ TDF.StreetView = (function() {
 			}, duration);
 		}
 
-                this.initializeGmap();
+		this.initializeGmap();
 
 	};
 
