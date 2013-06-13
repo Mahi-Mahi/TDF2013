@@ -1252,13 +1252,19 @@ TDF.Fight = (function() {
 
 		if (my.args.fighter_one === 'selector') {
 			my.showSelector('fighter_one');
+			jQuery('.tabs').tabify();
 		} else {
 			if (my.args.fighter_two === 'selector') {
 				my.showSelector('fighter_two');
+				jQuery('.tabs').tabify();
 			} else {
 				my.hideSelector();
 			}
 		}
+
+		jQuery('.selector-inner').find('.close').on('click', function() {
+			jQuery('.selector-inner').hide();
+		});
 
 		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
 		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
@@ -1292,12 +1298,14 @@ TDF.Fight = (function() {
 	};
 
 	my.hideSelector = function() {
-		$main.find('.selector').html('');
+		$main.find('.selector').hide();
+		$main.find('.selector-inner').html('');
 	};
 
 	my.showSelector = function(side) {
 
-		$main.find('.selector').html(jQuery('.templates #template-fight-selector').html());
+		$main.find('.selector-inner').html(jQuery('.templates #template-fight-selector').html());
+		$main.find('.selector').show();
 
 		var content, winners_list = [],
 			legends_list = [];

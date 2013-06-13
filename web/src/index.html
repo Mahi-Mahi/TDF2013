@@ -282,8 +282,10 @@
 
 			<div class="template" id="template-fight-home">
 				<header></header>
-				<div class="selector"></div>
 				<div class="container">
+					<div class="selector">
+						<div class="selector-inner"></div><!-- .selector-inner -->
+					</div><!-- .selector -->
 					<h3 class="visuallyhidden">Radio France Présente</h3>
 					<h2 class="visuallyhidden">Duels de Légendes</h2>
 					<div class="fighter_pics">
@@ -308,22 +310,24 @@
 			</div>
 
 			<div class="template" id="template-fight-selector">
-				<a class="random" href="">Au hasard</a>
-				<ul class="tabs">
-					<li class="winners">Vainqueurs</li>
-					<li class="legends">Légendes du tour</li>
-				</ul>
+				<div class="clearfix">
+					<a class="random left" href="">Au hasard</a>
+					<ul class="tabs left unstyled">
+						<li class="winners active"><a href="#winner-block">Vainqueurs</a></li>
+						<li class="legends"><a href="#legends-block">Légendes du tour</a></li>
+					</ul>
+				</div>
+				<div class="winners clearfix" id="winner-block">
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
+				</div>
+				<div class="legends clearfix" id="legends-block">
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
+				</div>
 				<div class="close"><a href="">X</a></div>
-				<div class="winners">
-					<div class="winners_list">
-						<ul class="unstyled"></ul>
-					</div>
-				</div>
-				<div class="legends">
-					<div class="winners_list">
-						<ul class="unstyled"></ul>
-					</div>
-				</div>
 			</div>
 
 			<div class="template" id="template-fight-start">

@@ -262,7 +262,7 @@
 	color:#383C40;
 }
 
-#close {
+#close, .close {
 	position: absolute;
 	display:block;
 	overflow:hidden;
@@ -276,6 +276,10 @@
 	white-space:nowrap;
 	top:1em;
 	right:1em;
+}
+
+.close {
+	top:2em;
 }
 
 .winners .ui-slider {

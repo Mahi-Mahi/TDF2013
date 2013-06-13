@@ -527,3 +527,79 @@
 	position:absolute;
 	z-index:6;
 }
+
+.selector {
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	z-index:5;
+	display:none;
+}
+
+.selector-inner {
+	background:#D9D9D4;
+	border-radius:4px 4px 0 0;
+	display:block;
+	margin:20px 0 0 40px;
+	padding:20px 0 0 0;
+}
+
+#winner-block {
+	background:#E7E8DF;
+	border-radius:0 0 4px 4px;
+	padding:0 0 12px 0;
+	-webkit-box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+}
+
+#winner-block .winners_list {
+	background:#E7E8DF;
+	height:402px;
+}
+
+#winner-block .winners_list > ul {
+	padding:10px 50px;
+}
+
+.random {
+	background:url(/img/duels/bg-random.png) 4px 50% no-repeat #ED7703;
+	border-radius:8px;
+	color:#fff;
+	display:block;
+	font:400 18px/28px 'Oswald', Verdana, Arial, sans-serif;
+	height:28px;
+	margin:0 12px;
+	padding:0 8px 0 36px;
+	text-transform:uppercase;
+}
+
+.tabs li {
+	display:inline-block;
+	height:36px;
+	margin:0 15px 0 0;
+	padding:0;
+	vertical-align:top;
+	width:200px;
+}
+
+.tabs a {
+	background:#D9D9D4;
+	border-radius:6px 6px 0 0;
+	color:#7A8187;
+	display:block;
+	font:400 18px/36px 'Oswald', Verdana, Arial, sans-serif;
+	height:36px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	-webkit-box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    -4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow:-4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tabs .active a {
+	background:#E7E8DF;
+	color:#383C40;
+}
