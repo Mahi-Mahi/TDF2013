@@ -1,34 +1,60 @@
 
 .fight-start {
-	// width: 800px;
-	// height: 600px;
-	// border: 1px solid red;
 }
 
 .fight-start .fighters {
 	margin: 0 auto;
 	position: relative;
-	top: 150px;
+	top: 140px;
 	width: 400px;
 	height: 300px;
-	border: 1px solid green;
+}
+
+.step-7  .fighters {
+	margin-left:180px;
 }
 
 .fight-start .fighter_one {
+	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
 	bottom: 80px;
 	z-index: 10;
 }
 
 .fight-start .fighter_two {
+	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
 	bottom: 0px;
 	z-index: 11;
 }
 
+.step-results .fighter_one, .step-results .fighter_two {
+	background:none;
+	bottom:auto;
+	left:auto;
+	top:auto;
+	height:auto;
+	width:auto;
+}
+
+.step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow {
+	background-position:-190px 0;
+}
+
+.step-5 .fighter_one.has_won, .step-5 .fighter_two.has_won {
+	background-position:-380px 0;
+}
+
 .fight-start .fighter {
 	position: absolute;
-	border: solid 1px lightgrey;
-	width:150px;
-	height: 200px;
+	margin:0;
+	padding:0;
+	width:173px;
+	height:202px;
+}
+
+.step-results .fighter {
+	position:static;
+	width:auto;
+	height:auto;
 }
 
 .fight-results .winner {
@@ -39,5 +65,649 @@
 	background:url(/img/duels/bg-duels-hp.png) left top no-repeat;
 	display:block;
 	height:501px;
+	position:relative;
+	width:100%;
 }
 
+.fight-home .start {
+	background:url(/img/duels/bt-start.png) left top no-repeat;
+	display:block;
+	height:145px;
+	margin:0 0 0 -100px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	left:50%;
+	top:150px;
+	text-indent:100%;
+	white-space:nowrap;
+	width:193px;
+	visibility:hidden;
+}
+
+.fight-home .fighter {
+	display:block;
+	left:140px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:315px;
+	width:255px;
+	text-align:center;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	z-index:2;
+}
+
+.fight-home .fighter_two {
+	left:580px;
+	top:315px;
+	transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+}
+
+.fight-home .fighter .name {
+	color:#F3F3ED;
+	display:inline-block;
+	font:400 24px/1.1 'Oswald', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fight-home .fighter em {
+	font-size:18px;
+	margin:-10px 0 0 0;
+}
+
+.fight-home .fighter strong, .fight-home .fighter em {
+	font-style:normal;
+	font-weight:normal;
+}
+
+.fight-home .fighter span {
+	display:block;
+}
+
+.fight-home .fighter strong:before, .fight-home .fighter strong:after, .fight-home .fighter em:before, .fight-home .fighter em:after {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+  padding: 0;
+  width: 17px;
+  height: 10px;
+  background: url(/img/duels/icon-name.png) left top no-repeat;
+  content: " ";
+  text-indent: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.fight-home .fighter strong:before, .fight-home .fighter em:before {
+	margin:0 10px 0 5px;
+}
+
+.fighter .flag {
+	padding:5px 0 0 0;
+}
+
+.fight-home .bio {
+	color:#5F3001;
+	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
+	padding:5px 0 15px 0;
+	text-transform:uppercase;
+	white-space:nowrap;
+}
+
+.fighter .flag, .fight-home .bio {
+	display:none;
+}
+
+.choose-fighter {
+	background:#5F3001;
+	color:#F3F3ED;
+	font:700 12px/50px 'Oswald', Verdana, Arial, sans-serif;
+	display:block;
+	height:50px;
+	margin:0 0 0 30px;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:200px;
+}
+
+.fight-container {
+	background:none;
+	border-top:1px solid #fff;
+	display:block;
+	height:500px;
+	position:relative;
+	z-index:1;
+}
+
+.fight-container .next {
+	background:url(/img/duels/bt-next-on.png) left top no-repeat;
+	color:#fff;
+	display:block;
+	font:700 16px/104px 'Oswald', Verdana, Arial, sans-serif;
+	height:104px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:-10px;
+	top:250px;
+	text-align:center;
+	text-indent:5px;
+	text-transform:uppercase;
+	width:202px;
+	z-index:10;
+}
+
+.fight-container .next:hover {
+	background-image:url(/img/duels/bt-next-off.png);
+}
+
+.step-start .fight-container .next {
+	text-indent:0;
+}
+
+.step-7 .fight-container .next {
+	background:url(/img/duels/bt-replay.png) left top no-repeat;
+	height:138px;
+	overflow:hidden;
+	text-indent:100%;
+	top:200px;
+	right:35px;
+	white-space:nowrap;
+	width:179px;
+}
+
+.step-7 .fight-container .next:hover {
+	background-image:url(/img/duels/bt-replay.png);
+}
+
+.fight-container .title {
+	background:url(/img/duels/bg-fight-infos.png) -38px 0 no-repeat;
+	color:#76766A;
+	display:block;
+	font:700 14px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	height:166px;
+	margin: 0;
+	padding: 30px 15px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:327px;
+	z-index:10;
+}
+
+.step-start .fight-container .title {
+	display:none;
+}
+
+.fight-container .title strong {
+	color:#393932;
+	display:block;
+	font-size:24px;
+	margin: 0;
+	padding:12px 0 0 0;
+}
+
+.fight-container .title div {
+	display:block;
+	height:125px;
+	margin: 0;
+	padding: 0;
+	width:250px;
+}
+
+.title span {
+	display:block;
+}
+
+.step-7 .title span, .step-results .title span {
+	display:none;
+}
+
+.fight-container .title div:after {
+	background:url(/img/duels/bg-fight-infos-icon.png) left top no-repeat;
+	display:inline-block;
+	overflow:hidden;
+	margin:5px 0 0 0;
+	padding:0;
+	width:35px;
+	height:35px;
+	content: " ";
+	vertical-align:top;
+	text-indent: 100%;
+	white-space:nowrap;
+}
+
+.fight-container .title .pct_leading:after {
+	background-position:-35px 0;
+}
+
+.fight-container .title .average_speed:after {
+	background-position:-70px 0;
+}
+
+.fight-container .title .ahead_of_second:after {
+	background-position:-105px 0;
+}
+
+.fight-container .title .nb_wins:after {
+	background-position:-140px 0;
+}
+
+.fight-container .title .doping:after {
+	background-position:-175px 0;
+}
+
+.fight-container .title .finish:after {
+	background-position:-210px 0;
+}
+
+.fighter-infos {
+	background:#e3e7ea;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 7px rgba(0,0,0,.5);
+    position:absolute;
+    width:192px;
+    text-align:center;
+    right:-40px;
+}
+
+.fighter-arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -10px;
+  }
+ 
+.fighter-arrow:after {
+	background:#e3e7ea;
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom:4px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+
+.fighter_one .fighter-infos {
+	top:-40px;
+}
+
+.step-start .fighter_one .fighter-infos {
+	top:-25px;
+}
+
+.fighter_two .fighter-infos {
+	bottom:-58px;
+}
+
+.step-start .fighter_two .fighter-infos {
+	bottom:-50px;
+}
+
+.fighter_two .fighter-arrow {
+	bottom:auto;
+	top:-16px;
+}
+
+.fighter_two .fighter-arrow:after {
+	bottom:-20px;
+}
+
+.fighter-infos .name, .fighter-infos .result {
+	color:#393932;
+	display:block;
+	font:400 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+	white-space:nowrap;
+}
+
+.fighter-infos .result {
+	color:#6289A7;
+	font-size:14px;
+}
+
+.fighter-infos .result strong {
+	color:#C1272D;
+	font-weight:normal;
+}
+
+.fight-home .winners_list .winner {
+	border-color:#000;
+}
+
+.forescape {
+	background:url(/img/duels/plans/duels_plan1_e0_1.png) -147px 0 no-repeat, url(/img/duels//plans/duels_plan1_e0_1.png) right top no-repeat;
+	position:absolute;
+	left:0;
+	height:102px;
+	bottom:0;
+	z-index:4;
+	width:100%;
+}
+
+.step-2 .forescape {
+	background:url(/img/duels/plans/duels_plan1_e2_1.png) right top no-repeat;
+	bottom:-41px;
+}
+
+.step-3 .forescape {
+	background: url(/img/duels/plans/duels_plan1_e3_1.png) 0 0 no-repeat;
+	height:265px;
+	bottom:0;
+}
+
+.step-4 .forescape {
+	background: url(/img/duels/plans/duels_plan1_e4_1.png) 0 0 no-repeat;
+	left: 160px;
+	height: 294px;
+	top: 207px;
+}
+
+.step-5 .forescape {
+	background: url(/img/duels/plans/duels_plan1_e5_1.png) -10px 0 no-repeat;
+	left: 0;
+	height: 294px;
+	top: 281px;
+	z-index:6;
+}
+
+.step-6 .forescape {
+	background: url(/img/duels/plans/duels_plan1_e6_1.png) 95% 0 no-repeat;
+	height:132px;
+}
+
+.step-7 .forescape {
+	background:none;
+}
+
+.foreground {
+	background:url(/img/duels/plans/duels_plan2_e0_1.png) 0 0 no-repeat;
+	position:absolute;
+	height:367px;
+	left:517px;
+	top:89px;
+	z-index:6;
+	width:100%;
+}
+
+.step-1 .foreground {
+	background: url(/img/duels/plans/duels_plan2_e1_1.png) 0 0 no-repeat;
+	height: 100%;
+	left: 220px;
+	top: 234px;
+}
+
+.step-2 .foreground {
+	background: url(/img/duels/plans/duels_plan2_e2_1.png) 0 0 no-repeat;
+	height: 100%;
+	left: 40px;
+	top: 200px;
+}
+
+.step-3 .foreground, .step-4 .foreground, .step-7 .foreground {
+	background:none;
+}
+
+.step-5 .foreground {
+	background: url(/img/duels/plans/duels_plan2_e0_1.png) 0 0 no-repeat;
+	position: absolute;
+	height: 367px;
+	left: 19px;
+	top: 89px;
+}
+
+.step-6 .foreground {
+	background: url(/img/duels/plans/duels_plan3_e6_1.png) 0 0 no-repeat;
+	height:249px;
+}
+
+.background {
+	background:url(/img/duels//plans/duels_plan4.png) left top no-repeat;
+	height:500px;
+	position:absolute;
+	z-index:4;
+	width:100%;
+}
+
+.step-1 .background {
+	background-position:-770px 0;
+}
+
+.step-2 .background {
+	background-position:-1540px 0;
+}
+
+.step-3 .background {
+	background-position:-2310px 0;
+}
+
+.step-4 .background {
+	background-position:-3080px 0;
+}
+
+.step-5 .background {
+	background-position:-3850px 0;
+}
+
+.step-6 .background {
+	background-position:-4620px 0;
+}
+
+.step-7 .background {
+	background-position:-5390px 0;
+}
+
+.landscape {
+	background:url(/img/duels/plans/duels_plan3_e0_1.png) left top no-repeat, url(/img/duels/plans/duels_plan3_e0_2.png) 496px 45px no-repeat;
+	height:222px;
+	left:20px;
+	top:92px;
+	position:absolute;
+	width:100%;
+	z-index:5;
+}
+
+.step-1 .landscape {
+	background:url(/img/duels/plans/duels_plan3_e1_1.png) 96% 35px no-repeat, url(/img/duels/plans/duels_plan3_e1_2.png) 576px 150px no-repeat;
+	height:100%;
+}
+
+.step-2 .landscape, .step-3 .landscape, .step-6 .landscape, .step-7 .landscape {
+	background:none;
+}
+
+.step-3 .landscape {
+	background:url(/img/duels/plans/duels_plan3_e3_1.png) 668px top no-repeat;
+	top:165px;
+}
+
+.step-4 .landscape {
+	background: url(/img/duels/plans/bg-second.png) -50px top no-repeat;
+	top: 220px;
+	left: 0;
+}
+
+.step-5 .landscape {
+	background: url(/img/duels/plans/duels_plan3_e0_2.png) 0 45px no-repeat;
+	height: 222px;
+	left: 20px;
+	top: 92px;	
+}
+
+.sky {
+	position:absolute;
+	z-index:6;
+}
+
+.selector {
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	z-index:5;
+	display:none;
+}
+.fight-container .next
+.selector-inner {
+	background:#D9D9D4;
+	border-radius:4px 4px 0 0;
+	display:block;
+	margin:20px 0 0 40px;
+	padding:20px 0 0 0;
+}
+
+.winner-block {
+	background:#E7E8DF;
+	border-radius:0 0 4px 4px;
+	padding:0 0 12px 0;
+	-webkit-box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.winner-block .winners_list {
+	background:#E7E8DF;
+	height:402px;
+}
+
+.winner-block .winners_list > ul {
+	padding:10px 50px;
+}
+
+.random {
+	background:url(/img/duels/bg-random.png) 4px 50% no-repeat #ED7703;
+	border-radius:8px;
+	color:#fff;
+	display:block;
+	font:400 18px/28px 'Oswald', Verdana, Arial, sans-serif;
+	height:28px;
+	margin:0 12px;
+	padding:0 8px 0 36px;
+	text-transform:uppercase;
+}
+
+.show-results {
+	background:#395877;
+	border-radius:8px;
+	color:#fff;
+	display:block;
+	font:400 15px/31px 'Oswald', Verdana, Arial, sans-serif;
+	height:31px;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:192px;
+}
+
+.tabs li {
+	display:inline-block;
+	height:36px;
+	margin:0 15px 0 0;
+	padding:0;
+	vertical-align:top;
+	width:200px;
+}
+
+.tabs a {
+	background:#D9D9D4;
+	border-radius:6px 6px 0 0;
+	color:#7A8187;
+	display:block;
+	font:400 18px/36px 'Oswald', Verdana, Arial, sans-serif;
+	height:36px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	-webkit-box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    -4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow:-4px -4px 5px rgba(0, 0, 0, 0.2), 5px -1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tabs .active a {
+	background:#E7E8DF;
+	color:#383C40;
+}
+
+#fighter_one_pic {
+	position: absolute;
+	left: 153px;
+	top: 75px;
+}
+
+#fighter_two_pic {
+	position: absolute;
+	left: 690px;
+	top: 75px;
+}
+
+.step-results .results {
+	display: block;
+	position: absolute;
+	z-index: 12;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.5);
+}
+
+.results table {
+	background:#E7E8DF;
+	border-radius:8px;
+	border-collapse:collapse;
+	display:block;
+	margin:5px auto;
+	width:490px;
+}
+
+.results td {
+	border-bottom:1px dotted #000;
+	color:#53575A;
+	font:400 14px/1.3 'Lato', Verdana, Arial, sans-serif;
+	padding:5px;
+}
+
+.results .fighter_one {
+	text-align:right;
+}
+
+.results .fighter_one .portrait {
+	float:right;
+}
+
+.results .fighter_two .portrait {
+	float:left;
+}

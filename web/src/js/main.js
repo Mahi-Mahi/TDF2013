@@ -1,3 +1,14 @@
+if (!window.console) {
+	window.console = {};
+}
+if (!window.console.log) {
+	window.console.log = function() {};
+}
+
+var liify = function(elt) {
+	return '<li>' + elt + '</li>';
+};
+
 /* global console */
 /* global google  */
 /* global mapStyleTrace */
@@ -128,54 +139,6 @@ var TDF = (function() {
 		});
 
 		// Winners
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/:filter4/:val4/(:winner_id/)").to(function() {
-			var filters = {};
-			filters[this.params['filter1']] = this.params['val1'];
-			filters[this.params['filter2']] = this.params['val2'];
-			filters[this.params['filter3']] = this.params['val3'];
-			filters[this.params['filter4']] = this.params['val4'];
-			if (this.params['winner_id'] === undefined) {
-				TDF.render('winners', {
-					filters: filters
-				});
-			} else {
-				TDF.render('winners', {
-					filters: filters,
-					winner_id: this.params['winner_id']
-				});
-			}
-		});
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/(:winner_id/)").to(function() {
-			var filters = {};
-			filters[this.params['filter1']] = this.params['val1'];
-			filters[this.params['filter2']] = this.params['val2'];
-			filters[this.params['filter3']] = this.params['val3'];
-			if (this.params['winner_id'] === undefined) {
-				TDF.render('winners', {
-					filters: filters
-				});
-			} else {
-				TDF.render('winners', {
-					filters: filters,
-					winner_id: this.params['winner_id']
-				});
-			}
-		});
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/(:winner_id/)").to(function() {
-			var filters = {};
-			filters[this.params['filter1']] = this.params['val1'];
-			filters[this.params['filter2']] = this.params['val2'];
-			if (this.params['winner_id'] === undefined) {
-				TDF.render('winners', {
-					filters: filters
-				});
-			} else {
-				TDF.render('winners', {
-					filters: filters,
-					winner_id: this.params['winner_id']
-				});
-			}
-		});
 		Path.map("/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
@@ -278,8 +241,12 @@ var TDF = (function() {
 		console.log("render(" + module);
 		console.log(args);
 
+		if (this.modules === undefined) {
+			this.modules = {};
+		}
+
 		// instantiate module if undefined
-		if (typeof this.modules[module] === "undefined") {
+		if (this.modules[module] === undefined) {
 			switch (module) {
 				case 'home':
 					this.modules[module] = TDF.Home;
@@ -370,13 +337,7 @@ TDF.Home = (function() {
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 			input.className = '';
 
-			console.log("input : " + input);
-
-			console.log("gMapAutocomplete :" + gMapAutocomplete);
-			console.log("google :" + google);
-
 			input.className = '';
-
 
 			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
 
@@ -492,8 +453,6 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-		console.log("autocomplete_init");
-
 		if (jQuery('#search').length) {
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
@@ -570,11 +529,26 @@ TDF.Traces = (function() {
 		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		$main.on('click', '.traces #select-all', function() {
-			console.log(jQuery(this).prop('checked'));
 			if (jQuery(this).prop('checked')) {
 				$inner.find('#multi-select').prop('checked', true);
 				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
 			}
+		});
+
+
+		// CLick on timeline
+		$main.on('click', '.traces .timeline-zoom label', function() {
+			var years = [];
+			if ($main.find("#multi-select:checked").length) {
+				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+					years.push(jQuery(this).val());
+				});
+			} else {
+				years.push(jQuery(this).prev('input').val());
+				$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
+				jQuery(this).prev('input').prop('checked', true);
+			}
+			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 		});
 
 		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
@@ -599,8 +573,6 @@ TDF.Traces = (function() {
 		var zoom = 5;
 
 		var map = $inner.find("#" + mapId);
-
-		console.log(new google.maps.LatLng(startlat, startlng));
 
 		var mapOptions = {
 			mapTypeId: mapTypeId,
@@ -681,25 +653,10 @@ TDF.Traces = (function() {
 			$timeline.append(items);
 			$squares.append(squares);
 
-			// CLick on timeline
-			$main.on('click', '.traces .timeline-zoom .checkbox', function() {
-				var years = [];
-				if ($main.find("#multi-select:checked").length) {
-					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
-						years.push(jQuery(this).val());
-					});
-				} else {
-					years.push(jQuery(this).val());
-					$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
-					jQuery(this).prop('checked', true);
-				}
-				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
-			});
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
 				slide: function(ui, event) {
-					console.log(event.value);
 					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
 				}
 			});
@@ -758,6 +715,7 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
+
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		/*
@@ -809,8 +767,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-
-		if (my.args.years.length === 1) {
+		if ( (my.args.years.length === 1) && (my.args.years.join(',') !== '2013') ) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
@@ -899,11 +856,12 @@ TDF.Winners = (function() {
 
 		if ($main.find('#nationality option[selected]').length) {
 			var nationality = $main.find('#nationality option[selected]').attr('value');
-			console.log(nationality);
-			query_string = query_string + 'nationalite/' + nationality + '/';
+			if (nationality && nationality !== undefined) {
+				query_string = query_string + 'nationalite/' + nationality + '/';
+			}
 		}
 
-		if ($main.find('#winner_search').val()) {
+		if ($main.find('#winner_search').val().length) {
 			query_string = query_string + 'recherche/' + $main.find('#winner_search').val() + '/';
 		}
 
@@ -934,7 +892,7 @@ TDF.Winners = (function() {
 		$main.find('.winner').each(function() {
 			jQuery(this).find('a').attr('href', query_string + jQuery(this).data('winner-id') + '/');
 		});
-		jQuery('#close').attr('href', query_string + jQuery(this).data('winner-id') + '/');
+		jQuery('#close').attr('href', query_string);
 
 	};
 
@@ -948,10 +906,6 @@ TDF.Winners = (function() {
 			oldest_win = null,
 			max_wins = null,
 			countries = [];
-
-		var liify = function(elt) {
-			return '<li>' + elt + '</li>';
-		};
 
 		if (TDF.loadTemplate(this)) {
 
@@ -991,7 +945,10 @@ TDF.Winners = (function() {
 			}
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
-			$main.find('.winners_list').jScrollPane();
+			$main.find('.winners_list').jScrollPane({
+				mouseWheelSpeed: '2',
+				maintainPosition: false
+			});
 
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
@@ -1097,20 +1054,19 @@ TDF.Winners = (function() {
 					} else {
 						bulle = '';
 						switch (tour.position) {
-							default:
-								pos_title = tour.position;
-								bulle = tour.position + 'ème en ' + year;
+							default: pos_title = tour.position;
+							bulle = tour.position + 'ème en ' + year;
 							break;
-								// pos_title = 'A';
-								// break;
+							// pos_title = 'A';
+							// break;
 							case 'Abandon':
 							case 'Déclassé':
 							case 'Disqualifié':
 							case 'Elimination':
 							case 'Eliminé':
 							case 'Forfait':
-								tour.position = 'Abandon';
-								pos_title = 'A';
+								tour.position = 'Elimine';
+								pos_title = 'E';
 								bulle = '';
 								break;
 						}
@@ -1162,16 +1118,13 @@ TDF.Winners = (function() {
 
 		jQuery(".winners_list .winner").stop().data('show', true);
 
-		console.log(my.args.filters);
 		if (my.args.filters.nationalite) {
-			console.log("filter nationality : " + my.args.filters.nationalite);
 			$main.find('.winners_list .winner').each(function() {
 				jQuery(this).data('show', jQuery(this).data('country') === my.args.filters.nationalite);
 			});
 		}
 
 		if (my.args.filters.age_victoire) {
-			console.log("filter age victoire : " + my.args.filters.age_victoire);
 			var win_ages, filter_age = my.args.filters.age_victoire.split(/,/);
 			$main.find('.winners_list .winner').each(function() {
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
@@ -1180,7 +1133,6 @@ TDF.Winners = (function() {
 		}
 
 		if (my.args.filters.nb_victoires) {
-			console.log("filter nb_victoires : " + my.args.filters.nb_victoires);
 			var nb_wins, filter_nb_wins = my.args.filters.nb_victoires.split(/,/);
 			$main.find('.winners_list .winner').each(function() {
 				nb_wins = jQuery(this).data('nb-wins').toString().split(/,/);
@@ -1189,7 +1141,6 @@ TDF.Winners = (function() {
 		}
 
 		if (my.args.filters.recherche) {
-			console.log("filter search : " + my.args.filters.recherche);
 			$main.find('.winners_list .winner').each(function() {
 				var re = new RegExp(my.args.filters.recherche, 'i');
 				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null);
@@ -1210,6 +1161,8 @@ TDF.Winners = (function() {
 			});
 		});
 
+		$main.find('.winners_list').data('jsp').scrollTo(0, 0); //.reinitialise();
+
 	};
 
 	return my;
@@ -1222,9 +1175,26 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
+	my.steps = null;
+
 	my.init = function() {
+
 		$main.on('click', '.fight-home .start', function() {
 			my.fight('start');
+		});
+
+		var tmp = [];
+		for (var i in TDF.Data.fighters) {
+			tmp.push(TDF.Data.fighters[i]);
+		}
+		my.sorted_fighters = tmp.sort(function(a, b) {
+			if (a.first_name < b.first_name){
+				return -1;
+			}
+			if (a.first_name > b.first_name){
+				return 1;
+			}
+			return 0;
 		});
 
 	};
@@ -1232,7 +1202,7 @@ TDF.Fight = (function() {
 	my.render = function(args) {
 		my.args = args;
 
-		var $fighter, fighter;
+		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
 			my.fight();
@@ -1244,18 +1214,38 @@ TDF.Fight = (function() {
 		if (my.args.fighter_one !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_one]) {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
+				fighter_data = TDF.Data.winners[my.args.fighter_one];
+
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
-				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
+				$inner.find('#fighter_one_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_one + '_big.png');
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
+				$fighter.find('.flag').css('display', 'block');
+				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
+		} else {
+			$fighter = $main.find('.fighter_one');
+			$fighter.data('id', '');
+			$fighter.find('.name').html('');
+			$fighter.find('.flag img').attr('src', '');
+			$fighter.find('.flag').css('display', 'block');
+			$fighter.find('.bio').css('display', 'block').html('');
 		}
 
 		if (my.args.fighter_two !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_two]) {
 				fighter = TDF.Data.fighters[my.args.fighter_two];
+				fighter_data = TDF.Data.winners[my.args.fighter_two];
+
 				$fighter = $main.find('.fighter_two');
 				$fighter.data('id', my.args.fighter_two);
-				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
+				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
+				$inner.find('#fighter_two_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_two + '_big.png');
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
+				$fighter.find('.flag').css('display', 'block');
+				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
+				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
@@ -1269,11 +1259,22 @@ TDF.Fight = (function() {
 			}
 		}
 
+		jQuery('.selector-inner').find('.close').on('click', function() {
+			jQuery('.selector-inner').hide();
+		});
+
 		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
 		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
 
 		if (my.args.fighter_one && my.args.fighter_two) {
 			$main.find('.start').attr('href', my.getQueryString() + 'start/');
+			$main.find('.start').css({
+				visibility: 'visible'
+			});
+		} else {
+			$main.find('.start').css({
+				visibility: 'hidden'
+			});
 		}
 
 	};
@@ -1294,64 +1295,66 @@ TDF.Fight = (function() {
 	};
 
 	my.hideSelector = function() {
-		$main.find('.selector').html('');
+		$main.find('.selector').hide();
+		$main.find('.selector-inner').html('');
 	};
 
 	my.showSelector = function(side) {
 
-		$main.find('.selector').html(jQuery('.templates #template-fight-selector').html());
+		$main.find('.selector-inner').html(jQuery('.templates #template-fight-selector').html());
+		$main.find('.selector').show();
 
-		var fighter, fighter_id, content, winners_list = [],
+		var content, winners_list = [],
 			legends_list = [];
 		var $template = jQuery('#template-winner');
 
 		var url_fighter_one, url_fighter_two;
-		switch (side) {
-			case 'fighter_one':
-				url_fighter_one = '';
-				url_fighter_two = my.args.fighter_two ? '' : '';
-				break;
-			case 'fighter_two':
-				url_fighter_one = my.args.fighter_one + '/';
-				url_fighter_two = '';
-				break;
+
+		if (!my.args.fighter_one || my.args.fighter_one === 'selector') {
+			url_fighter_one = '';
+		} else {
+			url_fighter_one = my.args.fighter_one + '/';
 		}
+		if (!my.args.fighter_two || my.args.fighter_two === 'selector') {
+			url_fighter_two = '';
+		} else {
+			url_fighter_two = my.args.fighter_two + '/';
+		}
+
 
 		var current_selector = '.' + (side === 'fighter_one' ? 'fighter_two' : 'fighter_one');
 		var current_id = $main.find(current_selector).data('id');
-		for (fighter_id in TDF.Data.fighters) {
+		jQuery(my.sorted_fighters).each(function(i, fighter) {
+			if (fighter.id !== current_id) {
+				// fighter = TDF.Data.fighters[fighter_id];
+				content = $template.html()
+					.replace(':winner_url', my.base_url + url_fighter_one + fighter.id + '/' + url_fighter_two)
+					.replace(/:winner_id/g, fighter.id)
+					.replace(':portrait_url', '/img/vainqueurs/portraits/' + fighter.id + '_small.png')
+					.replace(':name', fighter.first_name + ' ' + fighter.last_name)
+					.replace(':safename', '')
+					.replace(':wins', TDF.Data.winners[fighter.id] ? TDF.Data.winners[fighter.id].wins.map(liify).join('') : '')
+					.replace(':flag_url', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
 
-			if (fighter_id === current_id) {
-				continue;
-			}
-			fighter = TDF.Data.fighters[fighter_id];
-			content = $template.html()
-				.replace(':winner_url', my.base_url + url_fighter_one + fighter_id + '/' + url_fighter_two)
-				.replace(/:winner_id/g, fighter_id)
-				.replace(':portrait_url', '/img/vainqueurs/portraits/' + fighter_id + '_small.png')
-				.replace(':name', fighter.first_name + ' ' + fighter.last_name)
-				.replace(':safename', '')
-				.replace(':flag_url', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
-
-			if (fighter.winner) {
-				winners_list.push(content);
-			}
-			if (fighter.legend) {
-				legends_list.push(content);
+				if (fighter.winner) {
+					winners_list.push(content);
+				}
+				if (fighter.legend) {
+					legends_list.push(content);
+				}
 			}
 
-		}
+		});
 
 		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
 
 		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
 
+		jQuery('.tabs').tabify();
 	};
 
 	my.fight = function() {
-
-
 
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
@@ -1370,22 +1373,37 @@ TDF.Fight = (function() {
 		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
 
+		// définition des attributs : a été en jaune, a gagné le tour
+		if (fighter_one.steps[2] > 0) {
+			$fighter_one.addClass('yellow');
+		}
+		if (fighter_one.steps[5] > 0) {
+			$fighter_one.addClass('has_won');
+		}
+		if (fighter_two.steps[2] > 0) {
+			$fighter_two.addClass('yellow');
+		}
+		if (fighter_two.steps[5] > 0) {
+			$fighter_two.addClass('has_won');
+		}
+
 		// calcul des positions relatives
 
-		var steps = [];
-		steps[0] = [0, 0];
+		my.steps = [];
+		my.steps[0] = [0, 0];
 
 		for (var i = 1; i < 6; i++) {
-			steps[i] = [
-				steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
-				steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
+			my.steps[i] = [
+				my.steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
+				my.steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
 			];
 		}
-		steps[6] = [0, 0];
-		steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+		my.steps[6] = [0, 0];
+		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
 		var ratio = 3.12;
 		var max_space = 400;
+		var fighter_width = 84;
 
 		var step_title, step_class, fighter_one_result, fighter_two_result, diff = [];
 
@@ -1400,10 +1418,10 @@ TDF.Fight = (function() {
 			case 'start':
 				my.args.step = 0;
 				$fighter_one.css({
-					'margin-left': (max_space / 2) + 'px'
+					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
 				$fighter_two.css({
-					'margin-left': (max_space / 2) + 'px'
+					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
 				$inner.find('.next').text("Top Départ");
 				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1420,76 +1438,142 @@ TDF.Fight = (function() {
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
-						step_title = "Nombre d'étapes remportées";
+						step_title = "<strong>Nombre d'étapes remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 						break;
 					case 2:
 						step_class = "pct_leading";
-						step_title = "Temps passé en tête du général";
+						step_title = "<strong>Temps passé<br>en tête du général</strong>";
 						fighter_one_result = fighter_one.pct_leading + "% de son meilleur tour";
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
 						break;
 					case 3:
 						step_class = "average_speed";
-						step_title = "Meilleur vitesse moyenne";
+						step_title = "<strong>Meilleur vitesse moyenne</strong>";
 						fighter_one_result = fighter_one.average_speed + " km/h";
 						fighter_two_result = fighter_two.average_speed + " km/h";
 						break;
 					case 4:
 						step_class = "ahead_of_second";
-						step_title = "Meilleure avance sur le deuxième";
-						fighter_one_result = fighter_one.ahead_of_second;
-						fighter_two_result = fighter_two.ahead_of_second;
+						step_title = "<strong>Meilleure avance sur le deuxième</strong>";
+						fighter_one_result = fighter_one.ahead_of_2nd;
+						fighter_two_result = fighter_two.ahead_of_2nd;
 						break;
 					case 5:
 						step_class = "nb_wins";
-						step_title = "Nombre de tours gagnés";
+						step_title = "<strong>Nombre <br>de tours gagnés</strong>";
 						fighter_one_result = fighter_one.nb_wins + " victoire" + (fighter_one.nb_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_wins + " victoire" + (fighter_two.nb_wins > 1 ? 's' : '');
 						break;
 					case 6:
 						step_class = "doping";
-						step_title = "contrôle antidopage";
+						step_title = "<strong>contrôle <br>antidopage</strong>";
 						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
 						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						$inner.find('.next').text("Résultat");
 						break;
 					case 7:
-					case 'finish':
 					case 'results':
-						step_title = "Bilan de la source" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
+						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
 						step_class = 'finish';
+						fighter_one_result = " ";
+						fighter_two_result = " ";
 						if (my.args.step === 'results') {
-
 							my.showResults();
-
+							my.args.step = 7;
 						}
 
 						break;
 				}
-				diff[0] = ((steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2));
-				diff[1] = ((steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2));
+
+				diff[0] = ((my.steps[my.args.step][0] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
+				diff[1] = ((my.steps[my.args.step][1] / ratio / 2 * max_space) + (max_space / 2) - fighter_width);
+
 				// console.log(steps);
 				// console.log(diff);
 				// console.log([fighter_one.score, fighter_two.score]);
+
 				$fighter_one.animate({
 					'margin-left': diff[0] + 'px'
 				});
 				$fighter_two.animate({
 					'margin-left': diff[1] + 'px'
 				});
-				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
+
+				if (diff[0] >= diff[1]) {
+					$fighter_one.addClass('winner');
+				}
+				if (diff[0] <= diff[1]) {
+					$fighter_two.addClass('winner');
+				}
+
+				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
+
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
-				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+
+				if (my.args.step < 7) {
+					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				} else {
+					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
+				}
 
 				break;
 		}
 	};
 
 	my.showResults = function() {
-		$main.find('.results').html(jQuery('.templates #template-fight-results').html());
 
+		var $results = $main.find('.results').html(jQuery('.templates #template-fight-results').html());
+
+		this.fillResults($results.find('.fighter_one'), TDF.Data.fighters[my.args.fighter_one]);
+		this.fillResults($results.find('.fighter_two'), TDF.Data.fighters[my.args.fighter_two]);
+
+		jQuery(['nb_leg_wins', 'pct_leading', 'average_speed', 'ahead_of_2nd', 'nb_wins']).each(function(i, step) {
+			var res = $results.find('.fighter .' + step);
+			var a = parseFloat(jQuery(res[0]).data('score'));
+			var b = parseFloat(jQuery(res[1]).data('score'));
+			if (a > b) {
+				$results.find('.fighter_one .' + step).addClass('active');
+			} else {
+				if (a < b) {
+					$results.find('.fighter_two .' + step).addClass('active');
+				}
+			}
+		});
+
+		if (!TDF.Data.fighters[my.args.fighter_one].is_doped) {
+			if (my.steps[7][0] > my.steps[7][1] || TDF.Data.fighters[my.args.fighter_two].is_doped) {
+				$results.find('.fighter_one .winner').html('vainqueur');
+			} else {
+				if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
+					$results.find('.fighter_two .winner').html('vainqueur');
+				}
+			}
+		} else {
+			if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
+				$results.find('.fighter_two .winner').html('vainqueur');
+			}
+		}
+
+		$results.show();
+		jQuery('.results').find('.close').on('click', function() {
+			jQuery('.results').hide();
+		});
+
+	};
+
+	my.fillResults = function(fighter, data) {
+		fighter.find('.name').html(data.first_name + '<strong>' + data.last_name + '</strong>');
+		fighter.find('.flag img').attr('src', '/img/drapeaux/' + data.country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_small.png');
+		fighter.find('.portrait img').attr('src', '/img/vainqueurs/portraits/' + data.id + '_small.png');
+		fighter.find('.nb_leg_wins').html(data.nb_leg_wins).data('score', data.steps[1]);
+		fighter.find('.pct_leading').html(data.pct_leading + "%<br><small> en " + data.pct_leading_year + '<small>').data('score', data.steps[2]);
+		fighter.find('.average_speed').html(data.average_speed + " km/h").data('score', data.steps[3]);
+		fighter.find('.ahead_of_2nd').html(data.ahead_of_2nd + "<br><small> en " + data.ahead_of_2nd_year + '<small>').data('score', data.steps[4]);
+		fighter.find('.nb_wins').html(data.nb_wins).data('score', data.steps[5]);
+		fighter.find('.doping').html(data.is_doped ? 'Convaincu de dopage' : 'Aucun dopage connu').addClass(data.is_doped ? 'active' : '');
 	};
 
 	return my;
@@ -1566,7 +1650,6 @@ TDF.StreetView = (function() {
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
-			console.log("show detail");
 
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
 			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
@@ -1574,7 +1657,6 @@ TDF.StreetView = (function() {
 				left: '-258px'
 			}, duration);
 		} else {
-			console.log("show list");
 			$inner.find('.container').stop().animate({
 				left: '0px'
 			}, duration);
@@ -1595,40 +1677,44 @@ TDF.Data = (function() {
 
 	my.init = function(callback) {
 
-		// traces
-		jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
+		//etapes
+		jQuery.getJSON('/data/json/legs.json', function(json, textStatus) {
 			console.log(textStatus);
-			my.traces = json;
+			my.legs = json;
 
-			// winners
-			jQuery.getJSON('/data/json/winners.json', function(json, textStatus) {
+			// traces
+			jQuery.getJSON('/data/json/tours.json', function(json, textStatus) {
 				console.log(textStatus);
-				my.winners = json;
+				my.traces = json;
 
-				// fighters
-				jQuery.getJSON('/data/json/fighters.json', function(json, textStatus) {
+				jQuery(TDF.Data.legs).each(function(i, leg) {
+					TDF.Data.traces[leg.year].legs.push(leg);
+				});
+
+				// winners
+				jQuery.getJSON('/data/json/winners.json', function(json, textStatus) {
 					console.log(textStatus);
-					my.fighters = json;
+					my.winners = json;
 
-					// places
-					jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
+					// fighters
+					jQuery.getJSON('/data/json/fighters.json', function(json, textStatus) {
 						console.log(textStatus);
-						my.places = json;
+						my.fighters = json;
 
-
-						jQuery.getJSON('/data/json/legs.json', function(json, textStatus) {
+						// places
+						jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 							console.log(textStatus);
-							my.legs = json;
-							callback();
-						});
+							my.places = json;
 
+							callback();
+
+						});
 
 					});
 
 				});
 
 			});
-
 		});
 
 	};

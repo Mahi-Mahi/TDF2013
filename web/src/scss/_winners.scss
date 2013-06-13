@@ -3,6 +3,10 @@
 	height:215px;
 	background:url(/img/vainqueurs/bg-winner-block.png) left top no-repeat #F2F2ED;
 	position:relative;
+	z-index:1;
+    -moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 #winner .tours {
@@ -64,7 +68,7 @@
 	white-space:nowrap;
 }
 
-#winner .tours .pos-Abandon a {
+#winner .tours .pos-Elimine a {
 	border:none;
 	color:#DC0A27;
 }
@@ -99,11 +103,11 @@
 	text-indent: 100%;
 	white-space:nowrap;
 }
-
+/*
 .winners #winner .tours .wins div:nth-child(6), .winners #winner .tours .wins div:nth-child(7), .winners #winner .tours .wins div:nth-child(8), .winners #winner .tours .wins div:nth-child(9) {
 	display:none;
 }
-
+*/
 .winners #winner .tours .bulle {
 	display: none;
 }
@@ -192,19 +196,19 @@
 	background-position:10px 50%;
 }
 
-.winners .winners_list {
+.winners_list {
 	overflow: auto;
 	width: 100%;
-	height: 300px;
+	height: 532px;
 	background: #D9D9D4;
 }
 
-.winners .winners_list .winner {
+.winners_list .winner {
 	display: inline-block;
 	overflow: hidden;
 	margin:0 -3px 0 0;
 	width: 162px;
-	height: 220px;
+	height: 225px;
 	border:1px dashed #fff;
 	border-top:none;
 	border-right:none;
@@ -212,17 +216,17 @@
 	text-align:center;
 }
 
-.winners .winners_list .winner-active {
+.winners_list .winner-active {
 	background:url(/img/vainqueurs/bg-winner-selected.png) center top no-repeat;
 }
 
-.winners .winners_list .winner .name {
+.winners_list .winner .name {
 	color:#383C40;
 	text-transform:uppercase;
 	font:700 15px 'Oswald', Verdana, Arial, sans-serif;
 }
 
-.winners .winners_list .winner .name span {
+.winners_list .winner .name span {
 	display: none;
 }
 
@@ -258,7 +262,7 @@
 	color:#383C40;
 }
 
-#close {
+#close, .close {
 	position: absolute;
 	display:block;
 	overflow:hidden;
@@ -272,6 +276,10 @@
 	white-space:nowrap;
 	top:1em;
 	right:1em;
+}
+
+.close {
+	top:2em;
 }
 
 .winners .ui-slider {
@@ -454,13 +462,29 @@
 	width:155px;
 }
 
+#winner_search::-webkit-input-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search:-moz-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search::-moz-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search:-ms-input-placeholder {
+   color: #c3a66f;
+}
+
 .winner-pic {
 	display:block;
 	margin:10px auto 0 auto;
 	padding:0;
 }
 
-.total_time, .average_speed {
+.stats .total_time, .stats .average_speed {
 	background:url(/img/traces/icon-time.png) 50% 8px no-repeat;
 	display:block;
 	float:left;
@@ -470,7 +494,7 @@
 	width:73px;
 }
 
-.average_speed {
+.stats .average_speed {
 	background-image:url(/img/traces/icon-speed.png);
 	margin:0;
 }
@@ -497,7 +521,7 @@
 .podium {
 	background:url(/img/traces/bg-podium.png) left top no-repeat;
 	height:43px;
-	margin:15px 15px 0 15px;
+	margin:10px 15px 0 15px;
 }
 
 .podium .pos {
@@ -525,8 +549,16 @@
 	vertical-align:top;
 }
 
-.ahead_of_second, .ahead_of_third {
+.traces-right .ahead_of_second, .traces-right .ahead_of_third {
 	display:inline-block;
 	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
 	vertical-align:top;
+}
+
+.filters {
+	position:relative;
+	z-index:1;
+	-webkit-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
+	box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
 }

@@ -84,11 +84,11 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dev: {
-        src: ['src/js/lib/jquery.js', 'src/js/lib/jquery.selectbox.js', 'src/js/lib/!(modernizr).js', 'src/js/compat.js', 'src/js/util.js', 'src/js/main.js'], // , 'src/js/traces.js'
+        src: ['src/js/shims.js', 'src/js/es5-shim.js', 'src/js/es5-sham.js', 'src/js/lib/jquery.js', 'src/js/lib/jquery-migrate.js', 'src/js/lib/jquery.selectbox.js', 'src/js/lib/!(modernizr).js', 'src/js/compat.js', 'src/js/util.js', 'src/js/main.js'], // , 'src/js/traces.js'
         dest: 'dev/js/scripts.js'
       },
       dist: {
-        src: ['src/js/lib/*.js', 'src/js/main.js'],
+        src: ['src/js/shims.js', 'src/js/es5-shim.js', 'src/js/es5-sham.js', 'src/js/lib/jquery.js', 'src/js/lib/jquery-migrate.js', 'src/js/lib/jquery.selectbox.js', 'src/js/lib/!(modernizr).js', 'src/js/compat.js', 'src/js/util.js', 'src/js/main.js'], // , 'src/js/traces.js'
         dest: 'dist/js/scripts.js'
       }
     },
@@ -144,6 +144,15 @@ module.exports = function(grunt) {
             cwd: 'src/',
             dest: 'dist/',
             filter: 'isFile'
+          }, {
+            src: 'src/js/lib/modernizr.js',
+            cwd: '',
+            dest: 'dist/js/modernizr.js'
+          }, {
+            expand: true,
+            src: '<%= all_folders %>',
+            cwd: 'src/',
+            dest: 'dist/'
           }
         ]
       },
@@ -153,6 +162,16 @@ module.exports = function(grunt) {
             src: '../data/json/*.json',
             // cwd: 'dev/data/',
             dest: 'dev/data/',
+            filter: 'isFile'
+          }
+        ]
+      },
+      data_dist: {
+        files: [{
+            expand: true,
+            src: '../data/json/*.json',
+            // cwd: 'dev/data/',
+            dest: 'dist/data/',
             filter: 'isFile'
           }
         ]
@@ -221,7 +240,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev', 'compass:dev']);
 
   // build production
-  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'compass:dist', 'uglify', 'copy:dist']);
+  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'compass:dist', 'uglify', 'copy:dist', 'copy:data_dist']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);

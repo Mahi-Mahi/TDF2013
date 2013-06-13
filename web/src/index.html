@@ -135,18 +135,22 @@
 							<div class="ahead_of_third"></div>
 						</div>
 					</div><!-- .traces-right -->
-					<div class="bottom">
-						<div class="timeline">
-							<div class="slider"></div>
-							<ul></ul>
-						</div>
-						<div class="timeline-zoom">
-							<ul></ul>
-						</div>
-						<div class="selectors">
-							<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
-							<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Tout sélectionner</label>
-						</div>
+					<div class="bottom clearfix">
+						<div class="timeline-left">
+							<div class="timeline">
+								<div class="slider"></div>
+								<ul></ul>
+							</div>
+							<div class="timeline-zoom">
+								<ul></ul>
+							</div>
+						</div><!-- .timeline-left -->
+						<div class="timeline-right">
+							<div class="selectors">
+								<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
+								<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Tout sélectionner</label>
+							</div>
+						</div><!-- .timeline-right -->
 					</div>
 				</div>
 				<footer></footer>
@@ -193,7 +197,7 @@
 							<li class="winner">Vainqueur</li>
 							<li class="position">Classement</li>
 							<li class="leg_win">Victoire d'étape</li>
-							<li class="abandon">Abandon</li>
+							<li class="abandon">Eliminé</li>
 						</ul>
 					</div>
 				</div><!-- .top-winner-stats -->
@@ -220,7 +224,7 @@
 					<div class="search filters-block">
 						<label for="winner_search">
 							Rechercher
-							<input type="text" name="winner_search" id="winner_search" placeholder="nom" />
+							<input type="text" name="winner_search" id="winner_search" placeholder="Nom" />
 						</label>
 					</div>
 				</div>
@@ -283,19 +287,25 @@
 
 			<div class="template" id="template-fight-home">
 				<header></header>
-				<div class="selector"></div>
 				<div class="container">
+					<div class="selector">
+						<div class="selector-inner"></div><!-- .selector-inner -->
+					</div><!-- .selector -->
 					<h3 class="visuallyhidden">Radio France Présente</h3>
 					<h2 class="visuallyhidden">Duels de Légendes</h2>
-					<div class="fighter_one left" data-fighter="fighter_one" data-id="">
-						<div class="name">Votre Joueur</div>
+					<div class="fighter_pics">
+						<div id="fighter_one_pic"><img src="/img/duels/fighter-default.png" alt=""></div>
+						<div id="fighter_two_pic"><img src="/img/duels/fighter-default.png" alt=""></div>
+					</div>
+					<div class="fighter_one fighter" data-fighter="fighter_one" data-id="">
+						<div class="name"><strong>Votre Joueur</strong></div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
 						<a href="" class="choose-fighter">Choisir un autre coureur</a>
 					</div>
 					<a href="" class="start">Start</a>
-					<div class="fighter_two right" data-fighter="fighter_two" data-id="">
-						<div class="name">Son Adversaire</div>
+					<div class="fighter_two fighter" data-fighter="fighter_two" data-id="">
+						<div class="name"><strong>Son Adversaire</strong></div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
 						<a href="" class="choose-fighter">Choisir un autre coureur</a>
@@ -305,85 +315,150 @@
 			</div>
 
 			<div class="template" id="template-fight-selector">
-				<a class="random" href="">Au hasard</a>
-				<ul class="tabs">
-					<li class="winners">Vainqueurs</li>
-					<li class="legends">Légendes du tour</li>
-				</ul>
+				<div class="clearfix">
+					<a class="random left" href="">Au hasard</a>
+					<ul class="tabs left unstyled">
+						<li class="winners active"><a href="#winner-block">Vainqueurs</a></li>
+						<li class="legends"><a href="#legends-block">Légendes du tour</a></li>
+					</ul>
+				</div>
+				<div class="winners winner-block clearfix" id="winner-block">
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
+				</div>
+				<div class="legends winner-block clearfix" id="legends-block">
+					<div class="winners_list">
+						<ul class="unstyled"></ul>
+					</div>
+				</div>
 				<div class="close"><a href="">X</a></div>
-				<div class="winners">
-					<ul></ul>
-				</div>
-				<div class="legends">
-					<ul></ul>
-				</div>
 			</div>
 
 			<div class="template" id="template-fight-start">
 				<header></header>
-				<div class="title">
-					<div></div>
-				</div>
-				<div class="landscape"></div>
-				<div class="background"></div>
-				<div class="fighters">
-					<div class="fighter fighter_one">
-						<div class="name"></div>
-						<div class="result"></div>
+				<div class="fight-container">
+					<div class="title">
+						<div></div>
 					</div>
-					<div class="fighter fighter_two">
-						<div class="name"></div>
-						<div class="result"></div>
+					<div class="landscape"></div>
+					<div class="background"></div>
+					<div class="fighters">
+						<div class="fighter fighter_one">
+							<div class="fighter-infos">
+								<div class="name"></div>
+								<div class="result"></div>
+								<div class="fighter-arrow"></div>
+							</div><!-- .fighter-infos -->
+						</div>
+						<div class="fighter fighter_two">
+							<div class="fighter-infos">
+								<div class="name"></div>
+								<div class="result"></div>
+								<div class="fighter-arrow"></div>
+							</div><!-- .fighter-infos -->
+						</div>
 					</div>
-				</div>
-				<div class="foreground"></div>
-				<div class="forescape"></div>
-				<a href="" class="next">Épreuve Suivante</a>
+					<div class="foreground"></div>
+					<div class="forescape"></div>
+					<a href="" class="next">Épreuve Suivante</a>
+					<div class="results"></div>
+				</div><!-- .fight-container -->
 				<footer></footer>
 			</div>
 
 			<div class="template" id="template-fight-results">
+				<a href="" class="close">Fermer</a>
+				<table>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="name"></div>
+							<div class="flag"><img src="" /></div>
+							<div class="portrait"><img src="" /></div>
+						</td>
+						<td>
+							<img src="/img/duels/duels_bilan_vs.png" alt="" />
+						</td>
+						<td class="fighter fighter_two">
+							<div class="name"></div>
+							<div class="flag"><img src="" /></div>
+							<div class="portrait"><img src="" /></div>
+						</td>
+					</tr>
 
-				<div class="fighter_one">
-					<div class="name"></div>
-					<div class="flag"><img src="" /></div>
-					<ul>
-						<li class="nb_leg_wins"></li>
-						<li class="pct_leading"></li>
-						<li class="average_speed"></li>
-						<li class="ahead_of_second"></li>
-						<li class="nb_wins"></li>
-						<li class="doping"></li>
-					</ul>
-					<div class="winner"></div>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="nb_leg_wins"></div>
+						</td>
+						<td>
+							Victoires <br />d'étapes
+						</td>
+						<td class="fighter fighter_two">
+							<div class="nb_leg_wins"></div>
+						</td>
+					</tr>
 
-				<div class="legend">
-					<ul>
-						<li class="nb_leg_wins">Victoires <br />d'étapes</li>
-						<li class="pct_leading">Temps passé en <br />tête du général</li>
-						<li class="average_speed">Meilleure<br /> vitesse moyenne</li>
-						<li class="ahead_of_second">Meilleure avance <br />sur le deuxième</li>
-						<li class="nb_wins">Nombre de <br />victoires finales</li>
-						<li class="doping">Contrôle <br />antidopage</li>
-					</ul>
-					<a href="/duels-de-legendes/">Nouvelle Course</a>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="pct_leading"></div>
+						</td>
+						<td>
+							Temps passé en <br />tête du général
+						</td>
+						<td class="fighter fighter_two">
+							<div class="pct_leading"></div>
+						</td>
+					</tr>
 
-				<div class="fighter_one">
-					<div class="name"></div>
-					<div class="flag"><img src="" /></div>
-					<ul>
-						<li class="nb_leg_wins"></li>
-						<li class="pct_leading"></li>
-						<li class="average_speed"></li>
-						<li class="ahead_of_second"></li>
-						<li class="nb_wins"></li>
-						<li class="doping"></li>
-					</ul>
-					<div class="winner"></div>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="average_speed"></div>
+						</td>
+						<td>
+							Meilleure<br /> vitesse moyenne
+						</td>
+						<td class="fighter fighter_two">
+							<div class="average_speed"></div>
+						</td>
+					</tr>
 
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="ahead_of_2nd"></div>
+						</td>
+						<td>
+							Meilleure avance <br />sur le deuxième
+						</td>
+						<td class="fighter fighter_two">
+							<div class="ahead_of_2nd"></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="nb_wins"></div>
+						</td>
+						<td>
+							Nombre de <br />victoires finales
+						</td>
+						<td class="fighter fighter_two">
+							<div class="nb_wins"></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="doping"></div>
+						</td>
+						<td>
+							Contrôle <br />antidopage
+						</td>
+						<td class="fighter fighter_two">
+							<div class="doping"></div>
+						</td>
+					</tr>
+				</table>
+				<a href="/duels-de-legendes/">Nouvelle Course</a>
 
 			</div>
 
@@ -432,10 +507,6 @@
 				</div><!-- .footer-radios -->
 			</div><!-- #footer -->
 		</div>
-
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
-
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-
 	</body>
 </html>
