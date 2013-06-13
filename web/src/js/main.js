@@ -793,8 +793,12 @@ TDF.Traces = (function() {
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
-				slide: function(ui, event) {
-					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
+				value: (my.args.years.min() - 1903) / 110 * 100,
+				slide: function(event, ui) {
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * ui.value / 100));
+				},
+				create: function(event, ui) {
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * ui.value / 100));
 				}
 			});
 
