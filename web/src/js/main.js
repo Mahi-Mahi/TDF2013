@@ -729,7 +729,6 @@ TDF.Traces = (function() {
 		for (var i in my.args.years) {
 			year = my.args.years[i];
 			if (parseInt(year, 10) > -1) {
-				console.log("set " + year);
 				$main.find('#checkyear-' + year).prop('checked', true);
 				$main.find('#squareyear-' + year).addClass('trace');
 			}
@@ -1082,7 +1081,6 @@ TDF.Winners = (function() {
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
-						console.log(tour.position);
 						switch (tour.position) {
 							default: pos_title = tour.position;
 							bulle = tour.position + 'ème en ' + year;
@@ -1104,7 +1102,6 @@ TDF.Winners = (function() {
 								break;
 						}
 					}
-					console.log("winner_tours.push(");
 					winner_tours.push(
 						$template.html()
 						.replace(/:pos_title/g, pos_title)
@@ -1538,17 +1535,11 @@ TDF.Fight = (function() {
 				if (my.args.step === 7 || my.args.step === 'results') {
 					if (diff[0] >= diff[1]) {
 						$fighter_one.addClass('winner');
-						console.log("fighter_one Winner");
-						fighter_one_result = my.winner_result(fighter_one);
-						$fighter_one.find('.name').remove();
 					}
 					if (diff[0] <= diff[1]) {
 						$fighter_two.addClass('winner');
-						console.log("fighter_two Winner");
-						fighter_two_result = my.winner_result(fighter_two);
 						$fighter_two.find('.name').remove();
 					}
-					console.log(diff);
 					if (diff[0] === diff[1]) {
 						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
 						$fighter_two.find('.fighter-infos').hide();
