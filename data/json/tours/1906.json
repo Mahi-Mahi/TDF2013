@@ -1,1 +1,28 @@
-{"year":1906,"edition":4,"total_length":4637,"nb_legs":13,"has_prologue":false,"nb_concurrents":82,"nb_finishers":14,"pct_finishers":17,"winner_first_name":"René","winner_last_name":"Pottier","winner_id":"rene-pottier","winner_total_time":"189h 34' 00\"","winner_age":"27","winner_country":"France","winner_avg_speed":"24,463","ahead_of_2nd":"n.a.","second_name":"G. Passerieu","second_country":"France","second_id":null,"ahead_of_3rd":"n.a.","third_name":"L. Trousselier","third_country":"France","third_id":"louis-trousselier","legs":[]}
+{
+  "year": 1906,
+  "edition": 4,
+  "total_length": 4637,
+  "nb_legs": 13,
+  "has_prologue": false,
+  "nb_concurrents": 82,
+  "nb_finishers": 14,
+  "pct_finishers": 17,
+  "winner_first_name": "René",
+  "winner_last_name": "Pottier",
+  "winner_id": "rene-pottier",
+  "winner_total_time": "189h 34' 00\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "24,463",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "G. Passerieu",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "n.a.",
+  "third_name": "L. Trousselier",
+  "third_country": "France",
+  "third_id": "louis-trousselier",
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":1958,"edition":45,"total_length":4319,"nb_legs":24,"has_prologue":false,"nb_concurrents":120,"nb_finishers":78,"pct_finishers":65,"winner_first_name":"Charly","winner_last_name":"Gaul","winner_id":"charly-gaul","winner_total_time":"116h 59' 05\"","winner_age":"25","winner_country":"Luxembourg","winner_avg_speed":"36,919","ahead_of_2nd":"0h 03' 10\" ","second_name":"V. Favero","second_country":"Italie","second_id":null,"ahead_of_3rd":"0h 03' 41\"","third_name":"R. Geminiani","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1958,
+  "edition": 45,
+  "total_length": 4319,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 78,
+  "pct_finishers": 65,
+  "winner_first_name": "Charly",
+  "winner_last_name": "Gaul",
+  "winner_id": "charly-gaul",
+  "winner_total_time": "116h 59' 05\"",
+  "winner_age": "25",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "36,919",
+  "ahead_of_2nd": "0h 03' 10\" ",
+  "second_name": "V. Favero",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 03' 41\"",
+  "third_name": "R. Geminiani",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

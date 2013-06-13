@@ -1,1 +1,28 @@
-{"year":2012,"edition":99,"total_length":3497,"nb_legs":20,"has_prologue":false,"nb_concurrents":198,"nb_finishers":153,"pct_finishers":77,"winner_first_name":"Bradley","winner_last_name":"Wiggins","winner_id":"bradley-wiggins","winner_total_time":"87h 34' 47''","winner_age":"32","winner_country":"Royaume-Uni","winner_avg_speed":"39,724","ahead_of_2nd":"0h 03' 21\" ","second_name":"C. Froome","second_country":"Royaume-Uni","second_id":null,"ahead_of_3rd":"0h 06' 19''","third_name":"V. Nibali","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 2012,
+  "edition": 99,
+  "total_length": 3497,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 153,
+  "pct_finishers": 77,
+  "winner_first_name": "Bradley",
+  "winner_last_name": "Wiggins",
+  "winner_id": "bradley-wiggins",
+  "winner_total_time": "87h 34' 47''",
+  "winner_age": "32",
+  "winner_country": "Royaume-Uni",
+  "winner_avg_speed": "39,724",
+  "ahead_of_2nd": "0h 03' 21\" ",
+  "second_name": "C. Froome",
+  "second_country": "Royaume-Uni",
+  "second_id": null,
+  "ahead_of_3rd": "0h 06' 19''",
+  "third_name": "V. Nibali",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

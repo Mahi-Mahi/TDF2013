@@ -1,1 +1,28 @@
-{"year":1959,"edition":46,"total_length":4358,"nb_legs":22,"has_prologue":false,"nb_concurrents":120,"nb_finishers":65,"pct_finishers":54,"winner_first_name":"Federico","winner_last_name":"Bahamontes","winner_id":"federico-bahamontes","winner_total_time":"123h 46' 45\"","winner_age":"30","winner_country":"Espagne","winner_avg_speed":"35,474","ahead_of_2nd":"0h 04' 01\" ","second_name":"H. Anglade","second_country":"France","second_id":null,"ahead_of_3rd":"0h 05' 05\"","third_name":"J. Anquetil","third_country":"France","third_id":"jacques-anquetil","legs":[]}
+{
+  "year": 1959,
+  "edition": 46,
+  "total_length": 4358,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 65,
+  "pct_finishers": 54,
+  "winner_first_name": "Federico",
+  "winner_last_name": "Bahamontes",
+  "winner_id": "federico-bahamontes",
+  "winner_total_time": "123h 46' 45\"",
+  "winner_age": "30",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "35,474",
+  "ahead_of_2nd": "0h 04' 01\" ",
+  "second_name": "H. Anglade",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 05' 05\"",
+  "third_name": "J. Anquetil",
+  "third_country": "France",
+  "third_id": "jacques-anquetil",
+  "legs": [
+
+  ]
+}

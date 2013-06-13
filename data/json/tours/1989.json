@@ -1,1 +1,28 @@
-{"year":1989,"edition":76,"total_length":3285,"nb_legs":21,"has_prologue":false,"nb_concurrents":198,"nb_finishers":138,"pct_finishers":70,"winner_first_name":"Greg","winner_last_name":"LeMond","winner_id":"greg-lemond","winner_total_time":"87h 38' 35\"","winner_age":"27","winner_country":"États-Unis","winner_avg_speed":"37,487","ahead_of_2nd":"0h 00' 08\" ","second_name":"L. Fignon","second_country":"France","second_id":"laurent-fignon","ahead_of_3rd":"0h 03' 34\"","third_name":"P. Delgado","third_country":"Espagne","third_id":"pedro-delgado","legs":[]}
+{
+  "year": 1989,
+  "edition": 76,
+  "total_length": 3285,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 138,
+  "pct_finishers": 70,
+  "winner_first_name": "Greg",
+  "winner_last_name": "LeMond",
+  "winner_id": "greg-lemond",
+  "winner_total_time": "87h 38' 35\"",
+  "winner_age": "27",
+  "winner_country": "États-Unis",
+  "winner_avg_speed": "37,487",
+  "ahead_of_2nd": "0h 00' 08\" ",
+  "second_name": "L. Fignon",
+  "second_country": "France",
+  "second_id": "laurent-fignon",
+  "ahead_of_3rd": "0h 03' 34\"",
+  "third_name": "P. Delgado",
+  "third_country": "Espagne",
+  "third_id": "pedro-delgado",
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":2010,"edition":97,"total_length":3642,"nb_legs":20,"has_prologue":false,"nb_concurrents":198,"nb_finishers":170,"pct_finishers":86,"winner_first_name":"Andy","winner_last_name":"Schleck","winner_id":"andy-schleck","winner_total_time":"91h 58' 48\"","winner_age":"25","winner_country":"Luxembourg","winner_avg_speed":"39,594","ahead_of_2nd":"0h 01' 22\" ","second_name":"D. Menchov","second_country":"Russie","second_id":null,"ahead_of_3rd":"0h 03' 01\"","third_name":"S. Sanchez","third_country":"Espagne","third_id":null,"legs":[]}
+{
+  "year": 2010,
+  "edition": 97,
+  "total_length": 3642,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 170,
+  "pct_finishers": 86,
+  "winner_first_name": "Andy",
+  "winner_last_name": "Schleck",
+  "winner_id": "andy-schleck",
+  "winner_total_time": "91h 58' 48\"",
+  "winner_age": "25",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "39,594",
+  "ahead_of_2nd": "0h 01' 22\" ",
+  "second_name": "D. Menchov",
+  "second_country": "Russie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 03' 01\"",
+  "third_name": "S. Sanchez",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

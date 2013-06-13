@@ -1,1 +1,28 @@
-{"year":1949,"edition":36,"total_length":4808,"nb_legs":21,"has_prologue":false,"nb_concurrents":120,"nb_finishers":55,"pct_finishers":46,"winner_first_name":"Fausto","winner_last_name":"Coppi","winner_id":"fausto-coppi","winner_total_time":"149h 40' 49\"","winner_age":"29","winner_country":"Italie","winner_avg_speed":"32,121","ahead_of_2nd":"0h 10' 55\" ","second_name":"G. Bartali","second_country":"Italie","second_id":"gino-bartali","ahead_of_3rd":"0h 25' 13\"","third_name":"J. Marinelli","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1949,
+  "edition": 36,
+  "total_length": 4808,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 120,
+  "nb_finishers": 55,
+  "pct_finishers": 46,
+  "winner_first_name": "Fausto",
+  "winner_last_name": "Coppi",
+  "winner_id": "fausto-coppi",
+  "winner_total_time": "149h 40' 49\"",
+  "winner_age": "29",
+  "winner_country": "Italie",
+  "winner_avg_speed": "32,121",
+  "ahead_of_2nd": "0h 10' 55\" ",
+  "second_name": "G. Bartali",
+  "second_country": "Italie",
+  "second_id": "gino-bartali",
+  "ahead_of_3rd": "0h 25' 13\"",
+  "third_name": "J. Marinelli",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

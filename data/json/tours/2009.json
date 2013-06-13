@@ -1,1 +1,28 @@
-{"year":2009,"edition":96,"total_length":3459,"nb_legs":21,"has_prologue":false,"nb_concurrents":180,"nb_finishers":156,"pct_finishers":87,"winner_first_name":"Alberto","winner_last_name":"Contador","winner_id":"alberto-contador","winner_total_time":"85h 48' 35\"","winner_age":"26","winner_country":"Espagne","winner_avg_speed":"40,315","ahead_of_2nd":"0h 04' 11\" ","second_name":"A. Schleck","second_country":"Luxembourg","second_id":"andy-schleck","ahead_of_3rd":"0h 05' 24\"","third_name":"L. Armstrong","third_country":"États-Unis","third_id":null,"legs":[]}
+{
+  "year": 2009,
+  "edition": 96,
+  "total_length": 3459,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 180,
+  "nb_finishers": 156,
+  "pct_finishers": 87,
+  "winner_first_name": "Alberto",
+  "winner_last_name": "Contador",
+  "winner_id": "alberto-contador",
+  "winner_total_time": "85h 48' 35\"",
+  "winner_age": "26",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "40,315",
+  "ahead_of_2nd": "0h 04' 11\" ",
+  "second_name": "A. Schleck",
+  "second_country": "Luxembourg",
+  "second_id": "andy-schleck",
+  "ahead_of_3rd": "0h 05' 24\"",
+  "third_name": "L. Armstrong",
+  "third_country": "États-Unis",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":1931,"edition":25,"total_length":5091,"nb_legs":24,"has_prologue":false,"nb_concurrents":81,"nb_finishers":35,"pct_finishers":43,"winner_first_name":"Antonin","winner_last_name":"Magne","winner_id":"antonin-magne","winner_total_time":"177h 10' 03\"","winner_age":"27","winner_country":"France","winner_avg_speed":"28,735","ahead_of_2nd":"0h 12' 56\" ","second_name":"J. Demuysere","second_country":"Belgique","second_id":null,"ahead_of_3rd":"0h 22' 52\"","third_name":"A. Pesenti","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 1931,
+  "edition": 25,
+  "total_length": 5091,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 81,
+  "nb_finishers": 35,
+  "pct_finishers": 43,
+  "winner_first_name": "Antonin",
+  "winner_last_name": "Magne",
+  "winner_id": "antonin-magne",
+  "winner_total_time": "177h 10' 03\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "28,735",
+  "ahead_of_2nd": "0h 12' 56\" ",
+  "second_name": "J. Demuysere",
+  "second_country": "Belgique",
+  "second_id": null,
+  "ahead_of_3rd": "0h 22' 52\"",
+  "third_name": "A. Pesenti",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

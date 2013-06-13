@@ -1,1 +1,28 @@
-{"year":1997,"edition":84,"total_length":3950,"nb_legs":21,"has_prologue":false,"nb_concurrents":198,"nb_finishers":139,"pct_finishers":70,"winner_first_name":"Jan","winner_last_name":"Ullrich","winner_id":"jan-ullrich","winner_total_time":"100h 30' 35\"","winner_age":"23","winner_country":"Allemagne","winner_avg_speed":"39,237","ahead_of_2nd":"0h 09' 09\" ","second_name":"R. Virenque","second_country":"France","second_id":null,"ahead_of_3rd":"0h 14' 03\"","third_name":"M. Pantani","third_country":"Italie","third_id":"marco-pantani","legs":[]}
+{
+  "year": 1997,
+  "edition": 84,
+  "total_length": 3950,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 139,
+  "pct_finishers": 70,
+  "winner_first_name": "Jan",
+  "winner_last_name": "Ullrich",
+  "winner_id": "jan-ullrich",
+  "winner_total_time": "100h 30' 35\"",
+  "winner_age": "23",
+  "winner_country": "Allemagne",
+  "winner_avg_speed": "39,237",
+  "ahead_of_2nd": "0h 09' 09\" ",
+  "second_name": "R. Virenque",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 14' 03\"",
+  "third_name": "M. Pantani",
+  "third_country": "Italie",
+  "third_id": "marco-pantani",
+  "legs": [
+
+  ]
+}

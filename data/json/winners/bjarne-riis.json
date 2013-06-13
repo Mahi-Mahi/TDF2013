@@ -1,1 +1,62 @@
-{"id":"bjarne-riis","first_name":"Bjarne","last_name":"Riis","country":"Danemark","years":{"1989":{"position":"95","nb_wins":0},"1990":{"position":"Abandon","nb_wins":0},"1991":{"position":"107","nb_wins":0},"1992":{"position":"Non partant","nb_wins":0},"1993":{"position":"5","nb_wins":1},"1994":{"position":"14","nb_wins":1},"1995":{"position":"3","nb_wins":0},"1996":{"position":"1","nb_wins":2},"1997":{"position":"7","nb_wins":0},"1998":{"position":"11","nb_wins":0}},"wins":[1996],"wins_age":[32],"birthdate":"03/04/1964","birthyear":1964,"deathdate":null,"bio":"Le premier coureur danois à remporter le Tour.","period":[1989,1998]}
+{
+  "id": "bjarne-riis",
+  "first_name": "Bjarne",
+  "last_name": "Riis",
+  "country": "Danemark",
+  "years": {
+    "1989": {
+      "position": "95",
+      "nb_wins": 0
+    },
+    "1990": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1991": {
+      "position": "107",
+      "nb_wins": 0
+    },
+    "1992": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1993": {
+      "position": "5",
+      "nb_wins": 1
+    },
+    "1994": {
+      "position": "14",
+      "nb_wins": 1
+    },
+    "1995": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1996": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1997": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1998": {
+      "position": "11",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1996
+  ],
+  "wins_age": [
+    32
+  ],
+  "birthdate": "03/04/1964",
+  "birthyear": 1964,
+  "deathdate": null,
+  "bio": "Le premier coureur danois à remporter le Tour.",
+  "period": [
+    1989,
+    1998
+  ]
+}

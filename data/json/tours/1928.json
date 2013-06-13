@@ -1,1 +1,28 @@
-{"year":1928,"edition":22,"total_length":5376,"nb_legs":22,"has_prologue":false,"nb_concurrents":162,"nb_finishers":41,"pct_finishers":25,"winner_first_name":"Nicolas","winner_last_name":"Frantz","winner_id":"nicolas-frantz","winner_total_time":"192h 48' 58\"","winner_age":"28","winner_country":"Luxembourg","winner_avg_speed":"28,400","ahead_of_2nd":"0h 50' 07\" ","second_name":"A. Leducq","second_country":"France","second_id":"andre-leducq","ahead_of_3rd":"0h 56' 16\"","third_name":"M. De Waele","third_country":"Belgique","third_id":"maurice-de-waele","legs":[]}
+{
+  "year": 1928,
+  "edition": 22,
+  "total_length": 5376,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 162,
+  "nb_finishers": 41,
+  "pct_finishers": 25,
+  "winner_first_name": "Nicolas",
+  "winner_last_name": "Frantz",
+  "winner_id": "nicolas-frantz",
+  "winner_total_time": "192h 48' 58\"",
+  "winner_age": "28",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "28,400",
+  "ahead_of_2nd": "0h 50' 07\" ",
+  "second_name": "A. Leducq",
+  "second_country": "France",
+  "second_id": "andre-leducq",
+  "ahead_of_3rd": "0h 56' 16\"",
+  "third_name": "M. De Waele",
+  "third_country": "Belgique",
+  "third_id": "maurice-de-waele",
+  "legs": [
+
+  ]
+}

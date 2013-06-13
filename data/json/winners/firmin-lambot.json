@@ -1,1 +1,65 @@
-{"id":"firmin-lambot","first_name":"Firmin","last_name":"Lambot","country":"Belgique","years":{"1911":{"position":"11","nb_wins":0},"1912":{"position":"18","nb_wins":0},"1913":{"position":"4","nb_wins":1},"1914":{"position":"8","nb_wins":1},"1919":{"position":"1","nb_wins":1},"1920":{"position":"3","nb_wins":2},"1921":{"position":"9","nb_wins":1},"1922":{"position":"1","nb_wins":0},"1923":{"position":"Abandon","nb_wins":0},"1924":{"position":"Abandon","nb_wins":0}},"wins":[1919,1922],"wins_age":[33,36],"birthdate":"14/03/1886","birthyear":1886,"deathdate":"19/01/1964","deathyear":1964,"bio":"Le vainqueur du Tour le plus âgé (36 ans, en 1922).","period":[1911,1924]}
+{
+  "id": "firmin-lambot",
+  "first_name": "Firmin",
+  "last_name": "Lambot",
+  "country": "Belgique",
+  "years": {
+    "1911": {
+      "position": "11",
+      "nb_wins": 0
+    },
+    "1912": {
+      "position": "18",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "4",
+      "nb_wins": 1
+    },
+    "1914": {
+      "position": "8",
+      "nb_wins": 1
+    },
+    "1919": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1920": {
+      "position": "3",
+      "nb_wins": 2
+    },
+    "1921": {
+      "position": "9",
+      "nb_wins": 1
+    },
+    "1922": {
+      "position": "1",
+      "nb_wins": 0
+    },
+    "1923": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1924": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1919,
+    1922
+  ],
+  "wins_age": [
+    33,
+    36
+  ],
+  "birthdate": "14/03/1886",
+  "birthyear": 1886,
+  "deathdate": "19/01/1964",
+  "deathyear": 1964,
+  "bio": "Le vainqueur du Tour le plus âgé (36 ans, en 1922).",
+  "period": [
+    1911,
+    1924
+  ]
+}

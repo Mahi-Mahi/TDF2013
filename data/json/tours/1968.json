@@ -1,1 +1,28 @@
-{"year":1968,"edition":55,"total_length":4492,"nb_legs":22,"has_prologue":false,"nb_concurrents":110,"nb_finishers":63,"pct_finishers":57,"winner_first_name":"Jan","winner_last_name":"Janssen","winner_id":"jan-janssen","winner_total_time":"133h 49' 32\"","winner_age":"28","winner_country":"Pays-Bas","winner_avg_speed":"33,556","ahead_of_2nd":"0h 00' 38\" ","second_name":"H. Van Springel","second_country":"Belgique","second_id":null,"ahead_of_3rd":"0h 03' 03\"","third_name":"F. Bracke","third_country":"Belgique","third_id":null,"legs":[]}
+{
+  "year": 1968,
+  "edition": 55,
+  "total_length": 4492,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 110,
+  "nb_finishers": 63,
+  "pct_finishers": 57,
+  "winner_first_name": "Jan",
+  "winner_last_name": "Janssen",
+  "winner_id": "jan-janssen",
+  "winner_total_time": "133h 49' 32\"",
+  "winner_age": "28",
+  "winner_country": "Pays-Bas",
+  "winner_avg_speed": "33,556",
+  "ahead_of_2nd": "0h 00' 38\" ",
+  "second_name": "H. Van Springel",
+  "second_country": "Belgique",
+  "second_id": null,
+  "ahead_of_3rd": "0h 03' 03\"",
+  "third_name": "F. Bracke",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

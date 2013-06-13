@@ -1,1 +1,28 @@
-{"year":1983,"edition":70,"total_length":3809,"nb_legs":22,"has_prologue":false,"nb_concurrents":140,"nb_finishers":88,"pct_finishers":63,"winner_first_name":"Laurent","winner_last_name":"Fignon","winner_id":"laurent-fignon","winner_total_time":"105h 07' 52\"","winner_age":"22","winner_country":"France","winner_avg_speed":"36,230","ahead_of_2nd":"0h 04' 04\" ","second_name":"A. Arroyo","second_country":"Espagne","second_id":null,"ahead_of_3rd":"0h 04' 09\"","third_name":"P. Winnen","third_country":"Pays-Bas","third_id":null,"legs":[]}
+{
+  "year": 1983,
+  "edition": 70,
+  "total_length": 3809,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 140,
+  "nb_finishers": 88,
+  "pct_finishers": 63,
+  "winner_first_name": "Laurent",
+  "winner_last_name": "Fignon",
+  "winner_id": "laurent-fignon",
+  "winner_total_time": "105h 07' 52\"",
+  "winner_age": "22",
+  "winner_country": "France",
+  "winner_avg_speed": "36,230",
+  "ahead_of_2nd": "0h 04' 04\" ",
+  "second_name": "A. Arroyo",
+  "second_country": "Espagne",
+  "second_id": null,
+  "ahead_of_3rd": "0h 04' 09\"",
+  "third_name": "P. Winnen",
+  "third_country": "Pays-Bas",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

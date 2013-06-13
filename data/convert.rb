@@ -13,7 +13,7 @@ require 'pp'
 require 'zlib'
 require 'fileutils'
 
-production = true
+production = false
 
 
 FileUtils.rm_rf("json/winners/.", secure: true)

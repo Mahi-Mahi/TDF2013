@@ -1,1 +1,73 @@
-{"id":"andre-leducq","first_name":"André","last_name":"Leducq","country":"France","years":{"1927":{"position":"4","nb_wins":3},"1928":{"position":"2","nb_wins":4},"1929":{"position":"11","nb_wins":5},"1930":{"position":"1","nb_wins":2},"1931":{"position":"10","nb_wins":1},"1932":{"position":"1","nb_wins":6},"1933":{"position":"31","nb_wins":2},"1934":{"position":"Non partant","nb_wins":0},"1935":{"position":"17","nb_wins":1},"1936":{"position":"Non partant","nb_wins":0},"1937":{"position":"Non partant","nb_wins":0},"1938":{"position":"30","nb_wins":1}},"wins":[1930,1932],"wins_age":[26,28],"birthdate":"27/02/1904","birthyear":1904,"deathdate":"18/06/1980","deathyear":1980,"bio":null,"period":[1927,1938]}
+{
+  "id": "andre-leducq",
+  "first_name": "André",
+  "last_name": "Leducq",
+  "country": "France",
+  "years": {
+    "1927": {
+      "position": "4",
+      "nb_wins": 3
+    },
+    "1928": {
+      "position": "2",
+      "nb_wins": 4
+    },
+    "1929": {
+      "position": "11",
+      "nb_wins": 5
+    },
+    "1930": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1931": {
+      "position": "10",
+      "nb_wins": 1
+    },
+    "1932": {
+      "position": "1",
+      "nb_wins": 6
+    },
+    "1933": {
+      "position": "31",
+      "nb_wins": 2
+    },
+    "1934": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1935": {
+      "position": "17",
+      "nb_wins": 1
+    },
+    "1936": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1938": {
+      "position": "30",
+      "nb_wins": 1
+    }
+  },
+  "wins": [
+    1930,
+    1932
+  ],
+  "wins_age": [
+    26,
+    28
+  ],
+  "birthdate": "27/02/1904",
+  "birthyear": 1904,
+  "deathdate": "18/06/1980",
+  "deathyear": 1980,
+  "bio": null,
+  "period": [
+    1927,
+    1938
+  ]
+}

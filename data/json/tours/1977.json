@@ -1,1 +1,28 @@
-{"year":1977,"edition":64,"total_length":4096,"nb_legs":22,"has_prologue":false,"nb_concurrents":100,"nb_finishers":53,"pct_finishers":53,"winner_first_name":"Bernard","winner_last_name":"Thévenet","winner_id":"bernard-thevenet","winner_total_time":"115h 38' 30\"","winner_age":"29","winner_country":"France","winner_avg_speed":"35,419","ahead_of_2nd":"0h 00' 48\" ","second_name":"H. Kuiper","second_country":"Pays-Bas","second_id":null,"ahead_of_3rd":"0h 03' 32\"","third_name":"L. Van Impe","third_country":"Belgique","third_id":"lucien-van-impe","legs":[]}
+{
+  "year": 1977,
+  "edition": 64,
+  "total_length": 4096,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 100,
+  "nb_finishers": 53,
+  "pct_finishers": 53,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Thévenet",
+  "winner_id": "bernard-thevenet",
+  "winner_total_time": "115h 38' 30\"",
+  "winner_age": "29",
+  "winner_country": "France",
+  "winner_avg_speed": "35,419",
+  "ahead_of_2nd": "0h 00' 48\" ",
+  "second_name": "H. Kuiper",
+  "second_country": "Pays-Bas",
+  "second_id": null,
+  "ahead_of_3rd": "0h 03' 32\"",
+  "third_name": "L. Van Impe",
+  "third_country": "Belgique",
+  "third_id": "lucien-van-impe",
+  "legs": [
+
+  ]
+}

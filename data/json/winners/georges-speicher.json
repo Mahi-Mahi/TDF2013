@@ -1,1 +1,51 @@
-{"id":"georges-speicher","first_name":"Georges","last_name":"Speicher","country":"France","years":{"1932":{"position":"10","nb_wins":0},"1933":{"position":"1","nb_wins":3},"1934":{"position":"11","nb_wins":5},"1935":{"position":"6","nb_wins":1},"1936":{"position":"Abandon","nb_wins":0},"1937":{"position":"Abandon","nb_wins":0},"1938":{"position":"Elimination","nb_wins":0}},"wins":[1933],"wins_age":[26],"birthdate":"08/06/1907","birthyear":1907,"deathdate":"24/01/1978","deathyear":1978,"bio":null,"period":[1932,1938]}
+{
+  "id": "georges-speicher",
+  "first_name": "Georges",
+  "last_name": "Speicher",
+  "country": "France",
+  "years": {
+    "1932": {
+      "position": "10",
+      "nb_wins": 0
+    },
+    "1933": {
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1934": {
+      "position": "11",
+      "nb_wins": 5
+    },
+    "1935": {
+      "position": "6",
+      "nb_wins": 1
+    },
+    "1936": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1938": {
+      "position": "Elimination",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1933
+  ],
+  "wins_age": [
+    26
+  ],
+  "birthdate": "08/06/1907",
+  "birthyear": 1907,
+  "deathdate": "24/01/1978",
+  "deathyear": 1978,
+  "bio": null,
+  "period": [
+    1932,
+    1938
+  ]
+}

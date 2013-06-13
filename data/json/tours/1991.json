@@ -1,1 +1,28 @@
-{"year":1991,"edition":78,"total_length":3914,"nb_legs":22,"has_prologue":false,"nb_concurrents":198,"nb_finishers":158,"pct_finishers":80,"winner_first_name":"Miguel","winner_last_name":"Indurain","winner_id":"miguel-indurain","winner_total_time":"101h 01' 20\"","winner_age":"27","winner_country":"Espagne","winner_avg_speed":"38,747","ahead_of_2nd":"0h 03' 36\" ","second_name":"G. Bugno","second_country":"Italie","second_id":null,"ahead_of_3rd":"0h 05' 56\"","third_name":"C. Chiappucci","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 1991,
+  "edition": 78,
+  "total_length": 3914,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 158,
+  "pct_finishers": 80,
+  "winner_first_name": "Miguel",
+  "winner_last_name": "Indurain",
+  "winner_id": "miguel-indurain",
+  "winner_total_time": "101h 01' 20\"",
+  "winner_age": "27",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "38,747",
+  "ahead_of_2nd": "0h 03' 36\" ",
+  "second_name": "G. Bugno",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 05' 56\"",
+  "third_name": "C. Chiappucci",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

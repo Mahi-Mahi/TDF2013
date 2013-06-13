@@ -74,7 +74,7 @@
 }
 
 #winner .tours > li.empty {
-	visibility:hidden;
+	background:#fff;
 }
 
 .winners #winner .tours .wins {
@@ -124,6 +124,10 @@
 	color:#383C40;
 	text-align:center;
 	font:700 10px/22px 'Lato', Verdana, Arial, sans-serif;
+}
+
+.winners #winner .tours .empty .year {	
+	color:#f2f2ed;
 }
 
 .winners .legend {
@@ -561,4 +565,19 @@
 	-webkit-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
 	box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
+}
+
+.reset {
+	background:url(/img/icon/icon-reset.png) 0 0 no-repeat;
+	display:block;
+	height:52px;
+	margin:0;
+	overflow:hidden;
+	padding: 0;
+	position:absolute;
+	text-indent:100%;
+	right:0;
+	top:20px;
+	width:52px;
+	white-space:nowrap;
 }

@@ -1,1 +1,28 @@
-{"year":1913,"edition":11,"total_length":5287,"nb_legs":15,"has_prologue":false,"nb_concurrents":140,"nb_finishers":25,"pct_finishers":18,"winner_first_name":"Philippe","winner_last_name":"Thys","winner_id":"philippe-thys","winner_total_time":"197h 54' 00\"","winner_age":"23","winner_country":"Belgique","winner_avg_speed":"26,715","ahead_of_2nd":"0h 08' 37\" ","second_name":"G. Garrigou","second_country":"France","second_id":"gustave-garrigou","ahead_of_3rd":"0h 30' 55\"","third_name":"M. Buysse","third_country":"Belgique","third_id":null,"legs":[]}
+{
+  "year": 1913,
+  "edition": 11,
+  "total_length": 5287,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 140,
+  "nb_finishers": 25,
+  "pct_finishers": 18,
+  "winner_first_name": "Philippe",
+  "winner_last_name": "Thys",
+  "winner_id": "philippe-thys",
+  "winner_total_time": "197h 54' 00\"",
+  "winner_age": "23",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "26,715",
+  "ahead_of_2nd": "0h 08' 37\" ",
+  "second_name": "G. Garrigou",
+  "second_country": "France",
+  "second_id": "gustave-garrigou",
+  "ahead_of_3rd": "0h 30' 55\"",
+  "third_name": "M. Buysse",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

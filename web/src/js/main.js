@@ -89,9 +89,16 @@ var TDF = (function() {
 				TDF.render('traces');
 			} else {
 				if (this.params['city_id'] === undefined) {
-					TDF.render('traces', {
-						years: this.params['years']
-					});
+					if (this.params['years'].match(/^[\d\,]+$/)) {
+						TDF.render('traces', {
+							years: this.params['years']
+						});
+
+					} else {
+						TDF.render('traces', {
+							city: this.params['years']
+						});
+					}
 				} else {
 					TDF.render('traces', {
 						years: this.params['years'],
@@ -139,6 +146,54 @@ var TDF = (function() {
 		});
 
 		// Winners
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/:filter4/:val4/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			filters[this.params['filter3']] = this.params['val3'];
+			filters[this.params['filter4']] = this.params['val4'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			filters[this.params['filter3']] = this.params['val3'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
 		Path.map("/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
@@ -325,17 +380,17 @@ TDF.Home = (function() {
 
 
 		if (jQuery('#search').length) {
-                    
-                        jQuery( "#search" ).autocomplete({
-                            minLength: 0,
-                            source: TDF.Data.cities,
-                            messages: {
-                                noResults: '',
-                                results: function() {}
-                            }
-                        });
-                    
-                    /*
+
+			jQuery("#search").autocomplete({
+				minLength: 0,
+				source: TDF.Data.cities,
+				messages: {
+					noResults: '',
+					results: function() {}
+				}
+			});
+
+			/*
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 			input.className = '';
@@ -442,6 +497,7 @@ TDF.CitySearch = (function() {
 	};
 
 	my.autocomplete_init = function() {
+
             
                 function geocoding(){
                     var address = searchInput.val();
@@ -505,6 +561,7 @@ TDF.CitySearch = (function() {
                     }
                 });
                 
+
 	};
 
 	return my;
@@ -555,8 +612,7 @@ TDF.Traces = (function() {
 			if ($main.find("#multi-select:checked").length) {
 				if (jQuery(this).prev('input').prop('checked')) {
 					jQuery(this).prev('input').prop('checked', false);
-				}
-				else {
+				} else {
 					jQuery(this).prev('input').prop('checked', true);
 					my.last_clicked = jQuery(this).prev('input.checkbox').val();
 				}
@@ -642,13 +698,27 @@ TDF.Traces = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 	};
 
+	my.getCityTraces = function(city) {
+		var years = [];
+		city = city.toLowerCase();
+		jQuery(TDF.Data.legs).each(function(idx, leg) {
+			if (leg.start.city.toLowerCase() === city || leg.finish.city.toLowerCase() === city) {
+				years.push(leg.year);
+			}
+		});
+		return years.getUnique().sort();
+	};
 
 	my.render = function(args) {
 
 		my.args = args;
 
 		if (my.args.years === undefined) {
-			my.args.years = [2013];
+			if (my.args.city === undefined) {
+				my.args.years = [2013];
+			} else {
+				my.args.years = my.getCityTraces(my.args.city);
+			}
 		} else {
 			my.args.years = my.args.years.split(/,/);
 		}
@@ -704,9 +774,14 @@ TDF.Traces = (function() {
 			$squares.append(squares);
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
+			var slider_default = 100; // (my.args.years.min() - 1903) / 110 * 100;
 			$main.find(".timeline .slider").slider({
-				slide: function(ui, event) {
-					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * event.value / 100));
+				value: slider_default,
+				slide: function(event, ui) {
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * ui.value / 100));
+				},
+				create: function() {
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * slider_default / 100));
 				}
 			});
 
@@ -720,6 +795,10 @@ TDF.Traces = (function() {
 			}
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
+
+			if (my.args.city !== undefined) {
+				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+			}
 
 			this.initializeGmap();
 
@@ -803,14 +882,14 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-		if ( my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013 ) {
+		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
 
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
-				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name[0] + '. ' + trace.winner_last_name + '</a>');
+				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
 				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			} else {
@@ -885,6 +964,20 @@ TDF.Winners = (function() {
 			Path.history.pushState({}, "", my.getQueryString());
 		});
 
+		var tmp = [];
+		for (var i in TDF.Data.winners) {
+			tmp.push(TDF.Data.winners[i]);
+		}
+		my.sorted_winners = tmp.sort(function(a, b) {
+			if (a.wins.max() < b.wins.max()) {
+				return 1;
+			}
+			if (a.wins.max() > b.wins.max()) {
+				return -1;
+			}
+			return 0;
+		});
+
 	};
 
 	my.getQueryString = function() {
@@ -935,7 +1028,7 @@ TDF.Winners = (function() {
 	my.render = function(args) {
 		my.args = args;
 
-		var winner_id, winner, winners_list = [],
+		var winners_list = [],
 			content;
 
 		var youngest_win = null,
@@ -946,11 +1039,10 @@ TDF.Winners = (function() {
 		if (TDF.loadTemplate(this)) {
 
 			var $template = jQuery('#template-winner');
-			for (winner_id in TDF.Data.winners) {
-				winner = TDF.Data.winners[winner_id];
+			jQuery(my.sorted_winners).each(function(idx, winner) {
 				content = $template.html()
-					.replace(':winner_url', '/vainqueurs/' + winner_id + '/')
-					.replace(/:winner_id/g, winner_id)
+					.replace(':winner_url', '/vainqueurs/' + winner.id + '/')
+					.replace(/:winner_id/g, winner.id)
 					.replace(':nb_wins', winner.wins.length)
 					.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner.id + '_small.png')
 					.replace(':win_ages', winner.wins_age.join(','))
@@ -978,7 +1070,7 @@ TDF.Winners = (function() {
 					countries.push(winner.country);
 				}
 
-			}
+			});
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
 			$main.find('.winners_list').jScrollPane({
@@ -986,17 +1078,26 @@ TDF.Winners = (function() {
 				maintainPosition: false
 			});
 
+			var filters = {};
+
+			if (my.args.filters.age_victoire) {
+				filters.age = my.args.filters.age_victoire.split(/,/);
+			} else {
+				filters.age = [youngest_win, oldest_win];
+			}
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
 				max: oldest_win,
 				range: true,
 				step: 1,
-				values: [youngest_win, oldest_win],
-				slide: function() {
+				values: filters.age,
+				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
-					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+				},
+				slide: function(event, ui) {
+					Path.history.pushState({}, "", my.getQueryString());
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
@@ -1005,17 +1106,25 @@ TDF.Winners = (function() {
 				}
 			});
 
+			if (my.args.filters.nb_victoires) {
+				filters.wins = my.args.filters.nb_victoires.split(/,/);
+			} else {
+				filters.wins = [1, max_wins];
+			}
+
 			$main.find(".filters .nb_wins .slider").slider({
 				min: 1,
 				max: max_wins,
 				range: true,
 				step: 1,
-				values: [1, max_wins],
-				slide: function() {
+				values: filters.wins,
+				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
-					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+				},
+				slide: function(event, ui) {
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
+					Path.history.pushState({}, "", my.getQueryString());
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
@@ -1074,7 +1183,7 @@ TDF.Winners = (function() {
 			var i;
 
 			for (i = 0; i < Math.floor((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"></li>');
+				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
 			}
 
 			for (year = years.min(); year <= years.max(); year++) {
@@ -1124,7 +1233,7 @@ TDF.Winners = (function() {
 			}
 
 			for (i = 0; i < Math.ceil((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"></li>');
+				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
@@ -1165,7 +1274,7 @@ TDF.Winners = (function() {
 
 		if (my.args.filters.age_victoire) {
 			var win_ages, filter_age = my.args.filters.age_victoire.split(/,/);
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
 				jQuery(this).data('show', (win_ages.min() <= filter_age[1] && win_ages.max() >= filter_age[0]));
 			});
@@ -1173,14 +1282,14 @@ TDF.Winners = (function() {
 
 		if (my.args.filters.nb_victoires) {
 			var nb_wins, filter_nb_wins = my.args.filters.nb_victoires.split(/,/);
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				nb_wins = jQuery(this).data('nb-wins').toString().split(/,/);
 				jQuery(this).data('show', (nb_wins.min() <= filter_nb_wins[1] && nb_wins.max() >= filter_nb_wins[0]));
 			});
 		}
 
 		if (my.args.filters.recherche) {
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				var re = new RegExp(my.args.filters.recherche, 'i');
 				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null);
 			});
@@ -1227,11 +1336,23 @@ TDF.Fight = (function() {
 			tmp.push(TDF.Data.fighters[i]);
 		}
 		my.sorted_fighters = tmp.sort(function(a, b) {
-			if (a.first_name < b.first_name) {
+			if (a.nb_wins === 0 && b.nb_wins > 0) {
 				return -1;
 			}
-			if (a.first_name > b.first_name) {
+			if (a.nb_wins > 0 && b.nb_wins === 0) {
 				return 1;
+			}
+			if ( TDF.Data.winners[a.id] === undefined ){
+				return -1;
+			}
+			if ( TDF.Data.winners[b.id] === undefined ){
+				return -1;
+			}
+			if (TDF.Data.winners[a.id].wins.max() < TDF.Data.winners[b.id].wins.max()) {
+				return 1;
+			}
+			if (TDF.Data.winners[a.id].wins.max() > TDF.Data.winners[b.id].wins.max()) {
+				return -1;
 			}
 			return 0;
 		});
@@ -1390,7 +1511,7 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
 
-		jQuery('.tabs').tabify();
+		$inner.find('.tabs').tabify();
 	};
 
 	my.fight = function() {
@@ -1411,6 +1532,9 @@ TDF.Fight = (function() {
 
 		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
+
+		$fighter_one.addClass(fighter_one.epoque);
+		$fighter_two.addClass(fighter_two.epoque);
 
 		// définition des attributs : a été en jaune, a gagné le tour
 		if (fighter_one.steps[2] > 0) {
@@ -1814,15 +1938,15 @@ TDF.Data = (function() {
 						jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 							console.log(textStatus);
 							my.places = json;
-                                                        
-                                                        //Cities
-                                                        jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
-                                                                console.log(textStatus);
-                                                                my.cities = json;
 
-                                                                callback();
+							//Cities
+							jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
+								console.log(textStatus);
+								my.cities = json;
 
-                                                        });
+								callback();
+
+							});
 
 						});
 

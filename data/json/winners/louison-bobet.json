@@ -1,1 +1,79 @@
-{"id":"louison-bobet","first_name":"Louison","last_name":"Bobet","country":"France","years":{"1947":{"position":"Abandon","nb_wins":0},"1948":{"position":"4","nb_wins":2},"1949":{"position":"Abandon","nb_wins":0},"1950":{"position":"3","nb_wins":1},"1951":{"position":"20","nb_wins":1},"1952":{"position":"Non partant","nb_wins":0},"1953":{"position":"1","nb_wins":2},"1954":{"position":"1","nb_wins":3},"1955":{"position":"1","nb_wins":2},"1956":{"position":"Non partant","nb_wins":0},"1957":{"position":"Non partant","nb_wins":0},"1958":{"position":"7","nb_wins":0},"1959":{"position":"Abandon","nb_wins":0}},"wins":[1953,1954,1955],"wins_age":[28,29,30],"birthdate":"12/03/1925","birthyear":1925,"deathdate":"13/03/1983","deathyear":1983,"bio":null,"period":[1947,1959]}
+{
+  "id": "louison-bobet",
+  "first_name": "Louison",
+  "last_name": "Bobet",
+  "country": "France",
+  "years": {
+    "1947": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1948": {
+      "position": "4",
+      "nb_wins": 2
+    },
+    "1949": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1950": {
+      "position": "3",
+      "nb_wins": 1
+    },
+    "1951": {
+      "position": "20",
+      "nb_wins": 1
+    },
+    "1952": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1953": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1954": {
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1955": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1956": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1957": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1958": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1959": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1953,
+    1954,
+    1955
+  ],
+  "wins_age": [
+    28,
+    29,
+    30
+  ],
+  "birthdate": "12/03/1925",
+  "birthyear": 1925,
+  "deathdate": "13/03/1983",
+  "deathyear": 1983,
+  "bio": null,
+  "period": [
+    1947,
+    1959
+  ]
+}

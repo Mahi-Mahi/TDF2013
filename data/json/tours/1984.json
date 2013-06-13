@@ -1,1 +1,28 @@
-{"year":1984,"edition":71,"total_length":4021,"nb_legs":23,"has_prologue":false,"nb_concurrents":170,"nb_finishers":124,"pct_finishers":73,"winner_first_name":"Laurent","winner_last_name":"Fignon","winner_id":"laurent-fignon","winner_total_time":"112h 03' 40\"","winner_age":"23","winner_country":"France","winner_avg_speed":"35,882","ahead_of_2nd":"0h 10' 32\" ","second_name":"B. Hinault","second_country":"France","second_id":"bernard-hinault","ahead_of_3rd":"0h 11' 46\"","third_name":"G. Lemond","third_country":"États-Unis","third_id":"greg-lemond","legs":[]}
+{
+  "year": 1984,
+  "edition": 71,
+  "total_length": 4021,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 170,
+  "nb_finishers": 124,
+  "pct_finishers": 73,
+  "winner_first_name": "Laurent",
+  "winner_last_name": "Fignon",
+  "winner_id": "laurent-fignon",
+  "winner_total_time": "112h 03' 40\"",
+  "winner_age": "23",
+  "winner_country": "France",
+  "winner_avg_speed": "35,882",
+  "ahead_of_2nd": "0h 10' 32\" ",
+  "second_name": "B. Hinault",
+  "second_country": "France",
+  "second_id": "bernard-hinault",
+  "ahead_of_3rd": "0h 11' 46\"",
+  "third_name": "G. Lemond",
+  "third_country": "États-Unis",
+  "third_id": "greg-lemond",
+  "legs": [
+
+  ]
+}

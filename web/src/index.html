@@ -9,12 +9,12 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald:400,700&amp;subset=latin" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="/css/styles.css" type="text/css" />
-	    <link rel="shortcut icon" href="/favicon.ico" />
-	    <meta name="viewport" content="width=1024" />
-	    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-	    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-	    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places,geometry"></script>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=1024" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places,geometry"></script>
 		<script src="/js/modernizr.js" type="text/javascript"></script>
 		<script src="/js/scripts.js" type="text/javascript"></script>
 
@@ -66,12 +66,12 @@
 			<div id="template-search" class="template">
 				<header></header>
 				<div class="content">
-                                        <form id="city_search" method="get">
+					<form id="city_search" method="get">
 						<input type="text" id="search" name="city" value="" placeholder="ville" />
 					</form>
-                                        <div class="map-container-full">
-                                            <div id="gmap-search"></div>
-                                        </div>
+					<div class="map-container-full">
+						<div id="gmap-search"></div>
+					</div>
 				</div>
 				<footer></footer>
 			</div>
@@ -109,7 +109,10 @@
 						</div>
 					</div>
 					<div class="map-container">
-						<a href="/" class="back">Retour</a>
+						<div class="map-toolbox">
+							<a href="/recherche/" class="back">Retour</a>
+							<div class="city"></div>
+						</div>
 						<div id="gmap-traces"></div>
 					</div>
 					<div class="traces-right disabled">
@@ -149,7 +152,7 @@
 						<div class="timeline-right">
 							<div class="selectors">
 								<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
-								<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Tout sélectionner</label>
+								<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Voir les 100 tracés</label>
 							</div>
 						</div><!-- .timeline-right -->
 					</div>
@@ -211,7 +214,7 @@
 						<div class="slider"></div>
 					</div>
 					<div class="age filters-block">
-						<label>Age lors de la victoire</label>
+						<label>Âge lors de la victoire</label>
 						<div class="slider"></div>
 					</div>
 					<div class="nationality filters-block">
@@ -227,6 +230,7 @@
 							Rechercher
 							<input type="text" name="winner_search" id="winner_search" placeholder="Nom" />
 						</label>
+						<a href="" class="reset">Reset Form</a>
 					</div>
 				</div>
 				<footer></footer>
@@ -274,21 +278,20 @@
 						</div>
 
 					</div>
-                                        
-                                        
-                                      
+
 
 				</div><!-- .streetview-left -->
 
 				<div class="streetview-right">
+
                                     <div id="gmap-hyperlapse" class="hide">
                                         <span id="hyperlapseLoading"></span>
                                         
                                     </div>
                                     
                                     <div id="gmap-streetview" class="">
-
                                     </div>
+                                    
 				</div><!-- .streetview-right -->
 
 				<footer></footer>
@@ -310,14 +313,14 @@
 						<div class="name"><strong>Votre Joueur</strong></div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
-						<a href="" class="choose-fighter">Choisir un autre coureur</a>
+						<a href="" class="choose-fighter">Choisir un coureur</a>
 					</div>
 					<a href="" class="start">Start</a>
 					<div class="fighter_two fighter" data-fighter="fighter_two" data-id="">
 						<div class="name"><strong>Son Adversaire</strong></div>
 						<div class="flag"><img src="" /></div>
 						<div class="bio"></div>
-						<a href="" class="choose-fighter">Choisir un autre coureur</a>
+						<a href="" class="choose-fighter">Choisir un coureur</a>
 					</div>
 				</div>
 				<footer></footer>
@@ -327,8 +330,8 @@
 				<div class="clearfix">
 					<a class="random left" href="">Au hasard</a>
 					<ul class="tabs left unstyled">
-						<li class="winners active"><a href="#winner-block">Vainqueurs</a></li>
-						<li class="legends"><a href="#legends-block">Légendes du tour</a></li>
+						<li class="winners"><a href="#winner-block" class="external">Vainqueurs</a></li>
+						<li class="legends active"><a href="#legends-block" class="external">Légendes du tour</a></li>
 					</ul>
 				</div>
 				<div class="winners winner-block clearfix" id="winner-block">
@@ -380,15 +383,15 @@
 				<a href="" class="close">Fermer</a>
 				<table>
 					<tr>
-						<td class="result_fighter fighter_one">
+						<td class="result_fighter fighter_one header-results">
 							<div class="name"></div>
 							<div class="flag"><img src="" /></div>
 							<div class="portrait"><img src="" /></div>
 						</td>
-						<td>
+						<td class="v-top legend-results no-border aligncenter">
 							<img src="/img/duels/duels_bilan_vs.png" alt="" />
 						</td>
-						<td class="result_fighter fighter_two">
+						<td class="result_fighter fighter_two header-results">
 							<div class="name"></div>
 							<div class="flag"><img src="" /></div>
 							<div class="portrait"><img src="" /></div>
@@ -399,7 +402,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="nb_leg_wins"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Victoires <br />d'étapes
 						</td>
 						<td class="result_fighter fighter_two">
@@ -411,7 +414,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="pct_leading"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Temps passé en <br />tête du général
 						</td>
 						<td class="result_fighter fighter_two">
@@ -423,7 +426,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="average_speed"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Meilleure<br /> vitesse moyenne
 						</td>
 						<td class="result_fighter fighter_two">
@@ -435,7 +438,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="ahead_of_2nd"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Meilleure avance <br />sur le deuxième
 						</td>
 						<td class="result_fighter fighter_two">
@@ -447,7 +450,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="nb_wins"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Nombre de <br />victoires finales
 						</td>
 						<td class="result_fighter fighter_two">
@@ -459,7 +462,7 @@
 						<td class="result_fighter fighter_one">
 							<div class="doping"></div>
 						</td>
-						<td>
+						<td class="v-top legend-results aligncenter">
 							Contrôle <br />antidopage
 						</td>
 						<td class="result_fighter fighter_two">
@@ -471,8 +474,8 @@
 						<td class="result_fighter fighter_one">
 							<div class="winner"></div>
 						</td>
-						<td>
-
+						<td class="v-top legend-results aligncenter">
+							<a href="/duels-de-legendes/"><img src="/img/duels/bt-replay-small.png" alt="Nouvelle Course" /></a>
 						</td>
 						<td class="result_fighter fighter_two">
 							<div class="winner"></div>
@@ -480,8 +483,6 @@
 					</tr>
 
 				</table>
-				<a href="/duels-de-legendes/">Nouvelle Course</a>
-
 			</div>
 
 			<div id="template-header" class="template">
@@ -496,7 +497,7 @@
 					</div>
 
 					<div class="fight">
-						<a href="" class="link">Duels de légende</a>
+						<a href="" class="link">Duels de légendes</a>
 					</div>
 
 					<div class="streetview">
@@ -508,7 +509,6 @@
 				<ul class="unstyled footer-links left">
 					<li class="footer-item wedodata"><a href="http://wedodata.fr/" class="external" target="_blank"><img src="/img/footer/wedodata.png" alt=""></a></li>
 					<li class="footer-item">&copy; Radio France 2013 - Tous droits réservés - </li>
-					<li class="footer-item"><a href="/credits.html" class="colorbox external">Crédits</a> - </li>
 					<li class="footer-item"><a href="/methodologie.html" class="colorbox external">Source et méthodologie</a> - </li>
 				</ul>
 				<div class="share">

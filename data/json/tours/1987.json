@@ -1,1 +1,28 @@
-{"year":1987,"edition":74,"total_length":4231,"nb_legs":25,"has_prologue":false,"nb_concurrents":207,"nb_finishers":135,"pct_finishers":65,"winner_first_name":"Stephen","winner_last_name":"Roche","winner_id":"stephen-roche","winner_total_time":"115h 27' 42\"","winner_age":"27","winner_country":"Irlande","winner_avg_speed":"36,645","ahead_of_2nd":"0h 00' 40\" ","second_name":"P. Delgado","second_country":"Espagne","second_id":"pedro-delgado","ahead_of_3rd":"0h 02' 13\"","third_name":"J-F. Bernard","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1987,
+  "edition": 74,
+  "total_length": 4231,
+  "nb_legs": 25,
+  "has_prologue": false,
+  "nb_concurrents": 207,
+  "nb_finishers": 135,
+  "pct_finishers": 65,
+  "winner_first_name": "Stephen",
+  "winner_last_name": "Roche",
+  "winner_id": "stephen-roche",
+  "winner_total_time": "115h 27' 42\"",
+  "winner_age": "27",
+  "winner_country": "Irlande",
+  "winner_avg_speed": "36,645",
+  "ahead_of_2nd": "0h 00' 40\" ",
+  "second_name": "P. Delgado",
+  "second_country": "Espagne",
+  "second_id": "pedro-delgado",
+  "ahead_of_3rd": "0h 02' 13\"",
+  "third_name": "J-F. Bernard",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

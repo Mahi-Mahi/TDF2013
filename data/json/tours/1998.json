@@ -1,1 +1,28 @@
-{"year":1998,"edition":85,"total_length":3875,"nb_legs":21,"has_prologue":false,"nb_concurrents":189,"nb_finishers":96,"pct_finishers":51,"winner_first_name":"Marco","winner_last_name":"Pantani","winner_id":"marco-pantani","winner_total_time":"92h 49' 46\"","winner_age":"28","winner_country":"Italie","winner_avg_speed":"39,983","ahead_of_2nd":"0h 03' 21\" ","second_name":"J. Ullrich","second_country":"Allemagne","second_id":"jan-ullrich","ahead_of_3rd":"0h 04' 08\"","third_name":"B. Julich","third_country":"États-Unis","third_id":null,"legs":[]}
+{
+  "year": 1998,
+  "edition": 85,
+  "total_length": 3875,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 189,
+  "nb_finishers": 96,
+  "pct_finishers": 51,
+  "winner_first_name": "Marco",
+  "winner_last_name": "Pantani",
+  "winner_id": "marco-pantani",
+  "winner_total_time": "92h 49' 46\"",
+  "winner_age": "28",
+  "winner_country": "Italie",
+  "winner_avg_speed": "39,983",
+  "ahead_of_2nd": "0h 03' 21\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
+  "ahead_of_3rd": "0h 04' 08\"",
+  "third_name": "B. Julich",
+  "third_country": "États-Unis",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

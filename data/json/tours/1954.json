@@ -1,1 +1,28 @@
-{"year":1954,"edition":41,"total_length":4656,"nb_legs":23,"has_prologue":false,"nb_concurrents":110,"nb_finishers":69,"pct_finishers":63,"winner_first_name":"Louison","winner_last_name":"Bobet","winner_id":"louison-bobet","winner_total_time":"140h 06' 05\"","winner_age":"29","winner_country":"France","winner_avg_speed":"33,229","ahead_of_2nd":"0h 15' 49\" ","second_name":"F. Kübler","second_country":"Suisse","second_id":"ferdi-kubler","ahead_of_3rd":"0h 21' 46\"","third_name":"F. Schaer","third_country":"Suisse","third_id":null,"legs":[]}
+{
+  "year": 1954,
+  "edition": 41,
+  "total_length": 4656,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 110,
+  "nb_finishers": 69,
+  "pct_finishers": 63,
+  "winner_first_name": "Louison",
+  "winner_last_name": "Bobet",
+  "winner_id": "louison-bobet",
+  "winner_total_time": "140h 06' 05\"",
+  "winner_age": "29",
+  "winner_country": "France",
+  "winner_avg_speed": "33,229",
+  "ahead_of_2nd": "0h 15' 49\" ",
+  "second_name": "F. Kübler",
+  "second_country": "Suisse",
+  "second_id": "ferdi-kubler",
+  "ahead_of_3rd": "0h 21' 46\"",
+  "third_name": "F. Schaer",
+  "third_country": "Suisse",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":1914,"edition":12,"total_length":5380,"nb_legs":15,"has_prologue":false,"nb_concurrents":145,"nb_finishers":54,"pct_finishers":37,"winner_first_name":"Philippe","winner_last_name":"Thys","winner_id":"philippe-thys","winner_total_time":"200h 28' 48\"","winner_age":"24","winner_country":"Belgique","winner_avg_speed":"26,835","ahead_of_2nd":"0h 01' 40\" ","second_name":"H. Pelissier","second_country":"France","second_id":"henri-pelissier","ahead_of_3rd":"0h 36' 53\"","third_name":"J. Alavoine","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1914,
+  "edition": 12,
+  "total_length": 5380,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 145,
+  "nb_finishers": 54,
+  "pct_finishers": 37,
+  "winner_first_name": "Philippe",
+  "winner_last_name": "Thys",
+  "winner_id": "philippe-thys",
+  "winner_total_time": "200h 28' 48\"",
+  "winner_age": "24",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "26,835",
+  "ahead_of_2nd": "0h 01' 40\" ",
+  "second_name": "H. Pelissier",
+  "second_country": "France",
+  "second_id": "henri-pelissier",
+  "ahead_of_3rd": "0h 36' 53\"",
+  "third_name": "J. Alavoine",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

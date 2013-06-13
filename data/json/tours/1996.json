@@ -1,1 +1,28 @@
-{"year":1996,"edition":83,"total_length":3765,"nb_legs":21,"has_prologue":false,"nb_concurrents":198,"nb_finishers":129,"pct_finishers":65,"winner_first_name":"Bjarne","winner_last_name":"Riis","winner_id":"bjarne-riis","winner_total_time":"95h 57' 16\"","winner_age":"32","winner_country":"Danemark","winner_avg_speed":"39,227","ahead_of_2nd":"0h 01' 41\" ","second_name":"J. Ullrich","second_country":"Allemagne","second_id":"jan-ullrich","ahead_of_3rd":"0h 04' 37\"","third_name":"R. Virenque","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1996,
+  "edition": 83,
+  "total_length": 3765,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 129,
+  "pct_finishers": 65,
+  "winner_first_name": "Bjarne",
+  "winner_last_name": "Riis",
+  "winner_id": "bjarne-riis",
+  "winner_total_time": "95h 57' 16\"",
+  "winner_age": "32",
+  "winner_country": "Danemark",
+  "winner_avg_speed": "39,227",
+  "ahead_of_2nd": "0h 01' 41\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
+  "ahead_of_3rd": "0h 04' 37\"",
+  "third_name": "R. Virenque",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

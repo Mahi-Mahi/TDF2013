@@ -1,1 +1,28 @@
-{"year":1986,"edition":73,"total_length":4094,"nb_legs":23,"has_prologue":false,"nb_concurrents":210,"nb_finishers":132,"pct_finishers":63,"winner_first_name":"Greg","winner_last_name":"LeMond","winner_id":"greg-lemond","winner_total_time":"110h 35' 19\"","winner_age":"24","winner_country":"États-Unis","winner_avg_speed":"37,020","ahead_of_2nd":"0h 03' 10\" ","second_name":"B. Hinault","second_country":"France","second_id":"bernard-hinault","ahead_of_3rd":"0h 10' 54\"","third_name":"U. Zimmermann","third_country":"Suisse","third_id":null,"legs":[]}
+{
+  "year": 1986,
+  "edition": 73,
+  "total_length": 4094,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 210,
+  "nb_finishers": 132,
+  "pct_finishers": 63,
+  "winner_first_name": "Greg",
+  "winner_last_name": "LeMond",
+  "winner_id": "greg-lemond",
+  "winner_total_time": "110h 35' 19\"",
+  "winner_age": "24",
+  "winner_country": "États-Unis",
+  "winner_avg_speed": "37,020",
+  "ahead_of_2nd": "0h 03' 10\" ",
+  "second_name": "B. Hinault",
+  "second_country": "France",
+  "second_id": "bernard-hinault",
+  "ahead_of_3rd": "0h 10' 54\"",
+  "third_name": "U. Zimmermann",
+  "third_country": "Suisse",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

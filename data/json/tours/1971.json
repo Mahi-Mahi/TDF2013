@@ -1,1 +1,28 @@
-{"year":1971,"edition":58,"total_length":3608,"nb_legs":20,"has_prologue":false,"nb_concurrents":130,"nb_finishers":94,"pct_finishers":72,"winner_first_name":"Eddy","winner_last_name":"Merckx","winner_id":"eddy-merckx","winner_total_time":"96h 45' 14\"","winner_age":"26","winner_country":"Belgique","winner_avg_speed":"38,084","ahead_of_2nd":"0h 09' 51\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 11' 06\"","third_name":"L. Van Impe","third_country":"Belgique","third_id":"lucien-van-impe","legs":[]}
+{
+  "year": 1971,
+  "edition": 58,
+  "total_length": 3608,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 94,
+  "pct_finishers": 72,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "96h 45' 14\"",
+  "winner_age": "26",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "38,084",
+  "ahead_of_2nd": "0h 09' 51\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 11' 06\"",
+  "third_name": "L. Van Impe",
+  "third_country": "Belgique",
+  "third_id": "lucien-van-impe",
+  "legs": [
+
+  ]
+}

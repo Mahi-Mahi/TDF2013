@@ -1,1 +1,28 @@
-{"year":1925,"edition":19,"total_length":5440,"nb_legs":18,"has_prologue":false,"nb_concurrents":130,"nb_finishers":49,"pct_finishers":38,"winner_first_name":"Ottavio","winner_last_name":"Bottecchia","winner_id":"ottavio-bottecchia","winner_total_time":"219h 10' 18\"","winner_age":"30","winner_country":"Italie","winner_avg_speed":"24,820","ahead_of_2nd":"0h 54' 20\" ","second_name":"L. Buysse","second_country":"France","second_id":"lucien-buysse","ahead_of_3rd":"0h 56' 17\"","third_name":"B. Aimo","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 1925,
+  "edition": 19,
+  "total_length": 5440,
+  "nb_legs": 18,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 49,
+  "pct_finishers": 38,
+  "winner_first_name": "Ottavio",
+  "winner_last_name": "Bottecchia",
+  "winner_id": "ottavio-bottecchia",
+  "winner_total_time": "219h 10' 18\"",
+  "winner_age": "30",
+  "winner_country": "Italie",
+  "winner_avg_speed": "24,820",
+  "ahead_of_2nd": "0h 54' 20\" ",
+  "second_name": "L. Buysse",
+  "second_country": "France",
+  "second_id": "lucien-buysse",
+  "ahead_of_3rd": "0h 56' 17\"",
+  "third_name": "B. Aimo",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

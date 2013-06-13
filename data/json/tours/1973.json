@@ -1,1 +1,28 @@
-{"year":1973,"edition":60,"total_length":4090,"nb_legs":20,"has_prologue":false,"nb_concurrents":132,"nb_finishers":87,"pct_finishers":66,"winner_first_name":"Luis","winner_last_name":"Ocaña","winner_id":"luis-ocana","winner_total_time":"122h 25' 34\"","winner_age":"28","winner_country":"Espagne","winner_avg_speed":"33,407","ahead_of_2nd":"0h 15' 51\" ","second_name":"B. Thévenet","second_country":"France","second_id":"bernard-thevenet","ahead_of_3rd":"0h 17' 15\"","third_name":"J-M. Fuente","third_country":"Espagne","third_id":null,"legs":[]}
+{
+  "year": 1973,
+  "edition": 60,
+  "total_length": 4090,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 132,
+  "nb_finishers": 87,
+  "pct_finishers": 66,
+  "winner_first_name": "Luis",
+  "winner_last_name": "Ocaña",
+  "winner_id": "luis-ocana",
+  "winner_total_time": "122h 25' 34\"",
+  "winner_age": "28",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "33,407",
+  "ahead_of_2nd": "0h 15' 51\" ",
+  "second_name": "B. Thévenet",
+  "second_country": "France",
+  "second_id": "bernard-thevenet",
+  "ahead_of_3rd": "0h 17' 15\"",
+  "third_name": "J-M. Fuente",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

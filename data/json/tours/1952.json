@@ -1,1 +1,28 @@
-{"year":1952,"edition":39,"total_length":4898,"nb_legs":23,"has_prologue":false,"nb_concurrents":122,"nb_finishers":78,"pct_finishers":64,"winner_first_name":"Fausto","winner_last_name":"Coppi","winner_id":"fausto-coppi","winner_total_time":"151h 57' 20\"","winner_age":"32","winner_country":"Italie","winner_avg_speed":"32,233","ahead_of_2nd":"0h 28' 17\" ","second_name":"S. Ockers","second_country":"Belgique","second_id":null,"ahead_of_3rd":"0h 34' 38\"","third_name":"B. Ruiz","third_country":"Espagne","third_id":null,"legs":[]}
+{
+  "year": 1952,
+  "edition": 39,
+  "total_length": 4898,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 122,
+  "nb_finishers": 78,
+  "pct_finishers": 64,
+  "winner_first_name": "Fausto",
+  "winner_last_name": "Coppi",
+  "winner_id": "fausto-coppi",
+  "winner_total_time": "151h 57' 20\"",
+  "winner_age": "32",
+  "winner_country": "Italie",
+  "winner_avg_speed": "32,233",
+  "ahead_of_2nd": "0h 28' 17\" ",
+  "second_name": "S. Ockers",
+  "second_country": "Belgique",
+  "second_id": null,
+  "ahead_of_3rd": "0h 34' 38\"",
+  "third_name": "B. Ruiz",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

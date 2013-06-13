@@ -1,1 +1,28 @@
-{"year":1979,"edition":66,"total_length":3765,"nb_legs":24,"has_prologue":false,"nb_concurrents":150,"nb_finishers":90,"pct_finishers":60,"winner_first_name":"Bernard","winner_last_name":"Hinault","winner_id":"bernard-hinault","winner_total_time":"103h 06' 50\"","winner_age":"24","winner_country":"France","winner_avg_speed":"36,513","ahead_of_2nd":"0h 06' 50\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 26' 53\"","third_name":"J. Agosthino","third_country":"Portugal","third_id":null,"legs":[]}
+{
+  "year": 1979,
+  "edition": 66,
+  "total_length": 3765,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 150,
+  "nb_finishers": 90,
+  "pct_finishers": 60,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "103h 06' 50\"",
+  "winner_age": "24",
+  "winner_country": "France",
+  "winner_avg_speed": "36,513",
+  "ahead_of_2nd": "0h 06' 50\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 26' 53\"",
+  "third_name": "J. Agosthino",
+  "third_country": "Portugal",
+  "third_id": null,
+  "legs": [
+
+  ]
+}
