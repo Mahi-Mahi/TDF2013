@@ -22,6 +22,7 @@
         this.element = element;
 
         this.map = null;
+        this.minimap = null;
         this.mapBounds = null;
 
         // this.currentPosition = null;
@@ -29,6 +30,8 @@
         this.markerIcon = null;
         this.markerCircleIcon = null;
         this.markerLabelIcon = null;
+        
+        this.markersIcons = [];
         
         this.navigation = null;
 
@@ -85,6 +88,7 @@
      *  
      */
     $.GmapApi.defaults = {
+        minimap: null,
         zoom: 17,
         zoomControl: true,
         zoomControlOpt: {
@@ -124,6 +128,7 @@
         markerCircleIconAnchor: [13, 13],
         markerLabelIconImg: null,
         markerLabelIconSize: [67, 84],
+        markersIcons: [],
         isAnimated: false,
         debugMode: true
     };
@@ -151,8 +156,6 @@
          */
         _init: function(options) {
 
-            var self = this;
-
             this.settings = $.extend(true, {}, $.GmapApi.defaults, options);
 
             this._initGmap();
@@ -178,6 +181,20 @@
                 zoomControlOpt: this.settings.zoomControlOpt,
                 styles: this.settings.styles
             });
+            
+            if(this.settings.minimap != null){
+                this.minimap = new google.maps.Map(document.getElementById(this.settings.minimap),
+                {
+                    mapTypeId: this.settings.mapTypeId,
+                    center: this.settings.center,
+                    zoom: 11,
+                    mapTypeControl: false,
+                    zoomControl: this.settings.zoomControl,
+                    zoomControlOpt: this.settings.zoomControlOpt
+                });
+            }
+            
+            
             
         },
         
@@ -224,7 +241,19 @@
                     anchor: new google.maps.Point(self.settings.markerLabelIconSize[0] / 2, self.settings.markerLabelIconSize[1] - 10)
                 };
             }
-              
+            
+ 
+            $.each(self.settings.markersIcons, function(i, m){
+                var marker = {
+                    url: m.url,
+                    size: new google.maps.Size(m.width, m.height),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(m.anchorX, m.anchorY)
+                }; 
+                
+                self.markersIcons.push(marker);           
+            });
+  
          },
         
         
@@ -355,7 +384,12 @@
                         });
                     }
                 });  
+                
+                self.map.fitBounds(this.mapBounds);
             });
+            
+            
+            
             
             if(this.settings.isAnimated)
                 this.animateLine();
@@ -363,7 +397,7 @@
             
             
             
-            this.map.fitBounds(this.mapBounds);
+            
             
         },
 
@@ -371,14 +405,19 @@
          * CreateMarker
          * 
          */
-        createMarker: function(plat, plng, title){
+        createMarker: function(plat, plng, title, pMarkerIcon){
             var self = this;
+            
+            var markerIcon = pMarkerIcon;  
+            if(markerIcon == undefined)
+                markerIcon = self.markerIcon;
+            
             
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(plat, plng),
                 map: self.map,
                 title: title,
-                icon: self.markerIcon
+                icon: markerIcon
             });
 
             this.markers.push(marker);
@@ -816,33 +855,57 @@
          * Add marker with infoWindow from data
          * 
          */
-        addStreetViewPoint: function(data){
+        addStreetViewPoint: function(data, $container){
             var self = this;
             
             var geocoder = new google.maps.Geocoder();
              
             $.each(data, function(i, streetViewPoint){
                
-                //console.log(i);
                
-//                geocoder.geocode( { 'address': streetViewPoint.name}, function(results, status) {
-//                    if (status == google.maps.GeocoderStatus.OK) {
-//                        
-//                        console.log("streetViewPoint.name " + results[0].geometry.location)
-//                        
-//                       
-//                    } else {
-//                      alert("Geocode was not successful for the following reason: " + status);
-//                    }
-//                });
+                var coords = streetViewPoint.coords;
+                coords = coords.split(",");
                
+                var marker;
+                if(streetViewPoint.type == 'Street View'){
+                    marker = self.createMarker(coords[0],coords[1], streetViewPoint.name, self.markersIcons[0]);
+                }
+                else{
+                    marker = self.createMarker(coords[0],coords[1], streetViewPoint.name, self.markersIcons[1]);
+                }
                
-//               var coords = streetViewPoint.coords;
-//               console.log("coords : " + coords);
-//               coords = coords.split(",");
+                var contentString = '';
                
                
-//               var marker = self.createMarker(coords[0],coords[1], streetViewPoint.name);
+                if(streetViewPoint.type == 'Street View'){
+                    contentString = '<div id="contentInfo">'+
+                    '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
+                        '<div id="bodyContent">'+
+                            '<p>'+ streetViewPoint.excerpt +'</p>'+
+                            '<a href="#" class="displayStreetView" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a>' +
+                        '</div>'+
+                    '</div>';
+                }
+                else{
+                    contentString = '<div id="contentInfo">'+
+                    '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
+                        '<div id="bodyContent">'+
+                            '<p>'+ streetViewPoint.excerpt +'</p>'+
+                            '<a href="#" class="displayHyperlapse" data-lat="'+ coords[0] +'" data-lng="'+ coords[1] +'"  >Voir Hyperlapse</a>' +
+                        '</div>'+
+                    '</div>';
+                }
+               
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+               
+                google.maps.event.addListener(marker, 'click', function() {
+                    console.log("click on maarker");
+                    
+                    infowindow.open(self.map, marker);
+                });
+               
                
 //               for(var j in streetViewPoint){
 //                   console.log(j + ' : ' + streetViewPoint[j]);
@@ -851,81 +914,82 @@
             });
             
             
-            
-            
-            
-            var marker = this.createMarker(45.227656,6.202846, "StreetView");
-            
-            var lat = 45.227656;
-            var lng = 6.202846;
-            var heading = 108.13;
-            var city = "Col de la Croix-de-Fer, Alpes";
-            var desc = "Un col doté d'un panorama extraordinaire.";
-            
-            var contentString = '<div id="contentInfo">'+
-                '<h1 id="firstHeading" class="firstHeading">'+ city +'</h1>'+
-                '<div id="bodyContent">'+
-                '<p>'+ desc +'</p>'+
-                '<a href="#" class="displayStreetView" data-lat="'+ lat +'" data-lng="'+ lng +'" data-heading="'+ heading +'"  >Voir</a>'
-                '</div>'+
-                '</div>';
-            
-            
-            
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-            
-            
-            google.maps.event.addListener(marker, 'click', function() {
-                infowindow.open(self.map, marker);
-            });
-
-            
-            $(document).on('click', '.displayStreetView', function(){
+//            $(document).on('click', '.displayStreetView', function(){
+            $container.on('click', '.displayStreetView', function(e){
+               console.log("click displayStreetView"); 
+                
                var data = $(this).data();           
                self.displayStreetView(data.lat, data.lng, data.heading) 
+               
+               e.preventDefault();
+               
+               return false;
+               
             });
 
 
 
 
 
-            var panoramaOptions = {
-                position: new google.maps.LatLng(0, 0),
-                pov: {
-                  heading: 0,
-                  pitch: 0
-                },
-                visible: false,
-                enableCloseButton: true,
-                panControl: true
-            };
+//            var panoramaOptions = {
+//                position: new google.maps.LatLng(0, 0),
+//                pov: {
+//                  heading: 0,
+//                  pitch: 0
+//                },
+//                visible: false,
+//                enableCloseButton: true,
+//                panControl: true
+//            };
             
+            
+            this.panorama = this.map.getStreetView();
+            this.panorama.setPosition(new google.maps.LatLng(0, 0));
+            this.panorama.setPov({
+              heading: 0,
+              pitch: 0
+            });
+            
+            this.minimap.setStreetView(this.panorama);
+            $("#" + self.settings.minimap).addClass("hide");
+
             
             //TODO: dynamiser "panoramaPreview"
-            this.panorama = new google.maps.StreetViewPanorama(document.getElementById("panoramaPreview" ), panoramaOptions);
-            this.map.setStreetView(this.panorama);
-
-
+//            this.panorama = new google.maps.StreetViewPanorama(document.getElementById(this.element.id), panoramaOptions);
+//            this.map.setStreetView(this.panorama);
+//
+//
             google.maps.event.addListener(self.panorama, "visible_changed", function() {
-                if (self.panorama.getVisible() && $("#panoramaPreview").is(':visible')){
+                if (self.panorama.getVisible() && $("#" + self.settings.minimap).is(':visible')){
                     //moving the pegman around the map
-                }else if(self.panorama.getVisible() && $("#panoramaPreview").is(':hidden')){
-                    $("#panoramaPreview").show();
-                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
+                }else if(self.panorama.getVisible() && $("#" + self.settings.minimap).is(':hidden')){
+                    
+                    console.log("affiche minimap");
+                    
+                    $("#" + self.settings.minimap).removeClass("hide");
                     
                     
-                    self.map.setOptions({disableDefaultUI: true});
-                    self.map.setCenter(self.panorama.getPosition());
+                    self.minimap.setCenter(self.panorama.getPosition());
+                    
+//                    $("#panoramaPreview").show();
+//                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
+                    
+                    
+//                    self.map.setOptions({disableDefaultUI: true});
+//                    self.map.setCenter(self.panorama.getPosition());
                     
                 }
                 google.maps.event.addListener(self.panorama, "closeclick", function() {
-                    $("#panoramaPreview").hide();  
-                    $("#mapPreview").removeClass('minimap').addClass('bigmap'); ;
-                     
+                    $("#" + self.settings.minimap).addClass("hide");
                     
-                    self.map.setOptions({disableDefaultUI: false});
+                    
+                    console.log("cache minimap");
+                    
+//                    $("#panoramaPreview").hide();  
+//                    $("#mapPreview").removeClass('minimap').addClass('bigmap'); 
+//                     
+//                    
+//                    self.map.setOptions({disableDefaultUI: false});
                 });
             });  
 
@@ -938,14 +1002,21 @@
          */
         displayStreetView: function(lat, lng, heading){
             this.panorama = this.map.getStreetView();
-                      
-            this.panorama.setPosition(new google.maps.LatLng(lat, lng));
+            
+            var center = new google.maps.LatLng(lat, lng);
+            
+            this.panorama.setPosition(center);
             this.panorama.setPov(({
                 heading: heading,
                 pitch: 0
             }));
             
-            this.toggleStreetView(); 
+            this.panorama.setVisible(true);
+            
+            
+            this.minimap.setCenter(center);
+            
+            //this.toggleStreetView(); 
         },
         
         
@@ -955,6 +1026,8 @@
          */
         toggleStreetView: function () {
             var toggle = this.panorama.getVisible();
+            
+            console.log("toggle : " + toggle);
             
             this.panorama.setVisible(!toggle);
         },

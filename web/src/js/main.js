@@ -1506,7 +1506,7 @@ TDF.StreetView = (function() {
         my.gmapApi = null;
 
 	my.init = function() {
-
+            
 	};
         
         
@@ -1521,6 +1521,7 @@ TDF.StreetView = (function() {
 		var map = $inner.find("#" + mapId);
 
 		var mapOptions = {
+                        minimap: "minimap",
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			zoom: zoom,
@@ -1529,7 +1530,10 @@ TDF.StreetView = (function() {
 				style: 'SMALL',
 				position: 'TOP_LEFT'
 			},
-                        markerIconImg: "/img/lieux/pin-photo.png",
+                        markersIcons: [
+                            {url: "/img/lieux/pin-photo.png", width:23, height:32, anchorX:11, anchorY:32},
+                            {url: "/img/lieux/pin-hyperlapse.png", width:31, height:32, anchorX:5, anchorY:32}
+                        ],
 			styles: mapStyleTrace
 		};
 
@@ -1538,7 +1542,7 @@ TDF.StreetView = (function() {
                 
                 
                 
-                my.gmapApi.addStreetViewPoint(TDF.Data.places);
+                my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
 
 	my.render = function(args) {
