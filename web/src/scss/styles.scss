@@ -7,25 +7,11 @@ body {
 }
 
 button:focus, input:focus, textarea:focus { outline:none; }
-
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-
-a {
-	text-decoration:none;
-}
-
-img {
-	border: 0;
-}
-
-.left {
-	float:left;
-}
-
-.right {
-	float:right;
-}
-
+a { outline: 0; text-decoration:none;}
+img { border: 0; }
+.left { float:left; }
+.right { float:right; }
 .unstyled { list-style-type:none; margin:0; padding:0; }
 .clearfix { zoom:1; }
 .clearfix:before, .clearfix:after { content:""; display:table; }
@@ -58,7 +44,6 @@ img {
 	height:422px;
 }
 
-// .content .map-container #gmap-traces {
 .content .map-container-full{
     display:block;
     width: 100%;

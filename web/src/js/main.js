@@ -1064,6 +1064,7 @@ TDF.Winners = (function() {
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
+						console.log(tour.position);
 						switch (tour.position) {
 							default: pos_title = tour.position;
 							bulle = tour.position + 'ème en ' + year;
@@ -1071,9 +1072,12 @@ TDF.Winners = (function() {
 							// pos_title = 'A';
 							// break;
 							case 'Abandon':
+							case 'Déclasse':
 							case 'Déclassé':
+							case 'Disqualifie':
 							case 'Disqualifié':
 							case 'Elimination':
+							case 'Elimine':
 							case 'Eliminé':
 							case 'Forfait':
 								tour.position = 'Elimine';
@@ -1082,6 +1086,7 @@ TDF.Winners = (function() {
 								break;
 						}
 					}
+					console.log("winner_tours.push(");
 					winner_tours.push(
 						$template.html()
 						.replace(/:pos_title/g, pos_title)
@@ -1542,7 +1547,7 @@ TDF.Fight = (function() {
 		this.fillResults($results.find('.fighter_two'), TDF.Data.fighters[my.args.fighter_two]);
 
 		jQuery(['nb_leg_wins', 'pct_leading', 'average_speed', 'ahead_of_2nd', 'nb_wins']).each(function(i, step) {
-			var res = $results.find('.fighter .' + step);
+			var res = $results.find('.result_fighter .' + step);
 			var a = parseFloat(jQuery(res[0]).data('score'));
 			var b = parseFloat(jQuery(res[1]).data('score'));
 			if (a > b) {
@@ -1596,14 +1601,14 @@ TDF.StreetView = (function() {
 
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
-        
+
         my.gmapApi = null;
 
 	my.init = function() {
-            
+
 	};
-        
-        
+
+
         my.initializeGmap = function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
@@ -1633,9 +1638,9 @@ TDF.StreetView = (function() {
 
 
 		my.gmapApi = map.gmapApi(mapOptions);
-                
-                
-                
+
+
+
                 my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
 
@@ -1672,7 +1677,7 @@ TDF.StreetView = (function() {
 				left: '0px'
 			}, duration);
 		}
-                
+
                 this.initializeGmap();
 
 	};
