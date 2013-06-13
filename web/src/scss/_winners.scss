@@ -458,6 +458,22 @@
 	width:155px;
 }
 
+#winner_search::-webkit-input-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search:-moz-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search::-moz-placeholder {
+   color: #c3a66f;
+}
+
+#winner_search:-ms-input-placeholder {
+   color: #c3a66f;
+}
+
 .winner-pic {
 	display:block;
 	margin:10px auto 0 auto;
