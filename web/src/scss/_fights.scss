@@ -51,12 +51,6 @@
 	height:202px;
 }
 
-// .step-results .fighter {
-// 	position:static;
-// 	width:auto;
-// 	height:auto;
-// }
-
 .fight-results .winner {
 	display:none;
 }
@@ -576,14 +570,16 @@
 	position:absolute;
 	z-index:5;
 	display:none;
+	width:100%;
 }
 
 .selector-inner {
 	background:#D9D9D4;
 	border-radius:4px 4px 0 0;
 	display:block;
-	margin:20px 0 0 40px;
+	margin:20px auto;
 	padding:20px 0 0 0;
+	width:905px;
 }
 
 .winner-block {
@@ -601,7 +597,7 @@
 }
 
 .winner-block .winners_list > ul {
-	padding:10px 50px;
+	padding:10px 35px;
 }
 
 .random {
@@ -710,4 +706,9 @@
 
 .results .fighter_two .portrait {
 	float:left;
+}
+
+.selector .close {
+	top:2em;
+	right:4em;
 }

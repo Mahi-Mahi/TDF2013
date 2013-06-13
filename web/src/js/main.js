@@ -740,16 +740,19 @@ TDF.Traces = (function() {
 		// display the infos
 		if (my.args.years.length === 1) {
 			$main.find('#traces-years').attr('class', 'single').html(my.args.years.join(','));
+			jQuery('.traces-left-stats').find('small').css('display','none');
 		}
 		if (my.args.years.length === 2) {
 			$main.find('#traces-years').attr('class', 'double').html(my.args.years.map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
+			jQuery('.traces-left-stats').find('small').css('display','block');
 		}
 		if (my.args.years.length > 2) {
 			$main.find('#traces-years').attr('class', 'triple').html('<em>' + my.args.years.length + ' tours entre </em>' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
+			jQuery('.traces-left-stats').find('small').css('display','block');
 		}
 
 		// Stats
