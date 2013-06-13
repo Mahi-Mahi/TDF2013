@@ -591,7 +591,6 @@ TDF.Traces = (function() {
 	};
 
 	my.initializeGmap = function() {
-		console.log("my.initializeGmap");
 		//Config Gmap
 		var mapId = 'gmap-traces';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -612,8 +611,8 @@ TDF.Traces = (function() {
 				style: 'SMALL',
 				position: 'TOP_LEFT'
 			},
-			markerIconImg: '/img/traces/point-simple-ombre.png',
-			markerCircleIconImg: '/img/traces/point-boucle-ombre.png',
+			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
+			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
 			styles: mapStyleTrace
 		};
 

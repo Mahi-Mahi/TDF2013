@@ -323,9 +323,12 @@
             this.clearMap();
             
             this.mapBounds = new google.maps.LatLngBounds();
+            
+            var repositionne = false;
 
             $.each(years, function(key, year) {
 
+                repositionne = true;
                 
                 if(self.tours[year] != undefined){
                     self.displayEtape(self.tours[year]);
@@ -385,7 +388,7 @@
                     }
                 });  
                 
-                self.map.fitBounds(this.mapBounds);
+
             });
             
             
@@ -395,6 +398,9 @@
                 this.animateLine();
             
             
+            
+            if(repositionne)
+                self.map.fitBounds(this.mapBounds);
             
             
             
@@ -533,7 +539,7 @@
 
             var line = new google.maps.Polyline({
                 strokeWeight: 2,
-                strokeColor: '#333333',
+                strokeColor: '#eb7516',
                 path: lineCoordinates,
                 map: self.map,
                 icons: [{
