@@ -139,6 +139,54 @@ var TDF = (function() {
 		});
 
 		// Winners
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/:filter4/:val4/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			filters[this.params['filter3']] = this.params['val3'];
+			filters[this.params['filter4']] = this.params['val4'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			filters[this.params['filter3']] = this.params['val3'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
+		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/(:winner_id/)").to(function() {
+			var filters = {};
+			filters[this.params['filter1']] = this.params['val1'];
+			filters[this.params['filter2']] = this.params['val2'];
+			if (this.params['winner_id'] === undefined) {
+				TDF.render('winners', {
+					filters: filters
+				});
+			} else {
+				TDF.render('winners', {
+					filters: filters,
+					winner_id: this.params['winner_id']
+				});
+			}
+		});
 		Path.map("/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
@@ -598,8 +646,7 @@ TDF.Traces = (function() {
 			if ($main.find("#multi-select:checked").length) {
 				if (jQuery(this).prev('input').prop('checked')) {
 					jQuery(this).prev('input').prop('checked', false);
-				}
-				else {
+				} else {
 					jQuery(this).prev('input').prop('checked', true);
 					my.last_clicked = jQuery(this).prev('input.checkbox').val();
 				}
@@ -844,7 +891,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-		if ( my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013 ) {
+		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
@@ -976,6 +1023,8 @@ TDF.Winners = (function() {
 	my.render = function(args) {
 		my.args = args;
 
+
+
 		var winner_id, winner, winners_list = [],
 			content;
 
@@ -1027,17 +1076,26 @@ TDF.Winners = (function() {
 				maintainPosition: false
 			});
 
+			var filters = {};
+
+			if (my.args.filters.age_victoire) {
+				filters.age = my.args.filters.age_victoire.split(/,/);
+			} else {
+				filters.age = [youngest_win, oldest_win];
+			}
 			$main.find(".filters .age .slider").slider({
 				min: youngest_win,
 				max: oldest_win,
 				range: true,
 				step: 1,
-				values: [youngest_win, oldest_win],
-				slide: function() {
+				values: filters.age,
+				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
-					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+				},
+				slide: function(event, ui) {
+					Path.history.pushState({}, "", my.getQueryString());
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
@@ -1046,17 +1104,25 @@ TDF.Winners = (function() {
 				}
 			});
 
+			if (my.args.filters.nb_victoires) {
+				filters.wins = my.args.filters.nb_victoires.split(/,/);
+			} else {
+				filters.wins = [1, max_wins];
+			}
+
 			$main.find(".filters .nb_wins .slider").slider({
 				min: 1,
 				max: max_wins,
 				range: true,
 				step: 1,
-				values: [1, max_wins],
-				slide: function() {
+				values: filters.wins,
+				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
-					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+				},
+				slide: function(event, ui) {
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
+					Path.history.pushState({}, "", my.getQueryString());
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
@@ -1206,7 +1272,7 @@ TDF.Winners = (function() {
 
 		if (my.args.filters.age_victoire) {
 			var win_ages, filter_age = my.args.filters.age_victoire.split(/,/);
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				win_ages = jQuery(this).data('win-ages').toString().split(/,/);
 				jQuery(this).data('show', (win_ages.min() <= filter_age[1] && win_ages.max() >= filter_age[0]));
 			});
@@ -1214,14 +1280,14 @@ TDF.Winners = (function() {
 
 		if (my.args.filters.nb_victoires) {
 			var nb_wins, filter_nb_wins = my.args.filters.nb_victoires.split(/,/);
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				nb_wins = jQuery(this).data('nb-wins').toString().split(/,/);
 				jQuery(this).data('show', (nb_wins.min() <= filter_nb_wins[1] && nb_wins.max() >= filter_nb_wins[0]));
 			});
 		}
 
 		if (my.args.filters.recherche) {
-			$main.find('.winners_list .winner').each(function() {
+			$main.find('.winners_list .winner:data(show)').each(function() {
 				var re = new RegExp(my.args.filters.recherche, 'i');
 				jQuery(this).data('show', jQuery(this).find('.name').text().match(re) !== null);
 			});
