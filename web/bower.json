@@ -12,6 +12,7 @@
     "jquery-selectbox": "git://github.com/olivM/jQuery-Selectbox.git",
     "jquery-textfill": "git://github.com/olivM/jQuery-TextFill.git",
     "jquery-tabify": "git://github.com/olivM/jQuery-Tabify.git",
+    "jquery-ui-touchpunch": "git://github.com/olivM/jQuery-UI-TouchPunch.git",
     "modernizr": "git://github.com/Modernizr/Modernizr.git"
   },
   "ignore": [
