@@ -89,9 +89,16 @@ var TDF = (function() {
 				TDF.render('traces');
 			} else {
 				if (this.params['city_id'] === undefined) {
-					TDF.render('traces', {
-						years: this.params['years']
-					});
+					if (this.params['years'].match(/^[\d\,]+$/)) {
+						TDF.render('traces', {
+							years: this.params['years']
+						});
+
+					} else {
+						TDF.render('traces', {
+							city: this.params['years']
+						});
+					}
 				} else {
 					TDF.render('traces', {
 						years: this.params['years'],
@@ -726,13 +733,27 @@ TDF.Traces = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 	};
 
+	my.getCityTraces = function(city) {
+		var years = [];
+		city = city.toLowerCase();
+		jQuery(TDF.Data.legs).each(function(idx, leg) {
+			if (leg.start.city.toLowerCase() === city || leg.finish.city.toLowerCase() === city) {
+				years.push(leg.year);
+			}
+		});
+		return years.getUnique().sort();
+	};
 
 	my.render = function(args) {
 
 		my.args = args;
 
 		if (my.args.years === undefined) {
-			my.args.years = [2013];
+			if (my.args.city === undefined) {
+				my.args.years = [2013];
+			} else {
+				my.args.years = my.getCityTraces(my.args.city);
+			}
 		} else {
 			my.args.years = my.args.years.split(/,/);
 		}
@@ -788,13 +809,14 @@ TDF.Traces = (function() {
 			$squares.append(squares);
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
+			var slider_default = 100; // (my.args.years.min() - 1903) / 110 * 100;
 			$main.find(".timeline .slider").slider({
-				value: (my.args.years.min() - 1903) / 110 * 100,
+				value: slider_default,
 				slide: function(event, ui) {
 					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * ui.value / 100));
 				},
-				create: function(event, ui) {
-					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * ui.value / 100));
+				create: function() {
+					$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * slider_default / 100));
 				}
 			});
 
@@ -808,6 +830,10 @@ TDF.Traces = (function() {
 			}
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
+
+			if (my.args.city !== undefined) {
+				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+			}
 
 			this.initializeGmap();
 
