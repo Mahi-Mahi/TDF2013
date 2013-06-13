@@ -1218,7 +1218,7 @@ TDF.Winners = (function() {
 			var i;
 
 			for (i = 0; i < Math.floor((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"></li>');
+				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
 			}
 
 			for (year = years.min(); year <= years.max(); year++) {
@@ -1268,7 +1268,7 @@ TDF.Winners = (function() {
 			}
 
 			for (i = 0; i < Math.ceil((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"></li>');
+				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
