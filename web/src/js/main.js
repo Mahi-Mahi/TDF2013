@@ -862,9 +862,6 @@ TDF.Winners = (function() {
 			}
 		}
 
-		console.log($main.find('#winner_search'));
-		console.log($main.find('#winner_search').val());
-		console.log($main.find('#winner_search').val().length);
 		if ($main.find('#winner_search').val().length) {
 			query_string = query_string + 'recherche/' + $main.find('#winner_search').val() + '/';
 		}
@@ -887,7 +884,6 @@ TDF.Winners = (function() {
 			query_string = query_string + my.args.winner_id + '/';
 		}
 
-		console.log(query_string);
 		return query_string;
 	};
 
