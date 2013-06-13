@@ -26,7 +26,7 @@
 	z-index: 11;
 }
 
-.step-results .fighter_one, .step-results .fighter_two {
+.step-results .results .fighter_one, .step-results .results .fighter_two {
 	background:none;
 	bottom:auto;
 	left:auto;
@@ -51,11 +51,11 @@
 	height:202px;
 }
 
-.step-results .fighter {
-	position:static;
-	width:auto;
-	height:auto;
-}
+// .step-results .fighter {
+// 	position:static;
+// 	width:auto;
+// 	height:auto;
+// }
 
 .fight-results .winner {
 	display:none;
@@ -340,7 +340,7 @@
     margin-left: -35px;
     bottom: -10px;
   }
- 
+
 .fighter-arrow:after {
 	background:#e3e7ea;
     content: "";
@@ -562,7 +562,7 @@
 	background: url(/img/duels/plans/duels_plan3_e0_2.png) 0 45px no-repeat;
 	height: 222px;
 	left: 20px;
-	top: 92px;	
+	top: 92px;
 }
 
 .sky {

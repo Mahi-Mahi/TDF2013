@@ -1536,7 +1536,7 @@ TDF.Fight = (function() {
 		this.fillResults($results.find('.fighter_two'), TDF.Data.fighters[my.args.fighter_two]);
 
 		jQuery(['nb_leg_wins', 'pct_leading', 'average_speed', 'ahead_of_2nd', 'nb_wins']).each(function(i, step) {
-			var res = $results.find('.fighter .' + step);
+			var res = $results.find('.result_fighter .' + step);
 			var a = parseFloat(jQuery(res[0]).data('score'));
 			var b = parseFloat(jQuery(res[1]).data('score'));
 			if (a > b) {
