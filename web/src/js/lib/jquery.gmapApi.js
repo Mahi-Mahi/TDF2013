@@ -41,6 +41,8 @@
 
 
         this.tours = new Object();
+        
+        this.years = [];
 
         this.markers = [];
         this.circles = [];
@@ -319,21 +321,26 @@
          */
         createEtapes: function(years, tours){
             var self = this;
+            
+            this.years = years;
 
             this.clearMap();
             
             this.mapBounds = new google.maps.LatLngBounds();
             
             var repositionne = false;
+            
+            var multiple = (years.length > 1)? true : false;
 
             $.each(years, function(key, year) {
 
                 repositionne = true;
                 
-                if(self.tours[year] != undefined){
-                    self.displayEtape(self.tours[year]);
-                    return true; //like break, for $.each
-                }
+                
+//                if(self.tours[year] != undefined){
+//                    self.displayEtape(self.tours[year]);
+//                    return true; //like break, for $.each
+//                }
                 
                 self.tours[year] = new Object();
                 self.tours[year]['markers'] = [];
@@ -343,44 +350,59 @@
 
                 
 
-                $.each(tours, function(key2, tour) {
+                $.each(tours, function(i, tour) {
 
                     if(year == tour.year){
                         
                         var previousEtape;
 
-                        $.each(tour.legs, function(key2, etape) {
+                        self.tours[year]['year'] = year;
+
+                        $.each(tour.legs, function(j, etape) {
 
                             if(etape.start.city == etape.finish.city){
 
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
-                                var circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
+                                var circle;
+                                
+                                if(multiple)
+                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
+                                else
+                                    circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
+                                
                                 self.tours[year]['circles'].push(circle);
                                 self.mapBounds.extend(circle.getPosition());
                             }
                             else{
                                 var marker;
-                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city);
+                                var markerIcon = (multiple)? self.markersIcons[2] : self.markersIcons[0]; 
+                                
+                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
-                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city);
+                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 
                                 var line;
-                                line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true);
+                                var weight = (multiple)? 1 : 2;
+                                line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true, weight);
                                 self.tours[year]['lines'].push(line);           
                             }
 
-                            if(previousEtape != undefined){
-                                if(etape.start.city != previousEtape.finish.city){
-                                    var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
-                                    self.tours[year]['dashedlines'].push(dashedline);
+                            if(!multiple){
+                                if(previousEtape != undefined){
+                                    if(etape.start.city != previousEtape.finish.city){
 
+
+                                        var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
+                                        self.tours[year]['dashedlines'].push(dashedline);
+
+                                    }
                                 }
-                            }                
+                            }
 
                             previousEtape = etape;
 
@@ -406,6 +428,79 @@
             
             
         },
+        
+        changeOpacity: function(year){
+            var self = this;
+            
+            if(self.years.length < 2)
+                return;
+            
+            
+            if($.inArray(year, self.years) == -1)
+                return;
+            
+            
+            $.each(self.tours, function(i, tour){
+                
+                if(tour['year'] != year){
+                    
+                    for(var i = 0; i < tour['markers'].length; i++){
+                        var marker = tour['markers'][i];
+                        marker.setIcon(self.markersIcons[3]);
+                    }
+
+                    for(var i = 0; i < tour['circles'].length; i++){
+                        var circle = tour['circles'][i];
+                        circle.setIcon(self.markersIcons[3]);
+                    }
+                    
+                    for(var i = 0; i < tour['lines'].length; i++){
+                        var line = tour['lines'][i];
+                        
+                        line.setOptions({strokeOpacity: 0.2})
+                    }
+                    
+                    
+                }
+            });
+            
+            
+        },
+        
+        changeOpacityBack: function(year){
+            var self = this;
+            
+//            if(self.years.length < 2)
+//                return;
+            
+            if($.inArray(year, self.years) == -1)
+                return;
+            
+            $.each(self.tours, function(i, tour){
+                
+                    for(var i = 0; i < tour['markers'].length; i++){
+                        var marker = tour['markers'][i];
+                        marker.setIcon(self.markersIcons[2]);
+                    }
+
+                    for(var i = 0; i < tour['circles'].length; i++){
+                        var circle = tour['circles'][i];
+                        circle.setIcon(self.markersIcons[2]);
+                    }
+                
+          
+                    for(var i = 0; i < tour['lines'].length; i++){
+                        var line = tour['lines'][i];
+                        
+                        line.setOptions({strokeOpacity: 1})
+                    }
+                    
+                    
+                
+            });
+        },
+        
+        
 
         /**
          * CreateMarker
@@ -520,16 +615,19 @@
          * CreateLine
          * 
          */
-        createLine: function(slat, slng, flat, flng, isOriented){
+        createLine: function(slat, slng, flat, flng, isOriented, weight){
             var self = this;
             
             var lineSymbol = null;
-            
             if(isOriented){
                 lineSymbol = {
                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
                 };
             }
+            
+            if(weight == undefined)
+                weight = 2;
+            
             
             var lineCoordinates = [
                 new google.maps.LatLng(slat, slng),
@@ -538,7 +636,7 @@
 
 
             var line = new google.maps.Polyline({
-                strokeWeight: 2,
+                strokeWeight: weight,
                 strokeColor: '#eb7516',
                 path: lineCoordinates,
                 map: self.map,

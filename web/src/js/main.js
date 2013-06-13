@@ -553,13 +553,18 @@ TDF.Traces = (function() {
 
 		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
 			// GTAB : mouseover year
-			// var year = jQuery(this).text();
+                        var year = jQuery(this).text();
+                        
+                        my.gmapApi.changeOpacity(year);
+                        
 		});
 
 		// mouseleave
 		$main.on('mouseleave', '.traces .timeline-zoom label', function() {
 			// GTAB : mouseover year
-			// var year = jQuery(this).text();
+                        var year = jQuery(this).text();
+                         
+                        my.gmapApi.changeOpacityBack(year);
 		});
 
 	};
@@ -585,6 +590,12 @@ TDF.Traces = (function() {
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
+                        markersIcons: [
+                            {url: "/img/traces/solo-pointeur-ombre.png", width:21, height:21, anchorX:21/2, anchorY:21/2},
+                            {url: "/img/traces/solo-pointeur-boucle-ombre.png", width:21, height:25, anchorX:21/2, anchorY:21/2},
+                            {url: "/img/traces/multi-pointeur.png", width:7, height:7, anchorX:7/2, anchorY:7/2},
+                            {url: "/img/traces/multi-pointeur-opacity.png", width:7, height:7, anchorX:7/2, anchorY:7/2}
+                        ],
 			styles: mapStyleTrace
 		};
 
