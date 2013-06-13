@@ -374,16 +374,16 @@ TDF.Home = (function() {
 
 		if (jQuery('#search').length) {
 
-                        jQuery( "#search" ).autocomplete({
-                            minLength: 0,
-                            source: TDF.Data.cities,
-                            messages: {
-                                noResults: '',
-                                results: function() {}
-                            }
-                        });
+			jQuery("#search").autocomplete({
+				minLength: 0,
+				source: TDF.Data.cities,
+				messages: {
+					noResults: '',
+					results: function() {}
+				}
+			});
 
-                    /*
+			/*
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
 			input.className = '';
@@ -505,97 +505,93 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-                function geocoding(){
-                    var address = searchInput.val();
+		function geocoding() {
+			var address = searchInput.val();
 
-                    geocoder.geocode( { 'address': address}, function(results, status) {
-                        if (status === google.maps.GeocoderStatus.OK) {
-                            my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
-                        }
-                        else {
-                            console.log('Geocode was not successful for the following reason: ' + status);
-                        }
-                    });
+			geocoder.geocode({
+				'address': address
+			}, function(results, status) {
+				if (status === google.maps.GeocoderStatus.OK) {
+					my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
+				} else {
+					console.log('Geocode was not successful for the following reason: ' + status);
+				}
+			});
 
-                }
-
-
-                var searchInput = jQuery('#search');
-                var form = jQuery('#city_search');
-                var geocoder = new google.maps.Geocoder();
+		}
 
 
-                if(searchInput.val().length > 0){
-                    geocoding();
-                }
+		var searchInput = jQuery('#search');
+		var form = jQuery('#city_search');
+		var geocoder = new google.maps.Geocoder();
 
 
-                searchInput.autocomplete({
-                    minLength: 0,
-                    source: TDF.Data.cities,
-                    messages: {
-                        noResults: '',
-                        results: function() {}
-                    }
-                });
+		if (searchInput.val().length > 0) {
+			geocoding();
+		}
 
 
-
-                form.submit(function() {
-
-                    geocoding();
-
-                    return false;
-                });
-
-
-                searchInput.bind('keydown', function(e) {
-                    if (e.keyCode === 13) {
-
-                    }
-                    else {
-
-                    }
-                });
+		searchInput.autocomplete({
+			minLength: 0,
+			source: TDF.Data.cities,
+			messages: {
+				noResults: '',
+				results: function() {}
+			}
+		});
 
 
 
+		form.submit(function() {
+
+			geocoding();
+
+			return false;
+		});
+
+
+		searchInput.bind('keydown', function(e) {
+			if (e.keyCode === 13) {
+
+			} else {
+
+			}
+		});
 
 
 
-
-//		if (jQuery('#search').length) {
-//			var input = document.getElementById('search');
-//			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-//			input.className = '';
-//
-//
-//			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
-//
-//				var place = gMapAutocomplete.getPlace();
-//
-//				if (!place.geometry) {
-//					input.className = 'notfound';
-//					return;
-//				}
-//
-//				// If the place has a geometry, then present it on a map.
-//				if (place.geometry.viewport) {
-//
-//					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
-//				} else {
-//					my.gmapApi.getMap().setCenter(place.geometry.location);
-//					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
-//				}
-//
-//
-//
-//
-//			});
-//
-//
-//
-//		}
+		//		if (jQuery('#search').length) {
+		//			var input = document.getElementById('search');
+		//			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
+		//			input.className = '';
+		//
+		//
+		//			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
+		//
+		//				var place = gMapAutocomplete.getPlace();
+		//
+		//				if (!place.geometry) {
+		//					input.className = 'notfound';
+		//					return;
+		//				}
+		//
+		//				// If the place has a geometry, then present it on a map.
+		//				if (place.geometry.viewport) {
+		//
+		//					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
+		//				} else {
+		//					my.gmapApi.getMap().setCenter(place.geometry.location);
+		//					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
+		//				}
+		//
+		//
+		//
+		//
+		//			});
+		//
+		//
+		//
+		//		}
 	};
 
 	return my;
@@ -977,6 +973,21 @@ TDF.Winners = (function() {
 			Path.history.pushState({}, "", my.getQueryString());
 		});
 
+		var tmp = [];
+		for (var i in TDF.Data.winners) {
+			tmp.push(TDF.Data.winners[i]);
+		}
+		my.sorted_winners = tmp.sort(function(a, b) {
+			if (a.wins.max() < b.wins.max()) {
+				return 1;
+			}
+			if (a.wins.max() > b.wins.max()) {
+				return -1;
+			}
+			return 0;
+		});
+		console.log(my.sorted_winners);
+
 	};
 
 	my.getQueryString = function() {
@@ -1027,9 +1038,7 @@ TDF.Winners = (function() {
 	my.render = function(args) {
 		my.args = args;
 
-
-
-		var winner_id, winner, winners_list = [],
+		var winners_list = [],
 			content;
 
 		var youngest_win = null,
@@ -1040,11 +1049,10 @@ TDF.Winners = (function() {
 		if (TDF.loadTemplate(this)) {
 
 			var $template = jQuery('#template-winner');
-			for (winner_id in TDF.Data.winners) {
-				winner = TDF.Data.winners[winner_id];
+			jQuery(my.sorted_winners).each(function(idx, winner) {
 				content = $template.html()
-					.replace(':winner_url', '/vainqueurs/' + winner_id + '/')
-					.replace(/:winner_id/g, winner_id)
+					.replace(':winner_url', '/vainqueurs/' + winner.id + '/')
+					.replace(/:winner_id/g, winner.id)
 					.replace(':nb_wins', winner.wins.length)
 					.replace(':portrait_url', '/img/vainqueurs/portraits/' + winner.id + '_small.png')
 					.replace(':win_ages', winner.wins_age.join(','))
@@ -1072,7 +1080,7 @@ TDF.Winners = (function() {
 					countries.push(winner.country);
 				}
 
-			}
+			});
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
 			$main.find('.winners_list').jScrollPane({
@@ -1903,14 +1911,14 @@ TDF.Data = (function() {
 							console.log(textStatus);
 							my.places = json;
 
-                                                        //Cities
-                                                        jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
-                                                                console.log(textStatus);
-                                                                my.cities = json;
+							//Cities
+							jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
+								console.log(textStatus);
+								my.cities = json;
 
-                                                                callback();
+								callback();
 
-                                                        });
+							});
 
 						});
 
