@@ -1,1 +1,28 @@
-{"year":1976,"edition":63,"total_length":4017,"nb_legs":22,"has_prologue":false,"nb_concurrents":130,"nb_finishers":87,"pct_finishers":67,"winner_first_name":"Lucien","winner_last_name":"Van Impe","winner_id":"lucien-van-impe","winner_total_time":"116h 22' 23\"","winner_age":"29","winner_country":"Belgique","winner_avg_speed":"34,518","ahead_of_2nd":"0h 04' 14\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 12' 08\"","third_name":"R. Poulidor","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1976,
+  "edition": 63,
+  "total_length": 4017,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 87,
+  "pct_finishers": 67,
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Van Impe",
+  "winner_id": "lucien-van-impe",
+  "winner_total_time": "116h 22' 23\"",
+  "winner_age": "29",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "34,518",
+  "ahead_of_2nd": "0h 04' 14\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 12' 08\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

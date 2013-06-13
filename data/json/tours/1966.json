@@ -1,1 +1,28 @@
-{"year":1966,"edition":53,"total_length":4329,"nb_legs":22,"has_prologue":false,"nb_concurrents":130,"nb_finishers":82,"pct_finishers":63,"winner_first_name":"Lucien","winner_last_name":"Aimar","winner_id":"lucien-aimar","winner_total_time":"117h 34' 21\"","winner_age":"25","winner_country":"France","winner_avg_speed":"36,760","ahead_of_2nd":"0h 01' 07\" ","second_name":"J. Janssen","second_country":"Pays-Bas","second_id":"jan-janssen","ahead_of_3rd":"0h 02' 02\"","third_name":"R. Poulidor","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1966,
+  "edition": 53,
+  "total_length": 4329,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 82,
+  "pct_finishers": 63,
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Aimar",
+  "winner_id": "lucien-aimar",
+  "winner_total_time": "117h 34' 21\"",
+  "winner_age": "25",
+  "winner_country": "France",
+  "winner_avg_speed": "36,760",
+  "ahead_of_2nd": "0h 01' 07\" ",
+  "second_name": "J. Janssen",
+  "second_country": "Pays-Bas",
+  "second_id": "jan-janssen",
+  "ahead_of_3rd": "0h 02' 02\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

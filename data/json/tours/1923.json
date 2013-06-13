@@ -1,1 +1,28 @@
-{"year":1923,"edition":17,"total_length":5386,"nb_legs":15,"has_prologue":false,"nb_concurrents":139,"nb_finishers":48,"pct_finishers":35,"winner_first_name":"Henri","winner_last_name":"Pélissier","winner_id":"henri-pelissier","winner_total_time":"222h 15' 30\"","winner_age":"34","winner_country":"France","winner_avg_speed":"24,233","ahead_of_2nd":"0h 30' 41\" ","second_name":"O. Bottecchia","second_country":"Italie","second_id":"ottavio-bottecchia","ahead_of_3rd":"1h 04' 43\"","third_name":"R. Bellenger","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1923,
+  "edition": 17,
+  "total_length": 5386,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 139,
+  "nb_finishers": 48,
+  "pct_finishers": 35,
+  "winner_first_name": "Henri",
+  "winner_last_name": "Pélissier",
+  "winner_id": "henri-pelissier",
+  "winner_total_time": "222h 15' 30\"",
+  "winner_age": "34",
+  "winner_country": "France",
+  "winner_avg_speed": "24,233",
+  "ahead_of_2nd": "0h 30' 41\" ",
+  "second_name": "O. Bottecchia",
+  "second_country": "Italie",
+  "second_id": "ottavio-bottecchia",
+  "ahead_of_3rd": "1h 04' 43\"",
+  "third_name": "R. Bellenger",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

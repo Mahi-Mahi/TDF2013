@@ -1,1 +1,28 @@
-{"year":1975,"edition":62,"total_length":4000,"nb_legs":22,"has_prologue":false,"nb_concurrents":140,"nb_finishers":86,"pct_finishers":61,"winner_first_name":"Bernard","winner_last_name":"Thévenet","winner_id":"bernard-thevenet","winner_total_time":"114h 35' 31\"","winner_age":"27","winner_country":"France","winner_avg_speed":"34,906","ahead_of_2nd":"0h 02' 47\" ","second_name":"E. Merckx","second_country":"Belgique","second_id":"eddy-merckx","ahead_of_3rd":"0h 05' 01\"","third_name":"L. Van Impe","third_country":"Belgique","third_id":"lucien-van-impe","legs":[]}
+{
+  "year": 1975,
+  "edition": 62,
+  "total_length": 4000,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 140,
+  "nb_finishers": 86,
+  "pct_finishers": 61,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Thévenet",
+  "winner_id": "bernard-thevenet",
+  "winner_total_time": "114h 35' 31\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "34,906",
+  "ahead_of_2nd": "0h 02' 47\" ",
+  "second_name": "E. Merckx",
+  "second_country": "Belgique",
+  "second_id": "eddy-merckx",
+  "ahead_of_3rd": "0h 05' 01\"",
+  "third_name": "L. Van Impe",
+  "third_country": "Belgique",
+  "third_id": "lucien-van-impe",
+  "legs": [
+
+  ]
+}

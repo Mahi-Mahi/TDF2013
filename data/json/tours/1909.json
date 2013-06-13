@@ -1,1 +1,28 @@
-{"year":1909,"edition":7,"total_length":4497,"nb_legs":14,"has_prologue":false,"nb_concurrents":150,"nb_finishers":55,"pct_finishers":37,"winner_first_name":"François","winner_last_name":"Faber","winner_id":"francois-faber","winner_total_time":"157h 01' 22\"","winner_age":"22","winner_country":"Luxembourg","winner_avg_speed":"28,658","ahead_of_2nd":"n.a.","second_name":"G. Garrigou","second_country":"France","second_id":"gustave-garrigou","ahead_of_3rd":"n.a.","third_name":"J. Alavoine","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1909,
+  "edition": 7,
+  "total_length": 4497,
+  "nb_legs": 14,
+  "has_prologue": false,
+  "nb_concurrents": 150,
+  "nb_finishers": 55,
+  "pct_finishers": 37,
+  "winner_first_name": "François",
+  "winner_last_name": "Faber",
+  "winner_id": "francois-faber",
+  "winner_total_time": "157h 01' 22\"",
+  "winner_age": "22",
+  "winner_country": "Luxembourg",
+  "winner_avg_speed": "28,658",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "G. Garrigou",
+  "second_country": "France",
+  "second_id": "gustave-garrigou",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "J. Alavoine",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

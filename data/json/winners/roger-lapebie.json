@@ -1,1 +1,47 @@
-{"id":"roger-lapebie","first_name":"Roger","last_name":"Lapébie","country":"France","years":{"1932":{"position":"23","nb_wins":1},"1933":{"position":"29","nb_wins":0},"1934":{"position":"3","nb_wins":5},"1935":{"position":"Abandon","nb_wins":0},"1936":{"position":"Non partant","nb_wins":0},"1937":{"position":"1","nb_wins":3}},"wins":[1937],"wins_age":[26],"birthdate":"16/01/1911","birthyear":1911,"deathdate":"12/10/1996","deathyear":1996,"bio":null,"period":[1932,1937]}
+{
+  "id": "roger-lapebie",
+  "first_name": "Roger",
+  "last_name": "Lapébie",
+  "country": "France",
+  "years": {
+    "1932": {
+      "position": "23",
+      "nb_wins": 1
+    },
+    "1933": {
+      "position": "29",
+      "nb_wins": 0
+    },
+    "1934": {
+      "position": "3",
+      "nb_wins": 5
+    },
+    "1935": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1936": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1937": {
+      "position": "1",
+      "nb_wins": 3
+    }
+  },
+  "wins": [
+    1937
+  ],
+  "wins_age": [
+    26
+  ],
+  "birthdate": "16/01/1911",
+  "birthyear": 1911,
+  "deathdate": "12/10/1996",
+  "deathyear": 1996,
+  "bio": null,
+  "period": [
+    1932,
+    1937
+  ]
+}

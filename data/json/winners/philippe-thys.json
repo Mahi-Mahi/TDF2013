@@ -1,1 +1,67 @@
-{"id":"philippe-thys","first_name":"Philippe","last_name":"Thys","country":"Belgique","years":{"1912":{"position":"6","nb_wins":0},"1913":{"position":"1","nb_wins":1},"1914":{"position":"1","nb_wins":1},"1919":{"position":"Abandon","nb_wins":0},"1920":{"position":"1","nb_wins":4},"1921":{"position":"Abandon","nb_wins":0},"1922":{"position":"14","nb_wins":5},"1923":{"position":"Abandon","nb_wins":0},"1924":{"position":"11","nb_wins":2},"1925":{"position":"Abandon","nb_wins":0}},"wins":[1913,1914,1920],"wins_age":[24,25,31],"birthdate":"08/10/1889","birthyear":1889,"deathdate":"17/01/1971","deathyear":1971,"bio":"Le premier triple vainqueur du Tour.","period":[1912,1925]}
+{
+  "id": "philippe-thys",
+  "first_name": "Philippe",
+  "last_name": "Thys",
+  "country": "Belgique",
+  "years": {
+    "1912": {
+      "position": "6",
+      "nb_wins": 0
+    },
+    "1913": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1914": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1919": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1920": {
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1921": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1922": {
+      "position": "14",
+      "nb_wins": 5
+    },
+    "1923": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1924": {
+      "position": "11",
+      "nb_wins": 2
+    },
+    "1925": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1913,
+    1914,
+    1920
+  ],
+  "wins_age": [
+    24,
+    25,
+    31
+  ],
+  "birthdate": "08/10/1889",
+  "birthyear": 1889,
+  "deathdate": "17/01/1971",
+  "deathyear": 1971,
+  "bio": "Le premier triple vainqueur du Tour.",
+  "period": [
+    1912,
+    1925
+  ]
+}

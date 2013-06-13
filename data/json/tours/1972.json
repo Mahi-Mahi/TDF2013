@@ -1,1 +1,28 @@
-{"year":1972,"edition":59,"total_length":3846,"nb_legs":20,"has_prologue":false,"nb_concurrents":132,"nb_finishers":88,"pct_finishers":67,"winner_first_name":"Eddy","winner_last_name":"Merckx","winner_id":"eddy-merckx","winner_total_time":"108h 17' 18\"","winner_age":"27","winner_country":"Belgique","winner_avg_speed":"35,514","ahead_of_2nd":"0h 10' 41\" ","second_name":"F. Gimondi","second_country":"Italie","second_id":"felice-gimondi","ahead_of_3rd":"0h 11' 34\"","third_name":"R. Poulidor","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1972,
+  "edition": 59,
+  "total_length": 3846,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 132,
+  "nb_finishers": 88,
+  "pct_finishers": 67,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "108h 17' 18\"",
+  "winner_age": "27",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,514",
+  "ahead_of_2nd": "0h 10' 41\" ",
+  "second_name": "F. Gimondi",
+  "second_country": "Italie",
+  "second_id": "felice-gimondi",
+  "ahead_of_3rd": "0h 11' 34\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

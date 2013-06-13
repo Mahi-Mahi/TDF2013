@@ -1,1 +1,28 @@
-{"year":2004,"edition":91,"total_length":3391,"nb_legs":20,"has_prologue":false,"nb_concurrents":188,"nb_finishers":147,"pct_finishers":78,"winner_first_name":"n.a.","winner_last_name":"n.a.","winner_id":"n.a.","winner_total_time":"83h 36' 02\"","winner_age":null,"winner_country":"n.a.","winner_avg_speed":"40,553","ahead_of_2nd":"0h 06' 19\" ","second_name":"A. Kloden","second_country":"Allemagne","second_id":null,"ahead_of_3rd":"0h 06' 40\"","third_name":"I. Basso","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 2004,
+  "edition": 91,
+  "total_length": 3391,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 188,
+  "nb_finishers": 147,
+  "pct_finishers": 78,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "83h 36' 02\"",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "40,553",
+  "ahead_of_2nd": "0h 06' 19\" ",
+  "second_name": "A. Kloden",
+  "second_country": "Allemagne",
+  "second_id": null,
+  "ahead_of_3rd": "0h 06' 40\"",
+  "third_name": "I. Basso",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

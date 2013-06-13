@@ -1,1 +1,28 @@
-{"year":1903,"edition":1,"total_length":2428,"nb_legs":6,"has_prologue":false,"nb_concurrents":60,"nb_finishers":21,"pct_finishers":35,"winner_first_name":"Maurice","winner_last_name":"Garin","winner_id":"maurice-garin","winner_total_time":"94h 33' 00\"","winner_age":"32","winner_country":"France","winner_avg_speed":"25,679","ahead_of_2nd":"2h 49' 45\" ","second_name":"L. Pothier","second_country":"France","second_id":null,"ahead_of_3rd":"4h 29' 38\"","third_name":"F. Augerau","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1903,
+  "edition": 1,
+  "total_length": 2428,
+  "nb_legs": 6,
+  "has_prologue": false,
+  "nb_concurrents": 60,
+  "nb_finishers": 21,
+  "pct_finishers": 35,
+  "winner_first_name": "Maurice",
+  "winner_last_name": "Garin",
+  "winner_id": "maurice-garin",
+  "winner_total_time": "94h 33' 00\"",
+  "winner_age": "32",
+  "winner_country": "France",
+  "winner_avg_speed": "25,679",
+  "ahead_of_2nd": "2h 49' 45\" ",
+  "second_name": "L. Pothier",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "4h 29' 38\"",
+  "third_name": "F. Augerau",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

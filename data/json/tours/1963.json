@@ -1,1 +1,28 @@
-{"year":1963,"edition":50,"total_length":4138,"nb_legs":21,"has_prologue":false,"nb_concurrents":130,"nb_finishers":76,"pct_finishers":58,"winner_first_name":"Jacques","winner_last_name":"Anquetil","winner_id":"jacques-anquetil","winner_total_time":"113h 30' 05\"","winner_age":"29","winner_country":"France","winner_avg_speed":"37,092","ahead_of_2nd":"0h 03' 35\" ","second_name":"F. Bahamontes","second_country":"Espagne","second_id":"federico-bahamontes","ahead_of_3rd":"0h 10' 14\"","third_name":"J. Perez-Frances","third_country":"Espagne","third_id":null,"legs":[]}
+{
+  "year": 1963,
+  "edition": 50,
+  "total_length": 4138,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 76,
+  "pct_finishers": 58,
+  "winner_first_name": "Jacques",
+  "winner_last_name": "Anquetil",
+  "winner_id": "jacques-anquetil",
+  "winner_total_time": "113h 30' 05\"",
+  "winner_age": "29",
+  "winner_country": "France",
+  "winner_avg_speed": "37,092",
+  "ahead_of_2nd": "0h 03' 35\" ",
+  "second_name": "F. Bahamontes",
+  "second_country": "Espagne",
+  "second_id": "federico-bahamontes",
+  "ahead_of_3rd": "0h 10' 14\"",
+  "third_name": "J. Perez-Frances",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

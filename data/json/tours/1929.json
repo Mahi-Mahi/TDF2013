@@ -1,1 +1,28 @@
-{"year":1929,"edition":23,"total_length":5286,"nb_legs":22,"has_prologue":false,"nb_concurrents":155,"nb_finishers":60,"pct_finishers":39,"winner_first_name":"Maurice","winner_last_name":"De Waele","winner_id":"maurice-de-waele","winner_total_time":"186h 39' 16\"","winner_age":"32","winner_country":"Belgique","winner_avg_speed":"28,319","ahead_of_2nd":"0h 44' 23\" ","second_name":"G. Pancera","second_country":"Italie","second_id":null,"ahead_of_3rd":"0h 57' 10\"","third_name":"J. Demuysere","third_country":"Belgique","third_id":null,"legs":[]}
+{
+  "year": 1929,
+  "edition": 23,
+  "total_length": 5286,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 155,
+  "nb_finishers": 60,
+  "pct_finishers": 39,
+  "winner_first_name": "Maurice",
+  "winner_last_name": "De Waele",
+  "winner_id": "maurice-de-waele",
+  "winner_total_time": "186h 39' 16\"",
+  "winner_age": "32",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "28,319",
+  "ahead_of_2nd": "0h 44' 23\" ",
+  "second_name": "G. Pancera",
+  "second_country": "Italie",
+  "second_id": null,
+  "ahead_of_3rd": "0h 57' 10\"",
+  "third_name": "J. Demuysere",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":2008,"edition":95,"total_length":3559,"nb_legs":21,"has_prologue":false,"nb_concurrents":180,"nb_finishers":145,"pct_finishers":81,"winner_first_name":"Carlos","winner_last_name":"Sastre","winner_id":"carlos-sastre","winner_total_time":"87h 52' 52''","winner_age":"33","winner_country":"Espagne","winner_avg_speed":"40,492","ahead_of_2nd":"0h 00' 58\" ","second_name":"C. Evans","second_country":"Australie","second_id":"cadel-evans","ahead_of_3rd":"0h 02' 10\"","third_name":"D. Menchov","third_country":"Russie","third_id":null,"legs":[]}
+{
+  "year": 2008,
+  "edition": 95,
+  "total_length": 3559,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 180,
+  "nb_finishers": 145,
+  "pct_finishers": 81,
+  "winner_first_name": "Carlos",
+  "winner_last_name": "Sastre",
+  "winner_id": "carlos-sastre",
+  "winner_total_time": "87h 52' 52''",
+  "winner_age": "33",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "40,492",
+  "ahead_of_2nd": "0h 00' 58\" ",
+  "second_name": "C. Evans",
+  "second_country": "Australie",
+  "second_id": "cadel-evans",
+  "ahead_of_3rd": "0h 02' 10\"",
+  "third_name": "D. Menchov",
+  "third_country": "Russie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

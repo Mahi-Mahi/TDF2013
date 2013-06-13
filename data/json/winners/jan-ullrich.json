@@ -1,1 +1,62 @@
-{"id":"jan-ullrich","first_name":"Jan","last_name":"Ullrich","country":"Allemagne","years":{"1996":{"position":"2","nb_wins":1},"1997":{"position":"1","nb_wins":2},"1998":{"position":"2","nb_wins":3},"1999":{"position":"Non partant","nb_wins":0},"2000":{"position":"2","nb_wins":0},"2001":{"position":"2","nb_wins":0},"2002":{"position":"Non partant","nb_wins":0},"2003":{"position":"2","nb_wins":1},"2004":{"position":"4","nb_wins":0},"2005":{"position":"Déclassé","nb_wins":0}},"wins":[1997],"wins_age":[24],"birthdate":"02/12/1973","birthyear":1973,"deathdate":null,"bio":"Le premier coureur allemand à remporter le Tour.","period":[1996,2005]}
+{
+  "id": "jan-ullrich",
+  "first_name": "Jan",
+  "last_name": "Ullrich",
+  "country": "Allemagne",
+  "years": {
+    "1996": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1997": {
+      "position": "1",
+      "nb_wins": 2
+    },
+    "1998": {
+      "position": "2",
+      "nb_wins": 3
+    },
+    "1999": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2000": {
+      "position": "2",
+      "nb_wins": 0
+    },
+    "2001": {
+      "position": "2",
+      "nb_wins": 0
+    },
+    "2002": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2003": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "2004": {
+      "position": "4",
+      "nb_wins": 0
+    },
+    "2005": {
+      "position": "Déclassé",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1997
+  ],
+  "wins_age": [
+    24
+  ],
+  "birthdate": "02/12/1973",
+  "birthyear": 1973,
+  "deathdate": null,
+  "bio": "Le premier coureur allemand à remporter le Tour.",
+  "period": [
+    1996,
+    2005
+  ]
+}

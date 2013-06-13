@@ -1,1 +1,28 @@
-{"year":1969,"edition":56,"total_length":4117,"nb_legs":22,"has_prologue":false,"nb_concurrents":130,"nb_finishers":86,"pct_finishers":66,"winner_first_name":"Eddy","winner_last_name":"Merckx","winner_id":"eddy-merckx","winner_total_time":"116h 16' 02\"","winner_age":"24","winner_country":"Belgique","winner_avg_speed":"35,409","ahead_of_2nd":"0h 17' 54\" ","second_name":"R. Pingeon","second_country":"France","second_id":"roger-pingeon","ahead_of_3rd":"0h 22' 13\"","third_name":"R. Poulidor","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1969,
+  "edition": 56,
+  "total_length": 4117,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 86,
+  "pct_finishers": 66,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "116h 16' 02\"",
+  "winner_age": "24",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,409",
+  "ahead_of_2nd": "0h 17' 54\" ",
+  "second_name": "R. Pingeon",
+  "second_country": "France",
+  "second_id": "roger-pingeon",
+  "ahead_of_3rd": "0h 22' 13\"",
+  "third_name": "R. Poulidor",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

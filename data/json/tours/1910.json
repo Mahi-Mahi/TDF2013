@@ -1,1 +1,28 @@
-{"year":1910,"edition":8,"total_length":4734,"nb_legs":15,"has_prologue":false,"nb_concurrents":110,"nb_finishers":41,"pct_finishers":37,"winner_first_name":"Octave","winner_last_name":"Lapize","winner_id":"octave-lapize","winner_total_time":"162h 41' 30\"","winner_age":"22","winner_country":"France","winner_avg_speed":"29,099","ahead_of_2nd":"n.a.","second_name":"F. Faber","second_country":"Luxembourg","second_id":"francois-faber","ahead_of_3rd":"n.a.","third_name":"G. Garrigou","third_country":"France","third_id":"gustave-garrigou","legs":[]}
+{
+  "year": 1910,
+  "edition": 8,
+  "total_length": 4734,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 110,
+  "nb_finishers": 41,
+  "pct_finishers": 37,
+  "winner_first_name": "Octave",
+  "winner_last_name": "Lapize",
+  "winner_id": "octave-lapize",
+  "winner_total_time": "162h 41' 30\"",
+  "winner_age": "22",
+  "winner_country": "France",
+  "winner_avg_speed": "29,099",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "F. Faber",
+  "second_country": "Luxembourg",
+  "second_id": "francois-faber",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "G. Garrigou",
+  "third_country": "France",
+  "third_id": "gustave-garrigou",
+  "legs": [
+
+  ]
+}

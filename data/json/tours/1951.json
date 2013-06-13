@@ -1,1 +1,28 @@
-{"year":1951,"edition":38,"total_length":4690,"nb_legs":24,"has_prologue":false,"nb_concurrents":123,"nb_finishers":66,"pct_finishers":54,"winner_first_name":"Hugo","winner_last_name":"Koblet","winner_id":"hugo-koblet","winner_total_time":"142h 20' 14\"","winner_age":"26","winner_country":"Suisse","winner_avg_speed":"32,949","ahead_of_2nd":"0h 22' 00\" ","second_name":"R. Geminiani","second_country":"France","second_id":null,"ahead_of_3rd":"0h 24' 16\"","third_name":"L. Lazarides","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1951,
+  "edition": 38,
+  "total_length": 4690,
+  "nb_legs": 24,
+  "has_prologue": false,
+  "nb_concurrents": 123,
+  "nb_finishers": 66,
+  "pct_finishers": 54,
+  "winner_first_name": "Hugo",
+  "winner_last_name": "Koblet",
+  "winner_id": "hugo-koblet",
+  "winner_total_time": "142h 20' 14\"",
+  "winner_age": "26",
+  "winner_country": "Suisse",
+  "winner_avg_speed": "32,949",
+  "ahead_of_2nd": "0h 22' 00\" ",
+  "second_name": "R. Geminiani",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 24' 16\"",
+  "third_name": "L. Lazarides",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

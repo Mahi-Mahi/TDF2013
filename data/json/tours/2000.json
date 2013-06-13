@@ -1,1 +1,28 @@
-{"year":2000,"edition":87,"total_length":3662,"nb_legs":21,"has_prologue":false,"nb_concurrents":177,"nb_finishers":128,"pct_finishers":72,"winner_first_name":"n.a.","winner_last_name":"n.a.","winner_id":"n.a.","winner_total_time":"92h 33' 08''","winner_age":null,"winner_country":"n.a.","winner_avg_speed":"39,569","ahead_of_2nd":"0h 06' 02\" ","second_name":"J. Ullrich","second_country":"Allemagne","second_id":"jan-ullrich","ahead_of_3rd":"0h 10' 26\"","third_name":"J. Beloki","third_country":"Espagne","third_id":null,"legs":[]}
+{
+  "year": 2000,
+  "edition": 87,
+  "total_length": 3662,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 177,
+  "nb_finishers": 128,
+  "pct_finishers": 72,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "92h 33' 08''",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "39,569",
+  "ahead_of_2nd": "0h 06' 02\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
+  "ahead_of_3rd": "0h 10' 26\"",
+  "third_name": "J. Beloki",
+  "third_country": "Espagne",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":2007,"edition":94,"total_length":3570,"nb_legs":21,"has_prologue":false,"nb_concurrents":189,"nb_finishers":141,"pct_finishers":75,"winner_first_name":"Alberto","winner_last_name":"Contador","winner_id":"alberto-contador","winner_total_time":"91h 00' 26\"","winner_age":"24","winner_country":"Espagne","winner_avg_speed":"39,228","ahead_of_2nd":"0h 00' 23\" ","second_name":"C. Evans","second_country":"Australie","second_id":"cadel-evans","ahead_of_3rd":"0h 00' 31\"","third_name":"L. Leipheimer","third_country":"États-Unis","third_id":null,"legs":[]}
+{
+  "year": 2007,
+  "edition": 94,
+  "total_length": 3570,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 189,
+  "nb_finishers": 141,
+  "pct_finishers": 75,
+  "winner_first_name": "Alberto",
+  "winner_last_name": "Contador",
+  "winner_id": "alberto-contador",
+  "winner_total_time": "91h 00' 26\"",
+  "winner_age": "24",
+  "winner_country": "Espagne",
+  "winner_avg_speed": "39,228",
+  "ahead_of_2nd": "0h 00' 23\" ",
+  "second_name": "C. Evans",
+  "second_country": "Australie",
+  "second_id": "cadel-evans",
+  "ahead_of_3rd": "0h 00' 31\"",
+  "third_name": "L. Leipheimer",
+  "third_country": "États-Unis",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

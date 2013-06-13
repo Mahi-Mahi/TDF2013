@@ -1,1 +1,28 @@
-{"year":1950,"edition":37,"total_length":4773,"nb_legs":22,"has_prologue":false,"nb_concurrents":116,"nb_finishers":51,"pct_finishers":44,"winner_first_name":"Ferdi","winner_last_name":"Kübler","winner_id":"ferdi-kubler","winner_total_time":"145h 36' 46\"","winner_age":"31","winner_country":"Suisse","winner_avg_speed":"32,778","ahead_of_2nd":"0h 09' 30\" ","second_name":"S. Ockers","second_country":"Belgique","second_id":null,"ahead_of_3rd":"0h 22' 19\"","third_name":"L. Bobet","third_country":"France","third_id":"louison-bobet","legs":[]}
+{
+  "year": 1950,
+  "edition": 37,
+  "total_length": 4773,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 116,
+  "nb_finishers": 51,
+  "pct_finishers": 44,
+  "winner_first_name": "Ferdi",
+  "winner_last_name": "Kübler",
+  "winner_id": "ferdi-kubler",
+  "winner_total_time": "145h 36' 46\"",
+  "winner_age": "31",
+  "winner_country": "Suisse",
+  "winner_avg_speed": "32,778",
+  "ahead_of_2nd": "0h 09' 30\" ",
+  "second_name": "S. Ockers",
+  "second_country": "Belgique",
+  "second_id": null,
+  "ahead_of_3rd": "0h 22' 19\"",
+  "third_name": "L. Bobet",
+  "third_country": "France",
+  "third_id": "louison-bobet",
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":2011,"edition":98,"total_length":3430,"nb_legs":21,"has_prologue":false,"nb_concurrents":198,"nb_finishers":167,"pct_finishers":84,"winner_first_name":"Cadel","winner_last_name":"Evans","winner_id":"cadel-evans","winner_total_time":"86h 12' 22\"","winner_age":"34","winner_country":"Australie","winner_avg_speed":"39,788","ahead_of_2nd":"0h 01' 34\" ","second_name":"A. Schleck","second_country":"Luxembourg","second_id":"andy-schleck","ahead_of_3rd":"0h 02' 30\"","third_name":"F. Schleck","third_country":"Luxembourg","third_id":null,"legs":[]}
+{
+  "year": 2011,
+  "edition": 98,
+  "total_length": 3430,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 167,
+  "pct_finishers": 84,
+  "winner_first_name": "Cadel",
+  "winner_last_name": "Evans",
+  "winner_id": "cadel-evans",
+  "winner_total_time": "86h 12' 22\"",
+  "winner_age": "34",
+  "winner_country": "Australie",
+  "winner_avg_speed": "39,788",
+  "ahead_of_2nd": "0h 01' 34\" ",
+  "second_name": "A. Schleck",
+  "second_country": "Luxembourg",
+  "second_id": "andy-schleck",
+  "ahead_of_3rd": "0h 02' 30\"",
+  "third_name": "F. Schleck",
+  "third_country": "Luxembourg",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

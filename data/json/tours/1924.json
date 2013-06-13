@@ -1,1 +1,28 @@
-{"year":1924,"edition":18,"total_length":5425,"nb_legs":15,"has_prologue":false,"nb_concurrents":157,"nb_finishers":60,"pct_finishers":38,"winner_first_name":"Ottavio","winner_last_name":"Bottecchia","winner_id":"ottavio-bottecchia","winner_total_time":"226h 18' 21\"","winner_age":"29","winner_country":"Italie","winner_avg_speed":"24,250","ahead_of_2nd":"0h 35' 36\" ","second_name":"N. Frantz","second_country":"Luxembourg","second_id":"nicolas-frantz","ahead_of_3rd":"1h 32' 13\"","third_name":"L. Buysse","third_country":"Belgique","third_id":"lucien-buysse","legs":[]}
+{
+  "year": 1924,
+  "edition": 18,
+  "total_length": 5425,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 157,
+  "nb_finishers": 60,
+  "pct_finishers": 38,
+  "winner_first_name": "Ottavio",
+  "winner_last_name": "Bottecchia",
+  "winner_id": "ottavio-bottecchia",
+  "winner_total_time": "226h 18' 21\"",
+  "winner_age": "29",
+  "winner_country": "Italie",
+  "winner_avg_speed": "24,250",
+  "ahead_of_2nd": "0h 35' 36\" ",
+  "second_name": "N. Frantz",
+  "second_country": "Luxembourg",
+  "second_id": "nicolas-frantz",
+  "ahead_of_3rd": "1h 32' 13\"",
+  "third_name": "L. Buysse",
+  "third_country": "Belgique",
+  "third_id": "lucien-buysse",
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":1978,"edition":65,"total_length":3908,"nb_legs":22,"has_prologue":false,"nb_concurrents":110,"nb_finishers":78,"pct_finishers":71,"winner_first_name":"Bernard","winner_last_name":"Hinault","winner_id":"bernard-hinault","winner_total_time":"108h 18' 00\"","winner_age":"23","winner_country":"France","winner_avg_speed":"36,084","ahead_of_2nd":"0h 03' 56\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 06' 54\"","third_name":"J. Agosthino","third_country":"Portugal","third_id":null,"legs":[]}
+{
+  "year": 1978,
+  "edition": 65,
+  "total_length": 3908,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 110,
+  "nb_finishers": 78,
+  "pct_finishers": 71,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "108h 18' 00\"",
+  "winner_age": "23",
+  "winner_country": "France",
+  "winner_avg_speed": "36,084",
+  "ahead_of_2nd": "0h 03' 56\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 06' 54\"",
+  "third_name": "J. Agosthino",
+  "third_country": "Portugal",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,41 @@
-{"id":"ottavio-bottecchia","first_name":"Ottavio","last_name":"Bottecchia","country":"Italie","years":{"1923":{"position":"2","nb_wins":1},"1924":{"position":"1","nb_wins":4},"1925":{"position":"1","nb_wins":4},"1926":{"position":"Abandon","nb_wins":0}},"wins":[1924,1925],"wins_age":[30,31],"birthdate":"01/08/1894","birthyear":1894,"deathdate":"15/06/1927","deathyear":1927,"bio":"Le premier coureur italien à remporter le Tour.","period":[1923,1926]}
+{
+  "id": "ottavio-bottecchia",
+  "first_name": "Ottavio",
+  "last_name": "Bottecchia",
+  "country": "Italie",
+  "years": {
+    "1923": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1924": {
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1925": {
+      "position": "1",
+      "nb_wins": 4
+    },
+    "1926": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1924,
+    1925
+  ],
+  "wins_age": [
+    30,
+    31
+  ],
+  "birthdate": "01/08/1894",
+  "birthyear": 1894,
+  "deathdate": "15/06/1927",
+  "deathyear": 1927,
+  "bio": "Le premier coureur italien à remporter le Tour.",
+  "period": [
+    1923,
+    1926
+  ]
+}

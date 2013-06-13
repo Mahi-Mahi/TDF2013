@@ -1,1 +1,28 @@
-{"year":1908,"edition":6,"total_length":4488,"nb_legs":14,"has_prologue":false,"nb_concurrents":110,"nb_finishers":36,"pct_finishers":33,"winner_first_name":"Lucien","winner_last_name":"Petit-Breton","winner_id":"lucien-petit-breton","winner_total_time":"156h 53' 29\"","winner_age":"25","winner_country":"France","winner_avg_speed":"28,740","ahead_of_2nd":"n.a.","second_name":"F. Faber","second_country":"Luxembourg","second_id":"francois-faber","ahead_of_3rd":"n.a.","third_name":"G. Passerieu","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1908,
+  "edition": 6,
+  "total_length": 4488,
+  "nb_legs": 14,
+  "has_prologue": false,
+  "nb_concurrents": 110,
+  "nb_finishers": 36,
+  "pct_finishers": 33,
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Petit-Breton",
+  "winner_id": "lucien-petit-breton",
+  "winner_total_time": "156h 53' 29\"",
+  "winner_age": "25",
+  "winner_country": "France",
+  "winner_avg_speed": "28,740",
+  "ahead_of_2nd": "n.a.",
+  "second_name": "F. Faber",
+  "second_country": "Luxembourg",
+  "second_id": "francois-faber",
+  "ahead_of_3rd": "n.a.",
+  "third_name": "G. Passerieu",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

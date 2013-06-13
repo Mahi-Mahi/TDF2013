@@ -1,1 +1,28 @@
-{"year":1970,"edition":57,"total_length":4254,"nb_legs":23,"has_prologue":false,"nb_concurrents":150,"nb_finishers":100,"pct_finishers":67,"winner_first_name":"Eddy","winner_last_name":"Merckx","winner_id":"eddy-merckx","winner_total_time":"119h 31' 49\"","winner_age":"25","winner_country":"Belgique","winner_avg_speed":"35,589","ahead_of_2nd":"0h 12' 41\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 15' 54\"","third_name":"G. Pettersson","third_country":"Suede","third_id":null,"legs":[]}
+{
+  "year": 1970,
+  "edition": 57,
+  "total_length": 4254,
+  "nb_legs": 23,
+  "has_prologue": false,
+  "nb_concurrents": 150,
+  "nb_finishers": 100,
+  "pct_finishers": 67,
+  "winner_first_name": "Eddy",
+  "winner_last_name": "Merckx",
+  "winner_id": "eddy-merckx",
+  "winner_total_time": "119h 31' 49\"",
+  "winner_age": "25",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "35,589",
+  "ahead_of_2nd": "0h 12' 41\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 15' 54\"",
+  "third_name": "G. Pettersson",
+  "third_country": "Suede",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

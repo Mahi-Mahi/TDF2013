@@ -1,1 +1,28 @@
-{"year":1936,"edition":30,"total_length":4442,"nb_legs":21,"has_prologue":false,"nb_concurrents":130,"nb_finishers":43,"pct_finishers":33,"winner_first_name":"Sylvère","winner_last_name":"Maes","winner_id":"sylvere-maes","winner_total_time":"142h 47' 32\"","winner_age":"26","winner_country":"Belgique","winner_avg_speed":"31,108","ahead_of_2nd":"0h 26' 55\" ","second_name":"A. Magne","second_country":"France","second_id":"antonin-magne","ahead_of_3rd":"0h 27' 53\"","third_name":"F. Vervaecke","third_country":"Belgique","third_id":null,"legs":[]}
+{
+  "year": 1936,
+  "edition": 30,
+  "total_length": 4442,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 43,
+  "pct_finishers": 33,
+  "winner_first_name": "Sylvère",
+  "winner_last_name": "Maes",
+  "winner_id": "sylvere-maes",
+  "winner_total_time": "142h 47' 32\"",
+  "winner_age": "26",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "31,108",
+  "ahead_of_2nd": "0h 26' 55\" ",
+  "second_name": "A. Magne",
+  "second_country": "France",
+  "second_id": "antonin-magne",
+  "ahead_of_3rd": "0h 27' 53\"",
+  "third_name": "F. Vervaecke",
+  "third_country": "Belgique",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

@@ -1,1 +1,28 @@
-{"year":1985,"edition":72,"total_length":4109,"nb_legs":22,"has_prologue":false,"nb_concurrents":180,"nb_finishers":144,"pct_finishers":80,"winner_first_name":"Bernard","winner_last_name":"Hinault","winner_id":"bernard-hinault","winner_total_time":"113h 24' 23\"","winner_age":"30","winner_country":"France","winner_avg_speed":"36,232","ahead_of_2nd":"0h 01' 42\" ","second_name":"G. Lemond","second_country":"États-Unis","second_id":"greg-lemond","ahead_of_3rd":"0h 04' 29\"","third_name":"S. Roche","third_country":"Irlande","third_id":"stephen-roche","legs":[]}
+{
+  "year": 1985,
+  "edition": 72,
+  "total_length": 4109,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 180,
+  "nb_finishers": 144,
+  "pct_finishers": 80,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "113h 24' 23\"",
+  "winner_age": "30",
+  "winner_country": "France",
+  "winner_avg_speed": "36,232",
+  "ahead_of_2nd": "0h 01' 42\" ",
+  "second_name": "G. Lemond",
+  "second_country": "États-Unis",
+  "second_id": "greg-lemond",
+  "ahead_of_3rd": "0h 04' 29\"",
+  "third_name": "S. Roche",
+  "third_country": "Irlande",
+  "third_id": "stephen-roche",
+  "legs": [
+
+  ]
+}

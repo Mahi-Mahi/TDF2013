@@ -1,1 +1,28 @@
-{"year":1926,"edition":20,"total_length":5745,"nb_legs":17,"has_prologue":false,"nb_concurrents":126,"nb_finishers":41,"pct_finishers":33,"winner_first_name":"Lucien","winner_last_name":"Buysse","winner_id":"lucien-buysse","winner_total_time":"238h 44' 25\"","winner_age":"33","winner_country":"Belgique","winner_avg_speed":"24,273","ahead_of_2nd":"1h 22' 25\" ","second_name":"N. Frantz","second_country":"Luxembourg","second_id":"nicolas-frantz","ahead_of_3rd":"1h 23' 51\"","third_name":"B. Aimo","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 1926,
+  "edition": 20,
+  "total_length": 5745,
+  "nb_legs": 17,
+  "has_prologue": false,
+  "nb_concurrents": 126,
+  "nb_finishers": 41,
+  "pct_finishers": 33,
+  "winner_first_name": "Lucien",
+  "winner_last_name": "Buysse",
+  "winner_id": "lucien-buysse",
+  "winner_total_time": "238h 44' 25\"",
+  "winner_age": "33",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "24,273",
+  "ahead_of_2nd": "1h 22' 25\" ",
+  "second_name": "N. Frantz",
+  "second_country": "Luxembourg",
+  "second_id": "nicolas-frantz",
+  "ahead_of_3rd": "1h 23' 51\"",
+  "third_name": "B. Aimo",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

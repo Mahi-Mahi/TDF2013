@@ -1012,7 +1012,6 @@ TDF.Winners = (function() {
 			}
 			return 0;
 		});
-		console.log(my.sorted_winners);
 
 	};
 
@@ -1372,11 +1371,23 @@ TDF.Fight = (function() {
 			tmp.push(TDF.Data.fighters[i]);
 		}
 		my.sorted_fighters = tmp.sort(function(a, b) {
-			if (a.first_name < b.first_name) {
+			if (a.nb_wins === 0 && b.nb_wins > 0) {
 				return -1;
 			}
-			if (a.first_name > b.first_name) {
+			if (a.nb_wins > 0 && b.nb_wins === 0) {
 				return 1;
+			}
+			if ( TDF.Data.winners[a.id] === undefined ){
+				return -1;
+			}
+			if ( TDF.Data.winners[b.id] === undefined ){
+				return -1;
+			}
+			if (TDF.Data.winners[a.id].wins.max() < TDF.Data.winners[b.id].wins.max()) {
+				return 1;
+			}
+			if (TDF.Data.winners[a.id].wins.max() > TDF.Data.winners[b.id].wins.max()) {
+				return -1;
 			}
 			return 0;
 		});
@@ -1399,7 +1410,6 @@ TDF.Fight = (function() {
 			if (TDF.Data.fighters[my.args.fighter_one]) {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
 				fighter_data = TDF.Data.winners[my.args.fighter_one];
-
 
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
@@ -1536,7 +1546,7 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
 
-		jQuery('.tabs').tabify();
+		$inner.find('.tabs').tabify();
 	};
 
 	my.fight = function() {

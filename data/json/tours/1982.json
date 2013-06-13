@@ -1,1 +1,28 @@
-{"year":1982,"edition":69,"total_length":3507,"nb_legs":21,"has_prologue":false,"nb_concurrents":169,"nb_finishers":125,"pct_finishers":74,"winner_first_name":"Bernard","winner_last_name":"Hinault","winner_id":"bernard-hinault","winner_total_time":"92h 08' 46\"","winner_age":"27","winner_country":"France","winner_avg_speed":"38,059","ahead_of_2nd":"0h 06' 21\" ","second_name":"J. Zoetemelk","second_country":"Pays-Bas","second_id":"joop-zoetemelk","ahead_of_3rd":"0h 8' 59\"","third_name":"J. Van Der Velde","third_country":"Pays-Bas","third_id":null,"legs":[]}
+{
+  "year": 1982,
+  "edition": 69,
+  "total_length": 3507,
+  "nb_legs": 21,
+  "has_prologue": false,
+  "nb_concurrents": 169,
+  "nb_finishers": 125,
+  "pct_finishers": 74,
+  "winner_first_name": "Bernard",
+  "winner_last_name": "Hinault",
+  "winner_id": "bernard-hinault",
+  "winner_total_time": "92h 08' 46\"",
+  "winner_age": "27",
+  "winner_country": "France",
+  "winner_avg_speed": "38,059",
+  "ahead_of_2nd": "0h 06' 21\" ",
+  "second_name": "J. Zoetemelk",
+  "second_country": "Pays-Bas",
+  "second_id": "joop-zoetemelk",
+  "ahead_of_3rd": "0h 8' 59\"",
+  "third_name": "J. Van Der Velde",
+  "third_country": "Pays-Bas",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

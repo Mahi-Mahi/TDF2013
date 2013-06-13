@@ -1,1 +1,28 @@
-{"year":1965,"edition":52,"total_length":4188,"nb_legs":22,"has_prologue":false,"nb_concurrents":130,"nb_finishers":96,"pct_finishers":74,"winner_first_name":"Felice","winner_last_name":"Gimondi","winner_id":"felice-gimondi","winner_total_time":"116h 42' 06\"","winner_age":"22","winner_country":"Italie","winner_avg_speed":"35,886","ahead_of_2nd":"0h 02' 40\" ","second_name":"R. Poulidor","second_country":"France","second_id":null,"ahead_of_3rd":"0h 09' 18\"","third_name":"G. Motta","third_country":"Italie","third_id":null,"legs":[]}
+{
+  "year": 1965,
+  "edition": 52,
+  "total_length": 4188,
+  "nb_legs": 22,
+  "has_prologue": false,
+  "nb_concurrents": 130,
+  "nb_finishers": 96,
+  "pct_finishers": 74,
+  "winner_first_name": "Felice",
+  "winner_last_name": "Gimondi",
+  "winner_id": "felice-gimondi",
+  "winner_total_time": "116h 42' 06\"",
+  "winner_age": "22",
+  "winner_country": "Italie",
+  "winner_avg_speed": "35,886",
+  "ahead_of_2nd": "0h 02' 40\" ",
+  "second_name": "R. Poulidor",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "0h 09' 18\"",
+  "third_name": "G. Motta",
+  "third_country": "Italie",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

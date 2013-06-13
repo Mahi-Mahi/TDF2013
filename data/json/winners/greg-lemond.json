@@ -1,1 +1,70 @@
-{"id":"greg-lemond","first_name":"Greg","last_name":"LeMond","country":"États-Unis","years":{"1984":{"position":"3","nb_wins":0},"1985":{"position":"2","nb_wins":1},"1986":{"position":"1","nb_wins":1},"1987":{"position":"Non partant","nb_wins":0},"1988":{"position":"Non partant","nb_wins":0},"1989":{"position":"1","nb_wins":3},"1990":{"position":"1","nb_wins":0},"1991":{"position":"7","nb_wins":0},"1992":{"position":"Abandon","nb_wins":0},"1993":{"position":"Non partant","nb_wins":0},"1994":{"position":"Abandon","nb_wins":0}},"wins":[1986,1989,1990],"wins_age":[25,28,29],"birthdate":"26/06/1961","birthyear":1961,"deathdate":null,"bio":"Le premier coureur américain à remporter le Tour.","period":[1984,1994]}
+{
+  "id": "greg-lemond",
+  "first_name": "Greg",
+  "last_name": "LeMond",
+  "country": "États-Unis",
+  "years": {
+    "1984": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "1985": {
+      "position": "2",
+      "nb_wins": 1
+    },
+    "1986": {
+      "position": "1",
+      "nb_wins": 1
+    },
+    "1987": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1988": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1989": {
+      "position": "1",
+      "nb_wins": 3
+    },
+    "1990": {
+      "position": "1",
+      "nb_wins": 0
+    },
+    "1991": {
+      "position": "7",
+      "nb_wins": 0
+    },
+    "1992": {
+      "position": "Abandon",
+      "nb_wins": 0
+    },
+    "1993": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "1994": {
+      "position": "Abandon",
+      "nb_wins": 0
+    }
+  },
+  "wins": [
+    1986,
+    1989,
+    1990
+  ],
+  "wins_age": [
+    25,
+    28,
+    29
+  ],
+  "birthdate": "26/06/1961",
+  "birthyear": 1961,
+  "deathdate": null,
+  "bio": "Le premier coureur américain à remporter le Tour.",
+  "period": [
+    1984,
+    1994
+  ]
+}

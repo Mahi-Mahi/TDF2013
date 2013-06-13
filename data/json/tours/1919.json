@@ -1,1 +1,28 @@
-{"year":1919,"edition":13,"total_length":5560,"nb_legs":15,"has_prologue":false,"nb_concurrents":69,"nb_finishers":11,"pct_finishers":16,"winner_first_name":"Firmin","winner_last_name":"Lambot","winner_id":"firmin-lambot","winner_total_time":"231h 07' 15\"","winner_age":"33","winner_country":"Belgique","winner_avg_speed":"24,056","ahead_of_2nd":"1h 32' 54\" ","second_name":"J. Alavoine","second_country":"France","second_id":null,"ahead_of_3rd":"2h 16' 31\"","third_name":"E. Christophe","third_country":"France","third_id":null,"legs":[]}
+{
+  "year": 1919,
+  "edition": 13,
+  "total_length": 5560,
+  "nb_legs": 15,
+  "has_prologue": false,
+  "nb_concurrents": 69,
+  "nb_finishers": 11,
+  "pct_finishers": 16,
+  "winner_first_name": "Firmin",
+  "winner_last_name": "Lambot",
+  "winner_id": "firmin-lambot",
+  "winner_total_time": "231h 07' 15\"",
+  "winner_age": "33",
+  "winner_country": "Belgique",
+  "winner_avg_speed": "24,056",
+  "ahead_of_2nd": "1h 32' 54\" ",
+  "second_name": "J. Alavoine",
+  "second_country": "France",
+  "second_id": null,
+  "ahead_of_3rd": "2h 16' 31\"",
+  "third_name": "E. Christophe",
+  "third_country": "France",
+  "third_id": null,
+  "legs": [
+
+  ]
+}

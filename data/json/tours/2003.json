@@ -1,1 +1,28 @@
-{"year":2003,"edition":90,"total_length":3427,"nb_legs":20,"has_prologue":false,"nb_concurrents":198,"nb_finishers":147,"pct_finishers":74,"winner_first_name":"n.a.","winner_last_name":"n.a.","winner_id":"n.a.","winner_total_time":"83h 41' 12\"","winner_age":null,"winner_country":"n.a.","winner_avg_speed":"40,940","ahead_of_2nd":"0h 01' 01\" ","second_name":"J. Ullrich","second_country":"Allemagne","second_id":"jan-ullrich","ahead_of_3rd":"0h 04' 14\"","third_name":"A. Vinokourov","third_country":"Kazakhstan","third_id":null,"legs":[]}
+{
+  "year": 2003,
+  "edition": 90,
+  "total_length": 3427,
+  "nb_legs": 20,
+  "has_prologue": false,
+  "nb_concurrents": 198,
+  "nb_finishers": 147,
+  "pct_finishers": 74,
+  "winner_first_name": "n.a.",
+  "winner_last_name": "n.a.",
+  "winner_id": "n.a.",
+  "winner_total_time": "83h 41' 12\"",
+  "winner_age": null,
+  "winner_country": "n.a.",
+  "winner_avg_speed": "40,940",
+  "ahead_of_2nd": "0h 01' 01\" ",
+  "second_name": "J. Ullrich",
+  "second_country": "Allemagne",
+  "second_id": "jan-ullrich",
+  "ahead_of_3rd": "0h 04' 14\"",
+  "third_name": "A. Vinokourov",
+  "third_country": "Kazakhstan",
+  "third_id": null,
+  "legs": [
+
+  ]
+}
