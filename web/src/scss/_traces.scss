@@ -49,7 +49,7 @@
 	position: absolute;
 	width: 720px;
 	height: 18px;
-	margin: 0 0 0 -5px;
+	margin: 0 0 0 41px;
 }
 
 .traces .ui-slider-handle {
@@ -58,6 +58,7 @@
 	outline:none;
 	width: 89px;
 	height: 28px;
+	margin-left: -45px;
 }
 
 .traces-left {
@@ -164,7 +165,7 @@
 
 .traces-left-stats small {
 	color:#4C565D;
-	display:block;
+	display:none;
 	font:400 11px/1.1 'Lato', Verdana, Arial, sans-serif;
 	margin:0;
 	padding:0;
@@ -299,7 +300,7 @@
 	display:none;
 }
 
-.timeline-zoom label {
+.timeline-zoom span {
 	color:#fff;
 	cursor:pointer;
 	display:block;
@@ -308,7 +309,7 @@
 	text-align:center;
 }
 
-.timeline-zoom input:checked + label {
+.timeline-zoom input:checked + span {
 	color:#FFD800;
 }
 

@@ -308,6 +308,7 @@ TDF.Home = (function() {
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
+
 	};
 
 	my.render = function() {
@@ -396,16 +397,16 @@ TDF.CitySearch = (function() {
 		/*
 		// GTAB
 
-        //Elements
-        map = $("#" + mapId);
+		//Elements
+		map = $("#" + mapId);
 
-        searchInput = $('#inputGeoloc');
+		searchInput = $('#inputGeoloc');
 
 
-        // google.maps.event.addDomListener(window, 'load', initializeGmap);
+		// google.maps.event.addDomListener(window, 'load', initializeGmap);
 
-        loadData();
-        // allEtapes => TDF.Data.legs
+		loadData();
+		// allEtapes => TDF.Data.legs
 
 
 		*/
@@ -562,19 +563,19 @@ TDF.Traces = (function() {
 
 	my.data = null;
 	my.args = null;
-	my.traces = {};
+
+	my.last_click = null;
 
 	my.gmapApi = null;
 
 	my.init = function() {
+
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
-
-		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		$main.on('click', '.traces #select-all', function() {
 			if (jQuery(this).prop('checked')) {
@@ -583,36 +584,47 @@ TDF.Traces = (function() {
 			}
 		});
 
+		$main.on('click', '.traces #multi-select', function() {
+			if (jQuery(this).prop('checked')) {} else {
+				if (!my.last_clicked) {
+					my.last_clicked = 2013;
+				}
+				Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
+			}
+		});
 
-		// CLick on timeline
-		$main.on('click', '.traces .timeline-zoom label', function() {
-			var years = [];
+		// Click on timeline
+		$main.on('click', '.traces .timeline-zoom span', function() {
 			if ($main.find("#multi-select:checked").length) {
+				if (jQuery(this).prev('input').prop('checked')) {
+					jQuery(this).prev('input').prop('checked', false);
+				}
+				else {
+					jQuery(this).prev('input').prop('checked', true);
+					my.last_clicked = jQuery(this).prev('input.checkbox').val();
+				}
+				var years = [];
 				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
 					years.push(jQuery(this).val());
 				});
+				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 			} else {
-				years.push(jQuery(this).prev('input').val());
-				$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
-				jQuery(this).prev('input').prop('checked', true);
+				Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/');
 			}
-			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 		});
 
-		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
+		$main.on('mouseenter', '.traces .timeline-zoom span', function() {
 			// GTAB : mouseover year
-                        var year = jQuery(this).text();
-                        
-                        my.gmapApi.changeOpacity(year);
-                        
+			var year = jQuery(this).text();
+			my.gmapApi.changeOpacity(year);
 		});
 
 		// mouseleave
-		$main.on('mouseleave', '.traces .timeline-zoom label', function() {
+		$main.on('mouseleave', '.traces .timeline-zoom span', function() {
 			// GTAB : mouseover year
-                        var year = jQuery(this).text();
-                         
-                        my.gmapApi.changeOpacityBack(year);
+			var year = jQuery(this).text();
+
+			my.gmapApi.changeOpacityBack(year);
 		});
 
 	};
@@ -638,12 +650,32 @@ TDF.Traces = (function() {
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
-                        markersIcons: [
-                            {url: "/img/traces/solo-pointeur-ombre.png", width:21, height:21, anchorX:21/2, anchorY:21/2},
-                            {url: "/img/traces/solo-pointeur-boucle-ombre.png", width:21, height:25, anchorX:21/2, anchorY:21/2},
-                            {url: "/img/traces/multi-pointeur.png", width:7, height:7, anchorX:7/2, anchorY:7/2},
-                            {url: "/img/traces/multi-pointeur-opacity.png", width:7, height:7, anchorX:7/2, anchorY:7/2}
-                        ],
+			markersIcons: [{
+					url: "/img/traces/solo-pointeur-ombre.png",
+					width: 21,
+					height: 21,
+					anchorX: 21 / 2,
+					anchorY: 21 / 2
+				}, {
+					url: "/img/traces/solo-pointeur-boucle-ombre.png",
+					width: 21,
+					height: 25,
+					anchorX: 21 / 2,
+					anchorY: 21 / 2
+				}, {
+					url: "/img/traces/multi-pointeur.png",
+					width: 7,
+					height: 7,
+					anchorX: 7 / 2,
+					anchorY: 7 / 2
+				}, {
+					url: "/img/traces/multi-pointeur-opacity.png",
+					width: 7,
+					height: 7,
+					anchorX: 7 / 2,
+					anchorY: 7 / 2
+				}
+			],
 			styles: mapStyleTrace
 		};
 
@@ -657,7 +689,7 @@ TDF.Traces = (function() {
 		my.args = args;
 
 		if (my.args.years === undefined) {
-			my.args.years = [];
+			my.args.years = [2013];
 		} else {
 			my.args.years = my.args.years.split(/,/);
 		}
@@ -691,7 +723,7 @@ TDF.Traces = (function() {
 			}
 
 			for (var year in TDF.Data.traces) {
-				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><label for="checkyear-' + year + '">' + year + '</label></li>';
+				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><span for="checkyear-' + year + '">' + year + '</span></li>';
 				squares = squares + '<li id="squareyear-' + year + '" data-year="' + year + '">' + year + '</li>';
 
 				trace = TDF.Data.traces[year];
@@ -711,7 +743,6 @@ TDF.Traces = (function() {
 			}
 			$timeline.append(items);
 			$squares.append(squares);
-
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
@@ -738,33 +769,17 @@ TDF.Traces = (function() {
 		this.setYears();
 	};
 
-	my.addYear = function(year) {
-		my.traces[year] = TDF.Data.traces[year];
-	};
-
-	my.removeYear = function(year) {
-		delete my.traces[year];
-	};
-
 	my.setYears = function() {
+		var year;
 
-		// put selected years in my.traces
-		var i, year = null;
-		for (year in TDF.Data.traces) {
-			if (my.traces[year] && jQuery.inArray(year, my.args.years) < 0) {
-				this.removeYear(year);
-				$main.find('#squareyear-' + year).removeClass('trace');
-			}
-		}
-		for (i in my.args.years) {
-			if (parseInt(i, 10) > -1) {
-				year = my.args.years[i];
-				if (!my.traces[year]) {
-					this.addYear(year);
-					// check the timeline
-					$main.find('#checkyear-' + year).prop('checked', true);
-					$main.find('#squareyear-' + year).addClass('trace');
-				}
+		$main.find('.timeline li').removeClass('trace');
+		$main.find('.timeline-zoom input').prop('checked', false);
+
+		for (var i in my.args.years) {
+			year = my.args.years[i];
+			if (parseInt(year, 10) > -1) {
+				$main.find('#checkyear-' + year).prop('checked', true);
+				$main.find('#squareyear-' + year).addClass('trace');
 			}
 		}
 
@@ -788,16 +803,19 @@ TDF.Traces = (function() {
 		// display the infos
 		if (my.args.years.length === 1) {
 			$main.find('#traces-years').attr('class', 'single').html(my.args.years.join(','));
+			jQuery('.traces-left-stats').find('small').css('display', 'none');
 		}
 		if (my.args.years.length === 2) {
 			$main.find('#traces-years').attr('class', 'double').html(my.args.years.map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
+			jQuery('.traces-left-stats').find('small').css('display', 'block');
 		}
 		if (my.args.years.length > 2) {
 			$main.find('#traces-years').attr('class', 'triple').html('<em>' + my.args.years.length + ' tours entre </em>' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
+			jQuery('.traces-left-stats').find('small').css('display', 'block');
 		}
 
 		// Stats
@@ -826,7 +844,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-		if ( (my.args.years.length === 1) && (my.args.years.join(',') !== '2013') ) {
+		if ( my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013 ) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
@@ -840,8 +858,8 @@ TDF.Traces = (function() {
 				$main.find('.winner .name').text('');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 			}
-			$main.find('.winner .total_time').text("en " + trace.winner_total_time);
-			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " de moyenne");
+			$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
+			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 
 			if (trace.second_id) {
 				$main.find('.second .name').html('<a href="/vainqueurs/' + trace.second_id + '/">' + trace.second_name + '</a>');
@@ -1112,7 +1130,6 @@ TDF.Winners = (function() {
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
-						console.log(tour.position);
 						switch (tour.position) {
 							default: pos_title = tour.position;
 							bulle = tour.position + 'ème en ' + year;
@@ -1134,7 +1151,6 @@ TDF.Winners = (function() {
 								break;
 						}
 					}
-					console.log("winner_tours.push(");
 					winner_tours.push(
 						$template.html()
 						.replace(/:pos_title/g, pos_title)
@@ -1252,10 +1268,10 @@ TDF.Fight = (function() {
 			tmp.push(TDF.Data.fighters[i]);
 		}
 		my.sorted_fighters = tmp.sort(function(a, b) {
-			if (a.first_name < b.first_name){
+			if (a.first_name < b.first_name) {
 				return -1;
 			}
-			if (a.first_name > b.first_name){
+			if (a.first_name > b.first_name) {
 				return 1;
 			}
 			return 0;
@@ -1323,7 +1339,7 @@ TDF.Fight = (function() {
 			}
 		}
 
-		jQuery('.selector-inner').find('.close').on('click', function() {
+		jQuery('.selector-inner').find('.close').attr('href', my.getQueryString()).on('click', function() {
 			jQuery('.selector-inner').hide();
 		});
 
@@ -1565,17 +1581,24 @@ TDF.Fight = (function() {
 					'margin-left': diff[1] + 'px'
 				});
 
-				if (diff[0] >= diff[1]) {
-					$fighter_one.addClass('winner');
+				if (my.args.step === 7 || my.args.step === 'results') {
+					if (diff[0] >= diff[1]) {
+						$fighter_one.addClass('winner');
+					}
+					if (diff[0] <= diff[1]) {
+						$fighter_two.addClass('winner');
+						$fighter_two.find('.name').remove();
+					}
+					if (diff[0] === diff[1]) {
+						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
+						$fighter_two.find('.fighter-infos').hide();
+					}
 				}
-				if (diff[0] <= diff[1]) {
-					$fighter_two.addClass('winner');
-				}
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
 
 				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
 
-				$fighter_one.find('.result').html(fighter_one_result);
-				$fighter_two.find('.result').html(fighter_two_result);
 
 				if (my.args.step < 7) {
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1586,6 +1609,29 @@ TDF.Fight = (function() {
 				break;
 		}
 	};
+
+	my.winner_result = function(fighter) {
+		var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
+		var wins = [];
+		if (TDF.Data.winners[fighter.id]) {
+			wins = TDF.Data.winners[fighter.id].wins;
+		}
+		var res = '<div class="result-heading">vainqueur</div>';
+		res = res + '<div class="name">' + fighter.first_name + ' ' + fighter.last_name + '</div>';
+		switch (wins.length) {
+			case 0:
+				break;
+			case 1:
+				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de sa victoire</a>';
+				break;
+			default:
+				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de ses victoires</a>';
+				break;
+		}
+		res = res + '<div class="share-result">partager sa victoire<a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
+		return res;
+	};
+
 
 	my.showResults = function() {
 
@@ -1622,7 +1668,7 @@ TDF.Fight = (function() {
 		}
 
 		$results.show();
-		jQuery('.results').find('.close').on('click', function() {
+		jQuery('.results').find('.close').attr('href', my.getQueryString() + '7/').on('click', function() {
 			jQuery('.results').hide();
 		});
 
@@ -1650,14 +1696,14 @@ TDF.StreetView = (function() {
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
 
-        my.gmapApi = null;
+	my.gmapApi = null;
 
 	my.init = function() {
 
 	};
 
 
-        my.initializeGmap = function() {
+	my.initializeGmap = function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -1668,7 +1714,7 @@ TDF.StreetView = (function() {
 		var map = $inner.find("#" + mapId);
 
 		var mapOptions = {
-                        minimap: "minimap",
+			minimap: "minimap",
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			zoom: zoom,
@@ -1677,19 +1723,26 @@ TDF.StreetView = (function() {
 				style: 'SMALL',
 				position: 'TOP_LEFT'
 			},
-                        markersIcons: [
-                            {url: "/img/lieux/pin-photo.png", width:23, height:32, anchorX:11, anchorY:32},
-                            {url: "/img/lieux/pin-hyperlapse.png", width:31, height:32, anchorX:5, anchorY:32}
-                        ],
+			markersIcons: [{
+					url: "/img/lieux/pin-photo.png",
+					width: 23,
+					height: 32,
+					anchorX: 11,
+					anchorY: 32
+				}, {
+					url: "/img/lieux/pin-hyperlapse.png",
+					width: 31,
+					height: 32,
+					anchorX: 5,
+					anchorY: 32
+				}
+			],
 			styles: mapStyleTrace
 		};
 
-
 		my.gmapApi = map.gmapApi(mapOptions);
 
-
-
-                my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
+		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
 
 	my.render = function(args) {
@@ -1710,6 +1763,12 @@ TDF.StreetView = (function() {
 				places_list.push(content);
 			}
 			$inner.find('.streetview-list').html(places_list.join(' '));
+
+			$inner.find('.streetview-list-container').jScrollPane({
+				mouseWheelSpeed: '2',
+				maintainPosition: false
+			});
+
 		}
 
 		var duration = 500;
@@ -1726,7 +1785,7 @@ TDF.StreetView = (function() {
 			}, duration);
 		}
 
-                this.initializeGmap();
+		this.initializeGmap();
 
 	};
 
