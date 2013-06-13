@@ -35,11 +35,11 @@
 	width:auto;
 }
 
-.step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow {
+.step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow, .step-results .fighter_one.yellow, .step-results .fighter_two.yellow {
 	background-position:-190px 0;
 }
 
-.step-5 .fighter_one.has_won, .step-5 .fighter_two.has_won {
+.step-5 .fighter_one.has_won, .step-5 .fighter_two.has_won, .step-7 .fighter_one.winner, .step-7 .fighter_two.winner, .step-results .fighter_one.winner, .step-results .fighter_two.winner {
 	background-position:-380px 0;
 }
 
@@ -222,7 +222,7 @@
 	text-indent:0;
 }
 
-.step-7 .fight-container .next {
+.step-7 .fight-container .next, .step-results .fight-container .next {
 	background:url(/img/duels/bt-replay.png) left top no-repeat;
 	height:138px;
 	overflow:hidden;
@@ -233,7 +233,7 @@
 	width:179px;
 }
 
-.step-7 .fight-container .next:hover {
+.step-7 .fight-container .next:hover, .step-results .fight-container .next:hover {
 	background-image:url(/img/duels/bt-replay.png);
 }
 
@@ -447,7 +447,7 @@
 	height:132px;
 }
 
-.step-7 .forescape {
+.step-7 .forescape, .step-results .forescape {
 	background:none;
 }
 
@@ -475,7 +475,7 @@
 	top: 200px;
 }
 
-.step-3 .foreground, .step-4 .foreground, .step-7 .foreground {
+.step-3 .foreground, .step-4 .foreground, .step-7 .foreground, .step-results .foreground {
 	background:none;
 }
 
@@ -524,7 +524,7 @@
 	background-position:-4620px 0;
 }
 
-.step-7 .background {
+.step-7 .background, .step-results .background {
 	background-position:-5390px 0;
 }
 
@@ -543,7 +543,7 @@
 	height:100%;
 }
 
-.step-2 .landscape, .step-3 .landscape, .step-6 .landscape, .step-7 .landscape {
+.step-2 .landscape, .step-3 .landscape, .step-6 .landscape, .step-7 .landscape, .step-results .landscape {
 	background:none;
 }
 
@@ -577,7 +577,7 @@
 	z-index:5;
 	display:none;
 }
-.fight-container .next
+
 .selector-inner {
 	background:#D9D9D4;
 	border-radius:4px 4px 0 0;
