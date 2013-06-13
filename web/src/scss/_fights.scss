@@ -15,15 +15,31 @@
 }
 
 .fight-start .fighter_one {
-	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
 	bottom: 80px;
 	z-index: 10;
 }
+.fight-start .fighter_one.mod {
+	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
+}
+.fight-start .fighter_one.cont {
+	background:url(/img/duels/coureurs/coureurs-cont-1.png) left top no-repeat;
+}
+.fight-start .fighter_one.old {
+	background:url(/img/duels/coureurs/coureurs-old-1.png) left top no-repeat;
+}
 
 .fight-start .fighter_two {
-	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
 	bottom: 0px;
 	z-index: 11;
+}
+.fight-start .fighter_two.mod {
+	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
+}
+.fight-start .fighter_two.cont {
+	background:url(/img/duels/coureurs/coureurs-cont-2.png) left top no-repeat;
+}
+.fight-start .fighter_two.old {
+	background:url(/img/duels/coureurs/coureurs-old-2.png) left top no-repeat;
 }
 
 .step-results .results .fighter_one, .step-results .results .fighter_two {

@@ -373,7 +373,7 @@ TDF.Home = (function() {
 
 
 		if (jQuery('#search').length) {
-                    
+
                         jQuery( "#search" ).autocomplete({
                             minLength: 0,
                             source: TDF.Data.cities,
@@ -382,7 +382,7 @@ TDF.Home = (function() {
                                 results: function() {}
                             }
                         });
-                    
+
                     /*
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
@@ -504,32 +504,32 @@ TDF.CitySearch = (function() {
 	};
 
 	my.autocomplete_init = function() {
-            
+
                 function geocoding(){
                     var address = searchInput.val();
 
                     geocoder.geocode( { 'address': address}, function(results, status) {
                         if (status === google.maps.GeocoderStatus.OK) {
                             my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
-                        } 
+                        }
                         else {
                             console.log('Geocode was not successful for the following reason: ' + status);
                         }
                     });
 
                 }
-            
+
 
                 var searchInput = jQuery('#search');
                 var form = jQuery('#city_search');
                 var geocoder = new google.maps.Geocoder();
 
-    
+
                 if(searchInput.val().length > 0){
                     geocoding();
                 }
-                    
-    
+
+
                 searchInput.autocomplete({
                     minLength: 0,
                     source: TDF.Data.cities,
@@ -552,16 +552,16 @@ TDF.CitySearch = (function() {
                 searchInput.bind('keydown', function(e) {
                     if (e.keyCode === 13) {
 
-                    } 
+                    }
                     else {
 
                     }
                 });
-                
-                
-                        
-                        
-                
+
+
+
+
+
 
 
 //		if (jQuery('#search').length) {
@@ -589,12 +589,12 @@ TDF.CitySearch = (function() {
 //				}
 //
 //
-//				
+//
 //
 //			});
 //
 //
-//			
+//
 //		}
 	};
 
@@ -1362,6 +1362,7 @@ TDF.Fight = (function() {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
 				fighter_data = TDF.Data.winners[my.args.fighter_one];
 
+
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
 				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
@@ -1518,6 +1519,9 @@ TDF.Fight = (function() {
 
 		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
+
+		$fighter_one.addClass(fighter_one.epoque);
+		$fighter_two.addClass(fighter_two.epoque);
 
 		// définition des attributs : a été en jaune, a gagné le tour
 		if (fighter_one.steps[2] > 0) {
@@ -1894,7 +1898,7 @@ TDF.Data = (function() {
 						jQuery.getJSON('/data/json/places.json', function(json, textStatus) {
 							console.log(textStatus);
 							my.places = json;
-                                                        
+
                                                         //Cities
                                                         jQuery.getJSON('/data/json/cities.json', function(json, textStatus) {
                                                                 console.log(textStatus);
