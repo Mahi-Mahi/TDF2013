@@ -24,6 +24,8 @@
         this.map = null;
         this.minimap = null;
         this.mapBounds = null;
+        
+        this.hyperlapse = null;
 
         // this.currentPosition = null;
         
@@ -52,6 +54,8 @@
         this.animateInterval = null;
         
         this.panorama = null;
+        
+        this.streetViewPoint = [];
         
 
         this._init(options);
@@ -91,12 +95,16 @@
      */
     $.GmapApi.defaults = {
         minimap: null,
+        hyperlapseId: null,
+        hyperlapseLoading: null,
         zoom: 17,
         zoomControl: true,
-        zoomControlOpt: {
-            style: 'SMALL',
-            position: 'TOP_LEFT'
-        },
+        zoomControlOptions: {},
+        panControl: true,
+        panControlOptions: {},
+        streetViewControl: true,
+        streetViewControlOptions: {},
+        mapTypeControl: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: null,
 //        routeControlImageUrls: null,
@@ -178,9 +186,14 @@
             {
                 mapTypeId: this.settings.mapTypeId,
                 center: this.settings.center,
+                mapTypeControl: this.settings.mapTypeControl,
                 zoom: this.settings.zoom,
                 zoomControl: this.settings.zoomControl,
-                zoomControlOpt: this.settings.zoomControlOpt,
+                zoomControlOptions: this.settings.zoomControlOptions,
+                panControl: this.settings.panControl,
+                panControlOptions: this.settings.panControlOptions,
+                streetViewControl: this.settings.streetViewControl,
+                streetViewControlOptions: this.settings.streetViewControlOptions,
                 styles: this.settings.styles
             });
             
@@ -189,10 +202,13 @@
                 {
                     mapTypeId: this.settings.mapTypeId,
                     center: this.settings.center,
-                    zoom: 11,
                     mapTypeControl: false,
-                    zoomControl: this.settings.zoomControl,
-                    zoomControlOpt: this.settings.zoomControlOpt
+                    panControl: false,
+                    zoom: 11,
+                    zoomControl: true,
+                    zoomControlOptions: {
+                            style: google.maps.ZoomControlStyle.SMALL
+                    }
                 });
             }
             
@@ -975,6 +991,40 @@
                
                 var coords = streetViewPoint.coords;
                 coords = coords.split(",");
+                
+                if(streetViewPoint.type == 'Street View'){
+                    var sv = {};
+                    sv.id = streetViewPoint.id;
+                    sv.type = streetViewPoint.type;
+                    sv.lat = coords[0];
+                    sv.lng = coords[1];
+                    sv.heading = streetViewPoint.heading;
+                    
+                    self.streetViewPoint.push(sv);
+                }
+                else{
+                    
+                    var points = streetViewPoint.url.split("#");
+                    points = points[1].split(',');
+                    
+                    var hp = {};
+                    hp.id = streetViewPoint.id;
+                    hp.type = streetViewPoint.type;
+                    hp.sLat = points[0];
+                    hp.sLng = points[1];
+                    hp.fLat = points[4];
+                    hp.fLng = points[5];
+                    hp.distance = streetViewPoint.distance;
+                    hp.millis = streetViewPoint.millis;
+                    hp.position = streetViewPoint.position;
+                    
+                    
+                    self.streetViewPoint.push(hp);
+                }
+                
+                
+                
+                
                
                 var marker;
                 if(streetViewPoint.type == 'Street View'){
@@ -992,7 +1042,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<a href="#" class="displayStreetView" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a>' +
+                            '<a href="/lieux-mythiques/'+ streetViewPoint.id +'/" class="displayStreetView" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1001,7 +1051,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<a href="#" class="displayHyperlapse" data-lat="'+ coords[0] +'" data-lng="'+ coords[1] +'"  >Voir Hyperlapse</a>' +
+                            '<a href="/lieux-mythiques/'+ streetViewPoint.id +'/" class="displayHyperlapse" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Voir Hyperlapse</a>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1016,26 +1066,24 @@
                     infowindow.open(self.map, marker);
                 });
                
-               
-//               for(var j in streetViewPoint){
-//                   console.log(j + ' : ' + streetViewPoint[j]);
-//               }
-               
             });
             
             
-//            $(document).on('click', '.displayStreetView', function(){
-            $container.on('click', '.displayStreetView', function(e){
-               console.log("click displayStreetView"); 
-                
-               var data = $(this).data();           
-               self.displayStreetView(data.lat, data.lng, data.heading) 
-               
-               e.preventDefault();
-               
-               return false;
-               
-            });
+//            $container.on('click', '.displayStreetView', function(e){
+//               var data = $(this).data();  
+//               
+//               self.displayStreetView(data.lat, data.lng, data.heading);
+//
+//               return false;               
+//            });
+//            
+//            $container.on('click', '.displayHyperlapse', function(e){
+//               var data = $(this).data();  
+//       
+//               self.showStreetView(data.id);
+//
+//               return false;
+//            });
 
 
 
@@ -1060,26 +1108,25 @@
               pitch: 0
             });
             
-            this.minimap.setStreetView(this.panorama);
-            $("#" + self.settings.minimap).addClass("hide");
+            self.minimap.setStreetView(this.panorama);
+//            $("#" + self.settings.minimap).addClass("hide");
 
             
-            //TODO: dynamiser "panoramaPreview"
-//            this.panorama = new google.maps.StreetViewPanorama(document.getElementById(this.element.id), panoramaOptions);
-//            this.map.setStreetView(this.panorama);
-//
-//
             google.maps.event.addListener(self.panorama, "visible_changed", function() {
-                if (self.panorama.getVisible() && $("#" + self.settings.minimap).is(':visible')){
+                if (self.panorama.getVisible()){
                     //moving the pegman around the map
-                }else if(self.panorama.getVisible() && $("#" + self.settings.minimap).is(':hidden')){
+                }else if(self.panorama.getVisible()){
                     
                     console.log("affiche minimap");
                     
-                    $("#" + self.settings.minimap).removeClass("hide");
+//                    $("#" + self.settings.minimap).removeClass("hide");
                     
+                    
+                     self.minimap.setStreetView(self.panorama);
                     
                     self.minimap.setCenter(self.panorama.getPosition());
+                    
+                    console.log("self.panorama.getPosition() : " + self.panorama.getPosition());
                     
 //                    $("#panoramaPreview").show();
 //                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
@@ -1090,7 +1137,7 @@
                     
                 }
                 google.maps.event.addListener(self.panorama, "closeclick", function() {
-                    $("#" + self.settings.minimap).addClass("hide");
+//                    $("#" + self.settings.minimap).addClass("hide");
                     
                     
                     console.log("cache minimap");
@@ -1117,13 +1164,16 @@
             
             this.panorama.setPosition(center);
             this.panorama.setPov(({
-                heading: heading,
+                heading: heading*1,
                 pitch: 0
             }));
             
             this.panorama.setVisible(true);
             
             
+            console.log("center : " + center);
+            
+            this.minimap.setStreetView(this.panorama);
             this.minimap.setCenter(center);
             
             //this.toggleStreetView(); 
@@ -1140,6 +1190,153 @@
             console.log("toggle : " + toggle);
             
             this.panorama.setVisible(!toggle);
+        },
+        
+        
+        /**
+         * showStreetView
+         * 
+         */
+        showStreetView: function(id){
+            var self = this;
+
+            $.each(self.streetViewPoint, function(i, sv){
+               
+               
+               
+               if(id == sv.id){
+                   
+                   if(sv.type == "Street View"){
+                       self.displayStreetView(sv.lat, sv.lng, sv.heading);
+                   }
+                   else{
+                       self.generateHyperlapse(sv);
+                   }
+                   
+               }
+               
+            });
+            
+        },
+        
+        
+        /**
+         * GenerateHyperlapse
+         *
+         */
+        generateHyperlapse: function(data){
+            var self = this;
+            
+            var zoneMap = $("#" + this.element.id);
+            var zoneMinimap = $('#' + this.settings.minimap);
+            var zoneH = $("#" + this.settings.hyperlapseId);
+            
+            
+            zoneH.removeClass('hide');
+            
+            console.log("data.position : "+ data.position);
+            
+            this.hyperlapse = new Hyperlapse(document.getElementById(self.settings.hyperlapseId), {
+                zoom: 1,
+//                lookat: new google.maps.LatLng(37.81409525128964,-122.4775045005249),
+//                use_lookat: true,
+                width: 742,
+                height: 500,
+                elevation: 50,
+//                fov: data.position,
+                millis: data.millis,
+                distance_between_points: data.distance,
+                max_points: 100
+            });
+            
+            
+//            if(minimap != null){
+//                
+//                //var marker;
+//                
+//                var marker1 = new google.maps.Marker({
+//                    position: new google.maps.LatLng(data.sLat, data.sLng),
+//                    map: self.minimap,
+//                    title: 'PointA',
+//                    icon: self.markenIcon
+//                });
+//                
+//                var marker2 = new google.maps.Marker({
+//                    position: new google.maps.LatLng(data.fLat, data.fLng),
+//                    map: self.minimap,
+//                    title: 'PointB',
+//                    icon: self.markenIcon
+//                });
+//                
+//                zoneMinimap.removeClass('hide');
+//                
+//                
+//            }
+            
+            
+
+            this.hyperlapse.onError = function(e) {
+                console.log(e);
+            };
+
+            this.hyperlapse.onRouteComplete = function(e) {
+                console.log("load");
+                
+                self.hyperlapse.load();
+            };
+            
+            this.hyperlapse.onLoadProgress = function(e) {
+                
+                if(self.settings.hyperlapseLoading)
+                    self.settings.hyperlapseLoading(e.position+1, self.hyperlapse.length());
+                
+                
+            };
+
+            this.hyperlapse.onLoadComplete = function(e) {
+                self.hyperlapse.play();
+            };
+
+            // Google Maps API stuff here...
+            var directions_service = new google.maps.DirectionsService();
+
+            var route = {
+                request:{
+                    origin: new google.maps.LatLng(data.sLat, data.sLng),
+                    destination: new google.maps.LatLng(data.fLat, data.fLng),
+                    travelMode: google.maps.DirectionsTravelMode.DRIVING
+                }
+            };
+
+            directions_service.route(route.request, function(response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    self.hyperlapse.generate( {route:response} );
+                    
+                } else {
+                    console.log(status);
+                }
+            });
+            
+            
+        },
+        
+        
+        stopStreetView: function(){
+  
+            var zoneMap = $("#" + this.element.id);
+            var zoneMinimap = $('#' + this.settings.minimap);
+            var zoneH = $("#" + this.settings.hyperlapseId);
+            
+            
+            this.hyperlapse = null;
+            
+            zoneH.find('canvas').remove();
+            
+            zoneH.addClass('hide');
+            
+            zoneMap.width(742);
+            zoneMap.height(500);
+            
         },
 
         

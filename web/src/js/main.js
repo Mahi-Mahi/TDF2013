@@ -384,8 +384,6 @@ TDF.CitySearch = (function() {
 
 	my.init = function() {
 
-		google.maps.event.addDomListener(window, 'load', my.initializeGmap);
-
 		/*
 		$main.on('submit', '.search #city_search', function(event) {
 			event.preventDefault();
@@ -394,22 +392,6 @@ TDF.CitySearch = (function() {
 		});
 		*/
 
-		/*
-		// GTAB
-
-		//Elements
-		map = $("#" + mapId);
-
-		searchInput = $('#inputGeoloc');
-
-
-		// google.maps.event.addDomListener(window, 'load', initializeGmap);
-
-		loadData();
-		// allEtapes => TDF.Data.legs
-
-
-		*/
 
 	};
 
@@ -427,6 +409,8 @@ TDF.CitySearch = (function() {
 
 	my.initializeGmap = function() {
 
+                console.log("init map recherche");
+
 		//Config Gmap
 		var mapId = 'gmap-search';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -440,11 +424,13 @@ TDF.CitySearch = (function() {
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
+                        mapTypeControl: false,
+                        panControl: false,
+                        streetViewControl: false,
 			zoom: zoom,
 			zoomControl: true,
-			zoomControlOpt: {
-				style: 'SMALL',
-				position: 'TOP_LEFT'
+			zoomControlOptions: {
+				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markerIconImg: '/img/recherche/recherche_pin.png',
 			markerIconSize: [58, 70],
@@ -472,12 +458,19 @@ TDF.CitySearch = (function() {
                 }
             
 
-                var searchInput = jQuery('#search');
-                var form = jQuery('#city_search');
+                var searchInput = $main.find('#search');
+                var form = $main.find('#city_search');
                 var geocoder = new google.maps.Geocoder();
 
     
                 if(searchInput.val().length > 0){
+                    
+//                    var address = searchInput.val();
+//                    console.log('address : '+ address);
+//                    address.replace(/%20/, ' ');
+//                    console.log('address2 : '+ address);
+//                    searchInput.val(address);
+                    
                     geocoding();
                 }
                     
@@ -496,6 +489,8 @@ TDF.CitySearch = (function() {
                 form.submit(function() {
 
                     geocoding();
+                    
+                    Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 
                     return false;
                 });
@@ -510,44 +505,6 @@ TDF.CitySearch = (function() {
                     }
                 });
                 
-                
-                        
-                        
-                
-
-
-//		if (jQuery('#search').length) {
-//			var input = document.getElementById('search');
-//			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
-//			input.className = '';
-//
-//
-//			google.maps.event.addListener(gMapAutocomplete, 'place_changed', function() {
-//
-//				var place = gMapAutocomplete.getPlace();
-//
-//				if (!place.geometry) {
-//					input.className = 'notfound';
-//					return;
-//				}
-//
-//				// If the place has a geometry, then present it on a map.
-//				if (place.geometry.viewport) {
-//
-//					my.gmapApi.getMap().fitBounds(place.geometry.viewport);
-//				} else {
-//					my.gmapApi.getMap().setCenter(place.geometry.location);
-//					my.gmapApi.getMap().setZoom(17); // Why 17? Because it looks good.
-//				}
-//
-//
-//				
-//
-//			});
-//
-//
-//			
-//		}
 	};
 
 	return my;
@@ -642,11 +599,13 @@ TDF.Traces = (function() {
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
+			mapTypeControl: false,
+                        panControl: false,
+                        streetViewControl: false,
 			zoom: zoom,
 			zoomControl: true,
-			zoomControlOpt: {
-				style: 'SMALL',
-				position: 'TOP_LEFT'
+			zoomControlOptions: {
+				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
@@ -1715,13 +1674,17 @@ TDF.StreetView = (function() {
 
 		var mapOptions = {
 			minimap: "minimap",
+                        hyperlapseId: "gmap-hyperlapse",
+                        hyperlapseLoading: my.hyperlapseLoading,
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
+			mapTypeControl: false,
+                        panControl: false,
+                        streetViewControl: false,
 			zoom: zoom,
 			zoomControl: true,
-			zoomControlOpt: {
-				style: 'SMALL',
-				position: 'TOP_LEFT'
+			zoomControlOptions: {
+				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markersIcons: [{
 					url: "/img/lieux/pin-photo.png",
@@ -1744,10 +1707,24 @@ TDF.StreetView = (function() {
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
+        
+        
+        my.hyperlapseLoading = function(current, total){
+            var loader = jQuery('#hyperlapseLoading');
+            
+            loader.show();
+            loader.html(current + "/" + total);
+            
+            if(current === total){
+                loader.hide();
+            }  
+        };
 
 	my.render = function(args) {
 
 		my.args = args;
+                
+               
 
 		if (TDF.loadTemplate(this)) {
 			var place_id, place, places_list = [],
@@ -1770,6 +1747,9 @@ TDF.StreetView = (function() {
 			});
 
 		}
+                
+                
+                this.initializeGmap();
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
@@ -1779,13 +1759,19 @@ TDF.StreetView = (function() {
 			$inner.find('.container').stop().animate({
 				left: '-258px'
 			}, duration);
+                        
+                        
+                        my.gmapApi.showStreetView(my.args.place_id);
+                        
 		} else {
 			$inner.find('.container').stop().animate({
 				left: '0px'
 			}, duration);
+                        
+                        my.gmapApi.stopStreetView();
 		}
 
-		this.initializeGmap();
+		
 
 	};
 
