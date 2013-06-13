@@ -470,8 +470,8 @@
         changeOpacityBack: function(year){
             var self = this;
             
-//            if(self.years.length < 2)
-//                return;
+            if(self.years.length < 2)
+                return;
             
             if($.inArray(year, self.years) == -1)
                 return;
