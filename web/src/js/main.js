@@ -767,8 +767,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-
-		if (my.args.years.length === 1) {
+		if ( (my.args.years.length === 1) && (my.args.years.join(',') !== '2013') ) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
@@ -1220,7 +1219,7 @@ TDF.Fight = (function() {
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
 				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
-				$inner.find('#fighter_one_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_one + '_huge.png');
+				$inner.find('#fighter_one_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_one + '_big.png');
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
@@ -1242,7 +1241,7 @@ TDF.Fight = (function() {
 				$fighter = $main.find('.fighter_two');
 				$fighter.data('id', my.args.fighter_two);
 				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
-				$inner.find('#fighter_two_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_two + '_huge.png');
+				$inner.find('#fighter_two_pic img').attr('src', '/img/vainqueurs/portraits/' + my.args.fighter_two + '_big.png');
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
@@ -1252,11 +1251,9 @@ TDF.Fight = (function() {
 
 		if (my.args.fighter_one === 'selector') {
 			my.showSelector('fighter_one');
-			jQuery('.tabs').tabify();
 		} else {
 			if (my.args.fighter_two === 'selector') {
 				my.showSelector('fighter_two');
-				jQuery('.tabs').tabify();
 			} else {
 				my.hideSelector();
 			}
@@ -1354,6 +1351,7 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
 
+		jQuery('.tabs').tabify();
 	};
 
 	my.fight = function() {

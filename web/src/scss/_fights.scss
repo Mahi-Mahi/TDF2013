@@ -544,7 +544,7 @@
 	padding:20px 0 0 0;
 }
 
-#winner-block {
+.winner-block {
 	background:#E7E8DF;
 	border-radius:0 0 4px 4px;
 	padding:0 0 12px 0;
@@ -553,12 +553,12 @@
 	box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
 }
 
-#winner-block .winners_list {
+.winner-block .winners_list {
 	background:#E7E8DF;
 	height:402px;
 }
 
-#winner-block .winners_list > ul {
+.winner-block .winners_list > ul {
 	padding:10px 50px;
 }
 
@@ -602,4 +602,16 @@
 .tabs .active a {
 	background:#E7E8DF;
 	color:#383C40;
+}
+
+#fighter_one_pic {
+	position: absolute;
+	left: 153px;
+	top: 75px;
+}
+
+#fighter_two_pic {
+	position: absolute;
+	left: 690px;
+	top: 75px;
 }
