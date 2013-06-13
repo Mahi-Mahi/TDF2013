@@ -13,7 +13,7 @@ require 'pp'
 require 'zlib'
 require 'fileutils'
 
-production = false
+production = true
 
 
 FileUtils.rm_rf("json/winners/.", secure: true)
@@ -30,8 +30,6 @@ winners = {}
 fighters = {}
 places = {}
 cities = []
-
-
 
 idx = 0
 CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
@@ -338,7 +336,7 @@ end
 
 			unless tours[leg[:year]].nil?
 
-				tours[leg[:year]][:legs] << leg
+				# tours[leg[:year]][:legs] << leg
 
 			end
 
