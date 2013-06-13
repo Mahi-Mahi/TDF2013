@@ -3,6 +3,10 @@
 	height:215px;
 	background:url(/img/vainqueurs/bg-winner-block.png) left top no-repeat #F2F2ED;
 	position:relative;
+	z-index:1;
+    -moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 #winner .tours {
@@ -64,7 +68,7 @@
 	white-space:nowrap;
 }
 
-#winner .tours .pos-Abandon a {
+#winner .tours .pos-Elimine a {
 	border:none;
 	color:#DC0A27;
 }
@@ -497,7 +501,7 @@
 .podium {
 	background:url(/img/traces/bg-podium.png) left top no-repeat;
 	height:43px;
-	margin:15px 15px 0 15px;
+	margin:10px 15px 0 15px;
 }
 
 .podium .pos {
@@ -529,4 +533,12 @@
 	display:inline-block;
 	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
 	vertical-align:top;
+}
+
+.filters {
+	position:relative;
+	z-index:1;
+	-webkit-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
+	box-shadow: 0 -8px 8px rgba(0,0,0,0.2);
 }

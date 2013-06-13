@@ -3,6 +3,7 @@ body {
 	margin:0;
 	padding: 0;
 	color:#383C40;
+	overflow-x:hidden;
 }
 
 button:focus, input:focus, textarea:focus { outline:none; }
@@ -11,6 +12,10 @@ button:focus, input:focus, textarea:focus { outline:none; }
 
 a {
 	text-decoration:none;
+}
+
+img {
+	border: 0;
 }
 
 .left {

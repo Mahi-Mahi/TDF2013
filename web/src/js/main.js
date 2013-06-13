@@ -1135,8 +1135,8 @@ TDF.Winners = (function() {
 							case 'Elimination':
 							case 'Eliminé':
 							case 'Forfait':
-								tour.position = 'Abandon';
-								pos_title = 'A';
+								tour.position = 'Elimine';
+								pos_title = 'E';
 								bulle = '';
 								break;
 						}
@@ -1274,9 +1274,10 @@ TDF.Fight = (function() {
 
 				$fighter = $main.find('.fighter_one');
 				$fighter.data('id', my.args.fighter_one);
-				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
-				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
-				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
+				$fighter.find('.flag').css('display','block');
+				$fighter.find('.bio').css('display','block').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}
 
@@ -1287,9 +1288,10 @@ TDF.Fight = (function() {
 
 				$fighter = $main.find('.fighter_two');
 				$fighter.data('id', my.args.fighter_two);
-				$fighter.find('.name').html('<span>' + fighter.first_name + '</span> ' + fighter.last_name);
-				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_small.png');
-				$fighter.find('.bio').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
+				$fighter.find('.name').html('<em>' + fighter.first_name + '</em> <span> ' + fighter.last_name + '</span>');
+				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
+				$fighter.find('.flag').css('display','block');
+				$fighter.find('.bio').css('display','block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre '+fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 			}
 		}

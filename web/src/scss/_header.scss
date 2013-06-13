@@ -4,6 +4,11 @@
 	background:url(/img/header/bg-header.png) left top repeat-x;
 	height:73px;
 	overflow:hidden;
+	position:relative;
+	z-index:1;
+    -moz-box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
 }
 
 header section {

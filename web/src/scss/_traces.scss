@@ -35,7 +35,7 @@
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	width: 760px;
+	width: 796px;
 	height: 30px;
 }
 .traces .timeline-zoom ul {
@@ -53,11 +53,11 @@
 }
 
 .traces .ui-slider-handle {
+	background:url(/img/traces/bg-drag.png) left top no-repeat;
 	position: absolute;
-	margin-top: 2px;
-	width: 100px;
-	height: 10px;
-	border: 3px solid lightblue;
+	outline:none;
+	width: 89px;
+	height: 28px;
 }
 
 .traces-left {
@@ -310,4 +310,14 @@
 
 .timeline-zoom input:checked + label {
 	color:#FFD800;
+}
+
+.content .bottom {
+	background:#2099BD;
+	border-top:1px solid #fff;
+	position:relative;
+	z-index:1;
+	-webkit-box-shadow: 0 -6px 6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -6px 6px rgba(0,0,0,0.2);
+	box-shadow: 0 -6px 6px rgba(0,0,0,0.2);
 }
