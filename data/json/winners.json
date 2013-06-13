@@ -2448,6 +2448,65 @@
       1985
     ]
   },
+  "luis-ocana": {
+    "id": "luis-ocana",
+    "first_name": "Luis",
+    "last_name": "Ocaña",
+    "country": "Espagne",
+    "years": {
+      "1969": {
+        "position": "abandon",
+        "nb_wins": 0
+      },
+      "1970": {
+        "position": "31",
+        "nb_wins": 1
+      },
+      "1971": {
+        "position": "abandon",
+        "nb_wins": 2
+      },
+      "1972": {
+        "position": "abandon",
+        "nb_wins": 0
+      },
+      "1973": {
+        "position": "1",
+        "nb_wins": 6
+      },
+      "1974": {
+        "position": null,
+        "nb_wins": 0
+      },
+      "1975": {
+        "position": "abandon",
+        "nb_wins": 0
+      },
+      "1976": {
+        "position": "14",
+        "nb_wins": 0
+      },
+      "1977": {
+        "position": "25",
+        "nb_wins": 0
+      }
+    },
+    "wins": [
+      1973
+    ],
+    "wins_age": [
+      28
+    ],
+    "birthdate": "09/06/1945",
+    "birthyear": 1945,
+    "deathdate": "20/05/1994",
+    "deathyear": 1994,
+    "bio": null,
+    "period": [
+      1969,
+      1977
+    ]
+  },
   "marco-pantani": {
     "id": "marco-pantani",
     "first_name": "Marco",
