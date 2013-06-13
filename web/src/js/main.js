@@ -1475,8 +1475,7 @@ TDF.Fight = (function() {
 						break;
 					case 7:
 					case 'results':
-
-						step_title = "Bilan de la course" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
+						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
 						step_class = 'finish';
 						fighter_one_result = " ";
 						fighter_two_result = " ";
@@ -1509,7 +1508,7 @@ TDF.Fight = (function() {
 					$fighter_two.addClass('winner');
 				}
 
-				$inner.find('.title div').html("Épreuve N°" + my.args.step + '<br />' + step_title).attr('class', step_class);
+				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
 
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
@@ -1559,6 +1558,10 @@ TDF.Fight = (function() {
 		}
 
 		$results.show();
+		jQuery('.results').find('.close').on('click', function() {
+			jQuery('.results').hide();
+		});
+
 	};
 
 	my.fillResults = function(fighter, data) {

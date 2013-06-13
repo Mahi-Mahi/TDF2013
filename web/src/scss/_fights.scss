@@ -10,6 +10,10 @@
 	height: 300px;
 }
 
+.step-7  .fighters {
+	margin-left:180px;
+}
+
 .fight-start .fighter_one {
 	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
 	bottom: 80px;
@@ -20,6 +24,15 @@
 	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
 	bottom: 0px;
 	z-index: 11;
+}
+
+.step-results .fighter_one, .step-results .fighter_two {
+	background:none;
+	bottom:auto;
+	left:auto;
+	top:auto;
+	height:auto;
+	width:auto;
 }
 
 .step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow {
@@ -36,6 +49,12 @@
 	padding:0;
 	width:173px;
 	height:202px;
+}
+
+.step-results .fighter {
+	position:static;
+	width:auto;
+	height:auto;
 }
 
 .fight-results .winner {
@@ -203,6 +222,21 @@
 	text-indent:0;
 }
 
+.step-7 .fight-container .next {
+	background:url(/img/duels/bt-replay.png) left top no-repeat;
+	height:138px;
+	overflow:hidden;
+	text-indent:100%;
+	top:200px;
+	right:35px;
+	white-space:nowrap;
+	width:179px;
+}
+
+.step-7 .fight-container .next:hover {
+	background-image:url(/img/duels/bt-replay.png);
+}
+
 .fight-container .title {
 	background:url(/img/duels/bg-fight-infos.png) -38px 0 no-repeat;
 	color:#76766A;
@@ -238,6 +272,14 @@
 	margin: 0;
 	padding: 0;
 	width:250px;
+}
+
+.title span {
+	display:block;
+}
+
+.step-7 .title span, .step-results .title span {
+	display:none;
 }
 
 .fight-container .title div:after {
@@ -535,7 +577,7 @@
 	z-index:5;
 	display:none;
 }
-
+.fight-container .next
 .selector-inner {
 	background:#D9D9D4;
 	border-radius:4px 4px 0 0;
@@ -572,6 +614,20 @@
 	margin:0 12px;
 	padding:0 8px 0 36px;
 	text-transform:uppercase;
+}
+
+.show-results {
+	background:#395877;
+	border-radius:8px;
+	color:#fff;
+	display:block;
+	font:400 15px/31px 'Oswald', Verdana, Arial, sans-serif;
+	height:31px;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	width:192px;
 }
 
 .tabs li {
@@ -614,4 +670,44 @@
 	position: absolute;
 	left: 690px;
 	top: 75px;
+}
+
+.step-results .results {
+	display: block;
+	position: absolute;
+	z-index: 12;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.5);
+}
+
+.results table {
+	background:#E7E8DF;
+	border-radius:8px;
+	border-collapse:collapse;
+	display:block;
+	margin:5px auto;
+	width:490px;
+}
+
+.results td {
+	border-bottom:1px dotted #000;
+	color:#53575A;
+	font:400 14px/1.3 'Lato', Verdana, Arial, sans-serif;
+	padding:5px;
+}
+
+.results .fighter_one {
+	text-align:right;
+}
+
+.results .fighter_one .portrait {
+	float:right;
+}
+
+.results .fighter_two .portrait {
+	float:left;
 }

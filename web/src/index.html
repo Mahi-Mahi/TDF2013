@@ -313,8 +313,8 @@
 				<div class="clearfix">
 					<a class="random left" href="">Au hasard</a>
 					<ul class="tabs left unstyled">
-						<li class="winners"><a href="#winner-block">Vainqueurs</a></li>
-						<li class="legends active"><a href="#legends-block">Légendes du tour</a></li>
+						<li class="winners active"><a href="#winner-block">Vainqueurs</a></li>
+						<li class="legends"><a href="#legends-block">Légendes du tour</a></li>
 					</ul>
 				</div>
 				<div class="winners winner-block clearfix" id="winner-block">
@@ -357,55 +357,103 @@
 					<div class="foreground"></div>
 					<div class="forescape"></div>
 					<a href="" class="next">Épreuve Suivante</a>
+					<div class="results"></div>
 				</div><!-- .fight-container -->
-				<div class="results"></div>
 				<footer></footer>
 			</div>
 
 			<div class="template" id="template-fight-results">
+				<a href="" class="close">Fermer</a>
+				<table>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="name"></div>
+							<div class="flag"><img src="" /></div>
+							<div class="portrait"><img src="" /></div>
+						</td>
+						<td>
+							<img src="/img/duels/duels_bilan_vs.png" alt="" />
+						</td>
+						<td class="fighter fighter_two">
+							<div class="name"></div>
+							<div class="flag"><img src="" /></div>
+							<div class="portrait"><img src="" /></div>
+						</td>
+					</tr>
 
-				<div class="fighter fighter_one">
-					<div class="name"></div>
-					<div class="flag"><img src="" /></div>
-					<div class="portrait"><img src="" /></div>
-					<ul>
-						<li class="nb_leg_wins"></li>
-						<li class="pct_leading"></li>
-						<li class="average_speed"></li>
-						<li class="ahead_of_2nd"></li>
-						<li class="nb_wins"></li>
-						<li class="doping"></li>
-					</ul>
-					<div class="winner"></div>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="nb_leg_wins"></div>
+						</td>
+						<td>
+							Victoires <br />d'étapes
+						</td>
+						<td class="fighter fighter_two">
+							<div class="nb_leg_wins"></div>
+						</td>
+					</tr>
 
-				<div class="legend">
-					<ul>
-						<li class="nb_leg_wins">Victoires <br />d'étapes</li>
-						<li class="pct_leading">Temps passé en <br />tête du général</li>
-						<li class="average_speed">Meilleure<br /> vitesse moyenne</li>
-						<li class="ahead_of_2nd">Meilleure avance <br />sur le deuxième</li>
-						<li class="nb_wins">Nombre de <br />victoires finales</li>
-						<li class="doping">Contrôle <br />antidopage</li>
-					</ul>
-					<a href="/duels-de-legendes/">Nouvelle Course</a>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="pct_leading"></div>
+						</td>
+						<td>
+							Temps passé en <br />tête du général
+						</td>
+						<td class="fighter fighter_two">
+							<div class="pct_leading"></div>
+						</td>
+					</tr>
 
-				<div class="fighter fighter_two">
-					<div class="name"></div>
-					<div class="flag"><img src="" /></div>
-					<div class="portrait"><img src="" /></div>
-					<ul>
-						<li class="nb_leg_wins"></li>
-						<li class="pct_leading"></li>
-						<li class="average_speed"></li>
-						<li class="ahead_of_2nd"></li>
-						<li class="nb_wins"></li>
-						<li class="doping"></li>
-					</ul>
-					<div class="winner"></div>
-				</div>
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="average_speed"></div>
+						</td>
+						<td>
+							Meilleure<br /> vitesse moyenne
+						</td>
+						<td class="fighter fighter_two">
+							<div class="average_speed"></div>
+						</td>
+					</tr>
 
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="ahead_of_2nd"></div>
+						</td>
+						<td>
+							Meilleure avance <br />sur le deuxième
+						</td>
+						<td class="fighter fighter_two">
+							<div class="ahead_of_2nd"></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="nb_wins"></div>
+						</td>
+						<td>
+							Nombre de <br />victoires finales
+						</td>
+						<td class="fighter fighter_two">
+							<div class="nb_wins"></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="fighter fighter_one">
+							<div class="doping"></div>
+						</td>
+						<td>
+							Contrôle <br />antidopage
+						</td>
+						<td class="fighter fighter_two">
+							<div class="doping"></div>
+						</td>
+					</tr>
+				</table>
+				<a href="/duels-de-legendes/">Nouvelle Course</a>
 
 			</div>
 
