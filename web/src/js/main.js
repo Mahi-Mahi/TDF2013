@@ -1053,6 +1053,7 @@ TDF.Winners = (function() {
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
+						console.log(tour.position);
 						switch (tour.position) {
 							default: pos_title = tour.position;
 							bulle = tour.position + 'ème en ' + year;
@@ -1060,9 +1061,12 @@ TDF.Winners = (function() {
 							// pos_title = 'A';
 							// break;
 							case 'Abandon':
+							case 'Déclasse':
 							case 'Déclassé':
+							case 'Disqualifie':
 							case 'Disqualifié':
 							case 'Elimination':
+							case 'Elimine':
 							case 'Eliminé':
 							case 'Forfait':
 								tour.position = 'Elimine';
@@ -1071,6 +1075,7 @@ TDF.Winners = (function() {
 								break;
 						}
 					}
+					console.log("winner_tours.push(");
 					winner_tours.push(
 						$template.html()
 						.replace(/:pos_title/g, pos_title)
@@ -1585,14 +1590,14 @@ TDF.StreetView = (function() {
 
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
-        
+
         my.gmapApi = null;
 
 	my.init = function() {
-            
+
 	};
-        
-        
+
+
         my.initializeGmap = function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
@@ -1622,9 +1627,9 @@ TDF.StreetView = (function() {
 
 
 		my.gmapApi = map.gmapApi(mapOptions);
-                
-                
-                
+
+
+
                 my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
 
@@ -1661,7 +1666,7 @@ TDF.StreetView = (function() {
 				left: '0px'
 			}, duration);
 		}
-                
+
                 this.initializeGmap();
 
 	};
