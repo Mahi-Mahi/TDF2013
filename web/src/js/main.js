@@ -312,7 +312,7 @@ TDF.Home = (function() {
 
 		/*
 		// GTAB
-        searchInput = $('#inputGeoloc');
+		searchInput = $('#inputGeoloc');
 */
 
 
@@ -393,16 +393,16 @@ TDF.CitySearch = (function() {
 		/*
 		// GTAB
 
-        //Elements
-        map = $("#" + mapId);
+		//Elements
+		map = $("#" + mapId);
 
-        searchInput = $('#inputGeoloc');
+		searchInput = $('#inputGeoloc');
 
 
-        // google.maps.event.addDomListener(window, 'load', initializeGmap);
+		// google.maps.event.addDomListener(window, 'load', initializeGmap);
 
-        loadData();
-        // allEtapes => TDF.Data.legs
+		loadData();
+		// allEtapes => TDF.Data.legs
 
 
 		*/
@@ -535,9 +535,9 @@ TDF.Traces = (function() {
 			}
 		});
 
-
-		// CLick on timeline
-		$main.on('click', '.traces .timeline-zoom label', function() {
+		// Click on timeline
+		$main.on('click', '.traces .timeline-zoom span', function() {
+			jQuery(this).prev('input.checkbox').click();
 			var years = [];
 			if ($main.find("#multi-select:checked").length) {
 				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
@@ -551,20 +551,18 @@ TDF.Traces = (function() {
 			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 		});
 
-		$main.on('mouseenter', '.traces .timeline-zoom label', function() {
+		$main.on('mouseenter', '.traces .timeline-zoom span', function() {
 			// GTAB : mouseover year
-                        var year = jQuery(this).text();
-                        
-                        my.gmapApi.changeOpacity(year);
-                        
+			var year = jQuery(this).text();
+			my.gmapApi.changeOpacity(year);
 		});
 
 		// mouseleave
-		$main.on('mouseleave', '.traces .timeline-zoom label', function() {
+		$main.on('mouseleave', '.traces .timeline-zoom span', function() {
 			// GTAB : mouseover year
-                        var year = jQuery(this).text();
-                         
-                        my.gmapApi.changeOpacityBack(year);
+			var year = jQuery(this).text();
+
+			my.gmapApi.changeOpacityBack(year);
 		});
 
 	};
@@ -590,12 +588,12 @@ TDF.Traces = (function() {
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
-                        markersIcons: [
-                            {url: "/img/traces/solo-pointeur-ombre.png", width:21, height:21, anchorX:21/2, anchorY:21/2},
-                            {url: "/img/traces/solo-pointeur-boucle-ombre.png", width:21, height:25, anchorX:21/2, anchorY:21/2},
-                            {url: "/img/traces/multi-pointeur.png", width:7, height:7, anchorX:7/2, anchorY:7/2},
-                            {url: "/img/traces/multi-pointeur-opacity.png", width:7, height:7, anchorX:7/2, anchorY:7/2}
-                        ],
+						markersIcons: [
+							{url: "/img/traces/solo-pointeur-ombre.png", width:21, height:21, anchorX:21/2, anchorY:21/2},
+							{url: "/img/traces/solo-pointeur-boucle-ombre.png", width:21, height:25, anchorX:21/2, anchorY:21/2},
+							{url: "/img/traces/multi-pointeur.png", width:7, height:7, anchorX:7/2, anchorY:7/2},
+							{url: "/img/traces/multi-pointeur-opacity.png", width:7, height:7, anchorX:7/2, anchorY:7/2}
+						],
 			styles: mapStyleTrace
 		};
 
@@ -643,7 +641,7 @@ TDF.Traces = (function() {
 			}
 
 			for (var year in TDF.Data.traces) {
-				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><label for="checkyear-' + year + '">' + year + '</label></li>';
+				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><span for="checkyear-' + year + '">' + year + '</span></li>';
 				squares = squares + '<li id="squareyear-' + year + '" data-year="' + year + '">' + year + '</li>';
 
 				trace = TDF.Data.traces[year];
@@ -795,8 +793,8 @@ TDF.Traces = (function() {
 				$main.find('.winner .name').text('');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 			}
-			$main.find('.winner .total_time').text("en " + trace.winner_total_time);
-			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " de moyenne");
+			$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
+			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 
 			if (trace.second_id) {
 				$main.find('.second .name').html('<a href="/vainqueurs/' + trace.second_id + '/">' + trace.second_name + '</a>');

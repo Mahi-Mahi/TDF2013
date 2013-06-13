@@ -300,7 +300,7 @@
 	display:none;
 }
 
-.timeline-zoom label {
+.timeline-zoom span {
 	color:#fff;
 	cursor:pointer;
 	display:block;
@@ -309,7 +309,7 @@
 	text-align:center;
 }
 
-.timeline-zoom input:checked + label {
+.timeline-zoom input:checked + span {
 	color:#FFD800;
 }
 
