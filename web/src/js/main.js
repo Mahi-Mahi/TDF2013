@@ -514,19 +514,19 @@ TDF.Traces = (function() {
 
 	my.data = null;
 	my.args = null;
-	my.traces = {};
+
+	my.last_click = null;
 
 	my.gmapApi = null;
 
 	my.init = function() {
+
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
 			return false;
 		});
-
-		// google.maps.event.addDomListener(window, 'load', my.initializeGmap);
 
 		$main.on('click', '.traces #select-all', function() {
 			if (jQuery(this).prop('checked')) {
@@ -535,20 +535,33 @@ TDF.Traces = (function() {
 			}
 		});
 
+		$main.on('click', '.traces #multi-select', function() {
+			if (jQuery(this).prop('checked')) {} else {
+				if (!my.last_clicked) {
+					my.last_clicked = 2013;
+				}
+				Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
+			}
+		});
+
 		// Click on timeline
 		$main.on('click', '.traces .timeline-zoom span', function() {
-			jQuery(this).prev('input.checkbox').click();
-			var years = [];
 			if ($main.find("#multi-select:checked").length) {
+				if (jQuery(this).prev('input').prop('checked')) {
+					jQuery(this).prev('input').prop('checked', false);
+				}
+				else {
+					jQuery(this).prev('input').prop('checked', true);
+					my.last_clicked = jQuery(this).prev('input.checkbox').val();
+				}
+				var years = [];
 				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
 					years.push(jQuery(this).val());
 				});
+				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 			} else {
-				years.push(jQuery(this).prev('input').val());
-				$main.find('.traces .timeline-zoom .checkbox:checked').prop('checked', false);
-				jQuery(this).prev('input').prop('checked', true);
+				Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/');
 			}
-			Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 		});
 
 		$main.on('mouseenter', '.traces .timeline-zoom span', function() {
@@ -588,12 +601,32 @@ TDF.Traces = (function() {
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
-						markersIcons: [
-							{url: "/img/traces/solo-pointeur-ombre.png", width:21, height:21, anchorX:21/2, anchorY:21/2},
-							{url: "/img/traces/solo-pointeur-boucle-ombre.png", width:21, height:25, anchorX:21/2, anchorY:21/2},
-							{url: "/img/traces/multi-pointeur.png", width:7, height:7, anchorX:7/2, anchorY:7/2},
-							{url: "/img/traces/multi-pointeur-opacity.png", width:7, height:7, anchorX:7/2, anchorY:7/2}
-						],
+			markersIcons: [{
+					url: "/img/traces/solo-pointeur-ombre.png",
+					width: 21,
+					height: 21,
+					anchorX: 21 / 2,
+					anchorY: 21 / 2
+				}, {
+					url: "/img/traces/solo-pointeur-boucle-ombre.png",
+					width: 21,
+					height: 25,
+					anchorX: 21 / 2,
+					anchorY: 21 / 2
+				}, {
+					url: "/img/traces/multi-pointeur.png",
+					width: 7,
+					height: 7,
+					anchorX: 7 / 2,
+					anchorY: 7 / 2
+				}, {
+					url: "/img/traces/multi-pointeur-opacity.png",
+					width: 7,
+					height: 7,
+					anchorX: 7 / 2,
+					anchorY: 7 / 2
+				}
+			],
 			styles: mapStyleTrace
 		};
 
@@ -662,7 +695,6 @@ TDF.Traces = (function() {
 			$timeline.append(items);
 			$squares.append(squares);
 
-
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 			$main.find(".timeline .slider").slider({
 				slide: function(ui, event) {
@@ -688,33 +720,18 @@ TDF.Traces = (function() {
 		this.setYears();
 	};
 
-	my.addYear = function(year) {
-		my.traces[year] = TDF.Data.traces[year];
-	};
-
-	my.removeYear = function(year) {
-		delete my.traces[year];
-	};
-
 	my.setYears = function() {
+		var year;
 
-		// put selected years in my.traces
-		var i, year = null;
-		for (year in TDF.Data.traces) {
-			if (my.traces[year] && jQuery.inArray(year, my.args.years) < 0) {
-				this.removeYear(year);
-				$main.find('#squareyear-' + year).removeClass('trace');
-			}
-		}
-		for (i in my.args.years) {
-			if (parseInt(i, 10) > -1) {
-				year = my.args.years[i];
-				if (!my.traces[year]) {
-					this.addYear(year);
-					// check the timeline
-					$main.find('#checkyear-' + year).prop('checked', true);
-					$main.find('#squareyear-' + year).addClass('trace');
-				}
+		$main.find('.timeline li').removeClass('trace');
+		$main.find('.timeline-zoom input').prop('checked', false);
+
+		for (var i in my.args.years) {
+			year = my.args.years[i];
+			if (parseInt(year, 10) > -1) {
+				console.log("set " + year);
+				$main.find('#checkyear-' + year).prop('checked', true);
+				$main.find('#squareyear-' + year).addClass('trace');
 			}
 		}
 
@@ -738,19 +755,19 @@ TDF.Traces = (function() {
 		// display the infos
 		if (my.args.years.length === 1) {
 			$main.find('#traces-years').attr('class', 'single').html(my.args.years.join(','));
-			jQuery('.traces-left-stats').find('small').css('display','none');
+			jQuery('.traces-left-stats').find('small').css('display', 'none');
 		}
 		if (my.args.years.length === 2) {
 			$main.find('#traces-years').attr('class', 'double').html(my.args.years.map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
-			jQuery('.traces-left-stats').find('small').css('display','block');
+			jQuery('.traces-left-stats').find('small').css('display', 'block');
 		}
 		if (my.args.years.length > 2) {
 			$main.find('#traces-years').attr('class', 'triple').html('<em>' + my.args.years.length + ' tours entre </em>' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
-			jQuery('.traces-left-stats').find('small').css('display','block');
+			jQuery('.traces-left-stats').find('small').css('display', 'block');
 		}
 
 		// Stats
@@ -779,7 +796,7 @@ TDF.Traces = (function() {
 		$main.find(".nb_finishers .current").html(nb_finishers);
 
 		// Winners
-		if ((my.args.years.length === 1) && (my.args.years.join(',') !== '2013')) {
+		if ( my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013 ) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
