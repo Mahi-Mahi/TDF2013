@@ -377,13 +377,13 @@ TDF.Home = (function() {
 
 	my.autocomplete_init = function() {
 
-	// Overrides the default autocomplete filter function to search only from the beginning of the string
-	jQuery.ui.autocomplete.filter = function (array, term) {
-		var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
-			return jQuery.grep(array, function (value) {
-			return matcher.test(value.label || value.value || value);
-		});
-	};
+		// Overrides the default autocomplete filter function to search only from the beginning of the string
+		jQuery.ui.autocomplete.filter = function(array, term) {
+			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function(value) {
+				return matcher.test(value.label || value.value || value);
+			});
+		};
 
 		if (jQuery('#search').length) {
 
@@ -510,11 +510,11 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-                
+
 
 		function geocoding() {
-//                        searchInput.autocomplete( "close" );
-                    
+			//                        searchInput.autocomplete( "close" );
+
 			var address = searchInput.val();
 
 			geocoder.geocode({
@@ -529,15 +529,10 @@ TDF.CitySearch = (function() {
 
 		}
 
-                var searchInput = $main.find('#search');
+		var searchInput = $main.find('#search');
 		var form = $main.find('#city_search');
 		var geocoder = new google.maps.Geocoder();
 
-
-
-
-		
-		
 
 
 		searchInput.autocomplete({
@@ -547,12 +542,12 @@ TDF.CitySearch = (function() {
 				noResults: '',
 				results: function() {}
 			},
-                        select: function(  ) {
-                            geocoding();
-                        }
+			select: function() {
+				geocoding();
+			}
 		});
-                
-                if (searchInput.val().length > 0) {
+
+		if (searchInput.val().length > 0) {
 
 			//                    var address = searchInput.val();
 			//                    console.log('address : '+ address);
@@ -577,7 +572,7 @@ TDF.CitySearch = (function() {
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
-//                            geocoding();
+				//                            geocoding();
 			} else {
 
 			}
@@ -810,16 +805,16 @@ TDF.Traces = (function() {
 
 				trace = TDF.Data.traces[year];
 
-					for (stat in stats) {
-						if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
-							stats[stat].max.val = trace[stat];
-							stats[stat].max.year = year;
-						}
-						if ((trace[stat] < stats[stat].min.val && trace[stat]>0) || stats[stat].min.val == null) {
-							stats[stat].min.val = trace[stat];
-							stats[stat].min.year = year;
-						}
+				for (stat in stats) {
+					if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
+						stats[stat].max.val = trace[stat];
+						stats[stat].max.year = year;
 					}
+					if ((trace[stat] < stats[stat].min.val && trace[stat] > 0) || stats[stat].min.val == null) {
+						stats[stat].min.val = trace[stat];
+						stats[stat].min.year = year;
+					}
+				}
 
 			}
 			$timeline.append(items);
@@ -885,6 +880,11 @@ TDF.Traces = (function() {
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
 
+		console.log(my.args);
+		console.log(my.base_url + (my.args.city ? my.args.city + '/' : ''));
+		$main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
+
+
 		/*
 		// GTAB
 		gmap.createEtapes(my.args.years, TDF.Data.traces);
@@ -919,7 +919,7 @@ TDF.Traces = (function() {
 			nb_finishers = 0;
 		var trace;
 
-		jQuery(my.args.years).each(function(idx, year){
+		jQuery(my.args.years).each(function(idx, year) {
 			trace = TDF.Data.traces[year];
 			total_length += trace.total_length;
 			nb_legs += trace.nb_legs;
@@ -1410,6 +1410,30 @@ TDF.Fight = (function() {
 			my.fight('start');
 		});
 
+
+		$main.on('click', '.fight-home .random', function(event) {
+			event.preventDefault();
+			var fighter_id;
+			do {
+				fighter_id = my.sorted_fighters[Math.floor(Math.random() * my.sorted_fighters.length)].id;
+				console.log(fighter_id);
+			} while (fighter_id === my.args.fighter_one && fighter_id === my.args.fighter_two);
+			// $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).click();
+			var url;
+			console.log(jQuery(this).parent('.fighter'));
+			console.log(jQuery(this).parent('.fighter').data('fighter'));
+			if (jQuery(this).parent('.fighter').data('fighter') === 'fighter_one') {
+				url = fighter_id + '/' + (my.args.fighter_two ? my.args.fighter_two + '/' : '');
+			}
+			if (jQuery(this).parent('.fighter').data('fighter') === 'fighter_two') {
+				url = (my.args.fighter_one ? my.args.fighter_one + '/' : '') + fighter_id + '/';
+			}
+			console.log(url);
+			Path.history.pushState({}, "", my.base_url + url);
+			return false;
+		});
+
+
 		var tmp = [];
 		for (var i in TDF.Data.fighters) {
 			tmp.push(TDF.Data.fighters[i]);
@@ -1450,7 +1474,7 @@ TDF.Fight = (function() {
 
 		if (TDF.loadTemplate(this, '-home')) {}
 
-		if (my.args.fighter_one !== 'selector') {
+		if (my.args.fighter_one && my.args.fighter_one !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_one]) {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
 				fighter_data = TDF.Data.winners[my.args.fighter_one];
@@ -1465,15 +1489,18 @@ TDF.Fight = (function() {
 				$fighter.find('.random').hide();
 			}
 		} else {
+			console.log("fighter one empty");
 			$fighter = $main.find('.fighter_one');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('');
+			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$inner.find('#fighter_one_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
-			$fighter.find('.flag').css('display', 'block');
-			$fighter.find('.bio').css('display', 'block').html('');
+			$fighter.find('.flag').css('display', 'none');
+			$fighter.find('.bio').css('display', 'none').html('');
+			$fighter.find('.random').show();
 		}
 
-		if (my.args.fighter_two !== 'selector') {
+		if (my.args.fighter_two && my.args.fighter_two !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_two]) {
 				fighter = TDF.Data.fighters[my.args.fighter_two];
 				fighter_data = TDF.Data.winners[my.args.fighter_two];
@@ -1489,10 +1516,16 @@ TDF.Fight = (function() {
 				$fighter.find('.random').hide();
 			}
 		}
-
-		$main.find('.random').on('click', function() {
-			$main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).click();
-		});
+		else {
+			$fighter = $main.find('.fighter_two');
+			$fighter.data('id', '');
+			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$inner.find('#fighter_two_pic img').attr('src', '/img/duels/fighter-default.png');
+			$fighter.find('.flag img').attr('src', '');
+			$fighter.find('.flag').css('display', 'none');
+			$fighter.find('.bio').css('display', 'none').html('');
+			$fighter.find('.random').show();
+		}
 
 		if (my.args.fighter_one === 'selector') {
 			my.showSelector('fighter_one');
