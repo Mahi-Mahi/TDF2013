@@ -1919,7 +1919,9 @@ TDF.StreetView = (function() {
 			}, duration);
                         
                         
-                        my.gmapApi.showStreetView(my.args.place_id);
+//                        my.gmapApi.showStreetView(my.args.place_id);
+                        
+                        my.gmapApi.openInfoWindowPlace(my.args.place_id);
                         
 		} else {
 			$inner.find('.container').stop().animate({

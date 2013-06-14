@@ -53,6 +53,8 @@
         this.dashedlines = [];
         this.infosWindow = [];
         
+        this.streetViewOverlay = [];
+        
         this.animateInterval = null;
         
         this.panorama = null;
@@ -219,16 +221,14 @@
             }
             
             google.maps.event.addListener(this.map, "zoom_changed", function() { 
-                        var Z= self.map.getZoom();
-                        
-                        console.log("Z : " + Z);
-                        
-                        if (Z > self.settings.zoomMin) {
-                            self.map.setZoom(self.settings.zoomMin);
-                        }
-                        else if (Z < self.settings.zoomMax) {
-                            self.map.setZoom(self.settings.zoomMax);
-                        }
+                var Z= self.map.getZoom();
+
+                if (Z > self.settings.zoomMin) {
+                    self.map.setZoom(self.settings.zoomMin);
+                }
+                else if (Z < self.settings.zoomMax) {
+                    self.map.setZoom(self.settings.zoomMax);
+                }
             });
             
             
@@ -413,10 +413,12 @@
                                 var markerIcon = (multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
+                                self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
+                                self.createInfoWindowTrace(marker, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
@@ -424,6 +426,7 @@
                                 var line;
                                 var weight = (multiple)? 1 : 2;
                                 line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true, weight);
+//                                self.createInfoWindowTrace(line, etape.year, false);
                                 self.tours[year]['lines'].push(line);           
                             }
 
@@ -458,12 +461,41 @@
             
             if(repositionne)
                 self.map.fitBounds(this.mapBounds);
-            
-            
-            
-            
+   
         },
         
+        
+        createInfoWindowTrace: function(object, data){
+            var self = this;
+            
+            var contentString = '<p>'+ data +'</p>';
+
+            var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+            });
+
+            self.infosWindow.push(infowindow);
+
+            google.maps.event.addListener(object, 'mouseover', function() {
+//                console.log('over qqch');
+//                if(isMarker){
+                    infowindow.open(self.map, this);
+//                }
+//                else{
+//                    infowindow.open(self.map, new google.maps.LatLng(45.969968, 2.680664));
+//                }
+            });
+
+            google.maps.event.addListener(object, 'mouseout', function() {
+                infowindow.close();
+            });
+        },
+        
+        
+        /**
+         * changeOpacity
+         *
+         */
         changeOpacity: function(year){
             var self = this;
             
@@ -503,6 +535,10 @@
             
         },
         
+        /**
+         * changeOpacityBack
+         *
+         */
         changeOpacityBack: function(year){
             var self = this;
             
@@ -683,6 +719,14 @@
             });
 
             this.lines.push(line);
+            
+            google.maps.event.addListener(line, 'mouseover', function() {
+                
+                console.log("over live");
+//                myInfoWindow.open(mymap);
+                // mymap represents the map you created using google.maps.Map
+            });
+            
             
             return line;
         },
@@ -1134,10 +1178,14 @@
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
                 });
+                
+                
+                var overlays = {id: streetViewPoint.id, infowindow: infowindow, marker:marker};
+                
+                self.streetViewOverlay.push(overlays);
                
                 google.maps.event.addListener(marker, 'click', function() {
-                    console.log("click on maarker");
-                    
+
                     infowindow.open(self.map, marker);
                 });
                
@@ -1245,9 +1293,7 @@
             
             this.panorama.setVisible(true);
             
-            
-            console.log("center : " + center);
-            
+      
             this.minimap.setStreetView(this.panorama);
             this.minimap.setCenter(center);
             
@@ -1462,6 +1508,19 @@
             zoneMap.width(742);
             zoneMap.height(500);
             
+        },
+        
+        openInfoWindowPlace: function(id){
+          var self = this;
+          
+          $.each(self.streetViewOverlay, function(i, overlay){
+             
+             if(id == overlay.id){
+                 overlay.infowindow.open(self.map, overlay.marker);
+             }
+             
+          });
+          
         },
 
         
