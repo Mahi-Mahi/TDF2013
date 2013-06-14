@@ -377,6 +377,13 @@ TDF.Home = (function() {
 
 	my.autocomplete_init = function() {
 
+	// Overrides the default autocomplete filter function to search only from the beginning of the string
+	jQuery.ui.autocomplete.filter = function (array, term) {
+		var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function (value) {
+			return matcher.test(value.label || value.value || value);
+		});
+	};
 
 		if (jQuery('#search').length) {
 
