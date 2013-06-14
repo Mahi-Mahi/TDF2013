@@ -849,7 +849,7 @@ TDF.Traces = (function() {
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
 			if (my.args.city !== undefined) {
-				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
 			}
 
 			this.initializeGmap();
