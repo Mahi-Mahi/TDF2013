@@ -1839,10 +1839,10 @@ TDF.StreetView = (function() {
 					anchorX: 11,
 					anchorY: 32
 				}, {
-					url: "/img/lieux/pin-hyperlapse.png",
-					width: 31,
+					url: "/img/lieux/lieux_pin_hyperlapse.png",
+					width: 23,
 					height: 32,
-					anchorX: 5,
+					anchorX: 11,
 					anchorY: 32
 				},{
 					url: "/img/lieux/lieux_hyperlapse_pinA.png",
