@@ -922,12 +922,17 @@ TDF.Traces = (function() {
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
 				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_big.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
+				$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
+				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 			} else {
+				$main.find('.traces-right').addClass('disabled');
 				$main.find('.winner .name').text('');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
+				$main.find('.winner .total_time').html('');
+				$main.find('.winner .average_speed').html('');
+				$main.find('.winner .winner-pic').attr('src', '/img/traces/vainqueur_silhouette.png');
+				$main.find('.winner .winner-status').html('');
 			}
-			$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
-			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 
 			if (trace.second_id) {
 				$main.find('.second .name').html('<a href="/vainqueurs/' + trace.second_id + '/">' + trace.second_name + '</a>');
