@@ -377,13 +377,13 @@ TDF.Home = (function() {
 
 	my.autocomplete_init = function() {
 
-	// Overrides the default autocomplete filter function to search only from the beginning of the string
-	jQuery.ui.autocomplete.filter = function (array, term) {
-		var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
-			return jQuery.grep(array, function (value) {
-			return matcher.test(value.label || value.value || value);
-		});
-	};
+		// Overrides the default autocomplete filter function to search only from the beginning of the string
+		jQuery.ui.autocomplete.filter = function(array, term) {
+			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function(value) {
+				return matcher.test(value.label || value.value || value);
+			});
+		};
 
 		if (jQuery('#search').length) {
 
@@ -476,8 +476,6 @@ TDF.CitySearch = (function() {
 
 	my.initializeGmap = function() {
 
-		console.log("init map recherche");
-
 		//Config Gmap
 		var mapId = 'gmap-search';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -510,11 +508,11 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-                
+
 
 		function geocoding() {
-//                        searchInput.autocomplete( "close" );
-                    
+			//                        searchInput.autocomplete( "close" );
+
 			var address = searchInput.val();
 
 			geocoder.geocode({
@@ -529,15 +527,10 @@ TDF.CitySearch = (function() {
 
 		}
 
-                var searchInput = $main.find('#search');
+		var searchInput = $main.find('#search');
 		var form = $main.find('#city_search');
 		var geocoder = new google.maps.Geocoder();
 
-
-
-
-		
-		
 
 
 		searchInput.autocomplete({
@@ -547,12 +540,12 @@ TDF.CitySearch = (function() {
 				noResults: '',
 				results: function() {}
 			},
-                        select: function(  ) {
-                            geocoding();
-                        }
+			select: function() {
+				geocoding();
+			}
 		});
-                
-                if (searchInput.val().length > 0) {
+
+		if (searchInput.val().length > 0) {
 
 			//                    var address = searchInput.val();
 			//                    console.log('address : '+ address);
@@ -577,7 +570,7 @@ TDF.CitySearch = (function() {
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
-//                            geocoding();
+				//                            geocoding();
 			} else {
 
 			}
@@ -810,16 +803,16 @@ TDF.Traces = (function() {
 
 				trace = TDF.Data.traces[year];
 
-					for (stat in stats) {
-						if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
-							stats[stat].max.val = trace[stat];
-							stats[stat].max.year = year;
-						}
-						if ((trace[stat] < stats[stat].min.val && trace[stat]>0) || stats[stat].min.val == null) {
-							stats[stat].min.val = trace[stat];
-							stats[stat].min.year = year;
-						}
+				for (stat in stats) {
+					if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
+						stats[stat].max.val = trace[stat];
+						stats[stat].max.year = year;
 					}
+					if ((trace[stat] < stats[stat].min.val && trace[stat] > 0) || stats[stat].min.val == null) {
+						stats[stat].min.val = trace[stat];
+						stats[stat].min.year = year;
+					}
+				}
 
 			}
 			$timeline.append(items);
@@ -885,6 +878,9 @@ TDF.Traces = (function() {
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
 
+		$main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
+
+
 		/*
 		// GTAB
 		gmap.createEtapes(my.args.years, TDF.Data.traces);
@@ -919,7 +915,7 @@ TDF.Traces = (function() {
 			nb_finishers = 0;
 		var trace;
 
-		jQuery(my.args.years).each(function(idx, year){
+		jQuery(my.args.years).each(function(idx, year) {
 			trace = TDF.Data.traces[year];
 			total_length += trace.total_length;
 			nb_legs += trace.nb_legs;
@@ -952,7 +948,7 @@ TDF.Traces = (function() {
 				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 			} else {
 				$main.find('.traces-right').addClass('disabled');
-				$main.find('.winner .name').text('');
+				$main.find('.winner .name').html('<center>Lance Armstrong<br />Déclassé</center>');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 				$main.find('.winner .total_time').html('');
 				$main.find('.winner .average_speed').html('');
@@ -1316,29 +1312,27 @@ TDF.Winners = (function() {
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
-
-			$inner.find(".tours a[title]").tooltip({
-				position: {
-					my: "center bottom-20",
-					at: "center top",
-					content: function() {
-						var element = jQuery(this);
-						return element.attr("title");
-					},
-					using: function(position, feedback) {
-						jQuery(this).css(position);
-						jQuery("<div>")
-							.addClass("arrow")
-							.addClass(feedback.vertical)
-							.addClass(feedback.horizontal)
-							.appendTo(this);
+			$winner.slideDown('slow', function() {
+				$inner.find(".tours a[title]").tooltip({
+					position: {
+						my: "center bottom-20",
+						at: "center top",
+						content: function() {
+							var element = jQuery(this);
+							return element.attr("title");
+						},
+						using: function(position, feedback) {
+							jQuery(this).css(position);
+							jQuery("<div>")
+								.addClass("arrow")
+								.addClass(feedback.vertical)
+								.addClass(feedback.horizontal)
+								.appendTo(this);
+						}
 					}
-				}
-			}); //.tooltip('open');
-
-			$winner.slideDown();
+				});
+			});
 		}
-
 	};
 
 	my.filter = function() {
@@ -1410,6 +1404,26 @@ TDF.Fight = (function() {
 			my.fight('start');
 		});
 
+
+		$main.on('click', '.fight-home .random', function(event) {
+			event.preventDefault();
+			var fighter_id;
+			do {
+				fighter_id = my.sorted_fighters[Math.floor(Math.random() * my.sorted_fighters.length)].id;
+			} while (fighter_id === my.args.fighter_one && fighter_id === my.args.fighter_two);
+			// $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).click();
+			var url;
+			if (jQuery(this).parent('.fighter').data('fighter') === 'fighter_one') {
+				url = fighter_id + '/' + (my.args.fighter_two ? my.args.fighter_two + '/' : '');
+			}
+			if (jQuery(this).parent('.fighter').data('fighter') === 'fighter_two') {
+				url = (my.args.fighter_one ? my.args.fighter_one + '/' : '') + fighter_id + '/';
+			}
+			Path.history.pushState({}, "", my.base_url + url);
+			return false;
+		});
+
+
 		var tmp = [];
 		for (var i in TDF.Data.fighters) {
 			tmp.push(TDF.Data.fighters[i]);
@@ -1450,7 +1464,7 @@ TDF.Fight = (function() {
 
 		if (TDF.loadTemplate(this, '-home')) {}
 
-		if (my.args.fighter_one !== 'selector') {
+		if (my.args.fighter_one && my.args.fighter_one !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_one]) {
 				fighter = TDF.Data.fighters[my.args.fighter_one];
 				fighter_data = TDF.Data.winners[my.args.fighter_one];
@@ -1462,17 +1476,20 @@ TDF.Fight = (function() {
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.random').hide();
 			}
 		} else {
 			$fighter = $main.find('.fighter_one');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('');
+			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$inner.find('#fighter_one_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
-			$fighter.find('.flag').css('display', 'block');
-			$fighter.find('.bio').css('display', 'block').html('');
+			$fighter.find('.flag').css('display', 'none');
+			$fighter.find('.bio').css('display', 'none').html('');
+			$fighter.find('.random').show();
 		}
 
-		if (my.args.fighter_two !== 'selector') {
+		if (my.args.fighter_two && my.args.fighter_two !== 'selector') {
 			if (TDF.Data.fighters[my.args.fighter_two]) {
 				fighter = TDF.Data.fighters[my.args.fighter_two];
 				fighter_data = TDF.Data.winners[my.args.fighter_two];
@@ -1485,7 +1502,18 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.random').hide();
 			}
+		}
+		else {
+			$fighter = $main.find('.fighter_two');
+			$fighter.data('id', '');
+			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$inner.find('#fighter_two_pic img').attr('src', '/img/duels/fighter-default.png');
+			$fighter.find('.flag img').attr('src', '');
+			$fighter.find('.flag').css('display', 'none');
+			$fighter.find('.bio').css('display', 'none').html('');
+			$fighter.find('.random').show();
 		}
 
 		if (my.args.fighter_one === 'selector') {
@@ -1588,8 +1616,6 @@ TDF.Fight = (function() {
 		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
 
-		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
-
 		$inner.find('.tabs').tabify();
 	};
 
@@ -1597,6 +1623,28 @@ TDF.Fight = (function() {
 
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
+
+
+		// calcul des positions relatives
+
+		my.steps = [];
+		my.steps[0] = [0, 0];
+
+		for (var i = 1; i < 6; i++) {
+			my.steps[i] = [
+				my.steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
+				my.steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
+			];
+		}
+		my.steps[6] = [0, 0];
+		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+
+		if ( my.steps[7][0] < my.steps[7][1] ){
+			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
+			return;
+		}
+
+
 
 		if (TDF.loadTemplate(this, '-start')) {
 
@@ -1608,6 +1656,9 @@ TDF.Fight = (function() {
 
 		var $fighter_one = $main.find('.fighter_one');
 		var $fighter_two = $main.find('.fighter_two');
+
+		$fighter_one.attr('class', 'fighter fighter_one');
+		$fighter_two.attr('class', 'fighter fighter_two');
 
 		$fighter_one.find('.name').html(fighter_one.first_name + ' ' + fighter_one.last_name);
 		$fighter_two.find('.name').html(fighter_two.first_name + ' ' + fighter_two.last_name);
@@ -1628,20 +1679,6 @@ TDF.Fight = (function() {
 		if (fighter_two.steps[5] > 0) {
 			$fighter_two.addClass('has_won');
 		}
-
-		// calcul des positions relatives
-
-		my.steps = [];
-		my.steps[0] = [0, 0];
-
-		for (var i = 1; i < 6; i++) {
-			my.steps[i] = [
-				my.steps[i - 1][0] + (fighter_one.steps[i] - fighter_two.steps[i]),
-				my.steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
-			];
-		}
-		my.steps[6] = [0, 0];
-		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
 		var ratio = 3.12;
 		var max_space = 400;
@@ -1743,6 +1780,10 @@ TDF.Fight = (function() {
 					'margin-left': diff[1] + 'px'
 				});
 
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
+				$fighter_two.find('.fighter-infos').show();
+
 				if (my.args.step === 7 || my.args.step === 'results') {
 					if (diff[0] >= diff[1]) {
 						$fighter_one.addClass('winner');
@@ -1755,12 +1796,14 @@ TDF.Fight = (function() {
 						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
 						$fighter_two.find('.fighter-infos').hide();
 					}
+					if( jQuery('.fighter.winner').length === 1){
+						console.log('winner result');
+						$fighter_one.find('.result').html(my.winner_result(fighter_one));
+						$fighter_two.find('.fighter-infos').hide();
+					}
 				}
-				$fighter_one.find('.result').html(fighter_one_result);
-				$fighter_two.find('.result').html(fighter_two_result);
 
-				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
-
+				$inner.find('.title div').html(step_title).attr('class', step_class);
 
 				if (my.args.step < 7) {
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
@@ -1885,6 +1928,7 @@ TDF.StreetView = (function() {
 
 		var map = $inner.find("#" + mapId);
 
+
 		var mapOptions = {
 			minimap: "minimap",
 			hyperlapseId: "gmap-hyperlapse",
@@ -1939,8 +1983,7 @@ TDF.StreetView = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
-                
-                
+
 	};
 
 
@@ -1965,7 +2008,6 @@ TDF.StreetView = (function() {
 			$template = jQuery('#template-streetview-place');
 			for (place_id in TDF.Data.places) {
 				place = TDF.Data.places[place_id];
-				console.log(place);
 				content = $template.html()
 					.replace(':place_id', place_id)
 					.replace(':place_url', my.base_url + place_id + '/')
