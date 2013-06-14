@@ -540,7 +540,10 @@ TDF.CitySearch = (function() {
 			messages: {
 				noResults: '',
 				results: function() {}
-			}
+			},
+                        select: function(  ) {
+                            geocoding();
+                        }
 		});
 
 
@@ -557,7 +560,7 @@ TDF.CitySearch = (function() {
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
-
+//                            geocoding();
 			} else {
 
 			}
