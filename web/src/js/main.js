@@ -1312,29 +1312,27 @@ TDF.Winners = (function() {
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
-
-			$inner.find(".tours a[title]").tooltip({
-				position: {
-					my: "center bottom-20",
-					at: "center top",
-					content: function() {
-						var element = jQuery(this);
-						return element.attr("title");
-					},
-					using: function(position, feedback) {
-						jQuery(this).css(position);
-						jQuery("<div>")
-							.addClass("arrow")
-							.addClass(feedback.vertical)
-							.addClass(feedback.horizontal)
-							.appendTo(this);
+			$winner.slideDown('slow', function() {
+				$inner.find(".tours a[title]").tooltip({
+					position: {
+						my: "center bottom-20",
+						at: "center top",
+						content: function() {
+							var element = jQuery(this);
+							return element.attr("title");
+						},
+						using: function(position, feedback) {
+							jQuery(this).css(position);
+							jQuery("<div>")
+								.addClass("arrow")
+								.addClass(feedback.vertical)
+								.addClass(feedback.horizontal)
+								.appendTo(this);
+						}
 					}
-				}
-			}); //.tooltip('open');
-
-			$winner.slideDown();
+				});
+			});
 		}
-
 	};
 
 	my.filter = function() {
@@ -1930,6 +1928,7 @@ TDF.StreetView = (function() {
 
 		var map = $inner.find("#" + mapId);
 
+
 		var mapOptions = {
 			minimap: "minimap",
 			hyperlapseId: "gmap-hyperlapse",
@@ -1978,6 +1977,7 @@ TDF.StreetView = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
+
 	};
 
 
