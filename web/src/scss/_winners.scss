@@ -488,6 +488,11 @@
 	padding:0;
 }
 
+.traces-right .winner-pic {
+	height:160px;
+	width:auto;
+}
+
 .stats .total_time, .stats .average_speed {
 	background:url(/img/traces/icon-time.png) 50% 8px no-repeat;
 	display:block;
@@ -525,13 +530,13 @@
 .podium {
 	background:url(/img/traces/bg-podium.png) left top no-repeat;
 	height:43px;
-	margin:10px 15px 0 15px;
+	margin:-5px 15px 15px 15px;
 }
 
 .podium .pos {
 	display:block;
 	float: left;
-	font:400 30px/1 'Lato', Verdana, Arial, sans-serif;
+	font:700 30px/1 'Lato', Verdana, Arial, sans-serif;
 	height:43px;
 	margin:0 5px 0 0;
 	text-align:center;
@@ -539,7 +544,8 @@
 }
 
 .pos sup {
-	font-size:25px;
+	font-size:22px;
+	font-weight:400;
 }
 
 .traces-right .podium .name {
@@ -551,12 +557,14 @@
 .podium .flag {
 	display:inline-block;
 	vertical-align:top;
+	margin:-5px 0 0 0;
 }
 
 .traces-right .ahead_of_second, .traces-right .ahead_of_third {
 	display:inline-block;
 	font:400 12px/1.1 'Lato', Verdana, Arial, sans-serif;
 	vertical-align:top;
+	margin:-5px 0 0 0;
 }
 
 .filters {
