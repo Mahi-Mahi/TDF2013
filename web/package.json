@@ -23,6 +23,7 @@
     "grunt-img": "latest",
     "grunt-bower": "latest",
     "bower": "latest",
-    "grunt-contrib-compass": "~0.2.0"
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-notify": "~0.2.4"
   }
 }

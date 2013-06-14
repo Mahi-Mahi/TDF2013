@@ -378,12 +378,14 @@ TDF.Home = (function() {
 	my.autocomplete_init = function() {
 
 
-
 		if (jQuery('#search').length) {
 
 			jQuery("#search").autocomplete({
 				minLength: 0,
 				source: TDF.Data.cities,
+				open : function(){
+					jQuery(".ui-autocomplete:visible").css({top:"+=4",left:"-=10"});
+				},
 				messages: {
 					noResults: '',
 					results: function() {}
@@ -418,7 +420,7 @@ TDF.Home = (function() {
 
 				}
 			});
-                */
+				*/
 
 		}
 
@@ -464,7 +466,7 @@ TDF.CitySearch = (function() {
 
 	my.initializeGmap = function() {
 
-                console.log("init map recherche");
+		console.log("init map recherche");
 
 		//Config Gmap
 		var mapId = 'gmap-search';
@@ -479,9 +481,9 @@ TDF.CitySearch = (function() {
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
-                        mapTypeControl: false,
-                        panControl: false,
-                        streetViewControl: false,
+			mapTypeControl: false,
+			panControl: false,
+			streetViewControl: false,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -498,83 +500,84 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-            
-                function geocoding(){
-                    var address = searchInput.val();
 
-                    geocoder.geocode( { 'address': address}, function(results, status) {
-                        if (status === google.maps.GeocoderStatus.OK) {
-                            my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
-                        } 
-                        else {
-                            console.log('Geocode was not successful for the following reason: ' + status);
-                        }
-                    });
+		function geocoding() {
+			var address = searchInput.val();
 
-                }
-            
+			geocoder.geocode({
+				'address': address
+			}, function(results, status) {
+				if (status === google.maps.GeocoderStatus.OK) {
+					my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
+				} else {
+					console.log('Geocode was not successful for the following reason: ' + status);
+				}
+			});
 
-                var searchInput = $main.find('#search');
-                var form = $main.find('#city_search');
-                var geocoder = new google.maps.Geocoder();
-
-    
-                if(searchInput.val().length > 0){
-                    
-//                    var address = searchInput.val();
-//                    console.log('address : '+ address);
-//                    address.replace(/%20/, ' ');
-//                    console.log('address2 : '+ address);
-//                    searchInput.val(address);
-                    
-                    geocoding();
-                }
-                    
-    
-                searchInput.autocomplete({
-                    minLength: 0,
-                    source: TDF.Data.cities,
-                    messages: {
-                        noResults: '',
-                        results: function() {}
-                    }
-                });
+		}
 
 
-
-                form.submit(function() {
-
-                    geocoding();
-                    
-                    Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
-
-                    return false;
-                });
+		var searchInput = $main.find('#search');
+		var form = $main.find('#city_search');
+		var geocoder = new google.maps.Geocoder();
 
 
-                searchInput.bind('keydown', function(e) {
-                    if (e.keyCode === 13) {
+		if (searchInput.val().length > 0) {
 
-                    } 
-                    else {
+			//                    var address = searchInput.val();
+			//                    console.log('address : '+ address);
+			//                    address.replace(/%20/, ' ');
+			//                    console.log('address2 : '+ address);
+			//                    searchInput.val(address);
 
-                    }
-                });
-                
-                
-		$main.on('change', '.selectYearSearch', function(event) {
-                    event.preventDefault();	
-                    
-                    var year = jQuery(this).val();
-                    
-                    if(year === -1){
-                        return false;
-                    }
-                    
-                    Path.history.pushState({}, "", '/traces/' + year +'/');
+			geocoding();
+		}
+
+
+		searchInput.autocomplete({
+			minLength: 0,
+			source: TDF.Data.cities,
+			messages: {
+				noResults: '',
+				results: function() {}
+			}
 		});
-                
-                
+
+
+
+		form.submit(function() {
+
+			geocoding();
+
+			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+
+			return false;
+		});
+
+
+		searchInput.bind('keydown', function(e) {
+			if (e.keyCode === 13) {
+
+			} else {
+
+			}
+		});
+
+
+		$main.on('change', '.selectYearSearch', function(event) {
+			event.preventDefault();
+
+			var year = jQuery(this).val();
+
+			if (year === -1) {
+				return false;
+			}
+
+			Path.history.pushState({}, "", '/traces/' + year + '/');
+
+		});
+
+
 
 	};
 
@@ -609,11 +612,22 @@ TDF.Traces = (function() {
 			if (jQuery(this).prop('checked')) {
 				$inner.find('#multi-select').prop('checked', true);
 				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
+
+				var years = [];
+				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+					years.push(jQuery(this).val());
+				});
+				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
+
+			} else {
+				Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2013') + '/');
 			}
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-			if (jQuery(this).prop('checked')) {} else {
+			if (jQuery(this).prop('checked')) {
+				// Path.history.pushState({}, "", my.base_url + '2013/');
+			} else {
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
 				}
@@ -670,10 +684,12 @@ TDF.Traces = (function() {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
-                        panControl: false,
-                        streetViewControl: false,
-                        zoomMin: 8,
-                        zoomMax: 5,
+
+			panControl: false,
+			streetViewControl: false,
+			zoomMin: 8,
+			zoomMax: 5,
+
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -709,8 +725,7 @@ TDF.Traces = (function() {
 			],
 			styles: mapStyleTrace
 		};
-                
-                
+
 
 
 		my.gmapApi = map.gmapApi(mapOptions);
@@ -792,7 +807,7 @@ TDF.Traces = (function() {
 			$squares.append(squares);
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
-			var slider_default = 100; // (my.args.years.min() - 1903) / 110 * 100;
+			var slider_default = (my.args.years.min() - 1903) / 110 * 100;
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
 				slide: function(event, ui) {
@@ -847,6 +862,11 @@ TDF.Traces = (function() {
 
 
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
+
+		$main.find(".timeline .slider").slider({
+			value: (my.args.years.min() - 1903) / 110 * 100
+		});
+
 
 		/*
 		// GTAB
@@ -908,14 +928,19 @@ TDF.Traces = (function() {
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
-				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
+				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_big.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
+				$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
+				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 			} else {
+				$main.find('.traces-right').addClass('disabled');
 				$main.find('.winner .name').text('');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
+				$main.find('.winner .total_time').html('');
+				$main.find('.winner .average_speed').html('');
+				$main.find('.winner .winner-pic').attr('src', '/img/traces/vainqueur_silhouette.png');
+				$main.find('.winner .winner-status').html('');
 			}
-			$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
-			$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 
 			if (trace.second_id) {
 				$main.find('.second .name').html('<a href="/vainqueurs/' + trace.second_id + '/">' + trace.second_name + '</a>');
@@ -959,6 +984,8 @@ TDF.Traces = (function() {
 
 		}
 
+
+
 	};
 
 	return my;
@@ -980,6 +1007,19 @@ TDF.Winners = (function() {
 
 		$main.on('keyup', '.winners #winner_search', function() {
 			Path.history.pushState({}, "", my.getQueryString());
+		});
+		$main.on('click', '.winners .reset', function() {
+			$main.find('.filters #nationality').selectbox('change', '');
+			$main.find('.filters #nationality').selectbox('detach');
+			$main.find('.filters #nationality').selectbox('attach');
+
+			$main.find('#winner_search').val('');
+
+			var age = $main.find(".filters .age .slider");
+			age.slider('option', 'values', [age.slider('option', 'min'), age.slider('option', 'max')]);
+
+			var nb_wins = $main.find(".filters .nb_wins .slider");
+			nb_wins.slider('option', 'values', [nb_wins.slider('option', 'min'), nb_wins.slider('option', 'max')]);
 		});
 
 		var tmp = [];
@@ -1039,7 +1079,8 @@ TDF.Winners = (function() {
 		$main.find('.winner').each(function() {
 			jQuery(this).find('a').attr('href', query_string + jQuery(this).data('winner-id') + '/');
 		});
-		jQuery('#close').attr('href', query_string);
+		$main.find('#close').attr('href', query_string);
+		$main.find('.reset').attr('href', my.base_url + (my.args.winner_id ? my.args.winner_id + '/' : ''));
 
 	};
 
@@ -1200,8 +1241,9 @@ TDF.Winners = (function() {
 				nb_tours = years.max() - years.min();
 			var i;
 
-			for (i = 0; i < Math.floor((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
+			var suppl_years = Math.floor((visible_tours - nb_tours) / 2);
+			for (i = 0; i < suppl_years; i++) {
+				winner_tours.push('<li class="empty"><div class="year">' + (years.min() - suppl_years + i) + '</div></li>');
 			}
 
 			for (year = years.min(); year <= years.max(); year++) {
@@ -1232,7 +1274,7 @@ TDF.Winners = (function() {
 							case 'Eliminé':
 							case 'Forfait':
 								tour.position = 'Elimine';
-								pos_title = 'E';
+								pos_title = 'X';
 								bulle = '';
 								break;
 						}
@@ -1250,8 +1292,9 @@ TDF.Winners = (function() {
 				}
 			}
 
-			for (i = 0; i < Math.ceil((visible_tours - nb_tours) / 2); i++) {
-				winner_tours.push('<li class="empty"><div class="year">' + year + '</div></li>');
+			suppl_years = Math.ceil((visible_tours - nb_tours) / 2);
+			for (i = 0; i < suppl_years; i++) {
+				winner_tours.push('<li class="empty"><div class="year">' + (years.max() + i + 1) + '</div></li>');
 			}
 
 			$winner.find('.tours').html(winner_tours.join(' '));
@@ -1360,10 +1403,10 @@ TDF.Fight = (function() {
 			if (a.nb_wins > 0 && b.nb_wins === 0) {
 				return 1;
 			}
-			if ( TDF.Data.winners[a.id] === undefined ){
+			if (TDF.Data.winners[a.id] === undefined) {
 				return -1;
 			}
-			if ( TDF.Data.winners[b.id] === undefined ){
+			if (TDF.Data.winners[b.id] === undefined) {
 				return -1;
 			}
 			if (TDF.Data.winners[a.id].wins.max() < TDF.Data.winners[b.id].wins.max()) {
@@ -1801,6 +1844,13 @@ TDF.StreetView = (function() {
 
 	my.init = function() {
 
+		$main.on('click', '.streetview .streetview-list a', function(event){
+			event.preventDefault();
+			// my.gmapApi.stopStreetView();
+			// my.gmapApi.showStreetView(jQuery(this).data('id'));
+			return false;
+		});
+
 	};
 
 
@@ -1810,23 +1860,23 @@ TDF.StreetView = (function() {
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
 		var startlat = 45.969968;
 		var startlng = 2.680664;
-//		var startlat = 47.754098;
-//		var startlng = 3.669434;
+		//		var startlat = 47.754098;
+		//		var startlng = 3.669434;
 		var zoom = 6;
 
 		var map = $inner.find("#" + mapId);
 
 		var mapOptions = {
 			minimap: "minimap",
-                        hyperlapseId: "gmap-hyperlapse",
-                        hyperlapseLoading: my.hyperlapseLoading,
+			hyperlapseId: "gmap-hyperlapse",
+			hyperlapseLoading: my.hyperlapseLoading,
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
-                        panControl: false,
-                        streetViewControl: false,
-                        zoomMin: 8,
-                        zoomMax: 6,
+			panControl: false,
+			streetViewControl: false,
+			zoomMin: 8,
+			zoomMax: 6,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -1844,7 +1894,7 @@ TDF.StreetView = (function() {
 					height: 32,
 					anchorX: 11,
 					anchorY: 32
-				},{
+				}, {
 					url: "/img/lieux/lieux_hyperlapse_pinA.png",
 					width: 51,
 					height: 51,
@@ -1865,24 +1915,22 @@ TDF.StreetView = (function() {
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
 	};
-        
-        
-        my.hyperlapseLoading = function(current, total){
-            var loader = jQuery('#hyperlapseLoading');
-            
-            loader.show();
-            loader.html(current + "/" + total);
-            
-            if(current === total){
-                loader.hide();
-            }  
-        };
+
+
+	my.hyperlapseLoading = function(current, total) {
+		var loader = jQuery('#hyperlapseLoading');
+
+		loader.show();
+		loader.html(current + "/" + total);
+
+		if (current === total) {
+			loader.hide();
+		}
+	};
 
 	my.render = function(args) {
 
 		my.args = args;
-                
-               
 
 		if (TDF.loadTemplate(this)) {
 			var place_id, place, places_list = [],
@@ -1890,9 +1938,11 @@ TDF.StreetView = (function() {
 			$template = jQuery('#template-streetview-place');
 			for (place_id in TDF.Data.places) {
 				place = TDF.Data.places[place_id];
+				console.log(place);
 				content = $template.html()
+					.replace(':place_id', place_id)
 					.replace(':place_url', my.base_url + place_id + '/')
-					.replace(':place_type', place.hyperlapse ? 'hyperlapse' : 'streetview')
+					.replace(':place_type', place.type === 'Hyperlapse' ? 'hyperlapse' : 'streetview')
 					.replace(':place_title', place.name)
 					.replace(':place_pic', '/img/streetview/thumbnails/' + place.id + '.jpg');
 				places_list.push(content);
@@ -1905,9 +1955,9 @@ TDF.StreetView = (function() {
 			});
 
 		}
-                
-                
-                this.initializeGmap();
+
+
+		this.initializeGmap();
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
@@ -1917,21 +1967,23 @@ TDF.StreetView = (function() {
 			$inner.find('.container').stop().animate({
 				left: '-258px'
 			}, duration);
+
                         
                         
 //                        my.gmapApi.showStreetView(my.args.place_id);
                         
                         my.gmapApi.openInfoWindowPlace(my.args.place_id);
                         
+
 		} else {
 			$inner.find('.container').stop().animate({
 				left: '0px'
 			}, duration);
-                        
-                        my.gmapApi.stopStreetView();
+
+			my.gmapApi.stopStreetView();
 		}
 
-		
+
 
 	};
 

@@ -151,7 +151,7 @@
 						</div><!-- .timeline-left -->
 						<div class="timeline-right">
 							<div class="selectors">
-								<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">MultiSelection</label>
+								<label for="multi-select"><input type="checkbox" name="multi-select" id="multi-select">Multi-sélection</label>
 								<label for="select-all"><input type="checkbox" name="select-all" id="select-all">Voir les 100 tracés</label>
 							</div>
 						</div><!-- .timeline-right -->
@@ -201,7 +201,7 @@
 							<li class="winner">Vainqueur</li>
 							<li class="position">Classement</li>
 							<li class="leg_win">Victoire d'étape</li>
-							<li class="abandon">Eliminé</li>
+							<li class="abandon">Elimination / Abandon</li>
 						</ul>
 					</div>
 				</div><!-- .top-winner-stats -->
@@ -238,7 +238,7 @@
 
 			<div class="template" id="template-streetview-place">
 				<li>
-					<a href=":place_url">
+					<a href=":place_url" data-id=":place_id">
 						<img src=":place_pic" alt="">
 						<div class="title">:place_title</div>
 						<div class=":place_type"></div>
@@ -272,7 +272,7 @@
 							<div class="detail-body">
 								<div class="desc"></div>
 							</div>
-                                                    
+
                                                         <div id="minimap" class=""></div>
 
 						</div>
@@ -286,12 +286,12 @@
 
                                     <div id="gmap-hyperlapse" class="hide">
                                         <span id="hyperlapseLoading">Chargement...</span>
-                                        
+
                                     </div>
-                                    
+
                                     <div id="gmap-streetview" class="">
                                     </div>
-                                    
+
 				</div><!-- .streetview-right -->
 
 				<footer></footer>
