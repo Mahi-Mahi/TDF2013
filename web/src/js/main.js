@@ -77,18 +77,18 @@ var TDF = (function() {
 		});
 
 		// City
-		Path.map("/ville/:city_id/").to(function() {
+		Path.map("/ville/:city/").to(function() {
 			TDF.render('city', {
-				city_id: this.params['city_id']
+				city: this.params['city']
 			});
 		});
 
 		// Traces
-		Path.map("/traces/(:years/)(:city_id/)").to(function() {
+		Path.map("/traces/(:years/)(:city/)").to(function() {
 			if (this.params['years'] === undefined) {
 				TDF.render('traces');
 			} else {
-				if (this.params['city_id'] === undefined) {
+				if (this.params['city'] === undefined) {
 					if (this.params['years'].match(/^[\d\,]+$/)) {
 						TDF.render('traces', {
 							years: this.params['years']
@@ -102,7 +102,7 @@ var TDF = (function() {
 				} else {
 					TDF.render('traces', {
 						years: this.params['years'],
-						city_id: this.params['city_id']
+						city: this.params['city']
 					});
 				}
 			}
@@ -856,13 +856,17 @@ TDF.Traces = (function() {
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
-			if (my.args.city !== undefined) {
-				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
-			}
-
 			this.initializeGmap();
 
 		}
+
+		if (my.args.city === undefined) {
+			$main.find('.map-container .city').hide();
+		} else {
+			$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
+			$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city + '/');
+		}
+
 
 		this.setYears();
 	};
@@ -893,7 +897,7 @@ TDF.Traces = (function() {
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
 
-		$main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
+		// $main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
 
 
 		/*
@@ -978,7 +982,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.second .pos').html('2<sup>e</sup>');
 			$main.find('.second .flag img').attr('src', '/img/drapeaux/' + trace.second_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd);
+			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
 
 			if (trace.third_id) {
 				$main.find('.third .name').html('<a href="/vainqueurs/' + trace.third_id + '/">' + trace.third_name + '</a>');
@@ -987,7 +991,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.third .pos').html('3<sup>e</sup>');
 			$main.find('.third .flag img').attr('src', '/img/drapeaux/' + trace.third_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd);
+			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
 
 		} else {
 			$main.find('.traces-right').addClass('disabled');
@@ -1519,8 +1523,7 @@ TDF.Fight = (function() {
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 				$fighter.find('.random').hide();
 			}
-		}
-		else {
+		} else {
 			$fighter = $main.find('.fighter_two');
 			$fighter.data('id', '');
 			$fighter.find('.name').html('<strong>son adversaire</strong>');
@@ -1654,7 +1657,7 @@ TDF.Fight = (function() {
 		my.steps[6] = [0, 0];
 		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
-		if ( my.steps[7][0] < my.steps[7][1] ){
+		if (my.steps[7][0] < my.steps[7][1]) {
 			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
 			return;
 		}
@@ -1717,8 +1720,8 @@ TDF.Fight = (function() {
 				$fighter_two.css({
 					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
-				$inner.find('.next').text("Top Départ");
-				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				$inner.find('.next').text("Top Départ").attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				$inner.find('.prev').hide();
 				break;
 			case 1:
 			case 2:
@@ -1811,7 +1814,7 @@ TDF.Fight = (function() {
 						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
 						$fighter_two.find('.fighter-infos').hide();
 					}
-					if( jQuery('.fighter.winner').length === 1){
+					if (jQuery('.fighter.winner').length === 1) {
 						console.log('winner result');
 						$fighter_one.find('.result').html(my.winner_result(fighter_one));
 						$fighter_two.find('.fighter-infos').hide();
@@ -1821,9 +1824,11 @@ TDF.Fight = (function() {
 				$inner.find('.title div').html(step_title).attr('class', step_class);
 
 				if (my.args.step < 7) {
+					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
 					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
+					$inner.find('.prev').hide();
 				}
 
 				break;
@@ -1984,7 +1989,7 @@ TDF.StreetView = (function() {
 					height: 51,
 					anchorX: 51 / 2,
 					anchorY: 51 / 2
-				},{
+				}, {
 					url: "/img/lieux/lieux_hyperlapse_pointer.png",
 					width: 58,
 					height: 57,
