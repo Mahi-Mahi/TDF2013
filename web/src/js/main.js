@@ -708,7 +708,7 @@ TDF.Traces = (function() {
 			panControl: false,
 			streetViewControl: false,
 			zoomMin: 8,
-			zoomMax: 5,
+			zoomMax: 4,
 
 			zoom: zoom,
 			zoomControl: true,
