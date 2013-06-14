@@ -372,7 +372,7 @@ TDF.Home = (function() {
 
 
                 //Plus d'autocomplete sur la Home (pour le moment)
-                
+
 		//my.autocomplete_init();
 
 	};
@@ -381,8 +381,8 @@ TDF.Home = (function() {
 	my.autocomplete_init = function() {
 
 
-               
-            
+
+
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -1499,11 +1499,12 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 				$fighter.find('.random').hide();
+				$fighter.find('.choose-fighter').text('Changer de coureur');
 			}
 		} else {
 			$fighter = $main.find('.fighter_one');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$fighter.find('.name').html('<strong>votre coureur</strong>');
 			$inner.find('#fighter_one_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
 			$fighter.find('.flag').css('display', 'none');
@@ -1524,6 +1525,7 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.choose-fighter').text('Change de coureur');
 				$fighter.find('.random').hide();
 			}
 		} else {
@@ -1609,7 +1611,6 @@ TDF.Fight = (function() {
 			url_fighter_two = my.args.fighter_two + '/';
 		}
 
-
 		var current_selector = '.' + (side === 'fighter_one' ? 'fighter_two' : 'fighter_one');
 		var current_id = $main.find(current_selector).data('id');
 		jQuery(my.sorted_fighters).each(function(i, fighter) {
@@ -1645,7 +1646,6 @@ TDF.Fight = (function() {
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
-
 		// calcul des positions relatives
 
 		my.steps = [];
@@ -1664,8 +1664,6 @@ TDF.Fight = (function() {
 			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
 			return;
 		}
-
-
 
 		if (TDF.loadTemplate(this, '-start')) {
 
@@ -1775,7 +1773,7 @@ TDF.Fight = (function() {
 						break;
 					case 7:
 					case 'results':
-						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
+						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Voir les résultats</a>';
 						step_class = 'finish';
 						fighter_one_result = " ";
 						fighter_two_result = " ";
@@ -1856,7 +1854,7 @@ TDF.Fight = (function() {
 				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de ses victoires</a>';
 				break;
 		}
-		res = res + '<div class="share-result">partager sa victoire<a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
+		res = res + '<div class="share-result"><span>Partager sa victoire</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
 		return res;
 	};
 
