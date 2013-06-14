@@ -952,7 +952,7 @@ TDF.Traces = (function() {
 				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 			} else {
 				$main.find('.traces-right').addClass('disabled');
-				$main.find('.winner .name').text('');
+				$main.find('.winner .name').html('<center>Lance Armstrong<br />Déclassé</center>');
 				$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 				$main.find('.winner .total_time').html('');
 				$main.find('.winner .average_speed').html('');
