@@ -99,6 +99,8 @@
         minimap: null,
         hyperlapseId: null,
         hyperlapseLoading: null,
+        zoomMin: 14,
+        zoomMax: 0,
         zoom: 17,
         zoomControl: true,
         zoomControlOptions: {},
@@ -183,6 +185,8 @@
          * @param {object} self
          */
         _initGmap: function() {
+            var self = this;
+            
 
             this.map = new google.maps.Map(document.getElementById(this.element.id),
             {
@@ -213,6 +217,19 @@
                     }
                 });
             }
+            
+            google.maps.event.addListener(this.map, "zoom_changed", function() { 
+                        var Z= self.map.getZoom();
+                        
+                        console.log("Z : " + Z);
+                        
+                        if (Z > self.settings.zoomMin) {
+                            self.map.setZoom(self.settings.zoomMin);
+                        }
+                        else if (Z < self.settings.zoomMax) {
+                            self.map.setZoom(self.settings.zoomMax);
+                        }
+            });
             
             
             
@@ -454,8 +471,9 @@
                 return;
             
             
-            if($.inArray(year, self.years) == -1)
+            if($.inArray(year, self.years) == -1){
                 return;
+            }
             
             
             $.each(self.tours, function(i, tour){
@@ -765,9 +783,7 @@
             if(etapes.length < 3){
                 //Second search (middle size)
                 result = this._findEtapes(data, lat, lng, 0.5, 0.5);
-                
-                console.log("Deuxieme recherche nb result  : " + result.length);
-                
+
                 etapes = this._mergeEtapes(etapes, result, lat, lng);
                 
                 
@@ -781,11 +797,9 @@
                 var etape = etapes[i];
                 
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
-                console.log("createMarker : " + etape.city);
-                
+
                 this.createInfoWindowSearch(marker, etape);
                 
- 
                 bounds.extend(marker.getPosition());
                 
             }
