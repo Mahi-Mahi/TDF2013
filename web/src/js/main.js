@@ -372,7 +372,7 @@ TDF.Home = (function() {
 
 
                 //Plus d'autocomplete sur la Home (pour le moment)
-                
+
 		//my.autocomplete_init();
 
 	};
@@ -381,8 +381,8 @@ TDF.Home = (function() {
 	my.autocomplete_init = function() {
 
 
-               
-            
+
+
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -1605,7 +1605,6 @@ TDF.Fight = (function() {
 		} else {
 			url_fighter_two = my.args.fighter_two + '/';
 		}
-
 
 		var current_selector = '.' + (side === 'fighter_one' ? 'fighter_two' : 'fighter_one');
 		var current_id = $main.find(current_selector).data('id');
