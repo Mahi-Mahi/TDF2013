@@ -799,12 +799,14 @@
          * Find etape from data
          * 
          */
-        findEtapesNear: function(lat, lng, data){
+        findEtapesNear: function(lat, lng, address, data){
             var self = this;
             
             var etapes = [];
             var bounds = new google.maps.LatLngBounds();
 
+            var showInfo = false;
+            address = address.split(',');
 
             for(var j = 0; j < this.markers.length; j++){
 //                this.markers[j].onRemove();
@@ -822,6 +824,9 @@
             if(etapes.length === 0){
                 this.createMarker(lat, lng, 'Ma recheche');
             }
+            else{
+                showInfo = true;
+            }
             
           
             if(etapes.length < 3){
@@ -836,13 +841,26 @@
             //TODO: //Third search (large size)
             
             
+            
+            
             //Redim map viewport
             for(var i = 0; i < etapes.length; i++){
                 var etape = etapes[i];
                 
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
 
-                this.createInfoWindowSearch(marker, etape);
+                var infowindow = this.createInfoWindowSearch(marker, etape);
+                
+                if(showInfo){
+             
+                    var thisRegex = new RegExp(address[0], 'gi');
+
+                    if(thisRegex.test(etape.city) == true){
+                        infowindow.open(self.map, marker);
+                        showInfo = false;
+                    }                    
+                    
+                }
                 
                 bounds.extend(marker.getPosition());
                 
@@ -885,14 +903,9 @@
                     content: contentString
             });
             
-            
-            
-            
-            
+             
             self.infosWindow.push(infowindow);
-           
-          
-          
+            
             google.maps.event.addListener(marker, 'click', function() {
                 for(var i= 0; i <  self.infosWindow.length; i++){
                      self.infosWindow[i].close();
@@ -901,10 +914,10 @@
                 infowindow.open(self.map, this);
             });
 
-            // assuming you also want to hide the infowindow when user mouses-out
-//            google.maps.event.addListener(marker, 'mouseout', function() {
-//                infowindow.close();
-//            });
+
+            
+            return infowindow;
+    
         },
         
         /**

@@ -508,7 +508,7 @@ TDF.CitySearch = (function() {
 				'address': address
 			}, function(results, status) {
 				if (status === google.maps.GeocoderStatus.OK) {
-					my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
+					my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), address, TDF.Data.legs);
 				} else {
 					console.log('Geocode was not successful for the following reason: ' + status);
 				}
