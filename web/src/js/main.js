@@ -1289,14 +1289,14 @@ TDF.Winners = (function() {
 					if (parseInt(tour.position, 10) === 1) {
 						bulle = 'Vainqueur en ' + year + "  " +
 							' en ' + TDF.Data.traces[year].winner_total_time.replace(/"/, "''") + ' ' +
-							' (' + TDF.Data.traces[year].winner_avg_speed + ')  ' +
+							' (' + TDF.Data.traces[year].winner_avg_speed + ' km/h)  ' +
 							" à l'age de " + (year - winner.birthyear) + " ans";
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
 						switch (tour.position) {
 							default: pos_title = tour.position;
-							bulle = tour.position + 'ème en ' + year;
+							bulle = tour.position + 'e en ' + year;
 							break;
 							// pos_title = 'A';
 							// break;
@@ -1657,7 +1657,7 @@ TDF.Fight = (function() {
 				my.steps[i - 1][1] + (fighter_two.steps[i] - fighter_one.steps[i])
 			];
 		}
-		my.steps[6] = [0, 0];
+		my.steps[6] = my.steps[5];
 		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
 		if (my.steps[7][0] < my.steps[7][1]) {
@@ -1749,20 +1749,20 @@ TDF.Fight = (function() {
 					case 3:
 						step_class = "average_speed";
 						step_title = "<strong>Meilleur vitesse moyenne</strong>";
-						fighter_one_result = fighter_one.average_speed + " km/h";
-						fighter_two_result = fighter_two.average_speed + " km/h";
+						fighter_one_result = fighter_one.average_speed.toString().replace('.', ',') + " km/h";
+						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
 						break;
 					case 4:
 						step_class = "ahead_of_second";
-						step_title = "<strong>Meilleure avance sur le deuxième</strong>";
-						fighter_one_result = fighter_one.ahead_of_2nd;
-						fighter_two_result = fighter_two.ahead_of_2nd;
+						step_title = "<strong>Meilleure avance<br /> sur le deuxième</strong>";
+						fighter_one_result = fighter_one.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
+						fighter_two_result = fighter_two.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
 						break;
 					case 5:
 						step_class = "nb_wins";
 						step_title = "<strong>Nombre <br>de tours gagnés</strong>";
-						fighter_one_result = fighter_one.nb_wins + " victoire" + (fighter_one.nb_wins > 1 ? 's' : '');
-						fighter_two_result = fighter_two.nb_wins + " victoire" + (fighter_two.nb_wins > 1 ? 's' : '');
+						fighter_one_result = fighter_one.nb_wins + (fighter_one.nb_wins > 1 ? ' victoires finales' : ' victoire finale');
+						fighter_two_result = fighter_two.nb_wins + (fighter_two.nb_wins > 1 ? ' victoires finales' : ' victoire finale');
 						break;
 					case 6:
 						step_class = "doping";
@@ -1909,7 +1909,7 @@ TDF.Fight = (function() {
 		fighter.find('.average_speed').html(data.average_speed + " km/h").data('score', data.steps[3]);
 		fighter.find('.ahead_of_2nd').html(data.ahead_of_2nd + "<br><small> en " + data.ahead_of_2nd_year + '<small>').data('score', data.steps[4]);
 		fighter.find('.nb_wins').html(data.nb_wins).data('score', data.steps[5]);
-		fighter.find('.doping').html(data.is_doped ? 'Convaincu de dopage' : 'Aucun dopage connu').addClass(data.is_doped ? 'active' : '');
+		fighter.find('.doping').html(data.is_doped ? 'Éliminé du Tour pour dopage' : 'Jamais pris pour dopage sur le Tour').addClass(data.is_doped ? 'active' : '');
 	};
 
 	return my;
