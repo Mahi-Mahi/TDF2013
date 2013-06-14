@@ -194,3 +194,25 @@
 	margin:0;
 	padding:0;
 }
+
+.displayStreetView, .displayHyperlapse {
+	display:block;
+	text-align:center;
+}
+
+.displayStreetView a, .displayHyperlapse a {
+	background:#93C403;
+	border-radius:8px;
+	color:#fff;
+	display:inline-block;
+	font:400 15px/28px 'Oswald', Verdana, Arial, sans-serif;
+	height:28px;
+	margin:5px 0 0 0;
+	padding:0 12px;
+	text-align:center;
+	text-transform:uppercase;	
+}
+
+.displayHyperlapse a {
+	background:#388F37;
+}
