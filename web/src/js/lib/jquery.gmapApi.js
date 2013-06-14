@@ -1136,9 +1136,15 @@
                     var points = streetViewPoint.url.split("#");
                     points = points[1].split(',');
                     
+                    
+                    console.log(streetViewPoint.id + "lookat : " + streetViewPoint.lookat);
+                    
                     var hp = {};
                     hp.id = streetViewPoint.id;
                     hp.type = streetViewPoint.type;
+                    hp.lookat = (streetViewPoint.lookat == 'on')? true : false;
+                    hp.lookatLat = points[2];
+                    hp.lookatLng = points[3];
                     hp.sLat = points[0];
                     hp.sLng = points[1];
                     hp.fLat = points[4];
@@ -1147,6 +1153,8 @@
                     hp.millis = streetViewPoint.millis;
                     hp.position = streetViewPoint.position;
                     
+                    
+                    console.log("hp.lookat : " + hp.lookat);
                     
                     self.streetViewPoint.push(hp);
                 }
@@ -1223,16 +1231,14 @@
 
 
 //            var panoramaOptions = {
-//                position: new google.maps.LatLng(0, 0),
-//                pov: {
-//                  heading: 0,
-//                  pitch: 0
-//                },
+//                
 //                visible: false,
 //                enableCloseButton: true,
-//                panControl: true
+//                panControl: false
 //            };
             
+            
+//            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
             
             this.panorama = this.map.getStreetView();
             this.panorama.setPosition(new google.maps.LatLng(0, 0));
@@ -1241,6 +1247,8 @@
               pitch: 0
             });
             
+            
+//            self.map.setStreetView(this.panorama);
             self.minimap.setStreetView(this.panorama);
 //            $("#" + self.settings.minimap).addClass("hide");
 
@@ -1362,15 +1370,15 @@
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
             
+            var pano = document.getElementById(self.settings.hyperlapseId);
             
+          
             zoneH.removeClass('hide');
-            
-            console.log("data.position : "+ data.position);
-            
-            this.hyperlapse = new Hyperlapse(document.getElementById(self.settings.hyperlapseId), {
+        
+            this.hyperlapse = new Hyperlapse(pano, {
                 zoom: 1,
-//                lookat: new google.maps.LatLng(37.81409525128964,-122.4775045005249),
-//                use_lookat: true,
+                lookat: new google.maps.LatLng(data.lookatLat, data.lookatLng),
+                use_lookat: data.lookat,
                 width: 742,
                 height: 500,
                 elevation: 50,
@@ -1383,16 +1391,11 @@
             
             if(self.minimap != null){
                 
-                console.log('ivi');
-                
                 var bounds = new google.maps.LatLngBounds();
-                
-               
                 
                 self.clearMinimap();
 
                 self.markersMinimap = [];
-
 
                 var marker;
                 
@@ -1420,15 +1423,21 @@
                 
                 self.markersMinimap.push(marker);
                 
+                if(data.lookat){
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(data.lookatLat, data.lookatLng),
+                        map: self.minimap,
+                        draggable: false,
+                        title: 'Point de vue',
+                        icon: self.markersIcons[4]
+                    });
+                }
+                
+                
                 
                 
                 
                 self.minimap.fitBounds(bounds);
-            
-                                
-                                
-                
-                
             }
             
             
@@ -1454,8 +1463,6 @@
             
 
             this.hyperlapse.onRouteComplete = function(e) {
-                console.log("load");
-                
                 self.hyperlapse.load();
             };
             
@@ -1490,6 +1497,83 @@
                     console.log(status);
                 }
             });
+            
+            
+            var is_moving;
+            var onPointerDownPointerX;
+            var onPointerDownPointerY;
+            var px;
+            var py;
+            var timerClick;
+            var canPlayPause = true;
+            
+            pano.addEventListener( 'mousedown', function(e){
+                    e.preventDefault();
+
+                    is_moving = true;
+
+                    onPointerDownPointerX = e.clientX;
+                    onPointerDownPointerY = e.clientY;
+
+                    px = self.hyperlapse.position.x;
+                    py = self.hyperlapse.position.y;
+                    
+                    canPlayPause = true;
+                    timerClick = setTimeout(function(){canPlayPause = false},200)
+
+            }, false );
+
+
+            pano.addEventListener( 'click', function(e){
+                if(canPlayPause){
+                    self.playPauseHyperlapse();
+                }
+                
+                canPlayPause = true;
+                
+            });
+
+
+            pano.addEventListener( 'mousemove', function(e){
+                    e.preventDefault();
+                    var f = self.hyperlapse.fov() / 500;
+
+                    if ( is_moving ) {
+                            var dx = ( onPointerDownPointerX - e.clientX ) * f;
+                            var dy = ( e.clientY - onPointerDownPointerY ) * f;
+                            self.hyperlapse.position.x = px + dx; // reversed dragging direction (thanks @mrdoob!)
+                            self.hyperlapse.position.y = py + dy;
+
+//                            o.position_x = hyperlapse.position.x;
+//                            o.position_y = hyperlapse.position.y;
+                    }
+
+            }, false );
+
+            pano.addEventListener( 'mouseup', function(){
+                    is_moving = false;
+
+//                    self.hyperlapse.position.x = px;
+//                    hyperlapse.position.y = py;
+                    
+            }, false );
+
+            
+            
+            
+        },
+        
+        playPauseHyperlapse: function(){
+            
+            console.log("this.hyperlapse.isPlaying() : " + this.hyperlapse.isPlaying());
+            
+            if(this.hyperlapse.isPlaying()){
+                this.hyperlapse.pause();
+            }
+            else{
+                this.hyperlapse.play();
+            }
+            
             
             
         },

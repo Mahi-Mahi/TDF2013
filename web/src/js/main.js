@@ -1925,7 +1925,13 @@ TDF.StreetView = (function() {
 					height: 51,
 					anchorX: 51 / 2,
 					anchorY: 51 / 2
-				},
+				},{
+					url: "/img/lieux/lieux_hyperlapse_pointer.png",
+					width: 58,
+					height: 57,
+					anchorX: 58 / 2,
+					anchorY: 57 / 2
+				}
 			],
 			styles: mapStyleTrace
 		};
@@ -1933,6 +1939,8 @@ TDF.StreetView = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
+                
+                
 	};
 
 
