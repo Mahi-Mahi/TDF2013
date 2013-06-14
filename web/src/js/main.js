@@ -974,7 +974,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.second .pos').html('2<sup>e</sup>');
 			$main.find('.second .flag img').attr('src', '/img/drapeaux/' + trace.second_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd);
+			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
 
 			if (trace.third_id) {
 				$main.find('.third .name').html('<a href="/vainqueurs/' + trace.third_id + '/">' + trace.third_name + '</a>');
@@ -983,7 +983,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.third .pos').html('3<sup>e</sup>');
 			$main.find('.third .flag img').attr('src', '/img/drapeaux/' + trace.third_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd);
+			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
 
 		} else {
 			$main.find('.traces-right').addClass('disabled');
