@@ -136,6 +136,7 @@
             lastUpdate: 'last update'
         },
         styles: null,
+        stylesMinimap: null,
         markerIconImg: null,
         markerIconSize: [26, 26],
         markerIconAnchor: [0, 0],
@@ -216,7 +217,8 @@
                     zoomControl: true,
                     zoomControlOptions: {
                             style: google.maps.ZoomControlStyle.SMALL
-                    }
+                    },
+                    styles: this.settings.stylesMinimap
                 });
             }
             
@@ -425,7 +427,8 @@
                                 
                                 var line;
                                 var weight = (multiple)? 1 : 2;
-                                line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, true, weight);
+                                var isOriented = (multiple)? false : true;
+                                line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, isOriented, weight);
 //                                self.createInfoWindowTrace(line, etape.year, false);
                                 self.tours[year]['lines'].push(line);           
                             }
@@ -779,7 +782,7 @@
                 icons: [{
                     icon: lineSymbol,
                     offset: '0',
-                    repeat: '15px'
+                    repeat: '20px'
                 }],
                 map: self.map
             });
@@ -1158,7 +1161,6 @@
                     points = points[1].split(',');
                     
                     
-                    console.log(streetViewPoint.id + "lookat : " + streetViewPoint.lookat);
                     
                     var hp = {};
                     hp.id = streetViewPoint.id;
@@ -1175,7 +1177,7 @@
                     hp.position = streetViewPoint.position;
                     
                     
-                    console.log("hp.lookat : " + hp.lookat);
+                    console.log(streetViewPoint.id + "lookat : " + hp.position);
                     
                     self.streetViewPoint.push(hp);
                 }
@@ -1229,6 +1231,8 @@
                     }
 
                     infowindow.open(self.map, marker);
+                    
+                    self.map.setCenter(marker.position);
                 });
                 
                 self.infosWindow.push(infowindow);
@@ -1269,8 +1273,8 @@
             this.panorama = this.map.getStreetView();
             this.panorama.setPosition(new google.maps.LatLng(0, 0));
             this.panorama.setPov({
-              heading: 0,
-              pitch: 0
+                heading: 0,
+                pitch: 0
             });
             
             
@@ -1291,7 +1295,7 @@
                     
                     self.minimap.setCenter(self.panorama.getPosition());
                     
-                    console.log("self.panorama.getPosition() : " + self.panorama.getPosition());
+//                    console.log("self.panorama.getPosition() : " + self.panorama.getPosition());
                     
 //                    $("#panoramaPreview").show();
 //                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
@@ -1401,9 +1405,7 @@
             
             var pano = document.getElementById(self.settings.hyperlapseId);
             
-//            console.log("window.innerWidth : " + window.innerWidth);
-//            console.log("window.innerHeight : " + window.innerHeight);
-          
+            
             zoneH.removeClass('hide');
         
             this.hyperlapse = new Hyperlapse(pano, {
@@ -1418,6 +1420,9 @@
                 distance_between_points: data.distance,
                 max_points: 100
             });
+            
+            
+            this.hyperlapse.position.x = data.position;
             
             
             if(self.minimap != null){
@@ -1597,19 +1602,13 @@
             
         },
         
-        playPauseHyperlapse: function(){
-            
-            console.log("this.hyperlapse.isPlaying() : " + this.hyperlapse.isPlaying());
-            
+        playPauseHyperlapse: function(){ 
             if(this.hyperlapse.isPlaying()){
                 this.hyperlapse.pause();
             }
             else{
                 this.hyperlapse.play();
             }
-            
-            
-            
         },
         
         
@@ -1649,6 +1648,8 @@
              
                 if(id == overlay.id){
                     overlay.infowindow.open(self.map, overlay.marker);
+                    
+                    self.map.setCenter(overlay.marker.position);
                 }
              
             });

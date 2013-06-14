@@ -708,6 +708,8 @@ TDF.Traces = (function() {
 
 		var map = $inner.find("#" + mapId);
 
+                console.log("google.maps.ControlPosition.LEFT_TOP : " + google.maps.ControlPosition.LEFT_TOP);
+
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
@@ -721,6 +723,7 @@ TDF.Traces = (function() {
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
+                                position: google.maps.ControlPosition.TOP_LEFT,
 				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
@@ -1997,7 +2000,8 @@ TDF.StreetView = (function() {
 					anchorY: 57 / 2
 				}
 			],
-			styles: mapStyleTrace
+			styles: mapStyleTrace,
+                        stylesMinimap: mapStyleSearch
 		};
 
 		my.gmapApi = map.gmapApi(mapOptions);
