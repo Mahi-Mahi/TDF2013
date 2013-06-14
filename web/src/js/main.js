@@ -77,18 +77,18 @@ var TDF = (function() {
 		});
 
 		// City
-		Path.map("/ville/:city_id/").to(function() {
+		Path.map("/ville/:city/").to(function() {
 			TDF.render('city', {
-				city_id: this.params['city_id']
+				city: this.params['city']
 			});
 		});
 
 		// Traces
-		Path.map("/traces/(:years/)(:city_id/)").to(function() {
+		Path.map("/traces/(:years/)(:city/)").to(function() {
 			if (this.params['years'] === undefined) {
 				TDF.render('traces');
 			} else {
-				if (this.params['city_id'] === undefined) {
+				if (this.params['city'] === undefined) {
 					if (this.params['years'].match(/^[\d\,]+$/)) {
 						TDF.render('traces', {
 							years: this.params['years']
@@ -102,7 +102,7 @@ var TDF = (function() {
 				} else {
 					TDF.render('traces', {
 						years: this.params['years'],
-						city_id: this.params['city_id']
+						city: this.params['city']
 					});
 				}
 			}
@@ -848,17 +848,17 @@ TDF.Traces = (function() {
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
-			console.log('------');
-			if (my.args.city_id === undefined) {
-				$main.find('.map-container .city').hide();
-			} else {
-				$main.find('.map-container .city').html(my.args.city_id + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
-				$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city_id + '/');
-			}
-
 			this.initializeGmap();
 
 		}
+
+		if (my.args.city === undefined) {
+			$main.find('.map-container .city').hide();
+		} else {
+			$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
+			$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city + '/');
+		}
+
 
 		this.setYears();
 	};
