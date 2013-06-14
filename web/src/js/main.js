@@ -1822,7 +1822,19 @@ TDF.StreetView = (function() {
 					height: 32,
 					anchorX: 5,
 					anchorY: 32
-				}
+				},{
+					url: "/img/lieux/lieux_hyperlapse_pinA.png",
+					width: 51,
+					height: 51,
+					anchorX: 51 / 2,
+					anchorY: 51 / 2
+				}, {
+					url: "/img/lieux/lieux_hyperlapse_pinB.png",
+					width: 51,
+					height: 51,
+					anchorX: 51 / 2,
+					anchorY: 51 / 2
+				},
 			],
 			styles: mapStyleTrace
 		};

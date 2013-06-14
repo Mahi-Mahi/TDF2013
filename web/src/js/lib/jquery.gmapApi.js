@@ -47,9 +47,11 @@
         this.years = [];
 
         this.markers = [];
+        this.markersMinimap = [];
         this.circles = [];
         this.lines = [];
         this.dashedlines = [];
+        this.infosWindow = [];
         
         this.animateInterval = null;
         
@@ -1250,34 +1252,77 @@
             });
             
             
-//            if(minimap != null){
-//                
-//                //var marker;
-//                
-//                var marker1 = new google.maps.Marker({
-//                    position: new google.maps.LatLng(data.sLat, data.sLng),
-//                    map: self.minimap,
-//                    title: 'PointA',
-//                    icon: self.markenIcon
-//                });
-//                
-//                var marker2 = new google.maps.Marker({
-//                    position: new google.maps.LatLng(data.fLat, data.fLng),
-//                    map: self.minimap,
-//                    title: 'PointB',
-//                    icon: self.markenIcon
-//                });
-//                
-//                zoneMinimap.removeClass('hide');
-//                
-//                
-//            }
+            if(self.minimap != null){
+                
+                console.log('ivi');
+                
+                var bounds = new google.maps.LatLngBounds();
+                
+               
+                
+                self.clearMinimap();
+
+                self.markersMinimap = [];
+
+
+                var marker;
+                
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.sLat, data.sLng),
+                    map: self.minimap,
+                    draggable: false,
+                    title: 'PointA',
+                    icon: self.markersIcons[2]
+                });
+                
+                bounds.extend(marker.getPosition());
+
+                self.markersMinimap.push(marker);
+                
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.fLat, data.fLng),
+                    map: self.minimap,
+                    draggable: false,
+                    title: 'PointB',
+                    icon: self.markersIcons[3]
+                });
+                
+                bounds.extend(marker.getPosition());
+                
+                self.markersMinimap.push(marker);
+                
+                
+                
+                
+                self.minimap.fitBounds(bounds);
+            
+                                
+                                
+                
+                
+            }
             
             
 
             this.hyperlapse.onError = function(e) {
                 console.log(e);
             };
+            
+            
+            this.hyperlapse.onRouteProgress = function(e) {
+                
+                var marker = new google.maps.Marker({
+                    position: e.point.location,
+                    draggable: false,
+                    icon: "/img/lieux/dot_marker.png",
+                    map: self.minimap
+                });
+                   
+                        
+                        
+                self.markersMinimap.push(marker);
+            };
+            
 
             this.hyperlapse.onRouteComplete = function(e) {
                 console.log("load");
@@ -1318,6 +1363,13 @@
             });
             
             
+        },
+        
+        
+        clearMinimap: function(){
+            for(var i = 0; i < this.markersMinimap.lenght; i++){
+                this.markerMinimap[i].setMap(null);
+            }
         },
         
         
