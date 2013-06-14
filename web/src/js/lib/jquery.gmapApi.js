@@ -1179,7 +1179,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<span><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a></span>' +
+                            '<span class="displayStreetView"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a></span>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1203,7 +1203,6 @@
                 self.streetViewOverlay.push(overlays);
                
                 google.maps.event.addListener(marker, 'click', function() {
-
                     infowindow.open(self.map, marker);
                 });
                
