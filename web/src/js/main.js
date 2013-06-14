@@ -383,8 +383,11 @@ TDF.Home = (function() {
 			jQuery("#search").autocomplete({
 				minLength: 0,
 				source: TDF.Data.cities,
-				open : function(){
-					jQuery(".ui-autocomplete:visible").css({top:"+=4",left:"-=10"});
+				open: function() {
+					jQuery(".ui-autocomplete:visible").css({
+						top: "+=4",
+						left: "-=10"
+					});
 				},
 				messages: {
 					noResults: '',
@@ -860,13 +863,11 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
-
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		$main.find(".timeline .slider").slider({
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
-
 
 		/*
 		// GTAB
@@ -928,7 +929,7 @@ TDF.Traces = (function() {
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
-				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_big.png');
+				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 				$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
 				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
@@ -1844,7 +1845,7 @@ TDF.StreetView = (function() {
 
 	my.init = function() {
 
-		$main.on('click', '.streetview .streetview-list a', function(event){
+		$main.on('click', '.streetview .streetview-list a', function(event) {
 			event.preventDefault();
 			// my.gmapApi.stopStreetView();
 			// my.gmapApi.showStreetView(jQuery(this).data('id'));
