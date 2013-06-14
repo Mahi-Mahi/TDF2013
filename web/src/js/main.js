@@ -852,7 +852,7 @@ TDF.Traces = (function() {
 			if (my.args.city_id === undefined) {
 				$main.find('.map-container .city').hide();
 			} else {
-				$main.find('.map-container .city').html(my.args.city_id + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+				$main.find('.map-container .city').html(my.args.city_id + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
 				$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city_id + '/');
 			}
 

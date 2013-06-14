@@ -361,7 +361,8 @@
 	top:12px;
 	z-index: 999;
 }
-.back {
+
+.back, .city {
 	background:url(/img/traces/bg-back.png) 5px 50% no-repeat #DCDCDC;
 	border:1px solid #959596;
 	color:#4C565E;
@@ -371,4 +372,29 @@
 	margin:0 10px 0 0;
 	padding:0 15px 0 28px;
 	border-radius:4px;
+}
+
+.traces .back {
+	position:static;
+	left:auto;
+	top:auto;
+}
+
+.close-city {
+	display:inline-block;
+	overflow:hidden;
+	margin:0 0 0 10px;
+	padding:0;
+	width:18px;
+	height:18px;
+	border:none;
+	background:url(/img/traces/bt-city-close.png) left top no-repeat;
+	text-indent: 100%;
+	white-space:nowrap;
+	vertical-align:middle;
+}
+
+.city {
+	background:url(/img/traces/bg-city.png) 5px 50% no-repeat #fff;
+	padding:0 8px 0 42px;
 }

@@ -1179,7 +1179,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<a href="/lieux-mythiques/'+ streetViewPoint.id +'/" class="displayStreetView" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a>' +
+                            '<span><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a></span>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1188,7 +1188,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<a href="/lieux-mythiques/'+ streetViewPoint.id +'/" class="displayHyperlapse" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Voir Hyperlapse</a>' +
+                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Voir Hyperlapse</a></span>' +
                         '</div>'+
                     '</div>';
                 }
