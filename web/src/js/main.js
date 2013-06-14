@@ -1770,7 +1770,7 @@ TDF.Fight = (function() {
 						break;
 					case 7:
 					case 'results':
-						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Les résultats</a>';
+						step_title = "<strong>Bilan de la course</strong>" + '<br />' + '<a href="' + (my.getQueryString() + 'results/') + '" class="show-results">Voir les résultats</a>';
 						step_class = 'finish';
 						fighter_one_result = " ";
 						fighter_two_result = " ";
