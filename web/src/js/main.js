@@ -377,14 +377,24 @@ TDF.Home = (function() {
 
 	my.autocomplete_init = function() {
 
+	// Overrides the default autocomplete filter function to search only from the beginning of the string
+	jQuery.ui.autocomplete.filter = function (array, term) {
+		var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function (value) {
+			return matcher.test(value.label || value.value || value);
+		});
+	};
 
 		if (jQuery('#search').length) {
 
 			jQuery("#search").autocomplete({
 				minLength: 0,
 				source: TDF.Data.cities,
-				open : function(){
-					jQuery(".ui-autocomplete:visible").css({top:"+=4",left:"-=10"});
+				open: function() {
+					jQuery(".ui-autocomplete:visible").css({
+						top: "+=4",
+						left: "-=10"
+					});
 				},
 				messages: {
 					noResults: '',
@@ -800,18 +810,17 @@ TDF.Traces = (function() {
 
 				trace = TDF.Data.traces[year];
 
-				if (year < 2013) {
 					for (stat in stats) {
 						if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
 							stats[stat].max.val = trace[stat];
 							stats[stat].max.year = year;
 						}
-						if (trace[stat] < stats[stat].min.val || stats[stat].min.val == null) {
+						if ((trace[stat] < stats[stat].min.val && trace[stat]>0) || stats[stat].min.val == null) {
 							stats[stat].min.val = trace[stat];
 							stats[stat].min.year = year;
 						}
 					}
-				}
+
 			}
 			$timeline.append(items);
 			$squares.append(squares);
@@ -870,13 +879,11 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
-
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
 		$main.find(".timeline .slider").slider({
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
-
 
 		/*
 		// GTAB
@@ -910,14 +917,15 @@ TDF.Traces = (function() {
 			nb_legs = 0,
 			nb_concurrents = 0,
 			nb_finishers = 0;
-		var trace, year;
-		for (year in my.traces) {
-			trace = my.traces[year];
+		var trace;
+
+		jQuery(my.args.years).each(function(idx, year){
+			trace = TDF.Data.traces[year];
 			total_length += trace.total_length;
 			nb_legs += trace.nb_legs;
 			nb_concurrents += trace.nb_concurrents;
 			nb_finishers += trace.nb_finishers;
-		}
+		});
 
 		total_length = Math.round(total_length / my.args.years.length);
 		nb_legs = Math.round(nb_legs / my.args.years.length);
@@ -938,7 +946,7 @@ TDF.Traces = (function() {
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
-				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_big.png');
+				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 				$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
 				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
@@ -1854,10 +1862,11 @@ TDF.StreetView = (function() {
 
 	my.init = function() {
 
-		$main.on('click', '.streetview .streetview-list a', function(event){
+		$main.on('click', '.streetview .streetview-list a', function(event) {
 			event.preventDefault();
 			// my.gmapApi.stopStreetView();
 			// my.gmapApi.showStreetView(jQuery(this).data('id'));
+			my.gmapApi.openInfoWindowPlace(jQuery(this).data('id'));
 			return false;
 		});
 
@@ -1978,12 +1987,12 @@ TDF.StreetView = (function() {
 				left: '-258px'
 			}, duration);
 
-                        
-                        
-//                        my.gmapApi.showStreetView(my.args.place_id);
-                        
-                        my.gmapApi.openInfoWindowPlace(my.args.place_id);
-                        
+
+
+			my.gmapApi.showStreetView(my.args.place_id);
+
+			// my.gmapApi.openInfoWindowPlace(my.args.place_id);
+
 
 		} else {
 			$inner.find('.container').stop().animate({
