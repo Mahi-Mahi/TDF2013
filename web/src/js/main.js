@@ -2004,20 +2004,29 @@ TDF.StreetView = (function() {
 
 		my.gmapApi = map.gmapApi(mapOptions);
 
-		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner);
+		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
 
 	};
+        
+        my.onCloseStreetView = function(){
+            Path.history.pushState({}, "", my.base_url);
+        };
 
 
 	my.hyperlapseLoading = function(current, total) {
-		var loader = jQuery('#hyperlapseLoading');
+		var loader = jQuery('#hyperlapseTimeline .loader');
+                
+                var widthMaxLoader = 636;
+                
+                
+                var currentWidth = (widthMaxLoader * current) / total;
+                
+                console.log("currentWidth : " + currentWidth);
 
-		loader.show();
-		loader.html(current + "/" + total);
 
-		if (current === total) {
-			loader.hide();
-		}
+                loader.width(currentWidth);    
+
+		
 	};
 
 	my.render = function(args) {

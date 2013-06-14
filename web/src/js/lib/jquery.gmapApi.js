@@ -1134,7 +1134,7 @@
          * Add marker with infoWindow from data
          * 
          */
-        addStreetViewPoint: function(data, $container){
+        addStreetViewPoint: function(data, $container, callback){
             var self = this;
             
             var geocoder = new google.maps.Geocoder();
@@ -1175,6 +1175,7 @@
                     hp.distance = streetViewPoint.distance;
                     hp.millis = streetViewPoint.millis;
                     hp.position = streetViewPoint.position;
+                    
                     
                     
                     console.log(streetViewPoint.id + "lookat : " + hp.position);
@@ -1280,43 +1281,22 @@
             
 //            self.map.setStreetView(this.panorama);
             self.minimap.setStreetView(this.panorama);
-//            $("#" + self.settings.minimap).addClass("hide");
+
+
+            google.maps.event.addListener(self.panorama, "closeclick", function(){
+               callback();
+            });
 
             
             google.maps.event.addListener(self.panorama, "visible_changed", function() {
                 if (self.panorama.getVisible()){
                     //moving the pegman around the map
                 }else if(self.panorama.getVisible()){
-                    
-//                    $("#" + self.settings.minimap).removeClass("hide");
-                    
-                    
-                    self.minimap.setStreetView(self.panorama);
-                    
+
+                    self.minimap.setStreetView(self.panorama); 
                     self.minimap.setCenter(self.panorama.getPosition());
                     
-//                    console.log("self.panorama.getPosition() : " + self.panorama.getPosition());
-                    
-//                    $("#panoramaPreview").show();
-//                    $("#mapPreview").removeClass('bigmap').addClass('minimap');
-                    
-                    
-//                    self.map.setOptions({disableDefaultUI: true});
-//                    self.map.setCenter(self.panorama.getPosition());
-                    
                 }
-                google.maps.event.addListener(self.panorama, "closeclick", function() {
-//                    $("#" + self.settings.minimap).addClass("hide");
-                    
-                    
-                    console.log("cache minimap");
-                    
-//                    $("#panoramaPreview").hide();  
-//                    $("#mapPreview").removeClass('minimap').addClass('bigmap'); 
-//                     
-//                    
-//                    self.map.setOptions({disableDefaultUI: false});
-                });
             });  
 
 
