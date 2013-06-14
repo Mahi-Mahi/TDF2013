@@ -57,12 +57,17 @@ img { border: 0; }
     height:489px;
 }
 
-.content #city_search{
+.content #city_search {
+	background:url(/img/home/bg-top-search.png) left top no-repeat;
     position: absolute;
     z-index: 99;
-    top: 15px;
-    left: 40px;
-    padding: 2px 2px;
+    top: -50px;
+    left: 400px;
+    display:block;
+    height:29px;
+    margin:0;
+    padding:0;
+    width:233px;
 }
 
 #gmap-traces, #gmap-search, #gmap-streetview{

@@ -532,6 +532,13 @@ TDF.CitySearch = (function() {
 		var geocoder = new google.maps.Geocoder();
 
 
+		// Overrides the default autocomplete filter function to search only from the beginning of the string
+		jQuery.ui.autocomplete.filter = function(array, term) {
+			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function(value) {
+				return matcher.test(value.label || value.value || value);
+			});
+		};
 
 		searchInput.autocomplete({
 			minLength: 0,

@@ -78,6 +78,15 @@
 	width:200px;
 }
 
+.content #search {
+	background: none;
+	line-height: 22px;
+	height: 25px;
+	margin: 4px 0 0 0;
+	padding: 0 0 0 20px;
+	width: 180px;
+}
+
 .submit {
 	border:none;
 	background:none;
@@ -103,6 +112,7 @@
 	margin:0;
 	padding:0;
 	width:224px;
+	z-index:90;
 }
 
 .ui-menu-item {
