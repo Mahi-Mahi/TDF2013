@@ -500,8 +500,11 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
+                
 
 		function geocoding() {
+//                        searchInput.autocomplete( "close" );
+                    
 			var address = searchInput.val();
 
 			geocoder.geocode({
@@ -516,22 +519,15 @@ TDF.CitySearch = (function() {
 
 		}
 
-
-		var searchInput = $main.find('#search');
+                var searchInput = $main.find('#search');
 		var form = $main.find('#city_search');
 		var geocoder = new google.maps.Geocoder();
 
 
-		if (searchInput.val().length > 0) {
 
-			//                    var address = searchInput.val();
-			//                    console.log('address : '+ address);
-			//                    address.replace(/%20/, ' ');
-			//                    console.log('address2 : '+ address);
-			//                    searchInput.val(address);
 
-			geocoding();
-		}
+		
+		
 
 
 		searchInput.autocomplete({
@@ -545,6 +541,17 @@ TDF.CitySearch = (function() {
                             geocoding();
                         }
 		});
+                
+                if (searchInput.val().length > 0) {
+
+			//                    var address = searchInput.val();
+			//                    console.log('address : '+ address);
+			//                    address.replace(/%20/, ' ');
+			//                    console.log('address2 : '+ address);
+			//                    searchInput.val(address);
+
+			geocoding();
+		}
 
 
 
@@ -570,13 +577,13 @@ TDF.CitySearch = (function() {
 		$main.on('change', '.selectYearSearch', function(event) {
 			event.preventDefault();
 
-			var year = jQuery(this).val();
+			var data = jQuery(this).val();
 
-			if (year === -1) {
+			if (data === -1) {
 				return false;
 			}
 
-			Path.history.pushState({}, "", '/traces/' + year + '/');
+			Path.history.pushState({}, "", '/traces/' + data + '/');
 
 		});
 

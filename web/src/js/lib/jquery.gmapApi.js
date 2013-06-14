@@ -892,7 +892,7 @@
             contentString  += '<option value="-1">Selectionnez une année</option>';
             
             for(var i = 0; i < data.years.length; i++){
-                contentString  += '<option value="'+ data.years[i] +'">'+ data.years[i] +'</option>';
+                contentString  += '<option value="'+ data.years[i]+ '/'+ data.city +',' + data.country +'">'+ data.years[i] +'</option>';
             }
             
             contentString += '</select>';
@@ -1060,7 +1060,7 @@
                     }
                     
                     if(isNewCity){
-                        var city = {city: startCity, lat:startLat, lng: startLng, count: 1, years: [etape.year] }
+                        var city = {city: startCity, country: etape.start.country, lat:startLat, lng: startLng, count: 1, years: [etape.year] }
                         result.push(city);
                         lastStart = startCity;
                     }
@@ -1090,15 +1090,12 @@
                     }
                     
                     if(isNewCity){
-                        var city2 = {city: finishCity, lat:finishLat, lng: finishLng, count: 1, years: [etape.year] }
+                        var city2 = {city: finishCity, country: etape.finish.country, lat:finishLat, lng: finishLng, count: 1, years: [etape.year] }
                         result.push(city2);
                         lastFinish = finishCity;
                     }
                     
-                    
-                    
-//                    console.log(etape.id + " : etape.finish.city : " + etape.finish.city);  
-//                    console.log(etape.id + " : finishCity : " + finishCity);    
+                      
                 }
             });
 
