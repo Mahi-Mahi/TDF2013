@@ -1852,7 +1852,7 @@ TDF.Fight = (function() {
 				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de ses victoires</a>';
 				break;
 		}
-		res = res + '<div class="share-result">partager sa victoire<a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
+		res = res + '<div class="share-result"><span>Partager sa victoire</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
 		return res;
 	};
 
