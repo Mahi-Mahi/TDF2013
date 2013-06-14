@@ -370,12 +370,19 @@ TDF.Home = (function() {
 
 		TDF.loadTemplate(this);
 
-		my.autocomplete_init();
+
+                //Plus d'autocomplete sur la Home (pour le moment)
+                
+		//my.autocomplete_init();
 
 	};
 
 
 	my.autocomplete_init = function() {
+
+
+               
+            
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -388,7 +395,7 @@ TDF.Home = (function() {
 		if (jQuery('#search').length) {
 
 			jQuery("#search").autocomplete({
-				minLength: 0,
+				minLength: 1,
 				source: TDF.Data.cities,
 				open: function() {
 					jQuery(".ui-autocomplete:visible").css({
@@ -532,9 +539,17 @@ TDF.CitySearch = (function() {
 		var geocoder = new google.maps.Geocoder();
 
 
+                // Overrides the default autocomplete filter function to search only from the beginning of the string
+		jQuery.ui.autocomplete.filter = function(array, term) {
+			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function(value) {
+				return matcher.test(value.label || value.value || value);
+			});
+		};
+
 
 		searchInput.autocomplete({
-			minLength: 0,
+			minLength: 1,
 			source: TDF.Data.cities,
 			messages: {
 				noResults: '',

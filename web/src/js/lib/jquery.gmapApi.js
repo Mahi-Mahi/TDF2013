@@ -802,6 +802,9 @@
         findEtapesNear: function(lat, lng, address, data){
             var self = this;
             
+            var SEARCH_LIMIT = 10;
+            var BOUNDS_LIMIT = 3;
+            
             var etapes = [];
             var bounds = new google.maps.LatLngBounds();
 
@@ -809,7 +812,6 @@
             address = address.split(',');
 
             for(var j = 0; j < this.markers.length; j++){
-//                this.markers[j].onRemove();
                 this.markers[j].setMap(null);
             }
             
@@ -817,26 +819,38 @@
             
             
             //First search (little size)
-            var result = this._findEtapes(data, lat, lng, 0.05, 0.05);
+            var result = this._findEtapes(data, lat, lng, 0.02, 0.02);
             etapes = result;
             
             //Si pas de résultat proche, on met le marker de recherche
             if(etapes.length === 0){
-                this.createMarker(lat, lng, 'Ma recheche');
+                var m = this.createMarker(lat, lng, 'Ma recheche');
+                bounds.extend(m.getPosition());
             }
             else{
                 showInfo = true;
             }
             
           
-            if(etapes.length < 3){
+            if(etapes.length < SEARCH_LIMIT){
                 //Second search (middle size)
-                result = this._findEtapes(data, lat, lng, 0.5, 0.5);
+                result = this._findEtapes(data, lat, lng, 2, 2);
 
-                etapes = this._mergeEtapes(etapes, result, lat, lng);
-                
-                
+                etapes = this._mergeEtapes(etapes, result, lat, lng, SEARCH_LIMIT);
+    
             }
+            
+            if(etapes.length == 0){
+                //Third search (big size)
+                result = this._findEtapes(data, lat, lng, 20, 20);
+
+                etapes = this._mergeEtapes(etapes, result, lat, lng, SEARCH_LIMIT);
+    
+            }
+            
+            
+            console.log("TOUTES LES RECHERCHES SONT FAITES");
+            console.log("etapes.length : " + etapes.length);
             
             //TODO: //Third search (large size)
             
@@ -862,7 +876,11 @@
                     
                 }
                 
-                bounds.extend(marker.getPosition());
+                if(i < BOUNDS_LIMIT){
+                    bounds.extend(marker.getPosition());
+                }
+                
+                
                 
             }
           
@@ -926,7 +944,7 @@
          * merge result between two search
          * 
          */
-        _mergeEtapes: function(etapes, results, lat, lng){
+        _mergeEtapes: function(etapes, results, lat, lng, SEARCH_LIMIT){
             
             var pointOri = new google.maps.LatLng(lat, lng);      
             
@@ -969,7 +987,7 @@
             
             for(var i = 0; i < results.length; i++){
                 
-                if(etapes.length >= 3) {
+                if(etapes.length >= SEARCH_LIMIT) {
                     break;
                 }
                 
@@ -992,7 +1010,7 @@
                 
                 if(!isMerged){
                     etapes.push(result);
-//                    console.log("jajoute : " + result.city);
+                    console.log("j'ajoute : " + result.city);
                 }
                 
                 
@@ -1098,6 +1116,9 @@
                       
                 }
             });
+            
+            console.log("FIN RECHERCHE");
+            console.log("result.length : " +result.length);
 
           
             return result;
@@ -1203,9 +1224,14 @@
                 self.streetViewOverlay.push(overlays);
                
                 google.maps.event.addListener(marker, 'click', function() {
+                    for(var i = 0; i < self.infosWindow.length; i++){
+                        self.infosWindow[i].close();
+                    }
 
                     infowindow.open(self.map, marker);
                 });
+                
+                self.infosWindow.push(infowindow);
                
             });
             
@@ -1258,12 +1284,10 @@
                     //moving the pegman around the map
                 }else if(self.panorama.getVisible()){
                     
-                    console.log("affiche minimap");
-                    
 //                    $("#" + self.settings.minimap).removeClass("hide");
                     
                     
-                     self.minimap.setStreetView(self.panorama);
+                    self.minimap.setStreetView(self.panorama);
                     
                     self.minimap.setCenter(self.panorama.getPosition());
                     
@@ -1314,6 +1338,7 @@
       
             this.minimap.setStreetView(this.panorama);
             this.minimap.setCenter(center);
+            this.minimap.setZoom(14);
             
             //this.toggleStreetView(); 
         },
@@ -1325,8 +1350,6 @@
          */
         toggleStreetView: function () {
             var toggle = this.panorama.getVisible();
-            
-            console.log("toggle : " + toggle);
             
             this.panorama.setVisible(!toggle);
         },
@@ -1370,17 +1393,25 @@
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
             
+            var qualityWidth = 742*1.5;
+            var qualityHeight = 500*1.5;
+            
+            var pWidth = 742;
+            var pHeight = 500;
+            
             var pano = document.getElementById(self.settings.hyperlapseId);
             
+//            console.log("window.innerWidth : " + window.innerWidth);
+//            console.log("window.innerHeight : " + window.innerHeight);
           
             zoneH.removeClass('hide');
         
             this.hyperlapse = new Hyperlapse(pano, {
-                zoom: 1,
+                zoom: 2,
                 lookat: new google.maps.LatLng(data.lookatLat, data.lookatLng),
                 use_lookat: data.lookat,
-                width: 742,
-                height: 500,
+                width: qualityWidth, 
+                height: qualityHeight,
                 elevation: 50,
 //                fov: data.position,
                 millis: data.millis,
@@ -1475,6 +1506,9 @@
             };
 
             this.hyperlapse.onLoadComplete = function(e) {
+                self.hyperlapse.setSize(pWidth, pHeight);
+                
+                
                 self.hyperlapse.play();
             };
 
@@ -1605,15 +1639,19 @@
         },
         
         openInfoWindowPlace: function(id){
-          var self = this;
+            var self = this;
           
-          $.each(self.streetViewOverlay, function(i, overlay){
+            for(var i = 0; i < self.infosWindow.length; i++){
+                self.infosWindow[i].close();
+            }
+          
+            $.each(self.streetViewOverlay, function(i, overlay){
              
-             if(id == overlay.id){
-                 overlay.infowindow.open(self.map, overlay.marker);
-             }
+                if(id == overlay.id){
+                    overlay.infowindow.open(self.map, overlay.marker);
+                }
              
-          });
+            });
           
         },
 
