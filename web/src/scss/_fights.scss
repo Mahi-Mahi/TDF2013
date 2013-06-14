@@ -3,12 +3,20 @@
 }
 
 .fight-start .fighters {
+	/*
 	margin: 0 auto;
 	position: relative;
 	top: 140px;
 	width: 400px;
 	height: 300px;
-	z-index: 7;
+	*/
+	margin: 0 auto;
+	position: absolute;
+	top: 140px;
+	width: 400px;
+	height: 300px;
+	left: 300px;
+	// z-index: 7;
 }
 
 /*
@@ -24,6 +32,7 @@
 .fight-start .fighter_one {
 	bottom: 80px;
 	z-index: 10;
+	z-index: 6;
 }
 .fight-start .fighter_one.mod {
 	background:url(/img/duels/coureurs/coureurs-modernes-1.png) left top no-repeat;
@@ -37,7 +46,7 @@
 
 .fight-start .fighter_two {
 	bottom: 0px;
-	z-index: 11;
+	z-index: 8;
 }
 .fight-start .fighter_two.mod {
 	background:url(/img/duels/coureurs/coureurs-modernes-2.png) left top no-repeat;
@@ -593,6 +602,20 @@
 		// left: 383px;
 	}
 }
+.middleground {
+	@include scenery;
+	top: -140px;
+	left: -300px;
+	z-index:7;
+	.radar {
+		top: 165px;
+		// left: 383px;
+	}
+	.followers {
+		top: 265px;
+		// left: 383px;
+	}
+}
 
 .foreground {
 	@include scenery;
@@ -618,15 +641,18 @@
 	z-index:20;
 	.public-left-0, .public-left-1 {
 		bottom: 0px;
-		// left: 383px;
 	}
 	.public-right-0, .public-right-1 {
 		bottom: 0px;
-		// left: 383px;
 	}
 	.green {
 		top: 439px;
-		// left: 383px;
+	}
+	.panneaux {
+		bottom: 0px;
+	}
+	.trees-4, .trees-5 {
+		bottom: 0px;
 	}
 }
 
@@ -636,7 +662,7 @@
 	}
 }
 
-@each $plan in background, foreground, forescape {
+@each $plan in background, middleground, foreground, forescape {
 	@for $i from 0 through 7 {
 		@for $j from 0 through 7 {
 			.step-#{$j} .#{$plan} .step-#{$i} {

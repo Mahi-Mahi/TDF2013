@@ -1720,18 +1720,18 @@ TDF.Fight = (function() {
 				$inner.find('.background .beef-car').stop().animate({ 'left': '1000px' }, step_duration*0.25, 'linear');
 				$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
 				$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
-				$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({'left': '1000px'}, step_duration*0.25, 'linear');
+				$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '1000px'}, step_duration*0.25, 'linear');
 
 				// ANIM IN
 				$fighter_one.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80) + 'px'}, 1500, 'easeOutCubic');
 				$fighter_two.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80 ) + 'px'}, 1500, 'easeOutCubic');
 
-				$inner.find('.landscape').stop().animate({'left': '-' + (my.args.step * 770) + 'px'}, step_duration, 'linear');
+				$inner.find('.landscape').stop().animate({left: '-' + (my.args.step * 770) + 'px'}, step_duration, 'linear');
 
 				$inner.find('.background .fanion').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
-				$inner.find('.background .archeback').stop().animate({'left': '516px'}, step_duration*0.75, 'linear');
+				$inner.find('.background .archeback').stop().animate({left: '516px'}, step_duration*0.75, 'linear');
 
-				$inner.find('.foreground .archefore').stop().animate({'left': '517px'}, step_duration*0.75, 'linear');
+				$inner.find('.foreground .archefore').stop().animate({left: '517px'}, step_duration*0.75, 'linear');
 				$inner.find('.forescape .public-left-0').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
 				$inner.find('.forescape .public-right-0').css({display: 'none',left: '690px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
 
@@ -1756,14 +1756,14 @@ TDF.Fight = (function() {
 
 						// ANIM OUT PREV
 						$inner.find('.background .fanion').stop().animate({left: '-=1000'});
-						$inner.find('.background .archeback').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.foreground .archefore').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({'left': '-1000px'}, step_duration*0.25, 'linear');
+						$inner.find('.background .archeback').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.foreground .archefore').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({left: '-1000px'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.foreground .yellow-car').stop().animate({'left': '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.foreground .yellow-car').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.forescape .green').stop().animate({left: '+=1000'}, step_duration*0.25);
 						// ANIM IN
-						$inner.find('.background .beef-car').stop().animate({'left': '714px'}, step_duration*0.75, 'linear');
+						$inner.find('.background .beef-car').stop().animate({left: '714px'}, step_duration*0.75, 'linear');
 						$inner.find('.foreground .lady-left').css({display: 'none',left: '260px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
 						$inner.find('.foreground .lady-right').css({display: 'none',left: '596px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
 
@@ -1778,13 +1778,15 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
 
 						// ANIM OUT PREV
-						$inner.find('.background .beef-car').stop().animate({'left': '-=1000px'}, step_duration*0.25, 'linear');
+						$inner.find('.background .beef-car').stop().animate({left: '-=1000px'}, step_duration*0.25, 'linear');
 						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
 						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
-						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
+						$inner.find('.middleground .radar').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .panneaux').stop().animate({left: '+=1000px'}, step_duration*0.25);
 						// ANIM IN
-						$inner.find('.foreground .yellow-car').delay(step_duration*0.25).stop().animate({'left': '40px'}, step_duration*0.75, 'linear');
+						$inner.find('.foreground .yellow-car').delay(step_duration*0.25).stop().animate({left: '40px'}, step_duration*0.75, 'linear');
 						$inner.find('.forescape .green').stop().delay(step_duration*0.25).animate({left: '650px'}, step_duration*0.75);
 						setTimeout(function() { $inner.find('.fighter_one, .fighter_two').addClass('yellow_active'); }, step_duration*0.45);
 
@@ -1794,18 +1796,40 @@ TDF.Fight = (function() {
 						step_title = "<strong>Meilleur vitesse moyenne</strong>";
 						fighter_one_result = fighter_one.average_speed.toString().replace('.', ',') + " km/h";
 						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
+
+						// ANIM OUT PREV
+						$inner.find('.foreground .yellow-car').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .green').stop().animate({left: '-=1000'}, step_duration*0.25);
+						// ANIM OU NEXT
+						// ANIM IN
+						$inner.find('.middleground .radar').delay(step_duration*0.25).stop().animate({left: '690px'}, step_duration*0.75, 'linear');
+						$inner.find('.forescape .panneaux').stop().delay(step_duration*0.25).animate({left: '0px'}, step_duration*0.75);
+
+
 						break;
 					case 4:
 						step_class = "ahead_of_second";
 						step_title = "<strong>Meilleure avance<br /> sur le deuxième</strong>";
 						fighter_one_result = fighter_one.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
 						fighter_two_result = fighter_two.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
+
+						// ANIM OUT PREV
+						$inner.find('.middleground .radar').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
+						$inner.find('.forescape .panneaux').stop().animate({left: '-=1000'}, step_duration*0.25);
+						// ANIM OU NEXT
+						// ANIM IN
+
 						break;
 					case 5:
 						step_class = "nb_wins";
 						step_title = "<strong>Nombre <br>de tours gagnés</strong>";
 						fighter_one_result = fighter_one.nb_wins + (fighter_one.nb_wins > 1 ? ' victoires finales' : ' victoire finale');
 						fighter_two_result = fighter_two.nb_wins + (fighter_two.nb_wins > 1 ? ' victoires finales' : ' victoire finale');
+
+						// ANIM OUT PREV
+						// ANIM OU NEXT
+						// ANIM IN
+
 						break;
 					case 6:
 						step_class = "doping";
@@ -1813,6 +1837,11 @@ TDF.Fight = (function() {
 						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
 						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
 						$inner.find('.next').text("Résultat");
+
+						// ANIM OUT PREV
+						// ANIM OU NEXT
+						// ANIM IN
+
 						break;
 					case 7:
 					case 'results':
@@ -1824,6 +1853,10 @@ TDF.Fight = (function() {
 							my.showResults();
 							my.args.step = 7;
 						}
+
+
+						// ANIM OUT PREV
+						// ANIM IN
 
 						break;
 				}
