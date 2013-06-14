@@ -354,7 +354,7 @@
     border-radius: 4px;
     box-shadow: 0 0 7px rgba(0,0,0,.5);
     position:absolute;
-    width:192px;
+    width:202px;
     text-align:center;
     right:-40px;
 }
@@ -395,6 +395,10 @@
 
 .fighter_two .fighter-infos {
 	bottom:-58px;
+}
+
+.step-7 .fighter_one .fighter-infos, .step-results .fighter_one .fighter-infos {
+	top:-150px;
 }
 
 .step-7 .fighter_two .fighter-infos {
@@ -654,7 +658,7 @@
 	text-transform:uppercase;
 }
 
-.show-results {
+.show-results, a.traces {
 	background:#395877;
 	border-radius:8px;
 	color:#fff;
@@ -666,6 +670,10 @@
 	text-align:center;
 	text-transform:uppercase;
 	width:192px;
+}
+
+a.traces {
+	font-size:14px;
 }
 
 .tabs li {
@@ -809,3 +817,59 @@
 	width:180px;
 }
 
+.share-result {
+	clear:both;
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.share-result span {
+	color:#393932;
+	display:block;
+	font:700 14px/1.3 'Lato', Verdana, Arial, sans-serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+	text-transform:none;
+}
+
+.share-result a {
+	display:inline-block;
+	overflow:hidden;
+	margin:0 5px 0 0;
+	padding: 0;
+	width:34px;
+	height:32px;
+	border:none;
+	background:url(/img/icon/icon-social.png) left top no-repeat;
+	text-indent: 100%;
+	white-space:nowrap;
+	vertical-align:top;
+}
+
+.share-result .facebook {
+	background-position:-44px 0;
+}
+
+.share-result .twitter {
+	background-position:-89px 0;
+}
+
+.results .close {
+	top: 1em;
+	left: 50%;
+	margin-left: 210px;
+}
+
+.result-heading {
+	background:url(/img/duels/bg-vainqueur.png) left top no-repeat;
+	color:#F3F3ED;
+	display:block;
+	font:700 18px/30px 'Oswald', Verdana, Arial, sans-serif;
+	height:41px;
+	margin:0 0 0 -40px;
+	text-align:center;
+	width:280px;
+}
