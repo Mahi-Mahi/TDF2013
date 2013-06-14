@@ -1462,6 +1462,7 @@ TDF.Fight = (function() {
 				$fighter.find('.flag img').attr('src', '/img/drapeaux/' + (fighter.country ? fighter.country.replace(' ', '-').replace('É', 'e').toLowerCase() : '') + '_big.png');
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.random').hide();
 			}
 		} else {
 			$fighter = $main.find('.fighter_one');
@@ -1485,8 +1486,13 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.random').hide();
 			}
 		}
+
+		$main.find('.random').on('click', function() {
+			$main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).click();
+		});
 
 		if (my.args.fighter_one === 'selector') {
 			my.showSelector('fighter_one');
@@ -1587,8 +1593,6 @@ TDF.Fight = (function() {
 
 		$main.find('.selector .legends ul').html(legends_list.join(' '));
 		$main.find('.selector .winners ul').html(winners_list.join(' '));
-
-		$main.find('.selector .random').attr('href', $main.find('.selector .legends .winner a').eq(Math.round(Math.random() * $main.find('.selector .legends .winner a').length)).attr('href'));
 
 		$inner.find('.tabs').tabify();
 	};
@@ -1759,7 +1763,7 @@ TDF.Fight = (function() {
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
 
-				$inner.find('.title div').html("<span>Épreuve N°" + my.args.step + '</span>' + step_title).attr('class', step_class);
+				$inner.find('.title div').html(step_title).attr('class', step_class);
 
 
 				if (my.args.step < 7) {
