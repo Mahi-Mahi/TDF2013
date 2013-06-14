@@ -782,6 +782,9 @@
                 
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
                 console.log("createMarker : " + etape.city);
+                
+                this.createInfoWindowSearch(marker, etape);
+                
  
                 bounds.extend(marker.getPosition());
                 
@@ -790,6 +793,60 @@
             if(etapes.length > 1)
                 this.map.fitBounds(bounds);
             
+        },
+        
+        
+        createInfoWindowSearch: function(marker, data){
+            var self = this;
+            
+            data.years.sort();
+            
+            var contentString = '<h3>'+ data.city +'</h3>';
+            contentString += '<p>'+ data.count +' fois ville étape ';
+            
+            if(data.years.length > 1){
+               contentString += 'entre '+ data.years[0] +' et ' + data.years[data.years.length-1] + '</p>'; 
+            }
+            else{
+               contentString += 'en ' + data.years[0] + '</p>';
+            }
+            
+            
+            contentString += '<select class="selectYearSearch">';
+            contentString  += '<option value="-1">Selectionnez une année</option>';
+            
+            for(var i = 0; i < data.years.length; i++){
+                contentString  += '<option value="'+ data.years[i] +'">'+ data.years[i] +'</option>';
+            }
+            
+            contentString += '</select>';
+            
+            
+            
+            var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+            });
+            
+            
+            
+            
+            
+            self.infosWindow.push(infowindow);
+           
+          
+          
+            google.maps.event.addListener(marker, 'click', function() {
+                for(var i= 0; i <  self.infosWindow.length; i++){
+                     self.infosWindow[i].close();
+                }
+                
+                infowindow.open(self.map, this);
+            });
+
+            // assuming you also want to hide the infowindow when user mouses-out
+//            google.maps.event.addListener(marker, 'mouseout', function() {
+//                infowindow.close();
+//            });
         },
         
         /**
@@ -924,6 +981,7 @@
                     for(var v = 0; v < result.length; v++){
                         if(result[v].city == startCity){
                             result[v].count++;
+                            result[v].years.push(etape.year);
                             lastStart = startCity;
                             isNewCity = false;
                         }
@@ -931,7 +989,7 @@
                     }
                     
                     if(isNewCity){
-                        var city = {city: startCity, lat:startLat, lng: startLng, count: 1 }
+                        var city = {city: startCity, lat:startLat, lng: startLng, count: 1, years: [etape.year] }
                         result.push(city);
                         lastStart = startCity;
                     }
@@ -954,13 +1012,14 @@
                     for(var k = 0; k < result.length; k++){
                         if(result[k].city == finishCity){
                             result[k].count++;
+                            result[k].years.push(etape.year);
                             lastFinish = finishCity;
                             isNewCity = false;
                         }  
                     }
                     
                     if(isNewCity){
-                        var city2 = {city: finishCity, lat:finishLat, lng: finishLng, count: 1 }
+                        var city2 = {city: finishCity, lat:finishLat, lng: finishLng, count: 1, years: [etape.year] }
                         result.push(city2);
                         lastFinish = finishCity;
                     }

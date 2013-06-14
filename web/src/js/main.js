@@ -561,6 +561,19 @@ TDF.CitySearch = (function() {
                     }
                 });
                 
+                
+		$main.on('change', '.selectYearSearch', function(event) {
+                    event.preventDefault();	
+                    
+                    var year = jQuery(this).val();
+                    
+                    if(year == -1)
+                        return false;
+                    
+                    Path.history.pushState({}, "", '/traces/' + year +'/');
+		});
+                
+                
 
 	};
 
