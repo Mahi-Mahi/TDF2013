@@ -1259,7 +1259,7 @@ TDF.Winners = (function() {
 							case 'Eliminé':
 							case 'Forfait':
 								tour.position = 'Elimine';
-								pos_title = 'E';
+								pos_title = 'X';
 								bulle = '';
 								break;
 						}
@@ -1829,6 +1829,13 @@ TDF.StreetView = (function() {
 
 	my.init = function() {
 
+		$main.on('click', '.streetview .streetview-list a', function(event){
+			event.preventDefault();
+			// my.gmapApi.stopStreetView();
+			// my.gmapApi.showStreetView(jQuery(this).data('id'));
+			return false;
+		});
+
 	};
 
 
@@ -1910,17 +1917,17 @@ TDF.StreetView = (function() {
 
 		my.args = args;
 
-
-
 		if (TDF.loadTemplate(this)) {
 			var place_id, place, places_list = [],
 				$template, content = '';
 			$template = jQuery('#template-streetview-place');
 			for (place_id in TDF.Data.places) {
 				place = TDF.Data.places[place_id];
+				console.log(place);
 				content = $template.html()
+					.replace(':place_id', place_id)
 					.replace(':place_url', my.base_url + place_id + '/')
-					.replace(':place_type', place.hyperlapse ? 'hyperlapse' : 'streetview')
+					.replace(':place_type', place.type === 'Hyperlapse' ? 'hyperlapse' : 'streetview')
 					.replace(':place_title', place.name)
 					.replace(':place_pic', '/img/streetview/thumbnails/' + place.id + '.jpg');
 				places_list.push(content);
