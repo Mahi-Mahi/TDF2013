@@ -567,9 +567,10 @@ TDF.CitySearch = (function() {
                     
                     var year = jQuery(this).val();
                     
-                    if(year == -1)
-                        return false;
-                    
+                    if(year === -1) {
+						return false;
+                    }
+                        
                     Path.history.pushState({}, "", '/traces/' + year +'/');
 		});
                 
