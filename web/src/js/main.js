@@ -567,8 +567,9 @@ TDF.CitySearch = (function() {
                     
                     var year = jQuery(this).val();
                     
-                    if(year == -1)
+                    if(year === -1){
                         return false;
+                    }
                     
                     Path.history.pushState({}, "", '/traces/' + year +'/');
 		});
@@ -671,6 +672,8 @@ TDF.Traces = (function() {
 			mapTypeControl: false,
                         panControl: false,
                         streetViewControl: false,
+                        zoomMin: 8,
+                        zoomMax: 5,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -706,6 +709,8 @@ TDF.Traces = (function() {
 			],
 			styles: mapStyleTrace
 		};
+                
+                
 
 
 		my.gmapApi = map.gmapApi(mapOptions);
@@ -1803,9 +1808,11 @@ TDF.StreetView = (function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
-		var startlat = 47.754098;
-		var startlng = 3.669434;
-		var zoom = 5;
+		var startlat = 45.969968;
+		var startlng = 2.680664;
+//		var startlat = 47.754098;
+//		var startlng = 3.669434;
+		var zoom = 6;
 
 		var map = $inner.find("#" + mapId);
 
@@ -1818,6 +1825,8 @@ TDF.StreetView = (function() {
 			mapTypeControl: false,
                         panControl: false,
                         streetViewControl: false,
+                        zoomMin: 8,
+                        zoomMax: 6,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
