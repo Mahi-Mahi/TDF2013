@@ -1289,14 +1289,14 @@ TDF.Winners = (function() {
 					if (parseInt(tour.position, 10) === 1) {
 						bulle = 'Vainqueur en ' + year + "  " +
 							' en ' + TDF.Data.traces[year].winner_total_time.replace(/"/, "''") + ' ' +
-							' (' + TDF.Data.traces[year].winner_avg_speed + ')  ' +
+							' (' + TDF.Data.traces[year].winner_avg_speed + ' km/h)  ' +
 							" à l'age de " + (year - winner.birthyear) + " ans";
 						pos_title = 'Victoire finale';
 					} else {
 						bulle = '';
 						switch (tour.position) {
 							default: pos_title = tour.position;
-							bulle = tour.position + 'ème en ' + year;
+							bulle = tour.position + 'e en ' + year;
 							break;
 							// pos_title = 'A';
 							// break;
