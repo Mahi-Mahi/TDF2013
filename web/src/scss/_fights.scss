@@ -8,8 +8,10 @@
 	top: 140px;
 	width: 400px;
 	height: 300px;
+	z-index: 7;
 }
 
+/*
 .step-0 .fighters {
 	left: -80px;
 }
@@ -17,6 +19,7 @@
 .step-7  .fighters {
 	margin-left:180px;
 }
+*/
 
 .fight-start .fighter_one {
 	bottom: 80px;
@@ -54,13 +57,23 @@
 	width:auto;
 }
 
-.step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow, .step-results .fighter_one.yellow, .step-results .fighter_two.yellow {
-	background-position:-190px 0;
+@each $step in 2,3,4,6,7,results {
+	.step-#{$step} .fighter_one.yellow.yellow_active, .step-#{$step} .fighter_one.yellow.yellow_active {
+		background-position:-190px 0;
+	}
 }
+// .step-2 .fighter_one.yellow, .step-2 .fighter_two.yellow, .step-3 .fighter_one.yellow, .step-3 .fighter_two.yellow, .step-4 .fighter_one.yellow, .step-4 .fighter_two.yellow, .step-6 .fighter_one.yellow, .step-6 .fighter_two.yellow, .step-7 .fighter_one.yellow, .step-7 .fighter_two.yellow, .step-results .fighter_one.yellow, .step-results .fighter_two.yellow {
+// 	background-position:-190px 0;
+// }
 
-.step-5 .fighter_one.has_won, .step-5 .fighter_two.has_won, .step-7 .fighter_one.winner, .step-7 .fighter_two.winner, .step-results .fighter_one.winner, .step-results .fighter_two.winner {
-	background-position:-380px 0;
+@each $step in 5,7,results {
+	.step-#{$step} .fighter_one.yellow.yellow_active, .step-#{$step} .fighter_one.yellow.yellow_active {
+		background-position:-380px 0;
+	}
 }
+// .step-5 .fighter_one.has_won, .step-5 .fighter_two.has_won, .step-7 .fighter_one.winner, .step-7 .fighter_two.winner, .step-results .fighter_one.winner, .step-results .fighter_two.winner {
+// 	background-position:-380px 0;
+// }
 
 .fight-start .fighter {
 	position: absolute;
@@ -205,8 +218,10 @@
 	border-top:1px solid #fff;
 	display:block;
 	height:500px;
+	width: 1000px;
 	position:relative;
-	z-index:1;
+	// z-index:7;
+	overflow: hidden;
 }
 
 .fight-container .next {
@@ -401,8 +416,12 @@
 	bottom:-58px;
 }
 
-.step-1 .fighters {
+.step-start .fighter {
+	margin-left: -1000px;
+}
 
+.step-0 .fighter {
+	margin-left: -500px;
 }
 
 .step-7 .fighter_one .fighter-infos, .step-results .fighter_one .fighter-infos {
@@ -454,6 +473,7 @@
 	display:none;
 }
 
+/*
 .forescape {
 	background:url(/img/duels/plans/duels_plan1_e0_1.png) -147px 0 no-repeat, url(/img/duels//plans/duels_plan1_e0_1.png) right top no-repeat;
 	position:absolute;
@@ -498,7 +518,9 @@
 .step-7 .forescape, .step-results .forescape {
 	background:none;
 }
+*/
 
+/*
 .foreground {
 	background:url(/img/duels/plans/duels_plan2_e0_1.png) 0 0 no-repeat;
 	position:absolute;
@@ -540,44 +562,113 @@
 	height:249px;
 	top: 127px;
 }
+*/
+
+@mixin scenery {
+	height:500px;
+	width:1000px;
+	left:0;
+	top:0;
+	position:absolute;
+	img {
+		position: absolute;
+		left: 1000px;
+	}
+}
 
 .background {
-	background:url(/img/duels//plans/duels_plan4.png) left top no-repeat;
-	height:500px;
-	position:absolute;
-	z-index:4;
-	width:100%;
+	@include scenery;
+	z-index:5;
+	.fanion {
+		top: 92px;
+		left: 20px;
+		display: none;
+	}
+	.archeback {
+		top: 135px;
+		// left: 383px;
+	}
+	.beef-car {
+		top: 127px;
+		// left: 383px;
+	}
 }
 
-.step-1 .background {
-	background-position:-770px 0;
+.foreground {
+	@include scenery;
+	z-index:10;
+	.archefore {
+		top: 89px;
+		// left: 383px;
+	}
+	.lady-right {
+		top: 242px;
+	}
+	.lady-left {
+		top: 234px;
+	}
+	.yellow-car {
+		top: 200px;
+		// left: 383px;
+	}
 }
 
-.step-2 .background {
-	background-position:-1540px 0;
+.forescape {
+	@include scenery;
+	z-index:20;
+	.public-left-0, .public-left-1 {
+		bottom: 0px;
+		// left: 383px;
+	}
+	.public-right-0, .public-right-1 {
+		bottom: 0px;
+		// left: 383px;
+	}
+	.green {
+		top: 439px;
+		// left: 383px;
+	}
 }
 
-.step-3 .background {
-	background-position:-2310px 0;
+@for $i from 0 through 7 {
+	.step-#{$i} .landscape {
+		left: (-770px * $i) + 770px;
+	}
 }
 
-.step-4 .background {
-	background-position:-3080px 0;
+@each $plan in background, foreground, forescape {
+	@for $i from 0 through 7 {
+		@for $j from 0 through 7 {
+			.step-#{$j} .#{$plan} .step-#{$i} {
+				@if $i >= $j {
+					left: 1000px;
+				} @else {
+					left: -1000px;
+				}
+			}
+		}
+	}
+	@for $i from 0 through 7 {
+		.step-start .#{$plan} .step-#{$i} {
+			left: 1000px;
+		}
+		.step-result .#{$plan} .step-#{$i} {
+			left: -1000px;
+		}
+	}
+	@for $j from 0 through 7 {
+		.step-#{$j} .#{$plan} .step-start {
+			left: 1000px;
+		}
+		.step-#{$j} .#{$plan} .step-result {
+			left: -1000px;
+		}
+	}
 }
 
-.step-5 .background {
-	background-position:-3850px 0;
-}
 
-.step-6 .background {
-	background-position:-4620px 0;
-}
-
-.step-7 .background, .step-results .background {
-	background-position:-5390px 0;
-}
-
-.landscape {
+/*
+.background {
 	background:url(/img/duels/plans/duels_plan3_e0_1.png) left top no-repeat, url(/img/duels/plans/duels_plan3_e0_2.png) 496px 45px no-repeat;
 	height:222px;
 	left:20px;
@@ -587,32 +678,72 @@
 	z-index:5;
 }
 
-.step-1 .landscape {
+
+.step-1 .background {
 	background:url(/img/duels/plans/duels_plan3_e1_1.png) 96% 35px no-repeat, url(/img/duels/plans/duels_plan3_e1_2.png) 576px 150px no-repeat;
 	height:100%;
 }
 
-.step-2 .landscape, .step-3 .landscape, .step-6 .landscape, .step-7 .landscape, .step-results .landscape {
+.step-2 .background, .step-3 .background, .step-6 .background, .step-7 .background, .step-results .background {
 	background:none;
 }
 
-.step-3 .landscape {
+.step-3 .background {
 	background:url(/img/duels/plans/duels_plan3_e3_1.png) 668px top no-repeat;
 	top:165px;
 }
 
-.step-4 .landscape {
+.step-4 .background {
 	background: url(/img/duels/plans/bg-second.png) -50px top no-repeat;
 	top: 220px;
 	left: 0;
 }
 
-.step-5 .landscape {
+.step-5 .background {
 	background: url(/img/duels/plans/duels_plan3_e0_2.png) 0 45px no-repeat;
 	height: 222px;
 	left: 20px;
 	top: 92px;
 }
+*/
+
+.landscape {
+	// background:url(/img/duels//plans/duels_plan4.png) left top no-repeat;
+	height:500px;
+	position:absolute;
+	z-index:4;
+	width:100%;
+}
+
+/*
+.step-1 .landscape {
+	background-position:-770px 0;
+}
+
+.step-2 .landscape {
+	background-position:-1540px 0;
+}
+
+.step-3 .landscape {
+	background-position:-2310px 0;
+}
+
+.step-4 .landscape {
+	background-position:-3080px 0;
+}
+
+.step-5 .landscape {
+	background-position:-3850px 0;
+}
+
+.step-6 .landscape {
+	background-position:-4620px 0;
+}
+
+.step-7 .landscape, .step-results .landscape {
+	background-position:-5390px 0;
+}
+*/
 
 .sky {
 	position:absolute;

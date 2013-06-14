@@ -371,7 +371,7 @@ TDF.Home = (function() {
 		TDF.loadTemplate(this);
 
 
-                //Plus d'autocomplete sur la Home (pour le moment)
+		//Plus d'autocomplete sur la Home (pour le moment)
 
 		//my.autocomplete_init();
 
@@ -379,8 +379,6 @@ TDF.Home = (function() {
 
 
 	my.autocomplete_init = function() {
-
-
 
 
 
@@ -539,7 +537,7 @@ TDF.CitySearch = (function() {
 		var geocoder = new google.maps.Geocoder();
 
 
-                // Overrides the default autocomplete filter function to search only from the beginning of the string
+		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
 			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
 			return jQuery.grep(array, function(value) {
@@ -708,7 +706,7 @@ TDF.Traces = (function() {
 
 		var map = $inner.find("#" + mapId);
 
-                console.log("google.maps.ControlPosition.LEFT_TOP : " + google.maps.ControlPosition.LEFT_TOP);
+		console.log("google.maps.ControlPosition.LEFT_TOP : " + google.maps.ControlPosition.LEFT_TOP);
 
 		var mapOptions = {
 			mapTypeId: mapTypeId,
@@ -723,7 +721,7 @@ TDF.Traces = (function() {
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
-                                position: google.maps.ControlPosition.TOP_LEFT,
+				position: google.maps.ControlPosition.TOP_LEFT,
 				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
@@ -1710,17 +1708,33 @@ TDF.Fight = (function() {
 		}
 		$inner.attr('class', 'fight-start step-' + my.args.step);
 
+		var step_duration = 2000;
+
 		switch (my.args.step) {
 			default:
 			case 0:
 			case 'start':
 				my.args.step = 0;
-				$fighter_one.css({
-					'margin-left': ((max_space / 2) - fighter_width) + 'px'
-				});
-				$fighter_two.css({
-					'margin-left': ((max_space / 2) - fighter_width) + 'px'
-				});
+
+				// ANIM OUT NEXT
+				$inner.find('.background .beef-car').stop().animate({ 'left': '1000px' }, step_duration*0.25, 'linear');
+				$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
+				$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
+				$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({'left': '1000px'}, step_duration*0.25, 'linear');
+
+				// ANIM IN
+				$fighter_one.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80) + 'px'}, 1500, 'easeOutCubic');
+				$fighter_two.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80 ) + 'px'}, 1500, 'easeOutCubic');
+
+				$inner.find('.landscape').stop().animate({'left': '-' + (my.args.step * 770) + 'px'}, step_duration, 'linear');
+
+				$inner.find('.background .fanion').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+				$inner.find('.background .archeback').stop().animate({'left': '516px'}, step_duration*0.75, 'linear');
+
+				$inner.find('.foreground .archefore').stop().animate({'left': '517px'}, step_duration*0.75, 'linear');
+				$inner.find('.forescape .public-left-0').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+				$inner.find('.forescape .public-right-0').css({display: 'none',left: '690px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+
 				$inner.find('.next').text("Top Départ").attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				$inner.find('.prev').hide();
 				break;
@@ -1739,12 +1753,41 @@ TDF.Fight = (function() {
 						step_title = "<strong>Nombre d'étapes remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
+
+						// ANIM OUT PREV
+						$inner.find('.background .fanion').stop().animate({left: '-=1000'});
+						$inner.find('.background .archeback').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.foreground .archefore').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({'left': '-1000px'}, step_duration*0.25, 'linear');
+						// ANIM OUT NEXT
+						$inner.find('.foreground .yellow-car').stop().animate({'left': '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .green').stop().animate({left: '+=1000'}, step_duration*0.25);
+						// ANIM IN
+						$inner.find('.background .beef-car').stop().animate({'left': '714px'}, step_duration*0.75, 'linear');
+						$inner.find('.foreground .lady-left').css({display: 'none',left: '260px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+						$inner.find('.foreground .lady-right').css({display: 'none',left: '596px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+
+						$inner.find('.forescape .public-left-1').stop().delay(step_duration*0.25).animate({left: '20px'}, step_duration*0.75);
+						$inner.find('.forescape .public-right-1').stop().delay(step_duration*0.25).animate({left: '690px'}, step_duration*0.75);
+
 						break;
 					case 2:
 						step_class = "pct_leading";
 						step_title = "<strong>Temps passé<br>en tête du général</strong>";
 						fighter_one_result = fighter_one.pct_leading + "% de son meilleur tour";
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
+
+						// ANIM OUT PREV
+						$inner.find('.background .beef-car').stop().animate({'left': '-=1000px'}, step_duration*0.25, 'linear');
+						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
+						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
+						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({'left': '-=1000'}, step_duration*0.25, 'linear');
+						// ANIM OUT NEXT
+						// ANIM IN
+						$inner.find('.foreground .yellow-car').delay(step_duration*0.25).stop().animate({'left': '40px'}, step_duration*0.75, 'linear');
+						$inner.find('.forescape .green').stop().delay(step_duration*0.25).animate({left: '650px'}, step_duration*0.75);
+						setTimeout(function() { $inner.find('.fighter_one, .fighter_two').addClass('yellow_active'); }, step_duration*0.45);
+
 						break;
 					case 3:
 						step_class = "average_speed";
@@ -1792,12 +1835,17 @@ TDF.Fight = (function() {
 				// console.log(diff);
 				// console.log([fighter_one.score, fighter_two.score]);
 
-				$fighter_one.animate({
+				$fighter_one.stop().animate({
 					'margin-left': diff[0] + 'px'
-				});
-				$fighter_two.animate({
+				}, step_duration, 'linear');
+				$fighter_two.stop().animate({
 					'margin-left': diff[1] + 'px'
-				});
+				}, step_duration, 'linear');
+
+				$inner.find('.landscape').stop().animate({
+					'left': '-' + (my.args.step * 770) + 'px'
+				}, step_duration, 'linear');
+
 
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
@@ -1936,7 +1984,6 @@ TDF.StreetView = (function() {
 
 	};
 
-
 	my.initializeGmap = function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
@@ -1999,7 +2046,7 @@ TDF.StreetView = (function() {
 				}
 			],
 			styles: mapStyleTrace,
-                        stylesMinimap: mapStyleSearch
+			stylesMinimap: mapStyleSearch
 		};
 
 		my.gmapApi = map.gmapApi(mapOptions);
@@ -2007,26 +2054,21 @@ TDF.StreetView = (function() {
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
 
 	};
-        
-        my.onCloseStreetView = function(){
-            Path.history.pushState({}, "", my.base_url);
-        };
+
+	my.onCloseStreetView = function() {
+		Path.history.pushState({}, "", my.base_url);
+	};
 
 
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
-                
-                var widthMaxLoader = 636;
-                
-                
-                var currentWidth = (widthMaxLoader * current) / total;
-                
-                console.log("currentWidth : " + currentWidth);
 
+		var widthMaxLoader = 636;
 
-                loader.width(currentWidth);    
+		var currentWidth = (widthMaxLoader * current) / total;
 
-		
+		loader.width(currentWidth);
+
 	};
 
 	my.render = function(args) {
@@ -2056,7 +2098,6 @@ TDF.StreetView = (function() {
 
 		}
 
-
 		this.initializeGmap();
 
 		var duration = 500;
@@ -2068,12 +2109,9 @@ TDF.StreetView = (function() {
 				left: '-258px'
 			}, duration);
 
-
-
 			my.gmapApi.showStreetView(my.args.place_id);
 
 			// my.gmapApi.openInfoWindowPlace(my.args.place_id);
-
 
 		} else {
 			$inner.find('.container').stop().animate({
@@ -2082,8 +2120,6 @@ TDF.StreetView = (function() {
 
 			my.gmapApi.stopStreetView();
 		}
-
-
 
 	};
 
@@ -2151,6 +2187,7 @@ TDF.Data = (function() {
 }());
 
 // Document Ready
-jQuery(document).ready(function() {
+// jQuery(document).ready(function() {
+jQuery(window).load(function() {
 	TDF.Data.init(TDF.init);
 });
