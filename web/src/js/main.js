@@ -807,7 +807,7 @@ TDF.Traces = (function() {
 			$squares.append(squares);
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
-			var slider_default = 100; // (my.args.years.min() - 1903) / 110 * 100;
+			var slider_default = (my.args.years.min() - 1903) / 110 * 100;
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
 				slide: function(event, ui) {
@@ -862,6 +862,11 @@ TDF.Traces = (function() {
 
 
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
+
+		$main.find(".timeline .slider").slider({
+			value: (my.args.years.min() - 1903) / 110 * 100,
+		});
+
 
 		/*
 		// GTAB
@@ -978,6 +983,8 @@ TDF.Traces = (function() {
 			$main.find('.third .ahead_of_third').html('');
 
 		}
+
+
 
 	};
 
