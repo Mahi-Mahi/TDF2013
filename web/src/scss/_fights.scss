@@ -10,6 +10,10 @@
 	height: 300px;
 }
 
+.step-0 .fighters {
+	left: -80px;
+}
+
 .step-7  .fighters {
 	margin-left:180px;
 }
@@ -220,7 +224,7 @@
 	text-indent:5px;
 	text-transform:uppercase;
 	width:202px;
-	z-index:10;
+	z-index:999;
 }
 
 .fight-container .next:hover {
@@ -239,7 +243,7 @@
 	left:10px;
 	top:250px;
 	width:75px;
-	z-index:10;
+	z-index:999;
 }
 
 .fight-container .prev:hover {
@@ -397,6 +401,10 @@
 	bottom:-58px;
 }
 
+.step-1 .fighters {
+
+}
+
 .step-7 .fighter_one .fighter-infos, .step-results .fighter_one .fighter-infos {
 	top:-150px;
 }
@@ -504,7 +512,7 @@
 .step-1 .foreground {
 	background: url(/img/duels/plans/duels_plan2_e1_1.png) 0 0 no-repeat;
 	height: 100%;
-	left: 220px;
+	left: 260px;
 	top: 234px;
 }
 
@@ -530,6 +538,7 @@
 .step-6 .foreground {
 	background: url(/img/duels/plans/duels_plan3_e6_1.png) 0 0 no-repeat;
 	height:249px;
+	top: 127px;
 }
 
 .background {
