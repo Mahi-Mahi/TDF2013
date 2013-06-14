@@ -793,18 +793,17 @@ TDF.Traces = (function() {
 
 				trace = TDF.Data.traces[year];
 
-				if (year < 2013) {
 					for (stat in stats) {
 						if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
 							stats[stat].max.val = trace[stat];
 							stats[stat].max.year = year;
 						}
-						if (trace[stat] < stats[stat].min.val || stats[stat].min.val == null) {
+						if ((trace[stat] < stats[stat].min.val && trace[stat]>0) || stats[stat].min.val == null) {
 							stats[stat].min.val = trace[stat];
 							stats[stat].min.year = year;
 						}
 					}
-				}
+
 			}
 			$timeline.append(items);
 			$squares.append(squares);
@@ -901,14 +900,15 @@ TDF.Traces = (function() {
 			nb_legs = 0,
 			nb_concurrents = 0,
 			nb_finishers = 0;
-		var trace, year;
-		for (year in my.traces) {
-			trace = my.traces[year];
+		var trace;
+
+		jQuery(my.args.years).each(function(idx, year){
+			trace = TDF.Data.traces[year];
 			total_length += trace.total_length;
 			nb_legs += trace.nb_legs;
 			nb_concurrents += trace.nb_concurrents;
 			nb_finishers += trace.nb_finishers;
-		}
+		});
 
 		total_length = Math.round(total_length / my.args.years.length);
 		nb_legs = Math.round(nb_legs / my.args.years.length);
@@ -1849,6 +1849,7 @@ TDF.StreetView = (function() {
 			event.preventDefault();
 			// my.gmapApi.stopStreetView();
 			// my.gmapApi.showStreetView(jQuery(this).data('id'));
+			my.gmapApi.openInfoWindowPlace(jQuery(this).data('id'));
 			return false;
 		});
 
@@ -1969,12 +1970,12 @@ TDF.StreetView = (function() {
 				left: '-258px'
 			}, duration);
 
-                        
-                        
-//                        my.gmapApi.showStreetView(my.args.place_id);
-                        
-                        my.gmapApi.openInfoWindowPlace(my.args.place_id);
-                        
+
+
+			my.gmapApi.showStreetView(my.args.place_id);
+
+			// my.gmapApi.openInfoWindowPlace(my.args.place_id);
+
 
 		} else {
 			$inner.find('.container').stop().animate({
