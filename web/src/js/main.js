@@ -1496,11 +1496,12 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 				$fighter.find('.random').hide();
+				$fighter.find('.choose-fighter').text('Changer de coureur');
 			}
 		} else {
 			$fighter = $main.find('.fighter_one');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$fighter.find('.name').html('<strong>votre coureur</strong>');
 			$inner.find('#fighter_one_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
 			$fighter.find('.flag').css('display', 'none');
@@ -1521,6 +1522,7 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
+				$fighter.find('.choose-fighter').text('Change de coureur');
 				$fighter.find('.random').hide();
 			}
 		} else {
@@ -1641,7 +1643,6 @@ TDF.Fight = (function() {
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 
-
 		// calcul des positions relatives
 
 		my.steps = [];
@@ -1660,8 +1661,6 @@ TDF.Fight = (function() {
 			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
 			return;
 		}
-
-
 
 		if (TDF.loadTemplate(this, '-start')) {
 
