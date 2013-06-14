@@ -383,6 +383,9 @@ TDF.Home = (function() {
 			jQuery("#search").autocomplete({
 				minLength: 0,
 				source: TDF.Data.cities,
+				open : function(){
+					jQuery(".ui-autocomplete:visible").css({top:"+=4",left:"-=10"});
+				},
 				messages: {
 					noResults: '',
 					results: function() {}
