@@ -1511,8 +1511,7 @@ TDF.Fight = (function() {
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
 				$fighter.find('.random').hide();
 			}
-		}
-		else {
+		} else {
 			$fighter = $main.find('.fighter_two');
 			$fighter.data('id', '');
 			$fighter.find('.name').html('<strong>son adversaire</strong>');
@@ -1646,7 +1645,7 @@ TDF.Fight = (function() {
 		my.steps[6] = [0, 0];
 		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
 
-		if ( my.steps[7][0] < my.steps[7][1] ){
+		if (my.steps[7][0] < my.steps[7][1]) {
 			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
 			return;
 		}
@@ -1803,7 +1802,7 @@ TDF.Fight = (function() {
 						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
 						$fighter_two.find('.fighter-infos').hide();
 					}
-					if( jQuery('.fighter.winner').length === 1){
+					if (jQuery('.fighter.winner').length === 1) {
 						console.log('winner result');
 						$fighter_one.find('.result').html(my.winner_result(fighter_one));
 						$fighter_two.find('.fighter-infos').hide();
@@ -1813,9 +1812,15 @@ TDF.Fight = (function() {
 				$inner.find('.title div').html(step_title).attr('class', step_class);
 
 				if (my.args.step < 7) {
+					if ( parseInt(my.args.step, 10) > 0) {
+						$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
+					} else {
+						$inner.find('.prev').hide();
+					}
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
 					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
+					$inner.find('.prev').hide();
 				}
 
 				break;
