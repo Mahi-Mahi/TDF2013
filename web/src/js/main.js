@@ -463,7 +463,7 @@ TDF.CitySearch = (function() {
 
 	my.initializeGmap = function() {
 
-				console.log("init map recherche");
+		console.log("init map recherche");
 
 		//Config Gmap
 		var mapId = 'gmap-search';
@@ -478,9 +478,9 @@ TDF.CitySearch = (function() {
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
-						mapTypeControl: false,
-						panControl: false,
-						streetViewControl: false,
+			mapTypeControl: false,
+			panControl: false,
+			streetViewControl: false,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -498,79 +498,81 @@ TDF.CitySearch = (function() {
 	my.autocomplete_init = function() {
 
 
-				function geocoding(){
-					var address = searchInput.val();
+		function geocoding() {
+			var address = searchInput.val();
 
-					geocoder.geocode( { 'address': address}, function(results, status) {
-						if (status === google.maps.GeocoderStatus.OK) {
-							my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
-						}
-						else {
-							console.log('Geocode was not successful for the following reason: ' + status);
-						}
-					});
-
+			geocoder.geocode({
+				'address': address
+			}, function(results, status) {
+				if (status === google.maps.GeocoderStatus.OK) {
+					my.gmapApi.findEtapesNear(results[0].geometry.location.lat(), results[0].geometry.location.lng(), TDF.Data.legs);
+				} else {
+					console.log('Geocode was not successful for the following reason: ' + status);
 				}
+			});
+
+		}
 
 
-				var searchInput = $main.find('#search');
-				var form = $main.find('#city_search');
-				var geocoder = new google.maps.Geocoder();
+		var searchInput = $main.find('#search');
+		var form = $main.find('#city_search');
+		var geocoder = new google.maps.Geocoder();
 
 
-				if(searchInput.val().length > 0){
+		if (searchInput.val().length > 0) {
 
-//                    var address = searchInput.val();
-//                    console.log('address : '+ address);
-//                    address.replace(/%20/, ' ');
-//                    console.log('address2 : '+ address);
-//                    searchInput.val(address);
+			//                    var address = searchInput.val();
+			//                    console.log('address : '+ address);
+			//                    address.replace(/%20/, ' ');
+			//                    console.log('address2 : '+ address);
+			//                    searchInput.val(address);
 
-					geocoding();
-				}
-
-
-				searchInput.autocomplete({
-					minLength: 0,
-					source: TDF.Data.cities,
-					messages: {
-						noResults: '',
-						results: function() {}
-					}
-				});
+			geocoding();
+		}
 
 
+		searchInput.autocomplete({
+			minLength: 0,
+			source: TDF.Data.cities,
+			messages: {
+				noResults: '',
+				results: function() {}
+			}
+		});
 
-				form.submit(function() {
-
-					geocoding();
-
-					Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
-
-					return false;
-				});
 
 
-				searchInput.bind('keydown', function(e) {
-					if (e.keyCode === 13) {
+		form.submit(function() {
 
-					}
-					else {
+			geocoding();
 
-					}
-				});
+			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+
+			return false;
+		});
+
+
+		searchInput.bind('keydown', function(e) {
+			if (e.keyCode === 13) {
+
+			} else {
+
+			}
+		});
 
 
 		$main.on('change', '.selectYearSearch', function(event) {
+
 			event.preventDefault();
 
 			var year = jQuery(this).val();
 
-			if (year === -1){
+			if (year === -1) {
 				return false;
 			}
 
 			Path.history.pushState({}, "", '/traces/' + year + '/');
+
 		});
 
 
@@ -669,8 +671,12 @@ TDF.Traces = (function() {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
-						panControl: false,
-						streetViewControl: false,
+
+			panControl: false,
+			streetViewControl: false,
+			zoomMin: 8,
+			zoomMax: 5,
+
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -706,6 +712,7 @@ TDF.Traces = (function() {
 			],
 			styles: mapStyleTrace
 		};
+
 
 
 		my.gmapApi = map.gmapApi(mapOptions);
@@ -1048,7 +1055,7 @@ TDF.Winners = (function() {
 			jQuery(this).find('a').attr('href', query_string + jQuery(this).data('winner-id') + '/');
 		});
 		$main.find('#close').attr('href', query_string);
-		$main.find('.reset').attr('href', my.base_url + (my.args.winner_id?my.args.winner_id+'/':''));
+		$main.find('.reset').attr('href', my.base_url + (my.args.winner_id ? my.args.winner_id + '/' : ''));
 
 	};
 
@@ -1210,7 +1217,7 @@ TDF.Winners = (function() {
 			var i;
 
 			var suppl_years = Math.floor((visible_tours - nb_tours) / 2);
-			for (i = 0; i < suppl_years ; i++) {
+			for (i = 0; i < suppl_years; i++) {
 				winner_tours.push('<li class="empty"><div class="year">' + (years.min() - suppl_years + i) + '</div></li>');
 			}
 
@@ -1371,10 +1378,10 @@ TDF.Fight = (function() {
 			if (a.nb_wins > 0 && b.nb_wins === 0) {
 				return 1;
 			}
-			if ( TDF.Data.winners[a.id] === undefined ){
+			if (TDF.Data.winners[a.id] === undefined) {
 				return -1;
 			}
-			if ( TDF.Data.winners[b.id] === undefined ){
+			if (TDF.Data.winners[b.id] === undefined) {
 				return -1;
 			}
 			if (TDF.Data.winners[a.id].wins.max() < TDF.Data.winners[b.id].wins.max()) {
@@ -1819,21 +1826,25 @@ TDF.StreetView = (function() {
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
-		var startlat = 47.754098;
-		var startlng = 3.669434;
-		var zoom = 5;
+		var startlat = 45.969968;
+		var startlng = 2.680664;
+		//		var startlat = 47.754098;
+		//		var startlng = 3.669434;
+		var zoom = 6;
 
 		var map = $inner.find("#" + mapId);
 
 		var mapOptions = {
 			minimap: "minimap",
-						hyperlapseId: "gmap-hyperlapse",
-						hyperlapseLoading: my.hyperlapseLoading,
+			hyperlapseId: "gmap-hyperlapse",
+			hyperlapseLoading: my.hyperlapseLoading,
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
-						panControl: false,
-						streetViewControl: false,
+			panControl: false,
+			streetViewControl: false,
+			zoomMin: 8,
+			zoomMax: 6,
 			zoom: zoom,
 			zoomControl: true,
 			zoomControlOptions: {
@@ -1846,12 +1857,12 @@ TDF.StreetView = (function() {
 					anchorX: 11,
 					anchorY: 32
 				}, {
-					url: "/img/lieux/pin-hyperlapse.png",
-					width: 31,
+					url: "/img/lieux/lieux_pin_hyperlapse.png",
+					width: 23,
 					height: 32,
-					anchorX: 5,
+					anchorX: 11,
 					anchorY: 32
-				},{
+				}, {
 					url: "/img/lieux/lieux_hyperlapse_pinA.png",
 					width: 51,
 					height: 51,
@@ -1874,16 +1885,16 @@ TDF.StreetView = (function() {
 	};
 
 
-		my.hyperlapseLoading = function(current, total){
-			var loader = jQuery('#hyperlapseLoading');
+	my.hyperlapseLoading = function(current, total) {
+		var loader = jQuery('#hyperlapseLoading');
 
-			loader.show();
-			loader.html(current + "/" + total);
+		loader.show();
+		loader.html(current + "/" + total);
 
-			if(current === total){
-				loader.hide();
-			}
-		};
+		if (current === total) {
+			loader.hide();
+		}
+	};
 
 	my.render = function(args) {
 
@@ -1914,7 +1925,7 @@ TDF.StreetView = (function() {
 		}
 
 
-				this.initializeGmap();
+		this.initializeGmap();
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
@@ -1926,14 +1937,14 @@ TDF.StreetView = (function() {
 			}, duration);
 
 
-						my.gmapApi.showStreetView(my.args.place_id);
+			my.gmapApi.showStreetView(my.args.place_id);
 
 		} else {
 			$inner.find('.container').stop().animate({
 				left: '0px'
 			}, duration);
 
-						my.gmapApi.stopStreetView();
+			my.gmapApi.stopStreetView();
 		}
 
 
