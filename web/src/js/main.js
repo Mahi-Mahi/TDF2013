@@ -848,8 +848,12 @@ TDF.Traces = (function() {
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
-			if (my.args.city !== undefined) {
-				$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+			console.log('------');
+			if (my.args.city_id === undefined) {
+				$main.find('.map-container .city').hide();
+			} else {
+				$main.find('.map-container .city').html(my.args.city_id + '<a href="' + my.base_url + my.args.years.join(',') + '/">X</a>');
+				$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city_id + '/');
 			}
 
 			this.initializeGmap();
@@ -885,7 +889,7 @@ TDF.Traces = (function() {
 			value: (my.args.years.min() - 1903) / 110 * 100
 		});
 
-		$main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
+		// $main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
 
 
 		/*
@@ -1708,8 +1712,8 @@ TDF.Fight = (function() {
 				$fighter_two.css({
 					'margin-left': ((max_space / 2) - fighter_width) + 'px'
 				});
-				$inner.find('.next').text("Top Départ");
-				$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				$inner.find('.next').text("Top Départ").attr('href', my.getQueryString() + (my.args.step + 1) + '/');
+				$inner.find('.prev').hide();
 				break;
 			case 1:
 			case 2:
@@ -1812,11 +1816,7 @@ TDF.Fight = (function() {
 				$inner.find('.title div').html(step_title).attr('class', step_class);
 
 				if (my.args.step < 7) {
-					if ( parseInt(my.args.step, 10) > 0) {
-						$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
-					} else {
-						$inner.find('.prev').hide();
-					}
+					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
 					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
@@ -1981,7 +1981,7 @@ TDF.StreetView = (function() {
 					height: 51,
 					anchorX: 51 / 2,
 					anchorY: 51 / 2
-				},{
+				}, {
 					url: "/img/lieux/lieux_hyperlapse_pointer.png",
 					width: 58,
 					height: 57,
