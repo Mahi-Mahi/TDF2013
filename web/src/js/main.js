@@ -609,11 +609,22 @@ TDF.Traces = (function() {
 			if (jQuery(this).prop('checked')) {
 				$inner.find('#multi-select').prop('checked', true);
 				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
+
+				var years = [];
+				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+					years.push(jQuery(this).val());
+				});
+				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
+
+			} else {
+				Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2013') + '/');
 			}
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-			if (jQuery(this).prop('checked')) {} else {
+			if (jQuery(this).prop('checked')) {
+				// Path.history.pushState({}, "", my.base_url + '2013/');
+			} else {
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
 				}
@@ -909,7 +920,7 @@ TDF.Traces = (function() {
 			if (trace.winner_id !== 'n.a.') {
 				$main.find('.winner .winner-status').html('Vainqueur');
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
-				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
+				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_big.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
 			} else {
 				$main.find('.winner .name').text('');
