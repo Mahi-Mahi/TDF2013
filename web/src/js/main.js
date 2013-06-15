@@ -1770,6 +1770,7 @@ TDF.Fight = (function() {
 						$inner.find('.foreground .archefore-0').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({left: '-1000px'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
+						$inner.find('.sky .clouds-2').stop().animate({left: '+=1000'}, step_duration*0.75, 'linear');
 						$inner.find('.foreground .yellow-car').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.forescape .green').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						// ANIM IN
@@ -1793,9 +1794,11 @@ TDF.Fight = (function() {
 						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
 						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
+						$inner.find('.sky .clouds-3').stop().animate({left: '+=1000'}, step_duration*0.75, 'linear');
 						$inner.find('.middleground .radar').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.forescape .panneaux').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						// ANIM IN
+						$inner.find('.sky .clouds-2').stop().animate({left: '270px'}, step_duration*1.0, 'linear');
 						$inner.find('.foreground .yellow-car').stop().delay(step_duration*0.25).animate({left: '40px'}, step_duration*0.75, 'linear');
 						$inner.find('.forescape .green').stop().delay(step_duration*0.25).animate({left: '650px'}, step_duration*0.75, 'linear');
 						setTimeout(function() { $inner.find('.fighter_one, .fighter_two').addClass('yellow_active'); }, step_duration*0.45);
@@ -1808,15 +1811,16 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
 
 						// ANIM OUT PREV
+						$inner.find('.sky .clouds-2').stop().animate({left: '-=1000'}, step_duration*0.75, 'linear');
 						$inner.find('.foreground .yellow-car').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.forescape .green').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
 						$inner.find('.middleground .followers').stop().animate({left: '+=1000'}, step_duration*0.5, 'linear');
 						$inner.find('.forescape .trees-4').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
 						// ANIM IN
+						$inner.find('.sky .clouds-3').stop().animate({left: '300px'}, step_duration*1.0, 'linear');
 						$inner.find('.middleground .radar').stop().delay(step_duration*0.25).animate({left: '690px'}, step_duration*0.75, 'linear');
 						$inner.find('.forescape .panneaux').stop().delay(step_duration*0.25).animate({left: '0px'}, step_duration*0.75, 'linear');
-
 
 						break;
 					case 4:
@@ -1826,6 +1830,7 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
 
 						// ANIM OUT PREV
+						$inner.find('.sky .clouds-3').stop().animate({left: '-=1000'}, step_duration*0.75, 'linear');
 						$inner.find('.middleground .radar').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
 						$inner.find('.forescape .panneaux').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
