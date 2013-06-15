@@ -76,7 +76,7 @@
 // }
 
 @each $step in 5,7,results {
-	.step-#{$step} .fighter_one.yellow.yellow_active, .step-#{$step} .fighter_one.yellow.yellow_active {
+	.step-#{$step} .fighter_one.has_won.has_won_active, .step-#{$step} .fighter_one.winner {
 		background-position:-380px 0;
 	}
 }
@@ -307,7 +307,7 @@
 	text-align:center;
 	text-transform:uppercase;
 	width:327px;
-	z-index:10;
+	z-index:20;
 }
 
 .step-start .fight-container .title {
@@ -593,12 +593,16 @@
 		left: 20px;
 		display: none;
 	}
-	.archeback {
+	.archeback-0, .archeback-5 {
 		top: 135px;
 		// left: 383px;
 	}
 	.beef-car {
 		top: 127px;
+		// left: 383px;
+	}
+	.doping-car {
+		top: 137px;
 		// left: 383px;
 	}
 }
@@ -620,7 +624,7 @@
 .foreground {
 	@include scenery;
 	z-index:10;
-	.archefore {
+	.archefore-0, .archefore-5 {
 		top: 89px;
 		// left: 383px;
 	}
@@ -639,10 +643,10 @@
 .forescape {
 	@include scenery;
 	z-index:20;
-	.public-left-0, .public-left-1 {
+	.public-left-0, .public-left-1, .public-left-7 {
 		bottom: 0px;
 	}
-	.public-right-0, .public-right-1 {
+	.public-right-0, .public-right-1, .public-right-7 {
 		bottom: 0px;
 	}
 	.green {
@@ -651,7 +655,13 @@
 	.panneaux {
 		bottom: 0px;
 	}
-	.trees-4, .trees-5 {
+	.trees-4 {
+		bottom: 0px;
+	}
+	.trees-5 {
+		bottom: -10px;
+	}
+	.cops-right {
 		bottom: 0px;
 	}
 }
@@ -887,7 +897,7 @@ a.traces {
 .step-results .results {
 	display: block;
 	position: absolute;
-	z-index: 12;
+	z-index: 25;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -911,6 +921,12 @@ a.traces {
 	font:400 14px/1.3 'Lato', Verdana, Arial, sans-serif;
 	padding:5px;
 }
+.results td.no-border, .results .last td {
+}
+.results .last .legend-results img {
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
 
 .results .fighter_one {
 	text-align:right;
@@ -931,12 +947,17 @@ a.traces {
 
 .result_fighter .active {
 	color:#C1272D;
+	font-weight: bold;
 }
 
 .results .fighter_one, .results .fighter_two {
 	background:url(/img/duels/bg-results-cell.png) 111% 50% no-repeat;
 	padding:5px 25px;
 }
+.results .last .fighter_one , .results .last .fighter_two {
+	background: none;
+}
+
 
 .results .fighter_two {
 	background-position:-13px 50%;
