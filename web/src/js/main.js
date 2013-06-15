@@ -792,7 +792,8 @@ TDF.Traces = (function() {
 			var items = '',
 				squares = '';
 
-			var stat, stats = {
+			var stat;
+			my.stats = {
 					total_length: null,
 					nb_legs: null,
 					nb_concurrents: null,
@@ -800,8 +801,8 @@ TDF.Traces = (function() {
 				};
 			var trace;
 
-			for (stat in stats) {
-				stats[stat] = {
+			for (stat in my.stats) {
+				my.stats[stat] = {
 					min: {
 						value: null,
 						year: null
@@ -819,14 +820,14 @@ TDF.Traces = (function() {
 
 				trace = TDF.Data.traces[year];
 
-				for (stat in stats) {
-					if (trace[stat] > stats[stat].max.val || stats[stat].max.val == null) {
-						stats[stat].max.val = trace[stat];
-						stats[stat].max.year = year;
+				for (stat in my.stats) {
+					if (trace[stat] > my.stats[stat].max.val || my.stats[stat].max.val == null) {
+						my.stats[stat].max.val = trace[stat];
+						my.stats[stat].max.year = year;
 					}
-					if ((trace[stat] < stats[stat].min.val && trace[stat] > 0) || stats[stat].min.val == null) {
-						stats[stat].min.val = trace[stat];
-						stats[stat].min.year = year;
+					if ((trace[stat] < my.stats[stat].min.val && trace[stat] > 0) || my.stats[stat].min.val == null) {
+						my.stats[stat].min.val = trace[stat];
+						my.stats[stat].min.year = year;
 					}
 				}
 
@@ -846,13 +847,13 @@ TDF.Traces = (function() {
 				}
 			});
 
-			for (stat in stats) {
-				$main.find("." + stat + " .min .val").html(stats[stat].min.val);
-				$main.find("." + stat + " .min .year").html(stats[stat].min.year);
-				$main.find("." + stat + " .min").attr('href', my.base_url + stats[stat].min.year + '/');
-				$main.find("." + stat + " .max .val").html(stats[stat].max.val);
-				$main.find("." + stat + " .max .year").html(stats[stat].max.year);
-				$main.find("." + stat + " .max").attr('href', my.base_url + stats[stat].max.year + '/');
+			for (stat in my.stats) {
+				$main.find("." + stat + " .min .val").html(my.stats[stat].min.val);
+				$main.find("." + stat + " .min .year").html(my.stats[stat].min.year);
+				$main.find("." + stat + " .min").attr('href', my.base_url + my.stats[stat].min.year + '/');
+				$main.find("." + stat + " .max .val").html(my.stats[stat].max.val);
+				$main.find("." + stat + " .max .year").html(my.stats[stat].max.year);
+				$main.find("." + stat + " .max").attr('href', my.base_url + my.stats[stat].max.year + '/');
 			}
 
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
@@ -948,10 +949,19 @@ TDF.Traces = (function() {
 		nb_concurrents = Math.round(nb_concurrents / my.args.years.length);
 		nb_finishers = Math.round(nb_finishers / my.args.years.length);
 
+		var line_length = 129;
+
 		$main.find(".total_length .current").html(total_length);
+		$main.find(".total_length .line").css({width: Math.round((total_length - my.stats['total_length'].min.val) / my.stats['total_length'].max.val * line_length)+'px'});
+
 		$main.find(".nb_legs .current").html(nb_legs);
+		$main.find(".nb_legs .line").css({width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / my.stats['nb_legs'].max.val * line_length)+'px'});
+
 		$main.find(".nb_concurrents .current").html(nb_concurrents);
+		$main.find(".nb_concurrents .line").css({width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / my.stats['nb_concurrents'].max.val * line_length)+'px'});
+
 		$main.find(".nb_finishers .current").html(nb_finishers);
+		$main.find(".nb_finishers .line").css({width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / my.stats['nb_finishers'].max.val * line_length)+'px'});
 
 		// Winners
 		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013) {
@@ -1778,13 +1788,13 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
 
 						// ANIM OUT PREV
-						$inner.find('.background .beef-car').stop().animate({left: '-=1000px'}, step_duration*0.25, 'linear');
+						$inner.find('.background .beef-car').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
 						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
 						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
 						// ANIM OUT NEXT
 						$inner.find('.middleground .radar').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .panneaux').stop().animate({left: '+=1000px'}, step_duration*0.25);
+						$inner.find('.forescape .panneaux').stop().animate({left: '+=1000'}, step_duration*0.25);
 						// ANIM IN
 						$inner.find('.foreground .yellow-car').delay(step_duration*0.25).stop().animate({left: '40px'}, step_duration*0.75, 'linear');
 						$inner.find('.forescape .green').stop().delay(step_duration*0.25).animate({left: '650px'}, step_duration*0.75);
