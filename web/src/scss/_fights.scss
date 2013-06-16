@@ -461,7 +461,7 @@
 	margin:0;
 	padding:0;
 	text-transform: uppercase;
-	white-space:nowrap;
+	// white-space:nowrap;
 }
 
 .fighter-infos .result {
@@ -477,6 +477,7 @@
 .fight-home .winners_list .winner {
 	border-color:#000;
 }
+
 
 .step-7 .winner .fighter-infos > .name {
 	display:none;
@@ -652,6 +653,8 @@
 .forescape {
 	@include scenery;
 	z-index:20;
+	height: 250px;
+	margin-top:250px;
 	.public-left-0, .public-left-1, .public-left-7 {
 		bottom: 0px;
 	}

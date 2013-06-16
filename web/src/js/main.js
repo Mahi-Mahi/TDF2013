@@ -621,12 +621,14 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
+	my.state = null;
+	my.state_interval = null;
+
 	my.last_click = null;
 
 	my.gmapApi = null;
 
 	my.init = function() {
-
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
@@ -635,74 +637,110 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #select-all', function() {
-			if (jQuery(this).prop('checked')) {
-				$inner.find('#multi-select').prop('checked', true);
-				$inner.find('.timeline-zoom .checkbox').prop('checked', true);
+			if (my.state === null) {
+				if (jQuery(this).prop('checked')) {
+					$inner.find('#multi-select').prop('checked', true);
+					$inner.find('.timeline-zoom .checkbox').prop('checked', true);
 
-				var years = [];
-				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
-					years.push(jQuery(this).val());
-				});
-				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
+					var years = [];
+					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+						years.push(jQuery(this).val());
+					});
+					Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 
-			} else {
-				Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2013') + '/');
+				} else {
+					Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2013') + '/');
+				}
 			}
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-                        console.log("multi-select");
-                    
-			if (jQuery(this).prop('checked')) {
-                            
-                                my.gmapApi.setMultiple(true);
-                        
-				// Path.history.pushState({}, "", my.base_url + '2013/');
-			} else {
-                                my.gmapApi.setMultiple(false);
-                            
-				if (!my.last_clicked) {
-					my.last_clicked = 2013;
+			if (my.state === null) {
+
+				if (jQuery(this).prop('checked')) {
+
+					my.gmapApi.setMultiple(true);
+
+				} else {
+					my.gmapApi.setMultiple(false);
+
+					if (!my.last_clicked) {
+						my.last_clicked = 2013;
+					}
+
+					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
+
 				}
-                                
-                                
-                                
-				Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
-                                
 			}
 		});
 
 		// Click on timeline
 		$main.on('click', '.traces .timeline-zoom span', function() {
-			if ($main.find("#multi-select:checked").length) {
-				if (jQuery(this).prev('input').prop('checked')) {
-					jQuery(this).prev('input').prop('checked', false);
+			if (my.state === null) {
+				if ($main.find("#multi-select:checked").length) {
+					if (jQuery(this).prev('input').prop('checked')) {
+						jQuery(this).prev('input').prop('checked', false);
+					} else {
+						jQuery(this).prev('input').prop('checked', true);
+						my.last_clicked = jQuery(this).prev('input.checkbox').val();
+					}
+					var years = [];
+					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
+						years.push(jQuery(this).val());
+					});
+					Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 				} else {
-					jQuery(this).prev('input').prop('checked', true);
-					my.last_clicked = jQuery(this).prev('input.checkbox').val();
+					Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/');
 				}
-				var years = [];
-				$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
-					years.push(jQuery(this).val());
-				});
-				Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
-			} else {
-				Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/');
 			}
 		});
 
 		$main.on('mouseenter', '.traces .timeline-zoom span', function() {
-			// GTAB : mouseover year
-			var year = jQuery(this).text();
-			my.gmapApi.changeOpacity(year);
+			if (my.state === null) {
+				var year = jQuery(this).text();
+				my.gmapApi.changeOpacity(year);
+			}
 		});
 
 		// mouseleave
 		$main.on('mouseleave', '.traces .timeline-zoom span', function() {
-			// GTAB : mouseover year
-			var year = jQuery(this).text();
+			if (my.state === null) {
+				var year = jQuery(this).text();
+				my.gmapApi.changeOpacityBack(year);
+			}
+		});
 
-			my.gmapApi.changeOpacityBack(year);
+		$main.on('click', '.traces #start-pause', function() {
+			var play_speed = 1000;
+			if (my.args.years.length > 0) {
+				if (my.state === null) {
+					jQuery(this).addClass("active").text('Pause');
+					my.state = 0;
+					my.state_interval = setInterval(function() {
+						if (my.args.years[my.state] === undefined) {
+							my.gmapApi.changeOpacityBack(my.args.years[my.state - 1]);
+							jQuery(this).removeClass("active").text('Play');
+							jQuery('#span-checkyear-'+my.args.years[my.state-1]).removeClass('active');
+							my.state = null;
+							clearTimeout(my.state_interval);
+						} else {
+							if (my.state > 0) {
+								my.gmapApi.changeOpacityBack(my.args.years[my.state - 1]);
+								jQuery('#span-checkyear-'+my.args.years[my.state-1]).removeClass('active');
+							}
+							my.gmapApi.changeOpacity(my.args.years[my.state]);
+							jQuery('#span-checkyear-'+my.args.years[my.state]).addClass('active');
+							my.state++;
+						}
+					}, play_speed);
+				} else {
+					my.gmapApi.changeOpacityBack(my.args.years[my.state]);
+					jQuery(this).removeClass("active").text('Play');
+					jQuery('#span-checkyear-'+my.args.years[my.state]).removeClass('active');
+					my.state = null;
+					clearTimeout(my.state_interval);
+				}
+			}
 		});
 
 	};
@@ -766,8 +804,6 @@ TDF.Traces = (function() {
 			styles: mapStyleTrace
 		};
 
-
-
 		my.gmapApi = map.gmapApi(mapOptions);
 	};
 
@@ -783,6 +819,16 @@ TDF.Traces = (function() {
 	};
 
 	my.render = function(args) {
+
+		/*
+		addthis.init();
+		var res = addthis.toolbox("#toolbox", {
+			services_compact: 'twitter'
+		}, {
+			title: "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx",
+			description: "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx"
+		});
+		*/
 
 		my.args = args;
 
@@ -805,11 +851,11 @@ TDF.Traces = (function() {
 
 			var stat;
 			my.stats = {
-					total_length: null,
-					nb_legs: null,
-					nb_concurrents: null,
-					nb_finishers: null
-				};
+				total_length: null,
+				nb_legs: null,
+				nb_concurrents: null,
+				nb_finishers: null
+			};
 			var trace;
 
 			for (stat in my.stats) {
@@ -826,7 +872,7 @@ TDF.Traces = (function() {
 			}
 
 			for (var year in TDF.Data.traces) {
-				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><span for="checkyear-' + year + '">' + year + '</span></li>';
+				items = items + '<li><input type="checkbox" class="checkbox" name="years[]" value="' + year + '" id="checkyear-' + year + '"><span id="span-checkyear-' + year + '">' + year + '</span></li>';
 				squares = squares + '<li id="squareyear-' + year + '" data-year="' + year + '">' + year + '</li>';
 
 				trace = TDF.Data.traces[year];
@@ -963,16 +1009,24 @@ TDF.Traces = (function() {
 		var line_length = 129;
 
 		$main.find(".total_length .current").html(total_length);
-		$main.find(".total_length .line").css({width: Math.round((total_length - my.stats['total_length'].min.val) / my.stats['total_length'].max.val * line_length)+'px'});
+		$main.find(".total_length .line").css({
+			width: Math.round((total_length - my.stats['total_length'].min.val) / my.stats['total_length'].max.val * line_length) + 'px'
+		});
 
 		$main.find(".nb_legs .current").html(nb_legs);
-		$main.find(".nb_legs .line").css({width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / my.stats['nb_legs'].max.val * line_length)+'px'});
+		$main.find(".nb_legs .line").css({
+			width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / my.stats['nb_legs'].max.val * line_length) + 'px'
+		});
 
 		$main.find(".nb_concurrents .current").html(nb_concurrents);
-		$main.find(".nb_concurrents .line").css({width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / my.stats['nb_concurrents'].max.val * line_length)+'px'});
+		$main.find(".nb_concurrents .line").css({
+			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / my.stats['nb_concurrents'].max.val * line_length) + 'px'
+		});
 
 		$main.find(".nb_finishers .current").html(nb_finishers);
-		$main.find(".nb_finishers .line").css({width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / my.stats['nb_finishers'].max.val * line_length)+'px'});
+		$main.find(".nb_finishers .line").css({
+			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / my.stats['nb_finishers'].max.val * line_length) + 'px'
+		});
 
 		// Winners
 		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2013) {
@@ -1544,7 +1598,7 @@ TDF.Fight = (function() {
 				$fighter.find('.flag').css('display', 'block');
 				$fighter.find('.bio').css('display', 'block').html(TDF.Data.winners[my.args.fighter_one] ? fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : '');
 				$fighter.find('.bio').html((fighter_data ? 'participe entre ' + fighter_data.period.join(' et ') : '') + (fighter.nb_wins ? ' - ' + fighter.nb_wins + ' victoire' + (fighter.nb_wins > 1 ? 's' : '') : ''));
-				$fighter.find('.choose-fighter').text('Change de coureur');
+				$fighter.find('.choose-fighter').text('Changer de coureur');
 				$fighter.find('.random').hide();
 			}
 		} else {
@@ -1677,7 +1731,8 @@ TDF.Fight = (function() {
 			];
 		}
 		my.steps[6] = my.steps[5];
-		my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+		// my.steps[7] = [fighter_one.is_doped ? -1000 : fighter_one.score, fighter_two.is_doped ? -1000 : fighter_two.score];
+		my.steps[7] = [fighter_one.is_doped ? -1000 : my.steps[6][0], fighter_two.is_doped ? -1000 : my.steps[6][1]];
 
 		if (my.steps[7][0] < my.steps[7][1]) {
 			Path.history.pushState({}, "", my.base_url + my.args.fighter_two + '/' + my.args.fighter_one + '/start/');
@@ -1719,7 +1774,7 @@ TDF.Fight = (function() {
 		}
 
 		var ratio = 3.12;
-		var max_space = 400;
+		var max_space = 500;
 		var fighter_width = 84;
 
 		var step_title, step_class, fighter_one_result, fighter_two_result, diff = [];
@@ -1736,25 +1791,50 @@ TDF.Fight = (function() {
 			case 0:
 			case 'start':
 				my.args.step = 0;
+				fighter_one_result = '';
+				fighter_two_result = '';
 
 				// ANIM OUT NEXT
-				$inner.find('.background .beef-car').stop().animate({ left: '+=1000' }, step_duration*0.25, 'linear');
-				$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
-				$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
-				$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+				$inner.find('.background .beef-car').stop().animate({
+					left: '+=1000'
+				}, step_duration * 0.25, 'linear');
+				$inner.find('.foreground .lady-left').stop().fadeOut(step_duration * 0.25);
+				$inner.find('.foreground .lady-right').stop().fadeOut(step_duration * 0.25);
+				$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({
+					left: '+=1000'
+				}, step_duration * 0.25, 'linear');
 
 				// ANIM IN
-				$fighter_one.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80) + 'px'}, 1500, 'easeOutCubic');
-				$fighter_two.stop().animate({'margin-left': ( ((max_space / 2) - fighter_width) - 80 ) + 'px'}, 1500, 'easeOutCubic');
+				$fighter_one.stop().animate({
+					'margin-left': (((max_space / 2) - fighter_width) - 80) + 'px'
+				}, 1500, 'easeOutCubic');
+				$fighter_two.stop().animate({
+					'margin-left': (((max_space / 2) - fighter_width) - 80) + 'px'
+				}, 1500, 'easeOutCubic');
 
-				$inner.find('.landscape').stop().animate({left: '-' + (my.args.step * 770) + 'px'}, step_duration, 'linear');
+				$inner.find('.landscape').stop().animate({
+					left: '-' + (my.args.step * 770) + 'px'
+				}, step_duration, 'linear');
 
-				$inner.find('.background .fanion').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
-				$inner.find('.background .archeback-0').stop().animate({left: '516px'}, step_duration*0.75, 'linear');
+				$inner.find('.background .fanion').css({
+					display: 'none',
+					left: '20px'
+				}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75);
+				$inner.find('.background .archeback-0').stop().animate({
+					left: '516px'
+				}, step_duration * 0.75, 'linear');
 
-				$inner.find('.foreground .archefore-0').stop().animate({left: '517px'}, step_duration*0.75, 'linear');
-				$inner.find('.forescape .public-left-0').css({display: 'none',left: '20px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
-				$inner.find('.forescape .public-right-0').css({display: 'none',left: '690px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75);
+				$inner.find('.foreground .archefore-0').stop().animate({
+					left: '517px'
+				}, step_duration * 0.75, 'linear');
+				$inner.find('.forescape .public-left-0').css({
+					display: 'none',
+					left: '20px'
+				}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75);
+				$inner.find('.forescape .public-right-0').css({
+					display: 'none',
+					left: '690px'
+				}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75);
 
 				$inner.find('.next').text("Top Départ").attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				$inner.find('.prev').hide();
@@ -1776,21 +1856,47 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 
 						// ANIM OUT PREV
-						$inner.find('.background .fanion').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.background .archeback-0').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.foreground .archefore-0').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({left: '-1000px'}, step_duration*0.25, 'linear');
+						$inner.find('.background .fanion').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.background .archeback-0').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.foreground .archefore-0').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({
+							left: '-1000px'
+						}, step_duration * 0.25, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.sky .clouds-2').stop().animate({left: '+=1000'}, step_duration*0.75, 'linear');
-						$inner.find('.foreground .yellow-car').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .green').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.sky .clouds-2').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .yellow-car').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .green').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.background .beef-car').stop().animate({left: '714px'}, step_duration*0.75, 'linear');
-						$inner.find('.foreground .lady-left').css({display: 'none',left: '260px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75, 'linear');
-						$inner.find('.foreground .lady-right').css({display: 'none',left: '596px'}).stop().delay(step_duration*0.25).fadeIn(step_duration*0.75, 'linear');
+						$inner.find('.background .beef-car').stop().animate({
+							left: '714px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .lady-left').css({
+							display: 'none',
+							left: '260px'
+						}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75, 'linear');
+						$inner.find('.foreground .lady-right').css({
+							display: 'none',
+							left: '596px'
+						}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75, 'linear');
 
-						$inner.find('.forescape .public-left-1').stop().delay(step_duration*0.25).animate({left: '20px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .public-right-1').stop().delay(step_duration*0.25).animate({left: '690px'}, step_duration*0.75, 'linear');
+						$inner.find('.forescape .public-left-1').stop().delay(step_duration * 0.25).animate({
+							left: '20px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .public-right-1').stop().delay(step_duration * 0.25).animate({
+							left: '690px'
+						}, step_duration * 0.75, 'linear');
 
 						break;
 					case 2:
@@ -1800,19 +1906,37 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.pct_leading + "% de son meilleur tour";
 
 						// ANIM OUT PREV
-						$inner.find('.background .beef-car').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration*0.25);
-						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration*0.25);
-						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.background .beef-car').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration * 0.25);
+						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration * 0.25);
+						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.sky .clouds-3').stop().animate({left: '+=1000'}, step_duration*0.75, 'linear');
-						$inner.find('.middleground .radar').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .panneaux').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.sky .clouds-3').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.middleground .radar').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .panneaux').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.sky .clouds-2').stop().animate({left: '270px'}, step_duration*1.0, 'linear');
-						$inner.find('.foreground .yellow-car').stop().delay(step_duration*0.25).animate({left: '40px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .green').stop().delay(step_duration*0.25).animate({left: '650px'}, step_duration*0.75, 'linear');
-						setTimeout(function() { $inner.find('.fighter_one, .fighter_two').addClass('yellow_active'); }, step_duration*0.45);
+						$inner.find('.sky .clouds-2').stop().animate({
+							left: '270px'
+						}, step_duration * 1.0, 'linear');
+						$inner.find('.foreground .yellow-car').stop().delay(step_duration * 0.25).animate({
+							left: '40px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .green').stop().delay(step_duration * 0.25).animate({
+							left: '650px'
+						}, step_duration * 0.75, 'linear');
+						setTimeout(function() {
+							$inner.find('.fighter_one, .fighter_two').addClass('yellow_active');
+						}, step_duration * 0.45);
 
 						break;
 					case 3:
@@ -1822,16 +1946,32 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
 
 						// ANIM OUT PREV
-						$inner.find('.sky .clouds-2').stop().animate({left: '-=1000'}, step_duration*0.75, 'linear');
-						$inner.find('.foreground .yellow-car').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .green').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.sky .clouds-2').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .yellow-car').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .green').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.middleground .followers').stop().animate({left: '+=1000'}, step_duration*0.5, 'linear');
-						$inner.find('.forescape .trees-4').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.middleground .followers').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.5, 'linear');
+						$inner.find('.forescape .trees-4').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.sky .clouds-3').stop().animate({left: '300px'}, step_duration*1.0, 'linear');
-						$inner.find('.middleground .radar').stop().delay(step_duration*0.25).animate({left: '690px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .panneaux').stop().delay(step_duration*0.25).animate({left: '0px'}, step_duration*0.75, 'linear');
+						$inner.find('.sky .clouds-3').stop().animate({
+							left: '300px'
+						}, step_duration * 1.0, 'linear');
+						$inner.find('.middleground .radar').stop().delay(step_duration * 0.25).animate({
+							left: '690px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .panneaux').stop().delay(step_duration * 0.25).animate({
+							left: '0px'
+						}, step_duration * 0.75, 'linear');
 
 						break;
 					case 4:
@@ -1841,16 +1981,32 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
 
 						// ANIM OUT PREV
-						$inner.find('.sky .clouds-3').stop().animate({left: '-=1000'}, step_duration*0.75, 'linear');
-						$inner.find('.middleground .radar').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
-						$inner.find('.forescape .panneaux').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.sky .clouds-3').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.middleground .radar').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
+						$inner.find('.forescape .panneaux').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.background .archeback-5').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.foreground .archefore-5').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .trees-5').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.background .archeback-5').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.foreground .archefore-5').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .trees-5').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.middleground .followers').stop().delay(step_duration*0.25).animate({left: '0px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .trees-4').stop().delay(step_duration*0).animate({left: '200px'}, step_duration*1.0, 'linear');
+						$inner.find('.middleground .followers').stop().delay(step_duration * 0.25).animate({
+							left: '0px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .trees-4').stop().delay(step_duration * 0).animate({
+							left: '200px'
+						}, step_duration * 1.0, 'linear');
 
 						break;
 					case 5:
@@ -1860,35 +2016,63 @@ TDF.Fight = (function() {
 						fighter_two_result = fighter_two.nb_wins + (fighter_two.nb_wins > 1 ? ' victoires finales' : ' victoire finale');
 
 						// ANIM OUT PREV
-						$inner.find('.middleground .followers').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
-						$inner.find('.forescape .trees-4').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
+						$inner.find('.middleground .followers').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
+						$inner.find('.forescape .trees-4').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.background .doping-car').stop().animate({ left: '+=1000' }, step_duration*0.25, 'linear');
-						$inner.find('.forescape .cops-right').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.background .doping-car').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .cops-right').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 
 						// ANIM IN
-						$inner.find('.background .archeback-5').stop().delay(step_duration*0.25).animate({left: '16px'}, step_duration*0.75, 'linear');
-						$inner.find('.foreground .archefore-5').stop().delay(step_duration*0.25).animate({left: '17px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .trees-5').stop().delay(step_duration*0).animate({left: '0px'}, step_duration*1.0, 'linear');
-						setTimeout(function() { $inner.find('.fighter_one, .fighter_two').addClass('has_won_active'); }, step_duration*0.45);
+						$inner.find('.background .archeback-5').stop().delay(step_duration * 0.25).animate({
+							left: '16px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .archefore-5').stop().delay(step_duration * 0.25).animate({
+							left: '17px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .trees-5').stop().delay(step_duration * 0).animate({
+							left: '0px'
+						}, step_duration * 1.0, 'linear');
+						setTimeout(function() {
+							$inner.find('.fighter_one, .fighter_two').addClass('has_won_active');
+						}, step_duration * 0.45);
 
 						break;
 					case 6:
 						step_class = "doping";
 						step_title = "<strong>contrôle <br>antidopage</strong>";
-						fighter_one_result = fighter_one.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
-						fighter_two_result = fighter_two.is_doped ? "<strong>Convaincu de dopage</strong>" : "Aucun dopage connu";
+						fighter_one_result = fighter_one.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage sur le Tour";
+						fighter_two_result = fighter_two.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage sur le Tour";
 						$inner.find('.next').text("Résultat");
 
 						// ANIM OUT PREV
-						$inner.find('.background .archeback-5').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.foreground .archefore-5').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
-						$inner.find('.forescape .trees-5').stop().animate({left: '-=1000'}, step_duration*0.5, 'linear');
+						$inner.find('.background .archeback-5').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.foreground .archefore-5').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .trees-5').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
 						// ANIM OUT NEXT
-						$inner.find('.forescape .public-left-7, .forescape .public-right-7').stop().animate({left: '+=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.forescape .public-left-7, .forescape .public-right-7').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.background .doping-car').stop().delay(step_duration*0.25).animate({left: '480px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .cops-right').stop().delay(step_duration*0.25).animate({left: '700px'}, step_duration*0.75, 'linear');
+						$inner.find('.background .doping-car').stop().delay(step_duration * 0.25).animate({
+							left: '480px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
+							left: '700px'
+						}, step_duration * 0.75, 'linear');
 
 						break;
 					case 7:
@@ -1903,11 +2087,19 @@ TDF.Fight = (function() {
 						}
 
 						// ANIM OUT PREV
-						$inner.find('.background .doping-car').stop().animate({ left: '-=1000' }, step_duration*0.25, 'linear');
-						$inner.find('.forescape .cops-right').stop().animate({left: '-=1000'}, step_duration*0.25, 'linear');
+						$inner.find('.background .doping-car').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.forescape .cops-right').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
-						$inner.find('.forescape .public-left-7').stop().delay(step_duration*0.25).animate({left: '20px'}, step_duration*0.75, 'linear');
-						$inner.find('.forescape .public-right-7').stop().delay(step_duration*0.25).animate({left: '690px'}, step_duration*0.75, 'linear');
+						$inner.find('.forescape .public-left-7').stop().delay(step_duration * 0.25).animate({
+							left: '20px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.forescape .public-right-7').stop().delay(step_duration * 0.25).animate({
+							left: '690px'
+						}, step_duration * 0.75, 'linear');
 
 						break;
 				}
@@ -1950,7 +2142,9 @@ TDF.Fight = (function() {
 					if (jQuery('.fighter.winner').length === 1) {
 						console.log('winner result');
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
-						setTimeout(function(){$fighter_one.find('.fighter-infos').fadeIn();}, 1000);
+						setTimeout(function() {
+							$fighter_one.find('.fighter-infos').fadeIn();
+						}, 1000);
 						$fighter_two.find('.fighter-infos').hide();
 					}
 				}
@@ -2086,7 +2280,7 @@ TDF.StreetView = (function() {
 			minimap: "minimap",
 			hyperlapseId: "gmap-hyperlapse",
 			hyperlapseLoading: my.hyperlapseLoading,
-                        hyperlapseOnFrame: my.hyperlapseOnFrame,
+			hyperlapseOnFrame: my.hyperlapseOnFrame,
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
@@ -2138,9 +2332,9 @@ TDF.StreetView = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
-                
-                
-                my.gmapApi.stopStreetView();
+
+
+		my.gmapApi.stopStreetView();
 
 	};
 
@@ -2160,18 +2354,20 @@ TDF.StreetView = (function() {
 
 	};
 
-        my.hyperlapseOnFrame = function(position, total){
-            var cursor = jQuery('#hyperlapseTimeline .playerCursor');
-          
-            var positionMax = 636;
-          
-          
-            var currentPosition = (positionMax * position) / total;
-            
-          
-            cursor.stop().animate({left: currentPosition}, 200);
+	my.hyperlapseOnFrame = function(position, total) {
+		var cursor = jQuery('#hyperlapseTimeline .playerCursor');
 
-        };
+		var positionMax = 636;
+
+
+		var currentPosition = (positionMax * position) / total;
+
+
+		cursor.stop().animate({
+			left: currentPosition
+		}, 200);
+
+	};
 
 	my.render = function(args) {
 
@@ -2201,8 +2397,8 @@ TDF.StreetView = (function() {
 		}
 
 		this.initializeGmap();
-                
-                
+
+
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {
