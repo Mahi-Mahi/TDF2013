@@ -71,7 +71,7 @@ var TDF = (function() {
 				TDF.render('search');
 			} else {
 				TDF.render('search', {
-					city_name: this.params['city_name']
+					city_name: decodeURIComponent(this.params['city_name'])
 				});
 			}
 		});
@@ -79,7 +79,7 @@ var TDF = (function() {
 		// City
 		Path.map("/ville/:city/").to(function() {
 			TDF.render('city', {
-				city: this.params['city']
+				city: decodeURIComponent(this.params['city'])
 			});
 		});
 
@@ -96,13 +96,13 @@ var TDF = (function() {
 
 					} else {
 						TDF.render('traces', {
-							city: this.params['years']
+							city: decodeURIComponent(this.params['years'])
 						});
 					}
 				} else {
 					TDF.render('traces', {
 						years: this.params['years'],
-						city: this.params['city']
+						city: decodeURIComponent(this.params['city'])
 					});
 				}
 			}
