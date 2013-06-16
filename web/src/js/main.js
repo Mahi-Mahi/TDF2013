@@ -613,6 +613,8 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
+	my.city_years = [];
+
 	my.state = null;
 	my.state_interval = null;
 
@@ -646,15 +648,16 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
+			console.log("multiselect");
 			if (my.state === null) {
+				if (!my.last_clicked) {
+					my.last_clicked = 2013;
+				}
 				if (jQuery(this).prop('checked')) {
 					my.gmapApi.setMultiple(true);
-
+					// Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/');						
 				} else {
 					my.gmapApi.setMultiple(false);
-					if (!my.last_clicked) {
-						my.last_clicked = 2013;
-					}
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
 				}
 			}
@@ -761,8 +764,7 @@ TDF.Traces = (function() {
 			}
 		});
 
-		if (searchInput.val().length > 0) {
-		}
+		if (searchInput.val().length > 0) {}
 
 		form.submit(function() {
 			Path.history.pushState({}, "", my.base_url + $main.find('#search').val() + '/');
@@ -866,11 +868,13 @@ TDF.Traces = (function() {
 		if (my.args.years === undefined) {
 			if (my.args.city === undefined) {
 				my.args.years = [2013];
+				my.city_years = [];
 			} else {
-				my.args.years = my.getCityTraces(my.args.city);
+				my.city_years = my.args.years = my.getCityTraces(my.args.city);
 			}
 		} else {
 			my.args.years = my.args.years.split(/,/);
+			my.city_years = [];
 		}
 
 		if (TDF.loadTemplate(this)) {
@@ -923,8 +927,15 @@ TDF.Traces = (function() {
 			$timeline.append(items);
 			$squares.append(squares);
 
+			$main.find('.timeline li.etape').removeClass('etape');
+			jQuery(my.city_years).each(function(idx, year){
+				$main.find('#squareyear-' + year).addClass('etape');
+			});
+
+
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
-			var slider_default = (my.args.years.min() - 1903) / 110 * 100;
+
+			var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
 				slide: function(event, ui) {
@@ -986,12 +997,12 @@ TDF.Traces = (function() {
 
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
+		var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
 		$main.find(".timeline .slider").slider({
-			value: (my.args.years.min() - 1903) / 110 * 100
+			value: slider_default
 		});
 
 		// $main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
-
 
 		/*
 		// GTAB
@@ -1109,7 +1120,6 @@ TDF.Traces = (function() {
 			$main.find('.winner .winner-pic').attr('src', '/img/traces/vainqueur_silhouette.png');
 			$main.find('.winner .winner-status').html('');
 
-
 			$main.find('.winner .name').html('');
 			$main.find('.winner .flag img').attr('src', '/img/pix.gif');
 			$main.find('.winner .total_time').html('');
@@ -1126,8 +1136,6 @@ TDF.Traces = (function() {
 			$main.find('.third .ahead_of_third').html('');
 
 		}
-
-
 
 	};
 
