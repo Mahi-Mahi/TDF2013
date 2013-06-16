@@ -513,8 +513,6 @@ TDF.CitySearch = (function() {
 
 	my.autocomplete_init = function() {
 
-
-
 		function geocoding() {
 			//                        searchInput.autocomplete( "close" );
 
@@ -545,7 +543,6 @@ TDF.CitySearch = (function() {
 			});
 		};
 
-
 		searchInput.autocomplete({
 			minLength: 1,
 			source: TDF.Data.cities,
@@ -569,8 +566,6 @@ TDF.CitySearch = (function() {
 			geocoding();
 		}
 
-
-
 		form.submit(function() {
 
 			geocoding();
@@ -579,7 +574,6 @@ TDF.CitySearch = (function() {
 
 			return false;
 		});
-
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
@@ -602,8 +596,6 @@ TDF.CitySearch = (function() {
 			Path.history.pushState({}, "", '/traces/' + data + '/');
 
 		});
-
-
 
 	};
 
@@ -641,7 +633,6 @@ TDF.Traces = (function() {
 				if (jQuery(this).prop('checked')) {
 					$inner.find('#multi-select').prop('checked', true);
 					$inner.find('.timeline-zoom .checkbox').prop('checked', true);
-
 					var years = [];
 					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
 						years.push(jQuery(this).val());
@@ -656,21 +647,23 @@ TDF.Traces = (function() {
 
 		$main.on('click', '.traces #multi-select', function() {
 			if (my.state === null) {
-
 				if (jQuery(this).prop('checked')) {
-
 					my.gmapApi.setMultiple(true);
 
 				} else {
 					my.gmapApi.setMultiple(false);
-
 					if (!my.last_clicked) {
 						my.last_clicked = 2013;
 					}
-
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
-
 				}
+			}
+		});
+
+		$main.on('click', '.traces .map-toolbox .city .title', function() {
+			if (my.state === null) {
+				jQuery(this).hide();
+				jQuery('.traces .map-toolbox form').show().find('#search').focus();
 			}
 		});
 
@@ -720,30 +713,70 @@ TDF.Traces = (function() {
 						if (my.args.years[my.state] === undefined) {
 							my.gmapApi.changeOpacityBack(my.args.years[my.state - 1]);
 							jQuery(this).removeClass("active").text('Play');
-							jQuery('#span-checkyear-'+my.args.years[my.state-1]).removeClass('active');
+							jQuery('#span-checkyear-' + my.args.years[my.state - 1]).removeClass('active');
 							my.state = null;
 							clearTimeout(my.state_interval);
 						} else {
 							if (my.state > 0) {
 								my.gmapApi.changeOpacityBack(my.args.years[my.state - 1]);
-								jQuery('#span-checkyear-'+my.args.years[my.state-1]).removeClass('active');
+								jQuery('#span-checkyear-' + my.args.years[my.state - 1]).removeClass('active');
 							}
 							my.gmapApi.changeOpacity(my.args.years[my.state]);
-							jQuery('#span-checkyear-'+my.args.years[my.state]).addClass('active');
+							jQuery('#span-checkyear-' + my.args.years[my.state]).addClass('active');
 							my.state++;
 						}
 					}, play_speed);
 				} else {
 					my.gmapApi.changeOpacityBack(my.args.years[my.state]);
 					jQuery(this).removeClass("active").text('Play');
-					jQuery('#span-checkyear-'+my.args.years[my.state]).removeClass('active');
+					jQuery('#span-checkyear-' + my.args.years[my.state]).removeClass('active');
 					my.state = null;
 					clearTimeout(my.state_interval);
 				}
 			}
 		});
+	};
+
+	my.autocomplete_init = function() {
+
+		var searchInput = $main.find('#search');
+		var form = $main.find('#city_search');
+
+		jQuery.ui.autocomplete.filter = function(array, term) {
+			var matcher = new RegExp("^" + jQuery.ui.autocomplete.escapeRegex(term), "i");
+			return jQuery.grep(array, function(value) {
+				return matcher.test(value.label || value.value || value);
+			});
+		};
+
+		searchInput.autocomplete({
+			minLength: 1,
+			source: TDF.Data.cities,
+			messages: {
+				noResults: '',
+				results: function() {}
+			},
+			select: function(event, ui) {
+				Path.history.pushState({}, "", my.base_url + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' + 
+			}
+		});
+
+		if (searchInput.val().length > 0) {
+		}
+
+		form.submit(function() {
+			Path.history.pushState({}, "", my.base_url + $main.find('#search').val() + '/');
+			return false;
+		});
+
+		searchInput.bind('keydown', function(e) {
+			if (e.keyCode === 13) {
+				Path.history.pushState({}, "", my.base_url + $main.find('#search').val() + '/');
+			}
+		});
 
 	};
+
 
 	my.initializeGmap = function() {
 		//Config Gmap
@@ -754,8 +787,6 @@ TDF.Traces = (function() {
 		var zoom = 5;
 
 		var map = $inner.find("#" + mapId);
-
-		console.log("google.maps.ControlPosition.LEFT_TOP : " + google.maps.ControlPosition.LEFT_TOP);
 
 		var mapOptions = {
 			mapTypeId: mapTypeId,
@@ -916,13 +947,16 @@ TDF.Traces = (function() {
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
 			this.initializeGmap();
+			my.autocomplete_init();
 
 		}
 
 		if (my.args.city === undefined) {
-			$main.find('.map-container .city').hide();
+			$main.find('.map-container .city .title').hide();
+			$main.find('.map-container .city form').show();
 		} else {
-			$main.find('.map-container .city').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>');
+			$main.find('.map-container .city .title').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>').show();
+			$main.find('.map-container .city form').hide();
 			$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city + '/');
 		}
 
@@ -2140,7 +2174,6 @@ TDF.Fight = (function() {
 						$fighter_two.find('.fighter-infos').hide();
 					}
 					if (jQuery('.fighter.winner').length === 1) {
-						console.log('winner result');
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
 						setTimeout(function() {
 							$fighter_one.find('.fighter-infos').fadeIn();

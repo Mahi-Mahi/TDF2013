@@ -363,9 +363,13 @@
 
 .traces .map-toolbox {
 	position:absolute;
-	left:80px;
-	top:12px;
+	left:36px;
+	top:10px;
 	z-index: 999;
+}
+
+.traces .map-toolbox #city_search {
+	position: static;
 }
 
 .back, .city {
@@ -378,6 +382,13 @@
 	margin:0 10px 0 0;
 	padding:0 15px 0 28px;
 	border-radius:4px;
+}
+
+.city {
+	overflow: hidden;
+}
+.city #city_search {
+	display: none;
 }
 
 .traces .back {
