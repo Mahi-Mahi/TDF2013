@@ -651,13 +651,24 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
+                        console.log("multi-select");
+                    
 			if (jQuery(this).prop('checked')) {
+                            
+                                my.gmapApi.setMultiple(true);
+                        
 				// Path.history.pushState({}, "", my.base_url + '2013/');
 			} else {
+                                my.gmapApi.setMultiple(false);
+                            
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
 				}
+                                
+                                
+                                
 				Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
+                                
 			}
 		});
 
@@ -2075,6 +2086,7 @@ TDF.StreetView = (function() {
 			minimap: "minimap",
 			hyperlapseId: "gmap-hyperlapse",
 			hyperlapseLoading: my.hyperlapseLoading,
+                        hyperlapseOnFrame: my.hyperlapseOnFrame,
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
 			mapTypeControl: false,
@@ -2126,6 +2138,9 @@ TDF.StreetView = (function() {
 		my.gmapApi = map.gmapApi(mapOptions);
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
+                
+                
+                my.gmapApi.stopStreetView();
 
 	};
 
@@ -2144,6 +2159,19 @@ TDF.StreetView = (function() {
 		loader.width(currentWidth);
 
 	};
+
+        my.hyperlapseOnFrame = function(position, total){
+            var cursor = jQuery('#hyperlapseTimeline .playerCursor');
+          
+            var positionMax = 636;
+          
+          
+            var currentPosition = (positionMax * position) / total;
+            
+          
+            cursor.stop().animate({left: currentPosition}, 200);
+
+        };
 
 	my.render = function(args) {
 
@@ -2173,6 +2201,8 @@ TDF.StreetView = (function() {
 		}
 
 		this.initializeGmap();
+                
+                
 
 		var duration = 500;
 		if (my.args.place_id !== undefined && TDF.Data.places[my.args.place_id] !== undefined) {

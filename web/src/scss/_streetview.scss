@@ -245,4 +245,17 @@
     background-color: green;
 }
 
+#hyperlapseTimeline .playerCursor{
+    display: block;
+    width: 58px;
+    height: 52px;
+    position: absolute;
+    left: 42px;
+    top: 0px;
+    background: url(/img/lieux/lieux_hyperlapse_pointer.png) no-repeat;
+    background-position: center center
+
+
+}
+
 

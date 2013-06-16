@@ -27,7 +27,9 @@
         
         this.hyperlapse = null;
 
-        // this.currentPosition = null;
+        
+        
+        this.multiple = false;
         
         this.markerIcon = null;
         this.markerCircleIcon = null;
@@ -45,6 +47,7 @@
         this.tours = new Object();
         
         this.years = [];
+        this.toursData = null;
 
         this.markers = [];
         this.markersMinimap = [];
@@ -101,6 +104,7 @@
         minimap: null,
         hyperlapseId: null,
         hyperlapseLoading: null,
+        hyperlapseOnFrame: null,
         zoomMin: 14,
         zoomMax: 0,
         zoom: 17,
@@ -349,6 +353,17 @@
             }
 
         },
+        
+        
+        setMultiple: function(isMultiple){
+          
+            this.multiple = isMultiple;
+            
+            this.createEtapes(this.years, this.tours)
+
+        },
+        
+        
 
         /**
          * CreateEtapes
@@ -360,6 +375,7 @@
             var self = this;
             
             this.years = years;
+            this.toursData = tours;
 
             this.clearMap();
             
@@ -367,7 +383,9 @@
             
             var repositionne = false;
             
-            var multiple = (years.length > 1)? true : false;
+            //var multiple = (years.length > 1)? true : false;
+
+
 
             $.each(years, function(key, year) {
 
@@ -402,7 +420,7 @@
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle;
                                 
-                                if(multiple)
+                                if(self.multiple)
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
                                 else
                                     circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
@@ -412,7 +430,7 @@
                             }
                             else{
                                 var marker;
-                                var markerIcon = (multiple)? self.markersIcons[2] : self.markersIcons[0]; 
+                                var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
                                 self.createInfoWindowTrace(marker, etape.start.city);
@@ -424,16 +442,15 @@
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
-                                
                                 var line;
-                                var weight = (multiple)? 1 : 2;
-                                var isOriented = (multiple)? false : true;
+                                var weight = (self.multiple)? 1 : 2;
+                                var isOriented = (self.multiple)? false : true;
                                 line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, isOriented, weight);
 //                                self.createInfoWindowTrace(line, etape.year, false);
                                 self.tours[year]['lines'].push(line);           
                             }
 
-                            if(!multiple){
+                            if(!self.multiple){
                                 if(previousEtape != undefined){
                                     if(etape.start.city != previousEtape.finish.city){
 
@@ -462,7 +479,7 @@
             
             
             
-            if(repositionne)
+            if(repositionne && self.multiple)
                 self.map.fitBounds(this.mapBounds);
    
         },
@@ -480,19 +497,75 @@
             self.infosWindow.push(infowindow);
 
             google.maps.event.addListener(object, 'mouseover', function() {
-//                console.log('over qqch');
-//                if(isMarker){
-                    infowindow.open(self.map, this);
-//                }
-//                else{
-//                    infowindow.open(self.map, new google.maps.LatLng(45.969968, 2.680664));
-//                }
+                infowindow.open(self.map, this);
+                
+                self.changeOpacityByCity(data);
+
             });
 
             google.maps.event.addListener(object, 'mouseout', function() {
                 infowindow.close();
+                
+                self.changeOpacityBack();
             });
         },
+        
+        
+        changeOpacityByCity: function(name){
+            var self = this;
+            
+            $.each(self.years, function(key, year) {
+                
+                var cityInThisTour = false;
+                
+                $.each(self.toursData, function(i, tour) {
+                    
+                    if(year == tour.year){
+                        
+                        $.each(tour.legs, function(j, etape) {
+                            
+
+                            if(etape.start.city == name || etape.finish.city == name){
+                                cityInThisTour = true;
+                            } 
+                        });
+                    }
+                });
+                
+                
+                $.each(self.tours, function(i, tour){
+                
+                if(tour['year'] == year && !cityInThisTour){
+
+                        for(var i = 0; i < tour['markers'].length; i++){
+                            var marker = tour['markers'][i];
+                            marker.setIcon(self.markersIcons[3]);
+                        }
+
+                        for(var i = 0; i < tour['circles'].length; i++){
+                            var circle = tour['circles'][i];
+                            circle.setIcon(self.markersIcons[3]);
+                        }
+
+                        for(var i = 0; i < tour['lines'].length; i++){
+                            var line = tour['lines'][i];
+
+                            line.setOptions({strokeOpacity: 0.2})
+                        }
+
+
+                    }
+                });
+                
+                
+                
+                
+            });
+          
+          
+        },
+        
+        
         
         
         /**
@@ -545,11 +618,11 @@
         changeOpacityBack: function(year){
             var self = this;
             
-            if(self.years.length < 2)
-                return;
+//            if(self.years.length < 2)
+//                return;
             
-            if($.inArray(year, self.years) == -1)
-                return;
+//            if($.inArray(year, self.years) == -1)
+//                return;
             
             $.each(self.tours, function(i, tour){
                 
@@ -693,8 +766,18 @@
         createLine: function(slat, slng, flat, flng, isOriented, weight){
             var self = this;
             
+            
+            
+            var lineCoordinates = [
+                new google.maps.LatLng(slat, slng),
+                new google.maps.LatLng(flat, flng)
+            ];
+                    
+            var dist = Math.sqrt(Math.pow(flat - slat, 2) + Math.pow(flng - slng, 2));
+    
+            
             var lineSymbol = null;
-            if(isOriented){
+            if(isOriented && dist > 0.25){
                 lineSymbol = {
                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
                 };
@@ -704,11 +787,7 @@
                 weight = 2;
             
             
-            var lineCoordinates = [
-                new google.maps.LatLng(slat, slng),
-                new google.maps.LatLng(flat, flng)
-            ];
-
+            
 
             var line = new google.maps.Polyline({
                 strokeWeight: weight,
@@ -812,6 +891,7 @@
             var bounds = new google.maps.LatLngBounds();
 
             var showInfo = false;
+            var markerInfoWindowIsShowing = null;
             address = address.split(',');
 
             for(var j = 0; j < this.markers.length; j++){
@@ -875,6 +955,7 @@
                     if(thisRegex.test(etape.city) == true){
                         infowindow.open(self.map, marker);
                         showInfo = false;
+                        markerInfoWindowIsShowing = marker;
                     }                    
                     
                 }
@@ -889,6 +970,10 @@
           
             if(etapes.length > 1)
                 this.map.fitBounds(bounds);
+            
+            if(markerInfoWindowIsShowing != null){
+                self.map.setCenter(markerInfoWindowIsShowing.getPosition());
+            }
             
         },
         
@@ -1175,10 +1260,6 @@
                     hp.distance = streetViewPoint.distance;
                     hp.millis = streetViewPoint.millis;
                     hp.position = streetViewPoint.position;
-                    
-                    
-                    
-                    console.log(streetViewPoint.id + "lookat : " + hp.position);
                     
                     self.streetViewPoint.push(hp);
                 }
@@ -1496,6 +1577,16 @@
                 
                 self.hyperlapse.play();
             };
+            
+            
+            this.hyperlapse.onFrame = function(e) {
+                //hyperlapse.length()
+                //e.point.location
+                
+                self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
+                
+            };
+            
 
             // Google Maps API stuff here...
             var directions_service = new google.maps.DirectionsService();
@@ -1604,6 +1695,10 @@
             var zoneMap = $("#" + this.element.id);
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
+            
+            if(this.hyperlapse){
+                this.hyperlapse.pause();
+            }
             
             
             this.hyperlapse = null;
