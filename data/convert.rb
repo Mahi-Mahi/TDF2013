@@ -308,7 +308,7 @@ CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
 			leg[:start][:lng] = coords[1]
 	#		leg[:start][:coords_inv] = row[9]
 
-			cities << "#{row[6]},#{row[7]}"
+			cities << "#{row[6]}, #{row[7]}"
 
 			leg[:finish] = {}
 			leg[:finish][:city] = row[9]

@@ -364,7 +364,7 @@
     "year": 2011,
     "leg": "19",
     "leg_num": 19,
-    "title": "Modane - L'Alpe d'Huez",
+    "title": "Modane - L’Alpe d’Huez",
     "start": {
       "city": "Modane",
       "country": "France",
@@ -372,7 +372,7 @@
       "lng": "6.67292"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -1184,7 +1184,7 @@
     "year": 1982,
     "leg": "16",
     "leg_num": 17,
-    "title": "Orcières-Merlette - L'Alpe d'Huez",
+    "title": "Orcières-Merlette - L’Alpe d’Huez",
     "start": {
       "city": "Orcières-Merlette",
       "country": "France",
@@ -1192,7 +1192,7 @@
       "lng": "6.320161"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -3764,7 +3764,7 @@
     "year": 1978,
     "leg": "16",
     "leg_num": 18,
-    "title": "Saint-Étienne - L'Alpe d'Huez",
+    "title": "Saint-Étienne - L’Alpe d’Huez",
     "start": {
       "city": "Saint-Étienne",
       "country": "France",
@@ -3772,7 +3772,7 @@
       "lng": "4.387178"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -4124,7 +4124,7 @@
     "year": 1990,
     "leg": "11",
     "leg_num": 11,
-    "title": "Saint-Gervais - L'Alpe d'Huez  ",
+    "title": "Saint-Gervais - L’Alpe d’Huez  ",
     "start": {
       "city": "Saint-Gervais",
       "country": "France",
@@ -4132,7 +4132,7 @@
       "lng": "6.712187"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -5164,7 +5164,7 @@
     "year": 2013,
     "leg": "18",
     "leg_num": 18,
-    "title": "Gap - Alpe d'Huez",
+    "title": "Gap - L’Alpe d’Huez",
     "start": {
       "city": "Gap",
       "country": "France",
@@ -5172,7 +5172,7 @@
       "lng": "6.079758"
     },
     "finish": {
-      "city": "Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -6824,7 +6824,7 @@
     "year": 2008,
     "leg": "17",
     "leg_num": 17,
-    "title": "Embrun - L'Alpe d'Huez",
+    "title": "Embrun - L’Alpe d’Huez",
     "start": {
       "city": "Embrun",
       "country": "France",
@@ -6832,7 +6832,7 @@
       "lng": "6.495865"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -7224,7 +7224,7 @@
     "year": 2006,
     "leg": "15",
     "leg_num": 15,
-    "title": "Gap - L'Alpe d'Huez",
+    "title": "Gap - L’Alpe d’Huez",
     "start": {
       "city": "Gap",
       "country": "France",
@@ -7232,7 +7232,7 @@
       "lng": "6.079758"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -8084,7 +8084,7 @@
     "year": 2004,
     "leg": "16",
     "leg_num": 16,
-    "title": "Le Bourg-d'Oisans - Alpe d'Huez",
+    "title": "Le Bourg-d'Oisans - L’Alpe d’Huez",
     "start": {
       "city": "Le Bourg-d'Oisans",
       "country": "France",
@@ -8092,7 +8092,7 @@
       "lng": "6.030064"
     },
     "finish": {
-      "city": "Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -8344,7 +8344,7 @@
     "year": 2003,
     "leg": "8",
     "leg_num": 8,
-    "title": "Sallanches - L'Alpe d'Huez",
+    "title": "Sallanches - L’Alpe d’Huez",
     "start": {
       "city": "Sallanches",
       "country": "France",
@@ -8352,7 +8352,7 @@
       "lng": "6.630557"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -9224,7 +9224,7 @@
     "year": 2001,
     "leg": "10",
     "leg_num": 10,
-    "title": "Aix-les-Bains - L'Alpe d'Huez",
+    "title": "Aix-les-Bains - L’Alpe d’Huez",
     "start": {
       "city": "Aix-les-Bains",
       "country": "France",
@@ -9232,7 +9232,7 @@
       "lng": "5.908998"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -10064,7 +10064,7 @@
     "year": 1999,
     "leg": "10",
     "leg_num": 10,
-    "title": "Sestrières (Ita.) - L'Alpe d'Huez",
+    "title": "Sestrières (Ita.) - L’Alpe d’Huez",
     "start": {
       "city": "Sestrières",
       "country": "Italie",
@@ -10072,7 +10072,7 @@
       "lng": "6.879234"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -10984,7 +10984,7 @@
     "year": 1997,
     "leg": "13",
     "leg_num": 13,
-    "title": "Saint-Étienne - L'Alpe d'Huez",
+    "title": "Saint-Étienne - L’Alpe d’Huez",
     "start": {
       "city": "Saint-Étienne",
       "country": "France",
@@ -10992,7 +10992,7 @@
       "lng": "4.387178"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -11132,7 +11132,7 @@
       "lng": "2.598505"
     },
     "finish": {
-      "city": "Marne-La-Vallée",
+      "city": "Marne-la-Vallée",
       "country": "France",
       "lat": "48.859276",
       "lng": "2.598505"
@@ -11804,7 +11804,7 @@
     "year": 1995,
     "leg": "10",
     "leg_num": 10,
-    "title": "Aime - L'Alpe d'Huez",
+    "title": "Aime - L’Alpe d’Huez",
     "start": {
       "city": "Aime",
       "country": "France",
@@ -11812,7 +11812,7 @@
       "lng": "6.652126"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -12352,7 +12352,7 @@
       "lng": "4.989187"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -13164,7 +13164,7 @@
     "year": 1992,
     "leg": "14",
     "leg_num": 14,
-    "title": "Sestrières - Alpe d'Huez  ",
+    "title": "Sestrières - L’Alpe d’Huez  ",
     "start": {
       "city": "Sestrières",
       "country": "Italie",
@@ -13172,7 +13172,7 @@
       "lng": "6.879234"
     },
     "finish": {
-      "city": "Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -13664,7 +13664,7 @@
     "year": 1991,
     "leg": "17",
     "leg_num": 17,
-    "title": "Gap - L'Alpe d'Huez",
+    "title": "Gap - L’Alpe d’Huez",
     "start": {
       "city": "Gap",
       "country": "France",
@@ -13672,7 +13672,7 @@
       "lng": "6.079758"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -14124,7 +14124,7 @@
     "year": 1989,
     "leg": "17",
     "leg_num": 17,
-    "title": "Briançon - L'Alpe d'Huez  ",
+    "title": "Briançon - L’Alpe d’Huez  ",
     "start": {
       "city": "Briançon",
       "country": "France",
@@ -14132,7 +14132,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -14464,7 +14464,7 @@
     "year": 1988,
     "leg": "12",
     "leg_num": 13,
-    "title": "Morzine - L'Alpe d'Huez",
+    "title": "Morzine - L’Alpe d’Huez",
     "start": {
       "city": "Morzine",
       "country": "France",
@@ -14472,7 +14472,7 @@
       "lng": "6.708877"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -15092,7 +15092,7 @@
       "lng": "5.55227"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -15572,7 +15572,7 @@
       "lng": "6.643179"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -16504,7 +16504,7 @@
     "year": 1984,
     "leg": "17",
     "leg_num": 17,
-    "title": "Grenoble - L'Alpe d'Huez",
+    "title": "Grenoble - L’Alpe d’Huez",
     "start": {
       "city": "Grenoble",
       "country": "France",
@@ -16512,7 +16512,7 @@
       "lng": "5.724524"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -16984,7 +16984,7 @@
     "year": 1983,
     "leg": "17",
     "leg_num": 17,
-    "title": "La Tour-du-Pin - L'Alpe d'Huez",
+    "title": "La Tour-du-Pin - L’Alpe d’Huez",
     "start": {
       "city": "La Tour-du-Pin",
       "country": "France",
@@ -16992,7 +16992,7 @@
       "lng": "5.445327"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -17484,7 +17484,7 @@
     "year": 1981,
     "leg": "19",
     "leg_num": 19,
-    "title": "Morzine - L'Alpe d'Huez",
+    "title": "Morzine - L’Alpe d’Huez",
     "start": {
       "city": "Morzine",
       "country": "France",
@@ -17492,7 +17492,7 @@
       "lng": "6.708877"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -18444,7 +18444,7 @@
     "year": 1979,
     "leg": "17",
     "leg_num": 17,
-    "title": "Moûtiers - L'Alpe d'Huez",
+    "title": "Moûtiers - L’Alpe d’Huez",
     "start": {
       "city": "Moûtiers",
       "country": "France",
@@ -18452,7 +18452,7 @@
       "lng": "6.529926"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -18464,15 +18464,15 @@
     "year": 1979,
     "leg": "18",
     "leg_num": 18,
-    "title": "L'Alpe d'Huez - L'Alpe d'Huez",
+    "title": "L’Alpe d’Huez - L’Alpe d’Huez",
     "start": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -19024,7 +19024,7 @@
     "year": 1977,
     "leg": "17",
     "leg_num": 21,
-    "title": "Chamonix - L'Alpe d'Huez",
+    "title": "Chamonix - L’Alpe d’Huez",
     "start": {
       "city": "Chamonix",
       "country": "France",
@@ -19032,7 +19032,7 @@
       "lng": "6.869433"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -19364,7 +19364,7 @@
     "year": 1976,
     "leg": "9",
     "leg_num": 10,
-    "title": "Divonne-les-Bains - L'Alpe d'Huez",
+    "title": "Divonne-les-Bains - L’Alpe d’Huez",
     "start": {
       "city": "Divonne-les-Bains",
       "country": "France",
@@ -19372,7 +19372,7 @@
       "lng": "6.13604"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"
@@ -29104,7 +29104,7 @@
     "year": 1952,
     "leg": "10",
     "leg_num": 10,
-    "title": "Lausanne (Sui.) - L'Alpe d'Huez",
+    "title": "Lausanne (Sui.) - L’Alpe d’Huez",
     "start": {
       "city": "Lausanne",
       "country": "Suisse",
@@ -29112,7 +29112,7 @@
       "lng": "6.633597"
     },
     "finish": {
-      "city": "L'Alpe d'Huez",
+      "city": "L’Alpe d’Huez",
       "country": "France",
       "lat": "45.092624",
       "lng": "6.068348"

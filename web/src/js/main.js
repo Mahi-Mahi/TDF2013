@@ -357,7 +357,7 @@ var TDF = (function() {
 
 		console.log("setShares");
 
-		addthis.toolbox('#addthis-share', {}, {url: document.location.href, title: text});
+		addthis.toolbox('#addthis-share', {}, {url: 'http://' + document.location.hostname + url, title: text});
 
 		/*
 		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags+'&url='+encodeURIComponent(document.location.href));
@@ -381,8 +381,8 @@ TDF.Home = (function() {
 
 	my.name = 'home';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
-	my.share_hashtags = "appli,data,TDF";
+	my.base_url = '/';
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
 
 	my.init = function() {
 		// Set handler ( only on first init )
@@ -403,7 +403,7 @@ TDF.Home = (function() {
 
 		//my.autocomplete_init();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
@@ -480,7 +480,7 @@ TDF.CitySearch = (function() {
 
 	my.name = 'search';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
 	my.share_hashtags = "appli,data,TDF";
 
 	my.gmapApi = null;
@@ -644,8 +644,7 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
-	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive";
-	my.share_hashtags = "appli,data,TDF";
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive #appli #data #TDF via @RFnvx";
 
 	my.city_years = [];
 
@@ -1245,8 +1244,7 @@ TDF.Winners = (function() {
 	my.base_url = '/vainqueurs/';
 
 
-	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France";
-	my.share_hashtags = "appli,data,TDF";
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France #appli #data #TDF via @RFnvx";
 
 
 	my.init = function() {
@@ -1454,7 +1452,7 @@ TDF.Winners = (function() {
 		this.display();
 		this.filter();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
@@ -1643,8 +1641,7 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
-	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici !";
-	my.share_hashtags = "cyclisme,appli,data,TDF";
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! #cyclisme #appli #data #TDF via @RFnvx";
 
 	my.steps = null;
 
@@ -1708,7 +1705,7 @@ TDF.Fight = (function() {
 		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
-			TDF.setShares(my.share_text, my.share_hashtags);
+			TDF.setShares(my.base_url, my.share_text);
 			my.fight();
 			return;
 		}
@@ -1804,7 +1801,7 @@ TDF.Fight = (function() {
 			});
 		}
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 	};
 
 	my.getQueryString = function() {
@@ -2265,7 +2262,7 @@ TDF.Fight = (function() {
 							left: '670px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
-							left: '700px'
+							left: '750px'
 						}, step_duration * 0.75, 'linear');
 
 						break;
@@ -2345,8 +2342,9 @@ TDF.Fight = (function() {
 					if (fighter_one.is_doped && fighter_two.is_doped) {
 						console.log("no winners");
 						var shareUrl = document.location.href.replace(/\/[^\/]+\/$/, '/');
+						var shareText = "";
 						$main.find('.fighters').addClass('doped-fighters').html('<div class="fighter-infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div>' +
-						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + shareUrl + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + shareUrl + '" class="twitter">Twitter</a><a href="' + shareUrl + '" class="gplus">Google+</a></div></div>');
+						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?s=100&p[url]=' + shareUrl + '&p[title]='+encodeURIComponent(share_text)+'" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + shareUrl + '&text='+encodeURIComponent(share_text)+'" class="twitter">Twitter</a><a href="' + shareUrl + '" class="gplus">Google+</a></div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
@@ -2363,7 +2361,7 @@ TDF.Fight = (function() {
 					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
-					$inner.find('.next').fadeOut();
+					$inner.find('.next').hide();
 					setTimeout(function(){
 						$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course").fadeIn();
 						$inner.find('.prev').hide();
@@ -2419,15 +2417,7 @@ TDF.Fight = (function() {
 
 		if (!TDF.Data.fighters[my.args.fighter_one].is_doped) {
 			if (my.steps[7][0] > my.steps[7][1] || TDF.Data.fighters[my.args.fighter_two].is_doped) {
-				$results.find('.fighter_one .winner').html('vainqueur');
-			} else {
-				if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
-					$results.find('.fighter_two .winner').html('vainqueur');
-				}
-			}
-		} else {
-			if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
-				$results.find('.fighter_two .winner').html('vainqueur');
+				$results.find('.fighter_one .winner').addClass('active');
 			}
 		}
 
@@ -2658,7 +2648,7 @@ TDF.StreetView = (function() {
 			my.gmapApi.stopStreetView();
 		}
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
