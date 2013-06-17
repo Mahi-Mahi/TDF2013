@@ -355,6 +355,8 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
+		text = text.replace(/via /, '');
+
 		addthis.toolbox('#addthis-share', {}, {
 			url: 'http://' + document.location.hostname + url,
 			title: text
@@ -1063,7 +1065,7 @@ TDF.Traces = (function() {
 
 		this.setYears();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 

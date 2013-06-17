@@ -578,10 +578,19 @@
         createInfoWindowTrace: function(object, data){
             var self = this;
             
-            var contentString = '<p>'+ data +'</p>';
+            var contentString = '<div id="bodyContent"><p>'+ data +'</p><div class="infobox-arrow-white"></div></div>';
 
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
+            var infowindow = new InfoBox({
+                    closeBoxURL: "",
+                    boxStyle: { 
+                        background: "#fff",
+                        margin:"-48px 0 0 -100px",
+                        padding: "0",
+                        textAlign: "center",
+                        whiteSpace: "nowrap",
+                        width: "200px"
+                    },
+                    content: contentString
             });
 
             self.infosWindow.push(infowindow);
@@ -1100,14 +1109,18 @@
                 previewsYear = data.years[i];   
             }
             contentString += selecttext;
+
+            contentString += '</select><div class="infobox-arrow"></div>';
             
-            contentString += '</select>';
-            
-                  
-            var infowindow = new google.maps.InfoWindow({
+            var infowindow = new InfoBox({
+                    closeBoxURL: "",
+                    boxStyle: {
+                        height: "90px",
+                        margin:"-185px 0 0 -100px",
+                        width: "200px"
+                    },
                     content: contentString
-            });
-            
+            });            
              
             self.infosWindow.push(infowindow);
             
@@ -1352,7 +1365,7 @@
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
                             '<span class="displayStreetView"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a></span>' +
                         '</div>'+
-                    '</div>';
+                    '<div class="infobox-arrow"></div></div>';
                 }
                 else{
                     contentString = '<div id="contentInfo">'+
@@ -1361,11 +1374,17 @@
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
                             '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Lancer l\'animation</a></span>' +
                         '</div>'+
-                    '</div>';
+                    '<div class="infobox-arrow"></div></div>';
                 }
-               
-                var infowindow = new google.maps.InfoWindow({
-                    content: contentString
+
+                var infowindow = new InfoBox({
+                    closeBoxURL: "",
+                    content: contentString,
+                    boxStyle: {
+                        height: "110px",
+                        margin:"-170px 0 0 -100px",
+                        width: "200px"
+                    }
                 });
                 
                 
