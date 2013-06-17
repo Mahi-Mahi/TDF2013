@@ -63,6 +63,11 @@ var TDF = (function() {
 		Path.root("/");
 		Path.map("/").to(function() {
 			TDF.render('home');
+			jQuery('#carrousel-home-search-inner').jCarouselLite({
+				vertical: true,
+				auto: 2000,
+				speed: 800
+			});
 		});
 
 		// Map
@@ -276,7 +281,11 @@ var TDF = (function() {
 			if ($content.find('footer').length) {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
-				$footer.find('.colorbox').colorbox();
+				$footer.find('.colorbox').colorbox({
+					iframe:true,
+					width:490,
+					height:500
+				});
 			}
 
 			for (var route in TDF.routes) {
@@ -440,7 +449,6 @@ TDF.Home = (function() {
 		}
 
 	};
-
 
 	return my;
 }());

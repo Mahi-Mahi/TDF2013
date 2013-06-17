@@ -130,4 +130,24 @@
 	margin:0 8px 0 0;
 	padding:3px 0;
 }
-	
+
+.carrousel-home-search {
+	color:#708EB2;
+	display:block;
+	font:700 13px/30px 'Lato', Verdana, Arial, sans-serif;
+	height:30px;
+	overflow:hidden;
+	left:-38px;
+	top:-35px;
+	width:300px;
+	position:absolute;
+	text-align:center;
+	text-transform: uppercase;
+	z-index:3;
+}
+
+.carrousel-home-search-inner {
+	position:relative;
+	height:30px;
+	overflow:hidden;
+}
