@@ -167,6 +167,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
+    background-color: #7490A4;
 }
 
 #gmap-hyperlapse.hide{
@@ -218,6 +219,17 @@
 	background:#93C403;
 }
 
+
+#hyperlapseTextLoader{
+    position: absolute;
+    top: 150px;
+    left: 320px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
 #btnCloseHyperlapse{
     position: absolute;
     top: 10px;
@@ -242,7 +254,7 @@
     position: absolute;
     left: 42px;
     top: 25px;
-    background-color: green;
+    background-color: #92C407;
 }
 
 #hyperlapseTimeline .playerCursor{
@@ -250,7 +262,7 @@
     width: 58px;
     height: 52px;
     position: absolute;
-    left: 42px;
+    left: 27px;
     top: 0px;
     background: url(/img/lieux/lieux_hyperlapse_pointer.png) no-repeat;
     background-position: center center

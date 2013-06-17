@@ -514,53 +514,60 @@
         changeOpacityByCity: function(name){
             var self = this;
             
-            $.each(self.years, function(key, year) {
-                
-                var cityInThisTour = false;
-                
-                $.each(self.toursData, function(i, tour) {
-                    
-                    if(year == tour.year){
-                        
-                        $.each(tour.legs, function(j, etape) {
-                            
+            console.log("changeOpacityByCity");
+            console.log("this.multiple : " + this.multiple);
+            
+            if(this.multiple){
+            
+                $.each(self.years, function(key, year) {
 
-                            if(etape.start.city == name || etape.finish.city == name){
-                                cityInThisTour = true;
-                            } 
-                        });
-                    }
+                    var cityInThisTour = false;
+
+                    $.each(self.toursData, function(i, tour) {
+
+                        if(year == tour.year){
+
+                            $.each(tour.legs, function(j, etape) {
+
+
+                                if(etape.start.city == name || etape.finish.city == name){
+                                    cityInThisTour = true;
+                                } 
+                            });
+                        }
+                    });
+
+
+                    $.each(self.tours, function(i, tour){
+
+                    if(tour['year'] == year && !cityInThisTour){
+
+                            for(var i = 0; i < tour['markers'].length; i++){
+                                var marker = tour['markers'][i];
+                                marker.setIcon(self.markersIcons[3]);
+                            }
+
+                            for(var i = 0; i < tour['circles'].length; i++){
+                                var circle = tour['circles'][i];
+                                circle.setIcon(self.markersIcons[3]);
+                            }
+
+                            for(var i = 0; i < tour['lines'].length; i++){
+                                var line = tour['lines'][i];
+
+                                line.setOptions({strokeOpacity: 0.2})
+                            }
+
+
+                        }
+                    });
+
+
+
+
                 });
                 
-                
-                $.each(self.tours, function(i, tour){
-                
-                if(tour['year'] == year && !cityInThisTour){
-
-                        for(var i = 0; i < tour['markers'].length; i++){
-                            var marker = tour['markers'][i];
-                            marker.setIcon(self.markersIcons[3]);
-                        }
-
-                        for(var i = 0; i < tour['circles'].length; i++){
-                            var circle = tour['circles'][i];
-                            circle.setIcon(self.markersIcons[3]);
-                        }
-
-                        for(var i = 0; i < tour['lines'].length; i++){
-                            var line = tour['lines'][i];
-
-                            line.setOptions({strokeOpacity: 0.2})
-                        }
-
-
-                    }
-                });
-                
-                
-                
-                
-            });
+            }
           
           
         },
@@ -624,28 +631,32 @@
 //            if($.inArray(year, self.years) == -1)
 //                return;
             
-            $.each(self.tours, function(i, tour){
-                
-                    for(var i = 0; i < tour['markers'].length; i++){
-                        var marker = tour['markers'][i];
-                        marker.setIcon(self.markersIcons[2]);
-                    }
+            
+            if(this.multiple){
+            
+                $.each(self.tours, function(i, tour){
 
-                    for(var i = 0; i < tour['circles'].length; i++){
-                        var circle = tour['circles'][i];
-                        circle.setIcon(self.markersIcons[2]);
-                    }
-                
-          
-                    for(var i = 0; i < tour['lines'].length; i++){
-                        var line = tour['lines'][i];
-                        
-                        line.setOptions({strokeOpacity: 1})
-                    }
-                    
-                    
-                
-            });
+                        for(var i = 0; i < tour['markers'].length; i++){
+                            var marker = tour['markers'][i];
+                            marker.setIcon(self.markersIcons[2]);
+                        }
+
+                        for(var i = 0; i < tour['circles'].length; i++){
+                            var circle = tour['circles'][i];
+                            circle.setIcon(self.markersIcons[2]);
+                        }
+
+
+                        for(var i = 0; i < tour['lines'].length; i++){
+                            var line = tour['lines'][i];
+
+                            line.setOptions({strokeOpacity: 1})
+                        }
+
+
+
+                });
+            }
         },
         
         
@@ -1205,8 +1216,6 @@
                 }
             });
             
-            console.log("FIN RECHERCHE");
-            console.log("result.length : " +result.length);
 
           
             return result;
@@ -1221,6 +1230,8 @@
          */
         addStreetViewPoint: function(data, $container, callback){
             var self = this;
+            
+            console.log("addStreetViewPointaddStreetViewPointaddStreetViewPointaddStreetViewPointaddStreetViewPoint");
             
             var geocoder = new google.maps.Geocoder();
              
@@ -1531,9 +1542,6 @@
                 }
                 
                 
-                
-                
-                
                 self.minimap.fitBounds(bounds);
             }
             
@@ -1580,11 +1588,7 @@
             
             
             this.hyperlapse.onFrame = function(e) {
-                //hyperlapse.length()
-                //e.point.location
-                
                 self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
-                
             };
             
 
@@ -1617,36 +1621,40 @@
             var timerClick;
             var canPlayPause = true;
             
-            pano.addEventListener( 'mousedown', function(e){
-                    e.preventDefault();
-
-                    is_moving = true;
-
-                    onPointerDownPointerX = e.clientX;
-                    onPointerDownPointerY = e.clientY;
-
-                    px = self.hyperlapse.position.x;
-                    py = self.hyperlapse.position.y;
-                    
-                    canPlayPause = true;
-                    timerClick = setTimeout(function(){canPlayPause = false},200)
-
-            }, false );
+            
+            //Evite le multi action sur les boutons
+            $(pano).off("mousedown");
+            $(pano).off("click");
+            $(pano).off("mousemove");
+            $(pano).off("mouseup");
+            
+            
+            $(pano).on('mousedown', function(e){
+                is_moving = true;
 
 
-            pano.addEventListener( 'click', function(e){
+                onPointerDownPointerX = e.clientX;
+                onPointerDownPointerY = e.clientY;
+
+                px = self.hyperlapse.position.x;
+                py = self.hyperlapse.position.y;
+
+                canPlayPause = true;
+                timerClick = setTimeout(function(){canPlayPause = false},200)
+            });
+            
+
+            $(pano).on('click', function(){
                 if(canPlayPause){
                     self.playPauseHyperlapse();
                 }
                 
                 canPlayPause = true;
-                
             });
 
 
-            pano.addEventListener( 'mousemove', function(e){
-                    e.preventDefault();
-                    var f = self.hyperlapse.fov() / 500;
+            $(pano).on('mousemove', function(e){
+                var f = self.hyperlapse.fov() / 500;
 
                     if ( is_moving ) {
                             var dx = ( onPointerDownPointerX - e.clientX ) * f;
@@ -1657,23 +1665,17 @@
 //                            o.position_x = hyperlapse.position.x;
 //                            o.position_y = hyperlapse.position.y;
                     }
+            });
 
-            }, false );
 
-            pano.addEventListener( 'mouseup', function(){
-                    is_moving = false;
-
-//                    self.hyperlapse.position.x = px;
-//                    hyperlapse.position.y = py;
-                    
-            }, false );
-
-            
+            $(pano).on('mouseup', function(){
+                is_moving = false;
+            });       
             
             
         },
         
-        playPauseHyperlapse: function(){ 
+        playPauseHyperlapse: function(){    
             if(this.hyperlapse.isPlaying()){
                 this.hyperlapse.pause();
             }
@@ -1691,24 +1693,37 @@
         
         
         stopStreetView: function(){
-  
             var zoneMap = $("#" + this.element.id);
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
+            
+            //TODO: dynamiser ces éléments
+            var cursor = $("#" + this.settings.hyperlapseId + " .playerCursor");
+            var loaderText = $('#hyperlapseTextLoader');
+            var loader = $("#" + this.settings.hyperlapseId + ' .loader')
             
             if(this.hyperlapse){
                 this.hyperlapse.pause();
             }
             
             
-            this.hyperlapse = null;
+//            this.hyperlapse = null;
             
             zoneH.find('canvas').remove();
-            
             zoneH.addClass('hide');
+            
+            cursor.css('left', '27px');
+            loaderText.show();
+            loader.width(0);
+            
             
             zoneMap.width(742);
             zoneMap.height(500);
+            
+            
+            
+            
+
             
         },
         
