@@ -281,7 +281,7 @@ var TDF = (function() {
 			if ($content.find('footer').length) {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
-				$footer.find('.colorbox').colorbox({
+				jQuery('.colorbox:first').colorbox({
 					width: 490,
 					height: 500
 				});
