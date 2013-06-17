@@ -33,8 +33,22 @@ footer {
 	font:400 9px/41px 'Lato', Verdana, Arial, sans-serif;
 }
 
-.share {
+#addthis-share {
 	padding:12px 0 0 0;
+}
+
+#addthis-share a {
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+
+a.addthis_button_tweet {
+	width:94px;
+}
+
+a.addthis_button_facebook_like {
+	width:82px;
 }
 
 .footer-radios {
