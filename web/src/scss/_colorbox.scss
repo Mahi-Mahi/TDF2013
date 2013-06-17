@@ -34,8 +34,7 @@
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
 
-        #cboxClose{position:absolute; top:1em; right:1em; background:url(/img/icon/bt-close.png) let top no-repeat; width:22px; height:22px; text-indent:100%; overflow:hidden; white-space:nowrap; }
-        #cboxClose:hover{background-position:-25px -25px;}
+        #cboxClose{position:absolute; top:1em; right:1em; background:url(/img/icon/bt-close.png) left top no-repeat; width:22px; height:22px; text-indent:100%; overflow:hidden; white-space:nowrap; }
         #cboxLoadedContent h1 { display:block; margin:1em 0; padding:0; text-align:center; }
         #cboxLoadedContent { color:#383C40; font:400 12px/1.3 'Lato', Verdana, Arial, sans-serif; }
         #cboxLoadedContent h2 { color:#395877; font-size:14px; }
