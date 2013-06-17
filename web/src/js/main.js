@@ -14,6 +14,7 @@ var liify = function(elt) {
 /* global mapStyleTrace */
 /* global mapStyleSearch */
 /* global twttr */
+/* global gapi */
 
 var $main, $inner;
 
@@ -356,8 +357,15 @@ var TDF = (function() {
 	};
 
 	my.setShares = function(text, hashtags) {
-		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags);
+		console.log("setShares");
+		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags+'&url='+encodeURIComponent(document.location.href));
 		twttr.widgets.load();
+
+		var res = gapi.plus.render('gplus-share', {
+			href: document.location.href,
+			annotation: 'inline'
+		});
+		console.log(res);
 	};
 
 	return my;
@@ -371,7 +379,7 @@ TDF.Home = (function() {
 
 	my.name = 'home';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
 	my.share_hashtags = "appli,data,TDF";
 
 	my.init = function() {
@@ -389,7 +397,6 @@ TDF.Home = (function() {
 
 		TDF.loadTemplate(this);
 
-
 		//Plus d'autocomplete sur la Home (pour le moment)
 
 		//my.autocomplete_init();
@@ -401,8 +408,6 @@ TDF.Home = (function() {
 
 
 	my.autocomplete_init = function() {
-
-
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -472,6 +477,9 @@ TDF.CitySearch = (function() {
 	var my = {};
 
 	my.name = 'search';
+
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
+	my.share_hashtags = "appli,data,TDF";
 
 	my.gmapApi = null;
 
@@ -633,6 +641,9 @@ TDF.Traces = (function() {
 
 	my.data = null;
 	my.args = null;
+
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive";
+	my.share_hashtags = "appli,data,TDF";
 
 	my.city_years = [];
 
@@ -1049,6 +1060,9 @@ TDF.Traces = (function() {
 
 
 		this.setYears();
+
+		TDF.setShares(my.share_text, my.share_hashtags);
+
 	};
 
 	my.setYears = function() {
@@ -1146,7 +1160,7 @@ TDF.Traces = (function() {
 			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val - my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
-		$main.find(".nb_finishers .current").html(my.args.years[0] === "2013" ? 'N.C.' : nb_finishers + " à l'arrivée");
+		$main.find(".nb_finishers .current").html((my.args.years.length ===0 || my.args.years[0] === "2013") ? 'N.C.' : nb_finishers + " à l'arrivée");
 		$main.find(".nb_finishers .line").css({
 			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
@@ -1227,6 +1241,11 @@ TDF.Winners = (function() {
 
 	my.name = 'winners';
 	my.base_url = '/vainqueurs/';
+
+
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France";
+	my.share_hashtags = "appli,data,TDF";
+
 
 	my.init = function() {
 
@@ -1433,6 +1452,8 @@ TDF.Winners = (function() {
 		this.display();
 		this.filter();
 
+		TDF.setShares(my.share_text, my.share_hashtags);
+
 	};
 
 	my.display = function() {
@@ -1616,6 +1637,9 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici !";
+	my.share_hashtags = "cyclisme,appli,data,TDF";
+
 	my.steps = null;
 
 	my.init = function() {
@@ -1678,6 +1702,7 @@ TDF.Fight = (function() {
 		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
+			TDF.setShares(my.share_text, my.share_hashtags);
 			my.fight();
 			return;
 		}
@@ -1773,6 +1798,7 @@ TDF.Fight = (function() {
 			});
 		}
 
+		TDF.setShares(my.share_text, my.share_hashtags);
 	};
 
 	my.getQueryString = function() {
@@ -1957,13 +1983,13 @@ TDF.Fight = (function() {
 					display: 'none',
 					left: '20px'
 				}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75);
-				$inner.find('.background .archeback-0').stop().animate({
-					left: '516px'
-				}, step_duration * 0.75, 'linear');
+				$inner.find('.background .archeback-0').css({
+					left: '616px'
+				});
 
-				$inner.find('.foreground .archefore-0').stop().animate({
-					left: '517px'
-				}, step_duration * 0.75, 'linear');
+				$inner.find('.foreground .archefore-0').css({
+					left: '617px'
+				});
 				$inner.find('.forescape .public-left-0').css({
 					display: 'none',
 					left: '20px'
@@ -2005,6 +2031,7 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .public-left-0, .forescape .public-right-0').stop().animate({
 							left: '-1000px'
 						}, step_duration * 0.25, 'linear');
+
 						// ANIM OUT NEXT
 						$inner.find('.sky .clouds-2').stop().animate({
 							left: '+=1000'
@@ -2015,18 +2042,17 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .green').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.25, 'linear');
+
 						// ANIM IN
-						$inner.find('.background .beef-car').stop().animate({
+						$inner.find('.background .beef-car').stop().delay(step_duration * 0.25).animate({
 							left: '714px'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-left').css({
-							display: 'none',
-							left: '260px'
-						}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-right').css({
-							display: 'none',
-							left: '596px'
-						}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75, 'linear');
+						$inner.find('.foreground .lady-left').stop().delay(step_duration * 0.25).animate({
+							left: '310px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .lady-right').stop().delay(step_duration * 0.5).animate({
+							left: '646px'
+						}, step_duration * 0.5, 'linear');
 
 						$inner.find('.forescape .public-left-1').stop().delay(step_duration * 0.25).animate({
 							left: '20px'
@@ -2046,8 +2072,12 @@ TDF.Fight = (function() {
 						$inner.find('.background .beef-car').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.25, 'linear');
-						$inner.find('.foreground .lady-left').stop().fadeOut(step_duration * 0.25);
-						$inner.find('.foreground .lady-right').stop().fadeOut(step_duration * 0.25);
+						$inner.find('.foreground .lady-left').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .lady-right').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .public-left-1, .forescape .public-right-1').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.25, 'linear');
@@ -2073,7 +2103,7 @@ TDF.Fight = (function() {
 						}, step_duration * 0.75, 'linear');
 						setTimeout(function() {
 							$inner.find('.fighters .fighter_one, .fighters .fighter_two').addClass('yellow_active');
-						}, step_duration * 0.45);
+						}, step_duration * 0.65);
 
 						break;
 					case 3:
@@ -2185,8 +2215,8 @@ TDF.Fight = (function() {
 					case 6:
 						step_class = "doping";
 						step_title = "<strong>contrôle <br>antidopage</strong>";
-						fighter_one_result = fighter_one.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage sur le Tour";
-						fighter_two_result = fighter_two.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage sur le Tour";
+						fighter_one_result = fighter_one.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
+						fighter_two_result = fighter_two.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
 						$inner.find('.next').text("Résultat");
 
 						// ANIM OUT PREV
@@ -2387,7 +2417,7 @@ TDF.Fight = (function() {
 		fighter.find('.average_speed').html(data.average_speed + " km/h").data('score', data.steps[3]);
 		fighter.find('.ahead_of_2nd').html(data.ahead_of_2nd + "<br><small> en " + data.ahead_of_2nd_year + '<small>').data('score', data.steps[4]);
 		fighter.find('.nb_wins').html(data.nb_wins).data('score', data.steps[5]);
-		fighter.find('.doping').html(data.is_doped ? 'Éliminé du Tour pour dopage' : 'Jamais pris pour dopage sur le Tour').addClass(data.is_doped ? 'active' : '');
+		fighter.find('.doping').html(data.is_doped ? '<small>Éliminé du Tour pour dopage</small>' : '<small>Jamais pris pour dopage sur le Tour</small>').addClass(data.is_doped ? 'active' : '');
 	};
 
 	return my;
@@ -2579,6 +2609,8 @@ TDF.StreetView = (function() {
 
 			my.gmapApi.stopStreetView();
 		}
+
+		TDF.setShares(my.share_text, my.share_hashtags);
 
 	};
 

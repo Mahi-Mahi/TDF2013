@@ -67,7 +67,7 @@
 }
 
 @each $step in 2,3,4,6,7,results {
-	.step-#{$step} .fighter_one.yellow.yellow_active, .step-#{$step} .fighter_one.yellow.yellow_active {
+	.step-#{$step} .fighter_one.yellow.yellow_active, .step-#{$step} .fighter_two.yellow.yellow_active {
 		background-position:-190px 0;
 	}
 }
@@ -386,7 +386,7 @@
 
 .fighter-infos {
 	background:#e3e7ea;
-    padding: 8px;
+    padding: 6px;
     border-radius: 4px;
     box-shadow: 0 0 7px rgba(0,0,0,.5);
     position:absolute;
@@ -441,6 +441,10 @@
 	margin-left: -500px;
 }
 
+.step-5 .fighter_one .fighter-infos {
+	top:-50px;
+}
+
 .step-7 .fighter_one .fighter-infos, .step-results .fighter_one .fighter-infos {
 	top:-150px;
 }
@@ -465,16 +469,16 @@
 .fighter-infos .name, .fighter-infos .result {
 	color:#393932;
 	display:block;
-	font:400 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
+	font:400 16px/1.3 'Oswald', Verdana, Arial, sans-serif;
 	margin:0;
 	padding:0;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	// white-space:nowrap;
 }
 
 .fighter-infos .result {
 	color:#6289A7;
-	font-size:14px;
+	font:600 14px/1.3 'Lato', Verdana, Arial, sans-serif;
 }
 
 .fighter-infos .result strong {
@@ -485,7 +489,6 @@
 .fight-home .winners_list .winner {
 	border-color:#000;
 }
-
 
 .step-7 .winner .fighter-infos > .name {
 	display:none;
@@ -616,7 +619,7 @@
 		// left: 383px;
 	}
 	.beef-car {
-		top: 127px;
+		top: 137px;
 		// left: 383px;
 	}
 	.radar {
@@ -634,7 +637,7 @@
 	left: -300px;
 	z-index:7;
 	.followers {
-		top: 265px;
+		top: 237px;
 		// left: 383px;
 	}
 }
@@ -676,7 +679,7 @@
 		bottom: 0px;
 	}
 	.trees-4 {
-		bottom: 0px;
+		bottom: -10px;
 	}
 	.trees-5 {
 		bottom: -10px;
@@ -931,7 +934,7 @@ a.traces {
 	border-radius:8px;
 	border-collapse:collapse;
 	display:block;
-	margin:25px auto 5px auto;
+	margin:20px auto 5px auto;
 	width:490px;
 }
 
@@ -943,12 +946,17 @@ a.traces {
 	padding:5px;
 }
 
+.results td.result_fighter {
+	color:#6289A7;
+	font:700 15px/1.3 'Oswald', Verdana, Arial, sans-serif;	
+}
+
 .results td.no-border, .results .last td {
-	border:none; 
+	border:none;
 }
 
 .results .last .legend-results img {
-	margin-top: -30px;
+	margin-top: -10px;
 	margin-bottom: -20px;
 }
 
@@ -1016,6 +1024,7 @@ a.traces {
 }
 
 .results .name, .results .name strong {
+	color:#393932;
 	font:400 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
 }
 
@@ -1085,11 +1094,31 @@ a.traces {
 	width:280px;
 }
 
-.fight-start .doped-fighters, .step-7 .fighter {
+.fight-start .doped-fighters, .step-7 .fighter, .step-start .fighter {
 	z-index:30;
 }
 
 .fight-start .doped-fighters {
 	top: 80px;
 	left: 200px;
+}
+.results .last td {
+	position:relative;
+}
+
+.results .last .winner {
+	background:url(/img/duels/bg-results-winner.png) left top no-repeat;
+	display:block;
+	color: #F3F3ED;
+	display: block;
+	font: 700 18px/34px 'Oswald', Verdana, Arial, sans-serif;
+	height:47px;
+	margin:0;
+	position:absolute;
+	left:-25px;
+	text-align: center;
+	text-indent:20px;
+	top:10px;
+	text-transform: uppercase;
+	width:175px;
 }
