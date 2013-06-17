@@ -391,14 +391,16 @@
 	font:700 14px/34px 'Lato', Verdana, Arial, sans-serif;
 	height:34px;
 	display:inline-block;
-	margin:0 10px 0 0;
+	margin:0 1px 0 0;
 	padding:0 15px 0 28px;
 	border-radius:4px;
+	vertical-align:top;
 }
 
 .city {
 	overflow: hidden;
 }
+
 .city #city_search {
 	display: none;
 }
@@ -406,7 +408,7 @@
 .traces .back {
 	position:relative;
 	left:auto;
-	top:-13px;
+	top:0;
 }
 
 .close-city {

@@ -792,6 +792,12 @@ TDF.Traces = (function() {
 		searchInput.autocomplete({
 			minLength: 1,
 			source: TDF.Data.cities,
+			open: function() {
+				jQuery(".ui-autocomplete:visible").css({
+					top: "+=4",
+					left: "-=33"
+				});
+			},
 			messages: {
 				noResults: '',
 				results: function() {}
@@ -2525,12 +2531,12 @@ TDF.StreetView = (function() {
 				places_list.push(content);
 			}
 			$inner.find('.streetview-list').html(places_list.join(' '));
-
+/*
 			$inner.find('.streetview-list-container').jScrollPane({
 				mouseWheelSpeed: '2',
 				maintainPosition: false
 			});
-
+*/
 		}
 
 		this.initializeGmap();
