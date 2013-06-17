@@ -22,7 +22,7 @@
 #cboxOverlay{ background:#000; background: rgba(0, 0, 0, 0.5); }
 #colorbox{outline:0; border-radius:8px; }
     #cboxTopLeft, #cboxTopRight, #cboxBottomLeft, #cboxBottomRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxTopCenter, #cboxBottomCenter, { display:none; }
-    #cboxContent{background:#E7E8DF; margin:0; padding:0 75px; overflow:hidden;}
+    #cboxContent{background:#E7E8DF; margin:0; padding:0 35px 0 75px; overflow:hidden;}
         .cboxIframe{background:#E7E8DF;}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:28px;}
@@ -41,4 +41,5 @@
         #cboxLoadedContent h3 { color:#383C40; font-size:12px; font-weight:bold; }
         #cboxLoadedContent p { display:block; margin:0; padding:0 0 1em 0; }
         #cboxLoadedContent a { color:#383C40; text-decoration:underline; }
+        .colorbox-inner { height:300px; padding:0 30px 0 0; overflow:auto; }
 
