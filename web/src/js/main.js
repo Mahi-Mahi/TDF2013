@@ -13,6 +13,7 @@ var liify = function(elt) {
 /* global google  */
 /* global mapStyleTrace */
 /* global mapStyleSearch */
+/* global twttr */
 
 var $main, $inner;
 
@@ -281,11 +282,12 @@ var TDF = (function() {
 			if ($content.find('footer').length) {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
-				console.log("set colorBox");
+				/*
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
 					height: 500
 				});
+				*/
 			}
 
 			for (var route in TDF.routes) {
@@ -352,8 +354,8 @@ var TDF = (function() {
 
 	};
 
-	my.setShares = function(text){
-		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?'+encodeURIComponent(text));
+	my.setShares = function(text, hashtags) {
+		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags);
 		twttr.widgets.load();
 	};
 
@@ -369,6 +371,7 @@ TDF.Home = (function() {
 	my.name = 'home';
 
 	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
+	my.share_hashtags = "appli,data,TDF";
 
 	my.init = function() {
 		// Set handler ( only on first init )
@@ -390,7 +393,7 @@ TDF.Home = (function() {
 
 		//my.autocomplete_init();
 
-		TDF.setShares(my.share_text);
+		TDF.setShares(my.share_text, my.share_hashtags);
 
 	};
 
@@ -688,7 +691,6 @@ TDF.Traces = (function() {
 
 		// Click on timeline
 		$main.on('click', '.traces .timeline-zoom span', function() {
-			console.log(my.state_interval);
 			if (my.state === null || my.state_interval) {
 				if ($main.find("#multi-select:checked").length) {
 					if (jQuery(this).prev('input').prop('checked')) {
@@ -1341,8 +1343,6 @@ TDF.Winners = (function() {
 
 				winners_list.push(content);
 
-				console.log(winner);
-
 				if (winner.wins_age.min() < youngest_win || youngest_win === null) {
 					youngest_win = winner.wins_age.min();
 				}
@@ -1598,7 +1598,6 @@ TDF.Winners = (function() {
 		});
 
 		$main.find('.winners_list').data('jsp').scrollTo(0, 0);
-		console.log($main.find('.winners_list').height());
 		$main.find('.jspContainer').css({
 			height: $main.find('.winners_list').height() + 'px'
 		});
@@ -2282,10 +2281,7 @@ TDF.Fight = (function() {
 						$fighter_two.find('.fighter-infos').hide();
 					}
 
-					console.log(fighter_one.score + ' / ' + fighter_two.score);
-
 					if (fighter_one.is_doped && fighter_two.is_doped) {
-						console.log("no winners");
 						$main.find('.fighters').html('<div class="fighter_infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
@@ -2520,16 +2516,11 @@ TDF.StreetView = (function() {
 
 		var positionMax = 636;
 
-
 		var currentPosition = ((positionMax * position) / total) + 22;
-
 
 		cursor.stop().animate({
 			left: currentPosition
 		}, 200);
-
-
-		console.log("hyperlapseOnFrame : " + position);
 
 	};
 
@@ -2557,7 +2548,7 @@ TDF.StreetView = (function() {
 				mouseWheelSpeed: '2',
 				maintainPosition: false
 			});
-*/
+			*/
 		}
 
 		this.initializeGmap();
