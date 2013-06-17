@@ -14,6 +14,7 @@ var liify = function(elt) {
 /* global mapStyleTrace */
 /* global mapStyleSearch */
 /* global twttr */
+/* global gapi */
 
 var $main, $inner;
 
@@ -355,8 +356,15 @@ var TDF = (function() {
 	};
 
 	my.setShares = function(text, hashtags) {
-		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags);
+		console.log("setShares");
+		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags+'&url='+encodeURIComponent(document.location.href));
 		twttr.widgets.load();
+
+		var res = gapi.plus.render('gplus-share', {
+			href: document.location.href,
+			annotation: 'inline'
+		});
+		console.log(res);
 	};
 
 	return my;
@@ -370,7 +378,7 @@ TDF.Home = (function() {
 
 	my.name = 'home';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
 	my.share_hashtags = "appli,data,TDF";
 
 	my.init = function() {
@@ -388,7 +396,6 @@ TDF.Home = (function() {
 
 		TDF.loadTemplate(this);
 
-
 		//Plus d'autocomplete sur la Home (pour le moment)
 
 		//my.autocomplete_init();
@@ -400,8 +407,6 @@ TDF.Home = (function() {
 
 
 	my.autocomplete_init = function() {
-
-
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -471,6 +476,9 @@ TDF.CitySearch = (function() {
 	var my = {};
 
 	my.name = 'search';
+
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
+	my.share_hashtags = "appli,data,TDF";
 
 	my.gmapApi = null;
 
@@ -632,6 +640,9 @@ TDF.Traces = (function() {
 
 	my.data = null;
 	my.args = null;
+
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive";
+	my.share_hashtags = "appli,data,TDF";
 
 	my.city_years = [];
 
@@ -1048,6 +1059,9 @@ TDF.Traces = (function() {
 
 
 		this.setYears();
+
+		TDF.setShares(my.share_text, my.share_hashtags);
+
 	};
 
 	my.setYears = function() {
@@ -1226,6 +1240,11 @@ TDF.Winners = (function() {
 
 	my.name = 'winners';
 	my.base_url = '/vainqueurs/';
+
+
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France";
+	my.share_hashtags = "appli,data,TDF";
+
 
 	my.init = function() {
 
@@ -1432,6 +1451,8 @@ TDF.Winners = (function() {
 		this.display();
 		this.filter();
 
+		TDF.setShares(my.share_text, my.share_hashtags);
+
 	};
 
 	my.display = function() {
@@ -1615,6 +1636,9 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici !";
+	my.share_hashtags = "cyclisme,appli,data,TDF";
+
 	my.steps = null;
 
 	my.init = function() {
@@ -1677,6 +1701,7 @@ TDF.Fight = (function() {
 		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
+			TDF.setShares(my.share_text, my.share_hashtags);
 			my.fight();
 			return;
 		}
@@ -1772,6 +1797,7 @@ TDF.Fight = (function() {
 			});
 		}
 
+		TDF.setShares(my.share_text, my.share_hashtags);
 	};
 
 	my.getQueryString = function() {
@@ -1956,13 +1982,13 @@ TDF.Fight = (function() {
 					display: 'none',
 					left: '20px'
 				}).stop().delay(step_duration * 0.25).fadeIn(step_duration * 0.75);
-				$inner.find('.background .archeback-0').stop().animate({
-					left: '516px'
-				}, step_duration * 0.75, 'linear');
+				$inner.find('.background .archeback-0').css({
+					left: '616px'
+				});
 
-				$inner.find('.foreground .archefore-0').stop().animate({
-					left: '517px'
-				}, step_duration * 0.75, 'linear');
+				$inner.find('.foreground .archefore-0').css({
+					left: '617px'
+				});
 				$inner.find('.forescape .public-left-0').css({
 					display: 'none',
 					left: '20px'
@@ -2575,6 +2601,8 @@ TDF.StreetView = (function() {
 
 			my.gmapApi.stopStreetView();
 		}
+
+		TDF.setShares(my.share_text, my.share_hashtags);
 
 	};
 
