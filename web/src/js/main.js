@@ -1386,7 +1386,8 @@ TDF.Winners = (function() {
 			$main.find('.winners_list').jScrollPane({
 				mouseWheelSpeed: '2',
 				maintainPosition: false,
-				autoReinitialise: true
+				autoReinitialise: true,
+				animateScroll: true
 			});
 
 			var filters = {};
@@ -1554,12 +1555,12 @@ TDF.Winners = (function() {
 			$winner.find('.tours').html(winner_tours.join(' '));
 			$winner.slideDown('slow', function() {
 				$inner.find(".tours li[title]").tooltip({
-					track: true
-					/*
-					,
+					track: true,
 					position: {
+						at: "center top"
+					}
+					/*
 						my: "center bottom-20",
-						at: "center top",
 						content: function() {
 							var element = jQuery(this);
 							return element.attr("title");
@@ -1580,6 +1581,7 @@ TDF.Winners = (function() {
 	};
 
 	my.filter = function() {
+		console.log("'filter'");
 
 		jQuery(".winners_list .winner").stop().data('show', true);
 
@@ -1624,13 +1626,10 @@ TDF.Winners = (function() {
 			jQuery(this).css({
 				display: 'none'
 			});
+			var scrollpane_api = $main.find('.winners_list').data('jsp');
+			// scrollpane_api.resizeScrollbars();
+			scrollpane_api.scrollToY(0);
 		});
-
-		$main.find('.winners_list').data('jsp').scrollTo(0, 0);
-		$main.find('.jspContainer').css({
-			height: $main.find('.winners_list').height() + 'px'
-		});
-		// $main.find('.winners_list').data('jsp').reinitialise();
 
 	};
 
