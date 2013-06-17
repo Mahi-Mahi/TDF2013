@@ -1655,6 +1655,14 @@ TDF.Fight = (function() {
 		});
 
 
+		$main.on('click', '.next', function(event) {
+			if ( jQuery(':animated').length){
+				event.preventDefault();
+				return false;
+			}
+		});
+
+
 		$main.on('click', '.fight-home .random', function(event) {
 			event.preventDefault();
 			var fighter_id;
