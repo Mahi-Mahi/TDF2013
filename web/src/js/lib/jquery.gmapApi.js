@@ -582,13 +582,7 @@
 
             var infowindow = new InfoBox({
                     closeBoxURL: "",
-<<<<<<< HEAD
-                    boxStyle: { 
-                        pane: "floatPane",
-=======
-                    // infoBoxClearance: 50,
                     boxStyle: {
->>>>>>> 9785e45765d85f2e5b814a1f18dc1823c498b202
                         background: "#fff",
                         margin:"-15px 0 0 20px",
                         padding: "0 4px",
@@ -1421,13 +1415,6 @@
 //                enableCloseButton: true,
 //                panControl: false
 //            };
-<<<<<<< HEAD
-            
-            
-=======
-
-
->>>>>>> 9785e45765d85f2e5b814a1f18dc1823c498b202
 //            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
 
             this.panorama = this.map.getStreetView();
