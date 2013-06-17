@@ -2444,6 +2444,12 @@ TDF.StreetView = (function() {
 
 
 		my.gmapApi.stopStreetView();
+                
+                
+                if(my.hyperlapse != null){
+                    my.hyperlapse.pause();
+                }
+//                my.hyperlapse = null;
 
 	};
 
@@ -2454,13 +2460,20 @@ TDF.StreetView = (function() {
 
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
+                var textLoader = jQuery('#hyperlapseTextLoader');
+
+                textLoader.show();
 
 		var widthMaxLoader = 636;
 
 		var currentWidth = (widthMaxLoader * current) / total;
 
 		loader.width(currentWidth);
-
+                
+                
+                if(current === total){
+                    textLoader.hide();
+                }
 	};
 
 	my.hyperlapseOnFrame = function(position, total) {
@@ -2469,12 +2482,15 @@ TDF.StreetView = (function() {
 		var positionMax = 636;
 
 
-		var currentPosition = (positionMax * position) / total;
+		var currentPosition = ((positionMax * position) / total) + 22;
 
 
 		cursor.stop().animate({
 			left: currentPosition
 		}, 200);
+                
+                
+                console.log("hyperlapseOnFrame : " + position);
 
 	};
 
