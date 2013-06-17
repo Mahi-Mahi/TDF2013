@@ -13,8 +13,7 @@ var liify = function(elt) {
 /* global google  */
 /* global mapStyleTrace */
 /* global mapStyleSearch */
-/* global twttr */
-/* global gapi */
+/* global addthis */
 
 var $main, $inner;
 
@@ -284,12 +283,10 @@ var TDF = (function() {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
 				// TO UPDATE
-				/*
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
 					height: 500
 				});
-				*/
 			}
 
 			for (var route in TDF.routes) {
@@ -356,8 +353,13 @@ var TDF = (function() {
 
 	};
 
-	my.setShares = function(text, hashtags) {
+	my.setShares = function(url, text) {
+
 		console.log("setShares");
+
+		addthis.toolbox('#addthis-share', {}, {url: document.location.href, title: text});
+
+		/*
 		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags+'&url='+encodeURIComponent(document.location.href));
 		twttr.widgets.load();
 
@@ -365,7 +367,7 @@ var TDF = (function() {
 			href: document.location.href,
 			annotation: 'inline'
 		});
-		console.log(res);
+		*/
 	};
 
 	return my;
@@ -1107,19 +1109,19 @@ TDF.Traces = (function() {
 		// display the infos
 		if (my.args.years.length === 1) {
 			$main.find('#traces-years').attr('class', 'single').html(my.args.years.join(','));
-			jQuery('.traces-left-stats').find('small').css('display', 'none');
+			jQuery('.traces-left-stats').find('small').css('visibility', 'hidden');
 		}
 		if (my.args.years.length === 2) {
 			$main.find('#traces-years').attr('class', 'double').html(my.args.years.map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
-			jQuery('.traces-left-stats').find('small').css('display', 'block');
+			jQuery('.traces-left-stats').find('small').css('visibility', 'visible');
 		}
 		if (my.args.years.length > 2) {
 			$main.find('#traces-years').attr('class', 'triple').html('<em>' + my.args.years.length + ' tours entre </em>' + [my.args.years[0], my.args.years[my.args.years.length - 1]].map(function(elt) {
 				return '<span>' + elt + '</span>';
 			}).join(' '));
-			jQuery('.traces-left-stats').find('small').css('display', 'block');
+			jQuery('.traces-left-stats').find('small').css('visibility', 'visible');
 		}
 
 		// Stats
@@ -1551,6 +1553,9 @@ TDF.Winners = (function() {
 			$winner.find('.tours').html(winner_tours.join(' '));
 			$winner.slideDown('slow', function() {
 				$inner.find(".tours li[title]").tooltip({
+					track: true
+					/*
+					,
 					position: {
 						my: "center bottom-20",
 						at: "center top",
@@ -1559,7 +1564,7 @@ TDF.Winners = (function() {
 							return element.attr("title");
 						},
 						using: function(position, feedback) {
-							jQuery(this).css(position);
+							// jQuery(this).css(position);
 							jQuery("<div>")
 								.addClass("arrow")
 								.addClass(feedback.vertical)
@@ -1567,6 +1572,7 @@ TDF.Winners = (function() {
 								.appendTo(this);
 						}
 					}
+					*/
 				});
 			});
 		}
@@ -2181,7 +2187,7 @@ TDF.Fight = (function() {
 							left: '0px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.foreground .green-3').stop().delay(step_duration * 0).animate({
-							left: '-1200px'
+							left: '-800px'
 						}, step_duration * 1.0, 'linear');
 						$inner.find('.forescape .trees-4').stop().delay(step_duration * 0).animate({
 							left: '200px'
@@ -2196,6 +2202,9 @@ TDF.Fight = (function() {
 
 						// ANIM OUT PREV
 						$inner.find('.middleground .followers').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
+						$inner.find('.foreground .green-3').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.5, 'linear');
 						$inner.find('.forescape .trees-4').stop().animate({
@@ -2253,7 +2262,7 @@ TDF.Fight = (function() {
 							left: '480px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.middleground .doping-doctor').stop().delay(step_duration * 0.25).animate({
-							left: '530px'
+							left: '670px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
 							left: '700px'
@@ -2354,8 +2363,11 @@ TDF.Fight = (function() {
 					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
-					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
-					$inner.find('.prev').hide();
+					$inner.find('.next').fadeOut();
+					setTimeout(function(){
+						$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course").fadeIn();
+						$inner.find('.prev').hide();
+					}, 2000);
 				}
 
 				break;

@@ -641,7 +641,7 @@
 		// left: 383px;
 	}
 	.doping-doctor {
-		top: 137px;
+		top: 207px;
 		// left: 383px;
 	}
 }
@@ -670,7 +670,7 @@
 
 .forescape {
 	@include scenery;
-	z-index:20;
+	z-index:40;
 	height: 250px;
 	margin-top:250px;
 	.public-left-0, .public-left-1, .public-left-7 {
@@ -732,6 +732,18 @@
 	}
 }
 
+.step-4 .foreground .green-3 {
+	left: 200px;
+}
+@each $i in 0,1,2,3,5,6,7 {
+	.step-#{$i} .foreground .green-3 {
+		@if $i < 4 {
+			left: 1000px;
+		} @else {
+			left: -2000px;
+		}
+	}
+}
 
 /*
 .background {
