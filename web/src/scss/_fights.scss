@@ -84,6 +84,10 @@
 // 	background-position:-380px 0;
 // }
 
+.step-7 .fighter_one.has_won.has_won_active, .step-7 .fighter_one.winner {
+	z-index:30;
+}
+
 .fight-start .fighter {
 	position: absolute;
 	margin:0;
