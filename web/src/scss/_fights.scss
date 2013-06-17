@@ -88,6 +88,11 @@
 	// z-index:30;
 }
 
+.step-3 .fighter_two, .step-4 .fighter_two {
+	z-index:20;
+}
+
+
 .fight-start .fighter {
 	position: absolute;
 	margin:0;
@@ -939,7 +944,7 @@ a.traces {
 .step-results .results {
 	display: block;
 	position: absolute;
-	z-index: 25;
+	z-index: 55;
 	left: 0;
 	top: 0;
 	width: 100%;

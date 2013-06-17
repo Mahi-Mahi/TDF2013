@@ -355,9 +355,10 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
-		console.log("setShares");
-
-		addthis.toolbox('#addthis-share', {}, {url: document.location.href, title: text});
+		addthis.toolbox('#addthis-share', {}, {
+			url: 'http://' + document.location.hostname + url,
+			title: text
+		});
 
 		/*
 		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?via=RFnvx&text='+encodeURIComponent(text)+'&hashtags='+hashtags+'&url='+encodeURIComponent(document.location.href));
@@ -381,8 +382,8 @@ TDF.Home = (function() {
 
 	my.name = 'home';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
-	my.share_hashtags = "appli,data,TDF";
+	my.base_url = '/';
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
 
 	my.init = function() {
 		// Set handler ( only on first init )
@@ -403,7 +404,7 @@ TDF.Home = (function() {
 
 		//my.autocomplete_init();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
@@ -480,7 +481,7 @@ TDF.CitySearch = (function() {
 
 	my.name = 'search';
 
-	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques...";
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
 	my.share_hashtags = "appli,data,TDF";
 
 	my.gmapApi = null;
@@ -644,8 +645,7 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
-	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive";
-	my.share_hashtags = "appli,data,TDF";
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive #appli #data #TDF via @RFnvx";
 
 	my.city_years = [];
 
@@ -1162,7 +1162,7 @@ TDF.Traces = (function() {
 			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val - my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
-		$main.find(".nb_finishers .current").html((my.args.years.length ===0 || my.args.years[0] === "2013") ? 'N.C.' : nb_finishers + " à l'arrivée");
+		$main.find(".nb_finishers .current").html((my.args.years.length === 0 || my.args.years[0] === "2013") ? 'N.C.' : nb_finishers + " à l'arrivée");
 		$main.find(".nb_finishers .line").css({
 			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
@@ -1245,8 +1245,7 @@ TDF.Winners = (function() {
 	my.base_url = '/vainqueurs/';
 
 
-	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France";
-	my.share_hashtags = "appli,data,TDF";
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France #appli #data #TDF via @RFnvx";
 
 
 	my.init = function() {
@@ -1454,7 +1453,7 @@ TDF.Winners = (function() {
 		this.display();
 		this.filter();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
@@ -1643,8 +1642,7 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
-	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici !";
-	my.share_hashtags = "cyclisme,appli,data,TDF";
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! #cyclisme #appli #data #TDF via @RFnvx";
 
 	my.steps = null;
 
@@ -1708,7 +1706,7 @@ TDF.Fight = (function() {
 		var $fighter, fighter, fighter_data;
 
 		if (my.args.step !== undefined) {
-			TDF.setShares(my.share_text, my.share_hashtags);
+			TDF.setShares(my.base_url, my.share_text);
 			my.fight();
 			return;
 		}
@@ -1804,7 +1802,7 @@ TDF.Fight = (function() {
 			});
 		}
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 	};
 
 	my.getQueryString = function() {
@@ -2265,7 +2263,7 @@ TDF.Fight = (function() {
 							left: '670px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
-							left: '700px'
+							left: '730px'
 						}, step_duration * 0.75, 'linear');
 
 						break;
@@ -2333,20 +2331,14 @@ TDF.Fight = (function() {
 					}
 					if (fighter_one.score === fighter_two.score) {
 						$fighter_one.find('.name').html('');
-						var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
-
 						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div><div class="name">' + fighter_one.first_name + ' ' + fighter_one.last_name + '<br />' + fighter_two.first_name + ' ' + fighter_two.last_name + '</div>' +
-
-						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>');
-
+							'<div class="share-result"><span>Partager ce résultat</span> ' + my.shareBlock() + '</div>');
 						$fighter_two.find('.fighter-infos').hide();
 					}
 
 					if (fighter_one.is_doped && fighter_two.is_doped) {
-						console.log("no winners");
-						var shareUrl = document.location.href.replace(/\/[^\/]+\/$/, '/');
 						$main.find('.fighters').addClass('doped-fighters').html('<div class="fighter-infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div>' +
-						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + shareUrl + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + shareUrl + '" class="twitter">Twitter</a><a href="' + shareUrl + '" class="gplus">Google+</a></div></div>');
+							'<div class="share-result"><span>Partager ce résultat</span>' + my.shareBlock() + '</div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
@@ -2363,8 +2355,8 @@ TDF.Fight = (function() {
 					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
-					$inner.find('.next').fadeOut();
-					setTimeout(function(){
+					$inner.find('.next').hide();
+					setTimeout(function() {
 						$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course").fadeIn();
 						$inner.find('.prev').hide();
 					}, 2000);
@@ -2375,7 +2367,6 @@ TDF.Fight = (function() {
 	};
 
 	my.winner_result = function(fighter) {
-		var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
 		var wins = [];
 		if (TDF.Data.winners[fighter.id]) {
 			wins = TDF.Data.winners[fighter.id].wins;
@@ -2392,7 +2383,18 @@ TDF.Fight = (function() {
 				res = res + '<a class="traces" href="/traces/' + wins.join(',') + '/">Le tracé de ses victoires</a>';
 				break;
 		}
-		res = res + '<div class="share-result"><span>Partager sa victoire</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>';
+		res = res + '<div class="share-result"><span>Partager sa victoire</span> ' + my.shareBlock() + '</div>';
+		return res;
+	};
+
+	my.shareBlock = function() {
+		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
+		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
+		var shareUrl = document.location.href.replace(/\/[^\/]+\/$/, '/');
+		var shareText = 'Historique ! ' + fighter_one.last_name + ' a battu ' + fighter_two.last_name + ' dans un duel de légendes du Tour de France - via @RFnvx';
+		var res = '<a href="http://www.facebook.com/sharer.php?s=100&p[url]=' + encodeURIComponent(shareUrl) + '&p[title]=' + encodeURIComponent(shareText) + '" class="facebook" target="_blank">Facebook</a>';
+		res += '<a href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(shareUrl) + '&text=' + encodeURIComponent(shareText) + '" class="twitter" target="_blank">Twitter</a>';
+		res += '<a href="https://plus.google.com/share?url=' + encodeURIComponent(shareUrl) + '" class="gplus" target="_blank">Google+</a>';
 		return res;
 	};
 
@@ -2419,15 +2421,7 @@ TDF.Fight = (function() {
 
 		if (!TDF.Data.fighters[my.args.fighter_one].is_doped) {
 			if (my.steps[7][0] > my.steps[7][1] || TDF.Data.fighters[my.args.fighter_two].is_doped) {
-				$results.find('.fighter_one .winner').html('vainqueur');
-			} else {
-				if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
-					$results.find('.fighter_two .winner').html('vainqueur');
-				}
-			}
-		} else {
-			if (!TDF.Data.fighters[my.args.fighter_two].is_doped) {
-				$results.find('.fighter_two .winner').html('vainqueur');
+				$results.find('.fighter_one .winner').addClass('active');
 			}
 		}
 
@@ -2466,6 +2460,14 @@ TDF.StreetView = (function() {
 	my.gmapApi = null;
 
 	my.init = function() {
+
+		var tmp = [];
+		for (var i in TDF.Data.places) {
+			tmp.push(TDF.Data.places[i]);
+		}
+		my.sorted_places = tmp.sort(function(a, b) {
+			return a.name.localeCompare(b.name);
+		});
 
 		$main.on('click', '.streetview .streetview-list a', function(event) {
 			event.preventDefault();
@@ -2543,6 +2545,18 @@ TDF.StreetView = (function() {
 					height: 57,
 					anchorX: 58 / 2,
 					anchorY: 57 / 2
+				}, {
+					url: "/img/traces/multi-pointeur-transparent.png",
+					width: 1,
+					height: 1,
+					anchorX: 1,
+					anchorY: 1
+				}, {
+					url: "/img/lieux/pointeur-hyperlapse-minimap.png",
+					width: 29,
+					height: 29,
+					anchorX: 29 / 2,
+					anchorY: 29 / 2
 				}
 			],
 			styles: mapStyleTrace,
@@ -2563,8 +2577,10 @@ TDF.StreetView = (function() {
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
 		var textLoader = jQuery('#hyperlapseTextLoader');
+		var aide = jQuery("#hyperlapseTimeline .aide");
 
 		textLoader.show();
+		aide.hide();
 
 		var widthMaxLoader = 636;
 
@@ -2572,9 +2588,9 @@ TDF.StreetView = (function() {
 
 		loader.width(currentWidth);
 
-
 		if (current === total) {
 			textLoader.hide();
+			aide.show();
 		}
 	};
 
@@ -2596,19 +2612,18 @@ TDF.StreetView = (function() {
 		my.args = args;
 
 		if (TDF.loadTemplate(this)) {
-			var place_id, place, places_list = [],
+			var places_list = [],
 				$template, content = '';
 			$template = jQuery('#template-streetview-place');
-			for (place_id in TDF.Data.places) {
-				place = TDF.Data.places[place_id];
+			jQuery(my.sorted_places).each(function(idx, place){
 				content = $template.html()
-					.replace(':place_id', place_id)
-					.replace(':place_url', my.base_url + place_id + '/')
+					.replace(':place_id', place.id)
+					.replace(':place_url', my.base_url + place.id + '/')
 					.replace(':place_type', place.type === 'Hyperlapse' ? 'hyperlapse' : 'streetview')
 					.replace(':place_title', place.name)
 					.replace(':place_pic', '/img/streetview/thumbnails/' + place.id + '.jpg');
 				places_list.push(content);
-			}
+			});
 			$inner.find('.streetview-list').html(places_list.join(' '));
 			/*
 			$inner.find('.streetview-list-container').jScrollPane({
@@ -2627,6 +2642,12 @@ TDF.StreetView = (function() {
 
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
 			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
+			if (TDF.Data.places[my.args.place_id].type === 'Hyperlapse') {
+				$inner.find('.detail .hyperlapse-desc').show();
+			}
+			else {
+				$inner.find('.detail .hyperlapse-desc').hide();
+			}
 			$inner.find('.container').stop().animate({
 				left: '-258px'
 			}, duration);
@@ -2643,7 +2664,7 @@ TDF.StreetView = (function() {
 			my.gmapApi.stopStreetView();
 		}
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
