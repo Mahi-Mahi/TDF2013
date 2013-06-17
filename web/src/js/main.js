@@ -669,7 +669,7 @@ TDF.Traces = (function() {
 			}
 		});
 
-		$main.on('click', '.traces .map-toolbox .city .title', function() {
+		$main.on('click', '.traces .map-toolbox .city .title span', function() {
 			if (my.state === null) {
 				jQuery(this).hide();
 				jQuery('.traces .map-toolbox form').show().find('#search').focus();
@@ -875,12 +875,12 @@ TDF.Traces = (function() {
 					anchorX: 7 / 2,
 					anchorY: 7 / 2
 				}, {
-                                        url: "/img/traces/pointeur-villeetape-ombre.png",
+					url: "/img/traces/pointeur-villeetape-ombre.png",
 					width: 25,
 					height: 25,
 					anchorX: 25 / 2,
 					anchorY: 25 / 2
-                                }
+				}
 			],
 			styles: mapStyleTrace
 		};
@@ -917,6 +917,7 @@ TDF.Traces = (function() {
 			if (my.args.city === undefined) {
 				my.args.years = [2013];
 				my.city_years = [];
+				$main.find('#search').val('');
 			} else {
 				my.city_years = my.args.years = my.getCityTraces(my.args.city);
 			}
@@ -924,6 +925,7 @@ TDF.Traces = (function() {
 			my.args.years = my.args.years.split(/,/);
 			if (my.args.city === undefined) {
 				my.city_years = [];
+				$main.find('#search').val('');
 			} else {
 				my.city_years = my.getCityTraces(my.args.city);
 			}
@@ -1009,10 +1011,12 @@ TDF.Traces = (function() {
 		}
 
 		$main.find('.timeline li.etape').removeClass('etape');
+		$main.find('.timeline-zoom li.etape').removeClass('etape');
 		jQuery(my.city_years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('etape');
 			$main.find('#squareyear-' + year).addClass('etape');
 		});
+		$main.find('.timeline li.active').removeClass('active');
 		$main.find('.timeline-zoom li.active').removeClass('active');
 		jQuery(my.args.years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('active');
@@ -1025,7 +1029,7 @@ TDF.Traces = (function() {
 			$main.find('.map-container .city .title').hide();
 			$main.find('.map-container .city form').show();
 		} else {
-			$main.find('.map-container .city .title').html(my.args.city + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>').show();
+			$main.find('.map-container .city .title').html('<span>' + my.args.city + '</span>' + '<a href="' + my.base_url + my.args.years.join(',') + '/" class="close-city">Fermer</a>').show();
 			$main.find('.map-container .city form').hide();
 			$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city + '/');
 		}
@@ -1126,7 +1130,7 @@ TDF.Traces = (function() {
 
 		$main.find(".nb_concurrents .current").html(nb_concurrents);
 		$main.find(".nb_concurrents .line").css({
-			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val-my.stats['nb_concurrents'].min.val) * line_length) + 'px'
+			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val - my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_finishers .current").html(my.args.years[0] === "2013" ? 'N.C.' : nb_finishers + " à l'arrivée");
@@ -2536,7 +2540,7 @@ TDF.StreetView = (function() {
 				places_list.push(content);
 			}
 			$inner.find('.streetview-list').html(places_list.join(' '));
-/*
+			/*
 			$inner.find('.streetview-list-container').jScrollPane({
 				mouseWheelSpeed: '2',
 				maintainPosition: false
