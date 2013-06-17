@@ -2466,6 +2466,8 @@ TDF.StreetView = (function() {
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
 
+	my.share_text = "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx";
+
 	my.gmapApi = null;
 
 	my.init = function() {
