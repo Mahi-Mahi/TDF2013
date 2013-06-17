@@ -281,7 +281,8 @@ var TDF = (function() {
 			if ($content.find('footer').length) {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
-				jQuery('.colorbox:first').colorbox({
+				console.log("set colorBox");
+				$footer.find('.colorbox:first').colorbox({
 					width: 490,
 					height: 500
 				});
@@ -351,6 +352,11 @@ var TDF = (function() {
 
 	};
 
+	my.setShares = function(text){
+		jQuery('.share .twitter a').attr('href', 'https://twitter.com/intent/tweet?'+encodeURIComponent(text));
+		twttr.widgets.load();
+	};
+
 	return my;
 
 }());
@@ -362,9 +368,10 @@ TDF.Home = (function() {
 
 	my.name = 'home';
 
+	my.share_text = "Explorez les #données des 100 Tours de France : tracés, vainqueurs, lieux mythiques... #appli #data #TDF via @RFnvx";
+
 	my.init = function() {
 		// Set handler ( only on first init )
-
 
 		$main.on('submit', '.home #city_search', function(event) {
 			event.preventDefault();
@@ -383,7 +390,10 @@ TDF.Home = (function() {
 
 		//my.autocomplete_init();
 
+		TDF.setShares(my.share_text);
+
 	};
+
 
 
 	my.autocomplete_init = function() {
@@ -1330,6 +1340,8 @@ TDF.Winners = (function() {
 				.replace(':wins', winner.wins.map(liify).join(''));
 
 				winners_list.push(content);
+
+				console.log(winner);
 
 				if (winner.wins_age.min() < youngest_win || youngest_win === null) {
 					youngest_win = winner.wins_age.min();
