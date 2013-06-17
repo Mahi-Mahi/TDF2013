@@ -2413,7 +2413,7 @@ TDF.Fight = (function() {
 		fighter.find('.average_speed').html(data.average_speed + " km/h").data('score', data.steps[3]);
 		fighter.find('.ahead_of_2nd').html(data.ahead_of_2nd + "<br><small> en " + data.ahead_of_2nd_year + '<small>').data('score', data.steps[4]);
 		fighter.find('.nb_wins').html(data.nb_wins).data('score', data.steps[5]);
-		fighter.find('.doping').html(data.is_doped ? 'Éliminé du Tour pour dopage' : 'Jamais pris pour dopage sur le Tour').addClass(data.is_doped ? 'active' : '');
+		fighter.find('.doping').html(data.is_doped ? '<small>Éliminé du Tour pour dopage</small>' : '<small>Jamais pris pour dopage sur le Tour</small>').addClass(data.is_doped ? 'active' : '');
 	};
 
 	return my;
