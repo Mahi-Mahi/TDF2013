@@ -679,7 +679,8 @@ TDF.Traces = (function() {
 
 		// Click on timeline
 		$main.on('click', '.traces .timeline-zoom span', function() {
-			if (my.state === null) {
+			console.log(my.state_interval);
+			if (my.state === null || my.state_interval ) {
 				if ($main.find("#multi-select:checked").length) {
 					if (jQuery(this).prev('input').prop('checked')) {
 						jQuery(this).prev('input').prop('checked', false);
@@ -717,7 +718,34 @@ TDF.Traces = (function() {
 
 		$main.on('click', '.traces #start-pause', function() {
 			var play_speed = 1000;
-			if (my.args.years.length > 0) {
+			if (my.args.years.length < 2) {
+				console.log('play/pause');
+				if (my.state === null) {
+					console.log("play");
+					console.log(jQuery('.timeline-zoom input:checked').parent().next().find('span'));
+					jQuery('.traces #start-pause').addClass('active');
+					if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
+						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
+						my.state_interval = setInterval(function() {
+							if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
+								jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
+							}
+						}, play_speed);
+						my.state = 'playing';
+					}
+					else {
+						jQuery('.traces #start-pause').removeClass('active');
+						clearTimeout(my.state_interval);
+						my.state = null;
+					}
+				}
+				else {
+					jQuery('.traces #start-pause').removeClass('active');
+					clearTimeout(my.state_interval);
+					my.state = null;
+				}
+
+				/*
 				if (my.state === null) {
 					jQuery(this).addClass("active").text('Pause');
 					my.state = 0;
@@ -745,6 +773,7 @@ TDF.Traces = (function() {
 					my.state = null;
 					clearTimeout(my.state_interval);
 				}
+				*/
 			}
 		});
 	};
@@ -769,20 +798,20 @@ TDF.Traces = (function() {
 				results: function() {}
 			},
 			select: function(event, ui) {
-				Path.history.pushState({}, "", my.base_url + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' +
+				Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' +
 			}
 		});
 
 		if (searchInput.val().length > 0) {}
 
 		form.submit(function() {
-			Path.history.pushState({}, "", my.base_url + $main.find('#search').val() + '/');
+			Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
 			return false;
 		});
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
-				Path.history.pushState({}, "", my.base_url + $main.find('#search').val() + '/');
+				Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
 			}
 		});
 
@@ -1022,6 +1051,8 @@ TDF.Traces = (function() {
 		$main.find(".timeline .slider").slider({
 			value: slider_default
 		});
+		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
+		$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * slider_default / 100));
 
 		// $main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
 

@@ -216,7 +216,8 @@
 .winners footer {
 	position: fixed;
 	bottom: 0;
-	width: 1000px;
+	width: 890px;
+	z-index: 99;
 }
 .winners .filters {
 	position: fixed;
