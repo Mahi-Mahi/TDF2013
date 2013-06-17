@@ -1355,7 +1355,7 @@ TDF.Winners = (function() {
 				max: oldest_win,
 				range: true,
 				step: 1,
-				values: filters.age,
+				values: [parseInt(filters.age[0], 10), parseInt(filters.age[1], 10)],
 				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
 				},
@@ -1382,7 +1382,7 @@ TDF.Winners = (function() {
 				max: max_wins,
 				range: true,
 				step: 1,
-				values: filters.wins,
+				values: [parseInt(filters.wins[0], 10), parseInt(filters.wins[1], 10)],
 				change: function() {
 					Path.history.pushState({}, "", my.getQueryString());
 				},
