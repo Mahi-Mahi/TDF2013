@@ -882,11 +882,11 @@ TDF.Traces = (function() {
 					anchorX: 7 / 2,
 					anchorY: 7 / 2
 				}, {
-					url: "/img/traces/multi-pointeur-opacity.png",
-					width: 7,
-					height: 7,
-					anchorX: 7 / 2,
-					anchorY: 7 / 2
+					url: "/img/traces/multi-pointeur-transparent.png",
+					width: 1,
+					height: 1,
+					anchorX: 1,
+					anchorY: 1
 				}, {
 					url: "/img/traces/pointeur-villeetape-ombre.png",
 					width: 25,

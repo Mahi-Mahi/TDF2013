@@ -36,6 +36,8 @@
         
         
         //Traces
+        this.cityMarker = null;
+        
         this.multiple = false;
         
         this.tours = new Object();
@@ -377,6 +379,39 @@
         },
         
         
+        addCityOnTraces: function(city){
+            var self = this;
+            
+            this.removeCityOnTraces();
+            
+            if(city != undefined && city != null){
+                
+                var geocoder = new google.maps.Geocoder();
+                
+                geocoder.geocode({'address': city }, function(results, status) {
+                    if (status === google.maps.GeocoderStatus.OK) {
+                        var lat = results[0].geometry.location.lat();
+                        var lng =  results[0].geometry.location.lng();
+
+
+                        self.cityMarker = self.createMarker(lat, lng, city, self.markersIcons[4]);
+                        self.createInfoWindowTrace(self.cityMarker, city);
+                        self.cityMarker.setZIndex(1000);
+
+                    } 
+                    else {
+                            console.log('Geocode was not successful for the following reason: ' + status);
+                    }
+                });   
+            }
+        },
+        
+        removeCityOnTraces: function(){
+            
+            if(this.cityMarker)
+                this.cityMarker.setMap(null); 
+        },
+        
 
         /**
          * CreateEtapes
@@ -396,10 +431,12 @@
             
             this.years = years;
             
+            console.log("this.years  : " + this.years );
+            
+            this.multiple = false;
             if(this.years.length > 1){
                 this.multiple = true;
             }
-            
             
             this.toursData = tours;
 
@@ -407,13 +444,8 @@
             
             this.mapBounds = new google.maps.LatLngBounds();
             
-            
-            
             var repositionne = false;
             
-            //var multiple = (years.length > 1)? true : false;
-
-
 
             $.each(years, function(key, year) {
 
@@ -442,21 +474,15 @@
 
                         $.each(tour.legs, function(j, etape) {
 
-//                            console.log("================");
-//                            console.log("etape.start.city : " + etape.start.city);
-//                            console.log("etape.finish.city : " + etape.finish.city);
-//                            console.log("currentCity : " + self.currentCity);
-
-
                             if(etape.start.city == etape.finish.city){
 
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle;
                                 
-                                if(self.currentCity == etape.start.city){
-                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
-                                }
-                                else if(self.multiple){
+//                                if(self.currentCity == etape.start.city){
+//                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
+//                                }
+                                if(self.multiple){
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
                                 }
                                 else{
@@ -470,19 +496,19 @@
                                 var marker;
                                 var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
-                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
+//                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
                                 
                                 
-                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
+                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
                                 self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
 
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 
-                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
+//                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
                                 
-                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIconLast);
+                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
                                 self.createInfoWindowTrace(marker, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
@@ -527,6 +553,10 @@
             if(repositionne && self.multiple){
                 self.map.fitBounds(self.mapBounds);
             }
+            
+            
+            
+            self.addCityOnTraces(city);
    
         },
         
@@ -545,21 +575,20 @@
             google.maps.event.addListener(object, 'mouseover', function() {
                 infowindow.open(self.map, this);
                 
-                self.changeOpacityByCity(data);
-
+//                self.changeOpacityByCity(data);
             });
 
             google.maps.event.addListener(object, 'mouseout', function() {
                 infowindow.close();
                 
-                self.changeOpacityBack();
+//                self.changeOpacityBack();
             });
         },
         
         
         changeOpacityByCity: function(name){
             var self = this;
-
+            
             if(this.multiple){
             
                 $.each(self.years, function(key, year) {
@@ -647,26 +676,18 @@
                     
                     for(var i = 0; i < tour['markers'].length; i++){
                         var marker = tour['markers'][i];
-                        
-                        if(marker.getIcon() != self.markersIcons[4]){
-                            marker.setIcon(self.markersIcons[3]);
-                        }
-                        
-                        
+                        marker.setIcon(self.markersIcons[3]);   
                     }
 
                     for(var i = 0; i < tour['circles'].length; i++){
                         var circle = tour['circles'][i];
+                        circle.setIcon(self.markersIcons[3]);
                         
-                        if(circle.getIcon() != self.markersIcons[4]){
-                            circle.setIcon(self.markersIcons[3]);
-                        }
                     }
                     
                     for(var i = 0; i < tour['lines'].length; i++){
                         var line = tour['lines'][i];
-                        
-                        line.setOptions({strokeOpacity: 0.2})
+                        line.setOptions({strokeOpacity: 0})
                     }
                     
                     
@@ -696,20 +717,12 @@
 
                         for(var i = 0; i < tour['markers'].length; i++){
                             var marker = tour['markers'][i];
-                            
-                            if(marker.getIcon() != self.markersIcons[4]){
-                                marker.setIcon(self.markersIcons[2]);
-                            }
-                                
+                            marker.setIcon(self.markersIcons[2]);    
                         }
 
                         for(var i = 0; i < tour['circles'].length; i++){
                             var circle = tour['circles'][i];
-                           
-                            
-                            if(circle.getIcon() != self.markersIcons[4]){
-                                 circle.setIcon(self.markersIcons[2]);
-                            }
+                            circle.setIcon(self.markersIcons[2]);       
                         }
 
 
@@ -718,9 +731,6 @@
 
                             line.setOptions({strokeOpacity: 1})
                         }
-
-
-
                 });
             }
         },
@@ -854,7 +864,7 @@
     
             
             var lineSymbol = null;
-            if(isOriented && dist > 0.25){
+            if(isOriented && dist > 0.50){
                 lineSymbol = {
                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
                 };
@@ -864,8 +874,6 @@
                 weight = 2;
             
             
-            
-
             var line = new google.maps.Polyline({
                 strokeWeight: weight,
                 strokeColor: '#eb7516',
@@ -878,14 +886,6 @@
             });
 
             this.lines.push(line);
-            
-//            google.maps.event.addListener(line, 'mouseover', function() {
-                
-//                console.log("over live");
-//                myInfoWindow.open(mymap);
-                // mymap represents the map you created using google.maps.Map
-//            });
-            
             
             return line;
         },
@@ -949,7 +949,7 @@
 
         },
         
-        /////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // HOME
         
         /**
