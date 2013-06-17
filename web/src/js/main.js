@@ -1164,7 +1164,7 @@ TDF.Traces = (function() {
 			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val - my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
-		$main.find(".nb_finishers .current").html((my.args.years.length === 0 || my.args.years[0] === "2013") ? 'N.C.' : nb_finishers + " à l'arrivée");
+		$main.find(".nb_finishers .current").html((my.args.years.length === 0 || my.args.years[0] === 2013 || my.args.years[0] === '2013') ? 'N.C.' : nb_finishers + " à l'arrivée");
 		$main.find(".nb_finishers .line").css({
 			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
