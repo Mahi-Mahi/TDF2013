@@ -70,6 +70,11 @@ img { border: 0; }
     width:233px;
 }
 
+.traces .content #city_search {
+	background:url(/img/traces/bt-city-search.png) 100% 70% no-repeat #fff;
+	width:202px;
+}
+
 #gmap-traces, #gmap-search, #gmap-streetview{
     width: 100%;
     height: 100%;
@@ -95,3 +100,5 @@ img { border: 0; }
 @import "_tooltips";
 @import "_colorbox";
 @import "_jscrollpane";
+
+
