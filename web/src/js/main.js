@@ -282,8 +282,8 @@ var TDF = (function() {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
 				$footer.find('.colorbox').colorbox({
-					width:490,
-					height:500
+					width: 490,
+					height: 500
 				});
 			}
 
@@ -680,7 +680,7 @@ TDF.Traces = (function() {
 		// Click on timeline
 		$main.on('click', '.traces .timeline-zoom span', function() {
 			console.log(my.state_interval);
-			if (my.state === null || my.state_interval ) {
+			if (my.state === null || my.state_interval) {
 				if ($main.find("#multi-select:checked").length) {
 					if (jQuery(this).prev('input').prop('checked')) {
 						jQuery(this).prev('input').prop('checked', false);
@@ -694,9 +694,9 @@ TDF.Traces = (function() {
 					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
 						years.push(jQuery(this).val());
 					});
-					Path.history.pushState({}, "", my.base_url + years.join(',') + '/' + ( my.args.city ? my.args.city + '/' : '') );
+					Path.history.pushState({}, "", my.base_url + years.join(',') + '/' + (my.args.city ? my.args.city + '/' : ''));
 				} else {
-					Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/'  + ( my.args.city ? my.args.city + '/' : ''));
+					Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/' + (my.args.city ? my.args.city + '/' : ''));
 				}
 			}
 		});
@@ -721,27 +721,24 @@ TDF.Traces = (function() {
 			if (my.args.years.length < 2) {
 				if (my.state === null) {
 					jQuery('.traces #start-pause').addClass('active');
-					if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
+					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
 						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 						my.state_interval = setInterval(function() {
-							if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
+							if (jQuery('.timeline-zoom input:checked').parent().next().length) {
 								jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
-							}
-							else {
+							} else {
 								jQuery('.traces #start-pause').removeClass('active');
 								clearTimeout(my.state_interval);
 								my.state = null;
 							}
 						}, play_speed);
 						my.state = 'playing';
-					}
-					else {
+					} else {
 						jQuery('.traces #start-pause').removeClass('active');
 						clearTimeout(my.state_interval);
 						my.state = null;
 					}
-				}
-				else {
+				} else {
 					jQuery('.traces #start-pause').removeClass('active');
 					clearTimeout(my.state_interval);
 					my.state = null;
@@ -916,8 +913,7 @@ TDF.Traces = (function() {
 			my.args.years = my.args.years.split(/,/);
 			if (my.args.city === undefined) {
 				my.city_years = [];
-			}
-			else {
+			} else {
 				my.city_years = my.getCityTraces(my.args.city);
 			}
 		}
@@ -974,7 +970,7 @@ TDF.Traces = (function() {
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 
-			var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
+			var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
 				slide: function(event, ui) {
@@ -1002,12 +998,12 @@ TDF.Traces = (function() {
 		}
 
 		$main.find('.timeline li.etape').removeClass('etape');
-		jQuery(my.city_years).each(function(idx, year){
+		jQuery(my.city_years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('etape');
 			$main.find('#squareyear-' + year).addClass('etape');
 		});
 		$main.find('.timeline-zoom li.active').removeClass('active');
-		jQuery(my.args.years).each(function(idx, year){
+		jQuery(my.args.years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('active');
 			$main.find('#squareyear-' + year).addClass('trace');
 		});
@@ -1049,7 +1045,7 @@ TDF.Traces = (function() {
 
 		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
 
-		var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
+		var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
 		$main.find(".timeline .slider").slider({
 			value: slider_default
 		});
@@ -1576,7 +1572,9 @@ TDF.Winners = (function() {
 
 		$main.find('.winners_list').data('jsp').scrollTo(0, 0);
 		console.log($main.find('.winners_list').height());
-		$main.find('.jspContainer').css({height: $main.find('.winners_list').height()+'px'});
+		$main.find('.jspContainer').css({
+			height: $main.find('.winners_list').height() + 'px'
+		});
 		// $main.find('.winners_list').data('jsp').reinitialise();
 
 	};
@@ -1713,8 +1711,7 @@ TDF.Fight = (function() {
 				$fighter.find('.choose-fighter').show();
 				$fighter.find('.choose-fighter-notice').hide();
 				$fighter.find('.random').show();
-			}
-			else {
+			} else {
 				$fighter.find('.choose-fighter').hide();
 				$fighter.find('.choose-fighter-notice').show();
 				$fighter.find('.random').hide();
@@ -1925,7 +1922,9 @@ TDF.Fight = (function() {
 					'margin-left': (((max_space / 2) - fighter_width) - 80) + 'px'
 				}, 1500, 'easeOutCubic');
 
-				$inner.find('.landscape').css({left: '0px'});
+				$inner.find('.landscape').css({
+					left: '0px'
+				});
 
 				$inner.find('.background .fanion').css({
 					display: 'none',
@@ -2249,15 +2248,18 @@ TDF.Fight = (function() {
 						$fighter_one.find('.name').html('');
 						var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
 
-						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div><div class="name">'+fighter_one.first_name+' '+fighter_one.last_name+'<br />'+fighter_two.first_name+' '+fighter_two.last_name+'</div>' +
+						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div><div class="name">' + fighter_one.first_name + ' ' + fighter_one.last_name + '<br />' + fighter_two.first_name + ' ' + fighter_two.last_name + '</div>' +
 
-							'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>');
+						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>');
 
 						$fighter_two.find('.fighter-infos').hide();
 					}
-					if (fighter_one.score === 0 && fighter_two.score === 0) {
+
+					console.log(fighter_one.score + ' / ' + fighter_two.score);
+
+					if (fighter_one.is_doped && fighter_two.is_doped) {
 						console.log("no winners");
-						$main.find('.fighters').html('<div class="results"><div class="result-heading">Ex-aequo</div><div class="name">'+fighter_one.first_name+' '+fighter_one.last_name+'<br />'+fighter_two.first_name+' '+fighter_two.last_name+'</div></div>');
+						$main.find('.fighters').html('<div class="fighter_infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
@@ -2343,8 +2345,8 @@ TDF.Fight = (function() {
 			.show()
 			.find('.close').attr('href', my.getQueryString() + '7/')
 			.on('click', function() {
-				jQuery('.results').html('').hide();
-			});
+			jQuery('.results').html('').hide();
+		});
 
 
 	};
@@ -2386,6 +2388,12 @@ TDF.StreetView = (function() {
 	};
 
 	my.initializeGmap = function() {
+
+		if (my.gmapApi) {
+			my.gmapApi.stopStreetView();
+		}
+
+
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -2455,15 +2463,6 @@ TDF.StreetView = (function() {
 
 		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
 
-
-		my.gmapApi.stopStreetView();
-
-
-                if(my.hyperlapse != null){
-                    my.hyperlapse.pause();
-                }
-//                my.hyperlapse = null;
-
 	};
 
 	my.onCloseStreetView = function() {
@@ -2473,9 +2472,9 @@ TDF.StreetView = (function() {
 
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
-                var textLoader = jQuery('#hyperlapseTextLoader');
+		var textLoader = jQuery('#hyperlapseTextLoader');
 
-                textLoader.show();
+		textLoader.show();
 
 		var widthMaxLoader = 636;
 
@@ -2484,9 +2483,9 @@ TDF.StreetView = (function() {
 		loader.width(currentWidth);
 
 
-                if(current === total){
-                    textLoader.hide();
-                }
+		if (current === total) {
+			textLoader.hide();
+		}
 	};
 
 	my.hyperlapseOnFrame = function(position, total) {
@@ -2503,7 +2502,7 @@ TDF.StreetView = (function() {
 		}, 200);
 
 
-                console.log("hyperlapseOnFrame : " + position);
+		console.log("hyperlapseOnFrame : " + position);
 
 	};
 
