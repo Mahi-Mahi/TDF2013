@@ -221,7 +221,7 @@ Dir.glob('csv/vainqueurs/*.csv') do |item|
 					winners[id][:years][year][:nb_wins] = row[2].to_i
 					if row[1].to_i == 1
 						winners[id][:wins] << year
-						winners[id][:wins_age] << year - winners[id][:birthyear]
+						winners[id][:wins_age] << tours[year][:winner_age]
 					end
 				end
 
