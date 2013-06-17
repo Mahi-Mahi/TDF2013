@@ -1508,6 +1508,12 @@
             var pano = document.getElementById(self.settings.hyperlapseId);
             
             
+            var directionsDisplay = new google.maps.DirectionsRenderer();
+            var directionsService = new google.maps.DirectionsService();
+
+            directionsDisplay.setMap(self.minimap);
+            
+            
             zoneH.removeClass('hide');
         
             this.hyperlapse = new Hyperlapse(pano, {
@@ -1588,12 +1594,25 @@
             
             this.hyperlapse.onRouteProgress = function(e) {
                 
-                var marker = new google.maps.Marker({
-                    position: e.point.location,
-                    draggable: false,
-                    icon: "/img/lieux/dot_marker.png",
-                    map: self.minimap
+//                var marker = new google.maps.Marker({
+//                    position: e.point.location,
+//                    draggable: false,
+//                    icon: "/img/lieux/dot_marker.png",
+//                    map: self.minimap
+//                });
+                
+                var request = {
+                    origin: new google.maps.LatLng(data.sLat, data.sLng),
+                    destination: e.point.location,
+                    travelMode: google.maps.DirectionsTravelMode.DRIVING
+                };
+
+                directionsService.route(request, function(response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        directionsDisplay.setDirections(response);
+                    }
                 });
+
                    
                         
                         
@@ -1760,6 +1779,13 @@
             zoneMap.height(500);
         },
         
+        
+        
+        
+        /**
+         * openInfoWindowPlace
+         *
+         */
         openInfoWindowPlace: function(id){
             var self = this;
           
