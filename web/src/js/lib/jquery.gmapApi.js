@@ -1328,7 +1328,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Voir Hyperlapse</a></span>' +
+                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Lancer l\'animation</a></span>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1672,9 +1672,7 @@
             });
             
 
-            $(pano).on('click', function(){
-                console.log("$(pano).on('click'");
-                
+            $(pano).on('click', function(){ 
                 if(canPlayPause){
                     self.playPauseHyperlapse();
                 }
