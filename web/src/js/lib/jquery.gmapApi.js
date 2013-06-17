@@ -370,6 +370,11 @@
         },
         
         
+        /**
+         * setMultiple
+         * 
+         *
+         */
         setMultiple: function(isMultiple){
           
             this.multiple = isMultiple;
@@ -378,7 +383,12 @@
 
         },
         
-        
+        /**
+         * addCityOnTraces
+         * 
+         * Add yellow pointer on map
+         *
+         */
         addCityOnTraces: function(city){
             var self = this;
             
@@ -406,6 +416,12 @@
             }
         },
         
+        /**
+         * removeCityOnTraces
+         * 
+         * Remove yellow pointer on map
+         *
+         */
         removeCityOnTraces: function(){
             
             if(this.cityMarker)
@@ -430,9 +446,7 @@
             }
             
             this.years = years;
-            
-            console.log("this.years  : " + this.years );
-            
+
             this.multiple = false;
             if(this.years.length > 1){
                 this.multiple = true;
@@ -567,7 +581,7 @@
             var contentString = '<p>'+ data +'</p>';
 
             var infowindow = new google.maps.InfoWindow({
-                    content: contentString
+                content: contentString
             });
 
             self.infosWindow.push(infowindow);
@@ -636,19 +650,10 @@
 
                                 line.setOptions({strokeOpacity: 0.2})
                             }
-
-
                         }
                     });
-
-
-
-
-                });
-                
-            }
-          
-          
+                });   
+            }  
         },
         
         
@@ -690,11 +695,8 @@
                         line.setOptions({strokeOpacity: 0})
                     }
                     
-                    
                 }
             });
-            
-            
         },
         
         /**
@@ -1015,9 +1017,6 @@
             for(var i = 0; i < etapes.length; i++){
                 var etape = etapes[i];
                 
-//                console.log("add : " + etape.city);
-//                console.log("count : " + etape.count);
-                
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
 
                 var infowindow = this.createInfoWindowSearch(marker, etape);
@@ -1098,17 +1097,13 @@
                     selecttext  += '<option value="'+ data.years[i]+ '/'+ data.city +',' + data.country +'">'+ data.years[i] +'</option>';
                 }
                 
-                previewsYear = data.years[i];
-                
+                previewsYear = data.years[i];   
             }
-            
-            
             contentString += selecttext;
             
             contentString += '</select>';
             
-            
-            
+                  
             var infowindow = new google.maps.InfoWindow({
                     content: contentString
             });
@@ -1147,35 +1142,11 @@
                 results[k].distance = distance;
             }
                
-            
-            
-//            console.log("beforeSort =======");
-//            console.log("lat : " + lat + '   lng : ' + lng);
-//            
-//            
-//            
-//            for(var i = 0; i < results.length; i++){      
-//                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + "   " + results[i].city  );
-//                
-//           
-//            }
-//                      
-//            console.log("==================");
-//            
+              
             results.sort(function(a,b){
                 return (a.distance - b.distance);
             })
-            
-//            console.log("afterSort =======");
-//            for(var i = 0; i < results.length; i++){      
-//                console.log('Lat: ' + results[i].lat + '  Lng: ' + results[i].lng + " "+ results[i].distance  +"  " + results[i].city  );
-//                
-//           
-//            }
-//            
-//            console.log("==================");
-            
-            
+              
             
             for(var i = 0; i < results.length; i++){
                 
@@ -1195,21 +1166,13 @@
                         etape = (etape.count > result.count)? etape: result;
                         
                         isMerged = true;
-//                        console.log("je merge  : " + etape.city );
                     }  
                  
                 }
                 
                 if(!isMerged){
                     etapes.push(result);
-//                    console.log("j'ajoute : " + result.city);
                 }
-                
-                
-//                console.log("!!etapes.lenght : "+ etapes.length);
-//                if(etapes.length >= 3) {
-//                    break;
-//                }
                 
             }
             
@@ -1274,10 +1237,7 @@
                         result.push(city);
                         lastStart = startCity;
                     }
-                    
-                    
-                    //console.log(etape.id + " : etape.start.city : " + etape.start.city);    
-                    //console.log(etape.id + " : startCity : " + startCity);    
+                     
                 }
                 
                 lastFinish = null;
@@ -1304,8 +1264,7 @@
                         result.push(city2);
                         lastFinish = finishCity;
                     }
-                    
-                      
+      
                 }
             });
             
@@ -1313,6 +1272,11 @@
           
             return result;
         },
+        
+        
+        
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // STREET VIEW
         
         
         /**
@@ -1423,26 +1387,6 @@
                
             });
             
-            
-//            $container.on('click', '.displayStreetView', function(e){
-//               var data = $(this).data();  
-//               
-//               self.displayStreetView(data.lat, data.lng, data.heading);
-//
-//               return false;               
-//            });
-//            
-//            $container.on('click', '.displayHyperlapse', function(e){
-//               var data = $(this).data();  
-//       
-//               self.showStreetView(data.id);
-//
-//               return false;
-//            });
-
-
-
-
 
 //            var panoramaOptions = {
 //                
@@ -1530,9 +1474,7 @@
             var self = this;
 
             $.each(self.streetViewPoint, function(i, sv){
-               
-               
-               
+                 
                if(id == sv.id){
                    
                    if(sv.type == "Street View"){
@@ -1540,12 +1482,9 @@
                    }
                    else{
                        self.generateHyperlapse(sv);
-                   }
-                   
+                   }   
                }
-               
-            });
-            
+            });  
         },
         
         
