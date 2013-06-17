@@ -247,6 +247,14 @@
     background: url(/img/lieux/lieux_hyperlapse_timeline.png) no-repeat;
 }
 
+#hyperlapseTimeline .aide{
+    position: absolute;
+    top: -20px;
+    left: 285px;
+    color: white;
+    font:600 14px/1.3 'Lato', Arial, sans-serif;    
+}
+
 #hyperlapseTimeline .loader{
     display: block;
     width: 636px;
