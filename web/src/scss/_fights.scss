@@ -612,7 +612,7 @@
 		// left: 383px;
 	}
 	.radar {
-		top: 165px;
+		top: 155px;
 		// left: 383px;
 	}
 	.doping-car {
@@ -700,7 +700,7 @@
 		.step-start .#{$plan} .step-#{$i} {
 			left: 1000px;
 		}
-		.step-result .#{$plan} .step-#{$i} {
+		.step-results .#{$plan} .step-#{$i} {
 			left: -1000px;
 		}
 	}
@@ -708,7 +708,7 @@
 		.step-#{$j} .#{$plan} .step-start {
 			left: 1000px;
 		}
-		.step-#{$j} .#{$plan} .step-result {
+		.step-#{$j} .#{$plan} .step-results {
 			left: -1000px;
 		}
 	}

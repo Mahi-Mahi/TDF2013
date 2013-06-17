@@ -683,17 +683,19 @@ TDF.Traces = (function() {
 				if ($main.find("#multi-select:checked").length) {
 					if (jQuery(this).prev('input').prop('checked')) {
 						jQuery(this).prev('input').prop('checked', false);
+						jQuery(this).parent('li').removeClass('trace');
 					} else {
 						jQuery(this).prev('input').prop('checked', true);
 						my.last_clicked = jQuery(this).prev('input.checkbox').val();
+						jQuery(this).parent('li').addClass('trace');
 					}
 					var years = [];
 					$main.find('.traces .timeline-zoom .checkbox:checked').each(function() {
 						years.push(jQuery(this).val());
 					});
-					Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
+					Path.history.pushState({}, "", my.base_url + years.join(',') + '/' + ( my.args.city ? my.args.city + '/' : '') );
 				} else {
-					Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/');
+					Path.history.pushState({}, "", my.base_url + jQuery(this).prev('input').val() + '/'  + ( my.args.city ? my.args.city + '/' : ''));
 				}
 			}
 		});
@@ -849,7 +851,7 @@ TDF.Traces = (function() {
 
 	my.getCityTraces = function(city) {
 		var years = [];
-		city = city.toLowerCase();
+		city = city.toLowerCase().split(/,/)[0];
 		jQuery(TDF.Data.legs).each(function(idx, leg) {
 			if (leg.start.city.toLowerCase() === city || leg.finish.city.toLowerCase() === city) {
 				years.push(leg.year);
@@ -881,7 +883,12 @@ TDF.Traces = (function() {
 			}
 		} else {
 			my.args.years = my.args.years.split(/,/);
-			my.city_years = [];
+			if (my.args.city === undefined) {
+				my.city_years = [];
+			}
+			else {
+				my.city_years = my.getCityTraces(my.args.city);
+			}
 		}
 
 		if (TDF.loadTemplate(this)) {
@@ -934,12 +941,6 @@ TDF.Traces = (function() {
 			$timeline.append(items);
 			$squares.append(squares);
 
-			$main.find('.timeline li.etape').removeClass('etape');
-			jQuery(my.city_years).each(function(idx, year){
-				$main.find('#squareyear-' + year).addClass('etape');
-			});
-
-
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 
 			var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
@@ -968,6 +969,19 @@ TDF.Traces = (function() {
 			my.autocomplete_init();
 
 		}
+
+		$main.find('.timeline li.etape').removeClass('etape');
+		jQuery(my.city_years).each(function(idx, year){
+			$main.find('#span-checkyear-' + year).parent('li').addClass('etape');
+			$main.find('#squareyear-' + year).addClass('etape');
+		});
+		$main.find('.timeline-zoom li.active').removeClass('active');
+		jQuery(my.args.years).each(function(idx, year){
+			$main.find('#span-checkyear-' + year).parent('li').addClass('active');
+			$main.find('#squareyear-' + year).addClass('trace');
+		});
+
+
 
 		if (my.args.city === undefined) {
 			$main.find('.map-container .city .title').hide();
@@ -1292,7 +1306,8 @@ TDF.Winners = (function() {
 			$main.find('.winners_list ul').html(winners_list.join(' '));
 			$main.find('.winners_list').jScrollPane({
 				mouseWheelSpeed: '2',
-				maintainPosition: false
+				maintainPosition: false,
+				autoReinitialise: true
 			});
 
 			var filters = {};
@@ -1526,7 +1541,10 @@ TDF.Winners = (function() {
 			});
 		});
 
-		$main.find('.winners_list').data('jsp').scrollTo(0, 0); //.reinitialise();
+		$main.find('.winners_list').data('jsp').scrollTo(0, 0);
+		console.log($main.find('.winners_list').height());
+		$main.find('.jspContainer').css({height: $main.find('.winners_list').height()+'px'});
+		// $main.find('.winners_list').data('jsp').reinitialise();
 
 	};
 
@@ -1803,8 +1821,8 @@ TDF.Fight = (function() {
 
 		$inner.find('.next').text("Épreuve Suivante");
 
-		var $fighter_one = $main.find('.fighter_one');
-		var $fighter_two = $main.find('.fighter_two');
+		var $fighter_one = $main.find('.fighters .fighter_one');
+		var $fighter_two = $main.find('.fighters .fighter_two');
 
 		$fighter_one.attr('class', 'fighter fighter_one');
 		$fighter_two.attr('class', 'fighter fighter_two');
@@ -1991,7 +2009,7 @@ TDF.Fight = (function() {
 							left: '650px'
 						}, step_duration * 0.75, 'linear');
 						setTimeout(function() {
-							$inner.find('.fighter_one, .fighter_two').addClass('yellow_active');
+							$inner.find('.fighters .fighter_one, .fighters .fighter_two').addClass('yellow_active');
 						}, step_duration * 0.45);
 
 						break;
@@ -2097,7 +2115,7 @@ TDF.Fight = (function() {
 							left: '0px'
 						}, step_duration * 1.0, 'linear');
 						setTimeout(function() {
-							$inner.find('.fighter_one, .fighter_two').addClass('has_won_active');
+							$inner.find('.fighters .fighter_one, .fighters .fighter_two').addClass('has_won_active');
 						}, step_duration * 0.45);
 
 						break;
@@ -2275,10 +2293,13 @@ TDF.Fight = (function() {
 			}
 		}
 
-		$results.show();
-		jQuery('.results').find('.close').attr('href', my.getQueryString() + '7/').on('click', function() {
-			jQuery('.results').hide();
-		});
+		$results
+			.show()
+			.find('.close').attr('href', my.getQueryString() + '7/')
+			.on('click', function() {
+				jQuery('.results').html('').hide();
+			});
+
 
 	};
 

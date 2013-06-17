@@ -209,17 +209,18 @@
 }
 
 .winners .winners_list {
-	height: auto;
+	height: 100%;
 	margin-bottom: 120px;
 }
 .winners footer {
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	width: 1000px;
 }
 .winners .filters {
 	position: fixed;
 	bottom: 41px;
+	width: 1000px;
 }
 
 .winners_list .winner {

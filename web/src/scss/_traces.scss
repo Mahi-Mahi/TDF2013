@@ -320,8 +320,19 @@
 	text-align:center;
 }
 
+
 .timeline-zoom input:checked + span {
+}
+
+.timeline-zoom li.active {
+	background-color: #145D73;
+}
+.timeline-zoom li.etape span {
 	color:#FFD800;
+}
+
+.timeline-zoom input:checked + span {
+	// color:#FFD800;
 }
 
 .content .bottom {
