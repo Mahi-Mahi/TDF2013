@@ -355,6 +355,8 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
+		text = text.replace(/via /, '');
+
 		addthis.toolbox('#addthis-share', {}, {
 			url: 'http://' + document.location.hostname + url,
 			title: text
