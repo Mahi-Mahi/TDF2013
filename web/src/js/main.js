@@ -355,8 +355,6 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
-		console.log("setShares");
-
 		addthis.toolbox('#addthis-share', {}, {
 			url: 'http://' + document.location.hostname + url,
 			title: text
@@ -2471,9 +2469,6 @@ TDF.StreetView = (function() {
 			return a.name.localeCompare(b.name);
 		});
 
-		console.log(tmp);
-		console.log(my.sorted_places);
-
 		$main.on('click', '.streetview .streetview-list a', function(event) {
 			event.preventDefault();
 			// my.gmapApi.stopStreetView();
@@ -2647,7 +2642,6 @@ TDF.StreetView = (function() {
 
 			$inner.find('.detail .title').html(TDF.Data.places[my.args.place_id].name);
 			$inner.find('.detail .desc').html(TDF.Data.places[my.args.place_id].text);
-			console.log(TDF.Data.places[my.args.place_id]);
 			if (TDF.Data.places[my.args.place_id].type === 'Hyperlapse') {
 				$inner.find('.detail .hyperlapse-desc').show();
 			}
