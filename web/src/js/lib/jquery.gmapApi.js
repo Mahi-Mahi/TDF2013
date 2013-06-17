@@ -1563,15 +1563,20 @@
                 
                 self.markersMinimap.push(marker);
                 
-                if(data.lookat){
-                    marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(data.lookatLat, data.lookatLng),
-                        map: self.minimap,
-                        draggable: false,
-                        title: 'Point de vue',
-                        icon: self.markersIcons[4]
-                    });
-                }
+//                if(data.lookat){
+//                    marker = new google.maps.Marker({
+//                        position: new google.maps.LatLng(data.lookatLat, data.lookatLng),
+//                        map: self.minimap,
+//                        draggable: false,
+//                        title: 'Point de vue',
+//                        icon: self.markersIcons[4]
+//                    });
+//                }
+                
+                
+                self.minimap.fitBounds(bounds);
+                
+                
                 
                 
                 var markerAnimate = new google.maps.Marker({
@@ -1586,7 +1591,7 @@
                 
                 
                 
-                self.minimap.fitBounds(bounds);
+                
             }
             
             
