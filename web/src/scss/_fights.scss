@@ -1022,8 +1022,12 @@ a.traces {
 	background:none;
 	border:none;
 	vertical-align:top;
-	position:relative;
 	height:82px !important;
+}
+
+.header-results-inner {
+	position:relative;
+	z-index:2;
 }
 
 .legend-results:first-child {
@@ -1032,13 +1036,13 @@ a.traces {
 
 .results .fighter_one .portrait {
 	position:absolute;
-	right:-60px;
+	right:-85px;
 	top:-20px;
 }
 
 .results .fighter_two .portrait {
 	position:absolute;
-	left:-60px;
+	left:-85px;
 	top:-20px;
 }
 
@@ -1126,7 +1130,8 @@ a.traces {
 	top: 80px;
 	left: 200px;
 }
-.results .last td {
+
+.last-winner-inner {
 	position:relative;
 }
 
@@ -1138,10 +1143,10 @@ a.traces {
 	height:47px;
 	margin:0;
 	position:absolute;
-	left:-25px;
+	left:-52px;
 	text-align: center;
 	text-indent:20px;
-	top:10px;
+	top:-10px;
 	text-transform: uppercase;
 	width:175px;
 }
