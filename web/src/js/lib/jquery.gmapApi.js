@@ -1508,12 +1508,6 @@
             var pano = document.getElementById(self.settings.hyperlapseId);
             
             
-            var directionsDisplay = new google.maps.DirectionsRenderer();
-            var directionsService = new google.maps.DirectionsService();
-
-            directionsDisplay.setMap(self.minimap);
-            
-            
             zoneH.removeClass('hide');
         
             this.hyperlapse = new Hyperlapse(pano, {
@@ -1548,6 +1542,7 @@
                     map: self.minimap,
                     draggable: false,
                     title: 'PointA',
+                    zIndex: 999,
                     icon: self.markersIcons[2]
                 });
                 
@@ -1560,6 +1555,7 @@
                     map: self.minimap,
                     draggable: false,
                     title: 'PointB',
+                    zIndex: 999,
                     icon: self.markersIcons[3]
                 });
                 
@@ -1578,6 +1574,18 @@
                 }
                 
                 
+                var markerAnimate = new google.maps.Marker({
+                    position: new google.maps.LatLng(data.sLat, data.sLng),
+                    map: self.minimap,
+                    draggable: false,
+                    title: 'Animate',
+                    icon: self.markersIcons[6]
+                });
+                
+                
+                
+                
+                
                 self.minimap.fitBounds(bounds);
             }
             
@@ -1592,6 +1600,27 @@
             };
             
             
+            
+            //GENERATION DE LA ROUTE
+            var markerOptions = {
+                icon: self.markersIcons[5]
+            }
+            var polylineOptions = {
+                strokeColor: '#92C326'
+            }
+            
+            var directionsDisplay = new google.maps.DirectionsRenderer();
+            var directionsService = new google.maps.DirectionsService();
+
+            
+            directionsDisplay.setMap(self.minimap);
+            directionsDisplay.setOptions({
+                    markerOptions: markerOptions,
+                    polylineOptions: polylineOptions
+                });
+            
+            
+            var compteurOnRoute = 0;
             this.hyperlapse.onRouteProgress = function(e) {
                 
 //                var marker = new google.maps.Marker({
@@ -1600,36 +1629,44 @@
 //                    icon: "/img/lieux/dot_marker.png",
 //                    map: self.minimap
 //                });
+
+//                self.markersMinimap.push(marker);
+
+                if(compteurOnRoute%2 == 0){
+                    var request = {
+                        origin: new google.maps.LatLng(data.sLat, data.sLng),
+                        destination: e.point.location,
+                        travelMode: google.maps.DirectionsTravelMode.DRIVING
+                    };
+
+                    directionsService.route(request, function(response, status) {
+                        if (status == google.maps.DirectionsStatus.OK) {
+                            directionsDisplay.setDirections(response);
+                        }
+                        else {
+                            console.log('Direction was not successful for the following reason: ' + status);
+                        }
+                    });
+                }
+
                 
-                var request = {
-                    origin: new google.maps.LatLng(data.sLat, data.sLng),
-                    destination: e.point.location,
-                    travelMode: google.maps.DirectionsTravelMode.DRIVING
-                };
-
-                directionsService.route(request, function(response, status) {
-                    if (status == google.maps.DirectionsStatus.OK) {
-                        directionsDisplay.setDirections(response);
-                    }
-                });
-
-                   
-                        
-                        
-                self.markersMinimap.push(marker);
+                compteurOnRoute++;
+          
             };
             
 
             this.hyperlapse.onRouteComplete = function(e) {
                 self.hyperlapse.load();
+                
+                directionsDisplay.setDirections(e.response);
+                
             };
             
             this.hyperlapse.onLoadProgress = function(e) {
                 
                 if(self.settings.hyperlapseLoading)
                     self.settings.hyperlapseLoading(e.position+1, self.hyperlapse.length());
-                
-                
+                     
             };
 
             this.hyperlapse.onLoadComplete = function(e) {
@@ -1641,6 +1678,9 @@
             
             
             this.hyperlapse.onFrame = function(e) {
+                
+                markerAnimate.setPosition(e.point.location);
+                
                 self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
             };
             

@@ -2531,6 +2531,18 @@ TDF.StreetView = (function() {
 					height: 57,
 					anchorX: 58 / 2,
 					anchorY: 57 / 2
+				},{
+					url: "/img/traces/multi-pointeur-transparent.png",
+					width: 1,
+					height: 1,
+					anchorX: 1,
+					anchorY: 1
+				},{
+					url: "/img/lieux/pointeur-hyperlapse-minimap.png",
+					width: 29,
+					height: 29,
+					anchorX: 29/2,
+					anchorY: 29/2
 				}
 			],
 			styles: mapStyleTrace,
@@ -2551,8 +2563,10 @@ TDF.StreetView = (function() {
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
 		var textLoader = jQuery('#hyperlapseTextLoader');
+                var aide = jQuery("#hyperlapseTimeline .aide");
 
 		textLoader.show();
+                aide.hide();
 
 		var widthMaxLoader = 636;
 
@@ -2562,7 +2576,8 @@ TDF.StreetView = (function() {
 
 
 		if (current === total) {
-			textLoader.hide();
+                    textLoader.hide();
+                    aide.show();
 		}
 	};
 
