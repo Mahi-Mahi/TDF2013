@@ -11,7 +11,8 @@
     "jquery-selectbox": "git://github.com/olivM/jQuery-Selectbox.git",
     "jquery-textfill": "git://github.com/olivM/jQuery-TextFill.git",
     "jquery-tabify": "git://github.com/olivM/jQuery-Tabify.git",
-    "jcarousel-lite": "git://github.com/kswedberg/jquery-carousel-lite.git",
+    "jquery-placeholder": "git://github.com/mathiasbynens/jquery-placeholder.git",
+    "jcarousellite": "git://github.com/olivM/jCarouselLite.git",
     "jquery-ui-touchpunch": "git://github.com/olivM/jQuery-UI-TouchPunch.git",
     "modernizr": "git://github.com/Modernizr/Modernizr.git"
   },

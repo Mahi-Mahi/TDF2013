@@ -2091,6 +2091,9 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .panneaux').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.25, 'linear');
+						$inner.find('.foreground .green-3').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
 						// ANIM IN
 						$inner.find('.sky .clouds-2').stop().animate({
 							left: '270px'
@@ -2122,6 +2125,7 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .green').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.25, 'linear');
+
 						// ANIM OUT NEXT
 						$inner.find('.middleground .followers').stop().animate({
 							left: '+=1000'
@@ -2135,6 +2139,9 @@ TDF.Fight = (function() {
 						}, step_duration * 1.0, 'linear');
 						$inner.find('.background .radar').stop().delay(step_duration * 0.25).animate({
 							left: '690px'
+						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .green-3').stop().delay(step_duration * 0.25).animate({
+							left: '200px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .panneaux').stop().delay(step_duration * 0.25).animate({
 							left: '0px'
@@ -2157,6 +2164,7 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .panneaux').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.25, 'linear');
+
 						// ANIM OUT NEXT
 						$inner.find('.background .archeback-5').stop().animate({
 							left: '+=1000'
@@ -2167,10 +2175,14 @@ TDF.Fight = (function() {
 						$inner.find('.forescape .trees-5').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.25, 'linear');
+
 						// ANIM IN
 						$inner.find('.middleground .followers').stop().delay(step_duration * 0.25).animate({
 							left: '0px'
 						}, step_duration * 0.75, 'linear');
+						$inner.find('.foreground .green-3').stop().delay(step_duration * 0).animate({
+							left: '-1200px'
+						}, step_duration * 1.0, 'linear');
 						$inner.find('.forescape .trees-4').stop().delay(step_duration * 0).animate({
 							left: '200px'
 						}, step_duration * 1.0, 'linear');
@@ -2191,6 +2203,9 @@ TDF.Fight = (function() {
 						}, step_duration * 0.5, 'linear');
 						// ANIM OUT NEXT
 						$inner.find('.background .doping-car').stop().animate({
+							left: '+=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.middleground .doping-doctor').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.25, 'linear');
 						$inner.find('.forescape .cops-right').stop().animate({
@@ -2237,6 +2252,9 @@ TDF.Fight = (function() {
 						$inner.find('.background .doping-car').stop().delay(step_duration * 0.25).animate({
 							left: '480px'
 						}, step_duration * 0.75, 'linear');
+						$inner.find('.middleground .doping-doctor').stop().delay(step_duration * 0.25).animate({
+							left: '530px'
+						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
 							left: '700px'
 						}, step_duration * 0.75, 'linear');
@@ -2255,6 +2273,9 @@ TDF.Fight = (function() {
 
 						// ANIM OUT PREV
 						$inner.find('.background .doping-car').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.25, 'linear');
+						$inner.find('.middleground .doping-doctor').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.25, 'linear');
 						$inner.find('.forescape .cops-right').stop().animate({
