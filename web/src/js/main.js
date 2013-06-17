@@ -1117,22 +1117,22 @@ TDF.Traces = (function() {
 
 		$main.find(".total_length .current").html(total_length);
 		$main.find(".total_length .line").css({
-			width: Math.round((total_length - my.stats['total_length'].min.val) / my.stats['total_length'].max.val * line_length) + 'px'
+			width: Math.round((total_length - my.stats['total_length'].min.val) / (my.stats['total_length'].max.val - my.stats['total_length'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_legs .current").html(nb_legs);
 		$main.find(".nb_legs .line").css({
-			width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / my.stats['nb_legs'].max.val * line_length) + 'px'
+			width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / (my.stats['nb_legs'].max.val - my.stats['nb_legs'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_concurrents .current").html(nb_concurrents);
 		$main.find(".nb_concurrents .line").css({
-			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / my.stats['nb_concurrents'].max.val * line_length) + 'px'
+			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val-my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_finishers .current").html(nb_finishers);
 		$main.find(".nb_finishers .line").css({
-			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / my.stats['nb_finishers'].max.val * line_length) + 'px'
+			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
 
 		// Winners
@@ -1973,7 +1973,7 @@ TDF.Fight = (function() {
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
-						step_title = "<strong>Nombre d'étapes remportées</strong>";
+						step_title = "<strong>Nombre d'étapes du Tour remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 
