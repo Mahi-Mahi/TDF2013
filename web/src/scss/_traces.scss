@@ -40,6 +40,7 @@
 	padding: 0;
 	width: 720px;
 	height: 40px;
+	position:relative;
 }
 .traces .timeline-zoom ul {
 	margin: 0;
@@ -392,9 +393,9 @@
 }
 
 .traces .back {
-	position:static;
+	position:relative;
 	left:auto;
-	top:auto;
+	top:-13px;
 }
 
 .close-city {
@@ -415,3 +416,31 @@
 	background:url(/img/traces/bg-city.png) 5px 50% no-repeat #fff;
 	padding:0 8px 0 42px;
 }
+
+#start-pause {
+	background:url(/img/traces/bt-play-pause.png) left top no-repeat;
+	position: absolute;
+	left: 5px;
+	top: 26px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	height:51px;
+	width: 51px;
+	z-index:20;
+	cursor:pointer;
+}
+
+#start-pause:hover {
+	background-position:-51px 0;
+} 
+
+#start-pause.active {
+	background-position:-102px 0;
+} 
+
+#start-pause.active:hover {
+	background-position:-153px 0;
+} 
