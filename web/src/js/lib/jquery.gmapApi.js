@@ -47,6 +47,7 @@
         this.tours = new Object();
         
         this.years = [];
+        this.currentCity = null;
         this.toursData = null;
 
         this.markers = [];
@@ -359,7 +360,7 @@
           
             this.multiple = isMultiple;
             
-            this.createEtapes(this.years, this.tours)
+            this.createEtapes(this.years, this.currentCity, this.tours)
 
         },
         
@@ -371,8 +372,17 @@
          * Create etape from data
          * 
          */
-        createEtapes: function(years, tours){
+        createEtapes: function(years, city, tours){
             var self = this;
+            
+            
+          
+            if(city != undefined){
+                this.currentCity = city.split(',')[0];
+            }
+            
+            console.log("currentCity : " + currentCity);
+            
             
             this.years = years;
             this.toursData = tours;
@@ -415,15 +425,26 @@
 
                         $.each(tour.legs, function(j, etape) {
 
+                            console.log("================");
+                            console.log("etape.start.city : " + etape.start.city);
+                            console.log("etape.finish.city : " + etape.finish.city);
+                            console.log("currentCity : " + currentCity);
+
+
                             if(etape.start.city == etape.finish.city){
 
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle;
                                 
-                                if(self.multiple)
+                                if(currentCity == etape.start.city){
+                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
+                                }
+                                else if(self.multiple){
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
-                                else
-                                    circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
+                                }
+                                else{
+                                    circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city); 
+                                }
                                 
                                 self.tours[year]['circles'].push(circle);
                                 self.mapBounds.extend(circle.getPosition());
@@ -432,12 +453,18 @@
                                 var marker;
                                 var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
-                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
+                                var markerIconLast = (currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
+                                
+                                
+                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
-                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
+                                
+                                markerIconLast = (currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
+                                
+                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
@@ -513,10 +540,7 @@
         
         changeOpacityByCity: function(name){
             var self = this;
-            
-            console.log("changeOpacityByCity");
-            console.log("this.multiple : " + this.multiple);
-            
+
             if(this.multiple){
             
                 $.each(self.years, function(key, year) {

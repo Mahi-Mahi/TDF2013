@@ -872,7 +872,13 @@ TDF.Traces = (function() {
 					height: 7,
 					anchorX: 7 / 2,
 					anchorY: 7 / 2
-				}
+				}, {
+                                        url: "/img/traces/pointeur-villeetape-ombre.png",
+					width: 25,
+					height: 25,
+					anchorX: 25 / 2,
+					anchorY: 25 / 2
+                                }
 			],
 			styles: mapStyleTrace
 		};
@@ -1047,7 +1053,7 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
-		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
+		my.gmapApi.createEtapes(my.args.years, my.args.city, TDF.Data.traces);
 
 		var slider_default = (jQuery("#squareyear-"+my.args.years.min()).prevAll().length);
 		$main.find(".timeline .slider").slider({
