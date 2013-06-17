@@ -126,7 +126,7 @@
 	font:700 10px/22px 'Lato', Verdana, Arial, sans-serif;
 }
 
-.winners #winner .tours .empty .year {	
+.winners #winner .tours .empty .year {
 	color:#f2f2ed;
 }
 
@@ -204,8 +204,22 @@
 .winners_list {
 	overflow: auto;
 	width: 100%;
-	height: 532px;
+	// height: 532px;
 	background: #D9D9D4;
+}
+
+.winners .winners_list {
+	height: auto;
+	margin-bottom: 120px;
+}
+.winners footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.winners .filters {
+	position: fixed;
+	bottom: 41px;
 }
 
 .winners_list .winner {
