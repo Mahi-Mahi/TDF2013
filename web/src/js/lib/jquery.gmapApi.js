@@ -1394,8 +1394,6 @@
 //                enableCloseButton: true,
 //                panControl: false
 //            };
-            
-            
 //            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
             
             this.panorama = this.map.getStreetView();
@@ -1523,10 +1521,7 @@
                 max_points: 100
             });
             
-            
-            this.hyperlapse.position.x = data.position;
-            
-            
+ 
             if(self.minimap != null){
                 
                 var bounds = new google.maps.LatLngBounds();
@@ -1546,10 +1541,10 @@
                     icon: self.markersIcons[2]
                 });
                 
-                bounds.extend(marker.getPosition());
-
                 self.markersMinimap.push(marker);
                 
+                bounds.extend(marker.getPosition());
+
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(data.fLat, data.fLng),
                     map: self.minimap,
@@ -1559,9 +1554,11 @@
                     icon: self.markersIcons[3]
                 });
                 
+                self.markersMinimap.push(marker);
+                
                 bounds.extend(marker.getPosition());
                 
-                self.markersMinimap.push(marker);
+                
                 
 //                if(data.lookat){
 //                    marker = new google.maps.Marker({
@@ -1676,8 +1673,9 @@
 
             this.hyperlapse.onLoadComplete = function(e) {
                 self.hyperlapse.setSize(pWidth, pHeight);
-                
-                
+                    
+                self.hyperlapse.position.x = data.position*1;
+            
                 self.hyperlapse.play();
             };
             
