@@ -875,7 +875,7 @@
     
             
             var lineSymbol = null;
-            if(isOriented && dist > 0.50){
+            if(isOriented && dist > 0.70){
                 lineSymbol = {
                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
                 };
@@ -940,7 +940,7 @@
                 path: 'M 0,-1 0,1',
                 strokeOpacity: 1,
                 strokeWeight: 1,
-                scale: 5
+                scale: 2
             };
 
             var line = new google.maps.Polyline({
@@ -949,7 +949,7 @@
                 icons: [{
                     icon: lineSymbol,
                     offset: '0',
-                    repeat: '20px'
+                    repeat: '7px'
                 }],
                 map: self.map
             });
