@@ -875,7 +875,13 @@ TDF.Traces = (function() {
 					height: 7,
 					anchorX: 7 / 2,
 					anchorY: 7 / 2
-				}
+				}, {
+                                        url: "/img/traces/pointeur-villeetape-ombre.png",
+					width: 25,
+					height: 25,
+					anchorX: 25 / 2,
+					anchorY: 25 / 2
+                                }
 			],
 			styles: mapStyleTrace
 		};
@@ -1049,7 +1055,7 @@ TDF.Traces = (function() {
 
 	my.display = function() {
 
-		my.gmapApi.createEtapes(my.args.years, TDF.Data.traces);
+		my.gmapApi.createEtapes(my.args.years, my.args.city, TDF.Data.traces);
 
 		var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
 		$main.find(".timeline .slider").slider({
@@ -1111,22 +1117,22 @@ TDF.Traces = (function() {
 
 		$main.find(".total_length .current").html(total_length);
 		$main.find(".total_length .line").css({
-			width: Math.round((total_length - my.stats['total_length'].min.val) / my.stats['total_length'].max.val * line_length) + 'px'
+			width: Math.round((total_length - my.stats['total_length'].min.val) / (my.stats['total_length'].max.val - my.stats['total_length'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_legs .current").html(nb_legs);
 		$main.find(".nb_legs .line").css({
-			width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / my.stats['nb_legs'].max.val * line_length) + 'px'
+			width: Math.round((nb_legs - my.stats['nb_legs'].min.val) / (my.stats['nb_legs'].max.val - my.stats['nb_legs'].min.val) * line_length) + 'px'
 		});
 
 		$main.find(".nb_concurrents .current").html(nb_concurrents);
 		$main.find(".nb_concurrents .line").css({
-			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / my.stats['nb_concurrents'].max.val * line_length) + 'px'
+			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val-my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
-		$main.find(".nb_finishers .current").html(nb_finishers);
+		$main.find(".nb_finishers .current").html(my.args.years[0] === "2013" ? 'N.C.' : nb_finishers + " à l'arrivée");
 		$main.find(".nb_finishers .line").css({
-			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / my.stats['nb_finishers'].max.val * line_length) + 'px'
+			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
 
 		// Winners
@@ -1140,7 +1146,7 @@ TDF.Traces = (function() {
 				$main.find('.winner .name').html('<a href="/vainqueurs/' + trace.winner_id + '/">' + trace.winner_first_name + ' ' + trace.winner_last_name + '</a>');
 				$main.find('.winner .winner-pic').attr('src', '/img/vainqueurs/portraits/' + trace.winner_id + '_small.png');
 				$main.find('.winner .flag img').attr('src', '/img/drapeaux/' + trace.winner_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-				$main.find('.winner .total_time').html("en " + trace.winner_total_time.replace('h', ' h<br />').replace("'", ' min.').replace('"', " s"));
+				$main.find('.winner .total_time').html("en " + trace.winner_total_time.format_time(true));
 				$main.find('.winner .average_speed').text(trace.winner_avg_speed + " km/h de moyenne");
 			} else {
 				$main.find('.traces-right').addClass('disabled');
@@ -1159,7 +1165,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.second .pos').html('2<sup>e</sup>');
 			$main.find('.second .flag img').attr('src', '/img/drapeaux/' + trace.second_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.second .ahead_of_second').text("à " + trace.ahead_of_2nd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
+			$main.find('.second .ahead_of_second').text(trace.ahead_of_2nd.format_time(false, "à "));
 
 			if (trace.third_id) {
 				$main.find('.third .name').html('<a href="/vainqueurs/' + trace.third_id + '/">' + trace.third_name + '</a>');
@@ -1168,7 +1174,7 @@ TDF.Traces = (function() {
 			}
 			$main.find('.third .pos').html('3<sup>e</sup>');
 			$main.find('.third .flag img').attr('src', '/img/drapeaux/' + trace.third_country.replace(' ', '-').replace('É', 'e').toLowerCase() + '_big.png');
-			$main.find('.third .ahead_of_third').text("à " + trace.ahead_of_3rd.replace('h', ' h').replace("'", ' min.').replace('"', " s"));
+			$main.find('.third .ahead_of_third').text(trace.ahead_of_3rd.format_time(false, "à "));
 
 		} else {
 			$main.find('.traces-right').addClass('disabled');
@@ -1967,7 +1973,7 @@ TDF.Fight = (function() {
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
-						step_title = "<strong>Nombre d'étapes remportées</strong>";
+						step_title = "<strong>Nombre d'étapes du Tour remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 
@@ -2093,8 +2099,8 @@ TDF.Fight = (function() {
 					case 4:
 						step_class = "ahead_of_second";
 						step_title = "<strong>Meilleure avance<br /> sur le deuxième</strong>";
-						fighter_one_result = fighter_one.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
-						fighter_two_result = fighter_two.ahead_of_2nd.replace('h', ' h ').replace("'", ' min.').replace('"', " s");
+						fighter_one_result = fighter_one.ahead_of_2nd.format_time();
+						fighter_two_result = fighter_two.ahead_of_2nd.format_time();
 
 						// ANIM OUT PREV
 						$inner.find('.sky .clouds-3').stop().animate({

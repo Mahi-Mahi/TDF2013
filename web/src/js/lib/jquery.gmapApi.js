@@ -47,6 +47,7 @@
         this.tours = new Object();
         
         this.years = [];
+        this.currentCity = null;
         this.toursData = null;
 
         this.markers = [];
@@ -359,7 +360,7 @@
           
             this.multiple = isMultiple;
             
-            this.createEtapes(this.years, this.tours)
+            this.createEtapes(this.years, this.currentCity, this.toursData)
 
         },
         
@@ -371,8 +372,17 @@
          * Create etape from data
          * 
          */
-        createEtapes: function(years, tours){
+        createEtapes: function(years, city, tours){
             var self = this;
+            
+            
+          
+            if(city != undefined){
+                this.currentCity = city.split(',')[0];
+            }
+            
+            console.log("currentCity : " + self.currentCity);
+            
             
             this.years = years;
             this.toursData = tours;
@@ -380,6 +390,9 @@
             this.clearMap();
             
             this.mapBounds = new google.maps.LatLngBounds();
+            console.log("begin this.mapBounds  : " + this.mapBounds);
+            
+            
             
             var repositionne = false;
             
@@ -404,26 +417,36 @@
                 self.tours[year]['dashedlines'] = [];
 
                 
-
                 $.each(tours, function(i, tour) {
 
                     if(year == tour.year){
-                        
+                                        
                         var previousEtape;
 
                         self.tours[year]['year'] = year;
 
                         $.each(tour.legs, function(j, etape) {
 
+//                            console.log("================");
+//                            console.log("etape.start.city : " + etape.start.city);
+//                            console.log("etape.finish.city : " + etape.finish.city);
+//                            console.log("currentCity : " + self.currentCity);
+
+
                             if(etape.start.city == etape.finish.city){
 
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle;
                                 
-                                if(self.multiple)
+                                if(self.currentCity == etape.start.city){
+                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
+                                }
+                                else if(self.multiple){
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
-                                else
-                                    circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
+                                }
+                                else{
+                                    circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city); 
+                                }
                                 
                                 self.tours[year]['circles'].push(circle);
                                 self.mapBounds.extend(circle.getPosition());
@@ -432,16 +455,28 @@
                                 var marker;
                                 var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
-                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
+                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
+                                
+                                
+                                marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
+                                
+                                console.log("marker.getPosition() : " + marker.getPosition());
+                                
                                 self.mapBounds.extend(marker.getPosition());
                                 
-                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
+                                
+                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
+                                
+                                marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.finish.city);
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
+                                console.log("marker.getPosition() : " + marker.getPosition());
+                                 
+                                console.log("===");
                                 var line;
                                 var weight = (self.multiple)? 1 : 2;
                                 var isOriented = (self.multiple)? false : true;
@@ -479,8 +514,13 @@
             
             
             
-            if(repositionne && self.multiple)
-                self.map.fitBounds(this.mapBounds);
+            if(repositionne && self.multiple){
+                console.log("je repositionne");
+                
+                console.log("this.mapBounds : " + self.mapBounds);
+                
+                self.map.fitBounds(self.mapBounds);
+            }
    
         },
         
@@ -513,10 +553,7 @@
         
         changeOpacityByCity: function(name){
             var self = this;
-            
-            console.log("changeOpacityByCity");
-            console.log("this.multiple : " + this.multiple);
-            
+
             if(this.multiple){
             
                 $.each(self.years, function(key, year) {
@@ -813,12 +850,12 @@
 
             this.lines.push(line);
             
-            google.maps.event.addListener(line, 'mouseover', function() {
+//            google.maps.event.addListener(line, 'mouseover', function() {
                 
-                console.log("over live");
+//                console.log("over live");
 //                myInfoWindow.open(mymap);
                 // mymap represents the map you created using google.maps.Map
-            });
+//            });
             
             
             return line;
@@ -1304,7 +1341,7 @@
                     '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
                         '<div id="bodyContent">'+
                             '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Voir Hyperlapse</a></span>' +
+                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Lancer l\'animation</a></span>' +
                         '</div>'+
                     '</div>';
                 }
@@ -1648,9 +1685,7 @@
             });
             
 
-            $(pano).on('click', function(){
-                console.log("$(pano).on('click'");
-                
+            $(pano).on('click', function(){ 
                 if(canPlayPause){
                     self.playPauseHyperlapse();
                 }
