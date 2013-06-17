@@ -1551,6 +1551,10 @@
                 console.log(e);
             };
             
+            this.hyperlapse.onLoadCanceled = function(e) {
+                console.log("onLoadCanceled");
+            };
+            
             
             this.hyperlapse.onRouteProgress = function(e) {
                 
@@ -1645,6 +1649,8 @@
             
 
             $(pano).on('click', function(){
+                console.log("$(pano).on('click'");
+                
                 if(canPlayPause){
                     self.playPauseHyperlapse();
                 }
@@ -1702,14 +1708,19 @@
             var loaderText = $('#hyperlapseTextLoader');
             var loader = $("#" + this.settings.hyperlapseId + ' .loader')
             
+            
             if(this.hyperlapse){
                 this.hyperlapse.pause();
+                this.hyperlapse.cancel();
+//                this.hyperlapse.reset();
             }
             
+        
+            var canvas = zoneH.find('canvas');
+            if(canvas.length){
+                canvas.remove();
+            }
             
-//            this.hyperlapse = null;
-            
-            zoneH.find('canvas').remove();
             zoneH.addClass('hide');
             
             cursor.css('left', '27px');
@@ -1719,12 +1730,6 @@
             
             zoneMap.width(742);
             zoneMap.height(500);
-            
-            
-            
-            
-
-            
         },
         
         openInfoWindowPlace: function(id){

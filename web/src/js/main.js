@@ -2373,6 +2373,12 @@ TDF.StreetView = (function() {
 	};
 
 	my.initializeGmap = function() {
+                
+                if(my.gmapApi){
+                    my.gmapApi.stopStreetView();
+                }
+            
+            
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -2440,16 +2446,8 @@ TDF.StreetView = (function() {
 
 		my.gmapApi = map.gmapApi(mapOptions);
 
-		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);
 
-
-		my.gmapApi.stopStreetView();
-                
-                
-                if(my.hyperlapse != null){
-                    my.hyperlapse.pause();
-                }
-//                my.hyperlapse = null;
+		my.gmapApi.addStreetViewPoint(TDF.Data.places, $inner, my.onCloseStreetView);     
 
 	};
 
