@@ -2545,4 +2545,5 @@ TDF.Data = (function() {
 // jQuery(document).ready(function() {
 jQuery(window).load(function() {
 	TDF.Data.init(TDF.init);
+	jQuery('input').placeholder();
 });
