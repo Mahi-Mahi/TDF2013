@@ -1065,7 +1065,7 @@ TDF.Traces = (function() {
 
 		this.setYears();
 
-		TDF.setShares(my.share_text, my.share_hashtags);
+		TDF.setShares(my.base_url, my.share_text);
 
 	};
 
