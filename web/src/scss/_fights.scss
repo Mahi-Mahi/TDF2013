@@ -474,7 +474,7 @@
 
 .fighter-infos .result {
 	color:#6289A7;
-	font-size:14px;
+	font:600 14px/1.3 'Lato', Verdana, Arial, sans-serif;
 }
 
 .fighter-infos .result strong {
@@ -485,7 +485,6 @@
 .fight-home .winners_list .winner {
 	border-color:#000;
 }
-
 
 .step-7 .winner .fighter-infos > .name {
 	display:none;
@@ -1085,7 +1084,7 @@ a.traces {
 	width:280px;
 }
 
-.fight-start .doped-fighters, .step-7 .fighter {
+.fight-start .doped-fighters, .step-7 .fighter, .step-start .fighter {
 	z-index:30;
 }
 
