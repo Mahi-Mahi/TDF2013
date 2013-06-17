@@ -85,7 +85,7 @@
 // }
 
 .step-7 .fighter_one.has_won.has_won_active, .step-7 .fighter_one.winner {
-	z-index:30;
+	// z-index:30;
 }
 
 .fight-start .fighter {
@@ -213,7 +213,7 @@
 	display:none;
 }
 
-.choose-fighter {
+.choose-fighter, .choose-fighter-notice {
 	background:#5F3001;
 	color:#F3F3ED;
 	font:700 12px/34px 'Oswald', Verdana, Arial, sans-serif;

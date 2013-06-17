@@ -311,19 +311,23 @@
 }
 
 .winners .ui-slider-handle {
-	background:url(/img/vainqueurs/left-slider.png) left top no-repeat;
+	// background:url(/img/vainqueurs/left-slider.png) left top no-repeat;
+	background:url(/img/vainqueurs/slider.png) left top no-repeat;
 	position: absolute;
 	margin:0;
-	width: 11px;
-	height: 21px;
+	width: 30px;
+	height: 22px;
 	top:-5px;
 	outline:none;
 }
-
-.winners .ui-slider-handle:last-child {
-	background-image:url(/img/vainqueurs/right-slider.png);
-	margin:0 0 0 -4px;
+.winners .ui-slider-handle:last-child span {
+	padding-left: 5px;
 }
+
+// .winners .ui-slider-handle:last-child {
+// 	background-image:url(/img/vainqueurs/right-slider.png);
+// 	margin:0 0 0 -4px;
+// }
 
 .ui-slider-handle span {
 	color:#633B00;
@@ -408,6 +412,7 @@
 	width:658px;
 }
 
+/*
 
 .winners .ui-slider-horizontal .ui-slider-range {
 	top: 0;
@@ -426,8 +431,6 @@
 .winners .ui-slider .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
-	width:11px;
-	height:21px;
 	cursor: default;
 }
 
@@ -438,6 +441,7 @@
 	display: block;
 	border: 0;
 }
+*/
 
 .winners .age .slider, .winners .nb_wins .slider {
 	background:#996D00;

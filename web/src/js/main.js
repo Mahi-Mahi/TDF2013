@@ -1677,7 +1677,7 @@ TDF.Fight = (function() {
 		} else {
 			$fighter = $main.find('.fighter_one');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('<strong>votre coureur</strong>');
+			$fighter.find('.name').html('<strong>Coureur n°1</strong>');
 			$inner.find('#fighter_one_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
 			$fighter.find('.flag').css('display', 'none');
@@ -1704,17 +1704,19 @@ TDF.Fight = (function() {
 		} else {
 			$fighter = $main.find('.fighter_two');
 			$fighter.data('id', '');
-			$fighter.find('.name').html('<strong>son adversaire</strong>');
+			$fighter.find('.name').html('<strong>Coureur n°2</strong>');
 			$inner.find('#fighter_two_pic img').attr('src', '/img/duels/fighter-default.png');
 			$fighter.find('.flag img').attr('src', '');
 			$fighter.find('.flag').css('display', 'none');
 			$fighter.find('.bio').css('display', 'none').html('');
 			if (my.args.fighter_one && my.args.fighter_one !== 'selector') {
 				$fighter.find('.choose-fighter').show();
+				$fighter.find('.choose-fighter-notice').hide();
 				$fighter.find('.random').show();
 			}
 			else {
 				$fighter.find('.choose-fighter').hide();
+				$fighter.find('.choose-fighter-notice').show();
 				$fighter.find('.random').hide();
 			}
 		}
@@ -1901,6 +1903,10 @@ TDF.Fight = (function() {
 				fighter_one_result = '';
 				fighter_two_result = '';
 
+				$fighter_one.find('.result').html(fighter_one_result);
+				$fighter_two.find('.result').html(fighter_two_result);
+
+
 				// ANIM OUT NEXT
 				$inner.find('.background .beef-car').stop().animate({
 					left: '+=1000'
@@ -1919,9 +1925,7 @@ TDF.Fight = (function() {
 					'margin-left': (((max_space / 2) - fighter_width) - 80) + 'px'
 				}, 1500, 'easeOutCubic');
 
-				$inner.find('.landscape').stop().animate({
-					left: '-' + (my.args.step * 770) + 'px'
-				}, step_duration, 'linear');
+				$inner.find('.landscape').css({left: '0px'});
 
 				$inner.find('.background .fanion').css({
 					display: 'none',
@@ -2229,22 +2233,31 @@ TDF.Fight = (function() {
 					'left': '-' + (my.args.step * 770) + 'px'
 				}, step_duration, 'linear');
 
-
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
 				$fighter_two.find('.fighter-infos').show();
 
 				if (my.args.step === 7 || my.args.step === 'results') {
-					if (diff[0] >= diff[1]) {
+					if (fighter_one.score > fighter_two.score) {
 						$fighter_one.addClass('winner');
 					}
-					if (diff[0] <= diff[1]) {
+					if (fighter_one.score < fighter_two.score) {
 						$fighter_two.addClass('winner');
 						$fighter_two.find('.name').remove();
 					}
-					if (diff[0] === diff[1]) {
-						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div>');
+					if (fighter_one.score === fighter_two.score) {
+						$fighter_one.find('.name').html('');
+						var url = document.location.href.replace(/\/[^\/]+\/$/, '/');
+
+						$fighter_one.find('.result').html('<div class="result-heading">Ex-aequo</div><div class="name">'+fighter_one.first_name+' '+fighter_one.last_name+'<br />'+fighter_two.first_name+' '+fighter_two.last_name+'</div>' +
+
+							'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + url + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + url + '" class="twitter">Twitter</a><a href="" class="gplus">Google+</a></div>');
+
 						$fighter_two.find('.fighter-infos').hide();
+					}
+					if (fighter_one.score === 0 && fighter_two.score === 0) {
+						console.log("no winners");
+						$main.find('.fighters').html('<div class="results"><div class="result-heading">Ex-aequo</div><div class="name">'+fighter_one.first_name+' '+fighter_one.last_name+'<br />'+fighter_two.first_name+' '+fighter_two.last_name+'</div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
@@ -2444,8 +2457,8 @@ TDF.StreetView = (function() {
 
 
 		my.gmapApi.stopStreetView();
-                
-                
+
+
                 if(my.hyperlapse != null){
                     my.hyperlapse.pause();
                 }
@@ -2469,8 +2482,8 @@ TDF.StreetView = (function() {
 		var currentWidth = (widthMaxLoader * current) / total;
 
 		loader.width(currentWidth);
-                
-                
+
+
                 if(current === total){
                     textLoader.hide();
                 }
@@ -2488,8 +2501,8 @@ TDF.StreetView = (function() {
 		cursor.stop().animate({
 			left: currentPosition
 		}, 200);
-                
-                
+
+
                 console.log("hyperlapseOnFrame : " + position);
 
 	};
