@@ -381,7 +381,7 @@
                 this.currentCity = city.split(',')[0];
             }
             
-            console.log("currentCity : " + currentCity);
+            console.log("currentCity : " + self.currentCity);
             
             
             this.years = years;
@@ -428,7 +428,7 @@
                             console.log("================");
                             console.log("etape.start.city : " + etape.start.city);
                             console.log("etape.finish.city : " + etape.finish.city);
-                            console.log("currentCity : " + currentCity);
+                            console.log("currentCity : " + self.currentCity);
 
 
                             if(etape.start.city == etape.finish.city){
@@ -436,7 +436,7 @@
 //                                var circle = self.createCircle(etape.start.lat, etape.start.lng); 
                                 var circle;
                                 
-                                if(currentCity == etape.start.city){
+                                if(self.currentCity == etape.start.city){
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
                                 }
                                 else if(self.multiple){
@@ -453,7 +453,7 @@
                                 var marker;
                                 var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0]; 
                                 
-                                var markerIconLast = (currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
+                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon; 
                                 
                                 
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
@@ -462,7 +462,7 @@
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 
-                                markerIconLast = (currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
+                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon; 
                                 
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.finish.city);
