@@ -284,56 +284,25 @@
     border-radius:4px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
     padding: 6px;
+    position:relative;
 }
 
 .infobox-arrow {
-    width: 70px;
-    height: 16px;
+	background:url(/img/icon/arrow-grey.png) left top no-repeat;
+    width: 12px;
+    height: 24px;
     overflow: hidden;
     position: absolute;
-    left: 50%;
-    margin-left: -35px;
-    bottom: -10px;
-  }
-
-.infobox-arrow:after {
-	background:#e3e7ea;
-    content: "";
-    position: absolute;
-    left: 20px;
-    bottom:4px;
-    width: 25px;
-    height: 25px;
-    box-shadow: 6px 5px 9px -9px black;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    tranform: rotate(45deg);
+    left:-12px;
+    top:5px;
 }
 
 .infobox-arrow-white {
-    width: 70px;
+	background:url(/img/icon/arrow-white.png) left top no-repeat;
+    width: 8px;
     height: 16px;
     overflow: hidden;
     position: absolute;
-    left: 50%;
-    margin-left: -35px;
-    bottom: -10px;
-  }
-
-.infobox-arrow-white:after {
-	background:#fff;
-    content: "";
-    position: absolute;
-    left: 20px;
-    bottom:4px;
-    width: 25px;
-    height: 25px;
-    box-shadow: 6px 5px 9px -9px black;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    tranform: rotate(45deg);
+    left:-8px;
+    top:5px;
 }

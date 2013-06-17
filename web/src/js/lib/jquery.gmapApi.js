@@ -583,12 +583,13 @@
             var infowindow = new InfoBox({
                     closeBoxURL: "",
                     boxStyle: { 
+                        pane: "floatPane",
                         background: "#fff",
-                        margin:"-48px 0 0 -100px",
-                        padding: "0",
+                        margin:"-15px 0 0 20px",
+                        padding: "0 4px",
                         textAlign: "center",
                         whiteSpace: "nowrap",
-                        width: "200px"
+                        width: "auto"
                     },
                     content: contentString
             });
@@ -1114,12 +1115,13 @@
             
             var infowindow = new InfoBox({
                     closeBoxURL: "",
+                    content: contentString,
+                    pane: "floatPane",
                     boxStyle: {
                         height: "90px",
-                        margin:"-185px 0 0 -100px",
+                        margin:"-50px 0 0 38px",
                         width: "200px"
-                    },
-                    content: contentString
+                    }
             });            
              
             self.infosWindow.push(infowindow);
@@ -1380,9 +1382,10 @@
                 var infowindow = new InfoBox({
                     closeBoxURL: "",
                     content: contentString,
+                    pane: "floatPane",
                     boxStyle: {
                         height: "110px",
-                        margin:"-170px 0 0 -100px",
+                        margin:"-35px 0 0 28px",
                         width: "200px"
                     }
                 });
@@ -1413,6 +1416,8 @@
 //                enableCloseButton: true,
 //                panControl: false
 //            };
+            
+            
 //            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
             
             this.panorama = this.map.getStreetView();
@@ -1540,7 +1545,10 @@
                 max_points: 100
             });
             
- 
+            
+            this.hyperlapse.position.x = data.position;
+            
+            
             if(self.minimap != null){
                 
                 var bounds = new google.maps.LatLngBounds();
@@ -1560,10 +1568,10 @@
                     icon: self.markersIcons[2]
                 });
                 
-                self.markersMinimap.push(marker);
-                
                 bounds.extend(marker.getPosition());
 
+                self.markersMinimap.push(marker);
+                
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(data.fLat, data.fLng),
                     map: self.minimap,
@@ -1573,11 +1581,9 @@
                     icon: self.markersIcons[3]
                 });
                 
-                self.markersMinimap.push(marker);
-                
                 bounds.extend(marker.getPosition());
                 
-                
+                self.markersMinimap.push(marker);
                 
 //                if(data.lookat){
 //                    marker = new google.maps.Marker({
@@ -1692,9 +1698,8 @@
 
             this.hyperlapse.onLoadComplete = function(e) {
                 self.hyperlapse.setSize(pWidth, pHeight);
-                    
-                self.hyperlapse.position.x = data.position*1;
-            
+                
+                
                 self.hyperlapse.play();
             };
             
