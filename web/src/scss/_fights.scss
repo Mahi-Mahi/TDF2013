@@ -1132,9 +1132,8 @@ a.traces {
 
 .results .last .winner {
 	background:url(/img/duels/bg-results-winner.png) left top no-repeat;
-	display:block;
+	display:none;
 	color: #F3F3ED;
-	display: block;
 	font: 700 18px/34px 'Oswald', Verdana, Arial, sans-serif;
 	height:47px;
 	margin:0;
@@ -1146,3 +1145,8 @@ a.traces {
 	text-transform: uppercase;
 	width:175px;
 }
+
+.results .last .active {
+	display:block;
+}
+

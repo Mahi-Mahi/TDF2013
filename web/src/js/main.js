@@ -2427,11 +2427,15 @@ TDF.Fight = (function() {
 				}
 			}
 		});
-
+		/*
 		if (!TDF.Data.fighters[my.args.fighter_one].is_doped) {
 			if (my.steps[7][0] > my.steps[7][1] || TDF.Data.fighters[my.args.fighter_two].is_doped) {
 				$results.find('.fighter_one .winner').addClass('active');
 			}
+		}
+		*/
+		if ( jQuery('.result-heading').text() === 'vainqueur' ) {
+			$results.find('.fighter_one .winner').addClass('active');
 		}
 
 		$results
