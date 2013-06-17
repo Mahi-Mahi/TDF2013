@@ -918,6 +918,7 @@ TDF.Traces = (function() {
 			if (my.args.city === undefined) {
 				my.args.years = [2013];
 				my.city_years = [];
+				$main.find('#search').val('');
 			} else {
 				my.city_years = my.args.years = my.getCityTraces(my.args.city);
 			}
@@ -925,6 +926,7 @@ TDF.Traces = (function() {
 			my.args.years = my.args.years.split(/,/);
 			if (my.args.city === undefined) {
 				my.city_years = [];
+				$main.find('#search').val('');
 			} else {
 				my.city_years = my.getCityTraces(my.args.city);
 			}
@@ -1009,13 +1011,13 @@ TDF.Traces = (function() {
 
 		}
 
-		console.log(".timeline li.etape");
-		console.log(my.args);
 		$main.find('.timeline li.etape').removeClass('etape');
+		$main.find('.timeline-zoom li.etape').removeClass('etape');
 		jQuery(my.city_years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('etape');
 			$main.find('#squareyear-' + year).addClass('etape');
 		});
+		$main.find('.timeline li.active').removeClass('active');
 		$main.find('.timeline-zoom li.active').removeClass('active');
 		jQuery(my.args.years).each(function(idx, year) {
 			$main.find('#span-checkyear-' + year).parent('li').addClass('active');
