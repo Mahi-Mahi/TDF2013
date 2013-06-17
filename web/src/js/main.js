@@ -65,7 +65,7 @@ var TDF = (function() {
 			TDF.render('home');
 			jQuery('#carrousel-home-search-inner').jCarouselLite({
 				vertical: true,
-				auto: 2000,
+				auto: 3500,
 				speed: 800
 			});
 		});
@@ -282,7 +282,6 @@ var TDF = (function() {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
 				$footer.find('.colorbox').colorbox({
-					iframe:true,
 					width:490,
 					height:500
 				});
