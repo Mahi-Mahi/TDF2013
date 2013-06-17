@@ -1024,6 +1024,7 @@ a.traces {
 }
 
 .results .name, .results .name strong {
+	color:#393932;
 	font:400 18px/1.3 'Oswald', Verdana, Arial, sans-serif;
 }
 
@@ -1100,4 +1101,24 @@ a.traces {
 .fight-start .doped-fighters {
 	top: 80px;
 	left: 200px;
+}
+.results .last td {
+	position:relative;
+}
+
+.results .last .winner {
+	background:url(/img/duels/bg-results-winner.png) left top no-repeat;
+	display:block;
+	color: #F3F3ED;
+	display: block;
+	font: 700 18px/34px 'Oswald', Verdana, Arial, sans-serif;
+	height:47px;
+	margin:0;
+	position:absolute;
+	left:-25px;
+	text-align: center;
+	text-indent:20px;
+	top:10px;
+	text-transform: uppercase;
+	width:175px;
 }
