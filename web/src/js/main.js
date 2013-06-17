@@ -2181,7 +2181,7 @@ TDF.Fight = (function() {
 							left: '0px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.foreground .green-3').stop().delay(step_duration * 0).animate({
-							left: '-1200px'
+							left: '-800px'
 						}, step_duration * 1.0, 'linear');
 						$inner.find('.forescape .trees-4').stop().delay(step_duration * 0).animate({
 							left: '200px'
@@ -2196,6 +2196,9 @@ TDF.Fight = (function() {
 
 						// ANIM OUT PREV
 						$inner.find('.middleground .followers').stop().animate({
+							left: '-=1000'
+						}, step_duration * 0.5, 'linear');
+						$inner.find('.foreground .green-3').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.5, 'linear');
 						$inner.find('.forescape .trees-4').stop().animate({
@@ -2253,7 +2256,7 @@ TDF.Fight = (function() {
 							left: '480px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.middleground .doping-doctor').stop().delay(step_duration * 0.25).animate({
-							left: '530px'
+							left: '670px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .cops-right').stop().delay(step_duration * 0.25).animate({
 							left: '700px'
@@ -2354,8 +2357,11 @@ TDF.Fight = (function() {
 					$inner.find('.prev').attr('href', my.getQueryString() + (my.args.step - 1) + '/').show();
 					$inner.find('.next').attr('href', my.getQueryString() + (my.args.step + 1) + '/');
 				} else {
-					$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course");
-					$inner.find('.prev').hide();
+					$inner.find('.next').fadeOut();
+					setTimeout(function(){
+						$inner.find('.next').attr('href', my.base_url).text("Nouvelle Course").fadeIn();
+						$inner.find('.prev').hide();
+					}, 2000);
 				}
 
 				break;
