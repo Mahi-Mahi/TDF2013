@@ -385,6 +385,12 @@
             
             
             this.years = years;
+            
+            if(this.years.length > 1){
+                this.multiple = true;
+            }
+            
+            
             this.toursData = tours;
 
             this.clearMap();
@@ -461,9 +467,7 @@
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
-                                
-                                console.log("marker.getPosition() : " + marker.getPosition());
-                                
+
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 
@@ -474,9 +478,6 @@
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
-                                console.log("marker.getPosition() : " + marker.getPosition());
-                                 
-                                console.log("===");
                                 var line;
                                 var weight = (self.multiple)? 1 : 2;
                                 var isOriented = (self.multiple)? false : true;
