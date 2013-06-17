@@ -360,7 +360,7 @@
           
             this.multiple = isMultiple;
             
-            this.createEtapes(this.years, this.currentCity, this.tours)
+            this.createEtapes(this.years, this.currentCity, this.toursData)
 
         },
         
@@ -390,6 +390,9 @@
             this.clearMap();
             
             this.mapBounds = new google.maps.LatLngBounds();
+            console.log("begin this.mapBounds  : " + this.mapBounds);
+            
+            
             
             var repositionne = false;
             
@@ -414,21 +417,20 @@
                 self.tours[year]['dashedlines'] = [];
 
                 
-
                 $.each(tours, function(i, tour) {
 
                     if(year == tour.year){
-                        
+                                        
                         var previousEtape;
 
                         self.tours[year]['year'] = year;
 
                         $.each(tour.legs, function(j, etape) {
 
-                            console.log("================");
-                            console.log("etape.start.city : " + etape.start.city);
-                            console.log("etape.finish.city : " + etape.finish.city);
-                            console.log("currentCity : " + self.currentCity);
+//                            console.log("================");
+//                            console.log("etape.start.city : " + etape.start.city);
+//                            console.log("etape.finish.city : " + etape.finish.city);
+//                            console.log("currentCity : " + self.currentCity);
 
 
                             if(etape.start.city == etape.finish.city){
@@ -459,6 +461,9 @@
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIconLast);
                                 self.createInfoWindowTrace(marker, etape.start.city);
                                 self.tours[year]['markers'].push(marker);
+                                
+                                console.log("marker.getPosition() : " + marker.getPosition());
+                                
                                 self.mapBounds.extend(marker.getPosition());
                                 
                                 
@@ -469,6 +474,9 @@
                                 self.tours[year]['markers'].push(marker);
                                 self.mapBounds.extend(marker.getPosition());
                                 
+                                console.log("marker.getPosition() : " + marker.getPosition());
+                                 
+                                console.log("===");
                                 var line;
                                 var weight = (self.multiple)? 1 : 2;
                                 var isOriented = (self.multiple)? false : true;
@@ -506,8 +514,13 @@
             
             
             
-            if(repositionne && self.multiple)
-                self.map.fitBounds(this.mapBounds);
+            if(repositionne && self.multiple){
+                console.log("je repositionne");
+                
+                console.log("this.mapBounds : " + self.mapBounds);
+                
+                self.map.fitBounds(self.mapBounds);
+            }
    
         },
         
@@ -837,12 +850,12 @@
 
             this.lines.push(line);
             
-            google.maps.event.addListener(line, 'mouseover', function() {
+//            google.maps.event.addListener(line, 'mouseover', function() {
                 
-                console.log("over live");
+//                console.log("over live");
 //                myInfoWindow.open(mymap);
                 // mymap represents the map you created using google.maps.Map
-            });
+//            });
             
             
             return line;
