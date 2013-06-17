@@ -663,7 +663,7 @@ TDF.Traces = (function() {
 				}
 				if (jQuery(this).prop('checked')) {
 					my.gmapApi.setMultiple(true);
-					// Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/');						
+					// Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/');
 				} else {
 					my.gmapApi.setMultiple(false);
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
@@ -768,7 +768,7 @@ TDF.Traces = (function() {
 				results: function() {}
 			},
 			select: function(event, ui) {
-				Path.history.pushState({}, "", my.base_url + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' + 
+				Path.history.pushState({}, "", my.base_url + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' +
 			}
 		});
 
@@ -1659,7 +1659,14 @@ TDF.Fight = (function() {
 			$fighter.find('.flag img').attr('src', '');
 			$fighter.find('.flag').css('display', 'none');
 			$fighter.find('.bio').css('display', 'none').html('');
-			$fighter.find('.random').show();
+			if (my.args.fighter_one && my.args.fighter_one !== 'selector') {
+				$fighter.find('.choose-fighter').show();
+				$fighter.find('.random').show();
+			}
+			else {
+				$fighter.find('.choose-fighter').hide();
+				$fighter.find('.random').hide();
+			}
 		}
 
 		if (my.args.fighter_one === 'selector') {
@@ -1968,7 +1975,7 @@ TDF.Fight = (function() {
 						$inner.find('.sky .clouds-3').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.middleground .radar').stop().animate({
+						$inner.find('.background .radar').stop().animate({
 							left: '+=1000'
 						}, step_duration * 0.25, 'linear');
 						$inner.find('.forescape .panneaux').stop().animate({
@@ -2016,7 +2023,7 @@ TDF.Fight = (function() {
 						$inner.find('.sky .clouds-3').stop().animate({
 							left: '300px'
 						}, step_duration * 1.0, 'linear');
-						$inner.find('.middleground .radar').stop().delay(step_duration * 0.25).animate({
+						$inner.find('.background .radar').stop().delay(step_duration * 0.25).animate({
 							left: '690px'
 						}, step_duration * 0.75, 'linear');
 						$inner.find('.forescape .panneaux').stop().delay(step_duration * 0.25).animate({
@@ -2034,7 +2041,7 @@ TDF.Fight = (function() {
 						$inner.find('.sky .clouds-3').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.middleground .radar').stop().animate({
+						$inner.find('.background .radar').stop().animate({
 							left: '-=1000'
 						}, step_duration * 0.5, 'linear');
 						$inner.find('.forescape .panneaux').stop().animate({
