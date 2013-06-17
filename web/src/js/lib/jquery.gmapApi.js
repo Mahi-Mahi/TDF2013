@@ -1000,8 +1000,8 @@
     
             }
             
-            if(etapes.length == 0){
-                //Third search (big size)
+            if(etapes.length == 1){
+                //Third search (big size) 
                 result = this._findEtapes(data, lat, lng, 20, 20);
 
                 etapes = this._mergeEtapes(etapes, result, lat, lng, SEARCH_LIMIT);
@@ -1009,17 +1009,14 @@
             }
             
             
-//            console.log("TOUTES LES RECHERCHES SONT FAITES");
-//            console.log("etapes.length : " + etapes.length);
-            
-            //TODO: //Third search (large size)
-            
-            
-            
+
             
             //Redim map viewport
             for(var i = 0; i < etapes.length; i++){
                 var etape = etapes[i];
+                
+//                console.log("add : " + etape.city);
+//                console.log("count : " + etape.count);
                 
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
 
@@ -1045,8 +1042,9 @@
                 
             }
           
-            if(etapes.length > 1)
+            if(etapes.length > 1){
                 this.map.fitBounds(bounds);
+            }
             
             if(markerInfoWindowIsShowing != null){
                 self.map.setCenter(markerInfoWindowIsShowing.getPosition());
@@ -1063,20 +1061,49 @@
             var contentString = '<h3>'+ data.city +'</h3>';
             contentString += '<p>'+ data.count +' fois ville étape ';
             
-            if(data.years.length > 1){
-               contentString += 'entre '+ data.years[0] +' et ' + data.years[data.years.length-1] + '</p>'; 
-            }
-            else{
-               contentString += 'en ' + data.years[0] + '</p>';
-            }
             
+            var textyear = 'en ' + data.years[0] + '</p>';
+            
+            if(data.years.length > 1){
+                
+                var isSameYear = true;
+                var previewYear = data.years[0];
+                
+                $.each(data.years, function(i){
+                    
+                    if(previewYear != data.years[i]){
+                        isSameYear = false;
+                    }
+                    
+                    previewYear = data.years[i];
+                     
+                });
+                
+                if(!isSameYear){
+                    textyear = 'entre '+ data.years[0] +' et ' + data.years[data.years.length-1] + '</p>'; 
+                }
+            }
+     
+            
+            contentString += textyear;
             
             contentString += '<select class="selectYearSearch">';
             contentString  += '<option value="-1">Selectionnez une année</option>';
             
+            var selecttext = '';
+            var previewsYear = 0;
             for(var i = 0; i < data.years.length; i++){
-                contentString  += '<option value="'+ data.years[i]+ '/'+ data.city +',' + data.country +'">'+ data.years[i] +'</option>';
+                
+                if(previewsYear != data.years[i]){
+                    selecttext  += '<option value="'+ data.years[i]+ '/'+ data.city +',' + data.country +'">'+ data.years[i] +'</option>';
+                }
+                
+                previewsYear = data.years[i];
+                
             }
+            
+            
+            contentString += selecttext;
             
             contentString += '</select>';
             
