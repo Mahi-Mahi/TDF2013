@@ -719,16 +719,18 @@ TDF.Traces = (function() {
 		$main.on('click', '.traces #start-pause', function() {
 			var play_speed = 1000;
 			if (my.args.years.length < 2) {
-				console.log('play/pause');
 				if (my.state === null) {
-					console.log("play");
-					console.log(jQuery('.timeline-zoom input:checked').parent().next().find('span'));
 					jQuery('.traces #start-pause').addClass('active');
 					if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
 						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 						my.state_interval = setInterval(function() {
 							if ( jQuery('.timeline-zoom input:checked').parent().next().length ){
 								jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
+							}
+							else {
+								jQuery('.traces #start-pause').removeClass('active');
+								clearTimeout(my.state_interval);
+								my.state = null;
 							}
 						}, play_speed);
 						my.state = 'playing';
