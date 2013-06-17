@@ -205,8 +205,10 @@
 
 .traces-left-stats .line {
 	background:#7691A5;
-	margin-left: 45px;
-	height: 4px;
+	display:block;
+	margin: -1px 0 0 45px;
+	padding:0;
+	height: 5px;
 }
 
 .traces-right {
@@ -448,12 +450,12 @@
 
 #start-pause:hover {
 	background-position:-51px 0;
-} 
+}
 
 #start-pause.active {
 	background-position:-102px 0;
-} 
+}
 
 #start-pause.active:hover {
 	background-position:-153px 0;
-} 
+}
