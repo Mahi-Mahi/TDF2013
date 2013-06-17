@@ -65,7 +65,7 @@ var TDF = (function() {
 			TDF.render('home');
 			jQuery('#carrousel-home-search-inner').jCarouselLite({
 				vertical: true,
-				auto: 3500,
+				auto: 10000,
 				speed: 800
 			});
 		});
