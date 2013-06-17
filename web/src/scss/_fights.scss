@@ -226,6 +226,7 @@
 	width:148px;
 }
 .choose-fighter-notice {
+	background:none;
 	display: none;
 }
 
@@ -1077,5 +1078,15 @@ a.traces {
 	height:41px;
 	margin:0 0 0 -40px;
 	text-align:center;
+	text-transform:uppercase;
 	width:280px;
+}
+
+.fight-start .doped-fighters, .step-7 .fighter {
+	z-index:30;
+}
+
+.fight-start .doped-fighters {
+	top: 80px;
+	left: 200px;
 }

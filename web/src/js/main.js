@@ -1976,7 +1976,7 @@ TDF.Fight = (function() {
 				switch (my.args.step) {
 					case 1:
 						step_class = "nb_legs";
-						step_title = "<strong>Nombre d'étapes du Tour remportées</strong>";
+						step_title = "<strong>étapes du Tour remportées</strong>";
 						fighter_one_result = fighter_one.nb_leg_wins + " étape" + (fighter_one.nb_leg_wins > 1 ? 's' : '');
 						fighter_two_result = fighter_two.nb_leg_wins + " étape" + (fighter_two.nb_leg_wins > 1 ? 's' : '');
 
@@ -2274,7 +2274,9 @@ TDF.Fight = (function() {
 
 					if (fighter_one.is_doped && fighter_two.is_doped) {
 						console.log("no winners");
-						$main.find('.fighters').html('<div class="fighter_infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div></div>');
+						var shareUrl = document.location.href.replace(/\/[^\/]+\/$/, '/');
+						$main.find('.fighters').addClass('doped-fighters').html('<div class="fighter-infos"><div class="results"><div class="result-heading">Aucun vainqueur</div><div class="name">pour cause de dopage</div></div>' +
+						'<div class="share-result"><span>Partager ce résultat</span> <a href="http://www.facebook.com/sharer.php?u=' + shareUrl + '" class="facebook">Facebook</a><a href="https://twitter.com/intent/tweet?url=' + shareUrl + '" class="twitter">Twitter</a><a href="' + shareUrl + '" class="gplus">Google+</a></div></div>');
 					}
 					if (jQuery('.fighter.winner').length === 1) {
 						$fighter_one.find('.fighter-infos').hide().find('.result').html(my.winner_result(fighter_one));
