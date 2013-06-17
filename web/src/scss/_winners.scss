@@ -197,7 +197,7 @@
 .legend .abandon {
 	border:none;
 	background-image:url(/img/vainqueurs/icon-abandon.png);
-	background-position:10px 50%;
+	background-position:8px 50%;
 	line-height:1.3;
 }
 
@@ -220,6 +220,7 @@
 	z-index: 99;
 }
 .winners .filters {
+	background:#FFD800;
 	position: fixed;
 	bottom: 41px;
 	width: 1000px;
