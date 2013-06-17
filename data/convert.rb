@@ -362,6 +362,7 @@ tours.each do |year, tour|
 	tour[:legs].sort_by! {|o| o[:leg_num] }
 end
 
+
 # Cities
 
 cities.uniq!.sort!
