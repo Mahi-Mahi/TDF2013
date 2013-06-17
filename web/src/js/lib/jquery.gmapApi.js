@@ -21,35 +21,29 @@
     $.GmapApi = function(options, element) {
         this.element = element;
 
+        //Global
         this.map = null;
         this.minimap = null;
         this.mapBounds = null;
         
         this.hyperlapse = null;
 
-        
-        
-        this.multiple = false;
-        
         this.markerIcon = null;
         this.markerCircleIcon = null;
         this.markerLabelIcon = null;
         
         this.markersIcons = [];
         
-        this.navigation = null;
-
-        this.defaultPosition = [];
-
-        this.position = [];
-
-
+        
+        //Traces
+        this.multiple = false;
+        
         this.tours = new Object();
         
         this.years = [];
         this.currentCity = null;
         this.toursData = null;
-
+        
         this.markers = [];
         this.markersMinimap = [];
         this.circles = [];
@@ -57,13 +51,31 @@
         this.dashedlines = [];
         this.infosWindow = [];
         
+        
+        
+        //StreetView
         this.streetViewOverlay = [];
         
-        this.animateInterval = null;
+        this.streetViewPoint = [];
         
         this.panorama = null;
         
-        this.streetViewPoint = [];
+        
+
+        this.defaultPosition = [];
+
+        this.position = [];
+
+
+        
+
+        
+        
+        
+        
+        this.animateInterval = null;
+        
+        
         
 
         this._init(options);
@@ -375,14 +387,12 @@
         createEtapes: function(years, city, tours){
             var self = this;
             
-            
           
-            if(city != undefined){
+            this.currentCity = null;
+          
+            if(city != undefined && city != null){
                 this.currentCity = city.split(',')[0];
             }
-            
-            console.log("currentCity : " + self.currentCity);
-            
             
             this.years = years;
             
@@ -396,7 +406,6 @@
             this.clearMap();
             
             this.mapBounds = new google.maps.LatLngBounds();
-            console.log("begin this.mapBounds  : " + this.mapBounds);
             
             
             
@@ -516,10 +525,6 @@
             
             
             if(repositionne && self.multiple){
-                console.log("je repositionne");
-                
-                console.log("this.mapBounds : " + self.mapBounds);
-                
                 self.map.fitBounds(self.mapBounds);
             }
    
@@ -582,12 +587,19 @@
 
                             for(var i = 0; i < tour['markers'].length; i++){
                                 var marker = tour['markers'][i];
-                                marker.setIcon(self.markersIcons[3]);
+                                
+                                if(marker.getIcon() != self.markersIcons[4]){
+                                    marker.setIcon(self.markersIcons[3]);
+                                }
+                                
                             }
 
                             for(var i = 0; i < tour['circles'].length; i++){
                                 var circle = tour['circles'][i];
-                                circle.setIcon(self.markersIcons[3]);
+                                
+                                if(circle.getIcon() != self.markersIcons[4]){
+                                    circle.setIcon(self.markersIcons[3]);
+                                }
                             }
 
                             for(var i = 0; i < tour['lines'].length; i++){
@@ -635,12 +647,20 @@
                     
                     for(var i = 0; i < tour['markers'].length; i++){
                         var marker = tour['markers'][i];
-                        marker.setIcon(self.markersIcons[3]);
+                        
+                        if(marker.getIcon() != self.markersIcons[4]){
+                            marker.setIcon(self.markersIcons[3]);
+                        }
+                        
+                        
                     }
 
                     for(var i = 0; i < tour['circles'].length; i++){
                         var circle = tour['circles'][i];
-                        circle.setIcon(self.markersIcons[3]);
+                        
+                        if(circle.getIcon() != self.markersIcons[4]){
+                            circle.setIcon(self.markersIcons[3]);
+                        }
                     }
                     
                     for(var i = 0; i < tour['lines'].length; i++){
@@ -676,12 +696,20 @@
 
                         for(var i = 0; i < tour['markers'].length; i++){
                             var marker = tour['markers'][i];
-                            marker.setIcon(self.markersIcons[2]);
+                            
+                            if(marker.getIcon() != self.markersIcons[4]){
+                                marker.setIcon(self.markersIcons[2]);
+                            }
+                                
                         }
 
                         for(var i = 0; i < tour['circles'].length; i++){
                             var circle = tour['circles'][i];
-                            circle.setIcon(self.markersIcons[2]);
+                           
+                            
+                            if(circle.getIcon() != self.markersIcons[4]){
+                                 circle.setIcon(self.markersIcons[2]);
+                            }
                         }
 
 
@@ -981,8 +1009,8 @@
             }
             
             
-            console.log("TOUTES LES RECHERCHES SONT FAITES");
-            console.log("etapes.length : " + etapes.length);
+//            console.log("TOUTES LES RECHERCHES SONT FAITES");
+//            console.log("etapes.length : " + etapes.length);
             
             //TODO: //Third search (large size)
             
@@ -1140,14 +1168,14 @@
                         etape = (etape.count > result.count)? etape: result;
                         
                         isMerged = true;
-                        console.log("je merge  : " + etape.city );
+//                        console.log("je merge  : " + etape.city );
                     }  
                  
                 }
                 
                 if(!isMerged){
                     etapes.push(result);
-                    console.log("j'ajoute : " + result.city);
+//                    console.log("j'ajoute : " + result.city);
                 }
                 
                 
@@ -1268,9 +1296,7 @@
          */
         addStreetViewPoint: function(data, $container, callback){
             var self = this;
-            
-            console.log("addStreetViewPointaddStreetViewPointaddStreetViewPointaddStreetViewPointaddStreetViewPoint");
-            
+         
             var geocoder = new google.maps.Geocoder();
              
             $.each(data, function(i, streetViewPoint){
@@ -1590,7 +1616,7 @@
             };
             
             this.hyperlapse.onLoadCanceled = function(e) {
-                console.log("onLoadCanceled");
+                
             };
             
             

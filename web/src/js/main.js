@@ -655,7 +655,6 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-			console.log("multiselect");
 			if (my.state === null) {
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
