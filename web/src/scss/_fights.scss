@@ -84,6 +84,10 @@
 // 	background-position:-380px 0;
 // }
 
+.step-7 .fighter_one.has_won.has_won_active, .step-7 .fighter_one.winner {
+	z-index:30;
+}
+
 .fight-start .fighter {
 	position: absolute;
 	margin:0;
@@ -212,14 +216,14 @@
 .choose-fighter {
 	background:#5F3001;
 	color:#F3F3ED;
-	font:700 12px/50px 'Oswald', Verdana, Arial, sans-serif;
+	font:700 12px/34px 'Oswald', Verdana, Arial, sans-serif;
 	display:block;
-	height:50px;
-	margin:0 0 0 30px;
+	height:34px;
+	margin:20px 0 0 58px;
 	padding:0;
 	text-align:center;
 	text-transform:uppercase;
-	width:200px;
+	width:148px;
 }
 
 .fight-container {
@@ -611,6 +615,10 @@
 		top: 127px;
 		// left: 383px;
 	}
+	.radar {
+		top: 155px;
+		// left: 383px;
+	}
 	.doping-car {
 		top: 137px;
 		// left: 383px;
@@ -621,10 +629,6 @@
 	top: -140px;
 	left: -300px;
 	z-index:7;
-	.radar {
-		top: 165px;
-		// left: 383px;
-	}
 	.followers {
 		top: 265px;
 		// left: 383px;
@@ -700,7 +704,7 @@
 		.step-start .#{$plan} .step-#{$i} {
 			left: 1000px;
 		}
-		.step-result .#{$plan} .step-#{$i} {
+		.step-results .#{$plan} .step-#{$i} {
 			left: -1000px;
 		}
 	}
@@ -708,7 +712,7 @@
 		.step-#{$j} .#{$plan} .step-start {
 			left: 1000px;
 		}
-		.step-#{$j} .#{$plan} .step-result {
+		.step-#{$j} .#{$plan} .step-results {
 			left: -1000px;
 		}
 	}
@@ -827,7 +831,7 @@
 
 .winner-block .winners_list {
 	background:#E7E8DF;
-	height:402px;
+	height:460px;
 }
 
 .winner-block .winners_list > ul {
