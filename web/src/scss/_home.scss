@@ -10,59 +10,64 @@
 	width:1000px;
 }
 
-.home-block {
-	display:block;
-	margin:0;
-	padding:0;
-	position:absolute;
-	z-index:2;
-}
-
 .home-block a {
+	background-position:left top;
+	background-repeat:no-repeat;
 	display:block;
 	font-size:0;
-	height:100%;
 	line-height:0;
 	margin:0;
 	overflow:hidden;
 	padding:0;
 	text-indent:100%;
-	width:100%;
 	white-space:nowrap;
+	position:absolute;
+	z-index:2;
 }
 
-.home-inner .traces {
-	height:214px;
-	left:18px;
-	top:38px;
-	width:283px;
+.home-block a:hover {
+	background-position:right top;
 }
 
-.home-inner .streetview {
-	height:170px;
-	left:679px;
-	top:38px;
-	width:319px;
+.home-inner .traces a {
+	background-image:url(/img/home/bt-hp-traces.png);
+    height: 273px;
+    left: 4px;
+    top: 14px;
+    width: 306px;
 }
 
-.home-inner .winners {
-	height:211px;
-	left:202px;
-	top:285px;
-	width:251px;
+.home-inner .streetview a {
+	background-image:url(/img/home/bt-hp-lieux.png);
+    height: 243px;
+    left: 638px;
+    top: 40px;
+    width: 361px;
 }
 
-.home-inner .fight {
-	height: 150px;
-	left: 513px;
-	top: 325px;
-	width: 305px;
+.home-inner .winners a {
+	background-image:url(/img/home/bt-hp-vainqueurs.png);
+    height: 193px;
+    left: 189px;
+    top: 287px;
+    width: 254px;
+}
+
+.home-inner .fight a {
+	background-image:url(/img/home/bt-hp-duels.png);
+    height: 230px;
+    left: 517px;
+    top: 282px;
+    width: 366px;
 }
 
 .home-search {
+	display:block;
 	left:381px;
 	top:211px;
 	width:252px;
+	position:absolute;
+	z-index:2;
 }
 
 #search {
