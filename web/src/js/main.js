@@ -283,12 +283,10 @@ var TDF = (function() {
 				var $footer = $content.find('footer');
 				$footer.html(jQuery('#template-footer').html());
 				// TO UPDATE
-				/*
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
 					height: 500
 				});
-				*/
 			}
 
 			for (var route in TDF.routes) {
