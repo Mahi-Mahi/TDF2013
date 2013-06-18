@@ -9,6 +9,16 @@ var liify = function(elt) {
 	return '<li>' + elt + '</li>';
 };
 
+// EXTEND JQUERY SCROLLTO
+jQuery.fn.extend({
+	scrollTo : function(speed, easing) {
+		return this.each(function() {
+			var targetOffset = jQuery(this).offset().top;
+			jQuery("html,body").animate({scrollTop: targetOffset}, speed, easing);
+		});
+	}
+});
+
 /* global console */
 /* global google  */
 /* global mapStyleTrace */
@@ -1630,6 +1640,7 @@ TDF.Winners = (function() {
 			// scrollpane_api.resizeScrollbars();
 			scrollpane_api.scrollToY(0);
 		});
+		jQuery('#main').scrollTo(500);
 
 	};
 
