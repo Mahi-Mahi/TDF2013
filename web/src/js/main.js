@@ -1640,8 +1640,9 @@ TDF.Winners = (function() {
 			// scrollpane_api.resizeScrollbars();
 			scrollpane_api.scrollToY(0);
 		});
-		jQuery('#main').scrollTo(500);
-
+		if ( jQuery(window).scrollTop() !== 0 ) {
+			jQuery('#main').scrollTo(500);
+		}
 	};
 
 	return my;
