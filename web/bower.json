@@ -15,7 +15,8 @@
     "jcarousellite": "git://github.com/olivM/jCarouselLite.git",
     "jquery-ui-touchpunch": "git://github.com/olivM/jQuery-UI-TouchPunch.git",
     "threejs": "git://github.com/mrdoob/three.js.git",
-    "modernizr": "git://github.com/Modernizr/Modernizr.git"
+    "modernizr": "git://github.com/Modernizr/Modernizr.git",
+    "labjs": "git://github.com/getify/LABjs.git"
   },
   "ignore": [
     "**/.*",

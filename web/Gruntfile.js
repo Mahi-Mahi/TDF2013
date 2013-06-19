@@ -118,7 +118,7 @@ module.exports = function(grunt) {
         '.htaccess',
     ],
     all_folders: [
-        'js/',
+        'js/**',
         'css/',
         'img/**'
     ],
@@ -132,10 +132,6 @@ module.exports = function(grunt) {
             cwd: 'src/',
             dest: 'dev/',
             filter: 'isFile'
-          }, {
-            src: 'src/js/lib/modernizr.js',
-            cwd: '',
-            dest: 'dev/js/modernizr.js'
           }, {
             expand: true,
             src: '<%= all_folders %>',
