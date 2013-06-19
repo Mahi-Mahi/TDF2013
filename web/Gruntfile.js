@@ -100,8 +100,14 @@ module.exports = function(grunt) {
         banner: '<%= banner %>'
       },
       dist: {
-        src: '<%= concat.dist.dest %>',
-        dest: '<%= concat.dist.dest %>'
+        files: [{
+            expand: true, // Enable dynamic expansion.
+            cwd: 'src/js/', // Src matches are relative to this path.
+            src: ['**/*.js'], // Actual pattern(s) to match.
+            dest: 'dist/js/', // Destination path prefix.
+            ext: '.js', // Dest filepaths will have this extension.
+          },
+        ],
       }
     },
 
@@ -112,6 +118,7 @@ module.exports = function(grunt) {
         '.htaccess',
     ],
     all_folders: [
+        'js/',
         'css/',
         'img/**'
     ],
@@ -238,10 +245,10 @@ module.exports = function(grunt) {
   // Default task.
   // jshint & concat to dev/
   // grunt.registerTask('default', ['sass:dev', 'jshint:main', 'concat:dev', 'copy:dev']);
-  grunt.registerTask('default', ['jshint:main', 'concat:dev', 'copy:dev', 'compass:dev']);
+  grunt.registerTask('default', ['jshint:main', 'copy:dev', 'compass:dev']); // 'concat:dev',
 
   // build production
-  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'concat:dist', 'compass:dist', 'uglify', 'copy:dist', 'copy:data_dist']);
+  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'compass:dist', 'uglify:dist', 'copy:dist', 'copy:data_dist']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);
