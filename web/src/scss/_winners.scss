@@ -312,30 +312,22 @@
 }
 
 .winners .ui-slider-handle {
-	// background:url(/img/vainqueurs/left-slider.png) left top no-repeat;
 	background:url(/img/vainqueurs/slider.png) left top no-repeat;
 	position: absolute;
 	margin:0 0 0 -5px;
-	width: 30px;
-	height: 22px;
-	top:-5px;
+	width: 23px;
+	height: 23px;
+	top:-8px;
 	outline:none;
 }
-.winners .ui-slider-handle:last-child span {
-	padding-left: 5px;
-}
-
-// .winners .ui-slider-handle:last-child {
-// 	background-image:url(/img/vainqueurs/right-slider.png);
-// 	margin:0 0 0 -4px;
-// }
 
 .ui-slider-handle span {
 	color:#633B00;
 	display:block;
 	font:400 14px 'Lato', Verdana, Arial, sans-serif;
 	margin:0;
-	padding:20px 0 0 0;
+	padding:22px 0 0 0;
+	text-align:center;
 }
 
 .top-winner-portrait {

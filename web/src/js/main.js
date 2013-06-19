@@ -2413,9 +2413,9 @@ TDF.Fight = (function() {
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
 		var shareUrl = document.location.href.replace(/\/[^\/]+\/$/, '/');
 		var shareText = 'Historique ! ' + fighter_one.last_name + ' a battu ' + fighter_two.last_name + ' dans un duel de légendes du Tour de France - via @RFnvx';
-		var res = '<a href="http://www.facebook.com/sharer.php?s=100&p[url]=' + encodeURIComponent(shareUrl) + '&p[title]=' + encodeURIComponent(shareText) + '" class="facebook" target="_blank">Facebook</a>';
-		res += '<a href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(shareUrl) + '&text=' + encodeURIComponent(shareText) + '" class="twitter" target="_blank">Twitter</a>';
-		res += '<a href="https://plus.google.com/share?url=' + encodeURIComponent(shareUrl) + '" class="gplus" target="_blank">Google+</a>';
+		var res = '<a href="http://www.facebook.com/sharer.php?s=100&p[url]=' + encodeURIComponent(shareUrl) + '&p[title]=' + encodeURIComponent(shareText) + '" class="external facebook">Facebook</a>';
+		res += '<a href="https://twitter.com/intent/tweet?url=' + encodeURIComponent(shareUrl) + '&text=' + encodeURIComponent(shareText) + '" class="external twitter">Twitter</a>';
+		res += '<a href="https://plus.google.com/share?url=' + encodeURIComponent(shareUrl) + '" class="external gplus">Google+</a>';
 		return res;
 	};
 
