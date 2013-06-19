@@ -28,8 +28,7 @@
         #cboxLoadedContent{margin-bottom:28px;}
         #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
         #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
-        #cboxLoadingOverlay{background:url(/img/colorbox/loading_background.png) no-repeat center center;}
-        #cboxLoadingGraphic{background:url(/img/colorbox/loading.gif) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(/img/colorbox/loading-bg.gif) no-repeat center center;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }

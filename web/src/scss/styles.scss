@@ -21,6 +21,7 @@ img { border: 0; }
 .clearfix:after { clear:both; }
 
 #main {
+	background:url(/img/colorbox/loading-bg.gif) center center no-repeat;
 	border-left:1px solid #fff;
 	border-right:1px solid #fff;
 	display:block;
@@ -84,9 +85,34 @@ img { border: 0; }
 	float: left;
 	width: 250px;
 }
+
 .content .bottom {
 	clear: both;
 	width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.home, .traces, .winners, .fight-home, .streeview, .search {
+     -webkit-animation: fadeIn .5s ease-in-out;
+     -moz-animation:   fadeIn .5s ease-in-out;
+     -ms-animation:     fadeIn .5s ease-in-out;
+     -o-animation:      fadeIn .5s ease-in-out;
 }
 
 @import "_header";
