@@ -25,10 +25,13 @@
 		<script src="/js/lib/labjs.js"></script>
 		<script>
 		$LAB
+			.script('/js/es5-shim.js')
+			// .script('/js/shims.js')
 			.script('/js/lib/jquery.js')
+			.wait()
+			.script('/js/compat.js')
 			.script('/js/lib/jquery-migrate.js')
 			.script('/js/lib/pathjs.js')
-			.script('/js/compat.js')
 			.wait().script('/js/main.js');
 		</script>
 

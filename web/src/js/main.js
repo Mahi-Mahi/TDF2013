@@ -71,6 +71,8 @@ var TDF = (function() {
 
 		*/
 
+		var url;
+
 		// Home
 		Path.root("/");
 		Path.map("/").to(function() {
@@ -248,7 +250,16 @@ var TDF = (function() {
 		jQuery(document).on('click', 'a', function(event) {
 			if (!jQuery(this).hasClass('external')) {
 				event.preventDefault();
-				Path.history.pushState({}, "", jQuery(this).attr("href"));
+				console.log( "=>" + jQuery(this).attr("href") );
+				if ( true ) {
+					url = jQuery(this).attr("href");
+				}
+				else {
+					url = '/#'+jQuery(this).attr("href");
+				}
+				console.log("__"+url);
+				Path.history.pushState({}, "", url);
+				return false;
 			}
 		});
 	};

@@ -429,12 +429,6 @@
         createEtapes: function(years, city, tours) {
             var self = this;
 
-            console.log("createEtapes");
-
-            console.log(years);
-            console.log(city);
-            console.log(tours);
-
             this.currentCity = null;
 
             if (city != undefined && city != null) {
