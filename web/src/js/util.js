@@ -22,3 +22,13 @@ String.prototype.format_time = function(br, prefix) {
 	return '';
 	// return this.replace('h', ' h').replace("'", ' min.').replace('"', " s");
 };
+
+// EXTEND JQUERY SCROLLTO
+jQuery.fn.extend({
+    scrollTo : function(speed, easing) {
+        return this.each(function() {
+            var targetOffset = jQuery(this).offset().top;
+            jQuery("html,body").animate({scrollTop: targetOffset}, speed, easing);
+        });
+    }
+});

@@ -1383,12 +1383,14 @@ TDF.Winners = (function() {
 			});
 
 			$main.find('.winners_list ul').html(winners_list.join(' '));
+			/*
 			$main.find('.winners_list').jScrollPane({
 				mouseWheelSpeed: '2',
 				maintainPosition: false,
 				autoReinitialise: true,
 				animateScroll: true
 			});
+	*/
 
 			var filters = {};
 
@@ -1626,9 +1628,9 @@ TDF.Winners = (function() {
 			jQuery(this).css({
 				display: 'none'
 			});
-			var scrollpane_api = $main.find('.winners_list').data('jsp');
+			//var scrollpane_api = $main.find('.winners_list').data('jsp');
 			// scrollpane_api.resizeScrollbars();
-			scrollpane_api.scrollToY(0);
+			jQuery('#header').scrollTo(1000);
 		});
 
 	};
