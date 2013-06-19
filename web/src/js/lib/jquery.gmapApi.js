@@ -1523,7 +1523,7 @@
 
             var pWidth = 742;
             var pHeight = 500;
-
+            
             var pano = document.getElementById(self.settings.hyperlapseId);
 
 
@@ -1536,12 +1536,12 @@
                 width: qualityWidth,
                 height: qualityHeight,
                 elevation: 50,
-//                fov: data.position,
                 millis: data.millis,
                 distance_between_points: data.distance,
                 max_points: 100
             });             
-            this.hyperlapse.position.x = data.position;
+            
+            this.hyperlapse.position.x = data.position*1;
 
             if(self.minimap != null){
 
@@ -1677,6 +1677,7 @@
             this.hyperlapse.onRouteComplete = function(e) {
                 self.hyperlapse.load();
 
+                self.hyperlapse.position.x = data.position*1;
                 directionsDisplay.setDirections(e.response);
 
             };
@@ -1689,16 +1690,17 @@
             };
 
             this.hyperlapse.onLoadComplete = function(e) {
+//                self.hyperlapse.position.x = data.position;
                 self.hyperlapse.setSize(pWidth, pHeight);
                 self.hyperlapse.play();
             };
 
 
             this.hyperlapse.onFrame = function(e) {
-
                 markerAnimate.setPosition(e.point.location);
 
                 self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
+                
             };
 
 
