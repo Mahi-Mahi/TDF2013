@@ -1675,6 +1675,7 @@
             this.hyperlapse.onRouteComplete = function(e) {
                 self.hyperlapse.load();
 
+                self.hyperlapse.position.x = data.position*1;
                 directionsDisplay.setDirections(e.response);
 
             };
@@ -1687,16 +1688,17 @@
             };
 
             this.hyperlapse.onLoadComplete = function(e) {
+//                self.hyperlapse.position.x = data.position;
                 self.hyperlapse.setSize(pWidth, pHeight);
                 self.hyperlapse.play();
             };
 
 
             this.hyperlapse.onFrame = function(e) {
-
                 markerAnimate.setPosition(e.point.location);
 
                 self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
+
             };
 
 
