@@ -68,7 +68,7 @@
     "url": "http://wedodata.gotoandbuzz.fr/examples/viewer.html#46.93309000000001,-2.1321100000000004,46.922882819880385,-2.1021818825073524,46.9232,-2.1076200000000003,0",
     "coords": "46.933854,-2.133923",
     "distance": "40",
-    "millis": "90",
+    "millis": "150",
     "lookat": "off",
     "position": "180",
     "excerpt": "Un moment pittoresque de l'histoire du Tour.",
@@ -85,7 +85,7 @@
     "lookat": "off",
     "position": "0",
     "excerpt": "Le lieu d'une des images marquantes du Tour.",
-    "text": "Durant le Tour 2003, Joseba Beloki, alors 2e du classement, chûte lourdement ici. Pour l'éviter, Lens Armstrong est contraint de couper à travers champs (<a href=\"http://www.youtube.com/watch?v=h_8m5-sR6I4\" target=\"_blank\">Voir la vidéo</a>)."
+    "text": "Durant le Tour 2003, Joseba Beloki, alors 2e du classement, chûte lourdement ici. Pour l'éviter, Lens Armstrong est contraint de couper à travers champs."
   },
   "pra-loup": {
     "id": "pra-loup",
@@ -107,7 +107,7 @@
     "url": "http://wedodata.gotoandbuzz.fr/examples/viewer.html#47.82782,6.83699,47.821538704814714,6.835721163940434,47.82092,6.834460000000001,0",
     "coords": "47.821425,6.834269",
     "distance": "15",
-    "millis": "130",
+    "millis": "180",
     "lookat": "off",
     "position": "0",
     "excerpt": "Les premiers coups de pédale en montagne.",
@@ -128,16 +128,16 @@
   },
   "mont-saint-michel": {
     "id": "mont-saint-michel",
-    "name": "Mont Saint Michel",
+    "name": "Mont Saint-Michel",
     "type": "Hyperlapse",
     "url": "http://wedodata.gotoandbuzz.fr/examples/viewer.html#48.62299,-1.5092700000000001,48.63568075863218,-1.5111619846557005,48.63308000000001,-1.5096900000000002,0",
     "coords": "48.632568,-1.509418",
     "distance": "20",
-    "millis": "120",
+    "millis": "150",
     "lookat": "on",
     "position": "0",
-    "excerpt": "Quand le Tour prend des airs de carte postale...",
-    "text": "Pour la seconde fois seulement (après l'édition 1990), le Tour 2013 compte une étape qui s'achève au Mont Saint-Michel (la 11e, Avranches - Mont-Saint-Michel, contre-la-montre de 33 kilomètres)."
+    "excerpt": "Quand le Tour prend des airs de carte postale…",
+    "text": "Pour la seconde fois seulement (après l'édition 1990), le Tour 2013 compte une étape qui s'achève au Mont Saint-Michel (la 11e, Avranches - Mont Saint-Michel, contre-la-montre de 33 kilomètres)."
   },
   "promenade-des-anglais": {
     "id": "promenade-des-anglais",
