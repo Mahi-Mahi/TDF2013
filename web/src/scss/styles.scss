@@ -116,6 +116,10 @@ img { border: 0; }
      -o-animation:      fadeIn .5s ease-in-out;
 }
 
+.hide-important {
+	display:none !important;
+}
+
 @import "_header";
 @import "_home";
 @import "_winners";
@@ -127,5 +131,3 @@ img { border: 0; }
 @import "_tooltips";
 @import "_colorbox";
 @import "_jscrollpane";
-
-
