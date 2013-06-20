@@ -705,6 +705,7 @@ TDF.Traces = (function() {
 	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive #appli #data #TDF via @RFnvx";
 
 	my.city_years = [];
+	my.city_slider_set = false;
 
 	my.state = null;
 	my.state_interval = null;
@@ -826,6 +827,9 @@ TDF.Traces = (function() {
 			if (my.args.years.length < 2) {
 				if (my.state === null) {
 					jQuery('.traces #start-pause').addClass('active');
+					if ( jQuery('.timeline-zoom input:checked').val() === '2013' ){
+						jQuery('.timeline-zoom input:first').click();
+					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
 						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 						my.state_interval = setInterval(function() {
@@ -881,6 +885,7 @@ TDF.Traces = (function() {
 				results: function() {}
 			},
 			select: function(event, ui) {
+				my.city_slider_set = false;
 				Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + ui.item.value.split(',')[0] + '/'); // my.args.years.join(',') + '/' +
 			}
 		});
@@ -888,12 +893,14 @@ TDF.Traces = (function() {
 		if (searchInput.val().length > 0) {}
 
 		form.submit(function() {
+			my.city_slider_set = false;
 			Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
 			return false;
 		});
 
 		searchInput.bind('keydown', function(e) {
 			if (e.keyCode === 13) {
+				my.city_slider_set = false;
 				Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
 			}
 		});
@@ -983,16 +990,6 @@ TDF.Traces = (function() {
 		if (args !== undefined) {
 			my.args = args;
 		}
-
-		/*
-		addthis.init();
-		var res = addthis.toolbox("#toolbox", {
-			services_compact: 'twitter'
-		}, {
-			title: "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx",
-			description: "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx"
-		});
-		*/
 
 		if (my.args.years === undefined) {
 			if (my.args.city === undefined) {
@@ -1146,8 +1143,9 @@ TDF.Traces = (function() {
 
 		var slider_default;
 		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
-		if (my.city_years.length > 0) {
+		if (my.city_slider_set === false && my.city_years.length > 0) {
 			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length);
+			my.city_slider_set = true;
 		} else {
 			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
 		}
