@@ -646,7 +646,6 @@ TDF.CitySearch = (function() {
 				return matcher.test(value.label || value.value || value);
 			});
 		};
-
 		searchInput.autocomplete({
 			minLength: 1,
 			source: TDF.Data.cities,
@@ -654,13 +653,13 @@ TDF.CitySearch = (function() {
 				noResults: '',
 				results: function() {}
 			},
+			appendTo:'#city_search',
 			select: function() {
 				geocoding();
 			}
 		});
 
 		if (searchInput.val().length > 0) {
-
 			geocoding();
 		}
 
@@ -669,7 +668,6 @@ TDF.CitySearch = (function() {
 			geocoding();
 
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
-
 			return false;
 		});
 
@@ -1098,7 +1096,7 @@ TDF.Traces = (function() {
 			$main.find('#multi-select').prop('checked', (my.args.years.length > 1));
 
 			my.initializeGmap();
-			// my.autocomplete_init();
+			my.autocomplete_init();
 
 		}
 
