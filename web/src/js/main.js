@@ -1144,11 +1144,16 @@ TDF.Traces = (function() {
 
 		my.gmapApi.createEtapes(my.args.years, my.args.city, TDF.Data.traces);
 
-		var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
+		var slider_default;
+		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
+		if (my.city_years.length > 0) {
+			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length);
+		} else {
+			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
+		}
 		$main.find(".timeline .slider").slider({
 			value: slider_default
 		});
-		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 		$main.find('.timeline-zoom').scrollLeft(Math.round(slide_width * slider_default / 100));
 
 		// $main.find('.map-container .back').attr('href', my.base_url + (my.args.city ? my.args.city + '/' : ''));
