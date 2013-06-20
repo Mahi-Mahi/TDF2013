@@ -1715,10 +1715,14 @@ TDF.Winners = (function() {
 			jQuery(this).css({
 				display: 'none'
 			});
-			//var scrollpane_api = $main.find('.winners_list').data('jsp');
-			// scrollpane_api.resizeScrollbars();
 			jQuery('#header').scrollTo(1000);
 		});
+		if ( jQuery(".winners_list .winner:data(show)").length === 0 ) {
+			jQuery(".winners_list .no-results").fadeIn();
+		}
+		else {
+			jQuery(".winners_list .no-results").hide();
+		}
 		if (jQuery(window).scrollTop() !== 0) {
 			jQuery('#main').scrollTo(500);
 		}
