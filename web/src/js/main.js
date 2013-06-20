@@ -395,7 +395,7 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
-		text = text.replace(/via /, 'par ');
+		text = text.replace(/via /, '');
 
 		addthis.toolbox('#addthis-share', {}, {
 			url: 'http://' + document.location.hostname + url,
@@ -541,7 +541,6 @@ TDF.CitySearch = (function() {
 	my.init = function(args) {
 		my.args = args;
 		$LAB
-			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery.gmapApi.js')
 			.script('/js/lib/gmap.infobox.js')
 			.script('/js/lib/map-marker-label.js')
@@ -576,8 +575,6 @@ TDF.CitySearch = (function() {
 		if (TDF.loadTemplate(my)) {}
 
 		$main.find('#search').val(my.args.city_name);
-
-		jQuery('input').placeholder();
 
 		my.autocomplete_init();
 
@@ -711,7 +708,7 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
-	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une carte interactive via @franceinfo @francebleu #TDF";
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive #appli #data #TDF via @RFnvx";
 
 	my.city_years = [];
 	my.city_slider_set = false;
@@ -726,7 +723,6 @@ TDF.Traces = (function() {
 	my.init = function(args) {
 		my.args = args;
 		$LAB
-			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery.gmapApi.js')
 			.script('/js/lib/gmap.infobox.js')
 			.script('/js/lib/map-marker-label.js')
@@ -1127,8 +1123,6 @@ TDF.Traces = (function() {
 
 		TDF.setShares(my.base_url, my.share_text);
 
-		jQuery('input').placeholder();
-
 	};
 
 	my.setYears = function() {
@@ -1314,12 +1308,11 @@ TDF.Winners = (function() {
 	my.name = 'winners';
 	my.base_url = '/vainqueurs/';
 
-	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France via @franceinfo @francebleu #TDF";
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France #appli #data #TDF via @RFnvx";
 
 	my.init = function(args) {
 		my.args = args;
 		$LAB
-			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery-ui.js')
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.script('/js/lib/jquery-selectbox.js')
@@ -1355,9 +1348,13 @@ TDF.Winners = (function() {
 
 			var age = $main.find(".filters .age .slider");
 			age.slider('option', 'values', [age.slider('option', 'min'), age.slider('option', 'max')]);
+			age.find(".ui-slider-handle:eq(0)").html('<span>' + age.slider('option', 'min') + '</span>');
+			age.find(".ui-slider-handle:eq(1)").html('<span>' + age.slider('option', 'max') + '</span>');
 
 			var nb_wins = $main.find(".filters .nb_wins .slider");
 			nb_wins.slider('option', 'values', [nb_wins.slider('option', 'min'), nb_wins.slider('option', 'max')]);
+			nb_wins.find(".ui-slider-handle:eq(0)").html('<span>' + nb_wins.slider('option', 'min') + '</span>');
+			nb_wins.find(".ui-slider-handle:eq(1)").html('<span>' + nb_wins.slider('option', 'max') + '</span>');
 		});
 
 		var tmp = [];
@@ -1501,13 +1498,13 @@ TDF.Winners = (function() {
 				},
 				slide: function(event, ui) {
 					Path.history.pushState({}, "", my.getQueryString());
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '</span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '</span>');
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '</span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '</span>');
 				}
 			});
 
@@ -1527,14 +1524,14 @@ TDF.Winners = (function() {
 					Path.history.pushState({}, "", my.getQueryString());
 				},
 				slide: function(event, ui) {
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + ui.values[0] + '</span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + ui.values[1] + '</span>');
 					Path.history.pushState({}, "", my.getQueryString());
 				},
 				create: function() {
 					var values = jQuery(this).slider('values');
-					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '<span>');
-					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '<span>');
+					jQuery(this).find(".ui-slider-handle:eq(0)").html('<span>' + values[0] + '</span>');
+					jQuery(this).find(".ui-slider-handle:eq(1)").html('<span>' + values[1] + '</span>');
 				}
 			});
 
@@ -1550,8 +1547,6 @@ TDF.Winners = (function() {
 		my.filter();
 
 		TDF.setShares(my.base_url, my.share_text);
-
-		jQuery('input').placeholder();
 
 	};
 
@@ -1739,7 +1734,7 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
-	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! via @franceinfo @francebleu #TDF";
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! #cyclisme #appli #data #TDF via @RFnvx";
 
 	my.steps = null;
 
@@ -2602,7 +2597,7 @@ TDF.StreetView = (function() {
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
 
-	my.share_text = "Parcourez les routes mythiques du Tour de France #streetview via @franceinfo @francebleu #TDF";
+	my.share_text = "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx";
 
 	my.gmapApi = null;
 
@@ -2615,7 +2610,7 @@ TDF.StreetView = (function() {
 			.script('/js/lib/map-style.js')
 			.script('/js/lib/GSVPano.js')
 			.script('/js/lib/three.js')
-			.script('/js/lib/Hyperlapse.js')
+			.script('/js/lib/hyperlapse.js')
 			.wait(function() {
 			TDF.Data.load('places', 'places', function() {
 				my.start();
@@ -2858,10 +2853,8 @@ TDF.Data = (function() {
 }());
 
 jQuery(window).load(function() {
-	/*
 	if (document.location.pathname !== '/') {
 		document.location.href = '/#' + document.location.pathname;
 	}
-	*/
 	TDF.init();
 });
