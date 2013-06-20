@@ -367,6 +367,7 @@ var TDF = (function() {
 		$LAB
 			.script('/js/lib/jquery.colorbox.js')
 			.wait(function() {
+				console.log("colorbox loaded");
 			my.start();
 		});
 	};
@@ -671,7 +672,6 @@ TDF.CitySearch = (function() {
 
 			}
 		});
-
 
 		$main.on('change', '.selectYearSearch', function(event) {
 			event.preventDefault();
@@ -2067,6 +2067,9 @@ TDF.Fight = (function() {
 				$fighter_one.find('.result').html(fighter_one_result);
 				$fighter_two.find('.result').html(fighter_two_result);
 
+				$fighter_one.find('.fighter-infos').slideDown();
+				$fighter_two.find('.fighter-infos').slideDown();
+
 
 				// ANIM OUT NEXT
 				$inner.find('.background .beef-car').stop().animate({
@@ -2420,9 +2423,22 @@ TDF.Fight = (function() {
 					'left': '-' + (my.args.step * 770) + 'px'
 				}, step_duration, 'linear');
 
+				$fighter_one.find('.fighter-infos').slideUp();
 				$fighter_one.find('.result').html(fighter_one_result);
+				setTimeout(function(){
+					$fighter_one.find('.fighter-infos').slideDown();
+				}, step_duration);
+
+				$fighter_two.find('.fighter-infos').slideUp();
+				$fighter_two.find('.result').html(fighter_two_result);
+				setTimeout(function(){
+					$fighter_two.find('.fighter-infos').slideDown();
+				}, step_duration);
+
+				/*
 				$fighter_two.find('.result').html(fighter_two_result);
 				$fighter_two.find('.fighter-infos').show();
+				*/
 
 				if (my.args.step === 7 || my.args.step === 'results') {
 					if (fighter_one.score > fighter_two.score) {
