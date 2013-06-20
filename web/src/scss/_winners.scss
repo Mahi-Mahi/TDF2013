@@ -28,7 +28,7 @@
 }
 
 #winner .tours li.pos-Non-partant {
-	background:url(/img/vainqueurs/bg-non-partant.png) 50% 50% no-repeat #f2f2ed;
+	// background:url(/img/vainqueurs/bg-non-partant.png) 50% 50% no-repeat #f2f2ed;
 }
 
 #winner .tours li.pos-Non-partant a {
@@ -73,7 +73,7 @@
 	color:#DC0A27;
 }
 
-#winner .tours > li.empty {
+#winner .tours > li.empty, #winner .tours li.pos-Non-partant {
 	background:#fff;
 }
 
@@ -126,7 +126,7 @@
 	font:700 10px/22px 'Lato', Verdana, Arial, sans-serif;
 }
 
-.winners #winner .tours .empty .year {
+.winners #winner .tours .empty .year, #winner .tours li.pos-Non-partant .year {
 	color:#f2f2ed;
 }
 
