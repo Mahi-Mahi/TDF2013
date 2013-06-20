@@ -2070,6 +2070,8 @@ TDF.Fight = (function() {
 				$fighter_one.find('.fighter-infos').slideDown();
 				$fighter_two.find('.fighter-infos').slideDown();
 
+				// $inner.find('.fight-container > .title').slideDown();
+
 
 				// ANIM OUT NEXT
 				$inner.find('.background .beef-car').stop().animate({
@@ -2422,6 +2424,11 @@ TDF.Fight = (function() {
 				$inner.find('.landscape').stop().animate({
 					'left': '-' + (my.args.step * 770) + 'px'
 				}, step_duration, 'linear');
+
+				$inner.find('.fight-container > .title').slideUp();
+				setTimeout(function(){
+					$inner.find('.fight-container > .title').slideDown();
+				}, step_duration);
 
 				$fighter_one.find('.fighter-infos').slideUp();
 				$fighter_one.find('.result').html(fighter_one_result);

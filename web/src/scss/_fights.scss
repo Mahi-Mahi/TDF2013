@@ -307,9 +307,10 @@
 }
 
 .fight-container .title {
+	display: none;
+
 	background:url(/img/duels/bg-fight-infos.png) -38px 0 no-repeat;
 	color:#76766A;
-	display:block;
 	font:700 14px/1.3 'Oswald', Verdana, Arial, sans-serif;
 	height:166px;
 	margin: 0;
@@ -324,7 +325,7 @@
 }
 
 .step-start .fight-container .title {
-	display:none;
+	// display:none;
 }
 
 .fight-container .title strong {
