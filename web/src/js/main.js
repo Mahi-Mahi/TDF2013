@@ -389,7 +389,7 @@ var TDF = (function() {
 
 	my.setShares = function(url, text) {
 
-		text = text.replace(/via /, '');
+		text = text.replace(/via /, 'par ');
 
 		addthis.toolbox('#addthis-share', {}, {
 			url: 'http://' + document.location.hostname + url,
@@ -2587,7 +2587,7 @@ TDF.StreetView = (function() {
 	my.name = 'streetview';
 	my.base_url = '/lieux-mythiques/';
 
-	my.share_text = "Parcourez les routes mythiques du Tour de France #streetview #appli #data #TDF via @RFnvx";
+	my.share_text = "Parcourez les routes mythiques du Tour de France #streetview via @franceinfo @francebleu #TDF";
 
 	my.gmapApi = null;
 
@@ -2600,7 +2600,7 @@ TDF.StreetView = (function() {
 			.script('/js/lib/map-style.js')
 			.script('/js/lib/GSVPano.js')
 			.script('/js/lib/three.js')
-			.script('/js/lib/hyperlapse.js')
+			.script('/js/lib/Hyperlapse.js')
 			.wait(function() {
 			TDF.Data.load('places', 'places', function() {
 				my.start();

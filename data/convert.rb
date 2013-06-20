@@ -54,11 +54,6 @@ CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
 		end
 		place[:excerpt] = row[10]
 		place[:text] = row[11]
-		if tmp = row[12].match(/^(\d+) à (\d+)$/)
-			place[:years] = ((tmp[1].to_i)..(tmp[2].to_i)).to_a
-		else
-			place[:years] = row[12].split(/,\s*/).map { |e| e.to_i }
-		end
 
 		places[place[:id]] = place
 
