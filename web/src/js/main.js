@@ -2852,8 +2852,10 @@ TDF.Data = (function() {
 }());
 
 jQuery(window).load(function() {
+	/*
 	if (document.location.pathname !== '/') {
 		document.location.href = '/#' + document.location.pathname;
 	}
+	*/
 	TDF.init();
 });
