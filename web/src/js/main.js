@@ -658,7 +658,6 @@ TDF.CitySearch = (function() {
 		});
 
 		if (searchInput.val().length > 0) {
-
 			geocoding();
 		}
 
@@ -2853,8 +2852,4 @@ TDF.Data = (function() {
 
 jQuery(window).load(function() {
 	TDF.init();
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 3fec8be1f5eaa73ea59f44323f83612a3eeb7f66
