@@ -2173,10 +2173,10 @@ TDF.Fight = (function() {
 						$inner.find('.background .beef-car').stop().delay(step_duration * 0.25).animate({
 							left: '714px'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-left').stop().delay(step_duration * 0.25).animate({
+						$inner.find('.foreground .lady-left').stop().show().delay(step_duration * 0.25).animate({
 							left: '310px'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-right').stop().delay(step_duration * 0.5).animate({
+						$inner.find('.foreground .lady-right').stop().show().delay(step_duration * 0.5).animate({
 							left: '646px'
 						}, step_duration * 0.5, 'linear');
 
