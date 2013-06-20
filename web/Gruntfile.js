@@ -116,6 +116,7 @@ module.exports = function(grunt) {
         'methodologie.html',
         'credits.html',
         '.htaccess',
+        'robots.txt'
     ],
     all_folders: [
         'js/**',

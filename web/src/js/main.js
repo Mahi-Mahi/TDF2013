@@ -705,7 +705,7 @@ TDF.Traces = (function() {
 	my.data = null;
 	my.args = null;
 
-	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une #carte interactive #appli #data #TDF via @RFnvx";
+	my.share_text = "Découvrez les tracés des 100 éditions du Tour de France dans une carte interactive via @franceinfo @francebleu #TDF";
 
 	my.city_years = [];
 	my.city_slider_set = false;
@@ -1308,7 +1308,7 @@ TDF.Winners = (function() {
 	my.name = 'winners';
 	my.base_url = '/vainqueurs/';
 
-	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France #appli #data #TDF via @RFnvx";
+	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France via @franceinfo @francebleu #TDF";
 
 	my.init = function(args) {
 		my.args = args;
@@ -1733,7 +1733,7 @@ TDF.Fight = (function() {
 	my.name = 'fight';
 	my.base_url = '/duels-de-legendes/';
 
-	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! #cyclisme #appli #data #TDF via @RFnvx";
+	my.share_text = "Si Bernard Hinault défiait Lance Armstrong, qui gagnerait ? La réponse ici ! via @franceinfo @francebleu #TDF";
 
 	my.steps = null;
 

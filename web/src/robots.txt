@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /:flag_url
+Disallow: /:place_pic
+Disallow: /:place_url
+Disallow: /:portrait_url
+Disallow: /:winner_url
