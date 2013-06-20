@@ -215,6 +215,10 @@
 
 .winners_list .no-results {
 	display: none;
+	text-align: center;
+	min-height: 300px;
+	background: #F2F2ED;
+	font: normal 16px/350px 'Lato';
 }
 
 .winners footer {

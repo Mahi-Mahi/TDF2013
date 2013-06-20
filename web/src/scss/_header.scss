@@ -39,6 +39,10 @@ header a {
 	width:60px;
 }
 
+.lt-ie9 header a {
+	font-size:9px;
+}
+
 header h1 {
 	background:url(/img/header/logo.png) left top no-repeat;
 	display:block;
