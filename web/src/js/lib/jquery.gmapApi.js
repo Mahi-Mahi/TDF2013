@@ -70,13 +70,7 @@
 
 
 
-
-
-
-
-
         this.animateInterval = null;
-
 
 
 
@@ -132,15 +126,15 @@
         mapTypeControl: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: null,
-//        routeControlImageUrls: null,
-//        geolocationIconUrl: null,
-//        startNavigationButton: 'startGmapNavigation',
-//        stopNavigationButton: 'stopGmapNavigation',
-//        geolocationOptions: {
-//            maximumAge: Infinity,
-//            timeout: 60000,
-//            enableHighAccuracy: true
-//        },
+        //        routeControlImageUrls: null,
+        //        geolocationIconUrl: null,
+        //        startNavigationButton: 'startGmapNavigation',
+        //        stopNavigationButton: 'stopGmapNavigation',
+        //        geolocationOptions: {
+        //            maximumAge: Infinity,
+        //            timeout: 60000,
+        //            enableHighAccuracy: true
+        //        },
         controlStyle: {
             margin: '5px',
             padding: '1px 6px',
@@ -174,10 +168,9 @@
         if (typeof options === 'string') {
             var args = Array.prototype.slice.call(arguments, 1);
             this.each(function() {
-                instance[ options ].apply(instance, args);
+                instance[options].apply(instance, args);
             });
-        }
-        else {
+        } else {
             this.each(function() {
                 instance ? instance._init() : instance = $.data(this, 'gmapApi', new $.GmapApi(options, this));
             });
@@ -210,8 +203,7 @@
             var self = this;
 
 
-            this.map = new google.maps.Map(document.getElementById(this.element.id),
-            {
+            this.map = new google.maps.Map(document.getElementById(this.element.id), {
                 mapTypeId: this.settings.mapTypeId,
                 center: this.settings.center,
                 mapTypeControl: this.settings.mapTypeControl,
@@ -225,9 +217,8 @@
                 styles: this.settings.styles
             });
 
-            if(this.settings.minimap != null){
-                this.minimap = new google.maps.Map(document.getElementById(this.settings.minimap),
-                {
+            if (this.settings.minimap != null) {
+                this.minimap = new google.maps.Map(document.getElementById(this.settings.minimap), {
                     mapTypeId: this.settings.mapTypeId,
                     center: this.settings.center,
                     mapTypeControl: false,
@@ -235,19 +226,18 @@
                     zoom: 11,
                     zoomControl: true,
                     zoomControlOptions: {
-                            style: google.maps.ZoomControlStyle.SMALL
+                        style: google.maps.ZoomControlStyle.SMALL
                     },
                     styles: this.settings.stylesMinimap
                 });
             }
 
             google.maps.event.addListener(this.map, "zoom_changed", function() {
-                var Z= self.map.getZoom();
+                var Z = self.map.getZoom();
 
                 if (Z > self.settings.zoomMin) {
                     self.map.setZoom(self.settings.zoomMin);
-                }
-                else if (Z < self.settings.zoomMax) {
+                } else if (Z < self.settings.zoomMax) {
                     self.map.setZoom(self.settings.zoomMax);
                 }
             });
@@ -260,7 +250,7 @@
         /**
          * Getter for map
          */
-        getMap: function(){
+        getMap: function() {
             return this.map;
         },
 
@@ -269,29 +259,29 @@
          *
          * Create all icon
          */
-         _createImage: function() {
-             var self = this;
+        _createImage: function() {
+            var self = this;
 
-            if(this.settings.markerIconImg != null){
+            if (this.settings.markerIconImg != null) {
                 this.markerIcon = {
                     url: this.settings.markerIconImg,
                     size: new google.maps.Size(self.settings.markerIconSize[0], self.settings.markerIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(self.settings.markerIconSize[0]/2, self.settings.markerIconSize[1]/2)
+                    anchor: new google.maps.Point(self.settings.markerIconSize[0] / 2, self.settings.markerIconSize[1] / 2)
                 };
             }
 
 
-            if(this.settings.markerCircleIconImg != null){
+            if (this.settings.markerCircleIconImg != null) {
                 this.markerCircleIcon = {
                     url: this.settings.markerCircleIconImg,
                     size: new google.maps.Size(self.settings.markerCircleIconSize[0], self.settings.markerCircleIconSize[1]),
                     origin: new google.maps.Point(0, 0),
-                    anchor: new google.maps.Point(self.settings.markerCircleIconSize[0]/2, self.settings.markerCircleIconSize[1]/2)
+                    anchor: new google.maps.Point(self.settings.markerCircleIconSize[0] / 2, self.settings.markerCircleIconSize[1] / 2)
                 };
             }
 
-            if(this.settings.markerLabelIconImg != null){
+            if (this.settings.markerLabelIconImg != null) {
                 this.markerLabelIcon = {
                     url: this.settings.markerLabelIconImg,
                     size: new google.maps.Size(self.settings.markerLabelIconSize[0], self.settings.markerLabelIconSize[1]),
@@ -301,7 +291,7 @@
             }
 
 
-            $.each(self.settings.markersIcons, function(i, m){
+            $.each(self.settings.markersIcons, function(i, m) {
                 var marker = {
                     url: m.url,
                     size: new google.maps.Size(m.width, m.height),
@@ -312,7 +302,7 @@
                 self.markersIcons.push(marker);
             });
 
-         },
+        },
 
 
         /**
@@ -321,21 +311,21 @@
          * Delete all overlay on the map
          *
          */
-        clearMap: function(){
+        clearMap: function() {
 
-            for(var i = 0; i < this.lines.length; i++){
+            for (var i = 0; i < this.lines.length; i++) {
                 this.lines[i].setMap(null);
             }
 
-            for(var i = 0; i < this.dashedlines.length; i++){
+            for (var i = 0; i < this.dashedlines.length; i++) {
                 this.dashedlines[i].setMap(null);
             }
 
-            for(var i = 0; i < this.circles.length; i++){
+            for (var i = 0; i < this.circles.length; i++) {
                 this.circles[i].setMap(null);
             }
 
-            for(var i = 0; i < this.markers.length; i++){
+            for (var i = 0; i < this.markers.length; i++) {
                 this.markers[i].setMap(null);
             }
         },
@@ -344,26 +334,26 @@
         /**
          * DisplayEtape
          */
-        displayEtape: function(tour){
-            for(var i = 0; i < tour['markers'].length; i++){
+        displayEtape: function(tour) {
+            for (var i = 0; i < tour['markers'].length; i++) {
                 var marker = tour['markers'][i];
                 marker.setMap(this.map);
 
                 this.mapBounds.extend(marker.getPosition());
             }
 
-            for(var i = 0; i < tour['circles'].length; i++){
+            for (var i = 0; i < tour['circles'].length; i++) {
                 var circle = tour['circles'][i];
                 circle.setMap(this.map);
 
                 this.mapBounds.extend(circle.getPosition());
             }
 
-            for(var i = 0; i < tour['dashedlines'].length; i++){
+            for (var i = 0; i < tour['dashedlines'].length; i++) {
                 tour['dashedlines'][i].setMap(this.map);
             }
 
-            for(var i = 0; i < tour['lines'].length; i++){
+            for (var i = 0; i < tour['lines'].length; i++) {
                 tour['lines'][i].setMap(this.map);
             }
 
@@ -375,7 +365,7 @@
          *
          *
          */
-        setMultiple: function(isMultiple){
+        setMultiple: function(isMultiple) {
 
             this.multiple = isMultiple;
 
@@ -389,28 +379,29 @@
          * Add yellow pointer on map
          *
          */
-        addCityOnTraces: function(city){
+        addCityOnTraces: function(city) {
             var self = this;
 
             this.removeCityOnTraces();
 
-            if(city != undefined && city != null){
+            if (city != undefined && city != null) {
 
                 var geocoder = new google.maps.Geocoder();
 
-                geocoder.geocode({'address': city }, function(results, status) {
+                geocoder.geocode({
+                    'address': city
+                }, function(results, status) {
                     if (status === google.maps.GeocoderStatus.OK) {
                         var lat = results[0].geometry.location.lat();
-                        var lng =  results[0].geometry.location.lng();
+                        var lng = results[0].geometry.location.lng();
 
 
                         self.cityMarker = self.createMarker(lat, lng, city, self.markersIcons[4]);
                         self.createInfoWindowTrace(self.cityMarker, city);
                         self.cityMarker.setZIndex(1000);
 
-                    }
-                    else {
-                            console.log('Geocode was not successful for the following reason: ' + status);
+                    } else {
+                        console.log('Geocode was not successful for the following reason: ' + status);
                     }
                 });
             }
@@ -422,9 +413,9 @@
          * Remove yellow pointer on map
          *
          */
-        removeCityOnTraces: function(){
+        removeCityOnTraces: function() {
 
-            if(this.cityMarker)
+            if (this.cityMarker)
                 this.cityMarker.setMap(null);
         },
 
@@ -435,20 +426,19 @@
          * Create etape from data
          *
          */
-        createEtapes: function(years, city, tours){
+        createEtapes: function(years, city, tours) {
             var self = this;
-
 
             this.currentCity = null;
 
-            if(city != undefined && city != null){
+            if (city != undefined && city != null) {
                 this.currentCity = city.split(',')[0];
             }
 
             this.years = years;
 
             this.multiple = false;
-            if(this.years.length > 1){
+            if (this.years.length > 1) {
                 this.multiple = true;
             }
 
@@ -465,11 +455,10 @@
 
                 repositionne = true;
 
-
-//                if(self.tours[year] != undefined){
-//                    self.displayEtape(self.tours[year]);
-//                    return true; //like break, for $.each
-//                }
+                //                if(self.tours[year] != undefined){
+                //                    self.displayEtape(self.tours[year]);
+                //                    return true; //like break, for $.each
+                //                }
 
                 self.tours[year] = new Object();
                 self.tours[year]['markers'] = [];
@@ -480,7 +469,7 @@
 
                 $.each(tours, function(i, tour) {
 
-                    if(year == tour.year){
+                    if (year == tour.year) {
 
                         var previousEtape;
 
@@ -488,29 +477,27 @@
 
                         $.each(tour.legs, function(j, etape) {
 
-                            if(etape.start.city == etape.finish.city){
+                            if (etape.start.city == etape.finish.city) {
 
-//                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
+                                //                                var circle = self.createCircle(etape.start.lat, etape.start.lng);
                                 var circle;
 
-//                                if(self.currentCity == etape.start.city){
-//                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
-//                                }
-                                if(self.multiple){
+                                //                                if(self.currentCity == etape.start.city){
+                                //                                    circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[4]);
+                                //                                }
+                                if (self.multiple) {
                                     circle = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, self.markersIcons[2]);
-                                }
-                                else{
+                                } else {
                                     circle = self.createMarkerCircle(etape.start.lat, etape.start.lng, etape.start.city);
                                 }
 
                                 self.tours[year]['circles'].push(circle);
                                 self.mapBounds.extend(circle.getPosition());
-                            }
-                            else{
+                            } else {
                                 var marker;
-                                var markerIcon = (self.multiple)? self.markersIcons[2] : self.markersIcons[0];
+                                var markerIcon = (self.multiple) ? self.markersIcons[2] : self.markersIcons[0];
 
-//                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon;
+                                //                                var markerIconLast = (self.currentCity == etape.start.city)? self.markersIcons[4] : markerIcon;
 
 
                                 marker = self.createMarker(etape.start.lat, etape.start.lng, etape.start.city, markerIcon);
@@ -520,7 +507,7 @@
                                 self.mapBounds.extend(marker.getPosition());
 
 
-//                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon;
+                                //                                markerIconLast = (self.currentCity == etape.finish.city)? self.markersIcons[4] : markerIcon;
 
                                 marker = self.createMarker(etape.finish.lat, etape.finish.lng, etape.finish.city, markerIcon);
                                 self.createInfoWindowTrace(marker, etape.finish.city);
@@ -528,16 +515,16 @@
                                 self.mapBounds.extend(marker.getPosition());
 
                                 var line;
-                                var weight = (self.multiple)? 1 : 2;
-                                var isOriented = (self.multiple)? false : true;
+                                var weight = (self.multiple) ? 1 : 2;
+                                var isOriented = (self.multiple) ? false : true;
                                 line = self.createLine(etape.start.lat, etape.start.lng, etape.finish.lat, etape.finish.lng, isOriented, weight);
-//                                self.createInfoWindowTrace(line, etape.year, false);
+                                //                                self.createInfoWindowTrace(line, etape.year, false);
                                 self.tours[year]['lines'].push(line);
                             }
 
-                            if(!self.multiple){
-                                if(previousEtape != undefined){
-                                    if(etape.start.city != previousEtape.finish.city){
+                            if (!self.multiple) {
+                                if (previousEtape != undefined) {
+                                    if (etape.start.city != previousEtape.finish.city) {
 
 
                                         var dashedline = self.createDashedLine(etape.start.lat, etape.start.lng, previousEtape.finish.lat, previousEtape.finish.lng);
@@ -556,41 +543,36 @@
 
             });
 
-
-
-
-            if(this.settings.isAnimated)
+            if (this.settings.isAnimated)
                 this.animateLine();
 
 
 
-            if(repositionne && self.multiple){
+            if (repositionne && self.multiple) {
                 self.map.fitBounds(self.mapBounds);
             }
-
-
 
             self.addCityOnTraces(city);
 
         },
 
 
-        createInfoWindowTrace: function(object, data){
+        createInfoWindowTrace: function(object, data) {
             var self = this;
 
-            var contentString = '<div id="bodyContent"><p>'+ data +'</p><div class="infobox-arrow-white"></div></div>';
+            var contentString = '<div id="bodyContent"><p>' + data + '</p><div class="infobox-arrow-white"></div></div>';
 
             var infowindow = new InfoBox({
-                    closeBoxURL: "",
-                    boxStyle: {
-                        background: "#fff",
-                        margin:"-15px 0 0 20px",
-                        padding: "0 4px",
-                        textAlign: "center",
-                        whiteSpace: "nowrap",
-                        width: "auto"
-                    },
-                    content: contentString
+                closeBoxURL: "",
+                boxStyle: {
+                    background: "#fff",
+                    margin: "-15px 0 0 20px",
+                    padding: "0 4px",
+                    textAlign: "center",
+                    whiteSpace: "nowrap",
+                    width: "auto"
+                },
+                content: contentString
             });
 
             self.infosWindow.push(infowindow);
@@ -598,21 +580,21 @@
             google.maps.event.addListener(object, 'mouseover', function() {
                 infowindow.open(self.map, this);
 
-//                self.changeOpacityByCity(data);
+                //                self.changeOpacityByCity(data);
             });
 
             google.maps.event.addListener(object, 'mouseout', function() {
                 infowindow.close();
 
-//                self.changeOpacityBack();
+                //                self.changeOpacityBack();
             });
         },
 
 
-        changeOpacityByCity: function(name){
+        changeOpacityByCity: function(name) {
             var self = this;
 
-            if(this.multiple){
+            if (this.multiple) {
 
                 $.each(self.years, function(key, year) {
 
@@ -620,12 +602,12 @@
 
                     $.each(self.toursData, function(i, tour) {
 
-                        if(year == tour.year){
+                        if (year == tour.year) {
 
                             $.each(tour.legs, function(j, etape) {
 
 
-                                if(etape.start.city == name || etape.finish.city == name){
+                                if (etape.start.city == name || etape.finish.city == name) {
                                     cityInThisTour = true;
                                 }
                             });
@@ -633,31 +615,33 @@
                     });
 
 
-                    $.each(self.tours, function(i, tour){
+                    $.each(self.tours, function(i, tour) {
 
-                    if(tour['year'] == year && !cityInThisTour){
+                        if (tour['year'] == year && !cityInThisTour) {
 
-                            for(var i = 0; i < tour['markers'].length; i++){
+                            for (var i = 0; i < tour['markers'].length; i++) {
                                 var marker = tour['markers'][i];
 
-                                if(marker.getIcon() != self.markersIcons[4]){
+                                if (marker.getIcon() != self.markersIcons[4]) {
                                     marker.setIcon(self.markersIcons[3]);
                                 }
 
                             }
 
-                            for(var i = 0; i < tour['circles'].length; i++){
+                            for (var i = 0; i < tour['circles'].length; i++) {
                                 var circle = tour['circles'][i];
 
-                                if(circle.getIcon() != self.markersIcons[4]){
+                                if (circle.getIcon() != self.markersIcons[4]) {
                                     circle.setIcon(self.markersIcons[3]);
                                 }
                             }
 
-                            for(var i = 0; i < tour['lines'].length; i++){
+                            for (var i = 0; i < tour['lines'].length; i++) {
                                 var line = tour['lines'][i];
 
-                                line.setOptions({strokeOpacity: 0.2})
+                                line.setOptions({
+                                    strokeOpacity: 0.2
+                                })
                             }
                         }
                     });
@@ -667,41 +651,42 @@
 
 
 
-
         /**
          * changeOpacity
          *
          */
-        changeOpacity: function(year){
+        changeOpacity: function(year) {
             var self = this;
 
-            if(self.years.length < 2)
+            if (self.years.length < 2)
                 return;
 
 
-            if($.inArray(year, self.years) == -1){
+            if ($.inArray(year, self.years) == -1) {
                 return;
             }
 
 
-            $.each(self.tours, function(i, tour){
+            $.each(self.tours, function(i, tour) {
 
-                if(tour['year'] != year){
+                if (tour['year'] != year) {
 
-                    for(var i = 0; i < tour['markers'].length; i++){
+                    for (var i = 0; i < tour['markers'].length; i++) {
                         var marker = tour['markers'][i];
                         marker.setIcon(self.markersIcons[3]);
                     }
 
-                    for(var i = 0; i < tour['circles'].length; i++){
+                    for (var i = 0; i < tour['circles'].length; i++) {
                         var circle = tour['circles'][i];
                         circle.setIcon(self.markersIcons[3]);
 
                     }
 
-                    for(var i = 0; i < tour['lines'].length; i++){
+                    for (var i = 0; i < tour['lines'].length; i++) {
                         var line = tour['lines'][i];
-                        line.setOptions({strokeOpacity: 0})
+                        line.setOptions({
+                            strokeOpacity: 0
+                        })
                     }
 
                 }
@@ -712,36 +697,38 @@
          * changeOpacityBack
          *
          */
-        changeOpacityBack: function(year){
+        changeOpacityBack: function(year) {
             var self = this;
 
-//            if(self.years.length < 2)
-//                return;
+            //            if(self.years.length < 2)
+            //                return;
 
-//            if($.inArray(year, self.years) == -1)
-//                return;
-
-
-            if(this.multiple){
-
-                $.each(self.tours, function(i, tour){
-
-                        for(var i = 0; i < tour['markers'].length; i++){
-                            var marker = tour['markers'][i];
-                            marker.setIcon(self.markersIcons[2]);
-                        }
-
-                        for(var i = 0; i < tour['circles'].length; i++){
-                            var circle = tour['circles'][i];
-                            circle.setIcon(self.markersIcons[2]);
-                        }
+            //            if($.inArray(year, self.years) == -1)
+            //                return;
 
 
-                        for(var i = 0; i < tour['lines'].length; i++){
-                            var line = tour['lines'][i];
+            if (this.multiple) {
 
-                            line.setOptions({strokeOpacity: 1})
-                        }
+                $.each(self.tours, function(i, tour) {
+
+                    for (var i = 0; i < tour['markers'].length; i++) {
+                        var marker = tour['markers'][i];
+                        marker.setIcon(self.markersIcons[2]);
+                    }
+
+                    for (var i = 0; i < tour['circles'].length; i++) {
+                        var circle = tour['circles'][i];
+                        circle.setIcon(self.markersIcons[2]);
+                    }
+
+
+                    for (var i = 0; i < tour['lines'].length; i++) {
+                        var line = tour['lines'][i];
+
+                        line.setOptions({
+                            strokeOpacity: 1
+                        })
+                    }
                 });
             }
         },
@@ -752,11 +739,11 @@
          * CreateMarker
          *
          */
-        createMarker: function(plat, plng, title, pMarkerIcon){
+        createMarker: function(plat, plng, title, pMarkerIcon) {
             var self = this;
 
             var markerIcon = pMarkerIcon;
-            if(markerIcon == undefined)
+            if (markerIcon == undefined)
                 markerIcon = self.markerIcon;
 
 
@@ -779,7 +766,7 @@
          * This marker have a label to display on the map (string, number)
          *
          */
-        createMarkerWithData: function(plat, plng, title, data){
+        createMarkerWithData: function(plat, plng, title, data) {
             var self = this;
 
             var marker = new google.maps.Marker({
@@ -813,7 +800,7 @@
          * Marker with different icon
          *
          */
-        createMarkerCircle: function(plat, plng, title){
+        createMarkerCircle: function(plat, plng, title) {
             var self = this;
 
             var marker = new google.maps.Marker({
@@ -835,7 +822,7 @@
          * Zone Circle on the map
          *
          */
-        createCircle: function(plat, plng){
+        createCircle: function(plat, plng) {
             var self = this;
 
             var circleOptions = {
@@ -861,7 +848,7 @@
          * CreateLine
          *
          */
-        createLine: function(slat, slng, flat, flng, isOriented, weight){
+        createLine: function(slat, slng, flat, flng, isOriented, weight) {
             var self = this;
 
 
@@ -875,13 +862,13 @@
 
 
             var lineSymbol = null;
-            if(isOriented && dist > 0.70){
+            if (isOriented && dist > 0.70) {
                 lineSymbol = {
                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
                 };
             }
 
-            if(weight == undefined)
+            if (weight == undefined)
                 weight = 2;
 
 
@@ -891,9 +878,10 @@
                 path: lineCoordinates,
                 map: self.map,
                 icons: [{
-                    icon: lineSymbol,
-                    offset: '50%'
-                }]
+                        icon: lineSymbol,
+                        offset: '50%'
+                    }
+                ]
             });
 
             this.lines.push(line);
@@ -907,14 +895,14 @@
          * Animate Icon on the line
          *
          */
-        animateLine: function(){
+        animateLine: function() {
             var self = this;
 
             var count = 0;
             self.animateInterval = window.setInterval(function() {
                 count = (count + 1) % 200;
 
-                $.each(self.lines, function(i){
+                $.each(self.lines, function(i) {
                     var icons = self.lines[i].get('icons');
                     icons[0].offset = (count / 2) + '%';
                     self.lines[i].set('icons', icons);
@@ -928,7 +916,7 @@
          * CreateDashedLine
          *
          */
-        createDashedLine: function(slat, slng, flat, flng){
+        createDashedLine: function(slat, slng, flat, flng) {
             var self = this;
 
             var lineCoordinates = [
@@ -947,10 +935,11 @@
                 path: lineCoordinates,
                 strokeOpacity: 0,
                 icons: [{
-                    icon: lineSymbol,
-                    offset: '0',
-                    repeat: '7px'
-                }],
+                        icon: lineSymbol,
+                        offset: '0',
+                        repeat: '7px'
+                    }
+                ],
                 map: self.map
             });
 
@@ -969,7 +958,7 @@
          * Find etape from data
          *
          */
-        findEtapesNear: function(lat, lng, address, data){
+        findEtapesNear: function(lat, lng, address, data) {
             var self = this;
 
             var SEARCH_LIMIT = 10;
@@ -982,7 +971,7 @@
             var markerInfoWindowIsShowing = null;
             address = address.split(',');
 
-            for(var j = 0; j < this.markers.length; j++){
+            for (var j = 0; j < this.markers.length; j++) {
                 this.markers[j].setMap(null);
             }
 
@@ -994,16 +983,15 @@
             etapes = result;
 
             //Si pas de résultat proche, on met le marker de recherche
-            if(etapes.length === 0){
+            if (etapes.length === 0) {
                 var m = this.createMarker(lat, lng, 'Ma recheche');
                 bounds.extend(m.getPosition());
-            }
-            else{
+            } else {
                 showInfo = true;
             }
 
 
-            if(etapes.length < SEARCH_LIMIT){
+            if (etapes.length < SEARCH_LIMIT) {
                 //Second search (middle size)
                 result = this._findEtapes(data, lat, lng, 2, 2);
 
@@ -1011,7 +999,7 @@
 
             }
 
-            if(etapes.length == 1){
+            if (etapes.length == 1) {
                 //Third search (big size)
                 result = this._findEtapes(data, lat, lng, 20, 20);
 
@@ -1021,20 +1009,19 @@
 
 
 
-
             //Redim map viewport
-            for(var i = 0; i < etapes.length; i++){
+            for (var i = 0; i < etapes.length; i++) {
                 var etape = etapes[i];
 
                 var marker = this.createMarkerWithData(etape.lat, etape.lng, etape.city, etape.count);
 
                 var infowindow = this.createInfoWindowSearch(marker, etape);
 
-                if(showInfo){
+                if (showInfo) {
 
                     var thisRegex = new RegExp(address[0], 'gi');
 
-                    if(thisRegex.test(etape.city) == true){
+                    if (thisRegex.test(etape.city) == true) {
                         infowindow.open(self.map, marker);
                         showInfo = false;
                         markerInfoWindowIsShowing = marker;
@@ -1042,7 +1029,7 @@
 
                 }
 
-                if(i < BOUNDS_LIMIT){
+                if (i < BOUNDS_LIMIT) {
                     bounds.extend(marker.getPosition());
                 }
 
@@ -1050,36 +1037,36 @@
 
             }
 
-            if(etapes.length > 1){
+            if (etapes.length > 1) {
                 this.map.fitBounds(bounds);
             }
 
-            if(markerInfoWindowIsShowing != null){
+            if (markerInfoWindowIsShowing != null) {
                 self.map.setCenter(markerInfoWindowIsShowing.getPosition());
             }
 
         },
 
 
-        createInfoWindowSearch: function(marker, data){
+        createInfoWindowSearch: function(marker, data) {
             var self = this;
 
             data.years.sort();
 
-            var contentString = '<h3>'+ data.city +'</h3>';
-            contentString += '<p>'+ data.count +' fois ville étape ';
+            var contentString = '<h3>' + data.city + '</h3>';
+            contentString += '<p>' + data.count + ' fois ville étape ';
 
 
             var textyear = 'en ' + data.years[0] + '</p>';
 
-            if(data.years.length > 1){
+            if (data.years.length > 1) {
 
                 var isSameYear = true;
                 var previewYear = data.years[0];
 
-                $.each(data.years, function(i){
+                $.each(data.years, function(i) {
 
-                    if(previewYear != data.years[i]){
+                    if (previewYear != data.years[i]) {
                         isSameYear = false;
                     }
 
@@ -1087,8 +1074,8 @@
 
                 });
 
-                if(!isSameYear){
-                    textyear = 'entre '+ data.years[0] +' et ' + data.years[data.years.length-1] + '</p>';
+                if (!isSameYear) {
+                    textyear = 'entre ' + data.years[0] + ' et ' + data.years[data.years.length - 1] + '</p>';
                 }
             }
 
@@ -1096,14 +1083,14 @@
             contentString += textyear;
 
             contentString += '<select class="selectYearSearch">';
-            contentString  += '<option value="-1">Selectionnez une année</option>';
+            contentString += '<option value="-1">Selectionnez une année</option>';
 
             var selecttext = '';
             var previewsYear = 0;
-            for(var i = 0; i < data.years.length; i++){
+            for (var i = 0; i < data.years.length; i++) {
 
-                if(previewsYear != data.years[i]){
-                    selecttext  += '<option value="'+ data.years[i]+ '/'+ data.city +',' + data.country +'">'+ data.years[i] +'</option>';
+                if (previewsYear != data.years[i]) {
+                    selecttext += '<option value="' + data.years[i] + '/' + data.city + ',' + data.country + '">' + data.years[i] + '</option>';
                 }
 
                 previewsYear = data.years[i];
@@ -1113,21 +1100,21 @@
             contentString += '</select><div class="infobox-arrow"></div>';
 
             var infowindow = new InfoBox({
-                    closeBoxURL: "",
-                    content: contentString,
-                    pane: "floatPane",
-                    boxStyle: {
-                        height: "90px",
-                        margin:"-50px 0 0 38px",
-                        width: "200px"
-                    }
-            });            
+                closeBoxURL: "",
+                content: contentString,
+                pane: "floatPane",
+                boxStyle: {
+                    height: "90px",
+                    margin: "-50px 0 0 38px",
+                    width: "200px"
+                }
+            });
 
             self.infosWindow.push(infowindow);
 
             google.maps.event.addListener(marker, 'click', function() {
-                for(var i= 0; i <  self.infosWindow.length; i++){
-                     self.infosWindow[i].close();
+                for (var i = 0; i < self.infosWindow.length; i++) {
+                    self.infosWindow[i].close();
                 }
 
                 infowindow.open(self.map, this);
@@ -1145,26 +1132,26 @@
          * merge result between two search
          *
          */
-        _mergeEtapes: function(etapes, results, lat, lng, SEARCH_LIMIT){
+        _mergeEtapes: function(etapes, results, lat, lng, SEARCH_LIMIT) {
 
             var pointOri = new google.maps.LatLng(lat, lng);
 
-            for(var k = 0; k < results.length; k++){
-                var point =  new google.maps.LatLng(results[k].lat, results[k].lng);
+            for (var k = 0; k < results.length; k++) {
+                var point = new google.maps.LatLng(results[k].lat, results[k].lng);
                 var distance = google.maps.geometry.spherical.computeDistanceBetween(pointOri, point);
 
                 results[k].distance = distance;
             }
 
 
-            results.sort(function(a,b){
+            results.sort(function(a, b) {
                 return (a.distance - b.distance);
             })
 
 
-            for(var i = 0; i < results.length; i++){
+            for (var i = 0; i < results.length; i++) {
 
-                if(etapes.length >= SEARCH_LIMIT) {
+                if (etapes.length >= SEARCH_LIMIT) {
                     break;
                 }
 
@@ -1172,19 +1159,19 @@
 
                 var isMerged = false;
 
-                for(var j = 0; j < etapes.length; j++){
+                for (var j = 0; j < etapes.length; j++) {
                     var etape = etapes[j];
 
-                    if(etape.city == result.city){
+                    if (etape.city == result.city) {
 
-                        etape = (etape.count > result.count)? etape: result;
+                        etape = (etape.count > result.count) ? etape : result;
 
                         isMerged = true;
                     }
 
                 }
 
-                if(!isMerged){
+                if (!isMerged) {
                     etapes.push(result);
                 }
 
@@ -1201,7 +1188,7 @@
          * Find etape from lat lng
          *
          */
-        _findEtapes: function(data, lat, lng, offsetLat, offsetLng){
+        _findEtapes: function(data, lat, lng, offsetLat, offsetLng) {
 
             var result = [];
 
@@ -1225,19 +1212,17 @@
 
 
 
-
-                if( lat < (startLat*1 + offsetLat*1) &&
-                    lat > (startLat*1 - offsetLat*1) &&
-                    lng < (startLng*1 + offsetLng*1) &&
-                    lng > (startLng*1 - offsetLng*1) &&
-                    lastFinish != startCity){
-
+                if (lat < (startLat * 1 + offsetLat * 1) &&
+                    lat > (startLat * 1 - offsetLat * 1) &&
+                    lng < (startLng * 1 + offsetLng * 1) &&
+                    lng > (startLng * 1 - offsetLng * 1) &&
+                    lastFinish != startCity) {
 
 
 
                     isNewCity = true;
-                    for(var v = 0; v < result.length; v++){
-                        if(result[v].city == startCity){
+                    for (var v = 0; v < result.length; v++) {
+                        if (result[v].city == startCity) {
                             result[v].count++;
                             result[v].years.push(etape.year);
                             lastStart = startCity;
@@ -1246,8 +1231,15 @@
 
                     }
 
-                    if(isNewCity){
-                        var city = {city: startCity, country: etape.start.country, lat:startLat, lng: startLng, count: 1, years: [etape.year] }
+                    if (isNewCity) {
+                        var city = {
+                            city: startCity,
+                            country: etape.start.country,
+                            lat: startLat,
+                            lng: startLng,
+                            count: 1,
+                            years: [etape.year]
+                        }
                         result.push(city);
                         lastStart = startCity;
                     }
@@ -1256,16 +1248,16 @@
 
                 lastFinish = null;
 
-                if( lat < (finishLat*1 + offsetLat*1) &&
-                    lat > (finishLat*1 - offsetLat*1) &&
-                    lng < (finishLng*1 + offsetLng*1) &&
-                    lng > (finishLng*1 - offsetLng*1) &&
-                    finishCity != lastStart){   //Pour les étapes qui commencent et finissent au même endroit
+                if (lat < (finishLat * 1 + offsetLat * 1) &&
+                    lat > (finishLat * 1 - offsetLat * 1) &&
+                    lng < (finishLng * 1 + offsetLng * 1) &&
+                    lng > (finishLng * 1 - offsetLng * 1) &&
+                    finishCity != lastStart) { //Pour les étapes qui commencent et finissent au même endroit
 
 
                     isNewCity = true;
-                    for(var k = 0; k < result.length; k++){
-                        if(result[k].city == finishCity){
+                    for (var k = 0; k < result.length; k++) {
+                        if (result[k].city == finishCity) {
                             result[k].count++;
                             result[k].years.push(etape.year);
                             lastFinish = finishCity;
@@ -1273,8 +1265,15 @@
                         }
                     }
 
-                    if(isNewCity){
-                        var city2 = {city: finishCity, country: etape.finish.country, lat:finishLat, lng: finishLng, count: 1, years: [etape.year] }
+                    if (isNewCity) {
+                        var city2 = {
+                            city: finishCity,
+                            country: etape.finish.country,
+                            lat: finishLat,
+                            lng: finishLng,
+                            count: 1,
+                            years: [etape.year]
+                        }
                         result.push(city2);
                         lastFinish = finishCity;
                     }
@@ -1299,18 +1298,18 @@
          * Add marker with infoWindow from data
          *
          */
-        addStreetViewPoint: function(data, $container, callback){
+        addStreetViewPoint: function(data, $container, callback) {
             var self = this;
 
             var geocoder = new google.maps.Geocoder();
 
-            $.each(data, function(i, streetViewPoint){
+            $.each(data, function(i, streetViewPoint) {
 
 
                 var coords = streetViewPoint.coords;
                 coords = coords.split(",");
 
-                if(streetViewPoint.type == 'Street View'){
+                if (streetViewPoint.type == 'Street View') {
                     var sv = {};
                     sv.id = streetViewPoint.id;
                     sv.type = streetViewPoint.type;
@@ -1319,8 +1318,7 @@
                     sv.heading = streetViewPoint.heading;
 
                     self.streetViewPoint.push(sv);
-                }
-                else{
+                } else {
 
                     var points = streetViewPoint.url.split("#");
                     points = points[1].split(',');
@@ -1330,7 +1328,7 @@
                     var hp = {};
                     hp.id = streetViewPoint.id;
                     hp.type = streetViewPoint.type;
-                    hp.lookat = (streetViewPoint.lookat == 'on')? true : false;
+                    hp.lookat = (streetViewPoint.lookat == 'on') ? true : false;
                     hp.lookatLat = points[2];
                     hp.lookatLng = points[3];
                     hp.sLat = points[0];
@@ -1346,36 +1344,32 @@
 
 
 
-
-
                 var marker;
-                if(streetViewPoint.type == 'Street View'){
-                    marker = self.createMarker(coords[0],coords[1], streetViewPoint.name, self.markersIcons[0]);
-                }
-                else{
-                    marker = self.createMarker(coords[0],coords[1], streetViewPoint.name, self.markersIcons[1]);
+                if (streetViewPoint.type == 'Street View') {
+                    marker = self.createMarker(coords[0], coords[1], streetViewPoint.name, self.markersIcons[0]);
+                } else {
+                    marker = self.createMarker(coords[0], coords[1], streetViewPoint.name, self.markersIcons[1]);
                 }
 
                 var contentString = '';
 
 
-                if(streetViewPoint.type == 'Street View'){
-                    contentString = '<div id="contentInfo">'+
-                    '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
-                        '<div id="bodyContent">'+
-                            '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<span class="displayStreetView"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-lat="'+ coords[0] +'" data-lng="'+ coords[01] +'" data-heading="'+ streetViewPoint.heading +'"  >Voir</a></span>' +
-                        '</div>'+
-                    '<div class="infobox-arrow"></div></div>';
-                }
-                else{
-                    contentString = '<div id="contentInfo">'+
-                    '<h1 id="firstHeading" class="firstHeading">'+ streetViewPoint.name +'</h1>'+
-                        '<div id="bodyContent">'+
-                            '<p>'+ streetViewPoint.excerpt +'</p>'+
-                            '<span class="displayHyperlapse"><a href="/lieux-mythiques/'+ streetViewPoint.id +'/" data-type="'+ streetViewPoint.type +'" data-id="'+ streetViewPoint.id  +'"  >Lancer l\'animation</a></span>' +
-                        '</div>'+
-                    '<div class="infobox-arrow"></div></div>';
+                if (streetViewPoint.type == 'Street View') {
+                    contentString = '<div id="contentInfo">' +
+                        '<h1 id="firstHeading" class="firstHeading">' + streetViewPoint.name + '</h1>' +
+                        '<div id="bodyContent">' +
+                        '<p>' + streetViewPoint.excerpt + '</p>' +
+                        '<span class="displayStreetView"><a href="/lieux-mythiques/' + streetViewPoint.id + '/" data-type="' + streetViewPoint.type + '" data-lat="' + coords[0] + '" data-lng="' + coords[01] + '" data-heading="' + streetViewPoint.heading + '"  >Voir</a></span>' +
+                        '</div>' +
+                        '<div class="infobox-arrow"></div></div>';
+                } else {
+                    contentString = '<div id="contentInfo">' +
+                        '<h1 id="firstHeading" class="firstHeading">' + streetViewPoint.name + '</h1>' +
+                        '<div id="bodyContent">' +
+                        '<p>' + streetViewPoint.excerpt + '</p>' +
+                        '<span class="displayHyperlapse"><a href="/lieux-mythiques/' + streetViewPoint.id + '/" data-type="' + streetViewPoint.type + '" data-id="' + streetViewPoint.id + '"  >Lancer l\'animation</a></span>' +
+                        '</div>' +
+                        '<div class="infobox-arrow"></div></div>';
                 }
 
                 var infowindow = new InfoBox({
@@ -1384,18 +1378,22 @@
                     pane: "floatPane",
                     boxStyle: {
                         height: "110px",
-                        margin:"-35px 0 0 28px",
+                        margin: "-35px 0 0 28px",
                         width: "200px"
                     }
                 });
 
 
-                var overlays = {id: streetViewPoint.id, infowindow: infowindow, marker:marker};
+                var overlays = {
+                    id: streetViewPoint.id,
+                    infowindow: infowindow,
+                    marker: marker
+                };
 
                 self.streetViewOverlay.push(overlays);
 
                 google.maps.event.addListener(marker, 'click', function() {
-                    for(var i = 0; i < self.infosWindow.length; i++){
+                    for (var i = 0; i < self.infosWindow.length; i++) {
                         self.infosWindow[i].close();
                     }
 
@@ -1409,13 +1407,13 @@
             });
 
 
-//            var panoramaOptions = {
-//
-//                visible: false,
-//                enableCloseButton: true,
-//                panControl: false
-//            };
-//            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
+            //            var panoramaOptions = {
+            //
+            //                visible: false,
+            //                enableCloseButton: true,
+            //                panControl: false
+            //            };
+            //            this.panorama = google.maps.StreetViewPanorama(self.element.id, panoramaOptions);
 
             this.panorama = this.map.getStreetView();
             this.panorama.setPosition(new google.maps.LatLng(0, 0));
@@ -1425,19 +1423,19 @@
             });
 
 
-//            self.map.setStreetView(this.panorama);
+            //            self.map.setStreetView(this.panorama);
             self.minimap.setStreetView(this.panorama);
 
 
-            google.maps.event.addListener(self.panorama, "closeclick", function(){
-               callback();
+            google.maps.event.addListener(self.panorama, "closeclick", function() {
+                callback();
             });
 
 
             google.maps.event.addListener(self.panorama, "visible_changed", function() {
-                if (self.panorama.getVisible()){
+                if (self.panorama.getVisible()) {
                     //moving the pegman around the map
-                }else if(self.panorama.getVisible()){
+                } else if (self.panorama.getVisible()) {
 
                     self.minimap.setStreetView(self.panorama);
                     self.minimap.setCenter(self.panorama.getPosition());
@@ -1452,14 +1450,14 @@
          * displayStreetView
          *
          */
-        displayStreetView: function(lat, lng, heading){
+        displayStreetView: function(lat, lng, heading) {
             this.panorama = this.map.getStreetView();
 
             var center = new google.maps.LatLng(lat, lng);
 
             this.panorama.setPosition(center);
             this.panorama.setPov(({
-                heading: heading*1,
+                heading: heading * 1,
                 pitch: 0
             }));
 
@@ -1478,7 +1476,7 @@
          * toggleStreetView
          *
          */
-        toggleStreetView: function () {
+        toggleStreetView: function() {
             var toggle = this.panorama.getVisible();
 
             this.panorama.setVisible(!toggle);
@@ -1489,20 +1487,19 @@
          * showStreetView
          *
          */
-        showStreetView: function(id){
+        showStreetView: function(id) {
             var self = this;
 
-            $.each(self.streetViewPoint, function(i, sv){
+            $.each(self.streetViewPoint, function(i, sv) {
 
-               if(id == sv.id){
+                if (id == sv.id) {
 
-                   if(sv.type == "Street View"){
-                       self.displayStreetView(sv.lat, sv.lng, sv.heading);
-                   }
-                   else{
-                       self.generateHyperlapse(sv);
-                   }
-               }
+                    if (sv.type == "Street View") {
+                        self.displayStreetView(sv.lat, sv.lng, sv.heading);
+                    } else {
+                        self.generateHyperlapse(sv);
+                    }
+                }
             });
         },
 
@@ -1511,19 +1508,19 @@
          * GenerateHyperlapse
          *
          */
-        generateHyperlapse: function(data){
+        generateHyperlapse: function(data) {
             var self = this;
 
             var zoneMap = $("#" + this.element.id);
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
 
-            var qualityWidth = 742*1.5;
-            var qualityHeight = 500*1.5;
+            var qualityWidth = 742 * 1.5;
+            var qualityHeight = 500 * 1.5;
 
             var pWidth = 742;
             var pHeight = 500;
-            
+
             var pano = document.getElementById(self.settings.hyperlapseId);
 
 
@@ -1536,14 +1533,14 @@
                 width: qualityWidth,
                 height: qualityHeight,
                 elevation: 50,
+                //                fov: data.position,
                 millis: data.millis,
                 distance_between_points: data.distance,
                 max_points: 100
-            });             
-            
-            this.hyperlapse.position.x = data.position*1;
+            });
+            this.hyperlapse.position.x = data.position;
 
-            if(self.minimap != null){
+            if (self.minimap != null) {
 
                 var bounds = new google.maps.LatLngBounds();
 
@@ -1577,19 +1574,18 @@
 
                 self.markersMinimap.push(marker);
 
-//                if(data.lookat){
-//                    marker = new google.maps.Marker({
-//                        position: new google.maps.LatLng(data.lookatLat, data.lookatLng),
-//                        map: self.minimap,
-//                        draggable: false,
-//                        title: 'Point de vue',
-//                        icon: self.markersIcons[4]
-//                    });
-//                }
+                //                if(data.lookat){
+                //                    marker = new google.maps.Marker({
+                //                        position: new google.maps.LatLng(data.lookatLat, data.lookatLng),
+                //                        map: self.minimap,
+                //                        draggable: false,
+                //                        title: 'Point de vue',
+                //                        icon: self.markersIcons[4]
+                //                    });
+                //                }
 
 
                 self.minimap.fitBounds(bounds);
-
 
 
 
@@ -1600,9 +1596,6 @@
                     title: 'Animate',
                     icon: self.markersIcons[6]
                 });
-
-
-
 
 
 
@@ -1634,24 +1627,24 @@
 
             directionsDisplay.setMap(self.minimap);
             directionsDisplay.setOptions({
-                    markerOptions: markerOptions,
-                    polylineOptions: polylineOptions
-                });
+                markerOptions: markerOptions,
+                polylineOptions: polylineOptions
+            });
 
 
             var compteurOnRoute = 0;
             this.hyperlapse.onRouteProgress = function(e) {
 
-//                var marker = new google.maps.Marker({
-//                    position: e.point.location,
-//                    draggable: false,
-//                    icon: "/img/lieux/dot_marker.png",
-//                    map: self.minimap
-//                });
+                //                var marker = new google.maps.Marker({
+                //                    position: e.point.location,
+                //                    draggable: false,
+                //                    icon: "/img/lieux/dot_marker.png",
+                //                    map: self.minimap
+                //                });
 
-//                self.markersMinimap.push(marker);
+                //                self.markersMinimap.push(marker);
 
-                if(compteurOnRoute%2 == 0){
+                if (compteurOnRoute % 2 == 0) {
                     var request = {
                         origin: new google.maps.LatLng(data.sLat, data.sLng),
                         destination: e.point.location,
@@ -1661,8 +1654,7 @@
                     directionsService.route(request, function(response, status) {
                         if (status == google.maps.DirectionsStatus.OK) {
                             directionsDisplay.setDirections(response);
-                        }
-                        else {
+                        } else {
                             console.log('Direction was not successful for the following reason: ' + status);
                         }
                     });
@@ -1684,8 +1676,8 @@
 
             this.hyperlapse.onLoadProgress = function(e) {
 
-                if(self.settings.hyperlapseLoading)
-                    self.settings.hyperlapseLoading(e.position+1, self.hyperlapse.length());
+                if (self.settings.hyperlapseLoading)
+                    self.settings.hyperlapseLoading(e.position + 1, self.hyperlapse.length());
 
             };
 
@@ -1700,7 +1692,7 @@
                 markerAnimate.setPosition(e.point.location);
 
                 self.settings.hyperlapseOnFrame(e.position, self.hyperlapse.length());
-                
+
             };
 
 
@@ -1708,7 +1700,7 @@
             var directions_service = new google.maps.DirectionsService();
 
             var route = {
-                request:{
+                request: {
                     origin: new google.maps.LatLng(data.sLat, data.sLng),
                     destination: new google.maps.LatLng(data.fLat, data.fLng),
                     travelMode: google.maps.DirectionsTravelMode.DRIVING
@@ -1717,7 +1709,9 @@
 
             directions_service.route(route.request, function(response, status) {
                 if (status == google.maps.DirectionsStatus.OK) {
-                    self.hyperlapse.generate( {route:response} );
+                    self.hyperlapse.generate({
+                        route: response
+                    });
 
                 } else {
                     console.log(status);
@@ -1741,7 +1735,7 @@
             $(pano).off("mouseup");
 
 
-            $(pano).on('mousedown', function(e){
+            $(pano).on('mousedown', function(e) {
                 is_moving = true;
 
 
@@ -1752,12 +1746,14 @@
                 py = self.hyperlapse.position.y;
 
                 canPlayPause = true;
-                timerClick = setTimeout(function(){canPlayPause = false},200)
+                timerClick = setTimeout(function() {
+                    canPlayPause = false
+                }, 200)
             });
 
 
-            $(pano).on('click', function(){
-                if(canPlayPause){
+            $(pano).on('click', function() {
+                if (canPlayPause) {
                     self.playPauseHyperlapse();
                 }
 
@@ -1765,46 +1761,45 @@
             });
 
 
-            $(pano).on('mousemove', function(e){
+            $(pano).on('mousemove', function(e) {
                 var f = self.hyperlapse.fov() / 500;
 
-                    if ( is_moving ) {
-                            var dx = ( onPointerDownPointerX - e.clientX ) * f;
-                            var dy = ( e.clientY - onPointerDownPointerY ) * f;
-                            self.hyperlapse.position.x = px + dx; // reversed dragging direction (thanks @mrdoob!)
-                            self.hyperlapse.position.y = py + dy;
+                if (is_moving) {
+                    var dx = (onPointerDownPointerX - e.clientX) * f;
+                    var dy = (e.clientY - onPointerDownPointerY) * f;
+                    self.hyperlapse.position.x = px + dx; // reversed dragging direction (thanks @mrdoob!)
+                    self.hyperlapse.position.y = py + dy;
 
-//                            o.position_x = hyperlapse.position.x;
-//                            o.position_y = hyperlapse.position.y;
-                    }
+                    //                            o.position_x = hyperlapse.position.x;
+                    //                            o.position_y = hyperlapse.position.y;
+                }
             });
 
 
-            $(pano).on('mouseup', function(){
+            $(pano).on('mouseup', function() {
                 is_moving = false;
             });
 
 
         },
 
-        playPauseHyperlapse: function(){
-            if(this.hyperlapse.isPlaying()){
+        playPauseHyperlapse: function() {
+            if (this.hyperlapse.isPlaying()) {
                 this.hyperlapse.pause();
-            }
-            else{
+            } else {
                 this.hyperlapse.play();
             }
         },
 
 
-        clearMinimap: function(){
-            for(var i = 0; i < this.markersMinimap.lenght; i++){
+        clearMinimap: function() {
+            for (var i = 0; i < this.markersMinimap.lenght; i++) {
                 this.markerMinimap[i].setMap(null);
             }
         },
 
 
-        stopStreetView: function(){
+        stopStreetView: function() {
             var zoneMap = $("#" + this.element.id);
             var zoneMinimap = $('#' + this.settings.minimap);
             var zoneH = $("#" + this.settings.hyperlapseId);
@@ -1815,15 +1810,15 @@
             var loader = $("#" + this.settings.hyperlapseId + ' .loader')
 
 
-            if(this.hyperlapse){
+            if (this.hyperlapse) {
                 this.hyperlapse.pause();
                 this.hyperlapse.cancel();
-//                this.hyperlapse.reset();
+                //                this.hyperlapse.reset();
             }
 
 
             var canvas = zoneH.find('canvas');
-            if(canvas.length){
+            if (canvas.length) {
                 canvas.remove();
             }
 
@@ -1840,21 +1835,20 @@
 
 
 
-
         /**
          * openInfoWindowPlace
          *
          */
-        openInfoWindowPlace: function(id){
+        openInfoWindowPlace: function(id) {
             var self = this;
 
-            for(var i = 0; i < self.infosWindow.length; i++){
+            for (var i = 0; i < self.infosWindow.length; i++) {
                 self.infosWindow[i].close();
             }
 
-            $.each(self.streetViewOverlay, function(i, overlay){
+            $.each(self.streetViewOverlay, function(i, overlay) {
 
-                if(id == overlay.id){
+                if (id == overlay.id) {
                     overlay.infowindow.open(self.map, overlay.marker);
 
                     self.map.setCenter(overlay.marker.position);
@@ -1863,8 +1857,6 @@
             });
 
         },
-
-
 
 
 
@@ -1887,4 +1879,4 @@
 
         }
     };
-})(jQuery, window, document, undefined );
+})(jQuery, window, document, undefined);

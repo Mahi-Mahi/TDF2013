@@ -21,8 +21,20 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places,geometry&region=FR&language=fr"></script>
-		<script src="/js/modernizr.js" type="text/javascript"></script>
-		<script src="/js/scripts.js" type="text/javascript"></script>
+		<script src="/js/lib/modernizr.js" type="text/javascript"></script>
+		<script src="/js/lib/labjs.js"></script>
+		<script>
+		$LAB
+			.setGlobalDefaults({CacheBust:true})
+			.script('/js/es5-shim.js')
+			// .script('/js/shims.js')
+			.script('/js/lib/jquery.js')
+			.wait()
+			.script('/js/compat.js')
+			.script('/js/lib/jquery-migrate.js')
+			.script('/js/lib/pathjs.js')
+			.wait().script('/js/main.js');
+		</script>
 
 		<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#async=1&domready=1"></script>
 
