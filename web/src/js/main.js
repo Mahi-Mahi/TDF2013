@@ -1605,7 +1605,7 @@ TDF.Winners = (function() {
 						bulle = '';
 						switch (tour.position) {
 							default: pos_title = tour.position;
-							bulle = tour.position + 'e en ' + year;
+							bulle = tour.position + (parseInt(tour.position, 10) > 0 ? 'e ' : '') + ' en ' + year;
 							break;
 							// pos_title = 'A';
 							// break;
@@ -2277,7 +2277,7 @@ TDF.Fight = (function() {
 					case 4:
 						step_class = "ahead_of_second";
 						step_title = "<strong>Meilleure avance<br /> sur le deuxième</strong>";
-						fighter_one_result = fighter_one.ahead_of_2nd.format_time();
+						fighter_one_result = fighter_one.ahead_of_2nd.format_time() ? fighter_one.ahead_of_2nd.format_time() : "0 min. (jamais vainqueur)";
 						fighter_two_result = fighter_two.ahead_of_2nd.format_time() ? fighter_two.ahead_of_2nd.format_time() : "0 min. (jamais vainqueur)";
 
 						// ANIM OUT PREV
