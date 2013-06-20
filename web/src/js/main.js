@@ -11,10 +11,12 @@ var liify = function(elt) {
 
 // EXTEND JQUERY SCROLLTO
 jQuery.fn.extend({
-	scrollTo : function(speed, easing) {
+	scrollTo: function(speed, easing) {
 		return this.each(function() {
 			var targetOffset = jQuery(this).offset().top;
-			jQuery("html,body").animate({scrollTop: targetOffset}, speed, easing);
+			jQuery("html,body").animate({
+				scrollTop: targetOffset
+			}, speed, easing);
 		});
 	}
 });
@@ -72,10 +74,11 @@ var TDF = (function() {
 		*/
 
 		var url;
+		var hash_prefix = "";
 
 		// Home
-		Path.root("/");
-		Path.map("/").to(function() {
+		Path.root(hash_prefix + "/");
+		Path.map(hash_prefix + "/").to(function() {
 			TDF.render('home');
 			jQuery('#carrousel-home-search-inner').jCarouselLite({
 				vertical: true,
@@ -85,7 +88,7 @@ var TDF = (function() {
 		});
 
 		// Map
-		Path.map("/recherche/(:city_name/)").to(function() {
+		Path.map(hash_prefix + "/recherche/(:city_name/)").to(function() {
 			if (this.params['city_name'] === undefined) {
 				TDF.render('search');
 			} else {
@@ -96,14 +99,14 @@ var TDF = (function() {
 		});
 
 		// City
-		Path.map("/ville/:city/").to(function() {
+		Path.map(hash_prefix + "/ville/:city/").to(function() {
 			TDF.render('city', {
 				city: decodeURIComponent(this.params['city'])
 			});
 		});
 
 		// Traces
-		Path.map("/traces/(:years/)(:city/)").to(function() {
+		Path.map(hash_prefix + "/traces/(:years/)(:city/)").to(function() {
 			if (this.params['years'] === undefined) {
 				TDF.render('traces');
 			} else {
@@ -128,7 +131,7 @@ var TDF = (function() {
 		});
 
 		// StreetView
-		Path.map("/lieux-mythiques/(:place_id/)").to(function() {
+		Path.map(hash_prefix + "/lieux-mythiques/(:place_id/)").to(function() {
 			if (this.params['place_id'] === undefined) {
 				TDF.render('streetview');
 			} else {
@@ -139,7 +142,7 @@ var TDF = (function() {
 		});
 
 		// Fight
-		Path.map("/duels-de-legendes/(:fighter_one/)(:fighter_two/)(:step/)").to(function() {
+		Path.map(hash_prefix + "/duels-de-legendes/(:fighter_one/)(:fighter_two/)(:step/)").to(function() {
 			if (this.params['fighter_one'] === undefined) {
 				TDF.render('fight');
 			} else {
@@ -165,7 +168,7 @@ var TDF = (function() {
 		});
 
 		// Winners
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/:filter4/:val4/(:winner_id/)").to(function() {
+		Path.map(hash_prefix + "/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/:filter4/:val4/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
 			filters[this.params['filter2']] = this.params['val2'];
@@ -182,7 +185,7 @@ var TDF = (function() {
 				});
 			}
 		});
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/(:winner_id/)").to(function() {
+		Path.map(hash_prefix + "/vainqueurs/:filter1/:val1/:filter2/:val2/:filter3/:val3/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
 			filters[this.params['filter2']] = this.params['val2'];
@@ -198,7 +201,7 @@ var TDF = (function() {
 				});
 			}
 		});
-		Path.map("/vainqueurs/:filter1/:val1/:filter2/:val2/(:winner_id/)").to(function() {
+		Path.map(hash_prefix + "/vainqueurs/:filter1/:val1/:filter2/:val2/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
 			filters[this.params['filter2']] = this.params['val2'];
@@ -213,7 +216,7 @@ var TDF = (function() {
 				});
 			}
 		});
-		Path.map("/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
+		Path.map(hash_prefix + "/vainqueurs/:filter1/:val1/(:winner_id/)").to(function() {
 			var filters = {};
 			filters[this.params['filter1']] = this.params['val1'];
 			if (this.params['winner_id'] === undefined) {
@@ -227,7 +230,7 @@ var TDF = (function() {
 				});
 			}
 		});
-		Path.map("/vainqueurs/(:winner_id/)").to(function() {
+		Path.map(hash_prefix + "/vainqueurs/(:winner_id/)").to(function() {
 			var filters = {};
 			if (this.params['winner_id'] === undefined) {
 				TDF.render('winners', {
@@ -243,21 +246,20 @@ var TDF = (function() {
 
 		Path.rescue(function() {
 			console.log("404: Route Not Found : " + document.location.pathname);
+			Path.history.pushState({}, "", "#" + document.location.pathname);
 		});
 
 		Path.history.listen(true);
 
+		window.onpopstate = function(event) {
+			event.preventDefault();
+			return false;
+		};
+
 		jQuery(document).on('click', 'a', function(event) {
 			if (!jQuery(this).hasClass('external')) {
 				event.preventDefault();
-				console.log( "=>" + jQuery(this).attr("href") );
-				if ( true ) {
-					url = jQuery(this).attr("href");
-				}
-				else {
-					url = '/#'+jQuery(this).attr("href");
-				}
-				console.log("__"+url);
+				url = jQuery(this).attr("href");
 				Path.history.pushState({}, "", url);
 				return false;
 			}
@@ -1704,7 +1706,7 @@ TDF.Winners = (function() {
 			// scrollpane_api.resizeScrollbars();
 			jQuery('#header').scrollTo(1000);
 		});
-		if ( jQuery(window).scrollTop() !== 0 ) {
+		if (jQuery(window).scrollTop() !== 0) {
 			jQuery('#main').scrollTo(500);
 		}
 	};
@@ -2815,5 +2817,8 @@ TDF.Data = (function() {
 }());
 
 jQuery(window).load(function() {
+	if (document.location.pathname !== '/') {
+		document.location.href = '/#' + document.location.pathname;
+	}
 	TDF.init();
 });

@@ -4,6 +4,7 @@ var Path = {
         if (Path.routes.defined.hasOwnProperty(path)) {
             return Path.routes.defined[path];
         } else {
+            // new Path.core.route('#'+path);
             return new Path.core.route(path);
         }
     },
