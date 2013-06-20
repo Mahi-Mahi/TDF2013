@@ -2758,8 +2758,7 @@ TDF.Data = (function() {
 	return my;
 }());
 
-// Document Ready
-// jQuery(document).ready(function() {
+// Document Load
 jQuery(window).load(function() {
 	TDF.Data.init(TDF.init);
 	jQuery('input').placeholder();
