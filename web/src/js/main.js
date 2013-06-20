@@ -638,7 +638,6 @@ TDF.CitySearch = (function() {
 				return matcher.test(value.label || value.value || value);
 			});
 		};
-
 		searchInput.autocomplete({
 			minLength: 1,
 			source: TDF.Data.cities,
@@ -646,6 +645,7 @@ TDF.CitySearch = (function() {
 				noResults: '',
 				results: function() {}
 			},
+			appendTo:'#city_search',
 			select: function() {
 				geocoding();
 			}
@@ -661,7 +661,6 @@ TDF.CitySearch = (function() {
 			geocoding();
 
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
-
 			return false;
 		});
 
@@ -2847,9 +2846,5 @@ TDF.Data = (function() {
 }());
 
 jQuery(window).load(function() {
-	if (document.location.pathname !== '/') {
-		document.location.href = '/#' + document.location.pathname;
-	}
 	TDF.init();
-	jQuery('input').placeholder();
 });
