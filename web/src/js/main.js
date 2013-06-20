@@ -27,6 +27,7 @@ jQuery.fn.extend({
 /* global mapStyleTrace */
 /* global mapStyleSearch */
 /* global addthis */
+/* global ga */
 
 var $main, $inner;
 
@@ -326,6 +327,12 @@ var TDF = (function() {
 	};
 
 	my.render = function(module, args) {
+
+		ga('create', 'UA-7571900-21', 'radiofrance.fr');
+		ga('send', 'pageview', {
+			'page': document.location.pathname
+		});
+
 		args = (typeof args === "undefined") ? {} : args;
 		console.log("render(" + module);
 		console.log(args);
@@ -367,7 +374,6 @@ var TDF = (function() {
 		$LAB
 			.script('/js/lib/jquery.colorbox.js')
 			.wait(function() {
-				console.log("colorbox loaded");
 			my.start();
 		});
 	};
@@ -831,7 +837,7 @@ TDF.Traces = (function() {
 			if (my.args.years.length < 2) {
 				if (my.state === null) {
 					jQuery('.traces #start-pause').addClass('active');
-					if ( jQuery('.timeline-zoom input:checked').val() === '2013' ){
+					if (jQuery('.timeline-zoom input:checked').val() === '2013') {
 						jQuery('.timeline-zoom input:first').click();
 					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
@@ -2435,19 +2441,19 @@ TDF.Fight = (function() {
 				}, step_duration, 'linear');
 
 				$inner.find('.fight-container > .title').slideUp();
-				setTimeout(function(){
+				setTimeout(function() {
 					$inner.find('.fight-container > .title').slideDown();
 				}, step_duration);
 
 				$fighter_one.find('.fighter-infos').slideUp();
 				$fighter_one.find('.result').html(fighter_one_result);
-				setTimeout(function(){
+				setTimeout(function() {
 					$fighter_one.find('.fighter-infos').slideDown();
 				}, step_duration);
 
 				$fighter_two.find('.fighter-infos').slideUp();
 				$fighter_two.find('.result').html(fighter_two_result);
-				setTimeout(function(){
+				setTimeout(function() {
 					$fighter_two.find('.fighter-infos').slideDown();
 				}, step_duration);
 
