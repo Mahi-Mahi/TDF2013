@@ -483,6 +483,17 @@ TDF.Home = (function() {
 				}
 			});
 
+			jQuery("#search").keypress(function(e) {
+				if (!e) {
+					e = window.event;
+				}
+				if (e.keyCode === '13') {
+					console.log('clicked enter');
+					jQuery('#search').autocomplete('close');
+					return false;
+				}
+			});
+
 			/*
 			var input = document.getElementById('search');
 			var gMapAutocomplete = new google.maps.places.Autocomplete(input);
