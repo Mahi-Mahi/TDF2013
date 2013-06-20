@@ -535,6 +535,7 @@ TDF.CitySearch = (function() {
 	my.init = function(args) {
 		my.args = args;
 		$LAB
+			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery.gmapApi.js')
 			.script('/js/lib/gmap.infobox.js')
 			.script('/js/lib/map-marker-label.js')
@@ -569,6 +570,8 @@ TDF.CitySearch = (function() {
 		if (TDF.loadTemplate(my)) {}
 
 		$main.find('#search').val(my.args.city_name);
+
+		jQuery('input').placeholder();
 
 		my.autocomplete_init();
 
@@ -717,6 +720,7 @@ TDF.Traces = (function() {
 	my.init = function(args) {
 		my.args = args;
 		$LAB
+			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery.gmapApi.js')
 			.script('/js/lib/gmap.infobox.js')
 			.script('/js/lib/map-marker-label.js')
@@ -1117,6 +1121,8 @@ TDF.Traces = (function() {
 
 		TDF.setShares(my.base_url, my.share_text);
 
+		jQuery('input').placeholder();
+
 	};
 
 	my.setYears = function() {
@@ -1307,6 +1313,7 @@ TDF.Winners = (function() {
 	my.init = function(args) {
 		my.args = args;
 		$LAB
+			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jquery-ui.js')
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.script('/js/lib/jquery-selectbox.js')
@@ -1537,6 +1544,8 @@ TDF.Winners = (function() {
 		my.filter();
 
 		TDF.setShares(my.base_url, my.share_text);
+
+		jQuery('input').placeholder();
 
 	};
 
@@ -2847,5 +2856,4 @@ jQuery(window).load(function() {
 		document.location.href = '/#' + document.location.pathname;
 	}
 	TDF.init();
-	jQuery('input').placeholder();
 });
