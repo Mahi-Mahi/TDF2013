@@ -27,6 +27,7 @@ jQuery.fn.extend({
 /* global mapStyleTrace */
 /* global mapStyleSearch */
 /* global addthis */
+/* global ga */
 
 var $main, $inner;
 
@@ -326,6 +327,12 @@ var TDF = (function() {
 	};
 
 	my.render = function(module, args) {
+
+		ga('create', 'UA-7571900-21', 'radiofrance.fr');
+		ga('send', 'pageview', {
+			'page': document.location.pathname
+		});
+
 		args = (typeof args === "undefined") ? {} : args;
 		console.log("render(" + module);
 		console.log(args);
@@ -367,7 +374,6 @@ var TDF = (function() {
 		$LAB
 			.script('/js/lib/jquery.colorbox.js')
 			.wait(function() {
-				console.log("colorbox loaded");
 			my.start();
 		});
 	};
@@ -826,7 +832,7 @@ TDF.Traces = (function() {
 			if (my.args.years.length < 2) {
 				if (my.state === null) {
 					jQuery('.traces #start-pause').addClass('active');
-					if ( jQuery('.timeline-zoom input:checked').val() === '2013' ){
+					if (jQuery('.timeline-zoom input:checked').val() === '2013') {
 						jQuery('.timeline-zoom input:first').click();
 					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
@@ -1598,7 +1604,7 @@ TDF.Winners = (function() {
 						bulle = '';
 						switch (tour.position) {
 							default: pos_title = tour.position;
-							bulle = tour.position + 'e en ' + year;
+							bulle = tour.position + (parseInt(tour.position, 10) > 0 ? 'e ' : '') + ' en ' + year;
 							break;
 							// pos_title = 'A';
 							// break;
@@ -2166,10 +2172,10 @@ TDF.Fight = (function() {
 						$inner.find('.background .beef-car').stop().delay(step_duration * 0.25).animate({
 							left: '714px'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-left').stop().delay(step_duration * 0.25).animate({
+						$inner.find('.foreground .lady-left').stop().show().delay(step_duration * 0.25).animate({
 							left: '310px'
 						}, step_duration * 0.75, 'linear');
-						$inner.find('.foreground .lady-right').stop().delay(step_duration * 0.5).animate({
+						$inner.find('.foreground .lady-right').stop().show().delay(step_duration * 0.5).animate({
 							left: '646px'
 						}, step_duration * 0.5, 'linear');
 
@@ -2270,7 +2276,7 @@ TDF.Fight = (function() {
 					case 4:
 						step_class = "ahead_of_second";
 						step_title = "<strong>Meilleure avance<br /> sur le deuxième</strong>";
-						fighter_one_result = fighter_one.ahead_of_2nd.format_time();
+						fighter_one_result = fighter_one.ahead_of_2nd.format_time() ? fighter_one.ahead_of_2nd.format_time() : "0 min. (jamais vainqueur)";
 						fighter_two_result = fighter_two.ahead_of_2nd.format_time() ? fighter_two.ahead_of_2nd.format_time() : "0 min. (jamais vainqueur)";
 
 						// ANIM OUT PREV
@@ -2429,19 +2435,19 @@ TDF.Fight = (function() {
 				}, step_duration, 'linear');
 
 				$inner.find('.fight-container > .title').slideUp();
-				setTimeout(function(){
+				setTimeout(function() {
 					$inner.find('.fight-container > .title').slideDown();
 				}, step_duration);
 
 				$fighter_one.find('.fighter-infos').slideUp();
 				$fighter_one.find('.result').html(fighter_one_result);
-				setTimeout(function(){
+				setTimeout(function() {
 					$fighter_one.find('.fighter-infos').slideDown();
 				}, step_duration);
 
 				$fighter_two.find('.fighter-infos').slideUp();
 				$fighter_two.find('.result').html(fighter_two_result);
-				setTimeout(function(){
+				setTimeout(function() {
 					$fighter_two.find('.fighter-infos').slideDown();
 				}, step_duration);
 
@@ -2847,4 +2853,8 @@ TDF.Data = (function() {
 
 jQuery(window).load(function() {
 	TDF.init();
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 3fec8be1f5eaa73ea59f44323f83612a3eeb7f66
