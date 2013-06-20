@@ -111,3 +111,20 @@ header .fight.active a {
 	background:url(/img/header/bg-duels-on.png) 20px 13px no-repeat;
 	color:#FF972B;
 }
+
+/* HEADER RADIO FRANCE */
+/** STYLE HEADER FOOTER debut **/
+.header-footer{font-family:'FreeSans','Arial';font-size:11pt;}
+.clearer{clear:both;height:0;width:0;}
+/** style header **/
+#header-commun{ background:#fff; margin:0px 0 0px 0;padding:7px 0 0 0px;border-bottom:1px solid #DDDDDD;}
+body.blogs #header-commun{margin:7px 0 12px 0;}
+#header-content{ width:891px;margin:0 auto;}
+#header-commun ul{margin:0 auto 7px auto;padding:0;float:left;}
+#header-commun li{display: inline; list-style-type: circle;background: transparent url('/img/radiofrance/circle.png') no-repeat scroll -4px 2px;padding: 0 0px 0 14px;}
+#header-commun li.first-header{list-style-type:none;background:transparent none repeat scroll 0 0;}
+#header-commun li.last-header{padding-right:0;}
+#header-commun li a{text-decoration:none;color:#000000;font-weight:normal;}
+#header-commun li a:hover{text-decoration:underline;}
+#header-commun li a:visited{}
+.header-footer{font-size:10pt;}
