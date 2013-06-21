@@ -1378,7 +1378,7 @@
                     pane: "floatPane",
                     boxStyle: {
                         height: "110px",
-                        margin: "-85px 0 0 28px",
+                        margin: "-35px 0 0 28px",
                         width: "200px"
                     }
                 });
