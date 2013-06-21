@@ -157,6 +157,10 @@ module.exports = function(grunt) {
             src: '<%= all_folders %>',
             cwd: 'src/',
             dest: 'dist/'
+          }, {
+            src: 'src/.htaccess.prod',
+            cwd: '',
+            dest: 'dist/.htaccess'
           }
         ]
       },
