@@ -233,6 +233,7 @@
 .choose-fighter-notice {
 	background:none;
 	display: none;
+	white-space:nowrap;
 }
 
 .fight-container {
@@ -242,7 +243,6 @@
 	height:500px;
 	width: 1000px;
 	position:relative;
-	// z-index:7;
 	overflow: hidden;
 }
 

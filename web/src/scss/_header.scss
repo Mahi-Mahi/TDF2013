@@ -81,6 +81,10 @@ header .winners a {
 	background:url(/img/header/bg-vainqueurs-off.png) 50% 13px no-repeat;
 }
 
+.lte-ie9 header .winners a {
+	text-indent:-5px;
+}
+
 header .active {
 	width:354px;
 }

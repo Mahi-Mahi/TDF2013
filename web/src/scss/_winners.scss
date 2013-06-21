@@ -490,6 +490,10 @@
 	width:155px;
 }
 
+.lt-ie9 #winner_search {
+	line-height:42px;
+}
+
 #winner_search::-webkit-input-placeholder {
    color: #c3a66f;
 }
