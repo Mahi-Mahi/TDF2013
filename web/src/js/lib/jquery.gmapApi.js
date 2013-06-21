@@ -1090,7 +1090,7 @@
             for (var i = 0; i < data.years.length; i++) {
 
                 if (previewsYear != data.years[i]) {
-                    selecttext += '<option value="' + data.years[i] + '/' + data.city + ',' + data.country + '">' + data.years[i] + '</option>';
+                    selecttext += '<option value="' + data.years[i] + '/' + data.city + ', ' + data.country + '">' + data.years[i] + '</option>';
                 }
 
                 previewsYear = data.years[i];
