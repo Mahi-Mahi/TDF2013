@@ -256,7 +256,6 @@ var TDF = (function() {
 		};
 
 		jQuery(document).on('click', 'a', function(event) {
-			console.log(jQuery(this));
 			if (!jQuery(this).hasClass('external') && !jQuery(this).hasClass("sbSelector") && !jQuery(this).hasClass("sbFocus")) {
 				event.preventDefault();
 				url = jQuery(this).attr("href");
@@ -372,32 +371,38 @@ var TDF = (function() {
 	};
 
 	my.tracking = function() {
-		switch(document.location.pathname) {
+
+		switch (document.location.pathname) {
 			case '/':
-				sendeStatHit( "100_tours_de_france", "homepage", "homepage", "homepage" );
-				xt_med('F','73','100_tours_de_france::homepage::homepage::homepage','');
-			break;
+				// sendeStatHit("100_tours_de_france", "homepage", "homepage", "homepage");
+				xt_med('F', '73', '100_tours_de_france::homepage::homepage::homepage', '');
+				break;
 			case '/recherche/':
-				sendeStatHit( "100_tours_de_france", "recherche", "recherche", "recherche" );
-				xt_med('F','73','100_tours_de_france::recherche::recherche::recherche','');
-			break;
+				// sendeStatHit("100_tours_de_france", "recherche", "recherche", "recherche");
+				xt_med('F', '73', '100_tours_de_france::recherche::recherche::recherche', '');
+				break;
 			case '/traces/':
-				sendeStatHit( "100_tours_de_france", "traces", "traces", "traces" );
-				xt_med('F','73','100_tours_de_france::traces::traces::traces','');
-			break;
+				// sendeStatHit("100_tours_de_france", "traces", "traces", "traces");
+				xt_med('F', '73', '100_tours_de_france::traces::traces::traces', '');
+				break;
 			case '/vainqueurs/':
-				sendeStatHit( "100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs" );
-				xt_med('F','73','100_tours_de_france::vainqueurs::vainqueurs::vainqueurs','');
-			break;
+				// sendeStatHit("100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs");
+				xt_med('F', '73', '100_tours_de_france::vainqueurs::vainqueurs::vainqueurs', '');
+				break;
 			case '/duels-de-legendes/':
-				sendeStatHit( "100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes" );
-				xt_med('F','73','100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes','');
-			break;
+				// sendeStatHit("100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes");
+				xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
+				break;
 			case '/lieux-mythiques/':
-				sendeStatHit( "100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques" );
-				xt_med('F','73','100_tours_de_france::lieux::lieux::lieux','');
-			break;
+				// sendeStatHit("100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques");
+				xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
+				break;
 		}
+	};
+
+	my.fake_track = function() {
+		xt_med();
+		sendeStatHit();
 	};
 
 	my.init = function() {
@@ -808,7 +813,7 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-			if (my.state === null && ! my.state_interval) {
+			if (my.state === null && !my.state_interval) {
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
 				}
@@ -1717,7 +1722,10 @@ TDF.Winners = (function() {
 			$winner.find('.tours').html(winner_tours.join(' '));
 			$winner.slideDown('slow', function() {
 				$inner.find(".tours li[title]").tooltip({
-					position: { my: "left+5 center", at: "right center" }
+					position: {
+						my: "left+5 center",
+						at: "right center"
+					}
 				});
 			});
 		}
@@ -1826,6 +1834,7 @@ TDF.Fight = (function() {
 		});
 
 		$main.on('click', '.fight-home .random', function(event) {
+			console.log("click random");
 			event.preventDefault();
 			var fighter_id;
 			do {
