@@ -242,7 +242,7 @@ var TDF = (function() {
 
 		Path.rescue(function() {
 			console.log("404: Route Not Found : " + document.location.pathname);
-			Path.history.pushState({}, "", "#" + document.location.pathname);
+			Path.history.pushState({}, "", "/");
 		});
 
 		Path.history.listen(true);
