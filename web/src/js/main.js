@@ -1676,9 +1676,7 @@ TDF.Winners = (function() {
 			$winner.find('.tours').html(winner_tours.join(' '));
 			$winner.slideDown('slow', function() {
 				$inner.find(".tours li[title]").tooltip({
-					position: {
-						at: "center top"
-					}
+					position: { my: "left+5 center", at: "right center" }
 				});
 			});
 		}
