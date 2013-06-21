@@ -779,9 +779,11 @@ TDF.Traces = (function() {
 					my.last_clicked = 2013;
 				}
 				if (jQuery(this).prop('checked')) {
+					jQuery('.traces #start-pause').addClass('opaque');
 					my.gmapApi.setMultiple(true);
 					// Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/');
 				} else {
+					jQuery('.traces #start-pause').removeClass('opaque');
 					my.gmapApi.setMultiple(false);
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
 				}
@@ -839,10 +841,12 @@ TDF.Traces = (function() {
 				if (my.state === null) {
 					jQuery('.traces #start-pause').addClass('active');
 					if (jQuery('.timeline-zoom input:checked').val() === '2013') {
-						jQuery('.timeline-zoom input:first').click();
+						jQuery('.timeline-zoom li:first span').click();
+					}
+					else {
+						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
-						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 						my.state_interval = setInterval(function() {
 							if (jQuery('.timeline-zoom input:checked').parent().next().length) {
 								jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
@@ -1082,7 +1086,8 @@ TDF.Traces = (function() {
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 
-			var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
+			var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length) +1;
+
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
 				slide: function(event, ui) {
@@ -1170,10 +1175,10 @@ TDF.Traces = (function() {
 		var slider_default;
 		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 		if (my.city_slider_set === false && my.city_years.length > 0) {
-			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length);
+			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length+1);
 			my.city_slider_set = true;
 		} else {
-			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length);
+			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length+1);
 		}
 		$main.find(".timeline .slider").slider({
 			value: slider_default
