@@ -241,7 +241,8 @@ var TDF = (function() {
 		});
 
 		Path.rescue(function() {
-			console.log("404: Route Not Found : " + document.location.pathname);
+			console.log("404: Route Not Found : '" + document.location.pathname + "'");
+			// Path.history.pushState({}, "", "#" + document.location.pathname);
 			Path.history.pushState({}, "", "/");
 		});
 
@@ -253,7 +254,8 @@ var TDF = (function() {
 		};
 
 		jQuery(document).on('click', 'a', function(event) {
-			if (!jQuery(this).hasClass('external')) {
+			console.log(jQuery(this));
+			if (!jQuery(this).hasClass('external') && !jQuery(this).hasClass("sbSelector") && !jQuery(this).hasClass("sbFocus")) {
 				event.preventDefault();
 				url = jQuery(this).attr("href");
 				Path.history.pushState({}, "", url);
@@ -653,7 +655,7 @@ TDF.CitySearch = (function() {
 				noResults: '',
 				results: function() {}
 			},
-			appendTo:'#city_search',
+			appendTo: '#city_search',
 			select: function() {
 				geocoding();
 			}
@@ -774,7 +776,7 @@ TDF.Traces = (function() {
 		});
 
 		$main.on('click', '.traces #multi-select', function() {
-			if (my.state === null) {
+			if (my.state === null && ! my.state_interval) {
 				if (!my.last_clicked) {
 					my.last_clicked = 2013;
 				}
@@ -839,11 +841,12 @@ TDF.Traces = (function() {
 			var play_speed = 1000;
 			if (my.args.years.length < 2) {
 				if (my.state === null) {
+					jQuery('.traces #multi-select').prop('disabled', 'disabled');
+					jQuery('.traces #select-all').prop('disabled', 'disabled');
 					jQuery('.traces #start-pause').addClass('active');
 					if (jQuery('.timeline-zoom input:checked').val() === '2013') {
 						jQuery('.timeline-zoom li:first span').click();
-					}
-					else {
+					} else {
 						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
@@ -852,6 +855,8 @@ TDF.Traces = (function() {
 								jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 							} else {
 								jQuery('.traces #start-pause').removeClass('active');
+								jQuery('.traces #multi-select').prop('disabled', '');
+								jQuery('.traces #select-all').prop('disabled', '');
 								clearTimeout(my.state_interval);
 								my.state = null;
 							}
@@ -859,11 +864,15 @@ TDF.Traces = (function() {
 						my.state = 'playing';
 					} else {
 						jQuery('.traces #start-pause').removeClass('active');
+						jQuery('.traces #multi-select').prop('disabled', '');
+						jQuery('.traces #select-all').prop('disabled', '');
 						clearTimeout(my.state_interval);
 						my.state = null;
 					}
 				} else {
 					jQuery('.traces #start-pause').removeClass('active');
+					jQuery('.traces #multi-select').prop('disabled', '');
+					jQuery('.traces #select-all').prop('disabled', '');
 					clearTimeout(my.state_interval);
 					my.state = null;
 				}
@@ -1086,7 +1095,7 @@ TDF.Traces = (function() {
 
 			var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 
-			var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length) +1;
+			var slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length) + 1;
 
 			$main.find(".timeline .slider").slider({
 				value: slider_default,
@@ -1175,10 +1184,10 @@ TDF.Traces = (function() {
 		var slider_default;
 		var slide_width = $main.find('.timeline-zoom ul').width() - $main.find('.timeline-zoom').width();
 		if (my.city_slider_set === false && my.city_years.length > 0) {
-			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length+1);
+			slider_default = (jQuery("#squareyear-" + my.city_years.max()).prevAll().length + 1);
 			my.city_slider_set = true;
 		} else {
-			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length+1);
+			slider_default = (jQuery("#squareyear-" + my.args.years.min()).prevAll().length + 1);
 		}
 		$main.find(".timeline .slider").slider({
 			value: slider_default
@@ -1660,7 +1669,7 @@ TDF.Winners = (function() {
 						.replace(/:pos_title/g, pos_title)
 						.replace(/:pos/g, tour.position.replace(' ', '-'))
 						.replace(/:hpos/g, parseInt(tour.position, 10) ? Math.round(tour.position / TDF.Data.traces[year].nb_concurrents * 100) + 'px' : '40px')
-						.replace(':wins', "<div>Victoire d'étape</div>".repeat(tour.nb_wins))
+						.replace(':wins', ("<div class='" + winner.id + "'>Victoire d'étape</div>").repeat(tour.nb_wins))
 						.replace(':bulle', bulle)
 						.replace(/:year/g, year));
 				} else {
@@ -1730,10 +1739,9 @@ TDF.Winners = (function() {
 			});
 			jQuery('#header').scrollTo(1000);
 		});
-		if ( jQuery(".winners_list .winner:data(show)").length === 0 ) {
+		if (jQuery(".winners_list .winner:data(show)").length === 0) {
 			jQuery(".winners_list .no-results").fadeIn();
-		}
-		else {
+		} else {
 			jQuery(".winners_list .no-results").hide();
 		}
 		if (jQuery(window).scrollTop() !== 0) {
@@ -2861,7 +2869,7 @@ TDF.Data = (function() {
 	my.name = 'data';
 
 	my.load = function(data, file, callback) {
-		console.log("Data.load("+data);
+		console.log("Data.load(" + data);
 
 		if (my[data] === undefined) {
 			jQuery.getJSON('/data/json/' + file + '.json', function(json, textStatus) {
