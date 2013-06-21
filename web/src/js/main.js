@@ -2637,7 +2637,7 @@ TDF.StreetView = (function() {
 			.script('/js/lib/map-style.js')
 			.script('/js/lib/GSVPano.js')
 			.script('/js/lib/three.js')
-			.script('/js/lib/hyperlapse.js')
+			.script('/js/lib/Hyperlapse.js')
 			.wait(function() {
 			TDF.Data.load('places', 'places', function() {
 				my.start();
