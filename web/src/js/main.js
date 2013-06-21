@@ -81,6 +81,11 @@ var TDF = (function() {
 		Path.root(hash_prefix + "/");
 		Path.map(hash_prefix + "/").to(function() {
 			TDF.render('home');
+			jQuery('#carrousel-home-search-inner').jCarouselLite({
+				vertical: true,
+				auto: 10000,
+				speed: 800
+			});
 		});
 
 		// Map
@@ -323,6 +328,11 @@ var TDF = (function() {
 
 	my.render = function(module, args) {
 
+		ga('create', 'UA-7571900-21', 'radiofrance.fr');
+		ga('send', 'pageview', {
+			'page': document.location.pathname
+		});
+
 		args = (typeof args === "undefined") ? {} : args;
 		console.log("render(" + module);
 		console.log(args);
@@ -357,12 +367,6 @@ var TDF = (function() {
 		} else {
 			this.modules[module].render(args);
 		}
-
-		ga('create', 'UA-7571900-21', 'radiofrance.fr');
-		ga('send', 'pageview', {
-			'page': document.location.pathname
-		});
-
 
 	};
 
@@ -453,12 +457,6 @@ TDF.Home = (function() {
 		TDF.setShares(my.base_url, my.share_text);
 
 		jQuery('input').placeholder();
-
-		jQuery('#carrousel-home-search-inner').jCarouselLite({
-			vertical: true,
-			auto: 10000,
-			speed: 800
-		});
 
 	};
 
@@ -721,7 +719,6 @@ TDF.Traces = (function() {
 	my.gmapApi = null;
 
 	my.init = function(args) {
-		console.log("Traces.init");
 		my.args = args;
 		$LAB
 			.script('/js/lib/jquery.gmapApi.js')
@@ -745,7 +742,6 @@ TDF.Traces = (function() {
 	};
 
 	my.start = function() {
-		console.log("Traces.start");
 
 		$main.on('submit', '.traces #city_search', function(event) {
 			event.preventDefault();
@@ -868,7 +864,6 @@ TDF.Traces = (function() {
 
 
 	my.autocomplete_init = function() {
-		console.log("Traces.autocomplete_init");
 
 		var searchInput = $main.find('#search');
 		var form = $main.find('#city_search');
@@ -918,7 +913,6 @@ TDF.Traces = (function() {
 
 
 	my.initializeGmap = function() {
-		console.log("Traces.initializeGmap");
 		//Config Gmap
 		var mapId = 'gmap-traces';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -982,7 +976,6 @@ TDF.Traces = (function() {
 		};
 
 		my.gmapApi = map.gmapApi(mapOptions);
-		console.log("Traces.initializeGmap : END");
 	};
 
 	my.getCityTraces = function(city) {
@@ -997,7 +990,6 @@ TDF.Traces = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("Traces.render");
 
 		if (args !== undefined) {
 			my.args = args;
@@ -1097,7 +1089,6 @@ TDF.Traces = (function() {
 
 			my.initializeGmap();
 			my.autocomplete_init();
-
 		}
 
 		$main.find('.timeline li.etape').removeClass('etape');
@@ -1129,13 +1120,9 @@ TDF.Traces = (function() {
 
 		TDF.setShares(my.base_url, my.share_text);
 
-		console.log("Traces.render END");
-
-
 	};
 
 	my.setYears = function() {
-		console.log("Traces.setYears");
 		var year;
 
 		$main.find('.timeline li').removeClass('trace');
@@ -1154,7 +1141,6 @@ TDF.Traces = (function() {
 	};
 
 	my.display = function() {
-		console.log("Traces.display");
 
 		my.gmapApi.createEtapes(my.args.years, my.args.city, TDF.Data.traces);
 
@@ -1306,8 +1292,6 @@ TDF.Traces = (function() {
 
 		}
 
-		console.log("Traces.display END");
-
 	};
 
 	return my;
@@ -1324,7 +1308,6 @@ TDF.Winners = (function() {
 	my.share_text = "Comparez les palmarès des 58 vainqueurs du Tour de France #appli #data #TDF via @RFnvx";
 
 	my.init = function(args) {
-		console.log("Winners.init");
 		my.args = args;
 		$LAB
 			.script('/js/lib/jquery-ui.js')
@@ -1345,7 +1328,6 @@ TDF.Winners = (function() {
 	};
 
 	my.start = function() {
-		console.log("Winners.start");
 
 		$main.on('change', '.winners #nationality', function() {
 			Path.history.pushState({}, "", my.getQueryString());
@@ -1437,7 +1419,6 @@ TDF.Winners = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("Winners.renders");
 		if (args !== undefined) {
 			my.args = args;
 		}
@@ -1567,7 +1548,6 @@ TDF.Winners = (function() {
 	};
 
 	my.display = function() {
-		console.log("Winners.display");
 
 		var winner = TDF.Data.winners[my.args.winner_id];
 
@@ -1688,7 +1668,6 @@ TDF.Winners = (function() {
 	};
 
 	my.filter = function() {
-		console.log("Winners.filter");
 
 		jQuery(".winners_list .winner").stop().data('show', true);
 
@@ -1733,14 +1712,10 @@ TDF.Winners = (function() {
 			jQuery(this).css({
 				display: 'none'
 			});
+			//var scrollpane_api = $main.find('.winners_list').data('jsp');
+			// scrollpane_api.resizeScrollbars();
 			jQuery('#header').scrollTo(1000);
 		});
-		if ( jQuery(".winners_list .winner:data(show)").length === 0 ) {
-			jQuery(".winners_list .no-results").fadeIn();
-		}
-		else {
-			jQuery(".winners_list .no-results").hide();
-		}
 		if (jQuery(window).scrollTop() !== 0) {
 			jQuery('#main').scrollTo(500);
 		}
@@ -1761,7 +1736,6 @@ TDF.Fight = (function() {
 	my.steps = null;
 
 	my.init = function(args) {
-		console.log("Fight.init");
 		my.args = args;
 		$LAB
 			.script('/js/lib/jquery-ui.js')
@@ -1777,7 +1751,6 @@ TDF.Fight = (function() {
 	};
 
 	my.start = function() {
-		console.log("Fight.start");
 
 		$main.on('click', '.fight-home .start', function() {
 			my.fight('start');
@@ -1840,7 +1813,6 @@ TDF.Fight = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("Fight.render");
 		if (args !== undefined) {
 			my.args = args;
 		}
@@ -2020,7 +1992,6 @@ TDF.Fight = (function() {
 	};
 
 	my.fight = function() {
-		console.log("Fight.fight");
 
 		var fighter_one = TDF.Data.fighters[my.args.fighter_one];
 		var fighter_two = TDF.Data.fighters[my.args.fighter_two];
@@ -2628,7 +2599,6 @@ TDF.StreetView = (function() {
 	my.gmapApi = null;
 
 	my.init = function(args) {
-		console.log("streetView.init");
 		my.args = args;
 		$LAB
 			.script('/js/lib/jquery.gmapApi.js')
@@ -2646,7 +2616,6 @@ TDF.StreetView = (function() {
 	};
 
 	my.start = function() {
-		console.log("streetView.start");
 
 		var tmp = [];
 		for (var i in TDF.Data.places) {
@@ -2668,7 +2637,6 @@ TDF.StreetView = (function() {
 	};
 
 	my.initializeGmap = function() {
-		console.log("streetView.initializeGmap");
 
 		if (my.gmapApi) {
 			my.gmapApi.stopStreetView();
@@ -2797,7 +2765,6 @@ TDF.StreetView = (function() {
 	};
 
 	my.render = function(args) {
-		console.log("streetView.render");
 		if (args !== undefined) {
 			my.args = args;
 		}
@@ -2866,7 +2833,6 @@ TDF.Data = (function() {
 	my.name = 'data';
 
 	my.load = function(data, file, callback) {
-		console.log("Data.load("+data);
 
 		if (my[data] === undefined) {
 			jQuery.getJSON('/data/json/' + file + '.json', function(json, textStatus) {
@@ -2884,10 +2850,5 @@ TDF.Data = (function() {
 }());
 
 jQuery(window).load(function() {
-	/*
-	if (document.location.pathname !== '/') {
-		document.location.href = '/#' + document.location.pathname;
-	}
-	*/
 	TDF.init();
 });
