@@ -1827,7 +1827,7 @@
             cursor.css('left', '27px');
             loaderText.show();
             loader.width(0);
-
+            
 
             zoneMap.width(742);
             zoneMap.height(500);
