@@ -79,10 +79,11 @@ header .traces.active a {
 
 header .winners a {
 	background:url(/img/header/bg-vainqueurs-off.png) 50% 13px no-repeat;
+	text-indent:-2px;
 }
 
 .lte-ie9 header .winners a {
-	text-indent:-5px;
+	text-indent:-7px;
 }
 
 header .active {

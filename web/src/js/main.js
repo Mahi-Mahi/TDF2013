@@ -668,6 +668,9 @@ TDF.CitySearch = (function() {
 			geocoding();
 
 			Path.history.pushState({}, "", '/recherche/' + $main.find('#search').val() + '/');
+			searchInput.autocomplete('destroy');
+			my.autocomplete_init();
+			searchInput.autocomplete('close');
 			return false;
 		});
 
@@ -904,6 +907,9 @@ TDF.Traces = (function() {
 		form.submit(function() {
 			my.city_slider_set = false;
 			Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
+			searchInput.autocomplete('destroy');
+			my.autocomplete_init();
+			searchInput.autocomplete('close');
 			return false;
 		});
 
@@ -911,6 +917,9 @@ TDF.Traces = (function() {
 			if (e.keyCode === 13) {
 				my.city_slider_set = false;
 				Path.history.pushState({}, "", my.base_url + my.args.years.join(',') + '/' + $main.find('#search').val() + '/');
+				searchInput.autocomplete('destroy');
+				my.autocomplete_init();
+				searchInput.autocomplete('close');
 			}
 		});
 
