@@ -115,6 +115,10 @@ module.exports = function(grunt) {
         'index.html',
         'methodologie.html',
         'credits.html',
+        'favicon.ico',
+        'apple-touch-icon.png',
+        'apple-touch-icon-72x72.png',
+        'apple-touch-icon-114x114.png',
         '.htaccess',
         'robots.txt'
     ],
