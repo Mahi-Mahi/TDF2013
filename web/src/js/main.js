@@ -28,6 +28,8 @@ jQuery.fn.extend({
 /* global mapStyleSearch */
 /* global addthis */
 /* global ga */
+/* global sendeStatHit */
+/* global xt_med */
 
 var $main, $inner;
 
@@ -360,12 +362,42 @@ var TDF = (function() {
 			this.modules[module].render(args);
 		}
 
-		ga('create', 'UA-7571900-21', 'radiofrance.fr');
+		// ga('create', 'UA-7571900-21', 'radiofrance.fr');
 		ga('send', 'pageview', {
 			'page': document.location.pathname
 		});
 
+		my.tracking();
 
+	};
+
+	my.tracking = function() {
+		switch(document.location.pathname) {
+			case '/':
+				sendeStatHit( "100_tours_de_france", "homepage", "homepage", "homepage" );
+				xt_med('F','73','100_tours_de_france::homepage::homepage::homepage','');
+			break;
+			case '/recherche/':
+				sendeStatHit( "100_tours_de_france", "recherche", "recherche", "recherche" );
+				xt_med('F','73','100_tours_de_france::recherche::recherche::recherche','');
+			break;
+			case '/traces/':
+				sendeStatHit( "100_tours_de_france", "traces", "traces", "traces" );
+				xt_med('F','73','100_tours_de_france::traces::traces::traces','');
+			break;
+			case '/vainqueurs/':
+				sendeStatHit( "100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs" );
+				xt_med('F','73','100_tours_de_france::vainqueurs::vainqueurs::vainqueurs','');
+			break;
+			case '/duels-de-legendes/':
+				sendeStatHit( "100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes" );
+				xt_med('F','73','100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes','');
+			break;
+			case '/lieux-mythiques/':
+				sendeStatHit( "100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques" );
+				xt_med('F','73','100_tours_de_france::lieux::lieux::lieux','');
+			break;
+		}
 	};
 
 	my.init = function() {
