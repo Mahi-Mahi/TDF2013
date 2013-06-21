@@ -1,6 +1,7 @@
 *.db
 *.DS_Store
 *.tmp
+*.tar.gz
 *.
 .sass-cache/
 node_modules/
