@@ -402,13 +402,11 @@ var TDF = (function() {
 	};
 
 	my.estat_track = function(niv1, niv2, niv3, niv4) {
-		console.log("estat_track("+niv1+','+niv2+'/'+niv3+'/'+niv4);
 		eStat_id.niveau(1, niv1);
 		eStat_id.niveau(2, niv2);
 		eStat_id.niveau(3, niv3);
 		eStat_id.niveau(4, niv4);
 		eStat_tag.post("ml");
-		console.log("estat OK");
 	};
 
 	my.init = function() {
@@ -1179,8 +1177,6 @@ TDF.Traces = (function() {
 			$main.find('#squareyear-' + year).addClass('trace');
 		});
 
-
-
 		if (my.args.city === undefined) {
 			$main.find('.map-container .city .title').hide();
 			$main.find('.map-container .city form').show();
@@ -1189,7 +1185,6 @@ TDF.Traces = (function() {
 			$main.find('.map-container .city form').hide();
 			$main.find('.map-container .back').attr('href', '/recherche/' + my.args.city + '/');
 		}
-
 
 		my.setYears();
 
