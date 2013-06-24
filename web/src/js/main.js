@@ -1687,6 +1687,8 @@ TDF.Winners = (function() {
 							break;
 							// pos_title = 'A';
 							// break;
+							case null:
+							case 'abandon':
 							case 'Abandon':
 							case 'Déclasse':
 							case 'Déclassé':
@@ -1971,12 +1973,15 @@ TDF.Fight = (function() {
 			}
 		}
 
-		jQuery('.selector-inner').find('.close').attr('href', my.getQueryString()).on('click', function() {
-			jQuery('.selector-inner').hide();
+		$main.find('.selector-inner .close').attr('href', my.getQueryString().replace('selector/', '')).on('click', function() {
+			jQuery('.selector').hide();
 		});
+
 
 		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
 		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
+
+
 
 		if (my.args.fighter_one && my.args.fighter_two) {
 			$main.find('.start').attr('href', my.getQueryString() + 'start/');
