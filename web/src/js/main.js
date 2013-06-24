@@ -824,6 +824,7 @@ TDF.Traces = (function() {
 				} else {
 					jQuery('.traces #start-pause').removeClass('opaque');
 					my.gmapApi.setMultiple(false);
+					console.log(my.base_url + my.last_clicked);
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
 				}
 			}
@@ -884,7 +885,7 @@ TDF.Traces = (function() {
 					if (jQuery('.timeline-zoom input:checked').val() === '2013') {
 						jQuery('.timeline-zoom li:first span').click();
 					} else {
-						jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
+						// jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
 					}
 					if (jQuery('.timeline-zoom input:checked').parent().next().length) {
 						my.state_interval = setInterval(function() {
