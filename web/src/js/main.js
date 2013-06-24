@@ -28,7 +28,8 @@ jQuery.fn.extend({
 /* global mapStyleSearch */
 /* global addthis */
 /* global ga */
-/* global sendeStatHit */
+/* global eStat_id */
+/* global eStat_tag */
 /* global xt_med */
 
 var $main, $inner;
@@ -374,35 +375,40 @@ var TDF = (function() {
 
 		switch (document.location.pathname) {
 			case '/':
-				// sendeStatHit("100_tours_de_france", "homepage", "homepage", "homepage");
+				my.estat_track("100_tours_de_france", "homepage", "homepage", "homepage");
 				xt_med('F', '73', '100_tours_de_france::homepage::homepage::homepage', '');
 				break;
 			case '/recherche/':
-				// sendeStatHit("100_tours_de_france", "recherche", "recherche", "recherche");
+				my.estat_track("100_tours_de_france", "recherche", "recherche", "recherche");
 				xt_med('F', '73', '100_tours_de_france::recherche::recherche::recherche', '');
 				break;
 			case '/traces/':
-				// sendeStatHit("100_tours_de_france", "traces", "traces", "traces");
+				my.estat_track("100_tours_de_france", "traces", "traces", "traces");
 				xt_med('F', '73', '100_tours_de_france::traces::traces::traces', '');
 				break;
 			case '/vainqueurs/':
-				// sendeStatHit("100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs");
+				my.estat_track("100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs");
 				xt_med('F', '73', '100_tours_de_france::vainqueurs::vainqueurs::vainqueurs', '');
 				break;
 			case '/duels-de-legendes/':
-				// sendeStatHit("100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes");
+				my.estat_track("100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes");
 				xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
 				break;
 			case '/lieux-mythiques/':
-				// sendeStatHit("100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques");
+				my.estat_track("100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques");
 				xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
 				break;
 		}
 	};
 
-	my.fake_track = function() {
-		xt_med();
-		sendeStatHit();
+	my.estat_track = function(niv1, niv2, niv3, niv4) {
+		console.log("estat_track("+niv1+','+niv2+'/'+niv3+'/'+niv4);
+		eStat_id.niveau(1, niv1);
+		eStat_id.niveau(2, niv2);
+		eStat_id.niveau(3, niv3);
+		eStat_id.niveau(4, niv4);
+		eStat_tag.post("ml");
+		console.log("estat OK");
 	};
 
 	my.init = function() {
