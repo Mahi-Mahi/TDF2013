@@ -830,7 +830,6 @@ TDF.Traces = (function() {
 				} else {
 					jQuery('.traces #start-pause').removeClass('opaque');
 					my.gmapApi.setMultiple(false);
-					console.log(my.base_url + my.last_clicked);
 					Path.history.pushState({}, "", my.base_url + my.last_clicked + '/');
 				}
 			}
@@ -902,7 +901,7 @@ TDF.Traces = (function() {
 								jQuery('.traces #multi-select').prop('disabled', '');
 								jQuery('.traces #select-all').prop('disabled', '');
 								clearTimeout(my.state_interval);
-								my.state = null;
+								my.state = my.state_interval = null;
 							}
 						}, play_speed);
 						my.state = 'playing';
@@ -911,14 +910,14 @@ TDF.Traces = (function() {
 						jQuery('.traces #multi-select').prop('disabled', '');
 						jQuery('.traces #select-all').prop('disabled', '');
 						clearTimeout(my.state_interval);
-						my.state = null;
+						my.state = my.state_interval = null;
 					}
 				} else {
 					jQuery('.traces #start-pause').removeClass('active');
 					jQuery('.traces #multi-select').prop('disabled', '');
 					jQuery('.traces #select-all').prop('disabled', '');
 					clearTimeout(my.state_interval);
-					my.state = null;
+					my.state = my.state_interval = null;
 				}
 			}
 		});
