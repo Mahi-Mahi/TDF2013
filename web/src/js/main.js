@@ -456,7 +456,6 @@ var TDF = (function() {
 
 }());
 
-
 TDF.Home = (function() {
 
 	var my = {};
@@ -504,8 +503,6 @@ TDF.Home = (function() {
 		});
 
 	};
-
-
 
 	my.autocomplete_init = function() {
 
@@ -570,7 +567,6 @@ TDF.Home = (function() {
 
 	return my;
 }());
-
 
 TDF.CitySearch = (function() {
 
@@ -638,7 +634,6 @@ TDF.CitySearch = (function() {
 
 		var map = $inner.find("#" + mapId);
 
-
 		var mapOptions = {
 			mapTypeId: mapTypeId,
 			center: new google.maps.LatLng(startlat, startlng),
@@ -680,7 +675,6 @@ TDF.CitySearch = (function() {
 		var searchInput = $main.find('#search');
 		var form = $main.find('#city_search');
 		var geocoder = new google.maps.Geocoder();
-
 
 		// Overrides the default autocomplete filter function to search only from the beginning of the string
 		jQuery.ui.autocomplete.filter = function(array, term) {
@@ -742,7 +736,6 @@ TDF.CitySearch = (function() {
 
 	return my;
 }());
-
 
 TDF.Traces = (function() {
 
@@ -923,7 +916,6 @@ TDF.Traces = (function() {
 		TDF.Traces.render();
 	};
 
-
 	my.autocomplete_init = function() {
 		console.log("Traces.autocomplete_init");
 
@@ -978,7 +970,6 @@ TDF.Traces = (function() {
 		});
 
 	};
-
 
 	my.initializeGmap = function() {
 		console.log("Traces.initializeGmap");
@@ -1191,7 +1182,6 @@ TDF.Traces = (function() {
 		TDF.setShares(my.base_url, my.share_text);
 
 		console.log("Traces.render END");
-
 
 	};
 
@@ -1855,7 +1845,6 @@ TDF.Fight = (function() {
 			return false;
 		});
 
-
 		var tmp = [];
 		for (var i in TDF.Data.fighters) {
 			tmp.push(TDF.Data.fighters[i]);
@@ -1977,11 +1966,8 @@ TDF.Fight = (function() {
 			jQuery('.selector').hide();
 		});
 
-
 		$main.find('.fighter_one a').attr('href', my.base_url + 'selector/' + (my.args.fighter_two ? my.args.fighter_two + '/' : ''));
 		$main.find('.fighter_two a').attr('href', my.base_url + (my.args.fighter_one ? my.args.fighter_one + '/' : '') + 'selector/');
-
-
 
 		if (my.args.fighter_one && my.args.fighter_two) {
 			$main.find('.start').attr('href', my.getQueryString() + 'start/');
@@ -2157,7 +2143,6 @@ TDF.Fight = (function() {
 				$fighter_two.find('.fighter-infos').slideDown();
 
 				// $inner.find('.fight-container > .title').slideDown();
-
 
 				// ANIM OUT NEXT
 				$inner.find('.background .beef-car').stop().animate({
@@ -2610,7 +2595,6 @@ TDF.Fight = (function() {
 		return res;
 	};
 
-
 	my.showResults = function() {
 
 		var $results = $main.find('.results').html(jQuery('.templates #template-fight-results').html());
@@ -2647,7 +2631,6 @@ TDF.Fight = (function() {
 			.on('click', function() {
 			jQuery('.results').html('').hide();
 		});
-
 
 	};
 
@@ -2724,7 +2707,6 @@ TDF.StreetView = (function() {
 			my.gmapApi.stopStreetView();
 		}
 
-
 		//Config Gmap
 		var mapId = 'gmap-streetview';
 		var mapTypeId = google.maps.MapTypeId.ROADMAP;
@@ -2735,7 +2717,6 @@ TDF.StreetView = (function() {
 		var zoom = 6;
 
 		var map = $inner.find("#" + mapId);
-
 
 		var mapOptions = {
 			minimap: "minimap",
@@ -2811,7 +2792,6 @@ TDF.StreetView = (function() {
 	my.onCloseStreetView = function() {
 		Path.history.pushState({}, "", my.base_url);
 	};
-
 
 	my.hyperlapseLoading = function(current, total) {
 		var loader = jQuery('#hyperlapseTimeline .loader');
