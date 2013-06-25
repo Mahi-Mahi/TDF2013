@@ -367,34 +367,36 @@ var TDF = (function() {
 			'page': document.location.pathname
 		});
 
-		my.tracking();
+		my.tracking(module);
 
 	};
 
-	my.tracking = function() {
+	my.tracking = function(module) {
 
-		switch (document.location.pathname) {
-			case '/':
+		console.log("tracking("+module);
+
+		switch (module) {
+			case 'home':
 				my.estat_track("100_tours_de_france", "homepage", "homepage", "homepage");
 				xt_med('F', '73', '100_tours_de_france::homepage::homepage::homepage', '');
 				break;
-			case '/recherche/':
+			case 'search':
 				my.estat_track("100_tours_de_france", "recherche", "recherche", "recherche");
 				xt_med('F', '73', '100_tours_de_france::recherche::recherche::recherche', '');
 				break;
-			case '/traces/':
+			case 'traces':
 				my.estat_track("100_tours_de_france", "traces", "traces", "traces");
 				xt_med('F', '73', '100_tours_de_france::traces::traces::traces', '');
 				break;
-			case '/vainqueurs/':
+			case 'winners':
 				my.estat_track("100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs");
 				xt_med('F', '73', '100_tours_de_france::vainqueurs::vainqueurs::vainqueurs', '');
 				break;
-			case '/duels-de-legendes/':
+			case 'fight':
 				my.estat_track("100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes");
 				xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
 				break;
-			case '/lieux-mythiques/':
+			case 'streetview':
 				my.estat_track("100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques");
 				xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
 				break;
