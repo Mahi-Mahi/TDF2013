@@ -309,7 +309,10 @@ var TDF = (function() {
 				// TO UPDATE
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
-					height: 500
+					height: 500,
+					onComplete: function(){
+						my.tracker('methodologie');
+					}
 				});
 			}
 
@@ -397,8 +400,12 @@ var TDF = (function() {
 				xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
 				break;
 			case 'streetview':
-				my.estat_track("100_tours_de_france", "lieux-mythiques", "lieux-mythiques", "lieux-mythiques");
+				my.estat_track("100_tours_de_france", "lieux", "lieux", "lieux");
 				xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
+				break;
+			case 'methodologie':
+				my.estat_track("100_tours_de_france", "methodologie", "methodologie", "methodologie");
+				xt_med('F', '73', '100_tours_de_france::methodologie::methodologie::methodologie', '');
 				break;
 		}
 	};
