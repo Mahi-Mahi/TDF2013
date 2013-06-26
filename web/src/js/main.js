@@ -310,7 +310,7 @@ var TDF = (function() {
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
 					height: 500,
-					onComplete: function(){
+					onComplete: function() {
 						my.tracker('methodologie');
 					}
 				});
@@ -376,7 +376,7 @@ var TDF = (function() {
 
 	my.tracking = function(module) {
 
-		console.log("tracking("+module);
+		console.log("tracking(" + module);
 
 		switch (module) {
 			case 'home':
@@ -2429,8 +2429,8 @@ TDF.Fight = (function() {
 					case 6:
 						step_class = "doping";
 						step_title = "<strong>contrôle <br>antidopage</strong>";
-						fighter_one_result = fighter_one.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
-						fighter_two_result = fighter_two.is_doped ? "<strong>Éliminé du Tour pour dopage</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
+						fighter_one_result = fighter_one.is_doped ? "<strong>Pris pour dopage sur le Tour</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
+						fighter_two_result = fighter_two.is_doped ? "<strong>Pris pour dopage sur le Tour</strong>" : "Jamais pris pour dopage<br /> sur le Tour";
 						$inner.find('.next').text("Résultat");
 
 						// ANIM OUT PREV
