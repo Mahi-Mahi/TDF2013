@@ -309,10 +309,7 @@ var TDF = (function() {
 				// TO UPDATE
 				$footer.find('.colorbox:first').colorbox({
 					width: 490,
-					height: 500,
-					onComplete: function() {
-						my.tracker('methodologie');
-					}
+					height: 500
 				});
 			}
 
@@ -323,6 +320,8 @@ var TDF = (function() {
 			var content = $content.html();
 
 			jQuery('#inner').html(content).attr('class', module.name + step);
+
+			my.tracking(module.name);
 
 			return true;
 		}
@@ -369,8 +368,6 @@ var TDF = (function() {
 		ga('send', 'pageview', {
 			'page': document.location.pathname
 		});
-
-		my.tracking(module);
 
 	};
 
@@ -2307,7 +2304,7 @@ TDF.Fight = (function() {
 						break;
 					case 3:
 						step_class = "average_speed";
-				step_title = "<strong>Meilleure vitesse moyenne</strong>";
+						step_title = "<strong>Meilleure vitesse moyenne</strong>";
 						fighter_one_result = fighter_one.average_speed.toString().replace('.', ',') + " km/h";
 						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
 
