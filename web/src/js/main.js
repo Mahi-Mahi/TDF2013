@@ -2307,7 +2307,7 @@ TDF.Fight = (function() {
 						break;
 					case 3:
 						step_class = "average_speed";
-						step_title = "<strong>Meilleur vitesse moyenne</strong>";
+				step_title = "<strong>Meilleure vitesse moyenne</strong>";
 						fighter_one_result = fighter_one.average_speed.toString().replace('.', ',') + " km/h";
 						fighter_two_result = fighter_two.average_speed.toString().replace('.', ',') + " km/h";
 
