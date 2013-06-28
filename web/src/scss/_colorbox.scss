@@ -35,9 +35,9 @@
 
         #cboxClose{position:absolute; top:.5em; right:.5em; background:url(/img/icon/bt-close.png) left top no-repeat; width:22px; height:22px; text-indent:100%; overflow:hidden; white-space:nowrap; }
         .colorbox-inner { height:300px; padding:0 50px 0 0; overflow:auto; }
-        #cboxContent h1 { display:block; margin:1em 0; padding:0 50px 0 0; text-align:center; }
+        .colorbox-header { display:block; margin:1em 0; padding:0 50px 0 0; text-align:center; }
         .colorbox-inner { color:#383C40; font:400 14px/1.3 'Lato', Verdana, Arial, sans-serif; }
-        .colorbox-inner h2 { color:#395877; font-size:16px; }
+        .colorbox-inner h1, .colorbox-inner h2 { color:#395877; font-size:16px; }
         .colorbox-inner h3 { color:#383C40; font-size:14px; font-weight:bold; }
         .colorbox-inner p { display:block; margin:0; padding:0 0 1em 0; }
         .colorbox-inner a { color:#383C40; text-decoration:underline; }

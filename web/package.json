@@ -24,6 +24,7 @@
     "grunt-bower": "latest",
     "bower": "latest",
     "grunt-contrib-compass": "~0.2.0",
-    "grunt-notify": "~0.2.4"
+    "grunt-notify": "~0.2.4",
+    "grunt-pages": "~0.2.3"
   }
 }
