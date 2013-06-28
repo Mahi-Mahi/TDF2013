@@ -253,7 +253,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint:main', 'copy:dev', 'compass:dev']); // 'concat:dev',
 
   // build production
-  grunt.registerTask('dist', ['install', 'clean:dist', 'jshint:main', 'compass:dist', 'uglify:dist', 'copy:dist', 'copy:data_dist']);
+  grunt.registerTask('dist', ['clean:dist', 'jshint:main', 'compass:dist', 'uglify:dist', 'copy:dist', 'copy:data_dist']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);
