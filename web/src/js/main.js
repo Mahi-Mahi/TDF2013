@@ -408,6 +408,7 @@ var TDF = (function() {
 	};
 
 	my.estat_track = function(niv1, niv2, niv3, niv4) {
+		eStat_id.cmclient("sites-evenementiels");
 		eStat_id.niveau(1, niv1);
 		eStat_id.niveau(2, niv2);
 		eStat_id.niveau(3, niv3);
