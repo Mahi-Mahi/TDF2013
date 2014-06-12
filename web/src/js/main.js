@@ -378,31 +378,45 @@ var TDF = (function() {
 		switch (module) {
 			case 'home':
 				my.estat_track("100_tours_de_france", "homepage", "homepage", "homepage");
-				xt_med('F', '73', '100_tours_de_france::homepage::homepage::homepage', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::homepage::homepage::homepage', '');
+				}
 				break;
 			case 'search':
 				my.estat_track("100_tours_de_france", "recherche", "recherche", "recherche");
-				xt_med('F', '73', '100_tours_de_france::recherche::recherche::recherche', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::recherche::recherche::recherche', '');
+				}
 				break;
 			case 'traces':
 				my.estat_track("100_tours_de_france", "traces", "traces", "traces");
-				xt_med('F', '73', '100_tours_de_france::traces::traces::traces', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::traces::traces::traces', '');
+				}
 				break;
 			case 'winners':
 				my.estat_track("100_tours_de_france", "vainqueurs", "vainqueurs", "vainqueurs");
-				xt_med('F', '73', '100_tours_de_france::vainqueurs::vainqueurs::vainqueurs', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::vainqueurs::vainqueurs::vainqueurs', '');
+				}
 				break;
 			case 'fight':
 				my.estat_track("100_tours_de_france", "duels-de-legendes", "duels-de-legendes", "duels-de-legendes");
-				xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::duels-de-legendes::duels-de-legendes::duels-de-legendes', '');
+				}
 				break;
 			case 'streetview':
 				my.estat_track("100_tours_de_france", "lieux", "lieux", "lieux");
-				xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::lieux::lieux::lieux', '');
+				}
 				break;
 			case 'methodologie':
 				my.estat_track("100_tours_de_france", "methodologie", "methodologie", "methodologie");
-				xt_med('F', '73', '100_tours_de_france::methodologie::methodologie::methodologie', '');
+				if (typeof xt_med !== 'undefined') {
+					xt_med('F', '73', '100_tours_de_france::methodologie::methodologie::methodologie', '');
+				}
 				break;
 		}
 	};
@@ -420,8 +434,8 @@ var TDF = (function() {
 		$LAB
 			.script('/js/lib/jquery.colorbox.js')
 			.wait(function() {
-			my.start();
-		});
+				my.start();
+			});
 	};
 
 	my.start = function() {
@@ -478,8 +492,8 @@ TDF.Home = (function() {
 			.script('/js/lib/jquery-placeholder.js')
 			.script('/js/lib/jcarousellite.js')
 			.wait(function() {
-			my.start();
-		});
+				my.start();
+			});
 	};
 
 	my.start = function() {
@@ -596,8 +610,8 @@ TDF.CitySearch = (function() {
 			.script('/js/lib/jquery-ui.js')
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.wait(function() {
-			my.start();
-		});
+				my.start();
+			});
 	};
 
 	my.start = function() {
@@ -777,17 +791,17 @@ TDF.Traces = (function() {
 			.script('/js/lib/jquery-ui.js')
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.wait(function() {
-			TDF.Data.load('cities', 'cities', function() {
-				TDF.Data.load('traces', 'tours', function() {
-					TDF.Data.load('legs', 'legs', function() {
-						jQuery(TDF.Data.legs).each(function(i, leg) {
-							TDF.Data.traces[leg.year].legs.push(leg);
+				TDF.Data.load('cities', 'cities', function() {
+					TDF.Data.load('traces', 'tours', function() {
+						TDF.Data.load('legs', 'legs', function() {
+							jQuery(TDF.Data.legs).each(function(i, leg) {
+								TDF.Data.traces[leg.year].legs.push(leg);
+							});
+							my.start();
 						});
-						my.start();
 					});
 				});
 			});
-		});
 	};
 
 	my.start = function() {
@@ -1008,37 +1022,36 @@ TDF.Traces = (function() {
 			markerIconImg: '/img/traces/solo-pointeur-ombre.png',
 			markerCircleIconImg: '/img/traces/solo-pointeur-boucle-ombre.png',
 			markersIcons: [{
-					url: "/img/traces/solo-pointeur-ombre.png",
-					width: 21,
-					height: 21,
-					anchorX: 21 / 2,
-					anchorY: 21 / 2
-				}, {
-					url: "/img/traces/solo-pointeur-boucle-ombre.png",
-					width: 21,
-					height: 25,
-					anchorX: 21 / 2,
-					anchorY: 21 / 2
-				}, {
-					url: "/img/traces/multi-pointeur.png",
-					width: 7,
-					height: 7,
-					anchorX: 7 / 2,
-					anchorY: 7 / 2
-				}, {
-					url: "/img/traces/multi-pointeur-transparent.png",
-					width: 1,
-					height: 1,
-					anchorX: 1,
-					anchorY: 1
-				}, {
-					url: "/img/traces/pointeur-villeetape-ombre.png",
-					width: 25,
-					height: 25,
-					anchorX: 25 / 2,
-					anchorY: 25 / 2
-				}
-			],
+				url: "/img/traces/solo-pointeur-ombre.png",
+				width: 21,
+				height: 21,
+				anchorX: 21 / 2,
+				anchorY: 21 / 2
+			}, {
+				url: "/img/traces/solo-pointeur-boucle-ombre.png",
+				width: 21,
+				height: 25,
+				anchorX: 21 / 2,
+				anchorY: 21 / 2
+			}, {
+				url: "/img/traces/multi-pointeur.png",
+				width: 7,
+				height: 7,
+				anchorX: 7 / 2,
+				anchorY: 7 / 2
+			}, {
+				url: "/img/traces/multi-pointeur-transparent.png",
+				width: 1,
+				height: 1,
+				anchorX: 1,
+				anchorY: 1
+			}, {
+				url: "/img/traces/pointeur-villeetape-ombre.png",
+				width: 25,
+				height: 25,
+				anchorX: 25 / 2,
+				anchorY: 25 / 2
+			}],
 			styles: mapStyleTrace
 		};
 
@@ -1389,17 +1402,17 @@ TDF.Winners = (function() {
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.script('/js/lib/jquery-selectbox.js')
 			.wait(function() {
-			TDF.Data.load('traces', 'tours', function() {
-				TDF.Data.load('legs', 'legs', function() {
-					jQuery(TDF.Data.legs).each(function(i, leg) {
-						TDF.Data.traces[leg.year].legs.push(leg);
-					});
-					TDF.Data.load('winners', 'winners', function() {
-						my.start();
+				TDF.Data.load('traces', 'tours', function() {
+					TDF.Data.load('legs', 'legs', function() {
+						jQuery(TDF.Data.legs).each(function(i, leg) {
+							TDF.Data.traces[leg.year].legs.push(leg);
+						});
+						TDF.Data.load('winners', 'winners', function() {
+							my.start();
+						});
 					});
 				});
 			});
-		});
 	};
 
 	my.start = function() {
@@ -1811,12 +1824,12 @@ TDF.Fight = (function() {
 			.script('/js/lib/jquery-ui-touchpunch.js')
 			.script('/js/lib/jquery-tabify.js')
 			.wait(function() {
-			TDF.Data.load('fighters', 'fighters', function() {
-				TDF.Data.load('winners', 'winners', function() {
-					my.start();
+				TDF.Data.load('fighters', 'fighters', function() {
+					TDF.Data.load('winners', 'winners', function() {
+						my.start();
+					});
 				});
 			});
-		});
 	};
 
 	my.start = function() {
@@ -2636,8 +2649,8 @@ TDF.Fight = (function() {
 			.show()
 			.find('.close').attr('href', my.getQueryString() + '7/')
 			.on('click', function() {
-			jQuery('.results').html('').hide();
-		});
+				jQuery('.results').html('').hide();
+			});
 
 	};
 
@@ -2679,10 +2692,10 @@ TDF.StreetView = (function() {
 			.script('/js/lib/three.js')
 			.script('/js/lib/Hyperlapse.js')
 			.wait(function() {
-			TDF.Data.load('places', 'places', function() {
-				my.start();
+				TDF.Data.load('places', 'places', function() {
+					my.start();
+				});
 			});
-		});
 	};
 
 	my.start = function() {
@@ -2743,49 +2756,48 @@ TDF.StreetView = (function() {
 				style: google.maps.ZoomControlStyle.SMALL
 			},
 			markersIcons: [{
-					url: "/img/lieux/pin-photo.png",
-					width: 23,
-					height: 32,
-					anchorX: 11,
-					anchorY: 32
-				}, {
-					url: "/img/lieux/lieux_pin_hyperlapse.png",
-					width: 23,
-					height: 32,
-					anchorX: 11,
-					anchorY: 32
-				}, {
-					url: "/img/lieux/lieux_hyperlapse_pinA.png",
-					width: 51,
-					height: 51,
-					anchorX: 51 / 2,
-					anchorY: 51 / 2
-				}, {
-					url: "/img/lieux/lieux_hyperlapse_pinB.png",
-					width: 51,
-					height: 51,
-					anchorX: 51 / 2,
-					anchorY: 51 / 2
-				}, {
-					url: "/img/lieux/lieux_hyperlapse_pointer.png",
-					width: 58,
-					height: 57,
-					anchorX: 58 / 2,
-					anchorY: 57 / 2
-				}, {
-					url: "/img/traces/multi-pointeur-transparent.png",
-					width: 1,
-					height: 1,
-					anchorX: 1,
-					anchorY: 1
-				}, {
-					url: "/img/lieux/pointeur-hyperlapse-minimap.png",
-					width: 29,
-					height: 29,
-					anchorX: 29 / 2,
-					anchorY: 29 / 2
-				}
-			],
+				url: "/img/lieux/pin-photo.png",
+				width: 23,
+				height: 32,
+				anchorX: 11,
+				anchorY: 32
+			}, {
+				url: "/img/lieux/lieux_pin_hyperlapse.png",
+				width: 23,
+				height: 32,
+				anchorX: 11,
+				anchorY: 32
+			}, {
+				url: "/img/lieux/lieux_hyperlapse_pinA.png",
+				width: 51,
+				height: 51,
+				anchorX: 51 / 2,
+				anchorY: 51 / 2
+			}, {
+				url: "/img/lieux/lieux_hyperlapse_pinB.png",
+				width: 51,
+				height: 51,
+				anchorX: 51 / 2,
+				anchorY: 51 / 2
+			}, {
+				url: "/img/lieux/lieux_hyperlapse_pointer.png",
+				width: 58,
+				height: 57,
+				anchorX: 58 / 2,
+				anchorY: 57 / 2
+			}, {
+				url: "/img/traces/multi-pointeur-transparent.png",
+				width: 1,
+				height: 1,
+				anchorX: 1,
+				anchorY: 1
+			}, {
+				url: "/img/lieux/pointeur-hyperlapse-minimap.png",
+				width: 29,
+				height: 29,
+				anchorX: 29 / 2,
+				anchorY: 29 / 2
+			}],
 			styles: mapStyleTrace,
 			stylesMinimap: mapStyleSearch
 		};
