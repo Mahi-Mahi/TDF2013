@@ -59,7 +59,6 @@ module.exports = function(grunt) {
       }
     },
 
-
     sass: {
       dev: {
         trace: true,
@@ -74,7 +73,6 @@ module.exports = function(grunt) {
         }
       }
     },
-
 
     // concat all js to scripts.js
 
@@ -101,92 +99,87 @@ module.exports = function(grunt) {
       },
       dist: {
         files: [{
-            expand: true, // Enable dynamic expansion.
-            cwd: 'src/js/', // Src matches are relative to this path.
-            src: ['**/*.js'], // Actual pattern(s) to match.
-            dest: 'dist/js/', // Destination path prefix.
-            ext: '.js', // Dest filepaths will have this extension.
-          },
-        ],
+          expand: true, // Enable dynamic expansion.
+          cwd: 'src/js/', // Src matches are relative to this path.
+          src: ['**/*.js'], // Actual pattern(s) to match.
+          dest: 'dist/js/', // Destination path prefix.
+          ext: '.js', // Dest filepaths will have this extension.
+        }, ],
       }
     },
 
     all_files: [
-        'index.html',
-        'methodologie.html',
-        'credits.html',
-        'favicon.ico',
-        'apple-touch-icon.png',
-        'apple-touch-icon-72x72.png',
-        'apple-touch-icon-114x114.png',
-        '.htaccess',
-        'robots.txt'
+      'index.html',
+      'methodologie.html',
+      'credits.html',
+      'favicon.ico',
+      'apple-touch-icon.png',
+      'apple-touch-icon-72x72.png',
+      'apple-touch-icon-114x114.png',
+      '.htaccess',
+      'robots.txt'
     ],
     all_folders: [
-        'js/**',
-        'css/',
-        'img/**'
+      'js/**',
+      'css/',
+      'img/**'
     ],
 
     // copy other src files to dest
     copy: {
       dev: {
         files: [{
-            expand: true,
-            src: '<%= all_files %>',
-            cwd: 'src/',
-            dest: 'dev/',
-            filter: 'isFile'
-          }, {
-            expand: true,
-            src: '<%= all_folders %>',
-            cwd: 'src/',
-            dest: 'dev/'
-          }
-        ]
+          expand: true,
+          src: '<%= all_files %>',
+          cwd: 'src/',
+          dest: 'dev/',
+          filter: 'isFile'
+        }, {
+          expand: true,
+          src: '<%= all_folders %>',
+          cwd: 'src/',
+          dest: 'dev/'
+        }]
       },
       dist: {
         files: [{
-            expand: true,
-            src: '<%= all_files %>',
-            cwd: 'src/',
-            dest: 'dist/',
-            filter: 'isFile'
-          }, {
-            src: 'src/js/lib/modernizr.js',
-            cwd: '',
-            dest: 'dist/js/modernizr.js'
-          }, {
-            expand: true,
-            src: '<%= all_folders %>',
-            cwd: 'src/',
-            dest: 'dist/'
-          }, {
-            src: 'src/.htaccess.prod',
-            cwd: '',
-            dest: 'dist/.htaccess'
-          }
-        ]
+          expand: true,
+          src: '<%= all_files %>',
+          cwd: 'src/',
+          dest: 'dist/',
+          filter: 'isFile'
+        }, {
+          src: 'src/js/lib/modernizr.js',
+          cwd: '',
+          dest: 'dist/js/modernizr.js'
+        }, {
+          expand: true,
+          src: '<%= all_folders %>',
+          cwd: 'src/',
+          dest: 'dist/'
+        }, {
+          src: 'src/.htaccess.prod',
+          cwd: '',
+          dest: 'dist/.htaccess'
+        }]
       },
       data: {
         files: [{
-            expand: true,
-            src: '../data/json/*.json',
-            // cwd: 'dev/data/',
-            dest: 'dev/data/',
-            filter: 'isFile'
-          }
-        ]
+          expand: true,
+          src: '../data/json/*.json',
+          // cwd: 'dev/data/',
+          dest: 'dev/data/',
+          filter: 'isFile'
+        }]
       },
       data_dist: {
         files: [{
-            expand: true,
-            src: '../data/json/*.json',
-            // cwd: 'dev/data/',
-            dest: 'dist/data/',
-            filter: 'isFile'
-          }
-        ]
+          expand: true,
+          src: '../data/json/*.json',
+          // cwd: 'dev/data/',
+          dest: 'dist/data/',
+          filter: 'isFile'
+        }]
       }
     },
 
@@ -217,6 +210,22 @@ module.exports = function(grunt) {
           interrupt: true,
         },
       }
+    },
+
+    rsync: {
+      options: {
+        args: ["--verbose"],
+        exclude: [".git*", "*.scss", "node_modules", ".svn"],
+        recursive: true
+      },
+      staging: {
+        options: {
+          src: "./dist/",
+          dest: "/home/wedodata/tdf2013",
+          host: "root@vps.mahi-mahi.fr",
+          syncDestIgnoreExcl: true
+        }
+      }
     }
 
   });
@@ -230,19 +239,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-rsync');
   // grunt.loadNpmTasks('grunt-notify');
   grunt.loadNpmTasks('grunt-bower');
-
-  /*
-  grunt-contrib-coffee
-
-
-  grunt-contrib-imagemin
-  grunt-contrib-htmlmin
-  grunt-contrib-compress
-
-  grunt-contrib-clean
-  */
 
   // install librariries
   grunt.registerTask('install', ['bower', 'copy:data']);
@@ -253,7 +252,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint:main', 'copy:dev', 'compass:dev']); // 'concat:dev',
 
   // build production
-  grunt.registerTask('dist', ['clean:dist', 'jshint:main', 'compass:dist', 'uglify:dist', 'copy:dist', 'copy:data_dist']);
+  grunt.registerTask('dist', ['clean:dist', 'jshint:main', 'compass:dist', 'uglify:dist', 'copy:dist', 'copy:data_dist', 'rsync:staging']);
 
   // grunt.event.on('watch', function(action, filepath) {
   //   grunt.log.writeln(filepath + ' has ' + action);

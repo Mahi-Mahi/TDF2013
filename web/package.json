@@ -11,20 +11,21 @@
   "author": "",
   "license": "BSD",
   "devDependencies": {
-    "grunt-cli": "latest",
-    "grunt": "latest",
-    "grunt-contrib-sass": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-img": "latest",
-    "grunt-bower": "latest",
     "bower": "latest",
+    "grunt": "latest",
+    "grunt-bower": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-clean": "latest",
     "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-img": "latest",
     "grunt-notify": "~0.2.4",
-    "grunt-pages": "~0.2.3"
+    "grunt-pages": "~0.2.3",
+    "grunt-rsync": "^0.6.1"
   }
 }
