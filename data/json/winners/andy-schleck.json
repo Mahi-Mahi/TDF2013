@@ -23,6 +23,10 @@
     "2012": {
       "position": "Non partant",
       "nb_wins": 0
+    },
+    "2013": {
+      "position": "20",
+      "nb_wins": 0
     }
   },
   "wins": [
@@ -37,6 +41,6 @@
   "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
   "period": [
     2008,
-    2012
+    2013
   ]
 }

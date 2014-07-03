@@ -32,6 +32,14 @@
       "2011": {
         "position": "Déclassé",
         "nb_wins": 0
+      },
+      "2012": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2013": {
+        "position": "4",
+        "nb_wins": 0
       }
     },
     "wins": [
@@ -48,7 +56,7 @@
     "bio": null,
     "period": [
       2005,
-      2011
+      2013
     ]
   },
   "andre-leducq": {
@@ -149,6 +157,10 @@
       "2012": {
         "position": "Non partant",
         "nb_wins": 0
+      },
+      "2013": {
+        "position": "20",
+        "nb_wins": 0
       }
     },
     "wins": [
@@ -163,7 +175,7 @@
     "bio": "Le Tour qu'il remporte, en 2010, avait initialement été gagné par Alberto Contador, déclassé pour dopage.",
     "period": [
       2008,
-      2012
+      2013
     ]
   },
   "antonin-magne": {
@@ -526,6 +538,10 @@
       "2012": {
         "position": "7",
         "nb_wins": 0
+      },
+      "2013": {
+        "position": "39",
+        "nb_wins": 0
       }
     },
     "wins": [
@@ -540,7 +556,7 @@
     "bio": "Le premier coureur australien à remporter le Tour.",
     "period": [
       2005,
-      2012
+      2013
     ]
   },
   "carlos-sastre": {
@@ -670,6 +686,52 @@
     "period": [
       1953,
       1963
+    ]
+  },
+  "christopher-froome": {
+    "id": "christopher-froome",
+    "first_name": "Christopher",
+    "last_name": "Froome",
+    "country": "Royaume-Uni",
+    "years": {
+      "2008": {
+        "position": "81",
+        "nb_wins": 0
+      },
+      "2009": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2010": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2011": {
+        "position": "Non partant",
+        "nb_wins": 0
+      },
+      "2012": {
+        "position": "2",
+        "nb_wins": 1
+      },
+      "2013": {
+        "position": "1",
+        "nb_wins": 3
+      }
+    },
+    "wins": [
+      2013
+    ],
+    "wins_age": [
+      "28"
+    ],
+    "birthdate": "20/05/1985",
+    "birthyear": 1985,
+    "deathdate": null,
+    "bio": null,
+    "period": [
+      2008,
+      2013
     ]
   },
   "eddy-merckx": {

@@ -1726,5 +1726,32 @@
     "nb_wins": 5,
     "is_doped": false,
     "score": 3.9
+  },
+  "christopher-froome": {
+    "id": "christopher-froome",
+    "steps": {
+      "1": 0.11,
+      "2": 0.63,
+      "4": 0.06,
+      "3": 0.94,
+      "5": 0.2
+    },
+    "first_name": "Christopher",
+    "last_name": "Froome",
+    "country": "Royaume-Uni",
+    "winner": true,
+    "legend": false,
+    "nb_leg_wins": 4,
+    "pct_leading": 60.0,
+    "pct_leading_year": 2014,
+    "epoque": "cont",
+    "ahead_of_2nd": "0h 04' 20\" ",
+    "ahead_of_2nd_val": 0.072222222,
+    "ahead_of_2nd_year": 2013,
+    "average_speed": 40.542,
+    "average_speed_year": 2013,
+    "nb_wins": 1,
+    "is_doped": false,
+    "score": 1.93
   }
 }

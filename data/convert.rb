@@ -32,7 +32,7 @@ places = {}
 cities = []
 
 idx = 0
-CSV.foreach("csv/Street Views BAT - Feuille1.csv") do |row|
+CSV.foreach("csv/Street Views BAT.csv") do |row|
 
 	if idx > 0
 
@@ -67,7 +67,7 @@ puts "#{places.length} places"
 
 
 idx = 0
-CSV.foreach("csv/Fight BAT - Feuille1.csv") do |row|
+CSV.foreach("csv/Fight BAT.csv") do |row|
 
 	if idx > 0
 #		p row
@@ -121,7 +121,7 @@ end
 puts "#{fighters.length} fighters"
 
 idx = 0
-CSV.foreach("csv/Tours & Vainqueurs BAT - Feuille1.csv") do |row|
+CSV.foreach("csv/Tours - Vainqueurs BAT.csv") do |row|
 
 	if idx > 0
 #		p row
@@ -281,7 +281,7 @@ end
 
 
 idx = 0
-CSV.foreach("csv/étapes geolocalisées BAT - Feuille1.csv") do |row|
+CSV.foreach("csv/etapes-geolocalisees.csv") do |row|
 
 	if idx > 0
 

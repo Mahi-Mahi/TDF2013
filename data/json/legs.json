@@ -1132,10 +1132,10 @@
       "lng": "-0.370797"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 122
   },
@@ -3652,10 +3652,10 @@
       "lng": "-0.370797"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 161
   },
@@ -7632,10 +7632,10 @@
       "lng": "1.346575"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 205
   },
@@ -9292,10 +9292,10 @@
       "lng": "1.605232"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 194
   },
@@ -12792,10 +12792,10 @@
       "lng": "1.521801"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 224
   },
@@ -17232,10 +17232,10 @@
       "lng": "0.723763"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 117
   },
@@ -19472,10 +19472,10 @@
       "lng": "0.723763"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 139
   },
@@ -19972,10 +19972,10 @@
       "lng": "-0.370797"
     },
     "finish": {
-      "city": "Saint-Lary-Soulan",
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
       "country": "France",
-      "lat": "42.815835",
-      "lng": "0.320251"
+      "lat": "42.812512",
+      "lng": "0.295192"
     },
     "length": 160
   },
@@ -43038,5 +43038,425 @@
       "lng": "2.352222"
     },
     "length": 471
+  },
+  {
+    "id": "E-2014-01",
+    "year": 2014,
+    "leg": "1",
+    "leg_num": 1,
+    "title": "Leeds - Harrogate",
+    "start": {
+      "city": "Leeds",
+      "country": "Grande-Bretagne",
+      "lat": "53.800755",
+      "lng": "-1.549077"
+    },
+    "finish": {
+      "city": "Harrogate",
+      "country": "Grande-Bretagne",
+      "lat": "53.99212",
+      "lng": "-1.541812"
+    },
+    "length": 190
+  },
+  {
+    "id": "E-2014-02",
+    "year": 2014,
+    "leg": "2",
+    "leg_num": 2,
+    "title": "York - Sheffield",
+    "start": {
+      "city": "York",
+      "country": "Grande-Bretagne",
+      "lat": "53.959965",
+      "lng": "-1.087298"
+    },
+    "finish": {
+      "city": "Sheffield",
+      "country": "Grande-Bretagne",
+      "lat": "53.381129",
+      "lng": "-1.470085"
+    },
+    "length": 201
+  },
+  {
+    "id": "E-2014-03",
+    "year": 2014,
+    "leg": "3",
+    "leg_num": 3,
+    "title": "Cambridge - Londres",
+    "start": {
+      "city": "Cambridge",
+      "country": "Grande-Bretagne",
+      "lat": "52.205337",
+      "lng": "0.121817"
+    },
+    "finish": {
+      "city": "Londres",
+      "country": "Grande-Bretagne",
+      "lat": "51.511214",
+      "lng": "-0.119824"
+    },
+    "length": 155
+  },
+  {
+    "id": "E-2014-04",
+    "year": 2014,
+    "leg": "4",
+    "leg_num": 4,
+    "title": "Le Touquet-Paris-Plage - Lille Métropole",
+    "start": {
+      "city": "Le Touquet-Paris-Plage",
+      "country": "France",
+      "lat": "50.521276",
+      "lng": "1.590675"
+    },
+    "finish": {
+      "city": "Lille Métropole",
+      "country": "France",
+      "lat": "50.62925",
+      "lng": "3.057256"
+    },
+    "length": 163
+  },
+  {
+    "id": "E-2014-05",
+    "year": 2014,
+    "leg": "5",
+    "leg_num": 5,
+    "title": "Ypres - Arenberg Porte du Hainaut",
+    "start": {
+      "city": "Ypres",
+      "country": "Belgique",
+      "lat": "50.849227",
+      "lng": "2.877939"
+    },
+    "finish": {
+      "city": "Arenberg",
+      "country": "France",
+      "lat": "50.378854",
+      "lng": "3.422829"
+    },
+    "length": 155
+  },
+  {
+    "id": "E-2014-06",
+    "year": 2014,
+    "leg": "6",
+    "leg_num": 6,
+    "title": "Arras - Reims",
+    "start": {
+      "city": "Arras",
+      "country": "France",
+      "lat": "50.291002",
+      "lng": "2.777535"
+    },
+    "finish": {
+      "city": "Reims",
+      "country": "France",
+      "lat": "49.258329",
+      "lng": "4.031696"
+    },
+    "length": 194
+  },
+  {
+    "id": "E-2014-07",
+    "year": 2014,
+    "leg": "7",
+    "leg_num": 7,
+    "title": "Épernay - Nancy",
+    "start": {
+      "city": "Épernay",
+      "country": "France",
+      "lat": "49.043411",
+      "lng": "3.956242"
+    },
+    "finish": {
+      "city": "Nancy",
+      "country": "France",
+      "lat": "48.692054",
+      "lng": "6.184417"
+    },
+    "length": 234
+  },
+  {
+    "id": "E-2014-08",
+    "year": 2014,
+    "leg": "8",
+    "leg_num": 8,
+    "title": "Tomblaine - Gérardmer La Mauselaine",
+    "start": {
+      "city": "Tomblaine",
+      "country": "France",
+      "lat": "48.683482",
+      "lng": "6.221307"
+    },
+    "finish": {
+      "city": "Gérardmer",
+      "country": "France",
+      "lat": "48.070081",
+      "lng": "6.877292"
+    },
+    "length": 161
+  },
+  {
+    "id": "E-2014-09",
+    "year": 2014,
+    "leg": "9",
+    "leg_num": 9,
+    "title": "Gérardmer - Mulhouse",
+    "start": {
+      "city": "Gérardmer",
+      "country": "France",
+      "lat": "48.070081",
+      "lng": "6.877292"
+    },
+    "finish": {
+      "city": "Mulhouse",
+      "country": "France",
+      "lat": "47.750839",
+      "lng": "7.335888"
+    },
+    "length": 170
+  },
+  {
+    "id": "E-2014-10",
+    "year": 2014,
+    "leg": "10",
+    "leg_num": 10,
+    "title": "Mulhouse - La Planche des Belles Filles",
+    "start": {
+      "city": "Mulhouse",
+      "country": "France",
+      "lat": "47.750839",
+      "lng": "7.335888"
+    },
+    "finish": {
+      "city": "Planche des Belles Filles",
+      "country": "France",
+      "lat": "47.767158",
+      "lng": "6.774211"
+    },
+    "length": 161
+  },
+  {
+    "id": "E-2014-11",
+    "year": 2014,
+    "leg": "11",
+    "leg_num": 11,
+    "title": "Besançon - Oyonnax",
+    "start": {
+      "city": "Besançon",
+      "country": "France",
+      "lat": "47.237829",
+      "lng": "6.024054"
+    },
+    "finish": {
+      "city": "Oyonnax",
+      "country": "France",
+      "lat": "46.257773",
+      "lng": "5.655335"
+    },
+    "length": 187
+  },
+  {
+    "id": "E-2014-12",
+    "year": 2014,
+    "leg": "12",
+    "leg_num": 12,
+    "title": "Bourg-en-Bresse - Saint-Étienne",
+    "start": {
+      "city": "Bourg-en-Bresse",
+      "country": "France",
+      "lat": "46.20279",
+      "lng": "5.219246"
+    },
+    "finish": {
+      "city": "Saint-Étienne",
+      "country": "France",
+      "lat": "45.439695",
+      "lng": "4.387178"
+    },
+    "length": 185
+  },
+  {
+    "id": "E-2014-13",
+    "year": 2014,
+    "leg": "13",
+    "leg_num": 13,
+    "title": "Saint-Étienne - Chamrousse",
+    "start": {
+      "city": "Saint-Étienne",
+      "country": "France",
+      "lat": "45.439695",
+      "lng": "4.387178"
+    },
+    "finish": {
+      "city": "Chamrousse",
+      "country": "France",
+      "lat": "45.117225",
+      "lng": "5.877747"
+    },
+    "length": 197
+  },
+  {
+    "id": "E-2014-14",
+    "year": 2014,
+    "leg": "14",
+    "leg_num": 14,
+    "title": "Grenoble - Risoul",
+    "start": {
+      "city": "Grenoble",
+      "country": "France",
+      "lat": "45.188529",
+      "lng": "5.724524"
+    },
+    "finish": {
+      "city": "Risoul",
+      "country": "France",
+      "lat": "44.648326",
+      "lng": "6.636775"
+    },
+    "length": 177
+  },
+  {
+    "id": "E-2014-15",
+    "year": 2014,
+    "leg": "15",
+    "leg_num": 15,
+    "title": "Tallard - Nîmes",
+    "start": {
+      "city": "Tallard",
+      "country": "France",
+      "lat": "44.461865",
+      "lng": "6.055327"
+    },
+    "finish": {
+      "city": "Nîmes",
+      "country": "France",
+      "lat": "43.836699",
+      "lng": "4.360054"
+    },
+    "length": 222
+  },
+  {
+    "id": "E-2014-16",
+    "year": 2014,
+    "leg": "16",
+    "leg_num": 16,
+    "title": "Carcassonne - Bagnères-de-Luchon",
+    "start": {
+      "city": "Carcassonne",
+      "country": "France",
+      "lat": "43.212161",
+      "lng": "2.353663"
+    },
+    "finish": {
+      "city": "Bagnères-de-Luchon",
+      "country": "France",
+      "lat": "42.788963",
+      "lng": "0.592943"
+    },
+    "length": 237
+  },
+  {
+    "id": "E-2014-17",
+    "year": 2014,
+    "leg": "17",
+    "leg_num": 17,
+    "title": "Saint-Gaudens - Saint-Lary Pla d'Adet",
+    "start": {
+      "city": "Saint-Gaudens",
+      "country": "France",
+      "lat": "43.106895",
+      "lng": "0.723763"
+    },
+    "finish": {
+      "city": "Pla d'Adet, Saint-Lary-Soulan",
+      "country": "France",
+      "lat": "42.812512",
+      "lng": "0.295192"
+    },
+    "length": 124
+  },
+  {
+    "id": "E-2014-18",
+    "year": 2014,
+    "leg": "18",
+    "leg_num": 18,
+    "title": "Pau - Hautacam",
+    "start": {
+      "city": "Pau",
+      "country": "France",
+      "lat": "43.2951",
+      "lng": "-0.370797"
+    },
+    "finish": {
+      "city": "Hautacam",
+      "country": "France",
+      "lat": "42.972222",
+      "lng": "-0.0075"
+    },
+    "length": 145
+  },
+  {
+    "id": "E-2014-19",
+    "year": 2014,
+    "leg": "19",
+    "leg_num": 19,
+    "title": "Maubourguet Pays du Val d'Adour - Bergerac",
+    "start": {
+      "city": "Maubourguet Pays du Val d'Adour",
+      "country": "France",
+      "lat": "43.468467",
+      "lng": "0.035446"
+    },
+    "finish": {
+      "city": "Bergerac",
+      "country": "France",
+      "lat": "44.853806",
+      "lng": "0.483392"
+    },
+    "length": 208
+  },
+  {
+    "id": "E-2014-20",
+    "year": 2014,
+    "leg": "20",
+    "leg_num": 20,
+    "title": "Bergerac - Périgueux",
+    "start": {
+      "city": "Bergerac",
+      "country": "France",
+      "lat": "44.853806",
+      "lng": "0.483392"
+    },
+    "finish": {
+      "city": "Périgueux",
+      "country": "France",
+      "lat": "45.184029",
+      "lng": "0.721115"
+    },
+    "length": 54
+  },
+  {
+    "id": "E-2014-21",
+    "year": 2014,
+    "leg": "21",
+    "leg_num": 21,
+    "title": "Évry - Paris Champs-Élysées",
+    "start": {
+      "city": "Évry",
+      "country": "France",
+      "lat": "48.629828",
+      "lng": "2.441782"
+    },
+    "finish": {
+      "city": "Paris Champs-Élysées",
+      "country": "France",
+      "lat": "48.856614",
+      "lng": "2.352222"
+    },
+    "length": 137
   }
 ]

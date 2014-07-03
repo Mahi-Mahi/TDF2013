@@ -7,52 +7,29 @@ require 'launchy'
 require 'pp'
 
 
-## Email of the Service Account #
-SERVICE_ACCOUNT_EMAIL = '946494525746-m6epcp5cqg7i09deg3ogebruicah1uhq@developer.gserviceaccount.com'
+# Get your credentials from the console
+CLIENT_ID = '210255323896-8g9dubt91pvr0le5sc9skk3j3psonjsg.apps.googleusercontent.com'
+CLIENT_SECRET = 'l18ued20woqfSWHs7UqczSEB'
+OAUTH_SCOPE = 'https://www.googleapis.com/auth/drive'
+REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
-## Path to the Service Account's Private Key file #
-SERVICE_ACCOUNT_PKCS12_FILE_PATH = 'gdrive-secret/28c68e93965f567d839a31f630057df2482b5ffd-privatekey.p12'
-
-
+# Create a new API client & load the Google Drive API
 client = Google::APIClient.new
 drive = client.discovered_api('drive', 'v2')
 
+# Request authorization
+client.authorization.client_id = CLIENT_ID
+client.authorization.client_secret = CLIENT_SECRET
+client.authorization.scope = OAUTH_SCOPE
+client.authorization.redirect_uri = REDIRECT_URI
 
-auth_type = 'standard'
+uri = client.authorization.authorization_uri
+Launchy.open(uri)
 
-if auth_type == 'service_account'
-
-	key = Google::APIClient::PKCS12.load_key(SERVICE_ACCOUNT_PKCS12_FILE_PATH, 'notasecret')
-	asserter = Google::APIClient::JWTAsserter.new(SERVICE_ACCOUNT_EMAIL, 'https://www.googleapis.com/auth/drive', key)
-	client.authorization = asserter.authorize()
-
-end
-
-if auth_type == 'standard'
-
-	# Get your credentials from the APIs Console
-	CLIENT_ID = '946494525746.apps.googleusercontent.com'
-	CLIENT_SECRET = 'SDLKPeKexiEvrWJm1wdlRfaA'
-	OAUTH_SCOPE = 'https://www.googleapis.com/auth/drive'
-	REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
-
-	# Create a new API client & load the Google Drive API
-
-	# Request authorization
-	client.authorization.client_id = CLIENT_ID
-	client.authorization.client_secret = CLIENT_SECRET
-	client.authorization.scope = OAUTH_SCOPE
-	client.authorization.redirect_uri = REDIRECT_URI
-
-	uri = client.authorization.authorization_uri
-	Launchy.open(uri)
-
-	# Exchange authorization code for access token
-	$stdout.write  "Enter authorization code: "
-	client.authorization.code = gets.chomp
-	client.authorization.fetch_access_token!
-
-end
+# Exchange authorization code for access token
+$stdout.write  "Enter authorization code: "
+client.authorization.code = gets.chomp
+client.authorization.fetch_access_token!
 
 
 folder_id = "0B-mnANvdRfRjVG44eG9aQ1RXdUk"
