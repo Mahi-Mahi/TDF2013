@@ -10,7 +10,7 @@
     "lookat": "off",
     "position": "0",
     "excerpt": "Le col le plus franchi de l'histoire du Tour.",
-    "text": "Les coureurs franchissent pour la première fois le col du Tourmalet en 1910, lors de la première grande étape pyrénéenne de la course. Depuis, c’est le col qui a été franchi le plus grand nombre de fois."
+    "text": "Les coureurs franchissent pour la première fois le col du Tourmalet en 1910, lors de la première grande étape pyrénéenne de la course. Il le sera de nouveau en 2014, lors de la 14e étape (Grenoble - Risoul, 177 km), avant que les coureurs ne s'attaque au col d'Izoard lors de cette même étape."
   },
   "mont-ventoux": {
     "id": "mont-ventoux",
@@ -23,7 +23,7 @@
     "lookat": "off",
     "position": "0",
     "excerpt": "Un sommet souvent gravi sous un soleil de plomb.",
-    "text": "La première ascension du mont Ventoux dans le Tour a lieu en 1951. Il fût depuis gravi 14 fois, dont 8 arrivées au sommet. La 15e étape du Tour 2013 s’y terminera (Givors - Mont Ventoux, 242 kilomètres)."
+    "text": "La première ascension du mont Ventoux dans le Tour a lieu en 1951. Il fût depuis gravi 15 fois, dont 8 arrivées au sommet."
   },
   "col-de-la-madeleine": {
     "id": "col-de-la-madeleine",
@@ -36,7 +36,7 @@
     "lookat": "on",
     "position": "0",
     "excerpt": "Ce col se franchit au bout d'une montée sans répit.",
-    "text": "Gravi pour la première fois en 1969, le col de la Madeleine, dans les Alpes, a été franchi 24 fois depuis, la dernière en 2012. Il sera escaladé lors de la 19e étape du Tour 2013 (Bourg-d'Oisans - Le Grand-Bornand, 204 km)."
+    "text": "Gravi pour la première fois en 1969, le col de la Madeleine, dans les Alpes, a été franchi 25 fois depuis, la dernière fois en 2013."
   },
   "col-de-la-croix-de-fer": {
     "id": "col-de-la-croix-de-fer",
@@ -59,7 +59,7 @@
     "coords": "44.819554,6.732449",
     "heading": "151.22",
     "excerpt": "Un col souvent franchi par le Tour et le Giro.",
-    "text": " Le col d'Izoard, dans les Alpes, a été franchi au total à 33 reprises par le Tour de France. Sur le versant sud, une stèle est dédiée à Fausto Coppi et Louison Bobet."
+    "text": " Le col d'Izoard, dans les Alpes, a été franchi au total à 33 reprises par le Tour de France. En 2014, ce sera lors de la 14e étape (Grenoble - Risoul, 177 km), une cinquantaine de kilomètre après le Tourmalet. Sur le versant sud, une stèle est dédiée à Fausto Coppi et Louison Bobet."
   },
   "passage-du-gois": {
     "id": "passage-du-gois",
@@ -126,32 +126,6 @@
     "excerpt": "Une prouesse architecturale saluée par le Tour.",
     "text": "Lors de son édition 2005, le tracé du Tour a rendu hommage au pont fraîchement inauguré (décembre 2004) en faisant passer les coureurs en dessous."
   },
-  "mont-saint-michel": {
-    "id": "mont-saint-michel",
-    "name": "Mont Saint-Michel",
-    "type": "Hyperlapse",
-    "url": "http://wedodata.gotoandbuzz.fr/examples/viewer.html#48.62299,-1.5092700000000001,48.63568075863218,-1.5111619846557005,48.63308000000001,-1.5096900000000002,0",
-    "coords": "48.632568,-1.509418",
-    "distance": "20",
-    "millis": "150",
-    "lookat": "on",
-    "position": "0",
-    "excerpt": "Quand le Tour prend des airs de carte postale…",
-    "text": "Pour la seconde fois seulement (après l'édition 1990), le Tour 2013 compte une étape qui s'achève au Mont Saint-Michel (la 11e, Avranches - Mont Saint-Michel, contre-la-montre de 33 kilomètres)."
-  },
-  "promenade-des-anglais": {
-    "id": "promenade-des-anglais",
-    "name": "Promenade des Anglais",
-    "type": "Hyperlapse",
-    "url": "http://wedodata.gotoandbuzz.fr/examples/viewer.html#43.69091,7.24654,43.6924614529523,7.25602303544315,43.693650000000005,7.255980000000022,0",
-    "coords": "43.691739,7.248917",
-    "distance": "20",
-    "millis": "170",
-    "lookat": "off",
-    "position": "0",
-    "excerpt": "En 2013, le Tour la joue glamour !",
-    "text": "Le Tour de France était parti de Nice en 1981. En 2013, la ville abrite un contre-la-montre qui trouvera son départ et sa conclusion sur la célèbre Promenade des Anglais."
-  },
   "le-reveil-matin": {
     "id": "le-reveil-matin",
     "name": "le Réveil-Matin",
@@ -190,7 +164,7 @@
     "coords": "45.074834,6.047591",
     "heading": "69.87",
     "excerpt": "Une montée mythique, prisée des fans de vélo.",
-    "text": "Régulièrement empruntée par le Tour, la montée de l'Alpe d'Huez a souvent eu un caractère décisif. Ses 21 lacets seront gravis deux fois par les coureurs lors de la 18e étape du Tour 2013 (Gap - Alpe-d'Huez, 168 km)."
+    "text": "Régulièrement empruntés par le Tour, les 21 lacets de l'Alpe d’Huez ont souvent eu un caractère décisif sur la victoire."
   },
   "stade-de-bordeaux": {
     "id": "stade-de-bordeaux",
