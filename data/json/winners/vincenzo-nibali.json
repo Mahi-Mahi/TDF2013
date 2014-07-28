@@ -1,0 +1,42 @@
+{
+  "id": "vincenzo-nibali",
+  "first_name": "n.a.",
+  "last_name": "n.a.",
+  "country": "n.a.",
+  "years": {
+    "2008": {
+      "position": "18",
+      "nb_wins": 0
+    },
+    "2009": {
+      "position": "6",
+      "nb_wins": 0
+    },
+    "2012": {
+      "position": "3",
+      "nb_wins": 0
+    },
+    "2013": {
+      "position": "Non partant",
+      "nb_wins": 0
+    },
+    "2014": {
+      "position": "1",
+      "nb_wins": 4
+    }
+  },
+  "wins": [
+    2014
+  ],
+  "wins_age": [
+    "n.a."
+  ],
+  "birthdate": "14/11/1984",
+  "birthyear": 1984,
+  "deathdate": null,
+  "bio": null,
+  "period": [
+    2008,
+    2014
+  ]
+}
