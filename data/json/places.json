@@ -10,7 +10,7 @@
     "lookat": "off",
     "position": "0",
     "excerpt": "Le col le plus franchi de l'histoire du Tour.",
-    "text": "Les coureurs franchissent pour la première fois le col du Tourmalet en 1910, lors de la première grande étape pyrénéenne de la course. Il le sera de nouveau en 2014, lors de la 14e étape (Grenoble - Risoul, 177 km), avant que les coureurs ne s'attaque au col d'Izoard lors de cette même étape."
+    "text": "Les coureurs franchissent pour la première fois le col du Tourmalet en 1910, lors de la première grande étape pyrénéenne de la course. Il le sera de nouveau en 2015, lors de la 12e étape (Pau - Cauterets, 188 km)."
   },
   "mont-ventoux": {
     "id": "mont-ventoux",
@@ -49,7 +49,7 @@
     "lookat": "on",
     "position": "0",
     "excerpt": "Un col doté d'un panorama extraordinaire.",
-    "text": "Depuis 1947, le Tour de France a emprunté 16 fois ce col des Alpes. En 1986, il est le théâtre d'une échappée de Bernard Hinault et Greg Lemond devenue mythique."
+    "text": "Depuis 1947, le Tour de France a emprunté 18 fois ce col des Alpes. Les deux dernières cette année : lors de la 19e étape (Saint-Jean-de-Maurienne - La Toussuire-Les Sybelles, 138 km) et de la 20e étape (Modane - Alpe-d'Huez, 110,5 km). En 1986, il est le théâtre d'une échappée de Bernard Hinault et Greg Lemond devenue mythique."
   },
   "col-dizoard": {
     "id": "col-dizoard",
@@ -59,7 +59,7 @@
     "coords": "44.819554,6.732449",
     "heading": "151.22",
     "excerpt": "Un col souvent franchi par le Tour et le Giro.",
-    "text": " Le col d'Izoard, dans les Alpes, a été franchi au total à 33 reprises par le Tour de France. En 2014, ce sera lors de la 14e étape (Grenoble - Risoul, 177 km), une cinquantaine de kilomètre après le Tourmalet. Sur le versant sud, une stèle est dédiée à Fausto Coppi et Louison Bobet."
+    "text": "Le col d'Izoard, dans les Alpes, a été franchi au total à 33 reprises par le Tour de France,  la dernière fois en 2014. lors de la 14e étape (Grenoble - Risoul, 177 km). Sur le versant sud, une stèle est dédiée à Fausto Coppi et Louison Bobet."
   },
   "passage-du-gois": {
     "id": "passage-du-gois",
@@ -98,7 +98,7 @@
     "lookat": "off",
     "position": "180",
     "excerpt": "Le théâtre d'une incroyable péripétie du Tour.",
-    "text": "C'est dans cette montée vers la station de ski alpine de Pra Loup que Bernard Thevenet va profiter, en 1975, d'une défaillance d'Eddy Merckx pour mettre un terme à son règne."
+    "text": "C'est dans cette montée vers la station de ski alpine de Pra Loup que Bernard Thevenet va profiter, en 1975, d'une défaillance d'Eddy Merckx pour mettre un terme à son règne. Elle sera emprunté cette année lors de la 17e étape (Digne-les-Bains - Pra Loup, 161 km)."
   },
   "col-du-ballon-dalsace": {
     "id": "col-du-ballon-dalsace",
@@ -164,7 +164,7 @@
     "coords": "45.074834,6.047591",
     "heading": "69.87",
     "excerpt": "Une montée mythique, prisée des fans de vélo.",
-    "text": "Régulièrement empruntés par le Tour, les 21 lacets de l'Alpe d’Huez ont souvent eu un caractère décisif sur la victoire."
+    "text": "Régulièrement empruntée par le Tour, la montée de l'Alpe d'Huez a souvent eu un caractère décisif. Ses 21 lacets seront gravis de nouveau par les coureurs lors de la 20e étape (Modane - Alpe-d'Huez, 110,5 km)."
   },
   "stade-de-bordeaux": {
     "id": "stade-de-bordeaux",
