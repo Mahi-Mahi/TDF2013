@@ -221,7 +221,7 @@ module.exports = function(grunt) {
       staging: {
         options: {
           src: "./dist/",
-          dest: "/home/wedodata/tdf2013",
+          dest: "/home/wedodata/tdf2015",
           host: "root@vps.mahi-mahi.fr",
           syncDestIgnoreExcl: true
         }
