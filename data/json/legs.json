@@ -13964,7 +13964,7 @@
     "year": 1989,
     "leg": "9",
     "leg_num": 9,
-    "title": "Pau - Cauterets-Cambasque",
+    "title": "Pau - Cauterets",
     "start": {
       "city": "Pau",
       "country": "France",
@@ -13972,10 +13972,10 @@
       "lng": "-0.370797"
     },
     "finish": {
-      "city": "Cauterets Cambasque",
+      "city": "Cauterets",
       "country": "France",
-      "lat": "42.888535",
-      "lng": "-0.114153"
+      "lat": "42.889054",
+      "lng": "-0.114246"
     },
     "length": 147
   },
@@ -43137,7 +43137,7 @@
       "lat": "50.378854",
       "lng": "3.422829"
     },
-    "length": 155
+    "length": 152
   },
   {
     "id": "E-2014-06",
@@ -43458,5 +43458,425 @@
       "lng": "2.352222"
     },
     "length": 137
+  },
+  {
+    "id": "E-2015-01",
+    "year": 2015,
+    "leg": "1",
+    "leg_num": 1,
+    "title": "Utrecht (P.-B.) - Utrecht (P.-B.)",
+    "start": {
+      "city": "Utrecht",
+      "country": "Pays-Bas",
+      "lat": "52.0858002",
+      "lng": "5.1308398"
+    },
+    "finish": {
+      "city": "Utrecht",
+      "country": "Pays-Bas",
+      "lat": "52.0858002",
+      "lng": "5.1308398"
+    },
+    "length": 13
+  },
+  {
+    "id": "E-2015-02",
+    "year": 2015,
+    "leg": "2",
+    "leg_num": 2,
+    "title": "Utrecht (P.-B.) - Zélande (P.-B.)",
+    "start": {
+      "city": "Utrecht",
+      "country": "Pays-Bas",
+      "lat": "52.0858002",
+      "lng": "5.1308398"
+    },
+    "finish": {
+      "city": "Zélande",
+      "country": "Pays-Bas",
+      "lat": "51.4700813",
+      "lng": "3.8594365"
+    },
+    "length": 166
+  },
+  {
+    "id": "E-2015-03",
+    "year": 2015,
+    "leg": "3",
+    "leg_num": 3,
+    "title": "Anvers (Bel.) - Huy (Bel.)",
+    "start": {
+      "city": "Anvers",
+      "country": "Belgique",
+      "lat": "51.219216",
+      "lng": "4.402882"
+    },
+    "finish": {
+      "city": "Huy",
+      "country": "Belgique",
+      "lat": "50.518715",
+      "lng": "5.239666"
+    },
+    "length": 159
+  },
+  {
+    "id": "E-2015-04",
+    "year": 2015,
+    "leg": "4",
+    "leg_num": 4,
+    "title": "Seraing (Bel.) - Cambrai",
+    "start": {
+      "city": "Seraing",
+      "country": "Belgique",
+      "lat": "50.583333",
+      "lng": "5.5"
+    },
+    "finish": {
+      "city": "Cambrai",
+      "country": "France",
+      "lat": "50.173538",
+      "lng": "3.236633"
+    },
+    "length": 223
+  },
+  {
+    "id": "E-2015-05",
+    "year": 2015,
+    "leg": "5",
+    "leg_num": 5,
+    "title": "Arras - Amiens",
+    "start": {
+      "city": "Arras",
+      "country": "France",
+      "lat": "50.291002",
+      "lng": "2.777535"
+    },
+    "finish": {
+      "city": "Amiens",
+      "country": "France",
+      "lat": "49.894067",
+      "lng": "2.295753"
+    },
+    "length": 189
+  },
+  {
+    "id": "E-2015-06",
+    "year": 2015,
+    "leg": "6",
+    "leg_num": 6,
+    "title": "Abbeville - Le Havre",
+    "start": {
+      "city": "Abbeville",
+      "country": "France",
+      "lat": "50.105467",
+      "lng": "1.836833"
+    },
+    "finish": {
+      "city": "Le Havre",
+      "country": "France",
+      "lat": "49.49437",
+      "lng": "0.107929"
+    },
+    "length": 191
+  },
+  {
+    "id": "E-2015-07",
+    "year": 2015,
+    "leg": "7",
+    "leg_num": 7,
+    "title": "Livarot - Fougères",
+    "start": {
+      "city": "Livarot",
+      "country": "France",
+      "lat": "49.0061989",
+      "lng": "0.15081"
+    },
+    "finish": {
+      "city": "Fougères",
+      "country": "France",
+      "lat": "48.351561",
+      "lng": "-1.204626"
+    },
+    "length": 190
+  },
+  {
+    "id": "E-2015-08",
+    "year": 2015,
+    "leg": "8",
+    "leg_num": 8,
+    "title": "Rennes - Mûr-de-Bretagne",
+    "start": {
+      "city": "Rennes",
+      "country": "France",
+      "lat": "48.113475",
+      "lng": "-1.675708"
+    },
+    "finish": {
+      "city": "Mûr-de-Bretagne",
+      "country": "France",
+      "lat": "48.201707",
+      "lng": "-2.987594"
+    },
+    "length": 181
+  },
+  {
+    "id": "E-2015-09",
+    "year": 2015,
+    "leg": "9",
+    "leg_num": 9,
+    "title": "Vannes - Plumelec",
+    "start": {
+      "city": "Vannes",
+      "country": "France",
+      "lat": "47.658236",
+      "lng": "-2.760847"
+    },
+    "finish": {
+      "city": "Plumelec",
+      "country": "France",
+      "lat": "47.837699",
+      "lng": "-2.639409"
+    },
+    "length": 28
+  },
+  {
+    "id": "E-2015-10",
+    "year": 2015,
+    "leg": "10",
+    "leg_num": 10,
+    "title": "Tarbes - La Pierre-Saint-Martin",
+    "start": {
+      "city": "Tarbes",
+      "country": "France",
+      "lat": "43.232951",
+      "lng": "0.078082"
+    },
+    "finish": {
+      "city": "La Pierre-Saint-Martin",
+      "country": "France",
+      "lat": "43.0383179",
+      "lng": "-0.7654895"
+    },
+    "length": 167
+  },
+  {
+    "id": "E-2015-11",
+    "year": 2015,
+    "leg": "11",
+    "leg_num": 11,
+    "title": "Pau - Cauterets",
+    "start": {
+      "city": "Pau",
+      "country": "France",
+      "lat": "43.2951",
+      "lng": "-0.370797"
+    },
+    "finish": {
+      "city": "Cauterets",
+      "country": "France",
+      "lat": "42.889054",
+      "lng": "-0.114246"
+    },
+    "length": 188
+  },
+  {
+    "id": "E-2015-12",
+    "year": 2015,
+    "leg": "12",
+    "leg_num": 12,
+    "title": "Lannemezan - Plateau de Beille",
+    "start": {
+      "city": "Lannemezan",
+      "country": "France",
+      "lat": "43.125519",
+      "lng": "0.38396"
+    },
+    "finish": {
+      "city": "Plateau de Beille",
+      "country": "France",
+      "lat": "42.709683",
+      "lng": "1.702387"
+    },
+    "length": 195
+  },
+  {
+    "id": "E-2015-13",
+    "year": 2015,
+    "leg": "13",
+    "leg_num": 13,
+    "title": "Muret - Rodez",
+    "start": {
+      "city": "Muret",
+      "country": "France",
+      "lat": "43.4644051",
+      "lng": "1.3189369"
+    },
+    "finish": {
+      "city": "Rodez",
+      "country": "France",
+      "lat": "44.349389",
+      "lng": "2.575986"
+    },
+    "length": 198
+  },
+  {
+    "id": "E-2015-14",
+    "year": 2015,
+    "leg": "14",
+    "leg_num": 14,
+    "title": "Rodez - Mende",
+    "start": {
+      "city": "Rodez",
+      "country": "France",
+      "lat": "44.3703995",
+      "lng": "2.5562799"
+    },
+    "finish": {
+      "city": "Mende",
+      "country": "France",
+      "lat": "44.517611",
+      "lng": "3.501873"
+    },
+    "length": 178
+  },
+  {
+    "id": "E-2015-15",
+    "year": 2015,
+    "leg": "15",
+    "leg_num": 15,
+    "title": "Mende - Valence",
+    "start": {
+      "city": "Mende",
+      "country": "France",
+      "lat": "44.5180097",
+      "lng": "3.5015828"
+    },
+    "finish": {
+      "city": "Valence",
+      "country": "France",
+      "lat": "44.933393",
+      "lng": "4.89236"
+    },
+    "length": 183
+  },
+  {
+    "id": "E-2015-16",
+    "year": 2015,
+    "leg": "16",
+    "leg_num": 16,
+    "title": "Bourg-de-Péage - Gap",
+    "start": {
+      "city": "Bourg-de-Péage",
+      "country": "France",
+      "lat": "45.040419",
+      "lng": "5.050948"
+    },
+    "finish": {
+      "city": "Gap",
+      "country": "France",
+      "lat": "44.559638",
+      "lng": "6.079758"
+    },
+    "length": 201
+  },
+  {
+    "id": "E-2015-17",
+    "year": 2015,
+    "leg": "17",
+    "leg_num": 17,
+    "title": "Digne-les-Bains - Pra Loup",
+    "start": {
+      "city": "Digne-les-Bains",
+      "country": "France",
+      "lat": "44.092193",
+      "lng": "6.235976"
+    },
+    "finish": {
+      "city": "Pra Loup",
+      "country": "France",
+      "lat": "44.369445",
+      "lng": "6.602232"
+    },
+    "length": 161
+  },
+  {
+    "id": "E-2015-18",
+    "year": 2015,
+    "leg": "18",
+    "leg_num": 18,
+    "title": "Gap - Saint-Jean-de-Maurienne",
+    "start": {
+      "city": "Gap",
+      "country": "France",
+      "lat": "44.5639992",
+      "lng": "6.0935602"
+    },
+    "finish": {
+      "city": "Saint-Jean-de-Maurienne",
+      "country": "France",
+      "lat": "45.275403",
+      "lng": "6.344886"
+    },
+    "length": 186
+  },
+  {
+    "id": "E-2015-19",
+    "year": 2015,
+    "leg": "19",
+    "leg_num": 19,
+    "title": "Saint-Jean-de-Maurienne - La Toussuire-Les Sybelles",
+    "start": {
+      "city": "Saint-Jean-de-Maurienne",
+      "country": "France",
+      "lat": "45.2765007",
+      "lng": "6.3429198"
+    },
+    "finish": {
+      "city": "Les Sybelles, Fontcouverte-la-Toussuire",
+      "country": "France",
+      "lat": "45.254656",
+      "lng": "6.263248"
+    },
+    "length": 138
+  },
+  {
+    "id": "E-2015-20",
+    "year": 2015,
+    "leg": "20",
+    "leg_num": 20,
+    "title": "Modane - Alpe d’Huez",
+    "start": {
+      "city": "Modane",
+      "country": "France",
+      "lat": "45.201491",
+      "lng": "6.67292"
+    },
+    "finish": {
+      "city": "L’Alpe d’Huez",
+      "country": "France",
+      "lat": "45.092624",
+      "lng": "6.068348"
+    },
+    "length": 110
+  },
+  {
+    "id": "E-2015-21",
+    "year": 2015,
+    "leg": "21",
+    "leg_num": 21,
+    "title": "Sèvres - Paris Champs-Élysées",
+    "start": {
+      "city": "Sèvres",
+      "country": "France",
+      "lat": "48.8263016",
+      "lng": "2.21139"
+    },
+    "finish": {
+      "city": "Paris",
+      "country": "France",
+      "lat": "48.856614",
+      "lng": "2.352222"
+    },
+    "length": 109
   }
 ]

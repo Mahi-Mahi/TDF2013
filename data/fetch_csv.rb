@@ -32,7 +32,7 @@ client.authorization.code = gets.chomp
 client.authorization.fetch_access_token!
 
 
-folder_id = "0B-mnANvdRfRjNW53Q0tRcTVNb1k"
+folder_id = "0B-mnANvdRfRjfkt5MUtmcmdKRjcxSjhmQ1ZFMnk5Q2pFZFR1TkppdG5fYTRucC15YW0zNjQ"
 
 page_token = nil
 begin
@@ -51,17 +51,22 @@ begin
 			if result.status == 200
 				file = result.data
 				puts "#{file.title}"
-				download_link = file['exportLinks']['application/pdf'].gsub!(/exportFormat=\w+$/, 'exportFormat=csv&gid=0')
+				puts file
+				if file['exportLinks']
+					download_link = file['exportLinks']['application/pdf'].gsub!(/exportFormat=\w+$/, 'exportFormat=csv&gid=0')
 
-				dl_result = client.execute(:uri => download_link)
-				if dl_result.status == 200
-					content = dl_result.body
+					dl_result = client.execute(:uri => download_link)
+					if dl_result.status == 200
+						content = dl_result.body
 
-					filename = "csv/vainqueurs/#{file.title}.csv"
-					File.open(filename, 'w') { |file| file.write content }
+						filename = "csv/vainqueurs/#{file.title}.csv"
+						File.open(filename, 'w') { |file| file.write content }
 
+					else
+						puts "An error occurred: #{result.data['error']['message']}"
+					end
 				else
-					puts "An error occurred: #{result.data['error']['message']}"
+					puts "can't find download link"
 				end
 
 			else

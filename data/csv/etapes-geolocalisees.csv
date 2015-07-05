@@ -707,7 +707,7 @@ E-1989-5,E-1989-5,1989,5,5,Dinard - Rennes,Dinard,France,"48.633024,-2.055125",R
 E-1989-6,E-1989-6,1989,6,6,Rennes - Futuroscope,Rennes,France,"48.113475,-1.675708","Futuroscope, Poitiers",France,"46.66680,0.36762",259
 E-1989-7,E-1989-7,1989,7,7,Poitiers - Bordeaux,Poitiers,France,"46.580224,0.340375",Bordeaux,France,"44.837789,-0.57918",258.5
 E-1989-8,E-1989-8,1989,8,8,Labastide-d'Armagnac - Pau,Labastide-d'Armagnac,France,"43.969386,-0.18562",Pau,France,"43.2951,-0.370797",157
-E-1989-9,E-1989-9,1989,9,9,Pau - Cauterets-Cambasque,Pau,France,"43.2951,-0.370797",Cauterets Cambasque,France,"42.888535,-0.114153",147
+E-1989-9,E-1989-9,1989,9,9,Pau - Cauterets,Pau,France,"43.2951,-0.370797",Cauterets,France,"42.889054,-0.114246",147
 E-1989-10,E-1989-10,1989,10,10,Cauterets - Superbagnères  ,Cauterets,France,"42.889054,-0.114246",Superbagnères,France,"42.768576,0.576927",136
 E-1989-11,E-1989-11,1989,11,11,Luchon - Blagnac,Luchon,France,"42.788963,0.592943",Blagnac,France,"43.635087,1.39703",158.5
 E-1989-12,E-1989-12,1989,12,12,Toulouse - Montpellier,Toulouse,France,"43.604652,1.444209",Montpellier,France,"43.610769,3.876716",242
@@ -2171,7 +2171,7 @@ E-2014-1,E-2014-1,2014,1,1,Leeds - Harrogate,Leeds,Grande-Bretagne,"53.800755,-1
 E-2014-2,E-2014-2,2014,2,2,York - Sheffield,York,Grande-Bretagne,"53.959965,-1.087298",Sheffield,Grande-Bretagne,"53.381129,-1.470085",201
 E-2014-3,E-2014-3,2014,3,3,Cambridge - Londres,Cambridge,Grande-Bretagne,"52.205337,0.121817",Londres,Grande-Bretagne,"51.511214,-0.119824",155
 E-2014-4,E-2014-4,2014,4,4,Le Touquet-Paris-Plage - Lille Métropole,Le Touquet-Paris-Plage,France,"50.521276,1.590675",Lille Métropole,France,"50.62925,3.057256",163.5
-E-2014-5,E-2014-5,2014,5,5,Ypres - Arenberg Porte du Hainaut,Ypres,Belgique,"50.849227,2.877939",Arenberg,France,"50.378854,3.422829",155.5
+E-2014-5,E-2014-5,2014,5,5,Ypres - Arenberg Porte du Hainaut,Ypres,Belgique,"50.849227,2.877939",Arenberg,France,"50.378854,3.422829",152.5
 E-2014-6,E-2014-6,2014,6,6,Arras - Reims,Arras,France,"50.291002,2.777535",Reims,France,"49.258329,4.031696",194
 E-2014-7,E-2014-7,2014,7,7,Épernay - Nancy,Épernay,France,"49.043411,3.956242",Nancy,France,"48.692054,6.184417",234.5
 E-2014-8,E-2014-8,2014,8,8,Tomblaine - Gérardmer La Mauselaine,Tomblaine,France,"48.683482,6.221307",Gérardmer,France,"48.070081,6.877292",161
@@ -2188,3 +2188,24 @@ E-2014-18,E-2014-18,2014,18,18,Pau - Hautacam,Pau,France,"43.2951,-0.370797",Hau
 E-2014-19,E-2014-19,2014,19,19,Maubourguet Pays du Val d'Adour - Bergerac,Maubourguet Pays du Val d'Adour,France,"43.468467,0.035446",Bergerac,France,"44.853806,0.483392",208.5
 E-2014-20,E-2014-20,2014,20,20,Bergerac - Périgueux,Bergerac,France,"44.853806,0.483392",Périgueux,France,"45.184029,0.721115",54
 E-2014-21,E-2014-21,2014,21,21,Évry - Paris Champs-Élysées,Évry,France,"48.629828,2.441782",Paris Champs-Élysées,France,"48.856614,2.352222",137.5
+E-2015-1,E-2015-1,2015,1,1,Utrecht (P.-B.) - Utrecht (P.-B.),Utrecht,Pays-Bas,"52.0858002,5.1308398",Utrecht,Pays-Bas,"52.0858002,5.1308398","13,8"
+E-2015-2,E-2015-2,2015,2,2,Utrecht (P.-B.) - Zélande (P.-B.),Utrecht,Pays-Bas,"52.0858002,5.1308398",Zélande,Pays-Bas,"51.4700813,3.8594365",166
+E-2015-3,E-2015-3,2015,3,3,Anvers (Bel.) - Huy (Bel.),Anvers,Belgique,"51.219216,4.402882",Huy,Belgique,"50.518715,5.239666","159,5"
+E-2015-4,E-2015-4,2015,4,4,Seraing (Bel.) - Cambrai,Seraing,Belgique,"50.583333,5.5",Cambrai,France,"50.173538,3.236633","223,5"
+E-2015-5,E-2015-5,2015,5,5,Arras - Amiens,Arras,France,"50.291002,2.777535",Amiens,France,"49.894067,2.295753","189,5"
+E-2015-6,E-2015-6,2015,6,6,Abbeville - Le Havre,Abbeville,France,"50.105467,1.836833",Le Havre,France,"49.49437,0.107929","191,5"
+E-2015-7,E-2015-7,2015,7,7,Livarot - Fougères,Livarot,France,"49.0061989,0.15081",Fougères,France,"48.351561,-1.204626","190,5"
+E-2015-8,E-2015-8,2015,8,8,Rennes - Mûr-de-Bretagne,Rennes,France,"48.113475,-1.675708",Mûr-de-Bretagne,France,"48.201707,-2.987594","181,5"
+E-2015-9,E-2015-9,2015,9,9,Vannes - Plumelec,Vannes,France,"47.658236,-2.760847",Plumelec,France,"47.837699,-2.639409",28
+E-2015-10,E-2015-10,2015,10,10,Tarbes - La Pierre-Saint-Martin,Tarbes,France,"43.232951,0.078082",La Pierre-Saint-Martin,France,"43.0383179,-0.7654895",167
+E-2015-11,E-2015-11,2015,11,11,Pau - Cauterets,Pau,France,"43.2951,-0.370797",Cauterets,France,"42.889054,-0.114246",188
+E-2015-12,E-2015-12,2015,12,12,Lannemezan - Plateau de Beille,Lannemezan,France,"43.125519,0.38396",Plateau de Beille,France,"42.709683,1.702387",195
+E-2015-13,E-2015-13,2015,13,13,Muret - Rodez,Muret,France,"43.4644051,1.3189369",Rodez,France,"44.349389,2.575986","198,5"
+E-2015-14,E-2015-14,2015,14,14,Rodez - Mende,Rodez,France,"44.3703995,2.5562799",Mende,France,"44.517611,3.501873","178,5"
+E-2015-15,E-2015-15,2015,15,15,Mende - Valence,Mende,France,"44.5180097,3.5015828",Valence,France,"44.933393,4.89236",183
+E-2015-16,E-2015-16,2015,16,16,Bourg-de-Péage - Gap,Bourg-de-Péage,France,"45.040419,5.050948",Gap,France,"44.559638,6.079758",201
+E-2015-17,E-2015-17,2015,17,17,Digne-les-Bains - Pra Loup,Digne-les-Bains,France,"44.092193,6.235976",Pra Loup,France,"44.369445,6.602232",161
+E-2015-18,E-2015-18,2015,18,18,Gap - Saint-Jean-de-Maurienne,Gap,France,"44.5639992,6.0935602",Saint-Jean-de-Maurienne,France,"45.275403,6.344886","186,5"
+E-2015-19,E-2015-19,2015,19,19,Saint-Jean-de-Maurienne - La Toussuire-Les Sybelles,Saint-Jean-de-Maurienne,France,"45.2765007,6.3429198","Les Sybelles, Fontcouverte-la-Toussuire",France,"45.254656,6.263248",138
+E-2015-20,E-2015-20,2015,20,20,Modane - Alpe d’Huez,Modane,France,"45.201491,6.67292",L’Alpe d’Huez,France,"45.092624,6.068348","110,5"
+E-2015-21,E-2015-21,2015,21,21,Sèvres - Paris Champs-Élysées,Sèvres,France,"48.8263016,2.21139",Paris,France,"48.856614,2.352222","109,5"

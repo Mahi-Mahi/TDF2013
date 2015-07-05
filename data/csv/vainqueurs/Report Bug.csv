@@ -1,0 +1,32 @@
+Reproducibility,Severity,Summary,Description,commentaire,assigné à,état d'avancement
+,,,,,,
+,,,,,,
+,,,,,,
+DONE,,,,,,
+,major,plan taggage,intégration des éléments transmis : https://www.dropbox.com/s/wxd3tcn7vhx9mfh/100%20Tours%20de%20France%20-%20SEO%20%20WA%20V2.xls,,mahi ,ok
+,crash,bonnes URL de partage,mettre en place les bonnes URL dans tous les bt de partages (toutes pages + résultats fight),"les url sont automatiques, elles seront donc Ok une fois sur le site de production",,
+,tweak,espace entre twitter et google+,"dans le footer, mettre plus d'espace entre twitter et G+ (le même qu'entre FB et twitter)",,,ok
+,tweak,footer sources méthodo,mettre le lien en blanc lors du survol,,alecou,ok
+,tweak,méthodo,mettre le texte courant et le h3 en font-size 14px,,alecou,ok
+,,Metanav,intégration de la metanav : https://www.dropbox.com/s/jl7ia565lzzcbzv/RF-metanav.zip,,alecou,ok
+,major,footer crédits,enlever crédits,,alecou,fait
+always,minor,titres des parties,"grossir d'un corps et graisser, en uppercase uniquement",Les éléments ont été réexportés ils se trouvent dans le dossier https://www.dropbox.com/sh/q6ysumh6xd6ontu/cLTraYW8UE,Mahi,
+sometimes,block,menu déroulant sans zone de click,"quand on clique une ville dans le menu déroulant d'autocomplete, on clique ce qu'il y a en dessous (en l'occurence les vainqueurs) il faut qu'on click la ville et que ça envoie directement à la recherche de cette ville",,,corrigé
+always,major,Zone de clics entre Duels et Lieux mythiques," il faut des zones de clic plus serrées sur les boutons : sinon entre les deux zones, on ne sait pas où on clique ",,,fait
+,major,infobulle ville-étape,il faut que l'infobulle apparaisse au clic sur une ville-étape (ce n'est pas le cas) ,,fait,
+,text,ajout source,Citation de hyperlapse ajoutée. Svp mettre des liens : Les prises de vue de la partie « Lieux mythiques » proviennent de Google Maps Street View [ http://maps.google.fr/intl/fr/help/maps/streetview ]. Celles qui sont animées l’ont été grâce au plugin Google Street View Hyperlapse [ http://hyperlapse.tllabs.io ].  Texte complet : https://docs.google.com/document/d/15axoe-ZVLt_KNb8VgyeLHrQi9Y263AgMCnJXYUmOSXw/edit,,,fait
+,text,sources et méthodo,"lien ""sources et méthodologie"" avec un S à sources",alecou,,fait
+,major,menu déroulant recherche,Faire le design du menu déroulant de l'autocomplétion : https://www.dropbox.com/s/ku7nklyof35uzqv/home%20menu%20d%C3%A9roulant.png également en AI : https://www.dropbox.com/s/th257mv7eecfg9j/homesearch.ai,,,fait
+,major,barre de nouvelle recherche,la barre de recherche doit apparaitre dans le header et selon le design : https://www.dropbox.com/s/th257mv7eecfg9j/homesearch.ai,,,fait
+,major,incitation à la recherche,"phrases du carousel : la première phrase s'affiche, les suivantes ne s'affichent plus",,,ok
+,major,lightbox méthodo,"Sur mon petit écran de notebook, la lightbox recouvre tout l'écran, impossible de la fermer",,,ok
+,major,intégration des textes de boutons de partage,Textes ici : https://docs.google.com/document/d/16OPWu6IcdTeKTXANaO7lzgggj01s3v2OJkmcRuYH96M/edit,,OlivM,ok
+,tweak,logo 100 Tours de France,""" ours de France "" doit être en plus gras (comme les en-têtes de rubriques à côté je pense)",,,ok
+,major,infobulle ville-étape design,design dispo ici : https://www.dropbox.com/s/iwscyvraxihg2zs/Search%20infobulle.ai,,alecou,fait
+,major,Anim en hover sur les boutons de home,Sprite à intégrer on hover sur les boutons des parties : https://www.dropbox.com/sh/5tkb8gdbm4yupi1/XDg2oD2peE,,alecou,fait
+,,,,,,
+,minor,logos dans footer,les logos de chaines de Radio France se sont décalés,,,
+,text,incitation à la recherche (font),il faut une font plus grasse (Lato 900),,alecou,fait
+,tweak,header fonts,Font des titres du menu header : Lato 600 (sélectionnés ou non),,alecou,fait
+,tweak,couleur box recherche,,,,
+,major,incitation à la recherche,phrases du carousel : régler sur des intervalles de 10 secondes ça me parait bien,,,ok

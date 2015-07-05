@@ -1,11 +1,8 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-if RUBY_VERSION =~ /1.9/
-  Encoding.default_external = Encoding::UTF_8
-  Encoding.default_internal = Encoding::UTF_8
-end
-
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 
 require 'csv'
 require 'json'
@@ -361,6 +358,8 @@ end
 # Cities
 
 cities.uniq!.sort!
+
+pp cities
 
 filename = "json/cities.json"
 content = production ? cities.to_json : JSON.pretty_generate(cities)
