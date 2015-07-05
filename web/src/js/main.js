@@ -825,7 +825,7 @@ TDF.Traces = (function() {
 					Path.history.pushState({}, "", my.base_url + years.join(',') + '/');
 
 				} else {
-					Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2014') + '/');
+					Path.history.pushState({}, "", my.base_url + (my.last_clicked ? my.last_clicked : '2015') + '/');
 				}
 			}
 		});
@@ -833,7 +833,7 @@ TDF.Traces = (function() {
 		$main.on('click', '.traces #multi-select', function() {
 			if (my.state === null && !my.state_interval) {
 				if (!my.last_clicked) {
-					my.last_clicked = 2014;
+					my.last_clicked = 2015;
 				}
 				if (jQuery(this).prop('checked')) {
 					jQuery('.traces #start-pause').addClass('opaque');
@@ -899,7 +899,7 @@ TDF.Traces = (function() {
 					jQuery('.traces #multi-select').prop('disabled', 'disabled');
 					jQuery('.traces #select-all').prop('disabled', 'disabled');
 					jQuery('.traces #start-pause').addClass('active');
-					if (jQuery('.timeline-zoom input:checked').val() === '2014') {
+					if (jQuery('.timeline-zoom input:checked').val() === '2015') {
 						jQuery('.timeline-zoom li:first span').click();
 					} else {
 						// jQuery('.timeline-zoom input:checked').parent().next().find('span').click();
@@ -1079,7 +1079,7 @@ TDF.Traces = (function() {
 
 		if (my.args.years === undefined) {
 			if (my.args.city === undefined) {
-				my.args.years = [2014];
+				my.args.years = [2015];
 				my.city_years = [];
 				$main.find('#search').val('');
 			} else {
@@ -1308,13 +1308,13 @@ TDF.Traces = (function() {
 			width: Math.round((nb_concurrents - my.stats['nb_concurrents'].min.val) / (my.stats['nb_concurrents'].max.val - my.stats['nb_concurrents'].min.val) * line_length) + 'px'
 		});
 
-		$main.find(".nb_finishers .current").html((my.args.years.length === 0 || my.args.years[0] === 2014 || my.args.years[0] === '2014') ? 'N.C.' : nb_finishers + " à l'arrivée");
+		$main.find(".nb_finishers .current").html((my.args.years.length === 0 || my.args.years[0] === 2015 || my.args.years[0] === '2015') ? 'N.C.' : nb_finishers + " à l'arrivée");
 		$main.find(".nb_finishers .line").css({
 			width: Math.round((nb_finishers - my.stats['nb_finishers'].min.val) / (my.stats['nb_finishers'].max.val - my.stats['nb_finishers'].min.val) * line_length) + 'px'
 		});
 
 		// Winners
-		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2014) {
+		if (my.args.years.length === 1 && parseInt(my.args.years[0], 10) !== 2015) {
 			$main.find('.traces-right').removeClass('disabled');
 
 			trace = TDF.Data.traces[my.args.years[0]];
